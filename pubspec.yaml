@@ -1,0 +1,41 @@
+name: academy
+description: "Azamjon & Muhammadjon Academy — 4–7 yoshli bolalar uchun offline ta'limiy o'yin platformasi."
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  hive_ce: ^2.6.0
+  hive_ce_flutter: ^2.1.0
+  audioplayers: ^6.1.0
+  flutter_tts: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/audio/uz/
+    - assets/audio/en/
+    - assets/audio/ru/
+    - assets/audio/rewards/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FFC83D"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  min_sdk_android: 21
