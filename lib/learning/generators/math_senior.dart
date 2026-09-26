@@ -615,7 +615,7 @@ class MathSenior {
       _ => (0.82, 0.58, 1.0),
     };
     final scene = <SceneItem>[
-      SceneItem(kind: SceneKind.emoji, value: box, x: 0.5, y: 0.56, size: 0.52),
+      const SceneItem(kind: SceneKind.emoji, value: box, x: 0.5, y: 0.56, size: 0.52),
       SceneItem(kind: SceneKind.emoji, value: animal.emoji, x: pos.$1, y: pos.$2, size: 0.3, opacity: pos.$3),
     ];
     final labels = {

@@ -19,7 +19,6 @@ class _MazeExerciseViewState extends State<MazeExerciseView> {
   late int _pos = maze.start;
   late final List<int> _trail = [maze.start];
   bool _done = false;
-  int _bumps = 0;
   int _shake = 0;
 
   MazeTask get maze => widget.exercise.maze!;
@@ -28,10 +27,7 @@ class _MazeExerciseViewState extends State<MazeExerciseView> {
     if (_done) return;
     final next = maze.neighbor(_pos, dir);
     if (next == null) {
-      setState(() {
-        _bumps++;
-        _shake++;
-      });
+      setState(() => _shake++);
       return;
     }
     setState(() {

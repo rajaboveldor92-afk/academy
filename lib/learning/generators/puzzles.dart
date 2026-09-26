@@ -73,7 +73,7 @@ class PuzzleFactory {
       walls[next] &= ~_opposite(d);
     }
     // Start — chap yuqori burchak, maqsad — o'ng pastki (yoki tasodifiy chekka).
-    final start = 0;
+    const start = 0;
     final goal = n - 1;
     return MazeTask(
       rows: rows,

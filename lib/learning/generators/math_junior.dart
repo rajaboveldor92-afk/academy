@@ -204,7 +204,7 @@ class MathJunior {
     final ys = count == 2 ? [0.18, 0.82] : [0.15, 0.5, 0.85];
     final order = List<int>.generate(count, (i) => i)..shuffle(g.rng);
     final scene = <SceneItem>[
-      SceneItem(kind: SceneKind.bar, value: 'ground', color: const Color(0xFF8D6E63), x: 0.5, y: 0.97, size: 0.05, length: 0.96),
+      const SceneItem(kind: SceneKind.bar, value: 'ground', color: Color(0xFF8D6E63), x: 0.5, y: 0.97, size: 0.05, length: 0.96),
       for (var i = 0; i < count; i++)
         Layouts.emoji(items[i].emoji, size: 0.26, x: (i + 0.5) / count, y: ys[order[i]]),
     ];
