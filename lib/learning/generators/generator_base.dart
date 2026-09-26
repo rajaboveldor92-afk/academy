@@ -78,10 +78,12 @@ class GenContext {
       return true;
     }
 
-    for (var i = 0; i < 12; i++) {
+    var attempts = 0;
+    do {
       copy.shuffle(rng);
-      if (!trivial(copy)) break;
-    }
+    } while (trivial(copy) && ++attempts < 12);
+    // Juda kam ehtimolli holat: aralashtirish baribir to'g'ri tartibni bersa — bittaga suramiz.
+    if (trivial(copy) && copy.length > 1) copy.add(copy.removeAt(0));
     return copy;
   }
 

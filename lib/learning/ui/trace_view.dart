@@ -39,7 +39,9 @@ class _TraceExerciseViewState extends State<TraceExerciseView> with SingleTicker
   bool _solved = false;
   Rect _inner = Rect.zero;
 
+  /// Namoyish: chiziq chiziladi, oxirida biroz to'xtab turadi va o'chadi (taymersiz).
   late final AnimationController _demo = AnimationController(vsync: this);
+  double _demoDrawShare = 1;
 
   TraceTask get task => widget.exercise.trace!;
 
@@ -49,13 +51,11 @@ class _TraceExerciseViewState extends State<TraceExerciseView> with SingleTicker
   void initState() {
     super.initState();
     final seconds = (TraceScorer.length(task.strokes, task.aspect) / 1.4).clamp(1.2, 4.0).toDouble();
-    _demo.duration = Duration(milliseconds: (seconds * 1000).round());
+    const hold = 0.5;
+    _demoDrawShare = seconds / (seconds + hold);
+    _demo.duration = Duration(milliseconds: ((seconds + hold) * 1000).round());
     _demo.addStatusListener((s) {
-      if (s == AnimationStatus.completed && mounted) {
-        Future.delayed(const Duration(milliseconds: 400), () {
-          if (mounted) _demo.reset();
-        });
-      }
+      if (s == AnimationStatus.completed) _demo.reset();
     });
   }
 
@@ -192,7 +192,7 @@ class _TraceExerciseViewState extends State<TraceExerciseView> with SingleTicker
                     strokes: _strokes,
                     current: _current,
                     solved: _solved,
-                    demo: _demo.isAnimating || _demo.value > 0 ? _demo.value : null,
+                    demo: _demo.isAnimating || _demo.value > 0 ? math.min(1.0, _demo.value / _demoDrawShare) : null,
                   ),
                 ),
               ),
@@ -218,23 +218,27 @@ class _TraceExerciseViewState extends State<TraceExerciseView> with SingleTicker
             ),
           SizedBox(
             height: buttonsH,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                _RoundButton(
-                  key: const ValueKey('trace_clear'),
-                  icon: Icons.cleaning_services_rounded,
-                  label: 'Tozalash',
-                  onTap: _solved ? null : _clear,
-                ),
-                const SizedBox(width: 20),
-                _RoundButton(
-                  key: const ValueKey('trace_demo'),
-                  icon: Icons.visibility_rounded,
-                  label: 'Ko‘rsat',
-                  onTap: _solved ? null : _showDemo,
-                ),
-              ],
+            // Tor ekranlarda ham sig'ishi uchun kichraytiriladi.
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  _RoundButton(
+                    key: const ValueKey('trace_clear'),
+                    icon: Icons.cleaning_services_rounded,
+                    label: 'Tozalash',
+                    onTap: _solved ? null : _clear,
+                  ),
+                  const SizedBox(width: 20),
+                  _RoundButton(
+                    key: const ValueKey('trace_demo'),
+                    icon: Icons.visibility_rounded,
+                    label: 'Ko‘rsat',
+                    onTap: _solved ? null : _showDemo,
+                  ),
+                ],
+              ),
             ),
           ),
         ],
