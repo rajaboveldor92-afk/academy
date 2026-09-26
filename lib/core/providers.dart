@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../database/local_database.dart';
 import '../services/audio_service.dart';
+import '../services/profile_photo_service.dart';
 
 /// Ochilgan ma'lumotlar bazasi. `main.dart` da (yoki testda) override qilinadi.
 final databaseProvider = Provider<LocalDatabase>((ref) {
@@ -17,3 +18,6 @@ final audioServiceProvider = Provider<AudioService>((ref) {
 
 /// Joriy vaqt manbai — testlarda vaqtni boshqarish uchun override qilinadi.
 final clockProvider = Provider<DateTime Function()>((ref) => DateTime.now);
+
+/// Bola rasmlarini lokal saqlash servisi.
+final profilePhotoServiceProvider = Provider<ProfilePhotoService>((ref) => ProfilePhotoService());

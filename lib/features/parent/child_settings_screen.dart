@@ -5,6 +5,7 @@ import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
 import '../../services/time_limit_service.dart';
+import '../../widgets/profile_photo.dart';
 import '../profiles/profiles_controller.dart';
 import '../session/session_controller.dart';
 
@@ -55,9 +56,9 @@ class ChildSettingsScreen extends ConsumerWidget {
           padding: const EdgeInsets.all(16),
           children: [
             ListTile(
-              leading: Text(current.avatar, style: const TextStyle(fontSize: 36)),
-              title: Text('${current.name}, ${current.age} yosh'),
-              subtitle: const Text('Ism, yosh va avatarni tahrirlash'),
+              leading: ProfilePhoto(profile: current, size: 56, showBadge: false),
+              title: Text('${current.displayFullName}, ${current.age} yosh'),
+              subtitle: const Text('Rasm, ism, yosh, mavzu va salomni tahrirlash'),
               trailing: const Icon(Icons.edit_rounded),
               onTap: () => Navigator.of(context)
                   .pushNamed(AppRoutes.profileEditor, arguments: current),

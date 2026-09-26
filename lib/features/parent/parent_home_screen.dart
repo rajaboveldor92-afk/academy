@@ -8,7 +8,7 @@ import '../../models/child_progress.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
 import '../../theme/app_colors.dart';
-import '../../widgets/avatar_bubble.dart';
+import '../../widgets/profile_photo.dart';
 import '../session/progress_controller.dart';
 import '../profiles/profiles_controller.dart';
 import 'settings_controller.dart';
@@ -120,13 +120,13 @@ class _ChildSummaryCard extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  AvatarBubble(avatar: profile.avatar, color: color, size: 52),
+                  ProfilePhoto(profile: profile, size: 56, showBadge: false),
                   const SizedBox(width: 12),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(profile.name, style: textTheme.titleLarge),
+                        Text(profile.displayFullName, style: textTheme.titleLarge),
                         Text('${profile.age} yosh · limit: $limit',
                             style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft)),
                       ],

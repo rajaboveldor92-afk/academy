@@ -6,12 +6,13 @@ import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
 import '../../theme/app_colors.dart';
-import '../../widgets/avatar_bubble.dart';
+import '../../widgets/profile_photo.dart';
 import '../../widgets/stat_chip.dart';
 import '../../widgets/subject_tile.dart';
 import '../profiles/profiles_controller.dart';
 import '../session/progress_controller.dart';
 import '../session/session_controller.dart';
+import 'greeting_banner.dart';
 
 /// Tanlangan bolaning bosh sahifasi — katta fan kartalari.
 class HomeScreen extends ConsumerStatefulWidget {
@@ -28,7 +29,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final profile = ref.read(activeProfileProvider);
       if (profile != null) {
-        ref.read(audioServiceProvider).speak('Salom, ${profile.name}!');
+        // Yumshoq ovozli salomlashuv: faqat qisqa ism bilan.
+        ref
+            .read(audioServiceProvider)
+            .speak('${profile.welcomeTitle} ${profile.welcomeSubtitle}');
       }
     });
   }
@@ -80,6 +84,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               stars: progress.stars,
               streak: progress.streak,
             ),
+            GreetingBanner(profile: profile),
             Expanded(
               child: GridView.builder(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
@@ -131,7 +136,6 @@ class _Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final color = AppColors.profileColor(profile.colorIndex);
     return Padding(
       padding: const EdgeInsets.fromLTRB(8, 8, 12, 8),
       child: Row(
@@ -143,7 +147,7 @@ class _Header extends StatelessWidget {
             onPressed: () => Navigator.of(context).maybePop(),
             icon: const Icon(Icons.arrow_back_rounded),
           ),
-          AvatarBubble(avatar: profile.avatar, color: color, size: 52),
+          ProfilePhoto(profile: profile, size: 52, showBadge: false),
           const SizedBox(width: 10),
           Expanded(
             child: Text(

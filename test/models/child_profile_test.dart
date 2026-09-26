@@ -44,5 +44,33 @@ void main() {
       expect(p.difficultyBias, 1);
       expect(p.avatar, isNotEmpty);
     });
+  
+    test("to'liq ism, rasm va salomlashuv", () {
+      final p = ChildProfile.create(
+        id: 'a',
+        name: 'Azamjon',
+        fullName: 'Odilbekov Azamjon Eldorovich',
+        age: 6,
+        avatar: '🦁',
+        photoPath: '/data/profile_photos/a.jpg',
+      );
+      expect(p.displayFullName, 'Odilbekov Azamjon Eldorovich');
+      expect(p.welcomeTitle, 'Azamjon, xush kelibsiz!');
+      expect(p.welcomeSubtitle, ChildProfile.defaultGreetingSenior);
+      expect(p.hasPhoto, isTrue);
+      expect(p.copyWith(clearPhoto: true).hasPhoto, isFalse);
+      expect(p.copyWith(greeting: 'Salom!').welcomeSubtitle, 'Salom!');
+      expect(p.copyWith(fullName: '').displayFullName, 'Azamjon');
+      expect(p.copyWith(age: 4).welcomeSubtitle, ChildProfile.defaultGreetingJunior);
+      expect(ChildProfile.fromMap(p.toMap()), p);
+    });
+
+    test('eski yozuvlar (yangi maydonlarsiz) xavfsiz o\'qiladi', () {
+      final p = ChildProfile.fromMap({'id': 'old', 'name': 'Ali', 'age': 6, 'photoPath': ''});
+      expect(p.fullName, '');
+      expect(p.displayFullName, 'Ali');
+      expect(p.photoPath, isNull);
+      expect(p.greeting, '');
+    });
   });
 }

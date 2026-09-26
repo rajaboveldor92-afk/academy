@@ -17,6 +17,10 @@ void main() {
     var profiles = t.db.getProfiles();
     expect(profiles.map((p) => p.name), ['Azamjon', 'Muhammadjon']);
     expect(profiles.map((p) => p.age), [6, 4]);
+    expect(profiles.map((p) => p.fullName),
+        ['Odilbekov Azamjon Eldorovich', 'Odilbekov Muhammadjon Eldorovich']);
+    expect(profiles.first.colorIndex, isNot(profiles.last.colorIndex));
+    expect(t.db.getSettings().dataVersion, SeedData.currentDataVersion);
 
     // O'chirilgan profil qayta paydo bo'lmasligi kerak.
     await t.db.deleteProfile('muhammadjon');
@@ -86,5 +90,24 @@ void main() {
     await SeedData.ensureSeeded(t.db);
     await expectLater(t.db.importJson('{"foo": 1}'), throwsFormatException);
     expect(t.db.getProfiles().length, 2);
+  });
+
+  test("v1 o'rnatmasi v2 ga migratsiya qilinadi (to'liq ism, salom, mavzu)", () async {
+    // Eski versiya: profil faqat qisqa ism bilan, sozlamalar seeded=true, dataVersion=1.
+    await t.db.saveProfile(
+      ChildProfile.create(id: 'azamjon', name: 'Azamjon', age: 6, avatar: '🦁'),
+    );
+    await t.db.saveSettings(const AppSettings(seeded: true));
+    await SeedData.ensureSeeded(t.db);
+    final a = t.db.getProfile('azamjon')!;
+    expect(a.fullName, 'Odilbekov Azamjon Eldorovich');
+    expect(a.welcomeSubtitle, 'Bugun birga o‘rganamiz!');
+    expect(a.colorIndex, SeedData.azamjonTheme);
+    expect(t.db.getSettings().dataVersion, SeedData.currentDataVersion);
+
+    // Ota-ona keyin o'zgartirsa, migratsiya qayta ustiga yozmaydi.
+    await t.db.saveProfile(a.copyWith(fullName: 'Azamjon Odilbekov'));
+    await SeedData.ensureSeeded(t.db);
+    expect(t.db.getProfile('azamjon')!.fullName, 'Azamjon Odilbekov');
   });
 }

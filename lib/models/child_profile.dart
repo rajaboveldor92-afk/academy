@@ -3,6 +3,11 @@ import '../core/utils/age_group.dart';
 import '../core/utils/map_utils.dart';
 
 /// Bola profili. Qurilmada saqlanadi, hech qayerga yuborilmaydi.
+///
+/// * [name] — qisqa ism: salomlashuv va bosh sahifada ("Azamjon, xush kelibsiz!").
+/// * [fullName] — to'liq ism: faqat profil tanlash kartasida ("Odilbekov Azamjon Eldorovich").
+/// * [photoPath] — bolaning rasmi; ilovaning shaxsiy papkasida, faqat qurilmada.
+/// * [colorIndex] — profil mavzusi (`ProfileThemes`) indeksi.
 class ChildProfile {
   const ChildProfile({
     required this.id,
@@ -12,6 +17,9 @@ class ChildProfile {
     required this.colorIndex,
     required this.dailyLimitMinutes,
     required this.createdAt,
+    this.fullName = '',
+    this.photoPath,
+    this.greeting = '',
     this.disabledSubjects = const <String>[],
     this.difficultyBias = 0,
   });
@@ -23,14 +31,20 @@ class ChildProfile {
     required int age,
     required String avatar,
     int colorIndex = 0,
+    String fullName = '',
+    String? photoPath,
+    String greeting = '',
     DateTime? now,
   }) {
     final group = AgeGroup.fromAge(age);
     return ChildProfile(
       id: id,
       name: name.trim(),
+      fullName: fullName.trim(),
       age: age,
       avatar: avatar,
+      photoPath: photoPath,
+      greeting: greeting.trim(),
       colorIndex: colorIndex,
       dailyLimitMinutes:
           group.isJunior ? AppConstants.defaultLimitYoung : AppConstants.defaultLimitOlder,
@@ -38,10 +52,28 @@ class ChildProfile {
     );
   }
 
+  static const String defaultGreetingJunior = 'O‘ynab-o‘rganishga tayyormisiz?';
+  static const String defaultGreetingSenior = 'Bugun birga o‘rganamiz!';
+
   final String id;
+
+  /// Qisqa ism (murojaat uchun).
   final String name;
+
+  /// To'liq ism (profil kartasi uchun). Bo'sh bo'lsa [name] ko'rsatiladi.
+  final String fullName;
   final int age;
+
+  /// Rasm bo'lmaganda ko'rsatiladigan emoji.
   final String avatar;
+
+  /// Lokal rasm fayli yo'li (ilova hujjatlar papkasida).
+  final String? photoPath;
+
+  /// Salomlashuvdan keyingi ikkinchi qator. Bo'sh bo'lsa yoshga mos standart.
+  final String greeting;
+
+  /// Profil mavzusi indeksi.
   final int colorIndex;
 
   /// Kunlik o'yin limiti (daqiqa). 0 — cheklanmagan.
@@ -58,10 +90,28 @@ class ChildProfile {
 
   bool isSubjectEnabled(String subjectId) => !disabledSubjects.contains(subjectId);
 
+  bool get hasPhoto => photoPath != null && photoPath!.isNotEmpty;
+
+  /// Kartada ko'rsatiladigan ism.
+  String get displayFullName => fullName.isNotEmpty ? fullName : name;
+
+  /// "Azamjon, xush kelibsiz!"
+  String get welcomeTitle => '$name, xush kelibsiz!';
+
+  /// "Bugun birga o'rganamiz!" yoki ota-ona yozgan matn.
+  String get welcomeSubtitle {
+    if (greeting.isNotEmpty) return greeting;
+    return ageGroup.isJunior ? defaultGreetingJunior : defaultGreetingSenior;
+  }
+
   ChildProfile copyWith({
     String? name,
+    String? fullName,
     int? age,
     String? avatar,
+    String? photoPath,
+    bool clearPhoto = false,
+    String? greeting,
     int? colorIndex,
     int? dailyLimitMinutes,
     List<String>? disabledSubjects,
@@ -70,8 +120,11 @@ class ChildProfile {
     return ChildProfile(
       id: id,
       name: name ?? this.name,
+      fullName: fullName ?? this.fullName,
       age: age ?? this.age,
       avatar: avatar ?? this.avatar,
+      photoPath: clearPhoto ? null : (photoPath ?? this.photoPath),
+      greeting: greeting ?? this.greeting,
       colorIndex: colorIndex ?? this.colorIndex,
       dailyLimitMinutes: dailyLimitMinutes ?? this.dailyLimitMinutes,
       disabledSubjects: disabledSubjects ?? this.disabledSubjects,
@@ -83,8 +136,11 @@ class ChildProfile {
   Map<String, dynamic> toMap() => {
         'id': id,
         'name': name,
+        'fullName': fullName,
         'age': age,
         'avatar': avatar,
+        'photoPath': photoPath,
+        'greeting': greeting,
         'colorIndex': colorIndex,
         'dailyLimitMinutes': dailyLimitMinutes,
         'disabledSubjects': List<String>.from(disabledSubjects),
@@ -94,11 +150,15 @@ class ChildProfile {
 
   factory ChildProfile.fromMap(Map<String, dynamic> map) {
     final age = MapUtils.asInt(map['age'], 6);
+    final photo = map['photoPath']?.toString();
     return ChildProfile(
       id: map['id'].toString(),
       name: (map['name'] ?? '').toString(),
+      fullName: (map['fullName'] ?? '').toString(),
       age: age,
       avatar: (map['avatar'] ?? '👦').toString(),
+      photoPath: (photo == null || photo.isEmpty) ? null : photo,
+      greeting: (map['greeting'] ?? '').toString(),
       colorIndex: MapUtils.asInt(map['colorIndex']),
       dailyLimitMinutes: MapUtils.asInt(
         map['dailyLimitMinutes'],
@@ -123,13 +183,17 @@ class ChildProfile {
       other is ChildProfile &&
       other.id == id &&
       other.name == name &&
+      other.fullName == fullName &&
       other.age == age &&
       other.avatar == avatar &&
+      other.photoPath == photoPath &&
+      other.greeting == greeting &&
       other.colorIndex == colorIndex &&
       other.dailyLimitMinutes == dailyLimitMinutes &&
       other.difficultyBias == difficultyBias &&
       other.disabledSubjects.join(',') == disabledSubjects.join(',');
 
   @override
-  int get hashCode => Object.hash(id, name, age, avatar, colorIndex, dailyLimitMinutes);
+  int get hashCode =>
+      Object.hash(id, name, fullName, age, avatar, photoPath, greeting, colorIndex, dailyLimitMinutes);
 }

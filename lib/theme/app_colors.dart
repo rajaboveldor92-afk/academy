@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'profile_themes.dart';
+
 /// Ilova ranglari — yorqin, ammo ko'zni charchatmaydigan palitra.
 class AppColors {
   AppColors._();
@@ -15,16 +17,6 @@ class AppColors {
   static const Color star = Color(0xFFFFC83D);
   static const Color parent = Color(0xFF5B6475);
 
-  /// Profil kartalari uchun ranglar (`ChildProfile.colorIndex`).
-  static const List<Color> profilePalette = [
-    Color(0xFF4F8EF7),
-    Color(0xFF2DBE72),
-    Color(0xFFEC6AA8),
-    Color(0xFFFF8A3D),
-    Color(0xFF9B6BFF),
-    Color(0xFF2BB5A6),
-  ];
-
-  static Color profileColor(int index) =>
-      profilePalette[index.abs() % profilePalette.length];
+  /// Profil mavzusining asosiy rangi (`ChildProfile.colorIndex` → [ProfileThemes]).
+  static Color profileColor(int index) => ProfileThemes.of(index).primary;
 }

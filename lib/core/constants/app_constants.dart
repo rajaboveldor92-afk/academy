@@ -27,6 +27,7 @@ class AppConstants {
   static const Duration splashDuration = Duration(milliseconds: 1200);
 
   static const int maxNameLength = 20;
+  static const int maxFullNameLength = 60;
 
   /// Profil uchun tanlanadigan avatarlar (emoji — APK hajmini oshirmaydi).
   static const List<String> avatars = [

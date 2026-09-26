@@ -9,6 +9,7 @@ class AppSettings {
     this.voiceEnabled = true,
     this.musicEnabled = false,
     this.seeded = false,
+    this.dataVersion = 1,
   });
 
   /// Ota-ona bo'limi PIN kodi (4 raqam). Faqat qurilmada saqlanadi.
@@ -26,12 +27,16 @@ class AppSettings {
   /// Standart profillar (Azamjon, Muhammadjon) bir marta yaratilganmi.
   final bool seeded;
 
+  /// Saqlangan ma'lumotlar sxemasi versiyasi (migratsiyalar uchun).
+  final int dataVersion;
+
   AppSettings copyWith({
     String? parentPin,
     bool? soundEnabled,
     bool? voiceEnabled,
     bool? musicEnabled,
     bool? seeded,
+    int? dataVersion,
   }) {
     return AppSettings(
       parentPin: parentPin ?? this.parentPin,
@@ -39,6 +44,7 @@ class AppSettings {
       voiceEnabled: voiceEnabled ?? this.voiceEnabled,
       musicEnabled: musicEnabled ?? this.musicEnabled,
       seeded: seeded ?? this.seeded,
+      dataVersion: dataVersion ?? this.dataVersion,
     );
   }
 
@@ -48,6 +54,7 @@ class AppSettings {
         'voiceEnabled': voiceEnabled,
         'musicEnabled': musicEnabled,
         'seeded': seeded,
+        'dataVersion': dataVersion,
       };
 
   factory AppSettings.fromMap(Map<String, dynamic> map) {
@@ -58,6 +65,7 @@ class AppSettings {
       voiceEnabled: MapUtils.asBool(map['voiceEnabled'], true),
       musicEnabled: MapUtils.asBool(map['musicEnabled'], false),
       seeded: MapUtils.asBool(map['seeded'], false),
+      dataVersion: MapUtils.asInt(map['dataVersion'], 1),
     );
   }
 }

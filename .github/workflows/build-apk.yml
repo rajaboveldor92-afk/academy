@@ -51,7 +51,17 @@ jobs:
       - name: Release APK
         run: |
           set -o pipefail
+          out=build/app/outputs/flutter-apk
+          mkdir -p dist
           flutter build apk --release 2>&1 | tee build.log
+          cp $out/app-release.apk dist/academy-app-release.apk
+          # Protsessor turiga bo'lingan kichik APK'lar (har biri ~18 MB).
+          flutter build apk --release --split-per-abi 2>&1 | tee -a build.log
+          cp $out/app-arm64-v8a-release.apk dist/academy-arm64-v8a.apk
+          cp $out/app-armeabi-v7a-release.apk dist/academy-armeabi-v7a.apk
+          # Talab qilingan yakuniy fayl nomi ham joyida qolsin.
+          cp dist/academy-app-release.apk $out/app-release.apk
+          ls -la dist
 
       - name: APKni Actions'ga saqlash
         uses: actions/upload-artifact@v4
@@ -66,9 +76,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp build/app/outputs/flutter-apk/app-release.apk academy-app-release.apk
           gh release delete latest-build --yes --cleanup-tag || true
-          gh release create latest-build academy-app-release.apk \
+          gh release create latest-build dist/academy-app-release.apk dist/academy-arm64-v8a.apk dist/academy-armeabi-v7a.apk \
             --title "Academy — oxirgi build" \
             --notes "Commit: ${GITHUB_SHA}. Telefonga o'rnatish: faylni yuklab oling va oching."
 
