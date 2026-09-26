@@ -5,6 +5,8 @@ import 'package:academy/database/seed_data.dart';
 import 'package:academy/features/home/subject_screen.dart';
 import 'package:academy/features/lesson/lesson_screen.dart';
 import 'package:academy/features/profiles/profiles_controller.dart';
+import 'package:academy/learning/content/content_provider.dart';
+import 'package:academy/learning/content/content_repository.dart';
 import 'package:academy/models/subject.dart';
 import 'package:academy/router/app_router.dart';
 import 'package:academy/services/audio_service.dart';
@@ -17,6 +19,12 @@ import '../helpers/test_helpers.dart';
 /// Fan → mavzular → dars oqimi (haqiqiy kontent bilan).
 void main() {
   TestDb? t;
+  late ContentRepository content;
+
+  setUpAll(() async {
+    TestWidgetsFlutterBinding.ensureInitialized();
+    content = await ContentRepository.load();
+  });
 
   tearDown(() async {
     await t?.dispose();
@@ -34,6 +42,8 @@ void main() {
     final container = ProviderContainer(overrides: [
       databaseProvider.overrideWithValue(t!.db),
       audioServiceProvider.overrideWithValue(SilentAudioService()),
+      // Kontent oldindan yuklangan (test muhitida aktivlarni fon rejimida o'qish sekin).
+      contentProvider.overrideWith((ref) => content),
     ]);
     addTearDown(container.dispose);
     container.read(activeChildIdProvider.notifier).select(childId);

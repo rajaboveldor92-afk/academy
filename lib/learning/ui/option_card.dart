@@ -67,7 +67,15 @@ class OptionCard extends StatelessWidget {
           children: [
             Expanded(child: Center(child: VisualView(visual: visual))),
             if (text != null)
-              Text(text, textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  text,
+                  maxLines: 1,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+                ),
+              ),
           ],
         ),
       );
