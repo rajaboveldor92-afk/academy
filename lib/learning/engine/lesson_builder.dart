@@ -91,6 +91,17 @@ class ExerciseValidator {
         return e.sudoku != null && e.sudoku!.blanks > 0;
       case ExerciseKind.coding:
         return e.coding != null;
+      case ExerciseKind.assemble:
+        final a = e.assemble;
+        if (a == null || a.answer.length < 2) return false;
+        final pool = List<String>.from(a.tiles);
+        for (final part in a.answer) {
+          if (!pool.remove(part)) return false;
+        }
+        return true;
+      case ExerciseKind.trace:
+        final t = e.trace;
+        return t != null && t.strokes.isNotEmpty && t.strokes.every((s) => s.length >= 2);
     }
   }
 }

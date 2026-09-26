@@ -1,0 +1,234 @@
+{
+ "subject": "writing",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 4,
+ "title": {
+  "uz": "Yozishni o‘rganaman",
+  "en": "Learning to write",
+  "ru": "Учусь писать"
+ },
+ "model": "KO‘R → BARMOQ BILAN YUR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "writing4.lines",
+   "code": "W1",
+   "emoji": "📏",
+   "title": {
+    "uz": "Chiziqlar",
+    "en": "Lines",
+    "ru": "Линии"
+   },
+   "generator": "trace",
+   "skill": "prewriting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:vertical",
+      "pre:horizontal",
+      "pre:diagonal",
+      "pre:steps"
+     ]
+    },
+    {
+     "items": [
+      "pre:curve",
+      "pre:rainbow",
+      "pre:wave",
+      "pre:zigzag"
+     ]
+    },
+    {
+     "items": [
+      "pre:circle",
+      "pre:spiral",
+      "pre:loops",
+      "pre:waves2",
+      "pre:zigzag2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing4.dots",
+   "code": "W2",
+   "emoji": "🔵",
+   "title": {
+    "uz": "Nuqtalarni birlashtir",
+    "en": "Join the dots",
+    "ru": "Соедини точки"
+   },
+   "generator": "trace",
+   "skill": "fine_motor",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "dots:tent",
+      "dots:diamond",
+      "dots:kite",
+      "dots:boat"
+     ]
+    },
+    {
+     "items": [
+      "dots:house",
+      "dots:arrow",
+      "dots:heart",
+      "dots:tent",
+      "dots:diamond"
+     ]
+    },
+    {
+     "items": [
+      "dots:star",
+      "dots:fish",
+      "dots:crown",
+      "dots:house",
+      "dots:heart"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing4.shapes",
+   "code": "W3",
+   "emoji": "⭕",
+   "title": {
+    "uz": "Shakllar",
+    "en": "Shapes",
+    "ru": "Фигуры"
+   },
+   "generator": "trace",
+   "skill": "fine_motor",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:circle",
+      "pre:square",
+      "pre:triangle",
+      "dots:diamond"
+     ]
+    },
+    {
+     "items": [
+      "pre:circle",
+      "pre:square",
+      "pre:triangle",
+      "pre:spiral",
+      "dots:kite"
+     ]
+    },
+    {
+     "items": [
+      "pre:spiral",
+      "pre:square",
+      "pre:triangle",
+      "dots:star",
+      "dots:heart"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing4.letters",
+   "code": "W4",
+   "emoji": "🔠",
+   "title": {
+    "uz": "Katta harflar",
+    "en": "Big letters",
+    "ru": "Большие буквы"
+   },
+   "generator": "trace",
+   "skill": "letters_writing",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "glyph:I",
+      "glyph:L",
+      "glyph:T",
+      "glyph:E",
+      "glyph:F",
+      "glyph:H"
+     ]
+    },
+    {
+     "items": [
+      "glyph:O",
+      "glyph:U",
+      "glyph:V",
+      "glyph:A",
+      "glyph:X",
+      "glyph:Y"
+     ]
+    },
+    {
+     "items": [
+      "glyph:M",
+      "glyph:N",
+      "glyph:K",
+      "glyph:Z",
+      "glyph:S",
+      "glyph:B",
+      "glyph:D",
+      "glyph:P"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing4.left_right",
+   "code": "W5",
+   "emoji": "➡️",
+   "title": {
+    "uz": "Chapdan o‘ngga",
+    "en": "Left to right",
+    "ru": "Слева направо"
+   },
+   "generator": "trace",
+   "skill": "prewriting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:horizontal",
+      "pre:wave",
+      "pre:zigzag",
+      "pre:steps"
+     ],
+     "leftToRight": true,
+     "tolerancePct": 125
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:wave"
+     ],
+     "leftToRight": true,
+     "tolerancePct": 115
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:steps",
+      "pre:horizontal"
+     ],
+     "leftToRight": true
+    }
+   ]
+  }
+ ]
+}

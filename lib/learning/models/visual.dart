@@ -135,6 +135,25 @@ class TextVisual extends ExerciseVisual {
   String describe() => 'text[$text]';
 }
 
+/// O'qish uchun matn (so'z, gap yoki qisqa hikoya) — ko'p qatorli, yirik shrift.
+class ReadingVisual extends ExerciseVisual {
+  const ReadingVisual(this.text, {this.question, this.emoji, this.big = false});
+
+  final String text;
+
+  /// Matn ostidagi savol (hikoya bo'yicha).
+  final String? question;
+
+  /// Matn yonidagi kichik rasm (ixtiyoriy).
+  final String? emoji;
+
+  /// Bitta so'z uchun juda yirik shrift.
+  final bool big;
+
+  @override
+  String describe() => 'read[$text|${question ?? ''}|${emoji ?? ''}]';
+}
+
 /// Analog soat.
 class ClockVisual extends ExerciseVisual {
   const ClockVisual(this.hour, this.minute);

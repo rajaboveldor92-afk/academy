@@ -12,7 +12,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | Ilova asosi | Profillar (rasm, to‘liq ism, mavzu), lokal baza, vaqt limiti, ota-ona PIN va panel | ✅ |
 | CONTENT 1 | Muhammadjon (4): Matematika M1–M15, Mantiq L1–L15 | ✅ |
 | CONTENT 2 | Azamjon (6): Matematika M1–M20, Mantiq L1–L15 | ✅ |
-| CONTENT 3 | O‘zbek tili + ✏️ Yozishni o‘rganaman | ⏳ |
+| CONTENT 3 | O‘zbek tili (4 yosh: 18 mavzu, 6 yosh: U1–U14), ✏️ Yozishni o‘rganaman (chiziq, nuqta, harf, raqam, so‘z) | ✅ |
 | CONTENT 4–5 | English, Русский, 🇺🇿🇬🇧🇷🇺 Uch tilda | ⏳ |
 | CONTENT 6 | Shaxmat | ⏳ |
 | CONTENT 7 | Xotira, Diqqat, Puzzle, Labirint, Motorika | ⏳ |
@@ -25,15 +25,20 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 assets/data/lexicon.json        uch tilli lug‘at (ID orqali bog‘langan uz/en/ru, emoji, kategoriya, teglar)
 assets/data/instructions.json   ko‘rsatmalar banki (uz/en/ru, {o‘rinbosar}, {so‘z:ga} qo‘shimchasi)
 assets/data/logic_data.json     analogiya, juftlar, yashash joylari, figuralar (original)
+assets/data/uzbek.json          alifbo (29 harf), 564 so‘z bo‘g‘inlari bilan (4 yosh: 438), gap/hikoya bo‘laklari
+assets/data/glyphs.json         yozish yo‘nalishlari: harflar, raqamlar, yozuvdan oldingi chiziqlar, nuqtali shakllar
 assets/data/<fan>_<4|6>.json    o‘quv dasturi: mavzu → 3 daraja → generator parametrlari
-lib/learning/generators/        parametrik generatorlar (math_junior, logic_junior, math_senior, logic_senior)
+lib/learning/generators/        parametrik generatorlar (math, logic, uzbek — junior/senior, writing)
 lib/learning/engine/            LessonBuilder (takrorlanmaslik), AdaptiveRule (≥85 ↑, 60–84 =, <60 ↓), mastery
-lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruhlash, xotira, labirint, sudoku, kodlash
+lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruhlash, xotira, labirint, sudoku, kodlash,
+                                bo‘laklardan yig‘ish (harf→so‘z, bo‘g‘in→so‘z, so‘z→gap), barmoq bilan yozish
 ```
 
 * Savollar dinamik yaratiladi: har bir mavzu × daraja uchun o‘nlab–yuzlab original variant.
 * Ovoz: ko‘rsatma o‘zbekcha, sonlar so‘z bilan aytiladi (TTS raqamni boshqa tilda o‘qimasligi uchun).
 * Bola ekranida foiz yo‘q — faqat yulduzlar; foizlar (mastery) faqat ota-ona panelida.
+* Yozishni baholash (`TraceScorer`): qamrov, har bir chiziq, uzluksizlik (tartib), yo‘ldan chiqish va
+  ortiqcha uzunlik — yumshoq, lekin tartibsiz bo‘yashni o‘tkazmaydi. 2 xatodan keyin namoyish, 4 xatodan keyin yakun.
 * Tahrirlash manbalari: `tool/content/*.py` → `python3 tool/content/<fayl>.py` JSON’ni qayta yaratadi.
 
 ### Kontentni avtomatik tekshirish
@@ -43,6 +48,9 @@ dublikat ID, bo‘sh savol/variant, to‘g‘ri javob variantlar ichida va yagon
 (qo‘shish, ayirish, taqqoslash, ketma-ketlik, pul, soat), yoshga moslik (4 yosh ≤ 10, 6 yosh ≤ 100),
 Android 9 da ko‘rinmaydigan emoji, uch til tarjimalarining to‘liqligi va o‘rinbosarlar mosligi,
 sudoku/labirint/kodlash yechimi borligi, har darajada ≥ 15 xil savol va umumiy hajm (29-band).
+O‘zbek tili: bo‘g‘inlar so‘zni tashkil etishi, har bo‘g‘inda bitta unli, lug‘at bog‘lanishlari, so‘z hajmi
+(4 yosh ≥ 250, 6 yosh ≥ 500). Yozish: har bir harf/raqam uchun chiziq borligi, namuna o‘tishi,
+tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
 
 ## Talablar
 

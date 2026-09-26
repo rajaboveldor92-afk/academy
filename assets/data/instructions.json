@@ -470,6 +470,146 @@
    "uz": "{f1} {f2} {q}",
    "en": "{f1} {f2} {q}",
    "ru": "{f1} {f2} {q}"
+  },
+  "uz_find_word": {
+   "uz": "{item}ni top",
+   "en": "Find: {item}",
+   "ru": "Найди: {item}"
+  },
+  "uz_not_in_theme": {
+   "uz": "Qaysi biri {theme} emas?",
+   "en": "Which one is not {theme}?",
+   "ru": "Что здесь не {theme}?"
+  },
+  "uz_first_sound": {
+   "uz": "Qaysi rasm «{l}» tovushi bilan boshlanadi?",
+   "en": "Which picture starts with the sound «{l}»?",
+   "ru": "Какая картинка начинается на звук «{l}»?"
+  },
+  "uz_last_sound": {
+   "uz": "Qaysi so‘z «{l}» tovushi bilan tugaydi?",
+   "en": "Which word ends with the sound «{l}»?",
+   "ru": "Какое слово заканчивается на звук «{l}»?"
+  },
+  "uz_find_letter": {
+   "uz": "«{l}» harfini top",
+   "en": "Find the letter «{l}»",
+   "ru": "Найди букву «{l}»"
+  },
+  "uz_find_small_letter": {
+   "uz": "«{l}» harfining kichigini top",
+   "en": "Find the small letter for «{l}»",
+   "ru": "Найди строчную букву для «{l}»"
+  },
+  "uz_match_letter_picture": {
+   "uz": "Harfni rasm bilan juftla",
+   "en": "Match each letter with a picture",
+   "ru": "Соедини букву с картинкой"
+  },
+  "uz_match_case": {
+   "uz": "Bosh harfni kichik harf bilan juftla",
+   "en": "Match capital and small letters",
+   "ru": "Соедини заглавную и строчную букву"
+  },
+  "uz_count_syllables": {
+   "uz": "Bu so‘zda nechta bo‘g‘in bor?",
+   "en": "How many syllables are in this word?",
+   "ru": "Сколько слогов в этом слове?"
+  },
+  "uz_missing_syllable": {
+   "uz": "Qaysi bo‘g‘in yetishmayapti?",
+   "en": "Which syllable is missing?",
+   "ru": "Какого слога не хватает?"
+  },
+  "uz_build_syllables": {
+   "uz": "Bo‘g‘inlardan so‘z yig‘",
+   "en": "Build the word from syllables",
+   "ru": "Собери слово из слогов"
+  },
+  "uz_build_word": {
+   "uz": "Rasmga qarab so‘zni harflardan yig‘",
+   "en": "Look at the picture and build the word",
+   "ru": "Посмотри на картинку и собери слово"
+  },
+  "uz_read_word": {
+   "uz": "So‘zni o‘qi va rasmini top",
+   "en": "Read the word and find its picture",
+   "ru": "Прочитай слово и найди картинку"
+  },
+  "uz_picture_word": {
+   "uz": "Rasmga mos so‘zni top",
+   "en": "Find the word for the picture",
+   "ru": "Найди слово к картинке"
+  },
+  "uz_fill_letter": {
+   "uz": "Qaysi harf tushib qolgan?",
+   "en": "Which letter is missing?",
+   "ru": "Какая буква пропущена?"
+  },
+  "uz_build_sentence": {
+   "uz": "So‘zlardan gap tuz",
+   "en": "Make a sentence from the words",
+   "ru": "Составь предложение из слов"
+  },
+  "uz_read_sentence": {
+   "uz": "Gapni o‘qi va mos rasmni top",
+   "en": "Read the sentence and find the picture",
+   "ru": "Прочитай предложение и найди картинку"
+  },
+  "uz_missing_word": {
+   "uz": "Gapga qaysi so‘z mos keladi?",
+   "en": "Which word fits the sentence?",
+   "ru": "Какое слово подходит?"
+  },
+  "uz_story_picture": {
+   "uz": "Hikoyani o‘qi va mos rasmni top",
+   "en": "Read the story and find the picture",
+   "ru": "Прочитай рассказ и найди картинку"
+  },
+  "uz_story_question": {
+   "uz": "Hikoyani o‘qi va savolga javob ber",
+   "en": "Read the story and answer the question",
+   "ru": "Прочитай рассказ и ответь на вопрос"
+  },
+  "uz_picture_sentence": {
+   "uz": "Rasmga mos gapni top",
+   "en": "Find the sentence for the picture",
+   "ru": "Найди предложение к картинке"
+  },
+  "wr_trace_line": {
+   "uz": "Barmog‘ing bilan chiziq ustidan yur",
+   "en": "Trace the line with your finger",
+   "ru": "Обведи линию пальцем"
+  },
+  "wr_trace_shape": {
+   "uz": "Barmog‘ing bilan shakl ustidan yur",
+   "en": "Trace the shape with your finger",
+   "ru": "Обведи фигуру пальцем"
+  },
+  "wr_dots": {
+   "uz": "Nuqtalarni tartib bilan birlashtir",
+   "en": "Join the dots in order",
+   "ru": "Соедини точки по порядку"
+  },
+  "wr_letter": {
+   "uz": "«{l}» harfini yoz",
+   "en": "Write the letter «{l}»",
+   "ru": "Напиши букву «{l}»"
+  },
+  "wr_digit": {
+   "uz": "{n} raqamini yoz",
+   "en": "Write the number {n}",
+   "ru": "Напиши цифру {n}"
+  },
+  "wr_word": {
+   "uz": "«{w}» so‘zini yoz",
+   "en": "Write the word «{w}»",
+   "ru": "Напиши слово «{w}»"
+  },
+  "wr_left_right": {
+   "uz": "Chapdan o‘ngga yoz",
+   "en": "Write from left to right",
+   "ru": "Пиши слева направо"
   }
  }
 }

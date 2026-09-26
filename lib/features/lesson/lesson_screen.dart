@@ -10,6 +10,7 @@ import '../../learning/engine/lesson_builder.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/models/exercise.dart';
 import '../../learning/models/topic.dart';
+import '../../learning/ui/assemble_view.dart';
 import '../../learning/ui/choice_view.dart';
 import '../../learning/ui/coding_view.dart';
 import '../../learning/ui/match_view.dart';
@@ -17,6 +18,7 @@ import '../../learning/ui/maze_view.dart';
 import '../../learning/ui/option_card.dart';
 import '../../learning/ui/sort_view.dart';
 import '../../learning/ui/sudoku_view.dart';
+import '../../learning/ui/trace_view.dart';
 import '../../models/child_profile.dart';
 import '../../services/audio_service.dart';
 import '../../theme/app_colors.dart';
@@ -281,7 +283,9 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       ExerciseKind.maze => MazeExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.sudoku => SudokuExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.coding => CodingExerciseView(key: key, exercise: ex, callbacks: callbacks),
-      _ => ChoiceExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.assemble => AssembleExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.trace => TraceExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(key: key, exercise: ex, callbacks: callbacks),
     };
     return Stack(
       children: [

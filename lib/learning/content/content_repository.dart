@@ -6,6 +6,7 @@ import '../../core/utils/map_utils.dart';
 import '../models/topic.dart';
 import 'instructions.dart';
 import 'lexicon.dart';
+import 'uzbek_data.dart';
 
 /// Barcha o'quv kontenti: lug'at, ko'rsatmalar, mantiqiy bog'lanishlar va
 /// fanlar bo'yicha dasturlar. Bir marta yuklanadi (lazy) va xotirada turadi.
@@ -15,6 +16,8 @@ class ContentRepository {
     required this.instructions,
     required this.logicData,
     required this.curricula,
+    required this.uzbek,
+    required this.glyphs,
   });
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
@@ -23,6 +26,10 @@ class ContentRepository {
     'logic_4',
     'math_6',
     'logic_6',
+    'uzbek_4',
+    'uzbek_6',
+    'writing_4',
+    'writing_6',
   ];
 
   final Lexicon lexicon;
@@ -33,6 +40,12 @@ class ContentRepository {
 
   /// Kalit: `math_4`, `logic_6` ...
   final Map<String, Curriculum> curricula;
+
+  /// O'zbek tili: alifbo, so'z bazasi, gap resurslari.
+  final UzbekData uzbek;
+
+  /// Yozish mashqlari chiziqlari.
+  final GlyphBank glyphs;
 
   Curriculum? curriculum(String subject, String ageSuffix) => curricula['${subject}_$ageSuffix'];
 
@@ -60,6 +73,8 @@ class ContentRepository {
       instructions: InstructionBank.fromJson(await json('instructions')),
       logicData: await json('logic_data'),
       curricula: curricula,
+      uzbek: UzbekData.fromJson(await json('uzbek')),
+      glyphs: GlyphBank.fromJson(await json('glyphs')),
     );
   }
 }

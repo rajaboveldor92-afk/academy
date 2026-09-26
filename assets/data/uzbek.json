@@ -1,0 +1,5757 @@
+{
+"schemaVersion": 1,
+"note": "O‘zbek tili mashqlari uchun original ma'lumotlar. Bo‘g‘inlar avtomatik ajratilgan va tekshirilgan.",
+"vowels": [
+"a",
+"e",
+"i",
+"o",
+"o‘",
+"u"
+],
+"alphabet": [
+{
+"upper": "A",
+"lower": "a",
+"vowel": true,
+"lexId": "bee",
+"word": "ari"
+},
+{
+"upper": "B",
+"lower": "b",
+"vowel": false,
+"lexId": "fish",
+"word": "baliq"
+},
+{
+"upper": "D",
+"lower": "d",
+"vowel": false,
+"lexId": "tree",
+"word": "daraxt"
+},
+{
+"upper": "E",
+"lower": "e",
+"vowel": true,
+"lexId": "goat",
+"word": "echki"
+},
+{
+"upper": "F",
+"lower": "f",
+"vowel": false,
+"lexId": "elephant",
+"word": "fil"
+},
+{
+"upper": "G",
+"lower": "g",
+"vowel": false,
+"lexId": "flower",
+"word": "gul"
+},
+{
+"upper": "H",
+"lower": "h",
+"vowel": false,
+"lexId": "hamster",
+"word": "hamster"
+},
+{
+"upper": "I",
+"lower": "i",
+"vowel": true,
+"lexId": "dog",
+"word": "it"
+},
+{
+"upper": "J",
+"lower": "j",
+"vowel": false,
+"lexId": "giraffe",
+"word": "jirafa"
+},
+{
+"upper": "K",
+"lower": "k",
+"vowel": false,
+"lexId": "book",
+"word": "kitob"
+},
+{
+"upper": "L",
+"lower": "l",
+"vowel": false,
+"lexId": "lemon",
+"word": "limon"
+},
+{
+"upper": "M",
+"lower": "m",
+"vowel": false,
+"lexId": "cat",
+"word": "mushuk"
+},
+{
+"upper": "N",
+"lower": "n",
+"vowel": false,
+"lexId": "bread",
+"word": "non"
+},
+{
+"upper": "O",
+"lower": "o",
+"vowel": true,
+"lexId": "apple",
+"word": "olma"
+},
+{
+"upper": "P",
+"lower": "p",
+"vowel": false,
+"lexId": "tomato",
+"word": "pomidor"
+},
+{
+"upper": "Q",
+"lower": "q",
+"vowel": false,
+"lexId": "bird",
+"word": "qush"
+},
+{
+"upper": "R",
+"lower": "r",
+"vowel": false,
+"lexId": "rocket",
+"word": "raketa"
+},
+{
+"upper": "S",
+"lower": "s",
+"vowel": false,
+"lexId": "carrot",
+"word": "sabzi"
+},
+{
+"upper": "T",
+"lower": "t",
+"vowel": false,
+"lexId": "chicken",
+"word": "tovuq"
+},
+{
+"upper": "U",
+"lower": "u",
+"vowel": true,
+"lexId": "house",
+"word": "uy"
+},
+{
+"upper": "V",
+"lower": "v",
+"vowel": false,
+"lexId": "bicycle",
+"word": "velosiped"
+},
+{
+"upper": "X",
+"lower": "x",
+"vowel": false,
+"lexId": "rooster",
+"word": "xo‘roz"
+},
+{
+"upper": "Y",
+"lower": "y",
+"vowel": false,
+"lexId": "star",
+"word": "yulduz"
+},
+{
+"upper": "Z",
+"lower": "z",
+"vowel": false,
+"lexId": "zebra",
+"word": "zebra"
+},
+{
+"upper": "O‘",
+"lower": "o‘",
+"vowel": true,
+"lexId": "duck",
+"word": "o‘rdak"
+},
+{
+"upper": "G‘",
+"lower": "g‘",
+"vowel": false,
+"lexId": "brick",
+"word": "g‘isht"
+},
+{
+"upper": "Sh",
+"lower": "sh",
+"vowel": false,
+"lexId": "lion",
+"word": "sher"
+},
+{
+"upper": "Ch",
+"lower": "ch",
+"vowel": false,
+"lexId": "tea",
+"word": "choy"
+},
+{
+"upper": "Ng",
+"lower": "ng",
+"vowel": false,
+"lexId": "sunrise",
+"word": "tong"
+}
+],
+"themes": {
+"family": "Men va oilam",
+"home": "Uy",
+"school": "Bog‘cha va maktab",
+"animal": "Hayvonlar",
+"bird": "Qushlar",
+"fruit": "Mevalar",
+"vegetable": "Sabzavotlar",
+"body": "Tana",
+"clothes": "Kiyim",
+"vehicle": "Transport",
+"toy": "O‘yinchoqlar",
+"nature": "Tabiat",
+"profession": "Kasblar",
+"food": "Taomlar",
+"insect": "Hasharotlar",
+"sea": "Suv jonivorlari",
+"place": "Joylar",
+"verb": "Harakatlar",
+"adjective": "Belgilar",
+"number": "Sonlar",
+"color": "Ranglar",
+"time": "Vaqt",
+"other": "Boshqa so‘zlar"
+},
+"words": [
+{
+"w": "achchiq",
+"syl": [
+"ach",
+"chiq"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "aqlli",
+"syl": [
+"aql",
+"li"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "baland",
+"syl": [
+"ba",
+"land"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "bo‘sh",
+"syl": [
+"bo‘sh"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "chiroyli",
+"syl": [
+"chi",
+"roy",
+"li"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "eski",
+"syl": [
+"es",
+"ki"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "issiq",
+"syl": [
+"is",
+"siq"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "katta",
+"syl": [
+"kat",
+"ta"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "keng",
+"syl": [
+"keng"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "kichik",
+"syl": [
+"ki",
+"chik"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "kuchli",
+"syl": [
+"kuch",
+"li"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "mehribon",
+"syl": [
+"meh",
+"ri",
+"bon"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "nordon",
+"syl": [
+"nor",
+"don"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "og‘ir",
+"syl": [
+"o",
+"g‘ir"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "ozg‘in",
+"syl": [
+"oz",
+"g‘in"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "past",
+"syl": [
+"past"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "qattiq",
+"syl": [
+"qat",
+"tiq"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "qisqa",
+"syl": [
+"qis",
+"qa"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "quvnoq",
+"syl": [
+"quv",
+"noq"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "sekin",
+"syl": [
+"se",
+"kin"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "semiz",
+"syl": [
+"se",
+"miz"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "shirin",
+"syl": [
+"shi",
+"rin"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "sovuq",
+"syl": [
+"so",
+"vuq"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "tez",
+"syl": [
+"tez"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "tor",
+"syl": [
+"tor"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "toza",
+"syl": [
+"to",
+"za"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "to‘la",
+"syl": [
+"to‘",
+"la"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "uzun",
+"syl": [
+"u",
+"zun"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "xursand",
+"syl": [
+"xur",
+"sand"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "yangi",
+"syl": [
+"ya",
+"ngi"
+],
+"theme": "adjective",
+"age": 4
+},
+{
+"w": "yaxshi",
+"syl": [
+"yax",
+"shi"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "yengil",
+"syl": [
+"ye",
+"ngil"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "yumshoq",
+"syl": [
+"yum",
+"shoq"
+],
+"theme": "adjective",
+"age": 6
+},
+{
+"w": "ayiq",
+"syl": [
+"a",
+"yiq"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "bear"
+},
+{
+"w": "bedana",
+"syl": [
+"be",
+"da",
+"na"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "begemot",
+"syl": [
+"be",
+"ge",
+"mot"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "hippo"
+},
+{
+"w": "bo‘ri",
+"syl": [
+"bo‘",
+"ri"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "wolf"
+},
+{
+"w": "bug‘u",
+"syl": [
+"bu",
+"g‘u"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "deer"
+},
+{
+"w": "buzoq",
+"syl": [
+"bu",
+"zoq"
+],
+"theme": "animal",
+"age": 4
+},
+{
+"w": "cho‘chqa",
+"syl": [
+"cho‘ch",
+"qa"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "pig"
+},
+{
+"w": "chumchuq",
+"syl": [
+"chum",
+"chuq"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "dinozavr",
+"syl": [
+"di",
+"no",
+"zavr"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "dinosaur"
+},
+{
+"w": "echki",
+"syl": [
+"ech",
+"ki"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "goat"
+},
+{
+"w": "eshak",
+"syl": [
+"e",
+"shak"
+],
+"theme": "animal",
+"age": 4
+},
+{
+"w": "fil",
+"syl": [
+"fil"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "elephant"
+},
+{
+"w": "hamster",
+"syl": [
+"hams",
+"ter"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "hamster"
+},
+{
+"w": "ho‘kiz",
+"syl": [
+"ho‘",
+"kiz"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "ox"
+},
+{
+"w": "ilon",
+"syl": [
+"i",
+"lon"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "snake"
+},
+{
+"w": "it",
+"syl": [
+"it"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "dog"
+},
+{
+"w": "jirafa",
+"syl": [
+"ji",
+"ra",
+"fa"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "giraffe"
+},
+{
+"w": "kabutar",
+"syl": [
+"ka",
+"bu",
+"tar"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "kaltakesak",
+"syl": [
+"kal",
+"ta",
+"ke",
+"sak"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "lizard"
+},
+{
+"w": "karkidon",
+"syl": [
+"kar",
+"ki",
+"don"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "rhino"
+},
+{
+"w": "kenguru",
+"syl": [
+"ke",
+"ngu",
+"ru"
+],
+"theme": "animal",
+"age": 6,
+"lexId": "kangaroo"
+},
+{
+"w": "koala",
+"syl": [
+"ko",
+"a",
+"la"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "koala"
+},
+{
+"w": "ko‘rshapalak",
+"syl": [
+"ko‘r",
+"sha",
+"pa",
+"lak"
+],
+"theme": "animal",
+"age": 6,
+"lexId": "bat"
+},
+{
+"w": "kuchuk",
+"syl": [
+"ku",
+"chuk"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "lama",
+"syl": [
+"la",
+"ma"
+],
+"theme": "animal",
+"age": 6,
+"lexId": "llama"
+},
+{
+"w": "laylak",
+"syl": [
+"lay",
+"lak"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "maymun",
+"syl": [
+"may",
+"mun"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "monkey"
+},
+{
+"w": "mushuk",
+"syl": [
+"mu",
+"shuk"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "cat"
+},
+{
+"w": "mushukcha",
+"syl": [
+"mu",
+"shuk",
+"cha"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "olmaxon",
+"syl": [
+"ol",
+"ma",
+"xon"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "squirrel"
+},
+{
+"w": "ot",
+"syl": [
+"ot"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "horse"
+},
+{
+"w": "panda",
+"syl": [
+"pan",
+"da"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "panda"
+},
+{
+"w": "pashsha",
+"syl": [
+"pash",
+"sha"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "qarg‘a",
+"syl": [
+"qar",
+"g‘a"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "qo‘chqor",
+"syl": [
+"qo‘ch",
+"qor"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "ram"
+},
+{
+"w": "qo‘ng‘iz",
+"syl": [
+"qo‘n",
+"g‘iz"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "qo‘y",
+"syl": [
+"qo‘y"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "sheep"
+},
+{
+"w": "qo‘zi",
+"syl": [
+"qo‘",
+"zi"
+],
+"theme": "animal",
+"age": 4
+},
+{
+"w": "qurbaqa",
+"syl": [
+"qur",
+"ba",
+"qa"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "frog"
+},
+{
+"w": "quyon",
+"syl": [
+"qu",
+"yon"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "rabbit"
+},
+{
+"w": "quyoncha",
+"syl": [
+"qu",
+"yon",
+"cha"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "sher",
+"syl": [
+"sher"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "lion"
+},
+{
+"w": "sichqon",
+"syl": [
+"sich",
+"qon"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "mouse"
+},
+{
+"w": "sigir",
+"syl": [
+"si",
+"gir"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "cow"
+},
+{
+"w": "timsoh",
+"syl": [
+"tim",
+"soh"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "crocodile"
+},
+{
+"w": "tipratikan",
+"syl": [
+"tip",
+"ra",
+"ti",
+"kan"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "hedgehog"
+},
+{
+"w": "toshbaqa",
+"syl": [
+"tosh",
+"ba",
+"qa"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "turtle"
+},
+{
+"w": "toy",
+"syl": [
+"toy"
+],
+"theme": "animal",
+"age": 4
+},
+{
+"w": "tulki",
+"syl": [
+"tul",
+"ki"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "fox"
+},
+{
+"w": "tuya",
+"syl": [
+"tu",
+"ya"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "camel"
+},
+{
+"w": "tuyaqush",
+"syl": [
+"tu",
+"ya",
+"qush"
+],
+"theme": "animal",
+"age": 6
+},
+{
+"w": "yakshox",
+"syl": [
+"yak",
+"shox"
+],
+"theme": "animal",
+"age": 6,
+"lexId": "unicorn"
+},
+{
+"w": "yo‘lbars",
+"syl": [
+"yo‘l",
+"bars"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "tiger"
+},
+{
+"w": "zebra",
+"syl": [
+"zeb",
+"ra"
+],
+"theme": "animal",
+"age": 4,
+"lexId": "zebra"
+},
+{
+"w": "boyqush",
+"syl": [
+"boy",
+"qush"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "owl"
+},
+{
+"w": "burgut",
+"syl": [
+"bur",
+"gut"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "eagle"
+},
+{
+"w": "jo‘ja",
+"syl": [
+"jo‘",
+"ja"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "chick"
+},
+{
+"w": "kaptar",
+"syl": [
+"kap",
+"tar"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "dove"
+},
+{
+"w": "kurka",
+"syl": [
+"kur",
+"ka"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "turkey"
+},
+{
+"w": "oqqush",
+"syl": [
+"oq",
+"qush"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "swan"
+},
+{
+"w": "o‘rdak",
+"syl": [
+"o‘r",
+"dak"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "duck"
+},
+{
+"w": "pingvin",
+"syl": [
+"ping",
+"vin"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "penguin"
+},
+{
+"w": "polapon",
+"syl": [
+"po",
+"la",
+"pon"
+],
+"theme": "bird",
+"age": 6,
+"lexId": "hen_chick"
+},
+{
+"w": "qush",
+"syl": [
+"qush"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "bird"
+},
+{
+"w": "tovuq",
+"syl": [
+"to",
+"vuq"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "chicken"
+},
+{
+"w": "tovus",
+"syl": [
+"to",
+"vus"
+],
+"theme": "bird",
+"age": 6,
+"lexId": "peacock"
+},
+{
+"w": "to‘tiqush",
+"syl": [
+"to‘",
+"ti",
+"qush"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "parrot"
+},
+{
+"w": "xo‘roz",
+"syl": [
+"xo‘",
+"roz"
+],
+"theme": "bird",
+"age": 4,
+"lexId": "rooster"
+},
+{
+"w": "barmoq",
+"syl": [
+"bar",
+"moq"
+],
+"theme": "body",
+"age": 6
+},
+{
+"w": "bosh",
+"syl": [
+"bosh"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "bo‘yin",
+"syl": [
+"bo‘",
+"yin"
+],
+"theme": "body",
+"age": 6
+},
+{
+"w": "burun",
+"syl": [
+"bu",
+"run"
+],
+"theme": "body",
+"age": 4,
+"lexId": "nose"
+},
+{
+"w": "kaft",
+"syl": [
+"kaft"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "ko‘z",
+"syl": [
+"ko‘z"
+],
+"theme": "body",
+"age": 4,
+"lexId": "eye"
+},
+{
+"w": "lab",
+"syl": [
+"lab"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "miya",
+"syl": [
+"mi",
+"ya"
+],
+"theme": "body",
+"age": 6,
+"lexId": "brain"
+},
+{
+"w": "mushak",
+"syl": [
+"mu",
+"shak"
+],
+"theme": "body",
+"age": 6,
+"lexId": "muscle"
+},
+{
+"w": "og‘iz",
+"syl": [
+"o",
+"g‘iz"
+],
+"theme": "body",
+"age": 4,
+"lexId": "mouth"
+},
+{
+"w": "orqa",
+"syl": [
+"or",
+"qa"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "oyoq",
+"syl": [
+"o",
+"yoq"
+],
+"theme": "body",
+"age": 4,
+"lexId": "foot"
+},
+{
+"w": "qorin",
+"syl": [
+"qo",
+"rin"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "qosh",
+"syl": [
+"qosh"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "qo‘l",
+"syl": [
+"qo‘l"
+],
+"theme": "body",
+"age": 4,
+"lexId": "hand"
+},
+{
+"w": "quloq",
+"syl": [
+"qu",
+"loq"
+],
+"theme": "body",
+"age": 4,
+"lexId": "ear"
+},
+{
+"w": "soch",
+"syl": [
+"soch"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "til",
+"syl": [
+"til"
+],
+"theme": "body",
+"age": 4,
+"lexId": "tongue"
+},
+{
+"w": "tirnoq",
+"syl": [
+"tir",
+"noq"
+],
+"theme": "body",
+"age": 6
+},
+{
+"w": "tish",
+"syl": [
+"tish"
+],
+"theme": "body",
+"age": 4,
+"lexId": "tooth"
+},
+{
+"w": "tizza",
+"syl": [
+"tiz",
+"za"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "tovon",
+"syl": [
+"to",
+"von"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "yelka",
+"syl": [
+"yel",
+"ka"
+],
+"theme": "body",
+"age": 4
+},
+{
+"w": "bant",
+"syl": [
+"bant"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "ribbon"
+},
+{
+"w": "chopon",
+"syl": [
+"cho",
+"pon"
+],
+"theme": "clothes",
+"age": 6
+},
+{
+"w": "cho‘ntak",
+"syl": [
+"cho‘n",
+"tak"
+],
+"theme": "clothes",
+"age": 6
+},
+{
+"w": "do‘ppi",
+"syl": [
+"do‘p",
+"pi"
+],
+"theme": "clothes",
+"age": 6
+},
+{
+"w": "etik",
+"syl": [
+"e",
+"tik"
+],
+"theme": "clothes",
+"age": 6,
+"lexId": "boot"
+},
+{
+"w": "futbolka",
+"syl": [
+"fut",
+"bol",
+"ka"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "tshirt"
+},
+{
+"w": "hamyon",
+"syl": [
+"ha",
+"myon"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "purse"
+},
+{
+"w": "kalish",
+"syl": [
+"ka",
+"lish"
+],
+"theme": "clothes",
+"age": 6
+},
+{
+"w": "kamzul",
+"syl": [
+"kam",
+"zul"
+],
+"theme": "clothes",
+"age": 6
+},
+{
+"w": "kaska",
+"syl": [
+"kas",
+"ka"
+],
+"theme": "clothes",
+"age": 6,
+"lexId": "helmet"
+},
+{
+"w": "kepka",
+"syl": [
+"kep",
+"ka"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "cap"
+},
+{
+"w": "kofta",
+"syl": [
+"kof",
+"ta"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "blouse"
+},
+{
+"w": "ko‘ylak",
+"syl": [
+"ko‘y",
+"lak"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "dress"
+},
+{
+"w": "ko‘zoynak",
+"syl": [
+"ko‘",
+"zoy",
+"nak"
+],
+"theme": "clothes",
+"age": 6,
+"lexId": "glasses"
+},
+{
+"w": "krossovka",
+"syl": [
+"kros",
+"sov",
+"ka"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "sneakers"
+},
+{
+"w": "palto",
+"syl": [
+"pal",
+"to"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "coat"
+},
+{
+"w": "paypoq",
+"syl": [
+"pay",
+"poq"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "socks"
+},
+{
+"w": "qo‘lqop",
+"syl": [
+"qo‘l",
+"qop"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "gloves"
+},
+{
+"w": "sharf",
+"syl": [
+"sharf"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "scarf"
+},
+{
+"w": "shim",
+"syl": [
+"shim"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "jeans"
+},
+{
+"w": "shlyapa",
+"syl": [
+"shlya",
+"pa"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "hat"
+},
+{
+"w": "sumka",
+"syl": [
+"sum",
+"ka"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "handbag"
+},
+{
+"w": "toj",
+"syl": [
+"toj"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "crown"
+},
+{
+"w": "tufli",
+"syl": [
+"tuf",
+"li"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "shoe"
+},
+{
+"w": "tugma",
+"syl": [
+"tug",
+"ma"
+],
+"theme": "clothes",
+"age": 4
+},
+{
+"w": "uzuk",
+"syl": [
+"u",
+"zuk"
+],
+"theme": "clothes",
+"age": 4,
+"lexId": "ring"
+},
+{
+"w": "yubka",
+"syl": [
+"yub",
+"ka"
+],
+"theme": "clothes",
+"age": 4
+},
+{
+"w": "binafsha",
+"syl": [
+"bi",
+"naf",
+"sha"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "jigarrang",
+"syl": [
+"ji",
+"gar",
+"rang"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "ko‘k",
+"syl": [
+"ko‘k"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "oq",
+"syl": [
+"oq"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "pushti",
+"syl": [
+"push",
+"ti"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "qizil",
+"syl": [
+"qi",
+"zil"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "qora",
+"syl": [
+"qo",
+"ra"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "sariq",
+"syl": [
+"sa",
+"riq"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "yashil",
+"syl": [
+"ya",
+"shil"
+],
+"theme": "color",
+"age": 4
+},
+{
+"w": "aka",
+"syl": [
+"a",
+"ka"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "amaki",
+"syl": [
+"a",
+"ma",
+"ki"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "amma",
+"syl": [
+"am",
+"ma"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "bobo",
+"syl": [
+"bo",
+"bo"
+],
+"theme": "family",
+"age": 4,
+"lexId": "grandfather"
+},
+{
+"w": "bola",
+"syl": [
+"bo",
+"la"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "bolalar",
+"syl": [
+"bo",
+"la",
+"lar"
+],
+"theme": "family",
+"age": 6
+},
+{
+"w": "buva",
+"syl": [
+"bu",
+"va"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "buvi",
+"syl": [
+"bu",
+"vi"
+],
+"theme": "family",
+"age": 4,
+"lexId": "grandmother"
+},
+{
+"w": "chaqaloq",
+"syl": [
+"cha",
+"qa",
+"loq"
+],
+"theme": "family",
+"age": 4,
+"lexId": "baby"
+},
+{
+"w": "dada",
+"syl": [
+"da",
+"da"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "do‘st",
+"syl": [
+"do‘st"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "mehmon",
+"syl": [
+"meh",
+"mon"
+],
+"theme": "family",
+"age": 6
+},
+{
+"w": "oila",
+"syl": [
+"o",
+"i",
+"la"
+],
+"theme": "family",
+"age": 4,
+"lexId": "family"
+},
+{
+"w": "ona",
+"syl": [
+"o",
+"na"
+],
+"theme": "family",
+"age": 4,
+"lexId": "mother"
+},
+{
+"w": "opa",
+"syl": [
+"o",
+"pa"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "ota",
+"syl": [
+"o",
+"ta"
+],
+"theme": "family",
+"age": 4,
+"lexId": "father"
+},
+{
+"w": "oyi",
+"syl": [
+"o",
+"yi"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "o‘g‘il",
+"syl": [
+"o‘",
+"g‘il"
+],
+"theme": "family",
+"age": 6
+},
+{
+"w": "qiz",
+"syl": [
+"qiz"
+],
+"theme": "family",
+"age": 4,
+"lexId": "girl"
+},
+{
+"w": "qo‘shni",
+"syl": [
+"qo‘sh",
+"ni"
+],
+"theme": "family",
+"age": 6
+},
+{
+"w": "singil",
+"syl": [
+"si",
+"ngil"
+],
+"theme": "family",
+"age": 6
+},
+{
+"w": "tog‘a",
+"syl": [
+"to",
+"g‘a"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "uka",
+"syl": [
+"u",
+"ka"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "xola",
+"syl": [
+"xo",
+"la"
+],
+"theme": "family",
+"age": 4
+},
+{
+"w": "anor",
+"syl": [
+"a",
+"nor"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "asal",
+"syl": [
+"a",
+"sal"
+],
+"theme": "food",
+"age": 4,
+"lexId": "honey"
+},
+{
+"w": "behi",
+"syl": [
+"be",
+"hi"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "bodom",
+"syl": [
+"bo",
+"dom"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "burger",
+"syl": [
+"bur",
+"ger"
+],
+"theme": "food",
+"age": 4,
+"lexId": "burger"
+},
+{
+"w": "buterbrod",
+"syl": [
+"bu",
+"terb",
+"rod"
+],
+"theme": "food",
+"age": 6,
+"lexId": "sandwich"
+},
+{
+"w": "choy",
+"syl": [
+"choy"
+],
+"theme": "food",
+"age": 4,
+"lexId": "tea"
+},
+{
+"w": "chuchvara",
+"syl": [
+"chuch",
+"va",
+"ra"
+],
+"theme": "food",
+"age": 4,
+"lexId": "dumpling"
+},
+{
+"w": "go‘sht",
+"syl": [
+"go‘sht"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "guruch",
+"syl": [
+"gu",
+"ruch"
+],
+"theme": "food",
+"age": 4,
+"lexId": "rice"
+},
+{
+"w": "ichimlik",
+"syl": [
+"i",
+"chim",
+"lik"
+],
+"theme": "food",
+"age": 4,
+"lexId": "drink"
+},
+{
+"w": "keks",
+"syl": [
+"keks"
+],
+"theme": "food",
+"age": 4,
+"lexId": "cupcake"
+},
+{
+"w": "kompot",
+"syl": [
+"kom",
+"pot"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "konfet",
+"syl": [
+"kon",
+"fet"
+],
+"theme": "food",
+"age": 4,
+"lexId": "candy"
+},
+{
+"w": "kruassan",
+"syl": [
+"kru",
+"as",
+"san"
+],
+"theme": "food",
+"age": 6,
+"lexId": "croissant"
+},
+{
+"w": "lag‘mon",
+"syl": [
+"lag‘",
+"mon"
+],
+"theme": "food",
+"age": 4,
+"lexId": "noodles"
+},
+{
+"w": "ledenets",
+"syl": [
+"le",
+"de",
+"nets"
+],
+"theme": "food",
+"age": 4,
+"lexId": "lollipop"
+},
+{
+"w": "manti",
+"syl": [
+"man",
+"ti"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "mayiz",
+"syl": [
+"ma",
+"yiz"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "murabbo",
+"syl": [
+"mu",
+"rab",
+"bo"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "muzqaymoq",
+"syl": [
+"muz",
+"qay",
+"moq"
+],
+"theme": "food",
+"age": 4,
+"lexId": "ice_cream"
+},
+{
+"w": "non",
+"syl": [
+"non"
+],
+"theme": "food",
+"age": 4,
+"lexId": "bread"
+},
+{
+"w": "norin",
+"syl": [
+"no",
+"rin"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "olcha",
+"syl": [
+"ol",
+"cha"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "osh",
+"syl": [
+"osh"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "o‘rik",
+"syl": [
+"o‘",
+"rik"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "palov",
+"syl": [
+"pa",
+"lov"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "pechenye",
+"syl": [
+"pe",
+"chen",
+"ye"
+],
+"theme": "food",
+"age": 4,
+"lexId": "cookie"
+},
+{
+"w": "pirog",
+"syl": [
+"pi",
+"rog"
+],
+"theme": "food",
+"age": 4,
+"lexId": "pie"
+},
+{
+"w": "pishloq",
+"syl": [
+"pish",
+"loq"
+],
+"theme": "food",
+"age": 4,
+"lexId": "cheese"
+},
+{
+"w": "pitsa",
+"syl": [
+"pit",
+"sa"
+],
+"theme": "food",
+"age": 4,
+"lexId": "pizza"
+},
+{
+"w": "ponchik",
+"syl": [
+"pon",
+"chik"
+],
+"theme": "food",
+"age": 4,
+"lexId": "donut"
+},
+{
+"w": "popkorn",
+"syl": [
+"pop",
+"korn"
+],
+"theme": "food",
+"age": 4,
+"lexId": "popcorn"
+},
+{
+"w": "qatiq",
+"syl": [
+"qa",
+"tiq"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "qaymoq",
+"syl": [
+"qay",
+"moq"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "quymoq",
+"syl": [
+"quy",
+"moq"
+],
+"theme": "food",
+"age": 4,
+"lexId": "pancakes"
+},
+{
+"w": "salat",
+"syl": [
+"sa",
+"lat"
+],
+"theme": "food",
+"age": 4,
+"lexId": "salad"
+},
+{
+"w": "sariyog‘",
+"syl": [
+"sa",
+"ri",
+"yog‘"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "shakar",
+"syl": [
+"sha",
+"kar"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "shokolad",
+"syl": [
+"sho",
+"ko",
+"lad"
+],
+"theme": "food",
+"age": 4,
+"lexId": "chocolate"
+},
+{
+"w": "sho‘rva",
+"syl": [
+"sho‘r",
+"va"
+],
+"theme": "food",
+"age": 4,
+"lexId": "soup"
+},
+{
+"w": "somsa",
+"syl": [
+"som",
+"sa"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "sut",
+"syl": [
+"sut"
+],
+"theme": "food",
+"age": 4,
+"lexId": "milk"
+},
+{
+"w": "suyak",
+"syl": [
+"su",
+"yak"
+],
+"theme": "food",
+"age": 4,
+"lexId": "bone"
+},
+{
+"w": "tort",
+"syl": [
+"tort"
+],
+"theme": "food",
+"age": 4,
+"lexId": "cake"
+},
+{
+"w": "tut",
+"syl": [
+"tut"
+],
+"theme": "food",
+"age": 4
+},
+{
+"w": "tuxum",
+"syl": [
+"tu",
+"xum"
+],
+"theme": "food",
+"age": 4,
+"lexId": "egg"
+},
+{
+"w": "tuz",
+"syl": [
+"tuz"
+],
+"theme": "food",
+"age": 4,
+"lexId": "salt"
+},
+{
+"w": "yong‘oq",
+"syl": [
+"yon",
+"g‘oq"
+],
+"theme": "food",
+"age": 6
+},
+{
+"w": "ananas",
+"syl": [
+"a",
+"na",
+"nas"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "pineapple"
+},
+{
+"w": "apelsin",
+"syl": [
+"a",
+"pel",
+"sin"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "orange"
+},
+{
+"w": "banan",
+"syl": [
+"ba",
+"nan"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "banana"
+},
+{
+"w": "gilos",
+"syl": [
+"gi",
+"los"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "cherry"
+},
+{
+"w": "kivi",
+"syl": [
+"ki",
+"vi"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "kiwi"
+},
+{
+"w": "kokos",
+"syl": [
+"ko",
+"kos"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "coconut"
+},
+{
+"w": "limon",
+"syl": [
+"li",
+"mon"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "lemon"
+},
+{
+"w": "mango",
+"syl": [
+"ma",
+"ngo"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "mango"
+},
+{
+"w": "nok",
+"syl": [
+"nok"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "pear"
+},
+{
+"w": "olma",
+"syl": [
+"ol",
+"ma"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "apple"
+},
+{
+"w": "qovun",
+"syl": [
+"qo",
+"vun"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "melon"
+},
+{
+"w": "qulupnay",
+"syl": [
+"qu",
+"lup",
+"nay"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "strawberry"
+},
+{
+"w": "shaftoli",
+"syl": [
+"shaf",
+"to",
+"li"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "peach"
+},
+{
+"w": "tarvuz",
+"syl": [
+"tar",
+"vuz"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "watermelon"
+},
+{
+"w": "uzum",
+"syl": [
+"u",
+"zum"
+],
+"theme": "fruit",
+"age": 4,
+"lexId": "grapes"
+},
+{
+"w": "bolg‘a",
+"syl": [
+"bol",
+"g‘a"
+],
+"theme": "home",
+"age": 6,
+"lexId": "hammer"
+},
+{
+"w": "chiroq",
+"syl": [
+"chi",
+"roq"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "choynak",
+"syl": [
+"choy",
+"nak"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "deraza",
+"syl": [
+"de",
+"ra",
+"za"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "devor",
+"syl": [
+"de",
+"vor"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "divan",
+"syl": [
+"di",
+"van"
+],
+"theme": "home",
+"age": 4,
+"lexId": "couch"
+},
+{
+"w": "dush",
+"syl": [
+"dush"
+],
+"theme": "home",
+"age": 4,
+"lexId": "shower"
+},
+{
+"w": "eshik",
+"syl": [
+"e",
+"shik"
+],
+"theme": "home",
+"age": 4,
+"lexId": "door"
+},
+{
+"w": "fonar",
+"syl": [
+"fo",
+"nar"
+],
+"theme": "home",
+"age": 4,
+"lexId": "flashlight"
+},
+{
+"w": "fotoapparat",
+"syl": [
+"fo",
+"to",
+"ap",
+"pa",
+"rat"
+],
+"theme": "home",
+"age": 4,
+"lexId": "camera"
+},
+{
+"w": "gilam",
+"syl": [
+"gi",
+"lam"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "gubka",
+"syl": [
+"gub",
+"ka"
+],
+"theme": "home",
+"age": 4,
+"lexId": "sponge"
+},
+{
+"w": "g‘isht",
+"syl": [
+"g‘isht"
+],
+"theme": "home",
+"age": 4,
+"lexId": "brick"
+},
+{
+"w": "javon",
+"syl": [
+"ja",
+"von"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "kalit",
+"syl": [
+"ka",
+"lit"
+],
+"theme": "home",
+"age": 4,
+"lexId": "key"
+},
+{
+"w": "karavot",
+"syl": [
+"ka",
+"ra",
+"vot"
+],
+"theme": "home",
+"age": 4,
+"lexId": "bed"
+},
+{
+"w": "kompyuter",
+"syl": [
+"kom",
+"pyu",
+"ter"
+],
+"theme": "home",
+"age": 4,
+"lexId": "computer"
+},
+{
+"w": "kosa",
+"syl": [
+"ko",
+"sa"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "ko‘rpa",
+"syl": [
+"ko‘r",
+"pa"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "lampochka",
+"syl": [
+"lam",
+"poch",
+"ka"
+],
+"theme": "home",
+"age": 4,
+"lexId": "lamp"
+},
+{
+"w": "likopcha",
+"syl": [
+"li",
+"kop",
+"cha"
+],
+"theme": "home",
+"age": 4,
+"lexId": "plate"
+},
+{
+"w": "magnit",
+"syl": [
+"mag",
+"nit"
+],
+"theme": "home",
+"age": 6,
+"lexId": "magnet"
+},
+{
+"w": "oshxona",
+"syl": [
+"osh",
+"xo",
+"na"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "oyna",
+"syl": [
+"oy",
+"na"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "patnis",
+"syl": [
+"pat",
+"nis"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "pichoq",
+"syl": [
+"pi",
+"choq"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "piyola",
+"syl": [
+"pi",
+"yo",
+"la"
+],
+"theme": "home",
+"age": 4,
+"lexId": "cup"
+},
+{
+"w": "pol",
+"syl": [
+"pol"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "qoshiq",
+"syl": [
+"qo",
+"shiq"
+],
+"theme": "home",
+"age": 4,
+"lexId": "spoon"
+},
+{
+"w": "qozon",
+"syl": [
+"qo",
+"zon"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "qo‘ng‘iroqcha",
+"syl": [
+"qo‘n",
+"g‘i",
+"roq",
+"cha"
+],
+"theme": "home",
+"age": 6,
+"lexId": "teapot_bell"
+},
+{
+"w": "qulf",
+"syl": [
+"qulf"
+],
+"theme": "home",
+"age": 4,
+"lexId": "lock"
+},
+{
+"w": "quti",
+"syl": [
+"qu",
+"ti"
+],
+"theme": "home",
+"age": 4,
+"lexId": "box"
+},
+{
+"w": "rasm",
+"syl": [
+"rasm"
+],
+"theme": "home",
+"age": 4,
+"lexId": "picture"
+},
+{
+"w": "sanchqi",
+"syl": [
+"sanch",
+"qi"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "savat",
+"syl": [
+"sa",
+"vat"
+],
+"theme": "home",
+"age": 4,
+"lexId": "basket"
+},
+{
+"w": "sham",
+"syl": [
+"sham"
+],
+"theme": "home",
+"age": 6,
+"lexId": "candle"
+},
+{
+"w": "shkaf",
+"syl": [
+"shkaf"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "soat",
+"syl": [
+"so",
+"at"
+],
+"theme": "home",
+"age": 4,
+"lexId": "clock"
+},
+{
+"w": "soyabon",
+"syl": [
+"so",
+"ya",
+"bon"
+],
+"theme": "home",
+"age": 4,
+"lexId": "umbrella"
+},
+{
+"w": "stol",
+"syl": [
+"stol"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "supurgi",
+"syl": [
+"su",
+"pur",
+"gi"
+],
+"theme": "home",
+"age": 4,
+"lexId": "broom"
+},
+{
+"w": "telefon",
+"syl": [
+"te",
+"le",
+"fon"
+],
+"theme": "home",
+"age": 4,
+"lexId": "phone"
+},
+{
+"w": "televizor",
+"syl": [
+"te",
+"le",
+"vi",
+"zor"
+],
+"theme": "home",
+"age": 4,
+"lexId": "tv"
+},
+{
+"w": "tom",
+"syl": [
+"tom"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "uy",
+"syl": [
+"uy"
+],
+"theme": "home",
+"age": 4,
+"lexId": "house"
+},
+{
+"w": "vanna",
+"syl": [
+"van",
+"na"
+],
+"theme": "home",
+"age": 4,
+"lexId": "bathtub"
+},
+{
+"w": "xat",
+"syl": [
+"xat"
+],
+"theme": "home",
+"age": 4,
+"lexId": "envelope"
+},
+{
+"w": "xona",
+"syl": [
+"xo",
+"na"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "yostiq",
+"syl": [
+"yos",
+"tiq"
+],
+"theme": "home",
+"age": 6
+},
+{
+"w": "zina",
+"syl": [
+"zi",
+"na"
+],
+"theme": "home",
+"age": 4
+},
+{
+"w": "ari",
+"syl": [
+"a",
+"ri"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "bee"
+},
+{
+"w": "chayon",
+"syl": [
+"cha",
+"yon"
+],
+"theme": "insect",
+"age": 6,
+"lexId": "scorpion"
+},
+{
+"w": "chigirtka",
+"syl": [
+"chi",
+"girt",
+"ka"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "cricket"
+},
+{
+"w": "chivin",
+"syl": [
+"chi",
+"vin"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "mosquito"
+},
+{
+"w": "chumoli",
+"syl": [
+"chu",
+"mo",
+"li"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "ant"
+},
+{
+"w": "kapalak",
+"syl": [
+"ka",
+"pa",
+"lak"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "butterfly"
+},
+{
+"w": "o‘rgimchak",
+"syl": [
+"o‘r",
+"gim",
+"chak"
+],
+"theme": "insect",
+"age": 6,
+"lexId": "spider"
+},
+{
+"w": "qurt",
+"syl": [
+"qurt"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "caterpillar"
+},
+{
+"w": "shilliqqurt",
+"syl": [
+"shil",
+"liq",
+"qurt"
+],
+"theme": "insect",
+"age": 6,
+"lexId": "snail"
+},
+{
+"w": "xonqizi",
+"syl": [
+"xon",
+"qi",
+"zi"
+],
+"theme": "insect",
+"age": 4,
+"lexId": "ladybug"
+},
+{
+"w": "archa",
+"syl": [
+"ar",
+"cha"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "fir"
+},
+{
+"w": "ariq",
+"syl": [
+"a",
+"riq"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "atirgul",
+"syl": [
+"a",
+"tir",
+"gul"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "rose"
+},
+{
+"w": "bahor",
+"syl": [
+"ba",
+"hor"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "bambuk",
+"syl": [
+"bam",
+"buk"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "bamboo"
+},
+{
+"w": "barg",
+"syl": [
+"barg"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "leaf"
+},
+{
+"w": "beda",
+"syl": [
+"be",
+"da"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "clover"
+},
+{
+"w": "bog‘",
+"syl": [
+"bog‘"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "bo‘ron",
+"syl": [
+"bo‘",
+"ron"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "tornado"
+},
+{
+"w": "bug‘doy",
+"syl": [
+"bug‘",
+"doy"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "field"
+},
+{
+"w": "buloq",
+"syl": [
+"bu",
+"loq"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "bulut",
+"syl": [
+"bu",
+"lut"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "cloud"
+},
+{
+"w": "chaqmoq",
+"syl": [
+"chaq",
+"moq"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "lightning"
+},
+{
+"w": "cho‘l",
+"syl": [
+"cho‘l"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "desert"
+},
+{
+"w": "cho‘qqi",
+"syl": [
+"cho‘q",
+"qi"
+],
+"theme": "nature",
+"age": 6
+},
+{
+"w": "dala",
+"syl": [
+"da",
+"la"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "daraxt",
+"syl": [
+"da",
+"raxt"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "tree"
+},
+{
+"w": "daryo",
+"syl": [
+"dar",
+"yo"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "dengiz",
+"syl": [
+"de",
+"ngiz"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "wave"
+},
+{
+"w": "gul",
+"syl": [
+"gul"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "flower"
+},
+{
+"w": "havo",
+"syl": [
+"ha",
+"vo"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "kaktus",
+"syl": [
+"kak",
+"tus"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "cactus"
+},
+{
+"w": "kamalak",
+"syl": [
+"ka",
+"ma",
+"lak"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "rainbow"
+},
+{
+"w": "kech",
+"syl": [
+"kech"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "kometa",
+"syl": [
+"ko",
+"me",
+"ta"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "comet"
+},
+{
+"w": "ko‘l",
+"syl": [
+"ko‘l"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "kun",
+"syl": [
+"kun"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "kungaboqar",
+"syl": [
+"ku",
+"nga",
+"bo",
+"qar"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "sunflower"
+},
+{
+"w": "kuz",
+"syl": [
+"kuz"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "lola",
+"syl": [
+"lo",
+"la"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "tulip"
+},
+{
+"w": "moychechak",
+"syl": [
+"moy",
+"che",
+"chak"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "blossom"
+},
+{
+"w": "muz",
+"syl": [
+"muz"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "nihol",
+"syl": [
+"ni",
+"hol"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "seedling"
+},
+{
+"w": "olov",
+"syl": [
+"o",
+"lov"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "fire"
+},
+{
+"w": "orol",
+"syl": [
+"o",
+"rol"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "island"
+},
+{
+"w": "osmon",
+"syl": [
+"os",
+"mon"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "oy",
+"syl": [
+"oy"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "moon"
+},
+{
+"w": "o‘rmon",
+"syl": [
+"o‘r",
+"mon"
+],
+"theme": "nature",
+"age": 6
+},
+{
+"w": "o‘t",
+"syl": [
+"o‘t"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "herb"
+},
+{
+"w": "palma",
+"syl": [
+"pal",
+"ma"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "palm"
+},
+{
+"w": "qish",
+"syl": [
+"qish"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "qor",
+"syl": [
+"qor"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "snowflake"
+},
+{
+"w": "qum",
+"syl": [
+"qum"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "quyosh",
+"syl": [
+"qu",
+"yosh"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "sun"
+},
+{
+"w": "shamol",
+"syl": [
+"sha",
+"mol"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "wind"
+},
+{
+"w": "suv",
+"syl": [
+"suv"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "tog‘",
+"syl": [
+"tog‘"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "mountain"
+},
+{
+"w": "tomchi",
+"syl": [
+"tom",
+"chi"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "droplet"
+},
+{
+"w": "tong",
+"syl": [
+"tong"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "sunrise"
+},
+{
+"w": "tosh",
+"syl": [
+"tosh"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "tun",
+"syl": [
+"tun"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "tuproq",
+"syl": [
+"tup",
+"roq"
+],
+"theme": "nature",
+"age": 6
+},
+{
+"w": "vulqon",
+"syl": [
+"vul",
+"qon"
+],
+"theme": "nature",
+"age": 6,
+"lexId": "volcano"
+},
+{
+"w": "yer",
+"syl": [
+"yer"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "yomg‘ir",
+"syl": [
+"yom",
+"g‘ir"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "rain"
+},
+{
+"w": "yoz",
+"syl": [
+"yoz"
+],
+"theme": "nature",
+"age": 4
+},
+{
+"w": "yulduz",
+"syl": [
+"yul",
+"duz"
+],
+"theme": "nature",
+"age": 4,
+"lexId": "star"
+},
+{
+"w": "besh",
+"syl": [
+"besh"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "bir",
+"syl": [
+"bir"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "ikki",
+"syl": [
+"ik",
+"ki"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "olti",
+"syl": [
+"ol",
+"ti"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "o‘n",
+"syl": [
+"o‘n"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "sakkiz",
+"syl": [
+"sak",
+"kiz"
+],
+"theme": "number",
+"age": 6
+},
+{
+"w": "to‘qqiz",
+"syl": [
+"to‘q",
+"qiz"
+],
+"theme": "number",
+"age": 6
+},
+{
+"w": "to‘rt",
+"syl": [
+"to‘rt"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "yetti",
+"syl": [
+"yet",
+"ti"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "yigirma",
+"syl": [
+"yi",
+"gir",
+"ma"
+],
+"theme": "number",
+"age": 6
+},
+{
+"w": "yuz",
+"syl": [
+"yuz"
+],
+"theme": "number",
+"age": 4
+},
+{
+"w": "biz",
+"syl": [
+"biz"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "bu",
+"syl": [
+"bu"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "ha",
+"syl": [
+"ha"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "kim",
+"syl": [
+"kim"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "mana",
+"syl": [
+"ma",
+"na"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "men",
+"syl": [
+"men"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "nechta",
+"syl": [
+"nech",
+"ta"
+],
+"theme": "other",
+"age": 6
+},
+{
+"w": "nima",
+"syl": [
+"ni",
+"ma"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "qachon",
+"syl": [
+"qa",
+"chon"
+],
+"theme": "other",
+"age": 6
+},
+{
+"w": "qayer",
+"syl": [
+"qa",
+"yer"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "rahmat",
+"syl": [
+"rah",
+"mat"
+],
+"theme": "other",
+"age": 6
+},
+{
+"w": "salom",
+"syl": [
+"sa",
+"lom"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "sen",
+"syl": [
+"sen"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "u",
+"syl": [
+"u"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "ular",
+"syl": [
+"u",
+"lar"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "xayr",
+"syl": [
+"xayr"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "yo‘q",
+"syl": [
+"yo‘q"
+],
+"theme": "other",
+"age": 4
+},
+{
+"w": "bank",
+"syl": [
+"bank"
+],
+"theme": "place",
+"age": 6,
+"lexId": "bank"
+},
+{
+"w": "bekat",
+"syl": [
+"be",
+"kat"
+],
+"theme": "place",
+"age": 4
+},
+{
+"w": "bog‘cha",
+"syl": [
+"bog‘",
+"cha"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "bozor",
+"syl": [
+"bo",
+"zor"
+],
+"theme": "place",
+"age": 4
+},
+{
+"w": "chodir",
+"syl": [
+"cho",
+"dir"
+],
+"theme": "place",
+"age": 4,
+"lexId": "tent"
+},
+{
+"w": "do‘kon",
+"syl": [
+"do‘",
+"kon"
+],
+"theme": "place",
+"age": 4,
+"lexId": "shop"
+},
+{
+"w": "hovli",
+"syl": [
+"hov",
+"li"
+],
+"theme": "place",
+"age": 4,
+"lexId": "yard_house"
+},
+{
+"w": "kasalxona",
+"syl": [
+"ka",
+"sal",
+"xo",
+"na"
+],
+"theme": "place",
+"age": 4,
+"lexId": "hospital"
+},
+{
+"w": "ko‘cha",
+"syl": [
+"ko‘",
+"cha"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "ko‘prik",
+"syl": [
+"ko‘p",
+"rik"
+],
+"theme": "place",
+"age": 4,
+"lexId": "bridge"
+},
+{
+"w": "masjid",
+"syl": [
+"mas",
+"jid"
+],
+"theme": "place",
+"age": 4,
+"lexId": "mosque"
+},
+{
+"w": "maydon",
+"syl": [
+"may",
+"don"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "qasr",
+"syl": [
+"qasr"
+],
+"theme": "place",
+"age": 4,
+"lexId": "castle"
+},
+{
+"w": "qishloq",
+"syl": [
+"qish",
+"loq"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "shahar",
+"syl": [
+"sha",
+"har"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "stadion",
+"syl": [
+"sta",
+"di",
+"on"
+],
+"theme": "place",
+"age": 6,
+"lexId": "stadium"
+},
+{
+"w": "xiyobon",
+"syl": [
+"xi",
+"yo",
+"bon"
+],
+"theme": "place",
+"age": 6
+},
+{
+"w": "yo‘l",
+"syl": [
+"yo‘l"
+],
+"theme": "place",
+"age": 4
+},
+{
+"w": "zavod",
+"syl": [
+"za",
+"vod"
+],
+"theme": "place",
+"age": 6,
+"lexId": "factory"
+},
+{
+"w": "dasturchi",
+"syl": [
+"das",
+"tur",
+"chi"
+],
+"theme": "profession",
+"age": 6,
+"lexId": "programmer"
+},
+{
+"w": "dehqon",
+"syl": [
+"deh",
+"qon"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "farmer"
+},
+{
+"w": "ishchi",
+"syl": [
+"ish",
+"chi"
+],
+"theme": "profession",
+"age": 6,
+"lexId": "worker"
+},
+{
+"w": "kosmonavt",
+"syl": [
+"kos",
+"mo",
+"navt"
+],
+"theme": "profession",
+"age": 6,
+"lexId": "astronaut"
+},
+{
+"w": "olim",
+"syl": [
+"o",
+"lim"
+],
+"theme": "profession",
+"age": 6,
+"lexId": "scientist"
+},
+{
+"w": "oshpaz",
+"syl": [
+"osh",
+"paz"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "cook"
+},
+{
+"w": "o‘qituvchi",
+"syl": [
+"o‘",
+"qi",
+"tuv",
+"chi"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "teacher"
+},
+{
+"w": "politsiyachi",
+"syl": [
+"po",
+"lit",
+"si",
+"ya",
+"chi"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "police"
+},
+{
+"w": "quruvchi",
+"syl": [
+"qu",
+"ruv",
+"chi"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "builder"
+},
+{
+"w": "rassom",
+"syl": [
+"ras",
+"som"
+],
+"theme": "profession",
+"age": 6,
+"lexId": "artist"
+},
+{
+"w": "shifokor",
+"syl": [
+"shi",
+"fo",
+"kor"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "doctor"
+},
+{
+"w": "uchuvchi",
+"syl": [
+"u",
+"chuv",
+"chi"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "pilot"
+},
+{
+"w": "usta",
+"syl": [
+"us",
+"ta"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "mechanic"
+},
+{
+"w": "xonanda",
+"syl": [
+"xo",
+"nan",
+"da"
+],
+"theme": "profession",
+"age": 4,
+"lexId": "singer"
+},
+{
+"w": "alifbo",
+"syl": [
+"a",
+"lif",
+"bo"
+],
+"theme": "school",
+"age": 6
+},
+{
+"w": "bo‘r",
+"syl": [
+"bo‘r"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "chizg‘ich",
+"syl": [
+"chiz",
+"g‘ich"
+],
+"theme": "school",
+"age": 4,
+"lexId": "ruler"
+},
+{
+"w": "cho‘t",
+"syl": [
+"cho‘t"
+],
+"theme": "school",
+"age": 4,
+"lexId": "abacus"
+},
+{
+"w": "daftar",
+"syl": [
+"daf",
+"tar"
+],
+"theme": "school",
+"age": 4,
+"lexId": "notebook"
+},
+{
+"w": "dars",
+"syl": [
+"dars"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "doska",
+"syl": [
+"dos",
+"ka"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "ertak",
+"syl": [
+"er",
+"tak"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "gap",
+"syl": [
+"gap"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "globus",
+"syl": [
+"glo",
+"bus"
+],
+"theme": "school",
+"age": 6,
+"lexId": "globe"
+},
+{
+"w": "harf",
+"syl": [
+"harf"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "kalendar",
+"syl": [
+"ka",
+"len",
+"dar"
+],
+"theme": "school",
+"age": 6,
+"lexId": "calendar"
+},
+{
+"w": "kitob",
+"syl": [
+"ki",
+"tob"
+],
+"theme": "school",
+"age": 4,
+"lexId": "book"
+},
+{
+"w": "kitoblar",
+"syl": [
+"ki",
+"tob",
+"lar"
+],
+"theme": "school",
+"age": 4,
+"lexId": "books"
+},
+{
+"w": "kitobxona",
+"syl": [
+"ki",
+"tob",
+"xo",
+"na"
+],
+"theme": "school",
+"age": 6
+},
+{
+"w": "maktab",
+"syl": [
+"mak",
+"tab"
+],
+"theme": "school",
+"age": 4,
+"lexId": "school"
+},
+{
+"w": "mikroskop",
+"syl": [
+"mik",
+"ros",
+"kop"
+],
+"theme": "school",
+"age": 6,
+"lexId": "microscope"
+},
+{
+"w": "mo‘yqalam",
+"syl": [
+"mo‘y",
+"qa",
+"lam"
+],
+"theme": "school",
+"age": 4,
+"lexId": "paintbrush"
+},
+{
+"w": "o‘quvchi",
+"syl": [
+"o‘",
+"quv",
+"chi"
+],
+"theme": "school",
+"age": 6
+},
+{
+"w": "o‘yin",
+"syl": [
+"o‘",
+"yin"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "parta",
+"syl": [
+"par",
+"ta"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "qalam",
+"syl": [
+"qa",
+"lam"
+],
+"theme": "school",
+"age": 4,
+"lexId": "pencil"
+},
+{
+"w": "qaychi",
+"syl": [
+"qay",
+"chi"
+],
+"theme": "school",
+"age": 4,
+"lexId": "scissors"
+},
+{
+"w": "qog‘oz",
+"syl": [
+"qo",
+"g‘oz"
+],
+"theme": "school",
+"age": 4,
+"lexId": "paper"
+},
+{
+"w": "qo‘ng‘iroq",
+"syl": [
+"qo‘n",
+"g‘i",
+"roq"
+],
+"theme": "school",
+"age": 4,
+"lexId": "bell"
+},
+{
+"w": "qo‘shiq",
+"syl": [
+"qo‘",
+"shiq"
+],
+"theme": "school",
+"age": 6
+},
+{
+"w": "ruchka",
+"syl": [
+"ruch",
+"ka"
+],
+"theme": "school",
+"age": 4,
+"lexId": "pen"
+},
+{
+"w": "ryukzak",
+"syl": [
+"ryuk",
+"zak"
+],
+"theme": "school",
+"age": 4,
+"lexId": "backpack"
+},
+{
+"w": "sinf",
+"syl": [
+"sinf"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "son",
+"syl": [
+"son"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "so‘z",
+"syl": [
+"so‘z"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "tanaffus",
+"syl": [
+"ta",
+"naf",
+"fus"
+],
+"theme": "school",
+"age": 6
+},
+{
+"w": "teleskop",
+"syl": [
+"te",
+"les",
+"kop"
+],
+"theme": "school",
+"age": 6,
+"lexId": "telescope"
+},
+{
+"w": "ustoz",
+"syl": [
+"us",
+"toz"
+],
+"theme": "school",
+"age": 4
+},
+{
+"w": "akula",
+"syl": [
+"a",
+"ku",
+"la"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "shark"
+},
+{
+"w": "baliq",
+"syl": [
+"ba",
+"liq"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "fish"
+},
+{
+"w": "delfin",
+"syl": [
+"del",
+"fin"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "dolphin"
+},
+{
+"w": "kit",
+"syl": [
+"kit"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "whale"
+},
+{
+"w": "qisqichbaqa",
+"syl": [
+"qis",
+"qich",
+"ba",
+"qa"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "crab"
+},
+{
+"w": "sakkizoyoq",
+"syl": [
+"sak",
+"ki",
+"zo",
+"yoq"
+],
+"theme": "sea",
+"age": 4,
+"lexId": "octopus"
+},
+{
+"w": "bugun",
+"syl": [
+"bu",
+"gun"
+],
+"theme": "time",
+"age": 4
+},
+{
+"w": "daqiqa",
+"syl": [
+"da",
+"qi",
+"qa"
+],
+"theme": "time",
+"age": 6
+},
+{
+"w": "ertaga",
+"syl": [
+"er",
+"ta",
+"ga"
+],
+"theme": "time",
+"age": 6
+},
+{
+"w": "ertalab",
+"syl": [
+"er",
+"ta",
+"lab"
+],
+"theme": "time",
+"age": 6
+},
+{
+"w": "hafta",
+"syl": [
+"haf",
+"ta"
+],
+"theme": "time",
+"age": 4
+},
+{
+"w": "kecha",
+"syl": [
+"ke",
+"cha"
+],
+"theme": "time",
+"age": 4
+},
+{
+"w": "kechqurun",
+"syl": [
+"kech",
+"qu",
+"run"
+],
+"theme": "time",
+"age": 6
+},
+{
+"w": "ayiqcha",
+"syl": [
+"a",
+"yiq",
+"cha"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "teddy"
+},
+{
+"w": "baraban",
+"syl": [
+"ba",
+"ra",
+"ban"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "drum"
+},
+{
+"w": "bo‘yoq",
+"syl": [
+"bo‘",
+"yoq"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "palette"
+},
+{
+"w": "chana",
+"syl": [
+"cha",
+"na"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "sled"
+},
+{
+"w": "charxpalak",
+"syl": [
+"charx",
+"pa",
+"lak"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "ferris_wheel"
+},
+{
+"w": "darvoza",
+"syl": [
+"dar",
+"vo",
+"za"
+],
+"theme": "toy",
+"age": 6,
+"lexId": "soccer_goal"
+},
+{
+"w": "gitara",
+"syl": [
+"gi",
+"ta",
+"ra"
+],
+"theme": "toy",
+"age": 6,
+"lexId": "guitar"
+},
+{
+"w": "ip",
+"syl": [
+"ip"
+],
+"theme": "toy",
+"age": 6,
+"lexId": "yarn"
+},
+{
+"w": "karnay",
+"syl": [
+"kar",
+"nay"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "trumpet"
+},
+{
+"w": "karusel",
+"syl": [
+"ka",
+"ru",
+"sel"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "carousel"
+},
+{
+"w": "konki",
+"syl": [
+"kon",
+"ki"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "skates"
+},
+{
+"w": "kubok",
+"syl": [
+"ku",
+"bok"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "trophy"
+},
+{
+"w": "medal",
+"syl": [
+"me",
+"dal"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "medal"
+},
+{
+"w": "mikrofon",
+"syl": [
+"mik",
+"ro",
+"fon"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "microphone"
+},
+{
+"w": "nishon",
+"syl": [
+"ni",
+"shon"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "target"
+},
+{
+"w": "pazl",
+"syl": [
+"pazl"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "puzzle_piece"
+},
+{
+"w": "pianino",
+"syl": [
+"pi",
+"a",
+"ni",
+"no"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "piano"
+},
+{
+"w": "quloqchin",
+"syl": [
+"qu",
+"loq",
+"chin"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "headphones"
+},
+{
+"w": "robot",
+"syl": [
+"ro",
+"bot"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "robot"
+},
+{
+"w": "sirk",
+"syl": [
+"sirk"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "circus"
+},
+{
+"w": "skripka",
+"syl": [
+"skrip",
+"ka"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "violin"
+},
+{
+"w": "sovg‘a",
+"syl": [
+"sov",
+"g‘a"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "gift"
+},
+{
+"w": "to‘p",
+"syl": [
+"to‘p"
+],
+"theme": "toy",
+"age": 4,
+"lexId": "ball"
+},
+{
+"w": "baqlajon",
+"syl": [
+"baq",
+"la",
+"jon"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "eggplant"
+},
+{
+"w": "bodring",
+"syl": [
+"bod",
+"ring"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "cucumber"
+},
+{
+"w": "brokkoli",
+"syl": [
+"brok",
+"ko",
+"li"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "broccoli"
+},
+{
+"w": "karam",
+"syl": [
+"ka",
+"ram"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "cabbage"
+},
+{
+"w": "kartoshka",
+"syl": [
+"kar",
+"tosh",
+"ka"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "potato"
+},
+{
+"w": "kashtan",
+"syl": [
+"kash",
+"tan"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "chestnut"
+},
+{
+"w": "makkajo‘xori",
+"syl": [
+"mak",
+"ka",
+"jo‘",
+"xo",
+"ri"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "corn"
+},
+{
+"w": "pomidor",
+"syl": [
+"po",
+"mi",
+"dor"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "tomato"
+},
+{
+"w": "qalampir",
+"syl": [
+"qa",
+"lam",
+"pir"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "pepper"
+},
+{
+"w": "qo‘ziqorin",
+"syl": [
+"qo‘",
+"zi",
+"qo",
+"rin"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "mushroom"
+},
+{
+"w": "sabzi",
+"syl": [
+"sab",
+"zi"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "carrot"
+},
+{
+"w": "yeryong‘oq",
+"syl": [
+"yer",
+"yon",
+"g‘oq"
+],
+"theme": "vegetable",
+"age": 4,
+"lexId": "peanut"
+},
+{
+"w": "avtobus",
+"syl": [
+"av",
+"to",
+"bus"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "bus"
+},
+{
+"w": "kater",
+"syl": [
+"ka",
+"ter"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "speedboat"
+},
+{
+"w": "kema",
+"syl": [
+"ke",
+"ma"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "ship"
+},
+{
+"w": "mashina",
+"syl": [
+"ma",
+"shi",
+"na"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "car"
+},
+{
+"w": "metro",
+"syl": [
+"met",
+"ro"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "metro"
+},
+{
+"w": "mikroavtobus",
+"syl": [
+"mik",
+"ro",
+"av",
+"to",
+"bus"
+],
+"theme": "vehicle",
+"age": 6,
+"lexId": "minibus"
+},
+{
+"w": "moped",
+"syl": [
+"mo",
+"ped"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "moped"
+},
+{
+"w": "mototsikl",
+"syl": [
+"mo",
+"tot",
+"sikl"
+],
+"theme": "vehicle",
+"age": 6,
+"lexId": "motorcycle"
+},
+{
+"w": "poyezd",
+"syl": [
+"po",
+"yezd"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "train"
+},
+{
+"w": "qayiq",
+"syl": [
+"qa",
+"yiq"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "boat"
+},
+{
+"w": "raketa",
+"syl": [
+"ra",
+"ke",
+"ta"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "rocket"
+},
+{
+"w": "samokat",
+"syl": [
+"sa",
+"mo",
+"kat"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "scooter"
+},
+{
+"w": "samolyot",
+"syl": [
+"sa",
+"mo",
+"lyot"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "airplane"
+},
+{
+"w": "svetofor",
+"syl": [
+"sve",
+"to",
+"for"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "traffic_light"
+},
+{
+"w": "taksi",
+"syl": [
+"tak",
+"si"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "taxi"
+},
+{
+"w": "traktor",
+"syl": [
+"trak",
+"tor"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "tractor"
+},
+{
+"w": "tramvay",
+"syl": [
+"tram",
+"vay"
+],
+"theme": "vehicle",
+"age": 6,
+"lexId": "tram"
+},
+{
+"w": "velosiped",
+"syl": [
+"ve",
+"lo",
+"si",
+"ped"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "bicycle"
+},
+{
+"w": "vertolyot",
+"syl": [
+"ver",
+"to",
+"lyot"
+],
+"theme": "vehicle",
+"age": 4,
+"lexId": "helicopter"
+},
+{
+"w": "ayt",
+"syl": [
+"ayt"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ber",
+"syl": [
+"ber"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "bor",
+"syl": [
+"bor"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "chiz",
+"syl": [
+"chiz"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "eshit",
+"syl": [
+"e",
+"shit"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ich",
+"syl": [
+"ich"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "kel",
+"syl": [
+"kel"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ket",
+"syl": [
+"ket"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "kiy",
+"syl": [
+"kiy"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ko‘r",
+"syl": [
+"ko‘r"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "kul",
+"syl": [
+"kul"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "kut",
+"syl": [
+"kut"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "och",
+"syl": [
+"och"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ol",
+"syl": [
+"ol"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "o‘qi",
+"syl": [
+"o‘",
+"qi"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "o‘rgan",
+"syl": [
+"o‘r",
+"gan"
+],
+"theme": "verb",
+"age": 6
+},
+{
+"w": "o‘tir",
+"syl": [
+"o‘",
+"tir"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "o‘yna",
+"syl": [
+"o‘y",
+"na"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "qara",
+"syl": [
+"qa",
+"ra"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "quv",
+"syl": [
+"quv"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "sakra",
+"syl": [
+"sak",
+"ra"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "sana",
+"syl": [
+"sa",
+"na"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "suz",
+"syl": [
+"suz"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "tara",
+"syl": [
+"ta",
+"ra"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "tashla",
+"syl": [
+"tash",
+"la"
+],
+"theme": "verb",
+"age": 6
+},
+{
+"w": "top",
+"syl": [
+"top"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "tur",
+"syl": [
+"tur"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "uch",
+"syl": [
+"uch"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ushla",
+"syl": [
+"ush",
+"la"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "uxla",
+"syl": [
+"ux",
+"la"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "yasa",
+"syl": [
+"ya",
+"sa"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "ye",
+"syl": [
+"ye"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "yop",
+"syl": [
+"yop"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "yugur",
+"syl": [
+"yu",
+"gur"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "yur",
+"syl": [
+"yur"
+],
+"theme": "verb",
+"age": 4
+},
+{
+"w": "yuv",
+"syl": [
+"yuv"
+],
+"theme": "verb",
+"age": 4
+}
+],
+"actions": [
+{
+"id": "flies",
+"uz": "uchyapti",
+"en": "is flying",
+"ru": "летит",
+"tag": "flies",
+"cats": [
+"bird",
+"insect"
+]
+},
+{
+"id": "swims",
+"uz": "suzyapti",
+"en": "is swimming",
+"ru": "плывёт",
+"tag": "swims",
+"cats": [
+"sea",
+"animal",
+"bird"
+]
+},
+{
+"id": "runs",
+"uz": "yuguryapti",
+"en": "is running",
+"ru": "бежит",
+"tag": "has_legs",
+"cats": [
+"animal"
+]
+},
+{
+"id": "sleeps",
+"uz": "uxlayapti",
+"en": "is sleeping",
+"ru": "спит",
+"tag": "",
+"cats": [
+"animal",
+"bird"
+]
+},
+{
+"id": "eats",
+"uz": "ovqat yeyapti",
+"en": "is eating",
+"ru": "ест",
+"tag": "",
+"cats": [
+"animal",
+"bird"
+]
+}
+],
+"places": [
+{
+"id": "garden",
+"uz": "bog‘ga",
+"en": "to the garden",
+"ru": "в сад",
+"emoji": "🌳"
+},
+{
+"id": "school",
+"uz": "maktabga",
+"en": "to school",
+"ru": "в школу",
+"emoji": "🏫"
+},
+{
+"id": "shop",
+"uz": "do‘konga",
+"en": "to the shop",
+"ru": "в магазин",
+"emoji": "🏪"
+},
+{
+"id": "park",
+"uz": "xiyobonga",
+"en": "to the park",
+"ru": "в парк",
+"emoji": "🎡"
+},
+{
+"id": "market",
+"uz": "bozorga",
+"en": "to the market",
+"ru": "на рынок",
+"emoji": "🧺"
+}
+],
+"names": [
+"Ali",
+"Nodira",
+"Sardor",
+"Malika",
+"Bobur",
+"Zarina",
+"Jasur",
+"Laylo",
+"Kamola",
+"Anvar"
+]
+}

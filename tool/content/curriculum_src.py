@@ -177,8 +177,141 @@ logic6 = {
     [{"types":["where","taller"]},{"types":["taller","order","where"]},{"types":["order","syllogism","taller"]}], skill="reasoning"),
  ]}
 
+# ============================================================ O'ZBEK TILI
+def theme_topic(id, code, emoji, uz, en, ru, theme):
+    return T(id, code, emoji, uz, en, ru, "word_listen",
+             [{"theme": theme, "modes": ["listen"], "options": 3},
+              {"theme": theme, "modes": ["listen"], "options": 3, "sameTheme": True, "drag": True},
+              {"theme": theme, "modes": ["listen", "odd"], "options": 4, "sameTheme": True}],
+             skill="vocabulary", tags=["theme:" + theme])
+
+uzbek4 = {
+ "subject": "uzbek", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 6,
+ "title": {"uz": "O‘zbek tili", "en": "Uzbek", "ru": "Узбекский язык"},
+ "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+ "topics": [
+  theme_topic("uzbek4.family","S1","👪","Men va oilam","Me and my family","Я и моя семья","family"),
+  theme_topic("uzbek4.home","S2","🏠","Uy","Home","Дом","home"),
+  theme_topic("uzbek4.kindergarten","S3","🎒","Bog‘cha","Kindergarten","Детский сад","kindergarten"),
+  theme_topic("uzbek4.animals","S4","🐾","Hayvonlar","Animals","Животные","animals"),
+  theme_topic("uzbek4.birds","S5","🐦","Qushlar","Birds","Птицы","birds"),
+  theme_topic("uzbek4.fruits","S6","🍎","Mevalar","Fruit","Фрукты","fruits"),
+  theme_topic("uzbek4.vegetables","S7","🥕","Sabzavotlar","Vegetables","Овощи","vegetables"),
+  T("uzbek4.colors","S8","🎨","Ranglar","Colours","Цвета","colors",
+    [{"colors":["red","yellow","blue"],"options":3},{"colors":["red","yellow","blue","green","white","black"],"options":4},{"colors":["red","yellow","blue","green","orange","purple"],"options":3,"objects":True}], skill="vocabulary"),
+  T("uzbek4.numbers","S9","🔢","Sonlar","Numbers","Числа","number_words",
+    [{"min":1,"max":3,"modes":["group"]},{"min":1,"max":5,"modes":["group"]},{"min":1,"max":10,"modes":["group"],"options":4}], skill="vocabulary"),
+  theme_topic("uzbek4.body","S10","👂","Tana","My body","Тело","body"),
+  theme_topic("uzbek4.clothes","S11","👕","Kiyim","Clothes","Одежда","clothes"),
+  theme_topic("uzbek4.transport","S12","🚌","Transport","Transport","Транспорт","transport"),
+  theme_topic("uzbek4.toys","S13","🧸","O‘yinchoqlar","Toys","Игрушки","toys"),
+  theme_topic("uzbek4.nature","S14","🌳","Tabiat","Nature","Природа","nature"),
+  theme_topic("uzbek4.professions","S15","👩‍🏫","Kasblar","Jobs","Профессии","professions"),
+  T("uzbek4.first_sound","S16","👂","Tovushni top","First sound","Первый звук","first_sound",
+    [{"options":3,"letters":["a","o","u","i","m","b","s","t","k","q"]},{"options":3},{"options":4}], skill="phonics"),
+  T("uzbek4.letters","S17","🔤","Harfni tanish","Letters","Буквы","letter_find",
+    [{"set":"vowels","options":3,"modes":["upper"]},{"set":"all","options":3,"modes":["upper"]},{"set":"consonants","options":4,"modes":["upper"]}], skill="letters"),
+  T("uzbek4.letter_picture","S18","🅰️","Harf va rasm","Letter and picture","Буква и картинка","letter_picture",
+    [{"pairs":2,"letters":["a","o","u","i","e","m","b","s","t","k"]},{"pairs":3},{"pairs":4}], skill="letters"),
+ ]}
+
+uzbek6 = {
+ "subject": "uzbek", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 8,
+ "title": {"uz": "O‘zbek tili", "en": "Uzbek", "ru": "Узбекский язык"},
+ "model": "KO‘R → TUSHUN → TANLA → O‘QI → YECH → IZOHNI KO‘R",
+ "topics": [
+  T("uzbek6.letters","U1","🔤","Harf","Letters","Буквы","letter_find",
+    [{"set":"vowels","options":3,"modes":["upper","lower"]},{"set":"consonants","options":4,"modes":["upper","lower"]},{"set":"digraphs","options":4,"similar":True,"modes":["upper","mixed"]}], skill="letters"),
+  T("uzbek6.sounds","U2","👂","Tovush","Sounds","Звуки","first_sound",
+    [{"options":3},{"options":4,"letters":["s","sh","ch","j","g","g‘","q","k","o","o‘","u","x","h"]},{"options":3,"position":"last"}], skill="phonics", pre=["uzbek6.letters"]),
+  T("uzbek6.case","U3","🔠","Bosh va kichik harf","Capital and small letters","Заглавные и строчные","case_match",
+    [{"pairs":3,"set":"vowels"},{"pairs":4,"set":"single"},{"pairs":5}], skill="letters", pre=["uzbek6.letters"]),
+  T("uzbek6.syllables","U4","👏","Bo‘g‘in","Syllables","Слоги","syllables",
+    [{"modes":["count"],"minSyl":1,"maxSyl":3},{"modes":["count","missing"],"maxSyl":3},{"modes":["build","missing"],"maxSyl":4,"extra":1}], skill="syllables", pre=["uzbek6.sounds"]),
+  T("uzbek6.short_words","U5","📝","2–3 harfli so‘z","Short words","Короткие слова","word_read",
+    [{"minLetters":2,"maxLetters":3,"modes":["read"]},{"minLetters":2,"maxLetters":3,"modes":["read","build"]},{"minLetters":2,"maxLetters":3,"modes":["build"],"extra":1}], skill="reading", pre=["uzbek6.syllables"]),
+  T("uzbek6.long_words","U6","📖","4–6 harfli so‘z","Longer words","Длинные слова","word_read",
+    [{"minLetters":4,"maxLetters":5,"modes":["read"]},{"minLetters":4,"maxLetters":6,"modes":["read","build"]},{"minLetters":4,"maxLetters":6,"modes":["build"],"extra":2}], skill="reading", pre=["uzbek6.short_words"]),
+  T("uzbek6.picture_word","U7","🖼️","Rasmga mos so‘z","Word for the picture","Слово к картинке","picture_word",
+    [{"similar":"none","maxLetters":5},{"similar":"first","maxLetters":6},{"similar":"theme","maxLetters":7,"options":4}], skill="reading"),
+  T("uzbek6.fill_letter","U8","✍️","So‘zni to‘ldir","Missing letter","Пропущенная буква","fill_letter",
+    [{"which":"vowel","maxLetters":4},{"which":"consonant","maxLetters":5},{"which":"any","maxLetters":6,"options":4}], skill="spelling"),
+  T("uzbek6.build_sentence","U9","🧱","So‘zlardan gap tuz","Build a sentence","Составь предложение","build_sentence",
+    [{"types":["this"]},{"types":["this","color","action"]},{"types":["action","count"]}], skill="sentences", pre=["uzbek6.long_words"]),
+  T("uzbek6.read_sentence","U10","👓","Gapni o‘qi","Read the sentence","Прочитай предложение","read_sentence",
+    [{"types":["this"]},{"types":["color","action"]},{"types":["action","count"]}], skill="sentences"),
+  T("uzbek6.missing_word","U11","❓","Yetishmayotgan so‘z","Missing word","Пропущенное слово","missing_word",
+    [{"options":3},{"options":3},{"options":4}], skill="sentences"),
+  T("uzbek6.story","U12","📚","Kichik hikoya","Short story","Маленький рассказ","story",
+    [{"modes":["picture"]},{"modes":["picture"],"long":True},{"modes":["picture","question"],"long":True}], skill="comprehension", pre=["uzbek6.read_sentence"]),
+  T("uzbek6.text_question","U13","💬","Matn bo‘yicha savol","Questions about a text","Вопросы по тексту","story",
+    [{"modes":["question"]},{"modes":["question"],"long":True},{"modes":["question"],"long":True}], skill="comprehension", pre=["uzbek6.story"]),
+  T("uzbek6.picture_sentence","U14","🗨️","Rasm asosida gap","Sentence for a picture","Предложение по картинке","picture_sentence",
+    [{"types":["this"]},{"types":["color","action"]},{"types":["action","count"]}], skill="sentences"),
+ ]}
+
+# ============================================================ YOZISH
+def tr(items, **kw):
+    d = {"items": items}; d.update(kw); return d
+
+writing4 = {
+ "subject": "writing", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 4,
+ "title": {"uz": "Yozishni o‘rganaman", "en": "Learning to write", "ru": "Учусь писать"},
+ "model": "KO‘R → BARMOQ BILAN YUR → MAQTOV OL",
+ "topics": [
+  T("writing4.lines","W1","📏","Chiziqlar","Lines","Линии","trace",
+    [tr(["pre:vertical","pre:horizontal","pre:diagonal","pre:steps"]),
+     tr(["pre:curve","pre:rainbow","pre:wave","pre:zigzag"]),
+     tr(["pre:circle","pre:spiral","pre:loops","pre:waves2","pre:zigzag2"])], skill="prewriting"),
+  T("writing4.dots","W2","🔵","Nuqtalarni birlashtir","Join the dots","Соедини точки","trace",
+    [tr(["dots:tent","dots:diamond","dots:kite","dots:boat"]),
+     tr(["dots:house","dots:arrow","dots:heart","dots:tent","dots:diamond"]),
+     tr(["dots:star","dots:fish","dots:crown","dots:house","dots:heart"])], skill="fine_motor"),
+  T("writing4.shapes","W3","⭕","Shakllar","Shapes","Фигуры","trace",
+    [tr(["pre:circle","pre:square","pre:triangle","dots:diamond"]),
+     tr(["pre:circle","pre:square","pre:triangle","pre:spiral","dots:kite"]),
+     tr(["pre:spiral","pre:square","pre:triangle","dots:star","dots:heart"])], skill="fine_motor"),
+  T("writing4.letters","W4","🔠","Katta harflar","Big letters","Большие буквы","trace",
+    [tr(["glyph:I","glyph:L","glyph:T","glyph:E","glyph:F","glyph:H"]),
+     tr(["glyph:O","glyph:U","glyph:V","glyph:A","glyph:X","glyph:Y"]),
+     tr(["glyph:M","glyph:N","glyph:K","glyph:Z","glyph:S","glyph:B","glyph:D","glyph:P"])], skill="letters_writing"),
+  T("writing4.left_right","W5","➡️","Chapdan o‘ngga","Left to right","Слева направо","trace",
+    [tr(["pre:horizontal","pre:wave","pre:zigzag","pre:steps"], leftToRight=True, tolerancePct=125),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:wave"], leftToRight=True, tolerancePct=115),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:steps","pre:horizontal"], leftToRight=True)], skill="prewriting"),
+ ]}
+
+STRAIGHT = ["A","E","F","H","I","K","L","M","N","T","V","X","Y","Z"]
+CURVED = ["B","D","G","J","O","P","Q","R","S","U"]
+writing6 = {
+ "subject": "writing", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 5,
+ "title": {"uz": "Yozishni o‘rganaman", "en": "Learning to write", "ru": "Учусь писать"},
+ "model": "KO‘R → YO‘NALISHNI TUSHUN → YOZ → TEKSHIR",
+ "topics": [
+  T("writing6.letters","W1","🔠","Harf konturidan yurish","Trace the letters","Обведи буквы","trace",
+    [tr(["glyph:" + x for x in STRAIGHT]), tr(["glyph:" + x for x in CURVED]),
+     tr(["glyph:O‘","glyph:G‘","glyph:SH","glyph:CH","glyph:NG","glyph:R","glyph:Q"])], skill="letters_writing"),
+  T("writing6.digits","W2","🔢","Raqam yozish","Write numbers","Пишем цифры","trace",
+    [tr(["glyph:0","glyph:1","glyph:2","glyph:3","glyph:4"]), tr(["glyph:5","glyph:6","glyph:7","glyph:8","glyph:9"]),
+     tr(["glyph:" + str(i) for i in range(10)], tolerancePct=85)], skill="digits_writing"),
+  T("writing6.words","W3","📝","Qisqa so‘z","Short words","Короткие слова","trace",
+    [tr(["words:2"]), tr(["words:3"]), tr(["words:4"])], skill="words_writing", pre=["writing6.letters"]),
+  T("writing6.shapes","W4","🔷","Shakllar","Shapes","Фигуры","trace",
+    [tr(["pre:square","pre:triangle","pre:circle","dots:diamond","dots:kite"]),
+     tr(["dots:star","dots:crown","dots:fish","pre:spiral","dots:arrow"]),
+     tr(["dots:star","dots:crown","dots:fish","dots:heart","dots:house"], tolerancePct=85)], skill="fine_motor"),
+  T("writing6.patterns","W5","〰️","Naqshlar","Patterns","Узоры","trace",
+    [tr(["pre:wave","pre:zigzag","pre:steps","pre:loops","pre:rainbow"]),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:spiral","pre:curve"]),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:spiral","pre:steps"], tolerancePct=85)], skill="prewriting"),
+  T("writing6.left_right","W6","➡️","Chapdan o‘ngga yozish","Left to right","Слева направо","trace",
+    [tr(["pre:horizontal","pre:wave","pre:zigzag","pre:steps","pre:loops"], leftToRight=True, tolerancePct=115),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:wave","pre:steps"], leftToRight=True),
+     tr(["pre:waves2","pre:zigzag2","pre:loops","pre:wave","pre:steps"], leftToRight=True, tolerancePct=85)], skill="prewriting"),
+ ]}
+
 base = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data")
-for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6)]:
+for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6)]:
     ids = [t["id"] for t in data["topics"]]
     assert len(ids) == len(set(ids)), name
     for t in data["topics"]:

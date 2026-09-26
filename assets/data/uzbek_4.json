@@ -1,0 +1,770 @@
+{
+ "subject": "uzbek",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 6,
+ "title": {
+  "uz": "O‘zbek tili",
+  "en": "Uzbek",
+  "ru": "Узбекский язык"
+ },
+ "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "uzbek4.family",
+   "code": "S1",
+   "emoji": "👪",
+   "title": {
+    "uz": "Men va oilam",
+    "en": "Me and my family",
+    "ru": "Я и моя семья"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:family"
+   ],
+   "levels": [
+    {
+     "theme": "family",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "family",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "family",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.home",
+   "code": "S2",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Uy",
+    "en": "Home",
+    "ru": "Дом"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:home"
+   ],
+   "levels": [
+    {
+     "theme": "home",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "home",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "home",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.kindergarten",
+   "code": "S3",
+   "emoji": "🎒",
+   "title": {
+    "uz": "Bog‘cha",
+    "en": "Kindergarten",
+    "ru": "Детский сад"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:kindergarten"
+   ],
+   "levels": [
+    {
+     "theme": "kindergarten",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "kindergarten",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "kindergarten",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.animals",
+   "code": "S4",
+   "emoji": "🐾",
+   "title": {
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:animals"
+   ],
+   "levels": [
+    {
+     "theme": "animals",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "animals",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "animals",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.birds",
+   "code": "S5",
+   "emoji": "🐦",
+   "title": {
+    "uz": "Qushlar",
+    "en": "Birds",
+    "ru": "Птицы"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:birds"
+   ],
+   "levels": [
+    {
+     "theme": "birds",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "birds",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "birds",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.fruits",
+   "code": "S6",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Mevalar",
+    "en": "Fruit",
+    "ru": "Фрукты"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:fruits"
+   ],
+   "levels": [
+    {
+     "theme": "fruits",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "fruits",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "fruits",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.vegetables",
+   "code": "S7",
+   "emoji": "🥕",
+   "title": {
+    "uz": "Sabzavotlar",
+    "en": "Vegetables",
+    "ru": "Овощи"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:vegetables"
+   ],
+   "levels": [
+    {
+     "theme": "vegetables",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "vegetables",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "vegetables",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.colors",
+   "code": "S8",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue"
+     ],
+     "options": 3
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "white",
+      "black"
+     ],
+     "options": 4
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple"
+     ],
+     "options": 3,
+     "objects": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.numbers",
+   "code": "S9",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar",
+    "en": "Numbers",
+    "ru": "Числа"
+   },
+   "generator": "number_words",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 3,
+     "modes": [
+      "group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "modes": [
+      "group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "group"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.body",
+   "code": "S10",
+   "emoji": "👂",
+   "title": {
+    "uz": "Tana",
+    "en": "My body",
+    "ru": "Тело"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:body"
+   ],
+   "levels": [
+    {
+     "theme": "body",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "body",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "body",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.clothes",
+   "code": "S11",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyim",
+    "en": "Clothes",
+    "ru": "Одежда"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:clothes"
+   ],
+   "levels": [
+    {
+     "theme": "clothes",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "clothes",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "clothes",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.transport",
+   "code": "S12",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Transport",
+    "en": "Transport",
+    "ru": "Транспорт"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:transport"
+   ],
+   "levels": [
+    {
+     "theme": "transport",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "transport",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "transport",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.toys",
+   "code": "S13",
+   "emoji": "🧸",
+   "title": {
+    "uz": "O‘yinchoqlar",
+    "en": "Toys",
+    "ru": "Игрушки"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:toys"
+   ],
+   "levels": [
+    {
+     "theme": "toys",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "toys",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "toys",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.nature",
+   "code": "S14",
+   "emoji": "🌳",
+   "title": {
+    "uz": "Tabiat",
+    "en": "Nature",
+    "ru": "Природа"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:nature"
+   ],
+   "levels": [
+    {
+     "theme": "nature",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "nature",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "nature",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.professions",
+   "code": "S15",
+   "emoji": "👩‍🏫",
+   "title": {
+    "uz": "Kasblar",
+    "en": "Jobs",
+    "ru": "Профессии"
+   },
+   "generator": "word_listen",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [
+    "theme:professions"
+   ],
+   "levels": [
+    {
+     "theme": "professions",
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "theme": "professions",
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true,
+     "drag": true
+    },
+    {
+     "theme": "professions",
+     "modes": [
+      "listen",
+      "odd"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.first_sound",
+   "code": "S16",
+   "emoji": "👂",
+   "title": {
+    "uz": "Tovushni top",
+    "en": "First sound",
+    "ru": "Первый звук"
+   },
+   "generator": "first_sound",
+   "skill": "phonics",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3,
+     "letters": [
+      "a",
+      "o",
+      "u",
+      "i",
+      "m",
+      "b",
+      "s",
+      "t",
+      "k",
+      "q"
+     ]
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.letters",
+   "code": "S17",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Harfni tanish",
+    "en": "Letters",
+    "ru": "Буквы"
+   },
+   "generator": "letter_find",
+   "skill": "letters",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "set": "vowels",
+     "options": 3,
+     "modes": [
+      "upper"
+     ]
+    },
+    {
+     "set": "all",
+     "options": 3,
+     "modes": [
+      "upper"
+     ]
+    },
+    {
+     "set": "consonants",
+     "options": 4,
+     "modes": [
+      "upper"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uzbek4.letter_picture",
+   "code": "S18",
+   "emoji": "🅰️",
+   "title": {
+    "uz": "Harf va rasm",
+    "en": "Letter and picture",
+    "ru": "Буква и картинка"
+   },
+   "generator": "letter_picture",
+   "skill": "letters",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2,
+     "letters": [
+      "a",
+      "o",
+      "u",
+      "i",
+      "e",
+      "m",
+      "b",
+      "s",
+      "t",
+      "k"
+     ]
+    },
+    {
+     "pairs": 3
+    },
+    {
+     "pairs": 4
+    }
+   ]
+  }
+ ]
+}

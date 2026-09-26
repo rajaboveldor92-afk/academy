@@ -49,6 +49,8 @@ class VisualView extends StatelessWidget {
           ),
         );
       }
+    } else if (v is ReadingVisual) {
+      child = ReadingView(reading: v);
     } else if (v is ClockVisual) {
       child = AspectRatio(aspectRatio: 1, child: CustomPaint(painter: ClockPainter(v.hour, v.minute)));
     } else if (v is GridVisual) {
@@ -60,6 +62,79 @@ class VisualView extends StatelessWidget {
       return ConstrainedBox(constraints: BoxConstraints(maxHeight: maxHeight!), child: child);
     }
     return child;
+  }
+}
+
+/// O'qish matni: bitta so'z (juda yirik) yoki gap/hikoya (bir necha qator) + savol.
+/// Matn bola o'zi o'qishi uchun — ovozda aytilmaydi (faqat ko'rsatma aytiladi).
+class ReadingView extends StatelessWidget {
+  const ReadingView({super.key, required this.reading});
+
+  final ReadingVisual reading;
+
+  @override
+  Widget build(BuildContext context) {
+    final r = reading;
+    final emoji = r.emoji;
+    final question = r.question;
+    return LayoutBuilder(builder: (context, c) {
+      final width = c.hasBoundedWidth ? c.maxWidth : 360.0;
+      final Widget content;
+      if (r.big) {
+        content = Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            if (emoji != null) ...[
+              Text(emoji, style: const TextStyle(fontSize: 64, height: 1)),
+              const SizedBox(width: 18),
+            ],
+            Text(
+              r.text,
+              style: const TextStyle(
+                fontSize: 64,
+                fontWeight: FontWeight.w900,
+                color: AppColors.text,
+                letterSpacing: 2,
+                height: 1.1,
+              ),
+            ),
+          ],
+        );
+      } else {
+        content = Container(
+          width: width,
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+          decoration: BoxDecoration(
+            color: const Color(0xFFFFFDF7),
+            borderRadius: BorderRadius.circular(24),
+            border: Border.all(color: const Color(0xFFEADFC8), width: 2),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              if (emoji != null) Text(emoji, style: const TextStyle(fontSize: 44, height: 1.2)),
+              Text(
+                r.text,
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w700, color: AppColors.text, height: 1.45),
+              ),
+              if (question != null) ...[
+                const SizedBox(height: 12),
+                Container(height: 2, width: width * 0.4, color: const Color(0xFFEADFC8)),
+                const SizedBox(height: 12),
+                Text(
+                  question,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w900, color: AppColors.primary, height: 1.3),
+                ),
+              ],
+            ],
+          ),
+        );
+      }
+      if (!c.hasBoundedHeight) return Center(child: content);
+      return FittedBox(fit: BoxFit.scaleDown, child: content);
+    });
   }
 }
 

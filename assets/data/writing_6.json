@@ -1,0 +1,292 @@
+{
+ "subject": "writing",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 5,
+ "title": {
+  "uz": "Yozishni o‘rganaman",
+  "en": "Learning to write",
+  "ru": "Учусь писать"
+ },
+ "model": "KO‘R → YO‘NALISHNI TUSHUN → YOZ → TEKSHIR",
+ "topics": [
+  {
+   "id": "writing6.letters",
+   "code": "W1",
+   "emoji": "🔠",
+   "title": {
+    "uz": "Harf konturidan yurish",
+    "en": "Trace the letters",
+    "ru": "Обведи буквы"
+   },
+   "generator": "trace",
+   "skill": "letters_writing",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "glyph:A",
+      "glyph:E",
+      "glyph:F",
+      "glyph:H",
+      "glyph:I",
+      "glyph:K",
+      "glyph:L",
+      "glyph:M",
+      "glyph:N",
+      "glyph:T",
+      "glyph:V",
+      "glyph:X",
+      "glyph:Y",
+      "glyph:Z"
+     ]
+    },
+    {
+     "items": [
+      "glyph:B",
+      "glyph:D",
+      "glyph:G",
+      "glyph:J",
+      "glyph:O",
+      "glyph:P",
+      "glyph:Q",
+      "glyph:R",
+      "glyph:S",
+      "glyph:U"
+     ]
+    },
+    {
+     "items": [
+      "glyph:O‘",
+      "glyph:G‘",
+      "glyph:SH",
+      "glyph:CH",
+      "glyph:NG",
+      "glyph:R",
+      "glyph:Q"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing6.digits",
+   "code": "W2",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Raqam yozish",
+    "en": "Write numbers",
+    "ru": "Пишем цифры"
+   },
+   "generator": "trace",
+   "skill": "digits_writing",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "glyph:0",
+      "glyph:1",
+      "glyph:2",
+      "glyph:3",
+      "glyph:4"
+     ]
+    },
+    {
+     "items": [
+      "glyph:5",
+      "glyph:6",
+      "glyph:7",
+      "glyph:8",
+      "glyph:9"
+     ]
+    },
+    {
+     "items": [
+      "glyph:0",
+      "glyph:1",
+      "glyph:2",
+      "glyph:3",
+      "glyph:4",
+      "glyph:5",
+      "glyph:6",
+      "glyph:7",
+      "glyph:8",
+      "glyph:9"
+     ],
+     "tolerancePct": 85
+    }
+   ]
+  },
+  {
+   "id": "writing6.words",
+   "code": "W3",
+   "emoji": "📝",
+   "title": {
+    "uz": "Qisqa so‘z",
+    "en": "Short words",
+    "ru": "Короткие слова"
+   },
+   "generator": "trace",
+   "skill": "words_writing",
+   "prerequisites": [
+    "writing6.letters"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "words:2"
+     ]
+    },
+    {
+     "items": [
+      "words:3"
+     ]
+    },
+    {
+     "items": [
+      "words:4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing6.shapes",
+   "code": "W4",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Shakllar",
+    "en": "Shapes",
+    "ru": "Фигуры"
+   },
+   "generator": "trace",
+   "skill": "fine_motor",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:square",
+      "pre:triangle",
+      "pre:circle",
+      "dots:diamond",
+      "dots:kite"
+     ]
+    },
+    {
+     "items": [
+      "dots:star",
+      "dots:crown",
+      "dots:fish",
+      "pre:spiral",
+      "dots:arrow"
+     ]
+    },
+    {
+     "items": [
+      "dots:star",
+      "dots:crown",
+      "dots:fish",
+      "dots:heart",
+      "dots:house"
+     ],
+     "tolerancePct": 85
+    }
+   ]
+  },
+  {
+   "id": "writing6.patterns",
+   "code": "W5",
+   "emoji": "〰️",
+   "title": {
+    "uz": "Naqshlar",
+    "en": "Patterns",
+    "ru": "Узоры"
+   },
+   "generator": "trace",
+   "skill": "prewriting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:wave",
+      "pre:zigzag",
+      "pre:steps",
+      "pre:loops",
+      "pre:rainbow"
+     ]
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:spiral",
+      "pre:curve"
+     ]
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:spiral",
+      "pre:steps"
+     ],
+     "tolerancePct": 85
+    }
+   ]
+  },
+  {
+   "id": "writing6.left_right",
+   "code": "W6",
+   "emoji": "➡️",
+   "title": {
+    "uz": "Chapdan o‘ngga yozish",
+    "en": "Left to right",
+    "ru": "Слева направо"
+   },
+   "generator": "trace",
+   "skill": "prewriting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:horizontal",
+      "pre:wave",
+      "pre:zigzag",
+      "pre:steps",
+      "pre:loops"
+     ],
+     "leftToRight": true,
+     "tolerancePct": 115
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:wave",
+      "pre:steps"
+     ],
+     "leftToRight": true
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:loops",
+      "pre:wave",
+      "pre:steps"
+     ],
+     "leftToRight": true,
+     "tolerancePct": 85
+    }
+   ]
+  }
+ ]
+}

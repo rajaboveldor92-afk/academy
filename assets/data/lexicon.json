@@ -3219,6 +3219,1275 @@
     "sky"
    ],
    "ageMin": 6
+  },
+  {
+   "id": "burger",
+   "emoji": "🍔",
+   "uz": "burger",
+   "en": "burger",
+   "ru": "бургер",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "fries",
+   "emoji": "🍟",
+   "uz": "kartoshka fri",
+   "en": "fries",
+   "ru": "картошка фри",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "sandwich",
+   "emoji": "🥪",
+   "uz": "buterbrod",
+   "en": "sandwich",
+   "ru": "бутерброд",
+   "category": "food",
+   "tags": [],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "pancakes",
+   "emoji": "🥞",
+   "uz": "quymoq",
+   "en": "pancakes",
+   "ru": "блины",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "salad",
+   "emoji": "🥗",
+   "uz": "salat",
+   "en": "salad",
+   "ru": "салат",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "noodles",
+   "emoji": "🍜",
+   "uz": "lag‘mon",
+   "en": "noodles",
+   "ru": "лапша",
+   "category": "food",
+   "tags": [
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "croissant",
+   "emoji": "🥐",
+   "uz": "kruassan",
+   "en": "croissant",
+   "ru": "круассан",
+   "category": "food",
+   "tags": [],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "donut",
+   "emoji": "🍩",
+   "uz": "ponchik",
+   "en": "donut",
+   "ru": "пончик",
+   "category": "food",
+   "tags": [
+    "sweet",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "pie",
+   "emoji": "🥧",
+   "uz": "pirog",
+   "en": "pie",
+   "ru": "пирог",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "salt",
+   "emoji": "🧂",
+   "uz": "tuz",
+   "en": "salt",
+   "ru": "соль",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "cupcake",
+   "emoji": "🧁",
+   "uz": "keks",
+   "en": "cupcake",
+   "ru": "кекс",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "popcorn",
+   "emoji": "🍿",
+   "uz": "popkorn",
+   "en": "popcorn",
+   "ru": "попкорн",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "drink",
+   "emoji": "🥤",
+   "uz": "ichimlik",
+   "en": "drink",
+   "ru": "напиток",
+   "category": "food",
+   "tags": [
+    "drink",
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "fried_egg",
+   "emoji": "🍳",
+   "uz": "quymoq tuxum",
+   "en": "fried egg",
+   "ru": "яичница",
+   "category": "food",
+   "tags": [
+    "hot"
+   ],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "deer",
+   "emoji": "🦌",
+   "uz": "bug‘u",
+   "en": "deer",
+   "ru": "олень",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "ox",
+   "emoji": "🐂",
+   "uz": "ho‘kiz",
+   "en": "ox",
+   "ru": "бык",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "ram",
+   "emoji": "🐏",
+   "uz": "qo‘chqor",
+   "en": "ram",
+   "ru": "баран",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "llama",
+   "emoji": "🦙",
+   "uz": "lama",
+   "en": "llama",
+   "ru": "лама",
+   "category": "animal",
+   "tags": [
+    "has_legs"
+   ],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "hippo",
+   "emoji": "🦛",
+   "uz": "begemot",
+   "en": "hippo",
+   "ru": "бегемот",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big",
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "purple"
+  },
+  {
+   "id": "bat",
+   "emoji": "🦇",
+   "uz": "ko‘rshapalak",
+   "en": "bat",
+   "ru": "летучая мышь",
+   "category": "animal",
+   "tags": [
+    "flies",
+    "night"
+   ],
+   "ageMin": 6,
+   "color": "black"
+  },
+  {
+   "id": "cricket",
+   "emoji": "🦗",
+   "uz": "chigirtka",
+   "en": "grasshopper",
+   "ru": "кузнечик",
+   "category": "insect",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "mosquito",
+   "emoji": "🦟",
+   "uz": "chivin",
+   "en": "mosquito",
+   "ru": "комар",
+   "category": "insect",
+   "tags": [
+    "flies",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "scorpion",
+   "emoji": "🦂",
+   "uz": "chayon",
+   "en": "scorpion",
+   "ru": "скорпион",
+   "category": "insect",
+   "tags": [
+    "desert"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "lizard",
+   "emoji": "🦎",
+   "uz": "kaltakesak",
+   "en": "lizard",
+   "ru": "ящерица",
+   "category": "animal",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "dinosaur",
+   "emoji": "🦖",
+   "uz": "dinozavr",
+   "en": "dinosaur",
+   "ru": "динозавр",
+   "category": "animal",
+   "tags": [
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "dove",
+   "emoji": "🕊️",
+   "uz": "kaptar",
+   "en": "dove",
+   "ru": "голубь",
+   "category": "bird",
+   "tags": [
+    "flies"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "hen_chick",
+   "emoji": "🐣",
+   "uz": "polapon",
+   "en": "hatching chick",
+   "ru": "птенец",
+   "category": "bird",
+   "tags": [
+    "baby",
+    "small"
+   ],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "unicorn",
+   "emoji": "🦄",
+   "uz": "yakshox",
+   "en": "unicorn",
+   "ru": "единорог",
+   "category": "animal",
+   "tags": [
+    "has_legs"
+   ],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "couch",
+   "emoji": "🛋️",
+   "uz": "divan",
+   "en": "sofa",
+   "ru": "диван",
+   "category": "home",
+   "tags": [
+    "furniture"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "shower",
+   "emoji": "🚿",
+   "uz": "dush",
+   "en": "shower",
+   "ru": "душ",
+   "category": "home",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "picture",
+   "emoji": "🖼️",
+   "uz": "rasm",
+   "en": "picture",
+   "ru": "картина",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "sponge",
+   "emoji": "🧽",
+   "uz": "gubka",
+   "en": "sponge",
+   "ru": "губка",
+   "category": "home",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "flashlight",
+   "emoji": "🔦",
+   "uz": "fonar",
+   "en": "flashlight",
+   "ru": "фонарик",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "camera",
+   "emoji": "📷",
+   "uz": "fotoapparat",
+   "en": "camera",
+   "ru": "фотоаппарат",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "computer",
+   "emoji": "💻",
+   "uz": "kompyuter",
+   "en": "computer",
+   "ru": "компьютер",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "watch",
+   "emoji": "⌚",
+   "uz": "qo‘l soati",
+   "en": "watch",
+   "ru": "наручные часы",
+   "category": "home",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 6,
+   "color": "black"
+  },
+  {
+   "id": "envelope",
+   "emoji": "✉️",
+   "uz": "xat",
+   "en": "letter",
+   "ru": "письмо",
+   "category": "home",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "box",
+   "emoji": "📦",
+   "uz": "quti",
+   "en": "box",
+   "ru": "коробка",
+   "category": "home",
+   "tags": [
+    "square"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "magnet",
+   "emoji": "🧲",
+   "uz": "magnit",
+   "en": "magnet",
+   "ru": "магнит",
+   "category": "home",
+   "tags": [],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "plate",
+   "emoji": "🍽️",
+   "uz": "likopcha",
+   "en": "plate",
+   "ru": "тарелка",
+   "category": "home",
+   "tags": [
+    "kitchen",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "teapot_bell",
+   "emoji": "🛎️",
+   "uz": "qo‘ng‘iroqcha",
+   "en": "bell",
+   "ru": "звоночек",
+   "category": "home",
+   "tags": [],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "purse",
+   "emoji": "👛",
+   "uz": "hamyon",
+   "en": "purse",
+   "ru": "кошелёк",
+   "category": "clothes",
+   "tags": [],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "handbag",
+   "emoji": "👜",
+   "uz": "sumka",
+   "en": "bag",
+   "ru": "сумка",
+   "category": "clothes",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "ring",
+   "emoji": "💍",
+   "uz": "uzuk",
+   "en": "ring",
+   "ru": "кольцо",
+   "category": "clothes",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "crown",
+   "emoji": "👑",
+   "uz": "toj",
+   "en": "crown",
+   "ru": "корона",
+   "category": "clothes",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "ribbon",
+   "emoji": "🎀",
+   "uz": "bant",
+   "en": "bow",
+   "ru": "бант",
+   "category": "clothes",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "helmet",
+   "emoji": "⛑️",
+   "uz": "kaska",
+   "en": "helmet",
+   "ru": "каска",
+   "category": "clothes",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "blouse",
+   "emoji": "👚",
+   "uz": "kofta",
+   "en": "blouse",
+   "ru": "кофта",
+   "category": "clothes",
+   "tags": [
+    "body_top"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "lightning",
+   "emoji": "⚡",
+   "uz": "chaqmoq",
+   "en": "lightning",
+   "ru": "молния",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "tornado",
+   "emoji": "🌪️",
+   "uz": "bo‘ron",
+   "en": "storm",
+   "ru": "буря",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "island",
+   "emoji": "🏝️",
+   "uz": "orol",
+   "en": "island",
+   "ru": "остров",
+   "category": "nature",
+   "tags": [
+    "water",
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "sunrise",
+   "emoji": "🌅",
+   "uz": "tong",
+   "en": "sunrise",
+   "ru": "рассвет",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6,
+   "color": "orange"
+  },
+  {
+   "id": "wind",
+   "emoji": "💨",
+   "uz": "shamol",
+   "en": "wind",
+   "ru": "ветер",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "herb",
+   "emoji": "🌿",
+   "uz": "o‘t",
+   "en": "grass",
+   "ru": "трава",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "blossom",
+   "emoji": "🌼",
+   "uz": "moychechak",
+   "en": "daisy",
+   "ru": "ромашка",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "clover",
+   "emoji": "🍀",
+   "uz": "beda",
+   "en": "clover",
+   "ru": "клевер",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 6,
+   "color": "green"
+  },
+  {
+   "id": "comet",
+   "emoji": "☄️",
+   "uz": "kometa",
+   "en": "comet",
+   "ru": "комета",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6,
+   "color": "orange"
+  },
+  {
+   "id": "speedboat",
+   "emoji": "🚤",
+   "uz": "kater",
+   "en": "motorboat",
+   "ru": "катер",
+   "category": "vehicle",
+   "tags": [
+    "swims",
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "metro",
+   "emoji": "🚇",
+   "uz": "metro",
+   "en": "metro",
+   "ru": "метро",
+   "category": "vehicle",
+   "tags": [
+    "rails"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "minibus",
+   "emoji": "🚐",
+   "uz": "mikroavtobus",
+   "en": "minibus",
+   "ru": "микроавтобус",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "moped",
+   "emoji": "🛵",
+   "uz": "moped",
+   "en": "moped",
+   "ru": "мопед",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "traffic_light",
+   "emoji": "🚦",
+   "uz": "svetofor",
+   "en": "traffic light",
+   "ru": "светофор",
+   "category": "vehicle",
+   "tags": [
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "tram",
+   "emoji": "🚋",
+   "uz": "tramvay",
+   "en": "tram",
+   "ru": "трамвай",
+   "category": "vehicle",
+   "tags": [
+    "rails"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "sled",
+   "emoji": "🛷",
+   "uz": "chana",
+   "en": "sled",
+   "ru": "санки",
+   "category": "toy",
+   "tags": [
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "target",
+   "emoji": "🎯",
+   "uz": "nishon",
+   "en": "target",
+   "ru": "мишень",
+   "category": "toy",
+   "tags": [
+    "round",
+    "sport"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "ping_pong",
+   "emoji": "🏓",
+   "uz": "stol tennisi",
+   "en": "table tennis",
+   "ru": "настольный теннис",
+   "category": "toy",
+   "tags": [
+    "sport"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "skates",
+   "emoji": "⛸️",
+   "uz": "konki",
+   "en": "skates",
+   "ru": "коньки",
+   "category": "toy",
+   "tags": [
+    "cold",
+    "sport"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "trumpet",
+   "emoji": "🎺",
+   "uz": "karnay",
+   "en": "trumpet",
+   "ru": "труба",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "violin",
+   "emoji": "🎻",
+   "uz": "skripka",
+   "en": "violin",
+   "ru": "скрипка",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "piano",
+   "emoji": "🎹",
+   "uz": "pianino",
+   "en": "piano",
+   "ru": "пианино",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "microphone",
+   "emoji": "🎤",
+   "uz": "mikrofon",
+   "en": "microphone",
+   "ru": "микрофон",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "headphones",
+   "emoji": "🎧",
+   "uz": "quloqchin",
+   "en": "headphones",
+   "ru": "наушники",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "paintbrush",
+   "emoji": "🖌️",
+   "uz": "mo‘yqalam",
+   "en": "paintbrush",
+   "ru": "кисточка",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "calendar",
+   "emoji": "📅",
+   "uz": "kalendar",
+   "en": "calendar",
+   "ru": "календарь",
+   "category": "school",
+   "tags": [],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "telescope",
+   "emoji": "🔭",
+   "uz": "teleskop",
+   "en": "telescope",
+   "ru": "телескоп",
+   "category": "school",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6,
+   "color": "blue"
+  },
+  {
+   "id": "microscope",
+   "emoji": "🔬",
+   "uz": "mikroskop",
+   "en": "microscope",
+   "ru": "микроскоп",
+   "category": "school",
+   "tags": [],
+   "ageMin": 6,
+   "color": "blue"
+  },
+  {
+   "id": "abacus",
+   "emoji": "🧮",
+   "uz": "cho‘t",
+   "en": "abacus",
+   "ru": "счёты",
+   "category": "school",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "carousel",
+   "emoji": "🎠",
+   "uz": "karusel",
+   "en": "carousel",
+   "ru": "карусель",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "circus",
+   "emoji": "🎪",
+   "uz": "sirk",
+   "en": "circus",
+   "ru": "цирк",
+   "category": "toy",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "ferris_wheel",
+   "emoji": "🎡",
+   "uz": "charxpalak",
+   "en": "ferris wheel",
+   "ru": "колесо обозрения",
+   "category": "toy",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "soccer_goal",
+   "emoji": "🥅",
+   "uz": "darvoza",
+   "en": "goal",
+   "ru": "ворота",
+   "category": "toy",
+   "tags": [
+    "sport"
+   ],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "medal",
+   "emoji": "🏅",
+   "uz": "medal",
+   "en": "medal",
+   "ru": "медаль",
+   "category": "toy",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "trophy",
+   "emoji": "🏆",
+   "uz": "kubok",
+   "en": "cup",
+   "ru": "кубок",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "brick",
+   "emoji": "🧱",
+   "uz": "g‘isht",
+   "en": "brick",
+   "ru": "кирпич",
+   "category": "home",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "family",
+   "emoji": "👪",
+   "uz": "oila",
+   "en": "family",
+   "ru": "семья",
+   "category": "family",
+   "tags": [],
+   "ageMin": 4
+  },
+  {
+   "id": "programmer",
+   "emoji": "👨‍💻",
+   "uz": "dasturchi",
+   "en": "programmer",
+   "ru": "программист",
+   "category": "profession",
+   "tags": [],
+   "ageMin": 6
+  },
+  {
+   "id": "mechanic",
+   "emoji": "👨‍🔧",
+   "uz": "usta",
+   "en": "mechanic",
+   "ru": "механик",
+   "category": "profession",
+   "tags": [
+    "tool"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "scientist",
+   "emoji": "👨‍🔬",
+   "uz": "olim",
+   "en": "scientist",
+   "ru": "учёный",
+   "category": "profession",
+   "tags": [
+    "school"
+   ],
+   "ageMin": 6
+  },
+  {
+   "id": "singer",
+   "emoji": "👨‍🎤",
+   "uz": "xonanda",
+   "en": "singer",
+   "ru": "певец",
+   "category": "profession",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "worker",
+   "emoji": "👨‍🏭",
+   "uz": "ishchi",
+   "en": "worker",
+   "ru": "рабочий",
+   "category": "profession",
+   "tags": [
+    "tool"
+   ],
+   "ageMin": 6
+  },
+  {
+   "id": "hospital",
+   "emoji": "🏥",
+   "uz": "kasalxona",
+   "en": "hospital",
+   "ru": "больница",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "shop",
+   "emoji": "🏪",
+   "uz": "do‘kon",
+   "en": "shop",
+   "ru": "магазин",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "castle",
+   "emoji": "🏰",
+   "uz": "qasr",
+   "en": "castle",
+   "ru": "замок",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "mosque",
+   "emoji": "🕌",
+   "uz": "masjid",
+   "en": "mosque",
+   "ru": "мечеть",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "tent",
+   "emoji": "⛺",
+   "uz": "chodir",
+   "en": "tent",
+   "ru": "палатка",
+   "category": "place",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "factory",
+   "emoji": "🏭",
+   "uz": "zavod",
+   "en": "factory",
+   "ru": "завод",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "stadium",
+   "emoji": "🏟️",
+   "uz": "stadion",
+   "en": "stadium",
+   "ru": "стадион",
+   "category": "place",
+   "tags": [
+    "building",
+    "sport"
+   ],
+   "ageMin": 6,
+   "color": "green"
+  },
+  {
+   "id": "bridge",
+   "emoji": "🌉",
+   "uz": "ko‘prik",
+   "en": "bridge",
+   "ru": "мост",
+   "category": "place",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "yard_house",
+   "emoji": "🏡",
+   "uz": "hovli",
+   "en": "house with garden",
+   "ru": "дом с садом",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "bank",
+   "emoji": "🏦",
+   "uz": "bank",
+   "en": "bank",
+   "ru": "банк",
+   "category": "place",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 6,
+   "color": "white"
   }
  ]
 }

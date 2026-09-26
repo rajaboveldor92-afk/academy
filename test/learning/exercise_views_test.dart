@@ -5,6 +5,7 @@ import 'package:academy/learning/generators/generator_base.dart';
 import 'package:academy/learning/generators/puzzles.dart';
 import 'package:academy/learning/generators/registry.dart';
 import 'package:academy/learning/models/exercise.dart';
+import 'package:academy/learning/ui/assemble_view.dart';
 import 'package:academy/learning/ui/choice_view.dart';
 import 'package:academy/learning/ui/coding_view.dart';
 import 'package:academy/learning/ui/match_view.dart';
@@ -12,6 +13,7 @@ import 'package:academy/learning/ui/maze_view.dart';
 import 'package:academy/learning/ui/option_card.dart';
 import 'package:academy/learning/ui/sort_view.dart';
 import 'package:academy/learning/ui/sudoku_view.dart';
+import 'package:academy/learning/ui/trace_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -213,6 +215,179 @@ void main() {
     expect(solved, 0);
   });
 
+  /// Bo'laklarni to'g'ri tartibda bosish: har safar navbatdagi kerakli bo'lakning birinchi
+  /// ishlatilmagan nusxasi.
+  Future<void> tapAnswer(WidgetTester tester, AssembleTask task) async {
+    final used = <int>{};
+    for (final part in task.answer) {
+      final i = [for (var k = 0; k < task.tiles.length; k++) k].firstWhere((k) => !used.contains(k) && task.tiles[k] == part);
+      used.add(i);
+      await tester.tap(find.byKey(ValueKey('tile_$i')));
+      await tester.pump(const Duration(milliseconds: 250));
+    }
+  }
+
+  testWidgets('yig‘ish: so‘zlardan gap, noto‘g‘ri bo‘lak xato hisoblanadi', (tester) async {
+    final e = make('uzbek6.build_sentence', 2);
+    expect(e.kind, ExerciseKind.assemble);
+    final task = e.assemble!;
+    final mistakes = <int>[];
+    final spoken = <String>[];
+    int? solved;
+    await host(
+      tester,
+      AssembleExerciseView(
+        exercise: e,
+        callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m, onSpeak: spoken.add),
+      ),
+    );
+    // Birinchi katakka mos kelmaydigan bo'lak — xato, katakka tushmaydi.
+    final wrong = [for (var k = 0; k < task.tiles.length; k++) k].firstWhere((k) => task.tiles[k] != task.answer.first);
+    await tester.tap(find.byKey(ValueKey('tile_$wrong')));
+    await tester.pump(const Duration(milliseconds: 400));
+    expect(mistakes, [1]);
+    expect(solved, isNull);
+    await tapAnswer(tester, task);
+    expect(solved, 1);
+    expect(spoken.last, task.result);
+  });
+
+  testWidgets('yig‘ish: harflardan so‘z (ortiqcha harflar bilan)', (tester) async {
+    final e = make('uzbek6.short_words', 3);
+    expect(e.kind, ExerciseKind.assemble);
+    int? solved;
+    await host(
+      tester,
+      AssembleExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+    );
+    await tapAnswer(tester, e.assemble!);
+    expect(solved, 0);
+  });
+
+  group('yozish (trace)', () {
+    /// Normallashtirilgan nuqtani ekran koordinatasiga o'giradi.
+    Offset toScreen(WidgetTester tester, TraceTask t, Point2 p) {
+      final rect = tester.getRect(find.byKey(const ValueKey('trace_area')));
+      const k = TraceExerciseView.insetRatio;
+      final innerH = rect.height / (1 + 2 * k);
+      final pad = innerH * k;
+      final innerW = rect.width - 2 * pad;
+      return rect.topLeft + Offset(pad + p.x * innerW, pad + p.y * innerH);
+    }
+
+    Future<void> draw(WidgetTester tester, TraceTask t, List<Point2> stroke) async {
+      final g = await tester.startGesture(toScreen(tester, t, stroke.first));
+      for (final p in stroke.skip(1)) {
+        await g.moveTo(toScreen(tester, t, p));
+      }
+      await g.up();
+      await tester.pump();
+    }
+
+    Exercise traceExercise(TraceTask task) => Exercise(
+          topicId: 'test.trace',
+          subject: 'writing',
+          level: 1,
+          kind: ExerciseKind.trace,
+          instruction: const Localized(uz: 'Chiziqni yoz', en: 'Trace the line', ru: 'Обведи линию'),
+          speech: 'Chiziqni yoz',
+          conceptKey: 'trace:test',
+          trace: task,
+        );
+
+    testWidgets('harfni namuna bo‘yicha yozish — yechiladi', (tester) async {
+      final e = make('writing6.letters', 1);
+      final task = e.trace!;
+      int? solved;
+      await host(
+        tester,
+        TraceExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      );
+      for (final s in task.strokes) {
+        await draw(tester, task, s);
+      }
+      expect(solved, 0, reason: task.id);
+    });
+
+    testWidgets('nuqtalarni birlashtirish — yechiladi', (tester) async {
+      final e = make('writing4.dots', 1);
+      final task = e.trace!;
+      expect(task.dots, isTrue);
+      int? solved;
+      await host(
+        tester,
+        TraceExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      );
+      await draw(tester, task, task.strokes.first);
+      expect(solved, 0);
+    });
+
+    testWidgets('yo‘ldan chiqqan chiziq o‘chadi va xato hisoblanadi; keyin to‘g‘ri yozish', (tester) async {
+      const task = TraceTask(
+        id: 'v',
+        strokes: [
+          [Point2(0.5, 0.1), Point2(0.5, 0.5), Point2(0.5, 0.9)],
+        ],
+        tolerance: 0.1,
+      );
+      final mistakes = <int>[];
+      int? solved;
+      await host(
+        tester,
+        TraceExerciseView(
+          exercise: traceExercise(task),
+          callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m),
+        ),
+      );
+      await draw(tester, task, const [Point2(0.05, 0.1), Point2(0.05, 0.5), Point2(0.05, 0.9)]);
+      await tester.pump(const Duration(milliseconds: 400));
+      expect(mistakes, [1]);
+      expect(solved, isNull);
+      await draw(tester, task, task.strokes.first);
+      expect(solved, 1);
+    });
+
+    testWidgets('ko‘p xatodan keyin mashq yumshoq yakunlanadi', (tester) async {
+      const task = TraceTask(
+        id: 'v',
+        strokes: [
+          [Point2(0.5, 0.1), Point2(0.5, 0.9)],
+        ],
+        tolerance: 0.1,
+      );
+      final mistakes = <int>[];
+      int? solved;
+      await host(
+        tester,
+        TraceExerciseView(
+          exercise: traceExercise(task),
+          callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m),
+        ),
+      );
+      for (var i = 0; i < TraceExerciseView.maxMistakes; i++) {
+        await draw(tester, task, const [Point2(0.95, 0.1), Point2(0.95, 0.9)]);
+        await tester.pump(const Duration(milliseconds: 400));
+      }
+      expect(mistakes.length, TraceExerciseView.maxMistakes);
+      expect(solved, TraceExerciseView.maxMistakes);
+      // Namoyish animatsiyasi to'xtaydi.
+      await tester.pump(const Duration(seconds: 5));
+    });
+
+    testWidgets('tozalash va ko‘rsatish tugmalari ishlaydi', (tester) async {
+      final e = make('writing4.letters', 1);
+      await host(
+        tester,
+        TraceExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (_) {})),
+      );
+      await tester.tap(find.byKey(const ValueKey('trace_demo')));
+      await tester.pump(const Duration(milliseconds: 500));
+      await tester.tap(find.byKey(const ValueKey('trace_clear')));
+      await tester.pump(const Duration(seconds: 5));
+      expect(tester.takeException(), isNull);
+    });
+  });
+
   testWidgets('barcha mashq turlari xatosiz chiziladi', (tester) async {
     for (final t in content.allTopics) {
       for (var level = 1; level <= t.maxLevel; level++) {
@@ -224,7 +399,9 @@ void main() {
           ExerciseKind.maze => MazeExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.sudoku => SudokuExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.coding => CodingExerciseView(exercise: e, callbacks: cb),
-          _ => ChoiceExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.assemble => AssembleExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.trace => TraceExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(exercise: e, callbacks: cb),
         };
         await host(tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));
         expect(tester.takeException(), isNull, reason: '${t.id} L$level');

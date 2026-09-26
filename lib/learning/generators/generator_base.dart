@@ -5,6 +5,7 @@ import 'package:flutter/painting.dart';
 import '../content/content_repository.dart';
 import '../content/instructions.dart';
 import '../content/lexicon.dart';
+import '../content/uzbek_data.dart';
 import '../models/exercise.dart';
 import '../models/topic.dart';
 import '../models/visual.dart';
@@ -30,6 +31,8 @@ class GenContext {
   final Map<String, dynamic> params;
 
   Lexicon get lex => content.lexicon;
+
+  UzbekData get uz => content.uzbek;
 
   bool get junior => age <= 5;
 
@@ -62,6 +65,25 @@ class GenContext {
   }
 
   bool chance(double p) => rng.nextDouble() < p;
+
+  /// Bo'laklarni aralashtiradi: boshidagi bo'laklar to'g'ri javob tartibida qolib ketmasin
+  /// (aks holda "yig'ish" mashqi o'z-o'zidan yechilgan bo'lib ko'rinadi).
+  List<String> mixTiles(List<String> tiles, List<String> answer) {
+    final copy = List<String>.from(tiles);
+    bool trivial(List<String> l) {
+      if (l.length < answer.length) return false;
+      for (var i = 0; i < answer.length; i++) {
+        if (l[i] != answer[i]) return false;
+      }
+      return true;
+    }
+
+    for (var i = 0; i < 12; i++) {
+      copy.shuffle(rng);
+      if (!trivial(copy)) break;
+    }
+    return copy;
+  }
 
   // ------------------------------------------------------------ kontent
 
@@ -121,6 +143,8 @@ class GenContext {
     MazeTask? maze,
     SudokuTask? sudoku,
     CodingTask? coding,
+    AssembleTask? assemble,
+    TraceTask? trace,
     String? hint,
     String? explanation,
     Map<String, Object> meta = const {},
@@ -140,6 +164,8 @@ class GenContext {
       maze: maze,
       sudoku: sudoku,
       coding: coding,
+      assemble: assemble,
+      trace: trace,
       hint: hint,
       explanation: explanation,
       meta: meta,

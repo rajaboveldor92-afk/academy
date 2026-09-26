@@ -1,0 +1,506 @@
+{
+ "subject": "uzbek",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 8,
+ "title": {
+  "uz": "O‘zbek tili",
+  "en": "Uzbek",
+  "ru": "Узбекский язык"
+ },
+ "model": "KO‘R → TUSHUN → TANLA → O‘QI → YECH → IZOHNI KO‘R",
+ "topics": [
+  {
+   "id": "uzbek6.letters",
+   "code": "U1",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Harf",
+    "en": "Letters",
+    "ru": "Буквы"
+   },
+   "generator": "letter_find",
+   "skill": "letters",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "set": "vowels",
+     "options": 3,
+     "modes": [
+      "upper",
+      "lower"
+     ]
+    },
+    {
+     "set": "consonants",
+     "options": 4,
+     "modes": [
+      "upper",
+      "lower"
+     ]
+    },
+    {
+     "set": "digraphs",
+     "options": 4,
+     "similar": true,
+     "modes": [
+      "upper",
+      "mixed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.sounds",
+   "code": "U2",
+   "emoji": "👂",
+   "title": {
+    "uz": "Tovush",
+    "en": "Sounds",
+    "ru": "Звуки"
+   },
+   "generator": "first_sound",
+   "skill": "phonics",
+   "prerequisites": [
+    "uzbek6.letters"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4,
+     "letters": [
+      "s",
+      "sh",
+      "ch",
+      "j",
+      "g",
+      "g‘",
+      "q",
+      "k",
+      "o",
+      "o‘",
+      "u",
+      "x",
+      "h"
+     ]
+    },
+    {
+     "options": 3,
+     "position": "last"
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.case",
+   "code": "U3",
+   "emoji": "🔠",
+   "title": {
+    "uz": "Bosh va kichik harf",
+    "en": "Capital and small letters",
+    "ru": "Заглавные и строчные"
+   },
+   "generator": "case_match",
+   "skill": "letters",
+   "prerequisites": [
+    "uzbek6.letters"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 3,
+     "set": "vowels"
+    },
+    {
+     "pairs": 4,
+     "set": "single"
+    },
+    {
+     "pairs": 5
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.syllables",
+   "code": "U4",
+   "emoji": "👏",
+   "title": {
+    "uz": "Bo‘g‘in",
+    "en": "Syllables",
+    "ru": "Слоги"
+   },
+   "generator": "syllables",
+   "skill": "syllables",
+   "prerequisites": [
+    "uzbek6.sounds"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "count"
+     ],
+     "minSyl": 1,
+     "maxSyl": 3
+    },
+    {
+     "modes": [
+      "count",
+      "missing"
+     ],
+     "maxSyl": 3
+    },
+    {
+     "modes": [
+      "build",
+      "missing"
+     ],
+     "maxSyl": 4,
+     "extra": 1
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.short_words",
+   "code": "U5",
+   "emoji": "📝",
+   "title": {
+    "uz": "2–3 harfli so‘z",
+    "en": "Short words",
+    "ru": "Короткие слова"
+   },
+   "generator": "word_read",
+   "skill": "reading",
+   "prerequisites": [
+    "uzbek6.syllables"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "minLetters": 2,
+     "maxLetters": 3,
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "minLetters": 2,
+     "maxLetters": 3,
+     "modes": [
+      "read",
+      "build"
+     ]
+    },
+    {
+     "minLetters": 2,
+     "maxLetters": 3,
+     "modes": [
+      "build"
+     ],
+     "extra": 1
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.long_words",
+   "code": "U6",
+   "emoji": "📖",
+   "title": {
+    "uz": "4–6 harfli so‘z",
+    "en": "Longer words",
+    "ru": "Длинные слова"
+   },
+   "generator": "word_read",
+   "skill": "reading",
+   "prerequisites": [
+    "uzbek6.short_words"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 6,
+     "modes": [
+      "read",
+      "build"
+     ]
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 6,
+     "modes": [
+      "build"
+     ],
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.picture_word",
+   "code": "U7",
+   "emoji": "🖼️",
+   "title": {
+    "uz": "Rasmga mos so‘z",
+    "en": "Word for the picture",
+    "ru": "Слово к картинке"
+   },
+   "generator": "picture_word",
+   "skill": "reading",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "similar": "none",
+     "maxLetters": 5
+    },
+    {
+     "similar": "first",
+     "maxLetters": 6
+    },
+    {
+     "similar": "theme",
+     "maxLetters": 7,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.fill_letter",
+   "code": "U8",
+   "emoji": "✍️",
+   "title": {
+    "uz": "So‘zni to‘ldir",
+    "en": "Missing letter",
+    "ru": "Пропущенная буква"
+   },
+   "generator": "fill_letter",
+   "skill": "spelling",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "which": "vowel",
+     "maxLetters": 4
+    },
+    {
+     "which": "consonant",
+     "maxLetters": 5
+    },
+    {
+     "which": "any",
+     "maxLetters": 6,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.build_sentence",
+   "code": "U9",
+   "emoji": "🧱",
+   "title": {
+    "uz": "So‘zlardan gap tuz",
+    "en": "Build a sentence",
+    "ru": "Составь предложение"
+   },
+   "generator": "build_sentence",
+   "skill": "sentences",
+   "prerequisites": [
+    "uzbek6.long_words"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color",
+      "action"
+     ]
+    },
+    {
+     "types": [
+      "action",
+      "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.read_sentence",
+   "code": "U10",
+   "emoji": "👓",
+   "title": {
+    "uz": "Gapni o‘qi",
+    "en": "Read the sentence",
+    "ru": "Прочитай предложение"
+   },
+   "generator": "read_sentence",
+   "skill": "sentences",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ]
+    },
+    {
+     "types": [
+      "action",
+      "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.missing_word",
+   "code": "U11",
+   "emoji": "❓",
+   "title": {
+    "uz": "Yetishmayotgan so‘z",
+    "en": "Missing word",
+    "ru": "Пропущенное слово"
+   },
+   "generator": "missing_word",
+   "skill": "sentences",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.story",
+   "code": "U12",
+   "emoji": "📚",
+   "title": {
+    "uz": "Kichik hikoya",
+    "en": "Short story",
+    "ru": "Маленький рассказ"
+   },
+   "generator": "story",
+   "skill": "comprehension",
+   "prerequisites": [
+    "uzbek6.read_sentence"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "picture"
+     ]
+    },
+    {
+     "modes": [
+      "picture"
+     ],
+     "long": true
+    },
+    {
+     "modes": [
+      "picture",
+      "question"
+     ],
+     "long": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.text_question",
+   "code": "U13",
+   "emoji": "💬",
+   "title": {
+    "uz": "Matn bo‘yicha savol",
+    "en": "Questions about a text",
+    "ru": "Вопросы по тексту"
+   },
+   "generator": "story",
+   "skill": "comprehension",
+   "prerequisites": [
+    "uzbek6.story"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "question"
+     ]
+    },
+    {
+     "modes": [
+      "question"
+     ],
+     "long": true
+    },
+    {
+     "modes": [
+      "question"
+     ],
+     "long": true
+    }
+   ]
+  },
+  {
+   "id": "uzbek6.picture_sentence",
+   "code": "U14",
+   "emoji": "🗨️",
+   "title": {
+    "uz": "Rasm asosida gap",
+    "en": "Sentence for a picture",
+    "ru": "Предложение по картинке"
+   },
+   "generator": "picture_sentence",
+   "skill": "sentences",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ]
+    },
+    {
+     "types": [
+      "action",
+      "count"
+     ]
+    }
+   ]
+  }
+ ]
+}

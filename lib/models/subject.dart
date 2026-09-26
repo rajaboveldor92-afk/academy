@@ -35,6 +35,14 @@ enum Subject {
     color: Color(0xFF1FB57A),
     phase: 3,
   ),
+  writing(
+    id: 'writing',
+    title: 'Yozish',
+    emoji: '✏️',
+    spokenName: 'Yozishni o‘rganaman',
+    color: Color(0xFF7E57C2),
+    phase: 3,
+  ),
   english(
     id: 'english',
     title: 'English',

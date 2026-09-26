@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'visual.dart';
 
 /// Uch tildagi matn.
@@ -57,6 +59,12 @@ enum ExerciseKind {
 
   /// Strelkalar bilan dastur tuzish (kodlash).
   coding,
+
+  /// Bo'laklardan (harf, bo'g'in, so'z) to'g'ri tartibda yig'ish.
+  assemble,
+
+  /// Barmoq bilan chiziq/harf ustidan yurib yozish.
+  trace,
 }
 
 /// Javob varianti: rasm (visual) va/yoki matn.
@@ -226,6 +234,289 @@ class CodingTask {
   String describe() => 'code${rows}x$cols:$start>$goal:${(blocked.toList()..sort()).join(",")}';
 }
 
+/// Bo'laklardan yig'ish: [answer] — to'g'ri tartibdagi bo'laklar,
+/// [tiles] — ekranda aralash ko'rsatiladigan bo'laklar (chalg'ituvchilar bo'lishi mumkin).
+class AssembleTask {
+  const AssembleTask({required this.answer, required this.tiles, this.separator = ''});
+
+  final List<String> answer;
+  final List<String> tiles;
+
+  /// Yig'ilgan natijani ko'rsatishda bo'laklar orasidagi belgi ('' — so'z, ' ' — gap).
+  final String separator;
+
+  String get result => answer.join(separator);
+
+  String describe() => 'asm:${answer.join("|")}:${(List<String>.from(tiles)..sort()).join("|")}';
+}
+
+/// Yozish mashqi. [strokes] — yo'naltiruvchi chiziqlar (0..1 koordinatalar),
+/// [dots] bo'lsa — faqat raqamlangan nuqtalar ko'rsatiladi (nuqtalarni birlashtirish).
+class TraceTask {
+  const TraceTask({
+    required this.id,
+    required this.strokes,
+    this.dots = false,
+    this.label,
+    this.aspect = 1,
+    this.tolerance = 0.09,
+    this.minCoverage = 0.85,
+    this.leftToRight = false,
+  });
+
+  final String id;
+  final List<List<Point2>> strokes;
+  final bool dots;
+
+  /// Chiziq ostida ko'rsatiladigan yozuv (masalan, harf yoki so'z).
+  final String? label;
+
+  /// Kenglik / balandlik (so'zlar uchun kengroq maydon).
+  final double aspect;
+
+  /// Qanchalik yaqin yurish kerak (maydon balandligiga nisbatan) — yumshoq baholash.
+  final double tolerance;
+
+  /// Nazorat nuqtalarining qancha qismi bosib o'tilishi kerak.
+  final double minCoverage;
+
+  /// Har bir chiziq chapdan o'ngga yozilishi kerak ("chapdan o'ngga yozish" mashqi).
+  final bool leftToRight;
+
+  String describe() => 'trace:$id';
+}
+
+/// Oddiy 2D nuqta (Flutter'ga bog'lanmagan, testlarda ham ishlaydi).
+class Point2 {
+  const Point2(this.x, this.y);
+
+  final double x;
+  final double y;
+
+  double distanceTo(Point2 o) {
+    final dx = x - o.x, dy = y - o.y;
+    return math.sqrt(dx * dx + dy * dy);
+  }
+}
+
+/// Yozuvni baholash natijasi.
+class TraceReport {
+  const TraceReport({
+    required this.coverage,
+    required this.minStrokeCoverage,
+    required this.offPath,
+    required this.continuity,
+    required this.lengthRatio,
+    required this.directionOk,
+  });
+
+  static const empty = TraceReport(
+    coverage: 0,
+    minStrokeCoverage: 0,
+    offPath: 0,
+    continuity: 0,
+    lengthRatio: 0,
+    directionOk: true,
+  );
+
+  /// Nazorat nuqtalarining bosib o'tilgan ulushi (0..1).
+  final double coverage;
+
+  /// Eng kam qamralgan chiziqning qamrovi (bitta chiziq tushib qolmasin).
+  final double minStrokeCoverage;
+
+  /// Yo'ldan uzoqda chizilgan nuqtalar ulushi (0..1).
+  final double offPath;
+
+  /// Chiziq bo'ylab ketma-ket, uzilishsiz yurish ulushi (tartibsiz chizishni ajratadi).
+  final double continuity;
+
+  /// Chizilgan uzunlik / namunaviy uzunlik (qalin bo'yab tashlashni ajratadi).
+  final double lengthRatio;
+
+  /// "Chapdan o'ngga" talabi bajarildimi.
+  final bool directionOk;
+
+  bool passed(TraceTask t) =>
+      directionOk &&
+      coverage >= t.minCoverage &&
+      minStrokeCoverage >= TraceScorer.minStrokeCoverage &&
+      continuity >= TraceScorer.minContinuity &&
+      offPath <= TraceScorer.maxOffPath &&
+      lengthRatio <= TraceScorer.maxLengthRatio;
+
+  @override
+  String toString() => 'TraceReport(cov ${coverage.toStringAsFixed(2)}, stroke ${minStrokeCoverage.toStringAsFixed(2)}, '
+      'off ${offPath.toStringAsFixed(2)}, cont ${continuity.toStringAsFixed(2)}, len ${lengthRatio.toStringAsFixed(2)}, dir $directionOk)';
+}
+
+/// Yozuvni baholash (yumshoq, lekin tartibsiz chizishni o'tkazmaydi):
+/// * qamrov — yo'naltiruvchi chiziq bo'ylab nazorat nuqtalari bosib o'tilganmi;
+/// * har bir chiziq — hech bir chiziq tushib qolmaganmi;
+/// * uzluksizlik — nuqtalar ketma-ket (bir yo'nalishda) o'tilganmi;
+/// * yo'ldan chiqish va ortiqcha uzunlik — bo'yab tashlash emasmi.
+///
+/// Masofalar maydon BALANDLIGI birligida o'lchanadi: x koordinata [TraceTask.aspect]
+/// ga ko'paytiriladi, shuning uchun keng maydonda (so'zlar) ham baholash adolatli.
+class TraceScorer {
+  TraceScorer._();
+
+  static const double maxOffPath = 0.25;
+  static const double minStrokeCoverage = 0.7;
+  static const double minContinuity = 0.8;
+  static const double maxLengthRatio = 1.7;
+
+  static Point2 _scaled(Point2 p, double aspect) => Point2(p.x * aspect, p.y);
+
+  /// Siniq chiziqni ~[spacing] oraliqdagi nuqtalarga aylantiradi (masshtablangan).
+  static List<Point2> densify(List<Point2> stroke, double aspect, double spacing) {
+    if (stroke.isEmpty) return const [];
+    final pts = [for (final p in stroke) _scaled(p, aspect)];
+    final result = <Point2>[pts.first];
+    for (var i = 1; i < pts.length; i++) {
+      final a = pts[i - 1], b = pts[i];
+      final n = (a.distanceTo(b) / spacing).ceil();
+      for (var k = 1; k <= n; k++) {
+        final t = k / n;
+        result.add(Point2(a.x + (b.x - a.x) * t, a.y + (b.y - a.y) * t));
+      }
+    }
+    return result;
+  }
+
+  /// Har bir yo'naltiruvchi chiziq uchun nazorat nuqtalari (masshtablangan).
+  /// Nuqtalarni birlashtirishda — nuqtalarning o'zi.
+  static List<List<Point2>> strokeCheckpoints(TraceTask t, {double spacing = 0.05}) => [
+        for (final s in t.strokes)
+          if (t.dots) [for (final p in s) _scaled(p, t.aspect)] else densify(s, t.aspect, spacing),
+      ];
+
+  static List<Point2> checkpoints(TraceTask t) => [for (final s in strokeCheckpoints(t)) ...s];
+
+  /// Siniq chiziq uzunligi (masshtablangan).
+  static double length(List<List<Point2>> strokes, double aspect) {
+    var sum = 0.0;
+    for (final s in strokes) {
+      for (var i = 1; i < s.length; i++) {
+        sum += _scaled(s[i - 1], aspect).distanceTo(_scaled(s[i], aspect));
+      }
+    }
+    return sum;
+  }
+
+  static double _tol(TraceTask t) => t.dots ? t.tolerance * 1.3 : t.tolerance;
+
+  /// Yo'ldan chiqish chegarasi.
+  static double offRadius(TraceTask t) => math.min(_tol(t) * 1.6, _tol(t) + 0.035);
+
+  static bool _near(Point2 p, List<Point2> pts, double r) {
+    final r2 = r * r;
+    for (final q in pts) {
+      final dx = p.x - q.x, dy = p.y - q.y;
+      if (dx * dx + dy * dy <= r2) return true;
+    }
+    return false;
+  }
+
+  /// Bitta chizilgan chiziqning yo'ldan chiqqan qismi (xato chiziqni olib tashlash uchun).
+  static double strokeOffPath(TraceTask t, List<Point2> stroke) {
+    final pts = densify(stroke, t.aspect, t.tolerance / 2);
+    if (pts.isEmpty) return 0;
+    final path = [for (final s in t.strokes) ...densify(s, t.aspect, 0.025)];
+    final r = offRadius(t);
+    return pts.where((p) => !_near(p, path, r)).length / pts.length;
+  }
+
+  static TraceReport evaluate(TraceTask t, List<List<Point2>> drawn) {
+    final strokes = drawn.where((s) => s.isNotEmpty).toList();
+    final pts = [for (final s in strokes) ...densify(s, t.aspect, t.tolerance / 2)];
+    if (pts.isEmpty) return TraceReport.empty;
+    final tol = _tol(t);
+    final perStroke = strokeCheckpoints(t);
+
+    var covered = 0, total = 0;
+    var minStroke = 1.0;
+    for (final cps in perStroke) {
+      if (cps.isEmpty) continue;
+      final c = cps.where((p) => _near(p, pts, tol)).length;
+      covered += c;
+      total += cps.length;
+      minStroke = math.min(minStroke, c / cps.length);
+    }
+
+    final path = [for (final s in t.strokes) ...densify(s, t.aspect, 0.025)];
+    final r = offRadius(t);
+    final off = pts.where((p) => !_near(p, path, r)).length / pts.length;
+
+    var good = 0, pairs = 0;
+    final reversed = pts.reversed.toList();
+    for (final cps in perStroke) {
+      if (cps.length < 2) continue;
+      final f = _continuity(cps, pts, tol);
+      final b = _continuity(cps, reversed, tol);
+      final best = f.good >= b.good ? f : b;
+      good += best.good;
+      pairs += best.pairs;
+    }
+
+    final guideLength = length(t.strokes, t.aspect);
+    return TraceReport(
+      coverage: total == 0 ? 0 : covered / total,
+      minStrokeCoverage: minStroke,
+      offPath: off,
+      continuity: pairs == 0 ? 1 : good / pairs,
+      lengthRatio: guideLength == 0 ? 0 : length(strokes, t.aspect) / guideLength,
+      directionOk: !t.leftToRight || leftToRightOk(strokes),
+    );
+  }
+
+  /// Ketma-ket qamralgan nazorat nuqtalari juftlaridan nechtasi chizilgan chiziq
+  /// bo'ylab to'g'ridan-to'g'ri (orqaga qaytmasdan, aylanib o'tmasdan) bog'langan.
+  static ({int good, int pairs}) _continuity(List<Point2> cps, List<Point2> pts, double tol) {
+    final cum = List<double>.filled(pts.length, 0);
+    for (var k = 1; k < pts.length; k++) {
+      cum[k] = cum[k - 1] + pts[k - 1].distanceTo(pts[k]);
+    }
+    final tol2 = tol * tol;
+    int? prev;
+    var good = 0, pairs = 0;
+    var along = 0.0;
+    for (var i = 0; i < cps.length; i++) {
+      final c = cps[i];
+      if (i > 0) along += cps[i - 1].distanceTo(c);
+      final near = <int>[];
+      for (var k = 0; k < pts.length; k++) {
+        final dx = pts[k].x - c.x, dy = pts[k].y - c.y;
+        if (dx * dx + dy * dy <= tol2) near.add(k);
+      }
+      if (near.isEmpty) continue;
+      if (prev == null) {
+        prev = near.first;
+        along = 0;
+        continue;
+      }
+      pairs++;
+      final bound = along * 1.6 + 2 * tol;
+      final from = prev;
+      final next = near.where((k) => k >= from && cum[k] - cum[from] <= bound).firstOrNull;
+      if (next != null) {
+        good++;
+        prev = next;
+      } else {
+        prev = near.first;
+      }
+      along = 0;
+    }
+    return (good: good, pairs: pairs);
+  }
+
+  /// "Chapdan o'ngga" talabi: har bir chiziq chapdan boshlanib o'ngda tugaydi.
+  static bool leftToRightOk(List<List<Point2>> drawn) =>
+      drawn.every((st) => st.length < 2 || st.last.x - st.first.x > -0.05);
+
+  static bool passed(TraceTask t, List<List<Point2>> drawn) => evaluate(t, drawn).passed(t);
+}
+
 /// Bitta mashq (runtime obyekt). Generatorlar yaratadi, pleyer ko'rsatadi.
 class Exercise {
   const Exercise({
@@ -245,6 +536,8 @@ class Exercise {
     this.maze,
     this.sudoku,
     this.coding,
+    this.assemble,
+    this.trace,
     this.previewVisual,
     this.previewSeconds = 0,
     this.hint,
@@ -278,6 +571,8 @@ class Exercise {
   final MazeTask? maze;
   final SudokuTask? sudoku;
   final CodingTask? coding;
+  final AssembleTask? assemble;
+  final TraceTask? trace;
 
   /// [ExerciseKind.memory]: avval ko'rsatiladigan rasm va vaqti.
   final ExerciseVisual? previewVisual;
@@ -314,6 +609,8 @@ class Exercise {
     if (maze != null) b.write('|${maze!.describe()}');
     if (sudoku != null) b.write('|${sudoku!.describe()}');
     if (coding != null) b.write('|${coding!.describe()}');
+    if (assemble != null) b.write('|${assemble!.describe()}');
+    if (trace != null) b.write('|${trace!.describe()}');
     if (previewVisual != null) b.write('|pre:${previewVisual!.describe()}');
     return b.toString();
   }

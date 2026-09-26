@@ -106,4 +106,39 @@ void main() {
     expect(find.byKey(const Key('lesson_instruction')), findsOneWidget);
     expect(find.byKey(const Key('lesson_speak')), findsOneWidget);
   });
+
+  testWidgets('Azamjon: o‘zbek tili mavzulari (U1…U14)', (tester) async {
+    final c = await setup(tester, 'azamjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: const MaterialApp(
+        home: SubjectScreen(subject: Subject.uzbek),
+        onGenerateRoute: AppRouter.onGenerateRoute,
+      ),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('continue_topic')));
+    expect(find.byKey(const Key('continue_topic')), findsOneWidget);
+    expect(find.text('U1'), findsOneWidget);
+  });
+
+  testWidgets('Yozish darsi: barmoq bilan yozish maydoni ochiladi', (tester) async {
+    final c = await setup(tester, 'azamjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'writing6.letters', random: Random(2))),
+    ));
+    await pumpUntil(tester, find.byKey(const ValueKey('trace_area')));
+    expect(find.byKey(const ValueKey('trace_area')), findsOneWidget);
+    expect(find.byKey(const Key('lesson_instruction')), findsOneWidget);
+  });
+
+  testWidgets('O‘zbek tili darsi: gap tuzish (bo‘laklar) ochiladi', (tester) async {
+    final c = await setup(tester, 'azamjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'uzbek6.build_sentence', random: Random(2))),
+    ));
+    await pumpUntil(tester, find.byKey(const ValueKey('tile_0')));
+    expect(find.byKey(const ValueKey('slot_0')), findsOneWidget);
+  });
 }
