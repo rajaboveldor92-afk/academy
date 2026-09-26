@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import '../../core/utils/map_utils.dart';
 import '../models/topic.dart';
 import 'instructions.dart';
+import 'language_data.dart';
 import 'lexicon.dart';
 import 'uzbek_data.dart';
 
@@ -18,6 +19,7 @@ class ContentRepository {
     required this.curricula,
     required this.uzbek,
     required this.glyphs,
+    required this.languages,
   });
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
@@ -30,6 +32,12 @@ class ContentRepository {
     'uzbek_6',
     'writing_4',
     'writing_6',
+    'english_4',
+    'english_6',
+    'russian_4',
+    'russian_6',
+    'trilingual_4',
+    'trilingual_6',
   ];
 
   final Lexicon lexicon;
@@ -46,6 +54,9 @@ class ContentRepository {
 
   /// Yozish mashqlari chiziqlari.
   final GlyphBank glyphs;
+
+  /// Ingliz va rus tili: alifbolar, harakatlar, sifatlar, iboralar, grammatik ma'lumot.
+  final LanguageData languages;
 
   Curriculum? curriculum(String subject, String ageSuffix) => curricula['${subject}_$ageSuffix'];
 
@@ -75,6 +86,7 @@ class ContentRepository {
       curricula: curricula,
       uzbek: UzbekData.fromJson(await json('uzbek')),
       glyphs: GlyphBank.fromJson(await json('glyphs')),
+      languages: LanguageData.fromJson(await json('languages')),
     );
   }
 }

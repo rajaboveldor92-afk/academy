@@ -1,0 +1,974 @@
+{
+ "subject": "english",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский"
+ },
+ "model": "KO‘R → ESHIT → TANLA → O‘QI → YOZ → IZOHNI KO‘R",
+ "topics": [
+  {
+   "id": "english6.alphabet",
+   "code": "E1",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Alifbo",
+    "en": "Alphabet",
+    "ru": "Алфавит"
+   },
+   "generator": "letters",
+   "skill": "letters",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "set": "all",
+     "modes": [
+      "upper"
+     ],
+     "options": 3
+    },
+    {
+     "set": "all",
+     "modes": [
+      "upper",
+      "lower"
+     ],
+     "options": 3,
+     "similar": true
+    },
+    {
+     "set": "all",
+     "modes": [
+      "mixed",
+      "lower"
+     ],
+     "options": 4,
+     "similar": true
+    }
+   ]
+  },
+  {
+   "id": "english6.case",
+   "code": "E2",
+   "emoji": "🔠",
+   "title": {
+    "uz": "Katta va kichik harflar",
+    "en": "Big and small letters",
+    "ru": "Большие и маленькие буквы"
+   },
+   "generator": "case_match",
+   "skill": "letters",
+   "prerequisites": [
+    "english6.alphabet"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 3
+    },
+    {
+     "pairs": 4
+    },
+    {
+     "pairs": 5
+    }
+   ]
+  },
+  {
+   "id": "english6.phonics",
+   "code": "E3",
+   "emoji": "👂",
+   "title": {
+    "uz": "Harf va tovush",
+    "en": "Letters and sounds",
+    "ru": "Буквы и звуки"
+   },
+   "generator": "first_letter",
+   "skill": "phonics",
+   "prerequisites": [
+    "english6.alphabet"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3,
+     "letters": [
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "m",
+      "p",
+      "s",
+      "t"
+     ]
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english6.numbers",
+   "code": "E4",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar 1–20",
+    "en": "Numbers 1–20",
+    "ru": "Числа 1–20"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "listen_digit",
+      "read_word"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "read_word",
+      "match"
+     ],
+     "pairs": 4,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english6.colors",
+   "code": "E5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown"
+     ],
+     "options": 3,
+     "modes": [
+      "listen",
+      "read"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 3,
+     "modes": [
+      "read",
+      "picture_word"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 4,
+     "modes": [
+      "picture_word",
+      "object",
+      "read"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english6.animals",
+   "code": "E6",
+   "emoji": "🐾",
+   "title": {
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.fruits_veg",
+   "code": "E7",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Meva va sabzavotlar",
+    "en": "Fruit and vegetables",
+    "ru": "Фрукты и овощи"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "fruits_veg"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "fruits_veg"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "fruits_veg"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.food",
+   "code": "E8",
+   "emoji": "🍞",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.family",
+   "code": "E9",
+   "emoji": "👨‍👩‍👧",
+   "title": {
+    "uz": "Oila va tana",
+    "en": "Family and body",
+    "ru": "Семья и тело"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.toys_school",
+   "code": "E10",
+   "emoji": "🎒",
+   "title": {
+    "uz": "O‘yinchoq va maktab",
+    "en": "Toys and school",
+    "ru": "Игрушки и школа"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.transport",
+   "code": "E11",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Transport",
+    "en": "Transport",
+    "ru": "Транспорт"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.home",
+   "code": "E12",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Uy",
+    "en": "Home",
+    "ru": "Дом"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.clothes",
+   "code": "E13",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyimlar",
+    "en": "Clothes",
+    "ru": "Одежда"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.nature",
+   "code": "E14",
+   "emoji": "🌳",
+   "title": {
+    "uz": "Tabiat",
+    "en": "Nature",
+    "ru": "Природа"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.jobs",
+   "code": "E15",
+   "emoji": "👩‍🚒",
+   "title": {
+    "uz": "Kasblar va joylar",
+    "en": "Jobs and places",
+    "ru": "Профессии и места"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english6.actions",
+   "code": "E16",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Harakatlar",
+    "en": "Actions",
+    "ru": "Действия"
+   },
+   "generator": "vocab",
+   "skill": "actions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english6.opposites",
+   "code": "E17",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Qarama-qarshi so‘zlar",
+    "en": "Opposites",
+    "ru": "Противоположности"
+   },
+   "generator": "opposites",
+   "skill": "adjectives",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "size",
+      "length"
+     ]
+    },
+    {
+     "modes": [
+      "size",
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "modes": [
+      "read",
+      "listen",
+      "length"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english6.spelling",
+   "code": "E18",
+   "emoji": "✏️",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "prerequisites": [
+    "english6.phonics"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "minLetters": 3,
+     "maxLetters": 3
+    },
+    {
+     "minLetters": 3,
+     "maxLetters": 4,
+     "extra": 1
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "english6.sentences",
+   "code": "E19",
+   "emoji": "📖",
+   "title": {
+    "uz": "Oddiy gaplar",
+    "en": "Simple sentences",
+    "ru": "Простые предложения"
+   },
+   "generator": "sentence",
+   "skill": "reading",
+   "prerequisites": [
+    "english6.spelling"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ],
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "build"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english6.listening",
+   "code": "E20",
+   "emoji": "🎧",
+   "title": {
+    "uz": "Tinglab tushunish",
+    "en": "Listening",
+    "ru": "Аудирование"
+   },
+   "generator": "sentence",
+   "skill": "listening",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ],
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "listen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english6.phrases",
+   "code": "E21",
+   "emoji": "👋",
+   "title": {
+    "uz": "Kundalik iboralar",
+    "en": "Everyday phrases",
+    "ru": "Вежливые слова"
+   },
+   "generator": "vocab",
+   "skill": "phrases",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "listen",
+      "picture_word"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "picture_word"
+     ],
+     "options": 4
+    }
+   ]
+  }
+ ]
+}

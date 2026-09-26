@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import '../../models/speech_part.dart';
 import 'visual.dart';
 
 /// Uch tildagi matn.
@@ -544,6 +545,8 @@ class Exercise {
     this.explanation,
     this.rewardStars = 1,
     this.meta = const {},
+    this.speechLang = 'uz',
+    this.speechParts = const [],
   });
 
   final String topicId;
@@ -554,8 +557,17 @@ class Exercise {
   /// Ko'rsatma (uz/en/ru). Ekranda o'zbekcha ko'rsatiladi.
   final Localized instruction;
 
-  /// Ovozda aytiladigan o'zbekcha matn (sonlar so'z bilan).
+  /// Ovozda aytiladigan matn (sonlar so'z bilan), [speechLang] tilida.
   final String speech;
+
+  /// Ovoz va ekrandagi asosiy ko'rsatma tili: `uz`; chet tili darslarida `en` / `ru`.
+  final String speechLang;
+
+  /// Bir necha tildagi nutq (3 tilda o'rganamiz): bo'sh bo'lmasa [speech] o'rniga aytiladi.
+  final List<SpeechPart> speechParts;
+
+  /// Ekranda ko'rsatiladigan asosiy ko'rsatma.
+  String get prompt => instruction.of(speechLang);
 
   /// Takrorlash (spaced repetition) uchun tushuncha: `number:7`, `shape:circle`.
   final String conceptKey;
@@ -593,7 +605,8 @@ class Exercise {
 
   /// Mazmun bo'yicha kalit — bir xil savollarni aniqlash uchun.
   String get signature {
-    final b = StringBuffer('$topicId|${kind.name}|${instruction.uz}|${visual?.describe() ?? ''}');
+    // Ovoz ham kalitga kiradi: tinglash mashqlarida ekrandagi matn bir xil, so'z esa har xil.
+    final b = StringBuffer('$topicId|${kind.name}|${instruction.uz}|$speech|${speechParts.join('+')}|${visual?.describe() ?? ''}');
     for (final o in options) {
       b.write('|${o.describe()}');
     }

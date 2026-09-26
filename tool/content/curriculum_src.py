@@ -310,8 +310,202 @@ writing6 = {
      tr(["pre:waves2","pre:zigzag2","pre:loops","pre:wave","pre:steps"], leftToRight=True, tolerancePct=85)], skill="prewriting"),
  ]}
 
+# ============================================================ ENGLISH / РУССКИЙ / 3 TILDA
+C10 = ["red", "yellow", "blue", "green", "orange", "purple", "pink", "brown", "black", "white"]
+
+def voc4(theme, opts3=3, opts4=4):
+    """4 yosh lug'at mavzusi: eshit → rasm; 2-darajadan chalg'ituvchilar shu mavzudan."""
+    return [{"themes": [theme], "modes": ["listen"], "options": opts3},
+            {"themes": [theme], "modes": ["listen"], "options": opts3, "sameTheme": True},
+            {"themes": [theme], "modes": ["listen"], "options": opts4, "sameTheme": True}]
+
+def voc6(themes):
+    """6 yosh lug'at mavzusi: eshit/o'qi → rasm → rasmga so'z."""
+    return [{"themes": themes, "modes": ["listen", "read"], "options": 3},
+            {"themes": themes, "modes": ["read", "picture_word"], "options": 3, "sameTheme": True},
+            {"themes": themes, "modes": ["picture_word", "read", "listen"], "options": 4, "sameTheme": True}]
+
+def lang4(prefix, subject, title, names):
+    """4 yosh (ingliz/rus) dasturi. names: {key: (uz, en, ru)}."""
+    n = lambda k: names[k]
+    topics = []
+    def add(key, emoji, gen, levels, skill, code):
+        uz, en, ru = n(key)
+        topics.append(T(prefix + "4." + key, code, emoji, uz, en, ru, gen, levels, skill=skill))
+    i = 0
+    def code():
+        nonlocal i
+        i += 1
+        return ("E" if subject == "english" else "R") + str(i)
+    add("colors", "🎨", "colors", [{"colors": C5, "options": 3, "modes": ["listen"]},
+                                   {"colors": C8, "options": 3, "modes": ["listen"]},
+                                   {"colors": C10, "options": 4, "modes": ["listen", "object"]}], "colors", code())
+    add("numbers_5", "✋", "numbers", [{"min": 1, "max": 3, "modes": ["listen_digit", "listen_group"]},
+                                      {"min": 1, "max": 5, "modes": ["listen_digit", "listen_group"]},
+                                      {"min": 1, "max": 5, "modes": ["listen_digit", "listen_group"], "options": 4}], "numbers", code())
+    add("numbers_10", "🔟", "numbers", [{"min": 1, "max": 6, "modes": ["listen_digit", "listen_group"]},
+                                       {"min": 1, "max": 10, "modes": ["listen_digit", "listen_group"]},
+                                       {"min": 1, "max": 10, "modes": ["listen_digit", "listen_group"], "options": 4}], "numbers", code())
+    for key, emoji, theme in [("animals", "🐶", "animals"), ("family", "👨‍👩‍👧", "family"), ("body", "👃", "body"),
+                              ("toys", "🧸", "toys"), ("school", "🎒", "school"), ("transport", "🚌", "transport"),
+                              ("home", "🏠", "home"), ("fruits", "🍎", "fruits"), ("vegetables", "🥕", "vegetables"),
+                              ("food", "🍞", "food"), ("clothes", "👕", "clothes")]:
+        add(key, emoji, "vocab", voc4(theme), "vocabulary", code())
+    add("actions", "🏃", "vocab", voc4("actions"), "actions", code())
+    add("alphabet", "🔤", "alphabet_listen", [{"options": 3, "letters": list("abcdefgh") if subject == "english" else list("абвгдежзкл")},
+                                             {"options": 3}, {"options": 4}], "alphabet", code())
+    add("phrases", "👋", "vocab", [{"themes": ["phrases"], "modes": ["listen"], "options": 2},
+                                   {"themes": ["phrases"], "modes": ["listen"], "options": 3},
+                                   {"themes": ["phrases"], "modes": ["listen"], "options": 3}], "phrases", code())
+    return {"subject": subject, "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 6, "title": title,
+            "model": "ESHIT → KO‘R → BOS → QAYTA ESHIT (🔊) → MAQTOV OL", "topics": topics}
+
+EN_NAMES4 = {
+ "colors": ("Ranglar", "Colours", "Цвета"), "numbers_5": ("1–5 sonlar", "Numbers 1–5", "Числа 1–5"),
+ "numbers_10": ("1–10 sonlar", "Numbers 1–10", "Числа 1–10"), "animals": ("Hayvonlar", "Animals", "Животные"),
+ "family": ("Oila", "Family", "Семья"), "body": ("Tana", "Body", "Тело"), "toys": ("O‘yinchoqlar", "Toys", "Игрушки"),
+ "school": ("Bog‘cha va maktab", "School", "Школа"), "transport": ("Transport", "Transport", "Транспорт"),
+ "home": ("Uy", "Home", "Дом"), "fruits": ("Mevalar", "Fruits", "Фрукты"), "vegetables": ("Sabzavotlar", "Vegetables", "Овощи"),
+ "food": ("Taomlar", "Food", "Еда"), "clothes": ("Kiyimlar", "Clothes", "Одежда"), "actions": ("Harakatlar", "Actions", "Действия"),
+ "alphabet": ("Alifbo", "Alphabet", "Алфавит"), "phrases": ("Salom!", "Hello!", "Привет!"),
+}
+english4 = lang4("english", "english", {"uz": "Ingliz tili", "en": "English", "ru": "Английский"}, EN_NAMES4)
+russian4 = lang4("russian", "russian", {"uz": "Rus tili", "en": "Russian", "ru": "Русский язык"}, EN_NAMES4)
+
+english6 = {
+ "subject": "english", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 8,
+ "title": {"uz": "Ingliz tili", "en": "English", "ru": "Английский"},
+ "model": "KO‘R → ESHIT → TANLA → O‘QI → YOZ → IZOHNI KO‘R",
+ "topics": [
+  T("english6.alphabet","E1","🔤","Alifbo","Alphabet","Алфавит","letters",
+    [{"set":"all","modes":["upper"],"options":3},{"set":"all","modes":["upper","lower"],"options":3,"similar":True},
+     {"set":"all","modes":["mixed","lower"],"options":4,"similar":True}], skill="letters"),
+  T("english6.case","E2","🔠","Katta va kichik harflar","Big and small letters","Большие и маленькие буквы","case_match",
+    [{"pairs":3},{"pairs":4},{"pairs":5}], skill="letters", pre=["english6.alphabet"]),
+  T("english6.phonics","E3","👂","Harf va tovush","Letters and sounds","Буквы и звуки","first_letter",
+    [{"options":3,"letters":list("bcdfhmpst")},{"options":3},{"options":4}], skill="phonics", pre=["english6.alphabet"]),
+  T("english6.numbers","E4","🔢","Sonlar 1–20","Numbers 1–20","Числа 1–20","numbers",
+    [{"min":1,"max":10,"modes":["listen_digit","listen_group"]},{"min":1,"max":20,"modes":["listen_digit","read_word"]},
+     {"min":1,"max":20,"modes":["read_word","match"],"pairs":4,"options":4}], skill="numbers"),
+  T("english6.colors","E5","🎨","Ranglar","Colours","Цвета","colors",
+    [{"colors":C8,"options":3,"modes":["listen","read"]},{"colors":C10,"options":3,"modes":["read","picture_word"]},
+     {"colors":C10,"options":4,"modes":["picture_word","object","read"]}], skill="colors"),
+  T("english6.animals","E6","🐾","Hayvonlar","Animals","Животные","vocab", voc6(["animals"]), skill="vocabulary"),
+  T("english6.fruits_veg","E7","🍎","Meva va sabzavotlar","Fruit and vegetables","Фрукты и овощи","vocab", voc6(["fruits_veg"]), skill="vocabulary"),
+  T("english6.food","E8","🍞","Taomlar","Food","Еда","vocab", voc6(["food"]), skill="vocabulary"),
+  T("english6.family","E9","👨‍👩‍👧","Oila va tana","Family and body","Семья и тело","vocab", voc6(["family_body"]), skill="vocabulary"),
+  T("english6.toys_school","E10","🎒","O‘yinchoq va maktab","Toys and school","Игрушки и школа","vocab", voc6(["toys_school"]), skill="vocabulary"),
+  T("english6.transport","E11","🚌","Transport","Transport","Транспорт","vocab", voc6(["transport"]), skill="vocabulary"),
+  T("english6.home","E12","🏠","Uy","Home","Дом","vocab", voc6(["home"]), skill="vocabulary"),
+  T("english6.clothes","E13","👕","Kiyimlar","Clothes","Одежда","vocab", voc6(["clothes"]), skill="vocabulary"),
+  T("english6.nature","E14","🌳","Tabiat","Nature","Природа","vocab", voc6(["nature"]), skill="vocabulary"),
+  T("english6.jobs","E15","👩‍🚒","Kasblar va joylar","Jobs and places","Профессии и места","vocab", voc6(["jobs_places"]), skill="vocabulary"),
+  T("english6.actions","E16","🏃","Harakatlar","Actions","Действия","vocab",
+    [{"themes":["actions"],"modes":["listen"],"options":3},{"themes":["actions"],"modes":["listen","read"],"options":3},
+     {"themes":["actions"],"modes":["read","picture_word"],"options":4}], skill="actions"),
+  T("english6.opposites","E17","↔️","Qarama-qarshi so‘zlar","Opposites","Противоположности","opposites",
+    [{"modes":["size","length"]},{"modes":["size","listen"],"options":3},{"modes":["read","listen","length"],"options":4}], skill="adjectives"),
+  T("english6.spelling","E18","✏️","So‘z yig‘ish","Spelling","Собери слово","spell",
+    [{"minLetters":3,"maxLetters":3},{"minLetters":3,"maxLetters":4,"extra":1},{"minLetters":4,"maxLetters":5,"extra":2}],
+    skill="spelling", pre=["english6.phonics"]),
+  T("english6.sentences","E19","📖","Oddiy gaplar","Simple sentences","Простые предложения","sentence",
+    [{"types":["this"],"modes":["read"]},{"types":["this","color"],"modes":["read","picture"]},
+     {"types":["color","count","action"],"modes":["read","picture","build"]}], skill="reading", pre=["english6.spelling"]),
+  T("english6.listening","E20","🎧","Tinglab tushunish","Listening","Аудирование","sentence",
+    [{"types":["this"],"modes":["listen"]},{"types":["this","color"],"modes":["listen"]},
+     {"types":["color","count","action"],"modes":["listen"]}], skill="listening"),
+  T("english6.phrases","E21","👋","Kundalik iboralar","Everyday phrases","Вежливые слова","vocab",
+    [{"themes":["phrases"],"modes":["listen"],"options":3},{"themes":["phrases"],"modes":["listen","picture_word"],"options":3},
+     {"themes":["phrases"],"modes":["picture_word"],"options":4}], skill="phrases"),
+ ]}
+
+russian6 = {
+ "subject": "russian", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 8,
+ "title": {"uz": "Rus tili", "en": "Russian", "ru": "Русский язык"},
+ "model": "KO‘R → ESHIT → HARF → BO‘G‘IN → SO‘Z → GAP",
+ "topics": [
+  T("russian6.alphabet","R1","🔤","Alifbo","Alphabet","Алфавит","letters",
+    [{"set":"all","modes":["upper"],"options":3},{"set":"all","modes":["upper","lower"],"options":3,"similar":True},
+     {"set":"all","modes":["mixed","lower"],"options":4,"similar":True}], skill="letters"),
+  T("russian6.sounds","R2","👂","Tovush va harf","Sounds and letters","Звуки и буквы","first_letter",
+    [{"options":3,"letters":list("мпстклрбдн")},{"options":3},{"options":4}], skill="phonics", pre=["russian6.alphabet"]),
+  T("russian6.vowels","R3","🅰️","Unli va undosh","Vowels and consonants","Гласные и согласные","vowels",
+    [{"modes":["vowel"]},{"modes":["vowel","consonant"]},{"modes":["vowel","consonant"],"options":4}], skill="letters", pre=["russian6.alphabet"]),
+  T("russian6.syllables","R4","👏","Bo‘g‘in","Syllables","Слоги","syllables",
+    [{"modes":["count"],"maxSyl":3},{"modes":["count","missing"],"maxSyl":3},{"modes":["build","missing"],"maxSyl":4,"extra":1}],
+    skill="syllables", pre=["russian6.vowels"]),
+  T("russian6.colors","R5","🎨","Ranglar","Colours","Цвета","colors",
+    [{"colors":C8,"options":3,"modes":["listen","read"]},{"colors":C10,"options":3,"modes":["read","picture_word"]},
+     {"colors":C10,"options":4,"modes":["picture_word","object","read"]}], skill="colors"),
+  T("russian6.numbers","R6","🔢","Sonlar 1–20","Numbers 1–20","Числа до 20","numbers",
+    [{"min":1,"max":10,"modes":["listen_digit","listen_group"]},{"min":1,"max":20,"modes":["listen_digit","read_word"]},
+     {"min":1,"max":20,"modes":["read_word","match"],"pairs":4,"options":4}], skill="numbers"),
+  T("russian6.animals","R7","🐾","Hayvonlar va tabiat","Animals and nature","Животные и природа","vocab", voc6(["animals_nature"]), skill="vocabulary"),
+  T("russian6.family","R8","👨‍👩‍👧","Oila va tana","Family and body","Семья и тело","vocab", voc6(["family_body"]), skill="vocabulary"),
+  T("russian6.toys_school","R9","🎒","O‘yinchoq va maktab","Toys and school","Игрушки и школа","vocab", voc6(["toys_school"]), skill="vocabulary"),
+  T("russian6.city","R10","🏙️","Shahar: transport va kasblar","Town: transport and jobs","Город: транспорт и профессии","vocab", voc6(["transport_city"]), skill="vocabulary"),
+  T("russian6.food","R11","🍞","Taomlar","Food","Еда","vocab", voc6(["food_all"]), skill="vocabulary"),
+  T("russian6.clothes_home","R12","👕","Kiyim va uy","Clothes and home","Одежда и дом","vocab", voc6(["clothes_home"]), skill="vocabulary"),
+  T("russian6.actions","R13","🏃","Harakat, belgi, iboralar","Actions, qualities, phrases","Действия, признаки, вежливые слова","vocab",
+    [{"themes":["actions","phrases"],"modes":["listen"],"options":3},
+     {"themes":["actions","opposites","phrases"],"modes":["listen","read"],"options":3},
+     {"themes":["actions","opposites","phrases"],"modes":["read","picture_word"],"options":4}], skill="actions"),
+  T("russian6.spelling","R14","✏️","So‘z yig‘ish","Spelling","Собери слово","spell",
+    [{"minLetters":3,"maxLetters":4},{"minLetters":3,"maxLetters":4,"extra":1},{"minLetters":4,"maxLetters":5,"extra":2}],
+    skill="spelling", pre=["russian6.syllables"]),
+  T("russian6.sentences","R15","📖","Oddiy gap","Simple sentences","Простое предложение","sentence",
+    [{"types":["this"],"modes":["read"]},{"types":["this","color"],"modes":["read","picture","listen"]},
+     {"types":["color","action"],"modes":["read","picture","listen","build"]}], skill="reading", pre=["russian6.spelling"]),
+ ]}
+
+TRI4 = [("fruits","🍎","Mevalar","Fruits","Фрукты"), ("animals","🐶","Hayvonlar","Animals","Животные"),
+        ("toys","🧸","O‘yinchoqlar","Toys","Игрушки"), ("food","🍞","Taomlar","Food","Еда"),
+        ("family_body","👨‍👩‍👧","Oila va tana","Family and body","Семья и тело"), ("transport","🚌","Transport","Transport","Транспорт"),
+        ("clothes","👕","Kiyimlar","Clothes","Одежда"), ("home","🏠","Uy","Home","Дом"), ("vegetables","🥕","Sabzavotlar","Vegetables","Овощи")]
+trilingual4 = {
+ "subject": "trilingual", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 6,
+ "title": {"uz": "3 tilda o‘rganamiz", "en": "Three languages", "ru": "Учим на трёх языках"},
+ "model": "RASM → 🔊 O‘ZBEKCHA → 🔊 RUSCHA → 🔊 INGLIZCHA → TOP",
+ "topics": [
+  T("trilingual4." + key, "T%d" % (i + 1), emoji, uz, en, ru, "listen",
+    [{"themes":[key],"modes":["all3"],"options":3},{"themes":[key],"modes":["all3","en","ru"],"options":3},
+     {"themes":[key],"modes":["en","ru"],"options":4}], skill="three_languages")
+  for i, (key, emoji, uz, en, ru) in enumerate(TRI4)
+ ]}
+
+trilingual6 = {
+ "subject": "trilingual", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 8,
+ "title": {"uz": "3 tilda o‘rganamiz", "en": "Three languages", "ru": "Учим на трёх языках"},
+ "model": "RASM → 3 TIL → SOLISHTIR → TANLA → JUFTLA",
+ "topics": [
+  T("trilingual6.listen","T1","🔊","Eshit va top","Listen and find","Слушай и найди","listen",
+    [{"themes":["fruits_veg","animals","toys_school"],"modes":["all3"]},{"themes":["fruits_veg","animals","toys_school"],"modes":["en","ru"]},
+     {"themes":["fruits_veg","animals","toys_school"],"modes":["en","ru"],"options":4}], skill="three_languages"),
+  T("trilingual6.what_is","T2","❓","Bu nima?","What is it?","Что это?","what_is",
+    [{"themes":["food_all","family_body"],"langs":["ru"],"pictures":True},{"themes":["food_all","family_body"],"langs":["en"]},
+     {"themes":["food_all","family_body"],"langs":["ru","en"],"options":4}], skill="three_languages"),
+  T("trilingual6.which_lang","T3","🌍","Qaysi til?","Which language?","Какой язык?","which_lang",
+    [{"themes":["animals_nature","clothes_home"],"langs":["en","ru"]},{"themes":["animals_nature","clothes_home"]},
+     {"themes":["animals_nature","clothes_home","transport_city"]}], skill="three_languages"),
+  T("trilingual6.match","T4","🔗","Juftla","Match","Соедини","match",
+    [{"themes":["transport_city","toys_school"],"langs":["en"],"pairs":3},{"themes":["transport_city","toys_school"],"langs":["ru"],"pairs":4},
+     {"themes":["transport_city","toys_school"],"langs":["en","ru"],"pairs":5}], skill="three_languages"),
+  T("trilingual6.listen3","T5","🎧","Uch tilda eshit","Hear three languages","Слушай на трёх языках","listen",
+    [{"themes":["animals_nature"],"modes":["all3"]},{"themes":["animals_nature","clothes_home"],"modes":["all3","en","ru"]},
+     {"themes":["animals_nature","clothes_home"],"modes":["en","ru"],"options":4}], skill="three_languages"),
+  T("trilingual6.russian_words","T6","🇷🇺","Ruscha so‘zlar","Russian words","Русские слова","what_is",
+    [{"themes":["clothes_home","transport_city"],"langs":["ru"],"pictures":True},{"themes":["clothes_home","transport_city"],"langs":["ru"]},
+     {"themes":["clothes_home","transport_city","animals_nature"],"langs":["ru"],"options":4}], skill="three_languages"),
+  T("trilingual6.english_words","T7","🇬🇧","Inglizcha so‘zlar","English words","Английские слова","what_is",
+    [{"themes":["animals_nature","food_all"],"langs":["en"],"pictures":True},{"themes":["animals_nature","food_all"],"langs":["en"]},
+     {"themes":["animals_nature","food_all","family_body"],"langs":["en"],"options":4}], skill="three_languages"),
+  T("trilingual6.match_ru","T8","🧩","Juftla: ruscha","Match: Russian","Соедини: русский","match",
+    [{"themes":["family_body","food_all"],"langs":["ru"],"pairs":3},{"themes":["family_body","food_all"],"langs":["ru"],"pairs":4},
+     {"themes":["family_body","food_all","clothes_home"],"langs":["ru","en"],"pairs":5}], skill="three_languages"),
+ ]}
+
 base = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data")
-for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6)]:
+for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6)]:
     ids = [t["id"] for t in data["topics"]]
     assert len(ids) == len(set(ids)), name
     for t in data["topics"]:

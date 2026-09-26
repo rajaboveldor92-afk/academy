@@ -1,0 +1,382 @@
+{
+ "subject": "trilingual",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 8,
+ "title": {
+  "uz": "3 tilda o‘rganamiz",
+  "en": "Three languages",
+  "ru": "Учим на трёх языках"
+ },
+ "model": "RASM → 3 TIL → SOLISHTIR → TANLA → JUFTLA",
+ "topics": [
+  {
+   "id": "trilingual6.listen",
+   "code": "T1",
+   "emoji": "🔊",
+   "title": {
+    "uz": "Eshit va top",
+    "en": "Listen and find",
+    "ru": "Слушай и найди"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "fruits_veg",
+      "animals",
+      "toys_school"
+     ],
+     "modes": [
+      "all3"
+     ]
+    },
+    {
+     "themes": [
+      "fruits_veg",
+      "animals",
+      "toys_school"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ]
+    },
+    {
+     "themes": [
+      "fruits_veg",
+      "animals",
+      "toys_school"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.what_is",
+   "code": "T2",
+   "emoji": "❓",
+   "title": {
+    "uz": "Bu nima?",
+    "en": "What is it?",
+    "ru": "Что это?"
+   },
+   "generator": "what_is",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "food_all",
+      "family_body"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "pictures": true
+    },
+    {
+     "themes": [
+      "food_all",
+      "family_body"
+     ],
+     "langs": [
+      "en"
+     ]
+    },
+    {
+     "themes": [
+      "food_all",
+      "family_body"
+     ],
+     "langs": [
+      "ru",
+      "en"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.which_lang",
+   "code": "T3",
+   "emoji": "🌍",
+   "title": {
+    "uz": "Qaysi til?",
+    "en": "Which language?",
+    "ru": "Какой язык?"
+   },
+   "generator": "which_lang",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals_nature",
+      "clothes_home"
+     ],
+     "langs": [
+      "en",
+      "ru"
+     ]
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "clothes_home"
+     ]
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "clothes_home",
+      "transport_city"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.match",
+   "code": "T4",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Juftla",
+    "en": "Match",
+    "ru": "Соедини"
+   },
+   "generator": "match",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "transport_city",
+      "toys_school"
+     ],
+     "langs": [
+      "en"
+     ],
+     "pairs": 3
+    },
+    {
+     "themes": [
+      "transport_city",
+      "toys_school"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "pairs": 4
+    },
+    {
+     "themes": [
+      "transport_city",
+      "toys_school"
+     ],
+     "langs": [
+      "en",
+      "ru"
+     ],
+     "pairs": 5
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.listen3",
+   "code": "T5",
+   "emoji": "🎧",
+   "title": {
+    "uz": "Uch tilda eshit",
+    "en": "Hear three languages",
+    "ru": "Слушай на трёх языках"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "all3"
+     ]
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "clothes_home"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ]
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "clothes_home"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.russian_words",
+   "code": "T6",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Ruscha so‘zlar",
+    "en": "Russian words",
+    "ru": "Русские слова"
+   },
+   "generator": "what_is",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes_home",
+      "transport_city"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "pictures": true
+    },
+    {
+     "themes": [
+      "clothes_home",
+      "transport_city"
+     ],
+     "langs": [
+      "ru"
+     ]
+    },
+    {
+     "themes": [
+      "clothes_home",
+      "transport_city",
+      "animals_nature"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.english_words",
+   "code": "T7",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Inglizcha so‘zlar",
+    "en": "English words",
+    "ru": "Английские слова"
+   },
+   "generator": "what_is",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals_nature",
+      "food_all"
+     ],
+     "langs": [
+      "en"
+     ],
+     "pictures": true
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "food_all"
+     ],
+     "langs": [
+      "en"
+     ]
+    },
+    {
+     "themes": [
+      "animals_nature",
+      "food_all",
+      "family_body"
+     ],
+     "langs": [
+      "en"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual6.match_ru",
+   "code": "T8",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Juftla: ruscha",
+    "en": "Match: Russian",
+    "ru": "Соедини: русский"
+   },
+   "generator": "match",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "family_body",
+      "food_all"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "pairs": 3
+    },
+    {
+     "themes": [
+      "family_body",
+      "food_all"
+     ],
+     "langs": [
+      "ru"
+     ],
+     "pairs": 4
+    },
+    {
+     "themes": [
+      "family_body",
+      "food_all",
+      "clothes_home"
+     ],
+     "langs": [
+      "ru",
+      "en"
+     ],
+     "pairs": 5
+    }
+   ]
+  }
+ ]
+}

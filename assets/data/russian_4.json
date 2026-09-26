@@ -1,0 +1,781 @@
+{
+ "subject": "russian",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "ESHIT → KO‘R → BOS → QAYTA ESHIT (🔊) → MAQTOV OL",
+ "topics": [
+  {
+   "id": "russian4.colors",
+   "code": "R1",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange"
+     ],
+     "options": 3,
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown"
+     ],
+     "options": 3,
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 4,
+     "modes": [
+      "listen",
+      "object"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "russian4.numbers_5",
+   "code": "R2",
+   "emoji": "✋",
+   "title": {
+    "uz": "1–5 sonlar",
+    "en": "Numbers 1–5",
+    "ru": "Числа 1–5"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 3,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian4.numbers_10",
+   "code": "R3",
+   "emoji": "🔟",
+   "title": {
+    "uz": "1–10 sonlar",
+    "en": "Numbers 1–10",
+    "ru": "Числа 1–10"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 6,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian4.animals",
+   "code": "R4",
+   "emoji": "🐶",
+   "title": {
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.family",
+   "code": "R5",
+   "emoji": "👨‍👩‍👧",
+   "title": {
+    "uz": "Oila",
+    "en": "Family",
+    "ru": "Семья"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "family"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "family"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.body",
+   "code": "R6",
+   "emoji": "👃",
+   "title": {
+    "uz": "Tana",
+    "en": "Body",
+    "ru": "Тело"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.toys",
+   "code": "R7",
+   "emoji": "🧸",
+   "title": {
+    "uz": "O‘yinchoqlar",
+    "en": "Toys",
+    "ru": "Игрушки"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.school",
+   "code": "R8",
+   "emoji": "🎒",
+   "title": {
+    "uz": "Bog‘cha va maktab",
+    "en": "School",
+    "ru": "Школа"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "school"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "school"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "school"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.transport",
+   "code": "R9",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Transport",
+    "en": "Transport",
+    "ru": "Транспорт"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.home",
+   "code": "R10",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Uy",
+    "en": "Home",
+    "ru": "Дом"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.fruits",
+   "code": "R11",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Mevalar",
+    "en": "Fruits",
+    "ru": "Фрукты"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.vegetables",
+   "code": "R12",
+   "emoji": "🥕",
+   "title": {
+    "uz": "Sabzavotlar",
+    "en": "Vegetables",
+    "ru": "Овощи"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.food",
+   "code": "R13",
+   "emoji": "🍞",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.clothes",
+   "code": "R14",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyimlar",
+    "en": "Clothes",
+    "ru": "Одежда"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.actions",
+   "code": "R15",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Harakatlar",
+    "en": "Actions",
+    "ru": "Действия"
+   },
+   "generator": "vocab",
+   "skill": "actions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian4.alphabet",
+   "code": "R16",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Alifbo",
+    "en": "Alphabet",
+    "ru": "Алфавит"
+   },
+   "generator": "alphabet_listen",
+   "skill": "alphabet",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3,
+     "letters": [
+      "а",
+      "б",
+      "в",
+      "г",
+      "д",
+      "е",
+      "ж",
+      "з",
+      "к",
+      "л"
+     ]
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian4.phrases",
+   "code": "R17",
+   "emoji": "👋",
+   "title": {
+    "uz": "Salom!",
+    "en": "Hello!",
+    "ru": "Привет!"
+   },
+   "generator": "vocab",
+   "skill": "phrases",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 2
+    },
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,14 +1,21 @@
 import '../../core/utils/map_utils.dart';
 import '../models/exercise.dart';
+import '../../models/speech_part.dart';
 import 'lexicon.dart';
+import 'number_words.dart';
 import 'uz_numbers.dart';
 
-/// Tayyor ko'rsatma: ekrandagi matn (3 tilda) va ovozli o'zbekcha matn.
+/// Tayyor ko'rsatma: ekrandagi matn (3 tilda) va ovozli matn.
+///
+/// * [lang] — ovoz tili (va ekranda asosiy ko'rsatiladigan til): chet tili darsida `en`/`ru`.
+/// * [parts] — bir necha tildagi nutq ("Apple" + "qaysi rasm?"); bo'sh bo'lsa [speech] aytiladi.
 class RenderedInstruction {
-  const RenderedInstruction(this.text, this.speech);
+  const RenderedInstruction(this.text, this.speech, {this.lang = 'uz', this.parts = const []});
 
   final Localized text;
   final String speech;
+  final String lang;
+  final List<SpeechPart> parts;
 }
 
 /// Ko'rsatmalar banki (`assets/data/instructions.json`).
@@ -28,7 +35,9 @@ class InstructionBank {
 
   bool has(String key) => _templates.containsKey(key);
 
-  RenderedInstruction render(String key, [Map<String, Object> params = const {}]) {
+  /// [speechLang] — ovoz tili. `en`/`ru` bo'lsa shablonning `speech_en`/`speech_ru`
+  /// (yoki `en`/`ru`) matni o'sha tildagi sonlar bilan aytiladi.
+  RenderedInstruction render(String key, [Map<String, Object> params = const {}, String speechLang = 'uz']) {
     final t = _templates[key];
     if (t == null) throw ArgumentError('Ko\'rsatma topilmadi: $key');
     String fill(String lang, String template, {bool speech = false}) {
@@ -47,12 +56,22 @@ class InstructionBank {
       en: fill('en', t['en']!),
       ru: fill('ru', t['ru']!),
     );
+    if (speechLang != 'uz') {
+      final template = t['speech_$speechLang'] ?? t[speechLang]!;
+      return RenderedInstruction(text, speechFor(fill(speechLang, template, speech: true), speechLang), lang: speechLang);
+    }
     final speechTemplate = t['speech'] ?? t['uz']!;
     return RenderedInstruction(text, toSpeech(fill('uz', speechTemplate, speech: true)));
   }
 
+  /// Chet tilidagi matnni ovoz uchun tayyorlash (sonlar so'z bilan).
+  static String speechFor(String text, String lang) {
+    if (lang == 'uz') return toSpeech(text);
+    return NumberWords.spellDigits(text, lang).replaceAll(RegExp(r'\s+'), ' ').trim();
+  }
+
   static String _value(Object v, String lang, {bool speech = false}) {
-    if (v is int) return speech ? UzNumbers.word(v) : '$v';
+    if (v is int) return speech ? NumberWords.word(v, lang) : '$v';
     if (v is LexiconEntry) return v.word.of(lang);
     if (v is ColorEntry) return v.name.of(lang);
     if (v is ShapeEntry) return v.name.of(lang);

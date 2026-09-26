@@ -146,8 +146,64 @@ I = {
  "wr_left_right": ("Chapdan o‘ngga yoz", "Write from left to right", "Пиши слева направо"),
 }
 
+# Chet tili darslari (lg_*): ekranda va ovozda — ingliz/rus tilida; o'zbekcha matn — faqat umumiy
+# yordamchi (javobni oshkor qilmaydi), shuning uchun unda o'rinbosar bo'lmasligi mumkin.
+LG = {
+ "lg_listen": ("Eshit va rasmni top", "Listen and find", "Слушай и найди"),
+ "lg_find": ("Eshit va rasmni top", "Find the {w}", "Где {w}?"),
+ "lg_find_action": ("Eshit va rasmni top", "Who is {w}?", "Кто {w}?"),
+ "lg_find_word": ("Eshit va rasmni top", "Find: {w}", "Найди: {w}"),
+ "lg_find_phrase": ("Qachon shunday deymiz? Rasmni top", "When do we say: {w}", "Когда говорят: {w}"),
+ "lg_read": ("O‘qi va rasmni top", "Read and find", "Прочитай и найди"),
+ "lg_what": ("Bu nima? So‘zni tanla", "What is this?", "Что это?"),
+ "lg_what_action": ("U nima qilyapti? So‘zni tanla", "What is he doing?", "Что он делает?"),
+ "lg_what_adj": ("Qanday? So‘zni tanla", "What is it like?", "Какой он?"),
+ "lg_what_phrase": ("Nima deysan? Iborani tanla", "What do you say?", "Что ты скажешь?"),
+ "lg_find_color": ("Eshit va rangni top", "Find {w}", "Найди цвет: {w}"),
+ "lg_find_color_object": ("Eshit va rasmni top", "Find something {w}", "Найди что-то {w}"),
+ "lg_what_color": ("Bu qanday rang? So‘zni tanla", "What colour is it?", "Какой это цвет?"),
+ "lg_read_color": ("O‘qi va rangni top", "Read and find the colour", "Прочитай и найди цвет"),
+ "lg_find_number": ("Eshit va sonni top", "Find {w}", "Найди: {w}"),
+ "lg_find_group": ("Eshit va rasmni top", "Find {w}", "Покажи, где {w}"),
+ "lg_how_many": ("Nechta? So‘zni tanla", "How many?", "Сколько?"),
+ "lg_match_numbers": ("Son va so‘zni juftla", "Match the numbers and the words", "Соедини числа и слова"),
+ "lg_find_letter": ("Harfni top", "Find the letter {l}", "Найди букву {l}"),
+ "lg_find_small_letter": ("Kichik harfni top", "Find the small letter {l}", "Найди маленькую букву {l}"),
+ "lg_match_case": ("Bosh va kichik harfni juftla", "Match the big and small letters", "Соедини большие и маленькие буквы"),
+ "lg_first_letter": ("Harf bilan boshlanadigan rasmni top", "Which one starts with {l}?", "Что начинается на букву {l}?"),
+ "lg_alphabet": ("Eshit va rasmni top", "{l} is for {w}. Find the {w}.", "{l} — {w}. Где {w}?"),
+ "lg_find_vowel": ("Unli harfni top", "Find the vowel", "Найди гласную букву"),
+ "lg_find_consonant": ("Undosh harfni top", "Find the consonant", "Найди согласную букву"),
+ "lg_count_syllables": ("Bo‘g‘inlarni sana", "How many syllables?", "Сколько слогов в слове?"),
+ "lg_build_syllables": ("Bo‘g‘inlardan so‘z yig‘", "Make the word from syllables", "Собери слово из слогов"),
+ "lg_missing_syllable": ("Tushib qolgan bo‘g‘inni top", "Find the missing syllable", "Какого слога не хватает?"),
+ "lg_spell": ("Harflardan so‘z yig‘", "Spell the word: {w}", "Собери слово: {w}"),
+ "lg_find_big": ("Eshit va rasmni top", "Find the {a} {w}", "Где {a} {w}?"),
+ "lg_find_line": ("Eshit va chiziqni top", "Find the {a} line", "Где {a} линия?"),
+ "lg_read_sentence": ("Gapni o‘qi va rasmni top", "Read and find the picture", "Прочитай и найди картинку"),
+ "lg_picture_sentence": ("Rasmga mos gapni tanla", "Which sentence matches the picture?", "Какое предложение подходит к картинке?"),
+ "lg_listen_sentence": ("Gapni eshit va rasmni top", "Listen and find: {w}", "Слушай и найди: {w}"),
+ "lg_build_sentence": ("So‘zlardan gap tuz", "Make a sentence", "Составь предложение"),
+}
+
+# 3 tilda o'rganamiz (tri_*): ekranda o'zbekcha; ovoz bo'laklari generator'da (har so'z o'z tilida).
+TRI = {
+ "tri_which_picture": ("«{w}» qaysi rasm?", "Which picture is «{w}»?", "Какая картинка — «{w}»?"),
+ "tri_what_is": ("«{w}» nima?", "What is «{w}»?", "Что такое «{w}»?"),
+ "tri_listen3": ("{w}. Qaysi rasm?", "{w}. Which picture?", "{w}. Какая картинка?"),
+ "tri_which_lang": ("Qaysi so‘z {lang}?", "Which word is in {lang}?", "Какое слово — {lang}?"),
+ "tri_match": ("So‘zlarni juftla: {lang}", "Match the words: {lang}", "Соедини слова: {lang}"),
+}
+
+
 out = {"schemaVersion": 1, "instructions": {}}
 import re
+ph = lambda s: sorted(set(re.findall(r"\{(\w+)(?::\w+)?\}", s)))
+for k, (uz, en, ru) in LG.items():
+    assert k.startswith("lg_")
+    assert ph(en) == ph(ru) and set(ph(uz)) <= set(ph(en)), (k, ph(uz), ph(en), ph(ru))
+    out["instructions"][k] = {"uz": uz, "en": en, "ru": ru}
+I.update(TRI)
 for k, (uz, en, ru) in I.items():
     ph = lambda s: sorted(set(re.findall(r"\{(\w+)(?::\w+)?\}", s)))
     # Tarjimalar bir xil o'rinbosarlarga ega bo'lishi kerak (uz dagi p1/p2 kabi so'zlar bundan mustasno emas).
@@ -155,4 +211,4 @@ for k, (uz, en, ru) in I.items():
     out["instructions"][k] = {"uz": uz, "en": en, "ru": ru}
 path = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data", "instructions.json")
 json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print(len(I), "instructions")
+print(len(out["instructions"]), "instructions")

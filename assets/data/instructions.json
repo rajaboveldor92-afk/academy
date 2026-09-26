@@ -1,6 +1,181 @@
 {
  "schemaVersion": 1,
  "instructions": {
+  "lg_listen": {
+   "uz": "Eshit va rasmni top",
+   "en": "Listen and find",
+   "ru": "Слушай и найди"
+  },
+  "lg_find": {
+   "uz": "Eshit va rasmni top",
+   "en": "Find the {w}",
+   "ru": "Где {w}?"
+  },
+  "lg_find_action": {
+   "uz": "Eshit va rasmni top",
+   "en": "Who is {w}?",
+   "ru": "Кто {w}?"
+  },
+  "lg_find_word": {
+   "uz": "Eshit va rasmni top",
+   "en": "Find: {w}",
+   "ru": "Найди: {w}"
+  },
+  "lg_find_phrase": {
+   "uz": "Qachon shunday deymiz? Rasmni top",
+   "en": "When do we say: {w}",
+   "ru": "Когда говорят: {w}"
+  },
+  "lg_read": {
+   "uz": "O‘qi va rasmni top",
+   "en": "Read and find",
+   "ru": "Прочитай и найди"
+  },
+  "lg_what": {
+   "uz": "Bu nima? So‘zni tanla",
+   "en": "What is this?",
+   "ru": "Что это?"
+  },
+  "lg_what_action": {
+   "uz": "U nima qilyapti? So‘zni tanla",
+   "en": "What is he doing?",
+   "ru": "Что он делает?"
+  },
+  "lg_what_adj": {
+   "uz": "Qanday? So‘zni tanla",
+   "en": "What is it like?",
+   "ru": "Какой он?"
+  },
+  "lg_what_phrase": {
+   "uz": "Nima deysan? Iborani tanla",
+   "en": "What do you say?",
+   "ru": "Что ты скажешь?"
+  },
+  "lg_find_color": {
+   "uz": "Eshit va rangni top",
+   "en": "Find {w}",
+   "ru": "Найди цвет: {w}"
+  },
+  "lg_find_color_object": {
+   "uz": "Eshit va rasmni top",
+   "en": "Find something {w}",
+   "ru": "Найди что-то {w}"
+  },
+  "lg_what_color": {
+   "uz": "Bu qanday rang? So‘zni tanla",
+   "en": "What colour is it?",
+   "ru": "Какой это цвет?"
+  },
+  "lg_read_color": {
+   "uz": "O‘qi va rangni top",
+   "en": "Read and find the colour",
+   "ru": "Прочитай и найди цвет"
+  },
+  "lg_find_number": {
+   "uz": "Eshit va sonni top",
+   "en": "Find {w}",
+   "ru": "Найди: {w}"
+  },
+  "lg_find_group": {
+   "uz": "Eshit va rasmni top",
+   "en": "Find {w}",
+   "ru": "Покажи, где {w}"
+  },
+  "lg_how_many": {
+   "uz": "Nechta? So‘zni tanla",
+   "en": "How many?",
+   "ru": "Сколько?"
+  },
+  "lg_match_numbers": {
+   "uz": "Son va so‘zni juftla",
+   "en": "Match the numbers and the words",
+   "ru": "Соедини числа и слова"
+  },
+  "lg_find_letter": {
+   "uz": "Harfni top",
+   "en": "Find the letter {l}",
+   "ru": "Найди букву {l}"
+  },
+  "lg_find_small_letter": {
+   "uz": "Kichik harfni top",
+   "en": "Find the small letter {l}",
+   "ru": "Найди маленькую букву {l}"
+  },
+  "lg_match_case": {
+   "uz": "Bosh va kichik harfni juftla",
+   "en": "Match the big and small letters",
+   "ru": "Соедини большие и маленькие буквы"
+  },
+  "lg_first_letter": {
+   "uz": "Harf bilan boshlanadigan rasmni top",
+   "en": "Which one starts with {l}?",
+   "ru": "Что начинается на букву {l}?"
+  },
+  "lg_alphabet": {
+   "uz": "Eshit va rasmni top",
+   "en": "{l} is for {w}. Find the {w}.",
+   "ru": "{l} — {w}. Где {w}?"
+  },
+  "lg_find_vowel": {
+   "uz": "Unli harfni top",
+   "en": "Find the vowel",
+   "ru": "Найди гласную букву"
+  },
+  "lg_find_consonant": {
+   "uz": "Undosh harfni top",
+   "en": "Find the consonant",
+   "ru": "Найди согласную букву"
+  },
+  "lg_count_syllables": {
+   "uz": "Bo‘g‘inlarni sana",
+   "en": "How many syllables?",
+   "ru": "Сколько слогов в слове?"
+  },
+  "lg_build_syllables": {
+   "uz": "Bo‘g‘inlardan so‘z yig‘",
+   "en": "Make the word from syllables",
+   "ru": "Собери слово из слогов"
+  },
+  "lg_missing_syllable": {
+   "uz": "Tushib qolgan bo‘g‘inni top",
+   "en": "Find the missing syllable",
+   "ru": "Какого слога не хватает?"
+  },
+  "lg_spell": {
+   "uz": "Harflardan so‘z yig‘",
+   "en": "Spell the word: {w}",
+   "ru": "Собери слово: {w}"
+  },
+  "lg_find_big": {
+   "uz": "Eshit va rasmni top",
+   "en": "Find the {a} {w}",
+   "ru": "Где {a} {w}?"
+  },
+  "lg_find_line": {
+   "uz": "Eshit va chiziqni top",
+   "en": "Find the {a} line",
+   "ru": "Где {a} линия?"
+  },
+  "lg_read_sentence": {
+   "uz": "Gapni o‘qi va rasmni top",
+   "en": "Read and find the picture",
+   "ru": "Прочитай и найди картинку"
+  },
+  "lg_picture_sentence": {
+   "uz": "Rasmga mos gapni tanla",
+   "en": "Which sentence matches the picture?",
+   "ru": "Какое предложение подходит к картинке?"
+  },
+  "lg_listen_sentence": {
+   "uz": "Gapni eshit va rasmni top",
+   "en": "Listen and find: {w}",
+   "ru": "Слушай и найди: {w}"
+  },
+  "lg_build_sentence": {
+   "uz": "So‘zlardan gap tuz",
+   "en": "Make a sentence",
+   "ru": "Составь предложение"
+  },
   "one_many_one": {
    "uz": "Qayerda bitta {item} bor?",
    "en": "Where is just one? ({item})",
@@ -610,6 +785,31 @@
    "uz": "Chapdan o‘ngga yoz",
    "en": "Write from left to right",
    "ru": "Пиши слева направо"
+  },
+  "tri_which_picture": {
+   "uz": "«{w}» qaysi rasm?",
+   "en": "Which picture is «{w}»?",
+   "ru": "Какая картинка — «{w}»?"
+  },
+  "tri_what_is": {
+   "uz": "«{w}» nima?",
+   "en": "What is «{w}»?",
+   "ru": "Что такое «{w}»?"
+  },
+  "tri_listen3": {
+   "uz": "{w}. Qaysi rasm?",
+   "en": "{w}. Which picture?",
+   "ru": "{w}. Какая картинка?"
+  },
+  "tri_which_lang": {
+   "uz": "Qaysi so‘z {lang}?",
+   "en": "Which word is in {lang}?",
+   "ru": "Какое слово — {lang}?"
+  },
+  "tri_match": {
+   "uz": "So‘zlarni juftla: {lang}",
+   "en": "Match the words: {lang}",
+   "ru": "Соедини слова: {lang}"
   }
  }
 }

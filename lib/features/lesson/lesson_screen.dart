@@ -122,15 +122,24 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       _audio.speak('Yaxshilab qara va eslab qol!');
       return;
     }
-    _audio.speak(ex.speech);
+    _speakExercise(ex);
+  }
+
+  /// Ko'rsatmani o'z tilida (yoki bir necha tilda ketma-ket) aytadi.
+  void _speakExercise(Exercise ex) {
+    if (ex.speechParts.isNotEmpty) {
+      _audio.speakParts(ex.speechParts);
+    } else {
+      _audio.speak(ex.speech, lang: ex.speechLang);
+    }
   }
 
   void _onMistake(int mistakes) {
-    _audio.encourage();
     final ex = _current;
+    _audio.encourage(lang: ex.speechLang);
     setState(() {
       _bannerHint = mistakes >= 2 && ex.hint != null;
-      _banner = _bannerHint ? ex.hint : FeedbackPhrases.randomEncourage('uz');
+      _banner = _bannerHint ? ex.hint : FeedbackPhrases.randomEncourage(ex.speechLang);
     });
   }
 
@@ -139,7 +148,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     final profile = _profile;
     final firstTry = mistakes == 0;
     final earned = firstTry ? ex.rewardStars : 0;
-    _audio.praise();
+    _audio.praise(lang: ex.speechLang);
     setState(() {
       _phase = _Phase.feedback;
       _lastCorrect = firstTry;
@@ -274,7 +283,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     final callbacks = ExerciseCallbacks(
       onMistake: _onMistake,
       onSolved: _onSolved,
-      onSpeak: (t) => _audio.speak(t),
+      onSpeak: (t) => t == ex.speech ? _speakExercise(ex) : _audio.speak(t, lang: ex.speechLang),
     );
     final key = ValueKey('ex_$_index');
     final Widget body = switch (ex.kind) {
@@ -316,20 +325,33 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
             key: const Key('lesson_speak'),
             iconSize: 30,
             style: IconButton.styleFrom(backgroundColor: theme.primary),
-            onPressed: () => _audio.speak(ex.speech),
+            onPressed: () => _speakExercise(ex),
             icon: const Icon(Icons.volume_up_rounded),
           ),
           const SizedBox(width: 10),
           Expanded(
-            child: Text(
-              ex.instruction.uz,
-              key: const Key('lesson_instruction'),
-              style: TextStyle(
-                fontSize: _junior ? 22 : 20,
-                fontWeight: FontWeight.w800,
-                color: AppColors.text,
-                height: 1.2,
-              ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  ex.prompt,
+                  key: const Key('lesson_instruction'),
+                  style: TextStyle(
+                    fontSize: _junior ? 22 : 20,
+                    fontWeight: FontWeight.w800,
+                    color: AppColors.text,
+                    height: 1.2,
+                  ),
+                ),
+                // Chet tili darsida — o'zbekcha tarjima (ota-ona va bola uchun yordam).
+                if (ex.speechLang != 'uz')
+                  Text(
+                    ex.instruction.uz,
+                    key: const Key('lesson_instruction_uz'),
+                    style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSoft),
+                  ),
+              ],
             ),
           ),
         ],
@@ -359,7 +381,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   }
 
   Widget _feedbackOverlay(Exercise ex, ProfileTheme theme) {
-    final praise = _lastCorrect ? FeedbackPhrases.praise['uz']![_index % 5] : 'Topding! Barakalla!';
+    final phrases = FeedbackPhrases.praise[ex.speechLang] ?? FeedbackPhrases.praise['uz']!;
+    final praise = _lastCorrect
+        ? phrases[_index % phrases.length]
+        : (ex.speechLang == 'uz' ? 'Topding! Barakalla!' : phrases.last);
     final showExplanation = !_junior && ex.explanation != null;
     return Positioned.fill(
       child: IgnorePointer(

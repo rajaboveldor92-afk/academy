@@ -1,0 +1,709 @@
+{
+ "subject": "russian",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 8,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "KO‘R → ESHIT → HARF → BO‘G‘IN → SO‘Z → GAP",
+ "topics": [
+  {
+   "id": "russian6.alphabet",
+   "code": "R1",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Alifbo",
+    "en": "Alphabet",
+    "ru": "Алфавит"
+   },
+   "generator": "letters",
+   "skill": "letters",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "set": "all",
+     "modes": [
+      "upper"
+     ],
+     "options": 3
+    },
+    {
+     "set": "all",
+     "modes": [
+      "upper",
+      "lower"
+     ],
+     "options": 3,
+     "similar": true
+    },
+    {
+     "set": "all",
+     "modes": [
+      "mixed",
+      "lower"
+     ],
+     "options": 4,
+     "similar": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.sounds",
+   "code": "R2",
+   "emoji": "👂",
+   "title": {
+    "uz": "Tovush va harf",
+    "en": "Sounds and letters",
+    "ru": "Звуки и буквы"
+   },
+   "generator": "first_letter",
+   "skill": "phonics",
+   "prerequisites": [
+    "russian6.alphabet"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3,
+     "letters": [
+      "м",
+      "п",
+      "с",
+      "т",
+      "к",
+      "л",
+      "р",
+      "б",
+      "д",
+      "н"
+     ]
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian6.vowels",
+   "code": "R3",
+   "emoji": "🅰️",
+   "title": {
+    "uz": "Unli va undosh",
+    "en": "Vowels and consonants",
+    "ru": "Гласные и согласные"
+   },
+   "generator": "vowels",
+   "skill": "letters",
+   "prerequisites": [
+    "russian6.alphabet"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "vowel"
+     ]
+    },
+    {
+     "modes": [
+      "vowel",
+      "consonant"
+     ]
+    },
+    {
+     "modes": [
+      "vowel",
+      "consonant"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian6.syllables",
+   "code": "R4",
+   "emoji": "👏",
+   "title": {
+    "uz": "Bo‘g‘in",
+    "en": "Syllables",
+    "ru": "Слоги"
+   },
+   "generator": "syllables",
+   "skill": "syllables",
+   "prerequisites": [
+    "russian6.vowels"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "count"
+     ],
+     "maxSyl": 3
+    },
+    {
+     "modes": [
+      "count",
+      "missing"
+     ],
+     "maxSyl": 3
+    },
+    {
+     "modes": [
+      "build",
+      "missing"
+     ],
+     "maxSyl": 4,
+     "extra": 1
+    }
+   ]
+  },
+  {
+   "id": "russian6.colors",
+   "code": "R5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown"
+     ],
+     "options": 3,
+     "modes": [
+      "listen",
+      "read"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 3,
+     "modes": [
+      "read",
+      "picture_word"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 4,
+     "modes": [
+      "picture_word",
+      "object",
+      "read"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "russian6.numbers",
+   "code": "R6",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar 1–20",
+    "en": "Numbers 1–20",
+    "ru": "Числа до 20"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "listen_digit",
+      "listen_group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "listen_digit",
+      "read_word"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "read_word",
+      "match"
+     ],
+     "pairs": 4,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian6.animals",
+   "code": "R7",
+   "emoji": "🐾",
+   "title": {
+    "uz": "Hayvonlar va tabiat",
+    "en": "Animals and nature",
+    "ru": "Животные и природа"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.family",
+   "code": "R8",
+   "emoji": "👨‍👩‍👧",
+   "title": {
+    "uz": "Oila va tana",
+    "en": "Family and body",
+    "ru": "Семья и тело"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.toys_school",
+   "code": "R9",
+   "emoji": "🎒",
+   "title": {
+    "uz": "O‘yinchoq va maktab",
+    "en": "Toys and school",
+    "ru": "Игрушки и школа"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.city",
+   "code": "R10",
+   "emoji": "🏙️",
+   "title": {
+    "uz": "Shahar: transport va kasblar",
+    "en": "Town: transport and jobs",
+    "ru": "Город: транспорт и профессии"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.food",
+   "code": "R11",
+   "emoji": "🍞",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.clothes_home",
+   "code": "R12",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyim va uy",
+    "en": "Clothes and home",
+    "ru": "Одежда и дом"
+   },
+   "generator": "vocab",
+   "skill": "vocabulary",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes_home"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes_home"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "clothes_home"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian6.actions",
+   "code": "R13",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Harakat, belgi, iboralar",
+    "en": "Actions, qualities, phrases",
+    "ru": "Действия, признаки, вежливые слова"
+   },
+   "generator": "vocab",
+   "skill": "actions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "actions",
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions",
+      "opposites",
+      "phrases"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions",
+      "opposites",
+      "phrases"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian6.spelling",
+   "code": "R14",
+   "emoji": "✏️",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "prerequisites": [
+    "russian6.syllables"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "minLetters": 3,
+     "maxLetters": 4
+    },
+    {
+     "minLetters": 3,
+     "maxLetters": 4,
+     "extra": 1
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "russian6.sentences",
+   "code": "R15",
+   "emoji": "📖",
+   "title": {
+    "uz": "Oddiy gap",
+    "en": "Simple sentences",
+    "ru": "Простое предложение"
+   },
+   "generator": "sentence",
+   "skill": "reading",
+   "prerequisites": [
+    "russian6.spelling"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "this"
+     ],
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen",
+      "build"
+     ]
+    }
+   ]
+  }
+ ]
+}

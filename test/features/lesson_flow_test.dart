@@ -20,6 +20,7 @@ import '../helpers/test_helpers.dart';
 void main() {
   TestDb? t;
   late ContentRepository content;
+  late SilentAudioService audio;
 
   setUpAll(() async {
     TestWidgetsFlutterBinding.ensureInitialized();
@@ -41,7 +42,7 @@ void main() {
     addTearDown(tester.view.reset);
     final container = ProviderContainer(overrides: [
       databaseProvider.overrideWithValue(t!.db),
-      audioServiceProvider.overrideWithValue(SilentAudioService()),
+      audioServiceProvider.overrideWithValue(audio = SilentAudioService()),
       // Kontent oldindan yuklangan (test muhitida aktivlarni fon rejimida o'qish sekin).
       contentProvider.overrideWith((ref) => content),
     ]);
@@ -140,5 +141,40 @@ void main() {
     ));
     await pumpUntil(tester, find.byKey(const ValueKey('tile_0')));
     expect(find.byKey(const ValueKey('slot_0')), findsOneWidget);
+  });
+
+  testWidgets('English darsi: ko‘rsatma inglizcha aytiladi, o‘zbekcha yordamchi bor', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'english4.animals', random: Random(3))),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
+    expect(find.text('Listen and find'), findsOneWidget);
+    expect(find.byKey(const Key('lesson_instruction_uz')), findsOneWidget);
+    expect(audio.log.any((l) => l.startsWith('speak:en:Find the ')), isTrue, reason: audio.log.join('\n'));
+  });
+
+  testWidgets('Русский darsi: ruscha ovoz', (tester) async {
+    final c = await setup(tester, 'azamjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'russian6.alphabet', random: Random(3))),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
+    expect(audio.log.any((l) => l.startsWith('speak:ru:Найди букву')), isTrue, reason: audio.log.join('\n'));
+  });
+
+  testWidgets('3 tilda: so‘zlar uch tilda ketma-ket aytiladi', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'trilingual4.fruits', random: Random(3))),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
+    final parts = audio.log.where((l) => l.startsWith('parts:')).toList();
+    expect(parts, isNotEmpty, reason: audio.log.join('\n'));
+    expect(parts.first.contains('|ru:') && parts.first.contains('|en:') && parts.first.endsWith('|uz:Qaysi rasm?'), isTrue,
+        reason: parts.first);
   });
 }

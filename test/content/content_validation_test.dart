@@ -41,6 +41,8 @@ void main() {
     final pairs = e.pairs.map((p) => '${p.left.describe()}=${p.right.describe()}').toList()..sort();
     return [
       e.instruction.uz,
+      e.speech,
+      e.speechParts.join('+'),
       e.visual?.describe() ?? '',
       opts.join('|'),
       pairs.join('|'),
@@ -192,8 +194,14 @@ void main() {
         expect((t[lang] ?? '').trim(), isNotEmpty, reason: '$key/$lang');
       }
       Set<String> names(String s) => ph.allMatches(s).map((m) => m.group(1)!).toSet();
-      expect(names(t['en']!), names(t['uz']!), reason: '$key en');
-      expect(names(t['ru']!), names(t['uz']!), reason: '$key ru');
+      if (key.startsWith('lg_')) {
+        // Chet tili darsi: o'zbekcha matn — umumiy yordamchi (javobni oshkor qilmaydi).
+        expect(names(t['ru']!), names(t['en']!), reason: '$key ru');
+        expect(names(t['en']!).containsAll(names(t['uz']!)), isTrue, reason: '$key uz');
+      } else {
+        expect(names(t['en']!), names(t['uz']!), reason: '$key en');
+        expect(names(t['ru']!), names(t['uz']!), reason: '$key ru');
+      }
     }
   });
 
@@ -219,6 +227,12 @@ void main() {
     expect(content.curriculum('uzbek', '6')!.topics.length, 14);
     expect(content.curriculum('writing', '4')!.topics.length, greaterThanOrEqualTo(5));
     expect(content.curriculum('writing', '6')!.topics.length, greaterThanOrEqualTo(6));
+    expect(content.curriculum('english', '4')!.topics.length, greaterThanOrEqualTo(15));
+    expect(content.curriculum('english', '6')!.topics.length, greaterThanOrEqualTo(20));
+    expect(content.curriculum('russian', '4')!.topics.length, greaterThanOrEqualTo(12));
+    expect(content.curriculum('russian', '6')!.topics.length, 15);
+    expect(content.curriculum('trilingual', '4')!.topics.length, greaterThanOrEqualTo(6));
+    expect(content.curriculum('trilingual', '6')!.topics.length, greaterThanOrEqualTo(6));
   });
 
   test('o‘zbek tili bazasi: alifbo, bo‘g‘inlar, rasmlar', () {
@@ -461,6 +475,12 @@ void main() {
     expect(report['logic_6']!, greaterThanOrEqualTo(300));
     expect(report['uzbek_4']!, greaterThanOrEqualTo(250));
     expect(report['uzbek_6']!, greaterThanOrEqualTo(500));
+    expect(report['english_4']!, greaterThanOrEqualTo(250));
+    expect(report['english_6']!, greaterThanOrEqualTo(500));
+    expect(report['russian_4']!, greaterThanOrEqualTo(250));
+    expect(report['russian_6']!, greaterThanOrEqualTo(500));
+    expect(report['trilingual_4']!, greaterThanOrEqualTo(120));
+    expect(report['trilingual_6']!, greaterThanOrEqualTo(200));
     // ignore: avoid_print
     print('Kontent hisoboti (turli savollar soni): $report');
   });

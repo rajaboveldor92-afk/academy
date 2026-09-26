@@ -1,0 +1,429 @@
+{
+ "subject": "trilingual",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 6,
+ "title": {
+  "uz": "3 tilda o‘rganamiz",
+  "en": "Three languages",
+  "ru": "Учим на трёх языках"
+ },
+ "model": "RASM → 🔊 O‘ZBEKCHA → 🔊 RUSCHA → 🔊 INGLIZCHA → TOP",
+ "topics": [
+  {
+   "id": "trilingual4.fruits",
+   "code": "T1",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Mevalar",
+    "en": "Fruits",
+    "ru": "Фрукты"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "fruits"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.animals",
+   "code": "T2",
+   "emoji": "🐶",
+   "title": {
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.toys",
+   "code": "T3",
+   "emoji": "🧸",
+   "title": {
+    "uz": "O‘yinchoqlar",
+    "en": "Toys",
+    "ru": "Игрушки"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.food",
+   "code": "T4",
+   "emoji": "🍞",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.family_body",
+   "code": "T5",
+   "emoji": "👨‍👩‍👧",
+   "title": {
+    "uz": "Oila va tana",
+    "en": "Family and body",
+    "ru": "Семья и тело"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.transport",
+   "code": "T6",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Transport",
+    "en": "Transport",
+    "ru": "Транспорт"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.clothes",
+   "code": "T7",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyimlar",
+    "en": "Clothes",
+    "ru": "Одежда"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.home",
+   "code": "T8",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Uy",
+    "en": "Home",
+    "ru": "Дом"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "trilingual4.vegetables",
+   "code": "T9",
+   "emoji": "🥕",
+   "title": {
+    "uz": "Sabzavotlar",
+    "en": "Vegetables",
+    "ru": "Овощи"
+   },
+   "generator": "listen",
+   "skill": "three_languages",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "all3"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "all3",
+      "en",
+      "ru"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "vegetables"
+     ],
+     "modes": [
+      "en",
+      "ru"
+     ],
+     "options": 4
+    }
+   ]
+  }
+ ]
+}

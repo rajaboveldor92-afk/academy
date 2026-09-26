@@ -3706,6 +3706,53 @@
    "color": "brown"
   },
   {
+   "id": "joystick",
+   "emoji": "🕹️",
+   "uz": "joystik",
+   "en": "joystick",
+   "ru": "джойстик",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "queen",
+   "emoji": "👸",
+   "uz": "malika",
+   "en": "queen",
+   "ru": "королева",
+   "category": "fairy",
+   "tags": [
+    "person"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "prince",
+   "emoji": "🤴",
+   "uz": "shahzoda",
+   "en": "prince",
+   "ru": "принц",
+   "category": "fairy",
+   "tags": [
+    "person"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "fireworks",
+   "emoji": "🎆",
+   "uz": "mushakbozlik",
+   "en": "fireworks",
+   "ru": "салют",
+   "category": "holiday",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6
+  },
+  {
    "id": "magnet",
    "emoji": "🧲",
    "uz": "magnit",

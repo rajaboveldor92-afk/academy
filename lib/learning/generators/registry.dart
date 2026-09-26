@@ -1,8 +1,10 @@
 import 'generator_base.dart';
+import 'foreign_language.dart';
 import 'logic_junior.dart';
 import 'logic_senior.dart';
 import 'math_junior.dart';
 import 'math_senior.dart';
+import 'trilingual.dart';
 import 'uzbek_junior.dart';
 import 'uzbek_senior.dart';
 import 'writing.dart';
@@ -21,6 +23,12 @@ class GeneratorRegistry {
     for (final e in UzbekSenior.generators.entries) 'uzbek6.${e.key}': e.value,
     for (final e in WritingGenerators.generators.entries) 'writing4.${e.key}': e.value,
     for (final e in WritingGenerators.generators.entries) 'writing6.${e.key}': e.value,
+    for (final e in ForeignLanguage.generators.entries) 'english4.${e.key}': e.value,
+    for (final e in ForeignLanguage.generators.entries) 'english6.${e.key}': e.value,
+    for (final e in ForeignLanguage.generators.entries) 'russian4.${e.key}': e.value,
+    for (final e in ForeignLanguage.generators.entries) 'russian6.${e.key}': e.value,
+    for (final e in Trilingual.generators.entries) 'trilingual4.${e.key}': e.value,
+    for (final e in Trilingual.generators.entries) 'trilingual6.${e.key}': e.value,
   };
 
   static ExerciseGenerator? find(String subject, String ageSuffix, String name) =>

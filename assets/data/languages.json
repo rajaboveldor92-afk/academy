@@ -1,0 +1,2225 @@
+{
+ "schemaVersion": 1,
+ "note": "Ingliz va rus tili modullari uchun original ma'lumotlar (lexicon.json ID'lari bilan).",
+ "en": {
+  "alphabet": [
+   {
+    "upper": "A",
+    "lower": "a",
+    "vowel": true,
+    "lexId": "apple",
+    "initial": true
+   },
+   {
+    "upper": "B",
+    "lower": "b",
+    "vowel": false,
+    "lexId": "ball",
+    "initial": true
+   },
+   {
+    "upper": "C",
+    "lower": "c",
+    "vowel": false,
+    "lexId": "cat",
+    "initial": true
+   },
+   {
+    "upper": "D",
+    "lower": "d",
+    "vowel": false,
+    "lexId": "dog",
+    "initial": true
+   },
+   {
+    "upper": "E",
+    "lower": "e",
+    "vowel": true,
+    "lexId": "egg",
+    "initial": true
+   },
+   {
+    "upper": "F",
+    "lower": "f",
+    "vowel": false,
+    "lexId": "fish",
+    "initial": true
+   },
+   {
+    "upper": "G",
+    "lower": "g",
+    "vowel": false,
+    "lexId": "goat",
+    "initial": true
+   },
+   {
+    "upper": "H",
+    "lower": "h",
+    "vowel": false,
+    "lexId": "hat",
+    "initial": true
+   },
+   {
+    "upper": "I",
+    "lower": "i",
+    "vowel": true,
+    "lexId": "island",
+    "initial": true
+   },
+   {
+    "upper": "J",
+    "lower": "j",
+    "vowel": false,
+    "lexId": "joystick",
+    "initial": true
+   },
+   {
+    "upper": "K",
+    "lower": "k",
+    "vowel": false,
+    "lexId": "key",
+    "initial": true
+   },
+   {
+    "upper": "L",
+    "lower": "l",
+    "vowel": false,
+    "lexId": "lion",
+    "initial": true
+   },
+   {
+    "upper": "M",
+    "lower": "m",
+    "vowel": false,
+    "lexId": "moon",
+    "initial": true
+   },
+   {
+    "upper": "N",
+    "lower": "n",
+    "vowel": false,
+    "lexId": "nose",
+    "initial": true
+   },
+   {
+    "upper": "O",
+    "lower": "o",
+    "vowel": true,
+    "lexId": "octopus",
+    "initial": true
+   },
+   {
+    "upper": "P",
+    "lower": "p",
+    "vowel": false,
+    "lexId": "pig",
+    "initial": true
+   },
+   {
+    "upper": "Q",
+    "lower": "q",
+    "vowel": false,
+    "lexId": "queen",
+    "initial": true
+   },
+   {
+    "upper": "R",
+    "lower": "r",
+    "vowel": false,
+    "lexId": "rabbit",
+    "initial": true
+   },
+   {
+    "upper": "S",
+    "lower": "s",
+    "vowel": false,
+    "lexId": "sun",
+    "initial": true
+   },
+   {
+    "upper": "T",
+    "lower": "t",
+    "vowel": false,
+    "lexId": "tiger",
+    "initial": true
+   },
+   {
+    "upper": "U",
+    "lower": "u",
+    "vowel": true,
+    "lexId": "umbrella",
+    "initial": true
+   },
+   {
+    "upper": "V",
+    "lower": "v",
+    "vowel": false,
+    "lexId": "violin",
+    "initial": true
+   },
+   {
+    "upper": "W",
+    "lower": "w",
+    "vowel": false,
+    "lexId": "whale",
+    "initial": true
+   },
+   {
+    "upper": "X",
+    "lower": "x",
+    "vowel": false,
+    "lexId": "box",
+    "initial": false
+   },
+   {
+    "upper": "Y",
+    "lower": "y",
+    "vowel": false,
+    "lexId": "yarn",
+    "initial": true
+   },
+   {
+    "upper": "Z",
+    "lower": "z",
+    "vowel": false,
+    "lexId": "zebra",
+    "initial": true
+   }
+  ]
+ },
+ "ru": {
+  "alphabet": [
+   {
+    "upper": "А",
+    "lower": "а",
+    "vowel": true,
+    "lexId": "watermelon",
+    "initial": true
+   },
+   {
+    "upper": "Б",
+    "lower": "б",
+    "vowel": false,
+    "lexId": "banana",
+    "initial": true
+   },
+   {
+    "upper": "В",
+    "lower": "в",
+    "vowel": false,
+    "lexId": "wolf",
+    "initial": true
+   },
+   {
+    "upper": "Г",
+    "lower": "г",
+    "vowel": false,
+    "lexId": "mushroom",
+    "initial": true
+   },
+   {
+    "upper": "Д",
+    "lower": "д",
+    "vowel": false,
+    "lexId": "house",
+    "initial": true
+   },
+   {
+    "upper": "Е",
+    "lower": "е",
+    "vowel": true,
+    "lexId": "unicorn",
+    "initial": true
+   },
+   {
+    "upper": "Ё",
+    "lower": "ё",
+    "vowel": true,
+    "lexId": "hedgehog",
+    "initial": true
+   },
+   {
+    "upper": "Ж",
+    "lower": "ж",
+    "vowel": false,
+    "lexId": "giraffe",
+    "initial": true
+   },
+   {
+    "upper": "З",
+    "lower": "з",
+    "vowel": false,
+    "lexId": "zebra",
+    "initial": true
+   },
+   {
+    "upper": "И",
+    "lower": "и",
+    "vowel": true,
+    "lexId": "turkey",
+    "initial": true
+   },
+   {
+    "upper": "Й",
+    "lower": "й",
+    "vowel": false,
+    "lexId": "tea",
+    "initial": false
+   },
+   {
+    "upper": "К",
+    "lower": "к",
+    "vowel": false,
+    "lexId": "cat",
+    "initial": true
+   },
+   {
+    "upper": "Л",
+    "lower": "л",
+    "vowel": false,
+    "lexId": "fox",
+    "initial": true
+   },
+   {
+    "upper": "М",
+    "lower": "м",
+    "vowel": false,
+    "lexId": "ball",
+    "initial": true
+   },
+   {
+    "upper": "Н",
+    "lower": "н",
+    "vowel": false,
+    "lexId": "nose",
+    "initial": true
+   },
+   {
+    "upper": "О",
+    "lower": "о",
+    "vowel": true,
+    "lexId": "cloud",
+    "initial": true
+   },
+   {
+    "upper": "П",
+    "lower": "п",
+    "vowel": false,
+    "lexId": "penguin",
+    "initial": true
+   },
+   {
+    "upper": "Р",
+    "lower": "р",
+    "vowel": false,
+    "lexId": "fish",
+    "initial": true
+   },
+   {
+    "upper": "С",
+    "lower": "с",
+    "vowel": false,
+    "lexId": "elephant",
+    "initial": true
+   },
+   {
+    "upper": "Т",
+    "lower": "т",
+    "vowel": false,
+    "lexId": "tiger",
+    "initial": true
+   },
+   {
+    "upper": "У",
+    "lower": "у",
+    "vowel": true,
+    "lexId": "duck",
+    "initial": true
+   },
+   {
+    "upper": "Ф",
+    "lower": "ф",
+    "vowel": false,
+    "lexId": "flashlight",
+    "initial": true
+   },
+   {
+    "upper": "Х",
+    "lower": "х",
+    "vowel": false,
+    "lexId": "bread",
+    "initial": true
+   },
+   {
+    "upper": "Ц",
+    "lower": "ц",
+    "vowel": false,
+    "lexId": "flower",
+    "initial": true
+   },
+   {
+    "upper": "Ч",
+    "lower": "ч",
+    "vowel": false,
+    "lexId": "tea",
+    "initial": true
+   },
+   {
+    "upper": "Ш",
+    "lower": "ш",
+    "vowel": false,
+    "lexId": "scarf",
+    "initial": true
+   },
+   {
+    "upper": "Щ",
+    "lower": "щ",
+    "vowel": false,
+    "lexId": null,
+    "initial": false
+   },
+   {
+    "upper": "Ъ",
+    "lower": "ъ",
+    "vowel": false,
+    "lexId": null,
+    "initial": false
+   },
+   {
+    "upper": "Ы",
+    "lower": "ы",
+    "vowel": true,
+    "lexId": "cheese",
+    "initial": false
+   },
+   {
+    "upper": "Ь",
+    "lower": "ь",
+    "vowel": false,
+    "lexId": "mouse",
+    "initial": false
+   },
+   {
+    "upper": "Э",
+    "lower": "э",
+    "vowel": true,
+    "lexId": null,
+    "initial": false
+   },
+   {
+    "upper": "Ю",
+    "lower": "ю",
+    "vowel": true,
+    "lexId": "fireworks",
+    "initial": false
+   },
+   {
+    "upper": "Я",
+    "lower": "я",
+    "vowel": true,
+    "lexId": "apple",
+    "initial": true
+   }
+  ]
+ },
+ "actions": [
+  {
+   "id": "run",
+   "emoji": "🏃",
+   "uz": "yugurmoq",
+   "uzNow": "yuguryapti",
+   "en": "run",
+   "enIng": "running",
+   "ru": "бегать",
+   "ruNow": "бежит",
+   "ageMin": 4
+  },
+  {
+   "id": "walk",
+   "emoji": "🚶",
+   "uz": "yurmoq",
+   "uzNow": "yuryapti",
+   "en": "walk",
+   "enIng": "walking",
+   "ru": "ходить",
+   "ruNow": "идёт",
+   "ageMin": 4
+  },
+  {
+   "id": "swim",
+   "emoji": "🏊",
+   "uz": "suzmoq",
+   "uzNow": "suzyapti",
+   "en": "swim",
+   "enIng": "swimming",
+   "ru": "плавать",
+   "ruNow": "плывёт",
+   "ageMin": 4
+  },
+  {
+   "id": "dance",
+   "emoji": "💃",
+   "uz": "raqs tushmoq",
+   "uzNow": "raqs tushyapti",
+   "en": "dance",
+   "enIng": "dancing",
+   "ru": "танцевать",
+   "ruNow": "танцует",
+   "ageMin": 4
+  },
+  {
+   "id": "sleep",
+   "emoji": "😴",
+   "uz": "uxlamoq",
+   "uzNow": "uxlayapti",
+   "en": "sleep",
+   "enIng": "sleeping",
+   "ru": "спать",
+   "ruNow": "спит",
+   "ageMin": 4
+  },
+  {
+   "id": "cry",
+   "emoji": "😢",
+   "uz": "yig‘lamoq",
+   "uzNow": "yig‘layapti",
+   "en": "cry",
+   "enIng": "crying",
+   "ru": "плакать",
+   "ruNow": "плачет",
+   "ageMin": 4
+  },
+  {
+   "id": "laugh",
+   "emoji": "😂",
+   "uz": "kulmoq",
+   "uzNow": "kulyapti",
+   "en": "laugh",
+   "enIng": "laughing",
+   "ru": "смеяться",
+   "ruNow": "смеётся",
+   "ageMin": 4
+  },
+  {
+   "id": "clap",
+   "emoji": "👏",
+   "uz": "qarsak chalmoq",
+   "uzNow": "qarsak chalyapti",
+   "en": "clap",
+   "enIng": "clapping",
+   "ru": "хлопать",
+   "ruNow": "хлопает",
+   "ageMin": 4
+  },
+  {
+   "id": "wave",
+   "emoji": "👋",
+   "uz": "qo‘l silkitmoq",
+   "uzNow": "qo‘l silkityapti",
+   "en": "wave",
+   "enIng": "waving",
+   "ru": "махать",
+   "ruNow": "машет",
+   "ageMin": 4
+  },
+  {
+   "id": "eat",
+   "emoji": "😋",
+   "uz": "yemoq",
+   "uzNow": "yeyapti",
+   "en": "eat",
+   "enIng": "eating",
+   "ru": "есть",
+   "ruNow": "ест",
+   "ageMin": 4
+  },
+  {
+   "id": "sit",
+   "emoji": "🧘",
+   "uz": "o‘tirmoq",
+   "uzNow": "o‘tiribdi",
+   "en": "sit",
+   "enIng": "sitting",
+   "ru": "сидеть",
+   "ruNow": "сидит",
+   "ageMin": 4
+  },
+  {
+   "id": "smile",
+   "emoji": "😊",
+   "uz": "jilmaymoq",
+   "uzNow": "jilmayyapti",
+   "en": "smile",
+   "enIng": "smiling",
+   "ru": "улыбаться",
+   "ruNow": "улыбается",
+   "ageMin": 4
+  },
+  {
+   "id": "write",
+   "emoji": "✍️",
+   "uz": "yozmoq",
+   "uzNow": "yozyapti",
+   "en": "write",
+   "enIng": "writing",
+   "ru": "писать",
+   "ruNow": "пишет",
+   "ageMin": 6
+  },
+  {
+   "id": "think",
+   "emoji": "🤔",
+   "uz": "o‘ylamoq",
+   "uzNow": "o‘ylayapti",
+   "en": "think",
+   "enIng": "thinking",
+   "ru": "думать",
+   "ruNow": "думает",
+   "ageMin": 6
+  },
+  {
+   "id": "ride",
+   "emoji": "🚴",
+   "uz": "velosiped haydamoq",
+   "uzNow": "velosiped haydayapti",
+   "en": "ride a bike",
+   "enIng": "riding a bike",
+   "ru": "кататься на велосипеде",
+   "ruNow": "едет на велосипеде",
+   "ageMin": 6
+  },
+  {
+   "id": "climb",
+   "emoji": "🧗",
+   "uz": "tirmashmoq",
+   "uzNow": "tirmashyapti",
+   "en": "climb",
+   "enIng": "climbing",
+   "ru": "лазать",
+   "ruNow": "лезет",
+   "ageMin": 6
+  },
+  {
+   "id": "ski",
+   "emoji": "⛷️",
+   "uz": "chang‘i uchmoq",
+   "uzNow": "chang‘i uchyapti",
+   "en": "ski",
+   "enIng": "skiing",
+   "ru": "кататься на лыжах",
+   "ruNow": "катается на лыжах",
+   "ageMin": 6
+  },
+  {
+   "id": "row",
+   "emoji": "🚣",
+   "uz": "eshkak eshmoq",
+   "uzNow": "eshkak eshyapti",
+   "en": "row",
+   "enIng": "rowing",
+   "ru": "грести",
+   "ruNow": "гребёт",
+   "ageMin": 6
+  },
+  {
+   "id": "juggle",
+   "emoji": "🤹",
+   "uz": "koptok o‘ynatmoq",
+   "uzNow": "koptok o‘ynatyapti",
+   "en": "juggle",
+   "enIng": "juggling",
+   "ru": "жонглировать",
+   "ruNow": "жонглирует",
+   "ageMin": 6
+  },
+  {
+   "id": "look",
+   "emoji": "👀",
+   "uz": "qaramoq",
+   "uzNow": "qarayapti",
+   "en": "look",
+   "enIng": "looking",
+   "ru": "смотреть",
+   "ruNow": "смотрит",
+   "ageMin": 6
+  },
+  {
+   "id": "raise_hand",
+   "emoji": "🙋",
+   "uz": "qo‘l ko‘tarmoq",
+   "uzNow": "qo‘l ko‘taryapti",
+   "en": "raise a hand",
+   "enIng": "raising a hand",
+   "ru": "поднимать руку",
+   "ruNow": "поднимает руку",
+   "ageMin": 6
+  },
+  {
+   "id": "lift",
+   "emoji": "🏋️",
+   "uz": "og‘irlik ko‘tarmoq",
+   "uzNow": "og‘irlik ko‘taryapti",
+   "en": "lift",
+   "enIng": "lifting",
+   "ru": "поднимать штангу",
+   "ruNow": "поднимает штангу",
+   "ageMin": 6
+  }
+ ],
+ "animalActions": [
+  {
+   "id": "flies",
+   "en": "is flying",
+   "ru": "летит",
+   "context": "☁️",
+   "cats": [
+    "bird",
+    "insect"
+   ],
+   "tag": "flies"
+  },
+  {
+   "id": "swims",
+   "en": "is swimming",
+   "ru": "плывёт",
+   "context": "🌊",
+   "cats": [
+    "sea",
+    "bird",
+    "animal"
+   ],
+   "tag": "swims"
+  },
+  {
+   "id": "runs",
+   "en": "is running",
+   "ru": "бежит",
+   "context": "💨",
+   "cats": [
+    "animal"
+   ],
+   "tag": "has_legs"
+  },
+  {
+   "id": "sleeps",
+   "en": "is sleeping",
+   "ru": "спит",
+   "context": "💤",
+   "cats": [
+    "animal",
+    "bird"
+   ],
+   "tag": ""
+  },
+  {
+   "id": "eats",
+   "en": "is eating",
+   "ru": "ест",
+   "context": "🍽️",
+   "cats": [
+    "animal",
+    "bird"
+   ],
+   "tag": ""
+  }
+ ],
+ "adjectives": [
+  {
+   "id": "big",
+   "pair": "small",
+   "uz": "katta",
+   "en": "big",
+   "ru": {
+    "m": "большой",
+    "f": "большая",
+    "n": "большое",
+    "pl": "большие"
+   },
+   "visual": "size"
+  },
+  {
+   "id": "small",
+   "pair": "big",
+   "uz": "kichik",
+   "en": "small",
+   "ru": {
+    "m": "маленький",
+    "f": "маленькая",
+    "n": "маленькое",
+    "pl": "маленькие"
+   },
+   "visual": "size"
+  },
+  {
+   "id": "long",
+   "pair": "short",
+   "uz": "uzun",
+   "en": "long",
+   "ru": {
+    "m": "длинный",
+    "f": "длинная",
+    "n": "длинное",
+    "pl": "длинные"
+   },
+   "visual": "length"
+  },
+  {
+   "id": "short",
+   "pair": "long",
+   "uz": "qisqa",
+   "en": "short",
+   "ru": {
+    "m": "короткий",
+    "f": "короткая",
+    "n": "короткое",
+    "pl": "короткие"
+   },
+   "visual": "length"
+  },
+  {
+   "id": "hot",
+   "pair": "cold",
+   "uz": "issiq",
+   "en": "hot",
+   "ru": {
+    "m": "горячий",
+    "f": "горячая",
+    "n": "горячее",
+    "pl": "горячие"
+   },
+   "visual": "emoji:🔥"
+  },
+  {
+   "id": "cold",
+   "pair": "hot",
+   "uz": "sovuq",
+   "en": "cold",
+   "ru": {
+    "m": "холодный",
+    "f": "холодная",
+    "n": "холодное",
+    "pl": "холодные"
+   },
+   "visual": "emoji:❄️"
+  },
+  {
+   "id": "happy",
+   "pair": "sad",
+   "uz": "xursand",
+   "en": "happy",
+   "ru": {
+    "m": "весёлый",
+    "f": "весёлая",
+    "n": "весёлое",
+    "pl": "весёлые"
+   },
+   "visual": "emoji:😀"
+  },
+  {
+   "id": "sad",
+   "pair": "happy",
+   "uz": "xafa",
+   "en": "sad",
+   "ru": {
+    "m": "грустный",
+    "f": "грустная",
+    "n": "грустное",
+    "pl": "грустные"
+   },
+   "visual": "emoji:😞"
+  },
+  {
+   "id": "fast",
+   "pair": "slow",
+   "uz": "tez",
+   "en": "fast",
+   "ru": {
+    "m": "быстрый",
+    "f": "быстрая",
+    "n": "быстрое",
+    "pl": "быстрые"
+   },
+   "visual": "emoji:🐇"
+  },
+  {
+   "id": "slow",
+   "pair": "fast",
+   "uz": "sekin",
+   "en": "slow",
+   "ru": {
+    "m": "медленный",
+    "f": "медленная",
+    "n": "медленное",
+    "pl": "медленные"
+   },
+   "visual": "emoji:🐢"
+  },
+  {
+   "id": "old",
+   "pair": "young",
+   "uz": "qari",
+   "en": "old",
+   "ru": {
+    "m": "старый",
+    "f": "старая",
+    "n": "старое",
+    "pl": "старые"
+   },
+   "visual": "emoji:👴"
+  },
+  {
+   "id": "young",
+   "pair": "old",
+   "uz": "yosh",
+   "en": "young",
+   "ru": {
+    "m": "молодой",
+    "f": "молодая",
+    "n": "молодое",
+    "pl": "молодые"
+   },
+   "visual": "emoji:🧒"
+  },
+  {
+   "id": "open",
+   "pair": "closed",
+   "uz": "ochiq",
+   "en": "open",
+   "ru": {
+    "m": "открытый",
+    "f": "открытая",
+    "n": "открытое",
+    "pl": "открытые"
+   },
+   "visual": "emoji:🔓"
+  },
+  {
+   "id": "closed",
+   "pair": "open",
+   "uz": "yopiq",
+   "en": "closed",
+   "ru": {
+    "m": "закрытый",
+    "f": "закрытая",
+    "n": "закрытое",
+    "pl": "закрытые"
+   },
+   "visual": "emoji:🔒"
+  },
+  {
+   "id": "loud",
+   "pair": "quiet",
+   "uz": "baland",
+   "en": "loud",
+   "ru": {
+    "m": "громкий",
+    "f": "громкая",
+    "n": "громкое",
+    "pl": "громкие"
+   },
+   "visual": "emoji:🔊"
+  },
+  {
+   "id": "quiet",
+   "pair": "loud",
+   "uz": "past",
+   "en": "quiet",
+   "ru": {
+    "m": "тихий",
+    "f": "тихая",
+    "n": "тихое",
+    "pl": "тихие"
+   },
+   "visual": "emoji:🔈"
+  },
+  {
+   "id": "up",
+   "pair": "down",
+   "uz": "yuqoriga",
+   "en": "up",
+   "ru": {
+    "m": "вверх",
+    "f": "вверх",
+    "n": "вверх",
+    "pl": "вверх"
+   },
+   "visual": "emoji:⬆️"
+  },
+  {
+   "id": "down",
+   "pair": "up",
+   "uz": "pastga",
+   "en": "down",
+   "ru": {
+    "m": "вниз",
+    "f": "вниз",
+    "n": "вниз",
+    "pl": "вниз"
+   },
+   "visual": "emoji:⬇️"
+  }
+ ],
+ "colorForms": {
+  "red": {
+   "m": "красный",
+   "f": "красная",
+   "n": "красное",
+   "pl": "красные"
+  },
+  "yellow": {
+   "m": "жёлтый",
+   "f": "жёлтая",
+   "n": "жёлтое",
+   "pl": "жёлтые"
+  },
+  "green": {
+   "m": "зелёный",
+   "f": "зелёная",
+   "n": "зелёное",
+   "pl": "зелёные"
+  },
+  "blue": {
+   "m": "синий",
+   "f": "синяя",
+   "n": "синее",
+   "pl": "синие"
+  },
+  "orange": {
+   "m": "оранжевый",
+   "f": "оранжевая",
+   "n": "оранжевое",
+   "pl": "оранжевые"
+  },
+  "purple": {
+   "m": "фиолетовый",
+   "f": "фиолетовая",
+   "n": "фиолетовое",
+   "pl": "фиолетовые"
+  },
+  "pink": {
+   "m": "розовый",
+   "f": "розовая",
+   "n": "розовое",
+   "pl": "розовые"
+  },
+  "brown": {
+   "m": "коричневый",
+   "f": "коричневая",
+   "n": "коричневое",
+   "pl": "коричневые"
+  },
+  "black": {
+   "m": "чёрный",
+   "f": "чёрная",
+   "n": "чёрное",
+   "pl": "чёрные"
+  },
+  "white": {
+   "m": "белый",
+   "f": "белая",
+   "n": "белое",
+   "pl": "белые"
+  }
+ },
+ "phrases": [
+  {
+   "id": "hello",
+   "scene": [
+    "🙂",
+    "👋"
+   ],
+   "uz": "Salom!",
+   "en": "Hello!",
+   "ru": "Привет!",
+   "ageMin": 4
+  },
+  {
+   "id": "goodbye",
+   "scene": [
+    "👋",
+    "🚪"
+   ],
+   "uz": "Xayr!",
+   "en": "Goodbye!",
+   "ru": "До свидания!",
+   "ageMin": 4
+  },
+  {
+   "id": "thank_you",
+   "scene": [
+    "🎁",
+    "😊"
+   ],
+   "uz": "Rahmat!",
+   "en": "Thank you!",
+   "ru": "Спасибо!",
+   "ageMin": 4
+  },
+  {
+   "id": "yes",
+   "scene": [
+    "👍"
+   ],
+   "uz": "Ha",
+   "en": "Yes",
+   "ru": "Да",
+   "ageMin": 4
+  },
+  {
+   "id": "no",
+   "scene": [
+    "👎"
+   ],
+   "uz": "Yo‘q",
+   "en": "No",
+   "ru": "Нет",
+   "ageMin": 4
+  },
+  {
+   "id": "good_morning",
+   "scene": [
+    "🌅",
+    "🙂"
+   ],
+   "uz": "Xayrli tong!",
+   "en": "Good morning!",
+   "ru": "Доброе утро!",
+   "ageMin": 6
+  },
+  {
+   "id": "good_night",
+   "scene": [
+    "🌙",
+    "😴"
+   ],
+   "uz": "Xayrli tun!",
+   "en": "Good night!",
+   "ru": "Спокойной ночи!",
+   "ageMin": 6
+  },
+  {
+   "id": "sorry",
+   "scene": [
+    "😔"
+   ],
+   "uz": "Kechirasiz!",
+   "en": "Sorry!",
+   "ru": "Извини!",
+   "ageMin": 6
+  },
+  {
+   "id": "birthday",
+   "scene": [
+    "🎂",
+    "🎈"
+   ],
+   "uz": "Tug‘ilgan kuning bilan!",
+   "en": "Happy birthday!",
+   "ru": "С днём рождения!",
+   "ageMin": 6
+  },
+  {
+   "id": "how_are_you",
+   "scene": [
+    "🙂",
+    "❓"
+   ],
+   "uz": "Qalaysan?",
+   "en": "How are you?",
+   "ru": "Как дела?",
+   "ageMin": 6
+  },
+  {
+   "id": "please",
+   "scene": [
+    "🍪",
+    "🤲"
+   ],
+   "uz": "Iltimos",
+   "en": "Please",
+   "ru": "Пожалуйста",
+   "ageMin": 6
+  },
+  {
+   "id": "well_done",
+   "scene": [
+    "⭐",
+    "👏"
+   ],
+   "uz": "Barakalla!",
+   "en": "Well done!",
+   "ru": "Молодец!",
+   "ageMin": 6
+  }
+ ],
+ "ruGender": {
+  "apple": "n",
+  "banana": "m",
+  "grapes": "m",
+  "strawberry": "f",
+  "cherry": "f",
+  "peach": "m",
+  "pear": "f",
+  "orange": "m",
+  "lemon": "m",
+  "watermelon": "m",
+  "pineapple": "m",
+  "coconut": "m",
+  "mango": "n",
+  "melon": "f",
+  "carrot": "f",
+  "corn": "f",
+  "cucumber": "m",
+  "tomato": "m",
+  "eggplant": "m",
+  "potato": "m",
+  "pepper": "m",
+  "cabbage": "f",
+  "mushroom": "m",
+  "peanut": "m",
+  "chestnut": "m",
+  "dog": "f",
+  "cat": "f",
+  "mouse": "f",
+  "hamster": "m",
+  "rabbit": "m",
+  "cow": "f",
+  "pig": "f",
+  "horse": "f",
+  "sheep": "f",
+  "goat": "f",
+  "chicken": "f",
+  "rooster": "m",
+  "chick": "m",
+  "duck": "f",
+  "turkey": "m",
+  "camel": "m",
+  "lion": "m",
+  "tiger": "m",
+  "bear": "m",
+  "panda": "f",
+  "koala": "f",
+  "fox": "f",
+  "wolf": "m",
+  "monkey": "f",
+  "elephant": "m",
+  "giraffe": "m",
+  "zebra": "f",
+  "rhino": "m",
+  "kangaroo": "m",
+  "hedgehog": "m",
+  "squirrel": "f",
+  "frog": "f",
+  "turtle": "f",
+  "snake": "f",
+  "crocodile": "m",
+  "snail": "f",
+  "bird": "f",
+  "owl": "f",
+  "eagle": "m",
+  "penguin": "m",
+  "parrot": "m",
+  "swan": "m",
+  "peacock": "m",
+  "bee": "f",
+  "butterfly": "f",
+  "ant": "m",
+  "caterpillar": "f",
+  "spider": "m",
+  "fish": "f",
+  "whale": "m",
+  "dolphin": "m",
+  "shark": "f",
+  "octopus": "m",
+  "crab": "m",
+  "car": "f",
+  "taxi": "n",
+  "bus": "m",
+  "truck": "m",
+  "tractor": "m",
+  "bicycle": "m",
+  "scooter": "m",
+  "motorcycle": "m",
+  "airplane": "m",
+  "helicopter": "m",
+  "rocket": "f",
+  "boat": "f",
+  "ship": "m",
+  "train": "m",
+  "tshirt": "f",
+  "jeans": "pl",
+  "dress": "n",
+  "coat": "n",
+  "scarf": "m",
+  "gloves": "pl",
+  "socks": "pl",
+  "cap": "f",
+  "sneakers": "pl",
+  "shoe": "f",
+  "boot": "m",
+  "hat": "f",
+  "glasses": "pl",
+  "ball": "m",
+  "teddy": "m",
+  "balloon": "m",
+  "gift": "m",
+  "dice": "m",
+  "puzzle_piece": "m",
+  "drum": "m",
+  "guitar": "f",
+  "robot": "m",
+  "palette": "pl",
+  "yarn": "f",
+  "bread": "m",
+  "cheese": "m",
+  "egg": "n",
+  "milk": "n",
+  "honey": "m",
+  "cookie": "n",
+  "cake": "m",
+  "candy": "f",
+  "lollipop": "m",
+  "ice_cream": "n",
+  "pizza": "f",
+  "rice": "m",
+  "soup": "m",
+  "tea": "m",
+  "dumpling": "m",
+  "bone": "f",
+  "chocolate": "m",
+  "house": "m",
+  "door": "f",
+  "bed": "f",
+  "bathtub": "f",
+  "key": "m",
+  "lock": "m",
+  "lamp": "f",
+  "clock": "pl",
+  "tv": "m",
+  "phone": "m",
+  "broom": "f",
+  "basket": "f",
+  "scissors": "pl",
+  "spoon": "f",
+  "cup": "f",
+  "umbrella": "m",
+  "candle": "f",
+  "hammer": "m",
+  "pencil": "m",
+  "pen": "f",
+  "book": "f",
+  "books": "pl",
+  "backpack": "m",
+  "notebook": "f",
+  "ruler": "f",
+  "crayon": "m",
+  "paper": "f",
+  "school": "f",
+  "bell": "m",
+  "globe": "m",
+  "sun": "n",
+  "moon": "f",
+  "star": "f",
+  "cloud": "n",
+  "rain": "m",
+  "snowflake": "m",
+  "snowman": "m",
+  "rainbow": "f",
+  "tree": "n",
+  "fir": "f",
+  "cactus": "m",
+  "palm": "f",
+  "flower": "m",
+  "sunflower": "m",
+  "tulip": "m",
+  "rose": "f",
+  "leaf": "m",
+  "seedling": "m",
+  "mountain": "f",
+  "wave": "n",
+  "fire": "m",
+  "droplet": "f",
+  "desert": "f",
+  "field": "f",
+  "volcano": "m",
+  "bamboo": "m",
+  "eye": "m",
+  "ear": "n",
+  "nose": "m",
+  "mouth": "m",
+  "tongue": "m",
+  "hand": "f",
+  "foot": "f",
+  "tooth": "m",
+  "brain": "m",
+  "muscle": "f",
+  "mother": "f",
+  "father": "m",
+  "girl": "f",
+  "boy": "m",
+  "baby": "m",
+  "grandmother": "f",
+  "grandfather": "m",
+  "doctor": "m",
+  "teacher": "m",
+  "cook": "m",
+  "farmer": "m",
+  "firefighter": "m",
+  "police": "m",
+  "pilot": "m",
+  "builder": "m",
+  "artist": "m",
+  "astronaut": "m",
+  "burger": "m",
+  "sandwich": "m",
+  "pancakes": "pl",
+  "salad": "m",
+  "noodles": "f",
+  "croissant": "m",
+  "donut": "m",
+  "pie": "m",
+  "salt": "f",
+  "cupcake": "m",
+  "popcorn": "m",
+  "drink": "m",
+  "fried_egg": "f",
+  "deer": "m",
+  "ox": "m",
+  "ram": "m",
+  "llama": "f",
+  "hippo": "m",
+  "cricket": "m",
+  "mosquito": "m",
+  "scorpion": "m",
+  "lizard": "f",
+  "dinosaur": "m",
+  "dove": "m",
+  "hen_chick": "m",
+  "unicorn": "m",
+  "couch": "m",
+  "shower": "m",
+  "picture": "f",
+  "sponge": "f",
+  "flashlight": "m",
+  "camera": "m",
+  "computer": "m",
+  "envelope": "n",
+  "box": "f",
+  "joystick": "m",
+  "queen": "f",
+  "prince": "m",
+  "fireworks": "m",
+  "magnet": "m",
+  "plate": "f",
+  "teapot_bell": "m",
+  "purse": "m",
+  "handbag": "f",
+  "ring": "n",
+  "crown": "f",
+  "ribbon": "m",
+  "helmet": "f",
+  "blouse": "f",
+  "lightning": "f",
+  "tornado": "f",
+  "island": "m",
+  "sunrise": "m",
+  "wind": "m",
+  "herb": "f",
+  "blossom": "f",
+  "clover": "m",
+  "comet": "f",
+  "speedboat": "m",
+  "metro": "n",
+  "minibus": "m",
+  "moped": "m",
+  "traffic_light": "m",
+  "tram": "m",
+  "sled": "pl",
+  "target": "f",
+  "skates": "pl",
+  "trumpet": "f",
+  "violin": "f",
+  "piano": "n",
+  "microphone": "m",
+  "headphones": "pl",
+  "paintbrush": "f",
+  "calendar": "m",
+  "telescope": "m",
+  "microscope": "m",
+  "abacus": "pl",
+  "carousel": "f",
+  "circus": "m",
+  "soccer_goal": "pl",
+  "medal": "f",
+  "trophy": "m",
+  "brick": "m",
+  "family": "f",
+  "programmer": "m",
+  "mechanic": "m",
+  "scientist": "m",
+  "singer": "m",
+  "worker": "m",
+  "hospital": "f",
+  "shop": "m",
+  "castle": "m",
+  "mosque": "f",
+  "tent": "f",
+  "factory": "m",
+  "stadium": "m",
+  "bridge": "m",
+  "bank": "m"
+ },
+ "enPlural": {
+  "apple": "apples",
+  "banana": "bananas",
+  "strawberry": "strawberries",
+  "cherry": "cherries",
+  "peach": "peaches",
+  "pear": "pears",
+  "orange": "oranges",
+  "lemon": "lemons",
+  "watermelon": "watermelons",
+  "pineapple": "pineapples",
+  "kiwi": "kiwis",
+  "coconut": "coconuts",
+  "mango": "mangoes",
+  "melon": "melons",
+  "carrot": "carrots",
+  "cucumber": "cucumbers",
+  "tomato": "tomatoes",
+  "eggplant": "eggplants",
+  "potato": "potatoes",
+  "pepper": "peppers",
+  "mushroom": "mushrooms",
+  "peanut": "peanuts",
+  "chestnut": "chestnuts",
+  "dog": "dogs",
+  "cat": "cats",
+  "mouse": "mice",
+  "hamster": "hamsters",
+  "rabbit": "rabbits",
+  "cow": "cows",
+  "pig": "pigs",
+  "horse": "horses",
+  "sheep": "sheep",
+  "goat": "goats",
+  "chicken": "chickens",
+  "rooster": "roosters",
+  "chick": "chicks",
+  "duck": "ducks",
+  "turkey": "turkeys",
+  "camel": "camels",
+  "lion": "lions",
+  "tiger": "tigers",
+  "bear": "bears",
+  "panda": "pandas",
+  "koala": "koalas",
+  "fox": "foxes",
+  "wolf": "wolves",
+  "monkey": "monkeys",
+  "elephant": "elephants",
+  "giraffe": "giraffes",
+  "zebra": "zebras",
+  "rhino": "rhinoceroses",
+  "kangaroo": "kangaroos",
+  "hedgehog": "hedgehogs",
+  "squirrel": "squirrels",
+  "frog": "frogs",
+  "turtle": "turtles",
+  "snake": "snakes",
+  "crocodile": "crocodiles",
+  "snail": "snails",
+  "bird": "birds",
+  "owl": "owls",
+  "eagle": "eagles",
+  "penguin": "penguins",
+  "parrot": "parrots",
+  "swan": "swans",
+  "peacock": "peacocks",
+  "bee": "bees",
+  "butterfly": "butterflies",
+  "ladybug": "ladybugs",
+  "ant": "ants",
+  "caterpillar": "caterpillars",
+  "spider": "spiders",
+  "fish": "fish",
+  "whale": "whales",
+  "dolphin": "dolphins",
+  "shark": "sharks",
+  "octopus": "octopuses",
+  "crab": "crabs",
+  "car": "cars",
+  "taxi": "taxis",
+  "bus": "buses",
+  "ambulance": "ambulances",
+  "truck": "trucks",
+  "tractor": "tractors",
+  "bicycle": "bicycles",
+  "scooter": "scooters",
+  "motorcycle": "motorcycles",
+  "airplane": "airplanes",
+  "helicopter": "helicopters",
+  "rocket": "rockets",
+  "boat": "sailboats",
+  "ship": "ships",
+  "train": "trains",
+  "tshirt": "T-shirts",
+  "dress": "dresses",
+  "coat": "coats",
+  "scarf": "scarves",
+  "cap": "caps",
+  "shoe": "shoes",
+  "boot": "boots",
+  "hat": "hats",
+  "ball": "balls",
+  "basketball": "basketballs",
+  "balloon": "balloons",
+  "gift": "gifts",
+  "dice": "dice",
+  "puzzle_piece": "puzzles",
+  "drum": "drums",
+  "guitar": "guitars",
+  "robot": "robots",
+  "egg": "eggs",
+  "cookie": "cookies",
+  "cake": "cakes",
+  "candy": "candies",
+  "lollipop": "lollipops",
+  "pizza": "pizzas",
+  "dumpling": "dumplings",
+  "bone": "bones",
+  "house": "houses",
+  "door": "doors",
+  "bed": "beds",
+  "bathtub": "bathtubs",
+  "key": "keys",
+  "lock": "locks",
+  "clock": "clocks",
+  "tv": "TVs",
+  "phone": "phones",
+  "broom": "brooms",
+  "basket": "baskets",
+  "spoon": "spoons",
+  "cup": "cups",
+  "umbrella": "umbrellas",
+  "candle": "candles",
+  "hammer": "hammers",
+  "pencil": "pencils",
+  "pen": "pens",
+  "book": "books",
+  "backpack": "backpacks",
+  "notebook": "notebooks",
+  "ruler": "rulers",
+  "crayon": "crayons",
+  "school": "schools",
+  "bell": "bells",
+  "globe": "globes",
+  "sun": "suns",
+  "moon": "moons",
+  "star": "stars",
+  "cloud": "clouds",
+  "snowman": "snowmans",
+  "rainbow": "rainbows",
+  "tree": "trees",
+  "cactus": "cactuses",
+  "flower": "flowers",
+  "sunflower": "sunflowers",
+  "tulip": "tulips",
+  "rose": "roses",
+  "leaf": "leaves",
+  "seedling": "sprouts",
+  "mountain": "mountains",
+  "wave": "seas",
+  "droplet": "drops",
+  "volcano": "volcanoes",
+  "bamboo": "bamboos",
+  "eye": "eyes",
+  "ear": "ears",
+  "nose": "noses",
+  "mouth": "mouths",
+  "tongue": "tongues",
+  "hand": "hands",
+  "foot": "feet",
+  "tooth": "teeth",
+  "brain": "brains",
+  "mother": "mothers",
+  "father": "fathers",
+  "girl": "girls",
+  "boy": "boys",
+  "baby": "babies",
+  "grandmother": "grandmothers",
+  "grandfather": "grandfathers",
+  "doctor": "doctors",
+  "teacher": "teachers",
+  "cook": "cooks",
+  "farmer": "farmers",
+  "firefighter": "firefighters",
+  "pilot": "pilots",
+  "builder": "builders",
+  "artist": "artists",
+  "astronaut": "astronauts",
+  "burger": "burgers",
+  "sandwich": "sandwiches",
+  "croissant": "croissants",
+  "donut": "donuts",
+  "pie": "pies",
+  "salt": "salts",
+  "cupcake": "cupcakes",
+  "deer": "deer",
+  "ox": "oxen",
+  "ram": "rams",
+  "llama": "llamas",
+  "hippo": "hippos",
+  "bat": "bats",
+  "cricket": "grasshoppers",
+  "mosquito": "mosquitos",
+  "scorpion": "scorpions",
+  "lizard": "lizards",
+  "dinosaur": "dinosaurs",
+  "dove": "doves",
+  "unicorn": "unicorns",
+  "couch": "sofas",
+  "shower": "showers",
+  "picture": "pictures",
+  "sponge": "sponges",
+  "flashlight": "flashlights",
+  "camera": "cameras",
+  "computer": "computers",
+  "watch": "watches",
+  "envelope": "letters",
+  "box": "boxes",
+  "joystick": "joysticks",
+  "queen": "queens",
+  "prince": "princes",
+  "magnet": "magnets",
+  "plate": "plates",
+  "teapot_bell": "bells",
+  "purse": "purses",
+  "handbag": "bags",
+  "ring": "rings",
+  "crown": "crowns",
+  "ribbon": "bows",
+  "helmet": "helmets",
+  "blouse": "blouses",
+  "tornado": "storms",
+  "island": "islands",
+  "sunrise": "sunrises",
+  "blossom": "daisies",
+  "clover": "clovers",
+  "comet": "comets",
+  "speedboat": "motorboats",
+  "metro": "metros",
+  "minibus": "minibuses",
+  "moped": "mopeds",
+  "tram": "trams",
+  "sled": "sleds",
+  "target": "targets",
+  "skates": "skateses",
+  "trumpet": "trumpets",
+  "violin": "violins",
+  "piano": "pianos",
+  "microphone": "microphones",
+  "paintbrush": "paintbrushes",
+  "calendar": "calendars",
+  "telescope": "telescopes",
+  "microscope": "microscopes",
+  "abacus": "abacuses",
+  "carousel": "carousels",
+  "circus": "circuses",
+  "soccer_goal": "goals",
+  "medal": "medals",
+  "trophy": "cups",
+  "brick": "bricks",
+  "programmer": "programmers",
+  "mechanic": "mechanics",
+  "scientist": "scientists",
+  "singer": "singers",
+  "worker": "workers",
+  "hospital": "hospitals",
+  "shop": "shops",
+  "castle": "castles",
+  "mosque": "mosques",
+  "tent": "tents",
+  "factory": "factories",
+  "stadium": "stadiums",
+  "bridge": "bridges",
+  "bank": "banks"
+ },
+ "ruSyllables": {
+  "banana": [
+   "ба",
+   "нан"
+  ],
+  "lemon": [
+   "ли",
+   "мон"
+  ],
+  "pineapple": [
+   "а",
+   "на",
+   "нас"
+  ],
+  "kiwi": [
+   "ки",
+   "ви"
+  ],
+  "coconut": [
+   "ко",
+   "кос"
+  ],
+  "melon": [
+   "ды",
+   "ня"
+  ],
+  "corn": [
+   "ку",
+   "ку",
+   "ру",
+   "за"
+  ],
+  "cucumber": [
+   "о",
+   "гу",
+   "рец"
+  ],
+  "tomato": [
+   "по",
+   "ми",
+   "дор"
+  ],
+  "pepper": [
+   "пе",
+   "рец"
+  ],
+  "peanut": [
+   "а",
+   "ра",
+   "хис"
+  ],
+  "dog": [
+   "со",
+   "ба",
+   "ка"
+  ],
+  "hamster": [
+   "хо",
+   "мяк"
+  ],
+  "cow": [
+   "ко",
+   "ро",
+   "ва"
+  ],
+  "goat": [
+   "ко",
+   "за"
+  ],
+  "chicken": [
+   "ку",
+   "ри",
+   "ца"
+  ],
+  "rooster": [
+   "пе",
+   "тух"
+  ],
+  "lion": [
+   "лев"
+  ],
+  "fox": [
+   "ли",
+   "са"
+  ],
+  "giraffe": [
+   "жи",
+   "раф"
+  ],
+  "rhino": [
+   "но",
+   "со",
+   "рог"
+  ],
+  "hedgehog": [
+   "ё",
+   "жик"
+  ],
+  "turtle": [
+   "че",
+   "ре",
+   "па",
+   "ха"
+  ],
+  "owl": [
+   "со",
+   "ва"
+  ],
+  "eagle": [
+   "о",
+   "рёл"
+  ],
+  "parrot": [
+   "по",
+   "пу",
+   "гай"
+  ],
+  "ant": [
+   "му",
+   "ра",
+   "вей"
+  ],
+  "caterpillar": [
+   "гу",
+   "се",
+   "ни",
+   "ца"
+  ],
+  "fish": [
+   "ры",
+   "ба"
+  ],
+  "whale": [
+   "кит"
+  ],
+  "shark": [
+   "а",
+   "ку",
+   "ла"
+  ],
+  "car": [
+   "ма",
+   "ши",
+   "на"
+  ],
+  "bicycle": [
+   "ве",
+   "ло",
+   "си",
+   "пед"
+  ],
+  "scooter": [
+   "са",
+   "мо",
+   "кат"
+  ],
+  "airplane": [
+   "са",
+   "мо",
+   "лёт"
+  ],
+  "rocket": [
+   "ра",
+   "ке",
+   "та"
+  ],
+  "boot": [
+   "са",
+   "пог"
+  ],
+  "ball": [
+   "мяч"
+  ],
+  "balloon": [
+   "ша",
+   "рик"
+  ],
+  "gift": [
+   "по",
+   "да",
+   "рок"
+  ],
+  "dice": [
+   "ку",
+   "бик"
+  ],
+  "drum": [
+   "ба",
+   "ра",
+   "бан"
+  ],
+  "guitar": [
+   "ги",
+   "та",
+   "ра"
+  ],
+  "robot": [
+   "ро",
+   "бот"
+  ],
+  "cheese": [
+   "сыр"
+  ],
+  "milk": [
+   "мо",
+   "ло",
+   "ко"
+  ],
+  "honey": [
+   "мёд"
+  ],
+  "lollipop": [
+   "ле",
+   "де",
+   "нец"
+  ],
+  "rice": [
+   "рис"
+  ],
+  "soup": [
+   "суп"
+  ],
+  "tea": [
+   "чай"
+  ],
+  "chocolate": [
+   "шо",
+   "ко",
+   "лад"
+  ],
+  "house": [
+   "дом"
+  ],
+  "lock": [
+   "за",
+   "мок"
+  ],
+  "clock": [
+   "ча",
+   "сы"
+  ],
+  "tv": [
+   "те",
+   "ле",
+   "ви",
+   "зор"
+  ],
+  "phone": [
+   "те",
+   "ле",
+   "фон"
+  ],
+  "hammer": [
+   "мо",
+   "ло",
+   "ток"
+  ],
+  "crayon": [
+   "ме",
+   "лок"
+  ],
+  "paper": [
+   "бу",
+   "ма",
+   "га"
+  ],
+  "moon": [
+   "лу",
+   "на"
+  ],
+  "rainbow": [
+   "ра",
+   "ду",
+   "га"
+  ],
+  "tree": [
+   "де",
+   "ре",
+   "во"
+  ],
+  "rose": [
+   "ро",
+   "за"
+  ],
+  "mountain": [
+   "го",
+   "ра"
+  ],
+  "wave": [
+   "мо",
+   "ре"
+  ],
+  "ear": [
+   "у",
+   "хо"
+  ],
+  "nose": [
+   "нос"
+  ],
+  "mouth": [
+   "рот"
+  ],
+  "tongue": [
+   "я",
+   "зык"
+  ],
+  "hand": [
+   "ру",
+   "ка"
+  ],
+  "foot": [
+   "но",
+   "га"
+  ],
+  "tooth": [
+   "зуб"
+  ],
+  "mother": [
+   "ма",
+   "ма"
+  ],
+  "father": [
+   "па",
+   "па"
+  ],
+  "baby": [
+   "ма",
+   "лыш"
+  ],
+  "cook": [
+   "по",
+   "вар"
+  ],
+  "pilot": [
+   "пи",
+   "лот"
+  ],
+  "salad": [
+   "са",
+   "лат"
+  ],
+  "pie": [
+   "пи",
+   "рог"
+  ],
+  "drink": [
+   "на",
+   "пи",
+   "ток"
+  ],
+  "ox": [
+   "бык"
+  ],
+  "ram": [
+   "ба",
+   "ран"
+  ],
+  "llama": [
+   "ла",
+   "ма"
+  ],
+  "hippo": [
+   "бе",
+   "ге",
+   "мот"
+  ],
+  "mosquito": [
+   "ко",
+   "мар"
+  ],
+  "lizard": [
+   "я",
+   "ще",
+   "ри",
+   "ца"
+  ],
+  "unicorn": [
+   "е",
+   "ди",
+   "но",
+   "рог"
+  ],
+  "couch": [
+   "ди",
+   "ван"
+  ],
+  "shower": [
+   "душ"
+  ],
+  "flashlight": [
+   "фо",
+   "на",
+   "рик"
+  ],
+  "queen": [
+   "ко",
+   "ро",
+   "ле",
+   "ва"
+  ],
+  "fireworks": [
+   "са",
+   "лют"
+  ],
+  "purse": [
+   "ко",
+   "ше",
+   "лёк"
+  ],
+  "crown": [
+   "ко",
+   "ро",
+   "на"
+  ],
+  "tornado": [
+   "бу",
+   "ря"
+  ],
+  "wind": [
+   "ве",
+   "тер"
+  ],
+  "comet": [
+   "ко",
+   "ме",
+   "та"
+  ],
+  "speedboat": [
+   "ка",
+   "тер"
+  ],
+  "moped": [
+   "мо",
+   "пед"
+  ],
+  "soccer_goal": [
+   "во",
+   "ро",
+   "та"
+  ],
+  "trophy": [
+   "ку",
+   "бок"
+  ],
+  "mechanic": [
+   "ме",
+   "ха",
+   "ник"
+  ],
+  "scientist": [
+   "у",
+   "чё",
+   "ный"
+  ],
+  "singer": [
+   "пе",
+   "вец"
+  ],
+  "worker": [
+   "ра",
+   "бо",
+   "чий"
+  ],
+  "shop": [
+   "ма",
+   "га",
+   "зин"
+  ],
+  "castle": [
+   "за",
+   "мок"
+  ],
+  "factory": [
+   "за",
+   "вод"
+  ]
+ }
+}

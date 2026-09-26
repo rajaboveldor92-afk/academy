@@ -92,6 +92,10 @@ class GenContext {
   RenderedInstruction say(String key, [Map<String, Object> params = const {}]) =>
       content.instructions.render(key, params);
 
+  /// Chet tili darsi: ko'rsatma [lang] tilida aytiladi va ekranda shu tilda ko'rsatiladi.
+  RenderedInstruction sayIn(String lang, String key, [Map<String, Object> params = const {}]) =>
+      content.instructions.render(key, params, lang);
+
   List<LexiconEntry> countables() => lex.countables(maxAge: age);
 
   List<LexiconEntry> category(String cat) => lex.category(cat, maxAge: age);
@@ -132,6 +136,8 @@ class GenContext {
       previewVisual: preview,
       previewSeconds: previewSeconds,
       meta: meta,
+      speechLang: say.lang,
+      speechParts: say.parts,
     );
   }
 
@@ -172,6 +178,8 @@ class GenContext {
       explanation: explanation,
       meta: meta,
       rewardStars: rewardStars,
+      speechLang: say.lang,
+      speechParts: say.parts,
     );
   }
 

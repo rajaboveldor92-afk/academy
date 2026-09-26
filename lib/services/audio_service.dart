@@ -6,6 +6,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 import '../models/app_settings.dart';
+import '../models/speech_part.dart';
+
+export '../models/speech_part.dart';
 
 /// Qisqa effekt ovozlari. Fayllar `assets/audio/rewards/<name>.mp3`.
 enum SoundEffect { tap, correct, tryAgain, star, medal }
@@ -29,6 +32,10 @@ abstract class AudioService {
 
   /// Faqat TTS orqali aytish.
   Future<void> speak(String text, {LangCode lang = 'uz'});
+
+  /// Bir necha tildagi bo'laklarni ketma-ket aytadi (har biri o'z ovozida).
+  /// Yangi `speak`/`speakParts` chaqirilsa, oldingisi to'xtaydi.
+  Future<void> speakParts(List<SpeechPart> parts);
 
   Future<void> playEffect(SoundEffect effect);
 
@@ -175,23 +182,59 @@ class DeviceAudioService implements AudioService {
     await speak(text, lang: lang);
   }
 
+  /// Har yangi nutq so'rovi raqamni oshiradi — eski ketma-ketlik to'xtaydi.
+  int _speechToken = 0;
+
+  Future<bool> _prepare(LangCode lang) async {
+    final locale = await _localeFor(lang);
+    if (locale == null) return false;
+    final tts = _ttsInstance();
+    if (_currentLocale != locale) {
+      await tts.setLanguage(locale);
+      await tts.setSpeechRate(0.42);
+      await tts.setPitch(1.1);
+      _currentLocale = locale;
+    }
+    return true;
+  }
+
   @override
   Future<void> speak(String text, {LangCode lang = 'uz'}) async {
     if (!_voiceEnabled || text.trim().isEmpty) return;
+    _speechToken++;
     try {
-      final locale = await _localeFor(lang);
-      if (locale == null) return;
+      if (!await _prepare(lang)) return;
       final tts = _ttsInstance();
-      if (_currentLocale != locale) {
-        await tts.setLanguage(locale);
-        await tts.setSpeechRate(0.42);
-        await tts.setPitch(1.1);
-        _currentLocale = locale;
-      }
+      await tts.awaitSpeakCompletion(false);
       await tts.stop();
       await tts.speak(text);
     } catch (e) {
       debugPrint('AudioService: TTS xatosi: $e');
+    }
+  }
+
+  @override
+  Future<void> speakParts(List<SpeechPart> parts) async {
+    if (!_voiceEnabled || parts.isEmpty) return;
+    final token = ++_speechToken;
+    try {
+      final tts = _ttsInstance();
+      await tts.stop();
+      await tts.awaitSpeakCompletion(true);
+      for (final part in parts) {
+        if (token != _speechToken) return;
+        if (part.text.trim().isEmpty || !await _prepare(part.lang)) continue;
+        if (token != _speechToken) return;
+        await tts.speak(part.text);
+      }
+    } catch (e) {
+      debugPrint('AudioService: TTS xatosi: $e');
+    } finally {
+      if (token == _speechToken) {
+        try {
+          await _tts?.awaitSpeakCompletion(false);
+        } catch (_) {}
+      }
     }
   }
 
@@ -244,6 +287,9 @@ class SilentAudioService implements AudioService {
 
   @override
   Future<void> speak(String text, {LangCode lang = 'uz'}) async => log.add('speak:$lang:$text');
+
+  @override
+  Future<void> speakParts(List<SpeechPart> parts) async => log.add('parts:${parts.join('|')}');
 
   @override
   Future<void> playEffect(SoundEffect effect) async => log.add('effect:${effect.name}');

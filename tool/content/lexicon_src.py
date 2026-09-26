@@ -305,6 +305,11 @@ E("computer","💻","kompyuter","computer","компьютер","home",[],"black
 E("watch","⌚","qo‘l soati","watch","наручные часы","home",["round"],"black",6),
 E("envelope","✉️","xat","letter","письмо","home",["write"],"white"),
 E("box","📦","quti","box","коробка","home",["square"],"brown"),
+# ---------------- ertak qahramonlari va bayram (alifbo misollari uchun: J, Q, Ю)
+E("joystick","🕹️","joystik","joystick","джойстик","toy",[],"black"),
+E("queen","👸","malika","queen","королева","fairy",["person"]),
+E("prince","🤴","shahzoda","prince","принц","fairy",["person"]),
+E("fireworks","🎆","mushakbozlik","fireworks","салют","holiday",["sky"],age=6),
 E("magnet","🧲","magnit","magnet","магнит","home",[],"red",6),
 E("plate","🍽️","likopcha","plate","тарелка","home",["kitchen","round"],"white"),
 E("teapot_bell","🛎️","qo‘ng‘iroqcha","bell","звоночек","home",[],"yellow",6),
