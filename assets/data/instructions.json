@@ -786,6 +786,91 @@
    "en": "Write from left to right",
    "ru": "Пиши слева направо"
   },
+  "ch_tap_light": {
+   "uz": "Oq katakni bos",
+   "en": "Tap a light square",
+   "ru": "Нажми на белую клетку"
+  },
+  "ch_tap_dark": {
+   "uz": "Qora katakni bos",
+   "en": "Tap a dark square",
+   "ru": "Нажми на чёрную клетку"
+  },
+  "ch_tap_star": {
+   "uz": "Yulduzchali katakni bos",
+   "en": "Tap the square with the star",
+   "ru": "Нажми на клетку со звёздочкой"
+  },
+  "ch_tap_square": {
+   "uz": "{sq} katagini bos",
+   "en": "Tap the square {sq}",
+   "ru": "Нажми на клетку {sq}"
+  },
+  "ch_tap_piece": {
+   "uz": "{piece}ni top",
+   "en": "Find the {piece}",
+   "ru": "Найди фигуру: {piece}"
+  },
+  "ch_piece_name": {
+   "uz": "Bu qaysi figura?",
+   "en": "Which piece is this?",
+   "ru": "Какая это фигура?"
+  },
+  "ch_find_piece": {
+   "uz": "{piece} qaysi biri?",
+   "en": "Which one is the {piece}?",
+   "ru": "Где фигура: {piece}?"
+  },
+  "ch_three_lang": {
+   "uz": "Uch tilda eshit: qaysi figura?",
+   "en": "Listen in three languages: which piece?",
+   "ru": "Послушай на трёх языках: какая фигура?"
+  },
+  "ch_move_star": {
+   "uz": "{piece}ni yulduzchaga olib bor",
+   "en": "Move the {piece} to the star",
+   "ru": "Передвинь фигуру на звёздочку: {piece}"
+  },
+  "ch_collect": {
+   "uz": "{piece} bilan hamma yulduzchalarni yig‘",
+   "en": "Collect all the stars with the {piece}",
+   "ru": "Собери все звёздочки. Фигура: {piece}"
+  },
+  "ch_capture": {
+   "uz": "Qora figurani ol",
+   "en": "Capture the black piece",
+   "ru": "Возьми чёрную фигуру"
+  },
+  "ch_safe_capture": {
+   "uz": "Himoyalanmagan qora figurani ol",
+   "en": "Capture the black piece that is not protected",
+   "ru": "Возьми незащищённую чёрную фигуру"
+  },
+  "ch_check": {
+   "uz": "Qora shohga shax ber",
+   "en": "Put the black king in check",
+   "ru": "Объяви шах чёрному королю"
+  },
+  "ch_escape": {
+   "uz": "Oq shohga shax! Uni qutqar",
+   "en": "The white king is in check! Save it",
+   "ru": "Белому королю шах! Спаси его"
+  },
+  "ch_defend": {
+   "uz": "Hujumdagi figurani qutqar",
+   "en": "Save the piece under attack",
+   "ru": "Спаси фигуру от нападения"
+  },
+  "ch_mate": {
+   "uz": "Bir yurishda mat qil",
+   "en": "Checkmate in one move",
+   "ru": "Поставь мат в один ход"
+  },
+  "ch_play": {
+   "uz": "O‘ynaymiz: {game}",
+   "en": "Let's play: {game}",
+   "ru": "Играем: {game}"
+  },
   "tri_which_picture": {
    "uz": "«{w}» qaysi rasm?",
    "en": "Which picture is «{w}»?",

@@ -1,0 +1,845 @@
+{
+ "subject": "chess",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Shaxmat",
+  "en": "Chess",
+  "ru": "Шахматы"
+ },
+ "model": "KO‘R → TUSHUN → YUR → TEKSHIR → IZOHNI KO‘R",
+ "topics": [
+  {
+   "id": "chess6.board",
+   "code": "C1",
+   "emoji": "⬜",
+   "title": {
+    "uz": "Doska: oq va qora kataklar",
+    "en": "The board: light and dark squares",
+    "ru": "Доска: белые и чёрные клетки"
+   },
+   "generator": "board_tap",
+   "skill": "board",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 8,
+     "modes": [
+      "light",
+      "dark"
+     ],
+     "coords": true
+    },
+    {
+     "size": 8,
+     "modes": [
+      "light",
+      "dark",
+      "star"
+     ],
+     "coords": true
+    },
+    {
+     "size": 8,
+     "modes": [
+      "dark",
+      "light"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.coords",
+   "code": "C2",
+   "emoji": "🔡",
+   "title": {
+    "uz": "Qator va ustun (a1–h8)",
+    "en": "Ranks and files (a1–h8)",
+    "ru": "Горизонтали и вертикали (a1–h8)"
+   },
+   "generator": "board_tap",
+   "skill": "board",
+   "prerequisites": [
+    "chess6.board"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "size": 8,
+     "modes": [
+      "square"
+     ]
+    },
+    {
+     "size": 8,
+     "modes": [
+      "square"
+     ]
+    },
+    {
+     "size": 8,
+     "modes": [
+      "square"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chess6.names",
+   "code": "C3",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Figuralar 3 tilda",
+    "en": "Pieces in 3 languages",
+    "ru": "Фигуры на 3 языках"
+   },
+   "generator": "piece_name",
+   "skill": "pieces",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "find",
+      "name"
+     ],
+     "options": 3
+    },
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "name",
+      "three_lang"
+     ],
+     "options": 4
+    },
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "three_lang",
+      "name",
+      "find"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "chess6.rook",
+   "code": "C4",
+   "emoji": "♖",
+   "title": {
+    "uz": "Rux yurishi",
+    "en": "The rook",
+    "ru": "Ладья"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.names"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "R"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "R"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "R"
+     ],
+     "size": 8,
+     "blockers": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.bishop",
+   "code": "C5",
+   "emoji": "♗",
+   "title": {
+    "uz": "Fil yurishi",
+    "en": "The bishop",
+    "ru": "Слон"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.names"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "B"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "B"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "B"
+     ],
+     "size": 8,
+     "blockers": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.queen",
+   "code": "C6",
+   "emoji": "♕",
+   "title": {
+    "uz": "Vazir yurishi",
+    "en": "The queen",
+    "ru": "Ферзь"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.rook"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 8,
+     "blockers": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.knight",
+   "code": "C7",
+   "emoji": "♘",
+   "title": {
+    "uz": "Ot yurishi",
+    "en": "The knight",
+    "ru": "Конь"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.names"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "N"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "N"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "N"
+     ],
+     "size": 8,
+     "blockers": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.king",
+   "code": "C8",
+   "emoji": "♔",
+   "title": {
+    "uz": "Shoh yurishi",
+    "en": "The king",
+    "ru": "Король"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.names"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "K"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "K"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "K"
+     ],
+     "size": 8,
+     "blockers": 3,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.pawn",
+   "code": "C9",
+   "emoji": "♙",
+   "title": {
+    "uz": "Piyoda yurishi",
+    "en": "The pawn",
+    "ru": "Пешка"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess6.names"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "P"
+     ],
+     "size": 8,
+     "blockers": 0,
+     "coords": true
+    },
+    {
+     "types": [
+      "P"
+     ],
+     "size": 8,
+     "blockers": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "P"
+     ],
+     "size": 8,
+     "blockers": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.collect",
+   "code": "C10",
+   "emoji": "🌟",
+   "title": {
+    "uz": "Yulduzchalarni yig‘",
+    "en": "Collect the stars",
+    "ru": "Собери звёздочки"
+   },
+   "generator": "collect",
+   "skill": "moves",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "R",
+      "Q",
+      "K"
+     ],
+     "stars": 2,
+     "coords": true
+    },
+    {
+     "types": [
+      "R",
+      "Q",
+      "K",
+      "N",
+      "B"
+     ],
+     "stars": 3,
+     "coords": true
+    },
+    {
+     "types": [
+      "N",
+      "B",
+      "Q"
+     ],
+     "stars": 4,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.capture",
+   "code": "C11",
+   "emoji": "⚔️",
+   "title": {
+    "uz": "Olish",
+    "en": "Capturing",
+    "ru": "Взятие"
+   },
+   "generator": "puzzle",
+   "skill": "capture",
+   "prerequisites": [
+    "chess6.pawn"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "capture"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "capture"
+     ],
+     "extraBlack": 1,
+     "coords": true
+    },
+    {
+     "goals": [
+      "capture"
+     ],
+     "extraBlack": 2,
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.safe_capture",
+   "code": "C12",
+   "emoji": "🛡️",
+   "title": {
+    "uz": "Xavfsiz olish",
+    "en": "Safe captures",
+    "ru": "Безопасное взятие"
+   },
+   "generator": "puzzle",
+   "skill": "capture",
+   "prerequisites": [
+    "chess6.capture"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "safe_capture"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "safe_capture"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "safe_capture"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.check",
+   "code": "C13",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Shax",
+    "en": "Check",
+    "ru": "Шах"
+   },
+   "generator": "puzzle",
+   "skill": "check",
+   "prerequisites": [
+    "chess6.capture"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "check"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "check"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "check"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.escape",
+   "code": "C14",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Shaxdan qutulish",
+    "en": "Getting out of check",
+    "ru": "Защита от шаха"
+   },
+   "generator": "puzzle",
+   "skill": "check",
+   "prerequisites": [
+    "chess6.check"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "escape"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "escape"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "escape"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.defend",
+   "code": "C15",
+   "emoji": "🛡",
+   "title": {
+    "uz": "Figurani himoya qil",
+    "en": "Save your piece",
+    "ru": "Спаси фигуру"
+   },
+   "generator": "puzzle",
+   "skill": "defence",
+   "prerequisites": [
+    "chess6.capture"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "defend"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "defend"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "defend"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.mate",
+   "code": "C16",
+   "emoji": "👑",
+   "title": {
+    "uz": "Bir yurishda mat",
+    "en": "Mate in one",
+    "ru": "Мат в один ход"
+   },
+   "generator": "puzzle",
+   "skill": "mate",
+   "prerequisites": [
+    "chess6.check"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "mate"
+     ],
+     "mates": [
+      "QK"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "mate"
+     ],
+     "mates": [
+      "RR",
+      "QK"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "mate"
+     ],
+     "mates": [
+      "RK",
+      "RR",
+      "QK"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.review",
+   "code": "C17",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Takrorlash",
+    "en": "Review",
+    "ru": "Повторение"
+   },
+   "generator": "puzzle",
+   "skill": "review",
+   "prerequisites": [
+    "chess6.mate"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "goals": [
+      "capture",
+      "check"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "capture",
+      "check",
+      "escape",
+      "defend"
+     ],
+     "coords": true
+    },
+    {
+     "goals": [
+      "safe_capture",
+      "escape",
+      "defend",
+      "mate"
+     ],
+     "coords": true
+    }
+   ]
+  },
+  {
+   "id": "chess6.pawn_war",
+   "code": "C18",
+   "emoji": "⚔️",
+   "title": {
+    "uz": "Piyodalar jangi (AI)",
+    "en": "Pawn battle (AI)",
+    "ru": "Битва пешек (ИИ)"
+   },
+   "generator": "play",
+   "skill": "game",
+   "prerequisites": [
+    "chess6.pawn"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "games": [
+      "pawn_war"
+     ],
+     "ai": "very_easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "pawn_war"
+     ],
+     "ai": "very_easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "pawn_war"
+     ],
+     "ai": "easy",
+     "coords": true
+    }
+   ],
+   "lessonSize": 1
+  },
+  {
+   "id": "chess6.queen_game",
+   "code": "C19",
+   "emoji": "♕",
+   "title": {
+    "uz": "Vazir piyodalarga qarshi (AI)",
+    "en": "Queen against pawns (AI)",
+    "ru": "Ферзь против пешек (ИИ)"
+   },
+   "generator": "play",
+   "skill": "game",
+   "prerequisites": [
+    "chess6.queen"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "games": [
+      "queen_vs_pawns"
+     ],
+     "ai": "very_easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "queen_vs_pawns"
+     ],
+     "ai": "easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "queen_vs_pawns"
+     ],
+     "ai": "easy",
+     "coords": true
+    }
+   ],
+   "lessonSize": 1
+  },
+  {
+   "id": "chess6.mini_game",
+   "code": "C20",
+   "emoji": "🏆",
+   "title": {
+    "uz": "Mini-o‘yin: oson raqib",
+    "en": "Mini game: easy opponent",
+    "ru": "Мини-игра: лёгкий соперник"
+   },
+   "generator": "play",
+   "skill": "game",
+   "prerequisites": [
+    "chess6.pawn_war"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "games": [
+      "rook_vs_pawns"
+     ],
+     "ai": "very_easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "pawn_war"
+     ],
+     "ai": "easy",
+     "coords": true
+    },
+    {
+     "games": [
+      "pawn_war",
+      "queen_vs_pawns"
+     ],
+     "ai": "easy",
+     "coords": true
+    }
+   ],
+   "lessonSize": 1
+  }
+ ]
+}

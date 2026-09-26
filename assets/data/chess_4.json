@@ -1,0 +1,540 @@
+{
+ "subject": "chess",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 5,
+ "title": {
+  "uz": "Shaxmat",
+  "en": "Chess",
+  "ru": "Шахматы"
+ },
+ "model": "KO‘R → TANI → BOS → SUR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "chess4.board",
+   "code": "C1",
+   "emoji": "⬜",
+   "title": {
+    "uz": "Oq va qora kataklar",
+    "en": "Light and dark squares",
+    "ru": "Белые и чёрные клетки"
+   },
+   "generator": "board_tap",
+   "skill": "board",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 4,
+     "modes": [
+      "light",
+      "dark"
+     ]
+    },
+    {
+     "size": 5,
+     "modes": [
+      "light",
+      "dark"
+     ]
+    },
+    {
+     "size": 6,
+     "modes": [
+      "light",
+      "dark"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chess4.star",
+   "code": "C2",
+   "emoji": "⭐",
+   "title": {
+    "uz": "Yulduzchani top",
+    "en": "Find the star",
+    "ru": "Найди звёздочку"
+   },
+   "generator": "board_tap",
+   "skill": "board",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 5,
+     "modes": [
+      "star"
+     ]
+    },
+    {
+     "size": 5,
+     "modes": [
+      "star"
+     ]
+    },
+    {
+     "size": 6,
+     "modes": [
+      "star"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chess4.king_queen",
+   "code": "C3",
+   "emoji": "♔",
+   "title": {
+    "uz": "Shoh va vazir",
+    "en": "King and queen",
+    "ru": "Король и ферзь"
+   },
+   "generator": "piece_tap",
+   "skill": "pieces",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 5,
+     "types": [
+      "K",
+      "Q"
+     ],
+     "count": 2
+    },
+    {
+     "size": 5,
+     "types": [
+      "K",
+      "Q",
+      "R"
+     ],
+     "count": 3
+    },
+    {
+     "size": 5,
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "id": "chess4.rook_bishop",
+   "code": "C4",
+   "emoji": "♖",
+   "title": {
+    "uz": "Rux va fil",
+    "en": "Rook and bishop",
+    "ru": "Ладья и слон"
+   },
+   "generator": "piece_tap",
+   "skill": "pieces",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 5,
+     "types": [
+      "R",
+      "B"
+     ],
+     "count": 2
+    },
+    {
+     "size": 5,
+     "types": [
+      "R",
+      "B",
+      "K"
+     ],
+     "count": 3
+    },
+    {
+     "size": 5,
+     "types": [
+      "R",
+      "B",
+      "Q",
+      "K"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "id": "chess4.knight_pawn",
+   "code": "C5",
+   "emoji": "♘",
+   "title": {
+    "uz": "Ot va piyoda",
+    "en": "Knight and pawn",
+    "ru": "Конь и пешка"
+   },
+   "generator": "piece_tap",
+   "skill": "pieces",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 5,
+     "types": [
+      "N",
+      "P"
+     ],
+     "count": 2
+    },
+    {
+     "size": 5,
+     "types": [
+      "N",
+      "P",
+      "R"
+     ],
+     "count": 3
+    },
+    {
+     "size": 5,
+     "types": [
+      "N",
+      "P",
+      "B",
+      "R"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "id": "chess4.names",
+   "code": "C6",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Figuralar nomi (3 tilda)",
+    "en": "Piece names (3 languages)",
+    "ru": "Названия фигур (3 языка)"
+   },
+   "generator": "piece_name",
+   "skill": "pieces",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "find"
+     ],
+     "options": 2
+    },
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "find",
+      "three_lang"
+     ],
+     "options": 3
+    },
+    {
+     "types": [
+      "K",
+      "Q",
+      "R",
+      "B",
+      "N",
+      "P"
+     ],
+     "modes": [
+      "three_lang",
+      "find"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "chess4.rook_move",
+   "code": "C7",
+   "emoji": "♖",
+   "title": {
+    "uz": "Rux yurishi",
+    "en": "How the rook moves",
+    "ru": "Как ходит ладья"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess4.rook_bishop"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "R"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "R"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "R"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    }
+   ]
+  },
+  {
+   "id": "chess4.bishop_move",
+   "code": "C8",
+   "emoji": "♗",
+   "title": {
+    "uz": "Fil yurishi",
+    "en": "How the bishop moves",
+    "ru": "Как ходит слон"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess4.rook_bishop"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "B"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "B"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "B"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    }
+   ]
+  },
+  {
+   "id": "chess4.king_move",
+   "code": "C9",
+   "emoji": "♔",
+   "title": {
+    "uz": "Shoh yurishi",
+    "en": "How the king moves",
+    "ru": "Как ходит король"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess4.king_queen"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "K"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "K"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "K"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    }
+   ]
+  },
+  {
+   "id": "chess4.queen_move",
+   "code": "C10",
+   "emoji": "♕",
+   "title": {
+    "uz": "Vazir yurishi",
+    "en": "How the queen moves",
+    "ru": "Как ходит ферзь"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess4.king_queen"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "Q"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    }
+   ]
+  },
+  {
+   "id": "chess4.knight_move",
+   "code": "C11",
+   "emoji": "♘",
+   "title": {
+    "uz": "Ot yurishi",
+    "en": "How the knight moves",
+    "ru": "Как ходит конь"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [
+    "chess4.knight_pawn"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "N"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "N"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "N"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    }
+   ]
+  },
+  {
+   "id": "chess4.all_moves",
+   "code": "C12",
+   "emoji": "♟️",
+   "title": {
+    "uz": "Hamma figuralar yuradi",
+    "en": "All pieces move",
+    "ru": "Все фигуры ходят"
+   },
+   "generator": "move_star",
+   "skill": "moves",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "P",
+      "N",
+      "R",
+      "B",
+      "Q",
+      "K"
+     ],
+     "size": 5,
+     "blockers": 0,
+     "coords": false
+    },
+    {
+     "types": [
+      "P",
+      "N",
+      "R",
+      "B",
+      "Q",
+      "K"
+     ],
+     "size": 6,
+     "blockers": 1,
+     "coords": false
+    },
+    {
+     "types": [
+      "P",
+      "N",
+      "R",
+      "B",
+      "Q",
+      "K"
+     ],
+     "size": 6,
+     "blockers": 2,
+     "coords": false
+    }
+   ]
+  }
+ ]
+}

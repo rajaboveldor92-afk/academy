@@ -11,6 +11,7 @@ import '../../learning/engine/mastery.dart';
 import '../../learning/models/exercise.dart';
 import '../../learning/models/topic.dart';
 import '../../learning/ui/assemble_view.dart';
+import '../../learning/ui/chess_view.dart';
 import '../../learning/ui/choice_view.dart';
 import '../../learning/ui/coding_view.dart';
 import '../../learning/ui/match_view.dart';
@@ -86,7 +87,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       final stat = progress.skillOf(topic.id);
       final level = (stat.level + profile.difficultyBias).clamp(1, topic.maxLevel).toInt();
       final curriculum = content.curriculum(topic.subject, topic.ageSuffix);
-      final size = curriculum?.lessonSize ?? (_junior ? 6 : 10);
+      final size = topic.lessonSize ?? curriculum?.lessonSize ?? (_junior ? 6 : 10);
       final exercises = LessonBuilder.build(
         content: content,
         topic: topic,
@@ -294,6 +295,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       ExerciseKind.coding => CodingExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.assemble => AssembleExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.trace => TraceExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.chess => ChessExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(key: key, exercise: ex, callbacks: callbacks),
     };
     return Stack(

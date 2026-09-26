@@ -5,7 +5,9 @@ import 'package:academy/learning/generators/generator_base.dart';
 import 'package:academy/learning/generators/puzzles.dart';
 import 'package:academy/learning/generators/registry.dart';
 import 'package:academy/learning/models/exercise.dart';
+import 'package:academy/learning/chess/chess_rules.dart';
 import 'package:academy/learning/ui/assemble_view.dart';
+import 'package:academy/learning/ui/chess_view.dart';
 import 'package:academy/learning/ui/choice_view.dart';
 import 'package:academy/learning/ui/coding_view.dart';
 import 'package:academy/learning/ui/match_view.dart';
@@ -388,6 +390,98 @@ void main() {
     });
   });
 
+  group('shaxmat', () {
+    Exercise chessExercise(ChessTask task) => Exercise(
+          topicId: 'test.chess',
+          subject: 'chess',
+          level: 1,
+          kind: ExerciseKind.chess,
+          instruction: const Localized(uz: 'Shaxmat', en: 'Chess', ru: 'Шахматы'),
+          speech: 'Shaxmat',
+          conceptKey: 'chess:test',
+          chess: task,
+        );
+
+    Future<void> tapSquare(WidgetTester tester, int sq) async {
+      await tester.tap(find.byKey(ValueKey('sq_$sq')));
+      await tester.pump(const Duration(milliseconds: 400));
+    }
+
+    testWidgets('oq katakni bosish: qora katak — xato, oq katak — yechim', (tester) async {
+      const task = ChessTask(size: 4, goal: 'tap_light');
+      final mistakes = <int>[];
+      int? solved;
+      await host(tester, ChessExerciseView(exercise: chessExercise(task), callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m)));
+      await tapSquare(tester, 1); // (0,1) — qora
+      expect(mistakes, [1]);
+      await tapSquare(tester, 0); // (0,0) — oq
+      expect(solved, 1);
+    });
+
+    testWidgets('ruxni bosib yulduzchaga yurish; qoidaga zid yurish qaytariladi', (tester) async {
+      // 5×5: rux (4,0) da, yulduzcha (0,0) da.
+      const task = ChessTask(size: 5, goal: 'move_star', pieces: {20: 'wR'}, stars: {0});
+      final mistakes = <int>[];
+      int? solved;
+      await host(tester, ChessExerciseView(exercise: chessExercise(task), callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m)));
+      await tapSquare(tester, 20);
+      await tapSquare(tester, 6); // (1,1) — rux qiyshiq yurmaydi
+      expect(mistakes, [1]);
+      expect(solved, isNull);
+      await tapSquare(tester, 20);
+      await tapSquare(tester, 10); // (2,0) — qonuniy, lekin yulduzcha emas
+      expect(mistakes, [1, 2]);
+      await tapSquare(tester, 20); // rux joyida qolgan
+      await tapSquare(tester, 0);
+      expect(solved, 2);
+    });
+
+    testWidgets('otni sudrab yulduzchaga olib borish', (tester) async {
+      // 5×5: ot (4,1) da, yulduzcha (2,2) da.
+      const task = ChessTask(size: 5, goal: 'move_star', pieces: {21: 'wN'}, stars: {12});
+      int? solved;
+      await host(tester, ChessExerciseView(exercise: chessExercise(task), callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      final from = tester.getCenter(find.byKey(const ValueKey('sq_21')));
+      final to = tester.getCenter(find.byKey(const ValueKey('sq_12')));
+      final gesture = await tester.startGesture(from);
+      await tester.pump(const Duration(milliseconds: 50));
+      await gesture.moveTo(from + const Offset(0, -20));
+      await tester.pump();
+      await gesture.moveTo(to);
+      await tester.pump();
+      await gesture.up();
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(solved, 0);
+    });
+
+    testWidgets('bir yurishda mat', (tester) async {
+      final p = ChessPosition(8, const {});
+      final pieces = {
+        p.square('g8')!: 'bK', p.square('f7')!: 'bP', p.square('g7')!: 'bP', p.square('h7')!: 'bP',
+        p.square('a1')!: 'wR', p.square('g1')!: 'wK',
+      };
+      final task = ChessTask(size: 8, goal: 'mate', pieces: pieces, coords: true);
+      int? solved;
+      await host(tester, ChessExerciseView(exercise: chessExercise(task), callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      await tapSquare(tester, p.square('a1')!);
+      await tapSquare(tester, p.square('a8')!);
+      expect(solved, 0);
+    });
+
+    testWidgets('AI bilan o‘yin: yurishdan keyin raqib javob beradi', (tester) async {
+      const task = ChessTask(size: 8, goal: 'play', game: 'pawn_war', ai: 'very_easy');
+      await host(tester, ChessExerciseView(exercise: chessExercise(task), callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (_) {}), random: Random(1)));
+      // e2 → e4
+      await tapSquare(tester, 6 * 8 + 4);
+      await tapSquare(tester, 4 * 8 + 4);
+      expect(find.text('Raqib o‘ylayapti…'), findsOneWidget);
+      await tester.pump(ChessExerciseView.aiDelay + const Duration(milliseconds: 50));
+      await tester.pump();
+      expect(find.text('Sening navbating — oq figuralar'), findsOneWidget);
+      await tester.pumpWidget(const SizedBox.shrink());
+    });
+  });
+
   testWidgets('barcha mashq turlari xatosiz chiziladi', (tester) async {
     for (final t in content.allTopics) {
       for (var level = 1; level <= t.maxLevel; level++) {
@@ -401,6 +495,7 @@ void main() {
           ExerciseKind.coding => CodingExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.assemble => AssembleExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.trace => TraceExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.chess => ChessExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(exercise: e, callbacks: cb),
         };
         await host(tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));

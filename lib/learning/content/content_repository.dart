@@ -38,6 +38,8 @@ class ContentRepository {
     'russian_6',
     'trilingual_4',
     'trilingual_6',
+    'chess_4',
+    'chess_6',
   ];
 
   final Lexicon lexicon;

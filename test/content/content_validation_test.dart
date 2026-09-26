@@ -85,6 +85,9 @@ void main() {
   /// Har bir daraja uchun kamida shuncha turli savol. Yozish mashqlarida elementlar
   /// ro'yxati qisqa (masalan, 5 ta harf) — ularning har biri alohida tekshiriladi.
   int minUnique(Topic t, int level) {
+    // Shaxmat: AI bilan o'yin — bitta boshlang'ich pozitsiya; figura nomlari — 6 ta figura.
+    if (t.subject == 'chess' && t.generator == 'play') return 1;
+    if (t.subject == 'chess' && t.generator == 'piece_name') return 6;
     if (t.generator != 'trace') return 15;
     final items = (t.paramsFor(level)['items'] as List).map((e) => '$e').toList();
     if (items.any((i) => i.startsWith('words:'))) return 10;
@@ -233,6 +236,9 @@ void main() {
     expect(content.curriculum('russian', '6')!.topics.length, 15);
     expect(content.curriculum('trilingual', '4')!.topics.length, greaterThanOrEqualTo(6));
     expect(content.curriculum('trilingual', '6')!.topics.length, greaterThanOrEqualTo(6));
+    // Shaxmat: 4 yosh — 12 qadam, 6 yosh — 20 qadam.
+    expect(content.curriculum('chess', '4')!.topics.length, 12);
+    expect(content.curriculum('chess', '6')!.topics.length, 20);
   });
 
   test('o‘zbek tili bazasi: alifbo, bo‘g‘inlar, rasmlar', () {
@@ -493,11 +499,11 @@ void main() {
           content: content,
           topic: topic,
           level: level,
-          count: c.lessonSize,
+          count: topic.lessonSize ?? c.lessonSize,
           age: ageFor(topic),
           rng: Random(level),
         );
-        expect(lesson.length, c.lessonSize, reason: '${topic.id} L$level');
+        expect(lesson.length, topic.lessonSize ?? c.lessonSize, reason: '${topic.id} L$level');
         expect(lesson.map(LessonBuilder.signatureHash).toSet().length, lesson.length,
             reason: '${topic.id} L$level: darsda takror');
       }

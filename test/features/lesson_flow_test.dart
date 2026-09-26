@@ -91,7 +91,7 @@ void main() {
     final c = await setup(tester, 'azamjon');
     await tester.pumpWidget(UncontrolledProviderScope(
       container: c,
-      child: const MaterialApp(home: SubjectScreen(subject: Subject.chess)),
+      child: const MaterialApp(home: SubjectScreen(subject: Subject.memory)),
     ));
     await pumpUntil(tester, find.text('Tez orada!'));
     expect(find.text('Tez orada!'), findsOneWidget);

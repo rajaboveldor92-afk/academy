@@ -13,8 +13,8 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 1 | Muhammadjon (4): Matematika M1–M15, Mantiq L1–L15 | ✅ |
 | CONTENT 2 | Azamjon (6): Matematika M1–M20, Mantiq L1–L15 | ✅ |
 | CONTENT 3 | O‘zbek tili (4 yosh: 18 mavzu, 6 yosh: U1–U14), ✏️ Yozishni o‘rganaman (chiziq, nuqta, harf, raqam, so‘z) | ✅ |
-| CONTENT 4–5 | English, Русский, 🇺🇿🇬🇧🇷🇺 Uch tilda | ⏳ |
-| CONTENT 6 | Shaxmat | ⏳ |
+| CONTENT 4–5 | English (4 yosh: 17 mavzu, 6 yosh: E1–E21), Русский (4 yosh: 17, 6 yosh: R1–R15), 🍎 3 tilda (300+ tushuncha) | ✅ |
+| CONTENT 6 | ♟ Shaxmat: 4 yosh 12 qadam (doska, figuralar 3 tilda, yurishlar), 6 yosh 20 qadam (koordinatalar, olish, shax, mat, AI bilan mini-o‘yinlar) | ✅ |
 | CONTENT 7 | Xotira, Diqqat, Puzzle, Labirint, Motorika | ⏳ |
 | CONTENT 8 | ▶ Bugungi darsim, spaced repetition | ⏳ |
 | CONTENT 9–10 | To‘liq ota-ona paneli, QA, release | ⏳ |
@@ -27,8 +27,11 @@ assets/data/instructions.json   ko‘rsatmalar banki (uz/en/ru, {o‘rinbosar}, 
 assets/data/logic_data.json     analogiya, juftlar, yashash joylari, figuralar (original)
 assets/data/uzbek.json          alifbo (29 harf), 564 so‘z bo‘g‘inlari bilan (4 yosh: 438), gap/hikoya bo‘laklari
 assets/data/glyphs.json         yozish yo‘nalishlari: harflar, raqamlar, yozuvdan oldingi chiziqlar, nuqtali shakllar
+assets/data/languages.json      ingliz/rus alifbolari, harakatlar, sifatlar (ruscha jins shakllari), iboralar,
+                                ruscha so‘z jinsi, inglizcha ko‘plik, ruscha ochiq bo‘g‘inli so‘zlar
 assets/data/<fan>_<4|6>.json    o‘quv dasturi: mavzu → 3 daraja → generator parametrlari
 lib/learning/generators/        parametrik generatorlar (math, logic, uzbek — junior/senior, writing)
+lib/learning/chess/             shaxmat qoidalari (n×n doska, shax, mat), masala tekshiruvi, juda oson/oson AI
 lib/learning/engine/            LessonBuilder (takrorlanmaslik), AdaptiveRule (≥85 ↑, 60–84 =, <60 ↓), mastery
 lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruhlash, xotira, labirint, sudoku, kodlash,
                                 bo‘laklardan yig‘ish (harf→so‘z, bo‘g‘in→so‘z, so‘z→gap), barmoq bilan yozish
@@ -36,6 +39,9 @@ lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruh
 
 * Savollar dinamik yaratiladi: har bir mavzu × daraja uchun o‘nlab–yuzlab original variant.
 * Ovoz: ko‘rsatma o‘zbekcha, sonlar so‘z bilan aytiladi (TTS raqamni boshqa tilda o‘qimasligi uchun).
+* Chet tili darslarida ko‘rsatma o‘sha tilda aytiladi (en-US / ru-RU ovozi) va ekranda o‘sha tilda
+  ko‘rsatiladi; ostida o‘zbekcha umumiy yordamchi matn (javobni oshkor qilmaydi).
+  "3 tilda" o‘yinlarida har bir so‘z o‘z tilida ketma-ket aytiladi: 🔊 Olma → 🔊 Яблоко → 🔊 Apple.
 * Bola ekranida foiz yo‘q — faqat yulduzlar; foizlar (mastery) faqat ota-ona panelida.
 * Yozishni baholash (`TraceScorer`): qamrov, har bir chiziq, uzluksizlik (tartib), yo‘ldan chiqish va
   ortiqcha uzunlik — yumshoq, lekin tartibsiz bo‘yashni o‘tkazmaydi. 2 xatodan keyin namoyish, 4 xatodan keyin yakun.

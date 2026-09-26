@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import '../content/content_repository.dart';
+import '../chess/chess_goals.dart';
 import '../generators/generator_base.dart';
 import '../generators/registry.dart';
 import '../models/exercise.dart';
@@ -102,6 +103,9 @@ class ExerciseValidator {
       case ExerciseKind.trace:
         final t = e.trace;
         return t != null && t.strokes.isNotEmpty && t.strokes.every((s) => s.length >= 2);
+      case ExerciseKind.chess:
+        final c = e.chess;
+        return c != null && ChessGoals.isPlayable(c);
     }
   }
 }

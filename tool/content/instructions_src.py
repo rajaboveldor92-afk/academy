@@ -146,6 +146,27 @@ I = {
  "wr_left_right": ("Chapdan o‘ngga yoz", "Write from left to right", "Пиши слева направо"),
 }
 
+# Shaxmat (ch_*)
+I.update({
+ "ch_tap_light": ("Oq katakni bos", "Tap a light square", "Нажми на белую клетку"),
+ "ch_tap_dark": ("Qora katakni bos", "Tap a dark square", "Нажми на чёрную клетку"),
+ "ch_tap_star": ("Yulduzchali katakni bos", "Tap the square with the star", "Нажми на клетку со звёздочкой"),
+ "ch_tap_square": ("{sq} katagini bos", "Tap the square {sq}", "Нажми на клетку {sq}"),
+ "ch_tap_piece": ("{piece}ni top", "Find the {piece}", "Найди фигуру: {piece}"),
+ "ch_piece_name": ("Bu qaysi figura?", "Which piece is this?", "Какая это фигура?"),
+ "ch_find_piece": ("{piece} qaysi biri?", "Which one is the {piece}?", "Где фигура: {piece}?"),
+ "ch_three_lang": ("Uch tilda eshit: qaysi figura?", "Listen in three languages: which piece?", "Послушай на трёх языках: какая фигура?"),
+ "ch_move_star": ("{piece}ni yulduzchaga olib bor", "Move the {piece} to the star", "Передвинь фигуру на звёздочку: {piece}"),
+ "ch_collect": ("{piece} bilan hamma yulduzchalarni yig‘", "Collect all the stars with the {piece}", "Собери все звёздочки. Фигура: {piece}"),
+ "ch_capture": ("Qora figurani ol", "Capture the black piece", "Возьми чёрную фигуру"),
+ "ch_safe_capture": ("Himoyalanmagan qora figurani ol", "Capture the black piece that is not protected", "Возьми незащищённую чёрную фигуру"),
+ "ch_check": ("Qora shohga shax ber", "Put the black king in check", "Объяви шах чёрному королю"),
+ "ch_escape": ("Oq shohga shax! Uni qutqar", "The white king is in check! Save it", "Белому королю шах! Спаси его"),
+ "ch_defend": ("Hujumdagi figurani qutqar", "Save the piece under attack", "Спаси фигуру от нападения"),
+ "ch_mate": ("Bir yurishda mat qil", "Checkmate in one move", "Поставь мат в один ход"),
+ "ch_play": ("O‘ynaymiz: {game}", "Let's play: {game}", "Играем: {game}"),
+})
+
 # Chet tili darslari (lg_*): ekranda va ovozda — ingliz/rus tilida; o'zbekcha matn — faqat umumiy
 # yordamchi (javobni oshkor qilmaydi), shuning uchun unda o'rinbosar bo'lmasligi mumkin.
 LG = {

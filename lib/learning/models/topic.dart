@@ -18,6 +18,7 @@ class Topic {
     this.skill = '',
     this.prerequisites = const [],
     this.tags = const [],
+    this.lessonSize,
   });
 
   /// Global noyob id: `math4.count_1_5`.
@@ -44,6 +45,9 @@ class Topic {
   final String skill;
   final List<String> prerequisites;
   final List<String> tags;
+
+  /// Mavzuga xos dars hajmi (masalan, AI bilan o'yinda — 1 ta partiya). `null` — dastur bo'yicha.
+  final int? lessonSize;
 
   int get maxLevel => levels.length;
 
@@ -75,6 +79,7 @@ class Topic {
       skill: (json['skill'] ?? json['generator']).toString(),
       prerequisites: MapUtils.asStringList(json['prerequisites']),
       tags: MapUtils.asStringList(json['tags']),
+      lessonSize: json['lessonSize'] is num ? (json['lessonSize'] as num).toInt() : null,
     );
   }
 }

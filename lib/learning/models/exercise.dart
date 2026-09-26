@@ -66,6 +66,9 @@ enum ExerciseKind {
 
   /// Barmoq bilan chiziq/harf ustidan yurib yozish.
   trace,
+
+  /// Shaxmat doskasi: katakni bosish, figurani yurish (sudrab yoki bosib), mini-o'yin.
+  chess,
 }
 
 /// Javob varianti: rasm (visual) va/yoki matn.
@@ -249,6 +252,51 @@ class AssembleTask {
   String get result => answer.join(separator);
 
   String describe() => 'asm:${answer.join("|")}:${(List<String>.from(tiles)..sort()).join("|")}';
+}
+
+/// Shaxmat topshirig'i. Katak raqami: `qator * size + ustun` (0-qator — yuqorida).
+///
+/// [goal]:
+/// * `tap_light`, `tap_dark`, `tap_star`, `tap_square` ([target]), `tap_piece` ([pieceType]);
+/// * `move_star`, `collect` (hamma yulduzchalar), `capture` ([target]), `safe_capture`,
+///   `check`, `escape`, `defend` ([target] — hujumdagi figura), `mate`;
+/// * `play` — [game] bo'yicha AI ([ai]: `very_easy` / `easy`) bilan mini-o'yin.
+class ChessTask {
+  const ChessTask({
+    required this.size,
+    required this.goal,
+    this.pieces = const {},
+    this.stars = const {},
+    this.target,
+    this.pieceType,
+    this.coords = false,
+    this.game,
+    this.ai,
+    this.highlight = const {},
+  });
+
+  final int size;
+  final String goal;
+  final Map<int, String> pieces;
+  final Set<int> stars;
+  final int? target;
+  final String? pieceType;
+
+  /// Doska chetida a–h va 1–8 belgilari.
+  final bool coords;
+  final String? game;
+  final String? ai;
+
+  /// Qo'shimcha belgilangan kataklar (masalan, hujum qilayotgan figura).
+  final Set<int> highlight;
+
+  bool get isTap => goal.startsWith('tap_');
+
+  String describe() {
+    final keys = pieces.keys.toList()..sort();
+    final st = stars.toList()..sort();
+    return 'chess$size:$goal:${keys.map((k) => '$k${pieces[k]}').join(',')}:${st.join(',')}:${target ?? ''}:${pieceType ?? ''}:${game ?? ''}:${ai ?? ''}';
+  }
 }
 
 /// Yozish mashqi. [strokes] — yo'naltiruvchi chiziqlar (0..1 koordinatalar),
@@ -539,6 +587,7 @@ class Exercise {
     this.coding,
     this.assemble,
     this.trace,
+    this.chess,
     this.previewVisual,
     this.previewSeconds = 0,
     this.hint,
@@ -585,6 +634,7 @@ class Exercise {
   final CodingTask? coding;
   final AssembleTask? assemble;
   final TraceTask? trace;
+  final ChessTask? chess;
 
   /// [ExerciseKind.memory]: avval ko'rsatiladigan rasm va vaqti.
   final ExerciseVisual? previewVisual;
@@ -624,6 +674,7 @@ class Exercise {
     if (coding != null) b.write('|${coding!.describe()}');
     if (assemble != null) b.write('|${assemble!.describe()}');
     if (trace != null) b.write('|${trace!.describe()}');
+    if (chess != null) b.write('|${chess!.describe()}');
     if (previewVisual != null) b.write('|pre:${previewVisual!.describe()}');
     return b.toString();
   }

@@ -504,8 +504,91 @@ trilingual6 = {
      {"themes":["family_body","food_all","clothes_home"],"langs":["ru","en"],"pairs":5}], skill="three_languages"),
  ]}
 
+# ============================================================ SHAXMAT
+def TL(size, *args, **kw):
+    """Mavzuga xos dars hajmi bilan (AI bilan o'yin — 1 partiya)."""
+    t = T(*args, **kw); t["lessonSize"] = size; return t
+
+ALL_PIECES = ["K", "Q", "R", "B", "N", "P"]
+def mv(types, sizes=(5, 5, 6), blockers=(0, 0, 1), coords=False):
+    return [{"types": types, "size": sizes[i], "blockers": blockers[i], "coords": coords} for i in range(3)]
+
+chess4 = {
+ "subject": "chess", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 5,
+ "title": {"uz": "Shaxmat", "en": "Chess", "ru": "Шахматы"},
+ "model": "KO‘R → TANI → BOS → SUR → MAQTOV OL",
+ "topics": [
+  T("chess4.board","C1","⬜","Oq va qora kataklar","Light and dark squares","Белые и чёрные клетки","board_tap",
+    [{"size":4,"modes":["light","dark"]},{"size":5,"modes":["light","dark"]},{"size":6,"modes":["light","dark"]}], skill="board"),
+  T("chess4.star","C2","⭐","Yulduzchani top","Find the star","Найди звёздочку","board_tap",
+    [{"size":5,"modes":["star"]},{"size":5,"modes":["star"]},{"size":6,"modes":["star"]}], skill="board"),
+  T("chess4.king_queen","C3","♔","Shoh va vazir","King and queen","Король и ферзь","piece_tap",
+    [{"size":5,"types":["K","Q"],"count":2},{"size":5,"types":["K","Q","R"],"count":3},{"size":5,"types":["K","Q","R","B"],"count":3}], skill="pieces"),
+  T("chess4.rook_bishop","C4","♖","Rux va fil","Rook and bishop","Ладья и слон","piece_tap",
+    [{"size":5,"types":["R","B"],"count":2},{"size":5,"types":["R","B","K"],"count":3},{"size":5,"types":["R","B","Q","K"],"count":4}], skill="pieces"),
+  T("chess4.knight_pawn","C5","♘","Ot va piyoda","Knight and pawn","Конь и пешка","piece_tap",
+    [{"size":5,"types":["N","P"],"count":2},{"size":5,"types":["N","P","R"],"count":3},{"size":5,"types":["N","P","B","R"],"count":4}], skill="pieces"),
+  T("chess4.names","C6","🗣️","Figuralar nomi (3 tilda)","Piece names (3 languages)","Названия фигур (3 языка)","piece_name",
+    [{"types":ALL_PIECES,"modes":["find"],"options":2},{"types":ALL_PIECES,"modes":["find","three_lang"],"options":3},
+     {"types":ALL_PIECES,"modes":["three_lang","find"],"options":4}], skill="pieces"),
+  T("chess4.rook_move","C7","♖","Rux yurishi","How the rook moves","Как ходит ладья","move_star", mv(["R"]), skill="moves", pre=["chess4.rook_bishop"]),
+  T("chess4.bishop_move","C8","♗","Fil yurishi","How the bishop moves","Как ходит слон","move_star", mv(["B"]), skill="moves", pre=["chess4.rook_bishop"]),
+  T("chess4.king_move","C9","♔","Shoh yurishi","How the king moves","Как ходит король","move_star", mv(["K"]), skill="moves", pre=["chess4.king_queen"]),
+  T("chess4.queen_move","C10","♕","Vazir yurishi","How the queen moves","Как ходит ферзь","move_star", mv(["Q"]), skill="moves", pre=["chess4.king_queen"]),
+  T("chess4.knight_move","C11","♘","Ot yurishi","How the knight moves","Как ходит конь","move_star", mv(["N"]), skill="moves", pre=["chess4.knight_pawn"]),
+  T("chess4.all_moves","C12","♟️","Hamma figuralar yuradi","All pieces move","Все фигуры ходят","move_star",
+    mv(["P","N","R","B","Q","K"], sizes=(5, 6, 6), blockers=(0, 1, 2)), skill="moves"),
+ ]}
+
+chess6 = {
+ "subject": "chess", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 6,
+ "title": {"uz": "Shaxmat", "en": "Chess", "ru": "Шахматы"},
+ "model": "KO‘R → TUSHUN → YUR → TEKSHIR → IZOHNI KO‘R",
+ "topics": [
+  T("chess6.board","C1","⬜","Doska: oq va qora kataklar","The board: light and dark squares","Доска: белые и чёрные клетки","board_tap",
+    [{"size":8,"modes":["light","dark"],"coords":True},{"size":8,"modes":["light","dark","star"],"coords":True},{"size":8,"modes":["dark","light"],"coords":True}], skill="board"),
+  T("chess6.coords","C2","🔡","Qator va ustun (a1–h8)","Ranks and files (a1–h8)","Горизонтали и вертикали (a1–h8)","board_tap",
+    [{"size":8,"modes":["square"]},{"size":8,"modes":["square"]},{"size":8,"modes":["square"]}], skill="board", pre=["chess6.board"]),
+  T("chess6.names","C3","🗣️","Figuralar 3 tilda","Pieces in 3 languages","Фигуры на 3 языках","piece_name",
+    [{"types":ALL_PIECES,"modes":["find","name"],"options":3},{"types":ALL_PIECES,"modes":["name","three_lang"],"options":4},
+     {"types":ALL_PIECES,"modes":["three_lang","name","find"],"options":4}], skill="pieces"),
+  T("chess6.rook","C4","♖","Rux yurishi","The rook","Ладья","move_star", mv(["R"], (8, 8, 8), (0, 2, 4), True), skill="moves", pre=["chess6.names"]),
+  T("chess6.bishop","C5","♗","Fil yurishi","The bishop","Слон","move_star", mv(["B"], (8, 8, 8), (0, 2, 4), True), skill="moves", pre=["chess6.names"]),
+  T("chess6.queen","C6","♕","Vazir yurishi","The queen","Ферзь","move_star", mv(["Q"], (8, 8, 8), (0, 2, 4), True), skill="moves", pre=["chess6.rook"]),
+  T("chess6.knight","C7","♘","Ot yurishi","The knight","Конь","move_star", mv(["N"], (8, 8, 8), (0, 2, 4), True), skill="moves", pre=["chess6.names"]),
+  T("chess6.king","C8","♔","Shoh yurishi","The king","Король","move_star", mv(["K"], (8, 8, 8), (0, 2, 3), True), skill="moves", pre=["chess6.names"]),
+  T("chess6.pawn","C9","♙","Piyoda yurishi","The pawn","Пешка","move_star", mv(["P"], (8, 8, 8), (0, 2, 4), True), skill="moves", pre=["chess6.names"]),
+  T("chess6.collect","C10","🌟","Yulduzchalarni yig‘","Collect the stars","Собери звёздочки","collect",
+    [{"types":["R","Q","K"],"stars":2,"coords":True},{"types":["R","Q","K","N","B"],"stars":3,"coords":True},{"types":["N","B","Q"],"stars":4,"coords":True}], skill="moves"),
+  T("chess6.capture","C11","⚔️","Olish","Capturing","Взятие","puzzle",
+    [{"goals":["capture"],"coords":True},{"goals":["capture"],"extraBlack":1,"coords":True},{"goals":["capture"],"extraBlack":2,"coords":True}], skill="capture", pre=["chess6.pawn"]),
+  T("chess6.safe_capture","C12","🛡️","Xavfsiz olish","Safe captures","Безопасное взятие","puzzle",
+    [{"goals":["safe_capture"],"coords":True},{"goals":["safe_capture"],"coords":True},{"goals":["safe_capture"],"coords":True}], skill="capture", pre=["chess6.capture"]),
+  T("chess6.check","C13","⚡","Shax","Check","Шах","puzzle",
+    [{"goals":["check"],"coords":True},{"goals":["check"],"coords":True},{"goals":["check"],"coords":True}], skill="check", pre=["chess6.capture"]),
+  T("chess6.escape","C14","🏃","Shaxdan qutulish","Getting out of check","Защита от шаха","puzzle",
+    [{"goals":["escape"],"coords":True},{"goals":["escape"],"coords":True},{"goals":["escape"],"coords":True}], skill="check", pre=["chess6.check"]),
+  T("chess6.defend","C15","🛡","Figurani himoya qil","Save your piece","Спаси фигуру","puzzle",
+    [{"goals":["defend"],"coords":True},{"goals":["defend"],"coords":True},{"goals":["defend"],"coords":True}], skill="defence", pre=["chess6.capture"]),
+  T("chess6.mate","C16","👑","Bir yurishda mat","Mate in one","Мат в один ход","puzzle",
+    [{"goals":["mate"],"mates":["QK"],"coords":True},{"goals":["mate"],"mates":["RR","QK"],"coords":True},{"goals":["mate"],"mates":["RK","RR","QK"],"coords":True}],
+    skill="mate", pre=["chess6.check"]),
+  T("chess6.review","C17","🔁","Takrorlash","Review","Повторение","puzzle",
+    [{"goals":["capture","check"],"coords":True},{"goals":["capture","check","escape","defend"],"coords":True},
+     {"goals":["safe_capture","escape","defend","mate"],"coords":True}], skill="review", pre=["chess6.mate"]),
+  TL(1, "chess6.pawn_war","C18","⚔️","Piyodalar jangi (AI)","Pawn battle (AI)","Битва пешек (ИИ)","play",
+    [{"games":["pawn_war"],"ai":"very_easy","coords":True},{"games":["pawn_war"],"ai":"very_easy","coords":True},{"games":["pawn_war"],"ai":"easy","coords":True}],
+    skill="game", pre=["chess6.pawn"]),
+  TL(1, "chess6.queen_game","C19","♕","Vazir piyodalarga qarshi (AI)","Queen against pawns (AI)","Ферзь против пешек (ИИ)","play",
+    [{"games":["queen_vs_pawns"],"ai":"very_easy","coords":True},{"games":["queen_vs_pawns"],"ai":"easy","coords":True},{"games":["queen_vs_pawns"],"ai":"easy","coords":True}],
+    skill="game", pre=["chess6.queen"]),
+  TL(1, "chess6.mini_game","C20","🏆","Mini-o‘yin: oson raqib","Mini game: easy opponent","Мини-игра: лёгкий соперник","play",
+    [{"games":["rook_vs_pawns"],"ai":"very_easy","coords":True},{"games":["pawn_war"],"ai":"easy","coords":True},{"games":["pawn_war","queen_vs_pawns"],"ai":"easy","coords":True}],
+    skill="game", pre=["chess6.pawn_war"]),
+ ]}
+
 base = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data")
-for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6)]:
+for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6), ("chess_4", chess4), ("chess_6", chess6)]:
     ids = [t["id"] for t in data["topics"]]
     assert len(ids) == len(set(ids)), name
     for t in data["topics"]:
