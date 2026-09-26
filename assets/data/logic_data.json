@@ -1,0 +1,886 @@
+{
+ "schemaVersion": 1,
+ "note": "Mantiq o'yinlari uchun original bog'lanishlar. Har bir juftlik lexicon.json dagi id'lar bilan.",
+ "relations": {
+  "eats": {
+   "title": {
+    "uz": "nima yeydi",
+    "en": "what it eats",
+    "ru": "что ест"
+   },
+   "level": 1,
+   "pairs": [
+    [
+     "rabbit",
+     "carrot"
+    ],
+    [
+     "monkey",
+     "banana"
+    ],
+    [
+     "dog",
+     "bone"
+    ],
+    [
+     "cat",
+     "fish"
+    ],
+    [
+     "mouse",
+     "cheese"
+    ],
+    [
+     "squirrel",
+     "chestnut"
+    ],
+    [
+     "bee",
+     "flower"
+    ],
+    [
+     "panda",
+     "bamboo"
+    ],
+    [
+     "horse",
+     "field"
+    ]
+   ]
+  },
+  "gives": {
+   "title": {
+    "uz": "nima beradi",
+    "en": "what it gives",
+    "ru": "что даёт"
+   },
+   "level": 1,
+   "pairs": [
+    [
+     "chicken",
+     "egg"
+    ],
+    [
+     "cow",
+     "milk"
+    ],
+    [
+     "bee",
+     "honey"
+    ],
+    [
+     "sheep",
+     "yarn"
+    ],
+    [
+     "tree",
+     "apple"
+    ],
+    [
+     "field",
+     "bread"
+    ]
+   ]
+  },
+  "lives": {
+   "title": {
+    "uz": "qayerda yashaydi",
+    "en": "where it lives",
+    "ru": "где живёт"
+   },
+   "level": 2,
+   "pairs": [
+    [
+     "fish",
+     "wave"
+    ],
+    [
+     "penguin",
+     "snowflake"
+    ],
+    [
+     "camel",
+     "desert"
+    ],
+    [
+     "monkey",
+     "palm"
+    ],
+    [
+     "owl",
+     "tree"
+    ],
+    [
+     "dog",
+     "house"
+    ],
+    [
+     "whale",
+     "wave"
+    ],
+    [
+     "bee",
+     "flower"
+    ]
+   ]
+  },
+  "uses": {
+   "title": {
+    "uz": "nima bilan ishlaydi",
+    "en": "what they use",
+    "ru": "чем работает"
+   },
+   "level": 2,
+   "pairs": [
+    [
+     "cook",
+     "soup"
+    ],
+    [
+     "teacher",
+     "books"
+    ],
+    [
+     "doctor",
+     "ambulance"
+    ],
+    [
+     "farmer",
+     "tractor"
+    ],
+    [
+     "firefighter",
+     "fire_engine"
+    ],
+    [
+     "pilot",
+     "airplane"
+    ],
+    [
+     "artist",
+     "palette"
+    ],
+    [
+     "builder",
+     "hammer"
+    ],
+    [
+     "police",
+     "police_car"
+    ],
+    [
+     "astronaut",
+     "rocket"
+    ]
+   ]
+  },
+  "goes_with": {
+   "title": {
+    "uz": "nima bilan birga",
+    "en": "what goes together",
+    "ru": "что к чему"
+   },
+   "level": 1,
+   "pairs": [
+    [
+     "key",
+     "lock"
+    ],
+    [
+     "pencil",
+     "notebook"
+    ],
+    [
+     "spoon",
+     "soup"
+    ],
+    [
+     "cup",
+     "tea"
+    ],
+    [
+     "rain",
+     "umbrella"
+    ],
+    [
+     "snowflake",
+     "gloves"
+    ],
+    [
+     "sun",
+     "sunglasses"
+    ]
+   ]
+  },
+  "weather": {
+   "title": {
+    "uz": "ob-havoga kiyim",
+    "en": "weather and clothes",
+    "ru": "погода и одежда"
+   },
+   "level": 2,
+   "pairs": [
+    [
+     "sun",
+     "cap"
+    ],
+    [
+     "rain",
+     "umbrella"
+    ],
+    [
+     "snowflake",
+     "scarf"
+    ],
+    [
+     "snowman",
+     "gloves"
+    ]
+   ]
+  }
+ },
+ "sequences": [
+  [
+   "egg",
+   "chick",
+   "chicken"
+  ],
+  [
+   "seedling",
+   "tulip",
+   "rose"
+  ],
+  [
+   "seedling",
+   "tree",
+   "apple"
+  ],
+  [
+   "baby",
+   "boy",
+   "father",
+   "grandfather"
+  ],
+  [
+   "baby",
+   "girl",
+   "mother",
+   "grandmother"
+  ],
+  [
+   "caterpillar",
+   "butterfly"
+  ],
+  [
+   "cloud",
+   "rain",
+   "rainbow"
+  ],
+  [
+   "moon",
+   "star",
+   "sun"
+  ]
+ ],
+ "pairs": [
+  [
+   "key",
+   "lock"
+  ],
+  [
+   "pencil",
+   "notebook"
+  ],
+  [
+   "spoon",
+   "soup"
+  ],
+  [
+   "cup",
+   "tea"
+  ],
+  [
+   "socks",
+   "sneakers"
+  ],
+  [
+   "rain",
+   "umbrella"
+  ],
+  [
+   "sun",
+   "sunglasses"
+  ],
+  [
+   "bee",
+   "honey"
+  ],
+  [
+   "chicken",
+   "egg"
+  ],
+  [
+   "cow",
+   "milk"
+  ],
+  [
+   "dog",
+   "bone"
+  ],
+  [
+   "rabbit",
+   "carrot"
+  ],
+  [
+   "monkey",
+   "banana"
+  ],
+  [
+   "mouse",
+   "cheese"
+  ],
+  [
+   "cat",
+   "fish"
+  ],
+  [
+   "hand",
+   "gloves"
+  ],
+  [
+   "foot",
+   "sneakers"
+  ],
+  [
+   "eye",
+   "glasses"
+  ],
+  [
+   "book",
+   "backpack"
+  ],
+  [
+   "bread",
+   "cheese"
+  ],
+  [
+   "snowflake",
+   "snowman"
+  ],
+  [
+   "palette",
+   "artist"
+  ]
+ ],
+ "habitats": [
+  [
+   "fish",
+   "wave"
+  ],
+  [
+   "penguin",
+   "snowflake"
+  ],
+  [
+   "camel",
+   "desert"
+  ],
+  [
+   "monkey",
+   "palm"
+  ],
+  [
+   "owl",
+   "tree"
+  ],
+  [
+   "dog",
+   "house"
+  ],
+  [
+   "bee",
+   "flower"
+  ],
+  [
+   "cow",
+   "field"
+  ],
+  [
+   "whale",
+   "wave"
+  ],
+  [
+   "frog",
+   "droplet"
+  ]
+ ],
+ "maze_goals": [
+  [
+   "rabbit",
+   "carrot"
+  ],
+  [
+   "mouse",
+   "cheese"
+  ],
+  [
+   "bee",
+   "flower"
+  ],
+  [
+   "dog",
+   "bone"
+  ],
+  [
+   "cat",
+   "fish"
+  ],
+  [
+   "monkey",
+   "banana"
+  ],
+  [
+   "bear",
+   "honey"
+  ],
+  [
+   "squirrel",
+   "chestnut"
+  ],
+  [
+   "car",
+   "house"
+  ],
+  [
+   "boy",
+   "school"
+  ],
+  [
+   "girl",
+   "school"
+  ],
+  [
+   "chick",
+   "chicken"
+  ]
+ ],
+ "attributes": {
+  "flies": {
+   "uz": "ucha oladi",
+   "en": "can fly",
+   "ru": "умеет летать",
+   "pool": [
+    "bird",
+    "owl",
+    "eagle",
+    "parrot",
+    "swan",
+    "duck",
+    "bee",
+    "butterfly",
+    "ladybug",
+    "airplane",
+    "helicopter",
+    "balloon"
+   ],
+   "odd": [
+    "penguin",
+    "chicken",
+    "turkey",
+    "cat",
+    "dog",
+    "car",
+    "fish",
+    "snail"
+   ]
+  },
+  "swims": {
+   "uz": "suzadi",
+   "en": "can swim",
+   "ru": "умеет плавать",
+   "pool": [
+    "fish",
+    "tropical_fish",
+    "whale",
+    "dolphin",
+    "shark",
+    "octopus",
+    "duck",
+    "swan",
+    "frog",
+    "turtle",
+    "penguin",
+    "boat",
+    "ship"
+   ],
+   "odd": [
+    "cat",
+    "horse",
+    "lion",
+    "bus",
+    "chicken",
+    "monkey",
+    "owl"
+   ]
+  },
+  "wheels": {
+   "uz": "g‘ildiragi bor",
+   "en": "has wheels",
+   "ru": "есть колёса",
+   "pool": [
+    "car",
+    "taxi",
+    "bus",
+    "truck",
+    "tractor",
+    "bicycle",
+    "scooter",
+    "ambulance",
+    "fire_engine",
+    "train"
+   ],
+   "odd": [
+    "boat",
+    "ship",
+    "airplane",
+    "helicopter",
+    "rocket"
+   ]
+  },
+  "sweet": {
+   "uz": "shirin",
+   "en": "sweet",
+   "ru": "сладкое",
+   "pool": [
+    "candy",
+    "cake",
+    "honey",
+    "ice_cream",
+    "chocolate",
+    "cookie",
+    "lollipop",
+    "watermelon",
+    "banana",
+    "strawberry",
+    "grapes"
+   ],
+   "odd": [
+    "lemon",
+    "pepper",
+    "bread",
+    "cheese",
+    "cucumber",
+    "potato"
+   ]
+  },
+  "cold": {
+   "uz": "sovuq bilan bog‘liq",
+   "en": "cold things",
+   "ru": "связано с холодом",
+   "pool": [
+    "snowflake",
+    "snowman",
+    "ice_cream",
+    "penguin",
+    "fir",
+    "scarf",
+    "gloves",
+    "coat"
+   ],
+   "odd": [
+    "sun",
+    "fire",
+    "desert",
+    "palm",
+    "soup",
+    "tea"
+   ]
+  },
+  "farm": {
+   "uz": "uy hayvoni",
+   "en": "farm animal",
+   "ru": "домашнее животное",
+   "pool": [
+    "cow",
+    "pig",
+    "horse",
+    "sheep",
+    "goat",
+    "chicken",
+    "rooster",
+    "duck",
+    "turkey",
+    "dog",
+    "cat",
+    "rabbit"
+   ],
+   "odd": [
+    "lion",
+    "tiger",
+    "wolf",
+    "fox",
+    "elephant",
+    "giraffe",
+    "zebra",
+    "monkey",
+    "bear"
+   ]
+  }
+ },
+ "figures": [
+  {
+   "id": "house",
+   "uz": "uy",
+   "parts": [
+    {
+     "s": "square",
+     "x": 0.5,
+     "y": 0.66,
+     "size": 0.5,
+     "c": "orange"
+    },
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.25,
+     "size": 0.42,
+     "c": "red"
+    }
+   ]
+  },
+  {
+   "id": "tree",
+   "uz": "archa",
+   "parts": [
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.46,
+     "c": "green"
+    },
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.55,
+     "size": 0.56,
+     "c": "green"
+    },
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.88,
+     "size": 0.2,
+     "c": "brown"
+    }
+   ]
+  },
+  {
+   "id": "rocket",
+   "uz": "raketa",
+   "parts": [
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.16,
+     "size": 0.28,
+     "c": "red"
+    },
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.52,
+     "size": 0.44,
+     "c": "blue",
+     "r": 0.25
+    },
+    {
+     "s": "triangle",
+     "x": 0.3,
+     "y": 0.83,
+     "size": 0.2,
+     "c": "orange"
+    },
+    {
+     "s": "triangle",
+     "x": 0.7,
+     "y": 0.83,
+     "size": 0.2,
+     "c": "orange"
+    }
+   ]
+  },
+  {
+   "id": "snowman",
+   "uz": "qor odam",
+   "parts": [
+    {
+     "s": "circle",
+     "x": 0.5,
+     "y": 0.25,
+     "size": 0.3,
+     "c": "blue"
+    },
+    {
+     "s": "circle",
+     "x": 0.5,
+     "y": 0.68,
+     "size": 0.5,
+     "c": "blue"
+    }
+   ]
+  },
+  {
+   "id": "boat",
+   "uz": "qayiq",
+   "parts": [
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.8,
+     "size": 0.3,
+     "c": "brown"
+    },
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.5,
+     "c": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "flower",
+   "uz": "gul",
+   "parts": [
+    {
+     "s": "circle",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.3,
+     "c": "pink"
+    },
+    {
+     "s": "circle",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.12,
+     "c": "yellow"
+    },
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.72,
+     "size": 0.38,
+     "c": "green",
+     "r": 0.25
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "uz": "mashina",
+   "parts": [
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.55,
+     "size": 0.36,
+     "c": "red"
+    },
+    {
+     "s": "circle",
+     "x": 0.3,
+     "y": 0.8,
+     "size": 0.2,
+     "c": "black"
+    },
+    {
+     "s": "circle",
+     "x": 0.7,
+     "y": 0.8,
+     "size": 0.2,
+     "c": "black"
+    }
+   ]
+  },
+  {
+   "id": "fish",
+   "uz": "baliq",
+   "parts": [
+    {
+     "s": "oval",
+     "x": 0.42,
+     "y": 0.5,
+     "size": 0.4,
+     "c": "orange"
+    },
+    {
+     "s": "triangle",
+     "x": 0.8,
+     "y": 0.5,
+     "size": 0.3,
+     "c": "orange",
+     "r": 0.25
+    }
+   ]
+  },
+  {
+   "id": "robot",
+   "uz": "robot",
+   "parts": [
+    {
+     "s": "square",
+     "x": 0.5,
+     "y": 0.22,
+     "size": 0.3,
+     "c": "blue"
+    },
+    {
+     "s": "rectangle",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 0.42,
+     "c": "purple",
+     "r": 0.25
+    },
+    {
+     "s": "circle",
+     "x": 0.42,
+     "y": 0.2,
+     "size": 0.07,
+     "c": "yellow"
+    },
+    {
+     "s": "circle",
+     "x": 0.58,
+     "y": 0.2,
+     "size": 0.07,
+     "c": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "ice_cream",
+   "uz": "muzqaymoq",
+   "parts": [
+    {
+     "s": "circle",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.38,
+     "c": "pink"
+    },
+    {
+     "s": "triangle",
+     "x": 0.5,
+     "y": 0.68,
+     "size": 0.4,
+     "c": "orange",
+     "r": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+{
+ "subject": "logic",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "logic4.same",
+   "code": "L1",
+   "emoji": "👀",
+   "title": {
+    "uz": "Bir xilini top",
+    "en": "Find the same",
+    "ru": "Найди такой же"
+   },
+   "generator": "same_find",
+   "skill": "visual_match",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3,
+     "sameCategory": true,
+     "drag": true
+    },
+    {
+     "options": 4,
+     "sameCategory": true,
+     "mirror": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.odd",
+   "code": "L2",
+   "emoji": "🙅",
+   "title": {
+    "uz": "Ortig‘ini top",
+    "en": "Odd one out",
+    "ru": "Что лишнее?"
+   },
+   "generator": "odd_one",
+   "skill": "odd_one_out",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3
+    },
+    {
+     "items": 4
+    },
+    {
+     "items": 4,
+     "near": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.shadow",
+   "code": "L3",
+   "emoji": "🌑",
+   "title": {
+    "uz": "Soyasini top",
+    "en": "Find the shadow",
+    "ru": "Найди тень"
+   },
+   "generator": "shadow",
+   "skill": "shadow",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3,
+     "sameCategory": true,
+     "drag": true
+    },
+    {
+     "options": 4,
+     "sameCategory": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.pairs",
+   "code": "L4",
+   "emoji": "🧦",
+   "title": {
+    "uz": "Juftini top",
+    "en": "Find the pair",
+    "ru": "Найди пару"
+   },
+   "generator": "pairs_match",
+   "skill": "associations",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2
+    },
+    {
+     "pairs": 3
+    },
+    {
+     "pairs": 4
+    }
+   ]
+  },
+  {
+   "id": "logic4.sort_color",
+   "code": "L5",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Rangiga qarab guruhla",
+    "en": "Sort by colour",
+    "ru": "Разложи по цвету"
+   },
+   "generator": "sort_color",
+   "skill": "classification",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 6,
+     "objects": true
+    },
+    {
+     "bins": 3,
+     "items": 6,
+     "objects": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.sort_shape",
+   "code": "L6",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Shakliga qarab guruhla",
+    "en": "Sort by shape",
+    "ru": "Разложи по форме"
+   },
+   "generator": "sort_shape",
+   "skill": "classification",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 6,
+     "varySize": true
+    },
+    {
+     "bins": 3,
+     "items": 6,
+     "varySize": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.sort_size",
+   "code": "L7",
+   "emoji": "📦",
+   "title": {
+    "uz": "Katta-kichikni ajrat",
+    "en": "Big or small",
+    "ru": "Большое и маленькое"
+   },
+   "generator": "sort_size",
+   "skill": "size",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4
+    },
+    {
+     "items": 6
+    },
+    {
+     "items": 6,
+     "sameItem": false
+    }
+   ]
+  },
+  {
+   "id": "logic4.missing",
+   "code": "L8",
+   "emoji": "❔",
+   "title": {
+    "uz": "Qaysi biri yo‘qoldi?",
+    "en": "What is missing?",
+    "ru": "Что пропало?"
+   },
+   "generator": "missing_item",
+   "skill": "memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3,
+     "seconds": 5
+    },
+    {
+     "items": 4,
+     "seconds": 5
+    },
+    {
+     "items": 5,
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "id": "logic4.next",
+   "code": "L9",
+   "emoji": "⏭️",
+   "title": {
+    "uz": "Navbatdagi rasm",
+    "en": "What comes next",
+    "ru": "Что дальше?"
+   },
+   "generator": "next_picture",
+   "skill": "patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "patterns": [
+      "AB"
+     ],
+     "kinds": [
+      "emoji"
+     ],
+     "shown": 4
+    },
+    {
+     "growth": true
+    },
+    {
+     "patterns": [
+      "ABC",
+      "AAB"
+     ],
+     "kinds": [
+      "emoji"
+     ],
+     "shown": 5,
+     "drag": true
+    }
+   ]
+  },
+  {
+   "id": "logic4.home",
+   "code": "L10",
+   "emoji": "🏡",
+   "title": {
+    "uz": "Hayvonni uyiga olib bor",
+    "en": "Take the animal home",
+    "ru": "Отведи зверя домой"
+   },
+   "generator": "habitat_match",
+   "skill": "associations",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2
+    },
+    {
+     "pairs": 3
+    },
+    {
+     "pairs": 4
+    }
+   ]
+  },
+  {
+   "id": "logic4.maze",
+   "code": "L11",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Labirint",
+    "en": "Maze",
+    "ru": "Лабиринт"
+   },
+   "generator": "maze",
+   "skill": "maze",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 5,
+     "cols": 5,
+     "extraOpenings": 1
+    }
+   ]
+  },
+  {
+   "id": "logic4.analogy",
+   "code": "L12",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Mos rasmni top",
+    "en": "Picture analogy",
+    "ru": "Аналогии"
+   },
+   "generator": "analogy",
+   "skill": "analogy",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "relations": [
+      "eats",
+      "gives"
+     ],
+     "options": 3,
+     "drag": true
+    },
+    {
+     "relations": [
+      "eats",
+      "gives",
+      "goes_with"
+     ],
+     "options": 3
+    },
+    {
+     "relations": [
+      "lives",
+      "weather",
+      "goes_with"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "logic4.left_right",
+   "code": "L13",
+   "emoji": "👉",
+   "title": {
+    "uz": "Chap va o‘ng",
+    "en": "Left and right",
+    "ru": "Лево и право"
+   },
+   "generator": "direction",
+   "skill": "position",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "row",
+      "arrows"
+     ],
+     "items": 2
+    },
+    {
+     "modes": [
+      "arrows",
+      "row"
+     ],
+     "hands": true,
+     "items": 3
+    },
+    {
+     "modes": [
+      "arrows4",
+      "row"
+     ],
+     "hands": true,
+     "items": 4
+    }
+   ]
+  },
+  {
+   "id": "logic4.up_down",
+   "code": "L14",
+   "emoji": "🗄️",
+   "title": {
+    "uz": "Yuqori va past",
+    "en": "Up and down",
+    "ru": "Верх и низ"
+   },
+   "generator": "shelves",
+   "skill": "position",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "shelves": 2
+    },
+    {
+     "shelves": 3,
+     "ask": [
+      "top",
+      "bottom"
+     ]
+    },
+    {
+     "shelves": 3,
+     "ask": [
+      "top",
+      "bottom",
+      "middle"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic4.puzzle",
+   "code": "L15",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Rasmni to‘ldir",
+    "en": "Finish the picture",
+    "ru": "Собери картинку"
+   },
+   "generator": "half_puzzle",
+   "skill": "puzzle",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3,
+     "sameCategory": true,
+     "drag": true
+    },
+    {
+     "options": 4,
+     "sameCategory": true
+    }
+   ]
+  }
+ ]
+}

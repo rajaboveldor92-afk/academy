@@ -1,0 +1,596 @@
+{
+ "subject": "math",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "math4.one_many",
+   "code": "M1",
+   "emoji": "☝️",
+   "title": {
+    "uz": "Bir va ko‘p",
+    "en": "One and many",
+    "ru": "Один и много"
+   },
+   "generator": "one_many",
+   "skill": "quantity",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "manyMin": 5,
+     "manyMax": 7
+    },
+    {
+     "manyMin": 3,
+     "manyMax": 5
+    },
+    {
+     "manyMin": 3,
+     "manyMax": 6,
+     "withEmpty": true
+    }
+   ]
+  },
+  {
+   "id": "math4.count_1_3",
+   "code": "M2",
+   "emoji": "🔢",
+   "title": {
+    "uz": "1 dan 3 gacha",
+    "en": "Numbers 1–3",
+    "ru": "Числа 1–3"
+   },
+   "generator": "count_objects",
+   "skill": "counting",
+   "prerequisites": [
+    "math4.one_many"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 3,
+     "modes": [
+      "count"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 3,
+     "modes": [
+      "count",
+      "group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 3,
+     "modes": [
+      "drag",
+      "group",
+      "numeral"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math4.count_1_5",
+   "code": "M3",
+   "emoji": "✋",
+   "title": {
+    "uz": "1 dan 5 gacha",
+    "en": "Numbers 1–5",
+    "ru": "Числа 1–5"
+   },
+   "generator": "count_objects",
+   "skill": "counting",
+   "prerequisites": [
+    "math4.count_1_3"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 4,
+     "modes": [
+      "count"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "modes": [
+      "count",
+      "group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "modes": [
+      "drag",
+      "group",
+      "numeral"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "math4.count_1_10",
+   "code": "M4",
+   "emoji": "🔟",
+   "title": {
+    "uz": "1 dan 10 gacha",
+    "en": "Numbers 1–10",
+    "ru": "Числа 1–10"
+   },
+   "generator": "count_objects",
+   "skill": "counting",
+   "prerequisites": [
+    "math4.count_1_5"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "min": 3,
+     "max": 7,
+     "modes": [
+      "count"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "count",
+      "group"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "drag",
+      "group",
+      "numeral"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "math4.number_match",
+   "code": "M5",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Son va miqdor",
+    "en": "Number and quantity",
+    "ru": "Число и количество"
+   },
+   "generator": "number_match",
+   "skill": "number_quantity",
+   "prerequisites": [
+    "math4.count_1_5"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2,
+     "max": 3
+    },
+    {
+     "pairs": 3,
+     "max": 5
+    },
+    {
+     "pairs": 4,
+     "max": 8
+    }
+   ]
+  },
+  {
+   "id": "math4.big_small",
+   "code": "M6",
+   "emoji": "🐘",
+   "title": {
+    "uz": "Katta – kichik",
+    "en": "Big and small",
+    "ru": "Большой – маленький"
+   },
+   "generator": "size_compare",
+   "skill": "size",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "ask": [
+      "big"
+     ],
+     "gapPct": 50
+    },
+    {
+     "items": 2,
+     "ask": [
+      "big",
+      "small"
+     ],
+     "gapPct": 40
+    },
+    {
+     "items": 3,
+     "ask": [
+      "big",
+      "small"
+     ],
+     "gapPct": 45
+    }
+   ]
+  },
+  {
+   "id": "math4.more_less",
+   "code": "M7",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Ko‘p – kam",
+    "en": "More and fewer",
+    "ru": "Больше – меньше"
+   },
+   "generator": "more_less",
+   "skill": "compare_quantity",
+   "prerequisites": [
+    "math4.count_1_5"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "max": 7,
+     "minDiff": 3,
+     "ask": [
+      "more"
+     ]
+    },
+    {
+     "max": 7,
+     "minDiff": 2,
+     "ask": [
+      "more",
+      "less"
+     ]
+    },
+    {
+     "max": 9,
+     "minDiff": 1,
+     "ask": [
+      "more",
+      "less"
+     ],
+     "groups": 3
+    }
+   ]
+  },
+  {
+   "id": "math4.long_short",
+   "code": "M8",
+   "emoji": "📏",
+   "title": {
+    "uz": "Uzun – qisqa",
+    "en": "Long and short",
+    "ru": "Длинный – короткий"
+   },
+   "generator": "long_short",
+   "skill": "length",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "ask": [
+      "long"
+     ],
+     "gapPct": 50
+    },
+    {
+     "items": 2,
+     "ask": [
+      "long",
+      "short"
+     ],
+     "gapPct": 35
+    },
+    {
+     "items": 3,
+     "ask": [
+      "long",
+      "short"
+     ],
+     "gapPct": 45
+    }
+   ]
+  },
+  {
+   "id": "math4.high_low",
+   "code": "M9",
+   "emoji": "⬆️",
+   "title": {
+    "uz": "Yuqori – past",
+    "en": "High and low",
+    "ru": "Высоко – низко"
+   },
+   "generator": "high_low",
+   "skill": "position",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "ask": [
+      "high"
+     ]
+    },
+    {
+     "items": 2,
+     "ask": [
+      "high",
+      "low"
+     ]
+    },
+    {
+     "items": 3,
+     "ask": [
+      "high",
+      "low"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math4.left_right",
+   "code": "M10",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Chap – o‘ng",
+    "en": "Left and right",
+    "ru": "Слева – справа"
+   },
+   "generator": "left_right",
+   "skill": "position",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "ask": [
+      "left"
+     ]
+    },
+    {
+     "items": 2,
+     "ask": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "items": 3,
+     "ask": [
+      "left",
+      "right",
+      "middle"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math4.colors",
+   "code": "M11",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue"
+     ],
+     "options": 3
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange"
+     ],
+     "options": 4
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple"
+     ],
+     "options": 3,
+     "objects": true
+    }
+   ]
+  },
+  {
+   "id": "math4.shapes",
+   "code": "M12",
+   "emoji": "🔺",
+   "title": {
+    "uz": "Shakllar",
+    "en": "Shapes",
+    "ru": "Фигуры"
+   },
+   "generator": "shapes",
+   "skill": "shapes",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "shapes": [
+      "circle",
+      "square",
+      "triangle"
+     ],
+     "options": 3
+    },
+    {
+     "shapes": [
+      "circle",
+      "square",
+      "triangle",
+      "rectangle",
+      "star",
+      "heart"
+     ],
+     "options": 4,
+     "sameColor": false
+    },
+    {
+     "shapes": [
+      "circle",
+      "square",
+      "triangle",
+      "star"
+     ],
+     "options": 4,
+     "withColor": true
+    }
+   ]
+  },
+  {
+   "id": "math4.pattern",
+   "code": "M13",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Ketma-ketlik",
+    "en": "Patterns",
+    "ru": "Закономерности"
+   },
+   "generator": "pattern",
+   "skill": "patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "patterns": [
+      "AB"
+     ],
+     "kinds": [
+      "emoji",
+      "color"
+     ],
+     "shown": 4
+    },
+    {
+     "patterns": [
+      "AB",
+      "AAB",
+      "ABC"
+     ],
+     "kinds": [
+      "emoji",
+      "shape",
+      "color"
+     ],
+     "shown": 5
+    },
+    {
+     "patterns": [
+      "ABB",
+      "AABB",
+      "ABC"
+     ],
+     "kinds": [
+      "emoji",
+      "shape",
+      "color"
+     ],
+     "shown": 6,
+     "drag": true
+    }
+   ]
+  },
+  {
+   "id": "math4.add_5",
+   "code": "M14",
+   "emoji": "➕",
+   "title": {
+    "uz": "5 gacha qo‘shish",
+    "en": "Adding to 5",
+    "ru": "Сложение до 5"
+   },
+   "generator": "add_pictures",
+   "skill": "addition",
+   "prerequisites": [
+    "math4.count_1_5"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "max": 3
+    },
+    {
+     "max": 4
+    },
+    {
+     "max": 5,
+     "drag": true
+    }
+   ]
+  },
+  {
+   "id": "math4.sub_5",
+   "code": "M15",
+   "emoji": "➖",
+   "title": {
+    "uz": "5 gacha ayirish",
+    "en": "Taking away to 5",
+    "ru": "Вычитание до 5"
+   },
+   "generator": "sub_pictures",
+   "skill": "subtraction",
+   "prerequisites": [
+    "math4.add_5"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "max": 3
+    },
+    {
+     "max": 4
+    },
+    {
+     "max": 5,
+     "drag": true
+    }
+   ]
+  }
+ ]
+}

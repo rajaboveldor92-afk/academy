@@ -1,0 +1,545 @@
+{
+ "subject": "logic",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "KO‘R → TUSHUN → TANLA → YECH → IZOHNI KO‘R",
+ "topics": [
+  {
+   "id": "logic6.picture_seq",
+   "code": "L1",
+   "emoji": "🖼️",
+   "title": {
+    "uz": "Rasmli ketma-ketlik",
+    "en": "Picture sequences",
+    "ru": "Ряды картинок"
+   },
+   "generator": "picture_sequence",
+   "skill": "patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "patterns": [
+      "ABC",
+      "AAB"
+     ],
+     "kinds": [
+      "emoji",
+      "shape"
+     ],
+     "shown": 5
+    },
+    {
+     "patterns": [
+      "AABB",
+      "ABB",
+      "ABC"
+     ],
+     "kinds": [
+      "emoji",
+      "shape",
+      "color"
+     ],
+     "shown": 6,
+     "growth": true
+    },
+    {
+     "patterns": [
+      "AABB",
+      "ABBC",
+      "ABCB"
+     ],
+     "kinds": [
+      "shape",
+      "color"
+     ],
+     "shown": 7,
+     "growth": true
+    }
+   ]
+  },
+  {
+   "id": "logic6.number_seq",
+   "code": "L2",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonli ketma-ketlik",
+    "en": "Number sequences",
+    "ru": "Числовые ряды"
+   },
+   "generator": "number_sequence",
+   "skill": "number_patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "steps": [
+      "1",
+      "2"
+     ],
+     "max": 20,
+     "length": 4
+    },
+    {
+     "steps": [
+      "2",
+      "3",
+      "-1",
+      "-2"
+     ],
+     "max": 30,
+     "length": 4,
+     "missingInside": true
+    },
+    {
+     "steps": [
+      "3",
+      "4",
+      "5",
+      "-3",
+      "10"
+     ],
+     "max": 60,
+     "length": 4,
+     "missingInside": true
+    }
+   ]
+  },
+  {
+   "id": "logic6.classify",
+   "code": "L3",
+   "emoji": "🗂️",
+   "title": {
+    "uz": "Guruhlarga ajrat",
+    "en": "Classification",
+    "ru": "Классификация"
+   },
+   "generator": "classify",
+   "skill": "classification",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 6
+    },
+    {
+     "bins": 2,
+     "items": 8
+    },
+    {
+     "bins": 3,
+     "items": 9
+    }
+   ]
+  },
+  {
+   "id": "logic6.odd",
+   "code": "L4",
+   "emoji": "🙅",
+   "title": {
+    "uz": "Ortiqchasini top",
+    "en": "Odd one out",
+    "ru": "Что лишнее?"
+   },
+   "generator": "odd_attribute",
+   "skill": "odd_one_out",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4
+    },
+    {
+     "items": 4
+    },
+    {
+     "items": 5
+    }
+   ]
+  },
+  {
+   "id": "logic6.analogy",
+   "code": "L5",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Analogiya",
+    "en": "Analogies",
+    "ru": "Аналогии"
+   },
+   "generator": "analogy6",
+   "skill": "analogy",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "relations": [
+      "eats",
+      "gives",
+      "goes_with"
+     ],
+     "options": 3
+    },
+    {
+     "relations": [
+      "lives",
+      "uses",
+      "weather"
+     ],
+     "options": 4
+    },
+    {
+     "relations": [
+      "eats",
+      "gives",
+      "lives",
+      "uses",
+      "weather",
+      "goes_with"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "logic6.pattern",
+   "code": "L6",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Naqsh qoidasi",
+    "en": "Pattern rules",
+    "ru": "Правило узора"
+   },
+   "generator": "pattern6",
+   "skill": "patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "attr"
+     ]
+    },
+    {
+     "modes": [
+      "rotate",
+      "attr"
+     ]
+    },
+    {
+     "modes": [
+      "rotate"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic6.matrix2",
+   "code": "L7",
+   "emoji": "🔲",
+   "title": {
+    "uz": "2×2 matritsa",
+    "en": "2×2 matrix",
+    "ru": "Матрица 2×2"
+   },
+   "generator": "matrix",
+   "skill": "matrix",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 2,
+     "drag": true
+    },
+    {
+     "size": 2
+    },
+    {
+     "size": 2,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic6.matrix3",
+   "code": "L8",
+   "emoji": "🔳",
+   "title": {
+    "uz": "3×3 matritsa",
+    "en": "3×3 matrix",
+    "ru": "Матрица 3×3"
+   },
+   "generator": "matrix",
+   "skill": "matrix",
+   "prerequisites": [
+    "logic6.matrix2"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "size": 3
+    },
+    {
+     "size": 3,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    },
+    {
+     "size": 3,
+     "rules": [
+      "count",
+      "shape_color"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic6.maze",
+   "code": "L9",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Labirint",
+    "en": "Maze",
+    "ru": "Лабиринт"
+   },
+   "generator": "maze6",
+   "skill": "maze",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 5,
+     "cols": 5,
+     "extraOpenings": 1
+    },
+    {
+     "rows": 6,
+     "cols": 6
+    },
+    {
+     "rows": 7,
+     "cols": 7
+    }
+   ]
+  },
+  {
+   "id": "logic6.rotation",
+   "code": "L10",
+   "emoji": "🔄",
+   "title": {
+    "uz": "Buriladigan rasm",
+    "en": "Turn the picture",
+    "ru": "Поверни картинку"
+   },
+   "generator": "rotation",
+   "skill": "spatial",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "logic6.grid",
+   "code": "L11",
+   "emoji": "🧭",
+   "title": {
+    "uz": "Chap, o‘ng, yuqori, past",
+    "en": "Left, right, up, down",
+    "ru": "Слева, справа, сверху, снизу"
+   },
+   "generator": "grid_position",
+   "skill": "spatial",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "ordinal"
+     ],
+     "items": 5
+    },
+    {
+     "modes": [
+      "grid"
+     ]
+    },
+    {
+     "modes": [
+      "grid",
+      "ordinal"
+     ],
+     "items": 7
+    }
+   ]
+  },
+  {
+   "id": "logic6.coding",
+   "code": "L12",
+   "emoji": "🤖",
+   "title": {
+    "uz": "Kodlash",
+    "en": "Coding",
+    "ru": "Программирование"
+   },
+   "generator": "coding",
+   "skill": "coding",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "minSteps": 2,
+     "maxSteps": 3
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 2,
+     "minSteps": 3,
+     "maxSteps": 5
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 3,
+     "minSteps": 3,
+     "maxSteps": 6,
+     "build": true
+    }
+   ]
+  },
+  {
+   "id": "logic6.tangram",
+   "code": "L13",
+   "emoji": "📐",
+   "title": {
+    "uz": "Shakllardan rasm",
+    "en": "Shape pictures",
+    "ru": "Картинки из фигур"
+   },
+   "generator": "tangram",
+   "skill": "tangram",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "parts"
+     ]
+    },
+    {
+     "modes": [
+      "parts",
+      "count"
+     ]
+    },
+    {
+     "modes": [
+      "missing",
+      "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic6.sudoku",
+   "code": "L14",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Mini-sudoku",
+    "en": "Mini sudoku",
+    "ru": "Мини-судоку"
+   },
+   "generator": "sudoku",
+   "skill": "sudoku",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 4,
+     "minBlanks": 3,
+     "maxBlanks": 4,
+     "symbols": [
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 8,
+     "maxBlanks": 10,
+     "symbols": [
+      "numbers",
+      "emoji"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic6.problems",
+   "code": "L15",
+   "emoji": "💡",
+   "title": {
+    "uz": "Mantiqiy masalalar",
+    "en": "Logic puzzles",
+    "ru": "Логические задачи"
+   },
+   "generator": "logic_problem",
+   "skill": "reasoning",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "where",
+      "taller"
+     ]
+    },
+    {
+     "types": [
+      "taller",
+      "order",
+      "where"
+     ]
+    },
+    {
+     "types": [
+      "order",
+      "syllogism",
+      "taller"
+     ]
+    }
+   ]
+  }
+ ]
+}

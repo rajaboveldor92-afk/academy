@@ -1,5 +1,6 @@
 import '../core/utils/date_keys.dart';
 import '../core/utils/map_utils.dart';
+import '../learning/engine/mastery.dart';
 
 /// Bitta fan bo'yicha to'plangan natija.
 class SubjectScore {
@@ -38,6 +39,8 @@ class ChildProgress {
     this.dailyCorrect = const <String, int>{},
     this.lastPlayed,
     this.streak = 0,
+    this.skills = const <String, SkillStat>{},
+    this.recent = const <String, List<int>>{},
   });
 
   factory ChildProgress.empty(String childId) => ChildProgress(childId: childId);
@@ -62,6 +65,32 @@ class ChildProgress {
 
   /// Ketma-ket o'ynagan kunlar soni.
   final int streak;
+
+  /// Mavzu (ko'nikma) bo'yicha daraja va egallash holati: `topicId → SkillStat`.
+  final Map<String, SkillStat> skills;
+
+  /// Oxirgi ko'rilgan savollar imzolari (takrorlanmaslik uchun): `topicId → hash[]`.
+  final Map<String, List<int>> recent;
+
+  static const int recentLimit = 60;
+
+  SkillStat skillOf(String topicId) => skills[topicId] ?? const SkillStat();
+
+  List<int> recentOf(String topicId) => recent[topicId] ?? const [];
+
+  ChildProgress withSkill(String topicId, SkillStat stat) {
+    final updated = Map<String, SkillStat>.from(skills);
+    updated[topicId] = stat;
+    return _copy(skills: updated);
+  }
+
+  ChildProgress addRecent(String topicId, Iterable<int> hashes) {
+    final list = [...recentOf(topicId), ...hashes];
+    final trimmed = list.length > recentLimit ? list.sublist(list.length - recentLimit) : list;
+    final updated = Map<String, List<int>>.from(recent);
+    updated[topicId] = trimmed;
+    return _copy(recent: updated);
+  }
 
   int levelOf(String subjectId) => currentLevels[subjectId] ?? 1;
 
@@ -165,6 +194,8 @@ class ChildProgress {
     Map<String, int>? dailyCorrect,
     DateTime? lastPlayed,
     int? streak,
+    Map<String, SkillStat>? skills,
+    Map<String, List<int>>? recent,
   }) {
     return ChildProgress(
       childId: childId,
@@ -179,6 +210,8 @@ class ChildProgress {
       dailyCorrect: dailyCorrect ?? this.dailyCorrect,
       lastPlayed: lastPlayed ?? this.lastPlayed,
       streak: streak ?? this.streak,
+      skills: skills ?? this.skills,
+      recent: recent ?? this.recent,
     );
   }
 
@@ -195,6 +228,8 @@ class ChildProgress {
         'dailyCorrect': Map<String, int>.from(dailyCorrect),
         'lastPlayed': lastPlayed?.toIso8601String(),
         'streak': streak,
+        'skills': skills.map((k, v) => MapEntry(k, v.toMap())),
+        'recent': recent.map((k, v) => MapEntry(k, List<int>.from(v))),
       };
 
   factory ChildProgress.fromMap(Map<String, dynamic> map) {
@@ -214,6 +249,12 @@ class ChildProgress {
       dailyCorrect: MapUtils.asIntMap(map['dailyCorrect']),
       lastPlayed: MapUtils.asDate(map['lastPlayed']),
       streak: MapUtils.asInt(map['streak']),
+      skills: MapUtils.asStringMap(map['skills']).map(
+        (k, v) => MapEntry(k, SkillStat.fromMap(MapUtils.asStringMap(v))),
+      ),
+      recent: MapUtils.asStringMap(map['recent']).map(
+        (k, v) => MapEntry(k, (v is List ? v : const []).whereType<num>().map((e) => e.toInt()).toList()),
+      ),
     );
   }
 }

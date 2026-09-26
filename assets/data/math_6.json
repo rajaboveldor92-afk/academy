@@ -1,0 +1,748 @@
+{
+ "subject": "math",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 10,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "KO‘R → TUSHUN → TANLA → HISOBLA → YECH → IZOHNI KO‘R",
+ "topics": [
+  {
+   "id": "math6.count_10",
+   "code": "M1",
+   "emoji": "🔢",
+   "title": {
+    "uz": "0 dan 10 gacha",
+    "en": "Numbers 0–10",
+    "ru": "Числа 0–10"
+   },
+   "generator": "count_objects",
+   "skill": "counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "min": 0,
+     "max": 10,
+     "modes": [
+      "count"
+     ],
+     "options": 3
+    },
+    {
+     "min": 0,
+     "max": 10,
+     "modes": [
+      "count",
+      "group"
+     ],
+     "options": 4
+    },
+    {
+     "min": 0,
+     "max": 10,
+     "modes": [
+      "numeral",
+      "group",
+      "count"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "math6.count_20",
+   "code": "M2",
+   "emoji": "🧮",
+   "title": {
+    "uz": "0 dan 20 gacha",
+    "en": "Numbers 0–20",
+    "ru": "Числа 0–20"
+   },
+   "generator": "ten_frame",
+   "skill": "counting",
+   "prerequisites": [
+    "math6.count_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "min": 8,
+     "max": 14
+    },
+    {
+     "min": 11,
+     "max": 20
+    },
+    {
+     "min": 5,
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "math6.neighbors",
+   "code": "M3",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Oldingi va keyingi son",
+    "en": "Before and after",
+    "ru": "Соседи чисел"
+   },
+   "generator": "neighbors",
+   "skill": "number_order",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "max": 10,
+     "ask": [
+      "after"
+     ]
+    },
+    {
+     "max": 20,
+     "ask": [
+      "after",
+      "before"
+     ]
+    },
+    {
+     "max": 20,
+     "ask": [
+      "after",
+      "before",
+      "between"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.compare",
+   "code": "M4",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Katta, kichik, teng",
+    "en": "Greater, less, equal",
+    "ru": "Больше, меньше, равно"
+   },
+   "generator": "compare_numbers",
+   "skill": "compare",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "max": 10
+    },
+    {
+     "max": 20
+    },
+    {
+     "max": 10,
+     "expressions": true
+    }
+   ]
+  },
+  {
+   "id": "math6.add_10",
+   "code": "M5",
+   "emoji": "➕",
+   "title": {
+    "uz": "10 ichida qo‘shish",
+    "en": "Adding within 10",
+    "ru": "Сложение до 10"
+   },
+   "generator": "arith",
+   "skill": "addition",
+   "prerequisites": [
+    "math6.count_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "+",
+     "max": 8,
+     "modes": [
+      "pictures"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 10,
+     "modes": [
+      "plain"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 10,
+     "modes": [
+      "plain",
+      "maketen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.sub_10",
+   "code": "M6",
+   "emoji": "➖",
+   "title": {
+    "uz": "10 ichida ayirish",
+    "en": "Subtracting within 10",
+    "ru": "Вычитание до 10"
+   },
+   "generator": "arith",
+   "skill": "subtraction",
+   "prerequisites": [
+    "math6.add_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "-",
+     "max": 8,
+     "modes": [
+      "pictures"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 10,
+     "modes": [
+      "plain"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 10,
+     "modes": [
+      "plain"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.add_20",
+   "code": "M7",
+   "emoji": "🔼",
+   "title": {
+    "uz": "20 ichida qo‘shish",
+    "en": "Adding within 20",
+    "ru": "Сложение до 20"
+   },
+   "generator": "arith",
+   "skill": "addition",
+   "prerequisites": [
+    "math6.add_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "tens"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "carry",
+      "nocarry"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.sub_20",
+   "code": "M8",
+   "emoji": "🔽",
+   "title": {
+    "uz": "20 ichida ayirish",
+    "en": "Subtracting within 20",
+    "ru": "Вычитание до 20"
+   },
+   "generator": "arith",
+   "skill": "subtraction",
+   "prerequisites": [
+    "math6.sub_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "tens"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "carry",
+      "nocarry"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.missing",
+   "code": "M9",
+   "emoji": "❓",
+   "title": {
+    "uz": "Yetishmayotgan son",
+    "en": "Missing number",
+    "ru": "Пропущенное число"
+   },
+   "generator": "missing_number",
+   "skill": "missing_number",
+   "prerequisites": [
+    "math6.add_10",
+    "math6.sub_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "max": 10,
+     "forms": [
+      "a+?=c"
+     ]
+    },
+    {
+     "max": 10,
+     "forms": [
+      "a+?=c",
+      "?+b=c",
+      "a-?=b"
+     ]
+    },
+    {
+     "max": 20,
+     "forms": [
+      "a+?=c",
+      "?+b=c",
+      "a-?=b",
+      "?-a=b"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.sequence",
+   "code": "M10",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Sonli ketma-ketlik",
+    "en": "Number patterns",
+    "ru": "Числовые ряды"
+   },
+   "generator": "sequence",
+   "skill": "number_patterns",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "steps": [
+      "1"
+     ],
+     "max": 20,
+     "length": 4
+    },
+    {
+     "steps": [
+      "2",
+      "-1"
+     ],
+     "max": 20,
+     "length": 4
+    },
+    {
+     "steps": [
+      "2",
+      "3",
+      "-2",
+      "5"
+     ],
+     "max": 30,
+     "length": 4,
+     "missingInside": true
+    }
+   ]
+  },
+  {
+   "id": "math6.even",
+   "code": "M11",
+   "emoji": "👯",
+   "title": {
+    "uz": "Juft va toq",
+    "en": "Odd and even",
+    "ru": "Чётные и нечётные"
+   },
+   "generator": "even_odd",
+   "skill": "parity",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "pairs"
+     ]
+    },
+    {
+     "modes": [
+      "pairs",
+      "even"
+     ],
+     "max": 10
+    },
+    {
+     "modes": [
+      "even",
+      "odd"
+     ],
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "math6.by_2",
+   "code": "M12",
+   "emoji": "🧦",
+   "title": {
+    "uz": "2 tadan sanash",
+    "en": "Counting in 2s",
+    "ru": "Счёт двойками"
+   },
+   "generator": "skip_count",
+   "skill": "skip_counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "step": 2,
+     "modes": [
+      "groups"
+     ],
+     "maxGroups": 5
+    },
+    {
+     "step": 2,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 8
+    },
+    {
+     "step": 2,
+     "modes": [
+      "groups",
+      "sequence"
+     ],
+     "maxGroups": 10
+    }
+   ]
+  },
+  {
+   "id": "math6.by_5",
+   "code": "M13",
+   "emoji": "✋",
+   "title": {
+    "uz": "5 tadan sanash",
+    "en": "Counting in 5s",
+    "ru": "Счёт пятёрками"
+   },
+   "generator": "skip_count",
+   "skill": "skip_counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "step": 5,
+     "modes": [
+      "groups"
+     ],
+     "maxGroups": 4
+    },
+    {
+     "step": 5,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 8
+    },
+    {
+     "step": 5,
+     "modes": [
+      "groups",
+      "sequence"
+     ],
+     "maxGroups": 10
+    }
+   ]
+  },
+  {
+   "id": "math6.by_10",
+   "code": "M14",
+   "emoji": "🔟",
+   "title": {
+    "uz": "10 tadan sanash",
+    "en": "Counting in 10s",
+    "ru": "Счёт десятками"
+   },
+   "generator": "skip_count",
+   "skill": "skip_counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "step": 10,
+     "modes": [
+      "groups"
+     ],
+     "maxGroups": 5
+    },
+    {
+     "step": 10,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 9
+    },
+    {
+     "step": 10,
+     "modes": [
+      "groups",
+      "sequence"
+     ],
+     "maxGroups": 10
+    }
+   ]
+  },
+  {
+   "id": "math6.hundred",
+   "code": "M15",
+   "emoji": "💯",
+   "title": {
+    "uz": "0 dan 100 gacha",
+    "en": "Numbers to 100",
+    "ru": "Числа до 100"
+   },
+   "generator": "hundred",
+   "skill": "place_value",
+   "prerequisites": [
+    "math6.by_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "modes": [
+      "tens_ones",
+      "read"
+     ]
+    },
+    {
+     "modes": [
+      "compare",
+      "tens_ones"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.word",
+   "code": "M16",
+   "emoji": "📖",
+   "title": {
+    "uz": "Matnli masalalar",
+    "en": "Word problems",
+    "ru": "Задачи"
+   },
+   "generator": "word_problem",
+   "skill": "word_problems",
+   "prerequisites": [
+    "math6.add_10",
+    "math6.sub_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "add"
+     ],
+     "max": 10
+    },
+    {
+     "types": [
+      "add",
+      "sub"
+     ],
+     "max": 10
+    },
+    {
+     "types": [
+      "add",
+      "sub",
+      "compare"
+     ],
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "math6.shapes",
+   "code": "M17",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Shakllar",
+    "en": "Shapes",
+    "ru": "Фигуры"
+   },
+   "generator": "shapes6",
+   "skill": "shapes",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "name"
+     ],
+     "options": 4
+    },
+    {
+     "modes": [
+      "name",
+      "corners"
+     ]
+    },
+    {
+     "modes": [
+      "corners",
+      "objects"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math6.spatial",
+   "code": "M18",
+   "emoji": "🧭",
+   "title": {
+    "uz": "Fazoviy tushunchalar",
+    "en": "Where is it?",
+    "ru": "Где находится?"
+   },
+   "generator": "spatial",
+   "skill": "spatial",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "box"
+     ]
+    },
+    {
+     "modes": [
+      "box",
+      "ordinal"
+     ],
+     "items": 5
+    },
+    {
+     "modes": [
+      "ordinal",
+      "grid"
+     ],
+     "items": 6
+    }
+   ]
+  },
+  {
+   "id": "math6.clock",
+   "code": "M19",
+   "emoji": "🕒",
+   "title": {
+    "uz": "Soat",
+    "en": "Telling the time",
+    "ru": "Часы"
+   },
+   "generator": "clock",
+   "skill": "time",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {},
+    {
+     "half": true
+    },
+    {
+     "half": true,
+     "reverse": true
+    }
+   ]
+  },
+  {
+   "id": "math6.money",
+   "code": "M20",
+   "emoji": "💰",
+   "title": {
+    "uz": "Pul bilan tanishamiz",
+    "en": "Money",
+    "ru": "Деньги"
+   },
+   "generator": "money",
+   "skill": "money",
+   "prerequisites": [
+    "math6.add_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "count"
+     ],
+     "max": 10
+    },
+    {
+     "modes": [
+      "mixed"
+     ],
+     "max": 10
+    },
+    {
+     "modes": [
+      "mixed",
+      "enough"
+     ],
+     "max": 15
+    }
+   ]
+  }
+ ]
+}

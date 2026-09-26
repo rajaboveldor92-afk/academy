@@ -148,9 +148,12 @@ class _ChildSummaryCard extends StatelessWidget {
               if (scores.isNotEmpty) ...[
                 const SizedBox(height: 8),
                 for (final e in scores)
-                  Text(
-                    '${Subject.fromId(e.key)?.title ?? e.key}: ${e.value.correct}/${e.value.total}',
-                    style: textTheme.bodyLarge,
+                  _SubjectLine(
+                    title: Subject.fromId(e.key)?.title ?? e.key,
+                    correct: e.value.correct,
+                    total: e.value.total,
+                    mastery: subjectMastery(progress, e.key),
+                    color: Subject.fromId(e.key)?.color ?? color,
                   ),
               ],
               const SizedBox(height: 12),
@@ -203,6 +206,65 @@ class _WeekBars extends StatelessWidget {
                 ),
               ),
             ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Fan bo'yicha o'rtacha egallash darajasi (boshlangan mavzular bo'yicha), 0..100.
+/// Faqat ota-ona panelida ko'rsatiladi.
+int? subjectMastery(ChildProgress p, String subjectId) {
+  final values = [
+    for (final e in p.skills.entries)
+      if (e.key.startsWith(subjectId) && e.value.started) e.value.mastery(3),
+  ];
+  if (values.isEmpty) return null;
+  return (values.reduce((a, b) => a + b) / values.length).round();
+}
+
+class _SubjectLine extends StatelessWidget {
+  const _SubjectLine({
+    required this.title,
+    required this.correct,
+    required this.total,
+    required this.mastery,
+    required this.color,
+  });
+
+  final String title;
+  final int correct;
+  final int total;
+  final int? mastery;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        children: [
+          SizedBox(width: 110, child: Text(title, style: const TextStyle(fontWeight: FontWeight.w700))),
+          Expanded(
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(6),
+              child: LinearProgressIndicator(
+                value: (mastery ?? 0) / 100,
+                minHeight: 10,
+                color: color,
+                backgroundColor: color.withAlpha(40),
+              ),
+            ),
+          ),
+          const SizedBox(width: 8),
+          SizedBox(
+            width: 92,
+            child: Text(
+              mastery == null ? '$correct/$total' : '$mastery% · $correct/$total',
+              textAlign: TextAlign.right,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
         ],
       ),
     );

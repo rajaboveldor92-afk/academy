@@ -1,0 +1,475 @@
+{
+ "schemaVersion": 1,
+ "instructions": {
+  "one_many_one": {
+   "uz": "Qayerda bitta {item} bor?",
+   "en": "Where is just one? ({item})",
+   "ru": "Где только один? ({item})"
+  },
+  "one_many_many": {
+   "uz": "Qayerda {item} ko‘p?",
+   "en": "Where are there many? ({item})",
+   "ru": "Где много? ({item})"
+  },
+  "one_many_none": {
+   "uz": "Qayerda hech narsa yo‘q?",
+   "en": "Where is there nothing?",
+   "ru": "Где ничего нет?"
+  },
+  "count_how_many": {
+   "uz": "Nechta {item} bor?",
+   "en": "How many? ({item})",
+   "ru": "Сколько? ({item})"
+  },
+  "find_group_n": {
+   "uz": "{n} ta {item} bor rasmni top",
+   "en": "Find the picture with {n} ({item})",
+   "ru": "Найди картинку, где {n} ({item})"
+  },
+  "find_numeral": {
+   "uz": "{n} sonini top",
+   "en": "Find the number {n}",
+   "ru": "Найди число {n}"
+  },
+  "match_number_group": {
+   "uz": "Har bir sonni rasm bilan juftla",
+   "en": "Match each number with a picture",
+   "ru": "Соедини каждое число с картинкой"
+  },
+  "count_dots": {
+   "uz": "Nechta doira bor?",
+   "en": "How many dots are there?",
+   "ru": "Сколько кружков?"
+  },
+  "find_big": {
+   "uz": "Eng kattasini top",
+   "en": "Find the biggest one",
+   "ru": "Найди самый большой"
+  },
+  "find_small": {
+   "uz": "Eng kichigini top",
+   "en": "Find the smallest one",
+   "ru": "Найди самый маленький"
+  },
+  "where_more": {
+   "uz": "Qayerda ko‘proq?",
+   "en": "Where are there more?",
+   "ru": "Где больше?"
+  },
+  "where_less": {
+   "uz": "Qayerda kamroq?",
+   "en": "Where are there fewer?",
+   "ru": "Где меньше?"
+  },
+  "find_long": {
+   "uz": "Eng uzun lentani top",
+   "en": "Find the longest ribbon",
+   "ru": "Найди самую длинную ленту"
+  },
+  "find_short": {
+   "uz": "Eng qisqa lentani top",
+   "en": "Find the shortest ribbon",
+   "ru": "Найди самую короткую ленту"
+  },
+  "which_high": {
+   "uz": "Qaysi biri eng yuqorida?",
+   "en": "Which one is the highest?",
+   "ru": "Что выше всех?"
+  },
+  "which_low": {
+   "uz": "Qaysi biri eng pastda?",
+   "en": "Which one is the lowest?",
+   "ru": "Что ниже всех?"
+  },
+  "which_left": {
+   "uz": "Chapda qaysi biri turibdi?",
+   "en": "Which one is on the left?",
+   "ru": "Что слева?"
+  },
+  "which_right": {
+   "uz": "O‘ngda qaysi biri turibdi?",
+   "en": "Which one is on the right?",
+   "ru": "Что справа?"
+  },
+  "which_middle": {
+   "uz": "O‘rtada qaysi biri turibdi?",
+   "en": "Which one is in the middle?",
+   "ru": "Что посередине?"
+  },
+  "first_from_left": {
+   "uz": "Chapdan birinchisini top",
+   "en": "Find the first one from the left",
+   "ru": "Найди первый слева"
+  },
+  "first_from_right": {
+   "uz": "O‘ngdan birinchisini top",
+   "en": "Find the first one from the right",
+   "ru": "Найди первый справа"
+  },
+  "nth_from_left": {
+   "uz": "Chapdan {k}sini top",
+   "en": "Find the one at this place from the left: {k}",
+   "ru": "Найди по счёту слева: {k}"
+  },
+  "nth_from_right": {
+   "uz": "O‘ngdan {k}sini top",
+   "en": "Find the one at this place from the right: {k}",
+   "ru": "Найди по счёту справа: {k}"
+  },
+  "points_right": {
+   "uz": "O‘ngni ko‘rsatayotganini top",
+   "en": "Find the one pointing right",
+   "ru": "Найди, что показывает вправо"
+  },
+  "points_left": {
+   "uz": "Chapni ko‘rsatayotganini top",
+   "en": "Find the one pointing left",
+   "ru": "Найди, что показывает влево"
+  },
+  "shelf_top": {
+   "uz": "Eng yuqori javonda nima bor?",
+   "en": "What is on the top shelf?",
+   "ru": "Что на верхней полке?"
+  },
+  "shelf_bottom": {
+   "uz": "Eng pastki javonda nima bor?",
+   "en": "What is on the bottom shelf?",
+   "ru": "Что на нижней полке?"
+  },
+  "shelf_middle": {
+   "uz": "O‘rta javonda nima bor?",
+   "en": "What is on the middle shelf?",
+   "ru": "Что на средней полке?"
+  },
+  "grid_left": {
+   "uz": "{item}ning chap tomonida nima bor?",
+   "en": "What is to the left of it? ({item})",
+   "ru": "Что слева? ({item})"
+  },
+  "grid_right": {
+   "uz": "{item}ning o‘ng tomonida nima bor?",
+   "en": "What is to the right of it? ({item})",
+   "ru": "Что справа? ({item})"
+  },
+  "grid_above": {
+   "uz": "{item}ning tepasida nima bor?",
+   "en": "What is above it? ({item})",
+   "ru": "Что сверху? ({item})"
+  },
+  "grid_below": {
+   "uz": "{item}ning pastida nima bor?",
+   "en": "What is below it? ({item})",
+   "ru": "Что снизу? ({item})"
+  },
+  "where_is": {
+   "uz": "{item} qayerda?",
+   "en": "Where is it? ({item})",
+   "ru": "Где он? ({item})"
+  },
+  "find_color": {
+   "uz": "{color} rangni top",
+   "en": "Find the colour {color}",
+   "ru": "Найди цвет: {color}"
+  },
+  "find_color_object": {
+   "uz": "{color} rangli narsani top",
+   "en": "Find something {color}",
+   "ru": "Найди предмет, цвет — {color}"
+  },
+  "find_shape": {
+   "uz": "{shape}ni top",
+   "en": "Find the {shape}",
+   "ru": "Найди: {shape}"
+  },
+  "find_color_shape": {
+   "uz": "{color} {shape}ni top",
+   "en": "Find the {color} {shape}",
+   "ru": "Найди: {shape}, цвет — {color}"
+  },
+  "how_many_corners": {
+   "uz": "{shape}ning nechta burchagi bor?",
+   "en": "How many corners does it have? ({shape})",
+   "ru": "Сколько углов? ({shape})"
+  },
+  "object_shape": {
+   "uz": "{item} qaysi shaklga o‘xshaydi?",
+   "en": "Which shape does it look like? ({item})",
+   "ru": "На какую фигуру похоже? ({item})"
+  },
+  "what_next": {
+   "uz": "Keyingisi qaysi?",
+   "en": "What comes next?",
+   "ru": "Что дальше?"
+  },
+  "continue_sequence": {
+   "uz": "Qaysi son tushib qolgan?",
+   "en": "Which number is missing?",
+   "ru": "Какое число пропущено?"
+  },
+  "count_by": {
+   "uz": "{n} tadan sana. Keyingi son qaysi?",
+   "en": "Count in {n}s. What comes next?",
+   "ru": "Считай по {n}. Какое число дальше?"
+  },
+  "count_pairs": {
+   "uz": "Juftlab sana: hammasi nechta?",
+   "en": "Count in pairs: how many in all?",
+   "ru": "Считай парами: сколько всего?"
+  },
+  "count_fingers": {
+   "uz": "5 tadan sana: hammasi nechta?",
+   "en": "Count in fives: how many in all?",
+   "ru": "Считай по пять: сколько всего?"
+  },
+  "count_tens": {
+   "uz": "10 tadan sana: hammasi nechta?",
+   "en": "Count in tens: how many in all?",
+   "ru": "Считай десятками: сколько всего?"
+  },
+  "add_pictures": {
+   "uz": "Hammasi bo‘lib nechta?",
+   "en": "How many altogether?",
+   "ru": "Сколько всего?"
+  },
+  "sub_pictures": {
+   "uz": "{n} tasini olib ketishdi. Nechta qoldi?",
+   "en": "{n} were taken away. How many are left?",
+   "ru": "{n} забрали. Сколько осталось?"
+  },
+  "solve_add": {
+   "uz": "{a} ga {b} ni qo‘sh",
+   "en": "Add {a} and {b}",
+   "ru": "Сложи {a} и {b}"
+  },
+  "solve_sub": {
+   "uz": "{a} dan {b} ni ayir",
+   "en": "Take {b} away from {a}",
+   "ru": "Вычти {b} из {a}"
+  },
+  "make_ten": {
+   "uz": "10 bo‘lishi uchun nechta kerak?",
+   "en": "How many more make 10?",
+   "ru": "Сколько нужно добавить до 10?"
+  },
+  "missing_number": {
+   "uz": "? o‘rniga qaysi son keladi?",
+   "en": "Which number goes in place of the ?",
+   "ru": "Какое число вместо «?»"
+  },
+  "number_after": {
+   "uz": "{n} dan keyin qaysi son keladi?",
+   "en": "Which number comes after {n}?",
+   "ru": "Какое число идёт после {n}?"
+  },
+  "number_before": {
+   "uz": "{n} dan oldin qaysi son keladi?",
+   "en": "Which number comes before {n}?",
+   "ru": "Какое число идёт перед {n}?"
+  },
+  "number_between": {
+   "uz": "{a} va {b} orasida qaysi son bor?",
+   "en": "Which number is between {a} and {b}?",
+   "ru": "Какое число между {a} и {b}?"
+  },
+  "compare_sign": {
+   "uz": "Qaysi belgi to‘g‘ri: katta, kichik yoki teng?",
+   "en": "Which sign fits: greater, less or equal?",
+   "ru": "Какой знак: больше, меньше или равно?"
+  },
+  "which_bigger": {
+   "uz": "Qaysi son katta?",
+   "en": "Which number is bigger?",
+   "ru": "Какое число больше?"
+  },
+  "tens_and_ones": {
+   "uz": "{t} ta o‘nlik va {o} ta birlik. Bu qaysi son?",
+   "en": "{t} tens and {o} ones. Which number is it?",
+   "ru": "{t} десятков и {o} единиц. Какое это число?"
+  },
+  "can_pair": {
+   "uz": "Hamma {item}ni juftlab bo‘ladimi?",
+   "en": "Can they all be put in pairs? ({item})",
+   "ru": "Можно ли всё разложить парами? ({item})"
+  },
+  "find_even": {
+   "uz": "Juft sonni top",
+   "en": "Find the even number",
+   "ru": "Найди чётное число"
+  },
+  "find_odd": {
+   "uz": "Toq sonni top",
+   "en": "Find the odd number",
+   "ru": "Найди нечётное число"
+  },
+  "problem_add": {
+   "uz": "{name}da {a} ta {item} bor edi. {name2} unga yana {b} ta berdi. {name}da hammasi nechta bo‘ldi?",
+   "en": "{name} had {a} ({item}). {name2} gave {b} more. How many does {name} have now?",
+   "ru": "У {name} было {a} ({item}). {name2} дал(а) ещё {b}. Сколько стало у {name}?"
+  },
+  "problem_sub": {
+   "uz": "{name}da {a} ta {item} bor edi. U {b} tasini {name2:ga} berdi. Nechta qoldi?",
+   "en": "{name} had {a} ({item}) and gave {b} to {name2}. How many are left?",
+   "ru": "У {name} было {a} ({item}). {b} отдал(а) {name2}. Сколько осталось?"
+  },
+  "problem_compare": {
+   "uz": "{name}da {a} ta {item}, {name2}da {b} ta {item} bor. {name}da nechta ko‘p?",
+   "en": "{name} has {a} and {name2} has {b} ({item}). How many more does {name} have?",
+   "ru": "У {name} {a}, у {name2} {b} ({item}). На сколько у {name} больше?"
+  },
+  "what_time": {
+   "uz": "Soat necha bo‘ldi?",
+   "en": "What time is it?",
+   "ru": "Который час?"
+  },
+  "find_clock": {
+   "uz": "{time} ni ko‘rsatayotgan soatni top",
+   "en": "Find the clock showing {time}",
+   "ru": "Найди часы, которые показывают {time}"
+  },
+  "how_much_money": {
+   "uz": "Hammasi bo‘lib necha so‘m?",
+   "en": "How much money in all?",
+   "ru": "Сколько всего денег?"
+  },
+  "enough_money": {
+   "uz": "{item} {n} so‘m turadi. Qaysi hamyonda pul yetadi?",
+   "en": "It costs {n} (sum). Which purse has enough? ({item})",
+   "ru": "Стоит {n} сумов. В каком кошельке хватит денег? ({item})"
+  },
+  "find_same": {
+   "uz": "Xuddi shunday rasmni top",
+   "en": "Find the same picture",
+   "ru": "Найди такую же картинку"
+  },
+  "odd_one_out": {
+   "uz": "Qaysi biri ortiqcha?",
+   "en": "Which one does not belong?",
+   "ru": "Что лишнее?"
+  },
+  "find_shadow": {
+   "uz": "{item}ning soyasini top",
+   "en": "Find its shadow ({item})",
+   "ru": "Найди тень ({item})"
+  },
+  "match_pairs": {
+   "uz": "Bir-biriga mosini juftla",
+   "en": "Match the things that go together",
+   "ru": "Соедини то, что подходит друг другу"
+  },
+  "animal_home": {
+   "uz": "Har bir jonivorni uyiga olib bor",
+   "en": "Take each animal to its home",
+   "ru": "Отведи каждого к его дому"
+  },
+  "sort_by_color": {
+   "uz": "Rangiga qarab savatlarga sol",
+   "en": "Sort them by colour",
+   "ru": "Разложи по цвету"
+  },
+  "sort_by_shape": {
+   "uz": "Shakliga qarab savatlarga sol",
+   "en": "Sort them by shape",
+   "ru": "Разложи по форме"
+  },
+  "sort_by_size": {
+   "uz": "Kattalarini bir tomonga, kichiklarini boshqa tomonga sol",
+   "en": "Put big ones on one side and small ones on the other",
+   "ru": "Большие — в одну сторону, маленькие — в другую"
+  },
+  "what_missing": {
+   "uz": "Qaysi biri yo‘qoldi?",
+   "en": "What is missing?",
+   "ru": "Что пропало?"
+  },
+  "maze_go": {
+   "uz": "{hero}ni {target:ga} olib bor",
+   "en": "Help it reach the goal ({hero} → {target})",
+   "ru": "Помоги дойти до цели ({hero} → {target})"
+  },
+  "analogy": {
+   "uz": "Qaysi rasm mos keladi?",
+   "en": "Which picture fits?",
+   "ru": "Какая картинка подходит?"
+  },
+  "complete_picture": {
+   "uz": "Rasmning ikkinchi yarmini top",
+   "en": "Find the other half of the picture",
+   "ru": "Найди вторую половинку картинки"
+  },
+  "classify": {
+   "uz": "Har birini o‘z guruhiga joyla",
+   "en": "Put each one in its group",
+   "ru": "Разложи всё по группам"
+  },
+  "matrix_missing": {
+   "uz": "Bo‘sh katakka qaysi rasm keladi?",
+   "en": "Which picture goes in the empty box?",
+   "ru": "Какая картинка в пустой клетке?"
+  },
+  "same_rotated": {
+   "uz": "Qaysi biri shu rasmning o‘zi, faqat burilgan?",
+   "en": "Which one is the same picture, just turned?",
+   "ru": "Какая картинка та же, только повёрнута?"
+  },
+  "code_choose": {
+   "uz": "Robot yulduzga qaysi yo‘l bilan boradi?",
+   "en": "Which program takes the robot to the goal?",
+   "ru": "Какая программа приведёт робота к цели?"
+  },
+  "code_build": {
+   "uz": "Strelkalardan yo‘l tuz va robotni yurgiz",
+   "en": "Build a path with arrows and run the robot",
+   "ru": "Составь путь из стрелок и запусти робота"
+  },
+  "tangram_parts": {
+   "uz": "{name} qaysi shakllardan tuzilgan?",
+   "en": "Which shapes make this picture? ({name})",
+   "ru": "Из каких фигур эта картинка? ({name})"
+  },
+  "count_shapes_in_figure": {
+   "uz": "Rasmda nechta {shape} bor?",
+   "en": "How many are in the picture? ({shape})",
+   "ru": "Сколько их на картинке? ({shape})"
+  },
+  "tangram_missing": {
+   "uz": "{name:ga} qaysi bo‘lak yetishmayapti?",
+   "en": "Which piece is missing? ({name})",
+   "ru": "Какой детали не хватает? ({name})"
+  },
+  "sudoku": {
+   "uz": "Bo‘sh kataklarni to‘ldir: har qator va ustunda belgilar takrorlanmasin",
+   "en": "Fill the empty boxes: no repeats in any row or column",
+   "ru": "Заполни пустые клетки: в ряду и столбце без повторов"
+  },
+  "where_riddle": {
+   "uz": "Qutiga qara. {item} qutining {p1} emas, {p2} ham emas. U qayerda?",
+   "en": "Look at the box. It is not {p1} the box and not {p2} it. Where is it? ({item})",
+   "ru": "Посмотри на коробку. {item}: не {p1} и не {p2}. Где?"
+  },
+  "tallest": {
+   "uz": "{a} {b}dan baland. {b} {c}dan baland. Kim eng baland?",
+   "en": "{a} is taller than {b}. {b} is taller than {c}. Who is the tallest?",
+   "ru": "{a} выше, чем {b}. {b} выше, чем {c}. Кто самый высокий?"
+  },
+  "shortest": {
+   "uz": "{a} {b}dan baland. {b} {c}dan baland. Kim eng past?",
+   "en": "{a} is taller than {b}. {b} is taller than {c}. Who is the shortest?",
+   "ru": "{a} выше, чем {b}. {b} выше, чем {c}. Кто самый низкий?"
+  },
+  "race_first": {
+   "uz": "{a} {b}dan oldinda yugurdi. {b} {c}dan oldinda. Kim birinchi keldi?",
+   "en": "{a} ran ahead of {b}. {b} was ahead of {c}. Who came first?",
+   "ru": "{a} бежал впереди {b}. {b} — впереди {c}. Кто пришёл первым?"
+  },
+  "race_last": {
+   "uz": "{a} {b}dan oldinda yugurdi. {b} {c}dan oldinda. Kim oxirgi keldi?",
+   "en": "{a} ran ahead of {b}. {b} was ahead of {c}. Who came last?",
+   "ru": "{a} бежал впереди {b}. {b} — впереди {c}. Кто пришёл последним?"
+  },
+  "syllogism": {
+   "uz": "{f1} {f2} {q}",
+   "en": "{f1} {f2} {q}",
+   "ru": "{f1} {f2} {q}"
+  }
+ }
+}

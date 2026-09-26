@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../learning/engine/mastery.dart';
 import '../../models/child_progress.dart';
 
 /// Barcha bolalar statistikasi: `childId → ChildProgress`.
@@ -46,6 +47,29 @@ class ProgressNotifier extends Notifier<Map<String, ChildProgress>> {
         rewardStars: rewardStars,
       ),
     );
+  }
+
+  /// Mavzu bo'yicha dars tugaganda: adaptiv daraja, mastery va takrorlanmaslik tarixi.
+  Future<({SkillStat stat, LevelDecision decision})> completeTopicLesson({
+    required String childId,
+    required String topicId,
+    required int maxLevel,
+    required int correctFirstTry,
+    required int total,
+    Iterable<int> signatures = const [],
+  }) async {
+    late ({SkillStat stat, LevelDecision decision}) outcome;
+    await update(childId, (p) {
+      outcome = AdaptiveRule.apply(
+        p.skillOf(topicId),
+        correctFirstTry: correctFirstTry,
+        total: total,
+        maxLevel: maxLevel,
+        now: ref.read(clockProvider)(),
+      );
+      return p.withSkill(topicId, outcome.stat).addRecent(topicId, signatures).completeLesson();
+    });
+    return outcome;
   }
 
   void reload() => state = ref.read(databaseProvider).getAllProgress();

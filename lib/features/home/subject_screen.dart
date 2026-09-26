@@ -3,11 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../models/subject.dart';
 import '../../theme/app_colors.dart';
+import '../lesson/topics_screen.dart';
 import '../profiles/profiles_controller.dart';
 
-/// Fan ekrani. Har bir fan o'z ishlab chiqish bosqichida (phase) to'liq
-/// o'yinlar bilan almashtiriladi; hozircha bola uchun tushunarli
-/// "tez orada" ekranini ko'rsatadi.
+/// Fan ekrani: shu fan va yosh uchun o'quv dasturi bo'lsa — mavzular ro'yxati;
+/// hali kiritilmagan fanlar uchun (keyingi kontent bosqichlari) qisqa xabar.
 class SubjectScreen extends ConsumerWidget {
   const SubjectScreen({super.key, required this.subject});
 
@@ -16,11 +16,26 @@ class SubjectScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final profile = ref.watch(activeProfileProvider);
+    final suffix = profile?.ageGroup.suffix ?? '6';
+    final curriculum = ref.watch(curriculumForProvider((subject.id, suffix)));
+    return curriculum.when(
+      loading: () => const Scaffold(body: Center(child: CircularProgressIndicator())),
+      error: (e, _) => _Pending(subject: subject, age: profile?.age),
+      data: (c) => c == null ? _Pending(subject: subject, age: profile?.age) : TopicsScreen(subject: subject, curriculum: c),
+    );
+  }
+}
+
+class _Pending extends StatelessWidget {
+  const _Pending({required this.subject, this.age});
+
+  final Subject subject;
+  final int? age;
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(subject.title),
-        backgroundColor: subject.color.withAlpha(40),
-      ),
+      appBar: AppBar(title: Text(subject.title), backgroundColor: subject.color.withAlpha(40)),
       backgroundColor: AppColors.background,
       body: SafeArea(
         child: Center(
@@ -31,14 +46,10 @@ class SubjectScreen extends ConsumerWidget {
               children: [
                 Text(subject.emoji, style: const TextStyle(fontSize: 110)),
                 const SizedBox(height: 16),
-                Text(
-                  'Tez orada!',
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
+                Text('Tez orada!', style: Theme.of(context).textTheme.headlineMedium),
                 const SizedBox(height: 8),
                 Text(
-                  "${subject.title} o'yinlari tayyorlanmoqda"
-                  "${profile == null ? '' : ' — ${profile.age} yosh uchun'}.",
+                  "${subject.title} mashg‘ulotlari tayyorlanmoqda${age == null ? '' : ' — $age yosh uchun'}.",
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
                 ),

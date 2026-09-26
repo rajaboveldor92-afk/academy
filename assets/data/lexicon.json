@@ -1,0 +1,3224 @@
+{
+ "schemaVersion": 1,
+ "note": "Original uch tilli lug'at. Emoji'lar Android 9+ da ko'rinadiganlaridan tanlangan; ageMin=99 bo'lganlar ishlatilmaydi.",
+ "colors": [
+  {
+   "id": "red",
+   "hex": "#E53935",
+   "uz": "qizil",
+   "en": "red",
+   "ru": "красный"
+  },
+  {
+   "id": "yellow",
+   "hex": "#FDD835",
+   "uz": "sariq",
+   "en": "yellow",
+   "ru": "жёлтый"
+  },
+  {
+   "id": "green",
+   "hex": "#43A047",
+   "uz": "yashil",
+   "en": "green",
+   "ru": "зелёный"
+  },
+  {
+   "id": "blue",
+   "hex": "#1E88E5",
+   "uz": "ko‘k",
+   "en": "blue",
+   "ru": "синий"
+  },
+  {
+   "id": "orange",
+   "hex": "#FB8C00",
+   "uz": "to‘q sariq",
+   "en": "orange",
+   "ru": "оранжевый"
+  },
+  {
+   "id": "purple",
+   "hex": "#8E24AA",
+   "uz": "binafsha",
+   "en": "purple",
+   "ru": "фиолетовый"
+  },
+  {
+   "id": "pink",
+   "hex": "#EC407A",
+   "uz": "pushti",
+   "en": "pink",
+   "ru": "розовый"
+  },
+  {
+   "id": "brown",
+   "hex": "#795548",
+   "uz": "jigarrang",
+   "en": "brown",
+   "ru": "коричневый"
+  },
+  {
+   "id": "black",
+   "hex": "#212121",
+   "uz": "qora",
+   "en": "black",
+   "ru": "чёрный"
+  },
+  {
+   "id": "white",
+   "hex": "#FAFAFA",
+   "uz": "oq",
+   "en": "white",
+   "ru": "белый"
+  }
+ ],
+ "shapes": [
+  {
+   "id": "circle",
+   "uz": "doira",
+   "en": "circle",
+   "ru": "круг",
+   "corners": 0
+  },
+  {
+   "id": "square",
+   "uz": "kvadrat",
+   "en": "square",
+   "ru": "квадрат",
+   "corners": 4
+  },
+  {
+   "id": "triangle",
+   "uz": "uchburchak",
+   "en": "triangle",
+   "ru": "треугольник",
+   "corners": 3
+  },
+  {
+   "id": "rectangle",
+   "uz": "to‘rtburchak",
+   "en": "rectangle",
+   "ru": "прямоугольник",
+   "corners": 4
+  },
+  {
+   "id": "oval",
+   "uz": "oval",
+   "en": "oval",
+   "ru": "овал",
+   "corners": 0
+  },
+  {
+   "id": "star",
+   "uz": "yulduzcha",
+   "en": "star",
+   "ru": "звёздочка",
+   "corners": 10
+  },
+  {
+   "id": "heart",
+   "uz": "yurakcha",
+   "en": "heart",
+   "ru": "сердечко",
+   "corners": 0
+  },
+  {
+   "id": "rhombus",
+   "uz": "romb",
+   "en": "rhombus",
+   "ru": "ромб",
+   "corners": 4
+  }
+ ],
+ "entries": [
+  {
+   "id": "apple",
+   "emoji": "🍎",
+   "uz": "olma",
+   "en": "apple",
+   "ru": "яблоко",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "green_apple",
+   "emoji": "🍏",
+   "uz": "yashil olma",
+   "en": "green apple",
+   "ru": "зелёное яблоко",
+   "category": "fruit",
+   "tags": [
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "banana",
+   "emoji": "🍌",
+   "uz": "banan",
+   "en": "banana",
+   "ru": "банан",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "grapes",
+   "emoji": "🍇",
+   "uz": "uzum",
+   "en": "grapes",
+   "ru": "виноград",
+   "category": "fruit",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "purple"
+  },
+  {
+   "id": "strawberry",
+   "emoji": "🍓",
+   "uz": "qulupnay",
+   "en": "strawberry",
+   "ru": "клубника",
+   "category": "fruit",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "cherry",
+   "emoji": "🍒",
+   "uz": "gilos",
+   "en": "cherry",
+   "ru": "вишня",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "peach",
+   "emoji": "🍑",
+   "uz": "shaftoli",
+   "en": "peach",
+   "ru": "персик",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "pear",
+   "emoji": "🍐",
+   "uz": "nok",
+   "en": "pear",
+   "ru": "груша",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "orange",
+   "emoji": "🍊",
+   "uz": "apelsin",
+   "en": "orange",
+   "ru": "апельсин",
+   "category": "fruit",
+   "tags": [
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "lemon",
+   "emoji": "🍋",
+   "uz": "limon",
+   "en": "lemon",
+   "ru": "лимон",
+   "category": "fruit",
+   "tags": [
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "watermelon",
+   "emoji": "🍉",
+   "uz": "tarvuz",
+   "en": "watermelon",
+   "ru": "арбуз",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "pineapple",
+   "emoji": "🍍",
+   "uz": "ananas",
+   "en": "pineapple",
+   "ru": "ананас",
+   "category": "fruit",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "kiwi",
+   "emoji": "🥝",
+   "uz": "kivi",
+   "en": "kiwi",
+   "ru": "киви",
+   "category": "fruit",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "coconut",
+   "emoji": "🥥",
+   "uz": "kokos",
+   "en": "coconut",
+   "ru": "кокос",
+   "category": "fruit",
+   "tags": [
+    "round",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "mango",
+   "emoji": "🥭",
+   "uz": "mango",
+   "en": "mango",
+   "ru": "манго",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "melon",
+   "emoji": "🍈",
+   "uz": "qovun",
+   "en": "melon",
+   "ru": "дыня",
+   "category": "fruit",
+   "tags": [
+    "sweet",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "carrot",
+   "emoji": "🥕",
+   "uz": "sabzi",
+   "en": "carrot",
+   "ru": "морковь",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "corn",
+   "emoji": "🌽",
+   "uz": "makkajo‘xori",
+   "en": "corn",
+   "ru": "кукуруза",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "cucumber",
+   "emoji": "🥒",
+   "uz": "bodring",
+   "en": "cucumber",
+   "ru": "огурец",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "tomato",
+   "emoji": "🍅",
+   "uz": "pomidor",
+   "en": "tomato",
+   "ru": "помидор",
+   "category": "vegetable",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "eggplant",
+   "emoji": "🍆",
+   "uz": "baqlajon",
+   "en": "eggplant",
+   "ru": "баклажан",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "purple"
+  },
+  {
+   "id": "potato",
+   "emoji": "🥔",
+   "uz": "kartoshka",
+   "en": "potato",
+   "ru": "картофель",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "broccoli",
+   "emoji": "🥦",
+   "uz": "brokkoli",
+   "en": "broccoli",
+   "ru": "брокколи",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "pepper",
+   "emoji": "🌶️",
+   "uz": "qalampir",
+   "en": "pepper",
+   "ru": "перец",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "cabbage",
+   "emoji": "🥬",
+   "uz": "karam",
+   "en": "cabbage",
+   "ru": "капуста",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "mushroom",
+   "emoji": "🍄",
+   "uz": "qo‘ziqorin",
+   "en": "mushroom",
+   "ru": "гриб",
+   "category": "vegetable",
+   "tags": [
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "peanut",
+   "emoji": "🥜",
+   "uz": "yeryong‘oq",
+   "en": "peanut",
+   "ru": "арахис",
+   "category": "vegetable",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "chestnut",
+   "emoji": "🌰",
+   "uz": "kashtan",
+   "en": "chestnut",
+   "ru": "каштан",
+   "category": "vegetable",
+   "tags": [
+    "tree"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "dog",
+   "emoji": "🐶",
+   "uz": "it",
+   "en": "dog",
+   "ru": "собака",
+   "category": "animal",
+   "tags": [
+    "pet",
+    "has_legs",
+    "home_animal"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "cat",
+   "emoji": "🐱",
+   "uz": "mushuk",
+   "en": "cat",
+   "ru": "кошка",
+   "category": "animal",
+   "tags": [
+    "pet",
+    "has_legs",
+    "home_animal"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "mouse",
+   "emoji": "🐭",
+   "uz": "sichqon",
+   "en": "mouse",
+   "ru": "мышь",
+   "category": "animal",
+   "tags": [
+    "has_legs",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "hamster",
+   "emoji": "🐹",
+   "uz": "hamster",
+   "en": "hamster",
+   "ru": "хомяк",
+   "category": "animal",
+   "tags": [
+    "pet",
+    "has_legs",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "rabbit",
+   "emoji": "🐰",
+   "uz": "quyon",
+   "en": "rabbit",
+   "ru": "кролик",
+   "category": "animal",
+   "tags": [
+    "has_legs",
+    "home_animal"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "cow",
+   "emoji": "🐮",
+   "uz": "sigir",
+   "en": "cow",
+   "ru": "корова",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "pig",
+   "emoji": "🐷",
+   "uz": "cho‘chqa",
+   "en": "pig",
+   "ru": "свинья",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "horse",
+   "emoji": "🐴",
+   "uz": "ot",
+   "en": "horse",
+   "ru": "лошадь",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "sheep",
+   "emoji": "🐑",
+   "uz": "qo‘y",
+   "en": "sheep",
+   "ru": "овца",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "goat",
+   "emoji": "🐐",
+   "uz": "echki",
+   "en": "goat",
+   "ru": "коза",
+   "category": "animal",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "chicken",
+   "emoji": "🐔",
+   "uz": "tovuq",
+   "en": "chicken",
+   "ru": "курица",
+   "category": "bird",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "rooster",
+   "emoji": "🐓",
+   "uz": "xo‘roz",
+   "en": "rooster",
+   "ru": "петух",
+   "category": "bird",
+   "tags": [
+    "farm",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "chick",
+   "emoji": "🐤",
+   "uz": "jo‘ja",
+   "en": "chick",
+   "ru": "цыплёнок",
+   "category": "bird",
+   "tags": [
+    "farm",
+    "small",
+    "baby"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "duck",
+   "emoji": "🦆",
+   "uz": "o‘rdak",
+   "en": "duck",
+   "ru": "утка",
+   "category": "bird",
+   "tags": [
+    "farm",
+    "flies",
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "turkey",
+   "emoji": "🦃",
+   "uz": "kurka",
+   "en": "turkey",
+   "ru": "индюк",
+   "category": "bird",
+   "tags": [
+    "farm"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "camel",
+   "emoji": "🐫",
+   "uz": "tuya",
+   "en": "camel",
+   "ru": "верблюд",
+   "category": "animal",
+   "tags": [
+    "has_legs",
+    "big",
+    "desert"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "lion",
+   "emoji": "🦁",
+   "uz": "sher",
+   "en": "lion",
+   "ru": "лев",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "tiger",
+   "emoji": "🐯",
+   "uz": "yo‘lbars",
+   "en": "tiger",
+   "ru": "тигр",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "bear",
+   "emoji": "🐻",
+   "uz": "ayiq",
+   "en": "bear",
+   "ru": "медведь",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "panda",
+   "emoji": "🐼",
+   "uz": "panda",
+   "en": "panda",
+   "ru": "панда",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "koala",
+   "emoji": "🐨",
+   "uz": "koala",
+   "en": "koala",
+   "ru": "коала",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "fox",
+   "emoji": "🦊",
+   "uz": "tulki",
+   "en": "fox",
+   "ru": "лиса",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "wolf",
+   "emoji": "🐺",
+   "uz": "bo‘ri",
+   "en": "wolf",
+   "ru": "волк",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "monkey",
+   "emoji": "🐵",
+   "uz": "maymun",
+   "en": "monkey",
+   "ru": "обезьяна",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "elephant",
+   "emoji": "🐘",
+   "uz": "fil",
+   "en": "elephant",
+   "ru": "слон",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "giraffe",
+   "emoji": "🦒",
+   "uz": "jirafa",
+   "en": "giraffe",
+   "ru": "жираф",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "zebra",
+   "emoji": "🦓",
+   "uz": "zebra",
+   "en": "zebra",
+   "ru": "зебра",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "rhino",
+   "emoji": "🦏",
+   "uz": "karkidon",
+   "en": "rhinoceros",
+   "ru": "носорог",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "kangaroo",
+   "emoji": "🦘",
+   "uz": "kenguru",
+   "en": "kangaroo",
+   "ru": "кенгуру",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "hedgehog",
+   "emoji": "🦔",
+   "uz": "tipratikan",
+   "en": "hedgehog",
+   "ru": "ёжик",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "small",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "squirrel",
+   "emoji": "🐿️",
+   "uz": "olmaxon",
+   "en": "squirrel",
+   "ru": "белка",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "has_legs",
+    "small",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "frog",
+   "emoji": "🐸",
+   "uz": "qurbaqa",
+   "en": "frog",
+   "ru": "лягушка",
+   "category": "animal",
+   "tags": [
+    "swims",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "turtle",
+   "emoji": "🐢",
+   "uz": "toshbaqa",
+   "en": "turtle",
+   "ru": "черепаха",
+   "category": "animal",
+   "tags": [
+    "swims",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "snake",
+   "emoji": "🐍",
+   "uz": "ilon",
+   "en": "snake",
+   "ru": "змея",
+   "category": "animal",
+   "tags": [
+    "wild"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "crocodile",
+   "emoji": "🐊",
+   "uz": "timsoh",
+   "en": "crocodile",
+   "ru": "крокодил",
+   "category": "animal",
+   "tags": [
+    "wild",
+    "swims",
+    "has_legs"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "snail",
+   "emoji": "🐌",
+   "uz": "shilliqqurt",
+   "en": "snail",
+   "ru": "улитка",
+   "category": "insect",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "bird",
+   "emoji": "🐦",
+   "uz": "qush",
+   "en": "bird",
+   "ru": "птица",
+   "category": "bird",
+   "tags": [
+    "flies"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "owl",
+   "emoji": "🦉",
+   "uz": "boyqush",
+   "en": "owl",
+   "ru": "сова",
+   "category": "bird",
+   "tags": [
+    "flies",
+    "wild",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "eagle",
+   "emoji": "🦅",
+   "uz": "burgut",
+   "en": "eagle",
+   "ru": "орёл",
+   "category": "bird",
+   "tags": [
+    "flies",
+    "wild"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "penguin",
+   "emoji": "🐧",
+   "uz": "pingvin",
+   "en": "penguin",
+   "ru": "пингвин",
+   "category": "bird",
+   "tags": [
+    "swims",
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "parrot",
+   "emoji": "🦜",
+   "uz": "to‘tiqush",
+   "en": "parrot",
+   "ru": "попугай",
+   "category": "bird",
+   "tags": [
+    "flies"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "swan",
+   "emoji": "🦢",
+   "uz": "oqqush",
+   "en": "swan",
+   "ru": "лебедь",
+   "category": "bird",
+   "tags": [
+    "flies",
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "peacock",
+   "emoji": "🦚",
+   "uz": "tovus",
+   "en": "peacock",
+   "ru": "павлин",
+   "category": "bird",
+   "tags": [],
+   "ageMin": 6,
+   "color": "blue"
+  },
+  {
+   "id": "bee",
+   "emoji": "🐝",
+   "uz": "ari",
+   "en": "bee",
+   "ru": "пчела",
+   "category": "insect",
+   "tags": [
+    "flies",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "butterfly",
+   "emoji": "🦋",
+   "uz": "kapalak",
+   "en": "butterfly",
+   "ru": "бабочка",
+   "category": "insect",
+   "tags": [
+    "flies",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "ladybug",
+   "emoji": "🐞",
+   "uz": "xonqizi",
+   "en": "ladybug",
+   "ru": "божья коровка",
+   "category": "insect",
+   "tags": [
+    "flies",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "ant",
+   "emoji": "🐜",
+   "uz": "chumoli",
+   "en": "ant",
+   "ru": "муравей",
+   "category": "insect",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "caterpillar",
+   "emoji": "🐛",
+   "uz": "qurt",
+   "en": "caterpillar",
+   "ru": "гусеница",
+   "category": "insect",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "spider",
+   "emoji": "🕷️",
+   "uz": "o‘rgimchak",
+   "en": "spider",
+   "ru": "паук",
+   "category": "insect",
+   "tags": [
+    "small"
+   ],
+   "ageMin": 6,
+   "color": "black"
+  },
+  {
+   "id": "fish",
+   "emoji": "🐟",
+   "uz": "baliq",
+   "en": "fish",
+   "ru": "рыба",
+   "category": "sea",
+   "tags": [
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "tropical_fish",
+   "emoji": "🐠",
+   "uz": "rangli baliq",
+   "en": "tropical fish",
+   "ru": "тропическая рыбка",
+   "category": "sea",
+   "tags": [
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "whale",
+   "emoji": "🐳",
+   "uz": "kit",
+   "en": "whale",
+   "ru": "кит",
+   "category": "sea",
+   "tags": [
+    "swims",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "dolphin",
+   "emoji": "🐬",
+   "uz": "delfin",
+   "en": "dolphin",
+   "ru": "дельфин",
+   "category": "sea",
+   "tags": [
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "shark",
+   "emoji": "🦈",
+   "uz": "akula",
+   "en": "shark",
+   "ru": "акула",
+   "category": "sea",
+   "tags": [
+    "swims",
+    "big",
+    "wild"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "octopus",
+   "emoji": "🐙",
+   "uz": "sakkizoyoq",
+   "en": "octopus",
+   "ru": "осьминог",
+   "category": "sea",
+   "tags": [
+    "swims"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "crab",
+   "emoji": "🦀",
+   "uz": "qisqichbaqa",
+   "en": "crab",
+   "ru": "краб",
+   "category": "sea",
+   "tags": [
+    "swims",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "car",
+   "emoji": "🚗",
+   "uz": "mashina",
+   "en": "car",
+   "ru": "машина",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "taxi",
+   "emoji": "🚕",
+   "uz": "taksi",
+   "en": "taxi",
+   "ru": "такси",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "bus",
+   "emoji": "🚌",
+   "uz": "avtobus",
+   "en": "bus",
+   "ru": "автобус",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "police_car",
+   "emoji": "🚓",
+   "uz": "politsiya mashinasi",
+   "en": "police car",
+   "ru": "полицейская машина",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 6,
+   "color": "blue"
+  },
+  {
+   "id": "ambulance",
+   "emoji": "🚑",
+   "uz": "tez yordam",
+   "en": "ambulance",
+   "ru": "скорая помощь",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "fire_engine",
+   "emoji": "🚒",
+   "uz": "o‘t o‘chirish mashinasi",
+   "en": "fire engine",
+   "ru": "пожарная машина",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "truck",
+   "emoji": "🚚",
+   "uz": "yuk mashinasi",
+   "en": "truck",
+   "ru": "грузовик",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "tractor",
+   "emoji": "🚜",
+   "uz": "traktor",
+   "en": "tractor",
+   "ru": "трактор",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "farm"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "bicycle",
+   "emoji": "🚲",
+   "uz": "velosiped",
+   "en": "bicycle",
+   "ru": "велосипед",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "scooter",
+   "emoji": "🛴",
+   "uz": "samokat",
+   "en": "scooter",
+   "ru": "самокат",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "toy"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "motorcycle",
+   "emoji": "🏍️",
+   "uz": "mototsikl",
+   "en": "motorcycle",
+   "ru": "мотоцикл",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "road"
+   ],
+   "ageMin": 6,
+   "color": "black"
+  },
+  {
+   "id": "airplane",
+   "emoji": "✈️",
+   "uz": "samolyot",
+   "en": "airplane",
+   "ru": "самолёт",
+   "category": "vehicle",
+   "tags": [
+    "flies",
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "helicopter",
+   "emoji": "🚁",
+   "uz": "vertolyot",
+   "en": "helicopter",
+   "ru": "вертолёт",
+   "category": "vehicle",
+   "tags": [
+    "flies",
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "rocket",
+   "emoji": "🚀",
+   "uz": "raketa",
+   "en": "rocket",
+   "ru": "ракета",
+   "category": "vehicle",
+   "tags": [
+    "flies",
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "boat",
+   "emoji": "⛵",
+   "uz": "qayiq",
+   "en": "sailboat",
+   "ru": "лодка",
+   "category": "vehicle",
+   "tags": [
+    "swims",
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "ship",
+   "emoji": "🚢",
+   "uz": "kema",
+   "en": "ship",
+   "ru": "корабль",
+   "category": "vehicle",
+   "tags": [
+    "swims",
+    "water",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "train",
+   "emoji": "🚂",
+   "uz": "poyezd",
+   "en": "train",
+   "ru": "поезд",
+   "category": "vehicle",
+   "tags": [
+    "wheels",
+    "rails",
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "tshirt",
+   "emoji": "👕",
+   "uz": "futbolka",
+   "en": "T-shirt",
+   "ru": "футболка",
+   "category": "clothes",
+   "tags": [
+    "body_top"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "jeans",
+   "emoji": "👖",
+   "uz": "shim",
+   "en": "trousers",
+   "ru": "брюки",
+   "category": "clothes",
+   "tags": [
+    "body_bottom"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "dress",
+   "emoji": "👗",
+   "uz": "ko‘ylak",
+   "en": "dress",
+   "ru": "платье",
+   "category": "clothes",
+   "tags": [
+    "body_top"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "coat",
+   "emoji": "🧥",
+   "uz": "palto",
+   "en": "coat",
+   "ru": "пальто",
+   "category": "clothes",
+   "tags": [
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "scarf",
+   "emoji": "🧣",
+   "uz": "sharf",
+   "en": "scarf",
+   "ru": "шарф",
+   "category": "clothes",
+   "tags": [
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "gloves",
+   "emoji": "🧤",
+   "uz": "qo‘lqop",
+   "en": "gloves",
+   "ru": "перчатки",
+   "category": "clothes",
+   "tags": [
+    "cold",
+    "pair"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "socks",
+   "emoji": "🧦",
+   "uz": "paypoq",
+   "en": "socks",
+   "ru": "носки",
+   "category": "clothes",
+   "tags": [
+    "pair"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "cap",
+   "emoji": "🧢",
+   "uz": "kepka",
+   "en": "cap",
+   "ru": "кепка",
+   "category": "clothes",
+   "tags": [
+    "head",
+    "sun"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "sneakers",
+   "emoji": "👟",
+   "uz": "krossovka",
+   "en": "sneakers",
+   "ru": "кроссовки",
+   "category": "clothes",
+   "tags": [
+    "pair",
+    "feet"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "shoe",
+   "emoji": "👞",
+   "uz": "tufli",
+   "en": "shoe",
+   "ru": "туфля",
+   "category": "clothes",
+   "tags": [
+    "pair",
+    "feet"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "boot",
+   "emoji": "👢",
+   "uz": "etik",
+   "en": "boot",
+   "ru": "сапог",
+   "category": "clothes",
+   "tags": [
+    "pair",
+    "feet",
+    "cold"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "hat",
+   "emoji": "👒",
+   "uz": "shlyapa",
+   "en": "hat",
+   "ru": "шляпа",
+   "category": "clothes",
+   "tags": [
+    "head",
+    "sun"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "glasses",
+   "emoji": "👓",
+   "uz": "ko‘zoynak",
+   "en": "glasses",
+   "ru": "очки",
+   "category": "clothes",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 6,
+   "color": "black"
+  },
+  {
+   "id": "sunglasses",
+   "emoji": "🕶️",
+   "uz": "quyosh ko‘zoynagi",
+   "en": "sunglasses",
+   "ru": "солнечные очки",
+   "category": "clothes",
+   "tags": [
+    "head",
+    "sun"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "ball",
+   "emoji": "⚽",
+   "uz": "to‘p",
+   "en": "ball",
+   "ru": "мяч",
+   "category": "toy",
+   "tags": [
+    "round",
+    "sport"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "basketball",
+   "emoji": "🏀",
+   "uz": "basketbol to‘pi",
+   "en": "basketball",
+   "ru": "баскетбольный мяч",
+   "category": "toy",
+   "tags": [
+    "round",
+    "sport"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "teddy",
+   "emoji": "🧸",
+   "uz": "ayiqcha",
+   "en": "teddy bear",
+   "ru": "мишка",
+   "category": "toy",
+   "tags": [
+    "soft"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "balloon",
+   "emoji": "🎈",
+   "uz": "havo shari",
+   "en": "balloon",
+   "ru": "шарик",
+   "category": "toy",
+   "tags": [
+    "round",
+    "flies"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "gift",
+   "emoji": "🎁",
+   "uz": "sovg‘a",
+   "en": "gift",
+   "ru": "подарок",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "dice",
+   "emoji": "🎲",
+   "uz": "o‘yin kubigi",
+   "en": "dice",
+   "ru": "кубик",
+   "category": "toy",
+   "tags": [
+    "square"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "puzzle_piece",
+   "emoji": "🧩",
+   "uz": "pazl",
+   "en": "puzzle",
+   "ru": "пазл",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "kite",
+   "emoji": "🪁",
+   "uz": "varrak",
+   "en": "kite",
+   "ru": "воздушный змей",
+   "category": "toy",
+   "tags": [
+    "flies"
+   ],
+   "ageMin": 99,
+   "color": "blue"
+  },
+  {
+   "id": "drum",
+   "emoji": "🥁",
+   "uz": "baraban",
+   "en": "drum",
+   "ru": "барабан",
+   "category": "toy",
+   "tags": [
+    "music",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "guitar",
+   "emoji": "🎸",
+   "uz": "gitara",
+   "en": "guitar",
+   "ru": "гитара",
+   "category": "toy",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 6,
+   "color": "orange"
+  },
+  {
+   "id": "robot",
+   "emoji": "🤖",
+   "uz": "robot",
+   "en": "robot",
+   "ru": "робот",
+   "category": "toy",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "car_toy",
+   "emoji": "🏎️",
+   "uz": "poyga mashinasi",
+   "en": "racing car",
+   "ru": "гоночная машина",
+   "category": "toy",
+   "tags": [
+    "wheels"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "palette",
+   "emoji": "🎨",
+   "uz": "bo‘yoq",
+   "en": "paints",
+   "ru": "краски",
+   "category": "toy",
+   "tags": [
+    "school"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "yarn",
+   "emoji": "🧶",
+   "uz": "ip",
+   "en": "yarn",
+   "ru": "пряжа",
+   "category": "toy",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "bread",
+   "emoji": "🍞",
+   "uz": "non",
+   "en": "bread",
+   "ru": "хлеб",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "cheese",
+   "emoji": "🧀",
+   "uz": "pishloq",
+   "en": "cheese",
+   "ru": "сыр",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "egg",
+   "emoji": "🥚",
+   "uz": "tuxum",
+   "en": "egg",
+   "ru": "яйцо",
+   "category": "food",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "milk",
+   "emoji": "🥛",
+   "uz": "sut",
+   "en": "milk",
+   "ru": "молоко",
+   "category": "food",
+   "tags": [
+    "drink"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "honey",
+   "emoji": "🍯",
+   "uz": "asal",
+   "en": "honey",
+   "ru": "мёд",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "cookie",
+   "emoji": "🍪",
+   "uz": "pechenye",
+   "en": "cookie",
+   "ru": "печенье",
+   "category": "food",
+   "tags": [
+    "sweet",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "cake",
+   "emoji": "🍰",
+   "uz": "tort",
+   "en": "cake",
+   "ru": "торт",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "candy",
+   "emoji": "🍬",
+   "uz": "konfet",
+   "en": "candy",
+   "ru": "конфета",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "lollipop",
+   "emoji": "🍭",
+   "uz": "ledenets",
+   "en": "lollipop",
+   "ru": "леденец",
+   "category": "food",
+   "tags": [
+    "sweet",
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "ice_cream",
+   "emoji": "🍦",
+   "uz": "muzqaymoq",
+   "en": "ice cream",
+   "ru": "мороженое",
+   "category": "food",
+   "tags": [
+    "sweet",
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "pizza",
+   "emoji": "🍕",
+   "uz": "pitsa",
+   "en": "pizza",
+   "ru": "пицца",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "rice",
+   "emoji": "🍚",
+   "uz": "guruch",
+   "en": "rice",
+   "ru": "рис",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "soup",
+   "emoji": "🍲",
+   "uz": "sho‘rva",
+   "en": "soup",
+   "ru": "суп",
+   "category": "food",
+   "tags": [
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "tea",
+   "emoji": "🍵",
+   "uz": "choy",
+   "en": "tea",
+   "ru": "чай",
+   "category": "food",
+   "tags": [
+    "drink",
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "juice",
+   "emoji": "🧃",
+   "uz": "sharbat",
+   "en": "juice",
+   "ru": "сок",
+   "category": "food",
+   "tags": [
+    "drink"
+   ],
+   "ageMin": 99,
+   "color": "orange"
+  },
+  {
+   "id": "dumpling",
+   "emoji": "🥟",
+   "uz": "chuchvara",
+   "en": "dumpling",
+   "ru": "пельмень",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "bone",
+   "emoji": "🦴",
+   "uz": "suyak",
+   "en": "bone",
+   "ru": "кость",
+   "category": "food",
+   "tags": [],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "chocolate",
+   "emoji": "🍫",
+   "uz": "shokolad",
+   "en": "chocolate",
+   "ru": "шоколад",
+   "category": "food",
+   "tags": [
+    "sweet"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "house",
+   "emoji": "🏠",
+   "uz": "uy",
+   "en": "house",
+   "ru": "дом",
+   "category": "home",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "door",
+   "emoji": "🚪",
+   "uz": "eshik",
+   "en": "door",
+   "ru": "дверь",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "bed",
+   "emoji": "🛏️",
+   "uz": "karavot",
+   "en": "bed",
+   "ru": "кровать",
+   "category": "home",
+   "tags": [
+    "furniture"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "chair",
+   "emoji": "🪑",
+   "uz": "stul",
+   "en": "chair",
+   "ru": "стул",
+   "category": "home",
+   "tags": [
+    "furniture"
+   ],
+   "ageMin": 99,
+   "color": "brown"
+  },
+  {
+   "id": "bathtub",
+   "emoji": "🛁",
+   "uz": "vanna",
+   "en": "bathtub",
+   "ru": "ванна",
+   "category": "home",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "key",
+   "emoji": "🔑",
+   "uz": "kalit",
+   "en": "key",
+   "ru": "ключ",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "lock",
+   "emoji": "🔒",
+   "uz": "qulf",
+   "en": "lock",
+   "ru": "замок",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "lamp",
+   "emoji": "💡",
+   "uz": "lampochka",
+   "en": "light bulb",
+   "ru": "лампочка",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "clock",
+   "emoji": "⏰",
+   "uz": "soat",
+   "en": "clock",
+   "ru": "часы",
+   "category": "home",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "tv",
+   "emoji": "📺",
+   "uz": "televizor",
+   "en": "TV",
+   "ru": "телевизор",
+   "category": "home",
+   "tags": [
+    "square"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "phone",
+   "emoji": "📱",
+   "uz": "telefon",
+   "en": "phone",
+   "ru": "телефон",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "broom",
+   "emoji": "🧹",
+   "uz": "supurgi",
+   "en": "broom",
+   "ru": "метла",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "basket",
+   "emoji": "🧺",
+   "uz": "savat",
+   "en": "basket",
+   "ru": "корзина",
+   "category": "home",
+   "tags": [],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "scissors",
+   "emoji": "✂️",
+   "uz": "qaychi",
+   "en": "scissors",
+   "ru": "ножницы",
+   "category": "school",
+   "tags": [],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "spoon",
+   "emoji": "🥄",
+   "uz": "qoshiq",
+   "en": "spoon",
+   "ru": "ложка",
+   "category": "home",
+   "tags": [
+    "kitchen"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "cup",
+   "emoji": "☕",
+   "uz": "piyola",
+   "en": "cup",
+   "ru": "чашка",
+   "category": "home",
+   "tags": [
+    "kitchen",
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "umbrella",
+   "emoji": "☂️",
+   "uz": "soyabon",
+   "en": "umbrella",
+   "ru": "зонт",
+   "category": "home",
+   "tags": [
+    "rain"
+   ],
+   "ageMin": 4,
+   "color": "purple"
+  },
+  {
+   "id": "soap",
+   "emoji": "🧼",
+   "uz": "sovun",
+   "en": "soap",
+   "ru": "мыло",
+   "category": "home",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 99,
+   "color": "pink"
+  },
+  {
+   "id": "toothbrush",
+   "emoji": "🪥",
+   "uz": "tish cho‘tkasi",
+   "en": "toothbrush",
+   "ru": "зубная щётка",
+   "category": "home",
+   "tags": [],
+   "ageMin": 99,
+   "color": "blue"
+  },
+  {
+   "id": "candle",
+   "emoji": "🕯️",
+   "uz": "sham",
+   "en": "candle",
+   "ru": "свеча",
+   "category": "home",
+   "tags": [],
+   "ageMin": 6,
+   "color": "white"
+  },
+  {
+   "id": "hammer",
+   "emoji": "🔨",
+   "uz": "bolg‘a",
+   "en": "hammer",
+   "ru": "молоток",
+   "category": "home",
+   "tags": [
+    "tool"
+   ],
+   "ageMin": 6,
+   "color": "brown"
+  },
+  {
+   "id": "pencil",
+   "emoji": "✏️",
+   "uz": "qalam",
+   "en": "pencil",
+   "ru": "карандаш",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "pen",
+   "emoji": "🖊️",
+   "uz": "ruchka",
+   "en": "pen",
+   "ru": "ручка",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "book",
+   "emoji": "📖",
+   "uz": "kitob",
+   "en": "book",
+   "ru": "книга",
+   "category": "school",
+   "tags": [
+    "read"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "books",
+   "emoji": "📚",
+   "uz": "kitoblar",
+   "en": "books",
+   "ru": "книги",
+   "category": "school",
+   "tags": [
+    "read"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "backpack",
+   "emoji": "🎒",
+   "uz": "ryukzak",
+   "en": "backpack",
+   "ru": "рюкзак",
+   "category": "school",
+   "tags": [],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "notebook",
+   "emoji": "📓",
+   "uz": "daftar",
+   "en": "notebook",
+   "ru": "тетрадь",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "black"
+  },
+  {
+   "id": "ruler",
+   "emoji": "📏",
+   "uz": "chizg‘ich",
+   "en": "ruler",
+   "ru": "линейка",
+   "category": "school",
+   "tags": [],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "crayon",
+   "emoji": "🖍️",
+   "uz": "rangli qalam",
+   "en": "crayon",
+   "ru": "мелок",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "paper",
+   "emoji": "📄",
+   "uz": "qog‘oz",
+   "en": "paper",
+   "ru": "бумага",
+   "category": "school",
+   "tags": [
+    "write"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "school",
+   "emoji": "🏫",
+   "uz": "maktab",
+   "en": "school",
+   "ru": "школа",
+   "category": "school",
+   "tags": [
+    "building"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "bell",
+   "emoji": "🔔",
+   "uz": "qo‘ng‘iroq",
+   "en": "bell",
+   "ru": "звонок",
+   "category": "school",
+   "tags": [
+    "music"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "globe",
+   "emoji": "🌍",
+   "uz": "globus",
+   "en": "globe",
+   "ru": "глобус",
+   "category": "school",
+   "tags": [
+    "round"
+   ],
+   "ageMin": 6,
+   "color": "blue"
+  },
+  {
+   "id": "sun",
+   "emoji": "☀️",
+   "uz": "quyosh",
+   "en": "sun",
+   "ru": "солнце",
+   "category": "nature",
+   "tags": [
+    "sky",
+    "round",
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "moon",
+   "emoji": "🌙",
+   "uz": "oy",
+   "en": "moon",
+   "ru": "луна",
+   "category": "nature",
+   "tags": [
+    "sky",
+    "night"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "star",
+   "emoji": "⭐",
+   "uz": "yulduz",
+   "en": "star",
+   "ru": "звезда",
+   "category": "nature",
+   "tags": [
+    "sky",
+    "night"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "cloud",
+   "emoji": "☁️",
+   "uz": "bulut",
+   "en": "cloud",
+   "ru": "облако",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "rain",
+   "emoji": "🌧️",
+   "uz": "yomg‘ir",
+   "en": "rain",
+   "ru": "дождь",
+   "category": "nature",
+   "tags": [
+    "sky",
+    "water",
+    "rain"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "snowflake",
+   "emoji": "❄️",
+   "uz": "qor",
+   "en": "snow",
+   "ru": "снег",
+   "category": "nature",
+   "tags": [
+    "cold",
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "snowman",
+   "emoji": "⛄",
+   "uz": "qor odam",
+   "en": "snowman",
+   "ru": "снеговик",
+   "category": "nature",
+   "tags": [
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "rainbow",
+   "emoji": "🌈",
+   "uz": "kamalak",
+   "en": "rainbow",
+   "ru": "радуга",
+   "category": "nature",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "tree",
+   "emoji": "🌳",
+   "uz": "daraxt",
+   "en": "tree",
+   "ru": "дерево",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "forest"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "fir",
+   "emoji": "🌲",
+   "uz": "archa",
+   "en": "fir tree",
+   "ru": "ёлка",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "forest",
+    "cold"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "cactus",
+   "emoji": "🌵",
+   "uz": "kaktus",
+   "en": "cactus",
+   "ru": "кактус",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "desert"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "palm",
+   "emoji": "🌴",
+   "uz": "palma",
+   "en": "palm tree",
+   "ru": "пальма",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "flower",
+   "emoji": "🌸",
+   "uz": "gul",
+   "en": "flower",
+   "ru": "цветок",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "sunflower",
+   "emoji": "🌻",
+   "uz": "kungaboqar",
+   "en": "sunflower",
+   "ru": "подсолнух",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "tulip",
+   "emoji": "🌷",
+   "uz": "lola",
+   "en": "tulip",
+   "ru": "тюльпан",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "rose",
+   "emoji": "🌹",
+   "uz": "atirgul",
+   "en": "rose",
+   "ru": "роза",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "leaf",
+   "emoji": "🍁",
+   "uz": "barg",
+   "en": "leaf",
+   "ru": "лист",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "autumn"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "seedling",
+   "emoji": "🌱",
+   "uz": "nihol",
+   "en": "sprout",
+   "ru": "росток",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "small"
+   ],
+   "ageMin": 4,
+   "color": "green"
+  },
+  {
+   "id": "mountain",
+   "emoji": "⛰️",
+   "uz": "tog‘",
+   "en": "mountain",
+   "ru": "гора",
+   "category": "nature",
+   "tags": [
+    "big"
+   ],
+   "ageMin": 4,
+   "color": "brown"
+  },
+  {
+   "id": "wave",
+   "emoji": "🌊",
+   "uz": "dengiz",
+   "en": "sea",
+   "ru": "море",
+   "category": "nature",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "fire",
+   "emoji": "🔥",
+   "uz": "olov",
+   "en": "fire",
+   "ru": "огонь",
+   "category": "nature",
+   "tags": [
+    "hot"
+   ],
+   "ageMin": 4,
+   "color": "orange"
+  },
+  {
+   "id": "droplet",
+   "emoji": "💧",
+   "uz": "tomchi",
+   "en": "drop",
+   "ru": "капля",
+   "category": "nature",
+   "tags": [
+    "water"
+   ],
+   "ageMin": 4,
+   "color": "blue"
+  },
+  {
+   "id": "desert",
+   "emoji": "🏜️",
+   "uz": "cho‘l",
+   "en": "desert",
+   "ru": "пустыня",
+   "category": "nature",
+   "tags": [
+    "hot",
+    "desert"
+   ],
+   "ageMin": 6,
+   "color": "yellow"
+  },
+  {
+   "id": "field",
+   "emoji": "🌾",
+   "uz": "bug‘doy",
+   "en": "wheat",
+   "ru": "пшеница",
+   "category": "nature",
+   "tags": [
+    "plant",
+    "farm"
+   ],
+   "ageMin": 4,
+   "color": "yellow"
+  },
+  {
+   "id": "volcano",
+   "emoji": "🌋",
+   "uz": "vulqon",
+   "en": "volcano",
+   "ru": "вулкан",
+   "category": "nature",
+   "tags": [
+    "hot"
+   ],
+   "ageMin": 6,
+   "color": "red"
+  },
+  {
+   "id": "bamboo",
+   "emoji": "🎋",
+   "uz": "bambuk",
+   "en": "bamboo",
+   "ru": "бамбук",
+   "category": "nature",
+   "tags": [
+    "plant"
+   ],
+   "ageMin": 6,
+   "color": "green"
+  },
+  {
+   "id": "eye",
+   "emoji": "👁️",
+   "uz": "ko‘z",
+   "en": "eye",
+   "ru": "глаз",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "ear",
+   "emoji": "👂",
+   "uz": "quloq",
+   "en": "ear",
+   "ru": "ухо",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "nose",
+   "emoji": "👃",
+   "uz": "burun",
+   "en": "nose",
+   "ru": "нос",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "mouth",
+   "emoji": "👄",
+   "uz": "og‘iz",
+   "en": "mouth",
+   "ru": "рот",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4,
+   "color": "red"
+  },
+  {
+   "id": "tongue",
+   "emoji": "👅",
+   "uz": "til",
+   "en": "tongue",
+   "ru": "язык",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4,
+   "color": "pink"
+  },
+  {
+   "id": "hand",
+   "emoji": "✋",
+   "uz": "qo‘l",
+   "en": "hand",
+   "ru": "рука",
+   "category": "body",
+   "tags": [
+    "limb"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "foot",
+   "emoji": "🦶",
+   "uz": "oyoq",
+   "en": "foot",
+   "ru": "нога",
+   "category": "body",
+   "tags": [
+    "limb"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "leg",
+   "emoji": "🦵",
+   "uz": "son",
+   "en": "leg",
+   "ru": "нога",
+   "category": "body",
+   "tags": [
+    "limb"
+   ],
+   "ageMin": 99
+  },
+  {
+   "id": "tooth",
+   "emoji": "🦷",
+   "uz": "tish",
+   "en": "tooth",
+   "ru": "зуб",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 4,
+   "color": "white"
+  },
+  {
+   "id": "brain",
+   "emoji": "🧠",
+   "uz": "miya",
+   "en": "brain",
+   "ru": "мозг",
+   "category": "body",
+   "tags": [
+    "head"
+   ],
+   "ageMin": 6,
+   "color": "pink"
+  },
+  {
+   "id": "muscle",
+   "emoji": "💪",
+   "uz": "mushak",
+   "en": "muscle",
+   "ru": "мышца",
+   "category": "body",
+   "tags": [
+    "limb"
+   ],
+   "ageMin": 6
+  },
+  {
+   "id": "mother",
+   "emoji": "👩",
+   "uz": "ona",
+   "en": "mother",
+   "ru": "мама",
+   "category": "family",
+   "tags": [
+    "woman"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "father",
+   "emoji": "👨",
+   "uz": "ota",
+   "en": "father",
+   "ru": "папа",
+   "category": "family",
+   "tags": [
+    "man"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "girl",
+   "emoji": "👧",
+   "uz": "qiz",
+   "en": "girl",
+   "ru": "девочка",
+   "category": "family",
+   "tags": [
+    "child"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "boy",
+   "emoji": "👦",
+   "uz": "o‘g‘il bola",
+   "en": "boy",
+   "ru": "мальчик",
+   "category": "family",
+   "tags": [
+    "child"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "baby",
+   "emoji": "👶",
+   "uz": "chaqaloq",
+   "en": "baby",
+   "ru": "малыш",
+   "category": "family",
+   "tags": [
+    "child",
+    "small"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "grandmother",
+   "emoji": "👵",
+   "uz": "buvi",
+   "en": "grandmother",
+   "ru": "бабушка",
+   "category": "family",
+   "tags": [
+    "woman",
+    "old"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "grandfather",
+   "emoji": "👴",
+   "uz": "bobo",
+   "en": "grandfather",
+   "ru": "дедушка",
+   "category": "family",
+   "tags": [
+    "man",
+    "old"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "doctor",
+   "emoji": "👨‍⚕️",
+   "uz": "shifokor",
+   "en": "doctor",
+   "ru": "врач",
+   "category": "profession",
+   "tags": [],
+   "ageMin": 4
+  },
+  {
+   "id": "teacher",
+   "emoji": "👩‍🏫",
+   "uz": "o‘qituvchi",
+   "en": "teacher",
+   "ru": "учитель",
+   "category": "profession",
+   "tags": [
+    "school"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "cook",
+   "emoji": "👨‍🍳",
+   "uz": "oshpaz",
+   "en": "cook",
+   "ru": "повар",
+   "category": "profession",
+   "tags": [
+    "kitchen"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "farmer",
+   "emoji": "👨‍🌾",
+   "uz": "dehqon",
+   "en": "farmer",
+   "ru": "фермер",
+   "category": "profession",
+   "tags": [
+    "farm"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "firefighter",
+   "emoji": "👨‍🚒",
+   "uz": "o‘t o‘chiruvchi",
+   "en": "firefighter",
+   "ru": "пожарный",
+   "category": "profession",
+   "tags": [],
+   "ageMin": 4
+  },
+  {
+   "id": "police",
+   "emoji": "👮",
+   "uz": "politsiyachi",
+   "en": "police officer",
+   "ru": "полицейский",
+   "category": "profession",
+   "tags": [],
+   "ageMin": 4
+  },
+  {
+   "id": "pilot",
+   "emoji": "👨‍✈️",
+   "uz": "uchuvchi",
+   "en": "pilot",
+   "ru": "пилот",
+   "category": "profession",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "builder",
+   "emoji": "👷",
+   "uz": "quruvchi",
+   "en": "builder",
+   "ru": "строитель",
+   "category": "profession",
+   "tags": [
+    "tool"
+   ],
+   "ageMin": 4
+  },
+  {
+   "id": "artist",
+   "emoji": "👨‍🎨",
+   "uz": "rassom",
+   "en": "artist",
+   "ru": "художник",
+   "category": "profession",
+   "tags": [],
+   "ageMin": 6
+  },
+  {
+   "id": "astronaut",
+   "emoji": "👨‍🚀",
+   "uz": "kosmonavt",
+   "en": "astronaut",
+   "ru": "космонавт",
+   "category": "profession",
+   "tags": [
+    "sky"
+   ],
+   "ageMin": 6
+  }
+ ]
+}

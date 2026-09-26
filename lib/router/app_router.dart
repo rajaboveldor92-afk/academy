@@ -4,6 +4,7 @@ import '../features/home/achievements_screen.dart';
 import '../features/home/home_screen.dart';
 import '../features/home/subject_screen.dart';
 import '../features/home/time_up_screen.dart';
+import '../features/lesson/lesson_screen.dart';
 import '../features/parent/change_pin_screen.dart';
 import '../features/parent/child_settings_screen.dart';
 import '../features/parent/parent_gate_screen.dart';
@@ -23,6 +24,7 @@ class AppRoutes {
   static const String profileEditor = '/profile-editor';
   static const String home = '/home';
   static const String subject = '/subject';
+  static const String lesson = '/lesson';
   static const String achievements = '/achievements';
   static const String timeUp = '/time-up';
   static const String parentGate = '/parent-gate';
@@ -48,6 +50,8 @@ class AppRouter {
         page = const HomeScreen();
       case AppRoutes.subject:
         page = SubjectScreen(subject: args is Subject ? args : Subject.math);
+      case AppRoutes.lesson:
+        page = LessonScreen(topicId: args is String ? args : '');
       case AppRoutes.achievements:
         page = const AchievementsScreen();
       case AppRoutes.timeUp:
