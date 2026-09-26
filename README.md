@@ -5,19 +5,44 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 
 > Arxitektura, ma'lumotlar modeli va navigatsiya sxemasi: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 
-## Holat (bosqichlar)
+## Holat (kontent bosqichlari)
 
-| Phase | Tarkib | Holat |
+| Bosqich | Tarkib | Holat |
 |---|---|---|
-| 1 | Loyiha, theme, navigatsiya, profillar, lokal baza, bosh ekran, ota-ona PIN, vaqt limiti | ✅ kod tayyor |
-| 2 | Matematika (+generator), Mantiq, Progress/adaptiv daraja | ⏳ |
-| 3 | O'zbek tili, English, Русский, 3 tilda, audio | ⏳ |
-| 4 | Shaxmat | ⏳ |
-| 5 | Xotira, Diqqat, Puzzle | ⏳ |
-| 6 | Medallar, adaptive learning, to'liq dashboard, backup UI | ⏳ |
-| 7 | Optimizatsiya, release | ⏳ |
+| Ilova asosi | Profillar (rasm, to‘liq ism, mavzu), lokal baza, vaqt limiti, ota-ona PIN va panel | ✅ |
+| CONTENT 1 | Muhammadjon (4): Matematika M1–M15, Mantiq L1–L15 | ✅ |
+| CONTENT 2 | Azamjon (6): Matematika M1–M20, Mantiq L1–L15 | ✅ |
+| CONTENT 3 | O‘zbek tili + ✏️ Yozishni o‘rganaman | ⏳ |
+| CONTENT 4–5 | English, Русский, 🇺🇿🇬🇧🇷🇺 Uch tilda | ⏳ |
+| CONTENT 6 | Shaxmat | ⏳ |
+| CONTENT 7 | Xotira, Diqqat, Puzzle, Labirint, Motorika | ⏳ |
+| CONTENT 8 | ▶ Bugungi darsim, spaced repetition | ⏳ |
+| CONTENT 9–10 | To‘liq ota-ona paneli, QA, release | ⏳ |
 
-Hozirgi APK'da profil, bosh sahifa, yutuqlar, ota-ona bo'limi (statistika, limit, fanlarni yopish, qiyinlik, PIN) ishlaydi; fan kartalari "Tez orada" ekranini ochadi.
+## O‘quv dvigateli
+
+```
+assets/data/lexicon.json        uch tilli lug‘at (ID orqali bog‘langan uz/en/ru, emoji, kategoriya, teglar)
+assets/data/instructions.json   ko‘rsatmalar banki (uz/en/ru, {o‘rinbosar}, {so‘z:ga} qo‘shimchasi)
+assets/data/logic_data.json     analogiya, juftlar, yashash joylari, figuralar (original)
+assets/data/<fan>_<4|6>.json    o‘quv dasturi: mavzu → 3 daraja → generator parametrlari
+lib/learning/generators/        parametrik generatorlar (math_junior, logic_junior, math_senior, logic_senior)
+lib/learning/engine/            LessonBuilder (takrorlanmaslik), AdaptiveRule (≥85 ↑, 60–84 =, <60 ↓), mastery
+lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruhlash, xotira, labirint, sudoku, kodlash
+```
+
+* Savollar dinamik yaratiladi: har bir mavzu × daraja uchun o‘nlab–yuzlab original variant.
+* Ovoz: ko‘rsatma o‘zbekcha, sonlar so‘z bilan aytiladi (TTS raqamni boshqa tilda o‘qimasligi uchun).
+* Bola ekranida foiz yo‘q — faqat yulduzlar; foizlar (mastery) faqat ota-ona panelida.
+* Tahrirlash manbalari: `tool/content/*.py` → `python3 tool/content/<fayl>.py` JSON’ni qayta yaratadi.
+
+### Kontentni avtomatik tekshirish
+
+`flutter test test/content` har bir mavzu va daraja uchun 120 tadan mashq yaratib tekshiradi:
+dublikat ID, bo‘sh savol/variant, to‘g‘ri javob variantlar ichida va yagona, matematik to‘g‘rilik
+(qo‘shish, ayirish, taqqoslash, ketma-ketlik, pul, soat), yoshga moslik (4 yosh ≤ 10, 6 yosh ≤ 100),
+Android 9 da ko‘rinmaydigan emoji, uch til tarjimalarining to‘liqligi va o‘rinbosarlar mosligi,
+sudoku/labirint/kodlash yechimi borligi, har darajada ≥ 15 xil savol va umumiy hajm (29-band).
 
 ## Talablar
 
