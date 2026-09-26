@@ -86,6 +86,9 @@ void main() {
     expect(find.text('PIN kodni kiriting'), findsOneWidget);
     await enterPin(tester, '1234');
     expect(find.byKey(const Key('full_name_field')), findsOneWidget);
+    // Qisqa ism maydoni pastroqda — ro'yxatni aylantirib ko'ramiz.
+    await tester.drag(find.byType(ListView), const Offset(0, -300));
+    await tester.pumpAndSettle();
     expect(find.byKey(const Key('name_field')), findsOneWidget);
     expect(find.byKey(const Key('age_4')), findsOneWidget);
   });
