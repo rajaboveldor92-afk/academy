@@ -53,6 +53,7 @@ void main() {
       e.previewVisual?.describe() ?? '',
       e.assemble?.describe() ?? '',
       e.trace?.describe() ?? '',
+      e.chess?.describe() ?? '',
     ].join('#');
   }
 

@@ -256,8 +256,10 @@ class ChessGenerators {
         final extra = g.p('extraBlack', 0);
         final pieces = _place(g, size, ['w$type', victim, ...List.filled(extra, 'bP')]);
         final pos = ChessPosition(size, pieces);
-        final caps = ChessRules.legalMoves(pos, 'w').where((m) => m.isCapture).toList();
-        if (caps.length != 1) return null;
+        final legal = ChessRules.legalMoves(pos, 'w');
+        final caps = legal.where((m) => m.isCapture).toList();
+        // Bitta olish va kamida ikkita boshqa yurish — tanlash kerak bo'lsin.
+        if (caps.length != 1 || legal.length - caps.length < 2) return null;
         return ChessTask(size: size, goal: 'capture', pieces: pieces, target: caps.first.to, coords: coords);
       case 'safe_capture':
         final hero = g.pick(const ['wQ', 'wR', 'wB', 'wN']);
