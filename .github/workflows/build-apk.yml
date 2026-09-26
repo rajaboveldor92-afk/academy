@@ -6,10 +6,17 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
 
@@ -27,20 +34,66 @@ jobs:
         run: flutter --version
 
       - name: Android platformasini tayyorlash
-        run: bash tool/setup_android.sh
+        run: |
+          set -o pipefail
+          bash tool/setup_android.sh 2>&1 | tee setup.log
 
       - name: Statik tahlil
-        run: flutter analyze --no-fatal-infos
+        run: |
+          set -o pipefail
+          flutter analyze --no-fatal-infos 2>&1 | tee analyze.log
 
       - name: Testlar
-        run: flutter test
+        run: |
+          set -o pipefail
+          flutter test --reporter expanded --no-color 2>&1 | tee test.log
 
       - name: Release APK
-        run: flutter build apk --release
+        run: |
+          set -o pipefail
+          flutter build apk --release 2>&1 | tee build.log
 
-      - name: APKni yuklab olish uchun saqlash
+      - name: APKni Actions'ga saqlash
         uses: actions/upload-artifact@v4
         with:
           name: app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
+
+      # APK "latest-build" release sahifasida ham turadi — telefondan yuklab olish oson.
+      - name: APKni Release'ga joylash
+        if: success() && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk academy-app-release.apk
+          gh release delete latest-build --yes --cleanup-tag || true
+          gh release create latest-build academy-app-release.apk \
+            --title "Academy — oxirgi build" \
+            --notes "Commit: ${GITHUB_SHA}. Telefonga o'rnatish: faylni yuklab oling va oching."
+
+      # Xato bo'lsa, qisqa hisobot Issue sifatida yoziladi.
+      - name: Xato hisoboti
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo "Commit: ${GITHUB_SHA}"
+            for f in setup.log analyze.log test.log build.log; do
+              [ -f "$f" ] || continue
+              echo
+              echo "### $f"
+              echo '```'
+              if [ "$f" = "test.log" ]; then
+                grep -n -B3 -A45 -E '\[E\]|EXCEPTION CAUGHT|Expected:|Error:|error:' "$f" | head -c 30000
+                echo '...'
+                tail -n 15 "$f"
+              else
+                tail -n 120 "$f" | tail -c 12000
+              fi
+              echo '```'
+            done
+          } > report.md
+          gh issue create --title "Build xatosi #${GITHUB_RUN_NUMBER}" --body-file report.md
