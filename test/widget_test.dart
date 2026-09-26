@@ -66,10 +66,11 @@ void main() {
 
     await enterPin(tester, '1111');
     expect(find.text("PIN noto'g'ri"), findsOneWidget);
-    expect(find.text('Sozlamalar'), findsNothing);
+    expect(find.text('Bolalar'), findsNothing);
 
     await enterPin(tester, '1234');
-    expect(find.text('Sozlamalar'), findsOneWidget);
+    // Ota-ona bo'limining yuqori qismi (ro'yxat pastki qismi ekrandan tashqarida bo'lishi mumkin).
+    expect(find.text('Bolalar'), findsOneWidget);
     expect(find.text('Azamjon'), findsOneWidget);
   });
 
