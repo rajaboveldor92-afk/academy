@@ -243,7 +243,7 @@ void main() {
 
   testWidgets('kodlash: to‘g‘ri dastur robotni maqsadga olib boradi',
       (tester) async {
-    final e = make('logic6.coding', 3);
+    final e = make('logic8.coding', 3);
     expect(e.kind, ExerciseKind.coding);
     final solution = PuzzleFactory.solveCoding(e.coding!)!;
     int? solved;
