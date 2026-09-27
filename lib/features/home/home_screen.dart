@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../learning/engine/daily_planner.dart';
+import '../../learning/engine/rewards.dart';
 import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
@@ -52,6 +54,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     Navigator.of(context).pushNamed(AppRoutes.subject, arguments: subject);
   }
 
+  void _openDailyLesson() {
+    ref.read(audioServiceProvider).speak('Bugungi darsim');
+    Navigator.of(context).pushNamed(AppRoutes.dailyLesson);
+  }
+
   void _openAchievements() {
     ref.read(audioServiceProvider).speak('Yutuqlarim');
     Navigator.of(context).pushNamed(AppRoutes.achievements);
@@ -85,6 +92,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               streak: progress.streak,
             ),
             GreetingBanner(profile: profile),
+            _DailyLessonCard(
+              done: progress.dailyDoneOn(ref.read(clockProvider)()),
+              junior: profile.ageGroup.isJunior,
+              exercises: DailyPlanner.sizeFor(profile.age),
+              color: AppColors.profileColor(profile.colorIndex),
+              onTap: _openDailyLesson,
+            ),
             Expanded(
               child: GridView.builder(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
@@ -102,6 +116,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       title: 'Yutuqlarim',
                       color: AppColors.star,
                       compactLabel: profile.ageGroup.isJunior,
+                      // Ochilmagan sovg'a qutisi bo'lsa — belgi.
+                      badge: Rewards.giftsAvailable(progress) > 0 ? '🎁' : null,
                       onTap: _openAchievements,
                     );
                   }
@@ -174,6 +190,82 @@ class _Header extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// "▶ BUGUNGI DARSim" — har kuni fanlar aralash qisqa dars (takrorlash bilan).
+class _DailyLessonCard extends StatelessWidget {
+  const _DailyLessonCard({
+    required this.done,
+    required this.junior,
+    required this.exercises,
+    required this.color,
+    required this.onTap,
+  });
+
+  final bool done;
+  final bool junior;
+  final int exercises;
+  final Color color;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final subtitle = done
+        ? 'Bugun bajarding! Yana bir marta?'
+        : (junior ? '$exercises ta qiziqarli mashq' : '$exercises ta mashq · 10–20 daqiqa');
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+      child: Material(
+        color: done ? Colors.white : color,
+        borderRadius: BorderRadius.circular(28),
+        elevation: done ? 0 : 4,
+        shadowColor: color.withAlpha(90),
+        child: InkWell(
+          key: const Key('daily_lesson_button'),
+          borderRadius: BorderRadius.circular(28),
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(28),
+              border: done ? Border.all(color: color.withAlpha(120), width: 3) : null,
+            ),
+            child: Row(
+              children: [
+                Text(done ? '✅' : '▶️', style: const TextStyle(fontSize: 40)),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'BUGUNGI DARSim',
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w900,
+                          color: done ? AppColors.text : Colors.white,
+                        ),
+                      ),
+                      Text(
+                        subtitle,
+                        key: const Key('daily_lesson_subtitle'),
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w700,
+                          color: done ? AppColors.textSoft : Colors.white.withAlpha(230),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Icon(Icons.play_circle_fill_rounded, size: 44, color: done ? color : Colors.white),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

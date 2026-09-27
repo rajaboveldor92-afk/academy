@@ -16,7 +16,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 4–5 | English (4 yosh: 17 mavzu, 6 yosh: E1–E21), Русский (4 yosh: 17, 6 yosh: R1–R15), 🍎 3 tilda (300+ tushuncha) | ✅ |
 | CONTENT 6 | ♟ Shaxmat: 4 yosh 12 qadam (doska, figuralar 3 tilda, yurishlar), 6 yosh 20 qadam (koordinatalar, olish, shax, mat, AI bilan mini-o‘yinlar) | ✅ |
 | CONTENT 7 | 🧠 Xotira (juft kartalar, ketma-ketlik, nima o‘zgardi…), 🎯 Diqqat (rasmdan topish, farqni top, labirint), 🧩 Puzzle (4–25 bo‘lak), ✋ Motorika, 🤝 Muloqot (hislar, sehrli so‘zlar, xavfsizlik), 🏠 Ota-ona bilan (41 ta Montessori faoliyati) | ✅ |
-| CONTENT 8 | ▶ Bugungi darsim, spaced repetition | ⏳ |
+| CONTENT 8 | ▶ Bugungi darsim (fanlar aralash kunlik dars), takrorlash (shu dars → ertaga → 3 kun → 7 kun), 🌳 bog‘, 🎁 sovg‘a qutisi va kolleksiya, 🏅 24 medal, 🏆 fan kuboklari | ✅ |
 | CONTENT 9–10 | To‘liq ota-ona paneli, QA, release | ⏳ |
 
 ## O‘quv dvigateli
@@ -34,7 +34,8 @@ assets/data/languages.json      ingliz/rus alifbolari, harakatlar, sifatlar (rus
 assets/data/<fan>_<4|6>.json    o‘quv dasturi: mavzu → 3 daraja → generator parametrlari
 lib/learning/generators/        parametrik generatorlar (math, logic, uzbek — junior/senior, writing)
 lib/learning/chess/             shaxmat qoidalari (n×n doska, shax, mat), masala tekshiruvi, juda oson/oson AI
-lib/learning/engine/            LessonBuilder (takrorlanmaslik), AdaptiveRule (≥85 ↑, 60–84 =, <60 ↓), mastery
+lib/learning/engine/            LessonBuilder (takrorlanmaslik), AdaptiveRule (≥85 ↑, 60–84 =, <60 ↓), mastery,
+                                DailyPlanner (kunlik dars), SpacedRepetition (takrorlash navbati), Rewards (yutuqlar)
 lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruhlash, xotira, labirint, sudoku, kodlash,
                                 bo‘laklardan yig‘ish (harf→so‘z, bo‘g‘in→so‘z, so‘z→gap), barmoq bilan yozish
 ```
@@ -45,6 +46,20 @@ lib/learning/ui/                mashq turlari: tanlash, sudrash, juftlash, guruh
   ko‘rsatiladi; ostida o‘zbekcha umumiy yordamchi matn (javobni oshkor qilmaydi).
   "3 tilda" o‘yinlarida har bir so‘z o‘z tilida ketma-ket aytiladi: 🔊 Olma → 🔊 Яблоко → 🔊 Apple.
 * Bola ekranida foiz yo‘q — faqat yulduzlar; foizlar (mastery) faqat ota-ona panelida.
+
+### ▶ Bugungi darsim va takrorlash
+
+* **Kunlik dars** (bosh sahifadagi katta tugma): 4 yosh — 6 ta mashq (5–10 daqiqa), 6 yosh — 10 ta
+  (10–20 daqiqa). Har kuni boshqa fandan boshlanadi; har fandan bola hozir o‘rganayotgan mavzu
+  (hali egallanmagan, oldingi mavzulari boshlangan, eng uzoq mashq qilinmagani) olinadi.
+  Ota-ona o‘chirgan fanlar kirmaydi; uzoq faoliyatlar (AI bilan partiya, puzzle, ekrandan tashqari ish) kirmaydi.
+* **Takrorlash (spaced repetition)**: xato qilingan tushuncha shu darsning o‘zida 2–3 mashqdan keyin boshqa
+  ko‘rinishda qayta so‘raladi (darsda ko‘pi bilan 2 marta), so‘ng ertaga → 3 kundan keyin → 7 kundan keyin
+  kunlik darsga qo‘shiladi (darsning uchdan biridan oshmaydi). Takrorlashda xato — yana ertadan boshlanadi.
+* **Yutuqlar** (faqat bolaning o‘zi bilan, boshqa bola bilan solishtirilmaydi; real pul va tasodifiy
+  “loot box” yo‘q): ⭐ yulduzlar, 🔥 ketma-ket kunlar, 🌳 har 2 darsda yangi niholcha o‘sadigan bog‘,
+  🎁 har 30 yulduzga sovg‘a qutisi (36 ta kolleksiya doim bir xil tartibda ochiladi), 🏅 24 ta medal
+  (qanday olinishi yozilgan), 🏆 har fan bo‘yicha bronza/kumush/oltin kubok (mavzularni egallashga qarab).
 * Yozishni baholash (`TraceScorer`): qamrov, har bir chiziq, uzluksizlik (tartib), yo‘ldan chiqish va
   ortiqcha uzunlik — yumshoq, lekin tartibsiz bo‘yashni o‘tkazmaydi. 2 xatodan keyin namoyish, 4 xatodan keyin yakun.
 * Tahrirlash manbalari: `tool/content/*.py` → `python3 tool/content/<fayl>.py` JSON’ni qayta yaratadi.

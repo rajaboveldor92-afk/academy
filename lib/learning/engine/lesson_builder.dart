@@ -58,6 +58,43 @@ class LessonBuilder {
     }
     return result;
   }
+
+  /// Mavzudan bitta yangi mashq. [concept] berilsa — shu tushunchaga oid, lekin boshqa
+  /// ko'rinishda (takrorlash uchun); [avoid] dagi imzolar iloji boricha chetlab o'tiladi.
+  static Exercise? similar({
+    required ContentRepository content,
+    required Topic topic,
+    required int level,
+    required int age,
+    Random? rng,
+    String? concept,
+    Set<int> avoid = const {},
+  }) {
+    final generator = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator);
+    if (generator == null) return null;
+    final random = rng ?? Random();
+    Exercise? fallback;
+    var conceptMatched = false;
+    for (var i = 0; i < 30; i++) {
+      Exercise ex;
+      try {
+        ex = generator(GenContext(rng: random, content: content, topic: topic, level: level, age: age));
+      } catch (_) {
+        continue;
+      }
+      if (!ExerciseValidator.isPlayable(ex)) continue;
+      final fresh = !avoid.contains(signatureHash(ex));
+      final matches = concept == null || ex.conceptKey == concept;
+      if (matches && fresh) return ex;
+      if (matches && !conceptMatched) {
+        fallback = ex;
+        conceptMatched = true;
+      } else if (fallback == null || (!conceptMatched && fresh)) {
+        fallback = ex;
+      }
+    }
+    return fallback;
+  }
 }
 
 /// Mashq o'ynaladigan holatdami (tuzilma bo'yicha minimal tekshiruv).

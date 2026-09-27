@@ -88,14 +88,16 @@
      "items": [
       "pre:wave",
       "pre:zigzag",
-      "pre:loops"
+      "pre:loops",
+      "pre:rainbow"
      ]
     },
     {
      "items": [
       "pre:waves2",
       "pre:zigzag2",
-      "pre:spiral"
+      "pre:spiral",
+      "pre:steps"
      ],
      "tolerancePct": 90
     },
@@ -103,11 +105,14 @@
      "items": [
       "pre:loops",
       "pre:steps",
-      "pre:waves2"
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:spiral"
      ],
      "tolerancePct": 80
     }
-   ]
+   ],
+   "lessonSize": 4
   },
   {
    "id": "motor6.dots",
@@ -127,14 +132,16 @@
      "items": [
       "dots:star",
       "dots:fish",
-      "dots:crown"
+      "dots:crown",
+      "dots:arrow"
      ]
     },
     {
      "items": [
       "dots:heart",
       "dots:house",
-      "dots:arrow"
+      "dots:arrow",
+      "dots:boat"
      ],
      "tolerancePct": 90
     },
@@ -142,11 +149,14 @@
      "items": [
       "dots:star",
       "dots:crown",
-      "dots:fish"
+      "dots:fish",
+      "dots:heart",
+      "dots:house"
      ],
      "tolerancePct": 80
     }
-   ]
+   ],
+   "lessonSize": 4
   },
   {
    "id": "motor6.tiny",

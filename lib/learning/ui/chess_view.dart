@@ -240,6 +240,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
         _aiThinking = false;
         _solved = true;
       });
+      widget.callbacks.onAchievement?.call('chess_win');
       widget.callbacks.onSolved(_mistakes);
       return;
     }

@@ -6,8 +6,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../learning/content/content_provider.dart';
+import '../../learning/engine/daily_planner.dart';
 import '../../learning/engine/lesson_builder.dart';
 import '../../learning/engine/mastery.dart';
+import '../../learning/engine/rewards.dart';
+import '../../learning/engine/spaced_repetition.dart';
 import '../../learning/models/exercise.dart';
 import '../../learning/models/topic.dart';
 import '../../learning/ui/activity_view.dart';
@@ -25,6 +28,7 @@ import '../../learning/ui/spot_view.dart';
 import '../../learning/ui/sudoku_view.dart';
 import '../../learning/ui/trace_view.dart';
 import '../../models/child_profile.dart';
+import '../../models/subject.dart';
 import '../../services/audio_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/profile_themes.dart';
@@ -32,11 +36,20 @@ import '../../widgets/star_burst.dart';
 import '../profiles/profiles_controller.dart';
 import '../session/progress_controller.dart';
 
-/// Bitta mavzu bo'yicha dars: 4 yoshda 6 ta, 6 yoshda 8–10 ta mashq.
+/// Dars: bitta mavzu bo'yicha (4 yoshda 6 ta, 6 yoshda 8–10 ta mashq) yoki
+/// "▶ BUGUNGI DARSim" — fanlar aralash kunlik dars ([LessonScreen.daily]).
+///
+/// Xato qilingan mashq shu darsning o'zida biroz keyin boshqa ko'rinishda qayta so'raladi
+/// va takrorlash navbatiga (ertaga, 3 kun, 7 kun) qo'shiladi.
 class LessonScreen extends ConsumerStatefulWidget {
-  const LessonScreen({super.key, required this.topicId, this.random});
+  const LessonScreen({super.key, required String this.topicId, this.random}) : daily = false;
 
-  final String topicId;
+  const LessonScreen.daily({super.key, this.random})
+      : topicId = null,
+        daily = true;
+
+  final String? topicId;
+  final bool daily;
 
   /// Testlarda barqaror natija uchun.
   final Random? random;
@@ -51,10 +64,12 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   _Phase _phase = _Phase.loading;
   Topic? _topic;
   int _level = 1;
-  List<Exercise> _exercises = const [];
+  List<PlannedExercise> _items = const [];
+  final List<ExerciseResult> _results = [];
+  int _retries = 0;
+  List<MedalDef> _newMedals = const [];
   int _index = 0;
   int _stars = 0;
-  int _firstTry = 0;
   String? _banner;
   bool _bannerHint = false;
   bool _lastCorrect = false;
@@ -65,7 +80,8 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   ChildProfile? get _profile => ref.read(activeProfileProvider);
   bool get _junior => _profile?.ageGroup.isJunior ?? true;
   late final AudioService _audio;
-  Exercise get _current => _exercises[_index];
+  Exercise get _current => _items[_index].exercise;
+  PlannedExercise get _item => _items[_index];
 
   @override
   void initState() {
@@ -85,32 +101,51 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     try {
       final content = await ref.read(contentProvider.future);
       final profile = _profile;
-      final topic = content.topic(widget.topicId);
-      if (topic == null || profile == null) throw StateError('Mavzu topilmadi');
+      if (profile == null) throw StateError('Profil tanlanmagan');
       final progress = ref.read(progressProvider.notifier).of(profile.id);
-      final stat = progress.skillOf(topic.id);
-      final level = (stat.level + profile.difficultyBias).clamp(1, topic.maxLevel).toInt();
-      final curriculum = content.curriculum(topic.subject, topic.ageSuffix);
-      final size = topic.lessonSize ?? curriculum?.lessonSize ?? (_junior ? 6 : 10);
-      final exercises = LessonBuilder.build(
-        content: content,
-        topic: topic,
-        level: level,
-        count: size,
-        age: profile.age,
-        rng: widget.random,
-        avoid: progress.recentOf(topic.id).toSet(),
-      );
+      Topic? topic;
+      var level = 1;
+      List<PlannedExercise> items;
+      if (widget.daily) {
+        items = DailyPlanner.build(
+          content: content,
+          age: profile.age,
+          progress: progress,
+          isEnabled: profile.isSubjectEnabled,
+          now: ref.read(clockProvider)(),
+          rng: widget.random,
+          difficultyBias: profile.difficultyBias,
+        );
+      } else {
+        topic = content.topic(widget.topicId!);
+        if (topic == null) throw StateError('Mavzu topilmadi');
+        final stat = progress.skillOf(topic.id);
+        level = (stat.level + profile.difficultyBias).clamp(1, topic.maxLevel).toInt();
+        final curriculum = content.curriculum(topic.subject, topic.ageSuffix);
+        final size = topic.lessonSize ?? curriculum?.lessonSize ?? (_junior ? 6 : 10);
+        final exercises = LessonBuilder.build(
+          content: content,
+          topic: topic,
+          level: level,
+          count: size,
+          age: profile.age,
+          rng: widget.random,
+          avoid: progress.recentOf(topic.id).toSet(),
+        );
+        items = [for (final e in exercises) PlannedExercise(topic: topic, level: level, exercise: e)];
+      }
       if (!mounted) return;
       setState(() {
         _topic = topic;
         _level = level;
-        _exercises = exercises;
+        _items = items;
+        _results.clear();
+        _retries = 0;
+        _newMedals = const [];
         _index = 0;
         _stars = 0;
-        _firstTry = 0;
         _outcome = null;
-        _phase = exercises.isEmpty ? _Phase.error : _Phase.playing;
+        _phase = items.isEmpty ? _Phase.error : _Phase.playing;
       });
       _speakCurrent();
     } catch (e) {
@@ -120,7 +155,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   }
 
   void _speakCurrent() {
-    if (_phase != _Phase.playing || _exercises.isEmpty) return;
+    if (_phase != _Phase.playing || _items.isEmpty) return;
     final ex = _current;
     // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi.
     if (ex.kind == ExerciseKind.memory || (ex.kind == ExerciseKind.assemble && ex.previewVisual != null)) {
@@ -150,8 +185,17 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   Future<void> _onSolved(int mistakes) async {
     final ex = _current;
+    final item = _item;
     final profile = _profile;
     final firstTry = mistakes == 0;
+    _results.add(ExerciseResult(
+      topicId: item.topic.id,
+      concept: ex.conceptKey,
+      firstTry: firstTry,
+      signature: LessonBuilder.signatureHash(ex),
+      retry: item.retry,
+    ));
+    if (!firstTry && !item.retry) _scheduleRetry(item);
     final earned = firstTry ? ex.rewardStars : 0;
     _audio.praise(lang: ex.speechLang);
     setState(() {
@@ -160,7 +204,6 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       _lastMistakes = mistakes;
       _banner = null;
       _stars += earned;
-      if (firstTry) _firstTry++;
     });
     if (profile != null) {
       await ref.read(progressProvider.notifier).recordAnswer(
@@ -176,10 +219,44 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     }
   }
 
+  /// Xato qilingan tushuncha 2–3 mashqdan keyin boshqa ko'rinishda qayta so'raladi.
+  void _scheduleRetry(PlannedExercise item) {
+    if (_retries >= SpacedRepetition.maxRetriesPerLesson) return;
+    const long = {ExerciseKind.activity, ExerciseKind.jigsaw, ExerciseKind.cards};
+    if (long.contains(item.exercise.kind) || item.exercise.chess?.goal == 'play') return;
+    final content = ref.read(contentProvider).valueOrNull;
+    final profile = _profile;
+    if (content == null || profile == null) return;
+    final retry = LessonBuilder.similar(
+      content: content,
+      topic: item.topic,
+      level: item.level,
+      age: profile.age,
+      rng: widget.random,
+      concept: item.exercise.conceptKey,
+      avoid: {for (final i in _items) LessonBuilder.signatureHash(i.exercise)},
+    );
+    if (retry == null) return;
+    _retries++;
+    final at = min(_index + 3, _items.length);
+    setState(() {
+      _items = [
+        ..._items.sublist(0, at),
+        PlannedExercise(topic: item.topic, level: item.level, exercise: retry, retry: true),
+        ..._items.sublist(at),
+      ];
+    });
+  }
+
+  void _onAchievement(String id) {
+    final profile = _profile;
+    if (profile != null) ref.read(progressProvider.notifier).addCounter(profile.id, id);
+  }
+
   Future<void> _next() async {
     _advanceTimer?.cancel();
     if (!mounted) return;
-    if (_index + 1 < _exercises.length) {
+    if (_index + 1 < _items.length) {
       setState(() {
         _index++;
         _phase = _Phase.playing;
@@ -193,22 +270,34 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   Future<void> _finish() async {
     final profile = _profile;
+    if (profile == null) return;
+    final notifier = ref.read(progressProvider.notifier);
+    final original = _results.where((r) => !r.retry).toList();
+    ({SkillStat stat, LevelDecision decision})? outcome;
     final topic = _topic;
-    if (profile == null || topic == null) return;
-    final outcome = await ref.read(progressProvider.notifier).completeTopicLesson(
-          childId: profile.id,
-          topicId: topic.id,
-          maxLevel: topic.maxLevel,
-          correctFirstTry: _firstTry,
-          total: _exercises.length,
-          signatures: _exercises.map(LessonBuilder.signatureHash),
-        );
+    if (widget.daily) {
+      await notifier.completeDailyLesson(profile.id, _results);
+    } else if (topic != null) {
+      outcome = await notifier.completeTopicLesson(
+        childId: profile.id,
+        topicId: topic.id,
+        maxLevel: topic.maxLevel,
+        correctFirstTry: original.where((r) => r.firstTry).length,
+        total: original.length,
+        signatures: original.map((r) => r.signature),
+      );
+      await notifier.recordReviews(profile.id, _results);
+      if (_results.isNotEmpty && _results.every((r) => r.firstTry)) await notifier.addCounter(profile.id, 'perfect_lesson');
+    }
+    final medals = await notifier.awardMedals(profile.id);
     if (!mounted) return;
     setState(() {
       _outcome = outcome;
+      _newMedals = medals;
       _phase = _Phase.finished;
     });
-    _audio.speak(_finishMessage(outcome.decision));
+    final message = widget.daily ? 'Bugungi darsing tugadi! Barakalla!' : _finishMessage(outcome!.decision);
+    _audio.speak(medals.isEmpty ? message : '$message Yangi medal: ${medals.first.title}!');
   }
 
   String _finishMessage(LevelDecision d) => switch (d) {
@@ -253,7 +342,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   }
 
   Widget _topBar(ProfileTheme theme) {
-    final total = _exercises.length;
+    final total = _items.length;
     final done = _index + (_phase == _Phase.feedback ? 1 : 0);
     return Padding(
       padding: const EdgeInsets.fromLTRB(4, 4, 12, 0),
@@ -289,6 +378,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       onMistake: _onMistake,
       onSolved: _onSolved,
       onSpeak: (t) => t == ex.speech ? _speakExercise(ex) : _audio.speak(t, lang: ex.speechLang),
+      onAchievement: _onAchievement,
     );
     final key = ValueKey('ex_$_index');
     final Widget body = switch (ex.kind) {
@@ -327,6 +417,26 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   }
 
   Widget _instruction(Exercise ex, ProfileTheme theme) {
+    final item = _item;
+    final subject = Subject.fromId(item.topic.subject);
+    final label = widget.daily && subject != null
+        ? '${subject.emoji} ${subject.title}${item.review || item.retry ? ' · 🔁 takrorlash' : ''}'
+        : (item.retry ? '🔁 Yana bir marta' : null);
+    final row = _instructionRow(ex, theme);
+    if (label == null) return row;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(16, 6, 16, 0),
+          child: Text(label, key: const Key('lesson_subject'), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.textSoft)),
+        ),
+        row,
+      ],
+    );
+  }
+
+  Widget _instructionRow(Exercise ex, ProfileTheme theme) {
     return Padding(
       padding: const EdgeInsets.fromLTRB(12, 10, 12, 6),
       child: Row(
@@ -449,8 +559,12 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   Widget _result(ProfileTheme theme) {
     final outcome = _outcome;
     final decision = outcome?.decision ?? LevelDecision.stay;
-    final total = _exercises.length;
-    final starsRow = total == 0 ? 0 : (_firstTry * 3 / total).ceil().clamp(1, 3).toInt();
+    final total = _results.length;
+    final firstTry = _results.where((r) => r.firstTry).length;
+    final starsRow = total == 0 ? 1 : (firstTry * 3 / total).ceil().clamp(1, 3).toInt();
+    final profile = _profile;
+    final progress = profile == null ? null : ref.read(progressProvider.notifier).of(profile.id);
+    final gifts = progress == null ? 0 : Rewards.giftsAvailable(progress);
     return Center(
       child: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
@@ -459,35 +573,55 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
             Text('⭐' * starsRow, style: const TextStyle(fontSize: 64)),
             const SizedBox(height: 12),
             Text(
-              _finishMessage(decision),
+              widget.daily ? 'Bugungi darsing tugadi! Barakalla!' : _finishMessage(decision),
               key: const Key('lesson_result'),
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: theme.primary),
             ),
             const SizedBox(height: 12),
             Text('Bugungi yulduzlar: $_stars ⭐', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700)),
+            if (widget.daily)
+              const Padding(
+                padding: EdgeInsets.only(top: 6),
+                child: Text('🌱 Bog‘ingga suv quydik — gullaring o‘smoqda!', textAlign: TextAlign.center, style: TextStyle(fontSize: 18)),
+              ),
             if (!_junior) ...[
               const SizedBox(height: 8),
-              Text('Birinchi urinishda: $_firstTry / $total', style: const TextStyle(fontSize: 20)),
+              Text('Birinchi urinishda: $firstTry / $total', style: const TextStyle(fontSize: 20)),
               if (_topic != null)
                 Text('Daraja: ${outcome?.stat.level ?? _level} / ${_topic!.maxLevel}', style: const TextStyle(fontSize: 20)),
             ],
+            for (final m in _newMedals)
+              Container(
+                key: ValueKey('new_medal_${m.id}'),
+                margin: const EdgeInsets.only(top: 14),
+                padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
+                decoration: BoxDecoration(color: const Color(0xFFFFF8E1), borderRadius: BorderRadius.circular(20), border: Border.all(color: AppColors.star, width: 2)),
+                child: Text('${m.emoji} Yangi medal: ${m.title}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+              ),
+            if (gifts > 0)
+              const Padding(
+                padding: EdgeInsets.only(top: 14),
+                child: Text('🎁 Sovg‘a qutisi seni kutyapti! «Yutuqlarim»ga kir.', textAlign: TextAlign.center, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
+              ),
             const SizedBox(height: 28),
-            FilledButton.icon(
-              key: const Key('lesson_again'),
-              onPressed: () {
-                setState(() => _phase = _Phase.loading);
-                _start();
-              },
-              icon: const Icon(Icons.replay_rounded),
-              label: const Text('Yana o‘ynaymiz'),
-            ),
-            const SizedBox(height: 12),
+            if (!widget.daily) ...[
+              FilledButton.icon(
+                key: const Key('lesson_again'),
+                onPressed: () {
+                  setState(() => _phase = _Phase.loading);
+                  _start();
+                },
+                icon: const Icon(Icons.replay_rounded),
+                label: const Text('Yana o‘ynaymiz'),
+              ),
+              const SizedBox(height: 12),
+            ],
             OutlinedButton.icon(
               key: const Key('lesson_done'),
               onPressed: () => Navigator.of(context).maybePop(),
-              icon: const Icon(Icons.grid_view_rounded),
-              label: const Text('Mavzular'),
+              icon: Icon(widget.daily ? Icons.home_rounded : Icons.grid_view_rounded),
+              label: Text(widget.daily ? 'Bosh sahifa' : 'Mavzular'),
             ),
           ],
         ),

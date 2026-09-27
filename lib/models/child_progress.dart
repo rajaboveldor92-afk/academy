@@ -1,6 +1,7 @@
 import '../core/utils/date_keys.dart';
 import '../core/utils/map_utils.dart';
 import '../learning/engine/mastery.dart';
+import '../learning/engine/spaced_repetition.dart';
 
 /// Bitta fan bo'yicha to'plangan natija.
 class SubjectScore {
@@ -41,6 +42,11 @@ class ChildProgress {
     this.streak = 0,
     this.skills = const <String, SkillStat>{},
     this.recent = const <String, List<int>>{},
+    this.reviews = const <String, ReviewItem>{},
+    this.dailyLessons = 0,
+    this.lastDailyLesson,
+    this.giftsOpened = 0,
+    this.counters = const <String, int>{},
   });
 
   factory ChildProgress.empty(String childId) => ChildProgress(childId: childId);
@@ -72,7 +78,36 @@ class ChildProgress {
   /// Oxirgi ko'rilgan savollar imzolari (takrorlanmaslik uchun): `topicId → hash[]`.
   final Map<String, List<int>> recent;
 
+  /// Takrorlash navbati (spaced repetition): `topicId|concept → ReviewItem`.
+  final Map<String, ReviewItem> reviews;
+
+  /// "Bugungi darsim" necha marta bajarilgan va oxirgi marta qachon.
+  final int dailyLessons;
+  final DateTime? lastDailyLesson;
+
+  /// Ochilgan sovg'a qutilari soni (kolleksiya shu tartibda to'ladi).
+  final int giftsOpened;
+
+  /// Yutuqlar uchun hisoblagichlar: `chess_win`, `puzzle_25`, `perfect_lesson` ...
+  final Map<String, int> counters;
+
   static const int recentLimit = 60;
+
+  int counter(String id) => counters[id] ?? 0;
+
+  bool dailyDoneOn(DateTime day) => lastDailyLesson != null && DateKeys.daysBetween(lastDailyLesson!, day) == 0;
+
+  ChildProgress withReviews(Map<String, ReviewItem> value) => _copy(reviews: value);
+
+  ChildProgress addCounter(String id, [int by = 1]) {
+    final updated = Map<String, int>.from(counters);
+    updated[id] = (updated[id] ?? 0) + by;
+    return _copy(counters: updated);
+  }
+
+  ChildProgress completeDaily(DateTime now) => _copy(dailyLessons: dailyLessons + 1, lastDailyLesson: now);
+
+  ChildProgress openGift() => _copy(giftsOpened: giftsOpened + 1);
 
   SkillStat skillOf(String topicId) => skills[topicId] ?? const SkillStat();
 
@@ -196,6 +231,11 @@ class ChildProgress {
     int? streak,
     Map<String, SkillStat>? skills,
     Map<String, List<int>>? recent,
+    Map<String, ReviewItem>? reviews,
+    int? dailyLessons,
+    DateTime? lastDailyLesson,
+    int? giftsOpened,
+    Map<String, int>? counters,
   }) {
     return ChildProgress(
       childId: childId,
@@ -212,6 +252,11 @@ class ChildProgress {
       streak: streak ?? this.streak,
       skills: skills ?? this.skills,
       recent: recent ?? this.recent,
+      reviews: reviews ?? this.reviews,
+      dailyLessons: dailyLessons ?? this.dailyLessons,
+      lastDailyLesson: lastDailyLesson ?? this.lastDailyLesson,
+      giftsOpened: giftsOpened ?? this.giftsOpened,
+      counters: counters ?? this.counters,
     );
   }
 
@@ -230,6 +275,11 @@ class ChildProgress {
         'streak': streak,
         'skills': skills.map((k, v) => MapEntry(k, v.toMap())),
         'recent': recent.map((k, v) => MapEntry(k, List<int>.from(v))),
+        'reviews': reviews.map((k, v) => MapEntry(k, v.toMap())),
+        'dailyLessons': dailyLessons,
+        'lastDailyLesson': lastDailyLesson?.toIso8601String(),
+        'giftsOpened': giftsOpened,
+        'counters': Map<String, int>.from(counters),
       };
 
   factory ChildProgress.fromMap(Map<String, dynamic> map) {
@@ -255,6 +305,13 @@ class ChildProgress {
       recent: MapUtils.asStringMap(map['recent']).map(
         (k, v) => MapEntry(k, (v is List ? v : const []).whereType<num>().map((e) => e.toInt()).toList()),
       ),
+      reviews: MapUtils.asStringMap(map['reviews']).map(
+        (k, v) => MapEntry(k, ReviewItem.fromMap(MapUtils.asStringMap(v))),
+      ),
+      dailyLessons: MapUtils.asInt(map['dailyLessons']),
+      lastDailyLesson: MapUtils.asDate(map['lastDailyLesson']),
+      giftsOpened: MapUtils.asInt(map['giftsOpened']),
+      counters: MapUtils.asIntMap(map['counters']),
     );
   }
 }

@@ -40,6 +40,22 @@ class SkillStat {
     return value.round().clamp(0, 100).toInt();
   }
 
+  /// Aralash darsdagi (kunlik dars) bir-ikki mashq: daraja o'zgarmaydi, natija yengil hisobga olinadi.
+  SkillStat practiced({required int correct, required int total, required DateTime now}) {
+    if (total <= 0) return this;
+    final acc = correct * 100 / total;
+    return SkillStat(
+      level: level,
+      ema: started ? ema * 0.7 + acc * 0.3 : acc * 0.5,
+      // Kunlik darsdagi mashq ham "mashq qilingan" deb hisoblanadi (keyingi mavzular ochiladi).
+      lessons: lessons + 1,
+      attempts: attempts + total,
+      firstTryCorrect: firstTryCorrect + correct,
+      lastPracticed: now,
+      lastAccuracy: lastAccuracy,
+    );
+  }
+
   Map<String, dynamic> toMap() => {
         'level': level,
         'ema': ema,

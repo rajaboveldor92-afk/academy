@@ -57,6 +57,7 @@ class _JigsawExerciseViewState extends State<JigsawExerciseView> {
       });
       if (_placed.length == task.pieces) {
         setState(() => _solved = true);
+        widget.callbacks.onAchievement?.call('puzzle_${task.pieces}');
         widget.callbacks.onSolved(_mistakes);
       }
     } else {

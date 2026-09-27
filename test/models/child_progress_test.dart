@@ -1,3 +1,4 @@
+import 'package:academy/learning/engine/spaced_repetition.dart';
 import 'package:academy/models/child_progress.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -91,6 +92,42 @@ void main() {
       expect(r.medals, ['m1']);
       expect(r.completedLessons, 1);
       expect(r.lastPlayed, day1);
+    });
+
+    test('toMap/fromMap: takrorlash navbati, kunlik dars, sovg‘alar, hisoblagichlar', () {
+      final queue = SpacedRepetition.record(const {}, topicId: 'math4.count', concept: 'n:3', firstTry: false, now: day1);
+      final p = ChildProgress.empty('a')
+          .withReviews(queue)
+          .completeDaily(day1)
+          .openGift()
+          .addCounter('chess_win')
+          .addCounter('chess_win')
+          .addCounter('puzzle_9');
+      final r = ChildProgress.fromMap(p.toMap());
+      expect(r.reviews.length, 1);
+      final item = r.reviews.values.single;
+      expect(item.topicId, 'math4.count');
+      expect(item.concept, 'n:3');
+      expect(item.stage, 0);
+      expect(item.due, DateTime(2026, 9, 27));
+      expect(r.dailyLessons, 1);
+      expect(r.lastDailyLesson, day1);
+      expect(r.dailyDoneOn(DateTime(2026, 9, 26, 22)), isTrue);
+      expect(r.dailyDoneOn(DateTime(2026, 9, 27, 7)), isFalse);
+      expect(r.giftsOpened, 1);
+      expect(r.counter('chess_win'), 2);
+      expect(r.counter('puzzle_9'), 1);
+      expect(r.counter('yoq'), 0);
+    });
+
+    test('eski formatdagi yozuv (yangi maydonlarsiz) xatosiz o‘qiladi', () {
+      final r = ChildProgress.fromMap({'childId': 'a', 'stars': 5});
+      expect(r.stars, 5);
+      expect(r.reviews, isEmpty);
+      expect(r.dailyLessons, 0);
+      expect(r.lastDailyLesson, isNull);
+      expect(r.giftsOpened, 0);
+      expect(r.counters, isEmpty);
     });
   });
 }

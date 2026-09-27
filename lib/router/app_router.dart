@@ -25,6 +25,7 @@ class AppRoutes {
   static const String home = '/home';
   static const String subject = '/subject';
   static const String lesson = '/lesson';
+  static const String dailyLesson = '/lesson/daily';
   static const String achievements = '/achievements';
   static const String timeUp = '/time-up';
   static const String parentGate = '/parent-gate';
@@ -52,6 +53,8 @@ class AppRouter {
         page = SubjectScreen(subject: args is Subject ? args : Subject.math);
       case AppRoutes.lesson:
         page = LessonScreen(topicId: args is String ? args : '');
+      case AppRoutes.dailyLesson:
+        page = const LessonScreen.daily();
       case AppRoutes.achievements:
         page = const AchievementsScreen();
       case AppRoutes.timeUp:

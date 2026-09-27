@@ -2,11 +2,17 @@ import 'dart:math';
 
 import 'package:academy/core/providers.dart';
 import 'package:academy/database/seed_data.dart';
+import 'package:academy/features/home/achievements_screen.dart';
+import 'package:academy/features/home/home_screen.dart';
 import 'package:academy/features/home/subject_screen.dart';
 import 'package:academy/features/lesson/lesson_screen.dart';
 import 'package:academy/features/profiles/profiles_controller.dart';
+import 'package:academy/features/session/progress_controller.dart';
 import 'package:academy/learning/content/content_provider.dart';
 import 'package:academy/learning/content/content_repository.dart';
+import 'package:academy/learning/engine/rewards.dart';
+import 'package:academy/learning/ui/choice_view.dart';
+import 'package:academy/learning/ui/option_card.dart';
 import 'package:academy/models/subject.dart';
 import 'package:academy/router/app_router.dart';
 import 'package:academy/services/audio_service.dart';
@@ -188,5 +194,78 @@ void main() {
     expect(parts, isNotEmpty, reason: audio.log.join('\n'));
     expect(parts.first.contains('|ru:') && parts.first.contains('|en:') && parts.first.endsWith('|uz:Qaysi rasm?'), isTrue,
         reason: parts.first);
+  });
+  testWidgets('Bosh sahifa: ▶ BUGUNGI DARSim kunlik aralash darsni ochadi', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: const MaterialApp(home: HomeScreen(), onGenerateRoute: AppRouter.onGenerateRoute),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('daily_lesson_button')));
+    expect(find.text('BUGUNGI DARSim'), findsOneWidget);
+    expect(find.text('6 ta qiziqarli mashq'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('daily_lesson_button')));
+    await pumpUntil(tester, find.byKey(const Key('lesson_subject')));
+    // Kunlik darsda har bir mashq ustida fan nomi ko'rinadi.
+    expect(find.byKey(const Key('lesson_subject')), findsOneWidget);
+    expect(find.byKey(const Key('lesson_speak')), findsOneWidget);
+  });
+
+  testWidgets('Bosh sahifa: bugungi dars bajarilgani ko‘rsatiladi', (tester) async {
+    final c = await setup(tester, 'azamjon');
+    await tester.runAsync(() => c.read(progressProvider.notifier).completeDailyLesson('azamjon', const []));
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: const MaterialApp(home: HomeScreen(), onGenerateRoute: AppRouter.onGenerateRoute),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('daily_lesson_subtitle')));
+    expect(find.text('Bugun bajarding! Yana bir marta?'), findsOneWidget);
+  });
+
+  testWidgets('Xato qilingan mashq shu darsda qayta so‘raladi (dars bittaga uzayadi)', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'math4.count_1_3', random: Random(5))),
+    ));
+    await pumpUntil(tester, find.byType(ChoiceExerciseView));
+    final ex = tester.widget<ChoiceExerciseView>(find.byType(ChoiceExerciseView)).exercise;
+    final n = ex.options.length;
+    double progressValue() => tester.widget<LinearProgressIndicator>(find.byType(LinearProgressIndicator)).value!;
+    expect(progressValue(), 0);
+    await tester.tap(find.byType(OptionCard).at((ex.correctIndex + 1) % n));
+    await tester.pump();
+    await tester.tap(find.byType(OptionCard).at(ex.correctIndex));
+    await tester.pump();
+    // 6 ta mashq + 1 ta qayta so'rash; birinchisi bajarildi.
+    expect(progressValue(), closeTo(1 / 7, 0.0001));
+  });
+
+  testWidgets('Yutuqlarim: bog‘, sovg‘a qutisi, medallar va kuboklar', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.runAsync(() => c.read(progressProvider.notifier).update(
+          'muhammadjon',
+          (p) => p.addStars(Rewards.starsPerGift + 5).completeLesson().completeLesson().addMedal('first_lesson'),
+        ));
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: const MaterialApp(home: AchievementsScreen()),
+    ));
+    await pumpUntil(tester, find.byKey(const Key('garden')));
+    expect(find.descendant(of: find.byKey(const Key('garden')), matching: find.text('🌱')), findsOneWidget);
+    expect(find.byKey(const ValueKey('medal_first_lesson')), findsOneWidget);
+    expect(find.text('Birinchi dars'), findsOneWidget);
+
+    // Sovg'a qutisi: har doim bir xil tartibda (tasodifiy "loot box" yo'q).
+    await tester.tap(find.byKey(const Key('open_gift')));
+    await pumpUntil(tester, find.byKey(const Key('gift_dialog')));
+    expect(find.text(Rewards.collection.first.name), findsOneWidget);
+    await tester.tap(find.byKey(const Key('gift_ok')));
+    await pumpUntil(tester, find.byKey(const Key('gift_progress')));
+    expect(find.byKey(const Key('open_gift')), findsNothing);
+    expect(c.read(childProgressProvider('muhammadjon')).giftsOpened, 1);
+
+    await tester.scrollUntilVisible(find.byKey(const ValueKey('cup_math')), 300, scrollable: find.byType(Scrollable).first);
+    expect(find.byKey(const ValueKey('cup_math')), findsOneWidget);
   });
 }

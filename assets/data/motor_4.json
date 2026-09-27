@@ -86,13 +86,15 @@
      "items": [
       "pre:horizontal",
       "pre:vertical",
-      "pre:diagonal"
+      "pre:diagonal",
+      "pre:steps"
      ],
      "tolerancePct": 125
     },
     {
      "items": [
       "pre:curve",
+      "pre:rainbow",
       "pre:wave",
       "pre:zigzag"
      ],
@@ -102,10 +104,12 @@
      "items": [
       "pre:loops",
       "pre:waves2",
-      "pre:spiral"
+      "pre:spiral",
+      "pre:zigzag2"
      ]
     }
-   ]
+   ],
+   "lessonSize": 4
   },
   {
    "id": "motor4.dots",
@@ -125,7 +129,8 @@
      "items": [
       "dots:tent",
       "dots:diamond",
-      "dots:kite"
+      "dots:kite",
+      "dots:arrow"
      ],
      "tolerancePct": 120
     },
@@ -133,17 +138,20 @@
      "items": [
       "dots:house",
       "dots:boat",
-      "dots:heart"
+      "dots:heart",
+      "dots:tent"
      ]
     },
     {
      "items": [
       "dots:star",
       "dots:fish",
-      "dots:crown"
+      "dots:crown",
+      "dots:house"
      ]
     }
-   ]
+   ],
+   "lessonSize": 4
   },
   {
    "id": "motor4.tiny",

@@ -11,7 +11,7 @@ enum OptionState { idle, selected, correct, wrong, hinted, done }
 
 /// Mashq vidjetlari uchun umumiy chaqiruvlar.
 class ExerciseCallbacks {
-  const ExerciseCallbacks({required this.onMistake, required this.onSolved, this.onSpeak});
+  const ExerciseCallbacks({required this.onMistake, required this.onSolved, this.onSpeak, this.onAchievement});
 
   /// Noto'g'ri urinish (yumshoq fikr-mulohaza uchun). Argument — jami xatolar soni.
   final void Function(int mistakes) onMistake;
@@ -21,6 +21,9 @@ class ExerciseCallbacks {
 
   /// Matnni ovozda aytish.
   final void Function(String text)? onSpeak;
+
+  /// Maxsus yutuq (medallar uchun): `chess_win`, `puzzle_big` ...
+  final void Function(String id)? onAchievement;
 }
 
 /// Variant kartasi: rasm yoki matn.

@@ -500,7 +500,7 @@ void main() {
               expect(diff, sp.targets.toList(), reason: where);
             } else if (topic.generator == 'find' || topic.generator == 'find_all') {
               final target = sp.items[sp.targets.first].value;
-              final same = [for (var i = 0; i < sp.items.length; i++) if (sp.items[i].value == target) i].toSet();
+              final same = {for (var i = 0; i < sp.items.length; i++) if (sp.items[i].value == target) i};
               expect(same, sp.targets, reason: '$where: nishon bilan bir xil narsa nishonlar ro‘yxatida bo‘lishi kerak');
             }
           }

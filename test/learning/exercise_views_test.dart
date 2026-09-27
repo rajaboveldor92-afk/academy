@@ -494,7 +494,7 @@ void main() {
       int? solved;
       await host(tester, CardsExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
       // Avval ikkita har xil kartani ochamiz.
-      final a = 0;
+      const a = 0;
       final b = [for (var i = 1; i < faces.length; i++) i].firstWhere((i) => faces[i] != faces[a]);
       await tester.tap(find.byKey(const ValueKey('card_0')));
       await tester.pump(const Duration(milliseconds: 300));

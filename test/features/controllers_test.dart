@@ -184,4 +184,68 @@ void main() {
       expect(t.db.getSettings().parentPin, '5678');
     });
   });
+  group('Kunlik dars va yutuqlar', () {
+    ExerciseResult r(String topic, String concept, bool ok, {bool retry = false}) =>
+        ExerciseResult(topicId: topic, concept: concept, firstTry: ok, signature: concept.hashCode, retry: retry);
+
+    test('kunlik dars: mavzular hisobga olinadi, xato takrorlash navbatiga tushadi', () async {
+      final n = c.read(progressProvider.notifier);
+      final p = await n.completeDailyLesson('a', [
+        r('math4.count_1_3', 'n:3', true),
+        r('math4.count_1_3', 'n:4', false),
+        r('english4.animals', 'cat', true),
+        // Shu darsning o'zida qayta so'ralgan — mastery va navbatga ta'sir qilmaydi.
+        r('math4.count_1_3', 'n:4', true, retry: true),
+      ]);
+      expect(p.dailyLessons, 1);
+      expect(p.completedLessons, 1);
+      expect(p.dailyDoneOn(clock.now), isTrue);
+      expect(p.skillOf('math4.count_1_3').lessons, 1);
+      expect(p.skillOf('math4.count_1_3').attempts, 2);
+      expect(p.skillOf('math4.count_1_3').firstTryCorrect, 1);
+      expect(p.skillOf('english4.animals').started, isTrue);
+      expect(p.reviews.keys.toList(), ['math4.count_1_3|n:4']);
+      expect(p.recentOf('math4.count_1_3').length, 2);
+      expect(p.counter('perfect_lesson'), 0);
+      // Bazaga yozilgan.
+      expect(t.db.getAllProgress()['a']!.dailyLessons, 1);
+    });
+
+    test('xatosiz kunlik dars — "perfect" hisoblagichi; medallar bir marta beriladi', () async {
+      final n = c.read(progressProvider.notifier);
+      await n.completeDailyLesson('a', [r('math4.count_1_3', 'n:1', true), r('logic4.odd', 'x', true)]);
+      expect(n.of('a').counter('perfect_lesson'), 1);
+      final medals = await n.awardMedals('a');
+      expect(medals.map((m) => m.id).toSet(), {'first_lesson', 'daily_1', 'perfect'});
+      expect(n.of('a').medals.toSet(), {'first_lesson', 'daily_1', 'perfect'});
+      expect(await n.awardMedals('a'), isEmpty);
+    });
+
+    test('ertasi kuni takrorlash to‘g‘ri bajarilsa keyingi bosqichga o‘tadi', () async {
+      final n = c.read(progressProvider.notifier);
+      await n.recordReviews('a', [r('math4.count_1_3', 'n:4', false)]);
+      expect(n.of('a').reviews.values.single.stage, 0);
+      clock.advance(const Duration(days: 1));
+      await n.recordReviews('a', [r('math4.count_1_3', 'n:4', true)]);
+      expect(n.of('a').reviews.values.single.stage, 1);
+    });
+
+    test('sovg‘a qutisi faqat yulduz yetganda ochiladi', () async {
+      final n = c.read(progressProvider.notifier);
+      expect(await n.openGift('a'), isNull);
+      await n.update('a', (p) => p.addStars(35));
+      final gift = await n.openGift('a');
+      expect(gift, isNotNull);
+      expect(n.of('a').giftsOpened, 1);
+      expect(await n.openGift('a'), isNull);
+    });
+
+    test('yutuq hisoblagichi (shaxmat g‘alabasi, puzzle)', () async {
+      final n = c.read(progressProvider.notifier);
+      await n.addCounter('a', 'chess_win');
+      await n.addCounter('a', 'puzzle_25');
+      final medals = await n.awardMedals('a');
+      expect(medals.map((m) => m.id).toSet(), containsAll(['chess_win', 'puzzle_master']));
+    });
+  });
 }

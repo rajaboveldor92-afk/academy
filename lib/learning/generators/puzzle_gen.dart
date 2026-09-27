@@ -14,7 +14,7 @@ class PuzzleGames {
   };
 
   /// Mavzu: fon ranglari, yer chizig'i va narsalar (emoji, x oralig'i, y oralig'i, o'lcham).
-  static const Map<String, _Theme> themes = {
+  static const Map<String, _Theme> _themes = {
     'farm': _Theme(Color(0xFF8FD3FF), Color(0xFF7CC96B), 0.6, [
       _It('☀️', 0.75, 0.92, 0.08, 0.2, 0.2), _It('🏠', 0.1, 0.4, 0.45, 0.6, 0.34), _It('🌳', 0.55, 0.9, 0.42, 0.55, 0.3),
       _It('🐄', 0.1, 0.5, 0.72, 0.85, 0.24), _It('🐔', 0.55, 0.9, 0.75, 0.9, 0.18), _It('🌻', 0.3, 0.7, 0.85, 0.95, 0.14),
@@ -72,8 +72,8 @@ class PuzzleGames {
         ],
       );
     }
-    final key = g.pick(themes.keys.toList());
-    final t = themes[key]!;
+    final key = g.pick(_themes.keys.toList());
+    final t = _themes[key]!;
     double between(double a, double b) => a + g.rng.nextDouble() * (b - a);
     return PictureVisual(
       id: key,
