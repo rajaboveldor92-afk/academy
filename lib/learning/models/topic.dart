@@ -2,7 +2,7 @@ import '../../core/utils/map_utils.dart';
 import 'exercise.dart';
 
 /// O'quv dasturidagi bitta mavzu (ko'nikma), masalan "M3. 1–5".
-/// `assets/data/<fan>_<4|6>.json` fayllaridan o'qiladi.
+/// `assets/data/<fan>_<3..8>.json` fayllaridan o'qiladi.
 class Topic {
   const Topic({
     required this.id,
@@ -38,7 +38,7 @@ class Topic {
   final int ageMin;
   final int ageMax;
 
-  /// Dastur guruhi: `4` yoki `6`.
+  /// Dastur guruhi: `3` dan `8` gacha.
   final String ageSuffix;
 
   /// Ota-ona panelidagi ko'nikma nomi (masalan `addition`).
@@ -97,7 +97,7 @@ class Curriculum {
 
   final String subject;
 
-  /// `4` yoki `6`.
+  /// `3` dan `8` gacha.
   final String ageSuffix;
   final Localized title;
 

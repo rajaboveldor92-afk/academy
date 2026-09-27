@@ -33,7 +33,7 @@ void main() {
 
   const samplesPerLevel = 120;
 
-  int ageFor(Topic t) => t.ageSuffix == '4' ? 4 : 6;
+  int ageFor(Topic t) => int.parse(t.ageSuffix);
 
   /// Variantlar tartibiga bog'liq bo'lmagan "ma'no" kaliti.
   String semanticKey(Exercise e) {
@@ -224,9 +224,9 @@ void main() {
       }
     }
     expect(content.curriculum('math', '4')!.topics.length, 15);
-    expect(content.curriculum('math', '6')!.topics.length, 20);
+    expect(content.curriculum('math', '6')!.topics.length, 15);
     expect(content.curriculum('logic', '4')!.topics.length, 15);
-    expect(content.curriculum('logic', '6')!.topics.length, 15);
+    expect(content.curriculum('logic', '6')!.topics.length, 12);
     expect(content.curriculum('uzbek', '4')!.topics.length, greaterThanOrEqualTo(15));
     expect(content.curriculum('uzbek', '6')!.topics.length, 14);
     expect(content.curriculum('writing', '4')!.topics.length, greaterThanOrEqualTo(5));
@@ -433,7 +433,7 @@ void main() {
           // Yoshga moslik: 4 yosh — 10 gacha, 6 yosh — 100 gacha.
           final ans = e.meta['answer'];
           if (topic.subject == 'math' && ans is int) {
-            expect(ans, inInclusiveRange(0, topic.ageSuffix == '4' ? 10 : 100), reason: where);
+            expect(ans, inInclusiveRange(0, ageFor(topic) == 3 ? 3 : (ageFor(topic) <= 5 ? 10 : (ageFor(topic) == 6 ? 20 : 100))), reason: where);
           }
           if (e.kind == ExerciseKind.sudoku) {
             expect(PuzzleFactory.isValidSudoku(e.sudoku!), isTrue, reason: where);

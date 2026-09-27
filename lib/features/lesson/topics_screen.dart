@@ -62,7 +62,7 @@ class TopicsScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('${subject.emoji}  ${curriculum.title.uz}'),
+        title: Text('${subject.emoji}  ${curriculum.title.uz} · ${profile.age} yosh'),
         backgroundColor: subject.color.withAlpha(40),
       ),
       body: SafeArea(

@@ -31,18 +31,27 @@ void main() {
   Exercise make(String topicId, int level, {int seed = 3}) {
     final t = content.topic(topicId)!;
     final gen = GeneratorRegistry.find(t.subject, t.ageSuffix, t.generator)!;
-    return gen(GenContext(rng: Random(seed), content: content, topic: t, level: level, age: t.ageSuffix == '4' ? 4 : 6));
+    return gen(GenContext(
+        rng: Random(seed),
+        content: content,
+        topic: t,
+        level: level,
+        age: int.parse(t.ageSuffix)));
   }
 
   Future<void> host(WidgetTester tester, Widget child) async {
     tester.view.physicalSize = const Size(1080, 2000);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    await tester.pumpWidget(MaterialApp(home: Scaffold(body: Padding(padding: const EdgeInsets.all(8), child: child))));
+    await tester.pumpWidget(MaterialApp(
+        home: Scaffold(
+            body: Padding(padding: const EdgeInsets.all(8), child: child))));
     await tester.pump();
   }
 
-  testWidgets('tanlash: noto‘g‘ri javob xato sifatida, to‘g‘ri javob yechim sifatida', (tester) async {
+  testWidgets(
+      'tanlash: noto‘g‘ri javob xato sifatida, to‘g‘ri javob yechim sifatida',
+      (tester) async {
     final e = make('math4.count_1_5', 1);
     final mistakes = <int>[];
     int? solved;
@@ -50,12 +59,16 @@ void main() {
       tester,
       ChoiceExerciseView(
         exercise: e,
-        callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m),
+        callbacks: ExerciseCallbacks(
+            onMistake: mistakes.add, onSolved: (m) => solved = m),
       ),
     );
     final cards = find.byType(OptionCard);
     expect(cards, findsNWidgets(e.options.length));
-    final wrong = [for (var i = 0; i < e.options.length; i++) if (i != e.correctIndex) i].first;
+    final wrong = [
+      for (var i = 0; i < e.options.length; i++)
+        if (i != e.correctIndex) i
+    ].first;
     await tester.tap(cards.at(wrong));
     await tester.pump(const Duration(milliseconds: 400));
     expect(mistakes, [1]);
@@ -71,7 +84,10 @@ void main() {
     int? solved;
     await host(
       tester,
-      ChoiceExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      ChoiceExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     final from = tester.getCenter(find.byType(OptionCard).at(e.correctIndex));
     final to = tester.getCenter(find.text('?'));
@@ -89,7 +105,10 @@ void main() {
     int? solved;
     await host(
       tester,
-      ChoiceExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      ChoiceExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     expect(find.text('Yaxshilab qara va eslab qol!'), findsOneWidget);
     await tester.pump(Duration(seconds: e.previewSeconds + 1));
@@ -104,7 +123,10 @@ void main() {
     int? solved;
     await host(
       tester,
-      MatchExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      MatchExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     final cards = find.byType(OptionCard);
     final n = e.pairs.length;
@@ -113,8 +135,11 @@ void main() {
     for (var i = 0; i < n; i++) {
       await tester.tap(cards.at(i));
       await tester.pump();
-      final rightWidgets = [for (var j = n; j < 2 * n; j++) tester.widget<OptionCard>(cards.at(j))];
-      final target = rightWidgets.indexWhere((w) => w.option.describe() == e.pairs[i].right.describe());
+      final rightWidgets = [
+        for (var j = n; j < 2 * n; j++) tester.widget<OptionCard>(cards.at(j))
+      ];
+      final target = rightWidgets.indexWhere(
+          (w) => w.option.describe() == e.pairs[i].right.describe());
       await tester.tap(cards.at(n + target));
       await tester.pump(const Duration(milliseconds: 300));
     }
@@ -127,7 +152,10 @@ void main() {
     int? solved;
     await host(
       tester,
-      SortExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      SortExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     for (var k = 0; k < task.items.length; k++) {
       // Birinchi qolgan narsa (tartib saqlanadi).
@@ -150,14 +178,22 @@ void main() {
     int? solved;
     await host(
       tester,
-      MazeExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      MazeExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     // BFS bilan yo'nalishlar.
     final prev = <int, (int, int)>{};
     final queue = [maze.start];
     final seen = {maze.start};
     for (var i = 0; i < queue.length; i++) {
-      for (final d in const [MazeTask.top, MazeTask.right, MazeTask.bottom, MazeTask.left]) {
+      for (final d in const [
+        MazeTask.top,
+        MazeTask.right,
+        MazeTask.bottom,
+        MazeTask.left
+      ]) {
         final n = maze.neighbor(queue[i], d);
         if (n != null && seen.add(n)) {
           prev[n] = (queue[i], d);
@@ -172,7 +208,12 @@ void main() {
       dirs.add(d);
       cur = p;
     }
-    const keys = {MazeTask.top: 'up', MazeTask.bottom: 'down', MazeTask.left: 'left', MazeTask.right: 'right'};
+    const keys = {
+      MazeTask.top: 'up',
+      MazeTask.bottom: 'down',
+      MazeTask.left: 'left',
+      MazeTask.right: 'right'
+    };
     for (final d in dirs.reversed) {
       await tester.tap(find.byKey(Key('arrow_${keys[d]}')));
       await tester.pump();
@@ -181,12 +222,15 @@ void main() {
   });
 
   testWidgets('sudoku: bo‘sh kataklarni to‘ldirish', (tester) async {
-    final e = make('logic6.sudoku', 1);
+    final e = make('logic8.sudoku', 1);
     final task = e.sudoku!;
     int? solved;
     await host(
       tester,
-      SudokuExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      SudokuExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     // Ko'rinish avtomatik birinchi bo'sh katakni tanlaydi va keyingisiga o'tadi.
     for (var i = 0; i < task.solution.length; i++) {
@@ -197,14 +241,18 @@ void main() {
     expect(solved, 0);
   });
 
-  testWidgets('kodlash: to‘g‘ri dastur robotni maqsadga olib boradi', (tester) async {
-    final e = make('logic6.coding', 3);
+  testWidgets('kodlash: to‘g‘ri dastur robotni maqsadga olib boradi',
+      (tester) async {
+    final e = make('logic8.coding', 3);
     expect(e.kind, ExerciseKind.coding);
     final solution = PuzzleFactory.solveCoding(e.coding!)!;
     int? solved;
     await host(
       tester,
-      CodingExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)),
+      CodingExerciseView(
+          exercise: e,
+          callbacks: ExerciseCallbacks(
+              onMistake: (_) {}, onSolved: (m) => solved = m)),
     );
     for (final s in solution) {
       await tester.tap(find.byKey(Key('code_$s')));
@@ -498,7 +546,8 @@ void main() {
           ExerciseKind.chess => ChessExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(exercise: e, callbacks: cb),
         };
-        await host(tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));
+        await host(
+            tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));
         expect(tester.takeException(), isNull, reason: '${t.id} L$level');
       }
     }

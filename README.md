@@ -1,9 +1,36 @@
 # Azamjon & Muhammadjon Academy
 
-4–7 yoshli bolalarni maktabga tayyorlash uchun **offline** ta'limiy o'yin platformasi (Android, Flutter).
+3–8 yoshli bolalarni maktabga tayyorlash uchun **offline** ta'limiy o'yin platformasi (Android, Flutter).
 Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanadi.
 
 > Arxitektura, ma'lumotlar modeli va navigatsiya sxemasi: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+
+## 0.2.0 — matematika va mantiq, 3–8 yosh
+
+Profilga yozilgan aniq yosh fan ochilganda avtomatik ishlatiladi. Yoshni ota-ona
+bo‘limida o‘zgartirsangiz, yangi dastur qayta o‘rnatmasdan tanlanadi.
+
+| Yosh | Matematika mavzulari | Mantiq mavzulari | Bir darsdagi mashqlar |
+|---|---:|---:|---:|
+| 3 | 8 | 8 | 4 |
+| 4 | 15 | 15 | 6 |
+| 5 | 15 | 15 | 7 |
+| 6 | 15 | 12 | 8 |
+| 7 | 20 | 15 | 9 |
+| 8 | 20 | 15 | 10 |
+
+3 yosh: tanish rasmlar, 1–3, rang/shakl, sodda juftlash va labirint.
+4 yosh: 1–10, 5 ichida rasmli amallar va asosiy mantiq.
+5 yosh: 10 ichida amallar, ko‘proq xotira elementlari va kattaroq labirint.
+6 yosh: 20 gacha sonlar, 10 ichida amallar, sodda ketma-ketlik va matritsa.
+7 yosh: 20 ichida amallar, 100 gacha sonlar, sodda sudoku va kodlash.
+8 yosh: shu mavzularda murakkabroq ketma-ketlik, shartlar, sudoku va kodlash.
+Murakkablik dars natijasiga qarab uch daraja ichida moslashadi.
+
+Dasturlarni qayta yaratish: `python3 tool/content/curriculum_src.py`.
+GitHub Actions har bir chiqariladigan APK ichidagi barcha 12 dastur manba bilan
+bir xil ekanini tekshiradi. Eski APKda darslar yo‘q bo‘lsa, yangi APKni o‘rnatish
+kerak. Kontent yuklash xatosi endi “Tez orada!” deb yashirilmaydi.
 
 ## Holat (kontent bosqichlari)
 
@@ -11,7 +38,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 |---|---|---|
 | Ilova asosi | Profillar (rasm, to‘liq ism, mavzu), lokal baza, vaqt limiti, ota-ona PIN va panel | ✅ |
 | CONTENT 1 | Muhammadjon (4): Matematika M1–M15, Mantiq L1–L15 | ✅ |
-| CONTENT 2 | Azamjon (6): Matematika M1–M20, Mantiq L1–L15 | ✅ |
+| CONTENT 2 | 3–8 yosh: yuqoridagi alohida dasturlar | ✅ |
 | CONTENT 3 | O‘zbek tili (4 yosh: 18 mavzu, 6 yosh: U1–U14), ✏️ Yozishni o‘rganaman (chiziq, nuqta, harf, raqam, so‘z) | ✅ |
 | CONTENT 4–5 | English (4 yosh: 17 mavzu, 6 yosh: E1–E21), Русский (4 yosh: 17, 6 yosh: R1–R15), 🍎 3 tilda (300+ tushuncha) | ✅ |
 | CONTENT 6 | ♟ Shaxmat: 4 yosh 12 qadam (doska, figuralar 3 tilda, yurishlar), 6 yosh 20 qadam (koordinatalar, olish, shax, mat, AI bilan mini-o‘yinlar) | ✅ |

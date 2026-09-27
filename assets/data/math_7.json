@@ -1,9 +1,9 @@
 {
  "subject": "math",
- "ageGroup": "6",
- "ageMin": 6,
- "ageMax": 6,
- "lessonSize": 8,
+ "ageGroup": "7",
+ "ageMin": 7,
+ "ageMax": 7,
+ "lessonSize": 9,
  "title": {
   "uz": "Matematika",
   "en": "Maths",
@@ -12,7 +12,7 @@
  "model": "KO‘R → TUSHUN → TANLA → HISOBLA → YECH → IZOHNI KO‘R",
  "topics": [
   {
-   "id": "math6.count_10",
+   "id": "math7.count_10",
    "code": "M1",
    "emoji": "🔢",
    "title": {
@@ -37,9 +37,10 @@
      "min": 0,
      "max": 10,
      "modes": [
-      "count"
+      "count",
+      "group"
      ],
-     "options": 3
+     "options": 4
     },
     {
      "min": 0,
@@ -53,7 +54,7 @@
    ]
   },
   {
-   "id": "math6.count_20",
+   "id": "math7.count_20",
    "code": "M2",
    "emoji": "🧮",
    "title": {
@@ -64,7 +65,7 @@
    "generator": "ten_frame",
    "skill": "counting",
    "prerequisites": [
-    "math6.count_10"
+    "math7.count_10"
    ],
    "tags": [],
    "levels": [
@@ -73,8 +74,8 @@
      "max": 14
     },
     {
-     "min": 8,
-     "max": 14
+     "min": 11,
+     "max": 20
     },
     {
      "min": 11,
@@ -83,7 +84,7 @@
    ]
   },
   {
-   "id": "math6.neighbors",
+   "id": "math7.neighbors",
    "code": "M3",
    "emoji": "↔️",
    "title": {
@@ -103,9 +104,10 @@
      ]
     },
     {
-     "max": 10,
+     "max": 20,
      "ask": [
-      "after"
+      "after",
+      "before"
      ]
     },
     {
@@ -118,7 +120,7 @@
    ]
   },
   {
-   "id": "math6.compare",
+   "id": "math7.compare",
    "code": "M4",
    "emoji": "⚖️",
    "title": {
@@ -135,7 +137,7 @@
      "max": 10
     },
     {
-     "max": 10
+     "max": 20
     },
     {
      "max": 20
@@ -143,7 +145,7 @@
    ]
   },
   {
-   "id": "math6.add_10",
+   "id": "math7.add_10",
    "code": "M5",
    "emoji": "➕",
    "title": {
@@ -154,17 +156,10 @@
    "generator": "arith",
    "skill": "addition",
    "prerequisites": [
-    "math6.count_10"
+    "math7.count_10"
    ],
    "tags": [],
    "levels": [
-    {
-     "op": "+",
-     "max": 8,
-     "modes": [
-      "pictures"
-     ]
-    },
     {
      "op": "+",
      "max": 8,
@@ -178,11 +173,18 @@
      "modes": [
       "plain"
      ]
+    },
+    {
+     "op": "+",
+     "max": 10,
+     "modes": [
+      "plain"
+     ]
     }
    ]
   },
   {
-   "id": "math6.sub_10",
+   "id": "math7.sub_10",
    "code": "M6",
    "emoji": "➖",
    "title": {
@@ -193,17 +195,10 @@
    "generator": "arith",
    "skill": "subtraction",
    "prerequisites": [
-    "math6.add_10"
+    "math7.add_10"
    ],
    "tags": [],
    "levels": [
-    {
-     "op": "-",
-     "max": 8,
-     "modes": [
-      "pictures"
-     ]
-    },
     {
      "op": "-",
      "max": 8,
@@ -217,12 +212,97 @@
      "modes": [
       "plain"
      ]
+    },
+    {
+     "op": "-",
+     "max": 10,
+     "modes": [
+      "plain"
+     ]
     }
    ]
   },
   {
-   "id": "math6.missing",
+   "id": "math7.add_20",
    "code": "M7",
+   "emoji": "🔼",
+   "title": {
+    "uz": "20 ichida qo‘shish",
+    "en": "Adding within 20",
+    "ru": "Сложение до 20"
+   },
+   "generator": "arith",
+   "skill": "addition",
+   "prerequisites": [
+    "math7.add_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "tens"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    },
+    {
+     "op": "+",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math7.sub_20",
+   "code": "M8",
+   "emoji": "🔽",
+   "title": {
+    "uz": "20 ichida ayirish",
+    "en": "Subtracting within 20",
+    "ru": "Вычитание до 20"
+   },
+   "generator": "arith",
+   "skill": "subtraction",
+   "prerequisites": [
+    "math7.sub_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "tens"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    },
+    {
+     "op": "-",
+     "max": 20,
+     "modes": [
+      "nocarry"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math7.missing",
+   "code": "M9",
    "emoji": "❓",
    "title": {
     "uz": "Yetishmayotgan son",
@@ -232,17 +312,11 @@
    "generator": "missing_number",
    "skill": "missing_number",
    "prerequisites": [
-    "math6.add_10",
-    "math6.sub_10"
+    "math7.add_10",
+    "math7.sub_10"
    ],
    "tags": [],
    "levels": [
-    {
-     "max": 10,
-     "forms": [
-      "a+?=c"
-     ]
-    },
     {
      "max": 10,
      "forms": [
@@ -256,12 +330,20 @@
       "?+b=c",
       "a-?=b"
      ]
+    },
+    {
+     "max": 10,
+     "forms": [
+      "a+?=c",
+      "?+b=c",
+      "a-?=b"
+     ]
     }
    ]
   },
   {
-   "id": "math6.sequence",
-   "code": "M8",
+   "id": "math7.sequence",
+   "code": "M10",
    "emoji": "🔁",
    "title": {
     "uz": "Sonli ketma-ketlik",
@@ -282,7 +364,8 @@
     },
     {
      "steps": [
-      "1"
+      "2",
+      "-1"
      ],
      "max": 20,
      "length": 4
@@ -298,8 +381,8 @@
    ]
   },
   {
-   "id": "math6.even",
-   "code": "M9",
+   "id": "math7.even",
+   "code": "M11",
    "emoji": "👯",
    "title": {
     "uz": "Juft va toq",
@@ -318,8 +401,10 @@
     },
     {
      "modes": [
-      "pairs"
-     ]
+      "pairs",
+      "even"
+     ],
+     "max": 10
     },
     {
      "modes": [
@@ -331,8 +416,8 @@
    ]
   },
   {
-   "id": "math6.by_2",
-   "code": "M10",
+   "id": "math7.by_2",
+   "code": "M12",
    "emoji": "🧦",
    "title": {
     "uz": "2 tadan sanash",
@@ -354,9 +439,9 @@
     {
      "step": 2,
      "modes": [
-      "groups"
+      "sequence"
      ],
-     "maxGroups": 5
+     "maxGroups": 8
     },
     {
      "step": 2,
@@ -368,8 +453,117 @@
    ]
   },
   {
-   "id": "math6.word",
-   "code": "M11",
+   "id": "math7.by_5",
+   "code": "M13",
+   "emoji": "✋",
+   "title": {
+    "uz": "5 tadan sanash",
+    "en": "Counting in 5s",
+    "ru": "Счёт пятёрками"
+   },
+   "generator": "skip_count",
+   "skill": "skip_counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "step": 5,
+     "modes": [
+      "groups"
+     ],
+     "maxGroups": 4
+    },
+    {
+     "step": 5,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 8
+    },
+    {
+     "step": 5,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 8
+    }
+   ]
+  },
+  {
+   "id": "math7.by_10",
+   "code": "M14",
+   "emoji": "🔟",
+   "title": {
+    "uz": "10 tadan sanash",
+    "en": "Counting in 10s",
+    "ru": "Счёт десятками"
+   },
+   "generator": "skip_count",
+   "skill": "skip_counting",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "step": 10,
+     "modes": [
+      "groups"
+     ],
+     "maxGroups": 5
+    },
+    {
+     "step": 10,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 9
+    },
+    {
+     "step": 10,
+     "modes": [
+      "sequence"
+     ],
+     "maxGroups": 9
+    }
+   ]
+  },
+  {
+   "id": "math7.hundred",
+   "code": "M15",
+   "emoji": "💯",
+   "title": {
+    "uz": "0 dan 100 gacha",
+    "en": "Numbers to 100",
+    "ru": "Числа до 100"
+   },
+   "generator": "hundred",
+   "skill": "place_value",
+   "prerequisites": [
+    "math7.by_10"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "modes": [
+      "tens_ones",
+      "read"
+     ]
+    },
+    {
+     "modes": [
+      "tens_ones",
+      "read"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math7.word",
+   "code": "M16",
    "emoji": "📖",
    "title": {
     "uz": "Matnli masalalar",
@@ -379,8 +573,8 @@
    "generator": "word_problem",
    "skill": "word_problems",
    "prerequisites": [
-    "math6.add_10",
-    "math6.sub_10"
+    "math7.add_10",
+    "math7.sub_10"
    ],
    "tags": [],
    "levels": [
@@ -392,7 +586,8 @@
     },
     {
      "types": [
-      "add"
+      "add",
+      "sub"
      ],
      "max": 10
     },
@@ -406,8 +601,8 @@
    ]
   },
   {
-   "id": "math6.shapes",
-   "code": "M12",
+   "id": "math7.shapes",
+   "code": "M17",
    "emoji": "🔷",
    "title": {
     "uz": "Shakllar",
@@ -427,9 +622,9 @@
     },
     {
      "modes": [
-      "name"
-     ],
-     "options": 4
+      "name",
+      "corners"
+     ]
     },
     {
      "modes": [
@@ -440,8 +635,8 @@
    ]
   },
   {
-   "id": "math6.spatial",
-   "code": "M13",
+   "id": "math7.spatial",
+   "code": "M18",
    "emoji": "🧭",
    "title": {
     "uz": "Fazoviy tushunchalar",
@@ -460,8 +655,10 @@
     },
     {
      "modes": [
-      "box"
-     ]
+      "box",
+      "ordinal"
+     ],
+     "items": 5
     },
     {
      "modes": [
@@ -473,8 +670,8 @@
    ]
   },
   {
-   "id": "math6.clock",
-   "code": "M14",
+   "id": "math7.clock",
+   "code": "M19",
    "emoji": "🕒",
    "title": {
     "uz": "Soat",
@@ -487,15 +684,17 @@
    "tags": [],
    "levels": [
     {},
-    {},
+    {
+     "half": true
+    },
     {
      "half": true
     }
    ]
   },
   {
-   "id": "math6.money",
-   "code": "M15",
+   "id": "math7.money",
+   "code": "M20",
    "emoji": "💰",
    "title": {
     "uz": "Pul bilan tanishamiz",
@@ -505,7 +704,7 @@
    "generator": "money",
    "skill": "money",
    "prerequisites": [
-    "math6.add_10"
+    "math7.add_10"
    ],
    "tags": [],
    "levels": [
@@ -517,7 +716,7 @@
     },
     {
      "modes": [
-      "count"
+      "mixed"
      ],
      "max": 10
     },
