@@ -270,7 +270,7 @@ void main() {
     // Sovg'a qutisi: har doim bir xil tartibda (tasodifiy "loot box" yo'q).
     await tester.tap(find.byKey(const Key('open_gift')));
     await pumpUntil(tester, find.byKey(const Key('gift_dialog')));
-    expect(find.text(Rewards.collection.first.name), findsOneWidget);
+    expect(find.text(Rewards.collection.first.name.uz), findsOneWidget);
     await tester.tap(find.byKey(const Key('gift_ok')));
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('gift_dialog')), findsNothing);

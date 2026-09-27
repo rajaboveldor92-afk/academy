@@ -275,9 +275,33 @@ CHOICES = [
    [["🤸", "O‘rindiqda sakrayman"], ["🤪", "Derazadan boshimni chiqaraman"]], "Mashinada doim kamar taqamiz.", 6, "safety"),
 ]
 
+# ---------------------------------------------------------------- tarjimalar (en, ru)
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from family_social_i18n import ACTIVITIES_I18N, SITUATIONS_I18N, POLITE_I18N, POLITE_WORDS_I18N, CHOICES_I18N
+
+for a in ACTIVITIES:
+    tr = ACTIVITIES_I18N[a["id"]]
+    for lang in ("en", "ru"):
+        title, materials, steps, benefit = tr[lang]
+        assert len(materials) == len(a["materials"]) and len(steps) == len(a["steps"]), (a["id"], lang)
+        a[lang] = {"title": title, "materials": materials, "steps": steps, "benefit": benefit}
+for s_ in SITUATIONS:
+    s_["en"], s_["ru"] = SITUATIONS_I18N[s_["id"]]
+for p_ in POLITE:
+    p_["textEn"], p_["textRu"] = POLITE_I18N[p_["id"]]
+    p_["wordEn"], p_["wordRu"] = POLITE_WORDS_I18N[p_["word"]]
+POLITE_WORDS_T = [{"uz": w, "en": POLITE_WORDS_I18N[w][0], "ru": POLITE_WORDS_I18N[w][1]} for w in POLITE_WORDS]
+for c in CHOICES:
+    tr = CHOICES_I18N[c["id"]]
+    for lang in ("en", "ru"):
+        text, good, others, why = tr[lang]
+        assert len(others) == len(c["others"]), (c["id"], lang)
+        c[lang] = {"text": text, "good": good, "others": others, "why": why}
+
 out_m = {"schemaVersion": 1, "note": "Ota-ona bilan bajariladigan original faoliyatlar (Montessori uslubida).", "activities": ACTIVITIES}
 out_s = {"schemaVersion": 1, "note": "Muloqot va ijtimoiy-emotsional ko‘nikmalar (original vaziyatlar).",
-         "emotions": EMOTIONS, "situations": SITUATIONS, "polite": POLITE, "politeWords": POLITE_WORDS, "choices": CHOICES}
+         "emotions": EMOTIONS, "situations": SITUATIONS, "polite": POLITE, "politeWords": POLITE_WORDS, "politeWordsI18n": POLITE_WORDS_T, "choices": CHOICES}
 
 ids = [a["id"] for a in ACTIVITIES]
 assert len(ids) == len(set(ids))

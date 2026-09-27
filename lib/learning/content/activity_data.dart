@@ -1,18 +1,32 @@
 import '../../core/utils/map_utils.dart';
 import '../models/exercise.dart';
 
-/// "Ota-ona bilan bajaramiz" faoliyati (`assets/data/montessori.json`).
+/// Faoliyat matnlari bitta tilda.
+class ActivityText {
+  const ActivityText({required this.title, required this.materials, required this.steps, required this.benefit});
+
+  final String title;
+  final List<String> materials;
+  final List<String> steps;
+  final String benefit;
+
+  factory ActivityText.fromJson(Map<String, dynamic> e) => ActivityText(
+        title: e['title'].toString(),
+        materials: MapUtils.asStringList(e['materials']),
+        steps: MapUtils.asStringList(e['steps']),
+        benefit: e['benefit'].toString(),
+      );
+}
+
+/// "Ota-ona bilan bajaramiz" faoliyati (`assets/data/montessori.json`), uch tilda.
 class FamilyActivity {
   const FamilyActivity({
     required this.id,
     required this.age,
     required this.area,
     required this.emoji,
-    required this.title,
     required this.minutes,
-    required this.materials,
-    required this.steps,
-    required this.benefit,
+    required this.texts,
   });
 
   final String id;
@@ -21,21 +35,31 @@ class FamilyActivity {
   /// `life`, `senses`, `math`, `language`, `nature`, `science`, `movement`, `art`.
   final String area;
   final String emoji;
-  final String title;
   final int minutes;
-  final List<String> materials;
-  final List<String> steps;
-  final String benefit;
 
-  ActivityTask get task => ActivityTask(
-        id: id,
-        emoji: emoji,
-        title: title,
-        materials: materials,
-        steps: steps,
-        benefit: benefit,
-        minutes: minutes,
-      );
+  /// Til → matnlar (`uz` doim bor).
+  final Map<String, ActivityText> texts;
+
+  ActivityText textIn(String lang) => texts[lang] ?? texts['uz']!;
+
+  String get title => texts['uz']!.title;
+
+  Localized get titleL => Localized(uz: textIn('uz').title, en: textIn('en').title, ru: textIn('ru').title);
+
+  ActivityTask taskIn(String lang) {
+    final t = textIn(lang);
+    return ActivityTask(
+      id: id,
+      emoji: emoji,
+      title: t.title,
+      materials: t.materials,
+      steps: t.steps,
+      benefit: t.benefit,
+      minutes: minutes,
+    );
+  }
+
+  ActivityTask get task => taskIn('uz');
 }
 
 /// His-tuyg'u.
@@ -53,7 +77,7 @@ class Situation {
 
   final String id;
   final List<String> scene;
-  final String text;
+  final Localized text;
   final String emotion;
   final int age;
 }
@@ -64,33 +88,45 @@ class PoliteCase {
 
   final String id;
   final List<String> scene;
-  final String text;
-  final String word;
+  final Localized text;
+  final Localized word;
 }
 
-/// Tanlov: [good] — mehribon/xavfsiz yo'l, [others] — boshqa yo'llar. Har biri: (emoji, matn).
+/// Tanlov matnlari bitta tilda: [good] — mehribon/xavfsiz yo'l, [others] — boshqa yo'llar.
+class SocialChoiceText {
+  const SocialChoiceText({required this.text, required this.good, required this.others, required this.why});
+
+  final String text;
+  final String good;
+  final List<String> others;
+  final String why;
+}
+
+/// Tanlov: har bir variant — emoji + matn (tilga qarab).
 class SocialChoice {
   const SocialChoice({
     required this.id,
     required this.scene,
-    required this.text,
-    required this.good,
-    required this.others,
-    required this.why,
+    required this.goodEmoji,
+    required this.otherEmojis,
+    required this.texts,
     required this.age,
     required this.kind,
   });
 
   final String id;
   final List<String> scene;
-  final String text;
-  final (String, String) good;
-  final List<(String, String)> others;
-  final String why;
+  final String goodEmoji;
+  final List<String> otherEmojis;
+
+  /// Til → matnlar (`uz` doim bor).
+  final Map<String, SocialChoiceText> texts;
   final int age;
 
   /// `kind` (yaxshi do'st) yoki `safety` (xavfsizlik).
   final String kind;
+
+  SocialChoiceText textIn(String lang) => texts[lang] ?? texts['uz']!;
 }
 
 class ActivityData {
@@ -107,14 +143,14 @@ class ActivityData {
   final List<Emotion> emotions;
   final List<Situation> situations;
   final List<PoliteCase> polite;
-  final List<String> politeWords;
+  final List<Localized> politeWords;
   final List<SocialChoice> choices;
 
   Emotion emotion(String id) => emotions.firstWhere((e) => e.id == id);
 
-  static (String, String) _pair(Object? v) {
-    final l = MapUtils.asStringList(v);
-    return (l[0], l[1]);
+  static Localized _loc(Map<String, dynamic> e, String uzKey, String enKey, String ruKey) {
+    final uz = e[uzKey].toString();
+    return Localized(uz: uz, en: (e[enKey] ?? uz).toString(), ru: (e[ruKey] ?? uz).toString());
   }
 
   factory ActivityData.fromJson(Map<String, dynamic> montessori, Map<String, dynamic> social) {
@@ -126,11 +162,12 @@ class ActivityData {
             age: MapUtils.asInt(e['age'], 4),
             area: e['area'].toString(),
             emoji: e['emoji'].toString(),
-            title: e['title'].toString(),
             minutes: MapUtils.asInt(e['minutes'], 10),
-            materials: MapUtils.asStringList(e['materials']),
-            steps: MapUtils.asStringList(e['steps']),
-            benefit: e['benefit'].toString(),
+            texts: {
+              'uz': ActivityText.fromJson(e),
+              for (final lang in const ['en', 'ru'])
+                if (e[lang] is Map) lang: ActivityText.fromJson(MapUtils.asStringMap(e[lang])),
+            },
           ),
       ],
       emotions: [
@@ -142,7 +179,7 @@ class ActivityData {
           Situation(
             id: e['id'].toString(),
             scene: MapUtils.asStringList(e['scene']),
-            text: e['text'].toString(),
+            text: _loc(e, 'text', 'en', 'ru'),
             emotion: e['emotion'].toString(),
             age: MapUtils.asInt(e['age'], 4),
           ),
@@ -152,20 +189,36 @@ class ActivityData {
           PoliteCase(
             id: e['id'].toString(),
             scene: MapUtils.asStringList(e['scene']),
-            text: e['text'].toString(),
-            word: e['word'].toString(),
+            text: _loc(e, 'text', 'textEn', 'textRu'),
+            word: _loc(e, 'word', 'wordEn', 'wordRu'),
           ),
       ],
-      politeWords: MapUtils.asStringList(social['politeWords']),
+      politeWords: social['politeWordsI18n'] is List
+          ? [for (final w in (social['politeWordsI18n'] as List).map(MapUtils.asStringMap)) Localized.fromJson(w)]
+          : [for (final w in MapUtils.asStringList(social['politeWords'])) Localized.same(w)],
       choices: [
         for (final e in (social['choices'] as List).map(MapUtils.asStringMap))
           SocialChoice(
             id: e['id'].toString(),
             scene: MapUtils.asStringList(e['scene']),
-            text: e['text'].toString(),
-            good: _pair(e['good']),
-            others: [for (final o in (e['others'] as List)) _pair(o)],
-            why: e['why'].toString(),
+            goodEmoji: MapUtils.asStringList(e['good'])[0],
+            otherEmojis: [for (final o in (e['others'] as List)) MapUtils.asStringList(o)[0]],
+            texts: {
+              'uz': SocialChoiceText(
+                text: e['text'].toString(),
+                good: MapUtils.asStringList(e['good'])[1],
+                others: [for (final o in (e['others'] as List)) MapUtils.asStringList(o)[1]],
+                why: e['why'].toString(),
+              ),
+              for (final lang in const ['en', 'ru'])
+                if (e[lang] is Map)
+                  lang: SocialChoiceText(
+                    text: MapUtils.asStringMap(e[lang])['text'].toString(),
+                    good: MapUtils.asStringMap(e[lang])['good'].toString(),
+                    others: MapUtils.asStringList(MapUtils.asStringMap(e[lang])['others']),
+                    why: MapUtils.asStringMap(e[lang])['why'].toString(),
+                  ),
+            },
             age: MapUtils.asInt(e['age'], 4),
             kind: (e['kind'] ?? 'kind').toString(),
           ),

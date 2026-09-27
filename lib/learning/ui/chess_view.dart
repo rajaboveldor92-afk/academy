@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../chess/chess_goals.dart';
 import '../chess/chess_rules.dart';
@@ -49,7 +50,8 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
   ChessMove? _lastMove;
   bool _aiThinking = false;
   int _losses = 0;
-  String? _status;
+  /// Holat matni (tilga qarab build'da hosil qilinadi).
+  String Function(Tr t)? _status;
   Timer? _timer;
 
   ChessTask get task => widget.exercise.chess!;
@@ -75,7 +77,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
     _targets = const [];
     _lastMove = null;
     _aiThinking = false;
-    _status = _play ? 'Sening navbating — oq figuralar' : null;
+    _status = _play ? (Tr t) => t.yourTurn : null;
   }
 
   // ------------------------------------------------------------ Hodisalar
@@ -211,7 +213,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
     }
     setState(() {
       _aiThinking = true;
-      _status = 'Raqib o‘ylayapti…';
+      _status = (t) => t.opponentThinks;
     });
     _timer = Timer(ChessExerciseView.aiDelay, _aiMove);
   }
@@ -227,7 +229,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
       _pos = ChessRules.apply(_pos, m);
       _lastMove = m;
       _aiThinking = false;
-      _status = 'Sening navbating — oq figuralar';
+      _status = (t) => t.yourTurn;
     });
     final w = ChessMiniGame.winner(_pos, m, 'w');
     if (w != null) _finish(w);
@@ -236,7 +238,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
   void _finish(String winner) {
     if (winner == 'w') {
       setState(() {
-        _status = 'Sen yutding! 🏆';
+        _status = (t) => t.youWon;
         _aiThinking = false;
         _solved = true;
       });
@@ -249,7 +251,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
       _mistakes++;
       _shake++;
       _aiThinking = true;
-      _status = 'Bu safar raqib yutdi. Yana o‘ynaymiz!';
+      _status = (t) => t.opponentWon;
     });
     widget.callbacks.onMistake(_mistakes);
     if (_losses >= ChessExerciseView.maxLosses) {
@@ -332,7 +334,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
               height: statusH,
               child: Center(
                 child: Text(
-                  task.goal == 'collect' && !_solved ? '⭐ × ${_stars.length}' : (_status ?? ''),
+                  task.goal == 'collect' && !_solved ? '⭐ × ${_stars.length}' : (_status?.call(Tr.of(context)) ?? ''),
                   key: const ValueKey('chess_status'),
                   style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.text),
                 ),

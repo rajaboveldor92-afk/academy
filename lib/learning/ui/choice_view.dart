@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import '../models/visual.dart';
@@ -115,7 +116,8 @@ class _ChoiceExerciseViewState extends State<ChoiceExerciseView> {
   Widget _preview() {
     return Column(
       children: [
-        Text('Yaxshilab qara va eslab qol!',
+        Text(Tr.of(context).lookAndRemember,
+            textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleLarge?.copyWith(color: AppColors.primary)),
         const SizedBox(height: 8),
         Expanded(child: Center(child: VisualView(visual: e.previewVisual!))),

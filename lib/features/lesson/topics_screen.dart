@@ -8,6 +8,7 @@ import '../../learning/models/topic.dart';
 import '../../models/child_profile.dart';
 import '../../models/child_progress.dart';
 import '../../models/subject.dart';
+import '../../l10n/tr.dart';
 import '../../router/app_router.dart';
 import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
@@ -50,10 +51,11 @@ class TopicsScreen extends ConsumerWidget {
   void _open(BuildContext context, WidgetRef ref, Topic t, {bool resume = false}) {
     final audio = ref.read(audioServiceProvider);
     // "Davom etamiz" kartasi — onaning ovozida; boshqa mavzu — uning nomi.
-    if (resume) {
+    final lang = ref.read(activeProfileProvider)?.language ?? 'uz';
+    if (resume && lang == 'uz') {
       audio.speakParts([MotherVoice.part('davom_etamiz')]);
     } else {
-      audio.speak(t.title.uz);
+      audio.speak(resume ? Tr(lang).continueLesson : t.title.of(lang), lang: lang);
     }
     Navigator.of(context).pushNamed(AppRoutes.lesson, arguments: t.id);
   }
@@ -66,10 +68,13 @@ class TopicsScreen extends ConsumerWidget {
     final rec = recommended(curriculum, progress);
     final width = MediaQuery.sizeOf(context).width;
     final columns = width >= 900 ? 4 : (width >= 600 ? 3 : 2);
+    final lang = profile.language;
 
-    return Scaffold(
+    return LangScope(
+      lang: lang,
+      child: Scaffold(
       appBar: AppBar(
-        title: Text('${subject.emoji}  ${curriculum.title.uz}'),
+        title: Text('${subject.emoji}  ${curriculum.title.of(lang)}'),
         backgroundColor: subject.color.withAlpha(40),
       ),
       body: SafeArea(
@@ -104,6 +109,7 @@ class TopicsScreen extends ConsumerWidget {
           ],
         ),
       ),
+      ),
     );
   }
 
@@ -128,10 +134,10 @@ class TopicsScreen extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('Davom etamiz',
+                    Text(Tr(profile.language).continueLesson,
                         style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900)),
                     Text(
-                      '${rec.emoji}  ${rec.title.uz}',
+                      '${rec.emoji}  ${rec.title.of(profile.language)}',
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w700),
@@ -168,7 +174,7 @@ class _TopicCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return PressableScale(
       onTap: onTap,
-      semanticLabel: topic.title.uz,
+      semanticLabel: topic.title.of(Tr.of(context).lang),
       child: Container(
         key: Key('topic_${topic.id}'),
         padding: const EdgeInsets.all(10),
@@ -191,7 +197,7 @@ class _TopicCard extends StatelessWidget {
               ),
             ),
             Text(
-              topic.title.uz,
+              topic.title.of(Tr.of(context).lang),
               textAlign: TextAlign.center,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,

@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/providers.dart';
 import '../../learning/content/content_provider.dart';
 import '../../learning/engine/rewards.dart';
+import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
 import '../../models/child_progress.dart';
 import '../../models/subject.dart';
@@ -23,9 +24,12 @@ class AchievementsScreen extends ConsumerWidget {
     final profile = ref.watch(activeProfileProvider);
     if (profile == null) return const Scaffold();
     final progress = ref.watch(childProgressProvider(profile.id));
+    final t = Tr(profile.language);
 
-    return Scaffold(
-      appBar: AppBar(title: const Text('Yutuqlarim')),
+    return LangScope(
+      lang: t.lang,
+      child: Scaffold(
+      appBar: AppBar(title: Text(t.achievements)),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
@@ -51,6 +55,7 @@ class AchievementsScreen extends ConsumerWidget {
             _CupsCard(profile: profile, progress: progress),
           ],
         ),
+      ),
       ),
     );
   }
@@ -103,8 +108,9 @@ class _GardenCard extends StatelessWidget {
     final plants = Rewards.garden(progress);
     final left = Rewards.lessonsPerPlant - progress.completedLessons % Rewards.lessonsPerPlant;
     final full = plants.length >= Rewards.maxPlants;
+    final t = Tr.of(context);
     return _Section(
-      title: '🌳 Mening bog‘im',
+      title: t.myGarden,
       color: AppColors.success,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -129,8 +135,8 @@ class _GardenCard extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             plants.isEmpty
-                ? 'Darsni tugat — bog‘ingga birinchi niholcha ekamiz!'
-                : (full ? 'Bog‘ing gullab-yashnayapti! Darslar gullarni o‘stiradi.' : 'Yana $left ta dars — yangi niholcha!'),
+                ? t.gardenEmpty
+                : (full ? t.gardenFull : t.lessonsToSprout(left)),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: AppColors.textSoft),
           ),
@@ -148,11 +154,13 @@ class _GiftCard extends ConsumerWidget {
   final ChildProgress progress;
 
   Future<void> _open(BuildContext context, WidgetRef ref) async {
+    final t = Tr.of(context);
     final gift = await ref.read(progressProvider.notifier).openGift(profile.id);
     if (gift == null || !context.mounted) return;
+    final name = gift.name.of(t.lang);
     ref.read(audioServiceProvider)
       ..playEffect(SoundEffect.star)
-      ..speak('Voy! ${gift.name}!');
+      ..speak(t.wow(name), lang: t.lang);
     await showDialog<void>(
       context: context,
       builder: (context) => AlertDialog(
@@ -163,9 +171,9 @@ class _GiftCard extends ConsumerWidget {
           children: [
             Text(gift.emoji, style: const TextStyle(fontSize: 96)),
             const SizedBox(height: 8),
-            Text(gift.name, style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w900)),
+            Text(name, style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w900)),
             const SizedBox(height: 4),
-            const Text('Kolleksiyangga qo‘shildi!', style: TextStyle(fontSize: 18)),
+            Text(t.addedToCollection, style: const TextStyle(fontSize: 18)),
           ],
         ),
         actionsAlignment: MainAxisAlignment.center,
@@ -173,7 +181,7 @@ class _GiftCard extends ConsumerWidget {
           FilledButton(
             key: const Key('gift_ok'),
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Zo‘r!'),
+            child: Text(t.great),
           ),
         ],
       ),
@@ -186,8 +194,9 @@ class _GiftCard extends ConsumerWidget {
     final collected = Rewards.collected(progress);
     final toNext = Rewards.starsToNextGift(progress);
     final unique = {for (final c in collected) c.emoji};
+    final t = Tr.of(context);
     return _Section(
-      title: '🎁 Sovg‘a qutisi',
+      title: t.giftBox,
       color: AppColors.star,
       trailing: Text('${unique.length}/${Rewards.collection.length}',
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.textSoft)),
@@ -204,7 +213,7 @@ class _GiftCard extends ConsumerWidget {
               ),
               onPressed: () => _open(context, ref),
               icon: const Text('🎁', style: TextStyle(fontSize: 30)),
-              label: Text(available > 1 ? 'Ochish ($available)' : 'Ochish'),
+              label: Text(t.open(available)),
             )
           else ...[
             ClipRRect(
@@ -218,14 +227,14 @@ class _GiftCard extends ConsumerWidget {
             ),
             const SizedBox(height: 6),
             Text(
-              'Yana $toNext ⭐ to‘pla — sovg‘a qutisi ochiladi!',
+              t.starsToGift(toNext),
               key: const Key('gift_progress'),
               textAlign: TextAlign.center,
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: AppColors.textSoft),
             ),
           ],
           const SizedBox(height: 12),
-          const Text('🧸 Kolleksiyam', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
+          Text(t.myCollection, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
           const SizedBox(height: 8),
           Wrap(
             spacing: 6,
@@ -233,7 +242,7 @@ class _GiftCard extends ConsumerWidget {
             children: [
               for (final c in Rewards.collection)
                 Tooltip(
-                  message: unique.contains(c.emoji) ? c.name : '?',
+                  message: unique.contains(c.emoji) ? c.name.of(t.lang) : '?',
                   child: Container(
                     width: 46,
                     height: 46,
@@ -266,7 +275,7 @@ class _MedalsCard extends StatelessWidget {
     final earned = progress.medals.toSet();
     final count = Rewards.medals.where((m) => earned.contains(m.id)).length;
     return _Section(
-      title: '🏅 Medallar',
+      title: Tr.of(context).medals,
       color: AppColors.gentle,
       trailing: Text('$count/${Rewards.medals.length}',
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.textSoft)),
@@ -318,7 +327,7 @@ class _MedalTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  medal.title,
+                  medal.title.of(Tr.of(context).lang),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
@@ -329,7 +338,7 @@ class _MedalTile extends StatelessWidget {
                 ),
                 if (!earned)
                   Text(
-                    medal.hint,
+                    medal.hint.of(Tr.of(context).lang),
                     maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: AppColors.textSoft),
@@ -353,17 +362,18 @@ class _CupsCard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final content = ref.watch(contentProvider).valueOrNull;
+    final t = Tr.of(context);
     return _Section(
-      title: '🏆 Fan kuboklari',
+      title: t.subjectCups,
       color: AppColors.secondary,
       child: content == null
           ? const Center(child: Padding(padding: EdgeInsets.all(12), child: CircularProgressIndicator()))
           : Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                const Text(
-                  '🥉 bronza → 🥈 kumush → 🏆 oltin: fandagi mavzularni o‘rganganing sari kubok o‘sadi.',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSoft),
+                Text(
+                  t.cupsInfo,
+                  style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSoft),
                 ),
                 const SizedBox(height: 10),
                 Wrap(
@@ -402,7 +412,7 @@ class _CupChip extends StatelessWidget {
         children: [
           Text(subject.emoji, style: const TextStyle(fontSize: 22)),
           const SizedBox(width: 6),
-          Text(subject.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800)),
+          Text(subject.titleIn(Tr.of(context).lang), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800)),
           const SizedBox(width: 6),
           Opacity(opacity: has ? 1 : 0.4, child: Text(Rewards.cupEmoji(tier), style: const TextStyle(fontSize: 22))),
         ],

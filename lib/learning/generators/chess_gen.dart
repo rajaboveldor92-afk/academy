@@ -39,13 +39,18 @@ class ChessGenerators {
     'P': Localized(uz: 'Piyoda', en: 'Pawn', ru: 'Пешка'),
   };
 
-  static const Map<String, String> moveHints = {
-    'K': 'Shoh har tomonga faqat bitta katak yuradi.',
-    'Q': 'Vazir to‘g‘ri va qiyshiq chiziqlar bo‘ylab istalgancha yuradi.',
-    'R': 'Rux to‘g‘ri chiziq bo‘ylab yuradi: oldinga, orqaga, chapga, o‘ngga.',
-    'B': 'Fil faqat qiyshiq (diagonal) chiziq bo‘ylab yuradi.',
-    'N': 'Ot «G» harfi kabi yuradi: ikki katak to‘g‘ri va bir katak yonga.',
-    'P': 'Piyoda oldinga bir katak yuradi, qiyshiq tomonga esa oladi.',
+  static const Map<String, Localized> moveHints = {
+    'K': Localized(uz: 'Shoh har tomonga faqat bitta katak yuradi.', en: 'The king moves only one square in any direction.',
+        ru: 'Король ходит только на одну клетку в любую сторону.'),
+    'Q': Localized(uz: 'Vazir to‘g‘ri va qiyshiq chiziqlar bo‘ylab istalgancha yuradi.', en: 'The queen moves any distance in straight and diagonal lines.',
+        ru: 'Ферзь ходит на любое расстояние по прямым и диагоналям.'),
+    'R': Localized(uz: 'Rux to‘g‘ri chiziq bo‘ylab yuradi: oldinga, orqaga, chapga, o‘ngga.', en: 'The rook moves in straight lines: forward, back, left, right.',
+        ru: 'Ладья ходит по прямой: вперёд, назад, влево, вправо.'),
+    'B': Localized(uz: 'Fil faqat qiyshiq (diagonal) chiziq bo‘ylab yuradi.', en: 'The bishop moves only diagonally.', ru: 'Слон ходит только по диагонали.'),
+    'N': Localized(uz: 'Ot «G» harfi kabi yuradi: ikki katak to‘g‘ri va bir katak yonga.', en: 'The knight moves like the letter L: two squares straight and one to the side.',
+        ru: 'Конь ходит буквой «Г»: две клетки прямо и одну в сторону.'),
+    'P': Localized(uz: 'Piyoda oldinga bir katak yuradi, qiyshiq tomonga esa oladi.', en: 'The pawn moves one square forward and captures diagonally.',
+        ru: 'Пешка ходит на одну клетку вперёд, а бьёт по диагонали.'),
   };
 
   static const Map<String, Localized> gameNames = {
@@ -106,7 +111,10 @@ class ChessGenerators {
         final name = ChessPosition(size, const {}).name(sq);
         return _chess(g, g.say('ch_tap_square', {'sq': name}), ChessTask(size: size, goal: 'tap_square', target: sq, coords: true),
             'chess:coords', meta: {'answer': name},
-            hint: 'Avval harfni (pastda), keyin raqamni (chapda) top.', explanation: '$name: ${name[0]} ustun, ${name.substring(1)}-qator');
+            hint: g.tr('Avval harfni (pastda), keyin raqamni (chapda) top.', 'First find the letter (at the bottom), then the number (on the left).',
+                'Сначала найди букву (внизу), потом цифру (слева).'),
+            explanation: g.tr('$name: ${name[0]} ustun, ${name.substring(1)}-qator', '$name: column ${name[0]}, row ${name.substring(1)}',
+                '$name: вертикаль ${name[0]}, горизонталь ${name.substring(1)}'));
       default:
         final light = mode == 'light';
         // Doskada 1–2 ta figura ham turadi (katak rangi figuraga bog'liq emasligini ko'rsatish uchun).
@@ -144,7 +152,7 @@ class ChessGenerators {
     final chosen = g.sample(types, _bounded(optCount, 2, types.length));
     final target = chosen.first;
     final n = names[target]!;
-    final explanation = '${whiteGlyph[target]} O‘zbekcha: ${n.uz} · Русский: ${n.ru} · English: ${n.en}';
+    final explanation = '${whiteGlyph[target]} ${g.tr('O‘zbekcha', 'Uzbek', 'Узбекский')}: ${n.uz} · ${g.tr('Русский', 'Russian', 'Русский')}: ${n.ru} · English: ${n.en}';
     switch (mode) {
       case 'name':
         return g.choice(
@@ -157,7 +165,7 @@ class ChessGenerators {
         );
       case 'three_lang':
         final base = g.say('ch_three_lang');
-        final parts = [SpeechPart(n.uz, 'uz'), SpeechPart(n.ru, 'ru'), SpeechPart(n.en, 'en'), const SpeechPart('Qaysi figura?', 'uz')];
+        final parts = [SpeechPart(n.uz, 'uz'), SpeechPart(n.ru, 'ru'), SpeechPart(n.en, 'en'), SpeechPart(g.tr('Qaysi figura?', 'Which piece?', 'Какая фигура?'), g.lang)];
         return g.choice(
           say: RenderedInstruction(base.text, parts.map((p) => p.text).join(' '), parts: parts, key: base.key),
           visual: const TextVisual('🔊', scale: 0.8),
@@ -196,7 +204,7 @@ class ChessGenerators {
       if (type == 'P' && star ~/ size == 0) continue;
       final task = ChessTask(size: size, goal: 'move_star', pieces: pieces, stars: {star}, coords: g.pb('coords'));
       return _chess(g, g.say('ch_move_star', {'piece': names[type]!}), task, 'chess:move:$type',
-          hint: moveHints[type], explanation: moveHints[type], meta: {'answer': star, 'piece': type});
+          hint: moveHints[type]!.of(g.lang), explanation: moveHints[type]!.of(g.lang), meta: {'answer': star, 'piece': type});
     }
     throw StateError('move_star');
   }
@@ -220,7 +228,7 @@ class ChessGenerators {
     }
     return _chess(g, g.say('ch_collect', {'piece': names[type]!}),
         ChessTask(size: size, goal: 'collect', pieces: pieces, stars: stars, coords: g.pb('coords')), 'chess:collect:$type',
-        hint: moveHints[type], meta: {'piece': type, 'stars': stars.length});
+        hint: moveHints[type]!.of(g.lang), meta: {'piece': type, 'stars': stars.length});
   }
 
   // ------------------------------------------------------------ Masalalar
@@ -234,12 +242,18 @@ class ChessGenerators {
       if (task == null) continue;
       if (!ChessGoals.isPlayable(task)) continue;
       final (key, hint, explanation) = switch (goal) {
-        'capture' => ('ch_capture', 'Qaysi oq figura qora figuraga yeta oladi?', 'Olish — raqib figurasi turgan katakka yurish.'),
-        'safe_capture' => ('ch_safe_capture', 'Olgandan keyin figurangni raqib ola olmasligi kerak.', 'Himoyalanmagan figurani olsang, o‘z figurang xavfsiz qoladi.'),
-        'check' => ('ch_check', 'Shohga to‘g‘ridan-to‘g‘ri hujum qiladigan yurishni top.', 'Shax — shohga hujum.'),
-        'escape' => ('ch_escape', 'Shohni hujum qilinmagan katakka o‘tkaz yoki hujumchini ol.', 'Shaxdan qutulish: qochish, to‘sish yoki hujumchini olish.'),
-        'defend' => ('ch_defend', 'Figurani hujum yetmaydigan katakka o‘tkaz.', 'Hujumdagi figurani xavfsiz joyga olib qochdik.'),
-        _ => ('ch_mate', 'Shohga shax ber — qochadigan joyi qolmasin.', 'Mat — shohga shax va qochadigan joy yo‘q.'),
+        'capture' => ('ch_capture', g.tr('Qaysi oq figura qora figuraga yeta oladi?', 'Which white piece can reach the black piece?', 'Какая белая фигура может дойти до чёрной?'),
+            g.tr('Olish — raqib figurasi turgan katakka yurish.', 'Capturing means moving to the square where the opponent’s piece stands.', 'Взять — значит пойти на клетку, где стоит фигура соперника.')),
+        'safe_capture' => ('ch_safe_capture', g.tr('Olgandan keyin figurangni raqib ola olmasligi kerak.', 'After capturing, the opponent must not be able to take your piece.', 'После взятия соперник не должен суметь взять твою фигуру.'),
+            g.tr('Himoyalanmagan figurani olsang, o‘z figurang xavfsiz qoladi.', 'If you take an unprotected piece, your own piece stays safe.', 'Если взять незащищённую фигуру, твоя фигура останется в безопасности.')),
+        'check' => ('ch_check', g.tr('Shohga to‘g‘ridan-to‘g‘ri hujum qiladigan yurishni top.', 'Find a move that attacks the king directly.', 'Найди ход, который прямо атакует короля.'),
+            g.tr('Shax — shohga hujum.', 'Check is an attack on the king.', 'Шах — это нападение на короля.')),
+        'escape' => ('ch_escape', g.tr('Shohni hujum qilinmagan katakka o‘tkaz yoki hujumchini ol.', 'Move the king to a safe square or capture the attacker.', 'Уведи короля на безопасную клетку или возьми нападающего.'),
+            g.tr('Shaxdan qutulish: qochish, to‘sish yoki hujumchini olish.', 'Escaping check: run away, block or capture the attacker.', 'Защита от шаха: уйти, закрыться или взять нападающего.')),
+        'defend' => ('ch_defend', g.tr('Figurani hujum yetmaydigan katakka o‘tkaz.', 'Move the piece to a square the attack cannot reach.', 'Переведи фигуру на клетку, куда нападение не достаёт.'),
+            g.tr('Hujumdagi figurani xavfsiz joyga olib qochdik.', 'We moved the attacked piece to safety.', 'Мы увели атакованную фигуру в безопасное место.')),
+        _ => ('ch_mate', g.tr('Shohga shax ber — qochadigan joyi qolmasin.', 'Give check so the king has nowhere to go.', 'Объяви шах так, чтобы королю некуда было уйти.'),
+            g.tr('Mat — shohga shax va qochadigan joy yo‘q.', 'Checkmate: the king is in check and cannot escape.', 'Мат — королю шах, и уйти некуда.')),
       };
       return _chess(g, g.say(key), task, 'chess:$goal', hint: hint, explanation: explanation, meta: {'goal': goal});
     }
@@ -329,9 +343,11 @@ class ChessGenerators {
     final game = g.pick(g.pl('games').isEmpty ? ['pawn_war'] : g.pl('games'));
     final ai = g.ps('ai', 'very_easy');
     final rules = switch (game) {
-      'queen_vs_pawns' => 'Hamma piyodalarni ol — birortasi ham oxirgi qatorga yetmasin.',
-      'rook_vs_pawns' => 'Ikki rux bilan hamma piyodalarni ol.',
-      _ => 'Piyodangni oxirgi qatorga birinchi bo‘lib olib bor yoki raqib piyodalarini ol.',
+      'queen_vs_pawns' => g.tr('Hamma piyodalarni ol — birortasi ham oxirgi qatorga yetmasin.', 'Capture all the pawns — don’t let any reach the last row.',
+          'Возьми все пешки — ни одна не должна дойти до последнего ряда.'),
+      'rook_vs_pawns' => g.tr('Ikki rux bilan hamma piyodalarni ol.', 'Capture all the pawns with two rooks.', 'Возьми все пешки двумя ладьями.'),
+      _ => g.tr('Piyodangni oxirgi qatorga birinchi bo‘lib olib bor yoki raqib piyodalarini ol.', 'Be the first to get a pawn to the last row, or capture the opponent’s pawns.',
+          'Первым проведи пешку до последнего ряда или возьми пешки соперника.'),
     };
     return _chess(
       g,

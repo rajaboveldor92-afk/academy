@@ -22,7 +22,11 @@ class ChildProfile {
     this.greeting = '',
     this.disabledSubjects = const <String>[],
     this.difficultyBias = 0,
+    this.language = 'uz',
   });
+
+  /// Ilova tillari: o'zbek, rus, ingliz.
+  static const List<String> languages = ['uz', 'ru', 'en'];
 
   /// Yangi profil uchun yoshga mos standart qiymatlar bilan konstruktor.
   factory ChildProfile.create({
@@ -34,6 +38,7 @@ class ChildProfile {
     String fullName = '',
     String? photoPath,
     String greeting = '',
+    String language = 'uz',
     DateTime? now,
   }) {
     final group = AgeGroup.fromAge(age);
@@ -46,6 +51,7 @@ class ChildProfile {
       photoPath: photoPath,
       greeting: greeting.trim(),
       colorIndex: colorIndex,
+      language: languages.contains(language) ? language : 'uz',
       dailyLimitMinutes:
           group.isJunior ? AppConstants.defaultLimitYoung : AppConstants.defaultLimitOlder,
       createdAt: now ?? DateTime.now(),
@@ -84,6 +90,9 @@ class ChildProfile {
 
   /// Ota-ona sozlaydigan qiyinlik: -1 osonroq, 0 odatiy, 1 qiyinroq.
   final int difficultyBias;
+
+  /// Bola ekranlari va mashqlar tili: `uz`, `ru` yoki `en` (ota-ona tanlaydi).
+  final String language;
   final DateTime createdAt;
 
   AgeGroup get ageGroup => AgeGroup.fromAge(age);
@@ -95,14 +104,27 @@ class ChildProfile {
   /// Kartada ko'rsatiladigan ism.
   String get displayFullName => fullName.isNotEmpty ? fullName : name;
 
-  /// "Azamjon, xush kelibsiz!"
-  String get welcomeTitle => '$name, xush kelibsiz!';
+  /// "Azamjon, xush kelibsiz!" (bolaning tilida).
+  String get welcomeTitle => switch (language) {
+        'ru' => '$name, добро пожаловать!',
+        'en' => 'Welcome, $name!',
+        _ => '$name, xush kelibsiz!',
+      };
 
-  /// "Bugun birga o'rganamiz!" yoki ota-ona yozgan matn.
+  /// Ota-ona yozgan salom yoki yoshga mos standart (bolaning tilida).
   String get welcomeSubtitle {
-    if (greeting.isNotEmpty) return greeting;
-    return ageGroup.isJunior ? defaultGreetingJunior : defaultGreetingSenior;
+    if (hasCustomGreeting) return greeting;
+    final junior = ageGroup.isJunior;
+    return switch (language) {
+      'ru' => junior ? 'Готов играть и учиться?' : 'Сегодня учимся вместе!',
+      'en' => junior ? 'Ready to play and learn?' : 'Let’s learn together today!',
+      _ => junior ? defaultGreetingJunior : defaultGreetingSenior,
+    };
   }
+
+  /// Ota-ona o'z salomini yozganmi (standart matnlardan farqli).
+  bool get hasCustomGreeting =>
+      greeting.isNotEmpty && greeting != defaultGreetingJunior && greeting != defaultGreetingSenior;
 
   ChildProfile copyWith({
     String? name,
@@ -116,6 +138,7 @@ class ChildProfile {
     int? dailyLimitMinutes,
     List<String>? disabledSubjects,
     int? difficultyBias,
+    String? language,
   }) {
     return ChildProfile(
       id: id,
@@ -129,6 +152,7 @@ class ChildProfile {
       dailyLimitMinutes: dailyLimitMinutes ?? this.dailyLimitMinutes,
       disabledSubjects: disabledSubjects ?? this.disabledSubjects,
       difficultyBias: difficultyBias ?? this.difficultyBias,
+      language: language ?? this.language,
       createdAt: createdAt,
     );
   }
@@ -145,6 +169,7 @@ class ChildProfile {
         'dailyLimitMinutes': dailyLimitMinutes,
         'disabledSubjects': List<String>.from(disabledSubjects),
         'difficultyBias': difficultyBias,
+        'language': language,
         'createdAt': createdAt.toIso8601String(),
       };
 
@@ -168,6 +193,7 @@ class ChildProfile {
       ),
       disabledSubjects: MapUtils.asStringList(map['disabledSubjects']),
       difficultyBias: _clampBias(MapUtils.asInt(map['difficultyBias'])),
+      language: languages.contains(map['language']) ? map['language'].toString() : 'uz',
       createdAt: MapUtils.asDate(map['createdAt']) ?? DateTime.fromMillisecondsSinceEpoch(0),
     );
   }
@@ -191,6 +217,7 @@ class ChildProfile {
       other.colorIndex == colorIndex &&
       other.dailyLimitMinutes == dailyLimitMinutes &&
       other.difficultyBias == difficultyBias &&
+      other.language == language &&
       other.disabledSubjects.join(',') == disabledSubjects.join(',');
 
   @override

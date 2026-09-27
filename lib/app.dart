@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'core/constants/app_constants.dart';
 import 'features/session/session_lifecycle.dart';
+import 'l10n/lang_providers.dart';
+import 'l10n/tr.dart';
 import 'router/app_router.dart';
 import 'theme/app_theme.dart';
 
@@ -12,6 +14,7 @@ class AcademyApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final lang = ref.watch(appLangProvider);
     return SessionLifecycle(
       child: MaterialApp(
         title: AppConstants.appName,
@@ -26,7 +29,8 @@ class AcademyApp extends ConsumerWidget {
             data: media.copyWith(
               textScaler: media.textScaler.clamp(maxScaleFactor: 1.3),
             ),
-            child: child ?? const SizedBox.shrink(),
+            // Umumiy ekranlar tili; bola ekranlari o'z LangScope'ini qo'yadi.
+            child: LangScope(lang: lang, child: child ?? const SizedBox.shrink()),
           );
         },
       ),

@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/constants/app_constants.dart';
 import '../../core/providers.dart';
+import '../../l10n/lang_providers.dart';
+import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
 import '../../services/profile_photo_service.dart';
 import '../../theme/app_colors.dart';
@@ -31,12 +33,13 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
   late int _age;
   late String _avatar;
   late int _themeIndex;
+  late String _language;
   String? _photoPath;
   late final ProfilePhotoService _photos;
 
   /// Saqlanmagan holda tanlangan yangi rasmlar — bekor qilinsa o'chiriladi.
   final List<String> _pickedPhotos = [];
-  String? _error;
+  ProfileError? _error;
   bool _saving = false;
   bool _saved = false;
 
@@ -53,6 +56,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     _avatar = p?.avatar ?? AppConstants.avatars.first;
     _themeIndex = (p?.colorIndex ?? ref.read(profilesProvider).length) % ProfileThemes.all.length;
     _photoPath = p?.photoPath;
+    _language = p?.language ?? ref.read(appLangProvider);
     _photos = ref.read(profilePhotoServiceProvider);
   }
 
@@ -73,13 +77,14 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
   /// Oldindan ko'rish uchun joriy qiymatlardan profil.
   ChildProfile get _preview => ChildProfile(
         id: widget.initial?.id ?? 'preview',
-        name: _name.text.trim().isEmpty ? 'Ism' : _name.text.trim(),
+        name: _name.text.trim().isEmpty ? Tr(_language).namePlaceholder : _name.text.trim(),
         fullName: _fullName.text.trim(),
         age: _age,
         avatar: _avatar,
         photoPath: _photoPath,
         greeting: _greeting.text.trim(),
         colorIndex: _themeIndex,
+        language: _language,
         dailyLimitMinutes: 0,
         createdAt: DateTime.fromMillisecondsSinceEpoch(0),
       );
@@ -98,12 +103,13 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Rasmni ochib bo‘lmadi: $e")),
+        SnackBar(content: Text(Tr.of(context).photoOpenFailed(e))),
       );
     }
   }
 
   Future<void> _showPhotoOptions() async {
+    final t = Tr.of(context);
     await showModalBottomSheet<void>(
       context: context,
       showDragHandle: true,
@@ -113,7 +119,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           children: [
             ListTile(
               leading: const Icon(Icons.photo_library_rounded),
-              title: const Text('Galereyadan tanlash'),
+              title: Text(t.pickGallery),
               onTap: () {
                 Navigator.of(ctx).pop();
                 _pickPhoto(fromCamera: false);
@@ -121,7 +127,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.photo_camera_rounded),
-              title: const Text('Kamerada suratga olish'),
+              title: Text(t.takePhoto),
               onTap: () {
                 Navigator.of(ctx).pop();
                 _pickPhoto(fromCamera: true);
@@ -130,7 +136,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
             if (_photoPath != null)
               ListTile(
                 leading: const Icon(Icons.hide_image_outlined),
-                title: const Text("Rasmni olib tashlash (avatar ko‘rsatiladi)"),
+                title: Text(t.removePhoto),
                 onTap: () {
                   Navigator.of(ctx).pop();
                   setState(() => _photoPath = null);
@@ -159,6 +165,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           avatar: _avatar,
           colorIndex: _themeIndex,
           photoPath: _photoPath,
+          language: _language,
         );
       } else {
         await notifier.updateProfile(initial.copyWith(
@@ -170,6 +177,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           colorIndex: _themeIndex,
           photoPath: _photoPath,
           clearPhoto: _photoPath == null,
+          language: _language,
         ));
       }
       _saved = true;
@@ -181,7 +189,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
       }
       if (mounted) Navigator.of(context).pop(true);
     } on ProfileValidationException catch (e) {
-      setState(() => _error = e.message);
+      setState(() => _error = e.error);
     } finally {
       if (mounted) setState(() => _saving = false);
     }
@@ -192,9 +200,17 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     final textTheme = Theme.of(context).textTheme;
     final preview = _preview;
     final theme = ProfileThemes.of(_themeIndex);
+    final t = Tr.of(context);
+    final errorText = switch (_error) {
+      ProfileError.nameEmpty => t.nameRequired,
+      ProfileError.nameTooLong => t.nameTooLong,
+      ProfileError.fullNameTooLong => t.fullNameTooLong,
+      ProfileError.ageRange => t.ageRange,
+      null => null,
+    };
 
     return Scaffold(
-      appBar: AppBar(title: Text(_isEdit ? 'Profilni tahrirlash' : 'Yangi profil')),
+      appBar: AppBar(title: Text(_isEdit ? t.editProfile : t.newProfile)),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(20),
@@ -221,24 +237,24 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
                   TextButton.icon(
                     onPressed: _showPhotoOptions,
                     icon: const Icon(Icons.add_a_photo_rounded),
-                    label: Text(_photoPath == null ? "Rasm qo‘shish" : 'Rasmni almashtirish'),
+                    label: Text(_photoPath == null ? t.addPhoto : t.changePhoto),
                   ),
                   Text(
                     preview.displayFullName,
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900),
                   ),
-                  Text('$_age yosh', style: TextStyle(color: theme.primary, fontWeight: FontWeight.w700)),
+                  Text(Tr(_language).years(_age), style: TextStyle(color: theme.primary, fontWeight: FontWeight.w700)),
                 ],
               ),
             ),
             const SizedBox(height: 8),
             Text(
-              "🔒 Rasm faqat shu telefonda saqlanadi va hech qayerga yuborilmaydi.",
+              t.photoLocalOnly,
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
             const SizedBox(height: 20),
-            Text("To‘liq ism (kartada)", style: textTheme.titleMedium),
+            Text(t.fullNameLabel, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             TextField(
               key: const Key('full_name_field'),
@@ -247,10 +263,10 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               textCapitalization: TextCapitalization.words,
               onChanged: (_) => setState(() {}),
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-              decoration: const InputDecoration(hintText: 'Masalan: Odilbekov Azamjon Eldorovich'),
+              decoration: InputDecoration(hintText: t.fullNameHint),
             ),
             const SizedBox(height: 8),
-            Text('Qisqa ism (murojaat uchun)', style: textTheme.titleMedium),
+            Text(t.shortNameLabel, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             TextField(
               key: const Key('name_field'),
@@ -259,10 +275,10 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               textCapitalization: TextCapitalization.words,
               onChanged: (_) => setState(() {}),
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-              decoration: InputDecoration(hintText: 'Masalan: Azamjon', errorText: _error),
+              decoration: InputDecoration(hintText: t.shortNameHint, errorText: errorText),
             ),
             const SizedBox(height: 8),
-            Text('Yosh', style: textTheme.titleMedium),
+            Text(t.age, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 10,
@@ -279,7 +295,22 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               ],
             ),
             const SizedBox(height: 20),
-            Text('Profil mavzusi va ramkasi', style: textTheme.titleMedium),
+            Text(t.appLanguageForChild, style: textTheme.titleMedium),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 10,
+              children: [
+                for (final code in ChildProfile.languages)
+                  ChoiceChip(
+                    key: Key('lang_$code'),
+                    label: Text(t.langName(code)),
+                    selected: _language == code,
+                    onSelected: (_) => setState(() => _language = code),
+                  ),
+              ],
+            ),
+            const SizedBox(height: 20),
+            Text(t.themeLabel, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 10,
@@ -294,7 +325,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               ],
             ),
             const SizedBox(height: 20),
-            Text("Avatar (rasm bo‘lmasa ko‘rinadi)", style: textTheme.titleMedium),
+            Text(t.avatarLabel, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 8,
@@ -321,7 +352,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               ],
             ),
             const SizedBox(height: 20),
-            Text('Salomlashuv (ikkinchi qator)', style: textTheme.titleMedium),
+            Text(t.greetingLabel, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             TextField(
               key: const Key('greeting_field'),
@@ -331,14 +362,14 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               decoration: InputDecoration(hintText: preview.welcomeSubtitle),
             ),
             Text(
-              'Bola ko‘radi: "${preview.welcomeTitle}  ${preview.welcomeSubtitle}"',
+              t.childSees('${preview.welcomeTitle}  ${preview.welcomeSubtitle}'),
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
             const SizedBox(height: 28),
             FilledButton(
               key: const Key('save_profile'),
               onPressed: _saving ? null : _save,
-              child: const Text('Saqlash'),
+              child: Text(t.save),
             ),
           ],
         ),
@@ -374,7 +405,7 @@ class _ThemeChip extends StatelessWidget {
         child: Column(
           children: [
             Text(theme.emoji, style: const TextStyle(fontSize: 28)),
-            Text(theme.name, style: const TextStyle(fontWeight: FontWeight.w700)),
+            Text(Tr.of(context).themeName(theme.id), style: const TextStyle(fontWeight: FontWeight.w700)),
           ],
         ),
       ),

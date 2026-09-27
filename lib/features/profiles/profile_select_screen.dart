@@ -12,6 +12,7 @@ import '../../widgets/profile_photo.dart';
 import '../../widgets/star_burst.dart';
 import '../session/session_controller.dart';
 import 'profiles_controller.dart';
+import '../../l10n/tr.dart';
 
 /// "Kim o'ynaydi?" — profil tanlash ekrani.
 ///
@@ -62,6 +63,7 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
   @override
   Widget build(BuildContext context) {
     final profiles = ref.watch(profilesProvider);
+    final t = Tr.of(context);
 
     return Scaffold(
       body: SafeArea(
@@ -73,13 +75,13 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
                 children: [
                   IconButton(
                     iconSize: 32,
-                    tooltip: 'Tinglash',
-                    onPressed: () => ref.read(audioServiceProvider).speak('Kim o‘ynaydi?'),
+                    tooltip: t.listen,
+                    onPressed: () => ref.read(audioServiceProvider).speak(t.whoPlays, lang: t.lang),
                     icon: const Icon(Icons.volume_up_rounded, color: AppColors.primary),
                   ),
                   Expanded(
                     child: Text(
-                      "Kim o‘ynaydi?",
+                      t.whoPlays,
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
@@ -87,7 +89,7 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
                   IconButton(
                     key: const Key('parent_button'),
                     iconSize: 30,
-                    tooltip: 'Ota-ona',
+                    tooltip: t.parent,
                     onPressed: () => Navigator.of(context).pushNamed(AppRoutes.parentGate),
                     icon: const Icon(Icons.lock_rounded, color: AppColors.parent),
                   ),
@@ -139,7 +141,7 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
                 onPressed: () => Navigator.of(context)
                     .pushNamed(AppRoutes.parentGate, arguments: AppRoutes.profileEditor),
                 icon: const Icon(Icons.add_circle_outline_rounded),
-                label: const Text('Yangi profil (ota-ona)'),
+                label: Text(t.newProfileParent),
                 style: TextButton.styleFrom(foregroundColor: AppColors.textSoft),
               ),
             ),
@@ -178,7 +180,7 @@ class ProfileCard extends StatelessWidget {
         scale: selected ? 1.04 : 1,
         child: PressableScale(
           onTap: onTap,
-          semanticLabel: '${profile.displayFullName}, ${profile.age} yosh',
+          semanticLabel: '${profile.displayFullName}, ${Tr.of(context).years(profile.age)}',
           child: Container(
             key: Key('profile_${profile.id}'),
             decoration: BoxDecoration(
@@ -256,7 +258,7 @@ class ProfileCard extends StatelessWidget {
                               borderRadius: BorderRadius.circular(20),
                             ),
                             child: Text(
-                              '${profile.age} yosh',
+                              Tr.of(context).years(profile.age),
                               style: TextStyle(
                                 fontSize: nameSize * 0.7,
                                 fontWeight: FontWeight.w700,
@@ -287,7 +289,7 @@ class _EmptyProfiles extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(32),
         child: Text(
-          "Hali profil yo‘q.\nOta-ona pastdagi tugma orqali profil yaratadi.",
+          Tr.of(context).noProfiles,
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.titleMedium,
         ),

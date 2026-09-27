@@ -89,7 +89,7 @@ class UzbekJunior {
         options: [Opt.emoji(odd.emoji), for (final m in main) Opt.emoji(m.emoji)],
         concept: 'word:${odd.id}',
         meta: {'answer': odd.id, 'theme': theme},
-        explanation: '${odd.uz} — ${themeNoun[theme]!.uz} emas.',
+        explanation: g.tr('${odd.uz} — ${themeNoun[theme]!.uz} emas.', '${odd.uz} is not ${themeNoun[theme]!.en}.', '${odd.uz} — это не ${themeNoun[theme]!.ru}.'),
       );
     }
     final target = g.pick(pool);
@@ -135,8 +135,8 @@ class UzbekJunior {
       concept: 'sound:$letter',
       meta: {'answer': target.word, 'letter': letter, 'position': last ? 'last' : 'first'},
       explanation: last
-          ? '${target.word} — oxiri «$letter»'
-          : '${target.word} — «$shown» bilan boshlanadi',
+          ? g.tr('${target.word} — oxiri «$letter»', '${target.word} ends with «$letter»', '${target.word} — заканчивается на «$letter»')
+          : g.tr('${target.word} — «$shown» bilan boshlanadi', '${target.word} starts with «$shown»', '${target.word} — начинается с «$shown»'),
     );
   }
 

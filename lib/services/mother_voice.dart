@@ -103,10 +103,7 @@ class MotherVoice {
   /// (unda profil matni qurilma ovozida aytiladi). [first] — ilova ochilgandan keyingi birinchi kirish.
   static List<SpeechPart>? greeting(ChildProfile p, {required bool first}) {
     final name = nameClip(p);
-    final customGreeting = p.greeting.isNotEmpty &&
-        p.greeting != ChildProfile.defaultGreetingJunior &&
-        p.greeting != ChildProfile.defaultGreetingSenior;
-    if (name == null || customGreeting) return null;
+    if (name == null || p.hasCustomGreeting || p.language != 'uz') return null;
     return first
         ? parts(['salom_$name', 'oynaymiz_organamiz', 'qaysi_oyinni_tanlaymiz'])
         : parts(['salom', name, 'keling_birga_oynaymiz']);
@@ -178,9 +175,12 @@ class MotherVoice {
     return [SpeechPart(clip != null ? clips[clip]! : e.speech, e.speechLang, clip: clip)];
   }
 
+  /// Chet tili fanlari: ko'rsatma o'rganilayotgan tilda aytiladi.
+  static const Set<String> listeningSubjects = {'english', 'russian', 'trilingual'};
+
   /// Tinglab bajariladigan mashq (chet tili, "eshit va top", 3 tilda).
   static bool isListening(Exercise e) =>
-      e.speechLang != 'uz' ||
+      listeningSubjects.contains(e.subject) ||
       e.instructionKey.startsWith('lg_') ||
       e.instructionKey.startsWith('tri_') ||
       e.speechParts.isNotEmpty;
@@ -209,8 +209,14 @@ class MotherVoice {
 
   /// Kichik yoshda sanash mashqidan keyin birga sanaymiz: "Bir, ikki, uch".
   static List<SpeechPart> countAloud(Exercise e) {
+    final n = countTarget(e);
+    return n == null ? const [] : parts(numbers.take(n).toList());
+  }
+
+  /// Sanash mashqining javobi (1–5 bo'lsa): kichik yoshda birga sanab beriladi.
+  static int? countTarget(Exercise e) {
     final n = e.meta['answer'];
-    if (!_counting(e) || n is! int || n < 1 || n > numbers.length) return const [];
-    return parts(numbers.take(n).toList());
+    if (!_counting(e) || n is! int || n < 1 || n > numbers.length) return null;
+    return n;
   }
 }

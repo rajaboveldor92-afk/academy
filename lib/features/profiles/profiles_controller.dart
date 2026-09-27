@@ -7,9 +7,12 @@ import '../../core/providers.dart';
 import '../../models/child_profile.dart';
 
 /// Profil yaratish/tahrirlashdagi tekshiruv xatolari.
+enum ProfileError { nameEmpty, nameTooLong, fullNameTooLong, ageRange }
+
 class ProfileValidationException implements Exception {
-  const ProfileValidationException(this.message);
+  const ProfileValidationException(this.message, this.error);
   final String message;
+  final ProfileError error;
 
   @override
   String toString() => message;
@@ -26,16 +29,16 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
   static void validate({required String name, required int age, String fullName = ''}) {
     final trimmed = name.trim();
     if (trimmed.isEmpty) {
-      throw const ProfileValidationException('Qisqa ismni kiriting');
+      throw const ProfileValidationException('Qisqa ismni kiriting', ProfileError.nameEmpty);
     }
     if (trimmed.length > AppConstants.maxNameLength) {
-      throw const ProfileValidationException('Ism juda uzun');
+      throw const ProfileValidationException('Ism juda uzun', ProfileError.nameTooLong);
     }
     if (fullName.trim().length > AppConstants.maxFullNameLength) {
-      throw const ProfileValidationException("To‘liq ism juda uzun");
+      throw const ProfileValidationException('To‘liq ism juda uzun', ProfileError.fullNameTooLong);
     }
     if (age < AppConstants.minAge || age > AppConstants.maxAge) {
-      throw const ProfileValidationException('Yosh 3 dan 8 gacha bo‘lishi kerak');
+      throw const ProfileValidationException('Yosh 3 dan 8 gacha bo‘lishi kerak', ProfileError.ageRange);
     }
   }
 
@@ -50,6 +53,7 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
     String fullName = '',
     String greeting = '',
     String? photoPath,
+    String language = 'uz',
   }) async {
     validate(name: name, age: age, fullName: fullName);
     final profile = ChildProfile.create(
@@ -58,6 +62,7 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       fullName: fullName,
       greeting: greeting,
       photoPath: photoPath,
+      language: language,
       age: age,
       avatar: avatar,
       colorIndex: colorIndex ?? state.length,

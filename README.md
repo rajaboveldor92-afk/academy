@@ -18,7 +18,8 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 7 | 🧠 Xotira (juft kartalar, ketma-ketlik, nima o‘zgardi…), 🎯 Diqqat (rasmdan topish, farqni top, labirint), 🧩 Puzzle (4–25 bo‘lak), ✋ Motorika, 🤝 Muloqot (hislar, sehrli so‘zlar, xavfsizlik), 🏠 Ota-ona bilan (41 ta Montessori faoliyati) | ✅ |
 | CONTENT 8 | ▶ Bugungi darsim (fanlar aralash kunlik dars), takrorlash (shu dars → ertaga → 3 kun → 7 kun), 🌳 bog‘, 🎁 sovg‘a qutisi va kolleksiya, 🏅 24 medal, 🏆 fan kuboklari | ✅ |
 | CONTENT 9 | 📊 Ota-ona uchun batafsil hisobot: vaqt va faol kunlar, aniqlik, har fan bo‘yicha egallash %, har mavzu holati (daraja, foiz, oxirgi mashq), takrorlash navbati, kuchli tomonlar va e’tibor kerak bo‘lgan mavzular, tavsiyalar | ✅ |
-| CONTENT 10 | Yakuniy QA va release | ⏳ |
+| CONTENT 10 | Yakuniy QA va release | ✅ |
+| Ilova tillari | O‘zbekcha, Русский, English — har bir bolaga alohida (interfeys + mashqlar), ota-ona bo‘limi uchun umumiy til | ✅ |
 
 ## O‘quv dvigateli
 
@@ -75,6 +76,22 @@ sudoku/labirint/kodlash yechimi borligi, har darajada ≥ 15 xil savol va umumiy
 O‘zbek tili: bo‘g‘inlar so‘zni tashkil etishi, har bo‘g‘inda bitta unli, lug‘at bog‘lanishlari, so‘z hajmi
 (4 yosh ≥ 250, 6 yosh ≥ 500). Yozish: har bir harf/raqam uchun chiziq borligi, namuna o‘tishi,
 tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
+
+## Ilova tillari
+
+Ilova uch tilda ishlaydi: **O‘zbekcha**, **Русский**, **English**.
+
+* **Har bir bolaga alohida til** — Ota-ona → bola sozlamalari → «Ilova tili (bola ekranlari va mashqlar)»
+  (yoki profil tahririda). Bola tanlagach bosh sahifa, fanlar, mavzular, dars, yutuqlar va «vaqt tugadi» ekrani,
+  mashq ko‘rsatmalari, maslahatlar, izohlar, variantlar, maqtov va dalda shu tilda bo‘ladi (ovoz ham).
+* **Umumiy til** (profil tanlash ekrani va ota-ona bo‘limi, hisobot bilan) — Ota-ona → Sozlamalar.
+* Qaysi darslar o‘z tilida qoladi: **O‘zbek tili** va **✏️ Yozish** — o‘zbekcha (so‘z va harflar o‘zbekcha),
+  ko‘rsatma ostida bolaning tilidagi tarjimasi ko‘rinadi; **English**, **Русский** va **3 tilda** — o‘rganilayotgan tilda.
+* **Onaning ovozi** faqat o‘zbek tilidagi profilda eshitiladi; rus/ingliz profilida gaplar qurilma ovozida (TTS).
+* Kod: `lib/l10n/tr.dart` (`Tr` — barcha ekran matnlari, `LangScope` — tilni pastdagi vidjetlarga uzatadi),
+  `lib/l10n/lang_providers.dart`; generatorlar `GenContext.lang` / `g.tr(uz, en, ru)` bilan ishlaydi,
+  ko‘rsatmalar `InstructionBank` (uch tilda). Ota-ona bilan faoliyatlar va muloqot vaziyatlari tarjimalari:
+  `tool/content/family_social_i18n.py` → `python3 tool/content/family_social_src.py`.
 
 ## Talablar
 
@@ -262,13 +279,16 @@ Yangi mavzu qo‘shish:
 
 `flutter test` quyidagilarni tekshiradi:
 - **Kontent** (`test/content`): barcha fan × yosh × mavzu × daraja uchun mashqlar generatsiyasi,
-  to‘g‘rilik, yagona javob, yoshga moslik, emoji, uch til tarjimalari, dars to‘liq tuzilishi, hajm.
+  to‘g‘rilik, yagona javob, yoshga moslik, emoji, uch til tarjimalari, dars to‘liq tuzilishi, hajm;
+  rus va ingliz tilidagi profil uchun ham barcha mavzular (ko‘rsatma bolaning tilida, maslahat va variantlarda
+  o‘zbekcha so‘z qolmagan, ovozda raqam yo‘q).
 - **Dvigatel** (`test/learning`): adaptiv qoida, mastery, takrorlash navbati, kunlik reja, yutuqlar,
   shaxmat qoidalari, yozishni baholash, barcha mashq ko‘rinishlari (bosish, sudrash, chizish).
 - **Controller va model**: profil yaratish/tanlash/o‘chirish, progress saqlash va qayta yuklash
   (eski formatdagi yozuvlar ham), streak, kunlik vaqt limiti (soxta soat bilan), ota-ona PIN, backup.
 - **Widget**: profil ekrani, PIN himoyasi, fan → mavzu → dars oqimi, kunlik dars, qayta so‘rash,
-  yutuqlar ekrani, ota-ona hisoboti.
+  yutuqlar ekrani, ota-ona hisoboti; ruscha/inglizcha profil (bosh sahifa, dars, dalda va maqtov tili),
+  bola tili va umumiy ilova tilini tanlash.
 
 ## Xavfsizlik
 

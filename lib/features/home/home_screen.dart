@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/providers.dart';
 import '../../learning/engine/daily_planner.dart';
 import '../../learning/engine/rewards.dart';
+import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
@@ -38,11 +39,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       if (profile == null) return;
       final audio = ref.read(audioServiceProvider);
       // Onaning ovozida salom; ota-ona o'z salomini yozgan bo'lsa — o'sha matn (faqat qisqa ism bilan).
-      final greeting = MotherVoice.greeting(profile, first: _greeted.add(profile.id));
+      final first = _greeted.add(profile.id);
+      final greeting = profile.language == 'uz' ? MotherVoice.greeting(profile, first: first) : null;
       if (greeting != null) {
         audio.speakParts(greeting);
       } else {
-        audio.speak('${profile.welcomeTitle} ${profile.welcomeSubtitle}');
+        audio.speak('${profile.welcomeTitle} ${profile.welcomeSubtitle}', lang: profile.language);
       }
     });
   }
@@ -53,26 +55,31 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     navigator.pushReplacementNamed(AppRoutes.timeUp);
   }
 
+  String get _lang => ref.read(activeProfileProvider)?.language ?? 'uz';
+
   void _openSubject(Subject subject) {
     final audio = ref.read(audioServiceProvider);
     audio.playEffect(SoundEffect.tap);
-    final clip = MotherVoice.subjectClip(subject.id);
+    final clip = _lang == 'uz' ? MotherVoice.subjectClip(subject.id) : null;
+    final (name, lang) = subject.spokenIn(_lang);
     if (clip != null) {
       audio.speakParts([MotherVoice.part(clip)]);
+    } else if (lang == 'uz') {
+      audio.playWord(name, lang: lang, key: 'subject_${subject.id}');
     } else {
-      audio.playWord(subject.spokenName, lang: subject.speechLang, key: 'subject_${subject.id}');
+      audio.speak(name, lang: lang);
     }
     Navigator.of(context).pushNamed(AppRoutes.subject, arguments: subject);
   }
 
   void _openDailyLesson() {
     ref.read(audioServiceProvider).playEffect(SoundEffect.tap);
-    ref.read(audioServiceProvider).speak('Bugungi darsim');
+    ref.read(audioServiceProvider).speak(Tr(_lang).dailyLessonSpoken, lang: _lang);
     Navigator.of(context).pushNamed(AppRoutes.dailyLesson);
   }
 
   void _openAchievements() {
-    ref.read(audioServiceProvider).speak('Yutuqlarim');
+    ref.read(audioServiceProvider).speak(Tr(_lang).achievements, lang: _lang);
     Navigator.of(context).pushNamed(AppRoutes.achievements);
   }
 
@@ -93,8 +100,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final subjects = Subject.values.where((s) => profile.isSubjectEnabled(s.id)).toList();
     final width = MediaQuery.sizeOf(context).width;
     final columns = width >= 900 ? 4 : (width >= 600 ? 3 : 2);
+    final t = Tr(profile.language);
 
-    return Scaffold(
+    return LangScope(
+      lang: profile.language,
+      child: Scaffold(
       body: SafeArea(
         child: Column(
           children: [
@@ -125,7 +135,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     return SubjectTile(
                       key: const Key('tile_achievements'),
                       emoji: '🏆',
-                      title: 'Yutuqlarim',
+                      title: t.achievements,
                       color: AppColors.star,
                       compactLabel: profile.ageGroup.isJunior,
                       // Ochilmagan sovg'a qutisi bo'lsa — belgi.
@@ -137,7 +147,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   return SubjectTile(
                     key: Key('tile_${s.id}'),
                     emoji: s.emoji,
-                    title: s.title,
+                    title: s.titleIn(profile.language),
                     color: s.color,
                     compactLabel: profile.ageGroup.isJunior,
                     badge: progress.currentLevels.containsKey(s.id)
@@ -150,6 +160,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             ),
           ],
         ),
+      ),
       ),
     );
   }
@@ -171,7 +182,7 @@ class _Header extends StatelessWidget {
           IconButton(
             key: const Key('home_back'),
             iconSize: 32,
-            tooltip: 'Profillar',
+            tooltip: Tr.of(context).profiles,
             onPressed: () => Navigator.of(context).maybePop(),
             icon: const Icon(Icons.arrow_back_rounded),
           ),
@@ -191,7 +202,7 @@ class _Header extends StatelessWidget {
           const SizedBox(width: 4),
           // Ota-ona bo'limi: bosib turish + PIN (bola tasodifan kira olmaydi).
           Tooltip(
-            message: "Ota-ona: bosib turing",
+            message: Tr.of(context).parentHold,
             child: GestureDetector(
               key: const Key('home_parent_lock'),
               onLongPress: () => Navigator.of(context).pushNamed(AppRoutes.parentGate),
@@ -225,9 +236,8 @@ class _DailyLessonCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final subtitle = done
-        ? 'Bugun bajarding! Yana bir marta?'
-        : (junior ? '$exercises ta qiziqarli mashq' : '$exercises ta mashq · 10–20 daqiqa');
+    final t = Tr.of(context);
+    final subtitle = done ? t.dailyDone : (junior ? t.dailyJunior(exercises) : t.dailySenior(exercises));
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
       child: Material(
@@ -254,7 +264,7 @@ class _DailyLessonCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'BUGUNGI DARSim',
+                        t.dailyLesson,
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.w900,

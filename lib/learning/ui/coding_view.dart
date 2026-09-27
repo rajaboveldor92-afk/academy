@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import 'option_card.dart';
@@ -147,7 +148,7 @@ class _CodingExerciseViewState extends State<CodingExerciseView> {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Text(
-                    _program.isEmpty ? 'Strelkalarni bos…' : _program.map((s) => _arrows[s]).join(' '),
+                    _program.isEmpty ? Tr.of(context).tapArrows : _program.map((s) => _arrows[s]).join(' '),
                     style: TextStyle(fontSize: _program.isEmpty ? 18 : 28, color: AppColors.textSoft),
                   ),
                 ),

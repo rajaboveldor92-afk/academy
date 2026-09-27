@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import 'option_card.dart';
@@ -109,7 +110,7 @@ class _AssembleExerciseViewState extends State<AssembleExerciseView> {
     if (_previewing) {
       return Column(
         children: [
-          const Text('Yaxshilab qara va eslab qol!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.primary)),
+          Text(Tr.of(context).lookAndRemember, textAlign: TextAlign.center, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.primary)),
           const SizedBox(height: 8),
           Expanded(child: Center(child: VisualView(visual: widget.exercise.previewVisual!))),
           Text('$_previewLeft', key: const ValueKey('preview_left'), style: const TextStyle(fontSize: 40, fontWeight: FontWeight.w900, color: AppColors.textSoft)),

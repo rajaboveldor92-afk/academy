@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/tr.dart';
 import '../../widgets/pin_pad.dart';
 import 'settings_controller.dart';
 
@@ -17,7 +18,8 @@ class ParentGateScreen extends ConsumerStatefulWidget {
 }
 
 class _ParentGateScreenState extends ConsumerState<ParentGateScreen> {
-  String? _error;
+  /// Xato matni (tilga qarab build'da hosil qilinadi).
+  String Function(Tr t)? _error;
   Timer? _lockTimer;
 
   @override
@@ -41,7 +43,8 @@ class _ParentGateScreenState extends ConsumerState<ParentGateScreen> {
         t.cancel();
         setState(() => _error = null);
       } else {
-        setState(() => _error = 'Kuting: ${service.lockRemaining.inSeconds + 1} s');
+        final seconds = service.lockRemaining.inSeconds + 1;
+        setState(() => _error = (tr) => tr.waitSeconds(seconds));
       }
     });
   }
@@ -54,18 +57,20 @@ class _ParentGateScreenState extends ConsumerState<ParentGateScreen> {
       return;
     }
     if (service.isLocked) {
-      setState(() => _error = 'Kuting: ${service.lockRemaining.inSeconds + 1} s');
+      final seconds = service.lockRemaining.inSeconds + 1;
+      setState(() => _error = (tr) => tr.waitSeconds(seconds));
       _startLockCountdown();
     } else {
-      setState(() => _error = "PIN noto‘g‘ri");
+      setState(() => _error = (t) => t.wrongPin);
     }
   }
 
   @override
   Widget build(BuildContext context) {
     final locked = ref.read(parentPinServiceProvider).isLocked;
+    final t = Tr.of(context);
     return Scaffold(
-      appBar: AppBar(title: const Text('Ota-ona')),
+      appBar: AppBar(title: Text(t.parent)),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -74,9 +79,9 @@ class _ParentGateScreenState extends ConsumerState<ParentGateScreen> {
               children: [
                 const Text('🔒', style: TextStyle(fontSize: 56)),
                 const SizedBox(height: 8),
-                Text('PIN kodni kiriting', style: Theme.of(context).textTheme.titleLarge),
+                Text(t.enterPin, style: Theme.of(context).textTheme.titleLarge),
                 const SizedBox(height: 16),
-                PinPad(onCompleted: _onPin, enabled: !locked, errorText: _error),
+                PinPad(onCompleted: _onPin, enabled: !locked, errorText: _error?.call(t)),
               ],
             ),
           ),

@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../core/utils/date_keys.dart';
+import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
 import '../../models/child_progress.dart';
 import '../../models/subject.dart';
@@ -24,14 +25,15 @@ class ParentHomeScreen extends ConsumerWidget {
     final settings = ref.watch(settingsProvider);
     final now = ref.read(clockProvider)();
     final textTheme = Theme.of(context).textTheme;
+    final t = Tr.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Ota-ona')),
+      appBar: AppBar(title: Text(t.parent)),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            Text('Bolalar', style: textTheme.titleLarge),
+            Text(t.children, style: textTheme.titleLarge),
             const SizedBox(height: 8),
             for (final p in profiles)
               _ChildSummaryCard(
@@ -47,32 +49,60 @@ class ParentHomeScreen extends ConsumerWidget {
             OutlinedButton.icon(
               onPressed: () => Navigator.of(context).pushNamed(AppRoutes.profileEditor),
               icon: const Icon(Icons.person_add_alt_1_rounded),
-              label: const Text("Bola qo‘shish"),
+              label: Text(t.addChild),
             ),
             const SizedBox(height: 24),
-            Text('Sozlamalar', style: textTheme.titleLarge),
+            Text(t.settings, style: textTheme.titleLarge),
             const SizedBox(height: 8),
             Card(
               child: Column(
                 children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            const Icon(Icons.translate_rounded, color: AppColors.textSoft),
+                            const SizedBox(width: 12),
+                            Expanded(child: Text(t.parentLanguage, style: textTheme.titleMedium)),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Wrap(
+                          spacing: 8,
+                          children: [
+                            for (final code in Tr.languages)
+                              ChoiceChip(
+                                key: Key('app_lang_$code'),
+                                label: Text(t.langName(code)),
+                                selected: settings.appLanguage == code,
+                                onSelected: (_) => ref.read(settingsProvider.notifier).setAppLanguage(code),
+                              ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                   SwitchListTile(
-                    title: const Text('Ovoz effektlari'),
+                    title: Text(t.soundEffects),
                     value: settings.soundEnabled,
                     onChanged: (v) => ref.read(settingsProvider.notifier).setSound(v),
                   ),
                   SwitchListTile(
-                    title: const Text("So‘zlarni ovozda aytish"),
+                    title: Text(t.voiceWords),
                     value: settings.voiceEnabled,
                     onChanged: (v) => ref.read(settingsProvider.notifier).setVoice(v),
                   ),
                   SwitchListTile(
-                    title: const Text('Fon musiqasi'),
+                    title: Text(t.music),
                     value: settings.musicEnabled,
                     onChanged: (v) => ref.read(settingsProvider.notifier).setMusic(v),
                   ),
                   ListTile(
                     leading: const Icon(Icons.password_rounded),
-                    title: const Text("PIN kodni o‘zgartirish"),
+                    title: Text(t.changePinCode),
                     trailing: const Icon(Icons.chevron_right_rounded),
                     onTap: () => Navigator.of(context).pushNamed(AppRoutes.changePin),
                   ),
@@ -81,7 +111,7 @@ class ParentHomeScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              "Barcha ma’lumotlar faqat shu qurilmada saqlanadi. Reklama, chat va internet yo‘q.",
+              t.privacyNote,
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
           ],
@@ -111,7 +141,8 @@ class _ChildSummaryCard extends StatelessWidget {
     final color = AppColors.profileColor(profile.colorIndex);
     final textTheme = Theme.of(context).textTheme;
     final scores = progress.subjectScores.entries.where((e) => e.value.total > 0).toList();
-    final limit = profile.dailyLimitMinutes == 0 ? 'cheklanmagan' : '${profile.dailyLimitMinutes} daq';
+    final t = Tr.of(context);
+    final limit = profile.dailyLimitMinutes == 0 ? t.unlimitedLower : t.minutesShort(profile.dailyLimitMinutes);
 
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
@@ -132,7 +163,7 @@ class _ChildSummaryCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(profile.displayFullName, style: textTheme.titleLarge),
-                        Text('${profile.age} yosh · limit: $limit',
+                        Text(t.ageAndLimit(profile.age, limit),
                             style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft)),
                       ],
                     ),
@@ -145,16 +176,16 @@ class _ChildSummaryCard extends StatelessWidget {
                 spacing: 16,
                 runSpacing: 4,
                 children: [
-                  Text('Bugun: ${progress.minutesOn(now)} daqiqa', style: textTheme.titleMedium),
+                  Text(t.todayMinutes(progress.minutesOn(now)), style: textTheme.titleMedium),
                   Text('⭐ ${progress.stars}', style: textTheme.titleMedium),
-                  Text('🔥 ${progress.streak} kun', style: textTheme.titleMedium),
+                  Text('🔥 ${t.days(progress.streak)}', style: textTheme.titleMedium),
                 ],
               ),
               if (scores.isNotEmpty) ...[
                 const SizedBox(height: 8),
                 for (final e in scores)
                   _SubjectLine(
-                    title: Subject.fromId(e.key)?.title ?? e.key,
+                    title: Subject.fromId(e.key)?.titleIn(t.lang) ?? e.key,
                     correct: e.value.correct,
                     total: e.value.total,
                     mastery: subjectMastery(progress, e.key),
@@ -162,7 +193,7 @@ class _ChildSummaryCard extends StatelessWidget {
                   ),
               ],
               const SizedBox(height: 12),
-              Text('Haftalik (daqiqa)', style: textTheme.bodyMedium),
+              Text(t.weeklyMinutes, style: textTheme.bodyMedium),
               const SizedBox(height: 6),
               WeekBars(values: progress.weeklyMinutes(now), days: DateKeys.lastDays(now), color: color),
               const SizedBox(height: 12),
@@ -173,7 +204,7 @@ class _ChildSummaryCard extends StatelessWidget {
                       key: Key('report_button_${profile.id}'),
                       onPressed: onReport,
                       icon: const Icon(Icons.insights_rounded),
-                      label: const Text('Batafsil hisobot'),
+                      label: Text(t.detailedReport),
                     ),
                   ),
                   const SizedBox(width: 8),
@@ -181,7 +212,7 @@ class _ChildSummaryCard extends StatelessWidget {
                     child: OutlinedButton.icon(
                       onPressed: onTap,
                       icon: const Icon(Icons.tune_rounded),
-                      label: const Text('Sozlamalar'),
+                      label: Text(t.settings),
                     ),
                   ),
                 ],

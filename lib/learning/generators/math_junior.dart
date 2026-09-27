@@ -47,7 +47,7 @@ class MathJunior {
       options: [groupOpt(correct), for (final o in others) groupOpt(o)],
       concept: 'quantity:$ask',
       meta: {'answer': correct},
-      hint: ask == 'many' ? 'Qaysi savatda narsalar ko‘proq?' : null,
+      hint: ask == 'many' ? g.tr('Qaysi savatda narsalar ko‘proq?', 'Which basket has more things?', 'В какой корзине больше предметов?') : null,
     );
   }
 
@@ -88,7 +88,7 @@ class MathJunior {
           concept: 'number:$n',
           drag: mode == 'drag',
           meta: {'answer': n, 'count': n},
-          hint: 'Barmog‘ing bilan bittadan sana.',
+          hint: g.tr('Barmog‘ing bilan bittadan sana.', 'Count them one by one with your finger.', 'Посчитай пальчиком по одному.'),
         );
     }
   }
@@ -252,7 +252,7 @@ class MathJunior {
       ],
       concept: 'position:$ask',
       meta: {'answer': items[idx].id},
-      hint: ask == 'left' ? 'Chap qo‘lingni ko‘tar — o‘sha tomon chap.' : null,
+      hint: ask == 'left' ? g.tr('Chap qo‘lingni ko‘tar — o‘sha tomon chap.', 'Raise your left hand — that side is left.', 'Подними левую руку — это левая сторона.') : null,
     );
   }
 
@@ -386,7 +386,7 @@ class MathJunior {
       concept: 'pattern:$pat',
       meta: {'pattern': pat, 'answer': answerSymbol},
       drag: g.pb('drag'),
-      hint: 'Boshidan takrorlab ayt: ${seq.take(pat.length).join("-")}...',
+      hint: g.tr('Boshidan takrorlab ayt: ${seq.take(pat.length).join("-")}...', 'Say it again from the start: ${seq.take(pat.length).join("-")}...', 'Повтори с начала: ${seq.take(pat.length).join("-")}...'),
     );
   }
 
@@ -409,7 +409,7 @@ class MathJunior {
       concept: 'add:$a+$b',
       meta: {'a': a, 'b': b, 'op': '+', 'answer': sum, 'item': item.id},
       drag: g.pb('drag'),
-      hint: 'Hammasini birga sana.',
+      hint: g.tr('Hammasini birga sana.', 'Count them all together.', 'Посчитай всё вместе.'),
       explanation: '$a + $b = $sum',
     );
   }
@@ -428,7 +428,7 @@ class MathJunior {
       concept: 'sub:$a-$b',
       meta: {'a': a, 'b': b, 'op': '-', 'answer': rest},
       drag: g.pb('drag'),
-      hint: 'Chizilganlarini sanama — qolganlarini sana.',
+      hint: g.tr('Chizilganlarini sanama — qolganlarini sana.', 'Don’t count the crossed-out ones — count the rest.', 'Не считай зачёркнутые — посчитай остальные.'),
       explanation: '$a − $b = $rest',
     );
   }

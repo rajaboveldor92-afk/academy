@@ -142,6 +142,38 @@ enum Subject {
   /// [spokenName] qaysi tilda aytiladi: `uz`, `en`, `ru`.
   final String speechLang;
 
+  /// Fan nomi tanlangan tilda (o'zbekcha — [title]).
+  String titleIn(String lang) {
+    if (lang == 'uz') return title;
+    final t = _titles[id]!;
+    return lang == 'ru' ? t.$2 : t.$1;
+  }
+
+  /// Karta bosilganda aytiladigan nom va uning tili ([speechLang] chet tili fanlari uchun).
+  (String text, String lang) spokenIn(String lang) {
+    if (speechLang != 'uz') return (spokenName, speechLang);
+    if (lang == 'uz') return (spokenName, 'uz');
+    return (titleIn(lang), lang);
+  }
+
+  /// (inglizcha, ruscha) nomlar.
+  static const Map<String, (String, String)> _titles = {
+    'math': ('Maths', 'Математика'),
+    'logic': ('Logic', 'Логика'),
+    'chess': ('Chess', 'Шахматы'),
+    'uzbek': ('Uzbek', 'Узбекский'),
+    'writing': ('Writing', 'Письмо'),
+    'english': ('English', 'Английский'),
+    'russian': ('Russian', 'Русский'),
+    'trilingual': ('3 languages', 'На 3 языках'),
+    'memory': ('Memory', 'Память'),
+    'attention': ('Attention', 'Внимание'),
+    'puzzle': ('Puzzle', 'Пазлы'),
+    'motor': ('Fine motor', 'Моторика'),
+    'social': ('Friendship', 'Общение'),
+    'family': ('With parents', 'С родителями'),
+  };
+
   static Subject? fromId(String id) {
     for (final s in Subject.values) {
       if (s.id == id) return s;

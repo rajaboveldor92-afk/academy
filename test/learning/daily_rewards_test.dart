@@ -111,8 +111,8 @@ void main() {
       expect(Rewards.medal('puzzle_master')!.earned(p.addCounter('puzzle_9', 3)), isTrue);
       expect(Rewards.medal('puzzle_master')!.earned(p.addCounter('puzzle_25')), isTrue);
       for (final m in Rewards.medals) {
-        expect(m.hint.trim(), isNotEmpty, reason: m.id);
-        expect(m.title.trim(), isNotEmpty, reason: m.id);
+        expect(m.hint.isComplete, isTrue, reason: m.id);
+        expect(m.title.isComplete, isTrue, reason: m.id);
       }
     });
 

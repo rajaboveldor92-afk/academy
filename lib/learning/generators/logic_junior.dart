@@ -102,37 +102,47 @@ class LogicJunior {
     final cats = _categoryPair(g);
     final main = g.sample(g.category(cats[0]), count - 1);
     final odd = g.pick(g.category(cats[1]));
-    final catName = _categoryName(cats[0]);
+    final catName = categoryName(cats[0], g.lang);
     return g.choice(
       say: g.say('odd_one_out'),
       options: [Opt.emoji(odd.emoji), for (final m in main) Opt.emoji(m.emoji)],
       concept: 'category:${cats[0]}',
       meta: {'answer': odd.id},
-      explanation: '${odd.uz} — boshqa guruhdan. Qolganlari — $catName.',
+      explanation: g.tr('${odd.uz} — boshqa guruhdan. Qolganlari — $catName.',
+          '${odd.word.en} is from another group. The others are $catName.',
+          '${odd.word.ru} — из другой группы. Остальные — $catName.'),
     );
   }
 
-  static String _categoryName(String cat) => switch (cat) {
-        'fruit' => 'mevalar',
-        'vegetable' => 'sabzavotlar',
-        'animal' => 'hayvonlar',
-        'bird' => 'qushlar',
-        'vehicle' => 'transport',
-        'clothes' => 'kiyimlar',
-        'toy' => 'o‘yinchoqlar',
-        'food' => 'taomlar',
-        'nature' => 'tabiat',
-        'sea' => 'suv jonivorlari',
-        'insect' => 'hasharotlar',
-        'school' => 'maktab buyumlari',
-        'home' => 'uy buyumlari',
-        'body' => 'tana a’zolari',
-        'family' => 'oila',
-        'profession' => 'kasblar',
-        _ => cat,
-      };
+  /// Guruh nomi (uz, en, ru).
+  static const Map<String, (String, String, String)> _categories = {
+    'fruit': ('mevalar', 'fruits', 'фрукты'),
+    'vegetable': ('sabzavotlar', 'vegetables', 'овощи'),
+    'animal': ('hayvonlar', 'animals', 'животные'),
+    'bird': ('qushlar', 'birds', 'птицы'),
+    'vehicle': ('transport', 'transport', 'транспорт'),
+    'clothes': ('kiyimlar', 'clothes', 'одежда'),
+    'toy': ('o‘yinchoqlar', 'toys', 'игрушки'),
+    'food': ('taomlar', 'food', 'еда'),
+    'nature': ('tabiat', 'nature', 'природа'),
+    'sea': ('suv jonivorlari', 'sea animals', 'морские животные'),
+    'insect': ('hasharotlar', 'insects', 'насекомые'),
+    'school': ('maktab buyumlari', 'school things', 'школьные вещи'),
+    'home': ('uy buyumlari', 'home things', 'вещи для дома'),
+    'body': ('tana a’zolari', 'body parts', 'части тела'),
+    'family': ('oila', 'family', 'семья'),
+    'profession': ('kasblar', 'jobs', 'профессии'),
+  };
 
-  static String categoryName(String cat) => _categoryName(cat);
+  static String categoryName(String cat, [String lang = 'uz']) {
+    final c = _categories[cat];
+    if (c == null) return cat;
+    return switch (lang) {
+      'ru' => c.$3,
+      'en' => c.$2,
+      _ => c.$1,
+    };
+  }
 
   // ------------------------------------------------------------ 3 Soyasini top
   static Exercise shadow(GenContext g) {
@@ -346,7 +356,7 @@ class LogicJunior {
         concept: 'sequence:${seq.join(">")}',
         drag: g.pb('drag'),
         meta: {'answer': answer.id},
-        explanation: seq.map((id) => g.lex.byId(id).uz).join(' → '),
+        explanation: seq.map((id) => g.lex.byId(id).word.of(g.lang)).join(' → '),
       );
     }
     return MathJunior.pattern(g);
@@ -428,7 +438,7 @@ class LogicJunior {
       concept: 'analogy:${rel.key}',
       drag: g.pb('drag'),
       meta: {'answer': d.id, 'relation': rel.key},
-      explanation: '${a.uz} → ${b.uz}, ${c.uz} → ${d.uz}',
+      explanation: '${a.word.of(g.lang)} → ${b.word.of(g.lang)}, ${c.word.of(g.lang)} → ${d.word.of(g.lang)}',
     );
   }
 

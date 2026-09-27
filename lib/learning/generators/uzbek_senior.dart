@@ -112,8 +112,8 @@ class UzbekSenior {
           options: [for (final v in opts) Opt.number(v)],
           concept: 'syllable_count:$n',
           meta: {'answer': n, 'word': w.word},
-          hint: 'Qarsak chalib ayt: har bir qarsak — bitta bo‘g‘in.',
-          explanation: '${w.syllables.join(' - ')} — $n ta bo‘g‘in',
+          hint: g.tr('Qarsak chalib ayt: har bir qarsak — bitta bo‘g‘in.', 'Clap while you say it: each clap is one syllable.', 'Произноси с хлопками: каждый хлопок — один слог.'),
+          explanation: '${w.syllables.join(' - ')} — ${g.tr('$n ta bo‘g‘in', 'syllables: $n', 'слогов: $n')}',
         );
     }
   }

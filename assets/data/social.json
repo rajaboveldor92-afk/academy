@@ -68,7 +68,9 @@
    ],
    "text": "Do‘sting senga sovg‘a berdi. Qanday his qilasan?",
    "emotion": "happy",
-   "age": 4
+   "age": 4,
+   "en": "Your friend gave you a present. How do you feel?",
+   "ru": "Друг подарил тебе подарок. Что ты чувствуешь?"
   },
   {
    "id": "broken_toy",
@@ -78,7 +80,9 @@
    ],
    "text": "Sevimli o‘yinchog‘ing sinib qoldi. Qanday his qilasan?",
    "emotion": "sad",
-   "age": 4
+   "age": 4,
+   "en": "Your favourite toy broke. How do you feel?",
+   "ru": "Твоя любимая игрушка сломалась. Что ты чувствуешь?"
   },
   {
    "id": "thunder",
@@ -88,7 +92,9 @@
    ],
    "text": "Kechasi qattiq momaqaldiroq bo‘ldi. Qanday his qilasan?",
    "emotion": "scared",
-   "age": 4
+   "age": 4,
+   "en": "There was loud thunder at night. How do you feel?",
+   "ru": "Ночью был сильный гром. Что ты чувствуешь?"
   },
   {
    "id": "magic",
@@ -98,7 +104,9 @@
    ],
    "text": "Sehrgar qalpoqdan quyon chiqardi. Qanday his qilasan?",
    "emotion": "surprised",
-   "age": 4
+   "age": 4,
+   "en": "A magician pulled a rabbit out of a hat. How do you feel?",
+   "ru": "Фокусник достал из шляпы кролика. Что ты чувствуешь?"
   },
   {
    "id": "birthday",
@@ -108,7 +116,9 @@
    ],
    "text": "Bugun tug‘ilgan kuning! Qanday his qilasan?",
    "emotion": "happy",
-   "age": 4
+   "age": 4,
+   "en": "Today is your birthday! How do you feel?",
+   "ru": "Сегодня твой день рождения! Что ты чувствуешь?"
   },
   {
    "id": "long_run",
@@ -118,7 +128,9 @@
    ],
    "text": "Uzoq yugurding, oyoqlaring toliqdi. Qanday his qilasan?",
    "emotion": "tired",
-   "age": 4
+   "age": 4,
+   "en": "You ran for a long time and your legs are tired. How do you feel?",
+   "ru": "Ты долго бегал, ноги устали. Что ты чувствуешь?"
   },
   {
    "id": "friend_left",
@@ -128,7 +140,9 @@
    ],
    "text": "Do‘sting boshqa shaharga ko‘chib ketdi. Qanday his qilasan?",
    "emotion": "sad",
-   "age": 4
+   "age": 4,
+   "en": "Your friend moved to another city. How do you feel?",
+   "ru": "Твой друг переехал в другой город. Что ты чувствуешь?"
   },
   {
    "id": "toy_taken",
@@ -138,7 +152,9 @@
    ],
    "text": "Kimdir o‘yinchog‘ingni so‘ramasdan oldi. Qanday his qilasan?",
    "emotion": "angry",
-   "age": 6
+   "age": 6,
+   "en": "Someone took your toy without asking. How do you feel?",
+   "ru": "Кто-то взял твою игрушку без спроса. Что ты чувствуешь?"
   },
   {
    "id": "new_group",
@@ -148,7 +164,9 @@
    ],
    "text": "Yangi guruhga keldingi, hech kimni tanimaysan. Qanday his qilasan?",
    "emotion": "shy",
-   "age": 6
+   "age": 6,
+   "en": "You came to a new group and don’t know anyone. How do you feel?",
+   "ru": "Ты пришёл в новую группу и никого не знаешь. Что ты чувствуешь?"
   },
   {
    "id": "bedtime_story",
@@ -158,7 +176,9 @@
    ],
    "text": "Onang ertak o‘qib berdi, yotishga tayyorsan. Qanday his qilasan?",
    "emotion": "calm",
-   "age": 6
+   "age": 6,
+   "en": "Mum read you a story and you are ready for bed. How do you feel?",
+   "ru": "Мама прочитала сказку, ты готов ко сну. Что ты чувствуешь?"
   },
   {
    "id": "big_dog",
@@ -168,7 +188,9 @@
    ],
    "text": "Katta it baland ovozda vovulladi. Qanday his qilasan?",
    "emotion": "scared",
-   "age": 6
+   "age": 6,
+   "en": "A big dog barked loudly. How do you feel?",
+   "ru": "Большая собака громко залаяла. Что ты чувствуешь?"
   },
   {
    "id": "surprise_box",
@@ -178,7 +200,9 @@
    ],
    "text": "Qutini ochding, ichidan kutilmagan narsa chiqdi. Qanday his qilasan?",
    "emotion": "surprised",
-   "age": 6
+   "age": 6,
+   "en": "You opened a box and something unexpected was inside. How do you feel?",
+   "ru": "Ты открыл коробку, а там что-то неожиданное. Что ты чувствуешь?"
   }
  ],
  "polite": [
@@ -189,7 +213,11 @@
     "🙂"
    ],
    "text": "Kimdir senga yordam berdi yoki sovg‘a qildi.",
-   "word": "Rahmat!"
+   "word": "Rahmat!",
+   "textEn": "Someone helped you or gave you a present.",
+   "textRu": "Тебе кто-то помог или сделал подарок.",
+   "wordEn": "Thank you!",
+   "wordRu": "Спасибо!"
   },
   {
    "id": "thanks_food",
@@ -198,7 +226,11 @@
     "👵"
    ],
    "text": "Buving mazali ovqat pishirib berdi.",
-   "word": "Rahmat!"
+   "word": "Rahmat!",
+   "textEn": "Grandma cooked you a tasty meal.",
+   "textRu": "Бабушка приготовила тебе вкусную еду.",
+   "wordEn": "Thank you!",
+   "wordRu": "Спасибо!"
   },
   {
    "id": "please_cookie",
@@ -207,7 +239,11 @@
     "🤲"
    ],
    "text": "Sen pechenye so‘ramoqchisan.",
-   "word": "Iltimos"
+   "word": "Iltimos",
+   "textEn": "You want to ask for a biscuit.",
+   "textRu": "Ты хочешь попросить печенье.",
+   "wordEn": "Please",
+   "wordRu": "Пожалуйста"
   },
   {
    "id": "please_pencil",
@@ -216,7 +252,11 @@
     "🤲"
    ],
    "text": "Do‘stingdan qalam so‘ramoqchisan.",
-   "word": "Iltimos"
+   "word": "Iltimos",
+   "textEn": "You want to ask your friend for a pencil.",
+   "textRu": "Ты хочешь попросить у друга карандаш.",
+   "wordEn": "Please",
+   "wordRu": "Пожалуйста"
   },
   {
    "id": "sorry_bump",
@@ -225,7 +265,11 @@
     "💥"
    ],
    "text": "Tasodifan do‘stingni turtib yubording.",
-   "word": "Kechirasiz!"
+   "word": "Kechirasiz!",
+   "textEn": "You bumped into your friend by accident.",
+   "textRu": "Ты случайно толкнул друга.",
+   "wordEn": "Sorry!",
+   "wordRu": "Извините!"
   },
   {
    "id": "sorry_late",
@@ -234,7 +278,11 @@
     "😔"
    ],
    "text": "Mashg‘ulotga kechikib kelding.",
-   "word": "Kechirasiz!"
+   "word": "Kechirasiz!",
+   "textEn": "You came late to the lesson.",
+   "textRu": "Ты опоздал на занятие.",
+   "wordEn": "Sorry!",
+   "wordRu": "Извините!"
   },
   {
    "id": "hello_morning",
@@ -243,7 +291,11 @@
     "🙂"
    ],
    "text": "Ertalab bog‘chaga kelding.",
-   "word": "Salom!"
+   "word": "Salom!",
+   "textEn": "You arrived at kindergarten in the morning.",
+   "textRu": "Утром ты пришёл в детский сад.",
+   "wordEn": "Hello!",
+   "wordRu": "Здравствуйте!"
   },
   {
    "id": "bye_home",
@@ -252,7 +304,11 @@
     "👋"
    ],
    "text": "Mehmondan uyga ketyapsan.",
-   "word": "Xayr!"
+   "word": "Xayr!",
+   "textEn": "You are going home after visiting.",
+   "textRu": "Ты уходишь домой из гостей.",
+   "wordEn": "Goodbye!",
+   "wordRu": "До свидания!"
   }
  ],
  "politeWords": [
@@ -261,6 +317,33 @@
   "Kechirasiz!",
   "Salom!",
   "Xayr!"
+ ],
+ "politeWordsI18n": [
+  {
+   "uz": "Rahmat!",
+   "en": "Thank you!",
+   "ru": "Спасибо!"
+  },
+  {
+   "uz": "Iltimos",
+   "en": "Please",
+   "ru": "Пожалуйста"
+  },
+  {
+   "uz": "Kechirasiz!",
+   "en": "Sorry!",
+   "ru": "Извините!"
+  },
+  {
+   "uz": "Salom!",
+   "en": "Hello!",
+   "ru": "Здравствуйте!"
+  },
+  {
+   "uz": "Xayr!",
+   "en": "Goodbye!",
+   "ru": "До свидания!"
+  }
  ],
  "choices": [
   {
@@ -286,7 +369,25 @@
    ],
    "why": "Yiqilgan do‘stga yordam berish — haqiqiy do‘stlik.",
    "age": 4,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Your friend fell down. What will you do?",
+    "good": "I’ll help",
+    "others": [
+     "I’ll laugh",
+     "I’ll keep playing"
+    ],
+    "why": "Helping a friend who fell is real friendship."
+   },
+   "ru": {
+    "text": "Твой друг упал. Что ты сделаешь?",
+    "good": "Помогу",
+    "others": [
+     "Посмеюсь",
+     "Продолжу играть"
+    ],
+    "why": "Помочь упавшему другу — настоящая дружба."
+   }
   },
   {
    "id": "share_toy",
@@ -311,7 +412,25 @@
    ],
    "why": "Navbat bilan o‘ynasak, hammaga qiziq bo‘ladi.",
    "age": 4,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Your friend asked for your toy. What will you do?",
+    "good": "We’ll take turns",
+    "others": [
+     "I won’t give it to anyone",
+     "I’ll get angry"
+    ],
+    "why": "When we take turns, it’s fun for everyone."
+   },
+   "ru": {
+    "text": "Друг попросил твою игрушку. Что ты сделаешь?",
+    "good": "Поиграем по очереди",
+    "others": [
+     "Никому не дам",
+     "Рассержусь"
+    ],
+    "why": "Когда играем по очереди, интересно всем."
+   }
   },
   {
    "id": "new_kid",
@@ -336,7 +455,25 @@
    ],
    "why": "Yangi bolani o‘yinga chaqirsang, u tezda do‘st topadi.",
    "age": 4,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "A new child came to the group and is standing alone. What will you do?",
+    "good": "I’ll invite them to play",
+    "others": [
+     "I won’t look",
+     "I’ll run away"
+    ],
+    "why": "If you invite a new child to play, they quickly find friends."
+   },
+   "ru": {
+    "text": "В группу пришёл новый ребёнок, он стоит один. Что ты сделаешь?",
+    "good": "Позову играть",
+    "others": [
+     "Не буду смотреть",
+     "Убегу"
+    ],
+    "why": "Если позвать новенького играть, он быстро найдёт друзей."
+   }
   },
   {
    "id": "mom_tired",
@@ -361,7 +498,25 @@
    ],
    "why": "Oilaga yordam berish — mehr belgisi.",
    "age": 4,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Mum came home tired. What will you do?",
+    "good": "I’ll help with the housework",
+    "others": [
+     "I’ll watch cartoons",
+     "I’ll cry and ask for a toy"
+    ],
+    "why": "Helping the family is a sign of love."
+   },
+   "ru": {
+    "text": "Мама пришла уставшая. Что ты сделаешь?",
+    "good": "Помогу по дому",
+    "others": [
+     "Буду смотреть мультики",
+     "Буду плакать и просить игрушку"
+    ],
+    "why": "Помогать семье — знак любви."
+   }
   },
   {
    "id": "friend_sad",
@@ -386,7 +541,25 @@
    ],
    "why": "Xafa odamga iliq so‘z juda kerak.",
    "age": 4,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Your friend is sitting sad. What will you do?",
+    "good": "I’ll go and comfort them",
+    "others": [
+     "I’ll laugh at them",
+     "I won’t pay attention"
+    ],
+    "why": "A sad person really needs a kind word."
+   },
+   "ru": {
+    "text": "Друг сидит грустный. Что ты сделаешь?",
+    "good": "Подойду и утешу",
+    "others": [
+     "Посмеюсь над ним",
+     "Не обращу внимания"
+    ],
+    "why": "Грустному человеку очень нужно доброе слово."
+   }
   },
   {
    "id": "wait_turn",
@@ -411,7 +584,25 @@
    ],
    "why": "Navbat kutish — hammaga adolatli.",
    "age": 6,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "There is a queue for the carousel. What will you do?",
+    "good": "I’ll wait for my turn",
+    "others": [
+     "I’ll jump the queue",
+     "I’ll push through"
+    ],
+    "why": "Waiting your turn is fair for everyone."
+   },
+   "ru": {
+    "text": "На карусель очередь. Что ты сделаешь?",
+    "good": "Подожду своей очереди",
+    "others": [
+     "Пролезу вперёд",
+     "Протолкнусь"
+    ],
+    "why": "Ждать своей очереди — честно для всех."
+   }
   },
   {
    "id": "one_apple",
@@ -436,7 +627,25 @@
    ],
    "why": "Bo‘lishsak, ikkalamiz ham xursand bo‘lamiz.",
    "age": 6,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "There is one apple, and you and your sister both want to eat it. What will you do?",
+    "good": "We’ll share it equally",
+    "others": [
+     "I’ll eat it all myself",
+     "I’ll cry"
+    ],
+    "why": "If we share, we will both be happy."
+   },
+   "ru": {
+    "text": "Есть одно яблоко, и вы с сестрёнкой оба хотите его съесть. Что ты сделаешь?",
+    "good": "Поделимся поровну",
+    "others": [
+     "Съем всё сам",
+     "Заплачу"
+    ],
+    "why": "Если поделимся, обрадуемся оба."
+   }
   },
   {
    "id": "mistake",
@@ -461,7 +670,25 @@
    ],
    "why": "Xato qilish mumkin — muhimi, uni tuzatish.",
    "age": 6,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "You spilled the milk by accident. What will you do?",
+    "good": "I’ll say sorry and wipe it up",
+    "others": [
+     "I’ll hide",
+     "I’ll blame someone else"
+    ],
+    "why": "Making mistakes is fine — what matters is fixing them."
+   },
+   "ru": {
+    "text": "Ты случайно пролил молоко. Что ты сделаешь?",
+    "good": "Извинюсь и вытру",
+    "others": [
+     "Спрячусь",
+     "Обвиню другого"
+    ],
+    "why": "Ошибаться можно — главное, исправить ошибку."
+   }
   },
   {
    "id": "baby_crying",
@@ -486,7 +713,25 @@
    ],
    "why": "Kichiklarga g‘amxo‘rlik qilish — katta bo‘lish belgisi.",
    "age": 6,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Your little brother is crying. What will you do?",
+    "good": "I’ll give him a toy and calm him",
+    "others": [
+     "I’ll shout",
+     "I’ll cover my ears"
+    ],
+    "why": "Caring for little ones is a sign of growing up."
+   },
+   "ru": {
+    "text": "Младший братик плачет. Что ты сделаешь?",
+    "good": "Дам игрушку и успокою",
+    "others": [
+     "Накричу",
+     "Закрою уши"
+    ],
+    "why": "Заботиться о младших — признак взрослого."
+   }
   },
   {
    "id": "praise_friend",
@@ -511,7 +756,25 @@
    ],
    "why": "Maqtov do‘stingni ruhlantiradi.",
    "age": 6,
-   "kind": "kind"
+   "kind": "kind",
+   "en": {
+    "text": "Your friend drew a beautiful picture. What will you say?",
+    "good": "It’s really beautiful!",
+    "others": [
+     "Mine is better",
+     "I won’t say anything"
+    ],
+    "why": "Praise encourages your friend."
+   },
+   "ru": {
+    "text": "Друг нарисовал красивый рисунок. Что ты скажешь?",
+    "good": "Очень красиво!",
+    "others": [
+     "Мой лучше",
+     "Ничего не скажу"
+    ],
+    "why": "Похвала вдохновляет друга."
+   }
   },
   {
    "id": "stranger_candy",
@@ -536,7 +799,25 @@
    ],
    "why": "Begona odam bilan hech qayoqqa bormaymiz.",
    "age": 4,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "A stranger offers you sweets and says “come with me”. What will you do?",
+    "good": "I won’t go, I’ll tell my parents",
+    "others": [
+     "I’ll go with them",
+     "I’ll take the sweets"
+    ],
+    "why": "We never go anywhere with a stranger."
+   },
+   "ru": {
+    "text": "Незнакомец даёт конфету и говорит «пойдём». Что ты сделаешь?",
+    "good": "Не пойду, скажу родителям",
+    "others": [
+     "Пойду с ним",
+     "Возьму конфету"
+    ],
+    "why": "С незнакомым человеком мы никуда не уходим."
+   }
   },
   {
    "id": "street",
@@ -561,7 +842,25 @@
    ],
    "why": "Ko‘chadan faqat kattalar bilan va yashil chiroqda o‘tamiz.",
    "age": 4,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "You need to cross the street. What will you do?",
+    "good": "I’ll cross with a grown-up on green",
+    "others": [
+     "I’ll run across",
+     "I’ll cross on red"
+    ],
+    "why": "We cross the street only with grown-ups and on a green light."
+   },
+   "ru": {
+    "text": "Нужно перейти улицу. Что ты сделаешь?",
+    "good": "Перейду со взрослым на зелёный",
+    "others": [
+     "Перебегу",
+     "Перейду на красный"
+    ],
+    "why": "Улицу переходим только со взрослыми и на зелёный свет."
+   }
   },
   {
    "id": "hot_pot",
@@ -586,7 +885,25 @@
    ],
    "why": "Issiq narsalar kuydirishi mumkin — faqat kattalar ushlaydi.",
    "age": 4,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "There is very hot tea on the table. What will you do?",
+    "good": "I won’t touch it",
+    "others": [
+     "I’ll touch it",
+     "I’ll climb up close"
+    ],
+    "why": "Hot things can burn — only grown-ups hold them."
+   },
+   "ru": {
+    "text": "На столе стоит очень горячий чай. Что ты сделаешь?",
+    "good": "Не трогаю",
+    "others": [
+     "Потрогаю",
+     "Залезу поближе"
+    ],
+    "why": "Горячее может обжечь — берут только взрослые."
+   }
   },
   {
    "id": "medicine",
@@ -611,7 +928,25 @@
    ],
    "why": "Dorini faqat kattalar beradi.",
    "age": 6,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "There is medicine on the table. What will you do?",
+    "good": "Only grown-ups give it",
+    "others": [
+     "I’ll eat it like sweets",
+     "I’ll play with it"
+    ],
+    "why": "Only grown-ups give medicine."
+   },
+   "ru": {
+    "text": "На столе лежит лекарство. Что ты сделаешь?",
+    "good": "Даёт только взрослый",
+    "others": [
+     "Съем как конфету",
+     "Поиграю"
+    ],
+    "why": "Лекарство дают только взрослые."
+   }
   },
   {
    "id": "lost",
@@ -636,7 +971,25 @@
    ],
    "why": "Joyida turib, xodimdan yordam so‘rash — eng to‘g‘ri yo‘l.",
    "age": 6,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "You lost your mum in the shop. What will you do?",
+    "good": "I’ll stay put and ask a shop assistant for help",
+    "others": [
+     "I’ll go out into the street",
+     "I’ll run off"
+    ],
+    "why": "Staying put and asking a staff member for help is the right way."
+   },
+   "ru": {
+    "text": "Ты потерял маму в магазине. Что ты сделаешь?",
+    "good": "Останусь на месте и попрошу помощи у продавца",
+    "others": [
+     "Выйду на улицу",
+     "Убегу"
+    ],
+    "why": "Остаться на месте и попросить помощи у сотрудника — самый верный путь."
+   }
   },
   {
    "id": "socket",
@@ -661,7 +1014,25 @@
    ],
    "why": "Tok xavfli — rozetkaga tegmaymiz.",
    "age": 6,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "You saw a socket on the wall. What will you do?",
+    "good": "I won’t touch it",
+    "others": [
+     "I’ll push something into it",
+     "I’ll put my finger in"
+    ],
+    "why": "Electricity is dangerous — we don’t touch sockets."
+   },
+   "ru": {
+    "text": "Ты увидел розетку на стене. Что ты сделаешь?",
+    "good": "Не трогаю",
+    "others": [
+     "Засуну туда что-нибудь",
+     "Засуну палец"
+    ],
+    "why": "Ток опасен — розетку не трогаем."
+   }
   },
   {
    "id": "seat_belt",
@@ -686,7 +1057,25 @@
    ],
    "why": "Mashinada doim kamar taqamiz.",
    "age": 6,
-   "kind": "safety"
+   "kind": "safety",
+   "en": {
+    "text": "You sat in the car. What will you do?",
+    "good": "I’ll fasten my seat belt",
+    "others": [
+     "I’ll jump on the seat",
+     "I’ll stick my head out of the window"
+    ],
+    "why": "In the car we always wear a seat belt."
+   },
+   "ru": {
+    "text": "Ты сел в машину. Что ты сделаешь?",
+    "good": "Пристегнусь",
+    "others": [
+     "Буду прыгать на сиденье",
+     "Высуну голову в окно"
+    ],
+    "why": "В машине мы всегда пристёгиваемся."
+   }
   }
  ]
 }

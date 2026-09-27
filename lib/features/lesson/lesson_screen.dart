@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../l10n/tr.dart';
 import '../../learning/content/content_provider.dart';
+import '../../learning/content/number_words.dart';
 import '../../learning/engine/daily_planner.dart';
 import '../../learning/engine/lesson_builder.dart';
 import '../../learning/engine/mastery.dart';
@@ -85,6 +87,13 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   ChildProfile? get _profile => ref.read(activeProfileProvider);
   bool get _junior => _profile?.ageGroup.isJunior ?? true;
+
+  /// Bolaning tili: ekran matnlari, maqtov va dalda shu tilda.
+  String get _lang => _profile?.language ?? 'uz';
+
+  /// Onaning yozib olingan ovozi faqat o'zbek tilidagi profilda ishlatiladi.
+  bool get _uzChild => _lang == 'uz';
+  Tr get _t => Tr(_lang);
   late final AudioService _audio;
   Exercise get _current => _items[_index].exercise;
   PlannedExercise get _item => _items[_index];
@@ -121,6 +130,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           now: ref.read(clockProvider)(),
           rng: widget.random,
           difficultyBias: profile.difficultyBias,
+          lang: profile.language,
         );
       } else {
         topic = content.topic(widget.topicId!);
@@ -137,6 +147,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           age: profile.age,
           rng: widget.random,
           avoid: progress.recentOf(topic.id).toSet(),
+          lang: profile.language,
         );
         items = [for (final e in exercises) PlannedExercise(topic: topic, level: level, exercise: e)];
       }
@@ -165,7 +176,11 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     final ex = _current;
     // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi; avval — "Yaxshilab qara. Rasmlarni eslab qol."
     if (ex.kind == ExerciseKind.memory || (ex.kind == ExerciseKind.assemble && ex.previewVisual != null)) {
-      _audio.speakParts(MotherVoice.memorize());
+      if (_uzChild) {
+        _audio.speakParts(MotherVoice.memorize());
+      } else {
+        _audio.speak(_t.lookAndRemember, lang: _lang);
+      }
       return;
     }
     _speakExercise(ex, intro: _index == 0);
@@ -175,7 +190,8 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   /// mashqning o'z tilida. Tinglash darsi boshida — "Diqqat bilan tingla."
   void _speakExercise(Exercise ex, {bool intro = false}) {
     final parts = [
-      if (intro && MotherVoice.isListening(ex)) MotherVoice.part('diqqat_bilan_tingla'),
+      if (intro && MotherVoice.isListening(ex))
+        _uzChild ? MotherVoice.part('diqqat_bilan_tingla') : SpeechPart(_t.listenCarefully, _lang),
       ...MotherVoice.instruction(ex),
     ];
     if (parts.length == 1 && parts.first.clip == null) {
@@ -187,20 +203,29 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   void _onMistake(int mistakes) {
     final ex = _current;
-    // O'zbekcha mashqlarda — onaning ovozida dalda va mashqqa mos maslahat.
-    // Chet tili darsida birinchi xatoda — o'sha tilda dalda, ikkinchisida — "Yana bir marta eshit" + ko'rsatma.
-    final List<SpeechPart>? say = ex.speechLang == 'uz'
-        ? MotherVoice.afterMistake(ex, mistakes, _mistakeTurn++)
-        : (mistakes >= 2 ? [MotherVoice.part('yana_eshit'), ...MotherVoice.instruction(ex)] : null);
+    // O'zbek tilidagi profilda, o'zbekcha mashqlarda — onaning ovozida dalda va mashqqa mos maslahat.
+    // Tinglash mashqida ikkinchi xatoda — "Yana bir marta eshit" + ko'rsatma.
+    // Qolgan hollarda dalda: chet tili darsida — o'sha tilda, boshqa darslarda — bolaning tilida.
+    final foreign = MotherVoice.listeningSubjects.contains(ex.subject);
+    final encourageLang = foreign ? ex.speechLang : _lang;
+    List<SpeechPart>? say;
+    if (_uzChild && ex.speechLang == 'uz') {
+      say = MotherVoice.afterMistake(ex, mistakes, _mistakeTurn++);
+    } else if (mistakes >= 2 && MotherVoice.isListening(ex)) {
+      say = [
+        _uzChild ? MotherVoice.part('yana_eshit') : SpeechPart(_t.listenAgain, _lang),
+        ...MotherVoice.instruction(ex),
+      ];
+    }
     if (say == null) {
-      _audio.encourage(lang: ex.speechLang);
+      _audio.encourage(lang: encourageLang);
     } else {
       _audio.playEffect(SoundEffect.tryAgain);
       _audio.speakParts(say);
     }
     setState(() {
       _bannerHint = mistakes >= 2 && ex.hint != null;
-      _banner = _bannerHint ? ex.hint : (say?.first.text ?? FeedbackPhrases.randomEncourage(ex.speechLang));
+      _banner = _bannerHint ? ex.hint : (say?.first.text ?? FeedbackPhrases.randomEncourage(encourageLang));
     });
   }
 
@@ -218,16 +243,30 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     ));
     if (!firstTry && !item.retry) _scheduleRetry(item);
     final earned = firstTry ? ex.rewardStars : 0;
-    // Kichik yoshda sanash mashqidan keyin onasi bilan birga sanaydi: "Bir, ikki, uch".
-    final count = _junior ? MotherVoice.countAloud(ex) : const <SpeechPart>[];
+    // Kichik yoshda sanash mashqidan keyin birga sanaydi: "Bir, ikki, uch" (o'zbekchada — onaning ovozida).
+    final countTo = _junior ? MotherVoice.countTarget(ex) : null;
+    final foreign = MotherVoice.listeningSubjects.contains(ex.subject);
     String? praiseText;
-    if (ex.speechLang == 'uz') {
+    var spokenCount = 0;
+    if (_uzChild && ex.speechLang == 'uz') {
+      final count = _junior ? MotherVoice.countAloud(ex) : const <SpeechPart>[];
+      spokenCount = count.length;
       final key = firstTry ? MotherVoice.praise[_praiseTurn++ % MotherVoice.praise.length] : 'togri_topding';
       praiseText = MotherVoice.clips[key];
       _audio.playEffect(SoundEffect.correct);
       _audio.speakParts([...count, MotherVoice.part(key)]);
-    } else {
+    } else if (foreign && ex.speechLang != _lang) {
+      // Chet tili darsida maqtov o'sha tilda.
       _audio.praise(lang: ex.speechLang);
+    } else {
+      final phrases = FeedbackPhrases.praise[_lang] ?? FeedbackPhrases.praise['uz']!;
+      praiseText = firstTry ? phrases[_praiseTurn++ % phrases.length] : _t.gotIt;
+      spokenCount = countTo ?? 0;
+      _audio.playEffect(SoundEffect.correct);
+      _audio.speakParts([
+        for (var i = 1; i <= spokenCount; i++) SpeechPart(NumberWords.word(i, _lang), _lang),
+        SpeechPart(praiseText, _lang),
+      ]);
     }
     setState(() {
       _phase = _Phase.feedback;
@@ -247,7 +286,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     }
     // Kichik yoshda avtomatik o'tish; 6 yoshda izohni ko'rib, o'zi o'tadi.
     if (_junior || ex.explanation == null) {
-      _advanceTimer = Timer(Duration(milliseconds: 1500 + count.length * 550), _next);
+      _advanceTimer = Timer(Duration(milliseconds: 1500 + spokenCount * 550), _next);
     }
   }
 
@@ -267,6 +306,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       rng: widget.random,
       concept: item.exercise.conceptKey,
       avoid: {for (final i in _items) LessonBuilder.signatureHash(i.exercise)},
+      lang: profile.language,
     );
     if (retry == null) return;
     _retries++;
@@ -329,9 +369,17 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       _phase = _Phase.finished;
     });
     _audio.playEffect(medals.isEmpty ? SoundEffect.star : SoundEffect.medal);
-    // Onaning ovozida maqtov (ism bilan), qolgani qurilma ovozida.
+    // O'zbek tilidagi profilda — onaning ovozida maqtov (ism bilan), qolgani qurilma ovozida.
     final name = MotherVoice.nameClip(profile);
     final decision = outcome?.decision;
+    final medalLine = medals.isEmpty ? null : '${_t.newMedal(medals.first.title.of(_lang))}!';
+    if (!_uzChild) {
+      _audio.speakParts([
+        SpeechPart(widget.daily ? _t.dailyFinished : _finishMessage(decision ?? LevelDecision.stay), _lang),
+        if (medalLine != null) SpeechPart(medalLine, _lang),
+      ]);
+      return;
+    }
     final say = <SpeechPart>[
       if (widget.daily) ...[
         MotherVoice.part('barakalla'),
@@ -340,38 +388,40 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       ] else if (decision == LevelDecision.up) ...[
         MotherVoice.part('barakalla'),
         if (name != null) MotherVoice.part(name),
-        const SpeechPart('Yangi daraja ochildi!', 'uz'),
+        SpeechPart(_t.levelUpSpoken, 'uz'),
       ] else if (decision == LevelDecision.stay) ...[
         MotherVoice.part('juda_yaxshi'),
         const SpeechPart('Yana mashq qilamiz.', 'uz'),
       ] else
         SpeechPart(_finishMessage(LevelDecision.down), 'uz'),
-      if (medals.isNotEmpty) SpeechPart('Yangi medal: ${medals.first.title}!', 'uz'),
+      if (medalLine != null) SpeechPart(medalLine, 'uz'),
     ];
     _audio.speakParts(say);
   }
 
-  static const String _dailyMessage = 'Barakalla! Bugun juda yaxshi harakat qilding!';
-
   String _finishMessage(LevelDecision d) => switch (d) {
-        LevelDecision.up => 'Barakalla! Yangi daraja ochildi!',
-        LevelDecision.stay => 'Juda yaxshi! Yana mashq qilamiz.',
-        LevelDecision.down => 'Yaxshi harakat! Keyingi safar osonroq mashqlardan boshlaymiz.',
+        LevelDecision.up => _t.levelUp,
+        LevelDecision.stay => _t.levelStay,
+        LevelDecision.down => _t.levelDown,
       };
 
   @override
   Widget build(BuildContext context) {
     final profile = ref.watch(activeProfileProvider);
     final theme = ProfileThemes.of(profile?.colorIndex ?? 0);
-    return Scaffold(
-      backgroundColor: theme.light,
-      body: SafeArea(
-        child: switch (_phase) {
-          _Phase.loading => const Center(child: CircularProgressIndicator()),
-          _Phase.error => _error(),
-          _Phase.finished => _result(theme),
-          _ => _playing(theme),
-        },
+    // Mashq vidjetlari (Tr.of) bolaning tilini shu yerdan oladi.
+    return LangScope(
+      lang: profile?.language ?? 'uz',
+      child: Scaffold(
+        backgroundColor: theme.light,
+        body: SafeArea(
+          child: switch (_phase) {
+            _Phase.loading => const Center(child: CircularProgressIndicator()),
+            _Phase.error => _error(),
+            _Phase.finished => _result(theme),
+            _ => _playing(theme),
+          },
+        ),
       ),
     );
   }
@@ -385,9 +435,9 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           children: [
             const Text('🙈', style: TextStyle(fontSize: 72)),
             const SizedBox(height: 12),
-            const Text('Mashqlarni ochib bo‘lmadi.', style: TextStyle(fontSize: 20)),
+            Text(_t.lessonLoadFailed, style: const TextStyle(fontSize: 20)),
             const SizedBox(height: 20),
-            FilledButton(onPressed: () => Navigator.of(context).maybePop(), child: const Text('Orqaga')),
+            FilledButton(onPressed: () => Navigator.of(context).maybePop(), child: Text(_t.back)),
           ],
         ),
       ),
@@ -473,8 +523,8 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     final item = _item;
     final subject = Subject.fromId(item.topic.subject);
     final label = widget.daily && subject != null
-        ? '${subject.emoji} ${subject.title}${item.review || item.retry ? ' · 🔁 takrorlash' : ''}'
-        : (item.retry ? '🔁 Yana bir marta' : null);
+        ? '${subject.emoji} ${subject.titleIn(_lang)}${item.review || item.retry ? ' · 🔁 ${_t.review}' : ''}'
+        : (item.retry ? '🔁 ${_t.oneMoreTime}' : null);
     final row = _instructionRow(ex, theme);
     if (label == null) return row;
     return Column(
@@ -517,10 +567,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                     height: 1.2,
                   ),
                 ),
-                // Chet tili darsida — o'zbekcha tarjima (ota-ona va bola uchun yordam).
-                if (ex.speechLang != 'uz')
+                // Ko'rsatma boshqa tilda bo'lsa (chet tili yoki o'zbek tili darsi) — bolaning tilidagi tarjimasi.
+                if (ex.speechLang != _lang)
                   Text(
-                    ex.instruction.uz,
+                    ex.instruction.of(_lang),
                     key: const Key('lesson_instruction_uz'),
                     style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSoft),
                   ),
@@ -556,7 +606,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   Widget _feedbackOverlay(Exercise ex, ProfileTheme theme) {
     final phrases = FeedbackPhrases.praise[ex.speechLang] ?? FeedbackPhrases.praise['uz']!;
     final praise = _praiseText ??
-        (_lastCorrect ? phrases[_index % phrases.length] : (ex.speechLang == 'uz' ? 'To‘g‘ri topding!' : phrases.last));
+        (_lastCorrect ? phrases[_index % phrases.length] : (ex.speechLang == _lang ? _t.gotIt : phrases.last));
     final showExplanation = !_junior && ex.explanation != null;
     return Positioned.fill(
       child: IgnorePointer(
@@ -575,7 +625,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
               if (_lastCorrect && ex.rewardStars > 0)
                 Text('+${ex.rewardStars} ⭐', style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w800)),
               if (!_lastCorrect && _lastMistakes > 0)
-                const Text('Keyingisini birinchi urinishda topamiz!', style: TextStyle(fontSize: 18)),
+                Text(_t.firstTryNext, textAlign: TextAlign.center, style: const TextStyle(fontSize: 18)),
               if (showExplanation) ...[
                 const SizedBox(height: 16),
                 Container(
@@ -598,7 +648,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                   key: const Key('lesson_next'),
                   onPressed: _next,
                   icon: const Icon(Icons.arrow_forward_rounded),
-                  label: const Text('Keyingisi'),
+                  label: Text(_t.next),
                 ),
               ],
             ],
@@ -625,23 +675,23 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
             Text('⭐' * starsRow, style: const TextStyle(fontSize: 64)),
             const SizedBox(height: 12),
             Text(
-              widget.daily ? _dailyMessage : _finishMessage(decision),
+              widget.daily ? _t.dailyFinished : _finishMessage(decision),
               key: const Key('lesson_result'),
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: theme.primary),
             ),
             const SizedBox(height: 12),
-            Text('Bugungi yulduzlar: $_stars ⭐', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700)),
+            Text(_t.starsToday(_stars), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700)),
             if (widget.daily)
-              const Padding(
-                padding: EdgeInsets.only(top: 6),
-                child: Text('🌱 Bog‘ingga suv quydik — gullaring o‘smoqda!', textAlign: TextAlign.center, style: TextStyle(fontSize: 18)),
+              Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: Text(_t.gardenWatered, textAlign: TextAlign.center, style: const TextStyle(fontSize: 18)),
               ),
             if (!_junior) ...[
               const SizedBox(height: 8),
-              Text('Birinchi urinishda: $firstTry / $total', style: const TextStyle(fontSize: 20)),
+              Text(_t.firstTry(firstTry, total), style: const TextStyle(fontSize: 20)),
               if (_topic != null)
-                Text('Daraja: ${outcome?.stat.level ?? _level} / ${_topic!.maxLevel}', style: const TextStyle(fontSize: 20)),
+                Text(_t.levelOf(outcome?.stat.level ?? _level, _topic!.maxLevel), style: const TextStyle(fontSize: 20)),
             ],
             for (final m in _newMedals)
               Container(
@@ -649,12 +699,12 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                 margin: const EdgeInsets.only(top: 14),
                 padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
                 decoration: BoxDecoration(color: const Color(0xFFFFF8E1), borderRadius: BorderRadius.circular(20), border: Border.all(color: AppColors.star, width: 2)),
-                child: Text('${m.emoji} Yangi medal: ${m.title}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                child: Text('${m.emoji} ${_t.newMedal(m.title.of(_lang))}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
               ),
             if (gifts > 0)
-              const Padding(
-                padding: EdgeInsets.only(top: 14),
-                child: Text('🎁 Sovg‘a qutisi seni kutyapti! «Yutuqlarim»ga kir.', textAlign: TextAlign.center, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
+              Padding(
+                padding: const EdgeInsets.only(top: 14),
+                child: Text(_t.giftWaiting, textAlign: TextAlign.center, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
               ),
             const SizedBox(height: 28),
             if (!widget.daily) ...[
@@ -665,7 +715,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                   _start();
                 },
                 icon: const Icon(Icons.replay_rounded),
-                label: const Text('Yana o‘ynaymiz'),
+                label: Text(_t.playAgain),
               ),
               const SizedBox(height: 12),
             ],
@@ -673,7 +723,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
               key: const Key('lesson_done'),
               onPressed: () => Navigator.of(context).maybePop(),
               icon: Icon(widget.daily ? Icons.home_rounded : Icons.grid_view_rounded),
-              label: Text(widget.daily ? 'Bosh sahifa' : 'Mavzular'),
+              label: Text(widget.daily ? _t.home : _t.topics),
             ),
           ],
         ),

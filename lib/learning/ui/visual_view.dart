@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/visual.dart';
 
@@ -350,7 +351,7 @@ class _Coin extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(value, style: TextStyle(fontSize: extent * 0.4, fontWeight: FontWeight.w900, height: 1)),
-              Text('so‘m', style: TextStyle(fontSize: extent * 0.16, fontWeight: FontWeight.w700, height: 1)),
+              Text(Tr.of(context).sum, style: TextStyle(fontSize: extent * 0.16, fontWeight: FontWeight.w700, height: 1)),
             ],
           ),
         ),

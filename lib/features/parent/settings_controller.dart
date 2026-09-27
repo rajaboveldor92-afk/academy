@@ -25,6 +25,8 @@ class SettingsNotifier extends Notifier<AppSettings> {
 
   Future<void> setMusic(bool value) => _save(state.copyWith(musicEnabled: value));
 
+  Future<void> setAppLanguage(String lang) => _save(state.copyWith(appLanguage: lang));
+
   /// PINni almashtiradi. Faqat [PinChangeResult.success] da saqlanadi.
   Future<PinChangeResult> changePin({
     required String oldPin,

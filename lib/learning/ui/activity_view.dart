@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import 'option_card.dart';
@@ -55,14 +56,14 @@ class _ActivityExerciseViewState extends State<ActivityExerciseView> {
                           children: [
                             Text(t.title, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.text)),
                             const SizedBox(height: 4),
-                            Text('⏱ ~${t.minutes} daqiqa', style: const TextStyle(fontSize: 14, color: AppColors.textSoft, fontWeight: FontWeight.w700)),
+                            Text(Tr.of(context).aboutMinutes(t.minutes), style: const TextStyle(fontSize: 14, color: AppColors.textSoft, fontWeight: FontWeight.w700)),
                           ],
                         ),
                       ),
                     ],
                   ),
                   const SizedBox(height: 14),
-                  _heading('🧺 Kerak bo‘ladi'),
+                  _heading(Tr.of(context).needed),
                   Wrap(
                     spacing: 8,
                     runSpacing: 8,
@@ -76,7 +77,7 @@ class _ActivityExerciseViewState extends State<ActivityExerciseView> {
                     ],
                   ),
                   const SizedBox(height: 14),
-                  _heading('👣 Qanday bajaramiz'),
+                  _heading(Tr.of(context).howWeDoIt),
                   for (var i = 0; i < t.steps.length; i++)
                     Padding(
                       padding: const EdgeInsets.only(bottom: 8),
@@ -117,7 +118,7 @@ class _ActivityExerciseViewState extends State<ActivityExerciseView> {
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
             ),
             icon: const Icon(Icons.check_circle_rounded, size: 28),
-            label: const Text('Bajardik!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
+            label: Text(Tr.of(context).weDidIt, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
           ),
         ),
       ],

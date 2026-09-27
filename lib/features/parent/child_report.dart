@@ -1,4 +1,5 @@
 import '../../core/utils/date_keys.dart';
+import '../../l10n/tr.dart';
 import '../../learning/content/content_repository.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/engine/rewards.dart';
@@ -133,6 +134,7 @@ class ChildReport {
     required ChildProgress progress,
     required ContentRepository content,
     required DateTime now,
+    String lang = 'uz',
   }) {
     final suffix = profile.age <= 5 ? '4' : '6';
     final subjects = <SubjectReport>[];
@@ -173,7 +175,7 @@ class ChildReport {
       weekDaysActive: activeDays,
       tips: const [],
     );
-    return base._withTips(_tips(base, now));
+    return base._withTips(_tips(base, now, Tr(lang)));
   }
 
   ChildReport _withTips(List<String> value) => ChildReport(
@@ -189,35 +191,37 @@ class ChildReport {
         tips: value,
       );
 
-  static List<String> _tips(ChildReport r, DateTime now) {
+  static List<String> _tips(ChildReport r, DateTime now, Tr tr) {
     final tips = <String>[];
     final name = r.profile.name;
     if (!r.progress.dailyDoneOn(now)) {
-      tips.add('▶ Bugungi dars hali bajarilmagan — $name uchun ${r.profile.age <= 5 ? '5–10' : '10–20'} daqiqa yetarli.');
+      tips.add(tr.tipDaily(name, r.profile.age <= 5));
     }
     if (r.reviewsDue > 0) {
-      tips.add('🔁 Bugun ${r.reviewsDue} ta tushunchani takrorlash vaqti keldi — «Bugungi darsim» ularni o‘zi qo‘shadi.');
+      tips.add(tr.tipReviews(r.reviewsDue));
     }
     final help = r.needsHelp;
     if (help.isNotEmpty) {
       final t = help.first.topic;
-      final subject = Subject.fromId(t.subject)?.title ?? t.subject;
-      tips.add('🤝 «${t.title.uz}» ($subject) mavzusida qiynalmoqda — birga 1–2 dars qiling; '
-          'dastur osonroq darajadan davom etadi va 2-xatodan keyin maslahat beradi.');
+      final subject = Subject.fromId(t.subject)?.titleIn(tr.lang) ?? t.subject;
+      tips.add(tr.tipHelp(t.title.of(tr.lang), subject));
     }
-    final untouched = [for (final s in r.subjects) if (s.untouched && s.subject.id != 'family') s.subject.title];
+    final untouched = [
+      for (final s in r.subjects)
+        if (s.untouched && s.subject.id != 'family') s.subject.titleIn(tr.lang),
+    ];
     if (untouched.isNotEmpty && r.progress.completedLessons >= 3) {
-      tips.add('🧭 Hali boshlanmagan fanlar: ${untouched.take(4).join(', ')}${untouched.length > 4 ? '…' : ''}.');
+      tips.add(tr.tipUntouched('${untouched.take(4).join(', ')}${untouched.length > 4 ? '…' : ''}'));
     }
     final family = r.subjects.where((s) => s.subject.id == 'family').toList();
     if (family.isNotEmpty && family.first.total < 3) {
-      tips.add('🏠 «Ota-ona bilan» bo‘limidan bitta ekransiz faoliyatni birga bajaring — materiallar uyda bor narsalar.');
+      tips.add(tr.tipFamily);
     }
     if (r.weekDaysActive <= 2 && r.progress.completedLessons > 0) {
-      tips.add('📅 Bu hafta ${r.weekDaysActive} kun o‘ynadi. Har kuni qisqa dars uzoq, kamdan-kam darsdan samaraliroq.');
+      tips.add(tr.tipWeek(r.weekDaysActive));
     }
     if (tips.isEmpty) {
-      tips.add('🌟 Hammasi joyida: $name muntazam o‘rganmoqda. Yutuqlarini birga ko‘rib, maqtab qo‘ying!');
+      tips.add(tr.tipAllGood(name));
     }
     return tips;
   }

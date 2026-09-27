@@ -82,13 +82,13 @@ class Trilingual {
         SpeechPart(wd.uz, 'uz'),
         SpeechPart(wd.ru, 'ru'),
         SpeechPart(wd.en, 'en'),
-        const SpeechPart('Qaysi rasm?', 'uz'),
+        SpeechPart(g.tr('Qaysi rasm?', 'Which picture?', 'Какая картинка?'), g.lang),
       ]);
     } else {
       final word = wd.of(mode);
       say = _withParts(g.say('tri_which_picture', {'w': Localized.same('${flags[mode]} $word')}), [
         SpeechPart(word, mode),
-        const SpeechPart('qaysi rasm?', 'uz'),
+        SpeechPart(g.tr('qaysi rasm?', 'which picture?', 'какая картинка?'), g.lang),
       ]);
     }
     return g.choice(
@@ -106,13 +106,15 @@ class Trilingual {
   static Exercise whatIs(GenContext g) {
     final pool = items(g, _themes(g));
     final langs = g.pl('langs').isEmpty ? ['ru', 'en'] : g.pl('langs');
-    final lang = g.pick(langs);
+    // So'z bolaning o'z tilida bo'lsa — o'zbekcha so'z so'raladi.
+    final picked = g.pick(langs);
+    final lang = picked == g.lang ? 'uz' : picked;
     final target = g.pick(pool);
     final others = _distinct(g, pool, target, g.p('options', 3) - 1);
     final word = target.word.of(lang);
     final say = _withParts(g.say('tri_what_is', {'w': Localized.same('${flags[lang]} $word')}), [
       SpeechPart(word, lang),
-      const SpeechPart('nima?', 'uz'),
+      SpeechPart(g.tr('nima?', 'what is it?', 'что это?'), g.lang),
     ]);
     final pictures = g.pb('pictures');
     return g.choice(
@@ -120,10 +122,10 @@ class Trilingual {
       visual: pictures ? const TextVisual('🔊', scale: 0.8) : null,
       options: pictures
           ? [target.option, for (final o in others) o.option]
-          : [Opt.text(target.word.uz), for (final o in others) Opt.text(o.word.uz)],
+          : [Opt.text(target.word.of(g.lang)), for (final o in others) Opt.text(o.word.of(g.lang))],
       concept: 'tri:${target.id}',
       meta: {'answer': target.id, 'lang': lang},
-      explanation: '$word — ${target.word.uz} ${target.emoji}',
+      explanation: '$word — ${target.word.of(g.lang)} ${target.emoji}',
     );
   }
 
@@ -151,21 +153,30 @@ class Trilingual {
   static Exercise match(GenContext g) {
     final pool = items(g, _themes(g));
     final langs = g.pl('langs').isEmpty ? ['en', 'ru'] : g.pl('langs');
-    final lang = g.pick(langs);
+    // Bolaning tili ↔ boshqa til (o'z tili tanlansa — o'zbekcha).
+    final base = g.lang;
+    final picked = g.pick(langs);
+    final lang = picked == base ? (base == 'uz' ? 'en' : 'uz') : picked;
     final count = g.p('pairs', 3);
     final first = g.pick(pool);
     final chosen = [first, ..._distinct(g, pool, first, count - 1)];
-    final pairLabel = Localized(
-      uz: '${langNames['uz']!.uz} — ${langNames[lang]!.uz}',
-      en: '${langNames['uz']!.en} — ${langNames[lang]!.en}',
-      ru: 'узбекские — ${lang == 'ru' ? 'русские' : 'английские'}',
-    );
+    final pairLabel = base == 'uz'
+        ? Localized(
+            uz: '${langNames['uz']!.uz} — ${langNames[lang]!.uz}',
+            en: '${langNames['uz']!.en} — ${langNames[lang]!.en}',
+            ru: 'узбекские — ${lang == 'ru' ? 'русские' : 'английские'}',
+          )
+        : Localized(
+            uz: '${langNames[base]!.uz} — ${langNames[lang]!.uz}',
+            en: '${langNames[base]!.en} — ${langNames[lang]!.en}',
+            ru: '${langNames[base]!.ru} — ${langNames[lang]!.ru}',
+          );
     return g.custom(
       say: g.say('tri_match', {'lang': pairLabel}),
       kind: ExerciseKind.match,
       concept: 'tri_match:$lang:${chosen.map((c) => c.id).join(",")}',
-      pairs: [for (final c in chosen) MatchPair(Opt.text(c.word.uz), Opt.text(c.word.of(lang)))],
-      meta: {'pairs': chosen.map((c) => '${c.word.uz}=${c.word.of(lang)}').join(',')},
+      pairs: [for (final c in chosen) MatchPair(Opt.text(c.word.of(base)), Opt.text(c.word.of(lang)))],
+      meta: {'pairs': chosen.map((c) => '${c.word.of(base)}=${c.word.of(lang)}').join(',')},
     );
   }
 }

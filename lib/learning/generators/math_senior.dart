@@ -1,5 +1,6 @@
 import 'package:flutter/painting.dart';
 
+import '../content/number_words.dart';
 import '../content/uz_numbers.dart';
 import '../models/exercise.dart';
 import '../models/visual.dart';
@@ -64,7 +65,7 @@ class MathSenior {
       options: [for (final v in g.numberChoices(n, min: 0, max: 20, spread: 2)) Opt.number(v)],
       concept: 'number:$n',
       meta: {'answer': n, 'dots': n},
-      hint: 'To‘la ramkada 10 ta. Keyin qolganini qo‘sh.',
+      hint: g.tr('To‘la ramkada 10 ta. Keyin qolganini qo‘sh.', 'A full frame is 10. Then add the rest.', 'В полной рамке 10. Потом прибавь остальное.'),
       explanation: n > 10 ? '10 + ${n - 10} = $n' : '$n',
     );
   }
@@ -125,7 +126,7 @@ class MathSenior {
       options: [Opt.text(sign), for (final s in ['>', '<', '='].where((s) => s != sign)) Opt.text(s)],
       concept: 'compare:$sign',
       meta: {'a': a, 'b': b, 'op': 'cmp', 'answer': sign},
-      hint: 'Qush tumshug‘i katta songa ochiladi: 5 > 3.',
+      hint: g.tr('Qush tumshug‘i katta songa ochiladi: 5 > 3.', 'The bird’s beak opens to the bigger number: 5 > 3.', 'Клювик открыт к большему числу: 5 > 3.'),
       explanation: '$left $sign $b',
     );
   }
@@ -189,7 +190,7 @@ class MathSenior {
         options: [for (final v in g.numberChoices(b, min: 0, max: 10, spread: 2)) Opt.number(v)],
         concept: 'bond10:$a',
         meta: {'a': a, 'b': b, 'op': '+', 'answer': b, 'total': 10},
-        hint: 'Barmoqlaringda $a ni ko‘rsat. 10 gacha nechta yetmaydi?',
+        hint: g.tr('Barmoqlaringda $a ni ko‘rsat. 10 gacha nechta yetmaydi?', 'Show $a on your fingers. How many are missing to make 10?', 'Покажи $a на пальцах. Сколько не хватает до 10?'),
         explanation: '$a + $b = 10',
       );
     }
@@ -209,9 +210,9 @@ class MathSenior {
       visual = TextVisual('$a $sign $b = ?');
     }
     final hint = switch (mode) {
-      'carry' when op == '+' => 'Avval 10 gacha to‘ldir: $a + ${10 - a} = 10, keyin qolganini qo‘sh.',
-      'carry' => 'Avval 10 gacha ayir: $a − ${a - 10} = 10, keyin qolganini ayir.',
-      _ => op == '+' ? 'Kattaroq sondan boshlab sanab qo‘sh.' : 'Orqaga sanab ayir.',
+      'carry' when op == '+' => g.tr('Avval 10 gacha to‘ldir: $a + ${10 - a} = 10, keyin qolganini qo‘sh.', 'First make 10: $a + ${10 - a} = 10, then add the rest.', 'Сначала дополни до 10: $a + ${10 - a} = 10, потом прибавь остальное.'),
+      'carry' => g.tr('Avval 10 gacha ayir: $a − ${a - 10} = 10, keyin qolganini ayir.', 'First take away down to 10: $a − ${a - 10} = 10, then take away the rest.', 'Сначала вычти до 10: $a − ${a - 10} = 10, потом вычти остальное.'),
+      _ => op == '+' ? g.tr('Kattaroq sondan boshlab sanab qo‘sh.', 'Start from the bigger number and count on.', 'Начни с большего числа и досчитай.') : g.tr('Orqaga sanab ayir.', 'Count back to take away.', 'Считай назад, чтобы вычесть.'),
     };
     return g.choice(
       say: g.say(op == '+' ? 'solve_add' : 'solve_sub', {'a': a, 'b': b}),
@@ -254,7 +255,7 @@ class MathSenior {
       options: [for (final v in g.numberChoices(answer, min: 0, max: max, spread: 3)) Opt.number(v)],
       concept: 'missing:$form',
       meta: {'form': form, 'a': a, 'b': b, 'c': c, 'answer': answer},
-      hint: 'Javobni ? o‘rniga qo‘yib tekshir.',
+      hint: g.tr('Javobni ? o‘rniga qo‘yib tekshir.', 'Put your answer in place of ? and check.', 'Подставь ответ вместо ? и проверь.'),
       explanation: text.replaceFirst('?', '$answer'),
     );
   }
@@ -282,8 +283,8 @@ class MathSenior {
       options: [for (final v in g.numberChoices(answer, min: 0, max: max + 10, spread: 3)) Opt.number(v)],
       concept: 'sequence:$step',
       meta: {'start': start, 'step': step, 'index': missingPos, 'answer': answer},
-      hint: step > 0 ? 'Har safar nechtaga oshyapti?' : 'Har safar nechtaga kamayyapti?',
-      explanation: step > 0 ? 'Har safar +$step' : 'Har safar −${-step}',
+      hint: step > 0 ? g.tr('Har safar nechtaga oshyapti?', 'How much does it grow each time?', 'На сколько увеличивается каждый раз?') : g.tr('Har safar nechtaga kamayyapti?', 'How much does it shrink each time?', 'На сколько уменьшается каждый раз?'),
+      explanation: step > 0 ? g.tr('Har safar +$step', 'Each time +$step', 'Каждый раз +$step') : g.tr('Har safar −${-step}', 'Each time −${-step}', 'Каждый раз −${-step}'),
     );
   }
 
@@ -295,17 +296,19 @@ class MathSenior {
       final n = g.range(2, 10);
       final item = g.pick(g.countables());
       final even = n.isEven;
+      final yes = g.tr('Ha, hammasi juft', 'Yes, all in pairs', 'Да, все по парам');
+      final no = g.tr('Yo‘q, bittasi ortadi', 'No, one is left over', 'Нет, один лишний');
       return g.choice(
         say: g.say('can_pair', {'item': item}),
         visual: SceneVisual(Layouts.group(item.emoji, n, aspect: 2.2), aspect: 2.2),
         options: [
-          Opt.text(even ? 'Ha, hammasi juft' : 'Yo‘q, bittasi ortadi'),
-          Opt.text(even ? 'Yo‘q, bittasi ortadi' : 'Ha, hammasi juft'),
+          Opt.text(even ? yes : no),
+          Opt.text(even ? no : yes),
         ],
         concept: 'parity:${even ? "even" : "odd"}',
         meta: {'n': n, 'answer': even ? 'even' : 'odd'},
-        hint: 'Ikkitadan birlashtirib ko‘r.',
-        explanation: even ? '$n — juft son.' : '$n — toq son, bittasi ortib qoladi.',
+        hint: g.tr('Ikkitadan birlashtirib ko‘r.', 'Try joining them in twos.', 'Попробуй соединить по два.'),
+        explanation: even ? g.tr('$n — juft son.', '$n is an even number.', '$n — чётное число.') : g.tr('$n — toq son, bittasi ortib qoladi.', '$n is an odd number, one is left over.', '$n — нечётное число, один остаётся лишним.'),
       );
     }
     final wantEven = mode == 'even';
@@ -317,8 +320,8 @@ class MathSenior {
       options: [Opt.number(correct), for (final w in wrong) Opt.number(w)],
       concept: 'parity:${wantEven ? "even" : "odd"}',
       meta: {'answer': correct, 'parity': wantEven ? 'even' : 'odd'},
-      hint: 'Juft sonlar: 2, 4, 6, 8, 10 …',
-      explanation: wantEven ? '$correct — juft.' : '$correct — toq.',
+      hint: g.tr('Juft sonlar: 2, 4, 6, 8, 10 …', 'Even numbers: 2, 4, 6, 8, 10 …', 'Чётные числа: 2, 4, 6, 8, 10 …'),
+      explanation: wantEven ? g.tr('$correct — juft.', '$correct is even.', '$correct — чётное.') : g.tr('$correct — toq.', '$correct is odd.', '$correct — нечётное.'),
     );
   }
 
@@ -395,8 +398,8 @@ class MathSenior {
       options: [for (final v in choices(answer)) Opt.number(v)],
       concept: 'skip:$step',
       meta: {'groups': groups, 'step': step, 'answer': answer},
-      hint: '$step tadan sana: ${[for (var i = 1; i <= 3; i++) i * step].join(', ')} …',
-      explanation: '${[for (var i = 1; i <= groups; i++) i * step].join(', ')} — hammasi $answer',
+      hint: g.tr('$step tadan sana: ${[for (var i = 1; i <= 3; i++) i * step].join(', ')} …', 'Count in ${step}s: ${[for (var i = 1; i <= 3; i++) i * step].join(', ')} …', 'Считай по $step: ${[for (var i = 1; i <= 3; i++) i * step].join(', ')} …'),
+      explanation: '${[for (var i = 1; i <= groups; i++) i * step].join(', ')} — ${g.tr('hammasi', 'total', 'всего')} $answer',
     );
   }
 
@@ -418,7 +421,7 @@ class MathSenior {
           options: [for (final v in opts.take(3)) Opt.number(v)],
           concept: 'place_value:$n',
           meta: {'tens': t, 'ones': o, 'answer': n},
-          explanation: '$t o‘nlik va $o birlik = $n',
+          explanation: g.tr('$t o‘nlik va $o birlik = $n', '$t tens and $o ones = $n', 'Десятков: $t, единиц: $o = $n'),
         );
       case 'compare':
         final a = g.range(10, 99);
@@ -436,7 +439,7 @@ class MathSenior {
               : [Opt.number(bigger), Opt.number(smaller)],
           concept: askSmaller ? 'compare100:small' : 'compare100',
           meta: {'a': a, 'b': b, 'answer': askSmaller ? smaller : bigger},
-          hint: 'Avval o‘nliklarni solishtir.',
+          hint: g.tr('Avval o‘nliklarni solishtir.', 'Compare the tens first.', 'Сначала сравни десятки.'),
           explanation: askSmaller ? '$smaller < $bigger' : '$bigger > $smaller',
         );
       default:
@@ -453,7 +456,7 @@ class MathSenior {
           options: [for (final v in opts) Opt.number(v)],
           concept: 'number:$n',
           meta: {'answer': n},
-          explanation: '$n — ${UzNumbers.word(n)}',
+          explanation: '$n — ${g.lang == 'uz' ? UzNumbers.word(n) : NumberWords.word(n, g.lang)}',
         );
     }
   }
@@ -500,7 +503,7 @@ class MathSenior {
       options: [for (final v in g.numberChoices(answer, min: 0, max: max, spread: 3)) Opt.number(v)],
       concept: 'word:$type',
       meta: {'a': a, 'b': b, 'op': type == 'add' ? '+' : '-', 'answer': answer},
-      hint: type == 'add' ? 'Ko‘paydimi? Unda qo‘shamiz.' : 'Kamaydimi yoki farqmi? Unda ayiramiz.',
+      hint: type == 'add' ? g.tr('Ko‘paydimi? Unda qo‘shamiz.', 'Did it get more? Then we add.', 'Стало больше? Тогда складываем.') : g.tr('Kamaydimi yoki farqmi? Unda ayiramiz.', 'Did it get fewer, or is it a difference? Then we subtract.', 'Стало меньше или ищем разницу? Тогда вычитаем.'),
       explanation: '$a $sign $b = $answer',
     );
   }
@@ -534,7 +537,7 @@ class MathSenior {
           ],
           concept: 'shape:${shape.id}',
           meta: {'answer': answer},
-          explanation: '${shape.name.uz}: $answer ta burchak',
+          explanation: g.tr('${shape.name.uz}: $answer ta burchak', '${shape.name.en}: $answer corners', '${shape.name.ru}: углов — $answer'),
         );
       case 'objects':
         final entry = g.pick(_objectShapes.entries.toList());
@@ -550,7 +553,7 @@ class MathSenior {
           ],
           concept: 'shape:${shape.id}',
           meta: {'answer': shape.id},
-          explanation: '${obj.uz} — ${shape.name.uz} shaklida.',
+          explanation: g.tr('${obj.uz} — ${shape.name.uz} shaklida.', 'The ${obj.word.en} is shaped like a ${shape.name.en}.', '${obj.word.ru} — по форме ${shape.name.ru}.'),
         );
       default:
         final chosen = g.sample(g.lex.shapes.toList(), g.p('options', 4));
@@ -623,10 +626,10 @@ class MathSenior {
       SceneItem(kind: SceneKind.emoji, value: animal.emoji, x: pos.$1, y: pos.$2, size: 0.3, opacity: pos.$3),
     ];
     final labels = {
-      'on': 'Qutining ustida',
-      'under': 'Qutining ostida',
-      'in': 'Qutining ichida',
-      'next': 'Qutining yonida',
+      'on': g.tr('Qutining ustida', 'On the box', 'На коробке'),
+      'under': g.tr('Qutining ostida', 'Under the box', 'Под коробкой'),
+      'in': g.tr('Qutining ichida', 'In the box', 'В коробке'),
+      'next': g.tr('Qutining yonida', 'Next to the box', 'Рядом с коробкой'),
     };
     return g.choice(
       say: g.say('where_is', {'item': animal}),
@@ -671,8 +674,8 @@ class MathSenior {
       options: [Opt.text(fmt(hour, minute)), for (final w in wrongs) Opt.text(fmt(w.$1, w.$2))],
       concept: 'clock:$hour:$minute',
       meta: {'hour': hour, 'minute': minute, 'answer': fmt(hour, minute)},
-      hint: minute == 30 ? 'Uzun strelka pastda — yarim soat.' : 'Uzun strelka tepada — soat to‘liq.',
-      explanation: minute == 30 ? 'Soat $hour yarim' : 'Soat $hour',
+      hint: minute == 30 ? g.tr('Uzun strelka pastda — yarim soat.', 'The long hand points down — half past.', 'Длинная стрелка внизу — половина.') : g.tr('Uzun strelka tepada — soat to‘liq.', 'The long hand points up — o’clock.', 'Длинная стрелка вверху — ровно.'),
+      explanation: minute == 30 ? g.tr('Soat $hour yarim', 'Half past $hour', 'Половина после $hour') : g.tr('Soat $hour', '$hour o’clock', '$hour часов'),
     );
   }
 
@@ -724,7 +727,7 @@ class MathSenior {
         say: g.say('enough_money', {'item': item, 'n': price}),
         visual: SceneVisual([
           Layouts.emoji(item.emoji, x: 0.35, size: 0.6),
-          Layouts.text('$price so‘m', x: 0.72, size: 0.26),
+          Layouts.text('$price ${g.sum}', x: 0.72, size: 0.26),
         ], aspect: 2.2),
         options: [
           Opt.scene(_coins(purse(enoughAmount)), aspect: 2.8),
@@ -732,7 +735,7 @@ class MathSenior {
         ],
         concept: 'money:enough',
         meta: {'price': price, 'answer': enoughAmount, 'others': low.join(',')},
-        hint: 'Har bir hamyondagi tangalarni qo‘shib chiq.',
+        hint: g.tr('Har bir hamyondagi tangalarni qo‘shib chiq.', 'Add up the coins in each purse.', 'Сложи монеты в каждом кошельке.'),
       );
     }
     final List<int> coins;
@@ -757,11 +760,11 @@ class MathSenior {
     return g.choice(
       say: g.say('how_much_money'),
       visual: SceneVisual(_coins(coins), aspect: 2.6),
-      options: [for (final v in g.numberChoices(total, min: 1, max: max + 5, spread: 3)) Opt.text('$v so‘m')],
+      options: [for (final v in g.numberChoices(total, min: 1, max: max + 5, spread: 3)) Opt.text('$v ${g.sum}')],
       concept: 'money:$total',
       meta: {'coins': coins.join('+'), 'answer': total},
-      hint: 'Kattasidan boshlab qo‘sh.',
-      explanation: '${coins.join(' + ')} = $total so‘m',
+      hint: g.tr('Kattasidan boshlab qo‘sh.', 'Start adding from the biggest.', 'Складывай, начиная с самой большой.'),
+      explanation: '${coins.join(' + ')} = $total ${g.sum}',
     );
   }
 }

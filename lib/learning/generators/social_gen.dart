@@ -38,7 +38,7 @@ class SocialGames {
       options: [for (final e in chosen) Opt.emoji(e.emoji)],
       concept: 'emotion:${target.id}',
       meta: {'answer': target.id},
-      explanation: '${target.emoji} — ${target.name.uz}',
+      explanation: '${target.emoji} — ${target.name.of(g.lang)}',
     );
   }
 
@@ -49,7 +49,7 @@ class SocialGames {
     return g.choice(
       say: g.say('so_emotion_name'),
       visual: SceneVisual([Layouts.emoji(target.emoji, size: 0.8)], aspect: 1.6),
-      options: [for (final e in chosen) Opt.text(e.name.uz)],
+      options: [for (final e in chosen) Opt.text(e.name.of(g.lang))],
       concept: 'emotion:${target.id}',
       meta: {'answer': target.id},
     );
@@ -62,12 +62,14 @@ class SocialGames {
     final target = data.emotion(s.emotion);
     final others = g.sample(data.emotions.where((e) => e.id != target.id).toList(), g.p('options', 3) - 1);
     return g.choice(
-      say: g.say('so_situation', {'text': Localized.same(s.text)}),
+      say: g.say('so_situation', {'text': s.text}),
       visual: _scene(s.scene),
       options: [Opt.emoji(target.emoji), for (final o in others) Opt.emoji(o.emoji)],
       concept: 'situation:${s.id}',
       meta: {'answer': target.id},
-      explanation: 'Bunday paytda odatda ${target.name.uz} bo‘lamiz ${target.emoji}. His-tuyg‘ularni aytish — yaxshi odat.',
+      explanation: g.tr('Bunday paytda odatda ${target.name.uz} bo‘lamiz ${target.emoji}. His-tuyg‘ularni aytish — yaxshi odat.',
+          'At such times we usually feel ${target.name.en} ${target.emoji}. Talking about feelings is a good habit.',
+          'В такие моменты мы обычно чувствуем себя так: ${target.name.ru} ${target.emoji}. Говорить о чувствах — хорошая привычка.'),
     );
   }
 
@@ -75,14 +77,16 @@ class SocialGames {
   static Exercise polite(GenContext g) {
     final data = g.content.activities;
     final c = g.pick(data.polite);
-    final others = g.sample(data.politeWords.where((w) => w != c.word).toList(), g.p('options', 3) - 1);
+    final others = g.sample(data.politeWords.where((w) => w.uz != c.word.uz).toList(), g.p('options', 3) - 1);
+    final word = c.word.of(g.lang);
     return g.choice(
-      say: g.say('so_polite', {'text': Localized.same(c.text)}),
+      say: g.say('so_polite', {'text': c.text}),
       visual: _scene(c.scene),
-      options: [Opt.text(c.word), for (final o in others) Opt.text(o)],
-      concept: 'polite:${c.word}',
-      meta: {'answer': c.word},
-      explanation: '«${c.word}» — sehrli so‘z. U odamlarni xursand qiladi.',
+      options: [Opt.text(word), for (final o in others) Opt.text(o.of(g.lang))],
+      concept: 'polite:${c.word.uz}',
+      meta: {'answer': c.word.uz},
+      explanation: g.tr('«$word» — sehrli so‘z. U odamlarni xursand qiladi.', '“$word” is a magic word. It makes people happy.',
+          '«$word» — волшебное слово. Оно радует людей.'),
     );
   }
 
@@ -90,18 +94,18 @@ class SocialGames {
     final data = g.content.activities;
     final c = g.pick(data.polite);
     final others = <List<String>>[];
-    final usedWords = <String>{c.word};
+    final usedWords = <String>{c.word.uz};
     for (final o in g.sample(data.polite, data.polite.length)) {
       if (others.length >= g.p('options', 3) - 1) break;
-      if (usedWords.add(o.word)) others.add(o.scene);
+      if (usedWords.add(o.word.uz)) others.add(o.scene);
     }
     return g.choice(
-      say: g.say('so_polite_when', {'word': Localized.same(c.word)}),
+      say: g.say('so_polite_when', {'word': c.word}),
       visual: const TextVisual('🔊', scale: 0.8),
       options: [_sceneOption(c.scene), for (final o in others) _sceneOption(o)],
-      concept: 'polite:${c.word}',
+      concept: 'polite:${c.word.uz}',
       meta: {'answer': c.id},
-      explanation: c.text,
+      explanation: c.text.of(g.lang),
     );
   }
 
@@ -113,21 +117,30 @@ class SocialGames {
     final cases = data.choices.where((c) => c.age <= g.age && kinds.contains(c.kind)).toList();
     final c = g.pick(cases);
     final withText = !g.junior || g.pb('text');
+    final t = c.textIn(g.instructionLang);
     // 6 yoshda: "🤝 Yordam beraman" — butun qatorli katta tugma (uzun matn ham o'qiladi).
-    ExerciseOption opt((String, String) o) => withText ? Opt.text('${o.$1} ${o.$2}') : Opt.emoji(o.$1);
+    ExerciseOption opt(String emoji, String text) => withText ? Opt.text('$emoji $text') : Opt.emoji(emoji);
+    final lang = g.instructionLang;
     final speech = g.junior
         // Kichiklar o'qimaydi — variantlar ovozda ham aytiladi.
-        ? '${c.text} ${c.good.$2}? ${c.others.map((o) => o.$2).join('? ')}?'
+        ? '${t.text} ${t.good}? ${t.others.join('? ')}?'
         : null;
-    final say = g.say('so_choice', {'text': Localized.same(c.text)});
+    final say = g.say('so_choice', {
+      'text': Localized(uz: c.textIn('uz').text, en: c.textIn('en').text, ru: c.textIn('ru').text),
+    });
     return g.choice(
-      say: speech == null ? say : RenderedInstruction(say.text, InstructionBank.toSpeech(speech), key: say.key),
+      say: speech == null
+          ? say
+          : RenderedInstruction(say.text, InstructionBank.speechFor(speech, lang), lang: say.lang, key: say.key),
       visual: _scene(c.scene),
-      options: [opt(c.good), for (final o in c.others) opt(o)],
+      options: [
+        opt(c.goodEmoji, t.good),
+        for (var i = 0; i < c.otherEmojis.length; i++) opt(c.otherEmojis[i], t.others[i]),
+      ],
       concept: '${c.kind}:${c.id}',
-      meta: {'answer': c.good.$2, 'case': c.id},
-      hint: c.why,
-      explanation: c.why,
+      meta: {'answer': c.textIn('uz').good, 'case': c.id},
+      hint: t.why,
+      explanation: t.why,
     );
   }
 
@@ -138,10 +151,10 @@ class SocialGames {
     final pool = data.activities.where((a) => a.age == (g.junior ? 4 : 6) && (areas.isEmpty || areas.contains(a.area))).toList();
     final a = g.pick(pool);
     return g.custom(
-      say: g.say('fa_activity', {'title': Localized.same(a.title)}),
+      say: g.say('fa_activity', {'title': a.titleL}),
       kind: ExerciseKind.activity,
       concept: 'activity:${a.id}',
-      activity: a.task,
+      activity: a.taskIn(g.lang),
       meta: {'area': a.area},
       rewardStars: 3,
     );

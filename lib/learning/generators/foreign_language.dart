@@ -147,7 +147,10 @@ class ForeignLanguage {
 
   static Localized w(String text) => Localized.same(text);
 
-  static String _explain(VocabItem it, String lang) => '${it.word.of(lang)} — ${it.word.uz}';
+  /// Tarjima qaysi tilga: bolaning tili (dars tili bilan bir xil bo'lsa — o'zbekcha).
+  static String _to(GenContext g, String lang) => g.lang == lang ? 'uz' : g.lang;
+
+  static String _explain(GenContext g, VocabItem it, String lang) => '${it.word.of(lang)} — ${it.word.of(_to(g, lang))}';
 
   // ------------------------------------------------------------ Lug'at
   /// Rejimlar: `listen` (eshit → rasm), `read` (o'qi → rasm), `picture_word` (rasm → so'z).
@@ -171,7 +174,7 @@ class ForeignLanguage {
           options: [target.option, for (final o in others) o.option],
           concept: 'vocab:$lang:${target.id}',
           meta: meta,
-          explanation: _explain(target, lang),
+          explanation: _explain(g, target, lang),
         );
       case 'picture_word':
         final key = switch (target.kind) {
@@ -186,7 +189,7 @@ class ForeignLanguage {
           options: [Opt.text(word), for (final o in others) Opt.text(o.word.of(lang))],
           concept: 'vocab:$lang:${target.id}',
           meta: meta,
-          explanation: _explain(target, lang),
+          explanation: _explain(g, target, lang),
         );
       default:
         final key = switch (target.kind) {
@@ -201,8 +204,8 @@ class ForeignLanguage {
           options: [target.option, for (final o in others) o.option],
           concept: 'vocab:$lang:${target.id}',
           meta: meta,
-          hint: _explain(target, lang),
-          explanation: _explain(target, lang),
+          hint: _explain(g, target, lang),
+          explanation: _explain(g, target, lang),
         );
     }
   }
@@ -222,7 +225,7 @@ class ForeignLanguage {
     final name = target.name.of(lang);
     final shape = g.pick(shapes);
     final meta = <String, Object>{'answer': target.id};
-    final explanation = '$name — ${target.name.uz}';
+    final explanation = '$name — ${target.name.of(_to(g, lang))}';
     switch (mode) {
       case 'object':
         final withColor = g.lex.entries
@@ -244,7 +247,7 @@ class ForeignLanguage {
           options: [Opt.emoji(correct.emoji), for (final e in wrong) Opt.emoji(e.emoji)],
           concept: 'color:$lang:${colorTarget.id}',
           meta: {'answer': colorTarget.id},
-          explanation: '$shown — ${colorTarget.name.uz}',
+          explanation: '$shown — ${colorTarget.name.of(_to(g, lang))}',
         );
       case 'read':
         return g.choice(
@@ -465,7 +468,9 @@ class ForeignLanguage {
       options: [Opt.text(target.upper), for (final l in wrong) Opt.text(l.upper)],
       concept: 'vowel:$lang:${target.lower}',
       meta: {'answer': target.lower},
-      explanation: wantVowel ? '${target.upper} — unli' : '${target.upper} — undosh',
+      explanation: wantVowel
+          ? '${target.upper} — ${g.tr('unli', 'vowel', 'гласная')}'
+          : '${target.upper} — ${g.tr('undosh', 'consonant', 'согласная')}',
     );
   }
 
@@ -528,7 +533,7 @@ class ForeignLanguage {
       concept: 'spell:$lang:${target.id}',
       assemble: AssembleTask(answer: letters, tiles: g.mixTiles(tiles, letters)),
       meta: {'answer': word},
-      explanation: '$word — ${target.uz}',
+      explanation: '$word — ${target.word.of(_to(g, lang))}',
     );
   }
 
@@ -557,7 +562,7 @@ class ForeignLanguage {
         options: [for (final v in opts) Opt.number(v)],
         concept: 'syllable_count:$lang:$n',
         meta: {'answer': n, 'word': word},
-        hint: 'Nechta unli harf bo‘lsa, shuncha bo‘g‘in.',
+        hint: g.tr('Nechta unli harf bo‘lsa, shuncha bo‘g‘in.', 'As many vowels as there are, that many syllables.', 'Сколько гласных — столько и слогов.'),
         explanation: sy != null ? '${sy.join(' - ')} — $n' : '$word — $n',
       );
     }
@@ -629,7 +634,7 @@ class ForeignLanguage {
           options: [for (final s in ordered) Opt.emoji(item.emoji, size: s)],
           concept: 'adj:$lang:${adj.id}',
           meta: {'answer': adj.id, 'item': item.id},
-          explanation: '${adj.word(gender).of(lang)} — ${adj.uz}',
+          explanation: '${adj.word(gender).of(lang)} — ${adj.word(gender).of(_to(g, lang))}',
         );
       case 'length':
         final long = g.chance(0.5);
@@ -647,7 +652,7 @@ class ForeignLanguage {
           ],
           concept: 'adj:$lang:${adj.id}',
           meta: {'answer': adj.id},
-          explanation: '${adj.word('f').of(lang)} — ${adj.uz}',
+          explanation: '${adj.word('f').of(lang)} — ${adj.word('f').of(_to(g, lang))}',
         );
       default:
         final pool = items(g, 'opposites');
@@ -663,7 +668,7 @@ class ForeignLanguage {
             options: [for (final o in opts) o.option],
             concept: 'adj:$lang:${target.id}',
             meta: {'answer': target.id},
-            explanation: _explain(target, lang),
+            explanation: _explain(g, target, lang),
           );
         }
         return g.choice(
@@ -672,8 +677,8 @@ class ForeignLanguage {
           options: [for (final o in opts) o.option],
           concept: 'adj:$lang:${target.id}',
           meta: {'answer': target.id},
-          hint: _explain(target, lang),
-          explanation: _explain(target, lang),
+          hint: _explain(g, target, lang),
+          explanation: _explain(g, target, lang),
         );
     }
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import '../models/visual.dart';
@@ -67,7 +68,7 @@ class _SpotExerciseViewState extends State<SpotExerciseView> {
           Expanded(
             child: Center(
               child: _frame(
-                label: 'Namuna',
+                label: Tr.of(context).sample,
                 child: IgnorePointer(child: SceneView(scene: SceneVisual(ref, aspect: task.aspect))),
               ),
             ),

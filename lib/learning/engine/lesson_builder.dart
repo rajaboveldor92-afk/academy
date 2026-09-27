@@ -26,6 +26,7 @@ class LessonBuilder {
     required int age,
     Random? rng,
     Set<int> avoid = const {},
+    String lang = 'uz',
   }) {
     final generator = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator);
     if (generator == null) {
@@ -38,7 +39,7 @@ class LessonBuilder {
     for (var attempt = 0; attempt < count * 25 && result.length < count; attempt++) {
       Exercise ex;
       try {
-        ex = generator(GenContext(rng: random, content: content, topic: topic, level: level, age: age));
+        ex = generator(GenContext(rng: random, content: content, topic: topic, level: level, age: age, lang: lang));
       } catch (_) {
         continue;
       }
@@ -69,6 +70,7 @@ class LessonBuilder {
     Random? rng,
     String? concept,
     Set<int> avoid = const {},
+    String lang = 'uz',
   }) {
     final generator = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator);
     if (generator == null) return null;
@@ -78,7 +80,7 @@ class LessonBuilder {
     for (var i = 0; i < 30; i++) {
       Exercise ex;
       try {
-        ex = generator(GenContext(rng: random, content: content, topic: topic, level: level, age: age));
+        ex = generator(GenContext(rng: random, content: content, topic: topic, level: level, age: age, lang: lang));
       } catch (_) {
         continue;
       }

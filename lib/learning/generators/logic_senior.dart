@@ -85,8 +85,8 @@ class LogicSenior {
         bins: [
           for (final c in cats)
             ExerciseOption(
-              text: LogicJunior.categoryName(c),
-              speech: LogicJunior.categoryName(c),
+              text: LogicJunior.categoryName(c, g.lang),
+              speech: LogicJunior.categoryName(c, g.lang),
               visual: SceneVisual([Layouts.emoji(_binIcons[c] ?? '📦', size: 0.7)], aspect: 1),
             ),
         ],
@@ -112,8 +112,9 @@ class LogicSenior {
       options: [Opt.emoji(odd.emoji), for (final m in main) Opt.emoji(m.emoji)],
       concept: 'attribute:${attr.key}',
       meta: {'answer': odd.id, 'attribute': attr.key},
-      hint: 'Uchtasida bor, bittasida yo‘q narsa nima?',
-      explanation: 'Qolganlari ${quality.uz}, ${odd.uz} esa yo‘q.',
+      hint: g.tr('Uchtasida bor, bittasida yo‘q narsa nima?', 'What do three of them have that one does not?', 'Что есть у трёх, но нет у одного?'),
+      explanation: g.tr('Qolganlari ${quality.uz}, ${odd.uz} esa yo‘q.', 'The others: ${quality.en}. The ${odd.word.en}: no.',
+          'Остальные: ${quality.ru}. А ${odd.word.ru} — нет.'),
     );
   }
 
@@ -146,7 +147,9 @@ class LogicSenior {
         ],
         concept: 'pattern:rotate',
         meta: {'answer': answer},
-        explanation: 'Har safar ${stepTurn.abs() == 0.5 ? "yarim" : "chorak"} marta buriladi.',
+        explanation: stepTurn.abs() == 0.5
+            ? g.tr('Har safar yarim marta buriladi.', 'It turns half a turn each time.', 'Каждый раз поворачивается на пол-оборота.')
+            : g.tr('Har safar chorak marta buriladi.', 'It turns a quarter turn each time.', 'Каждый раз поворачивается на четверть оборота.'),
       );
     }
     // Rang va shakl birga almashadi: (qizil doira, ko'k uchburchak, ...)
@@ -180,7 +183,7 @@ class LogicSenior {
       ],
       concept: 'pattern:$pat',
       meta: {'pattern': pat, 'answer': seq.last},
-      hint: 'Ham shakliga, ham rangiga qara.',
+      hint: g.tr('Ham shakliga, ham rangiga qara.', 'Look at both the shape and the colour.', 'Смотри и на форму, и на цвет.'),
     );
   }
 
@@ -226,7 +229,9 @@ class LogicSenior {
       concept: 'matrix:$size:$rule',
       drag: g.pb('drag'),
       meta: {'row': mr, 'col': mc, 'rule': rule},
-      hint: 'Har bir qatorga qara: nima bir xil? Har bir ustunga qara: nima bir xil?',
+      hint: g.tr('Har bir qatorga qara: nima bir xil? Har bir ustunga qara: nima bir xil?',
+          'Look at each row: what is the same? Look at each column: what is the same?',
+          'Посмотри на каждую строку: что одинаковое? На каждый столбец: что одинаковое?'),
     );
   }
 
@@ -251,7 +256,8 @@ class LogicSenior {
       ],
       concept: 'rotation',
       meta: {'turn': turn},
-      hint: 'Rasmni xayolan bur. Ko‘zgudagi aksi bo‘lsa — to‘g‘ri kelmaydi.',
+      hint: g.tr('Rasmni xayolan bur. Ko‘zgudagi aksi bo‘lsa — to‘g‘ri kelmaydi.', 'Turn the picture in your mind. A mirror image does not fit.',
+          'Поверни картинку в уме. Зеркальное отражение не подходит.'),
     );
   }
 
@@ -282,7 +288,7 @@ class LogicSenior {
         concept: 'coding:${solution.length}',
         coding: task,
         meta: {'solutionLength': solution.length},
-        hint: 'Birinchi qadam: ${_arrow[solution.first]}',
+        hint: '${g.tr('Birinchi qadam', 'First step', 'Первый шаг')}: ${_arrow[solution.first]}',
       );
     }
     // Tanlash: to'g'ri dastur + 2 ta noto'g'ri (bitta qadami o'zgargan).
@@ -314,7 +320,7 @@ class LogicSenior {
       ],
       concept: 'coding:${solution.length}',
       meta: {'program': solution.join()},
-      hint: 'Robot turgan joydan barmog‘ing bilan yur.',
+      hint: g.tr('Robot turgan joydan barmog‘ing bilan yur.', 'Trace the path with your finger from where the robot stands.', 'Проведи пальцем путь от места, где стоит робот.'),
     );
   }
 
@@ -341,7 +347,7 @@ class LogicSenior {
     final fig = g.pick(figures);
     final parts = (fig['parts'] as List).cast<Map>();
     final mode = g.pick(g.pl('modes').isEmpty ? ['parts'] : g.pl('modes'));
-    final name = fig['uz'].toString();
+    final name = Localized(uz: fig['uz'].toString(), en: (fig['en'] ?? fig['uz']).toString(), ru: (fig['ru'] ?? fig['uz']).toString());
     final partShapes = parts.map((p) => p['s'].toString()).toSet();
 
     if (mode == 'count') {
@@ -354,7 +360,7 @@ class LogicSenior {
         options: [for (final v in {count, count + 1, count == 1 ? 2 + 1 : count - 1}) Opt.number(v)],
         concept: 'tangram:count',
         meta: {'answer': count, 'figure': fig['id'].toString()},
-        explanation: '$name: $count ta ${shape.name.uz}',
+        explanation: g.tr('${name.uz}: $count ta ${shape.name.uz}', '${name.en}: ${shape.name.en} — $count', '${name.ru}: ${shape.name.ru} — $count'),
       );
     }
     if (mode == 'missing') {
@@ -415,7 +421,7 @@ class LogicSenior {
       concept: 'sudoku:$size',
       sudoku: task,
       meta: {'blanks': blanks},
-      hint: 'Har qatorda va har ustunda har bir belgi bir martadan.',
+      hint: g.tr('Har qatorda va har ustunda har bir belgi bir martadan.', 'Each sign appears once in every row and every column.', 'Каждый знак — один раз в каждой строке и каждом столбце.'),
       rewardStars: blanks >= 6 ? 3 : 2,
     );
   }
@@ -436,16 +442,23 @@ class LogicSenior {
       final answer = g.pick(places.keys.toList());
       final nots = places.keys.where((k) => k != answer).toList();
       final say = g.say('where_riddle', {'item': animal, 'p1': places[nots[0]]!, 'p2': places[nots[1]]!});
+      String label(String k) => switch (k) {
+            'on' => g.tr('Qutining ustida', 'On the box', 'На коробке'),
+            'under' => g.tr('Qutining ostida', 'Under the box', 'Под коробкой'),
+            _ => g.tr('Qutining yonida', 'Next to the box', 'Рядом с коробкой'),
+          };
       return g.choice(
         say: say,
         visual: SceneVisual([Layouts.emoji(animal.emoji, x: 0.3, size: 0.5), Layouts.emoji('📦', x: 0.7, size: 0.5)], aspect: 2),
         options: [
-          Opt.text('Qutining ${places[answer]!.uz}'),
-          for (final n in nots) Opt.text('Qutining ${places[n]!.uz}'),
+          Opt.text(label(answer)),
+          for (final n in nots) Opt.text(label(n)),
         ],
         concept: 'riddle:where',
         meta: {'answer': answer},
-        explanation: '${places[nots[0]]!.uz} ham emas, ${places[nots[1]]!.uz} ham emas — demak, ${places[answer]!.uz}.',
+        explanation: g.tr('${places[nots[0]]!.uz} ham emas, ${places[nots[1]]!.uz} ham emas — demak, ${places[answer]!.uz}.',
+            'Not ${label(nots[0]).toLowerCase()}, not ${label(nots[1]).toLowerCase()} — so ${label(answer).toLowerCase()}.',
+            'Не ${label(nots[0]).toLowerCase()} и не ${label(nots[1]).toLowerCase()} — значит, ${label(answer).toLowerCase()}.'),
       );
     }
     if (type == 'order') {
@@ -520,9 +533,10 @@ class LogicSenior {
       ];
       final f = g.pick(facts);
       final say = g.say('syllogism', {'f1': f.$1, 'f2': f.$2, 'q': f.$3});
+      final yes = g.tr('Ha', 'Yes', 'Да'), no = g.tr('Yo‘q', 'No', 'Нет');
       return g.choice(
         say: say,
-        options: [Opt.text(f.$4 ? 'Ha' : 'Yo‘q'), Opt.text(f.$4 ? 'Yo‘q' : 'Ha')],
+        options: [Opt.text(f.$4 ? yes : no), Opt.text(f.$4 ? no : yes)],
         concept: 'riddle:syllogism',
         meta: {'answer': f.$4 ? 'yes' : 'no'},
       );

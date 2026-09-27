@@ -20,7 +20,37 @@
     "Bola suvni bir stakandan ikkinchisiga to‘kmasdan quysin.",
     "To‘kilgan tomchilarni birga sochiq bilan arting."
    ],
-   "benefit": "Qo‘l harakatining aniqligi, diqqat va “o‘zim qila olaman” degan ishonch."
+   "benefit": "Qo‘l harakatining aniqligi, diqqat va “o‘zim qila olaman” degan ishonch.",
+   "en": {
+    "title": "Pouring water",
+    "materials": [
+     "2 small plastic cups",
+     "water",
+     "a towel"
+    ],
+    "steps": [
+     "Fill one cup halfway with water.",
+     "Show once how to pour slowly.",
+     "Let the child pour the water from one cup into the other without spilling.",
+     "Wipe up any drops together with the towel."
+    ],
+    "benefit": "Precise hand movements, concentration and the confidence of “I can do it myself”."
+   },
+   "ru": {
+    "title": "Переливаем воду",
+    "materials": [
+     "2 маленьких пластиковых стакана",
+     "вода",
+     "полотенце"
+    ],
+    "steps": [
+     "Наполните один стакан водой наполовину.",
+     "Один раз покажите, как медленно переливать.",
+     "Пусть ребёнок перельёт воду из одного стакана в другой, не пролив.",
+     "Вытрите капли вместе полотенцем."
+    ],
+    "benefit": "Точность движений руки, внимание и уверенность «я могу сам»."
+   }
   },
   {
    "id": "spoon_transfer",
@@ -40,7 +70,37 @@
     "Bola hammasini o‘tkazsin, keyin orqaga qaytarsin.",
     "Oxirida loviyalarni birga sanang."
    ],
-   "benefit": "Mayda motorika va chapdan o‘ngga ishlash odati (yozishga tayyorgarlik). Kichik narsalarni og‘izga solmasligini kuzating."
+   "benefit": "Mayda motorika va chapdan o‘ngga ishlash odati (yozishga tayyorgarlik). Kichik narsalarni og‘izga solmasligini kuzating.",
+   "en": {
+    "title": "Carrying with a spoon",
+    "materials": [
+     "2 bowls",
+     "a spoon",
+     "large beans or nuts"
+    ],
+    "steps": [
+     "Put the beans into one bowl.",
+     "Show how to move them one by one into the other bowl with the spoon.",
+     "Let the child move them all, then move them back.",
+     "At the end, count the beans together."
+    ],
+    "benefit": "Fine motor skills and the habit of working from left to right (preparation for writing). Make sure small objects don’t go into the mouth."
+   },
+   "ru": {
+    "title": "Переносим ложкой",
+    "materials": [
+     "2 миски",
+     "ложка",
+     "крупная фасоль или орехи"
+    ],
+    "steps": [
+     "Насыпьте фасоль в одну миску.",
+     "Покажите, как по одной переносить её ложкой во вторую миску.",
+     "Пусть ребёнок перенесёт всё, а потом обратно.",
+     "В конце посчитайте фасолинки вместе."
+    ],
+    "benefit": "Мелкая моторика и привычка работать слева направо (подготовка к письму). Следите, чтобы мелкие предметы не попадали в рот."
+   }
   },
   {
    "id": "buttons",
@@ -58,7 +118,33 @@
     "Bola pastdagi tugmadan boshlab o‘zi qadasin.",
     "Hammasi qadalgach, birga maqtang va kiyib ko‘rsin."
    ],
-   "benefit": "Barmoqlar kuchi, sabr va kiyinishda mustaqillik."
+   "benefit": "Barmoqlar kuchi, sabr va kiyinishda mustaqillik.",
+   "en": {
+    "title": "Doing up buttons",
+    "materials": [
+     "a cardigan or shirt with big buttons"
+    ],
+    "steps": [
+     "Lay the cardigan out on the table.",
+     "Slowly do up one button, then undo it.",
+     "Let the child do up the buttons, starting from the bottom one.",
+     "When all are done, praise together and let the child try it on."
+    ],
+    "benefit": "Finger strength, patience and independence in dressing."
+   },
+   "ru": {
+    "title": "Застёгиваем пуговицы",
+    "materials": [
+     "кофта или рубашка с крупными пуговицами"
+    ],
+    "steps": [
+     "Разложите кофту на столе.",
+     "Медленно застегните одну пуговицу, потом расстегните.",
+     "Пусть ребёнок сам застегнёт, начиная с нижней пуговицы.",
+     "Когда всё застёгнуто, похвалите вместе и дайте примерить."
+    ],
+    "benefit": "Сила пальцев, терпение и самостоятельность в одевании."
+   }
   },
   {
    "id": "socks_pairs",
@@ -77,7 +163,35 @@
     "Bola hamma juftlarni topsin va yonma-yon qo‘ysin.",
     "Juftlarni o‘rab, javonga birga joylang."
    ],
-   "benefit": "Rang va naqshni solishtirish (diqqat) hamda uy ishlariga qatnashish."
+   "benefit": "Rang va naqshni solishtirish (diqqat) hamda uy ishlariga qatnashish.",
+   "en": {
+    "title": "Pairing socks",
+    "materials": [
+     "5–6 pairs of different socks",
+     "a basket"
+    ],
+    "steps": [
+     "Mix the socks up in the basket.",
+     "Pick one sock and show how to look for its pair.",
+     "Let the child find all the pairs and put them side by side.",
+     "Roll the pairs and put them on the shelf together."
+    ],
+    "benefit": "Comparing colours and patterns (attention) and taking part in housework."
+   },
+   "ru": {
+    "title": "Собираем пары носков",
+    "materials": [
+     "5–6 пар разных носков",
+     "корзина"
+    ],
+    "steps": [
+     "Перемешайте носки в корзине.",
+     "Возьмите один носок и покажите, как искать его пару.",
+     "Пусть ребёнок найдёт все пары и положит их рядом.",
+     "Сверните пары и вместе уберите на полку."
+    ],
+    "benefit": "Сравнение цвета и узора (внимание) и участие в домашних делах."
+   }
   },
   {
    "id": "water_plant",
@@ -96,7 +210,35 @@
     "Bola suvni gul tagiga sekin quysin.",
     "Har kuni bitta vaqtda gulni birga kuzating."
    ],
-   "benefit": "Mas’uliyat, tirik tabiatga g‘amxo‘rlik va kun tartibi."
+   "benefit": "Mas’uliyat, tirik tabiatga g‘amxo‘rlik va kun tartibi.",
+   "en": {
+    "title": "Watering a plant",
+    "materials": [
+     "a small watering can",
+     "a houseplant"
+    ],
+    "steps": [
+     "Touch the soil with a finger: is it dry?",
+     "Pour a little water into the can.",
+     "Let the child slowly pour the water at the base of the plant.",
+     "Look at the plant together at the same time every day."
+    ],
+    "benefit": "Responsibility, caring for living things and a daily routine."
+   },
+   "ru": {
+    "title": "Поливаем цветок",
+    "materials": [
+     "маленькая лейка",
+     "комнатный цветок"
+    ],
+    "steps": [
+     "Потрогайте землю пальцем: сухая?",
+     "Налейте в лейку немного воды.",
+     "Пусть ребёнок медленно польёт цветок у корня.",
+     "Каждый день в одно время вместе наблюдайте за цветком."
+    ],
+    "benefit": "Ответственность, забота о живой природе и режим дня."
+   }
   },
   {
    "id": "set_table",
@@ -116,7 +258,37 @@
     "Bola likopcha yoniga qoshiq va salfetka qo‘ysin.",
     "Ovqatdan keyin likopchalarni birga yig‘ing."
    ],
-   "benefit": "Sanash (birga-bir moslik), tartib va oilaga foydali bo‘lish quvonchi."
+   "benefit": "Sanash (birga-bir moslik), tartib va oilaga foydali bo‘lish quvonchi.",
+   "en": {
+    "title": "Helping to set the table",
+    "materials": [
+     "plastic plates",
+     "spoons",
+     "napkins"
+    ],
+    "steps": [
+     "Count together how many people are in the family.",
+     "Show how to put one plate for each person.",
+     "Let the child put a spoon and a napkin next to each plate.",
+     "After the meal, clear the plates together."
+    ],
+    "benefit": "Counting (one-to-one matching), order and the joy of being useful to the family."
+   },
+   "ru": {
+    "title": "Помогаем накрыть на стол",
+    "materials": [
+     "пластиковые тарелки",
+     "ложки",
+     "салфетки"
+    ],
+    "steps": [
+     "Вместе посчитайте, сколько человек в семье.",
+     "Покажите, как поставить по одной тарелке для каждого.",
+     "Пусть ребёнок положит рядом с тарелкой ложку и салфетку.",
+     "После еды вместе уберите тарелки."
+    ],
+    "benefit": "Счёт (один к одному), порядок и радость быть полезным семье."
+   }
   },
   {
    "id": "color_sort",
@@ -135,7 +307,35 @@
     "Bola qolganlarini rang bo‘yicha saralasin.",
     "Ranglarni birga uch tilda ayting."
    ],
-   "benefit": "Ranglarni ajratish, saralash (mantiq) va so‘z boyligi."
+   "benefit": "Ranglarni ajratish, saralash (mantiq) va so‘z boyligi.",
+   "en": {
+    "title": "Sorting colours",
+    "materials": [
+     "coloured pencils or balls",
+     "3 bowls"
+    ],
+    "steps": [
+     "Give each bowl one colour (red, yellow, blue).",
+     "Take one object, say its colour and put it in the bowl.",
+     "Let the child sort the rest by colour.",
+     "Say the colours together in three languages."
+    ],
+    "benefit": "Telling colours apart, sorting (logic) and vocabulary."
+   },
+   "ru": {
+    "title": "Сортируем цвета",
+    "materials": [
+     "цветные карандаши или мячики",
+     "3 миски"
+    ],
+    "steps": [
+     "Каждой миске назначьте цвет (красный, жёлтый, синий).",
+     "Возьмите предмет, назовите цвет и положите в миску.",
+     "Пусть ребёнок разложит остальные по цветам.",
+     "Назовите цвета вместе на трёх языках."
+    ],
+    "benefit": "Различение цветов, сортировка (логика) и словарный запас."
+   }
   },
   {
    "id": "big_small",
@@ -153,7 +353,33 @@
     "Bola qolganlarini kattadan kichikka tersin.",
     "Keyin kichikdan kattaga qayta tering."
    ],
-   "benefit": "O‘lchamni taqqoslash — matematik tafakkurning boshlanishi."
+   "benefit": "O‘lchamni taqqoslash — matematik tafakkurning boshlanishi.",
+   "en": {
+    "title": "From big to small",
+    "materials": [
+     "4–5 boxes or containers of different sizes"
+    ],
+    "steps": [
+     "Put the boxes in a mixed order.",
+     "Find the biggest one and show how to put it first.",
+     "Let the child line up the rest from big to small.",
+     "Then line them up again from small to big."
+    ],
+    "benefit": "Comparing sizes — the beginning of mathematical thinking."
+   },
+   "ru": {
+    "title": "От большого к маленькому",
+    "materials": [
+     "4–5 коробок или ёмкостей разного размера"
+    ],
+    "steps": [
+     "Поставьте коробки вперемешку.",
+     "Найдите самую большую и покажите, как поставить её первой.",
+     "Пусть ребёнок выстроит остальные от большой к маленькой.",
+     "Потом снова выстройте от маленькой к большой."
+    ],
+    "benefit": "Сравнение размеров — начало математического мышления."
+   }
   },
   {
    "id": "mystery_bag",
@@ -172,7 +398,35 @@
     "Ko‘rmasdan nima ekanini topib aytsin.",
     "Chiqarib, to‘g‘ri topganini birga tekshiring."
    ],
-   "benefit": "Sezgi (teginish), tasavvur va narsalarni ta’riflash nutqi."
+   "benefit": "Sezgi (teginish), tasavvur va narsalarni ta’riflash nutqi.",
+   "en": {
+    "title": "The mystery bag",
+    "materials": [
+     "a cloth bag",
+     "familiar things: a spoon, a ball, a cube, a pencil"
+    ],
+    "steps": [
+     "Put the things into the bag without the child seeing.",
+     "Let the child put a hand in the bag and feel one thing.",
+     "Without looking, the child guesses and says what it is.",
+     "Take it out and check the guess together."
+    ],
+    "benefit": "The sense of touch, imagination and describing things in words."
+   },
+   "ru": {
+    "title": "Волшебный мешочек",
+    "materials": [
+     "тканевый мешочек",
+     "знакомые предметы: ложка, мячик, кубик, карандаш"
+    ],
+    "steps": [
+     "Положите предметы в мешочек так, чтобы ребёнок не видел.",
+     "Пусть ребёнок опустит руку в мешочек и ощупает один предмет.",
+     "Не глядя, пусть угадает и назовёт, что это.",
+     "Достаньте и вместе проверьте, угадал ли он."
+    ],
+    "benefit": "Осязание, воображение и умение описывать предметы словами."
+   }
   },
   {
    "id": "sound_jars",
@@ -192,7 +446,37 @@
     "Bola bir xil tovushli idishlarni juftlasin.",
     "Ochib, ichini ko‘rib tekshiring."
    ],
-   "benefit": "Eshitish diqqati va tovushlarni farqlash — o‘qishga tayyorgarlik."
+   "benefit": "Eshitish diqqati va tovushlarni farqlash — o‘qishga tayyorgarlik.",
+   "en": {
+    "title": "Sound jars",
+    "materials": [
+     "4 closed jars",
+     "rice",
+     "buttons"
+    ],
+    "steps": [
+     "Put rice into two jars and buttons into two jars, then close them.",
+     "Shake the jars and listen to the sound.",
+     "Let the child pair the jars that sound the same.",
+     "Open them and check what is inside."
+    ],
+    "benefit": "Listening attention and telling sounds apart — preparation for reading."
+   },
+   "ru": {
+    "title": "Шумящие баночки",
+    "materials": [
+     "4 закрытые баночки",
+     "рис",
+     "пуговицы"
+    ],
+    "steps": [
+     "В две баночки насыпьте рис, в две — пуговицы и закройте.",
+     "Потрясите баночки и послушайте звук.",
+     "Пусть ребёнок найдёт пары баночек с одинаковым звуком.",
+     "Откройте и проверьте, что внутри."
+    ],
+    "benefit": "Слуховое внимание и различение звуков — подготовка к чтению."
+   }
   },
   {
    "id": "smell_game",
@@ -212,7 +496,37 @@
     "Birini hidlatib, nima ekanini topsin.",
     "Hidlarni so‘z bilan ta’riflang: nordon, shirin, yoqimli."
    ],
-   "benefit": "Sezgi a’zolari bilan tanishish va so‘z boyligi."
+   "benefit": "Sezgi a’zolari bilan tanishish va so‘z boyligi.",
+   "en": {
+    "title": "Guess the smell",
+    "materials": [
+     "a lemon",
+     "an apple",
+     "mint or cinnamon"
+    ],
+    "steps": [
+     "Smell the fruits together with the child.",
+     "Let the child close their eyes.",
+     "Let them smell one and guess what it is.",
+     "Describe the smells in words: sour, sweet, pleasant."
+    ],
+    "benefit": "Getting to know the senses and building vocabulary."
+   },
+   "ru": {
+    "title": "Угадай по запаху",
+    "materials": [
+     "лимон",
+     "яблоко",
+     "мята или корица"
+    ],
+    "steps": [
+     "Понюхайте фрукты вместе с ребёнком.",
+     "Пусть ребёнок закроет глаза.",
+     "Дайте понюхать что-то одно и угадать, что это.",
+     "Опишите запахи словами: кислый, сладкий, приятный."
+    ],
+    "benefit": "Знакомство с органами чувств и словарный запас."
+   }
   },
   {
    "id": "count_spoons",
@@ -231,7 +545,35 @@
     "Bola har bir raqam yoniga shuncha qoshiq qo‘ysin.",
     "Barmoq bilan ko‘rsatib, birga sanang."
    ],
-   "benefit": "Son va miqdorni bog‘lash — maktab matematikasi asosi."
+   "benefit": "Son va miqdorni bog‘lash — maktab matematikasi asosi.",
+   "en": {
+    "title": "Counting from 1 to 5",
+    "materials": [
+     "5 spoons",
+     "number cards 1–5"
+    ],
+    "steps": [
+     "Put the cards in order.",
+     "Show how to put one spoon next to “1”.",
+     "Let the child put as many spoons next to each number as it shows.",
+     "Point with a finger and count together."
+    ],
+    "benefit": "Connecting numbers and quantities — the basis of school maths."
+   },
+   "ru": {
+    "title": "Считаем от 1 до 5",
+    "materials": [
+     "5 ложек",
+     "карточки с цифрами 1–5"
+    ],
+    "steps": [
+     "Разложите карточки по порядку.",
+     "Покажите, как положить одну ложку рядом с «1».",
+     "Пусть ребёнок положит рядом с каждой цифрой столько ложек, сколько она показывает.",
+     "Покажите пальцем и посчитайте вместе."
+    ],
+    "benefit": "Связь числа и количества — основа школьной математики."
+   }
   },
   {
    "id": "home_words",
@@ -249,7 +591,33 @@
     "Endi siz nomini ayting — bola o‘sha narsani topsin.",
     "Bir nechta narsani ruscha va inglizcha ham ayting."
    ],
-   "benefit": "So‘z boyligi va eshitib tushunish."
+   "benefit": "So‘z boyligi va eshitib tushunish.",
+   "en": {
+    "title": "Things in our home",
+    "materials": [
+     "things around the home"
+    ],
+    "steps": [
+     "Walk around the room, point at a thing and say its name.",
+     "Let the child repeat the name.",
+     "Now you say a name — the child finds that thing.",
+     "Say some things in Uzbek and Russian too."
+    ],
+    "benefit": "Vocabulary and listening comprehension."
+   },
+   "ru": {
+    "title": "Вещи в нашем доме",
+    "materials": [
+     "вещи дома"
+    ],
+    "steps": [
+     "Ходите по комнате, показывайте предмет и называйте его.",
+     "Пусть ребёнок повторит название.",
+     "Теперь вы называете — ребёнок находит этот предмет.",
+     "Назовите несколько предметов ещё по-узбекски и по-английски."
+    ],
+    "benefit": "Словарный запас и понимание на слух."
+   }
   },
   {
    "id": "story_book",
@@ -267,7 +635,33 @@
     "Bola o‘z so‘zlari bilan aytib bersin.",
     "Oxirida eng yoqqan rasmni tanlasin."
    ],
-   "benefit": "Nutq, tasavvur va kitobga mehr."
+   "benefit": "Nutq, tasavvur va kitobga mehr.",
+   "en": {
+    "title": "A story from pictures",
+    "materials": [
+     "a picture book"
+    ],
+    "steps": [
+     "Look at the pictures in the book together.",
+     "Ask: “Who is here? What are they doing?”",
+     "Let the child tell it in their own words.",
+     "At the end, let them choose their favourite picture."
+    ],
+    "benefit": "Speech, imagination and a love of books."
+   },
+   "ru": {
+    "title": "Сказка по картинкам",
+    "materials": [
+     "книжка с картинками"
+    ],
+    "steps": [
+     "Вместе рассмотрите картинки в книжке.",
+     "Спросите: «Кто здесь? Что он делает?»",
+     "Пусть ребёнок расскажет своими словами.",
+     "В конце пусть выберет самую любимую картинку."
+    ],
+    "benefit": "Речь, воображение и любовь к книгам."
+   }
   },
   {
    "id": "leaf_walk",
@@ -286,7 +680,35 @@
     "Uyda ularni kattaligi va rangi bo‘yicha tering.",
     "Eng katta va eng kichik bargni birga toping."
    ],
-   "benefit": "Tabiatni kuzatish, taqqoslash va toza havoda harakat."
+   "benefit": "Tabiatni kuzatish, taqqoslash va toza havoda harakat.",
+   "en": {
+    "title": "Collecting leaves",
+    "materials": [
+     "a walk",
+     "a small basket"
+    ],
+    "steps": [
+     "Go for a walk in the yard or park.",
+     "Collect different leaves.",
+     "At home, line them up by size and colour.",
+     "Find the biggest and the smallest leaf together."
+    ],
+    "benefit": "Observing nature, comparing and moving in the fresh air."
+   },
+   "ru": {
+    "title": "Собираем листья",
+    "materials": [
+     "прогулка",
+     "маленькая корзинка"
+    ],
+    "steps": [
+     "Погуляйте во дворе или в парке.",
+     "Соберите разные листья.",
+     "Дома разложите их по размеру и цвету.",
+     "Вместе найдите самый большой и самый маленький лист."
+    ],
+    "benefit": "Наблюдение за природой, сравнение и движение на свежем воздухе."
+   }
   },
   {
    "id": "weather",
@@ -304,7 +726,33 @@
     "Havoga mos kiyimni birga tanlang.",
     "Kechqurun havo o‘zgardimi — yana qarang."
    ],
-   "benefit": "Kuzatuvchanlik va sabab-oqibat (havo → kiyim)."
+   "benefit": "Kuzatuvchanlik va sabab-oqibat (havo → kiyim).",
+   "en": {
+    "title": "What is the weather today?",
+    "materials": [
+     "a window"
+    ],
+    "steps": [
+     "In the morning, look out of the window together.",
+     "Is it sunny, cloudy or rainy — let the child say.",
+     "Choose clothes for the weather together.",
+     "In the evening, look again: has the weather changed?"
+    ],
+    "benefit": "Observation skills and cause and effect (weather → clothes)."
+   },
+   "ru": {
+    "title": "Какая сегодня погода?",
+    "materials": [
+     "окно"
+    ],
+    "steps": [
+     "Утром вместе посмотрите в окно.",
+     "Солнце, облака или дождь — пусть скажет ребёнок.",
+     "Вместе выберите одежду по погоде.",
+     "Вечером посмотрите снова: изменилась ли погода?"
+    ],
+    "benefit": "Наблюдательность и причина-следствие (погода → одежда)."
+   }
   },
   {
    "id": "clap_rhythm",
@@ -322,7 +770,33 @@
     "Ritmni asta murakkablashtiring.",
     "Endi bola ritm chalsin — siz takrorlang."
    ],
-   "benefit": "Eshitish xotirasi, diqqat va navbat bilan harakat qilish."
+   "benefit": "Eshitish xotirasi, diqqat va navbat bilan harakat qilish.",
+   "en": {
+    "title": "Clapping rhythm",
+    "materials": [
+     "nothing needed"
+    ],
+    "steps": [
+     "Clap a simple rhythm: clap-clap-pause.",
+     "Let the child repeat it.",
+     "Slowly make the rhythm more complex.",
+     "Now the child claps a rhythm — you repeat it."
+    ],
+    "benefit": "Auditory memory, attention and taking turns."
+   },
+   "ru": {
+    "title": "Ритм хлопками",
+    "materials": [
+     "ничего не нужно"
+    ],
+    "steps": [
+     "Прохлопайте простой ритм: хлоп-хлоп-пауза.",
+     "Пусть ребёнок повторит.",
+     "Постепенно усложняйте ритм.",
+     "Теперь ритм хлопает ребёнок — вы повторяете."
+    ],
+    "benefit": "Слуховая память, внимание и действие по очереди."
+   }
   },
   {
    "id": "balance_line",
@@ -340,7 +814,33 @@
     "Bola qo‘llarini yonga yoyib yursin.",
     "Keyin qo‘lida qoshiqda to‘p bilan yurib ko‘rsin."
    ],
-   "benefit": "Muvozanat, tana nazorati va diqqat."
+   "benefit": "Muvozanat, tana nazorati va diqqat.",
+   "en": {
+    "title": "Walking on a line",
+    "materials": [
+     "tape that sticks to the floor"
+    ],
+    "steps": [
+     "Stick a 2–3 metre line of tape on the floor.",
+     "Show how to walk slowly along the line.",
+     "Let the child walk with arms stretched out to the sides.",
+     "Then let them try walking with a ball on a spoon."
+    ],
+    "benefit": "Balance, body control and attention."
+   },
+   "ru": {
+    "title": "Идём по линии",
+    "materials": [
+     "липкая лента для пола"
+    ],
+    "steps": [
+     "Наклейте на пол ленту длиной 2–3 метра.",
+     "Покажите, как медленно идти по линии.",
+     "Пусть ребёнок идёт, раскинув руки в стороны.",
+     "Потом пусть попробует пройти с мячиком на ложке."
+    ],
+    "benefit": "Равновесие, контроль тела и внимание."
+   }
   },
   {
    "id": "playdough",
@@ -358,7 +858,33 @@
     "Shardan quyosh, ilondan uning nurlarini yasang.",
     "Yasalgan shaklni birga nomlang."
    ],
-   "benefit": "Barmoq va kaft muskullari — qalam ushlashga tayyorgarlik."
+   "benefit": "Barmoq va kaft muskullari — qalam ushlashga tayyorgarlik.",
+   "en": {
+    "title": "Playdough shapes",
+    "materials": [
+     "playdough or homemade dough"
+    ],
+    "steps": [
+     "Show how to roll a ball of dough.",
+     "Let the child roll a ball and a long “snake” between the palms.",
+     "Make a sun from the ball and its rays from the snake.",
+     "Name the shape you made together."
+    ],
+    "benefit": "Finger and palm muscles — preparation for holding a pencil."
+   },
+   "ru": {
+    "title": "Фигурки из пластилина",
+    "materials": [
+     "пластилин или домашнее тесто"
+    ],
+    "steps": [
+     "Покажите, как скатать шарик из теста.",
+     "Пусть ребёнок скатает между ладонями шарик и длинную «змейку».",
+     "Из шарика сделайте солнце, из змейки — его лучи.",
+     "Вместе назовите, что получилось."
+    ],
+    "benefit": "Мышцы пальцев и ладоней — подготовка к тому, чтобы держать карандаш."
+   }
   },
   {
    "id": "helper_clean",
@@ -377,7 +903,35 @@
     "Bola o‘yinchoqlarni turi bo‘yicha joylasin.",
     "Tartibli xonani birga ko‘rib, maqtang."
    ],
-   "benefit": "Tartib, saralash va mas’uliyat."
+   "benefit": "Tartib, saralash va mas’uliyat.",
+   "en": {
+    "title": "Putting toys away",
+    "materials": [
+     "toys",
+     "boxes"
+    ],
+    "steps": [
+     "When play is over, open the boxes.",
+     "Blocks go in one box, cars in another.",
+     "Let the child put the toys away by type.",
+     "Look at the tidy room together and praise."
+    ],
+    "benefit": "Order, sorting and responsibility."
+   },
+   "ru": {
+    "title": "Убираем игрушки на место",
+    "materials": [
+     "игрушки",
+     "коробки"
+    ],
+    "steps": [
+     "Когда игра закончилась, откройте коробки.",
+     "Кубики — в одну коробку, машинки — в другую.",
+     "Пусть ребёнок разложит игрушки по видам.",
+     "Вместе посмотрите на порядок в комнате и похвалите."
+    ],
+    "benefit": "Порядок, сортировка и ответственность."
+   }
   },
   {
    "id": "sandwich",
@@ -398,7 +952,39 @@
     "Bola o‘zi surtsin va pishloq qo‘ysin.",
     "Buterbrodni ikki bo‘lakka bo‘lib, birini oila a’zosiga taklif qilsin."
    ],
-   "benefit": "Mustaqillik, ketma-ketlikni rejalash va “yarim” tushunchasi."
+   "benefit": "Mustaqillik, ketma-ketlikni rejalash va “yarim” tushunchasi.",
+   "en": {
+    "title": "Making a sandwich",
+    "materials": [
+     "bread",
+     "butter or cheese",
+     "a blunt plastic knife",
+     "a board"
+    ],
+    "steps": [
+     "Wash hands together.",
+     "Show how to spread butter on the bread.",
+     "Let the child spread it and add cheese.",
+     "Cut the sandwich in two and let the child offer one half to a family member."
+    ],
+    "benefit": "Independence, planning a sequence and the idea of “half”."
+   },
+   "ru": {
+    "title": "Готовим бутерброд",
+    "materials": [
+     "хлеб",
+     "масло или сыр",
+     "тупой пластиковый нож",
+     "доска"
+    ],
+    "steps": [
+     "Вместе вымойте руки.",
+     "Покажите, как намазать масло на хлеб.",
+     "Пусть ребёнок сам намажет и положит сыр.",
+     "Разрежьте бутерброд пополам и пусть ребёнок угостит кого-то из семьи."
+    ],
+    "benefit": "Самостоятельность, планирование последовательности и понятие «половина»."
+   }
   },
   {
    "id": "shoe_laces",
@@ -416,7 +1002,33 @@
     "“Quloqchalar” yasab, ularni bog‘lashni ko‘rsating.",
     "Bola bir necha marta mashq qilsin — shoshilmang."
    ],
-   "benefit": "Barmoqlar koordinatsiyasi va sabr."
+   "benefit": "Barmoqlar koordinatsiyasi va sabr.",
+   "en": {
+    "title": "Learning to tie laces",
+    "materials": [
+     "a shoe with laces or a piece of card"
+    ],
+    "steps": [
+     "Put the shoe on the table.",
+     "Slowly show the first knot.",
+     "Show how to make “bunny ears” and tie them.",
+     "Let the child practise several times — don’t rush."
+    ],
+    "benefit": "Finger coordination and patience."
+   },
+   "ru": {
+    "title": "Учимся завязывать шнурки",
+    "materials": [
+     "обувь со шнурками или картон"
+    ],
+    "steps": [
+     "Поставьте обувь на стол.",
+     "Медленно покажите первый узел.",
+     "Покажите, как сделать «ушки» и завязать их.",
+     "Пусть ребёнок потренируется несколько раз — не торопите."
+    ],
+    "benefit": "Координация пальцев и терпение."
+   }
   },
   {
    "id": "tidy_room",
@@ -434,7 +1046,33 @@
     "Har bir vazifa tugagach, kartochkani belgilasin.",
     "Oxirida tartibli xonani suratga emas, xotiraga olib, birga quvonishing."
    ],
-   "benefit": "Rejalash, vazifani oxiriga yetkazish va mustaqillik."
+   "benefit": "Rejalash, vazifani oxiriga yetkazish va mustaqillik.",
+   "en": {
+    "title": "Tidying the room",
+    "materials": [
+     "coloured stickers or cards"
+    ],
+    "steps": [
+     "Choose 3 jobs in the room: books, toys, clothes.",
+     "Let the child choose which one to start with.",
+     "When each job is done, let the child mark its card.",
+     "At the end, enjoy the tidy room together — keep it as a memory, not a photo."
+    ],
+    "benefit": "Planning, finishing a task and independence."
+   },
+   "ru": {
+    "title": "Наводим порядок в комнате",
+    "materials": [
+     "цветные наклейки или карточки"
+    ],
+    "steps": [
+     "Выберите в комнате 3 дела: книги, игрушки, одежда.",
+     "Пусть ребёнок выберет, с чего начать.",
+     "Когда дело сделано, пусть отметит карточку.",
+     "В конце вместе порадуйтесь порядку — не на фото, а в памяти."
+    ],
+    "benefit": "Планирование, доведение дела до конца и самостоятельность."
+   }
   },
   {
    "id": "bean_sprout",
@@ -455,7 +1093,39 @@
     "Har kuni bir oz suv qo‘shing.",
     "Bir hafta davomida o‘sishini kuzating va rasmini chizing."
    ],
-   "benefit": "Kuzatish, sabr va tirik tabiat qanday o‘sishini tushunish."
+   "benefit": "Kuzatish, sabr va tirik tabiat qanday o‘sishini tushunish.",
+   "en": {
+    "title": "Growing a bean",
+    "materials": [
+     "a clear cup",
+     "cotton wool or a napkin",
+     "2–3 beans",
+     "water"
+    ],
+    "steps": [
+     "Put damp cotton wool into the cup.",
+     "Place the beans close to the side of the cup.",
+     "Add a little water every day.",
+     "Watch it grow for a week and draw pictures of it."
+    ],
+    "benefit": "Observation, patience and understanding how living things grow."
+   },
+   "ru": {
+    "title": "Выращиваем фасоль",
+    "materials": [
+     "прозрачный стакан",
+     "вата или салфетка",
+     "2–3 фасолинки",
+     "вода"
+    ],
+    "steps": [
+     "Положите в стакан влажную вату.",
+     "Положите фасолинки поближе к стенке стакана.",
+     "Каждый день добавляйте немного воды.",
+     "Неделю наблюдайте за ростом и рисуйте его."
+    ],
+    "benefit": "Наблюдение, терпение и понимание того, как растёт живое."
+   }
   },
   {
    "id": "sink_float",
@@ -478,7 +1148,43 @@
     "Natijani ikki guruhga ajrating: suzadi / cho‘kadi.",
     "Qaysi taxminlar to‘g‘ri chiqdi — birga sanang."
    ],
-   "benefit": "Taxmin qilish, tajriba va natijani tekshirish — ilmiy fikrlash."
+   "benefit": "Taxmin qilish, tajriba va natijani tekshirish — ilmiy fikrlash.",
+   "en": {
+    "title": "Does it float or sink?",
+    "materials": [
+     "water in a big bowl",
+     "a spoon",
+     "a cork",
+     "a coin",
+     "a wooden block",
+     "an apple"
+    ],
+    "steps": [
+     "Before putting each thing in the water, let the child guess: will it float?",
+     "Put the thing gently into the water.",
+     "Sort the results into two groups: floats / sinks.",
+     "Count together which guesses were right."
+    ],
+    "benefit": "Guessing, experimenting and checking the result — scientific thinking."
+   },
+   "ru": {
+    "title": "Плавает или тонет?",
+    "materials": [
+     "вода в большой миске",
+     "ложка",
+     "пробка",
+     "монета",
+     "деревянный кубик",
+     "яблоко"
+    ],
+    "steps": [
+     "Прежде чем опустить предмет в воду, пусть ребёнок угадает: поплывёт?",
+     "Осторожно опустите предмет в воду.",
+     "Разделите результаты на две группы: плавает / тонет.",
+     "Вместе посчитайте, какие догадки оказались верными."
+    ],
+    "benefit": "Предположение, опыт и проверка результата — научное мышление."
+   }
   },
   {
    "id": "magnet",
@@ -501,7 +1207,43 @@
     "Magnitni har biriga yaqinlashtiring.",
     "“Tortadi” va “tortmaydi” guruhlarini tuzing."
    ],
-   "benefit": "Tajriba orqali o‘rganish va saralash."
+   "benefit": "Tajriba orqali o‘rganish va saralash.",
+   "en": {
+    "title": "What does a magnet attract?",
+    "materials": [
+     "a magnet",
+     "a paper clip",
+     "paper",
+     "a pencil",
+     "a key",
+     "a plastic toy"
+    ],
+    "steps": [
+     "Lay the things out on the table.",
+     "Let the child guess: will the magnet attract it?",
+     "Bring the magnet close to each one.",
+     "Make two groups: “attracts” and “does not attract”."
+    ],
+    "benefit": "Learning through experiments and sorting."
+   },
+   "ru": {
+    "title": "Что притягивает магнит?",
+    "materials": [
+     "магнит",
+     "скрепка",
+     "бумага",
+     "карандаш",
+     "ключ",
+     "пластиковая игрушка"
+    ],
+    "steps": [
+     "Разложите предметы на столе.",
+     "Пусть ребёнок угадает: притянет ли магнит?",
+     "Поднесите магнит к каждому предмету.",
+     "Составьте группы «притягивает» и «не притягивает»."
+    ],
+    "benefit": "Обучение через опыт и сортировка."
+   }
   },
   {
    "id": "shadow_play",
@@ -521,7 +1263,37 @@
     "Qo‘lni yaqinlashtirib-uzoqlashtiring: soya qanday o‘zgaradi?",
     "Bola qo‘llari bilan quyon yoki qush soyasini yasasin."
    ],
-   "benefit": "Yorug‘lik va soya haqida ilk tushuncha, ijodkorlik."
+   "benefit": "Yorug‘lik va soya haqida ilk tushuncha, ijodkorlik.",
+   "en": {
+    "title": "Shadow play",
+    "materials": [
+     "a torch",
+     "a wall",
+     "hands or toys"
+    ],
+    "steps": [
+     "Make the room a little darker.",
+     "Shine the torch to make a hand shadow on the wall.",
+     "Move the hand closer and further away: how does the shadow change?",
+     "Let the child make a rabbit or bird shadow with their hands."
+    ],
+    "benefit": "A first idea of light and shadow, and creativity."
+   },
+   "ru": {
+    "title": "Театр теней",
+    "materials": [
+     "фонарик",
+     "стена",
+     "руки или игрушки"
+    ],
+    "steps": [
+     "Немного затемните комнату.",
+     "Фонариком направьте на стену тень руки.",
+     "Приближайте и отдаляйте руку: как меняется тень?",
+     "Пусть ребёнок сделает руками тень зайчика или птицы."
+    ],
+    "benefit": "Первое понятие о свете и тени, творчество."
+   }
   },
   {
    "id": "ice_melt",
@@ -540,7 +1312,35 @@
     "Bola taxmin qilsin: qaysi biri tez eriydi?",
     "15 daqiqadan keyin birga tekshiring."
    ],
-   "benefit": "Taqqoslash, vaqt va harorat haqida tushuncha."
+   "benefit": "Taqqoslash, vaqt va harorat haqida tushuncha.",
+   "en": {
+    "title": "Where does ice melt faster?",
+    "materials": [
+     "3 ice cubes",
+     "3 saucers"
+    ],
+    "steps": [
+     "Put the ice cubes on the saucers.",
+     "Put one in the sun, one in the shade and one in the room.",
+     "Let the child guess: which one will melt fastest?",
+     "Check together after 15 minutes."
+    ],
+    "benefit": "Comparing, and ideas about time and temperature."
+   },
+   "ru": {
+    "title": "Где лёд тает быстрее?",
+    "materials": [
+     "3 кубика льда",
+     "3 блюдца"
+    ],
+    "steps": [
+     "Положите лёд на блюдца.",
+     "Одно поставьте на солнце, другое в тень, третье в комнату.",
+     "Пусть ребёнок угадает: какой растает быстрее?",
+     "Через 15 минут вместе проверьте."
+    ],
+    "benefit": "Сравнение, понятия о времени и температуре."
+   }
   },
   {
    "id": "shop_game",
@@ -560,7 +1360,37 @@
     "Tangalarni sanab to‘lang.",
     "Keyin rollarni almashtiring — bola sanab to‘lasin."
    ],
-   "benefit": "10 gacha qo‘shish, sanash va muloqot odobi."
+   "benefit": "10 gacha qo‘shish, sanash va muloqot odobi.",
+   "en": {
+    "title": "Playing shop",
+    "materials": [
+     "toys or fruit",
+     "price cards (1–10)",
+     "play coins"
+    ],
+    "steps": [
+     "Give the things prices from 1 to 10.",
+     "The child is the seller, you are the customer.",
+     "Pay by counting the coins.",
+     "Then swap roles — the child counts and pays."
+    ],
+    "benefit": "Adding up to 10, counting and polite conversation."
+   },
+   "ru": {
+    "title": "Играем в магазин",
+    "materials": [
+     "игрушки или фрукты",
+     "карточки с ценами (1–10)",
+     "игрушечные монеты"
+    ],
+    "steps": [
+     "Назначьте предметам цены от 1 до 10.",
+     "Ребёнок — продавец, вы — покупатель.",
+     "Платите, пересчитывая монеты.",
+     "Потом поменяйтесь ролями — ребёнок считает и платит."
+    ],
+    "benefit": "Сложение до 10, счёт и вежливое общение."
+   }
   },
   {
    "id": "measure_steps",
@@ -578,7 +1408,33 @@
     "Kimniki ko‘proq qadam chiqdi — nega?",
     "Stol va gilamni ham o‘lchab, taqqoslang."
    ],
-   "benefit": "O‘lchash tushunchasi va taqqoslash."
+   "benefit": "O‘lchash tushunchasi va taqqoslash.",
+   "en": {
+    "title": "Measuring in steps",
+    "materials": [
+     "a room"
+    ],
+    "steps": [
+     "Measure the length of the room in steps.",
+     "Let the child measure it with their own steps.",
+     "Whose number of steps is bigger — and why?",
+     "Measure the table and the rug too, and compare."
+    ],
+    "benefit": "The idea of measuring and comparing."
+   },
+   "ru": {
+    "title": "Измеряем шагами",
+    "materials": [
+     "комната"
+    ],
+    "steps": [
+     "Измерьте длину комнаты шагами.",
+     "Пусть ребёнок измерит своими шагами.",
+     "У кого получилось больше шагов — и почему?",
+     "Измерьте ещё стол и ковёр и сравните."
+    ],
+    "benefit": "Понятие измерения и сравнение."
+   }
   },
   {
    "id": "daily_clock",
@@ -597,7 +1453,35 @@
     "Rasmlarni tartib bilan tering.",
     "Soatda uyg‘onish va uxlash vaqtini ko‘rsating."
    ],
-   "benefit": "Vaqt, ketma-ketlik va kun tartibi."
+   "benefit": "Vaqt, ketma-ketlik va kun tartibi.",
+   "en": {
+    "title": "Our daily routine",
+    "materials": [
+     "paper",
+     "coloured pencils"
+    ],
+    "steps": [
+     "Remember 4–5 things you do in a day together: waking up, breakfast, play, sleep.",
+     "Draw a picture of each.",
+     "Put the pictures in order.",
+     "Show the times for waking up and going to bed on a clock."
+    ],
+    "benefit": "Time, sequence and a daily routine."
+   },
+   "ru": {
+    "title": "Наш распорядок дня",
+    "materials": [
+     "бумага",
+     "цветные карандаши"
+    ],
+    "steps": [
+     "Вместе вспомните 4–5 дел за день: подъём, завтрак, игра, сон.",
+     "Нарисуйте каждое.",
+     "Разложите рисунки по порядку.",
+     "Покажите на часах время подъёма и сна."
+    ],
+    "benefit": "Время, последовательность и режим дня."
+   }
   },
   {
    "id": "shape_hunt",
@@ -615,7 +1499,33 @@
     "Har bir shakl uchun kamida 2 ta narsa toping.",
     "Qaysi shakl ko‘p uchradi — sanang."
    ],
-   "benefit": "Geometrik shakllarni hayotda ko‘rish."
+   "benefit": "Geometrik shakllarni hayotda ko‘rish.",
+   "en": {
+    "title": "Shape hunt at home",
+    "materials": [
+     "things around the home"
+    ],
+    "steps": [
+     "Remember the shapes: circle, square, triangle, rectangle.",
+     "Look for things of these shapes at home.",
+     "Find at least 2 things for each shape.",
+     "Count which shape you found most often."
+    ],
+    "benefit": "Seeing geometric shapes in everyday life."
+   },
+   "ru": {
+    "title": "Охота за фигурами дома",
+    "materials": [
+     "вещи дома"
+    ],
+    "steps": [
+     "Вспомните фигуры: круг, квадрат, треугольник, прямоугольник.",
+     "Ищите дома предметы такой формы.",
+     "Найдите хотя бы по 2 предмета для каждой фигуры.",
+     "Посчитайте, какая фигура встречалась чаще."
+    ],
+    "benefit": "Геометрические фигуры в жизни."
+   }
   },
   {
    "id": "letter_hunt",
@@ -633,7 +1543,33 @@
     "Har bir topilgan narsa nomini bo‘g‘inlab ayting.",
     "Ertaga boshqa harf bilan o‘ynang."
    ],
-   "benefit": "Tovush-harf bog‘lanishi va bo‘g‘inlab o‘qishga tayyorgarlik."
+   "benefit": "Tovush-harf bog‘lanishi va bo‘g‘inlab o‘qishga tayyorgarlik.",
+   "en": {
+    "title": "Letter hunt",
+    "materials": [
+     "things around the home"
+    ],
+    "steps": [
+     "Choose a letter, for example “M”.",
+     "Look for things at home that start with this letter.",
+     "Say the name of each thing you find in syllables.",
+     "Tomorrow, play with a different letter."
+    ],
+    "benefit": "Sound–letter links and preparation for reading in syllables."
+   },
+   "ru": {
+    "title": "Охота за буквой",
+    "materials": [
+     "вещи дома"
+    ],
+    "steps": [
+     "Выберите букву, например «М».",
+     "Ищите дома предметы, которые начинаются на эту букву.",
+     "Называйте каждый найденный предмет по слогам.",
+     "Завтра поиграйте с другой буквой."
+    ],
+    "benefit": "Связь звука и буквы и подготовка к чтению по слогам."
+   }
   },
   {
    "id": "picture_story",
@@ -651,7 +1587,33 @@
     "Hikoyani boshidan oxirigacha aytib bersin.",
     "Hikoyaga nom qo‘ying."
    ],
-   "benefit": "Izchil nutq, ketma-ketlik va tasavvur."
+   "benefit": "Izchil nutq, ketma-ketlik va tasavvur.",
+   "en": {
+    "title": "A story from pictures",
+    "materials": [
+     "3–4 pictures or magazine cuttings"
+    ],
+    "steps": [
+     "Put the pictures in a mixed order.",
+     "Let the child put them in story order.",
+     "Let them tell the story from beginning to end.",
+     "Give the story a title."
+    ],
+    "benefit": "Connected speech, sequence and imagination."
+   },
+   "ru": {
+    "title": "Рассказ по картинкам",
+    "materials": [
+     "3–4 картинки или вырезки из журнала"
+    ],
+    "steps": [
+     "Разложите картинки вперемешку.",
+     "Пусть ребёнок разложит их по порядку рассказа.",
+     "Пусть расскажет историю от начала до конца.",
+     "Придумайте рассказу название."
+    ],
+    "benefit": "Связная речь, последовательность и воображение."
+   }
   },
   {
    "id": "letter_to_grandma",
@@ -671,7 +1633,37 @@
     "Xatni konvertga solib, birga olib boring yoki berib yuboring.",
     "Buvining javobini birga tinglang."
    ],
-   "benefit": "Yozishga qiziqish, oilaviy mehr va muloqot."
+   "benefit": "Yozishga qiziqish, oilaviy mehr va muloqot.",
+   "en": {
+    "title": "A picture letter to Grandma",
+    "materials": [
+     "paper",
+     "coloured pencils",
+     "an envelope"
+    ],
+    "steps": [
+     "Draw a picture for Grandma or Grandpa.",
+     "Let the child try to write one word or their name.",
+     "Put the letter in the envelope and take it or send it together.",
+     "Listen to Grandma’s answer together."
+    ],
+    "benefit": "Interest in writing, family love and communication."
+   },
+   "ru": {
+    "title": "Письмо бабушке с рисунком",
+    "materials": [
+     "бумага",
+     "цветные карандаши",
+     "конверт"
+    ],
+    "steps": [
+     "Нарисуйте рисунок для бабушки или дедушки.",
+     "Пусть ребёнок попробует написать одно слово или своё имя.",
+     "Положите письмо в конверт и вместе отнесите или передайте.",
+     "Вместе послушайте ответ бабушки."
+    ],
+    "benefit": "Интерес к письму, семейная любовь и общение."
+   }
   },
   {
    "id": "three_langs",
@@ -689,7 +1681,33 @@
     "Endi siz inglizcha ayting — bola narsani topsin.",
     "Har kuni 3 ta yangi so‘z."
    ],
-   "benefit": "Uch tilda so‘z boyligi va eshitib tushunish."
+   "benefit": "Uch tilda so‘z boyligi va eshitib tushunish.",
+   "en": {
+    "title": "A three-language game",
+    "materials": [
+     "things around the home"
+    ],
+    "steps": [
+     "Point at a thing: let the child say it in Uzbek.",
+     "Then say it in Russian and English — the child repeats.",
+     "Now you say it in English — the child finds the thing.",
+     "3 new words every day."
+    ],
+    "benefit": "Vocabulary in three languages and listening comprehension."
+   },
+   "ru": {
+    "title": "Игра на трёх языках",
+    "materials": [
+     "вещи дома"
+    ],
+    "steps": [
+     "Покажите предмет: пусть ребёнок назовёт его по-узбекски.",
+     "Потом назовите по-русски и по-английски — ребёнок повторяет.",
+     "Теперь вы называете по-английски — ребёнок находит предмет.",
+     "Каждый день по 3 новых слова."
+    ],
+    "benefit": "Словарный запас на трёх языках и понимание на слух."
+   }
   },
   {
    "id": "paper_boat",
@@ -708,7 +1726,35 @@
     "Qayiqni suvga qo‘yib, suzishini kuzating.",
     "Qayiqqa ism qo‘ying."
    ],
-   "benefit": "Ko‘rsatma bo‘yicha ishlash, mayda motorika va sabr."
+   "benefit": "Ko‘rsatma bo‘yicha ishlash, mayda motorika va sabr.",
+   "en": {
+    "title": "A paper boat",
+    "materials": [
+     "A4 paper",
+     "a basin filled with water"
+    ],
+    "steps": [
+     "Show how to fold the paper step by step.",
+     "Let the child repeat each step.",
+     "Put the boat on the water and watch it float.",
+     "Give the boat a name."
+    ],
+    "benefit": "Following instructions, fine motor skills and patience."
+   },
+   "ru": {
+    "title": "Бумажный кораблик",
+    "materials": [
+     "лист бумаги А4",
+     "таз с водой"
+    ],
+    "steps": [
+     "Покажите по шагам, как складывать бумагу.",
+     "Пусть ребёнок повторяет каждый шаг.",
+     "Опустите кораблик на воду и посмотрите, как он плывёт.",
+     "Дайте кораблику имя."
+    ],
+    "benefit": "Работа по инструкции, мелкая моторика и терпение."
+   }
   },
   {
    "id": "home_orchestra",
@@ -728,7 +1774,37 @@
     "Tez va sekin, baland va past chalib ko‘ring.",
     "Oila uchun kichik konsert bering."
    ],
-   "benefit": "Ritm hissi, eshitish va o‘ziga ishonch."
+   "benefit": "Ritm hissi, eshitish va o‘ziga ishonch.",
+   "en": {
+    "title": "A home orchestra",
+    "materials": [
+     "pots with lids",
+     "spoons",
+     "a bottle with rice inside"
+    ],
+    "steps": [
+     "Make “instruments” from things at home.",
+     "Play a rhythm for a song you know.",
+     "Try playing fast and slow, loud and quiet.",
+     "Give a little concert for the family."
+    ],
+    "benefit": "A sense of rhythm, listening and self-confidence."
+   },
+   "ru": {
+    "title": "Домашний оркестр",
+    "materials": [
+     "кастрюли с крышками",
+     "ложки",
+     "бутылка с рисом"
+    ],
+    "steps": [
+     "Сделайте «инструменты» из домашних вещей.",
+     "Сыграйте ритм к знакомой песне.",
+     "Попробуйте играть быстро и медленно, громко и тихо.",
+     "Устройте для семьи маленький концерт."
+    ],
+    "benefit": "Чувство ритма, слух и уверенность в себе."
+   }
   },
   {
    "id": "morning_exercise",
@@ -746,7 +1822,33 @@
     "Bir oyoqda 5 soniya turing.",
     "Oxirida chuqur nafas olib, bir-biringizni maqtang."
    ],
-   "benefit": "Sog‘lom odat, muvozanat va sanash."
+   "benefit": "Sog‘lom odat, muvozanat va sanash.",
+   "en": {
+    "title": "Morning exercises",
+    "materials": [
+     "comfortable clothes"
+    ],
+    "steps": [
+     "Jump 10 times together.",
+     "Stretch your arms up and count to 5.",
+     "Stand on one leg for 5 seconds.",
+     "At the end, take a deep breath and praise each other."
+    ],
+    "benefit": "A healthy habit, balance and counting."
+   },
+   "ru": {
+    "title": "Утренняя зарядка",
+    "materials": [
+     "удобная одежда"
+    ],
+    "steps": [
+     "Вместе прыгните 10 раз.",
+     "Потянитесь руками вверх и посчитайте до 5.",
+     "Постойте на одной ноге 5 секунд.",
+     "В конце глубоко вдохните и похвалите друг друга."
+    ],
+    "benefit": "Полезная привычка, равновесие и счёт."
+   }
   },
   {
    "id": "family_help",
@@ -764,7 +1866,33 @@
     "Ishni tugatgach, oila a’zolari rahmat aytsin.",
     "Kechqurun “bugun kimga yordam berdim?” deb eslang."
    ],
-   "benefit": "G‘amxo‘rlik, mas’uliyat va oilaviy qadriyatlar."
+   "benefit": "G‘amxo‘rlik, mas’uliyat va oilaviy qadriyatlar.",
+   "en": {
+    "title": "Helping the family",
+    "materials": [
+     "everyday housework"
+    ],
+    "steps": [
+     "Choose together how the child will help the family today.",
+     "For example: bring bread, water the plants, clear the table.",
+     "When the job is done, let family members say thank you.",
+     "In the evening, remember: “Who did I help today?”"
+    ],
+    "benefit": "Caring, responsibility and family values."
+   },
+   "ru": {
+    "title": "Помогаем семье",
+    "materials": [
+     "повседневные домашние дела"
+    ],
+    "steps": [
+     "Вместе выберите, чем ребёнок поможет семье сегодня.",
+     "Например: принести хлеб, полить цветы, убрать со стола.",
+     "Когда дело сделано, пусть члены семьи скажут спасибо.",
+     "Вечером вспомните: «Кому я сегодня помог?»"
+    ],
+    "benefit": "Забота, ответственность и семейные ценности."
+   }
   },
   {
    "id": "safety_talk",
@@ -782,7 +1910,33 @@
     "Begona odam bilan hech qayoqqa ketmaslikni tushuntiring.",
     "Savol-javob o‘yini qilib, qoidalarni takrorlang."
    ],
-   "benefit": "Xavfsizlik ko‘nikmalari va o‘ziga ishonch."
+   "benefit": "Xavfsizlik ko‘nikmalari va o‘ziga ishonch.",
+   "en": {
+    "title": "Safety rules",
+    "materials": [
+     "nothing needed"
+    ],
+    "steps": [
+     "Talk about what to do if lost: stay in place and ask a grown-up for help.",
+     "Practise saying the parents’ full names.",
+     "Explain never to go anywhere with a stranger.",
+     "Play a question-and-answer game to repeat the rules."
+    ],
+    "benefit": "Safety skills and self-confidence."
+   },
+   "ru": {
+    "title": "Правила безопасности",
+    "materials": [
+     "ничего не нужно"
+    ],
+    "steps": [
+     "Обсудите, что делать, если потерялся: стоять на месте и просить помощи у взрослых.",
+     "Потренируйтесь называть полные имена родителей.",
+     "Объясните, что с незнакомым человеком никуда не уходим.",
+     "Повторите правила в игре «вопрос-ответ»."
+    ],
+    "benefit": "Навыки безопасности и уверенность в себе."
+   }
   }
  ]
 }

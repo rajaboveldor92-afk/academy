@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/tr.dart';
 import '../../models/subject.dart';
 import '../../theme/app_colors.dart';
 import '../lesson/topics_screen.dart';
@@ -19,10 +20,13 @@ class SubjectScreen extends ConsumerWidget {
     final profile = ref.watch(activeProfileProvider);
     final suffix = profile?.ageGroup.suffix ?? '6';
     final curriculum = ref.watch(curriculumForProvider((subject.id, suffix)));
-    return curriculum.when(
-      loading: () => const Scaffold(body: Center(child: CircularProgressIndicator())),
-      error: (e, _) => _Unavailable(subject: subject),
-      data: (c) => c == null ? _Unavailable(subject: subject) : TopicsScreen(subject: subject, curriculum: c),
+    return LangScope(
+      lang: profile?.language ?? 'uz',
+      child: curriculum.when(
+        loading: () => const Scaffold(body: Center(child: CircularProgressIndicator())),
+        error: (e, _) => _Unavailable(subject: subject),
+        data: (c) => c == null ? _Unavailable(subject: subject) : TopicsScreen(subject: subject, curriculum: c),
+      ),
     );
   }
 }
@@ -35,7 +39,7 @@ class _Unavailable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(subject.title), backgroundColor: subject.color.withAlpha(40)),
+      appBar: AppBar(title: Text(subject.titleIn(Tr.of(context).lang)), backgroundColor: subject.color.withAlpha(40)),
       backgroundColor: AppColors.background,
       body: SafeArea(
         child: Center(
@@ -46,10 +50,10 @@ class _Unavailable extends StatelessWidget {
               children: [
                 Text(subject.emoji, style: const TextStyle(fontSize: 110)),
                 const SizedBox(height: 16),
-                Text('Ochib bo‘lmadi', style: Theme.of(context).textTheme.headlineMedium),
+                Text(Tr.of(context).openFailed, style: Theme.of(context).textTheme.headlineMedium),
                 const SizedBox(height: 8),
                 Text(
-                  '${subject.title} mashg‘ulotlarini o‘qib bo‘lmadi. Ilovani yopib, qayta oching.',
+                  Tr.of(context).subjectLoadFailed(subject.titleIn(Tr.of(context).lang)),
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
                 ),
@@ -57,7 +61,7 @@ class _Unavailable extends StatelessWidget {
                 FilledButton.icon(
                   onPressed: () => Navigator.of(context).pop(),
                   icon: const Icon(Icons.home_rounded),
-                  label: const Text('Orqaga'),
+                  label: Text(Tr.of(context).back),
                 ),
               ],
             ),

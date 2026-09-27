@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/exercise.dart';
 import 'option_card.dart';
@@ -227,14 +228,14 @@ class _TraceExerciseViewState extends State<TraceExerciseView> with SingleTicker
                   _RoundButton(
                     key: const ValueKey('trace_clear'),
                     icon: Icons.cleaning_services_rounded,
-                    label: 'Tozalash',
+                    label: Tr.of(context).clear,
                     onTap: _solved ? null : _clear,
                   ),
                   const SizedBox(width: 20),
                   _RoundButton(
                     key: const ValueKey('trace_demo'),
                     icon: Icons.visibility_rounded,
-                    label: 'Ko‘rsat',
+                    label: Tr.of(context).show,
                     onTap: _solved ? null : _showDemo,
                   ),
                 ],

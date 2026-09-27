@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/tr.dart';
 import '../../services/parent_pin_service.dart';
 import '../../widgets/pin_pad.dart';
 import 'settings_controller.dart';
@@ -17,15 +18,19 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
   int _step = 0;
   String _old = '';
   String _new = '';
-  String? _error;
+  String Function(Tr t)? _error;
 
-  static const _titles = ['Hozirgi PIN', 'Yangi PIN', 'Yangi PINni takrorlang'];
+  String _title(Tr t) => switch (_step) {
+        0 => t.currentPin,
+        1 => t.newPin,
+        _ => t.repeatPin,
+      };
 
   Future<void> _onPin(String pin) async {
     switch (_step) {
       case 0:
         if (pin != ref.read(settingsProvider).parentPin) {
-          setState(() => _error = "PIN noto‘g‘ri");
+          setState(() => _error = (t) => t.wrongPin);
           return;
         }
         setState(() {
@@ -48,14 +53,12 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
         if (!mounted) return;
         if (result == PinChangeResult.success) {
           ScaffoldMessenger.of(context)
-              .showSnackBar(const SnackBar(content: Text("PIN o‘zgartirildi")));
+              .showSnackBar(SnackBar(content: Text(Tr.of(context).pinChanged)));
           Navigator.of(context).pop();
         } else {
           setState(() {
             _step = 1;
-            _error = result == PinChangeResult.mismatch
-                ? 'PINlar mos kelmadi, qaytadan kiriting'
-                : "PIN 4 ta raqam bo‘lishi kerak";
+            _error = result == PinChangeResult.mismatch ? (Tr t) => t.pinsMismatch : (Tr t) => t.pinLength;
           });
         }
     }
@@ -63,17 +66,18 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final t = Tr.of(context);
     return Scaffold(
-      appBar: AppBar(title: const Text("PINni o‘zgartirish")),
+      appBar: AppBar(title: Text(t.changePin)),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(20),
             child: Column(
               children: [
-                Text(_titles[_step], style: Theme.of(context).textTheme.titleLarge),
+                Text(_title(t), style: Theme.of(context).textTheme.titleLarge),
                 const SizedBox(height: 16),
-                PinPad(key: ValueKey(_step), onCompleted: _onPin, errorText: _error),
+                PinPad(key: ValueKey(_step), onCompleted: _onPin, errorText: _error?.call(t)),
               ],
             ),
           ),

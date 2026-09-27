@@ -10,6 +10,7 @@ class AppSettings {
     this.musicEnabled = false,
     this.seeded = false,
     this.dataVersion = 1,
+    this.appLanguage = 'uz',
   });
 
   /// Ota-ona bo'limi PIN kodi (4 raqam). Faqat qurilmada saqlanadi.
@@ -30,6 +31,10 @@ class AppSettings {
   /// Saqlangan ma'lumotlar sxemasi versiyasi (migratsiyalar uchun).
   final int dataVersion;
 
+  /// Umumiy ekranlar (profil tanlash, ota-ona bo'limi) tili: `uz`, `ru`, `en`.
+  /// Bola ekranlari tili har bir bola profilida alohida.
+  final String appLanguage;
+
   AppSettings copyWith({
     String? parentPin,
     bool? soundEnabled,
@@ -37,6 +42,7 @@ class AppSettings {
     bool? musicEnabled,
     bool? seeded,
     int? dataVersion,
+    String? appLanguage,
   }) {
     return AppSettings(
       parentPin: parentPin ?? this.parentPin,
@@ -45,6 +51,7 @@ class AppSettings {
       musicEnabled: musicEnabled ?? this.musicEnabled,
       seeded: seeded ?? this.seeded,
       dataVersion: dataVersion ?? this.dataVersion,
+      appLanguage: appLanguage ?? this.appLanguage,
     );
   }
 
@@ -55,6 +62,7 @@ class AppSettings {
         'musicEnabled': musicEnabled,
         'seeded': seeded,
         'dataVersion': dataVersion,
+        'appLanguage': appLanguage,
       };
 
   factory AppSettings.fromMap(Map<String, dynamic> map) {
@@ -66,6 +74,7 @@ class AppSettings {
       musicEnabled: MapUtils.asBool(map['musicEnabled'], false),
       seeded: MapUtils.asBool(map['seeded'], false),
       dataVersion: MapUtils.asInt(map['dataVersion'], 1),
+      appLanguage: const ['uz', 'ru', 'en'].contains(map['appLanguage']) ? map['appLanguage'].toString() : 'uz',
     );
   }
 }

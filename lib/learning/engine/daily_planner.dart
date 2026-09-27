@@ -57,6 +57,7 @@ class DailyPlanner {
     required DateTime now,
     Random? rng,
     int difficultyBias = 0,
+    String lang = 'uz',
   }) {
     final random = rng ?? Random();
     final suffix = age <= 5 ? '4' : '6';
@@ -79,6 +80,7 @@ class DailyPlanner {
         level: levelOf(t),
         age: age,
         rng: random,
+        lang: lang,
         concept: r.concept,
         avoid: progress.recentOf(t.id).toSet(),
       );
@@ -105,6 +107,7 @@ class DailyPlanner {
         level: levelOf(t),
         age: age,
         rng: random,
+        lang: lang,
         avoid: progress.recentOf(t.id).toSet(),
       );
       if (ex == null) continue;

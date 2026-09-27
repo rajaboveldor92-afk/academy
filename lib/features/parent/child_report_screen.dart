@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../core/utils/date_keys.dart';
+import '../../l10n/tr.dart';
 import '../../learning/content/content_provider.dart';
 import '../../learning/engine/rewards.dart';
 import '../../models/child_profile.dart';
@@ -30,21 +31,22 @@ class ChildReportScreen extends ConsumerWidget {
       if (p.id == childId) profile = p;
     }
     final current = profile;
+    final t = Tr.of(context);
     if (current == null) {
-      return Scaffold(appBar: AppBar(), body: const Center(child: Text('Profil topilmadi')));
+      return Scaffold(appBar: AppBar(), body: Center(child: Text(t.profileNotFound)));
     }
     final progress = ref.watch(childProgressProvider(childId));
     final content = ref.watch(contentProvider);
     final now = ref.read(clockProvider)();
 
     return Scaffold(
-      appBar: AppBar(title: Text('Hisobot: ${current.name}')),
+      appBar: AppBar(title: Text(t.reportTitle(current.name))),
       body: SafeArea(
         child: content.when(
           loading: () => const Center(child: CircularProgressIndicator()),
-          error: (e, _) => const Center(child: Text('Dastur ma’lumotlarini o‘qib bo‘lmadi.')),
+          error: (e, _) => Center(child: Text(t.contentLoadFailed)),
           data: (repo) {
-            final report = ChildReport.build(profile: current, progress: progress, content: repo, now: now);
+            final report = ChildReport.build(profile: current, progress: progress, content: repo, now: now, lang: t.lang);
             return ListView(
               key: const Key('report_list'),
               padding: const EdgeInsets.all(16),
@@ -57,20 +59,13 @@ class ChildReportScreen extends ConsumerWidget {
                 const SizedBox(height: 12),
                 _HighlightsCard(report: report),
                 const SizedBox(height: 16),
-                Text('Fanlar bo‘yicha', style: Theme.of(context).textTheme.titleLarge),
+                Text(t.bySubject, style: Theme.of(context).textTheme.titleLarge),
                 const SizedBox(height: 4),
-                const Text(
-                  'Foiz — yoshga mos dasturdagi barcha mavzular bo‘yicha o‘rtacha egallash. '
-                  'Mavzu 85% dan oshsa — egallangan hisoblanadi.',
-                  style: TextStyle(color: AppColors.textSoft),
-                ),
+                Text(t.masteryInfo, style: const TextStyle(color: AppColors.textSoft)),
                 const SizedBox(height: 8),
                 for (final s in report.subjects) _SubjectTile(report: s),
                 const SizedBox(height: 16),
-                const Text(
-                  'Barcha hisob-kitoblar faqat shu qurilmada bajariladi. Ma’lumotlar hech qayerga yuborilmaydi.',
-                  style: TextStyle(color: AppColors.textSoft),
-                ),
+                Text(t.localCalc, style: const TextStyle(color: AppColors.textSoft)),
               ],
             );
           },
@@ -146,6 +141,7 @@ class _Header extends StatelessWidget {
     final color = AppColors.profileColor(p.colorIndex);
     final limit = p.dailyLimitMinutes == 0 ? '' : ' / ${p.dailyLimitMinutes}';
     final medals = Rewards.medals.where((m) => g.medals.contains(m.id)).length;
+    final t = Tr.of(context);
     return _Card(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -159,7 +155,7 @@ class _Header extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(p.displayFullName, style: Theme.of(context).textTheme.titleLarge),
-                    Text('${p.age} yosh', style: const TextStyle(color: AppColors.textSoft)),
+                    Text(t.years(p.age), style: const TextStyle(color: AppColors.textSoft)),
                   ],
                 ),
               ),
@@ -170,23 +166,23 @@ class _Header extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: [
-              _Metric('⏱️', '${report.todayMinutes}$limit', 'bugun, daq'),
-              _Metric('📅', '${report.weekMinutes}', 'hafta, daq'),
-              _Metric('🗓️', '${report.weekDaysActive}/7', 'faol kunlar'),
-              _Metric('🔥', '${g.streak}', 'ketma-ket kun'),
-              _Metric('📚', '${g.completedLessons}', 'dars'),
-              _Metric('▶️', '${g.dailyLessons}', 'bugungi dars'),
-              _Metric('🎯', report.accuracy == null ? '—' : '${report.accuracy}%', '1-urinishda to‘g‘ri'),
-              _Metric('⭐', '${g.stars}', 'yulduz'),
-              _Metric('🏅', '$medals/${Rewards.medals.length}', 'medal'),
+              _Metric('⏱️', '${report.todayMinutes}$limit', t.mToday),
+              _Metric('📅', '${report.weekMinutes}', t.mWeek),
+              _Metric('🗓️', '${report.weekDaysActive}/7', t.mActiveDays),
+              _Metric('🔥', '${g.streak}', t.mStreak),
+              _Metric('📚', '${g.completedLessons}', t.mLessons),
+              _Metric('▶️', '${g.dailyLessons}', t.mDaily),
+              _Metric('🎯', report.accuracy == null ? '—' : '${report.accuracy}%', t.mAccuracy),
+              _Metric('⭐', '${g.stars}', t.mStars),
+              _Metric('🏅', '$medals/${Rewards.medals.length}', t.mMedals),
             ],
           ),
           const SizedBox(height: 12),
-          const Text('Oxirgi 7 kun (daqiqa)', style: TextStyle(fontWeight: FontWeight.w700)),
+          Text(t.last7Minutes, style: const TextStyle(fontWeight: FontWeight.w700)),
           const SizedBox(height: 6),
           WeekBars(values: g.weeklyMinutes(now), days: DateKeys.lastDays(now), color: color),
           const SizedBox(height: 8),
-          const Text('Oxirgi 7 kun (to‘g‘ri javoblar)', style: TextStyle(fontWeight: FontWeight.w700)),
+          Text(t.last7Correct, style: const TextStyle(fontWeight: FontWeight.w700)),
           const SizedBox(height: 6),
           WeekBars(values: g.weeklyCorrect(now), days: DateKeys.lastDays(now), color: AppColors.success),
         ],
@@ -204,14 +200,14 @@ class _TipsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return _Card(
       cardKey: const Key('report_tips'),
-      title: 'Tavsiyalar',
+      title: Tr.of(context).tips,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          for (final t in report.tips)
+          for (final tip in report.tips)
             Padding(
               padding: const EdgeInsets.only(bottom: 6),
-              child: Text(t, style: const TextStyle(fontSize: 15, height: 1.3)),
+              child: Text(tip, style: const TextStyle(fontSize: 15, height: 1.3)),
             ),
         ],
       ),
@@ -226,9 +222,10 @@ class _ReviewsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final t = Tr.of(context);
     return _Card(
       cardKey: const Key('report_reviews'),
-      title: '🔁 Takrorlash navbati',
+      title: t.reviewQueue,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -236,17 +233,13 @@ class _ReviewsCard extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: [
-              _Metric('📌', '${report.reviewsDue}', 'bugun'),
-              _Metric('📆', '${report.reviewsWeek}', 'keyingi 7 kun'),
-              _Metric('🗂️', '${report.reviewsTotal}', 'jami navbatda'),
+              _Metric('📌', '${report.reviewsDue}', t.mDueToday),
+              _Metric('📆', '${report.reviewsWeek}', t.mNext7),
+              _Metric('🗂️', '${report.reviewsTotal}', t.mQueued),
             ],
           ),
           const SizedBox(height: 8),
-          const Text(
-            'Xato qilingan tushuncha ertaga, keyin 3 va 7 kundan so‘ng boshqa ko‘rinishda qayta so‘raladi. '
-            '7 kunlik takrorlashda ham to‘g‘ri topsa — navbatdan chiqadi.',
-            style: TextStyle(color: AppColors.textSoft),
-          ),
+          Text(t.reviewInfo, style: const TextStyle(color: AppColors.textSoft)),
         ],
       ),
     );
@@ -262,20 +255,21 @@ class _HighlightsCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final strong = report.strengths;
     final help = report.needsHelp;
+    final tr = Tr.of(context);
     return _Card(
-      title: 'Kuchli tomonlar va e’tibor kerak',
+      title: tr.strengthsTitle,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('💪 Egallangan', style: TextStyle(fontWeight: FontWeight.w800)),
+          Text(tr.mastered, style: const TextStyle(fontWeight: FontWeight.w800)),
           if (strong.isEmpty)
-            const Text('Hali egallangan mavzu yo‘q — darslar davom etmoqda.', style: TextStyle(color: AppColors.textSoft))
+            Text(tr.noMastered, style: const TextStyle(color: AppColors.textSoft))
           else
             for (final t in strong) _TopicLine(topic: t, showSubject: true),
           const SizedBox(height: 10),
-          const Text('🤝 E’tibor kerak (oxirgi natija 60% dan past)', style: TextStyle(fontWeight: FontWeight.w800)),
+          Text(tr.needsAttention, style: const TextStyle(fontWeight: FontWeight.w800)),
           if (help.isEmpty)
-            const Text('Qiynalayotgan mavzu yo‘q.', style: TextStyle(color: AppColors.textSoft))
+            Text(tr.noStruggles, style: const TextStyle(color: AppColors.textSoft))
           else
             for (final t in help) _TopicLine(topic: t, showSubject: true),
         ],
@@ -293,6 +287,7 @@ class _SubjectTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final s = report.subject;
     final acc = report.accuracy;
+    final tr = Tr.of(context);
     return Card(
       key: ValueKey('report_subject_${s.id}'),
       margin: const EdgeInsets.only(bottom: 8),
@@ -301,7 +296,7 @@ class _SubjectTile extends StatelessWidget {
         leading: Text(s.emoji, style: const TextStyle(fontSize: 28)),
         title: Row(
           children: [
-            Expanded(child: Text(s.title, style: const TextStyle(fontWeight: FontWeight.w800))),
+            Expanded(child: Text(s.titleIn(tr.lang), style: const TextStyle(fontWeight: FontWeight.w800))),
             Text(Rewards.cupEmoji(report.cup), style: const TextStyle(fontSize: 18)),
           ],
         ),
@@ -320,13 +315,12 @@ class _SubjectTile extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             Text(
-              '${report.mastery}% · mavzular: ${report.mastered}/${report.topics.length} egallangan, '
-              '${report.started} boshlangan${acc == null ? '' : ' · aniqlik $acc%'}',
+              tr.subjectLine(report.mastery, report.mastered, report.topics.length, report.started, acc),
               key: ValueKey('report_subject_line_${s.id}'),
               style: const TextStyle(fontSize: 13),
             ),
             if (report.current != null)
-              Text('Hozir: ${report.current!.topic.title.uz}',
+              Text(tr.now(report.current!.topic.title.of(tr.lang)),
                   style: const TextStyle(fontSize: 13, color: AppColors.textSoft)),
           ],
         ),
@@ -343,11 +337,11 @@ class _TopicLine extends StatelessWidget {
   final TopicReport topic;
   final bool showSubject;
 
-  static String _status(TopicStatus s) => switch (s) {
-        TopicStatus.notStarted => 'boshlanmagan',
-        TopicStatus.learning => 'o‘rganmoqda',
-        TopicStatus.needsHelp => 'qiynalmoqda',
-        TopicStatus.mastered => 'egallangan',
+  static String _status(TopicStatus s, Tr tr) => switch (s) {
+        TopicStatus.notStarted => tr.stNotStarted,
+        TopicStatus.learning => tr.stLearning,
+        TopicStatus.needsHelp => tr.stNeedsHelp,
+        TopicStatus.mastered => tr.stMastered,
       };
 
   static Color _color(TopicStatus s) => switch (s) {
@@ -363,12 +357,13 @@ class _TopicLine extends StatelessWidget {
     final st = topic.stat;
     final status = topic.status;
     final last = st.lastPracticed;
+    final tr = Tr.of(context);
     final details = [
-      if (st.started) 'daraja ${st.level}/${t.maxLevel}',
-      if (st.started) '${st.lessons} dars',
+      if (st.started) tr.levelShort(st.level, t.maxLevel),
+      if (st.started) tr.lessonsCount(st.lessons),
       if (last != null) '${last.day.toString().padLeft(2, '0')}.${last.month.toString().padLeft(2, '0')}',
     ].join(' · ');
-    final subject = showSubject ? '${Subject.fromId(t.subject)?.title ?? t.subject} · ' : '';
+    final subject = showSubject ? '${Subject.fromId(t.subject)?.titleIn(tr.lang) ?? t.subject} · ' : '';
     return Padding(
       key: ValueKey('report_topic_${t.id}'),
       padding: const EdgeInsets.symmetric(vertical: 4),
@@ -381,9 +376,9 @@ class _TopicLine extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(t.title.uz, style: const TextStyle(fontWeight: FontWeight.w700)),
+                Text(t.title.of(tr.lang), style: const TextStyle(fontWeight: FontWeight.w700)),
                 Text(
-                  '$subject${_status(status)}${details.isEmpty ? '' : ' · $details'}',
+                  '$subject${_status(status, tr)}${details.isEmpty ? '' : ' · $details'}',
                   style: TextStyle(fontSize: 12, color: _color(status)),
                 ),
               ],

@@ -102,7 +102,7 @@ class AttentionGames {
     ];
     return _spot(g, g.say('at_find_all', {'item': target}), items, {for (var i = 0; i < k; i++) i},
         'attention:find_all:${target.id}',
-        hint: 'Rasmni chapdan o‘ngga, qatorma-qator ko‘zdan kechir.', meta: {'answer': k});
+        hint: g.tr('Rasmni chapdan o‘ngga, qatorma-qator ko‘zdan kechir.', 'Look over the picture from left to right, row by row.', 'Осмотри картинку слева направо, ряд за рядом.'), meta: {'answer': k});
   }
 
   // ------------------------------------------------------------ Bir xil rangdagilarni top
@@ -148,7 +148,7 @@ class AttentionGames {
     ];
     changed[idx] = Layouts.emoji(chosen.last.emoji, x: spots[idx].$1, y: spots[idx].$2, size: spots[idx].$3);
     return _spot(g, g.say('at_difference'), changed, {idx}, 'attention:difference:$n',
-        reference: reference, hint: 'Ikkala rasmni narsama-narsa solishtir.', meta: {'answer': chosen.last.id});
+        reference: reference, hint: g.tr('Ikkala rasmni narsama-narsa solishtir.', 'Compare the two pictures thing by thing.', 'Сравни две картинки по каждому предмету.'), meta: {'answer': chosen.last.id});
   }
 
   // ------------------------------------------------------------ Diqqat bilan sana
@@ -170,7 +170,7 @@ class AttentionGames {
       options: [for (final v in g.numberChoices(k, min: 1, max: n, spread: 2)) Opt.number(v)],
       concept: 'attention:count:$k',
       meta: {'answer': k, 'target': target.id},
-      hint: 'Topganingni barmog‘ing bilan bittadan sana.',
+      hint: g.tr('Topganingni barmog‘ing bilan bittadan sana.', 'Count what you find one by one with your finger.', 'Считай найденное пальчиком по одному.'),
     );
   }
 

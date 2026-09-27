@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
@@ -21,14 +22,15 @@ class ChildSettingsScreen extends ConsumerWidget {
   }
 
   Future<void> _confirmDelete(BuildContext context, WidgetRef ref, ChildProfile profile) async {
+    final t = Tr.of(context);
     final ok = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text("Profilni o‘chirish"),
-        content: Text("${profile.name} profili va uning barcha natijalari o‘chiriladi. Davom etasizmi?"),
+        title: Text(t.deleteProfile),
+        content: Text(t.deleteProfileConfirm(profile.name)),
         actions: [
-          TextButton(onPressed: () => Navigator.of(ctx).pop(false), child: const Text('Bekor')),
-          TextButton(onPressed: () => Navigator.of(ctx).pop(true), child: const Text("O‘chirish")),
+          TextButton(onPressed: () => Navigator.of(ctx).pop(false), child: Text(t.cancel)),
+          TextButton(onPressed: () => Navigator.of(ctx).pop(true), child: Text(t.delete)),
         ],
       ),
     );
@@ -44,8 +46,9 @@ class ChildSettingsScreen extends ConsumerWidget {
       if (p.id == childId) profile = p;
     }
     final current = profile;
+    final t = Tr.of(context);
     if (current == null) {
-      return Scaffold(appBar: AppBar(), body: const Center(child: Text('Profil topilmadi')));
+      return Scaffold(appBar: AppBar(), body: Center(child: Text(t.profileNotFound)));
     }
     final textTheme = Theme.of(context).textTheme;
 
@@ -57,14 +60,32 @@ class ChildSettingsScreen extends ConsumerWidget {
           children: [
             ListTile(
               leading: ProfilePhoto(profile: current, size: 56, showBadge: false),
-              title: Text('${current.displayFullName}, ${current.age} yosh'),
-              subtitle: const Text('Rasm, ism, yosh, mavzu va salomni tahrirlash'),
+              title: Text('${current.displayFullName}, ${t.years(current.age)}'),
+              subtitle: Text(t.editProfileHint),
               trailing: const Icon(Icons.edit_rounded),
               onTap: () => Navigator.of(context)
                   .pushNamed(AppRoutes.profileEditor, arguments: current),
             ),
             const Divider(),
-            Text('Kunlik vaqt limiti', style: textTheme.titleMedium),
+            Text(t.childLanguage, style: textTheme.titleMedium),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                for (final code in ChildProfile.languages)
+                  ChoiceChip(
+                    key: Key('child_lang_$code'),
+                    label: Text(t.langName(code)),
+                    selected: current.language == code,
+                    onSelected: (_) => _update(ref, current.copyWith(language: code)),
+                  ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            Text(t.childLanguageNote, style: textTheme.bodySmall),
+            const SizedBox(height: 20),
+            Text(t.dailyLimit, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 8,
@@ -72,30 +93,30 @@ class ChildSettingsScreen extends ConsumerWidget {
               children: [
                 for (final m in TimeLimitService.presets)
                   ChoiceChip(
-                    label: Text(m == 0 ? 'Cheklanmagan' : '$m daq'),
+                    label: Text(m == 0 ? t.unlimited : t.minutesShort(m)),
                     selected: current.dailyLimitMinutes == m,
                     onSelected: (_) => _update(ref, current.copyWith(dailyLimitMinutes: m)),
                   ),
               ],
             ),
             const SizedBox(height: 20),
-            Text('Qiyinlik darajasi', style: textTheme.titleMedium),
+            Text(t.difficulty, style: textTheme.titleMedium),
             const SizedBox(height: 8),
             SegmentedButton<int>(
-              segments: const [
-                ButtonSegment(value: -1, label: Text('Osonroq')),
-                ButtonSegment(value: 0, label: Text('Odatiy')),
-                ButtonSegment(value: 1, label: Text('Qiyinroq')),
+              segments: [
+                ButtonSegment(value: -1, label: Text(t.easier)),
+                ButtonSegment(value: 0, label: Text(t.normal)),
+                ButtonSegment(value: 1, label: Text(t.harder)),
               ],
               selected: {current.difficultyBias},
               onSelectionChanged: (s) => _update(ref, current.copyWith(difficultyBias: s.first)),
             ),
             const SizedBox(height: 20),
-            Text('Fanlar', style: textTheme.titleMedium),
+            Text(t.subjects, style: textTheme.titleMedium),
             for (final s in Subject.values)
               SwitchListTile(
                 secondary: Text(s.emoji, style: const TextStyle(fontSize: 26)),
-                title: Text(s.title),
+                title: Text(s.titleIn(t.lang)),
                 value: current.isSubjectEnabled(s.id),
                 onChanged: (enabled) {
                   final disabled = List<String>.from(current.disabledSubjects);
@@ -112,7 +133,7 @@ class ChildSettingsScreen extends ConsumerWidget {
               style: OutlinedButton.styleFrom(foregroundColor: Colors.red.shade400),
               onPressed: () => _confirmDelete(context, ref, current),
               icon: const Icon(Icons.delete_outline_rounded),
-              label: const Text("Profilni o‘chirish"),
+              label: Text(t.deleteProfile),
             ),
           ],
         ),

@@ -56,7 +56,7 @@ class WritingGenerators {
             aspect: GlyphBank.unitWidth(id) > 1 ? 1.5 : 1.0,
           ),
           meta: {'item': spec},
-          hint: 'Yashil nuqtadan boshla va strelka bo‘yicha yur.',
+          hint: g.tr('Yashil nuqtadan boshla va strelka bo‘yicha yur.', 'Start at the green dot and follow the arrow.', 'Начни с зелёной точки и веди по стрелке.'),
         );
       case 'words':
         final n = int.parse(id);
@@ -80,7 +80,7 @@ class WritingGenerators {
             minCoverage: 0.8,
           ),
           meta: {'item': 'word:${w.word}'},
-          hint: 'Harflarni chapdan o‘ngga, birma-bir yoz.',
+          hint: g.tr('Harflarni chapdan o‘ngga, birma-bir yoz.', 'Write the letters one by one from left to right.', 'Пиши буквы по одной слева направо.'),
         );
       default:
         final strokes = bank.prewriting[id]!;

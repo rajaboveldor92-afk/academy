@@ -21,6 +21,7 @@ class GenContext {
     required this.topic,
     required this.level,
     this.age = 6,
+    this.lang = 'uz',
   }) : params = topic.paramsFor(level);
 
   final Random rng;
@@ -28,7 +29,24 @@ class GenContext {
   final Topic topic;
   final int level;
   final int age;
+
+  /// Bolaning tili (`uz`, `ru`, `en`): maslahat, izoh va variant matnlari shu tilda.
+  final String lang;
   final Map<String, dynamic> params;
+
+  /// Ko'rsatma tili: O'zbek tili va Yozish darslari o'zbekcha (so'zlar o'zbekcha),
+  /// qolgan fanlar — bolaning tilida. Chet tili darslari [sayIn] bilan o'z tilida.
+  String get instructionLang => const {'uzbek', 'writing'}.contains(topic.subject) ? 'uz' : lang;
+
+  /// Matnning bolaning tilidagi varianti.
+  String tr(String uz, String en, String ru) => switch (lang) {
+        'ru' => ru,
+        'en' => en,
+        _ => uz,
+      };
+
+  /// Pul birligi.
+  String get sum => tr('so‘m', 'sum', 'сум');
 
   Lexicon get lex => content.lexicon;
 
@@ -90,7 +108,7 @@ class GenContext {
   // ------------------------------------------------------------ kontent
 
   RenderedInstruction say(String key, [Map<String, Object> params = const {}]) =>
-      content.instructions.render(key, params);
+      content.instructions.render(key, params, instructionLang);
 
   /// Chet tili darsi: ko'rsatma [lang] tilida aytiladi va ekranda shu tilda ko'rsatiladi.
   RenderedInstruction sayIn(String lang, String key, [Map<String, Object> params = const {}]) =>
