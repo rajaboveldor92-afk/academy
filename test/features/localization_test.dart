@@ -172,9 +172,12 @@ void main() {
         onGenerateRoute: AppRouter.onGenerateRoute,
       ),
     ));
-    await tester.pump();
+    // Baland ekran: sozlamalar bo'limi aylantirmasdan ko'rinadi.
+    tester.view.physicalSize = const Size(1080, 8000);
+    await tester.pumpAndSettle();
     expect(find.text('Bolalar'), findsOneWidget);
-    await tester.scrollUntilVisible(find.byKey(const Key('app_lang_en')), 300, scrollable: find.byType(Scrollable).first);
+    await tester.ensureVisible(find.byKey(const Key('app_lang_en')));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('app_lang_en')));
     await tester.pump();
     await tester.pump();

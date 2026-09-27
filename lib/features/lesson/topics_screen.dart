@@ -135,7 +135,7 @@ class TopicsScreen extends ConsumerWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(Tr(profile.language).continueLesson,
-                        style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900)),
+                        style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w900)),
                     Text(
                       '${rec.emoji}  ${rec.title.of(profile.language)}',
                       maxLines: 1,
