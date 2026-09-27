@@ -106,6 +106,23 @@ class ExerciseValidator {
       case ExerciseKind.chess:
         final c = e.chess;
         return c != null && ChessGoals.isPlayable(c);
+      case ExerciseKind.cards:
+        final c = e.cards;
+        if (c == null || c.faces.length < 4 || c.faces.length.isOdd) return false;
+        final counts = <String, int>{};
+        for (final f in c.faces) {
+          counts[f] = (counts[f] ?? 0) + 1;
+        }
+        return counts.values.every((n) => n == 2);
+      case ExerciseKind.spot:
+        final s = e.spot;
+        return s != null && s.targets.isNotEmpty && s.targets.every((t) => t >= 0 && t < s.items.length);
+      case ExerciseKind.jigsaw:
+        final j = e.jigsaw;
+        return j != null && j.pieces >= 2 && j.picture.items.isNotEmpty;
+      case ExerciseKind.activity:
+        final a = e.activity;
+        return a != null && a.steps.isNotEmpty && a.title.trim().isNotEmpty;
     }
   }
 }

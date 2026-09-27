@@ -10,14 +10,18 @@ import '../../learning/engine/lesson_builder.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/models/exercise.dart';
 import '../../learning/models/topic.dart';
+import '../../learning/ui/activity_view.dart';
 import '../../learning/ui/assemble_view.dart';
+import '../../learning/ui/cards_view.dart';
 import '../../learning/ui/chess_view.dart';
 import '../../learning/ui/choice_view.dart';
 import '../../learning/ui/coding_view.dart';
 import '../../learning/ui/match_view.dart';
 import '../../learning/ui/maze_view.dart';
+import '../../learning/ui/jigsaw_view.dart';
 import '../../learning/ui/option_card.dart';
 import '../../learning/ui/sort_view.dart';
+import '../../learning/ui/spot_view.dart';
 import '../../learning/ui/sudoku_view.dart';
 import '../../learning/ui/trace_view.dart';
 import '../../models/child_profile.dart';
@@ -119,7 +123,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     if (_phase != _Phase.playing || _exercises.isEmpty) return;
     final ex = _current;
     // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi.
-    if (ex.kind == ExerciseKind.memory) {
+    if (ex.kind == ExerciseKind.memory || (ex.kind == ExerciseKind.assemble && ex.previewVisual != null)) {
       _audio.speak('Yaxshilab qara va eslab qol!');
       return;
     }
@@ -296,6 +300,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       ExerciseKind.assemble => AssembleExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.trace => TraceExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.chess => ChessExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.cards => CardsExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.spot => SpotExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.jigsaw => JigsawExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.activity => ActivityExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(key: key, exercise: ex, callbacks: callbacks),
     };
     return Stack(

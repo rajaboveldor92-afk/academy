@@ -1,0 +1,250 @@
+{
+ "subject": "memory",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Xotira",
+  "en": "Memory",
+  "ru": "Память"
+ },
+ "model": "KO‘R → ESLAB QOL → TIKLA → TEKSHIR",
+ "topics": [
+  {
+   "id": "memory6.cards",
+   "code": "X1",
+   "emoji": "🃏",
+   "title": {
+    "uz": "Juft kartalar",
+    "en": "Memory cards",
+    "ru": "Найди пару"
+   },
+   "generator": "cards",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 4
+    },
+    {
+     "pairs": 6
+    },
+    {
+     "pairs": 8
+    }
+   ]
+  },
+  {
+   "id": "memory6.missing",
+   "code": "X2",
+   "emoji": "🙈",
+   "title": {
+    "uz": "Qaysi biri yo‘qoldi?",
+    "en": "What is missing?",
+    "ru": "Чего не стало?"
+   },
+   "generator": "missing",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4,
+     "seconds": 4
+    },
+    {
+     "items": 5,
+     "seconds": 4
+    },
+    {
+     "items": 6,
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "id": "memory6.sequence",
+   "code": "X3",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ketma-ketlikni eslab qol",
+    "en": "Remember the order",
+    "ru": "Запомни порядок"
+   },
+   "generator": "recall",
+   "skill": "sequence_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4,
+     "seconds": 5
+    },
+    {
+     "items": 5,
+     "extra": 1,
+     "seconds": 6
+    },
+    {
+     "items": 6,
+     "extra": 2,
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "id": "memory6.colors",
+   "code": "X4",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Ranglar ketma-ketligi",
+    "en": "Colour order",
+    "ru": "Порядок цветов"
+   },
+   "generator": "recall",
+   "skill": "sequence_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4,
+     "kind": "color",
+     "seconds": 5
+    },
+    {
+     "items": 5,
+     "kind": "color",
+     "seconds": 6
+    },
+    {
+     "items": 6,
+     "kind": "color",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "id": "memory6.changed",
+   "code": "X5",
+   "emoji": "🔄",
+   "title": {
+    "uz": "Nima o‘zgardi?",
+    "en": "What changed?",
+    "ru": "Что изменилось?"
+   },
+   "generator": "changed",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4,
+     "seconds": 4
+    },
+    {
+     "items": 5,
+     "seconds": 5
+    },
+    {
+     "items": 6,
+     "seconds": 5,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "memory6.how_many",
+   "code": "X6",
+   "emoji": "🔍",
+   "title": {
+    "uz": "Nechta edi?",
+    "en": "How many were there?",
+    "ru": "Сколько было?"
+   },
+   "generator": "how_many",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "max": 4,
+     "distractors": 2,
+     "seconds": 4
+    },
+    {
+     "max": 5,
+     "distractors": 3,
+     "seconds": 4
+    },
+    {
+     "max": 6,
+     "distractors": 4,
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "id": "memory6.where",
+   "code": "X7",
+   "emoji": "📍",
+   "title": {
+    "uz": "Qayerda edi?",
+    "en": "Where was it?",
+    "ru": "Где это было?"
+   },
+   "generator": "where",
+   "skill": "spatial_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "grid": 3,
+     "items": 3,
+     "options": 3
+    },
+    {
+     "grid": 3,
+     "items": 4,
+     "options": 4
+    },
+    {
+     "grid": 3,
+     "items": 5,
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "memory6.was_there",
+   "code": "X8",
+   "emoji": "🖼️",
+   "title": {
+    "uz": "Rasmda nima bor edi?",
+    "en": "What was in the picture?",
+    "ru": "Что было на картинке?"
+   },
+   "generator": "was_there",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 5,
+     "seconds": 5
+    },
+    {
+     "items": 6,
+     "seconds": 5,
+     "options": 4
+    },
+    {
+     "items": 7,
+     "seconds": 6,
+     "options": 4
+    }
+   ]
+  }
+ ]
+}

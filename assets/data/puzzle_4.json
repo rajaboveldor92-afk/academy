@@ -1,0 +1,133 @@
+{
+ "subject": "puzzle",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 3,
+ "title": {
+  "uz": "Puzzle",
+  "en": "Puzzles",
+  "ru": "Пазлы"
+ },
+ "model": "KO‘R → BO‘LAKNI SUR → RASMNI YIG‘ → MAQTOV OL",
+ "topics": [
+  {
+   "id": "puzzle4.p4",
+   "code": "P1",
+   "emoji": "🧩",
+   "title": {
+    "uz": "4 bo‘lak",
+    "en": "4 pieces",
+    "ru": "4 части"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 2,
+     "cols": 2,
+     "styles": [
+      "big"
+     ]
+    },
+    {
+     "rows": 2,
+     "cols": 2,
+     "styles": [
+      "big",
+      "scene"
+     ]
+    },
+    {
+     "rows": 2,
+     "cols": 2,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puzzle4.p6",
+   "code": "P2",
+   "emoji": "🧩",
+   "title": {
+    "uz": "6 bo‘lak",
+    "en": "6 pieces",
+    "ru": "6 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [
+    "puzzle4.p4"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 2,
+     "cols": 3,
+     "styles": [
+      "big"
+     ]
+    },
+    {
+     "rows": 2,
+     "cols": 3,
+     "styles": [
+      "big",
+      "scene"
+     ]
+    },
+    {
+     "rows": 2,
+     "cols": 3,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puzzle4.p9",
+   "code": "P3",
+   "emoji": "🧩",
+   "title": {
+    "uz": "9 bo‘lak",
+    "en": "9 pieces",
+    "ru": "9 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [
+    "puzzle4.p6"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "big"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "big",
+      "scene"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  }
+ ]
+}

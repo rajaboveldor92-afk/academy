@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
@@ -29,7 +31,37 @@ class _AssembleExerciseViewState extends State<AssembleExerciseView> {
   int _shake = 0;
   bool _solved = false;
 
+  /// Xotira rejimi: avval ketma-ketlik ko'rsatiladi, keyin yashiriladi.
+  bool _previewing = false;
+  int _previewLeft = 0;
+  Timer? _timer;
+
   AssembleTask get task => widget.exercise.assemble!;
+
+  @override
+  void initState() {
+    super.initState();
+    final e = widget.exercise;
+    if (e.previewVisual != null && e.previewSeconds > 0) {
+      _previewing = true;
+      _previewLeft = e.previewSeconds;
+      _timer = Timer.periodic(const Duration(seconds: 1), (t) {
+        if (!mounted) return;
+        setState(() => _previewLeft--);
+        if (_previewLeft <= 0) {
+          t.cancel();
+          setState(() => _previewing = false);
+          widget.callbacks.onSpeak?.call(e.speech);
+        }
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
 
   bool get _sentence => task.separator.isNotEmpty;
 
@@ -74,6 +106,16 @@ class _AssembleExerciseViewState extends State<AssembleExerciseView> {
 
   @override
   Widget build(BuildContext context) {
+    if (_previewing) {
+      return Column(
+        children: [
+          const Text('Yaxshilab qara va eslab qol!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.primary)),
+          const SizedBox(height: 8),
+          Expanded(child: Center(child: VisualView(visual: widget.exercise.previewVisual!))),
+          Text('$_previewLeft', key: const ValueKey('preview_left'), style: const TextStyle(fontSize: 40, fontWeight: FontWeight.w900, color: AppColors.textSoft)),
+        ],
+      );
+    }
     final visual = widget.exercise.visual;
     return Column(
       children: [

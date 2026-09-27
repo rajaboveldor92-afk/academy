@@ -69,6 +69,18 @@ enum ExerciseKind {
 
   /// Shaxmat doskasi: katakni bosish, figurani yurish (sudrab yoki bosib), mini-o'yin.
   chess,
+
+  /// Juft kartalar (xotira): yopiq kartalardan bir xil rasmlarni topish.
+  cards,
+
+  /// Rasm ichidan kerakli narsalarni bosib topish (diqqat, farqni top, pufaklar).
+  spot,
+
+  /// Rasmli puzzle: bo'laklarni sudrab joyiga qo'yish.
+  jigsaw,
+
+  /// "Ota-ona bilan bajaramiz": ekrandan tashqari faoliyat kartasi.
+  activity,
 }
 
 /// Javob varianti: rasm (visual) va/yoki matn.
@@ -252,6 +264,73 @@ class AssembleTask {
   String get result => answer.join(separator);
 
   String describe() => 'asm:${answer.join("|")}:${(List<String>.from(tiles)..sort()).join("|")}';
+}
+
+/// Juft kartalar: [faces] — kartalar tartibi (har bir rasm ikki marta).
+class CardsTask {
+  const CardsTask({required this.faces, required this.cols});
+
+  final List<String> faces;
+  final int cols;
+
+  int get pairs => faces.length ~/ 2;
+
+  String describe() => 'cards$cols:${(List<String>.from(faces)..sort()).join()}';
+}
+
+/// Rasm ichidan topish: [items] — sahnadagi narsalar, [targets] — bosilishi kerak bo'lganlar.
+/// [reference] bo'lsa — "farqni top": yuqorida namunaviy rasm, pastdagisida bitta narsa boshqacha.
+class SpotTask {
+  const SpotTask({required this.items, required this.targets, this.aspect = 1.4, this.reference});
+
+  final List<SceneItem> items;
+  final Set<int> targets;
+  final double aspect;
+  final List<SceneItem>? reference;
+
+  String describe() {
+    final t = targets.toList()..sort();
+    final ref = reference == null ? '' : '|ref:${reference!.map((e) => e.describe()).join(';')}';
+    return 'spot:${items.map((e) => e.describe()).join(';')}>${t.join(',')}$ref';
+  }
+}
+
+/// Rasmli puzzle: [picture] [rows]×[cols] bo'lakka bo'linadi.
+class JigsawTask {
+  const JigsawTask({required this.picture, required this.rows, required this.cols});
+
+  final PictureVisual picture;
+  final int rows;
+  final int cols;
+
+  int get pieces => rows * cols;
+
+  String describe() => 'jigsaw${rows}x$cols:${picture.describe()}';
+}
+
+/// Ekrandan tashqari faoliyat (Montessori uslubida, ota-ona bilan).
+class ActivityTask {
+  const ActivityTask({
+    required this.id,
+    required this.emoji,
+    required this.title,
+    required this.materials,
+    required this.steps,
+    required this.benefit,
+    this.minutes = 10,
+  });
+
+  final String id;
+  final String emoji;
+  final String title;
+  final List<String> materials;
+  final List<String> steps;
+
+  /// Bola nimani o'rganadi (ota-ona uchun).
+  final String benefit;
+  final int minutes;
+
+  String describe() => 'activity:$id';
 }
 
 /// Shaxmat topshirig'i. Katak raqami: `qator * size + ustun` (0-qator — yuqorida).
@@ -588,6 +667,10 @@ class Exercise {
     this.assemble,
     this.trace,
     this.chess,
+    this.cards,
+    this.spot,
+    this.jigsaw,
+    this.activity,
     this.previewVisual,
     this.previewSeconds = 0,
     this.hint,
@@ -635,6 +718,10 @@ class Exercise {
   final AssembleTask? assemble;
   final TraceTask? trace;
   final ChessTask? chess;
+  final CardsTask? cards;
+  final SpotTask? spot;
+  final JigsawTask? jigsaw;
+  final ActivityTask? activity;
 
   /// [ExerciseKind.memory]: avval ko'rsatiladigan rasm va vaqti.
   final ExerciseVisual? previewVisual;
@@ -657,11 +744,12 @@ class Exercise {
   String get signature {
     // Ovoz ham kalitga kiradi: tinglash mashqlarida ekrandagi matn bir xil, so'z esa har xil.
     final b = StringBuffer('$topicId|${kind.name}|${instruction.uz}|$speech|${speechParts.join('+')}|${visual?.describe() ?? ''}');
-    for (final o in options) {
-      b.write('|${o.describe()}');
+    // Variantlar tartibi kalitga kirmaydi: bir xil savol aralashtirilgan holda takrorlanmasin.
+    for (final o in options.map((o) => o.describe()).toList()..sort()) {
+      b.write('|$o');
     }
-    for (final p in pairs) {
-      b.write('|${p.left.describe()}=${p.right.describe()}');
+    for (final p in pairs.map((p) => '${p.left.describe()}=${p.right.describe()}').toList()..sort()) {
+      b.write('|$p');
     }
     final s = sort;
     if (s != null) {
@@ -675,6 +763,10 @@ class Exercise {
     if (assemble != null) b.write('|${assemble!.describe()}');
     if (trace != null) b.write('|${trace!.describe()}');
     if (chess != null) b.write('|${chess!.describe()}');
+    if (cards != null) b.write('|${cards!.describe()}');
+    if (spot != null) b.write('|${spot!.describe()}');
+    if (jigsaw != null) b.write('|${jigsaw!.describe()}');
+    if (activity != null) b.write('|${activity!.describe()}');
     if (previewVisual != null) b.write('|pre:${previewVisual!.describe()}');
     return b.toString();
   }

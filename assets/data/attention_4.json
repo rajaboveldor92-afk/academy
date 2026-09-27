@@ -1,0 +1,209 @@
+{
+ "subject": "attention",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 5,
+ "title": {
+  "uz": "Diqqat",
+  "en": "Attention",
+  "ru": "Внимание"
+ },
+ "model": "QARA → IZLA → BOS → MAQTOV OL (vaqt bosimisiz)",
+ "topics": [
+  {
+   "id": "attention4.find",
+   "code": "D1",
+   "emoji": "🔎",
+   "title": {
+    "uz": "Kerakli narsani top",
+    "en": "Find the thing",
+    "ru": "Найди предмет"
+   },
+   "generator": "find",
+   "skill": "visual_search",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 4
+    },
+    {
+     "items": 6
+    },
+    {
+     "items": 8
+    }
+   ]
+  },
+  {
+   "id": "attention4.find_all",
+   "code": "D2",
+   "emoji": "👀",
+   "title": {
+    "uz": "Hammasini top",
+    "en": "Find them all",
+    "ru": "Найди все"
+   },
+   "generator": "find_all",
+   "skill": "visual_search",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 5,
+     "targets": 2
+    },
+    {
+     "items": 7,
+     "targets": 3
+    },
+    {
+     "items": 9,
+     "targets": 3,
+     "similar": true
+    }
+   ]
+  },
+  {
+   "id": "attention4.colors",
+   "code": "D3",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Bir xil ranglarni top",
+    "en": "Find the same colour",
+    "ru": "Найди одинаковый цвет"
+   },
+   "generator": "find_color",
+   "skill": "visual_search",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 5,
+     "targets": 2
+    },
+    {
+     "items": 7,
+     "targets": 3
+    },
+    {
+     "items": 9,
+     "targets": 3
+    }
+   ]
+  },
+  {
+   "id": "attention4.difference",
+   "code": "D4",
+   "emoji": "🆚",
+   "title": {
+    "uz": "Farqni top",
+    "en": "Spot the difference",
+    "ru": "Найди отличие"
+   },
+   "generator": "difference",
+   "skill": "comparison",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3
+    },
+    {
+     "items": 4
+    },
+    {
+     "items": 5
+    }
+   ]
+  },
+  {
+   "id": "attention4.twin",
+   "code": "D5",
+   "emoji": "👯",
+   "title": {
+    "uz": "Xuddi o‘zini top",
+    "en": "Find the same one",
+    "ru": "Найди такой же"
+   },
+   "generator": "twin",
+   "skill": "comparison",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3,
+     "sameCategory": true
+    },
+    {
+     "options": 4,
+     "sameCategory": true,
+     "mirror": true
+    }
+   ]
+  },
+  {
+   "id": "attention4.maze",
+   "code": "D6",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Labirint",
+    "en": "Maze",
+    "ru": "Лабиринт"
+   },
+   "generator": "maze",
+   "skill": "planning",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 3,
+     "cols": 4,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "extraOpenings": 1
+    }
+   ]
+  },
+  {
+   "id": "attention4.count",
+   "code": "D7",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Diqqat bilan sana",
+    "en": "Count carefully",
+    "ru": "Посчитай внимательно"
+   },
+   "generator": "count",
+   "skill": "counting_attention",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 5,
+     "max": 3
+    },
+    {
+     "items": 7,
+     "max": 4
+    },
+    {
+     "items": 8,
+     "max": 5
+    }
+   ]
+  }
+ ]
+}

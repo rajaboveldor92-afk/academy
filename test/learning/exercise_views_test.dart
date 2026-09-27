@@ -6,14 +6,19 @@ import 'package:academy/learning/generators/puzzles.dart';
 import 'package:academy/learning/generators/registry.dart';
 import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/learning/chess/chess_rules.dart';
+import 'package:academy/learning/models/visual.dart';
+import 'package:academy/learning/ui/activity_view.dart';
 import 'package:academy/learning/ui/assemble_view.dart';
+import 'package:academy/learning/ui/cards_view.dart';
 import 'package:academy/learning/ui/chess_view.dart';
 import 'package:academy/learning/ui/choice_view.dart';
 import 'package:academy/learning/ui/coding_view.dart';
+import 'package:academy/learning/ui/jigsaw_view.dart';
 import 'package:academy/learning/ui/match_view.dart';
 import 'package:academy/learning/ui/maze_view.dart';
 import 'package:academy/learning/ui/option_card.dart';
 import 'package:academy/learning/ui/sort_view.dart';
+import 'package:academy/learning/ui/spot_view.dart';
 import 'package:academy/learning/ui/sudoku_view.dart';
 import 'package:academy/learning/ui/trace_view.dart';
 import 'package:flutter/material.dart';
@@ -482,6 +487,122 @@ void main() {
     });
   });
 
+  group('xotira, diqqat, puzzle, ota-ona bilan', () {
+    testWidgets('juft kartalar: har xil kartalar yopiladi, juftlar ochiq qoladi', (tester) async {
+      final e = make('memory4.cards', 1);
+      final faces = e.cards!.faces;
+      int? solved;
+      await host(tester, CardsExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      // Avval ikkita har xil kartani ochamiz.
+      final a = 0;
+      final b = [for (var i = 1; i < faces.length; i++) i].firstWhere((i) => faces[i] != faces[a]);
+      await tester.tap(find.byKey(const ValueKey('card_0')));
+      await tester.pump(const Duration(milliseconds: 300));
+      await tester.tap(find.byKey(ValueKey('card_$b')));
+      await tester.pump(CardsExerciseView.flipBack + const Duration(milliseconds: 300));
+      // Endi hamma juftlarni topamiz.
+      final done = <int>{};
+      for (var i = 0; i < faces.length; i++) {
+        if (done.contains(i)) continue;
+        final j = [for (var k = 0; k < faces.length; k++) k].firstWhere((k) => k != i && faces[k] == faces[i]);
+        await tester.tap(find.byKey(ValueKey('card_$i')));
+        await tester.pump(const Duration(milliseconds: 300));
+        await tester.tap(find.byKey(ValueKey('card_$j')));
+        await tester.pump(const Duration(milliseconds: 300));
+        done.addAll([i, j]);
+      }
+      expect(solved, 0); // bitta adashish — tabiiy, hisoblanmaydi
+    });
+
+    testWidgets('rasm ichidan hammasini topish: noto‘g‘ri narsa — xato', (tester) async {
+      final e = make('attention4.find_all', 2);
+      final task = e.spot!;
+      final mistakes = <int>[];
+      int? solved;
+      await host(tester, SpotExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m)));
+      final wrong = [for (var i = 0; i < task.items.length; i++) i].firstWhere((i) => !task.targets.contains(i));
+      await tester.tap(find.byKey(ValueKey('spot_$wrong')));
+      await tester.pump(const Duration(milliseconds: 400));
+      expect(mistakes, [1]);
+      for (final t in task.targets) {
+        await tester.tap(find.byKey(ValueKey('spot_$t')));
+        await tester.pump(const Duration(milliseconds: 100));
+      }
+      expect(solved, 1);
+    });
+
+    testWidgets('farqni top: namuna rasm va o‘zgargan narsa', (tester) async {
+      final e = make('attention6.difference', 1);
+      int? solved;
+      await host(tester, SpotExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      expect(find.text('Namuna'), findsOneWidget);
+      await tester.tap(find.byKey(ValueKey('spot_${e.spot!.targets.first}')));
+      await tester.pump(const Duration(milliseconds: 100));
+      expect(solved, 0);
+    });
+
+    testWidgets('puzzle: bo‘lakni bosib, keyin joyini bosib yig‘ish', (tester) async {
+      final e = make('puzzle4.p4', 1);
+      final n = e.jigsaw!.pieces;
+      final mistakes = <int>[];
+      int? solved;
+      await host(tester, JigsawExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m)));
+      // Noto'g'ri joy: 0-bo'lakni 1-katakka.
+      await tester.tap(find.byKey(const ValueKey('piece_0')));
+      await tester.pump();
+      await tester.tap(find.byKey(const ValueKey('slot_1')));
+      await tester.pump(const Duration(milliseconds: 400));
+      expect(mistakes, [1]);
+      for (var i = 0; i < n; i++) {
+        await tester.tap(find.byKey(ValueKey('piece_$i')));
+        await tester.pump();
+        await tester.tap(find.byKey(ValueKey('slot_$i')));
+        await tester.pump(const Duration(milliseconds: 200));
+      }
+      expect(solved, 1);
+    });
+
+    testWidgets('puzzle: bo‘lakni sudrab joyiga qo‘yish', (tester) async {
+      final e = make('puzzle6.p9', 1);
+      await host(tester, JigsawExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (_) {})));
+      final from = tester.getCenter(find.byKey(const ValueKey('piece_4')));
+      final to = tester.getCenter(find.byKey(const ValueKey('slot_4')));
+      final gesture = await tester.startGesture(from);
+      await tester.pump(const Duration(milliseconds: 50));
+      await gesture.moveTo(from + const Offset(0, -30));
+      await tester.pump();
+      await gesture.moveTo(to);
+      await tester.pump();
+      await gesture.up();
+      await tester.pump(const Duration(milliseconds: 300));
+      // Joylangan bo'lak tokchadan yo'qoladi.
+      expect(find.byKey(const ValueKey('piece_4')), findsNothing);
+    });
+
+    testWidgets('ketma-ketlikni eslab qolish: avval ko‘rsatiladi, keyin yig‘iladi', (tester) async {
+      final e = make('memory4.sequence', 2);
+      expect(e.previewVisual, isA<SceneVisual>());
+      int? solved;
+      await host(tester, AssembleExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      expect(find.text('Yaxshilab qara va eslab qol!'), findsOneWidget);
+      expect(find.byKey(const ValueKey('tile_0')), findsNothing);
+      await tester.pump(Duration(seconds: e.previewSeconds + 1));
+      await tester.pump();
+      await tapAnswer(tester, e.assemble!);
+      expect(solved, 0);
+    });
+
+    testWidgets('ota-ona bilan faoliyat: "Bajardik!"', (tester) async {
+      final e = make('family6.science', 1);
+      int? solved;
+      await host(tester, ActivityExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: (m) => solved = m)));
+      expect(find.text(e.activity!.title), findsOneWidget);
+      await tester.tap(find.byKey(const ValueKey('activity_done')));
+      await tester.pump();
+      expect(solved, 0);
+    });
+  });
+
   testWidgets('barcha mashq turlari xatosiz chiziladi', (tester) async {
     for (final t in content.allTopics) {
       for (var level = 1; level <= t.maxLevel; level++) {
@@ -496,6 +617,10 @@ void main() {
           ExerciseKind.assemble => AssembleExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.trace => TraceExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.chess => ChessExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.cards => CardsExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.spot => SpotExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.jigsaw => JigsawExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.activity => ActivityExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(exercise: e, callbacks: cb),
         };
         await host(tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));

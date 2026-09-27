@@ -92,6 +92,30 @@ enum Subject {
     spokenName: 'Pazl',
     color: Color(0xFF2BB5A6),
     phase: 5,
+  ),
+  motor(
+    id: 'motor',
+    title: 'Motorika',
+    emoji: '✋',
+    spokenName: 'Barmoqlar mashqi',
+    color: Color(0xFF8D6E63),
+    phase: 5,
+  ),
+  social(
+    id: 'social',
+    title: 'Muloqot',
+    emoji: '🤝',
+    spokenName: 'Muloqot va do‘stlik',
+    color: Color(0xFFE57373),
+    phase: 5,
+  ),
+  family(
+    id: 'family',
+    title: 'Ota-ona bilan',
+    emoji: '🏠',
+    spokenName: 'Ota-ona bilan bajaramiz',
+    color: Color(0xFF26A69A),
+    phase: 5,
   );
 
   const Subject({

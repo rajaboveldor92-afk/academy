@@ -1,0 +1,214 @@
+{
+ "subject": "memory",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 5,
+ "title": {
+  "uz": "Xotira",
+  "en": "Memory",
+  "ru": "Память"
+ },
+ "model": "KO‘R → ESLAB QOL → TOP → MAQTOV OL",
+ "topics": [
+  {
+   "id": "memory4.cards",
+   "code": "X1",
+   "emoji": "🃏",
+   "title": {
+    "uz": "Juft kartalar",
+    "en": "Memory cards",
+    "ru": "Найди пару"
+   },
+   "generator": "cards",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2
+    },
+    {
+     "pairs": 3
+    },
+    {
+     "pairs": 4
+    }
+   ]
+  },
+  {
+   "id": "memory4.missing",
+   "code": "X2",
+   "emoji": "🙈",
+   "title": {
+    "uz": "Qaysi biri yo‘qoldi?",
+    "en": "What is missing?",
+    "ru": "Чего не стало?"
+   },
+   "generator": "missing",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3,
+     "seconds": 5
+    },
+    {
+     "items": 3,
+     "seconds": 4
+    },
+    {
+     "items": 4,
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "id": "memory4.sequence",
+   "code": "X3",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ketma-ketlikni eslab qol",
+    "en": "Remember the order",
+    "ru": "Запомни порядок"
+   },
+   "generator": "recall",
+   "skill": "sequence_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "seconds": 4
+    },
+    {
+     "items": 3,
+     "seconds": 5
+    },
+    {
+     "items": 3,
+     "seconds": 4
+    }
+   ]
+  },
+  {
+   "id": "memory4.colors",
+   "code": "X4",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Ranglar ketma-ketligi",
+    "en": "Colour order",
+    "ru": "Порядок цветов"
+   },
+   "generator": "recall",
+   "skill": "sequence_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 2,
+     "kind": "color",
+     "seconds": 4
+    },
+    {
+     "items": 3,
+     "kind": "color",
+     "seconds": 5
+    },
+    {
+     "items": 4,
+     "kind": "color",
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "id": "memory4.changed",
+   "code": "X5",
+   "emoji": "🔄",
+   "title": {
+    "uz": "Nima o‘zgardi?",
+    "en": "What changed?",
+    "ru": "Что изменилось?"
+   },
+   "generator": "changed",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3,
+     "seconds": 5
+    },
+    {
+     "items": 3,
+     "seconds": 4
+    },
+    {
+     "items": 4,
+     "seconds": 5
+    }
+   ]
+  },
+  {
+   "id": "memory4.was_there",
+   "code": "X6",
+   "emoji": "🖼️",
+   "title": {
+    "uz": "Rasmda nima bor edi?",
+    "en": "What was in the picture?",
+    "ru": "Что было на картинке?"
+   },
+   "generator": "was_there",
+   "skill": "visual_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3,
+     "seconds": 5
+    },
+    {
+     "items": 4,
+     "seconds": 5
+    },
+    {
+     "items": 5,
+     "seconds": 6
+    }
+   ]
+  },
+  {
+   "id": "memory4.where",
+   "code": "X7",
+   "emoji": "📍",
+   "title": {
+    "uz": "Qayerda edi?",
+    "en": "Where was it?",
+    "ru": "Где это было?"
+   },
+   "generator": "where",
+   "skill": "spatial_memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "grid": 2,
+     "items": 1,
+     "options": 2
+    },
+    {
+     "grid": 2,
+     "items": 2,
+     "options": 3
+    },
+    {
+     "grid": 2,
+     "items": 3,
+     "options": 3
+    }
+   ]
+  }
+ ]
+}

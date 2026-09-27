@@ -587,8 +587,211 @@ chess6 = {
     skill="game", pre=["chess6.pawn_war"]),
  ]}
 
+# ============================================================ XOTIRA, DIQQAT, PUZZLE, MOTORIKA, MULOQOT, OTA-ONA BILAN
+def lv(*dicts):
+    return list(dicts)
+
+memory4 = {
+ "subject": "memory", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 5,
+ "title": {"uz": "Xotira", "en": "Memory", "ru": "Память"},
+ "model": "KO‘R → ESLAB QOL → TOP → MAQTOV OL",
+ "topics": [
+  T("memory4.cards","X1","🃏","Juft kartalar","Memory cards","Найди пару","cards", lv({"pairs":2},{"pairs":3},{"pairs":4}), skill="visual_memory"),
+  T("memory4.missing","X2","🙈","Qaysi biri yo‘qoldi?","What is missing?","Чего не стало?","missing",
+    lv({"items":3,"seconds":5},{"items":3,"seconds":4},{"items":4,"seconds":4}), skill="visual_memory"),
+  T("memory4.sequence","X3","🔢","Ketma-ketlikni eslab qol","Remember the order","Запомни порядок","recall",
+    lv({"items":2,"seconds":4},{"items":3,"seconds":5},{"items":3,"seconds":4}), skill="sequence_memory"),
+  T("memory4.colors","X4","🌈","Ranglar ketma-ketligi","Colour order","Порядок цветов","recall",
+    lv({"items":2,"kind":"color","seconds":4},{"items":3,"kind":"color","seconds":5},{"items":4,"kind":"color","seconds":6}), skill="sequence_memory"),
+  T("memory4.changed","X5","🔄","Nima o‘zgardi?","What changed?","Что изменилось?","changed",
+    lv({"items":3,"seconds":5},{"items":3,"seconds":4},{"items":4,"seconds":5}), skill="visual_memory"),
+  T("memory4.was_there","X6","🖼️","Rasmda nima bor edi?","What was in the picture?","Что было на картинке?","was_there",
+    lv({"items":3,"seconds":5},{"items":4,"seconds":5},{"items":5,"seconds":6}), skill="visual_memory"),
+  T("memory4.where","X7","📍","Qayerda edi?","Where was it?","Где это было?","where",
+    lv({"grid":2,"items":1,"options":2},{"grid":2,"items":2,"options":3},{"grid":2,"items":3,"options":3}), skill="spatial_memory"),
+ ]}
+
+memory6 = {
+ "subject": "memory", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 6,
+ "title": {"uz": "Xotira", "en": "Memory", "ru": "Память"},
+ "model": "KO‘R → ESLAB QOL → TIKLA → TEKSHIR",
+ "topics": [
+  T("memory6.cards","X1","🃏","Juft kartalar","Memory cards","Найди пару","cards", lv({"pairs":4},{"pairs":6},{"pairs":8}), skill="visual_memory"),
+  T("memory6.missing","X2","🙈","Qaysi biri yo‘qoldi?","What is missing?","Чего не стало?","missing",
+    lv({"items":4,"seconds":4},{"items":5,"seconds":4},{"items":6,"seconds":4}), skill="visual_memory"),
+  T("memory6.sequence","X3","🔢","Ketma-ketlikni eslab qol","Remember the order","Запомни порядок","recall",
+    lv({"items":4,"seconds":5},{"items":5,"extra":1,"seconds":6},{"items":6,"extra":2,"seconds":6}), skill="sequence_memory"),
+  T("memory6.colors","X4","🌈","Ranglar ketma-ketligi","Colour order","Порядок цветов","recall",
+    lv({"items":4,"kind":"color","seconds":5},{"items":5,"kind":"color","seconds":6},{"items":6,"kind":"color","seconds":6}), skill="sequence_memory"),
+  T("memory6.changed","X5","🔄","Nima o‘zgardi?","What changed?","Что изменилось?","changed",
+    lv({"items":4,"seconds":4},{"items":5,"seconds":5},{"items":6,"seconds":5,"options":4}), skill="visual_memory"),
+  T("memory6.how_many","X6","🔍","Nechta edi?","How many were there?","Сколько было?","how_many",
+    lv({"max":4,"distractors":2,"seconds":4},{"max":5,"distractors":3,"seconds":4},{"max":6,"distractors":4,"seconds":5}), skill="visual_memory"),
+  T("memory6.where","X7","📍","Qayerda edi?","Where was it?","Где это было?","where",
+    lv({"grid":3,"items":3,"options":3},{"grid":3,"items":4,"options":4},{"grid":3,"items":5,"options":4}), skill="spatial_memory"),
+  T("memory6.was_there","X8","🖼️","Rasmda nima bor edi?","What was in the picture?","Что было на картинке?","was_there",
+    lv({"items":5,"seconds":5},{"items":6,"seconds":5,"options":4},{"items":7,"seconds":6,"options":4}), skill="visual_memory"),
+ ]}
+
+attention4 = {
+ "subject": "attention", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 5,
+ "title": {"uz": "Diqqat", "en": "Attention", "ru": "Внимание"},
+ "model": "QARA → IZLA → BOS → MAQTOV OL (vaqt bosimisiz)",
+ "topics": [
+  T("attention4.find","D1","🔎","Kerakli narsani top","Find the thing","Найди предмет","find", lv({"items":4},{"items":6},{"items":8}), skill="visual_search"),
+  T("attention4.find_all","D2","👀","Hammasini top","Find them all","Найди все","find_all",
+    lv({"items":5,"targets":2},{"items":7,"targets":3},{"items":9,"targets":3,"similar":True}), skill="visual_search"),
+  T("attention4.colors","D3","🎨","Bir xil ranglarni top","Find the same colour","Найди одинаковый цвет","find_color",
+    lv({"items":5,"targets":2},{"items":7,"targets":3},{"items":9,"targets":3}), skill="visual_search"),
+  T("attention4.difference","D4","🆚","Farqni top","Spot the difference","Найди отличие","difference",
+    lv({"items":3},{"items":4},{"items":5}), skill="comparison"),
+  T("attention4.twin","D5","👯","Xuddi o‘zini top","Find the same one","Найди такой же","twin",
+    lv({"options":3},{"options":3,"sameCategory":True},{"options":4,"sameCategory":True,"mirror":True}), skill="comparison"),
+  T("attention4.maze","D6","🌀","Labirint","Maze","Лабиринт","maze",
+    lv({"rows":3,"cols":3,"extraOpenings":2},{"rows":3,"cols":4,"extraOpenings":2},{"rows":4,"cols":4,"extraOpenings":1}), skill="planning"),
+  T("attention4.count","D7","🔢","Diqqat bilan sana","Count carefully","Посчитай внимательно","count",
+    lv({"items":5,"max":3},{"items":7,"max":4},{"items":8,"max":5}), skill="counting_attention"),
+ ]}
+
+attention6 = {
+ "subject": "attention", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 6,
+ "title": {"uz": "Diqqat", "en": "Attention", "ru": "Внимание"},
+ "model": "QARA → SOLISHTIR → TOP → TEKSHIR (vaqt bosimisiz)",
+ "topics": [
+  T("attention6.find","D1","🔎","Kerakli narsani top","Find the thing","Найди предмет","find", lv({"items":10},{"items":14},{"items":18}), skill="visual_search"),
+  T("attention6.find_all","D2","👀","Hammasini top","Find them all","Найди все","find_all",
+    lv({"items":10,"targets":3},{"items":14,"targets":4,"similar":True},{"items":18,"targets":5,"similar":True}), skill="visual_search"),
+  T("attention6.colors","D3","🎨","Bir xil ranglarni top","Find the same colour","Найди одинаковый цвет","find_color",
+    lv({"items":10,"targets":3},{"items":14,"targets":4},{"items":16,"targets":5}), skill="visual_search"),
+  T("attention6.difference","D4","🆚","Farqni top","Spot the difference","Найди отличие","difference",
+    lv({"items":5},{"items":6},{"items":8}), skill="comparison"),
+  T("attention6.twin","D5","👯","Xuddi o‘zini top","Find the same one","Найди такой же","twin",
+    lv({"options":4,"sameCategory":True},{"options":4,"sameCategory":True,"mirror":True},{"options":5,"sameCategory":True,"mirror":True}), skill="comparison"),
+  T("attention6.maze","D6","🌀","Labirint","Maze","Лабиринт","maze",
+    lv({"rows":5,"cols":5,"extraOpenings":1},{"rows":6,"cols":6},{"rows":7,"cols":7}), skill="planning"),
+  T("attention6.count","D7","🔢","Diqqat bilan sana","Count carefully","Посчитай внимательно","count",
+    lv({"items":10,"max":5},{"items":12,"max":6},{"items":14,"max":7}), skill="counting_attention"),
+ ]}
+
+puzzle4 = {
+ "subject": "puzzle", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 3,
+ "title": {"uz": "Puzzle", "en": "Puzzles", "ru": "Пазлы"},
+ "model": "KO‘R → BO‘LAKNI SUR → RASMNI YIG‘ → MAQTOV OL",
+ "topics": [
+  T("puzzle4.p4","P1","🧩","4 bo‘lak","4 pieces","4 части","jigsaw",
+    lv({"rows":2,"cols":2,"styles":["big"]},{"rows":2,"cols":2,"styles":["big","scene"]},{"rows":2,"cols":2,"styles":["scene"]}), skill="puzzle"),
+  T("puzzle4.p6","P2","🧩","6 bo‘lak","6 pieces","6 частей","jigsaw",
+    lv({"rows":2,"cols":3,"styles":["big"]},{"rows":2,"cols":3,"styles":["big","scene"]},{"rows":2,"cols":3,"styles":["scene"]}), skill="puzzle", pre=["puzzle4.p4"]),
+  T("puzzle4.p9","P3","🧩","9 bo‘lak","9 pieces","9 частей","jigsaw",
+    lv({"rows":3,"cols":3,"styles":["big"]},{"rows":3,"cols":3,"styles":["big","scene"]},{"rows":3,"cols":3,"styles":["scene"]}), skill="puzzle", pre=["puzzle4.p6"]),
+ ]}
+
+puzzle6 = {
+ "subject": "puzzle", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 3,
+ "title": {"uz": "Puzzle", "en": "Puzzles", "ru": "Пазлы"},
+ "model": "KO‘R → REJALASHTIR → YIG‘ → TEKSHIR",
+ "topics": [
+  T("puzzle6.p9","P1","🧩","9 bo‘lak","9 pieces","9 частей","jigsaw", lv({"rows":3,"cols":3,"styles":["scene"]},{"rows":3,"cols":3,"styles":["scene"]},{"rows":3,"cols":3,"styles":["scene"]}), skill="puzzle"),
+  T("puzzle6.p12","P2","🧩","12 bo‘lak","12 pieces","12 частей","jigsaw", lv({"rows":3,"cols":4,"styles":["scene"]},{"rows":3,"cols":4,"styles":["scene"]},{"rows":3,"cols":4,"styles":["scene"]}), skill="puzzle", pre=["puzzle6.p9"]),
+  T("puzzle6.p16","P3","🧩","16 bo‘lak","16 pieces","16 частей","jigsaw", lv({"rows":4,"cols":4,"styles":["scene"]},{"rows":4,"cols":4,"styles":["scene"]},{"rows":4,"cols":4,"styles":["scene"]}), skill="puzzle", pre=["puzzle6.p12"]),
+  T("puzzle6.p25","P4","🧩","25 bo‘lak","25 pieces","25 частей","jigsaw", lv({"rows":5,"cols":5,"styles":["scene"]},{"rows":5,"cols":5,"styles":["scene"]},{"rows":5,"cols":5,"styles":["scene"]}), skill="puzzle", pre=["puzzle6.p16"]),
+ ]}
+
+motor4 = {
+ "subject": "motor", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 5,
+ "title": {"uz": "Motorika", "en": "Fine motor skills", "ru": "Мелкая моторика"},
+ "model": "KO‘R → BARMOQ BILAN BOS / SUR / YUR → MAQTOV OL",
+ "topics": [
+  T("motor4.bubbles","M1","🔵","Pufaklarni yor","Pop the bubbles","Лопни пузыри","bubbles",
+    lv({"items":4,"sizePct":130},{"items":6,"sizePct":110},{"items":8,"sizePct":95}), skill="tapping"),
+  T("motor4.shadow","M2","🌑","Soyaga sudra","Drag to the shadow","Перетащи к тени","drag_shadow",
+    lv({"options":2,"drag":True},{"options":3,"drag":True},{"options":3,"drag":True,"sameCategory":True}), skill="dragging"),
+  T("motor4.lines","M3","〰️","Chiziq bo‘ylab yur","Follow the line","Проведи по линии","trace",
+    lv(tr(["pre:horizontal","pre:vertical","pre:diagonal"], tolerancePct=125), tr(["pre:curve","pre:wave","pre:zigzag"], tolerancePct=115),
+       tr(["pre:loops","pre:waves2","pre:spiral"])), skill="tracing"),
+  T("motor4.dots","M4","🔵","Nuqtalarni birlashtir","Join the dots","Соедини точки","trace",
+    lv(tr(["dots:tent","dots:diamond","dots:kite"], tolerancePct=120), tr(["dots:house","dots:boat","dots:heart"]), tr(["dots:star","dots:fish","dots:crown"])), skill="tracing"),
+  T("motor4.tiny","M5","🐞","Kichkinalarni top","Find the tiny ones","Найди маленьких","find_all",
+    lv({"items":6,"targets":2,"sizePct":80},{"items":8,"targets":3,"sizePct":70},{"items":10,"targets":3,"sizePct":60}), skill="precision"),
+ ]}
+
+motor6 = {
+ "subject": "motor", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 6,
+ "title": {"uz": "Motorika", "en": "Fine motor skills", "ru": "Мелкая моторика"},
+ "model": "KO‘R → ANIQ BOS / SUR / YUR → TEKSHIR",
+ "topics": [
+  T("motor6.bubbles","M1","🔵","Pufaklarni yor","Pop the bubbles","Лопни пузыри","bubbles",
+    lv({"items":8,"sizePct":90},{"items":10,"sizePct":75},{"items":12,"sizePct":60}), skill="tapping"),
+  T("motor6.shadow","M2","🌑","Soyaga sudra","Drag to the shadow","Перетащи к тени","drag_shadow",
+    lv({"options":3,"drag":True,"sameCategory":True},{"options":4,"drag":True,"sameCategory":True},{"options":4,"drag":True,"sameCategory":True}), skill="dragging"),
+  T("motor6.patterns","M3","〰️","Naqshlar bo‘ylab yur","Follow the patterns","Проведи по узору","trace",
+    lv(tr(["pre:wave","pre:zigzag","pre:loops"]), tr(["pre:waves2","pre:zigzag2","pre:spiral"], tolerancePct=90), tr(["pre:loops","pre:steps","pre:waves2"], tolerancePct=80)), skill="tracing"),
+  T("motor6.dots","M4","🔵","Nuqtalarni birlashtir","Join the dots","Соедини точки","trace",
+    lv(tr(["dots:star","dots:fish","dots:crown"]), tr(["dots:heart","dots:house","dots:arrow"], tolerancePct=90), tr(["dots:star","dots:crown","dots:fish"], tolerancePct=80)), skill="tracing"),
+  T("motor6.tiny","M5","🐞","Kichkinalarni top","Find the tiny ones","Найди маленьких","find_all",
+    lv({"items":10,"targets":3,"sizePct":60},{"items":12,"targets":4,"sizePct":50},{"items":14,"targets":4,"sizePct":45,"similar":True}), skill="precision"),
+ ]}
+
+def fam(areas):
+    return lv({"areas": areas}, {"areas": areas}, {"areas": areas})
+
+family4 = {
+ "subject": "family", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 1,
+ "title": {"uz": "Ota-ona bilan bajaramiz", "en": "Together with parents", "ru": "Вместе с родителями"},
+ "model": "EKRANDAN TASHQARI: KO‘RSAT → BOLA O‘ZI BAJARSIN → BIRGA QUVONING",
+ "topics": [
+  T("family4.life","F1","🧺","Kundalik hayot","Practical life","Практическая жизнь","activity", fam(["life"]), skill="practical_life"),
+  T("family4.senses","F2","👐","Sezgi o‘yinlari","Sensory play","Сенсорные игры","activity", fam(["senses"]), skill="sensorial"),
+  T("family4.math_language","F3","🔢","Sanash va nutq","Counting and talking","Счёт и речь","activity", fam(["math","language"]), skill="math_language"),
+  T("family4.nature_movement","F4","🌳","Tabiat, harakat, ijod","Nature, movement, art","Природа, движение, творчество","activity",
+    fam(["nature","movement","art"]), skill="nature_art"),
+ ]}
+
+family6 = {
+ "subject": "family", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 1,
+ "title": {"uz": "Ota-ona bilan bajaramiz", "en": "Together with parents", "ru": "Вместе с родителями"},
+ "model": "EKRANDAN TASHQARI: REJA → TAJRIBA → XULOSA → BIRGA QUVONING",
+ "topics": [
+  T("family6.life","F1","🧺","Kundalik hayot","Practical life","Практическая жизнь","activity", fam(["life"]), skill="practical_life"),
+  T("family6.science","F2","🔬","Tajribalar va tabiat","Experiments and nature","Опыты и природа","activity", fam(["science","nature"]), skill="science"),
+  T("family6.math","F3","🛒","Hayotiy matematika","Everyday maths","Математика в жизни","activity", fam(["math"]), skill="math"),
+  T("family6.language","F4","📚","Til va hikoya","Language and stories","Речь и рассказы","activity", fam(["language"]), skill="language"),
+  T("family6.art_movement","F5","🎨","Ijod va harakat","Art and movement","Творчество и движение","activity", fam(["art","movement"]), skill="art"),
+ ]}
+
+social4 = {
+ "subject": "social", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 5,
+ "title": {"uz": "Muloqot", "en": "Getting along", "ru": "Общение"},
+ "model": "KO‘R → HIS QIL → TANLA → NIMA UCHUN? (hukmsiz)",
+ "topics": [
+  T("social4.emotions","S1","😀","Hislar","Feelings","Чувства","emotion_find",
+    lv({"emotions":["happy","sad","angry","scared","surprised"],"options":2},{"emotions":["happy","sad","angry","scared","surprised"],"options":3},
+       {"emotions":["happy","sad","angry","scared","surprised"],"options":3}), skill="emotions"),
+  T("social4.situations","S2","🎁","Qanday his qilasan?","How would you feel?","Что ты почувствуешь?","situation",
+    lv({"options":2},{"options":3},{"options":3}), skill="emotions"),
+  T("social4.polite","S3","🙏","Sehrli so‘zlar","Magic words","Вежливые слова","polite_when",
+    lv({"options":2},{"options":3},{"options":3}), skill="politeness"),
+  T("social4.kind","S4","🤝","Yaxshi do‘st","A good friend","Хороший друг","choice",
+    lv({"kinds":["kind"]},{"kinds":["kind"]},{"kinds":["kind"]}), skill="kindness"),
+  TL(3, "social4.safety","S5","🛡️","Xavfsizlik","Staying safe","Безопасность","choice",
+    lv({"kinds":["safety"]},{"kinds":["safety"]},{"kinds":["safety"]}), skill="safety"),
+ ]}
+
+social6 = {
+ "subject": "social", "ageGroup": "6", "ageMin": 6, "ageMax": 8, "lessonSize": 6,
+ "title": {"uz": "Muloqot", "en": "Getting along", "ru": "Общение"},
+ "model": "VAZIYAT → HIS → TANLOV → IZOH (hukmsiz)",
+ "topics": [
+  T("social6.emotions","S1","😀","Hislar","Feelings","Чувства","emotion_find", lv({"options":3},{"options":4},{"options":4}), skill="emotions"),
+  T("social6.emotion_names","S2","🗣️","Hisni nomla","Name the feeling","Назови чувство","emotion_name", lv({"options":3},{"options":4},{"options":4}), skill="emotions"),
+  T("social6.situations","S3","🎁","Qanday his qilasan?","How would you feel?","Что ты почувствуешь?","situation", lv({"options":3},{"options":4},{"options":4}), skill="emotions"),
+  T("social6.polite","S4","🙏","Sehrli so‘zlar","Magic words","Вежливые слова","polite", lv({"options":3},{"options":3},{"options":4}), skill="politeness"),
+  T("social6.kind","S5","🤝","Yaxshi do‘st","A good friend","Хороший друг","choice", lv({"kinds":["kind"]},{"kinds":["kind"]},{"kinds":["kind"]}), skill="kindness"),
+  T("social6.safety","S6","🛡️","Xavfsizlik","Staying safe","Безопасность","choice", lv({"kinds":["safety"]},{"kinds":["safety"]},{"kinds":["safety"]}), skill="safety"),
+ ]}
+
 base = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data")
-for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6), ("chess_4", chess4), ("chess_6", chess6)]:
+for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6), ("chess_4", chess4), ("chess_6", chess6), ("memory_4", memory4), ("memory_6", memory6), ("attention_4", attention4), ("attention_6", attention6), ("puzzle_4", puzzle4), ("puzzle_6", puzzle6), ("motor_4", motor4), ("motor_6", motor6), ("family_4", family4), ("family_6", family6), ("social_4", social4), ("social_6", social6)]:
     ids = [t["id"] for t in data["topics"]]
     assert len(ids) == len(set(ids)), name
     for t in data["topics"]:

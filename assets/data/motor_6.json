@@ -1,0 +1,184 @@
+{
+ "subject": "motor",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Motorika",
+  "en": "Fine motor skills",
+  "ru": "Мелкая моторика"
+ },
+ "model": "KO‘R → ANIQ BOS / SUR / YUR → TEKSHIR",
+ "topics": [
+  {
+   "id": "motor6.bubbles",
+   "code": "M1",
+   "emoji": "🔵",
+   "title": {
+    "uz": "Pufaklarni yor",
+    "en": "Pop the bubbles",
+    "ru": "Лопни пузыри"
+   },
+   "generator": "bubbles",
+   "skill": "tapping",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 8,
+     "sizePct": 90
+    },
+    {
+     "items": 10,
+     "sizePct": 75
+    },
+    {
+     "items": 12,
+     "sizePct": 60
+    }
+   ]
+  },
+  {
+   "id": "motor6.shadow",
+   "code": "M2",
+   "emoji": "🌑",
+   "title": {
+    "uz": "Soyaga sudra",
+    "en": "Drag to the shadow",
+    "ru": "Перетащи к тени"
+   },
+   "generator": "drag_shadow",
+   "skill": "dragging",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3,
+     "drag": true,
+     "sameCategory": true
+    },
+    {
+     "options": 4,
+     "drag": true,
+     "sameCategory": true
+    },
+    {
+     "options": 4,
+     "drag": true,
+     "sameCategory": true
+    }
+   ]
+  },
+  {
+   "id": "motor6.patterns",
+   "code": "M3",
+   "emoji": "〰️",
+   "title": {
+    "uz": "Naqshlar bo‘ylab yur",
+    "en": "Follow the patterns",
+    "ru": "Проведи по узору"
+   },
+   "generator": "trace",
+   "skill": "tracing",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "pre:wave",
+      "pre:zigzag",
+      "pre:loops"
+     ]
+    },
+    {
+     "items": [
+      "pre:waves2",
+      "pre:zigzag2",
+      "pre:spiral"
+     ],
+     "tolerancePct": 90
+    },
+    {
+     "items": [
+      "pre:loops",
+      "pre:steps",
+      "pre:waves2"
+     ],
+     "tolerancePct": 80
+    }
+   ]
+  },
+  {
+   "id": "motor6.dots",
+   "code": "M4",
+   "emoji": "🔵",
+   "title": {
+    "uz": "Nuqtalarni birlashtir",
+    "en": "Join the dots",
+    "ru": "Соедини точки"
+   },
+   "generator": "trace",
+   "skill": "tracing",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": [
+      "dots:star",
+      "dots:fish",
+      "dots:crown"
+     ]
+    },
+    {
+     "items": [
+      "dots:heart",
+      "dots:house",
+      "dots:arrow"
+     ],
+     "tolerancePct": 90
+    },
+    {
+     "items": [
+      "dots:star",
+      "dots:crown",
+      "dots:fish"
+     ],
+     "tolerancePct": 80
+    }
+   ]
+  },
+  {
+   "id": "motor6.tiny",
+   "code": "M5",
+   "emoji": "🐞",
+   "title": {
+    "uz": "Kichkinalarni top",
+    "en": "Find the tiny ones",
+    "ru": "Найди маленьких"
+   },
+   "generator": "find_all",
+   "skill": "precision",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 10,
+     "targets": 3,
+     "sizePct": 60
+    },
+    {
+     "items": 12,
+     "targets": 4,
+     "sizePct": 50
+    },
+    {
+     "items": 14,
+     "targets": 4,
+     "sizePct": 45,
+     "similar": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "subject": "family",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 1,
+ "title": {
+  "uz": "Ota-ona bilan bajaramiz",
+  "en": "Together with parents",
+  "ru": "Вместе с родителями"
+ },
+ "model": "EKRANDAN TASHQARI: KO‘RSAT → BOLA O‘ZI BAJARSIN → BIRGA QUVONING",
+ "topics": [
+  {
+   "id": "family4.life",
+   "code": "F1",
+   "emoji": "🧺",
+   "title": {
+    "uz": "Kundalik hayot",
+    "en": "Practical life",
+    "ru": "Практическая жизнь"
+   },
+   "generator": "activity",
+   "skill": "practical_life",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "life"
+     ]
+    },
+    {
+     "areas": [
+      "life"
+     ]
+    },
+    {
+     "areas": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family4.senses",
+   "code": "F2",
+   "emoji": "👐",
+   "title": {
+    "uz": "Sezgi o‘yinlari",
+    "en": "Sensory play",
+    "ru": "Сенсорные игры"
+   },
+   "generator": "activity",
+   "skill": "sensorial",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "senses"
+     ]
+    },
+    {
+     "areas": [
+      "senses"
+     ]
+    },
+    {
+     "areas": [
+      "senses"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family4.math_language",
+   "code": "F3",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sanash va nutq",
+    "en": "Counting and talking",
+    "ru": "Счёт и речь"
+   },
+   "generator": "activity",
+   "skill": "math_language",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "math",
+      "language"
+     ]
+    },
+    {
+     "areas": [
+      "math",
+      "language"
+     ]
+    },
+    {
+     "areas": [
+      "math",
+      "language"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family4.nature_movement",
+   "code": "F4",
+   "emoji": "🌳",
+   "title": {
+    "uz": "Tabiat, harakat, ijod",
+    "en": "Nature, movement, art",
+    "ru": "Природа, движение, творчество"
+   },
+   "generator": "activity",
+   "skill": "nature_art",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "nature",
+      "movement",
+      "art"
+     ]
+    },
+    {
+     "areas": [
+      "nature",
+      "movement",
+      "art"
+     ]
+    },
+    {
+     "areas": [
+      "nature",
+      "movement",
+      "art"
+     ]
+    }
+   ]
+  }
+ ]
+}

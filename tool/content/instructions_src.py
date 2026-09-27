@@ -167,6 +167,32 @@ I.update({
  "ch_play": ("O‘ynaymiz: {game}", "Let's play: {game}", "Играем: {game}"),
 })
 
+# Xotira, diqqat, puzzle, motorika, muloqot
+I.update({
+ "mem_cards": ("Bir xil rasmli kartalarni juftla", "Find the matching pairs", "Найди одинаковые пары"),
+ "mem_recall": ("Rasmlar qanday tartibda edi? Shu tartibda bos", "Tap the pictures in the same order", "Нажми на картинки в том же порядке"),
+ "mem_colors": ("Ranglar qanday tartibda edi? Shu tartibda bos", "Tap the colours in the same order", "Нажми на цвета в том же порядке"),
+ "mem_changed": ("Nima o‘zgardi? Yangi narsani top", "What changed? Find the new thing", "Что изменилось? Найди новое"),
+ "mem_was_there": ("Rasmda nima bor edi?", "What was in the picture?", "Что было на картинке?"),
+ "mem_how_many": ("Rasmda nechta {item} bor edi?", "How many were there? ({item})", "Сколько было? ({item})"),
+ "mem_where": ("{item} qayerda edi?", "Where was it? ({item})", "Где это было? ({item})"),
+ "at_find": ("{item}ni top va bos", "Find and tap: {item}", "Найди и нажми: {item}"),
+ "at_find_all": ("Hamma {item}larni top", "Find all of them: {item}", "Найди все: {item}"),
+ "at_find_color": ("Hamma {color} narsalarni top", "Find everything {color}", "Найди всё, что {color}"),
+ "at_difference": ("Pastki rasmda nima boshqacha? Uni bos", "What is different in the bottom picture? Tap it", "Что изменилось на нижней картинке? Нажми"),
+ "at_count": ("Diqqat bilan sana: nechta {item} bor?", "Count carefully: how many? ({item})", "Посчитай внимательно: сколько? ({item})"),
+ "pz_jigsaw": ("Bo‘laklardan rasmni yig‘", "Put the picture together", "Собери картинку"),
+ "mo_bubbles": ("Hamma pufaklarni bosib yor", "Pop all the bubbles", "Лопни все пузыри"),
+ "mo_drag_shadow": ("Rasmni soyasiga sudrab olib bor", "Drag the picture to its shadow", "Перетащи картинку к её тени"),
+ "so_emotion_find": ("Qaysi yuz {emotion}?", "Which face is {emotion}?", "Какое лицо — {emotion}?"),
+ "so_emotion_name": ("Bu bola qanday his qilyapti?", "How does this child feel?", "Что чувствует этот ребёнок?"),
+ "so_situation": ("{text}", "{text} (How would you feel?)", "{text} (Что ты почувствуешь?)"),
+ "so_polite": ("{text} Nima deysan?", "{text} What do you say?", "{text} Что ты скажешь?"),
+ "so_polite_when": ("Qachon «{word}» deymiz?", "When do we say «{word}»?", "Когда говорят «{word}»?"),
+ "so_choice": ("{text}", "{text}", "{text}"),
+ "fa_activity": ("Bugun ota-onang bilan birga: {title}", "Today with your parents: {title}", "Сегодня вместе с родителями: {title}"),
+})
+
 # Chet tili darslari (lg_*): ekranda va ovozda — ingliz/rus tilida; o'zbekcha matn — faqat umumiy
 # yordamchi (javobni oshkor qilmaydi), shuning uchun unda o'rinbosar bo'lmasligi mumkin.
 LG = {

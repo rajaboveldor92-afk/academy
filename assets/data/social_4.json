@@ -1,0 +1,174 @@
+{
+ "subject": "social",
+ "ageGroup": "4",
+ "ageMin": 3,
+ "ageMax": 5,
+ "lessonSize": 5,
+ "title": {
+  "uz": "Muloqot",
+  "en": "Getting along",
+  "ru": "Общение"
+ },
+ "model": "KO‘R → HIS QIL → TANLA → NIMA UCHUN? (hukmsiz)",
+ "topics": [
+  {
+   "id": "social4.emotions",
+   "code": "S1",
+   "emoji": "😀",
+   "title": {
+    "uz": "Hislar",
+    "en": "Feelings",
+    "ru": "Чувства"
+   },
+   "generator": "emotion_find",
+   "skill": "emotions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "emotions": [
+      "happy",
+      "sad",
+      "angry",
+      "scared",
+      "surprised"
+     ],
+     "options": 2
+    },
+    {
+     "emotions": [
+      "happy",
+      "sad",
+      "angry",
+      "scared",
+      "surprised"
+     ],
+     "options": 3
+    },
+    {
+     "emotions": [
+      "happy",
+      "sad",
+      "angry",
+      "scared",
+      "surprised"
+     ],
+     "options": 3
+    }
+   ]
+  },
+  {
+   "id": "social4.situations",
+   "code": "S2",
+   "emoji": "🎁",
+   "title": {
+    "uz": "Qanday his qilasan?",
+    "en": "How would you feel?",
+    "ru": "Что ты почувствуешь?"
+   },
+   "generator": "situation",
+   "skill": "emotions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 3
+    }
+   ]
+  },
+  {
+   "id": "social4.polite",
+   "code": "S3",
+   "emoji": "🙏",
+   "title": {
+    "uz": "Sehrli so‘zlar",
+    "en": "Magic words",
+    "ru": "Вежливые слова"
+   },
+   "generator": "polite_when",
+   "skill": "politeness",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 3
+    }
+   ]
+  },
+  {
+   "id": "social4.kind",
+   "code": "S4",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Yaxshi do‘st",
+    "en": "A good friend",
+    "ru": "Хороший друг"
+   },
+   "generator": "choice",
+   "skill": "kindness",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "kinds": [
+      "kind"
+     ]
+    },
+    {
+     "kinds": [
+      "kind"
+     ]
+    },
+    {
+     "kinds": [
+      "kind"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "social4.safety",
+   "code": "S5",
+   "emoji": "🛡️",
+   "title": {
+    "uz": "Xavfsizlik",
+    "en": "Staying safe",
+    "ru": "Безопасность"
+   },
+   "generator": "choice",
+   "skill": "safety",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "kinds": [
+      "safety"
+     ]
+    },
+    {
+     "kinds": [
+      "safety"
+     ]
+    },
+    {
+     "kinds": [
+      "safety"
+     ]
+    }
+   ],
+   "lessonSize": 3
+  }
+ ]
+}

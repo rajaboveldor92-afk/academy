@@ -51,6 +51,8 @@ class VisualView extends StatelessWidget {
       }
     } else if (v is ReadingVisual) {
       child = ReadingView(reading: v);
+    } else if (v is PictureVisual) {
+      child = PictureView(picture: v);
     } else if (v is ClockVisual) {
       child = AspectRatio(aspectRatio: 1, child: CustomPaint(painter: ClockPainter(v.hour, v.minute)));
     } else if (v is GridVisual) {
@@ -135,6 +137,39 @@ class ReadingView extends StatelessWidget {
       if (!c.hasBoundedHeight) return Center(child: content);
       return FittedBox(fit: BoxFit.scaleDown, child: content);
     });
+  }
+}
+
+/// Rangli fonli rasm (osmon + yer + emoji'lar) — puzzle rasmi.
+class PictureView extends StatelessWidget {
+  const PictureView({super.key, required this.picture});
+
+  final PictureVisual picture;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = picture;
+    return AspectRatio(
+      aspectRatio: p.aspect,
+      child: ClipRect(
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [p.top, Color.lerp(p.top, Colors.white, 0.45)!, p.ground, Color.lerp(p.ground, Colors.black, 0.12)!],
+                  stops: [0, p.horizon, p.horizon, 1],
+                ),
+              ),
+            ),
+            SceneView(scene: SceneVisual(p.items, aspect: p.aspect)),
+          ],
+        ),
+      ),
+    );
   }
 }
 

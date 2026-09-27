@@ -1,0 +1,692 @@
+{
+ "schemaVersion": 1,
+ "note": "Muloqot va ijtimoiy-emotsional ko‘nikmalar (original vaziyatlar).",
+ "emotions": [
+  {
+   "id": "happy",
+   "emoji": "😀",
+   "uz": "xursand",
+   "en": "happy",
+   "ru": "радостный"
+  },
+  {
+   "id": "sad",
+   "emoji": "😢",
+   "uz": "xafa",
+   "en": "sad",
+   "ru": "грустный"
+  },
+  {
+   "id": "angry",
+   "emoji": "😠",
+   "uz": "jahli chiqqan",
+   "en": "angry",
+   "ru": "сердитый"
+  },
+  {
+   "id": "scared",
+   "emoji": "😨",
+   "uz": "qo‘rqqan",
+   "en": "scared",
+   "ru": "испуганный"
+  },
+  {
+   "id": "surprised",
+   "emoji": "😲",
+   "uz": "hayron",
+   "en": "surprised",
+   "ru": "удивлённый"
+  },
+  {
+   "id": "tired",
+   "emoji": "😩",
+   "uz": "charchagan",
+   "en": "tired",
+   "ru": "уставший"
+  },
+  {
+   "id": "calm",
+   "emoji": "😌",
+   "uz": "xotirjam",
+   "en": "calm",
+   "ru": "спокойный"
+  },
+  {
+   "id": "shy",
+   "emoji": "😳",
+   "uz": "uyalgan",
+   "en": "shy",
+   "ru": "смущённый"
+  }
+ ],
+ "situations": [
+  {
+   "id": "gift",
+   "scene": [
+    "🎁",
+    "🙂"
+   ],
+   "text": "Do‘sting senga sovg‘a berdi. Qanday his qilasan?",
+   "emotion": "happy",
+   "age": 4
+  },
+  {
+   "id": "broken_toy",
+   "scene": [
+    "🧸",
+    "💔"
+   ],
+   "text": "Sevimli o‘yinchog‘ing sinib qoldi. Qanday his qilasan?",
+   "emotion": "sad",
+   "age": 4
+  },
+  {
+   "id": "thunder",
+   "scene": [
+    "⛈️",
+    "🌃"
+   ],
+   "text": "Kechasi qattiq momaqaldiroq bo‘ldi. Qanday his qilasan?",
+   "emotion": "scared",
+   "age": 4
+  },
+  {
+   "id": "magic",
+   "scene": [
+    "🎩",
+    "🐰"
+   ],
+   "text": "Sehrgar qalpoqdan quyon chiqardi. Qanday his qilasan?",
+   "emotion": "surprised",
+   "age": 4
+  },
+  {
+   "id": "birthday",
+   "scene": [
+    "🎂",
+    "🎈"
+   ],
+   "text": "Bugun tug‘ilgan kuning! Qanday his qilasan?",
+   "emotion": "happy",
+   "age": 4
+  },
+  {
+   "id": "long_run",
+   "scene": [
+    "🏃",
+    "💦"
+   ],
+   "text": "Uzoq yugurding, oyoqlaring toliqdi. Qanday his qilasan?",
+   "emotion": "tired",
+   "age": 4
+  },
+  {
+   "id": "friend_left",
+   "scene": [
+    "👋",
+    "🚗"
+   ],
+   "text": "Do‘sting boshqa shaharga ko‘chib ketdi. Qanday his qilasan?",
+   "emotion": "sad",
+   "age": 4
+  },
+  {
+   "id": "toy_taken",
+   "scene": [
+    "🚂",
+    "✋"
+   ],
+   "text": "Kimdir o‘yinchog‘ingni so‘ramasdan oldi. Qanday his qilasan?",
+   "emotion": "angry",
+   "age": 6
+  },
+  {
+   "id": "new_group",
+   "scene": [
+    "🏫",
+    "👥"
+   ],
+   "text": "Yangi guruhga keldingi, hech kimni tanimaysan. Qanday his qilasan?",
+   "emotion": "shy",
+   "age": 6
+  },
+  {
+   "id": "bedtime_story",
+   "scene": [
+    "📖",
+    "🛏️"
+   ],
+   "text": "Onang ertak o‘qib berdi, yotishga tayyorsan. Qanday his qilasan?",
+   "emotion": "calm",
+   "age": 6
+  },
+  {
+   "id": "big_dog",
+   "scene": [
+    "🐕",
+    "❗"
+   ],
+   "text": "Katta it baland ovozda vovulladi. Qanday his qilasan?",
+   "emotion": "scared",
+   "age": 6
+  },
+  {
+   "id": "surprise_box",
+   "scene": [
+    "📦",
+    "❓"
+   ],
+   "text": "Qutini ochding, ichidan kutilmagan narsa chiqdi. Qanday his qilasan?",
+   "emotion": "surprised",
+   "age": 6
+  }
+ ],
+ "polite": [
+  {
+   "id": "thanks_help",
+   "scene": [
+    "🎁",
+    "🙂"
+   ],
+   "text": "Kimdir senga yordam berdi yoki sovg‘a qildi.",
+   "word": "Rahmat!"
+  },
+  {
+   "id": "thanks_food",
+   "scene": [
+    "🍲",
+    "👵"
+   ],
+   "text": "Buving mazali ovqat pishirib berdi.",
+   "word": "Rahmat!"
+  },
+  {
+   "id": "please_cookie",
+   "scene": [
+    "🍪",
+    "🤲"
+   ],
+   "text": "Sen pechenye so‘ramoqchisan.",
+   "word": "Iltimos"
+  },
+  {
+   "id": "please_pencil",
+   "scene": [
+    "✏️",
+    "🤲"
+   ],
+   "text": "Do‘stingdan qalam so‘ramoqchisan.",
+   "word": "Iltimos"
+  },
+  {
+   "id": "sorry_bump",
+   "scene": [
+    "😔",
+    "💥"
+   ],
+   "text": "Tasodifan do‘stingni turtib yubording.",
+   "word": "Kechirasiz!"
+  },
+  {
+   "id": "sorry_late",
+   "scene": [
+    "⏰",
+    "😔"
+   ],
+   "text": "Mashg‘ulotga kechikib kelding.",
+   "word": "Kechirasiz!"
+  },
+  {
+   "id": "hello_morning",
+   "scene": [
+    "🏫",
+    "🙂"
+   ],
+   "text": "Ertalab bog‘chaga kelding.",
+   "word": "Salom!"
+  },
+  {
+   "id": "bye_home",
+   "scene": [
+    "🚪",
+    "👋"
+   ],
+   "text": "Mehmondan uyga ketyapsan.",
+   "word": "Xayr!"
+  }
+ ],
+ "politeWords": [
+  "Rahmat!",
+  "Iltimos",
+  "Kechirasiz!",
+  "Salom!",
+  "Xayr!"
+ ],
+ "choices": [
+  {
+   "id": "friend_fell",
+   "scene": [
+    "🧒",
+    "🤕"
+   ],
+   "text": "Do‘sting yiqilib tushdi. Nima qilasan?",
+   "good": [
+    "🤝",
+    "Yordam beraman"
+   ],
+   "others": [
+    [
+     "😂",
+     "Kulaman"
+    ],
+    [
+     "⚽",
+     "O‘ynashda davom etaman"
+    ]
+   ],
+   "why": "Yiqilgan do‘stga yordam berish — haqiqiy do‘stlik.",
+   "age": 4,
+   "kind": "kind"
+  },
+  {
+   "id": "share_toy",
+   "scene": [
+    "🧸",
+    "🧒"
+   ],
+   "text": "Do‘sting sening o‘yinchog‘ingni so‘radi. Nima qilasan?",
+   "good": [
+    "🔁",
+    "Navbat bilan o‘ynaymiz"
+   ],
+   "others": [
+    [
+     "🙅",
+     "Hech kimga bermayman"
+    ],
+    [
+     "😠",
+     "Jahlim chiqadi"
+    ]
+   ],
+   "why": "Navbat bilan o‘ynasak, hammaga qiziq bo‘ladi.",
+   "age": 4,
+   "kind": "kind"
+  },
+  {
+   "id": "new_kid",
+   "scene": [
+    "🧒",
+    "👋"
+   ],
+   "text": "Guruhga yangi bola keldi, u yolg‘iz turibdi. Nima qilasan?",
+   "good": [
+    "🤗",
+    "O‘yinga taklif qilaman"
+   ],
+   "others": [
+    [
+     "🙈",
+     "Qaramayman"
+    ],
+    [
+     "🏃",
+     "Qochib ketaman"
+    ]
+   ],
+   "why": "Yangi bolani o‘yinga chaqirsang, u tezda do‘st topadi.",
+   "age": 4,
+   "kind": "kind"
+  },
+  {
+   "id": "mom_tired",
+   "scene": [
+    "👩",
+    "😩"
+   ],
+   "text": "Onang charchab keldi. Nima qilasan?",
+   "good": [
+    "🧹",
+    "Uy ishida yordam beraman"
+   ],
+   "others": [
+    [
+     "📺",
+     "Multfilm ko‘raman"
+    ],
+    [
+     "😭",
+     "Yig‘lab o‘yinchoq so‘rayman"
+    ]
+   ],
+   "why": "Oilaga yordam berish — mehr belgisi.",
+   "age": 4,
+   "kind": "kind"
+  },
+  {
+   "id": "friend_sad",
+   "scene": [
+    "🧒",
+    "😢"
+   ],
+   "text": "Do‘sting xafa bo‘lib o‘tiribdi. Nima qilasan?",
+   "good": [
+    "🤗",
+    "Yoniga borib yupataman"
+   ],
+   "others": [
+    [
+     "😂",
+     "Ustidan kulaman"
+    ],
+    [
+     "🙈",
+     "E’tibor bermayman"
+    ]
+   ],
+   "why": "Xafa odamga iliq so‘z juda kerak.",
+   "age": 4,
+   "kind": "kind"
+  },
+  {
+   "id": "wait_turn",
+   "scene": [
+    "🎠",
+    "🧒"
+   ],
+   "text": "Karuselga navbat bor. Nima qilasan?",
+   "good": [
+    "⏳",
+    "Navbatimni kutaman"
+   ],
+   "others": [
+    [
+     "💨",
+     "Oldinga o‘tib olaman"
+    ],
+    [
+     "😠",
+     "Itarib o‘taman"
+    ]
+   ],
+   "why": "Navbat kutish — hammaga adolatli.",
+   "age": 6,
+   "kind": "kind"
+  },
+  {
+   "id": "one_apple",
+   "scene": [
+    "🍎",
+    "👧"
+   ],
+   "text": "Bitta olma bor, sen va singling ikkalangiz yemoqchisizlar. Nima qilasan?",
+   "good": [
+    "🔪",
+    "Teng bo‘lishamiz"
+   ],
+   "others": [
+    [
+     "🙅",
+     "Hammasini o‘zim yeyman"
+    ],
+    [
+     "😭",
+     "Yig‘layman"
+    ]
+   ],
+   "why": "Bo‘lishsak, ikkalamiz ham xursand bo‘lamiz.",
+   "age": 6,
+   "kind": "kind"
+  },
+  {
+   "id": "mistake",
+   "scene": [
+    "🥛",
+    "💦"
+   ],
+   "text": "Tasodifan sutni to‘kib yubording. Nima qilasan?",
+   "good": [
+    "🧽",
+    "Kechirim so‘rab, artib qo‘yaman"
+   ],
+   "others": [
+    [
+     "🙈",
+     "Yashirinaman"
+    ],
+    [
+     "👉",
+     "Boshqani ayblayman"
+    ]
+   ],
+   "why": "Xato qilish mumkin — muhimi, uni tuzatish.",
+   "age": 6,
+   "kind": "kind"
+  },
+  {
+   "id": "baby_crying",
+   "scene": [
+    "👶",
+    "😭"
+   ],
+   "text": "Kichik ukang yig‘layapti. Nima qilasan?",
+   "good": [
+    "🧸",
+    "O‘yinchoq berib, ovutaman"
+   ],
+   "others": [
+    [
+     "😠",
+     "Baqiraman"
+    ],
+    [
+     "🎧",
+     "Quloqlarimni yopaman"
+    ]
+   ],
+   "why": "Kichiklarga g‘amxo‘rlik qilish — katta bo‘lish belgisi.",
+   "age": 6,
+   "kind": "kind"
+  },
+  {
+   "id": "praise_friend",
+   "scene": [
+    "🎨",
+    "🧒"
+   ],
+   "text": "Do‘sting chiroyli rasm chizdi. Nima deysan?",
+   "good": [
+    "👏",
+    "Juda chiroyli ekan!"
+   ],
+   "others": [
+    [
+     "😒",
+     "Meniki yaxshiroq"
+    ],
+    [
+     "🤐",
+     "Hech narsa demayman"
+    ]
+   ],
+   "why": "Maqtov do‘stingni ruhlantiradi.",
+   "age": 6,
+   "kind": "kind"
+  },
+  {
+   "id": "stranger_candy",
+   "scene": [
+    "🍬",
+    "🧔"
+   ],
+   "text": "Begona odam shirinlik berib, “yur” dedi. Nima qilasan?",
+   "good": [
+    "🙅",
+    "Bormayman, ota-onamga aytaman"
+   ],
+   "others": [
+    [
+     "🚶",
+     "U bilan boraman"
+    ],
+    [
+     "🍬",
+     "Shirinlikni olaman"
+    ]
+   ],
+   "why": "Begona odam bilan hech qayoqqa bormaymiz.",
+   "age": 4,
+   "kind": "safety"
+  },
+  {
+   "id": "street",
+   "scene": [
+    "🚦",
+    "🚗"
+   ],
+   "text": "Ko‘chani kesib o‘tish kerak. Nima qilasan?",
+   "good": [
+    "✅",
+    "Kattalar bilan, yashil chiroqda o‘taman"
+   ],
+   "others": [
+    [
+     "🏃",
+     "Yugurib o‘taman"
+    ],
+    [
+     "🔴",
+     "Qizil chiroqda o‘taman"
+    ]
+   ],
+   "why": "Ko‘chadan faqat kattalar bilan va yashil chiroqda o‘tamiz.",
+   "age": 4,
+   "kind": "safety"
+  },
+  {
+   "id": "hot_pot",
+   "scene": [
+    "☕",
+    "🔥"
+   ],
+   "text": "Stolda juda issiq choy turibdi. Nima qilasan?",
+   "good": [
+    "✋",
+    "Tegmayman"
+   ],
+   "others": [
+    [
+     "👆",
+     "Ushlab ko‘raman"
+    ],
+    [
+     "🧒",
+     "Yaqiniga chiqaman"
+    ]
+   ],
+   "why": "Issiq narsalar kuydirishi mumkin — faqat kattalar ushlaydi.",
+   "age": 4,
+   "kind": "safety"
+  },
+  {
+   "id": "medicine",
+   "scene": [
+    "💊",
+    "🧒"
+   ],
+   "text": "Stolda dori turibdi. Nima qilasan?",
+   "good": [
+    "👩",
+    "Faqat kattalar beradi"
+   ],
+   "others": [
+    [
+     "🍬",
+     "Konfet deb yeyman"
+    ],
+    [
+     "🤲",
+     "O‘ynayman"
+    ]
+   ],
+   "why": "Dorini faqat kattalar beradi.",
+   "age": 6,
+   "kind": "safety"
+  },
+  {
+   "id": "lost",
+   "scene": [
+    "🏬",
+    "😟"
+   ],
+   "text": "Do‘konda onangni yo‘qotib qo‘yding. Nima qilasan?",
+   "good": [
+    "🙋",
+    "Joyimda turib, sotuvchidan yordam so‘rayman"
+   ],
+   "others": [
+    [
+     "🚪",
+     "Ko‘chaga chiqib ketaman"
+    ],
+    [
+     "😭",
+     "Yugurib ketaman"
+    ]
+   ],
+   "why": "Joyida turib, xodimdan yordam so‘rash — eng to‘g‘ri yo‘l.",
+   "age": 6,
+   "kind": "safety"
+  },
+  {
+   "id": "socket",
+   "scene": [
+    "🔌",
+    "🧒"
+   ],
+   "text": "Devordagi rozetkani ko‘rding. Nima qilasan?",
+   "good": [
+    "✋",
+    "Tegmayman"
+   ],
+   "others": [
+    [
+     "✏️",
+     "Ichiga narsa tiqaman"
+    ],
+    [
+     "👆",
+     "Barmog‘imni tiqaman"
+    ]
+   ],
+   "why": "Tok xavfli — rozetkaga tegmaymiz.",
+   "age": 6,
+   "kind": "safety"
+  },
+  {
+   "id": "seat_belt",
+   "scene": [
+    "🚗",
+    "🧒"
+   ],
+   "text": "Mashinaga o‘tirding. Nima qilasan?",
+   "good": [
+    "🔒",
+    "Kamar taqaman"
+   ],
+   "others": [
+    [
+     "🤸",
+     "O‘rindiqda sakrayman"
+    ],
+    [
+     "🤪",
+     "Derazadan boshimni chiqaraman"
+    ]
+   ],
+   "why": "Mashinada doim kamar taqamiz.",
+   "age": 6,
+   "kind": "safety"
+  }
+ ]
+}

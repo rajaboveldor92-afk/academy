@@ -871,6 +871,116 @@
    "en": "Let's play: {game}",
    "ru": "Играем: {game}"
   },
+  "mem_cards": {
+   "uz": "Bir xil rasmli kartalarni juftla",
+   "en": "Find the matching pairs",
+   "ru": "Найди одинаковые пары"
+  },
+  "mem_recall": {
+   "uz": "Rasmlar qanday tartibda edi? Shu tartibda bos",
+   "en": "Tap the pictures in the same order",
+   "ru": "Нажми на картинки в том же порядке"
+  },
+  "mem_colors": {
+   "uz": "Ranglar qanday tartibda edi? Shu tartibda bos",
+   "en": "Tap the colours in the same order",
+   "ru": "Нажми на цвета в том же порядке"
+  },
+  "mem_changed": {
+   "uz": "Nima o‘zgardi? Yangi narsani top",
+   "en": "What changed? Find the new thing",
+   "ru": "Что изменилось? Найди новое"
+  },
+  "mem_was_there": {
+   "uz": "Rasmda nima bor edi?",
+   "en": "What was in the picture?",
+   "ru": "Что было на картинке?"
+  },
+  "mem_how_many": {
+   "uz": "Rasmda nechta {item} bor edi?",
+   "en": "How many were there? ({item})",
+   "ru": "Сколько было? ({item})"
+  },
+  "mem_where": {
+   "uz": "{item} qayerda edi?",
+   "en": "Where was it? ({item})",
+   "ru": "Где это было? ({item})"
+  },
+  "at_find": {
+   "uz": "{item}ni top va bos",
+   "en": "Find and tap: {item}",
+   "ru": "Найди и нажми: {item}"
+  },
+  "at_find_all": {
+   "uz": "Hamma {item}larni top",
+   "en": "Find all of them: {item}",
+   "ru": "Найди все: {item}"
+  },
+  "at_find_color": {
+   "uz": "Hamma {color} narsalarni top",
+   "en": "Find everything {color}",
+   "ru": "Найди всё, что {color}"
+  },
+  "at_difference": {
+   "uz": "Pastki rasmda nima boshqacha? Uni bos",
+   "en": "What is different in the bottom picture? Tap it",
+   "ru": "Что изменилось на нижней картинке? Нажми"
+  },
+  "at_count": {
+   "uz": "Diqqat bilan sana: nechta {item} bor?",
+   "en": "Count carefully: how many? ({item})",
+   "ru": "Посчитай внимательно: сколько? ({item})"
+  },
+  "pz_jigsaw": {
+   "uz": "Bo‘laklardan rasmni yig‘",
+   "en": "Put the picture together",
+   "ru": "Собери картинку"
+  },
+  "mo_bubbles": {
+   "uz": "Hamma pufaklarni bosib yor",
+   "en": "Pop all the bubbles",
+   "ru": "Лопни все пузыри"
+  },
+  "mo_drag_shadow": {
+   "uz": "Rasmni soyasiga sudrab olib bor",
+   "en": "Drag the picture to its shadow",
+   "ru": "Перетащи картинку к её тени"
+  },
+  "so_emotion_find": {
+   "uz": "Qaysi yuz {emotion}?",
+   "en": "Which face is {emotion}?",
+   "ru": "Какое лицо — {emotion}?"
+  },
+  "so_emotion_name": {
+   "uz": "Bu bola qanday his qilyapti?",
+   "en": "How does this child feel?",
+   "ru": "Что чувствует этот ребёнок?"
+  },
+  "so_situation": {
+   "uz": "{text}",
+   "en": "{text} (How would you feel?)",
+   "ru": "{text} (Что ты почувствуешь?)"
+  },
+  "so_polite": {
+   "uz": "{text} Nima deysan?",
+   "en": "{text} What do you say?",
+   "ru": "{text} Что ты скажешь?"
+  },
+  "so_polite_when": {
+   "uz": "Qachon «{word}» deymiz?",
+   "en": "When do we say «{word}»?",
+   "ru": "Когда говорят «{word}»?"
+  },
+  "so_choice": {
+   "uz": "{text}",
+   "en": "{text}",
+   "ru": "{text}"
+  },
+  "fa_activity": {
+   "uz": "Bugun ota-onang bilan birga: {title}",
+   "en": "Today with your parents: {title}",
+   "ru": "Сегодня вместе с родителями: {title}"
+  },
   "tri_which_picture": {
    "uz": "«{w}» qaysi rasm?",
    "en": "Which picture is «{w}»?",

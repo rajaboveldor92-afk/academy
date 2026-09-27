@@ -1,0 +1,176 @@
+{
+ "subject": "family",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 1,
+ "title": {
+  "uz": "Ota-ona bilan bajaramiz",
+  "en": "Together with parents",
+  "ru": "Вместе с родителями"
+ },
+ "model": "EKRANDAN TASHQARI: REJA → TAJRIBA → XULOSA → BIRGA QUVONING",
+ "topics": [
+  {
+   "id": "family6.life",
+   "code": "F1",
+   "emoji": "🧺",
+   "title": {
+    "uz": "Kundalik hayot",
+    "en": "Practical life",
+    "ru": "Практическая жизнь"
+   },
+   "generator": "activity",
+   "skill": "practical_life",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "life"
+     ]
+    },
+    {
+     "areas": [
+      "life"
+     ]
+    },
+    {
+     "areas": [
+      "life"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family6.science",
+   "code": "F2",
+   "emoji": "🔬",
+   "title": {
+    "uz": "Tajribalar va tabiat",
+    "en": "Experiments and nature",
+    "ru": "Опыты и природа"
+   },
+   "generator": "activity",
+   "skill": "science",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "science",
+      "nature"
+     ]
+    },
+    {
+     "areas": [
+      "science",
+      "nature"
+     ]
+    },
+    {
+     "areas": [
+      "science",
+      "nature"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family6.math",
+   "code": "F3",
+   "emoji": "🛒",
+   "title": {
+    "uz": "Hayotiy matematika",
+    "en": "Everyday maths",
+    "ru": "Математика в жизни"
+   },
+   "generator": "activity",
+   "skill": "math",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "math"
+     ]
+    },
+    {
+     "areas": [
+      "math"
+     ]
+    },
+    {
+     "areas": [
+      "math"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family6.language",
+   "code": "F4",
+   "emoji": "📚",
+   "title": {
+    "uz": "Til va hikoya",
+    "en": "Language and stories",
+    "ru": "Речь и рассказы"
+   },
+   "generator": "activity",
+   "skill": "language",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "language"
+     ]
+    },
+    {
+     "areas": [
+      "language"
+     ]
+    },
+    {
+     "areas": [
+      "language"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family6.art_movement",
+   "code": "F5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ijod va harakat",
+    "en": "Art and movement",
+    "ru": "Творчество и движение"
+   },
+   "generator": "activity",
+   "skill": "art",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "areas": [
+      "art",
+      "movement"
+     ]
+    },
+    {
+     "areas": [
+      "art",
+      "movement"
+     ]
+    },
+    {
+     "areas": [
+      "art",
+      "movement"
+     ]
+    }
+   ]
+  }
+ ]
+}

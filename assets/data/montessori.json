@@ -1,0 +1,788 @@
+{
+ "schemaVersion": 1,
+ "note": "Ota-ona bilan bajariladigan original faoliyatlar (Montessori uslubida).",
+ "activities": [
+  {
+   "id": "pour_water",
+   "age": 4,
+   "area": "life",
+   "emoji": "💧",
+   "title": "Suv quyamiz",
+   "minutes": 10,
+   "materials": [
+    "2 ta kichik plastik stakan",
+    "suv",
+    "sochiq"
+   ],
+   "steps": [
+    "Bitta stakanni yarmigacha suv bilan to‘ldiring.",
+    "Suvni qanday sekin quyishni bir marta ko‘rsating.",
+    "Bola suvni bir stakandan ikkinchisiga to‘kmasdan quysin.",
+    "To‘kilgan tomchilarni birga sochiq bilan arting."
+   ],
+   "benefit": "Qo‘l harakatining aniqligi, diqqat va “o‘zim qila olaman” degan ishonch."
+  },
+  {
+   "id": "spoon_transfer",
+   "age": 4,
+   "area": "life",
+   "emoji": "🥄",
+   "title": "Qoshiqda tashiymiz",
+   "minutes": 10,
+   "materials": [
+    "2 ta kosa",
+    "qoshiq",
+    "katta loviya yoki yong‘oq"
+   ],
+   "steps": [
+    "Loviyalarni bitta kosaga soling.",
+    "Qoshiq bilan bittadan olib, ikkinchi kosaga o‘tkazishni ko‘rsating.",
+    "Bola hammasini o‘tkazsin, keyin orqaga qaytarsin.",
+    "Oxirida loviyalarni birga sanang."
+   ],
+   "benefit": "Mayda motorika va chapdan o‘ngga ishlash odati (yozishga tayyorgarlik). Kichik narsalarni og‘izga solmasligini kuzating."
+  },
+  {
+   "id": "buttons",
+   "age": 4,
+   "area": "life",
+   "emoji": "👕",
+   "title": "Tugma qadaymiz",
+   "minutes": 10,
+   "materials": [
+    "katta tugmali kofta yoki ko‘ylak"
+   ],
+   "steps": [
+    "Koftani stolga yoyib qo‘ying.",
+    "Bitta tugmani sekin qadab, keyin yechib ko‘rsating.",
+    "Bola pastdagi tugmadan boshlab o‘zi qadasin.",
+    "Hammasi qadalgach, birga maqtang va kiyib ko‘rsin."
+   ],
+   "benefit": "Barmoqlar kuchi, sabr va kiyinishda mustaqillik."
+  },
+  {
+   "id": "socks_pairs",
+   "age": 4,
+   "area": "life",
+   "emoji": "🧦",
+   "title": "Paypoqlarni juftlaymiz",
+   "minutes": 10,
+   "materials": [
+    "5–6 juft har xil paypoq",
+    "savat"
+   ],
+   "steps": [
+    "Paypoqlarni aralashtirib savatga soling.",
+    "Bitta paypoqni olib, juftini qidirishni ko‘rsating.",
+    "Bola hamma juftlarni topsin va yonma-yon qo‘ysin.",
+    "Juftlarni o‘rab, javonga birga joylang."
+   ],
+   "benefit": "Rang va naqshni solishtirish (diqqat) hamda uy ishlariga qatnashish."
+  },
+  {
+   "id": "water_plant",
+   "age": 4,
+   "area": "life",
+   "emoji": "🌱",
+   "title": "Gulni sug‘oramiz",
+   "minutes": 5,
+   "materials": [
+    "kichik suv idishi",
+    "uydagi gul"
+   ],
+   "steps": [
+    "Gul tuprog‘ini barmoq bilan ushlab ko‘ring: quruqmi?",
+    "Idishga ozgina suv to‘ldiring.",
+    "Bola suvni gul tagiga sekin quysin.",
+    "Har kuni bitta vaqtda gulni birga kuzating."
+   ],
+   "benefit": "Mas’uliyat, tirik tabiatga g‘amxo‘rlik va kun tartibi."
+  },
+  {
+   "id": "set_table",
+   "age": 4,
+   "area": "life",
+   "emoji": "🍽️",
+   "title": "Dasturxonga yordam",
+   "minutes": 10,
+   "materials": [
+    "plastik likopchalar",
+    "qoshiqlar",
+    "salfetkalar"
+   ],
+   "steps": [
+    "Oila a’zolari nechta ekanini birga sanang.",
+    "Har bir kishi uchun bitta likopcha qo‘yishni ko‘rsating.",
+    "Bola likopcha yoniga qoshiq va salfetka qo‘ysin.",
+    "Ovqatdan keyin likopchalarni birga yig‘ing."
+   ],
+   "benefit": "Sanash (birga-bir moslik), tartib va oilaga foydali bo‘lish quvonchi."
+  },
+  {
+   "id": "color_sort",
+   "age": 4,
+   "area": "senses",
+   "emoji": "🎨",
+   "title": "Ranglarni saralaymiz",
+   "minutes": 10,
+   "materials": [
+    "rangli qalamlar yoki koptoklar",
+    "3 ta kosa"
+   ],
+   "steps": [
+    "Har bir kosaga bitta rangni belgilang (qizil, sariq, ko‘k).",
+    "Bitta narsani olib, rangini aytib, kosaga soling.",
+    "Bola qolganlarini rang bo‘yicha saralasin.",
+    "Ranglarni birga uch tilda ayting."
+   ],
+   "benefit": "Ranglarni ajratish, saralash (mantiq) va so‘z boyligi."
+  },
+  {
+   "id": "big_small",
+   "age": 4,
+   "area": "senses",
+   "emoji": "📦",
+   "title": "Kattadan kichikka",
+   "minutes": 10,
+   "materials": [
+    "o‘lchami har xil 4–5 ta quti yoki idish"
+   ],
+   "steps": [
+    "Qutilarni aralash qo‘ying.",
+    "Eng kattasini topib, birinchi qo‘yishni ko‘rsating.",
+    "Bola qolganlarini kattadan kichikka tersin.",
+    "Keyin kichikdan kattaga qayta tering."
+   ],
+   "benefit": "O‘lchamni taqqoslash — matematik tafakkurning boshlanishi."
+  },
+  {
+   "id": "mystery_bag",
+   "age": 4,
+   "area": "senses",
+   "emoji": "👜",
+   "title": "Sirli xalta",
+   "minutes": 10,
+   "materials": [
+    "mato xalta",
+    "tanish narsalar: qoshiq, to‘p, kubik, qalam"
+   ],
+   "steps": [
+    "Narsalarni bola ko‘rmasdan xaltaga soling.",
+    "Bola qo‘lini xaltaga solib, bitta narsani ushlab ko‘rsin.",
+    "Ko‘rmasdan nima ekanini topib aytsin.",
+    "Chiqarib, to‘g‘ri topganini birga tekshiring."
+   ],
+   "benefit": "Sezgi (teginish), tasavvur va narsalarni ta’riflash nutqi."
+  },
+  {
+   "id": "sound_jars",
+   "age": 4,
+   "area": "senses",
+   "emoji": "🔔",
+   "title": "Tovushli idishlar",
+   "minutes": 10,
+   "materials": [
+    "4 ta yopiq idish",
+    "guruch",
+    "tugmalar"
+   ],
+   "steps": [
+    "Ikki idishga guruch, ikkitasiga tugma soling va yoping.",
+    "Idishlarni silkitib, tovushini tinglang.",
+    "Bola bir xil tovushli idishlarni juftlasin.",
+    "Ochib, ichini ko‘rib tekshiring."
+   ],
+   "benefit": "Eshitish diqqati va tovushlarni farqlash — o‘qishga tayyorgarlik."
+  },
+  {
+   "id": "smell_game",
+   "age": 4,
+   "area": "senses",
+   "emoji": "🍋",
+   "title": "Hidini top",
+   "minutes": 5,
+   "materials": [
+    "limon",
+    "olma",
+    "yalpiz yoki dolchin"
+   ],
+   "steps": [
+    "Mevalarni bola bilan hidlab ko‘ring.",
+    "Bola ko‘zini yumsin.",
+    "Birini hidlatib, nima ekanini topsin.",
+    "Hidlarni so‘z bilan ta’riflang: nordon, shirin, yoqimli."
+   ],
+   "benefit": "Sezgi a’zolari bilan tanishish va so‘z boyligi."
+  },
+  {
+   "id": "count_spoons",
+   "age": 4,
+   "area": "math",
+   "emoji": "🔢",
+   "title": "Sanaymiz: 1 dan 5 gacha",
+   "minutes": 10,
+   "materials": [
+    "5 ta qoshiq",
+    "1–5 raqamli kartochkalar"
+   ],
+   "steps": [
+    "Kartochkalarni tartib bilan qo‘ying.",
+    "“1” yoniga bitta qoshiq qo‘yishni ko‘rsating.",
+    "Bola har bir raqam yoniga shuncha qoshiq qo‘ysin.",
+    "Barmoq bilan ko‘rsatib, birga sanang."
+   ],
+   "benefit": "Son va miqdorni bog‘lash — maktab matematikasi asosi."
+  },
+  {
+   "id": "home_words",
+   "age": 4,
+   "area": "language",
+   "emoji": "🏠",
+   "title": "Uyimizdagi narsalar",
+   "minutes": 10,
+   "materials": [
+    "uydagi narsalar"
+   ],
+   "steps": [
+    "Xonada yurib, narsani ko‘rsating va nomini ayting.",
+    "Bola nomini takrorlasin.",
+    "Endi siz nomini ayting — bola o‘sha narsani topsin.",
+    "Bir nechta narsani ruscha va inglizcha ham ayting."
+   ],
+   "benefit": "So‘z boyligi va eshitib tushunish."
+  },
+  {
+   "id": "story_book",
+   "age": 4,
+   "area": "language",
+   "emoji": "📖",
+   "title": "Rasmga qarab ertak",
+   "minutes": 15,
+   "materials": [
+    "rasmli kitob"
+   ],
+   "steps": [
+    "Kitobning rasmlarini birga ko‘ring.",
+    "“Bu yerda kim bor? Nima qilyapti?” deb so‘rang.",
+    "Bola o‘z so‘zlari bilan aytib bersin.",
+    "Oxirida eng yoqqan rasmni tanlasin."
+   ],
+   "benefit": "Nutq, tasavvur va kitobga mehr."
+  },
+  {
+   "id": "leaf_walk",
+   "age": 4,
+   "area": "nature",
+   "emoji": "🍂",
+   "title": "Barglarni yig‘amiz",
+   "minutes": 20,
+   "materials": [
+    "sayr",
+    "kichik savat"
+   ],
+   "steps": [
+    "Hovli yoki bog‘da sayr qiling.",
+    "Har xil barglarni yig‘ing.",
+    "Uyda ularni kattaligi va rangi bo‘yicha tering.",
+    "Eng katta va eng kichik bargni birga toping."
+   ],
+   "benefit": "Tabiatni kuzatish, taqqoslash va toza havoda harakat."
+  },
+  {
+   "id": "weather",
+   "age": 4,
+   "area": "nature",
+   "emoji": "☀️",
+   "title": "Bugun havo qanday?",
+   "minutes": 5,
+   "materials": [
+    "deraza"
+   ],
+   "steps": [
+    "Ertalab derazadan birga qarang.",
+    "Quyosh bormi, bulutmi, yomg‘irmi — bola aytsin.",
+    "Havoga mos kiyimni birga tanlang.",
+    "Kechqurun havo o‘zgardimi — yana qarang."
+   ],
+   "benefit": "Kuzatuvchanlik va sabab-oqibat (havo → kiyim)."
+  },
+  {
+   "id": "clap_rhythm",
+   "age": 4,
+   "area": "movement",
+   "emoji": "👏",
+   "title": "Qarsak ritmi",
+   "minutes": 5,
+   "materials": [
+    "hech narsa kerak emas"
+   ],
+   "steps": [
+    "Oddiy ritm chaling: qarsak-qarsak-pauza.",
+    "Bola takrorlasin.",
+    "Ritmni asta murakkablashtiring.",
+    "Endi bola ritm chalsin — siz takrorlang."
+   ],
+   "benefit": "Eshitish xotirasi, diqqat va navbat bilan harakat qilish."
+  },
+  {
+   "id": "balance_line",
+   "age": 4,
+   "area": "movement",
+   "emoji": "🚶",
+   "title": "Chiziq ustida yuramiz",
+   "minutes": 10,
+   "materials": [
+    "polga yopishtiriladigan lenta"
+   ],
+   "steps": [
+    "Polga 2–3 metrlik lenta yopishtiring.",
+    "Chiziq ustida sekin yurishni ko‘rsating.",
+    "Bola qo‘llarini yonga yoyib yursin.",
+    "Keyin qo‘lida qoshiqda to‘p bilan yurib ko‘rsin."
+   ],
+   "benefit": "Muvozanat, tana nazorati va diqqat."
+  },
+  {
+   "id": "playdough",
+   "age": 4,
+   "area": "art",
+   "emoji": "✋",
+   "title": "Plastilindan shakllar",
+   "minutes": 15,
+   "materials": [
+    "plastilin yoki uyda tayyorlangan xamir"
+   ],
+   "steps": [
+    "Xamirdan shar yasashni ko‘rsating.",
+    "Bola kaftlari orasida shar va uzun “ilon” yasasin.",
+    "Shardan quyosh, ilondan uning nurlarini yasang.",
+    "Yasalgan shaklni birga nomlang."
+   ],
+   "benefit": "Barmoq va kaft muskullari — qalam ushlashga tayyorgarlik."
+  },
+  {
+   "id": "helper_clean",
+   "age": 4,
+   "area": "life",
+   "emoji": "🧸",
+   "title": "O‘yinchoqlarni joyiga qo‘yamiz",
+   "minutes": 10,
+   "materials": [
+    "o‘yinchoqlar",
+    "qutilar"
+   ],
+   "steps": [
+    "O‘yin tugagach, qutilarni ochib qo‘ying.",
+    "Kubiklar — bir qutiga, mashinalar — boshqasiga.",
+    "Bola o‘yinchoqlarni turi bo‘yicha joylasin.",
+    "Tartibli xonani birga ko‘rib, maqtang."
+   ],
+   "benefit": "Tartib, saralash va mas’uliyat."
+  },
+  {
+   "id": "sandwich",
+   "age": 6,
+   "area": "life",
+   "emoji": "🥪",
+   "title": "Buterbrod tayyorlaymiz",
+   "minutes": 15,
+   "materials": [
+    "non",
+    "sariyog‘ yoki pishloq",
+    "o‘tmas plastik pichoq",
+    "taxtacha"
+   ],
+   "steps": [
+    "Qo‘llarni birga yuving.",
+    "Nonga sariyog‘ surtishni ko‘rsating.",
+    "Bola o‘zi surtsin va pishloq qo‘ysin.",
+    "Buterbrodni ikki bo‘lakka bo‘lib, birini oila a’zosiga taklif qilsin."
+   ],
+   "benefit": "Mustaqillik, ketma-ketlikni rejalash va “yarim” tushunchasi."
+  },
+  {
+   "id": "shoe_laces",
+   "age": 6,
+   "area": "life",
+   "emoji": "👟",
+   "title": "Bog‘ich bog‘lashni o‘rganamiz",
+   "minutes": 15,
+   "materials": [
+    "bog‘ichli oyoq kiyim yoki karton"
+   ],
+   "steps": [
+    "Oyoq kiyimni stolga qo‘ying.",
+    "Birinchi tugunni sekin ko‘rsating.",
+    "“Quloqchalar” yasab, ularni bog‘lashni ko‘rsating.",
+    "Bola bir necha marta mashq qilsin — shoshilmang."
+   ],
+   "benefit": "Barmoqlar koordinatsiyasi va sabr."
+  },
+  {
+   "id": "tidy_room",
+   "age": 6,
+   "area": "life",
+   "emoji": "🧹",
+   "title": "Xonani tartibga keltiramiz",
+   "minutes": 15,
+   "materials": [
+    "rangli stikerlar yoki kartochkalar"
+   ],
+   "steps": [
+    "Xonada 3 ta vazifa belgilang: kitoblar, o‘yinchoqlar, kiyimlar.",
+    "Bola qaysi biridan boshlashni tanlasin.",
+    "Har bir vazifa tugagach, kartochkani belgilasin.",
+    "Oxirida tartibli xonani suratga emas, xotiraga olib, birga quvonishing."
+   ],
+   "benefit": "Rejalash, vazifani oxiriga yetkazish va mustaqillik."
+  },
+  {
+   "id": "bean_sprout",
+   "age": 6,
+   "area": "nature",
+   "emoji": "🌱",
+   "title": "Loviya o‘stiramiz",
+   "minutes": 10,
+   "materials": [
+    "shaffof stakan",
+    "paxta yoki salfetka",
+    "2–3 ta loviya",
+    "suv"
+   ],
+   "steps": [
+    "Stakanga namlangan paxta soling.",
+    "Loviyalarni stakan devoriga yaqin qo‘ying.",
+    "Har kuni bir oz suv qo‘shing.",
+    "Bir hafta davomida o‘sishini kuzating va rasmini chizing."
+   ],
+   "benefit": "Kuzatish, sabr va tirik tabiat qanday o‘sishini tushunish."
+  },
+  {
+   "id": "sink_float",
+   "age": 6,
+   "area": "science",
+   "emoji": "🛁",
+   "title": "Suzadimi yoki cho‘kadimi?",
+   "minutes": 15,
+   "materials": [
+    "katta idishda suv",
+    "qoshiq",
+    "po‘kak",
+    "tanga",
+    "yog‘och kubik",
+    "olma"
+   ],
+   "steps": [
+    "Har bir narsani suvga solishdan oldin bola taxmin qilsin: suzadimi?",
+    "Narsani sekin suvga qo‘ying.",
+    "Natijani ikki guruhga ajrating: suzadi / cho‘kadi.",
+    "Qaysi taxminlar to‘g‘ri chiqdi — birga sanang."
+   ],
+   "benefit": "Taxmin qilish, tajriba va natijani tekshirish — ilmiy fikrlash."
+  },
+  {
+   "id": "magnet",
+   "age": 6,
+   "area": "science",
+   "emoji": "🧲",
+   "title": "Magnit nimani tortadi?",
+   "minutes": 15,
+   "materials": [
+    "magnit",
+    "qisqich",
+    "qog‘oz",
+    "qalam",
+    "kalit",
+    "plastik o‘yinchoq"
+   ],
+   "steps": [
+    "Narsalarni stolga tering.",
+    "Bola taxmin qilsin: magnit tortadimi?",
+    "Magnitni har biriga yaqinlashtiring.",
+    "“Tortadi” va “tortmaydi” guruhlarini tuzing."
+   ],
+   "benefit": "Tajriba orqali o‘rganish va saralash."
+  },
+  {
+   "id": "shadow_play",
+   "age": 6,
+   "area": "science",
+   "emoji": "🔦",
+   "title": "Soya o‘yini",
+   "minutes": 15,
+   "materials": [
+    "fonar",
+    "devor",
+    "qo‘llar yoki o‘yinchoqlar"
+   ],
+   "steps": [
+    "Xonani biroz qorong‘ilating.",
+    "Fonar bilan devorga qo‘l soyasini tushiring.",
+    "Qo‘lni yaqinlashtirib-uzoqlashtiring: soya qanday o‘zgaradi?",
+    "Bola qo‘llari bilan quyon yoki qush soyasini yasasin."
+   ],
+   "benefit": "Yorug‘lik va soya haqida ilk tushuncha, ijodkorlik."
+  },
+  {
+   "id": "ice_melt",
+   "age": 6,
+   "area": "science",
+   "emoji": "❄️",
+   "title": "Muz qayerda tez eriydi?",
+   "minutes": 20,
+   "materials": [
+    "3 ta muz bo‘lagi",
+    "3 ta likopcha"
+   ],
+   "steps": [
+    "Muzlarni likopchalarga qo‘ying.",
+    "Birini quyoshga, birini soyaga, birini xonaga qo‘ying.",
+    "Bola taxmin qilsin: qaysi biri tez eriydi?",
+    "15 daqiqadan keyin birga tekshiring."
+   ],
+   "benefit": "Taqqoslash, vaqt va harorat haqida tushuncha."
+  },
+  {
+   "id": "shop_game",
+   "age": 6,
+   "area": "math",
+   "emoji": "🛒",
+   "title": "Do‘kon o‘yini",
+   "minutes": 20,
+   "materials": [
+    "o‘yinchoq yoki mevalar",
+    "narx yozilgan kartochkalar (1–10)",
+    "o‘yin tangalari"
+   ],
+   "steps": [
+    "Narsalarga 1 dan 10 gacha narx qo‘ying.",
+    "Bola sotuvchi, siz xaridor bo‘ling.",
+    "Tangalarni sanab to‘lang.",
+    "Keyin rollarni almashtiring — bola sanab to‘lasin."
+   ],
+   "benefit": "10 gacha qo‘shish, sanash va muloqot odobi."
+  },
+  {
+   "id": "measure_steps",
+   "age": 6,
+   "area": "math",
+   "emoji": "📏",
+   "title": "Qadamlab o‘lchaymiz",
+   "minutes": 10,
+   "materials": [
+    "xona"
+   ],
+   "steps": [
+    "Xonaning uzunligini qadamlab o‘lchang.",
+    "Bola o‘z qadamlari bilan o‘lchasin.",
+    "Kimniki ko‘proq qadam chiqdi — nega?",
+    "Stol va gilamni ham o‘lchab, taqqoslang."
+   ],
+   "benefit": "O‘lchash tushunchasi va taqqoslash."
+  },
+  {
+   "id": "daily_clock",
+   "age": 6,
+   "area": "math",
+   "emoji": "🕰️",
+   "title": "Kun tartibimiz",
+   "minutes": 15,
+   "materials": [
+    "qog‘oz",
+    "rangli qalamlar"
+   ],
+   "steps": [
+    "Kun davomidagi 4–5 ishni birga eslang: uyg‘onish, nonushta, o‘yin, uyqu.",
+    "Har birini rasm qilib chizing.",
+    "Rasmlarni tartib bilan tering.",
+    "Soatda uyg‘onish va uxlash vaqtini ko‘rsating."
+   ],
+   "benefit": "Vaqt, ketma-ketlik va kun tartibi."
+  },
+  {
+   "id": "shape_hunt",
+   "age": 6,
+   "area": "math",
+   "emoji": "🔺",
+   "title": "Uydagi shakllar ovi",
+   "minutes": 15,
+   "materials": [
+    "uydagi narsalar"
+   ],
+   "steps": [
+    "Doira, kvadrat, uchburchak, to‘rtburchak shakllarini eslang.",
+    "Uyda shu shakldagi narsalarni qidiring.",
+    "Har bir shakl uchun kamida 2 ta narsa toping.",
+    "Qaysi shakl ko‘p uchradi — sanang."
+   ],
+   "benefit": "Geometrik shakllarni hayotda ko‘rish."
+  },
+  {
+   "id": "letter_hunt",
+   "age": 6,
+   "area": "language",
+   "emoji": "🔤",
+   "title": "Harf ovi",
+   "minutes": 10,
+   "materials": [
+    "uydagi narsalar"
+   ],
+   "steps": [
+    "Bir harfni tanlang, masalan “M”.",
+    "Uyda shu harf bilan boshlanadigan narsalarni qidiring.",
+    "Har bir topilgan narsa nomini bo‘g‘inlab ayting.",
+    "Ertaga boshqa harf bilan o‘ynang."
+   ],
+   "benefit": "Tovush-harf bog‘lanishi va bo‘g‘inlab o‘qishga tayyorgarlik."
+  },
+  {
+   "id": "picture_story",
+   "age": 6,
+   "area": "language",
+   "emoji": "📚",
+   "title": "Rasmlardan hikoya",
+   "minutes": 15,
+   "materials": [
+    "3–4 ta rasm yoki jurnal qirqimlari"
+   ],
+   "steps": [
+    "Rasmlarni aralash qo‘ying.",
+    "Bola ularni hikoya tartibida tersin.",
+    "Hikoyani boshidan oxirigacha aytib bersin.",
+    "Hikoyaga nom qo‘ying."
+   ],
+   "benefit": "Izchil nutq, ketma-ketlik va tasavvur."
+  },
+  {
+   "id": "letter_to_grandma",
+   "age": 6,
+   "area": "language",
+   "emoji": "✉️",
+   "title": "Buvijonga rasmli xat",
+   "minutes": 20,
+   "materials": [
+    "qog‘oz",
+    "rangli qalamlar",
+    "konvert"
+   ],
+   "steps": [
+    "Buvi yoki bobo uchun rasm chizing.",
+    "Bola bitta so‘z yoki ismini yozishga harakat qilsin.",
+    "Xatni konvertga solib, birga olib boring yoki berib yuboring.",
+    "Buvining javobini birga tinglang."
+   ],
+   "benefit": "Yozishga qiziqish, oilaviy mehr va muloqot."
+  },
+  {
+   "id": "three_langs",
+   "age": 6,
+   "area": "language",
+   "emoji": "🌍",
+   "title": "Uch tilda o‘yin",
+   "minutes": 10,
+   "materials": [
+    "uydagi narsalar"
+   ],
+   "steps": [
+    "Narsani ko‘rsating: bola uni o‘zbekcha aytsin.",
+    "Keyin ruscha va inglizcha ayting — bola takrorlasin.",
+    "Endi siz inglizcha ayting — bola narsani topsin.",
+    "Har kuni 3 ta yangi so‘z."
+   ],
+   "benefit": "Uch tilda so‘z boyligi va eshitib tushunish."
+  },
+  {
+   "id": "paper_boat",
+   "age": 6,
+   "area": "art",
+   "emoji": "⛵",
+   "title": "Qog‘ozdan qayiq",
+   "minutes": 15,
+   "materials": [
+    "A4 qog‘oz",
+    "suv to‘ldirilgan tog‘ora"
+   ],
+   "steps": [
+    "Qog‘ozni buklashni bosqichma-bosqich ko‘rsating.",
+    "Bola har bir bosqichni takrorlasin.",
+    "Qayiqni suvga qo‘yib, suzishini kuzating.",
+    "Qayiqqa ism qo‘ying."
+   ],
+   "benefit": "Ko‘rsatma bo‘yicha ishlash, mayda motorika va sabr."
+  },
+  {
+   "id": "home_orchestra",
+   "age": 6,
+   "area": "art",
+   "emoji": "🥁",
+   "title": "Uy orkestri",
+   "minutes": 15,
+   "materials": [
+    "qopqoqli idishlar",
+    "qoshiqlar",
+    "guruch solingan shisha"
+   ],
+   "steps": [
+    "Uydagi narsalardan “cholg‘u” yasang.",
+    "Tanish qo‘shiq uchun ritm chaling.",
+    "Tez va sekin, baland va past chalib ko‘ring.",
+    "Oila uchun kichik konsert bering."
+   ],
+   "benefit": "Ritm hissi, eshitish va o‘ziga ishonch."
+  },
+  {
+   "id": "morning_exercise",
+   "age": 6,
+   "area": "movement",
+   "emoji": "🤸",
+   "title": "Ertalabki mashq",
+   "minutes": 10,
+   "materials": [
+    "qulay kiyim"
+   ],
+   "steps": [
+    "Birga 10 marta sakrang.",
+    "Qo‘llarni yuqoriga cho‘zib, 5 gacha sanang.",
+    "Bir oyoqda 5 soniya turing.",
+    "Oxirida chuqur nafas olib, bir-biringizni maqtang."
+   ],
+   "benefit": "Sog‘lom odat, muvozanat va sanash."
+  },
+  {
+   "id": "family_help",
+   "age": 6,
+   "area": "life",
+   "emoji": "🤝",
+   "title": "Oilaga yordam",
+   "minutes": 15,
+   "materials": [
+    "kundalik uy ishlari"
+   ],
+   "steps": [
+    "Bugun bola oilaga qanday yordam berishini birga tanlang.",
+    "Masalan: non olib kelish, gul sug‘orish, dasturxon yig‘ish.",
+    "Ishni tugatgach, oila a’zolari rahmat aytsin.",
+    "Kechqurun “bugun kimga yordam berdim?” deb eslang."
+   ],
+   "benefit": "G‘amxo‘rlik, mas’uliyat va oilaviy qadriyatlar."
+  },
+  {
+   "id": "safety_talk",
+   "age": 6,
+   "area": "life",
+   "emoji": "🏡",
+   "title": "Xavfsizlik qoidalari",
+   "minutes": 10,
+   "materials": [
+    "hech narsa kerak emas"
+   ],
+   "steps": [
+    "Adashib qolsa nima qilishni gaplashing: joyida turish va kattalardan yordam so‘rash.",
+    "Ota-onasining ismini to‘liq aytishni mashq qiling.",
+    "Begona odam bilan hech qayoqqa ketmaslikni tushuntiring.",
+    "Savol-javob o‘yini qilib, qoidalarni takrorlang."
+   ],
+   "benefit": "Xavfsizlik ko‘nikmalari va o‘ziga ishonch."
+  }
+ ]
+}

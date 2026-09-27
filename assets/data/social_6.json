@@ -1,0 +1,177 @@
+{
+ "subject": "social",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 6,
+ "title": {
+  "uz": "Muloqot",
+  "en": "Getting along",
+  "ru": "Общение"
+ },
+ "model": "VAZIYAT → HIS → TANLOV → IZOH (hukmsiz)",
+ "topics": [
+  {
+   "id": "social6.emotions",
+   "code": "S1",
+   "emoji": "😀",
+   "title": {
+    "uz": "Hislar",
+    "en": "Feelings",
+    "ru": "Чувства"
+   },
+   "generator": "emotion_find",
+   "skill": "emotions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "social6.emotion_names",
+   "code": "S2",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Hisni nomla",
+    "en": "Name the feeling",
+    "ru": "Назови чувство"
+   },
+   "generator": "emotion_name",
+   "skill": "emotions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "social6.situations",
+   "code": "S3",
+   "emoji": "🎁",
+   "title": {
+    "uz": "Qanday his qilasan?",
+    "en": "How would you feel?",
+    "ru": "Что ты почувствуешь?"
+   },
+   "generator": "situation",
+   "skill": "emotions",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "social6.polite",
+   "code": "S4",
+   "emoji": "🙏",
+   "title": {
+    "uz": "Sehrli so‘zlar",
+    "en": "Magic words",
+    "ru": "Вежливые слова"
+   },
+   "generator": "polite",
+   "skill": "politeness",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "social6.kind",
+   "code": "S5",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Yaxshi do‘st",
+    "en": "A good friend",
+    "ru": "Хороший друг"
+   },
+   "generator": "choice",
+   "skill": "kindness",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "kinds": [
+      "kind"
+     ]
+    },
+    {
+     "kinds": [
+      "kind"
+     ]
+    },
+    {
+     "kinds": [
+      "kind"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "social6.safety",
+   "code": "S6",
+   "emoji": "🛡️",
+   "title": {
+    "uz": "Xavfsizlik",
+    "en": "Staying safe",
+    "ru": "Безопасность"
+   },
+   "generator": "choice",
+   "skill": "safety",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "kinds": [
+      "safety"
+     ]
+    },
+    {
+     "kinds": [
+      "safety"
+     ]
+    },
+    {
+     "kinds": [
+      "safety"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 import '../../core/utils/map_utils.dart';
 import '../models/topic.dart';
+import 'activity_data.dart';
 import 'instructions.dart';
 import 'language_data.dart';
 import 'lexicon.dart';
@@ -20,6 +21,7 @@ class ContentRepository {
     required this.uzbek,
     required this.glyphs,
     required this.languages,
+    required this.activities,
   });
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
@@ -40,6 +42,18 @@ class ContentRepository {
     'trilingual_6',
     'chess_4',
     'chess_6',
+    'memory_4',
+    'memory_6',
+    'attention_4',
+    'attention_6',
+    'puzzle_4',
+    'puzzle_6',
+    'motor_4',
+    'motor_6',
+    'family_4',
+    'family_6',
+    'social_4',
+    'social_6',
   ];
 
   final Lexicon lexicon;
@@ -59,6 +73,9 @@ class ContentRepository {
 
   /// Ingliz va rus tili: alifbolar, harakatlar, sifatlar, iboralar, grammatik ma'lumot.
   final LanguageData languages;
+
+  /// Ota-ona bilan faoliyatlar va muloqot (hislar, sehrli so'zlar, yaxshi do'st, xavfsizlik).
+  final ActivityData activities;
 
   Curriculum? curriculum(String subject, String ageSuffix) => curricula['${subject}_$ageSuffix'];
 
@@ -89,6 +106,7 @@ class ContentRepository {
       uzbek: UzbekData.fromJson(await json('uzbek')),
       glyphs: GlyphBank.fromJson(await json('glyphs')),
       languages: LanguageData.fromJson(await json('languages')),
+      activities: ActivityData.fromJson(await json('montessori'), await json('social')),
     );
   }
 }

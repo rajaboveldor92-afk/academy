@@ -154,6 +154,31 @@ class ReadingVisual extends ExerciseVisual {
   String describe() => 'read[$text|${question ?? ''}|${emoji ?? ''}]';
 }
 
+/// Rangli fonli rasm (puzzle uchun): osmon ([top]) va yer ([ground]) ranglari hamda emoji'lar.
+/// Barcha rasmlar kod bilan chiziladi — tashqi rasm fayllari yo'q.
+class PictureVisual extends ExerciseVisual {
+  const PictureVisual({
+    required this.id,
+    required this.top,
+    required this.ground,
+    required this.items,
+    this.horizon = 0.64,
+    this.aspect = 1.0,
+  });
+
+  final String id;
+  final Color top;
+  final Color ground;
+
+  /// Yer chizig'i (balandlik ulushi); 1 — yer yo'q.
+  final double horizon;
+  final List<SceneItem> items;
+  final double aspect;
+
+  @override
+  String describe() => 'pic[$id:${items.map((e) => e.describe()).join(';')}]';
+}
+
 /// Analog soat.
 class ClockVisual extends ExerciseVisual {
   const ClockVisual(this.hour, this.minute);

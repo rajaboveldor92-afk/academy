@@ -9,6 +9,7 @@ import 'package:academy/learning/generators/registry.dart';
 import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/learning/models/topic.dart';
 import 'package:academy/learning/models/visual.dart';
+import 'package:academy/models/subject.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 /// KONTENTNI AVTOMATIK TEKSHIRISH (spetsifikatsiya 31-band).
@@ -29,6 +30,7 @@ void main() {
   /// Android 9 (Emoji 11) da yo'q emoji'lar — kontentda uchramasligi kerak.
   const unsupportedEmoji = [
     '🪜', '🫥', '🪙', '🪶', '🧍', '🧃', '🪑', '🧼', '🪥', '🪁', '🧅', '🧄', '🫐', '🦫', '🪴', '🛝',
+    '🥱', '🫖', '🪟', '🟢', '🟠', '🫧', '🪐', '🧊', '🪆',
   ];
 
   const samplesPerLevel = 120;
@@ -54,6 +56,10 @@ void main() {
       e.assemble?.describe() ?? '',
       e.trace?.describe() ?? '',
       e.chess?.describe() ?? '',
+      e.cards?.describe() ?? '',
+      e.spot?.describe() ?? '',
+      e.jigsaw?.describe() ?? '',
+      e.activity?.describe() ?? '',
     ].join('#');
   }
 
@@ -81,6 +87,13 @@ void main() {
     if (e.coding != null) yield '${e.coding!.hero}${e.coding!.target}';
     if (e.assemble != null) yield e.assemble!.tiles.join(' ');
     if (e.trace?.label != null) yield e.trace!.label!;
+    if (e.cards != null) yield e.cards!.faces.join();
+    if (e.spot != null) {
+      yield e.spot!.items.map((i) => i.value).join();
+      yield (e.spot!.reference ?? const []).map((i) => i.value).join();
+    }
+    if (e.jigsaw != null) yield e.jigsaw!.picture.describe();
+    if (e.activity != null) yield '${e.activity!.emoji}${e.activity!.title}';
   }
 
   /// Har bir daraja uchun kamida shuncha turli savol. Yozish mashqlarida elementlar
@@ -89,6 +102,9 @@ void main() {
     // Shaxmat: AI bilan o'yin — bitta boshlang'ich pozitsiya; figura nomlari — 6 ta figura.
     if (t.subject == 'chess' && t.generator == 'play') return 1;
     if (t.subject == 'chess' && t.generator == 'piece_name') return 6;
+    // Ota-ona bilan faoliyatlar va muloqot vaziyatlari — qo'lda yozilgan, soni cheklangan.
+    if (t.generator == 'activity') return 2;
+    if (t.subject == 'social' && t.generator == 'choice') return 3;
     if (t.generator != 'trace') return 15;
     final items = (t.paramsFor(level)['items'] as List).map((e) => '$e').toList();
     if (items.any((i) => i.startsWith('words:'))) return 10;
@@ -237,6 +253,17 @@ void main() {
     expect(content.curriculum('russian', '6')!.topics.length, 15);
     expect(content.curriculum('trilingual', '4')!.topics.length, greaterThanOrEqualTo(6));
     expect(content.curriculum('trilingual', '6')!.topics.length, greaterThanOrEqualTo(6));
+    // Har bir fan (bosh sahifadagi har bir karta) ikkala yosh uchun dasturga ega.
+    for (final subject in Subject.values) {
+      for (final age in ['4', '6']) {
+        expect(content.curriculum(subject.id, age), isNotNull, reason: '${subject.id}_$age');
+        expect(content.curriculum(subject.id, age)!.topics, isNotEmpty, reason: '${subject.id}_$age');
+      }
+    }
+    // Puzzle: 4 yosh — 4/6/9 bo'lak, 6 yosh — 9/12/16/25 bo'lak.
+    int pieces(Topic t) => (t.paramsFor(1)['rows'] as int) * (t.paramsFor(1)['cols'] as int);
+    expect(content.curriculum('puzzle', '4')!.topics.map(pieces).toList(), [4, 6, 9]);
+    expect(content.curriculum('puzzle', '6')!.topics.map(pieces).toList(), [9, 12, 16, 25]);
     // Shaxmat: 4 yosh — 12 qadam, 6 yosh — 20 qadam.
     expect(content.curriculum('chess', '4')!.topics.length, 12);
     expect(content.curriculum('chess', '6')!.topics.length, 20);
@@ -454,6 +481,33 @@ void main() {
             if (a.answer.toSet().length > 1 && a.tiles.length >= a.answer.length) {
               expect(a.tiles.take(a.answer.length).toList(), isNot(equals(a.answer)), reason: '$where: bo‘laklar aralashmagan');
             }
+          }
+          if (e.kind == ExerciseKind.cards) {
+            final faces = e.cards!.faces;
+            expect(faces.toSet().length * 2, faces.length, reason: '$where: har bir rasm aniq ikki marta');
+          }
+          if (e.kind == ExerciseKind.spot) {
+            final sp = e.spot!;
+            expect(sp.targets, isNotEmpty, reason: where);
+            for (final it in sp.items) {
+              expect(it.x, inInclusiveRange(0.0, 1.0), reason: where);
+              expect(it.y, inInclusiveRange(0.0, 1.0), reason: where);
+            }
+            final ref = sp.reference;
+            if (ref != null) {
+              // Farqni top: aynan bitta narsa boshqacha.
+              final diff = [for (var i = 0; i < ref.length; i++) if (ref[i].value != sp.items[i].value) i];
+              expect(diff, sp.targets.toList(), reason: where);
+            } else if (topic.generator == 'find' || topic.generator == 'find_all') {
+              final target = sp.items[sp.targets.first].value;
+              final same = [for (var i = 0; i < sp.items.length; i++) if (sp.items[i].value == target) i].toSet();
+              expect(same, sp.targets, reason: '$where: nishon bilan bir xil narsa nishonlar ro‘yxatida bo‘lishi kerak');
+            }
+          }
+          if (e.kind == ExerciseKind.activity) {
+            final a = e.activity!;
+            expect(a.steps.length, greaterThanOrEqualTo(3), reason: where);
+            expect(a.materials, isNotEmpty, reason: where);
           }
           if (e.kind == ExerciseKind.trace) {
             final t = e.trace!;

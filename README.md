@@ -15,7 +15,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 3 | O‘zbek tili (4 yosh: 18 mavzu, 6 yosh: U1–U14), ✏️ Yozishni o‘rganaman (chiziq, nuqta, harf, raqam, so‘z) | ✅ |
 | CONTENT 4–5 | English (4 yosh: 17 mavzu, 6 yosh: E1–E21), Русский (4 yosh: 17, 6 yosh: R1–R15), 🍎 3 tilda (300+ tushuncha) | ✅ |
 | CONTENT 6 | ♟ Shaxmat: 4 yosh 12 qadam (doska, figuralar 3 tilda, yurishlar), 6 yosh 20 qadam (koordinatalar, olish, shax, mat, AI bilan mini-o‘yinlar) | ✅ |
-| CONTENT 7 | Xotira, Diqqat, Puzzle, Labirint, Motorika | ⏳ |
+| CONTENT 7 | 🧠 Xotira (juft kartalar, ketma-ketlik, nima o‘zgardi…), 🎯 Diqqat (rasmdan topish, farqni top, labirint), 🧩 Puzzle (4–25 bo‘lak), ✋ Motorika, 🤝 Muloqot (hislar, sehrli so‘zlar, xavfsizlik), 🏠 Ota-ona bilan (41 ta Montessori faoliyati) | ✅ |
 | CONTENT 8 | ▶ Bugungi darsim, spaced repetition | ⏳ |
 | CONTENT 9–10 | To‘liq ota-ona paneli, QA, release | ⏳ |
 
@@ -27,6 +27,8 @@ assets/data/instructions.json   ko‘rsatmalar banki (uz/en/ru, {o‘rinbosar}, 
 assets/data/logic_data.json     analogiya, juftlar, yashash joylari, figuralar (original)
 assets/data/uzbek.json          alifbo (29 harf), 564 so‘z bo‘g‘inlari bilan (4 yosh: 438), gap/hikoya bo‘laklari
 assets/data/glyphs.json         yozish yo‘nalishlari: harflar, raqamlar, yozuvdan oldingi chiziqlar, nuqtali shakllar
+assets/data/montessori.json     "Ota-ona bilan bajaramiz": ekrandan tashqari faoliyatlar (materiallar, qadamlar, foydasi)
+assets/data/social.json         hislar, vaziyatlar, sehrli so‘zlar, yaxshi do‘st va xavfsizlik tanlovlari
 assets/data/languages.json      ingliz/rus alifbolari, harakatlar, sifatlar (ruscha jins shakllari), iboralar,
                                 ruscha so‘z jinsi, inglizcha ko‘plik, ruscha ochiq bo‘g‘inli so‘zlar
 assets/data/<fan>_<4|6>.json    o‘quv dasturi: mavzu → 3 daraja → generator parametrlari

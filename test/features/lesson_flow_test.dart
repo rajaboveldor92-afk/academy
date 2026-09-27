@@ -87,14 +87,26 @@ void main() {
     expect(find.text('L1'), findsOneWidget);
   });
 
-  testWidgets('Hali kontenti yo‘q fan uchun xabar', (tester) async {
+  testWidgets('Xotira fani: mavzular ochiladi', (tester) async {
     final c = await setup(tester, 'azamjon');
     await tester.pumpWidget(UncontrolledProviderScope(
       container: c,
-      child: const MaterialApp(home: SubjectScreen(subject: Subject.memory)),
+      child: const MaterialApp(home: SubjectScreen(subject: Subject.memory), onGenerateRoute: AppRouter.onGenerateRoute),
     ));
-    await pumpUntil(tester, find.text('Tez orada!'));
-    expect(find.text('Tez orada!'), findsOneWidget);
+    await pumpUntil(tester, find.byKey(const Key('continue_topic')));
+    expect(find.byKey(const Key('continue_topic')), findsOneWidget);
+    expect(find.text('X1'), findsOneWidget);
+  });
+
+  testWidgets('Ota-ona bilan: faoliyat kartasi va "Bajardik!" tugmasi', (tester) async {
+    final c = await setup(tester, 'muhammadjon');
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'family4.life', random: Random(1))),
+    ));
+    await pumpUntil(tester, find.byKey(const ValueKey('activity_done')));
+    expect(find.byKey(const ValueKey('activity_done')), findsOneWidget);
+    expect(find.text('Bajardik!'), findsOneWidget);
   });
 
   testWidgets('Dars ochiladi: ko‘rsatma, 🔊 tugma va variantlar', (tester) async {

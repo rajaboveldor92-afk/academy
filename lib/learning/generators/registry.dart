@@ -1,10 +1,14 @@
 import 'generator_base.dart';
+import 'attention_gen.dart';
 import 'chess_gen.dart';
 import 'foreign_language.dart';
 import 'logic_junior.dart';
 import 'logic_senior.dart';
 import 'math_junior.dart';
 import 'math_senior.dart';
+import 'memory_gen.dart';
+import 'puzzle_gen.dart';
+import 'social_gen.dart';
 import 'trilingual.dart';
 import 'uzbek_junior.dart';
 import 'uzbek_senior.dart';
@@ -32,6 +36,18 @@ class GeneratorRegistry {
     for (final e in Trilingual.generators.entries) 'trilingual6.${e.key}': e.value,
     for (final e in ChessGenerators.generators.entries) 'chess4.${e.key}': e.value,
     for (final e in ChessGenerators.generators.entries) 'chess6.${e.key}': e.value,
+    for (final e in MemoryGames.generators.entries) 'memory4.${e.key}': e.value,
+    for (final e in MemoryGames.generators.entries) 'memory6.${e.key}': e.value,
+    for (final e in AttentionGames.generators.entries) 'attention4.${e.key}': e.value,
+    for (final e in AttentionGames.generators.entries) 'attention6.${e.key}': e.value,
+    for (final e in AttentionGames.generators.entries) 'motor4.${e.key}': e.value,
+    for (final e in AttentionGames.generators.entries) 'motor6.${e.key}': e.value,
+    for (final e in PuzzleGames.generators.entries) 'puzzle4.${e.key}': e.value,
+    for (final e in PuzzleGames.generators.entries) 'puzzle6.${e.key}': e.value,
+    for (final e in SocialGames.generators.entries) 'social4.${e.key}': e.value,
+    for (final e in SocialGames.generators.entries) 'social6.${e.key}': e.value,
+    for (final e in SocialGames.generators.entries) 'family4.${e.key}': e.value,
+    for (final e in SocialGames.generators.entries) 'family6.${e.key}': e.value,
   };
 
   static ExerciseGenerator? find(String subject, String ageSuffix, String name) =>

@@ -1,0 +1,169 @@
+{
+ "subject": "puzzle",
+ "ageGroup": "6",
+ "ageMin": 6,
+ "ageMax": 8,
+ "lessonSize": 3,
+ "title": {
+  "uz": "Puzzle",
+  "en": "Puzzles",
+  "ru": "Пазлы"
+ },
+ "model": "KO‘R → REJALASHTIR → YIG‘ → TEKSHIR",
+ "topics": [
+  {
+   "id": "puzzle6.p9",
+   "code": "P1",
+   "emoji": "🧩",
+   "title": {
+    "uz": "9 bo‘lak",
+    "en": "9 pieces",
+    "ru": "9 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puzzle6.p12",
+   "code": "P2",
+   "emoji": "🧩",
+   "title": {
+    "uz": "12 bo‘lak",
+    "en": "12 pieces",
+    "ru": "12 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [
+    "puzzle6.p9"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 3,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puzzle6.p16",
+   "code": "P3",
+   "emoji": "🧩",
+   "title": {
+    "uz": "16 bo‘lak",
+    "en": "16 pieces",
+    "ru": "16 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [
+    "puzzle6.p12"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 4,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puzzle6.p25",
+   "code": "P4",
+   "emoji": "🧩",
+   "title": {
+    "uz": "25 bo‘lak",
+    "en": "25 pieces",
+    "ru": "25 частей"
+   },
+   "generator": "jigsaw",
+   "skill": "puzzle",
+   "prerequisites": [
+    "puzzle6.p16"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 5,
+     "cols": 5,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 5,
+     "cols": 5,
+     "styles": [
+      "scene"
+     ]
+    },
+    {
+     "rows": 5,
+     "cols": 5,
+     "styles": [
+      "scene"
+     ]
+    }
+   ]
+  }
+ ]
+}
