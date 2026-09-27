@@ -17,7 +17,8 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 6 | ♟ Shaxmat: 4 yosh 12 qadam (doska, figuralar 3 tilda, yurishlar), 6 yosh 20 qadam (koordinatalar, olish, shax, mat, AI bilan mini-o‘yinlar) | ✅ |
 | CONTENT 7 | 🧠 Xotira (juft kartalar, ketma-ketlik, nima o‘zgardi…), 🎯 Diqqat (rasmdan topish, farqni top, labirint), 🧩 Puzzle (4–25 bo‘lak), ✋ Motorika, 🤝 Muloqot (hislar, sehrli so‘zlar, xavfsizlik), 🏠 Ota-ona bilan (41 ta Montessori faoliyati) | ✅ |
 | CONTENT 8 | ▶ Bugungi darsim (fanlar aralash kunlik dars), takrorlash (shu dars → ertaga → 3 kun → 7 kun), 🌳 bog‘, 🎁 sovg‘a qutisi va kolleksiya, 🏅 24 medal, 🏆 fan kuboklari | ✅ |
-| CONTENT 9–10 | To‘liq ota-ona paneli, QA, release | ⏳ |
+| CONTENT 9 | 📊 Ota-ona uchun batafsil hisobot: vaqt va faol kunlar, aniqlik, har fan bo‘yicha egallash %, har mavzu holati (daraja, foiz, oxirgi mashq), takrorlash navbati, kuchli tomonlar va e’tibor kerak bo‘lgan mavzular, tavsiyalar | ✅ |
+| CONTENT 10 | Yakuniy QA va release | ⏳ |
 
 ## O‘quv dvigateli
 
@@ -166,7 +167,7 @@ Ovoz: so'zlar telefonning **offline TTS** ovozi bilan aytiladi. Sifatli ovoz uch
 ## Yangi bola profili
 
 - Ilovada: "Kim o'ynaydi?" → **➕ Yangi profil** → ism, yosh, avatar, rang.
-- Ota-ona bo'limida: 🔒 → PIN → **Bola qo'shish**. Bola kartasini bosib limit, qiyinlik, fanlar va profilni o'chirishni boshqarasiz.
+- Ota-ona bo'limida: 🔒 → PIN → **Bola qo'shish**. Bola kartasidagi **Batafsil hisobot** — fanlar va mavzular bo‘yicha foizlar, takrorlash navbati, tavsiyalar; **Sozlamalar** — limit, qiyinlik, fanlar va profilni o'chirish.
 - Kontent **yoshga** bog'liq: 3–5 yosh → `*_4.json`, 6–8 yosh → `*_6.json`. Yosh o'zgartirilsa, kontent avtomatik almashadi.
 
 ## JSON strukturasi (yangi savol qo'shish)

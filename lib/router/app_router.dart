@@ -6,6 +6,7 @@ import '../features/home/subject_screen.dart';
 import '../features/home/time_up_screen.dart';
 import '../features/lesson/lesson_screen.dart';
 import '../features/parent/change_pin_screen.dart';
+import '../features/parent/child_report_screen.dart';
 import '../features/parent/child_settings_screen.dart';
 import '../features/parent/parent_gate_screen.dart';
 import '../features/parent/parent_home_screen.dart';
@@ -31,6 +32,7 @@ class AppRoutes {
   static const String parentGate = '/parent-gate';
   static const String parentHome = '/parent';
   static const String childSettings = '/parent/child';
+  static const String childReport = '/parent/report';
   static const String changePin = '/parent/pin';
 }
 
@@ -65,6 +67,8 @@ class AppRouter {
         page = const ParentHomeScreen();
       case AppRoutes.childSettings:
         page = ChildSettingsScreen(childId: args is String ? args : '');
+      case AppRoutes.childReport:
+        page = ChildReportScreen(childId: args is String ? args : '');
       case AppRoutes.changePin:
         page = const ChangePinScreen();
       default:

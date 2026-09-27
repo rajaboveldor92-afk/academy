@@ -12,6 +12,7 @@ import '../../widgets/profile_photo.dart';
 import '../session/progress_controller.dart';
 import '../profiles/profiles_controller.dart';
 import 'settings_controller.dart';
+import 'week_bars.dart';
 
 /// Ota-ona bo'limi: bolalar statistikasi va umumiy sozlamalar.
 class ParentHomeScreen extends ConsumerWidget {
@@ -39,6 +40,8 @@ class ParentHomeScreen extends ConsumerWidget {
                 now: now,
                 onTap: () => Navigator.of(context)
                     .pushNamed(AppRoutes.childSettings, arguments: p.id),
+                onReport: () => Navigator.of(context)
+                    .pushNamed(AppRoutes.childReport, arguments: p.id),
               ),
             const SizedBox(height: 8),
             OutlinedButton.icon(
@@ -94,12 +97,14 @@ class _ChildSummaryCard extends StatelessWidget {
     required this.progress,
     required this.now,
     required this.onTap,
+    required this.onReport,
   });
 
   final ChildProfile profile;
   final ChildProgress progress;
   final DateTime now;
   final VoidCallback onTap;
+  final VoidCallback onReport;
 
   @override
   Widget build(BuildContext context) {
@@ -159,54 +164,31 @@ class _ChildSummaryCard extends StatelessWidget {
               const SizedBox(height: 12),
               Text('Haftalik (daqiqa)', style: textTheme.bodyMedium),
               const SizedBox(height: 6),
-              _WeekBars(values: progress.weeklyMinutes(now), days: DateKeys.lastDays(now), color: color),
+              WeekBars(values: progress.weeklyMinutes(now), days: DateKeys.lastDays(now), color: color),
+              const SizedBox(height: 12),
+              Row(
+                children: [
+                  Expanded(
+                    child: FilledButton.icon(
+                      key: Key('report_button_${profile.id}'),
+                      onPressed: onReport,
+                      icon: const Icon(Icons.insights_rounded),
+                      label: const Text('Batafsil hisobot'),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: onTap,
+                      icon: const Icon(Icons.tune_rounded),
+                      label: const Text('Sozlamalar'),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-/// Oddiy 7 kunlik ustunli diagramma (qo'shimcha kutubxonasiz).
-class _WeekBars extends StatelessWidget {
-  const _WeekBars({required this.values, required this.days, required this.color});
-
-  final List<int> values;
-  final List<String> days;
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    final maxValue = values.fold<int>(0, (m, v) => v > m ? v : m);
-    return SizedBox(
-      height: 90,
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          for (var i = 0; i < values.length; i++)
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 3),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    Text('${values[i]}', style: const TextStyle(fontSize: 12)),
-                    const SizedBox(height: 2),
-                    Container(
-                      height: maxValue == 0 ? 3 : 3 + 48 * values[i] / maxValue,
-                      decoration: BoxDecoration(
-                        color: i == values.length - 1 ? color : color.withAlpha(110),
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                    ),
-                    const SizedBox(height: 2),
-                    Text(days[i].substring(8), style: const TextStyle(fontSize: 11)),
-                  ],
-                ),
-              ),
-            ),
-        ],
       ),
     );
   }

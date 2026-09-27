@@ -239,6 +239,13 @@ void main() {
     await tester.pump();
     // 6 ta mashq + 1 ta qayta so'rash; birinchisi bajarildi.
     expect(progressValue(), closeTo(1 / 7, 0.0001));
+    // Javob bazaga yozilib bo'lishini kutamiz (test oxirida baza yopiladi).
+    for (var i = 0; i < 10; i++) {
+      await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 20)));
+      await tester.pump(const Duration(milliseconds: 20));
+    }
+    expect(c.read(childProgressProvider('muhammadjon')).wrongAnswers, 1, reason: 'birinchi urinishda xato');
+    expect(c.read(childProgressProvider('muhammadjon')).scoreOf('math').total, 1);
   });
 
   testWidgets('Yutuqlarim: bog‘, sovg‘a qutisi, medallar va kuboklar', (tester) async {
@@ -253,8 +260,6 @@ void main() {
     ));
     await pumpUntil(tester, find.byKey(const Key('garden')));
     expect(find.descendant(of: find.byKey(const Key('garden')), matching: find.text('🌱')), findsOneWidget);
-    expect(find.byKey(const ValueKey('medal_first_lesson')), findsOneWidget);
-    expect(find.text('Birinchi dars'), findsOneWidget);
 
     // Sovg'a qutisi: har doim bir xil tartibda (tasodifiy "loot box" yo'q).
     await tester.tap(find.byKey(const Key('open_gift')));
@@ -265,6 +270,8 @@ void main() {
     expect(find.byKey(const Key('open_gift')), findsNothing);
     expect(c.read(childProgressProvider('muhammadjon')).giftsOpened, 1);
 
+    await tester.scrollUntilVisible(find.byKey(const ValueKey('medal_first_lesson')), 300, scrollable: find.byType(Scrollable).first);
+    expect(find.text('Birinchi dars'), findsOneWidget);
     await tester.scrollUntilVisible(find.byKey(const ValueKey('cup_math')), 300, scrollable: find.byType(Scrollable).first);
     expect(find.byKey(const ValueKey('cup_math')), findsOneWidget);
   });
