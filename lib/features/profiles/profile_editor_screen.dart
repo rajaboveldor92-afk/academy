@@ -98,7 +98,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Rasmni ochib bo'lmadi: $e")),
+        SnackBar(content: Text("Rasmni ochib bo‘lmadi: $e")),
       );
     }
   }
@@ -130,7 +130,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
             if (_photoPath != null)
               ListTile(
                 leading: const Icon(Icons.hide_image_outlined),
-                title: const Text("Rasmni olib tashlash (avatar ko'rsatiladi)"),
+                title: const Text("Rasmni olib tashlash (avatar ko‘rsatiladi)"),
                 onTap: () {
                   Navigator.of(ctx).pop();
                   setState(() => _photoPath = null);
@@ -221,7 +221,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
                   TextButton.icon(
                     onPressed: _showPhotoOptions,
                     icon: const Icon(Icons.add_a_photo_rounded),
-                    label: Text(_photoPath == null ? "Rasm qo'shish" : 'Rasmni almashtirish'),
+                    label: Text(_photoPath == null ? "Rasm qo‘shish" : 'Rasmni almashtirish'),
                   ),
                   Text(
                     preview.displayFullName,
@@ -238,7 +238,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
             const SizedBox(height: 20),
-            Text("To'liq ism (kartada)", style: textTheme.titleMedium),
+            Text("To‘liq ism (kartada)", style: textTheme.titleMedium),
             const SizedBox(height: 8),
             TextField(
               key: const Key('full_name_field'),
@@ -294,7 +294,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               ],
             ),
             const SizedBox(height: 20),
-            Text("Avatar (rasm bo'lmasa ko'rinadi)", style: textTheme.titleMedium),
+            Text("Avatar (rasm bo‘lmasa ko‘rinadi)", style: textTheme.titleMedium),
             const SizedBox(height: 8),
             Wrap(
               spacing: 8,
@@ -331,7 +331,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
               decoration: InputDecoration(hintText: preview.welcomeSubtitle),
             ),
             Text(
-              'Bola ko\'radi: "${preview.welcomeTitle}  ${preview.welcomeSubtitle}"',
+              'Bola ko‘radi: "${preview.welcomeTitle}  ${preview.welcomeSubtitle}"',
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
             const SizedBox(height: 28),

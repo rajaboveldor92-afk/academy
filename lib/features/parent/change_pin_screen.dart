@@ -25,7 +25,7 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
     switch (_step) {
       case 0:
         if (pin != ref.read(settingsProvider).parentPin) {
-          setState(() => _error = "PIN noto'g'ri");
+          setState(() => _error = "PIN noto‘g‘ri");
           return;
         }
         setState(() {
@@ -48,14 +48,14 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
         if (!mounted) return;
         if (result == PinChangeResult.success) {
           ScaffoldMessenger.of(context)
-              .showSnackBar(const SnackBar(content: Text("PIN o'zgartirildi")));
+              .showSnackBar(const SnackBar(content: Text("PIN o‘zgartirildi")));
           Navigator.of(context).pop();
         } else {
           setState(() {
             _step = 1;
             _error = result == PinChangeResult.mismatch
                 ? 'PINlar mos kelmadi, qaytadan kiriting'
-                : "PIN 4 ta raqam bo'lishi kerak";
+                : "PIN 4 ta raqam bo‘lishi kerak";
           });
         }
     }
@@ -64,7 +64,7 @@ class _ChangePinScreenState extends ConsumerState<ChangePinScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("PINni o'zgartirish")),
+      appBar: AppBar(title: const Text("PINni o‘zgartirish")),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(

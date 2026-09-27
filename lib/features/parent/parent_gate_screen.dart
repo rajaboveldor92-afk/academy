@@ -57,7 +57,7 @@ class _ParentGateScreenState extends ConsumerState<ParentGateScreen> {
       setState(() => _error = 'Kuting: ${service.lockRemaining.inSeconds + 1} s');
       _startLockCountdown();
     } else {
-      setState(() => _error = "PIN noto'g'ri");
+      setState(() => _error = "PIN noto‘g‘ri");
     }
   }
 

@@ -32,10 +32,10 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       throw const ProfileValidationException('Ism juda uzun');
     }
     if (fullName.trim().length > AppConstants.maxFullNameLength) {
-      throw const ProfileValidationException("To'liq ism juda uzun");
+      throw const ProfileValidationException("To‘liq ism juda uzun");
     }
     if (age < AppConstants.minAge || age > AppConstants.maxAge) {
-      throw const ProfileValidationException('Yosh 3 dan 8 gacha bo\'lishi kerak');
+      throw const ProfileValidationException('Yosh 3 dan 8 gacha bo‘lishi kerak');
     }
   }
 

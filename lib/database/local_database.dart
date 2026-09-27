@@ -20,15 +20,19 @@ import '../models/child_progress.dart';
 class LocalDatabase {
   LocalDatabase._(this._profiles, this._progress, this._settings);
 
+  /// Xotiradagi baza (fayl yozmaydi) — widget testlar va ilovani diskka tegmasdan tekshirish uchun.
+  /// Qiymatlar JSON orqali nusxalanadi, shuning uchun saqlash/o'qish Hive bilan bir xil ishlaydi.
+  factory LocalDatabase.memory() => LocalDatabase._(_MemoryStore(), _MemoryStore(), _MemoryStore());
+
   static const String profilesBox = 'profiles';
   static const String progressBox = 'progress';
   static const String settingsBox = 'settings';
   static const String _settingsKey = 'app';
   static const int backupVersion = 1;
 
-  final Box<dynamic> _profiles;
-  final Box<dynamic> _progress;
-  final Box<dynamic> _settings;
+  final _Store _profiles;
+  final _Store _progress;
+  final _Store _settings;
 
   /// Box'larni ochadi. `Hive.init(...)` yoki `Hive.initFlutter()` avval
   /// chaqirilgan bo'lishi kerak.
@@ -36,7 +40,7 @@ class LocalDatabase {
     final profiles = await Hive.openBox<dynamic>(profilesBox);
     final progress = await Hive.openBox<dynamic>(progressBox);
     final settings = await Hive.openBox<dynamic>(settingsBox);
-    return LocalDatabase._(profiles, progress, settings);
+    return LocalDatabase._(_HiveStore(profiles), _HiveStore(progress), _HiveStore(settings));
   }
 
   // ---------------------------------------------------------------- Profiles
@@ -143,4 +147,72 @@ class LocalDatabase {
     await _progress.close();
     await _settings.close();
   }
+}
+
+/// Kalit-qiymat ombori: Hive box yoki xotira.
+abstract class _Store {
+  dynamic get(String key);
+  Future<void> put(String key, dynamic value);
+  Future<void> delete(String key);
+  Iterable<dynamic> get keys;
+  Iterable<dynamic> get values;
+  Future<void> clear();
+  Future<void> close();
+}
+
+class _HiveStore implements _Store {
+  _HiveStore(this._box);
+
+  final Box<dynamic> _box;
+
+  @override
+  dynamic get(String key) => _box.get(key);
+
+  @override
+  Future<void> put(String key, dynamic value) => _box.put(key, value);
+
+  @override
+  Future<void> delete(String key) => _box.delete(key);
+
+  @override
+  Iterable<dynamic> get keys => _box.keys;
+
+  @override
+  Iterable<dynamic> get values => _box.values;
+
+  @override
+  Future<void> clear() async {
+    await _box.clear();
+  }
+
+  @override
+  Future<void> close() => _box.close();
+}
+
+class _MemoryStore implements _Store {
+  final Map<String, String> _data = {};
+
+  @override
+  dynamic get(String key) {
+    final raw = _data[key];
+    return raw == null ? null : jsonDecode(raw);
+  }
+
+  @override
+  Future<void> put(String key, dynamic value) async => _data[key] = jsonEncode(value);
+
+  @override
+  Future<void> delete(String key) async => _data.remove(key);
+
+  @override
+  Iterable<dynamic> get keys => _data.keys.toList();
+
+  @override
+  Iterable<dynamic> get values => [for (final k in _data.keys) get(k)];
+
+  @override
+  Future<void> clear() async => _data.clear();
+
+  @override
+  Future<void> close() async {}
 }

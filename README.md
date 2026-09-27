@@ -90,6 +90,7 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
 | `hive_ce`, `hive_ce_flutter` | Lokal ma'lumotlar bazasi |
 | `audioplayers` | `assets/audio` dagi ovoz fayllari |
 | `flutter_tts` | Ovoz fayli bo'lmagan so'zlar uchun qurilmaning offline ovozi |
+| `image_picker`, `path_provider` | Bola rasmi (faqat ilova papkasida saqlanadi, hech qayerga yuborilmaydi) |
 | `flutter_launcher_icons` (dev) | Ilova ikonkasi |
 | `flutter_lints` (dev) | Kod sifati |
 
@@ -107,18 +108,21 @@ Sof Dart, adapter/code-gen talab qilmaydi (yozuvlar JSON-mos `Map` sifatida saql
 ```
 lib/
   main.dart, app.dart
-  core/        constants, utils (age_group, date_keys), providers
-  models/      child_profile, child_progress, app_settings, subject, question
-  database/    local_database (Hive), seed_data
-  services/    audio_service, time_limit_service, parent_pin_service
-  features/    splash, profiles, home, parent, session (+ keyingi fanlar)
+  core/        constants, utils (age_group, date_keys, map_utils), providers
+  models/      child_profile, child_progress, app_settings, subject, speech_part
+  database/    local_database (Hive CE), seed_data
+  services/    audio_service, time_limit_service, parent_pin_service, profile_photo_service
+  features/    splash, profiles, home, lesson, session, parent
+  learning/    content, models, generators, engine, chess, ui  (o‘quv dvigateli)
   widgets/     qayta ishlatiladigan UI
   theme/, router/
 assets/        data/ (JSON), audio/{uz,en,ru,rewards}/, images/, icon/
-test/          unit, controller va widget testlar
-tool/          setup_android.sh / .ps1, patch_android.dart
+test/          unit, kontent, controller va widget testlar
+tool/          setup_android.sh / .ps1, patch_android.dart, content/*.py (kontent manbalari)
 .github/workflows/build-apk.yml
 ```
+
+Batafsil: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ## Birinchi sozlash (bir marta)
 
@@ -145,15 +149,29 @@ flutter build apk --release # release APK
 
 Natija: `build/app/outputs/flutter-apk/app-release.apk`
 
-Release APK hozircha Flutter'ning standart debug kaliti bilan imzolanadi — telefonga o'rnatish uchun yetarli. Google Play'ga chiqarish kerak bo'lsa, o'z kalitingizni yarating (`keytool`) va `android/key.properties` orqali ulang.
+### Imzo (yangilanishda progress saqlanishi uchun)
+
+Android yangi versiyani eskisining ustiga faqat **bir xil imzo** bo‘lsa o‘rnatadi; imzo o‘zgarsa ilovani
+o‘chirib qayta o‘rnatish kerak bo‘ladi va bolalar natijalari yo‘qoladi. Shuning uchun:
+
+* GitHub Actions har buildni bir xil kalit bilan imzolaydi: `tool/signing/family-release.jks`
+  (oilaviy, qo‘lda o‘rnatiladigan build uchun; parol workflow faylida).
+* Shaxsiy kalitga o‘tish (masalan, Google Play uchun — tavsiya etiladi): kalit yarating va repozitoriy
+  **Settings → Secrets and variables → Actions** ga qo‘shing: `ANDROID_KEYSTORE_BASE64` (`base64 -w0 kalit.jks`),
+  `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`. Shundan so‘ng workflow o‘sha kalitni
+  ishlatadi (kalit almashgan birinchi yangilanishda ilovani bir marta qayta o‘rnatish kerak bo‘ladi).
+* Kompyuterda: `android/key.properties` (`storeFile`, `storePassword`, `keyAlias`, `keyPassword`) bo‘lsa release shu
+  kalit bilan imzolanadi, bo‘lmasa Flutter’ning debug kaliti ishlatiladi.
 
 ## Kompyutersiz: GitHub Actions orqali APK olish
 
 1. github.com da yangi (private bo'lishi mumkin) repozitoriy yarating va shu papkani yuklang.
 2. **Actions** bo'limida "Build APK" workflow avtomatik ishga tushadi (yoki "Run workflow").
-3. Tugagach, ishga tushirish sahifasining pastidagi **Artifacts** → `app-release-apk` ni yuklab oling (zip ichida `app-release.apk`).
+3. Tugagach, APK **Releases → latest-build** sahifasida paydo bo‘ladi (telefondan to‘g‘ridan-to‘g‘ri yuklab olish mumkin):
+   `academy-arm64-v8a.apk` (zamonaviy telefonlar, eng kichik hajm), `academy-armeabi-v7a.apk` (eski 32-bit telefonlar),
+   `academy-app-release.apk` (universal). Shuningdek **Artifacts** → `app-release-apk`.
 
-Workflow har safar `analyze`, testlar va release build'ni bajaradi — xato bo'lsa qizil bo'lib ko'rinadi.
+Workflow har safar `analyze`, testlar va release build'ni bajaradi — xato bo'lsa qizil bo'lib ko'rinadi va loglar bilan Issue ochiladi.
 
 ## APKni telefonga o'rnatish
 
@@ -170,54 +188,74 @@ Ovoz: so'zlar telefonning **offline TTS** ovozi bilan aytiladi. Sifatli ovoz uch
 - Ota-ona bo'limida: 🔒 → PIN → **Bola qo'shish**. Bola kartasidagi **Batafsil hisobot** — fanlar va mavzular bo‘yicha foizlar, takrorlash navbati, tavsiyalar; **Sozlamalar** — limit, qiyinlik, fanlar va profilni o'chirish.
 - Kontent **yoshga** bog'liq: 3–5 yosh → `*_4.json`, 6–8 yosh → `*_6.json`. Yosh o'zgartirilsa, kontent avtomatik almashadi.
 
-## JSON strukturasi (yangi savol qo'shish)
+## JSON strukturasi (mavzu va savollar qo‘shish)
 
-Kontent: `assets/data/<fan>_<4|6>.json` — `Question` obyektlari massivi.
+Savollar qo‘lda bittalab yozilmaydi: har bir fan va yosh uchun **o‘quv dasturi**
+(`assets/data/<fan>_<4|6>.json`) mavzularni va ularning 3 darajasini tasvirlaydi, savollarni esa
+parametrik generatorlar yaratadi (`lib/learning/generators/`).
 
 ```json
-[
-  {
-    "id": "math4_count_001",
-    "subject": "math",
-    "topic": "counting",
-    "ageMin": 3,
-    "ageMax": 5,
-    "difficulty": 1,
-    "questionType": "choice",
-    "question": "Nechta olma bor?",
-    "image": "🍎🍎🍎",
-    "options": ["2", "3", "4"],
-    "correctAnswer": "3",
-    "audio": "uz/q_nechta_olma",
-    "explanation": "Sanaymiz: bir, ikki, uch.",
-    "rewardStars": 1
-  }
-]
+{
+  "subject": "math", "ageGroup": "4", "ageMin": 3, "ageMax": 5, "lessonSize": 6,
+  "title": {"uz": "Matematika", "en": "Maths", "ru": "Математика"},
+  "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+  "topics": [
+    {
+      "id": "math4.count_1_5", "code": "M3", "emoji": "✋",
+      "title": {"uz": "1 dan 5 gacha", "en": "Numbers 1–5", "ru": "Числа 1–5"},
+      "generator": "count_objects", "skill": "counting",
+      "prerequisites": ["math4.count_1_3"],
+      "levels": [
+        {"min": 1, "max": 4, "modes": ["count"]},
+        {"min": 1, "max": 5, "modes": ["count", "group"]},
+        {"min": 1, "max": 5, "modes": ["drag", "group", "numeral"], "options": 4}
+      ]
+    }
+  ]
+}
 ```
 
 | Maydon | Izoh |
 |---|---|
-| `id` | Takrorlanmas identifikator |
-| `subject` | `math`, `logic`, `chess`, `uzbek`, `english`, `russian`, `memory`, `attention` |
-| `difficulty` | 1 (oson) … 5 |
-| `questionType` | `choice`, `imageChoice`, `listenChoice`, `trueFalse` |
-| `image` | Emoji matni yoki `assets/images/...` yo'li |
-| `correctAnswer` | `options` ichida bo'lishi **shart** (aks holda savol o'tkazib yuboriladi) |
-| `audio` | `assets/audio/` ichidagi kalit, kengaytmasiz (ixtiyoriy) |
+| `subject`, `ageGroup` | Fan (`math`, `logic`, `uzbek`, `writing`, `english`, `russian`, `trilingual`, `chess`, `memory`, `attention`, `puzzle`, `motor`, `social`, `family`) va guruh (`4` — 3–5 yosh, `6` — 6–8 yosh) |
+| `lessonSize` | Bir darsdagi mashqlar soni (mavzuda `lessonSize` bilan alohida belgilanishi mumkin) |
+| `id`, `code` | Global noyob id (`<fan><guruh>.<nom>`) va dasturdagi tartib (M3, L7) |
+| `generator` | `GeneratorRegistry` dagi generator nomi |
+| `prerequisites` | Oldin boshlangan bo‘lishi kerak bo‘lgan mavzular (kunlik dars shu tartibda ochadi) |
+| `levels` | 3 daraja parametrlari (son chegarasi, variantlar soni, so‘zlar mavzusi va h.k.) |
 
-Yangi savol qo'shish: tegishli faylga obyekt qo'shing → `flutter build apk --release`.
+So‘zlar va rasmlar uch tilli lug‘atdan (`lexicon.json`: id → uz/en/ru, emoji, kategoriya), ko‘rsatmalar
+esa ko‘rsatmalar bankidan (`instructions.json`) olinadi.
 
-## Yangi audio qo'shish
+Yangi mavzu qo‘shish:
+1. `tool/content/curriculum_src.py` da tegishli dasturga `T(...)` qatorini qo‘shing (mavjud generator va parametrlar bilan).
+2. `python3 tool/content/curriculum_src.py` — JSON fayllar qayta yaratiladi.
+3. `flutter test test/content` — har bir daraja uchun 120 ta mashq yaratilib tekshiriladi
+   (to‘g‘ri javob yagona, matematik to‘g‘rilik, yoshga moslik, takrorlanmaslik, to‘liq dars tuziladi).
+4. `flutter build apk --release`.
 
-Fayl: `assets/audio/<uz|en|ru>/<kalit>.mp3` (yoki `.ogg`, `.m4a`, `.wav`).
-Kalit — so'zning kichik harfli ko'rinishi, bo'shliq o'rniga `_`: "Olma" → `assets/audio/uz/olma.mp3`, "Яблоко" → `assets/audio/ru/яблоко.mp3`.
-Effektlar: `assets/audio/rewards/{tap,correct,tryAgain,star,medal}.mp3`.
+## Audio
 
-Fayl mavjud bo'lsa u ijro etiladi, bo'lmasa TTS ishlaydi — kod o'zgartirish shart emas. Tavsiya: mono, 64 kbps, 1–2 soniya (APK hajmi uchun).
+- **Ovoz effektlari** (`assets/audio/rewards/{tap,correct,tryAgain,star,medal}.ogg`) va **fon musiqasi**
+  (`assets/audio/music/theme.ogg`, 22 soniyalik uzluksiz kuy) — originali, `python3 tool/audio/make_sounds.py`
+  bilan sintez qilingan (tashqi namuna yo‘q). Fon musiqasi sukut bo‘yicha o‘chiq; ota-ona panelida yoqiladi,
+  past ovozda chaladi va ilova fonga o‘tganda pauza qilinadi. Effekt va musiqa audio fokusni olmaydi — nutqni to‘xtatmaydi.
+- **So‘zlar va ko‘rsatmalar**: fayl `assets/audio/<uz|en|ru>/<kalit>.mp3` (yoki `.ogg`, `.m4a`, `.wav`) bo‘lsa — u ijro
+  etiladi, bo‘lmasa qurilmaning offline TTS ovozi. Kalit — so‘zning kichik harfli ko‘rinishi, bo‘shliq o‘rniga `_`:
+  "Olma" → `assets/audio/uz/olma.mp3`, "Яблоко" → `assets/audio/ru/яблоко.mp3`. Kod o‘zgartirish shart emas.
+  Tavsiya: mono, 64 kbps, 1–2 soniya (APK hajmi uchun).
 
 ## Testlar
 
-`flutter test` quyidagilarni tekshiradi: profil yaratish/tanlash/o'chirish, yosh → kontent guruhi, progress saqlash va qayta yuklash, yulduz berish, streak, kunlik vaqt limiti (soxta soat bilan), pauza, ota-ona PIN (blok, almashtirish), backup eksport/import, widget: profil ekrani va PIN himoyasi.
+`flutter test` quyidagilarni tekshiradi:
+- **Kontent** (`test/content`): barcha fan × yosh × mavzu × daraja uchun mashqlar generatsiyasi,
+  to‘g‘rilik, yagona javob, yoshga moslik, emoji, uch til tarjimalari, dars to‘liq tuzilishi, hajm.
+- **Dvigatel** (`test/learning`): adaptiv qoida, mastery, takrorlash navbati, kunlik reja, yutuqlar,
+  shaxmat qoidalari, yozishni baholash, barcha mashq ko‘rinishlari (bosish, sudrash, chizish).
+- **Controller va model**: profil yaratish/tanlash/o‘chirish, progress saqlash va qayta yuklash
+  (eski formatdagi yozuvlar ham), streak, kunlik vaqt limiti (soxta soat bilan), ota-ona PIN, backup.
+- **Widget**: profil ekrani, PIN himoyasi, fan → mavzu → dars oqimi, kunlik dars, qayta so‘rash,
+  yutuqlar ekrani, ota-ona hisoboti.
 
 ## Xavfsizlik
 

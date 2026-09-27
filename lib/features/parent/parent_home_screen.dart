@@ -47,7 +47,7 @@ class ParentHomeScreen extends ConsumerWidget {
             OutlinedButton.icon(
               onPressed: () => Navigator.of(context).pushNamed(AppRoutes.profileEditor),
               icon: const Icon(Icons.person_add_alt_1_rounded),
-              label: const Text("Bola qo'shish"),
+              label: const Text("Bola qo‘shish"),
             ),
             const SizedBox(height: 24),
             Text('Sozlamalar', style: textTheme.titleLarge),
@@ -61,7 +61,7 @@ class ParentHomeScreen extends ConsumerWidget {
                     onChanged: (v) => ref.read(settingsProvider.notifier).setSound(v),
                   ),
                   SwitchListTile(
-                    title: const Text("So'zlarni ovozda aytish"),
+                    title: const Text("So‘zlarni ovozda aytish"),
                     value: settings.voiceEnabled,
                     onChanged: (v) => ref.read(settingsProvider.notifier).setVoice(v),
                   ),
@@ -72,7 +72,7 @@ class ParentHomeScreen extends ConsumerWidget {
                   ),
                   ListTile(
                     leading: const Icon(Icons.password_rounded),
-                    title: const Text("PIN kodni o'zgartirish"),
+                    title: const Text("PIN kodni o‘zgartirish"),
                     trailing: const Icon(Icons.chevron_right_rounded),
                     onTap: () => Navigator.of(context).pushNamed(AppRoutes.changePin),
                   ),
@@ -81,7 +81,7 @@ class ParentHomeScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              "Barcha ma'lumotlar faqat shu qurilmada saqlanadi. Reklama, chat va internet yo'q.",
+              "Barcha ma’lumotlar faqat shu qurilmada saqlanadi. Reklama, chat va internet yo‘q.",
               style: textTheme.bodyMedium?.copyWith(color: AppColors.textSoft),
             ),
           ],

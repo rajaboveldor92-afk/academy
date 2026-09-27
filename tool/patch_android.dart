@@ -6,7 +6,9 @@
 // Qiladigan ishlari (qayta ishga tushirish xavfsiz — idempotent):
 //  * ilova nomi (android:label) -> "A&M Academy";
 //  * offline TTS uchun Android 11+ talab qiladigan <queries> yozuvi;
-//  * asosiy manifestda INTERNET va boshqa xavfli ruxsatlar yo'qligini ta'minlash.
+//  * asosiy manifestda INTERNET va boshqa xavfli ruxsatlar yo'qligini ta'minlash;
+//  * release imzosi: `android/key.properties` bo'lsa — o'sha kalit (har build bir xil imzo,
+//    shuning uchun yangi versiya eski ustiga o'rnatiladi va bolalar progressi saqlanadi).
 // ignore_for_file: avoid_print
 import 'dart:io';
 
@@ -68,8 +70,53 @@ void main() {
     final match = RegExp(r'minSdk\s*=?\s*(\d+)').firstMatch(text);
     if (match != null && int.parse(match.group(1)!) < 21) {
       text = text.replaceFirst(match.group(0)!, 'minSdk = 21');
-      gradle.writeAsStringSync(text);
       print('$path: minSdk = 21');
     }
+    // 5. Release imzosi.
+    if (path.endsWith('.kts')) {
+      text = _patchSigningKts(text);
+    } else if (!text.contains('key.properties')) {
+      print('$path: Groovy build fayli — release imzosi uchun key.properties qo‘lda ulanadi (README).');
+    }
+    gradle.writeAsStringSync(text);
   }
+}
+
+const String _signingKts = '''
+    // A&M Academy: android/key.properties bo'lsa — barqaror release imzosi.
+    val academyKeyProps = java.util.Properties().apply {
+        val f = rootProject.file("key.properties")
+        if (f.exists()) f.inputStream().use { load(it) }
+    }
+    signingConfigs {
+        if (academyKeyProps.getProperty("storeFile") != null) {
+            create("academy") {
+                storeFile = file(academyKeyProps.getProperty("storeFile"))
+                storePassword = academyKeyProps.getProperty("storePassword")
+                keyAlias = academyKeyProps.getProperty("keyAlias")
+                keyPassword = academyKeyProps.getProperty("keyPassword")
+            }
+        }
+    }
+''';
+
+String _patchSigningKts(String text) {
+  if (text.contains('academyKeyProps')) return text;
+  final android = RegExp(r'^android\s*\{\s*$', multiLine: true).firstMatch(text);
+  if (android == null) {
+    print('build.gradle.kts: "android {" bloki topilmadi — imzo sozlanmadi.');
+    return text;
+  }
+  text = text.replaceRange(android.end, android.end, '\n$_signingKts');
+  const debugLine = 'signingConfig = signingConfigs.getByName("debug")';
+  if (text.contains(debugLine)) {
+    text = text.replaceFirst(
+      debugLine,
+      'signingConfig = signingConfigs.findByName("academy") ?: signingConfigs.getByName("debug")',
+    );
+    print('build.gradle.kts: release imzosi key.properties orqali.');
+  } else {
+    print('build.gradle.kts: release signingConfig qatori topilmadi — imzo sozlanmadi.');
+  }
+  return text;
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/providers.dart';
 import 'session_controller.dart';
 
 /// Ilova fonga o'tganda vaqt hisobini to'xtatadi, qaytganda davom ettiradi.
@@ -30,11 +31,14 @@ class _SessionLifecycleState extends ConsumerState<SessionLifecycle>
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     final session = ref.read(sessionProvider.notifier);
-    if (state == AppLifecycleState.resumed) {
+    final foreground = state == AppLifecycleState.resumed;
+    if (foreground) {
       session.resume();
     } else {
       session.pause();
     }
+    // Fonda nutq to'xtaydi, musiqa pauza qilinadi.
+    ref.read(audioServiceProvider).setForeground(foreground);
   }
 
   @override

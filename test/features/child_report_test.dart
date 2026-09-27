@@ -90,7 +90,7 @@ void main() {
   testWidgets('Hisobot ekrani: tavsiyalar, takrorlash va fanlar (mavzular ochiladi)', (tester) async {
     TestDb? t;
     await tester.runAsync(() async {
-      t = await TestDb.open();
+      t = TestDb.memory();
       await SeedData.ensureSeeded(t!.db);
     });
     addTearDown(() => t?.dispose());
@@ -117,9 +117,10 @@ void main() {
       await tester.pump(const Duration(milliseconds: 50));
     }
     expect(find.byKey(const Key('report_tips')), findsOneWidget);
-    expect(find.byKey(const Key('report_reviews')), findsOneWidget);
 
     final list = find.byKey(const Key('report_list'));
+    await tester.scrollUntilVisible(find.byKey(const Key('report_reviews')), 300, scrollable: find.descendant(of: list, matching: find.byType(Scrollable)).first);
+    expect(find.byKey(const Key('report_reviews')), findsOneWidget);
     await tester.scrollUntilVisible(find.byKey(const ValueKey('report_subject_math')), 300, scrollable: find.descendant(of: list, matching: find.byType(Scrollable)).first);
     expect(find.byKey(const ValueKey('report_subject_line_math')), findsOneWidget);
     // Fan yopiq paytda uning mavzulari ro'yxati ko'rinmaydi.

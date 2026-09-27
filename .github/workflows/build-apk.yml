@@ -48,6 +48,28 @@ jobs:
           set -o pipefail
           flutter test --reporter expanded --no-color 2>&1 | tee test.log
 
+      # Har build bir xil kalit bilan imzolanadi — yangi versiya eskisining ustiga o'rnatiladi
+      # (bolalar progressi o'chmaydi). Secrets berilgan bo'lsa — o'sha shaxsiy kalit ishlatiladi.
+      - name: Imzo kaliti
+        if: github.event_name != 'pull_request'
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          store="$PWD/android/app/academy-release.jks"
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$store"
+            pass="$KEYSTORE_PASSWORD"; alias="$KEY_ALIAS"; keypass="${KEY_PASSWORD:-$KEYSTORE_PASSWORD}"
+            echo "Shaxsiy kalit (secrets) ishlatiladi."
+          else
+            cp tool/signing/family-release.jks "$store"
+            pass="academy-family"; alias="academy"; keypass="academy-family"
+            echo "Oilaviy build kaliti (tool/signing) ishlatiladi."
+          fi
+          printf 'storeFile=%s\nstorePassword=%s\nkeyAlias=%s\nkeyPassword=%s\n' "$store" "$pass" "$alias" "$keypass" > android/key.properties
+
       - name: Release APK
         run: |
           set -o pipefail

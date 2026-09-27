@@ -1,3 +1,4 @@
+import 'package:academy/database/local_database.dart';
 import 'package:academy/database/seed_data.dart';
 import 'package:academy/models/app_settings.dart';
 import 'package:academy/models/child_profile.dart';
@@ -109,5 +110,28 @@ void main() {
     await t.db.saveProfile(a.copyWith(fullName: 'Azamjon Odilbekov'));
     await SeedData.ensureSeeded(t.db);
     expect(t.db.getProfile('azamjon')!.fullName, 'Azamjon Odilbekov');
+  });
+  test('xotiradagi baza Hive bilan bir xil saqlaydi va o‘qiydi', () async {
+    final db = LocalDatabase.memory();
+    await SeedData.ensureSeeded(db);
+    expect(db.getProfiles().map((p) => p.name), ['Azamjon', 'Muhammadjon']);
+    final progress = ChildProgress.empty('azamjon')
+        .addStars(12)
+        .completeDaily(DateTime(2026, 9, 26, 9))
+        .addCounter('chess_win');
+    await db.saveProgress(progress);
+    final back = db.getProgress('azamjon');
+    expect(back.stars, 12);
+    expect(back.dailyLessons, 1);
+    expect(back.counter('chess_win'), 1);
+    expect(db.getAllProgress().keys, contains('azamjon'));
+    // Eksport → boshqa xotira bazasiga import.
+    final copy = LocalDatabase.memory();
+    await copy.importJson(db.exportJson());
+    expect(copy.getProgress('azamjon').stars, 12);
+    expect(copy.getProfiles().length, 2);
+    await db.deleteProfile('azamjon');
+    expect(db.getProfile('azamjon'), isNull);
+    expect(db.getAllProgress().containsKey('azamjon'), isFalse);
   });
 }

@@ -79,7 +79,7 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
                   ),
                   Expanded(
                     child: Text(
-                      "Kim o'ynaydi?",
+                      "Kim o‘ynaydi?",
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.headlineMedium,
                     ),
@@ -287,7 +287,7 @@ class _EmptyProfiles extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(32),
         child: Text(
-          "Hali profil yo'q.\nOta-ona pastdagi tugma orqali profil yaratadi.",
+          "Hali profil yo‘q.\nOta-ona pastdagi tugma orqali profil yaratadi.",
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.titleMedium,
         ),

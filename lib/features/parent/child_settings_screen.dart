@@ -24,11 +24,11 @@ class ChildSettingsScreen extends ConsumerWidget {
     final ok = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text("Profilni o'chirish"),
-        content: Text("${profile.name} profili va uning barcha natijalari o'chiriladi. Davom etasizmi?"),
+        title: const Text("Profilni o‘chirish"),
+        content: Text("${profile.name} profili va uning barcha natijalari o‘chiriladi. Davom etasizmi?"),
         actions: [
           TextButton(onPressed: () => Navigator.of(ctx).pop(false), child: const Text('Bekor')),
-          TextButton(onPressed: () => Navigator.of(ctx).pop(true), child: const Text("O'chirish")),
+          TextButton(onPressed: () => Navigator.of(ctx).pop(true), child: const Text("O‘chirish")),
         ],
       ),
     );
@@ -112,7 +112,7 @@ class ChildSettingsScreen extends ConsumerWidget {
               style: OutlinedButton.styleFrom(foregroundColor: Colors.red.shade400),
               onPressed: () => _confirmDelete(context, ref, current),
               icon: const Icon(Icons.delete_outline_rounded),
-              label: const Text("Profilni o'chirish"),
+              label: const Text("Profilni o‘chirish"),
             ),
           ],
         ),

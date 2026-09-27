@@ -52,7 +52,7 @@ void main() {
 
   testWidgets("Kim o'ynaydi? ekrani ikki farzandni ko'rsatadi", (tester) async {
     await pumpApp(tester);
-    expect(find.text("Kim o'ynaydi?"), findsOneWidget);
+    expect(find.text('Kim o‘ynaydi?'), findsOneWidget);
     expect(find.text('Odilbekov Azamjon Eldorovich'), findsOneWidget);
     expect(find.text('6 yosh'), findsOneWidget);
     expect(find.text('Odilbekov Muhammadjon Eldorovich'), findsOneWidget);
@@ -70,7 +70,7 @@ void main() {
     expect(find.text('PIN kodni kiriting'), findsOneWidget);
 
     await enterPin(tester, '1111');
-    expect(find.text("PIN noto'g'ri"), findsOneWidget);
+    expect(find.text('PIN noto‘g‘ri'), findsOneWidget);
     expect(find.text('Bolalar'), findsNothing);
 
     await enterPin(tester, '1234');

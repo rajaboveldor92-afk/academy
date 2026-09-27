@@ -6,8 +6,9 @@ import '../../theme/app_colors.dart';
 import '../lesson/topics_screen.dart';
 import '../profiles/profiles_controller.dart';
 
-/// Fan ekrani: shu fan va yosh uchun o'quv dasturi bo'lsa — mavzular ro'yxati;
-/// hali kiritilmagan fanlar uchun (keyingi kontent bosqichlari) qisqa xabar.
+/// Fan ekrani: shu fan va yosh uchun o'quv dasturi — mavzular ro'yxati.
+/// Barcha fanlarning ikkala yosh uchun dasturi bor (testlarda tekshiriladi); kontent fayli
+/// o'qilmasa (masalan, buzilgan o'rnatish) — tushunarli xabar va orqaga tugmasi.
 class SubjectScreen extends ConsumerWidget {
   const SubjectScreen({super.key, required this.subject});
 
@@ -20,17 +21,16 @@ class SubjectScreen extends ConsumerWidget {
     final curriculum = ref.watch(curriculumForProvider((subject.id, suffix)));
     return curriculum.when(
       loading: () => const Scaffold(body: Center(child: CircularProgressIndicator())),
-      error: (e, _) => _Pending(subject: subject, age: profile?.age),
-      data: (c) => c == null ? _Pending(subject: subject, age: profile?.age) : TopicsScreen(subject: subject, curriculum: c),
+      error: (e, _) => _Unavailable(subject: subject),
+      data: (c) => c == null ? _Unavailable(subject: subject) : TopicsScreen(subject: subject, curriculum: c),
     );
   }
 }
 
-class _Pending extends StatelessWidget {
-  const _Pending({required this.subject, this.age});
+class _Unavailable extends StatelessWidget {
+  const _Unavailable({required this.subject});
 
   final Subject subject;
-  final int? age;
 
   @override
   Widget build(BuildContext context) {
@@ -46,10 +46,10 @@ class _Pending extends StatelessWidget {
               children: [
                 Text(subject.emoji, style: const TextStyle(fontSize: 110)),
                 const SizedBox(height: 16),
-                Text('Tez orada!', style: Theme.of(context).textTheme.headlineMedium),
+                Text('Ochib bo‘lmadi', style: Theme.of(context).textTheme.headlineMedium),
                 const SizedBox(height: 8),
                 Text(
-                  "${subject.title} mashg‘ulotlari tayyorlanmoqda${age == null ? '' : ' — $age yosh uchun'}.",
+                  '${subject.title} mashg‘ulotlarini o‘qib bo‘lmadi. Ilovani yopib, qayta oching.',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
                 ),

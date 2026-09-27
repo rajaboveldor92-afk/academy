@@ -52,7 +52,7 @@ class ProfileThemes {
     ),
     ProfileTheme(
       id: 'forest',
-      name: "O'rmon",
+      name: "O‘rmon",
       emoji: '🌿',
       primary: Color(0xFF27AE60),
       light: Color(0xFFE2F7EA),

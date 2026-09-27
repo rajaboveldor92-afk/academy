@@ -7,6 +7,7 @@ import '../../learning/engine/rewards.dart';
 import '../../models/child_profile.dart';
 import '../../models/child_progress.dart';
 import '../../models/subject.dart';
+import '../../services/audio_service.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/stat_chip.dart';
 import '../profiles/profiles_controller.dart';
@@ -149,7 +150,9 @@ class _GiftCard extends ConsumerWidget {
   Future<void> _open(BuildContext context, WidgetRef ref) async {
     final gift = await ref.read(progressProvider.notifier).openGift(profile.id);
     if (gift == null || !context.mounted) return;
-    ref.read(audioServiceProvider).speak('Voy! ${gift.name}!');
+    ref.read(audioServiceProvider)
+      ..playEffect(SoundEffect.star)
+      ..speak('Voy! ${gift.name}!');
     await showDialog<void>(
       context: context,
       builder: (context) => AlertDialog(

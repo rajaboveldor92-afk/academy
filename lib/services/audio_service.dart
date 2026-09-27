@@ -10,7 +10,7 @@ import '../models/speech_part.dart';
 
 export '../models/speech_part.dart';
 
-/// Qisqa effekt ovozlari. Fayllar `assets/audio/rewards/<name>.mp3`.
+/// Qisqa effekt ovozlari. Fayllar `assets/audio/rewards/<name>.ogg` (`tool/audio/make_sounds.py`).
 enum SoundEffect { tap, correct, tryAgain, star, medal }
 
 /// Til kodlari: `uz`, `en`, `ru`.
@@ -47,6 +47,9 @@ abstract class AudioService {
 
   Future<void> stop();
 
+  /// Ilova oldingi plandami. Fonga o'tganda nutq to'xtaydi, fon musiqasi pauza qilinadi.
+  Future<void> setForeground(bool foreground);
+
   Future<void> dispose();
 }
 
@@ -55,13 +58,13 @@ class FeedbackPhrases {
   FeedbackPhrases._();
 
   static const Map<String, List<String>> praise = {
-    'uz': ['Barakalla!', 'Ajoyib!', "Zo'r!", 'Juda yaxshi!', 'Qoyil!'],
+    'uz': ['Barakalla!', 'Ajoyib!', "Zo‘r!", 'Juda yaxshi!', 'Qoyil!'],
     'en': ['Great job!', 'Excellent!', 'Well done!', 'Super!'],
     'ru': ['Молодец!', 'Отлично!', 'Умница!', 'Здорово!'],
   };
 
   static const Map<String, List<String>> encourage = {
-    'uz': ["Yana urinib ko'ramiz.", 'Deyarli topding!', "Boshqa variantni sinab ko'r."],
+    'uz': ["Yana urinib ko‘ramiz.", 'Deyarli topding!', "Boshqa variantni sinab ko‘r."],
     'en': ["Let's try again.", 'Almost!', 'Try another one.'],
     'ru': ['Попробуем ещё раз.', 'Почти!', 'Попробуй другой вариант.'],
   };
@@ -90,9 +93,24 @@ class DeviceAudioService implements AudioService {
     'ru': ['ru-RU'],
   };
 
+  /// Fon musiqasi ovozi past (nutq va effektlar aniq eshitilsin).
+  static const double musicVolume = 0.22;
+  static const double effectVolume = 0.7;
+
+  /// Effekt va musiqa audio fokusni olmaydi: bir-birini va TTS ni to'xtatib qo'ymaydi.
+  static final AudioContext _mixContext = AudioContext(
+    android: const AudioContextAndroid(
+      audioFocus: AndroidAudioFocus.none,
+      usageType: AndroidUsageType.game,
+      contentType: AndroidContentType.music,
+    ),
+  );
+
   final AssetBundle _bundle;
   final AudioPlayer _voicePlayer = AudioPlayer();
   final AudioPlayer _effectPlayer = AudioPlayer();
+  final AudioPlayer _musicPlayer = AudioPlayer();
+  bool _playersReady = false;
   FlutterTts? _tts;
   Set<String>? _assets;
   final Map<LangCode, String?> _resolvedLocale = {};
@@ -100,11 +118,60 @@ class DeviceAudioService implements AudioService {
 
   bool _soundEnabled = true;
   bool _voiceEnabled = true;
+  bool _musicEnabled = false;
+  bool _foreground = true;
+  bool _musicOn = false;
 
   @override
   void applySettings(AppSettings settings) {
     _soundEnabled = settings.soundEnabled;
     _voiceEnabled = settings.voiceEnabled;
+    _musicEnabled = settings.musicEnabled;
+    _syncMusic();
+  }
+
+  Future<void> _preparePlayers() async {
+    if (_playersReady) return;
+    _playersReady = true;
+    try {
+      await _effectPlayer.setAudioContext(_mixContext);
+      await _effectPlayer.setVolume(effectVolume);
+      await _musicPlayer.setAudioContext(_mixContext);
+      await _musicPlayer.setReleaseMode(ReleaseMode.loop);
+      await _musicPlayer.setVolume(musicVolume);
+    } catch (e) {
+      debugPrint('AudioService: pleyer sozlanmadi: $e');
+    }
+  }
+
+  /// Fon musiqasi: sozlamada yoqilgan va ilova oldingi planda bo'lsa — aylanib chaladi.
+  Future<void> _syncMusic() async {
+    final want = _musicEnabled && _foreground;
+    if (want == _musicOn) return;
+    _musicOn = want;
+    try {
+      await _preparePlayers();
+      if (want) {
+        if (_musicPlayer.state == PlayerState.paused) {
+          await _musicPlayer.resume();
+        } else {
+          final path = await _findAsset('music', 'theme');
+          if (path != null && _musicOn) await _musicPlayer.play(AssetSource(path));
+        }
+      } else {
+        await _musicPlayer.pause();
+      }
+    } catch (e) {
+      debugPrint('AudioService: musiqa xatosi: $e');
+    }
+  }
+
+  @override
+  Future<void> setForeground(bool foreground) async {
+    if (_foreground == foreground) return;
+    _foreground = foreground;
+    if (!foreground) await stop();
+    await _syncMusic();
   }
 
   Future<Set<String>> _assetSet() async {
@@ -241,6 +308,7 @@ class DeviceAudioService implements AudioService {
   @override
   Future<void> playEffect(SoundEffect effect) async {
     if (!_soundEnabled) return;
+    await _preparePlayers();
     await _playAsset(_effectPlayer, 'rewards', effect.name);
   }
 
@@ -269,6 +337,7 @@ class DeviceAudioService implements AudioService {
     try {
       await _voicePlayer.dispose();
       await _effectPlayer.dispose();
+      await _musicPlayer.dispose();
       await _tts?.stop();
     } catch (_) {}
   }
@@ -293,6 +362,9 @@ class SilentAudioService implements AudioService {
 
   @override
   Future<void> playEffect(SoundEffect effect) async => log.add('effect:${effect.name}');
+
+  @override
+  Future<void> setForeground(bool foreground) async => log.add('foreground:$foreground');
 
   @override
   Future<void> praise({LangCode lang = 'uz'}) async => log.add('praise:$lang');

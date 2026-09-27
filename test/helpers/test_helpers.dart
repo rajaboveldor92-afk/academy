@@ -11,7 +11,7 @@ class TestDb {
   TestDb._(this.db, this._dir);
 
   final LocalDatabase db;
-  final Directory _dir;
+  final Directory? _dir;
 
   static Future<TestDb> open() async {
     final dir = await Directory.systemTemp.createTemp('academy_test_');
@@ -20,9 +20,14 @@ class TestDb {
     return TestDb._(db, dir);
   }
 
+  /// Xotiradagi baza: widget testlarda fayl yozuvi soxta vaqt (fake async) bilan to'qnashmaydi.
+  static TestDb memory() => TestDb._(LocalDatabase.memory(), null);
+
   Future<void> dispose() async {
+    final dir = _dir;
+    if (dir == null) return;
     await Hive.close();
-    if (_dir.existsSync()) await _dir.delete(recursive: true);
+    if (dir.existsSync()) await dir.delete(recursive: true);
   }
 }
 

@@ -297,6 +297,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       _phase = _Phase.finished;
     });
     final message = widget.daily ? 'Bugungi darsing tugadi! Barakalla!' : _finishMessage(outcome!.decision);
+    _audio.playEffect(medals.isEmpty ? SoundEffect.star : SoundEffect.medal);
     _audio.speak(medals.isEmpty ? message : '$message Yangi medal: ${medals.first.title}!');
   }
 

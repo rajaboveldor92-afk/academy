@@ -7,6 +7,7 @@ import '../../learning/engine/rewards.dart';
 import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
+import '../../services/audio_service.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/profile_photo.dart';
 import '../../widgets/stat_chip.dart';
@@ -46,6 +47,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   void _openSubject(Subject subject) {
+    ref.read(audioServiceProvider).playEffect(SoundEffect.tap);
     ref.read(audioServiceProvider).playWord(
           subject.spokenName,
           lang: subject.speechLang,
@@ -55,6 +57,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   void _openDailyLesson() {
+    ref.read(audioServiceProvider).playEffect(SoundEffect.tap);
     ref.read(audioServiceProvider).speak('Bugungi darsim');
     Navigator.of(context).pushNamed(AppRoutes.dailyLesson);
   }
