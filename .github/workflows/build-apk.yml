@@ -118,13 +118,24 @@ jobs:
               echo "### $f"
               echo '```'
               if [ "$f" = "test.log" ]; then
-                grep -n -B3 -A45 -E '\[E\]|EXCEPTION CAUGHT|Expected:|Error:|error:' "$f" | head -c 30000
+                { grep -n -B3 -A45 -E '\[E\]|EXCEPTION CAUGHT|Expected:|Error:|error:' "$f" || true; } | head -c 30000
                 echo '...'
                 tail -n 15 "$f"
+              elif [ "$f" = "build.log" ]; then
+                { grep -n -A25 -E 'What went wrong|FAILURE:|Error:|error:' "$f" || true; } | head -c 12000
+                echo '...'
+                tail -n 40 "$f" | tail -c 6000
               else
                 tail -n 120 "$f" | tail -c 12000
               fi
               echo '```'
             done
+            if [ -f android/app/build.gradle.kts ]; then
+              echo
+              echo "### android/app/build.gradle.kts"
+              echo '```'
+              head -c 6000 android/app/build.gradle.kts
+              echo '```'
+            fi
           } > report.md
           gh issue create --title "Build xatosi #${GITHUB_RUN_NUMBER}" --body-file report.md
