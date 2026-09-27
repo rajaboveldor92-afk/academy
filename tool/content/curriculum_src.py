@@ -588,7 +588,7 @@ chess6 = {
  ]}
 
 base = os.path.join(os.path.dirname(__file__), "..", "..", "assets", "data")
-for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("logic_6", logic6), ("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6), ("chess_4", chess4), ("chess_6", chess6)]:
+for name, data in [("uzbek_4", uzbek4), ("uzbek_6", uzbek6), ("writing_4", writing4), ("writing_6", writing6), ("english_4", english4), ("english_6", english6), ("russian_4", russian4), ("russian_6", russian6), ("trilingual_4", trilingual4), ("trilingual_6", trilingual6), ("chess_4", chess4), ("chess_6", chess6)]:
     ids = [t["id"] for t in data["topics"]]
     assert len(ids) == len(set(ids)), name
     for t in data["topics"]:
@@ -596,3 +596,78 @@ for name, data in [("math_4", math4), ("logic_4", logic4), ("math_6", math6), ("
     with open(os.path.join(base, name + ".json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print(name, len(data["topics"]), "topics")
+
+# Exact-age curricula. Base dictionaries above remain editable source material.
+# Keep 4/6 identifiers stable so existing saved progress remains readable.
+from copy import deepcopy
+
+def for_age(source, age):
+    data = deepcopy(source)
+    subject = data['subject']
+    old = data['ageGroup']
+    data.update(ageGroup=str(age), ageMin=age, ageMax=age,
+                lessonSize={3:4, 4:6, 5:7, 6:8, 7:9, 8:10}[age])
+    for t in data['topics']:
+        t['id'] = t['id'].replace(subject + old + '.', subject + str(age) + '.')
+        t['prerequisites'] = [x.replace(subject + old + '.', subject + str(age) + '.')
+                              for x in t['prerequisites']]
+    if age == 3:
+        allowed = ({'one_many','count_1_3','number_match','big_small','long_short',
+                    'high_low','colors','shapes'} if subject == 'math' else
+                   {'same','shadow','pairs','sort_color','sort_shape','missing','maze','puzzle'})
+        data['topics'] = [t for t in data['topics'] if t['id'].split('.')[1] in allowed]
+        for t in data['topics']:
+            levels = t['levels']
+            t['levels'] = [deepcopy(levels[i]) for i in [0,0,1]]
+            for params in t['levels']:
+                for key in ['options','pairs','bins']:
+                    if key in params: params[key] = 2
+                if t['generator'] == 'one_many': params.update(manyMin=2, manyMax=3)
+                if t['generator'] == 'number_match': params.update(max=3, pairs=2)
+                if t['generator'] == 'count_objects': params.update(max=3, options=2, modes=['count','group'])
+                if t['generator'] == 'colors': params.update(colors=['red','yellow','blue'], options=2)
+                if t['generator'] == 'shapes': params.update(shapes=['circle','square','triangle'], options=2)
+                if t['generator'] == 'missing_item': params.update(items=3, seconds=7)
+                if t['generator'] == 'maze': params.update(rows=3, cols=3, extraOpenings=2)
+                if t['generator'] in ['sort_color','sort_shape']: params.update(items=4, bins=2)
+    elif age == 5:
+        for t in data['topics']:
+            if t['generator'] in ['add_pictures','sub_pictures']:
+                op = t['generator'] == 'add_pictures'
+                t['id'] = subject + '5.' + ('add_10' if op else 'sub_10')
+                t['title'] = {'uz': '10 ichida ' + ('qo‘shish' if op else 'ayirish'),
+                              'en': ('Addition' if op else 'Subtraction') + ' within 10',
+                              'ru': ('Сложение' if op else 'Вычитание') + ' в пределах 10'}
+                t['levels'] = [{'max':5}, {'max':7}, {'max':10, 'drag':True}]
+            elif t['generator'] == 'maze':
+                t['levels'] = [{'rows':4,'cols':4,'extraOpenings':2},
+                               {'rows':5,'cols':5,'extraOpenings':1}, {'rows':6,'cols':6}]
+            elif t['generator'] == 'missing_item':
+                t['levels'] = [{'items':4,'seconds':6}, {'items':5,'seconds':5}, {'items':6,'seconds':5}]
+    elif age == 6:
+        excluded = ({'add_20','sub_20','by_5','by_10','hundred'} if subject == 'math'
+                    else {'matrix3','sudoku','problems'})
+        data['topics'] = [t for t in data['topics'] if t['id'].split('.')[1] not in excluded]
+        for t in data['topics']:
+            levels = t['levels']
+            t['levels'] = [deepcopy(levels[i]) for i in [0,0,1]]
+    elif age == 7:
+        for t in data['topics']:
+            levels = t['levels']
+            t['levels'] = [deepcopy(levels[i]) for i in [0,1,1]]
+    valid = {t['id'] for t in data['topics']}
+    for i,t in enumerate(data['topics'], 1):
+        t['code'] = ('M' if subject == 'math' else 'L') + str(i)
+        t['prerequisites'] = [x for x in t['prerequisites'] if x in valid]
+    return data
+
+for age in range(3,9):
+    for source in ([math4,logic4] if age <= 5 else [math6,logic6]):
+        data = for_age(source, age)
+        name = data['subject'] + '_' + str(age)
+        ids = [t['id'] for t in data['topics']]
+        assert len(ids) == len(set(ids)), name
+        for t in data['topics']: assert len(t['levels']) == 3, t['id']
+        with open(os.path.join(base, name + '.json'), 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=1)
+        print(name, len(data['topics']), 'topics')

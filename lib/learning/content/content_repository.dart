@@ -24,8 +24,12 @@ class ContentRepository {
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
   static const List<String> curriculumFiles = [
+    'math_3',
+    'logic_3',
     'math_4',
     'logic_4',
+    'math_5',
+    'logic_5',
     'math_6',
     'logic_6',
     'uzbek_4',
@@ -40,6 +44,10 @@ class ContentRepository {
     'trilingual_6',
     'chess_4',
     'chess_6',
+    'math_7',
+    'logic_7',
+    'math_8',
+    'logic_8',
   ];
 
   final Lexicon lexicon;
@@ -75,7 +83,8 @@ class ContentRepository {
   static Future<ContentRepository> load([AssetBundle? bundle]) async {
     final b = bundle ?? rootBundle;
     Future<Map<String, dynamic>> json(String name) async =>
-        MapUtils.asStringMap(jsonDecode(await b.loadString('assets/data/$name.json')));
+        MapUtils.asStringMap(
+            jsonDecode(await b.loadString('assets/data/$name.json')));
 
     final curricula = <String, Curriculum>{};
     for (final name in curriculumFiles) {

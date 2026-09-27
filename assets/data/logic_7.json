@@ -1,9 +1,9 @@
 {
  "subject": "logic",
- "ageGroup": "6",
- "ageMin": 6,
- "ageMax": 6,
- "lessonSize": 8,
+ "ageGroup": "7",
+ "ageMin": 7,
+ "ageMax": 7,
+ "lessonSize": 9,
  "title": {
   "uz": "Mantiq",
   "en": "Logic",
@@ -12,7 +12,7 @@
  "model": "KO‘R → TUSHUN → TANLA → YECH → IZOHNI KO‘R",
  "topics": [
   {
-   "id": "logic6.picture_seq",
+   "id": "logic7.picture_seq",
    "code": "L1",
    "emoji": "🖼️",
    "title": {
@@ -38,14 +38,17 @@
     },
     {
      "patterns": [
-      "ABC",
-      "AAB"
+      "AABB",
+      "ABB",
+      "ABC"
      ],
      "kinds": [
       "emoji",
-      "shape"
+      "shape",
+      "color"
      ],
-     "shown": 5
+     "shown": 6,
+     "growth": true
     },
     {
      "patterns": [
@@ -64,7 +67,7 @@
    ]
   },
   {
-   "id": "logic6.number_seq",
+   "id": "logic7.number_seq",
    "code": "L2",
    "emoji": "🔢",
    "title": {
@@ -87,11 +90,14 @@
     },
     {
      "steps": [
-      "1",
-      "2"
+      "2",
+      "3",
+      "-1",
+      "-2"
      ],
-     "max": 20,
-     "length": 4
+     "max": 30,
+     "length": 4,
+     "missingInside": true
     },
     {
      "steps": [
@@ -107,7 +113,7 @@
    ]
   },
   {
-   "id": "logic6.classify",
+   "id": "logic7.classify",
    "code": "L3",
    "emoji": "🗂️",
    "title": {
@@ -126,7 +132,7 @@
     },
     {
      "bins": 2,
-     "items": 6
+     "items": 8
     },
     {
      "bins": 2,
@@ -135,7 +141,7 @@
    ]
   },
   {
-   "id": "logic6.odd",
+   "id": "logic7.odd",
    "code": "L4",
    "emoji": "🙅",
    "title": {
@@ -160,7 +166,7 @@
    ]
   },
   {
-   "id": "logic6.analogy",
+   "id": "logic7.analogy",
    "code": "L5",
    "emoji": "🔗",
    "title": {
@@ -183,11 +189,11 @@
     },
     {
      "relations": [
-      "eats",
-      "gives",
-      "goes_with"
+      "lives",
+      "uses",
+      "weather"
      ],
-     "options": 3
+     "options": 4
     },
     {
      "relations": [
@@ -200,7 +206,7 @@
    ]
   },
   {
-   "id": "logic6.pattern",
+   "id": "logic7.pattern",
    "code": "L6",
    "emoji": "🌀",
    "title": {
@@ -220,6 +226,7 @@
     },
     {
      "modes": [
+      "rotate",
       "attr"
      ]
     },
@@ -232,7 +239,7 @@
    ]
   },
   {
-   "id": "logic6.matrix2",
+   "id": "logic7.matrix2",
    "code": "L7",
    "emoji": "🔲",
    "title": {
@@ -250,8 +257,7 @@
      "drag": true
     },
     {
-     "size": 2,
-     "drag": true
+     "size": 2
     },
     {
      "size": 2
@@ -259,8 +265,43 @@
    ]
   },
   {
-   "id": "logic6.maze",
+   "id": "logic7.matrix3",
    "code": "L8",
+   "emoji": "🔳",
+   "title": {
+    "uz": "3×3 matritsa",
+    "en": "3×3 matrix",
+    "ru": "Матрица 3×3"
+   },
+   "generator": "matrix",
+   "skill": "matrix",
+   "prerequisites": [
+    "logic7.matrix2"
+   ],
+   "tags": [],
+   "levels": [
+    {
+     "size": 3
+    },
+    {
+     "size": 3,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    },
+    {
+     "size": 3,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic7.maze",
+   "code": "L9",
    "emoji": "🌀",
    "title": {
     "uz": "Labirint",
@@ -278,9 +319,8 @@
      "extraOpenings": 1
     },
     {
-     "rows": 5,
-     "cols": 5,
-     "extraOpenings": 1
+     "rows": 6,
+     "cols": 6
     },
     {
      "rows": 6,
@@ -289,8 +329,8 @@
    ]
   },
   {
-   "id": "logic6.rotation",
-   "code": "L9",
+   "id": "logic7.rotation",
+   "code": "L10",
    "emoji": "🔄",
    "title": {
     "uz": "Buriladigan rasm",
@@ -306,7 +346,7 @@
      "options": 2
     },
     {
-     "options": 2
+     "options": 3
     },
     {
      "options": 3
@@ -314,8 +354,8 @@
    ]
   },
   {
-   "id": "logic6.grid",
-   "code": "L10",
+   "id": "logic7.grid",
+   "code": "L11",
    "emoji": "🧭",
    "title": {
     "uz": "Chap, o‘ng, yuqori, past",
@@ -335,9 +375,8 @@
     },
     {
      "modes": [
-      "ordinal"
-     ],
-     "items": 5
+      "grid"
+     ]
     },
     {
      "modes": [
@@ -347,8 +386,8 @@
    ]
   },
   {
-   "id": "logic6.coding",
-   "code": "L11",
+   "id": "logic7.coding",
+   "code": "L12",
    "emoji": "🤖",
    "title": {
     "uz": "Kodlash",
@@ -367,10 +406,11 @@
      "maxSteps": 3
     },
     {
-     "rows": 3,
-     "cols": 3,
-     "minSteps": 2,
-     "maxSteps": 3
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 2,
+     "minSteps": 3,
+     "maxSteps": 5
     },
     {
      "rows": 4,
@@ -382,8 +422,8 @@
    ]
   },
   {
-   "id": "logic6.tangram",
-   "code": "L12",
+   "id": "logic7.tangram",
+   "code": "L13",
    "emoji": "📐",
    "title": {
     "uz": "Shakllardan rasm",
@@ -402,13 +442,92 @@
     },
     {
      "modes": [
-      "parts"
+      "parts",
+      "count"
      ]
     },
     {
      "modes": [
       "parts",
       "count"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic7.sudoku",
+   "code": "L14",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Mini-sudoku",
+    "en": "Mini sudoku",
+    "ru": "Мини-судоку"
+   },
+   "generator": "sudoku",
+   "skill": "sudoku",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "size": 4,
+     "minBlanks": 3,
+     "maxBlanks": 4,
+     "symbols": [
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic7.problems",
+   "code": "L15",
+   "emoji": "💡",
+   "title": {
+    "uz": "Mantiqiy masalalar",
+    "en": "Logic puzzles",
+    "ru": "Логические задачи"
+   },
+   "generator": "logic_problem",
+   "skill": "reasoning",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "types": [
+      "where",
+      "taller"
+     ]
+    },
+    {
+     "types": [
+      "taller",
+      "order",
+      "where"
+     ]
+    },
+    {
+     "types": [
+      "taller",
+      "order",
+      "where"
      ]
     }
    ]

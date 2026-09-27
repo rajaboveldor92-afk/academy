@@ -1,9 +1,9 @@
 {
  "subject": "math",
- "ageGroup": "4",
- "ageMin": 4,
- "ageMax": 4,
- "lessonSize": 6,
+ "ageGroup": "5",
+ "ageMin": 5,
+ "ageMax": 5,
+ "lessonSize": 7,
  "title": {
   "uz": "Matematika",
   "en": "Maths",
@@ -12,7 +12,7 @@
  "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
  "topics": [
   {
-   "id": "math4.one_many",
+   "id": "math5.one_many",
    "code": "M1",
    "emoji": "☝️",
    "title": {
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "id": "math4.count_1_3",
+   "id": "math5.count_1_3",
    "code": "M2",
    "emoji": "🔢",
    "title": {
@@ -52,7 +52,7 @@
    "generator": "count_objects",
    "skill": "counting",
    "prerequisites": [
-    "math4.one_many"
+    "math5.one_many"
    ],
    "tags": [],
    "levels": [
@@ -83,7 +83,7 @@
    ]
   },
   {
-   "id": "math4.count_1_5",
+   "id": "math5.count_1_5",
    "code": "M3",
    "emoji": "✋",
    "title": {
@@ -94,7 +94,7 @@
    "generator": "count_objects",
    "skill": "counting",
    "prerequisites": [
-    "math4.count_1_3"
+    "math5.count_1_3"
    ],
    "tags": [],
    "levels": [
@@ -126,7 +126,7 @@
    ]
   },
   {
-   "id": "math4.count_1_10",
+   "id": "math5.count_1_10",
    "code": "M4",
    "emoji": "🔟",
    "title": {
@@ -137,7 +137,7 @@
    "generator": "count_objects",
    "skill": "counting",
    "prerequisites": [
-    "math4.count_1_5"
+    "math5.count_1_5"
    ],
    "tags": [],
    "levels": [
@@ -169,7 +169,7 @@
    ]
   },
   {
-   "id": "math4.number_match",
+   "id": "math5.number_match",
    "code": "M5",
    "emoji": "🔗",
    "title": {
@@ -180,7 +180,7 @@
    "generator": "number_match",
    "skill": "number_quantity",
    "prerequisites": [
-    "math4.count_1_5"
+    "math5.count_1_5"
    ],
    "tags": [],
    "levels": [
@@ -199,7 +199,7 @@
    ]
   },
   {
-   "id": "math4.big_small",
+   "id": "math5.big_small",
    "code": "M6",
    "emoji": "🐘",
    "title": {
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "id": "math4.more_less",
+   "id": "math5.more_less",
    "code": "M7",
    "emoji": "⚖️",
    "title": {
@@ -249,7 +249,7 @@
    "generator": "more_less",
    "skill": "compare_quantity",
    "prerequisites": [
-    "math4.count_1_5"
+    "math5.count_1_5"
    ],
    "tags": [],
    "levels": [
@@ -280,7 +280,7 @@
    ]
   },
   {
-   "id": "math4.long_short",
+   "id": "math5.long_short",
    "code": "M8",
    "emoji": "📏",
    "title": {
@@ -319,7 +319,7 @@
    ]
   },
   {
-   "id": "math4.high_low",
+   "id": "math5.high_low",
    "code": "M9",
    "emoji": "⬆️",
    "title": {
@@ -355,7 +355,7 @@
    ]
   },
   {
-   "id": "math4.left_right",
+   "id": "math5.left_right",
    "code": "M10",
    "emoji": "↔️",
    "title": {
@@ -392,7 +392,7 @@
    ]
   },
   {
-   "id": "math4.colors",
+   "id": "math5.colors",
    "code": "M11",
    "emoji": "🎨",
    "title": {
@@ -438,7 +438,7 @@
    ]
   },
   {
-   "id": "math4.shapes",
+   "id": "math5.shapes",
    "code": "M12",
    "emoji": "🔺",
    "title": {
@@ -484,7 +484,7 @@
    ]
   },
   {
-   "id": "math4.pattern",
+   "id": "math5.pattern",
    "code": "M13",
    "emoji": "🔁",
    "title": {
@@ -537,57 +537,55 @@
    ]
   },
   {
-   "id": "math4.add_5",
+   "id": "math5.add_10",
    "code": "M14",
    "emoji": "➕",
    "title": {
-    "uz": "5 gacha qo‘shish",
-    "en": "Adding to 5",
-    "ru": "Сложение до 5"
+    "uz": "10 ichida qo‘shish",
+    "en": "Addition within 10",
+    "ru": "Сложение в пределах 10"
    },
    "generator": "add_pictures",
    "skill": "addition",
    "prerequisites": [
-    "math4.count_1_5"
+    "math5.count_1_5"
    ],
    "tags": [],
    "levels": [
     {
-     "max": 3
+     "max": 5
     },
     {
-     "max": 4
+     "max": 7
     },
     {
-     "max": 5,
+     "max": 10,
      "drag": true
     }
    ]
   },
   {
-   "id": "math4.sub_5",
+   "id": "math5.sub_10",
    "code": "M15",
    "emoji": "➖",
    "title": {
-    "uz": "5 gacha ayirish",
-    "en": "Taking away to 5",
-    "ru": "Вычитание до 5"
+    "uz": "10 ichida ayirish",
+    "en": "Subtraction within 10",
+    "ru": "Вычитание в пределах 10"
    },
    "generator": "sub_pictures",
    "skill": "subtraction",
-   "prerequisites": [
-    "math4.add_5"
-   ],
+   "prerequisites": [],
    "tags": [],
    "levels": [
     {
-     "max": 3
+     "max": 5
     },
     {
-     "max": 4
+     "max": 7
     },
     {
-     "max": 5,
+     "max": 10,
      "drag": true
     }
    ]

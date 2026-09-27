@@ -63,11 +63,14 @@ jobs:
           cp dist/academy-app-release.apk $out/app-release.apk
           ls -la dist
 
+      - name: APK ichidagi 3–8 yosh darslarini tekshirish
+        run: python3 tool/verify_apk_content.py dist/*.apk
+
       - name: APKni Actions'ga saqlash
         uses: actions/upload-artifact@v4
         with:
           name: app-release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: dist/*.apk
           if-no-files-found: error
 
       # APK "latest-build" release sahifasida ham turadi — telefondan yuklab olish oson.

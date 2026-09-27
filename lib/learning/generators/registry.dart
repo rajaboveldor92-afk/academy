@@ -34,8 +34,13 @@ class GeneratorRegistry {
     for (final e in ChessGenerators.generators.entries) 'chess6.${e.key}': e.value,
   };
 
-  static ExerciseGenerator? find(String subject, String ageSuffix, String name) =>
-      _all['$subject$ageSuffix.$name'];
+  static ExerciseGenerator? find(
+      String subject, String ageSuffix, String name) {
+    final age = int.tryParse(ageSuffix);
+    if (age == null || age < 3 || age > 8) return null;
+    final family = age <= 5 ? '4' : '6';
+    return _all['$subject$family.$name'];
+  }
 
   static Iterable<String> get names => _all.keys;
 }

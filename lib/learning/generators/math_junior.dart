@@ -37,9 +37,14 @@ class MathJunior {
     final asks = withEmpty ? ['one', 'many', 'none'] : ['one', 'many'];
     final ask = g.pick(asks);
     ExerciseOption groupOpt(int n) => n == 0
-        ? Opt.scene([Layouts.shape('circle', const Color(0xFFE0E0E0), size: 0.7)])
+        ? Opt.scene(
+            [Layouts.shape('circle', const Color(0xFFE0E0E0), size: 0.7)])
         : Opt.group(item.emoji, n, aspect: _groupAspect);
-    final counts = <String, int>{'one': 1, 'many': many, if (withEmpty) 'none': 0};
+    final counts = <String, int>{
+      'one': 1,
+      'many': many,
+      if (withEmpty) 'none': 0
+    };
     final correct = counts[ask]!;
     final others = counts.values.where((v) => v != correct).toList();
     return g.choice(
@@ -62,13 +67,19 @@ class MathJunior {
     final n = g.range(min, max);
     final item = g.pick(g.countables());
     final optCount = g.p('options', 3);
-    final nums = g.numberChoices(n, count: optCount, min: min == 0 ? 0 : 1, max: max < 5 ? 5 : max, spread: 2);
+    final nums = g.numberChoices(n,
+        count: optCount,
+        min: min == 0 ? 0 : 1,
+        max: g.age == 3 ? 3 : (max < 5 ? 5 : max),
+        spread: 2);
 
     switch (mode) {
       case 'group':
         return g.choice(
           say: g.say('find_group_n', {'n': n, 'item': item}),
-          options: [for (final v in nums) Opt.group(item.emoji, v, aspect: _groupAspect)],
+          options: [
+            for (final v in nums) Opt.group(item.emoji, v, aspect: _groupAspect)
+          ],
           concept: 'number:$n',
           meta: {'answer': n},
         );
@@ -83,7 +94,8 @@ class MathJunior {
       default:
         return g.choice(
           say: g.say('count_how_many', {'item': item}),
-          visual: SceneVisual(Layouts.group(item.emoji, n, aspect: 2), aspect: 2),
+          visual:
+              SceneVisual(Layouts.group(item.emoji, n, aspect: 2), aspect: 2),
           options: [for (final v in nums) Opt.number(v)],
           concept: 'number:$n',
           drag: mode == 'drag',
@@ -105,7 +117,8 @@ class MathJunior {
       concept: 'number_match:${numbers.join(",")}',
       pairs: [
         for (var i = 0; i < pairsCount; i++)
-          MatchPair(Opt.number(numbers[i]), Opt.group(items[i].emoji, numbers[i], aspect: _groupAspect)),
+          MatchPair(Opt.number(numbers[i]),
+              Opt.group(items[i].emoji, numbers[i], aspect: _groupAspect)),
       ],
       meta: {'numbers': numbers.join(',')},
     );
@@ -155,7 +168,8 @@ class MathJunior {
       say: g.say(ask == 'more' ? 'where_more' : 'where_less', {'item': item}),
       options: [
         Opt.group(item.emoji, correct, aspect: _groupAspect),
-        for (final v in values.where((v) => v != correct)) Opt.group(item.emoji, v, aspect: _groupAspect),
+        for (final v in values.where((v) => v != correct))
+          Opt.group(item.emoji, v, aspect: _groupAspect),
       ],
       concept: 'compare_quantity:$ask',
       meta: {'answer': correct, 'values': values.join(',')},
@@ -166,7 +180,11 @@ class MathJunior {
   static Exercise longShort(GenContext g) {
     final count = g.p('items', 2);
     final ask = g.pick(g.pl('ask').isEmpty ? ['long'] : g.pl('ask'));
-    final palette = g.sample(g.lex.colors.where((c) => !{'white', 'black', 'brown'}.contains(c.id)).toList(), count);
+    final palette = g.sample(
+        g.lex.colors
+            .where((c) => !{'white', 'black', 'brown'}.contains(c.id))
+            .toList(),
+        count);
     final gap = g.p('gapPct', 40) / 100;
     final longest = 0.82 + g.rng.nextDouble() * 0.12;
     final lengths = <double>[longest];
@@ -189,7 +207,11 @@ class MathJunior {
         );
     return g.choice(
       say: g.say(ask == 'long' ? 'find_long' : 'find_short'),
-      options: [bar(correctIdx), for (var i = 0; i < count; i++) if (i != correctIdx) bar(i)],
+      options: [
+        bar(correctIdx),
+        for (var i = 0; i < count; i++)
+          if (i != correctIdx) bar(i)
+      ],
       concept: 'length:$ask',
       meta: {'answer': ask},
     );
@@ -204,9 +226,17 @@ class MathJunior {
     final ys = count == 2 ? [0.18, 0.82] : [0.15, 0.5, 0.85];
     final order = List<int>.generate(count, (i) => i)..shuffle(g.rng);
     final scene = <SceneItem>[
-      const SceneItem(kind: SceneKind.bar, value: 'ground', color: Color(0xFF8D6E63), x: 0.5, y: 0.97, size: 0.05, length: 0.96),
+      const SceneItem(
+          kind: SceneKind.bar,
+          value: 'ground',
+          color: Color(0xFF8D6E63),
+          x: 0.5,
+          y: 0.97,
+          size: 0.05,
+          length: 0.96),
       for (var i = 0; i < count; i++)
-        Layouts.emoji(items[i].emoji, size: 0.26, x: (i + 0.5) / count, y: ys[order[i]]),
+        Layouts.emoji(items[i].emoji,
+            size: 0.26, x: (i + 0.5) / count, y: ys[order[i]]),
     ];
     final highestIdx = order.indexOf(0);
     final lowestIdx = order.indexOf(count - 1);
@@ -229,8 +259,10 @@ class MathJunior {
     final count = g.p('items', 2);
     final ask = g.pick(g.pl('ask').isEmpty ? ['left'] : g.pl('ask'));
     final items = g.sample(g.countables(), count);
-    final scene = Layouts.row([for (final e in items) Layouts.emoji(e.emoji, size: 0.5)]);
-    final idx = switch (ask) { 'left' => 0, 'right' => count - 1, _ => count ~/ 2 };
+    final scene =
+        Layouts.row([for (final e in items) Layouts.emoji(e.emoji, size: 0.5)]);
+    final idx =
+        switch (ask) { 'left' => 0, 'right' => count - 1, _ => count ~/ 2 };
     return g.choice(
       say: g.say('which_$ask'),
       visual: SceneVisual(scene, aspect: count * 0.9),
@@ -252,11 +284,17 @@ class MathJunior {
     if (g.pb('objects')) {
       // "Qizil narsani top" — rangli narsalar orasidan.
       final withColor = g.lex.entries
-          .where((e) => e.ageMin <= g.age && e.color != null && pool.any((c) => c.id == e.color))
+          .where((e) =>
+              e.ageMin <= g.age &&
+              e.color != null &&
+              pool.any((c) => c.id == e.color))
           .toList();
-      final target = g.pick(pool.where((c) => withColor.any((e) => e.color == c.id)).toList());
-      final correct = g.pick(withColor.where((e) => e.color == target.id).toList());
-      final wrong = g.sample(withColor.where((e) => e.color != target.id).toList(), optCount - 1);
+      final target = g.pick(
+          pool.where((c) => withColor.any((e) => e.color == c.id)).toList());
+      final correct =
+          g.pick(withColor.where((e) => e.color == target.id).toList());
+      final wrong = g.sample(
+          withColor.where((e) => e.color != target.id).toList(), optCount - 1);
       final usedColors = <String>{target.id};
       final distinctWrong = <LexiconEntry>[];
       for (final w in wrong) {
@@ -268,7 +306,10 @@ class MathJunior {
       }
       return g.choice(
         say: g.say('find_color_object', {'color': target}),
-        options: [Opt.emoji(correct.emoji), for (final w in distinctWrong) Opt.emoji(w.emoji)],
+        options: [
+          Opt.emoji(correct.emoji),
+          for (final w in distinctWrong) Opt.emoji(w.emoji)
+        ],
         concept: 'color:${target.id}',
         meta: {'answer': target.id},
       );
@@ -280,7 +321,9 @@ class MathJunior {
     final same = g.chance(0.5) ? g.pick(shapes) : null;
     return g.choice(
       say: g.say('find_color', {'color': target}),
-      options: [for (final c in chosen) Opt.shape(same ?? g.pick(shapes), c.color)],
+      options: [
+        for (final c in chosen) Opt.shape(same ?? g.pick(shapes), c.color)
+      ],
       concept: 'color:${target.id}',
       meta: {'answer': target.id},
     );
@@ -290,13 +333,16 @@ class MathJunior {
   static Exercise shapes(GenContext g) {
     final pool = g.pl('shapes').map(g.lex.shape).toList();
     final optCount = g.p('options', 3);
-    final colorsPool = g.lex.colors.where((c) => !{'white', 'black', 'brown'}.contains(c.id)).toList();
+    final colorsPool = g.lex.colors
+        .where((c) => !{'white', 'black', 'brown'}.contains(c.id))
+        .toList();
     if (g.pb('withColor')) {
       // "Qizil uchburchakni top": chalg'ituvchilar rangi yoki shakli bir xil.
       final shape = g.pick(pool);
       final color = g.pick(colorsPool);
       final otherShape = g.pick(pool.where((s) => s.id != shape.id).toList());
-      final otherColor = g.pick(colorsPool.where((c) => c.id != color.id).toList());
+      final otherColor =
+          g.pick(colorsPool.where((c) => c.id != color.id).toList());
       final options = <ExerciseOption>[
         Opt.shape(shape.id, color.color),
         Opt.shape(otherShape.id, color.color),
@@ -316,7 +362,8 @@ class MathJunior {
     return g.choice(
       say: g.say('find_shape', {'shape': chosen.first}),
       options: [
-        for (final s in chosen) Opt.shape(s.id, sameColor ? base.color : g.pick(colorsPool).color),
+        for (final s in chosen)
+          Opt.shape(s.id, sameColor ? base.color : g.pick(colorsPool).color),
       ],
       concept: 'shape:${chosen.first.id}',
       meta: {'answer': chosen.first.id},
@@ -335,11 +382,16 @@ class MathJunior {
     final shown = g.p('shown', 5);
 
     List<SceneItem> tokens;
-    List<ExerciseOption> Function(SceneItem correct, List<SceneItem> others) optionsOf;
-    final colorsPool = g.lex.colors.where((c) => !{'white', 'brown', 'black'}.contains(c.id)).toList();
+    List<ExerciseOption> Function(SceneItem correct, List<SceneItem> others)
+        optionsOf;
+    final colorsPool = g.lex.colors
+        .where((c) => !{'white', 'brown', 'black'}.contains(c.id))
+        .toList();
     switch (kind) {
       case 'shape':
-        final shapesPool = g.sample(g.lex.shapes.where((s) => s.id != 'oval').toList(), symbols.length + 1);
+        final shapesPool = g.sample(
+            g.lex.shapes.where((s) => s.id != 'oval').toList(),
+            symbols.length + 1);
         final color = g.pick(colorsPool);
         tokens = [for (final s in shapesPool) Layouts.shape(s.id, color.color)];
       case 'color':
@@ -352,9 +404,12 @@ class MathJunior {
     }
     optionsOf = (correct, others) => [
           Opt.scene([correct.copyWith(x: 0.5, y: 0.5, size: 0.75)]),
-          for (final o in others) Opt.scene([o.copyWith(x: 0.5, y: 0.5, size: 0.75)]),
+          for (final o in others)
+            Opt.scene([o.copyWith(x: 0.5, y: 0.5, size: 0.75)]),
         ];
-    final map = {for (var i = 0; i < symbols.length; i++) symbols[i]: tokens[i]};
+    final map = {
+      for (var i = 0; i < symbols.length; i++) symbols[i]: tokens[i]
+    };
     final extra = tokens.last; // chalg'ituvchi (naqshda yo'q)
     final seq = [for (var i = 0; i <= shown; i++) pat[i % pat.length]];
     final answerSymbol = seq.last;
@@ -370,7 +425,8 @@ class MathJunior {
     ].take(2).toList();
     return g.choice(
       say: g.say('what_next'),
-      visual: SceneVisual(Layouts.row(visibleItems), aspect: (shown + 1) * 0.75),
+      visual:
+          SceneVisual(Layouts.row(visibleItems), aspect: (shown + 1) * 0.75),
       options: optionsOf(correctToken, wrong),
       concept: 'pattern:$pat',
       meta: {'pattern': pat, 'answer': answerSymbol},
@@ -394,7 +450,10 @@ class MathJunior {
     return g.choice(
       say: g.say('add_pictures', {'item': item}),
       visual: SceneVisual(scene, aspect: 2.4),
-      options: [for (final v in g.numberChoices(sum, min: 1, max: max + 1, spread: 2)) Opt.number(v)],
+      options: [
+        for (final v in g.numberChoices(sum, min: 1, max: max, spread: 2))
+          Opt.number(v)
+      ],
       concept: 'add:$a+$b',
       meta: {'a': a, 'b': b, 'op': '+', 'answer': sum},
       drag: g.pb('drag'),
@@ -412,8 +471,14 @@ class MathJunior {
     final rest = a - b;
     return g.choice(
       say: g.say('sub_pictures', {'n': b, 'item': item}),
-      visual: SceneVisual(Layouts.group(item.emoji, a, aspect: 2, crossedFromEnd: true, crossed: b), aspect: 2),
-      options: [for (final v in g.numberChoices(rest, min: 0, max: max, spread: 2)) Opt.number(v)],
+      visual: SceneVisual(
+          Layouts.group(item.emoji, a,
+              aspect: 2, crossedFromEnd: true, crossed: b),
+          aspect: 2),
+      options: [
+        for (final v in g.numberChoices(rest, min: 0, max: max, spread: 2))
+          Opt.number(v)
+      ],
       concept: 'sub:$a-$b',
       meta: {'a': a, 'b': b, 'op': '-', 'answer': rest},
       drag: g.pb('drag'),
