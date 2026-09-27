@@ -19,7 +19,7 @@ def verify(apk_path):
             if actual != (source / name).read_bytes():
                 raise ValueError(f'APK dars fayli eskirgan: {name}')
             data = json.loads(actual)
-            if name.startswith(('math_', 'logic_')) and not data.get('topics'):
+            if name in required[3:] and not data.get('topics'):
                 raise ValueError(f'APK darslari bo‘sh: {name}')
     print(f'{apk_path}: 12 ta yoshga mos dastur va 3 ta yordamchi fayl tasdiqlandi.')
 
