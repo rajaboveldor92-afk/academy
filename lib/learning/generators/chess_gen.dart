@@ -159,7 +159,7 @@ class ChessGenerators {
         final base = g.say('ch_three_lang');
         final parts = [SpeechPart(n.uz, 'uz'), SpeechPart(n.ru, 'ru'), SpeechPart(n.en, 'en'), const SpeechPart('Qaysi figura?', 'uz')];
         return g.choice(
-          say: RenderedInstruction(base.text, parts.map((p) => p.text).join(' '), parts: parts),
+          say: RenderedInstruction(base.text, parts.map((p) => p.text).join(' '), parts: parts, key: base.key),
           visual: const TextVisual('🔊', scale: 0.8),
           options: [for (final t in chosen) Opt.text(whiteGlyph[t]!)],
           concept: 'chess:piece:$target',

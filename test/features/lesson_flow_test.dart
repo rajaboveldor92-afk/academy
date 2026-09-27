@@ -171,7 +171,8 @@ void main() {
     await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
     expect(find.text('Listen and find'), findsOneWidget);
     expect(find.byKey(const Key('lesson_instruction_uz')), findsOneWidget);
-    expect(audio.log.any((l) => l.startsWith('speak:en:Find the ')), isTrue, reason: audio.log.join('\n'));
+    // Dars boshida onaning ovozida "Diqqat bilan tingla", keyin ko'rsatma inglizcha.
+    expect(audio.log.any((l) => l.startsWith('parts:clip:diqqat_bilan_tingla|en:Find the ')), isTrue, reason: audio.log.join('\n'));
   });
 
   testWidgets('Русский darsi: ruscha ovoz', (tester) async {
@@ -181,7 +182,7 @@ void main() {
       child: MaterialApp(home: LessonScreen(topicId: 'russian6.alphabet', random: Random(3))),
     ));
     await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
-    expect(audio.log.any((l) => l.startsWith('speak:ru:Найди букву')), isTrue, reason: audio.log.join('\n'));
+    expect(audio.log.any((l) => l.startsWith('parts:clip:diqqat_bilan_tingla|ru:Найди букву')), isTrue, reason: audio.log.join('\n'));
   });
 
   testWidgets('3 tilda: so‘zlar uch tilda ketma-ket aytiladi', (tester) async {
@@ -205,6 +206,8 @@ void main() {
     await pumpUntil(tester, find.byKey(const Key('daily_lesson_button')));
     expect(find.text('BUGUNGI DARSim'), findsOneWidget);
     expect(find.text('6 ta qiziqarli mashq'), findsOneWidget);
+    // Onaning ovozida salom.
+    expect(audio.log, contains('parts:clip:salom_muhammadjon|clip:oynaymiz_organamiz|clip:qaysi_oyinni_tanlaymiz'));
     await tester.tap(find.byKey(const Key('daily_lesson_button')));
     await pumpUntil(tester, find.byKey(const Key('lesson_subject')));
     // Kunlik darsda har bir mashq ustida fan nomi ko'rinadi.
@@ -242,6 +245,12 @@ void main() {
     expect(progressValue(), closeTo(1 / 7, 0.0001));
     await tester.pump(const Duration(milliseconds: 50));
     expect(c.read(childProgressProvider('muhammadjon')).wrongAnswers, 1, reason: 'birinchi urinishda xato');
+    // Onaning ovozida: xatodan keyin "Sanab ko‘r", topgach — birga sanash va "To‘g‘ri topding!".
+    expect(audio.log, contains('parts:clip:sanab_kor'));
+    final answer = ex.meta['answer'] as int;
+    final counted = [for (final k in ['bir', 'ikki', 'uch'].take(answer)) 'clip:$k'].join('|');
+    expect(audio.log, contains('parts:$counted|clip:togri_topding'));
+    expect(find.text('To‘g‘ri topding!'), findsOneWidget);
     expect(c.read(childProgressProvider('muhammadjon')).scoreOf('math').total, 1);
   });
 

@@ -8,6 +8,7 @@ import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
 import '../../services/audio_service.dart';
+import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/profile_photo.dart';
 import '../../widgets/stat_chip.dart';
@@ -26,16 +27,22 @@ class HomeScreen extends ConsumerStatefulWidget {
 }
 
 class _HomeScreenState extends ConsumerState<HomeScreen> {
+  /// Ilova ochilgandan beri salom berilgan profillar (birinchi kirishda to'liq salom).
+  static final Set<String> _greeted = {};
+
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final profile = ref.read(activeProfileProvider);
-      if (profile != null) {
-        // Yumshoq ovozli salomlashuv: faqat qisqa ism bilan.
-        ref
-            .read(audioServiceProvider)
-            .speak('${profile.welcomeTitle} ${profile.welcomeSubtitle}');
+      if (profile == null) return;
+      final audio = ref.read(audioServiceProvider);
+      // Onaning ovozida salom; ota-ona o'z salomini yozgan bo'lsa — o'sha matn (faqat qisqa ism bilan).
+      final greeting = MotherVoice.greeting(profile, first: _greeted.add(profile.id));
+      if (greeting != null) {
+        audio.speakParts(greeting);
+      } else {
+        audio.speak('${profile.welcomeTitle} ${profile.welcomeSubtitle}');
       }
     });
   }
@@ -47,12 +54,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   void _openSubject(Subject subject) {
-    ref.read(audioServiceProvider).playEffect(SoundEffect.tap);
-    ref.read(audioServiceProvider).playWord(
-          subject.spokenName,
-          lang: subject.speechLang,
-          key: 'subject_${subject.id}',
-        );
+    final audio = ref.read(audioServiceProvider);
+    audio.playEffect(SoundEffect.tap);
+    final clip = MotherVoice.subjectClip(subject.id);
+    if (clip != null) {
+      audio.speakParts([MotherVoice.part(clip)]);
+    } else {
+      audio.playWord(subject.spokenName, lang: subject.speechLang, key: 'subject_${subject.id}');
+    }
     Navigator.of(context).pushNamed(AppRoutes.subject, arguments: subject);
   }
 

@@ -138,6 +138,7 @@ class GenContext {
       meta: meta,
       speechLang: say.lang,
       speechParts: say.parts,
+      instructionKey: say.key,
     );
   }
 
@@ -194,6 +195,7 @@ class GenContext {
       rewardStars: rewardStars,
       speechLang: say.lang,
       speechParts: say.parts,
+      instructionKey: say.key,
     );
   }
 

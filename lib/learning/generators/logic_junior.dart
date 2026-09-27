@@ -82,6 +82,23 @@ class LogicJunior {
   // ------------------------------------------------------------ 2 Ortig'ini top
   static Exercise oddOne(GenContext g) {
     final count = g.p('items', 3);
+    // Ba'zan shakllar bilan: hammasi har xil rangda, bittasining shakli boshqacha.
+    if (g.chance(g.p('shapePct', 0) / 100)) {
+      final pair = g.sample(const ['circle', 'square', 'triangle', 'star', 'heart'], 2);
+      final colors = g.sample(
+        g.lex.colors.where((c) => const {'red', 'blue', 'green', 'yellow', 'orange', 'purple'}.contains(c.id)).toList(),
+        count,
+      );
+      return g.choice(
+        say: g.say('odd_shape'),
+        options: [
+          Opt.shape(pair[1], colors.first.color),
+          for (final c in colors.skip(1)) Opt.shape(pair[0], c.color),
+        ],
+        concept: 'odd_shape:${pair[1]}',
+        meta: {'answer': pair[1]},
+      );
+    }
     final cats = _categoryPair(g);
     final main = g.sample(g.category(cats[0]), count - 1);
     final odd = g.pick(g.category(cats[1]));

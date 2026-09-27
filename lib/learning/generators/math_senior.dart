@@ -427,13 +427,17 @@ class MathSenior {
           b = g.range(10, 99);
         }
         final bigger = a > b ? a : b;
+        final smaller = a > b ? b : a;
+        final askSmaller = g.chance(0.4);
         return g.choice(
-          say: g.say('which_bigger'),
-          options: [Opt.number(bigger), Opt.number(a > b ? b : a)],
-          concept: 'compare100',
-          meta: {'a': a, 'b': b, 'answer': bigger},
+          say: g.say(askSmaller ? 'which_smaller' : 'which_bigger'),
+          options: askSmaller
+              ? [Opt.number(smaller), Opt.number(bigger)]
+              : [Opt.number(bigger), Opt.number(smaller)],
+          concept: askSmaller ? 'compare100:small' : 'compare100',
+          meta: {'a': a, 'b': b, 'answer': askSmaller ? smaller : bigger},
           hint: 'Avval o‘nliklarni solishtir.',
-          explanation: '${a > b ? a : b} > ${a > b ? b : a}',
+          explanation: askSmaller ? '$smaller < $bigger' : '$bigger > $smaller',
         );
       default:
         final t = g.range(1, 9), o = g.range(1, 9);

@@ -125,6 +125,17 @@ class MathJunior {
     }
     final correctSize = ask == 'big' ? sizes.first : sizes.last;
     final ordered = [correctSize, ...sizes.where((s) => s != correctSize)];
+    // Ba'zan narsa o'rniga bir xil rangli shakllar: "Eng katta shaklni tanla".
+    if (g.chance(g.p('shapePct', 0) / 100)) {
+      final shape = g.pick(const ['circle', 'square', 'triangle', 'star', 'heart']);
+      final color = g.pick(g.lex.colors.where((c) => const {'red', 'blue', 'green', 'yellow', 'orange', 'purple'}.contains(c.id)).toList());
+      return g.choice(
+        say: g.say(ask == 'big' ? 'find_big_shape' : 'find_small_shape'),
+        options: [for (final s in ordered) Opt.shape(shape, color.color, size: s)],
+        concept: 'size:$ask',
+        meta: {'answer': ask, 'shape': shape},
+      );
+    }
     return g.choice(
       say: g.say(ask == 'big' ? 'find_big' : 'find_small', {'item': item}),
       options: [for (final s in ordered) Opt.emoji(item.emoji, size: s)],
@@ -396,7 +407,7 @@ class MathJunior {
       visual: SceneVisual(scene, aspect: 2.4),
       options: [for (final v in g.numberChoices(sum, min: 1, max: max + 1, spread: 2)) Opt.number(v)],
       concept: 'add:$a+$b',
-      meta: {'a': a, 'b': b, 'op': '+', 'answer': sum},
+      meta: {'a': a, 'b': b, 'op': '+', 'answer': sum, 'item': item.id},
       drag: g.pb('drag'),
       hint: 'Hammasini birga sana.',
       explanation: '$a + $b = $sum',

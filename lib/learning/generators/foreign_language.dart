@@ -142,7 +142,7 @@ class ForeignLanguage {
   static RenderedInstruction listenSay(GenContext g, String lang, String speechKey, Map<String, Object> params) {
     final shown = g.sayIn(lang, 'lg_listen');
     final spoken = g.sayIn(lang, speechKey, params);
-    return RenderedInstruction(shown.text, spoken.speech, lang: lang);
+    return RenderedInstruction(shown.text, spoken.speech, lang: lang, key: shown.key);
   }
 
   static Localized w(String text) => Localized.same(text);

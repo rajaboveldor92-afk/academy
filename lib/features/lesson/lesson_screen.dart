@@ -30,6 +30,7 @@ import '../../learning/ui/trace_view.dart';
 import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../services/audio_service.dart';
+import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/profile_themes.dart';
 import '../../widgets/star_burst.dart';
@@ -70,6 +71,11 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   List<MedalDef> _newMedals = const [];
   int _index = 0;
   int _stars = 0;
+
+  /// Onaning ovozidagi maqtov va dalda navbati (bir xil ibora ketma-ket takrorlanmasin).
+  int _praiseTurn = 0;
+  int _mistakeTurn = 0;
+  String? _praiseText;
   String? _banner;
   bool _bannerHint = false;
   bool _lastCorrect = false;
@@ -157,29 +163,44 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   void _speakCurrent() {
     if (_phase != _Phase.playing || _items.isEmpty) return;
     final ex = _current;
-    // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi.
+    // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi; avval — "Yaxshilab qara. Rasmlarni eslab qol."
     if (ex.kind == ExerciseKind.memory || (ex.kind == ExerciseKind.assemble && ex.previewVisual != null)) {
-      _audio.speak('Yaxshilab qara va eslab qol!');
+      _audio.speakParts(MotherVoice.memorize());
       return;
     }
-    _speakExercise(ex);
+    _speakExercise(ex, intro: _index == 0);
   }
 
-  /// Ko'rsatmani o'z tilida (yoki bir necha tilda ketma-ket) aytadi.
-  void _speakExercise(Exercise ex) {
-    if (ex.speechParts.isNotEmpty) {
-      _audio.speakParts(ex.speechParts);
+  /// Ko'rsatmani aytadi: onaning yozib olingan ovozida (mazmuni mos ibora bo'lsa) yoki
+  /// mashqning o'z tilida. Tinglash darsi boshida — "Diqqat bilan tingla."
+  void _speakExercise(Exercise ex, {bool intro = false}) {
+    final parts = [
+      if (intro && MotherVoice.isListening(ex)) MotherVoice.part('diqqat_bilan_tingla'),
+      ...MotherVoice.instruction(ex),
+    ];
+    if (parts.length == 1 && parts.first.clip == null) {
+      _audio.speak(parts.first.text, lang: parts.first.lang);
     } else {
-      _audio.speak(ex.speech, lang: ex.speechLang);
+      _audio.speakParts(parts);
     }
   }
 
   void _onMistake(int mistakes) {
     final ex = _current;
-    _audio.encourage(lang: ex.speechLang);
+    // O'zbekcha mashqlarda — onaning ovozida dalda va mashqqa mos maslahat.
+    // Chet tili darsida birinchi xatoda — o'sha tilda dalda, ikkinchisida — "Yana bir marta eshit" + ko'rsatma.
+    final List<SpeechPart>? say = ex.speechLang == 'uz'
+        ? MotherVoice.afterMistake(ex, mistakes, _mistakeTurn++)
+        : (mistakes >= 2 ? [MotherVoice.part('yana_eshit'), ...MotherVoice.instruction(ex)] : null);
+    if (say == null) {
+      _audio.encourage(lang: ex.speechLang);
+    } else {
+      _audio.playEffect(SoundEffect.tryAgain);
+      _audio.speakParts(say);
+    }
     setState(() {
       _bannerHint = mistakes >= 2 && ex.hint != null;
-      _banner = _bannerHint ? ex.hint : FeedbackPhrases.randomEncourage(ex.speechLang);
+      _banner = _bannerHint ? ex.hint : (say?.first.text ?? FeedbackPhrases.randomEncourage(ex.speechLang));
     });
   }
 
@@ -197,11 +218,22 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     ));
     if (!firstTry && !item.retry) _scheduleRetry(item);
     final earned = firstTry ? ex.rewardStars : 0;
-    _audio.praise(lang: ex.speechLang);
+    // Kichik yoshda sanash mashqidan keyin onasi bilan birga sanaydi: "Bir, ikki, uch".
+    final count = _junior ? MotherVoice.countAloud(ex) : const <SpeechPart>[];
+    String? praiseText;
+    if (ex.speechLang == 'uz') {
+      final key = firstTry ? MotherVoice.praise[_praiseTurn++ % MotherVoice.praise.length] : 'togri_topding';
+      praiseText = MotherVoice.clips[key];
+      _audio.playEffect(SoundEffect.correct);
+      _audio.speakParts([...count, MotherVoice.part(key)]);
+    } else {
+      _audio.praise(lang: ex.speechLang);
+    }
     setState(() {
       _phase = _Phase.feedback;
       _lastCorrect = firstTry;
       _lastMistakes = mistakes;
+      _praiseText = praiseText;
       _banner = null;
       _stars += earned;
     });
@@ -215,7 +247,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     }
     // Kichik yoshda avtomatik o'tish; 6 yoshda izohni ko'rib, o'zi o'tadi.
     if (_junior || ex.explanation == null) {
-      _advanceTimer = Timer(const Duration(milliseconds: 1500), _next);
+      _advanceTimer = Timer(Duration(milliseconds: 1500 + count.length * 550), _next);
     }
   }
 
@@ -296,14 +328,34 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       _newMedals = medals;
       _phase = _Phase.finished;
     });
-    final message = widget.daily ? 'Bugungi darsing tugadi! Barakalla!' : _finishMessage(outcome!.decision);
     _audio.playEffect(medals.isEmpty ? SoundEffect.star : SoundEffect.medal);
-    _audio.speak(medals.isEmpty ? message : '$message Yangi medal: ${medals.first.title}!');
+    // Onaning ovozida maqtov (ism bilan), qolgani qurilma ovozida.
+    final name = MotherVoice.nameClip(profile);
+    final decision = outcome?.decision;
+    final say = <SpeechPart>[
+      if (widget.daily) ...[
+        MotherVoice.part('barakalla'),
+        if (name != null) MotherVoice.part(name),
+        MotherVoice.part('bugun_yaxshi_harakat'),
+      ] else if (decision == LevelDecision.up) ...[
+        MotherVoice.part('barakalla'),
+        if (name != null) MotherVoice.part(name),
+        const SpeechPart('Yangi daraja ochildi!', 'uz'),
+      ] else if (decision == LevelDecision.stay) ...[
+        MotherVoice.part('juda_yaxshi'),
+        const SpeechPart('Yana mashq qilamiz.', 'uz'),
+      ] else
+        SpeechPart(_finishMessage(LevelDecision.down), 'uz'),
+      if (medals.isNotEmpty) SpeechPart('Yangi medal: ${medals.first.title}!', 'uz'),
+    ];
+    _audio.speakParts(say);
   }
+
+  static const String _dailyMessage = 'Barakalla! Bugun juda yaxshi harakat qilding!';
 
   String _finishMessage(LevelDecision d) => switch (d) {
         LevelDecision.up => 'Barakalla! Yangi daraja ochildi!',
-        LevelDecision.stay => 'Yaxshi ishlading! Yana mashq qilamiz.',
+        LevelDecision.stay => 'Juda yaxshi! Yana mashq qilamiz.',
         LevelDecision.down => 'Yaxshi harakat! Keyingi safar osonroq mashqlardan boshlaymiz.',
       };
 
@@ -503,9 +555,8 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
 
   Widget _feedbackOverlay(Exercise ex, ProfileTheme theme) {
     final phrases = FeedbackPhrases.praise[ex.speechLang] ?? FeedbackPhrases.praise['uz']!;
-    final praise = _lastCorrect
-        ? phrases[_index % phrases.length]
-        : (ex.speechLang == 'uz' ? 'Topding! Barakalla!' : phrases.last);
+    final praise = _praiseText ??
+        (_lastCorrect ? phrases[_index % phrases.length] : (ex.speechLang == 'uz' ? 'To‘g‘ri topding!' : phrases.last));
     final showExplanation = !_junior && ex.explanation != null;
     return Positioned.fill(
       child: IgnorePointer(
@@ -574,7 +625,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
             Text('⭐' * starsRow, style: const TextStyle(fontSize: 64)),
             const SizedBox(height: 12),
             Text(
-              widget.daily ? 'Bugungi darsing tugadi! Barakalla!' : _finishMessage(decision),
+              widget.daily ? _dailyMessage : _finishMessage(decision),
               key: const Key('lesson_result'),
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: theme.primary),

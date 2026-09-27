@@ -55,14 +55,17 @@
    "tags": [],
    "levels": [
     {
-     "items": 3
-    },
-    {
-     "items": 4
+     "items": 3,
+     "shapePct": 30
     },
     {
      "items": 4,
-     "near": true
+     "shapePct": 30
+    },
+    {
+     "items": 4,
+     "near": true,
+     "shapePct": 20
     }
    ]
   },

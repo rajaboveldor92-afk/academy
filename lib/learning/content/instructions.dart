@@ -10,12 +10,15 @@ import 'uz_numbers.dart';
 /// * [lang] — ovoz tili (va ekranda asosiy ko'rsatiladigan til): chet tili darsida `en`/`ru`.
 /// * [parts] — bir necha tildagi nutq ("Apple" + "qaysi rasm?"); bo'sh bo'lsa [speech] aytiladi.
 class RenderedInstruction {
-  const RenderedInstruction(this.text, this.speech, {this.lang = 'uz', this.parts = const []});
+  const RenderedInstruction(this.text, this.speech, {this.lang = 'uz', this.parts = const [], this.key = ''});
 
   final Localized text;
   final String speech;
   final String lang;
   final List<SpeechPart> parts;
+
+  /// Ko'rsatmalar bankidagi kalit (`count_how_many` ...) — yozib olingan ovozni tanlash uchun.
+  final String key;
 }
 
 /// Ko'rsatmalar banki (`assets/data/instructions.json`).
@@ -58,10 +61,11 @@ class InstructionBank {
     );
     if (speechLang != 'uz') {
       final template = t['speech_$speechLang'] ?? t[speechLang]!;
-      return RenderedInstruction(text, speechFor(fill(speechLang, template, speech: true), speechLang), lang: speechLang);
+      return RenderedInstruction(text, speechFor(fill(speechLang, template, speech: true), speechLang),
+          lang: speechLang, key: key);
     }
     final speechTemplate = t['speech'] ?? t['uz']!;
-    return RenderedInstruction(text, toSpeech(fill('uz', speechTemplate, speech: true)));
+    return RenderedInstruction(text, toSpeech(fill('uz', speechTemplate, speech: true)), key: key);
   }
 
   /// Chet tilidagi matnni ovoz uchun tayyorlash (sonlar so'z bilan).

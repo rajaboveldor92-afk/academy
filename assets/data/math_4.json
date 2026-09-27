@@ -217,7 +217,8 @@
      "ask": [
       "big"
      ],
-     "gapPct": 50
+     "gapPct": 50,
+     "shapePct": 35
     },
     {
      "items": 2,
@@ -225,7 +226,8 @@
       "big",
       "small"
      ],
-     "gapPct": 40
+     "gapPct": 40,
+     "shapePct": 35
     },
     {
      "items": 3,
@@ -233,7 +235,8 @@
       "big",
       "small"
      ],
-     "gapPct": 45
+     "gapPct": 45,
+     "shapePct": 35
     }
    ]
   },

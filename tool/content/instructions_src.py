@@ -18,6 +18,8 @@ I = {
  # --- Katta/kichik, ko'p/kam, uzun/qisqa
  "find_big": ("Eng kattasini top", "Find the biggest one", "Найди самый большой"),
  "find_small": ("Eng kichigini top", "Find the smallest one", "Найди самый маленький"),
+ "find_big_shape": ("Eng katta shaklni tanla", "Choose the biggest shape", "Выбери самую большую фигуру"),
+ "find_small_shape": ("Eng kichik shaklni tanla", "Choose the smallest shape", "Выбери самую маленькую фигуру"),
  "where_more": ("Qayerda ko‘proq?", "Where are there more?", "Где больше?"),
  "where_less": ("Qayerda kamroq?", "Where are there fewer?", "Где меньше?"),
  "find_long": ("Eng uzun lentani top", "Find the longest ribbon", "Найди самую длинную ленту"),
@@ -68,6 +70,7 @@ I = {
  "number_between": ("{a} va {b} orasida qaysi son bor?", "Which number is between {a} and {b}?", "Какое число между {a} и {b}?"),
  "compare_sign": ("Qaysi belgi to‘g‘ri: katta, kichik yoki teng?", "Which sign fits: greater, less or equal?", "Какой знак: больше, меньше или равно?"),
  "which_bigger": ("Qaysi son katta?", "Which number is bigger?", "Какое число больше?"),
+ "which_smaller": ("Qaysi son kichik?", "Which number is smaller?", "Какое число меньше?"),
  "tens_and_ones": ("{t} ta o‘nlik va {o} ta birlik. Bu qaysi son?", "{t} tens and {o} ones. Which number is it?", "{t} десятков и {o} единиц. Какое это число?"),
  "can_pair": ("Hamma {item}ni juftlab bo‘ladimi?", "Can they all be put in pairs? ({item})", "Можно ли всё разложить парами? ({item})"),
  "find_even": ("Juft sonni top", "Find the even number", "Найди чётное число"),
@@ -88,6 +91,7 @@ I = {
  # --- Mantiq (4 yosh)
  "find_same": ("Xuddi shunday rasmni top", "Find the same picture", "Найди такую же картинку"),
  "odd_one_out": ("Qaysi biri ortiqcha?", "Which one does not belong?", "Что лишнее?"),
+ "odd_shape": ("Qaysi shakl boshqalardan farq qiladi?", "Which shape is different?", "Какая фигура отличается?"),
  "find_shadow": ("{item}ning soyasini top", "Find its shadow ({item})", "Найди тень ({item})"),
  "match_pairs": ("Bir-biriga mosini juftla", "Match the things that go together", "Соедини то, что подходит друг другу"),
  "animal_home": ("Har bir jonivorni uyiga olib bor", "Take each animal to its home", "Отведи каждого к его дому"),

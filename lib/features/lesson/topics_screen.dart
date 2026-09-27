@@ -9,6 +9,7 @@ import '../../models/child_profile.dart';
 import '../../models/child_progress.dart';
 import '../../models/subject.dart';
 import '../../router/app_router.dart';
+import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/pressable_scale.dart';
 import '../profiles/profiles_controller.dart';
@@ -46,8 +47,14 @@ class TopicsScreen extends ConsumerWidget {
     return cleared.clamp(0, t.maxLevel).toInt();
   }
 
-  void _open(BuildContext context, WidgetRef ref, Topic t) {
-    ref.read(audioServiceProvider).speak(t.title.uz);
+  void _open(BuildContext context, WidgetRef ref, Topic t, {bool resume = false}) {
+    final audio = ref.read(audioServiceProvider);
+    // "Davom etamiz" kartasi — onaning ovozida; boshqa mavzu — uning nomi.
+    if (resume) {
+      audio.speakParts([MotherVoice.part('davom_etamiz')]);
+    } else {
+      audio.speak(t.title.uz);
+    }
     Navigator.of(context).pushNamed(AppRoutes.lesson, arguments: t.id);
   }
 
@@ -104,7 +111,7 @@ class TopicsScreen extends ConsumerWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(12, 12, 12, 8),
       child: PressableScale(
-        onTap: () => _open(context, ref, rec),
+        onTap: () => _open(context, ref, rec, resume: true),
         child: Container(
           key: const Key('continue_topic'),
           padding: const EdgeInsets.all(18),

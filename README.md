@@ -236,6 +236,19 @@ Yangi mavzu qo‘shish:
 
 ## Audio
 
+- **Onaning ovozi** (`assets/audio/uz/ona/*.ogg`, 58 ibora): asl yozuv (2:16) iboralarga bo‘lingan —
+  `python3 tool/audio/cut_mother_voice.py Academy_ona_ovozi.mp3` (vaqtlar: `tool/audio/mother_voice_clips.json`).
+  Qayerda eshitiladi (`lib/services/mother_voice.dart`):
+  - bosh sahifa: "Salom, Azamjon/Muhammadjon, xush kelibsan! Keling, birga o‘ynaymiz va o‘rganamiz. Qaysi o‘yinni
+    tanlaymiz?" (qayta kirishda qisqa: "Salom! Azamjon. Keling, birga o‘ynaymiz."); Mantiq fani nomi; "Davom etamiz";
+  - ko‘rsatmalar (mazmuni mos bo‘lsa): ko‘p/kam, katta/kichik son, keyingi son, yetishmayotgan son, eng katta/kichik
+    shakl, farq qiladigan rasm/shakl, bir xil rasmlar, juftini top, soyasini top, to‘g‘ri yo‘l, keyin nima keladi,
+    yetishmayotgan shakl, "Nechta olma bor?", "Qizil doirani tanla", xotira mashqida "Yaxshilab qara. Rasmlarni eslab qol";
+  - tinglash darsi boshida "Diqqat bilan tingla"; xatodan keyin dalda va maslahat ("Sanab ko‘r", "Qo‘shib hisobla",
+    "Shoshilma", "Yana bir marta eshit" + ko‘rsatma qayta); to‘g‘ri javobda maqtov; kichik yoshda birga sanash
+    ("Bir, ikki, uch"); dars yakuni ism bilan ("Barakalla, Azamjon! Bugun juda yaxshi harakat qilding"); vaqt tugaganda
+    "Endi biroz dam olamiz".
+  Yozuv bo‘lmagan gaplar qurilma ovozida (TTS) aytiladi. Ssenariydagi "Rag‘bat va yakun" bo‘lim sarlavhasi bolaga aytilmaydi.
 - **Ovoz effektlari** (`assets/audio/rewards/{tap,correct,tryAgain,star,medal}.ogg`) va **fon musiqasi**
   (`assets/audio/music/theme.ogg`, 22 soniyalik uzluksiz kuy) — originali, `python3 tool/audio/make_sounds.py`
   bilan sintez qilingan (tashqi namuna yo‘q). Fon musiqasi sukut bo‘yicha o‘chiq; ota-ona panelida yoqiladi,

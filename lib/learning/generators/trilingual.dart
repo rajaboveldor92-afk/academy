@@ -65,7 +65,7 @@ class Trilingual {
   }
 
   static RenderedInstruction _withParts(RenderedInstruction base, List<SpeechPart> parts) =>
-      RenderedInstruction(base.text, parts.map((p) => p.text).join(' '), parts: parts);
+      RenderedInstruction(base.text, parts.map((p) => p.text).join(' '), parts: parts, key: base.key);
 
   // ------------------------------------------------------------ Eshit → rasm
   /// Rejimlar: `en`, `ru` (bitta til), `all3` (uch tilda ketma-ket).

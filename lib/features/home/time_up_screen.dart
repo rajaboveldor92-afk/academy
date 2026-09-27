@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
 
 /// Kunlik limit tugaganda ko'rsatiladigan mehribon xabar.
 class TimeUpScreen extends ConsumerStatefulWidget {
   const TimeUpScreen({super.key});
 
-  static const String message = 'Bugun juda yaxshi ishlading! Ertaga davom etamiz.';
+  static const String message = 'Bugun juda yaxshi harakat qilding! Endi biroz dam olamiz. Ertaga davom etamiz.';
 
   @override
   ConsumerState<TimeUpScreen> createState() => _TimeUpScreenState();
@@ -19,7 +20,8 @@ class _TimeUpScreenState extends ConsumerState<TimeUpScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      ref.read(audioServiceProvider).speak(TimeUpScreen.message);
+      // Onaning ovozida: "Bugun juda yaxshi harakat qilding. Endi biroz dam olamiz."
+      ref.read(audioServiceProvider).speakParts(MotherVoice.parts(['bugun_yaxshi_harakat', 'dam_olamiz']));
     });
   }
 

@@ -679,6 +679,7 @@ class Exercise {
     this.meta = const {},
     this.speechLang = 'uz',
     this.speechParts = const [],
+    this.instructionKey = '',
   });
 
   final String topicId;
@@ -697,6 +698,10 @@ class Exercise {
 
   /// Bir necha tildagi nutq (3 tilda o'rganamiz): bo'sh bo'lmasa [speech] o'rniga aytiladi.
   final List<SpeechPart> speechParts;
+
+  /// Ko'rsatmalar bankidagi kalit (`where_more`, `count_how_many` ...). Yozib olingan
+  /// ovozni tanlash uchun; mashq kaliti ([signature]) ga kirmaydi.
+  final String instructionKey;
 
   /// Ekranda ko'rsatiladigan asosiy ko'rsatma.
   String get prompt => instruction.of(speechLang);

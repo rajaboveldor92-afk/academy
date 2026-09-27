@@ -26,8 +26,9 @@ Asosiy tamoyillar:
   dinamik yaratiladi: har bir mavzu × daraja uchun o‘nlab–minglab original variant.
 - **Yosh → dastur** avtomatik: `age <= 5` → `*_4.json`, `age >= 6` → `*_6.json`.
 - **Bola ekranida foiz yo‘q** — faqat yulduzlar va yutuqlar; foizlar faqat ota-ona panelida.
-- **Audio**: avval `assets/audio/<lang>/<key>.mp3`; fayl bo‘lmasa, qurilmaning offline TTS ovozi
-  (uz → tr zaxira; en-US, ru-RU). Chet tili ko‘rsatmalari o‘z tilida, "3 tilda" — ketma-ket.
+- **Audio**: onaning yozib olingan ovozi (`assets/audio/uz/ona/`, `MotherVoice` — qaysi ibora qayerda), keyin
+  `assets/audio/<lang>/<key>.mp3`; fayl bo‘lmasa — qurilmaning offline TTS ovozi (uz → tr zaxira; en-US, ru-RU).
+  Chet tili ko‘rsatmalari o‘z tilida, "3 tilda" — ketma-ket.
 
 ## 2. Papkalar
 

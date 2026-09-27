@@ -121,7 +121,7 @@ class SocialGames {
         : null;
     final say = g.say('so_choice', {'text': Localized.same(c.text)});
     return g.choice(
-      say: speech == null ? say : RenderedInstruction(say.text, InstructionBank.toSpeech(speech)),
+      say: speech == null ? say : RenderedInstruction(say.text, InstructionBank.toSpeech(speech), key: say.key),
       visual: _scene(c.scene),
       options: [opt(c.good), for (final o in c.others) opt(o)],
       concept: '${c.kind}:${c.id}',

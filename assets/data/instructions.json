@@ -226,6 +226,16 @@
    "en": "Find the smallest one",
    "ru": "Найди самый маленький"
   },
+  "find_big_shape": {
+   "uz": "Eng katta shaklni tanla",
+   "en": "Choose the biggest shape",
+   "ru": "Выбери самую большую фигуру"
+  },
+  "find_small_shape": {
+   "uz": "Eng kichik shaklni tanla",
+   "en": "Choose the smallest shape",
+   "ru": "Выбери самую маленькую фигуру"
+  },
   "where_more": {
    "uz": "Qayerda ko‘proq?",
    "en": "Where are there more?",
@@ -456,6 +466,11 @@
    "en": "Which number is bigger?",
    "ru": "Какое число больше?"
   },
+  "which_smaller": {
+   "uz": "Qaysi son kichik?",
+   "en": "Which number is smaller?",
+   "ru": "Какое число меньше?"
+  },
   "tens_and_ones": {
    "uz": "{t} ta o‘nlik va {o} ta birlik. Bu qaysi son?",
    "en": "{t} tens and {o} ones. Which number is it?",
@@ -520,6 +535,11 @@
    "uz": "Qaysi biri ortiqcha?",
    "en": "Which one does not belong?",
    "ru": "Что лишнее?"
+  },
+  "odd_shape": {
+   "uz": "Qaysi shakl boshqalardan farq qiladi?",
+   "en": "Which shape is different?",
+   "ru": "Какая фигура отличается?"
   },
   "find_shadow": {
    "uz": "{item}ning soyasini top",
