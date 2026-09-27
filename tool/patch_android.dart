@@ -82,12 +82,16 @@ void main() {
   }
 }
 
+const String _propsKts = '''
+// A&M Academy: android/key.properties bo'lsa — barqaror release imzosi.
+val academyKeyProps = Properties().apply {
+    val f = rootProject.file("key.properties")
+    if (f.exists()) f.inputStream().use { stream -> load(stream) }
+}
+
+''';
+
 const String _signingKts = '''
-    // A&M Academy: android/key.properties bo'lsa — barqaror release imzosi.
-    val academyKeyProps = java.util.Properties().apply {
-        val f = rootProject.file("key.properties")
-        if (f.exists()) f.inputStream().use { load(it) }
-    }
     signingConfigs {
         if (academyKeyProps.getProperty("storeFile") != null) {
             create("academy") {
@@ -107,7 +111,11 @@ String _patchSigningKts(String text) {
     print('build.gradle.kts: "android {" bloki topilmadi — imzo sozlanmadi.');
     return text;
   }
+  // android { ... } ichida `java` — Gradle kengaytmasi, shuning uchun Properties import qilinadi
+  // va kalit fayli blokdan tashqarida o'qiladi.
   text = text.replaceRange(android.end, android.end, '\n$_signingKts');
+  text = text.replaceRange(android.start, android.start, _propsKts);
+  if (!text.contains('import java.util.Properties')) text = 'import java.util.Properties\n\n$text';
   const debugLine = 'signingConfig = signingConfigs.getByName("debug")';
   if (text.contains(debugLine)) {
     text = text.replaceFirst(
