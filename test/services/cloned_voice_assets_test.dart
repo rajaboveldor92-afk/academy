@@ -33,7 +33,9 @@ void main() {
       expect(voiced(s), isTrue, reason: s);
     }
     for (final s in Subject.values) {
-      expect(voiced(s.spokenIn('uz').$1), isTrue, reason: s.id);
+      final (name, lang) = s.spokenIn('uz');
+      // English / Русский fan nomi o'z tilida aytiladi.
+      if (lang == 'uz') expect(voiced(name), isTrue, reason: s.id);
     }
   });
 
