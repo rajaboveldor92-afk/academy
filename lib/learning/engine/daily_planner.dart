@@ -38,7 +38,7 @@ class PlannedExercise {
 class DailyPlanner {
   DailyPlanner._();
 
-  static const Set<String> skipGenerators = {'activity', 'play', 'jigsaw'};
+  static const Set<String> skipGenerators = {'activity', 'play', 'jigsaw', 'test'};
 
   static const List<String> juniorOrder = [
     'math', 'uzbek', 'logic', 'english', 'memory', 'writing', 'russian', 'attention', 'trilingual', 'motor', 'social', 'chess',
@@ -47,7 +47,13 @@ class DailyPlanner {
     'math', 'uzbek', 'writing', 'logic', 'english', 'russian', 'chess', 'math', 'memory', 'attention', 'trilingual', 'social',
   ];
 
-  static int sizeFor(int age) => age <= 5 ? 6 : 10;
+  /// Maktab o'quvchilari: fanlar navbati (matematika va ona tili ko'proq).
+  static const List<String> schoolOrder = [
+    'math', 'onatili', 'english', 'reading', 'russian', 'science', 'math', 'informatics', 'history', 'onatili',
+    'geography', 'biology', 'physics', 'chemistry',
+  ];
+
+  static int sizeFor(int age, {int grade = 0}) => grade > 0 ? 10 : (age <= 5 ? 6 : 10);
 
   static List<PlannedExercise> build({
     required ContentRepository content,
@@ -58,10 +64,12 @@ class DailyPlanner {
     Random? rng,
     int difficultyBias = 0,
     String lang = 'uz',
+    int grade = 0,
   }) {
     final random = rng ?? Random();
-    final suffix = age <= 5 ? '4' : '6';
-    final total = sizeFor(age);
+    // Maktab o'quvchisi — sinf dasturi (`g3`), shaxmat — 6 yosh dasturi.
+    String suffixOf(String subject) => grade > 0 ? (subject == 'chess' ? '6' : 'g$grade') : (age <= 5 ? '4' : '6');
+    final total = sizeFor(age, grade: grade);
     final plan = <PlannedExercise>[];
     final usedTopics = <String>{};
 
@@ -72,7 +80,9 @@ class DailyPlanner {
     for (final r in SpacedRepetition.due(progress.reviews, now)) {
       if (reviews.length >= total ~/ 3) break;
       final t = content.topic(r.topicId);
-      if (t == null || t.ageSuffix != suffix || !isEnabled(t.subject) || skipGenerators.contains(t.generator)) continue;
+      if (t == null || t.ageSuffix != suffixOf(t.subject) || !isEnabled(t.subject) || skipGenerators.contains(t.generator)) {
+        continue;
+      }
       if (usedTopics.contains(t.id)) continue;
       final ex = LessonBuilder.similar(
         content: content,
@@ -90,14 +100,14 @@ class DailyPlanner {
     }
 
     // 2) Fanlar navbati (har kuni boshqa fandan boshlanadi).
-    final order = age <= 5 ? juniorOrder : seniorOrder;
+    final order = grade > 0 ? schoolOrder : (age <= 5 ? juniorOrder : seniorOrder);
     final offset = now.difference(DateTime(2024)).inDays % order.length;
     final fresh = <PlannedExercise>[];
     var guard = 0;
     for (var i = 0; fresh.length + reviews.length < total && guard < order.length * 3; i++, guard++) {
       final subject = order[(offset + i) % order.length];
       if (!isEnabled(subject)) continue;
-      final c = content.curriculum(subject, suffix);
+      final c = content.curriculum(subject, suffixOf(subject));
       if (c == null) continue;
       final t = nextTopic(c.topics, progress, random, exclude: usedTopics);
       if (t == null) continue;

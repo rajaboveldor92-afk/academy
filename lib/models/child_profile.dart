@@ -23,7 +23,11 @@ class ChildProfile {
     this.disabledSubjects = const <String>[],
     this.difficultyBias = 0,
     this.language = 'uz',
+    this.grade = 0,
   });
+
+  /// Maktab sinflari: 1–8 (0 — maktabgacha).
+  static const int maxGrade = 8;
 
   /// Ilova tillari: o'zbek, rus, ingliz.
   static const List<String> languages = ['uz', 'ru', 'en'];
@@ -39,9 +43,11 @@ class ChildProfile {
     String? photoPath,
     String greeting = '',
     String language = 'uz',
+    int grade = 0,
     DateTime? now,
   }) {
     final group = AgeGroup.fromAge(age);
+    final g = _clampGrade(grade);
     return ChildProfile(
       id: id,
       name: name.trim(),
@@ -52,14 +58,17 @@ class ChildProfile {
       greeting: greeting.trim(),
       colorIndex: colorIndex,
       language: languages.contains(language) ? language : 'uz',
-      dailyLimitMinutes:
-          group.isJunior ? AppConstants.defaultLimitYoung : AppConstants.defaultLimitOlder,
+      grade: g,
+      dailyLimitMinutes: g > 0
+          ? AppConstants.defaultLimitSchool
+          : (group.isJunior ? AppConstants.defaultLimitYoung : AppConstants.defaultLimitOlder),
       createdAt: now ?? DateTime.now(),
     );
   }
 
   static const String defaultGreetingJunior = 'O‘ynab-o‘rganishga tayyormisiz?';
   static const String defaultGreetingSenior = 'Bugun birga o‘rganamiz!';
+  static const String defaultGreetingSchool = 'Bugun ham yangi bilim olamiz!';
 
   final String id;
 
@@ -93,9 +102,15 @@ class ChildProfile {
 
   /// Bola ekranlari va mashqlar tili: `uz`, `ru` yoki `en` (ota-ona tanlaydi).
   final String language;
+
+  /// Maktab sinfi (1–8). 0 — maktabgacha: kontent yoshga qarab (4 / 6 yosh dasturi).
+  final int grade;
   final DateTime createdAt;
 
   AgeGroup get ageGroup => AgeGroup.fromAge(age);
+
+  /// Maktab o'quvchisi (sinf tanlangan).
+  bool get isSchool => grade > 0;
 
   bool isSubjectEnabled(String subjectId) => !disabledSubjects.contains(subjectId);
 
@@ -115,6 +130,13 @@ class ChildProfile {
   String get welcomeSubtitle {
     if (hasCustomGreeting) return greeting;
     final junior = ageGroup.isJunior;
+    if (isSchool) {
+      return switch (language) {
+        'ru' => 'Сегодня узнаем что-то новое!',
+        'en' => 'Let’s learn something new today!',
+        _ => defaultGreetingSchool,
+      };
+    }
     return switch (language) {
       'ru' => junior ? 'Готов играть и учиться?' : 'Сегодня учимся вместе!',
       'en' => junior ? 'Ready to play and learn?' : 'Let’s learn together today!',
@@ -124,7 +146,10 @@ class ChildProfile {
 
   /// Ota-ona o'z salomini yozganmi (standart matnlardan farqli).
   bool get hasCustomGreeting =>
-      greeting.isNotEmpty && greeting != defaultGreetingJunior && greeting != defaultGreetingSenior;
+      greeting.isNotEmpty &&
+      greeting != defaultGreetingJunior &&
+      greeting != defaultGreetingSenior &&
+      greeting != defaultGreetingSchool;
 
   ChildProfile copyWith({
     String? name,
@@ -139,6 +164,7 @@ class ChildProfile {
     List<String>? disabledSubjects,
     int? difficultyBias,
     String? language,
+    int? grade,
   }) {
     return ChildProfile(
       id: id,
@@ -153,6 +179,7 @@ class ChildProfile {
       disabledSubjects: disabledSubjects ?? this.disabledSubjects,
       difficultyBias: difficultyBias ?? this.difficultyBias,
       language: language ?? this.language,
+      grade: grade == null ? this.grade : _clampGrade(grade),
       createdAt: createdAt,
     );
   }
@@ -170,6 +197,7 @@ class ChildProfile {
         'disabledSubjects': List<String>.from(disabledSubjects),
         'difficultyBias': difficultyBias,
         'language': language,
+        'grade': grade,
         'createdAt': createdAt.toIso8601String(),
       };
 
@@ -194,9 +222,12 @@ class ChildProfile {
       disabledSubjects: MapUtils.asStringList(map['disabledSubjects']),
       difficultyBias: _clampBias(MapUtils.asInt(map['difficultyBias'])),
       language: languages.contains(map['language']) ? map['language'].toString() : 'uz',
+      grade: _clampGrade(MapUtils.asInt(map['grade'])),
       createdAt: MapUtils.asDate(map['createdAt']) ?? DateTime.fromMillisecondsSinceEpoch(0),
     );
   }
+
+  static int _clampGrade(int value) => value < 0 ? 0 : (value > maxGrade ? maxGrade : value);
 
   static int _clampBias(int value) {
     if (value < -1) return -1;
@@ -218,6 +249,7 @@ class ChildProfile {
       other.dailyLimitMinutes == dailyLimitMinutes &&
       other.difficultyBias == difficultyBias &&
       other.language == language &&
+      other.grade == grade &&
       other.disabledSubjects.join(',') == disabledSubjects.join(',');
 
   @override

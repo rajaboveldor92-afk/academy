@@ -164,14 +164,14 @@ void main() {
 
     test('fan kubogi mavzularni egallashga qarab o‘sadi', () {
       var p = ChildProgress.empty('a');
-      expect(Rewards.cup(p, content, 'math', 4), CupTier.none);
+      expect(Rewards.cup(p, content, 'math', '4'), CupTier.none);
       final topics = content.curriculum('math', '4')!.topics;
       for (final t in topics) {
         p = p.withSkill(t.id, SkillStat(level: t.maxLevel, ema: 100, lessons: 3));
       }
-      expect(Rewards.cup(p, content, 'math', 4), CupTier.gold);
+      expect(Rewards.cup(p, content, 'math', '4'), CupTier.gold);
       // Boshqa yosh dasturi alohida hisoblanadi.
-      expect(Rewards.cup(p, content, 'math', 6), CupTier.none);
+      expect(Rewards.cup(p, content, 'math', '6'), CupTier.none);
     });
   });
 

@@ -19,6 +19,8 @@ class Topic {
     this.prerequisites = const [],
     this.tags = const [],
     this.lessonSize,
+    this.theory,
+    this.chapter = '',
   });
 
   /// Global noyob id: `math4.count_1_5`.
@@ -48,6 +50,26 @@ class Topic {
 
   /// Mavzuga xos dars hajmi (masalan, AI bilan o'yinda — 1 ta partiya). `null` — dastur bo'yicha.
   final int? lessonSize;
+
+  /// Maktab mavzusi: mashqdan oldin ko'rsatiladigan qisqa qoida va misollar (o'zbekcha; en/ru ixtiyoriy).
+  final Localized? theory;
+
+  /// Bo'lim nomi ("1-chorak. Ko'p xonali sonlar") — mavzular ro'yxatida sarlavha.
+  final String chapter;
+
+  /// Maktab sinfi dasturi (`g3`, `g5` ...).
+  bool get isSchool => ageSuffix.startsWith('g');
+
+  /// Nazorat ishi: bir necha mavzudan aralash savollar, natija — 5 ballik baho.
+  bool get isTest => generator == 'test';
+
+  /// Qoida matni tanlangan tilda (bo'lmasa — o'zbekcha).
+  String? theoryIn(String lang) {
+    final t = theory;
+    if (t == null) return null;
+    final v = t.of(lang).trim();
+    return v.isNotEmpty ? v : (t.uz.trim().isEmpty ? null : t.uz);
+  }
 
   int get maxLevel => levels.length;
 
@@ -80,6 +102,8 @@ class Topic {
       prerequisites: MapUtils.asStringList(json['prerequisites']),
       tags: MapUtils.asStringList(json['tags']),
       lessonSize: json['lessonSize'] is num ? (json['lessonSize'] as num).toInt() : null,
+      theory: json['theory'] == null ? null : Localized.fromJson(json['theory']),
+      chapter: (json['chapter'] ?? '').toString(),
     );
   }
 }
@@ -118,14 +142,16 @@ class Curriculum {
   factory Curriculum.fromJson(Map<String, dynamic> json) {
     final subject = json['subject'].toString();
     final suffix = json['ageGroup'].toString();
-    final ageMin = MapUtils.asInt(json['ageMin'], suffix == '4' ? 3 : 6);
-    final ageMax = MapUtils.asInt(json['ageMax'], suffix == '4' ? 5 : 8);
+    // Maktab dasturi: `g3` → 3-sinf (taxminan 8–10 yosh).
+    final grade = suffix.startsWith('g') ? int.tryParse(suffix.substring(1)) ?? 0 : 0;
+    final ageMin = MapUtils.asInt(json['ageMin'], grade > 0 ? grade + 5 : (suffix == '4' ? 3 : 6));
+    final ageMax = MapUtils.asInt(json['ageMax'], grade > 0 ? grade + 7 : (suffix == '4' ? 5 : 8));
     return Curriculum(
       subject: subject,
       ageSuffix: suffix,
       title: Localized.fromJson(json['title']),
       model: (json['model'] ?? '').toString(),
-      lessonSize: MapUtils.asInt(json['lessonSize'], suffix == '4' ? 6 : 10),
+      lessonSize: MapUtils.asInt(json['lessonSize'], suffix == '4' ? 6 : (grade > 0 ? 8 : 10)),
       topics: (json['topics'] as List? ?? const [])
           .map((e) => Topic.fromJson(
                 MapUtils.asStringMap(e),

@@ -31,6 +31,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
   late final TextEditingController _fullName;
   late final TextEditingController _greeting;
   late int _age;
+  late int _grade;
   late String _avatar;
   late int _themeIndex;
   late String _language;
@@ -53,6 +54,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     _fullName = TextEditingController(text: p?.fullName ?? '');
     _greeting = TextEditingController(text: p?.greeting ?? '');
     _age = p?.age ?? 5;
+    _grade = p?.grade ?? 0;
     _avatar = p?.avatar ?? AppConstants.avatars.first;
     _themeIndex = (p?.colorIndex ?? ref.read(profilesProvider).length) % ProfileThemes.all.length;
     _photoPath = p?.photoPath;
@@ -85,6 +87,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
         greeting: _greeting.text.trim(),
         colorIndex: _themeIndex,
         language: _language,
+        grade: _grade,
         dailyLimitMinutes: 0,
         createdAt: DateTime.fromMillisecondsSinceEpoch(0),
       );
@@ -166,6 +169,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           colorIndex: _themeIndex,
           photoPath: _photoPath,
           language: _language,
+          grade: _grade,
         );
       } else {
         await notifier.updateProfile(initial.copyWith(
@@ -178,6 +182,7 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           photoPath: _photoPath,
           clearPhoto: _photoPath == null,
           language: _language,
+          grade: _grade,
         ));
       }
       _saved = true;
@@ -291,6 +296,24 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
                     selected: _age == a,
                     onSelected: (_) => setState(() => _age = a),
                     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                  ),
+              ],
+            ),
+            const SizedBox(height: 20),
+            Text(t.gradeLabel, style: textTheme.titleMedium),
+            const SizedBox(height: 4),
+            Text(t.gradeHint, style: textTheme.bodySmall),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                for (var g = 0; g <= ChildProfile.maxGrade; g++)
+                  ChoiceChip(
+                    key: Key('grade_$g'),
+                    label: Text(t.gradeName(g)),
+                    selected: _grade == g,
+                    onSelected: (_) => setState(() => _grade = g),
                   ),
               ],
             ),

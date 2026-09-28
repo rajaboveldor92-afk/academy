@@ -254,7 +254,7 @@ void main() {
     expect(content.curriculum('trilingual', '4')!.topics.length, greaterThanOrEqualTo(6));
     expect(content.curriculum('trilingual', '6')!.topics.length, greaterThanOrEqualTo(6));
     // Har bir fan (bosh sahifadagi har bir karta) ikkala yosh uchun dasturga ega.
-    for (final subject in Subject.values) {
+    for (final subject in Subject.values.where((s) => s.preschool)) {
       for (final age in ['4', '6']) {
         expect(content.curriculum(subject.id, age), isNotNull, reason: '${subject.id}_$age');
         expect(content.curriculum(subject.id, age)!.topics, isNotEmpty, reason: '${subject.id}_$age');
@@ -448,7 +448,8 @@ void main() {
           final where = '${topic.id} L$level';
           expect(ExerciseValidator.isPlayable(e), isTrue, reason: '$where: o‘ynab bo‘lmaydi');
           expect(e.instruction.isComplete, isTrue, reason: '$where: tarjima');
-          expect(e.instruction.uz.contains('{'), isFalse, reason: '$where: ${e.instruction.uz}');
+          // Maktab mashqlarida shablon yo'q ({…} — to'plam belgisi bo'lishi mumkin).
+          if (!topic.isSchool) expect(e.instruction.uz.contains('{'), isFalse, reason: '$where: ${e.instruction.uz}');
           expect(RegExp(r'\d').hasMatch(e.speech), isFalse, reason: '$where: ovozda raqam: ${e.speech}');
           for (final text in allText(e)) {
             for (final bad in unsupportedEmoji) {
@@ -459,7 +460,7 @@ void main() {
           checkCorrectOption(e);
           // Yoshga moslik: 4 yosh — 10 gacha, 6 yosh — 100 gacha.
           final ans = e.meta['answer'];
-          if (topic.subject == 'math' && ans is int) {
+          if (topic.subject == 'math' && ans is int && !topic.isSchool) {
             expect(ans, inInclusiveRange(0, topic.ageSuffix == '4' ? 10 : 100), reason: where);
           }
           if (e.kind == ExerciseKind.sudoku) {

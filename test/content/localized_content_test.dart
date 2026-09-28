@@ -55,7 +55,8 @@ void main() {
   for (final lang in const ['ru', 'en']) {
     test('$lang: barcha mavzular — ko‘rsatma va maslahatlar bolaning tilida', () {
       var total = 0;
-      for (final topic in content.allTopics) {
+      // Maktab fanlari mashqlari hozircha o'zbekcha.
+      for (final topic in content.allTopics.where((t) => !t.isSchool)) {
         final gen = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator)!;
         final age = topic.ageSuffix == '4' ? 4 : 6;
         for (var level = 1; level <= topic.maxLevel; level++) {
@@ -91,7 +92,7 @@ void main() {
     });
 
     test('$lang: har bir mavzu va daraja uchun to‘liq dars tuziladi', () {
-      for (final topic in content.allTopics) {
+      for (final topic in content.allTopics.where((t) => !t.isSchool)) {
         final c = content.curriculum(topic.subject, topic.ageSuffix)!;
         final size = topic.lessonSize ?? c.lessonSize;
         for (var level = 1; level <= topic.maxLevel; level++) {

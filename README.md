@@ -19,6 +19,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 8 | ▶ Bugungi darsim (fanlar aralash kunlik dars), takrorlash (shu dars → ertaga → 3 kun → 7 kun), 🌳 bog‘, 🎁 sovg‘a qutisi va kolleksiya, 🏅 24 medal, 🏆 fan kuboklari | ✅ |
 | CONTENT 9 | 📊 Ota-ona uchun batafsil hisobot: vaqt va faol kunlar, aniqlik, har fan bo‘yicha egallash %, har mavzu holati (daraja, foiz, oxirgi mashq), takrorlash navbati, kuchli tomonlar va e’tibor kerak bo‘lgan mavzular, tavsiyalar | ✅ |
 | CONTENT 10 | Yakuniy QA va release | ✅ |
+| Maktab rejimi | 1–8-sinf: profilda sinf, Jasmina (3-sinf) va Akramjon (5-sinf); qoida → mashq → nazorat ishi (5 ballik baho), javobni klaviaturada yozish. Matematika 3 va 5-sinf ✅, boshqa fanlar va sinflar — navbatda | 🟡 |
 | Ilova tillari | O‘zbekcha, Русский, English — har bir bolaga alohida (interfeys + mashqlar), ota-ona bo‘limi uchun umumiy til | ✅ |
 
 ## O‘quv dvigateli
@@ -76,6 +77,22 @@ sudoku/labirint/kodlash yechimi borligi, har darajada ≥ 15 xil savol va umumiy
 O‘zbek tili: bo‘g‘inlar so‘zni tashkil etishi, har bo‘g‘inda bitta unli, lug‘at bog‘lanishlari, so‘z hajmi
 (4 yosh ≥ 250, 6 yosh ≥ 500). Yozish: har bir harf/raqam uchun chiziq borligi, namuna o‘tishi,
 tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
+
+## Maktab rejimi (1–8-sinf)
+
+* Profilda **sinf** tanlanadi (Ota-ona → profil tahriri → «Sinf»). Sinf tanlangan bola uchun fanlar va mavzular
+  shu sinf dasturidan olinadi, kichiklar esa yoshiga qarab (4 / 6 yosh dasturi) o‘ynaydi. Bir ilovada 4 bola:
+  Azamjon (6 yosh), Muhammadjon (4 yosh), Jasmina (3-sinf), Akramjon (5-sinf).
+* Fanlar (O‘zbekiston tayanch o‘quv rejasi bo‘yicha): Matematika, Ona tili, O‘qish / Adabiyot, Ingliz tili,
+  Rus tili (2-sinfdan), Tabiiy fan (1–6), Tarix (5-sinfdan), Informatika, Geografiya, Biologiya, Fizika, Kimyo (7–8).
+  Dasturi tayyor bo‘lgan fanlargina bosh sahifada ko‘rinadi.
+* Dars formati: **qisqa qoida va misollar** (📘, dars davomida ham ochiladi) → **mashqlar** (tanlash yoki javobni
+  ekrandagi klaviaturada yozish: son, kasr `3/4`, o‘nli kasr `0,75`) → har chorak oxirida **nazorat ishi**
+  (10 ta aralash savol, 5 ballik baho: ≥90% — 5, ≥70% — 4, ≥50% — 3).
+* Maktab o‘quvchisiga ko‘rsatma avtomatik o‘qib berilmaydi (o‘zi o‘qiydi, 🔊 bosilsa aytiladi); chet tili darslari bundan mustasno.
+* Kontent: `tool/content/school/*.py` → `assets/data/school/<fan>_g<sinf>.json`; generatorlar `lib/learning/generators/school/`.
+  Mavzular darslik tartibiga moslangan, tushuntirish va savollar o‘zimizniki (darslik matnlari ko‘chirilmagan).
+* Tekshiruv: `test/content/school_content_test.dart` — har bir mashq javobi mustaqil hisoblab tekshiriladi.
 
 ## Ilova tillari
 

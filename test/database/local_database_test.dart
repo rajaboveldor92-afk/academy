@@ -13,21 +13,39 @@ void main() {
   setUp(() async => t = await TestDb.open());
   tearDown(() async => t.dispose());
 
-  test('seed Azamjon (6) va Muhammadjon (4) ni bir marta yaratadi', () async {
+  test('seed Azamjon (6), Muhammadjon (4), Jasmina (3-sinf) va Akramjon (5-sinf) ni bir marta yaratadi', () async {
     await SeedData.ensureSeeded(t.db);
     var profiles = t.db.getProfiles();
-    expect(profiles.map((p) => p.name), ['Azamjon', 'Muhammadjon']);
-    expect(profiles.map((p) => p.age), [6, 4]);
-    expect(profiles.map((p) => p.fullName),
-        ['Odilbekov Azamjon Eldorovich', 'Odilbekov Muhammadjon Eldorovich']);
-    expect(profiles.first.colorIndex, isNot(profiles.last.colorIndex));
+    expect(profiles.map((p) => p.name), ['Azamjon', 'Muhammadjon', 'Jasmina', 'Akramjon']);
+    expect(profiles.map((p) => p.age), [6, 4, 9, 11]);
+    expect(profiles.map((p) => p.grade), [0, 0, 3, 5]);
+    expect(profiles.map((p) => p.fullName), [
+      'Odilbekov Azamjon Eldorovich',
+      'Odilbekov Muhammadjon Eldorovich',
+      'Odilbekova Jasmina Temurbekovna',
+      'Odilbekov Akramjon Temurbekovich',
+    ]);
+    expect(profiles.map((p) => p.colorIndex).toSet().length, 4);
     expect(t.db.getSettings().dataVersion, SeedData.currentDataVersion);
 
     // O'chirilgan profil qayta paydo bo'lmasligi kerak.
     await t.db.deleteProfile('muhammadjon');
     await SeedData.ensureSeeded(t.db);
     profiles = t.db.getProfiles();
-    expect(profiles.map((p) => p.name), ['Azamjon']);
+    expect(profiles.map((p) => p.name), ['Azamjon', 'Jasmina', 'Akramjon']);
+  });
+
+  test('v2 o‘rnatmasiga Jasmina va Akramjon bir marta qo‘shiladi', () async {
+    await t.db.saveProfile(SeedData.azamjon(DateTime(2026)));
+    await t.db.saveSettings(const AppSettings(seeded: true, dataVersion: 2));
+    await SeedData.ensureSeeded(t.db);
+    expect(t.db.getProfile('jasmina')!.grade, 3);
+    expect(t.db.getProfile('akramjon')!.grade, 5);
+    expect(t.db.getProfile('akramjon')!.dailyLimitMinutes, 40);
+    expect(t.db.getSettings().dataVersion, SeedData.currentDataVersion);
+    await t.db.deleteProfile('jasmina');
+    await SeedData.ensureSeeded(t.db);
+    expect(t.db.getProfile('jasmina'), isNull);
   });
 
   test('profil saqlanadi va qayta o\'qiladi', () async {
@@ -78,19 +96,20 @@ void main() {
     );
     final json = t.db.exportJson(now: now);
 
-    await t.db.deleteProfile('azamjon');
-    await t.db.deleteProfile('muhammadjon');
+    for (final p in t.db.getProfiles()) {
+      await t.db.deleteProfile(p.id);
+    }
     expect(t.db.getProfiles(), isEmpty);
 
     await t.db.importJson(json);
-    expect(t.db.getProfiles().length, 2);
+    expect(t.db.getProfiles().length, 4);
     expect(t.db.getProgress('azamjon').stars, 5);
   });
 
   test('noto\'g\'ri backup fayli rad etiladi va ma\'lumot saqlanib qoladi', () async {
     await SeedData.ensureSeeded(t.db);
     await expectLater(t.db.importJson('{"foo": 1}'), throwsFormatException);
-    expect(t.db.getProfiles().length, 2);
+    expect(t.db.getProfiles().length, 4);
   });
 
   test("v1 o'rnatmasi v2 ga migratsiya qilinadi (to'liq ism, salom, mavzu)", () async {
@@ -114,7 +133,7 @@ void main() {
   test('xotiradagi baza Hive bilan bir xil saqlaydi va o‘qiydi', () async {
     final db = LocalDatabase.memory();
     await SeedData.ensureSeeded(db);
-    expect(db.getProfiles().map((p) => p.name), ['Azamjon', 'Muhammadjon']);
+    expect(db.getProfiles().map((p) => p.name), ['Azamjon', 'Muhammadjon', 'Jasmina', 'Akramjon']);
     final progress = ChildProgress.empty('azamjon')
         .addStars(12)
         .completeDaily(DateTime(2026, 9, 26, 9))
@@ -129,7 +148,7 @@ void main() {
     final copy = LocalDatabase.memory();
     await copy.importJson(db.exportJson());
     expect(copy.getProgress('azamjon').stars, 12);
-    expect(copy.getProfiles().length, 2);
+    expect(copy.getProfiles().length, 4);
     await db.deleteProfile('azamjon');
     expect(db.getProfile('azamjon'), isNull);
     expect(db.getAllProgress().containsKey('azamjon'), isFalse);

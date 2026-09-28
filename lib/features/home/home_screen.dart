@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
+import '../../learning/content/content_provider.dart';
 import '../../learning/engine/daily_planner.dart';
 import '../../learning/engine/rewards.dart';
 import '../../l10n/tr.dart';
@@ -97,7 +98,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     }
 
     final progress = ref.watch(childProgressProvider(profile.id));
-    final subjects = Subject.values.where((s) => profile.isSubjectEnabled(s.id)).toList();
+    // Bolaga mos fanlar (maktabgacha yoki sinfiga qarab); dasturi hali yo'q fanlar ko'rsatilmaydi.
+    final content = ref.watch(contentProvider).valueOrNull;
+    final subjects = [
+      for (final s in Subject.forProfile(profile))
+        if (profile.isSubjectEnabled(s.id) && (content == null || content.curriculum(s.id, s.suffixFor(profile)) != null)) s,
+    ];
     final width = MediaQuery.sizeOf(context).width;
     final columns = width >= 900 ? 4 : (width >= 600 ? 3 : 2);
     final t = Tr(profile.language);
@@ -117,7 +123,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             _DailyLessonCard(
               done: progress.dailyDoneOn(ref.read(clockProvider)()),
               junior: profile.ageGroup.isJunior,
-              exercises: DailyPlanner.sizeFor(profile.age),
+              exercises: DailyPlanner.sizeFor(profile.age, grade: profile.grade),
               color: AppColors.profileColor(profile.colorIndex),
               onTap: _openDailyLesson,
             ),
@@ -147,7 +153,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   return SubjectTile(
                     key: Key('tile_${s.id}'),
                     emoji: s.emoji,
-                    title: s.titleIn(profile.language),
+                    title: s.titleForGrade(profile.language, profile.grade),
                     color: s.color,
                     compactLabel: profile.ageGroup.isJunior,
                     badge: progress.currentLevels.containsKey(s.id)
@@ -189,11 +195,23 @@ class _Header extends StatelessWidget {
           ProfilePhoto(profile: profile, size: 52, showBadge: false),
           const SizedBox(width: 10),
           Expanded(
-            child: Text(
-              profile.name,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: Theme.of(context).textTheme.headlineSmall,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  profile.name,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                if (profile.isSchool)
+                  Text(
+                    Tr.of(context).gradeName(profile.grade),
+                    key: const Key('home_grade'),
+                    style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.textSoft),
+                  ),
+              ],
             ),
           ),
           StatChip(icon: '⭐', value: '$stars'),

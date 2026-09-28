@@ -81,6 +81,9 @@ enum ExerciseKind {
 
   /// "Ota-ona bilan bajaramiz": ekrandan tashqari faoliyat kartasi.
   activity,
+
+  /// Javobni klaviaturada yozish (maktab: son, kasr, o'nli kasr).
+  input,
 }
 
 /// Javob varianti: rasm (visual) va/yoki matn.
@@ -331,6 +334,35 @@ class ActivityTask {
   final int minutes;
 
   String describe() => 'activity:$id';
+}
+
+/// Javobni yozish: ekrandagi klaviatura bilan son, kasr (`3/4`) yoki o'nli kasr (`2,5`).
+class InputTask {
+  const InputTask({required this.answer, this.accept = const [], this.keys = 'digits', this.unit = ''});
+
+  /// To'g'ri javob (ekranda ko'rsatiladigan ko'rinishi).
+  final String answer;
+
+  /// Qabul qilinadigan boshqa yozuvlar (masalan `0,5` va `,5`).
+  final List<String> accept;
+
+  /// Klaviatura: `digits`, `fraction` (+ `/`), `decimal` (+ `,`), `signed` (+ `−`).
+  final String keys;
+
+  /// Javob yonidagi birlik (`sm`, `kg`, `so‘m`) — faqat ko'rsatish uchun.
+  final String unit;
+
+  static String normalize(String s) =>
+      s.replaceAll(' ', '').replaceAll('.', ',').replaceAll('−', '-').replaceAll(RegExp(r'^\+'), '');
+
+  bool isCorrect(String value) {
+    final v = normalize(value);
+    if (v.isEmpty) return false;
+    if (v == normalize(answer)) return true;
+    return accept.any((a) => normalize(a) == v);
+  }
+
+  String describe() => 'input:$answer';
 }
 
 /// Shaxmat topshirig'i. Katak raqami: `qator * size + ustun` (0-qator — yuqorida).
@@ -671,6 +703,7 @@ class Exercise {
     this.spot,
     this.jigsaw,
     this.activity,
+    this.input,
     this.previewVisual,
     this.previewSeconds = 0,
     this.hint,
@@ -727,6 +760,7 @@ class Exercise {
   final SpotTask? spot;
   final JigsawTask? jigsaw;
   final ActivityTask? activity;
+  final InputTask? input;
 
   /// [ExerciseKind.memory]: avval ko'rsatiladigan rasm va vaqti.
   final ExerciseVisual? previewVisual;
@@ -772,6 +806,7 @@ class Exercise {
     if (spot != null) b.write('|${spot!.describe()}');
     if (jigsaw != null) b.write('|${jigsaw!.describe()}');
     if (activity != null) b.write('|${activity!.describe()}');
+    if (input != null) b.write('|${input!.describe()}');
     if (previewVisual != null) b.write('|pre:${previewVisual!.describe()}');
     return b.toString();
   }

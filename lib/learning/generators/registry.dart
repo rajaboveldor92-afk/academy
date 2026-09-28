@@ -13,6 +13,7 @@ import 'trilingual.dart';
 import 'uzbek_junior.dart';
 import 'uzbek_senior.dart';
 import 'writing.dart';
+import 'school/school_registry.dart';
 
 /// Barcha generatorlar ro'yxati. Kalit — dastur JSON'idagi `generator` qiymati,
 /// fan prefiksi bilan: `math4.count_objects`, `logic6.coding`.
@@ -48,10 +49,14 @@ class GeneratorRegistry {
     for (final e in SocialGames.generators.entries) 'social6.${e.key}': e.value,
     for (final e in SocialGames.generators.entries) 'family4.${e.key}': e.value,
     for (final e in SocialGames.generators.entries) 'family6.${e.key}': e.value,
+    ...SchoolGenerators.all,
   };
 
-  static ExerciseGenerator? find(String subject, String ageSuffix, String name) =>
-      _all['$subject$ageSuffix.$name'];
+  /// Maktab dasturi (`g3`, `g5` ...) — `school.<fan>.<nom>`, keyin umumiy `school.<nom>`.
+  static ExerciseGenerator? find(String subject, String ageSuffix, String name) {
+    if (ageSuffix.startsWith('g')) return _all['school.$subject.$name'] ?? _all['school.$name'];
+    return _all['$subject$ageSuffix.$name'];
+  }
 
   static Iterable<String> get names => _all.keys;
 }

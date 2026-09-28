@@ -1,0 +1,1572 @@
+{
+ "subject": "math",
+ "ageGroup": "g3",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g3.table",
+   "code": "1",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Ko‘paytirish jadvali",
+    "en": "Times tables",
+    "ru": "Таблица умножения"
+   },
+   "generator": "mul_table",
+   "skill": "mul_table",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 2,
+     "max": 5,
+     "division": false,
+     "mode": "choice"
+    },
+    {
+     "min": 2,
+     "max": 9,
+     "division": true,
+     "mode": "mixed"
+    },
+    {
+     "min": 2,
+     "max": 9,
+     "division": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘paytirish — bir xil sonlarni qo‘shishning qisqa yozuvi: 4 · 3 = 4 + 4 + 4 = 12.\nBo‘lish — ko‘paytirishga teskari amal: 12 : 3 = 4, chunki 4 · 3 = 12.\n• Istalgan son · 1 = shu son;  istalgan son · 0 = 0.\n• Ko‘paytuvchilar o‘rnini almashtirsa ham natija o‘zgarmaydi: 6 · 7 = 7 · 6 = 42."
+   }
+  },
+  {
+   "id": "math_g3.review_100",
+   "code": "2",
+   "emoji": "➕",
+   "title": {
+    "uz": "100 ichida qo‘shish va ayirish",
+    "en": "Adding and subtracting within 100",
+    "ru": "Сложение и вычитание в пределах 100"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10,
+     "max": 50,
+     "mode": "choice"
+    },
+    {
+     "min": 10,
+     "max": 99,
+     "mode": "mixed"
+    },
+    {
+     "min": 10,
+     "max": 99,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ikki xonali sonlarni qo‘shishda o‘nliklar o‘nliklarga, birliklar birliklarga qo‘shiladi:\n47 + 25 = (40 + 20) + (7 + 5) = 60 + 12 = 72.\nAyirishda birliklar yetmasa, bitta o‘nlikni birliklarga aylantiramiz: 63 − 28 = 35."
+   }
+  },
+  {
+   "id": "math_g3.three_digit",
+   "code": "3",
+   "emoji": "💯",
+   "title": {
+    "uz": "Uch xonali sonlar",
+    "en": "Three-digit numbers",
+    "ru": "Трёхзначные числа"
+   },
+   "generator": "place_value",
+   "skill": "place_value",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.review_100"
+   ],
+   "levels": [
+    {
+     "min": 100,
+     "max": 999,
+     "modes": [
+      "place",
+      "expanded"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 100,
+     "max": 999,
+     "modes": [
+      "place",
+      "expanded",
+      "write"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "min": 100,
+     "max": 999,
+     "modes": [
+      "write",
+      "expanded",
+      "count"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Uch xonali son uchta xonadan iborat: yuzlar, o‘nlar va birlar.\n507 = 5 yuzlik + 0 o‘nlik + 7 birlik = 500 + 7.\nSon yozilganda bo‘sh xonaga 0 qo‘yiladi: “to‘rt yuz sakkiz” — 408."
+   }
+  },
+  {
+   "id": "math_g3.multi_digit",
+   "code": "4",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ko‘p xonali sonlar",
+    "en": "Multi-digit numbers",
+    "ru": "Многозначные числа"
+   },
+   "generator": "place_value",
+   "skill": "place_value",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.three_digit"
+   ],
+   "levels": [
+    {
+     "min": 1000,
+     "max": 9999,
+     "modes": [
+      "place",
+      "expanded"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 1000,
+     "max": 99999,
+     "modes": [
+      "place",
+      "expanded",
+      "write",
+      "count"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "min": 10000,
+     "max": 999999,
+     "modes": [
+      "write",
+      "expanded",
+      "count"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘p xonali sonlar o‘ngdan chapga uchta xonadan sinflarga bo‘linadi: birlar sinfi va minglar sinfi.\n45 302 — qirq besh ming uch yuz ikki.\nXonalar: birlar, o‘nlar, yuzlar, minglar, o‘n minglar, yuz minglar.\nPozitsion sanoq: bitta raqam turgan joyiga qarab turli qiymat oladi — 3 045 da 3 minglarni, 345 da yuzlarni bildiradi."
+   }
+  },
+  {
+   "id": "math_g3.compare",
+   "code": "5",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Sonlarni taqqoslash",
+    "en": "Comparing numbers",
+    "ru": "Сравнение чисел"
+   },
+   "generator": "compare",
+   "skill": "compare",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.multi_digit"
+   ],
+   "levels": [
+    {
+     "min": 100,
+     "max": 999,
+     "mode": "choice"
+    },
+    {
+     "min": 1000,
+     "max": 9999,
+     "mode": "choice"
+    },
+    {
+     "min": 10000,
+     "max": 999999,
+     "mode": "choice"
+    }
+   ],
+   "theory": {
+    "uz": "Ikki sonni taqqoslash:\n1) Xonalari ko‘p bo‘lgan son katta: 1 205 > 987.\n2) Xonalar soni teng bo‘lsa, chapdan boshlab raqamlarni solishtiramiz: 4 563 < 4 571 (o‘nlar: 6 < 7).\nBelgilar: > katta, < kichik, = teng."
+   }
+  },
+  {
+   "id": "math_g3.round",
+   "code": "6",
+   "emoji": "🎯",
+   "title": {
+    "uz": "Sonlarni yaxlitlash",
+    "en": "Rounding numbers",
+    "ru": "Округление чисел"
+   },
+   "generator": "round",
+   "skill": "round",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.compare"
+   ],
+   "levels": [
+    {
+     "max": 999,
+     "places": [
+      "10"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 9999,
+     "places": [
+      "10",
+      "100"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "max": 99999,
+     "places": [
+      "10",
+      "100",
+      "1000"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Sonni yaxlitlashda keyingi xonadagi raqamga qaraymiz:\n• 0, 1, 2, 3, 4 bo‘lsa — pastga: 342 ≈ 340.\n• 5, 6, 7, 8, 9 bo‘lsa — yuqoriga: 347 ≈ 350.\nYuzlargacha: 2 651 ≈ 2 700."
+   }
+  },
+  {
+   "id": "math_g3.add",
+   "code": "7",
+   "emoji": "➕",
+   "title": {
+    "uz": "Ko‘p xonali sonlarni qo‘shish",
+    "en": "Adding multi-digit numbers",
+    "ru": "Сложение многозначных чисел"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.multi_digit"
+   ],
+   "levels": [
+    {
+     "min": 100,
+     "max": 999,
+     "ops": [
+      "+"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 1000,
+     "max": 9999,
+     "ops": [
+      "+"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "min": 1000,
+     "max": 99999,
+     "ops": [
+      "+"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ustun usulida qo‘shish: sonlarni xonama-xona ustma-ust yozamiz va birlardan boshlaymiz.\n  2 468\n+ 1 357\n  3 825\nXonadagi yig‘indi 10 dan oshsa, 1 ni keyingi xonaga o‘tkazamiz (8 + 7 = 15: 5 yoziladi, 1 o‘tadi)."
+   }
+  },
+  {
+   "id": "math_g3.sub",
+   "code": "8",
+   "emoji": "➖",
+   "title": {
+    "uz": "Ko‘p xonali sonlarni ayirish",
+    "en": "Subtracting multi-digit numbers",
+    "ru": "Вычитание многозначных чисел"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [
+    "math_g3.add"
+   ],
+   "levels": [
+    {
+     "min": 100,
+     "max": 999,
+     "ops": [
+      "-"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 1000,
+     "max": 9999,
+     "ops": [
+      "-"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "min": 1000,
+     "max": 99999,
+     "ops": [
+      "-"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ustun usulida ayirish: birlardan boshlaymiz.\n  5 302\n− 1 745\n  3 557\nRaqam yetmasa, chapdagi xonadan 1 ta birlik “olamiz” (u 10 ga aylanadi).\nTekshirish: ayirma + ayiriluvchi = kamayuvchi (3 557 + 1 745 = 5 302)."
+   }
+  },
+  {
+   "id": "math_g3.test1",
+   "code": "N1",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Takrorlash va ko‘p xonali sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g3.table",
+      "math_g3.review_100",
+      "math_g3.three_digit",
+      "math_g3.multi_digit",
+      "math_g3.compare",
+      "math_g3.round",
+      "math_g3.add",
+      "math_g3.sub"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g3.table",
+      "math_g3.review_100",
+      "math_g3.three_digit",
+      "math_g3.multi_digit",
+      "math_g3.compare",
+      "math_g3.round",
+      "math_g3.add",
+      "math_g3.sub"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g3.table",
+      "math_g3.review_100",
+      "math_g3.three_digit",
+      "math_g3.multi_digit",
+      "math_g3.compare",
+      "math_g3.round",
+      "math_g3.add",
+      "math_g3.sub"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g3.pow10",
+   "code": "9",
+   "emoji": "🔟",
+   "title": {
+    "uz": "10, 100, 1000 ga ko‘paytirish va bo‘lish",
+    "en": "Multiplying and dividing by 10, 100, 1000",
+    "ru": "Умножение и деление на 10, 100, 1000"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.table"
+   ],
+   "levels": [
+    {
+     "aMin": 2,
+     "aMax": 50,
+     "modes": [
+      "pow10"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 2,
+     "aMax": 99,
+     "modes": [
+      "pow10"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "aMin": 12,
+     "aMax": 999,
+     "modes": [
+      "pow10"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "10 ga ko‘paytirishda son oxiriga bitta 0 yoziladi: 37 · 10 = 370.\n100 ga — ikkita 0: 37 · 100 = 3 700;  1000 ga — uchta 0: 37 · 1000 = 37 000.\nOxiri nollar bilan tugagan sonni 10, 100, 1000 ga bo‘lishda shuncha 0 olib tashlanadi: 4 500 : 100 = 45."
+   }
+  },
+  {
+   "id": "math_g3.mul",
+   "code": "10",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Bir xonali songa ko‘paytirish",
+    "en": "Multiplying by a one-digit number",
+    "ru": "Умножение на однозначное число"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.table"
+   ],
+   "levels": [
+    {
+     "aMin": 11,
+     "aMax": 49,
+     "bMin": 2,
+     "bMax": 5,
+     "modes": [
+      "mul"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 12,
+     "aMax": 99,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "mul"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "aMin": 101,
+     "aMax": 999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "mul"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Taqsimot xossasi: (a + b) · c = a · c + b · c.\n34 · 6 = 30 · 6 + 4 · 6 = 180 + 24 = 204.\nUstun usulida birlardan boshlaymiz: 4 · 6 = 24 → 4 yoziladi, 2 o‘nlik keyingi xonaga qo‘shiladi."
+   }
+  },
+  {
+   "id": "math_g3.div",
+   "code": "11",
+   "emoji": "➗",
+   "title": {
+    "uz": "Bir xonali songa bo‘lish",
+    "en": "Dividing by a one-digit number",
+    "ru": "Деление на однозначное число"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.mul"
+   ],
+   "levels": [
+    {
+     "aMin": 20,
+     "aMax": 99,
+     "bMin": 2,
+     "bMax": 5,
+     "modes": [
+      "div"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 20,
+     "aMax": 999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "div"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "aMin": 100,
+     "aMax": 9999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "div"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Yig‘indini songa bo‘lish: (60 + 12) : 6 = 60 : 6 + 12 : 6 = 10 + 2 = 12.\nBurchak usuli: chapdan boshlab bo‘lamiz. 852 : 4 → 8 : 4 = 2, 5 : 4 = 1 (qoldiq 1), 12 : 4 = 3 → 213.\nTekshirish: bo‘linma · bo‘luvchi = bo‘linuvchi (213 · 4 = 852)."
+   }
+  },
+  {
+   "id": "math_g3.remainder",
+   "code": "12",
+   "emoji": "🍬",
+   "title": {
+    "uz": "Qoldiqli bo‘lish",
+    "en": "Division with remainder",
+    "ru": "Деление с остатком"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.div"
+   ],
+   "levels": [
+    {
+     "aMin": 10,
+     "aMax": 50,
+     "bMin": 2,
+     "bMax": 5,
+     "modes": [
+      "remainder"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 10,
+     "aMax": 99,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "remainder"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "aMin": 100,
+     "aMax": 999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "remainder"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Har doim ham son qoldiqsiz bo‘linmaydi: 17 ta konfetni 5 bolaga teng bo‘lsak, har biriga 3 tadan tegadi va 2 ta qoladi.\n17 : 5 = 3 (qoldiq 2), chunki 3 · 5 + 2 = 17.\nQoidasi: qoldiq har doim bo‘luvchidan kichik bo‘ladi."
+   }
+  },
+  {
+   "id": "math_g3.order",
+   "code": "13",
+   "emoji": "🧮",
+   "title": {
+    "uz": "Amallar tartibi",
+    "en": "Order of operations",
+    "ru": "Порядок действий"
+   },
+   "generator": "order_ops",
+   "skill": "order_ops",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.mul"
+   ],
+   "levels": [
+    {
+     "max": 10,
+     "parens": false,
+     "mode": "choice"
+    },
+    {
+     "max": 20,
+     "parens": true,
+     "mode": "mixed"
+    },
+    {
+     "max": 30,
+     "parens": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ifodada amallar quyidagi tartibda bajariladi:\n1) qavs ichidagi amallar;\n2) ko‘paytirish va bo‘lish (chapdan o‘ngga);\n3) qo‘shish va ayirish (chapdan o‘ngga).\nMisol: 20 + 4 · 5 = 20 + 20 = 40;  (20 + 4) · 5 = 24 · 5 = 120."
+   }
+  },
+  {
+   "id": "math_g3.equation",
+   "code": "14",
+   "emoji": "❓",
+   "title": {
+    "uz": "Tenglamalar",
+    "en": "Equations",
+    "ru": "Уравнения"
+   },
+   "generator": "equation",
+   "skill": "equation",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [
+    "math_g3.order"
+   ],
+   "levels": [
+    {
+     "max": 50,
+     "forms": [
+      "x+a",
+      "x-a"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 100,
+     "forms": [
+      "x+a",
+      "x-a",
+      "a-x",
+      "x*a"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "max": 500,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Tenglama — noma’lum son (x) qatnashgan tenglik. Uni yechish — x ni topish.\n• x + 35 = 80 → x = 80 − 35 = 45 (noma’lum qo‘shiluvchi).\n• x − 12 = 30 → x = 30 + 12 = 42 (noma’lum kamayuvchi).\n• x · 6 = 54 → x = 54 : 6 = 9 (noma’lum ko‘paytuvchi).\nTekshirish: topilgan sonni tenglamaga qo‘yib ko‘ring."
+   }
+  },
+  {
+   "id": "math_g3.test2",
+   "code": "N2",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g3.pow10",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g3.pow10",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g3.pow10",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g3.mass",
+   "code": "15",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Massa birliklari",
+    "en": "Units of mass",
+    "ru": "Единицы массы"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "mass"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 9,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "mass"
+     ],
+     "modes": [
+      "simple",
+      "reverse"
+     ],
+     "max": 9,
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "mass"
+     ],
+     "modes": [
+      "simple",
+      "compound",
+      "reverse"
+     ],
+     "max": 20,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "1 kg = 1 000 g\n1 sentner = 100 kg\n1 t (tonna) = 1 000 kg = 10 sentner\nKatta birlikdan kichigiga o‘tishda ko‘paytiramiz: 3 kg = 3 000 g.\nKichik birlikdan kattasiga o‘tishda bo‘lamiz: 5 000 kg = 5 t."
+   }
+  },
+  {
+   "id": "math_g3.length",
+   "code": "16",
+   "emoji": "📏",
+   "title": {
+    "uz": "Uzunlik birliklari",
+    "en": "Units of length",
+    "ru": "Единицы длины"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "length"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 9,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "length"
+     ],
+     "modes": [
+      "simple",
+      "reverse"
+     ],
+     "max": 9,
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "length"
+     ],
+     "modes": [
+      "simple",
+      "compound",
+      "reverse"
+     ],
+     "max": 20,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "1 sm = 10 mm\n1 dm = 10 sm\n1 m = 10 dm = 100 sm = 1 000 mm\n1 km = 1 000 m\nMisol: 3 m 45 sm = 300 sm + 45 sm = 345 sm."
+   }
+  },
+  {
+   "id": "math_g3.area_units",
+   "code": "17",
+   "emoji": "🟩",
+   "title": {
+    "uz": "Yuza birliklari: ar va gektar",
+    "en": "Units of area: are and hectare",
+    "ru": "Единицы площади: ар и гектар"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [
+    "math_g3.length"
+   ],
+   "levels": [
+    {
+     "kinds": [
+      "area"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 9,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "area"
+     ],
+     "modes": [
+      "simple",
+      "reverse"
+     ],
+     "max": 9,
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "area"
+     ],
+     "modes": [
+      "simple",
+      "compound",
+      "reverse"
+     ],
+     "max": 20,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Yuza kvadrat birliklarda o‘lchanadi: 1 sm² — tomoni 1 sm bo‘lgan kvadrat yuzi.\n1 dm² = 100 sm²,  1 m² = 100 dm²\n1 ar (sotix) = 100 m²,  1 ga (gektar) = 100 ar = 10 000 m²\nYer maydonlari ar va gektarda o‘lchanadi."
+   }
+  },
+  {
+   "id": "math_g3.time_units",
+   "code": "18",
+   "emoji": "⏰",
+   "title": {
+    "uz": "Vaqt birliklari",
+    "en": "Units of time",
+    "ru": "Единицы времени"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "time"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 5,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "time"
+     ],
+     "modes": [
+      "simple",
+      "reverse"
+     ],
+     "max": 9,
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "time"
+     ],
+     "modes": [
+      "simple",
+      "compound",
+      "reverse"
+     ],
+     "max": 12,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "1 minut = 60 sekund\n1 soat = 60 minut\n1 sutka = 24 soat\n1 hafta = 7 kun\n1 yil = 12 oy\nMisol: 2 soat 15 minut = 120 + 15 = 135 minut."
+   }
+  },
+  {
+   "id": "math_g3.clock",
+   "code": "19",
+   "emoji": "🕰️",
+   "title": {
+    "uz": "Vaqtni hisoblash",
+    "en": "Calculating time",
+    "ru": "Вычисление времени"
+   },
+   "generator": "time_calc",
+   "skill": "time_calc",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [
+    "math_g3.time_units"
+   ],
+   "levels": [
+    {
+     "mode": "choice"
+    },
+    {
+     "mode": "mixed"
+    },
+    {
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Tugash vaqti = boshlanish vaqti + davomiylik.\nDars 8:30 da boshlanib 45 minut davom etsa: 8:30 + 30 min = 9:00, yana 15 min → 9:15.\nDavomiylik = tugash vaqti − boshlanish vaqti: 14:20 dan 16:05 gacha → 1 soat 45 minut = 105 minut."
+   }
+  },
+  {
+   "id": "math_g3.perimeter",
+   "code": "20",
+   "emoji": "⬛",
+   "title": {
+    "uz": "Perimetr va yuza",
+    "en": "Perimeter and area",
+    "ru": "Периметр и площадь"
+   },
+   "generator": "perimeter_area",
+   "skill": "perimeter_area",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 9,
+     "modes": [
+      "perimeter",
+      "square"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 12,
+     "modes": [
+      "perimeter",
+      "area",
+      "square"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "max": 20,
+     "modes": [
+      "perimeter",
+      "area",
+      "square",
+      "inverse"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Perimetr (P) — shakl barcha tomonlari uzunliklarining yig‘indisi.\nTo‘g‘ri to‘rtburchak: P = (a + b) · 2;  kvadrat: P = a · 4.\nYuza (S) — shakl egallagan joy, kvadrat birliklarda o‘lchanadi.\nTo‘g‘ri to‘rtburchak: S = a · b;  kvadrat: S = a · a.\nMisol: 6 sm va 4 sm → P = 20 sm, S = 24 sm²."
+   }
+  },
+  {
+   "id": "math_g3.volume",
+   "code": "21",
+   "emoji": "🧊",
+   "title": {
+    "uz": "Kub va parallelepiped. Hajm",
+    "en": "Cube and cuboid. Volume",
+    "ru": "Куб и параллелепипед. Объём"
+   },
+   "generator": "volume",
+   "skill": "volume",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [
+    "math_g3.perimeter"
+   ],
+   "levels": [
+    {
+     "max": 5,
+     "modes": [
+      "cube",
+      "edges"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 6,
+     "modes": [
+      "cuboid",
+      "cube",
+      "edges"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "max": 9,
+     "modes": [
+      "cuboid",
+      "cube",
+      "edges",
+      "liters"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Kubning 6 ta yog‘i (hammasi kvadrat) va 12 ta teng qirrasi bor.\nTo‘g‘ri burchakli parallelepipedning (kuboidning) yog‘lari — to‘g‘ri to‘rtburchaklar.\nHajm — jism egallagan joy, kub birliklarda: V = uzunlik · en · balandlik.\nKub: V = a · a · a. 1 dm³ = 1 litr."
+   }
+  },
+  {
+   "id": "math_g3.test3",
+   "code": "N3",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kattaliklar va geometriya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g3.mass",
+      "math_g3.length",
+      "math_g3.area_units",
+      "math_g3.time_units",
+      "math_g3.clock",
+      "math_g3.perimeter",
+      "math_g3.volume"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g3.mass",
+      "math_g3.length",
+      "math_g3.area_units",
+      "math_g3.time_units",
+      "math_g3.clock",
+      "math_g3.perimeter",
+      "math_g3.volume"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g3.mass",
+      "math_g3.length",
+      "math_g3.area_units",
+      "math_g3.time_units",
+      "math_g3.clock",
+      "math_g3.perimeter",
+      "math_g3.volume"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g3.motion",
+   "code": "22",
+   "emoji": "🚲",
+   "title": {
+    "uz": "Harakat: tezlik, vaqt, masofa",
+    "en": "Motion: speed, time, distance",
+    "ru": "Движение: скорость, время, расстояние"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "speed"
+     ],
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "speed"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "speed"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Masofa = tezlik · vaqt   (s = v · t)\nTezlik = masofa : vaqt   (v = s : t)\nVaqt = masofa : tezlik   (t = s : v)\nMisol: velosipedchi soatiga 12 km tezlik bilan 3 soat yursa, 12 · 3 = 36 km yo‘l bosadi."
+   }
+  },
+  {
+   "id": "math_g3.price",
+   "code": "23",
+   "emoji": "🛒",
+   "title": {
+    "uz": "Narx, miqdor, qiymat",
+    "en": "Price, quantity, cost",
+    "ru": "Цена, количество, стоимость"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "price"
+     ],
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "price"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "price",
+      "rate"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Qiymat = narx · miqdor\nNarx = qiymat : miqdor\nMiqdor = qiymat : narx\nMisol: bitta daftar 3 000 so‘m bo‘lsa, 4 ta daftar 12 000 so‘m turadi."
+   }
+  },
+  {
+   "id": "math_g3.work",
+   "code": "24",
+   "emoji": "🛠️",
+   "title": {
+    "uz": "Unumdorlik. Marta ko‘p, marta kam",
+    "en": "Work rate. Times more, times less",
+    "ru": "Производительность. Во сколько раз"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "work",
+      "times"
+     ],
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "work",
+      "times"
+     ],
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "work",
+      "times"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ish hajmi = unumdorlik (1 soatdagi ish) · vaqt.\n“3 marta ko‘p” — 3 ga ko‘paytiramiz; “3 marta kam” — 3 ga bo‘lamiz.\n“5 ta ko‘p” — qo‘shamiz; “5 ta kam” — ayiramiz. Masalani o‘qiganda shu so‘zlarga e’tibor bering!"
+   }
+  },
+  {
+   "id": "math_g3.problems",
+   "code": "25",
+   "emoji": "📚",
+   "title": {
+    "uz": "Qo‘shish va ayirishga doir masalalar",
+    "en": "Addition and subtraction problems",
+    "ru": "Задачи на сложение и вычитание"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 200,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 1000,
+     "mode": "mixed"
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 10000,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Masalani yechish tartibi:\n1) Diqqat bilan o‘qing: nima ma’lum, nimani topish kerak?\n2) Amalni tanlang: “hammasi”, “jami” — qo‘shish; “qoldi”, “qanchaga ko‘p/kam” — ayirish.\n3) Hisoblang va javobni tekshiring."
+   }
+  },
+  {
+   "id": "math_g3.fraction_part",
+   "code": "26",
+   "emoji": "🍕",
+   "title": {
+    "uz": "Ulush va kasrlar",
+    "en": "Parts and fractions",
+    "ru": "Доли и дроби"
+   },
+   "generator": "fraction_part",
+   "skill": "fraction_part",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [
+    "math_g3.div"
+   ],
+   "levels": [
+    {
+     "dens": [
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "max": 6,
+     "mode": "choice"
+    },
+    {
+     "dens": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+     ],
+     "max": 10,
+     "mode": "mixed"
+    },
+    {
+     "dens": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+     ],
+     "max": 12,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Butunni teng bo‘laklarga bo‘lsak, har bir bo‘lak — ulush. 1/4 — to‘rtdan bir ulush.\nKasr: 3/4 — surati 3 (nechta ulush olindi), maxraji 4 (butun nechta teng bo‘lakka bo‘lindi).\nSonning qismini topish: 20 ning 3/4 qismi = 20 : 4 · 3 = 15."
+   }
+  },
+  {
+   "id": "math_g3.fraction_ops",
+   "code": "27",
+   "emoji": "🥧",
+   "title": {
+    "uz": "Maxrajlari teng kasrlar",
+    "en": "Fractions with equal denominators",
+    "ru": "Дроби с одинаковыми знаменателями"
+   },
+   "generator": "fraction_ops",
+   "skill": "fraction_ops",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [
+    "math_g3.fraction_part"
+   ],
+   "levels": [
+    {
+     "modes": [
+      "compare"
+     ],
+     "maxDen": 8,
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "compare",
+      "add"
+     ],
+     "maxDen": 10,
+     "mode": "mixed"
+    },
+    {
+     "modes": [
+      "compare",
+      "add",
+      "sub"
+     ],
+     "maxDen": 12,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Maxrajlari teng kasrlardan surati kattasi katta: 5/8 > 3/8.\nQo‘shish va ayirishda suratlar qo‘shiladi (ayiriladi), maxraj o‘zgarmaydi:\n2/7 + 3/7 = 5/7;  6/9 − 2/9 = 4/9.\nJavobni kasr ko‘rinishida yozish uchun “/” tugmasidan foydalaning."
+   }
+  },
+  {
+   "id": "math_g3.roman",
+   "code": "28",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Rim raqamlari",
+    "en": "Roman numerals",
+    "ru": "Римские цифры"
+   },
+   "generator": "roman",
+   "skill": "roman",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 12,
+     "mode": "choice"
+    },
+    {
+     "max": 20,
+     "mode": "mixed"
+    },
+    {
+     "max": 39,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Rim raqamlari: I = 1, V = 5, X = 10, L = 50, C = 100.\nKichik raqam kattasidan keyin kelsa — qo‘shiladi: VI = 6, XII = 12.\nKichik raqam kattasidan oldin kelsa — ayiriladi: IV = 4, IX = 9, XL = 40.\nBir raqam ketma-ket uch martadan ko‘p yozilmaydi: 30 = XXX, 40 = XL."
+   }
+  },
+  {
+   "id": "math_g3.sets",
+   "code": "29",
+   "emoji": "🔵",
+   "title": {
+    "uz": "To‘plamlar",
+    "en": "Sets",
+    "ru": "Множества"
+   },
+   "generator": "sets",
+   "skill": "sets",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "mode": "choice"
+    },
+    {
+     "mode": "mixed"
+    },
+    {
+     "mode": "mixed"
+    }
+   ],
+   "theory": {
+    "uz": "To‘plam — narsalar (elementlar) majmuasi. A = {1, 3, 5} — elementlari 1, 3 va 5.\n• 3 ∈ A — 3 soni A to‘plamga tegishli; 4 ∉ A — tegishli emas.\n• Umumiy qismi (kesishma) — ikkala to‘plamda bor elementlar.\n• Birlashma — ikkala to‘plamning barcha elementlari (takrorlanmasdan).\nEyler–Venn diagrammasida to‘plamlar doiralar bilan tasvirlanadi."
+   }
+  },
+  {
+   "id": "math_g3.test4",
+   "code": "N4",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.work",
+      "math_g3.problems",
+      "math_g3.fraction_part",
+      "math_g3.fraction_ops",
+      "math_g3.roman",
+      "math_g3.sets"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.work",
+      "math_g3.problems",
+      "math_g3.fraction_part",
+      "math_g3.fraction_ops",
+      "math_g3.roman",
+      "math_g3.sets"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.work",
+      "math_g3.problems",
+      "math_g3.fraction_part",
+      "math_g3.fraction_ops",
+      "math_g3.roman",
+      "math_g3.sets"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar, kasrlar, to‘plamlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g3.add",
+      "math_g3.sub",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation",
+      "math_g3.length",
+      "math_g3.mass",
+      "math_g3.perimeter",
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.fraction_part"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g3.add",
+      "math_g3.sub",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation",
+      "math_g3.length",
+      "math_g3.mass",
+      "math_g3.perimeter",
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.fraction_part"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "math_g3.add",
+      "math_g3.sub",
+      "math_g3.mul",
+      "math_g3.div",
+      "math_g3.remainder",
+      "math_g3.order",
+      "math_g3.equation",
+      "math_g3.length",
+      "math_g3.mass",
+      "math_g3.perimeter",
+      "math_g3.motion",
+      "math_g3.price",
+      "math_g3.fraction_part"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

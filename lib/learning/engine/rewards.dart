@@ -192,8 +192,9 @@ class Rewards {
 
   // ------------------------------------------------------------ Kuboklar
   /// Fan bo'yicha kubok: bolaning yoshiga mos dasturdagi mavzular o'rtacha egallanishi.
-  static CupTier cup(ChildProgress p, ContentRepository content, String subject, int age) {
-    final c = content.curriculum(subject, age <= 5 ? '4' : '6');
+  /// [suffix] — bolaga mos dastur (`4`, `6`, `g3` ...), qarang `Subject.suffixFor`.
+  static CupTier cup(ChildProgress p, ContentRepository content, String subject, String suffix) {
+    final c = content.curriculum(subject, suffix);
     if (c == null || c.topics.isEmpty) return CupTier.none;
     var sum = 0;
     for (final t in c.topics) {

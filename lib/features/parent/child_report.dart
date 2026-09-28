@@ -136,10 +136,10 @@ class ChildReport {
     required DateTime now,
     String lang = 'uz',
   }) {
-    final suffix = profile.age <= 5 ? '4' : '6';
     final subjects = <SubjectReport>[];
-    for (final s in Subject.values) {
+    for (final s in Subject.forProfile(profile)) {
       if (!profile.isSubjectEnabled(s.id)) continue;
+      final suffix = s.suffixFor(profile);
       final c = content.curriculum(s.id, suffix);
       if (c == null || c.topics.isEmpty) continue;
       final score = progress.scoreOf(s.id);
@@ -148,7 +148,7 @@ class ChildReport {
         topics: [for (final t in c.topics) TopicReport(topic: t, stat: progress.skillOf(t.id))],
         correct: score.correct,
         total: score.total,
-        cup: Rewards.cup(progress, content, s.id, profile.age),
+        cup: Rewards.cup(progress, content, s.id, suffix),
       ));
     }
 

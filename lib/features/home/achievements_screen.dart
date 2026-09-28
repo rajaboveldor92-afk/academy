@@ -380,9 +380,9 @@ class _CupsCard extends ConsumerWidget {
                   spacing: 8,
                   runSpacing: 8,
                   children: [
-                    for (final s in Subject.values)
-                      if (profile.isSubjectEnabled(s.id) && content.curriculum(s.id, profile.age <= 5 ? '4' : '6') != null)
-                        _CupChip(subject: s, tier: Rewards.cup(progress, content, s.id, profile.age)),
+                    for (final s in Subject.forProfile(profile))
+                      if (profile.isSubjectEnabled(s.id) && content.curriculum(s.id, s.suffixFor(profile)) != null)
+                        _CupChip(subject: s, tier: Rewards.cup(progress, content, s.id, s.suffixFor(profile))),
                   ],
                 ),
               ],

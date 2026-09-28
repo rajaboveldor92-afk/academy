@@ -104,13 +104,14 @@ class _ProfileSelectScreenState extends ConsumerState<ProfileSelectScreen> {
                         const padding = 16.0;
                         const spacing = 16.0;
                         final width = constraints.maxWidth;
-                        final columns = width >= 1000 ? 3 : (width >= 640 ? 2 : 1);
-                        final rowsOnScreen = columns == 1
-                            ? (profiles.length >= 2 ? 2 : 1)
-                            : 1;
+                        // 3–4 bola: telefonda ham 2 ustun, hammasi bitta ekranda ko'rinadi.
+                        final columns = width >= 1000
+                            ? (profiles.length >= 4 ? 4 : 3)
+                            : (width >= 640 || profiles.length >= 3 ? 2 : 1);
+                        final rowsOnScreen = ((profiles.length / columns).ceil()).clamp(1, 2).toInt();
                         final available =
                             constraints.maxHeight - padding * 2 - spacing * (rowsOnScreen - 1);
-                        final cardHeight = (available / rowsOnScreen).clamp(240.0, 460.0).toDouble();
+                        final cardHeight = (available / rowsOnScreen).clamp(210.0, 460.0).toDouble();
 
                         return GridView.builder(
                           padding: const EdgeInsets.all(padding),
@@ -167,6 +168,10 @@ class ProfileCard extends StatelessWidget {
   final bool selected;
   final bool dimmed;
 
+  /// Maktab o'quvchisi — sinfi, kichiklar — yoshi.
+  String _subtitle(BuildContext context) =>
+      profile.isSchool ? Tr.of(context).gradeName(profile.grade) : Tr.of(context).years(profile.age);
+
   @override
   Widget build(BuildContext context) {
     final theme = ProfileThemes.of(profile.colorIndex);
@@ -180,7 +185,7 @@ class ProfileCard extends StatelessWidget {
         scale: selected ? 1.04 : 1,
         child: PressableScale(
           onTap: onTap,
-          semanticLabel: '${profile.displayFullName}, ${Tr.of(context).years(profile.age)}',
+          semanticLabel: '${profile.displayFullName}, ${_subtitle(context)}',
           child: Container(
             key: Key('profile_${profile.id}'),
             decoration: BoxDecoration(
@@ -201,10 +206,10 @@ class ProfileCard extends StatelessWidget {
             ),
             child: LayoutBuilder(
               builder: (context, c) {
-                final photoSize = (c.maxHeight * 0.5 < c.maxWidth * 0.62
-                        ? c.maxHeight * 0.5
+                final photoSize = (c.maxHeight * 0.45 < c.maxWidth * 0.62
+                        ? c.maxHeight * 0.45
                         : c.maxWidth * 0.62)
-                    .clamp(110.0, 280.0)
+                    .clamp(72.0, 280.0)
                     .toDouble();
                 final nameSize = (c.maxHeight * 0.075).clamp(18.0, 28.0).toDouble();
                 return Stack(
@@ -258,7 +263,7 @@ class ProfileCard extends StatelessWidget {
                               borderRadius: BorderRadius.circular(20),
                             ),
                             child: Text(
-                              Tr.of(context).years(profile.age),
+                              _subtitle(context),
                               style: TextStyle(
                                 fontSize: nameSize * 0.7,
                                 fontWeight: FontWeight.w700,

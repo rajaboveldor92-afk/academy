@@ -8,6 +8,7 @@ import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/learning/chess/chess_rules.dart';
 import 'package:academy/learning/models/visual.dart';
 import 'package:academy/learning/ui/activity_view.dart';
+import 'package:academy/learning/ui/input_view.dart';
 import 'package:academy/learning/ui/assemble_view.dart';
 import 'package:academy/learning/ui/cards_view.dart';
 import 'package:academy/learning/ui/chess_view.dart';
@@ -603,6 +604,43 @@ void main() {
     });
   });
 
+  testWidgets('javobni yozish: noto‘g‘ri — xato, to‘g‘ri — yechim, 3 xatodan keyin javob ko‘rsatiladi', (tester) async {
+    final e = make('math_g3.add', 3);
+    expect(e.kind, ExerciseKind.input);
+    final answer = e.input!.answer;
+    final mistakes = <int>[];
+    int? solved;
+    await host(tester, InputExerciseView(exercise: e, callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m)));
+    Future<void> type(String v) async {
+      for (final c in v.split('')) {
+        await tester.tap(find.byKey(ValueKey('key_$c')));
+        await tester.pump();
+      }
+      await tester.tap(find.byKey(const ValueKey('input_check')));
+      await tester.pump();
+    }
+
+    await type('0');
+    expect(mistakes, [1]);
+    expect(solved, isNull);
+    await type(answer);
+    expect(solved, 1);
+
+    // Uch marta xato: to'g'ri javob ko'rsatiladi va mashq yakunlanadi.
+    final e2 = make('math_g3.sub', 3);
+    solved = null;
+    mistakes.clear();
+    await host(tester, KeyedSubtree(key: const ValueKey('second'), child: InputExerciseView(
+      exercise: e2, callbacks: ExerciseCallbacks(onMistake: mistakes.add, onSolved: (m) => solved = m))));
+    for (var i = 0; i < 3; i++) {
+      await type(e2.input!.answer == '1' ? '2' : '1');
+    }
+    expect(mistakes, [1, 2, 3]);
+    expect(find.byKey(const ValueKey('input_revealed')), findsOneWidget);
+    await tester.pump(const Duration(seconds: 2));
+    expect(solved, 3);
+  });
+
   testWidgets('barcha mashq turlari xatosiz chiziladi', (tester) async {
     for (final t in content.allTopics) {
       for (var level = 1; level <= t.maxLevel; level++) {
@@ -621,6 +659,7 @@ void main() {
           ExerciseKind.spot => SpotExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.jigsaw => JigsawExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.activity => ActivityExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.input => InputExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(exercise: e, callbacks: cb),
         };
         await host(tester, KeyedSubtree(key: ValueKey('${t.id}-$level'), child: view));

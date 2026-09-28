@@ -84,7 +84,13 @@ class Tr {
   String get nameRequired => p('Qisqa ismni kiriting', 'Enter a short name', 'Введите короткое имя');
   String get nameTooLong => p('Ism juda uzun', 'The name is too long', 'Имя слишком длинное');
   String get fullNameTooLong => p('To‘liq ism juda uzun', 'The full name is too long', 'Полное имя слишком длинное');
-  String get ageRange => p('Yosh 3 dan 8 gacha bo‘lishi kerak', 'Age must be from 3 to 8', 'Возраст должен быть от 3 до 8');
+  String get ageRange => p('Yosh 3 dan 16 gacha bo‘lishi kerak', 'Age must be from 3 to 16', 'Возраст должен быть от 3 до 16');
+  String get gradeLabel => p('Sinf', 'Grade', 'Класс');
+  String get preschool => p('Maktabgacha', 'Preschool', 'Дошкольник');
+  String gradeName(int g) => g <= 0 ? preschool : p('$g-sinf', 'Grade $g', '$g класс');
+  String get gradeHint => p('Maktab o‘quvchisi uchun sinfni tanlang — fanlar va mavzular shu sinf dasturiga mos bo‘ladi.',
+      'For a school pupil choose the grade — subjects and topics follow that grade’s curriculum.',
+      'Для школьника выберите класс — предметы и темы будут по программе этого класса.');
   String themeName(String id) => switch (id) {
         'ocean' => p('Dengiz', 'Sea', 'Море'),
         'sunny' => p('Quyosh', 'Sun', 'Солнце'),
@@ -206,6 +212,23 @@ class Tr {
   String todayMinutes(int n) => p('Bugun: $n daqiqa', 'Today: $n min', 'Сегодня: $n мин');
   String get weeklyMinutes => p('Haftalik (daqiqa)', 'This week (minutes)', 'За неделю (минуты)');
   String get detailedReport => p('Batafsil hisobot', 'Detailed report', 'Подробный отчёт');
+
+  // ------------------------------------------------------------ Maktab darsi
+  String get check => p('Tekshirish', 'Check', 'Проверить');
+  String correctAnswerIs(String a) => p('To‘g‘ri javob: $a', 'Correct answer: $a', 'Правильный ответ: $a');
+  String get theory => p('Qisqacha qoida', 'Quick rule', 'Коротко о главном');
+  String get startPractice => p('Mashqni boshlash', 'Start practice', 'Начать упражнения');
+  String get showRule => p('Qoidani ko‘rish', 'Show the rule', 'Показать правило');
+  String get testTitle => p('Nazorat ishi', 'Test', 'Контрольная работа');
+  String markLabel(int mark) => p('Baho: $mark', 'Mark: $mark', 'Оценка: $mark');
+  String markName(int mark) => switch (mark) {
+        5 => p('A’lo!', 'Excellent!', 'Отлично!'),
+        4 => p('Yaxshi!', 'Good!', 'Хорошо!'),
+        3 => p('Qoniqarli. Mavzularni takrorlaymiz.', 'Satisfactory. Let’s revise the topics.', 'Удовлетворительно. Повторим темы.'),
+        _ => p('Mavzularni qayta o‘rganamiz — keyin yana urinib ko‘ramiz.', 'Let’s study the topics again and retry.', 'Повторим темы и попробуем ещё раз.'),
+      };
+  String get schoolContentUzOnly => p('Maktab fanlari mashqlari hozircha o‘zbek tilida.', 'School subject exercises are in Uzbek for now.',
+      'Упражнения по школьным предметам пока на узбекском языке.');
 
   // ------------------------------------------------------------ Ovozni tekshirish
   String get voiceCheck => p('Ovozni tekshirish', 'Voice check', 'Проверка голоса');

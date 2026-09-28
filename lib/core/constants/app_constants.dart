@@ -15,11 +15,14 @@ class AppConstants {
 
   /// Profil yoshi chegaralari.
   static const int minAge = 3;
-  static const int maxAge = 8;
+  static const int maxAge = 16;
 
   /// Standart kunlik vaqt limitlari (daqiqa). 0 = cheklanmagan.
   static const int defaultLimitYoung = 15;
   static const int defaultLimitOlder = 20;
+
+  /// Maktab o'quvchilari uchun (daqiqa).
+  static const int defaultLimitSchool = 40;
 
   /// Foydalanish vaqti shu intervalda hisoblanadi.
   static const Duration usageTick = Duration(seconds: 15);

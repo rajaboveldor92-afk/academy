@@ -18,7 +18,7 @@ class SubjectScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final profile = ref.watch(activeProfileProvider);
-    final suffix = profile?.ageGroup.suffix ?? '6';
+    final suffix = profile == null ? '6' : subject.suffixFor(profile);
     final curriculum = ref.watch(curriculumForProvider((subject.id, suffix)));
     return LangScope(
       lang: profile?.language ?? 'uz',

@@ -113,7 +113,7 @@ class ChildSettingsScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 20),
             Text(t.subjects, style: textTheme.titleMedium),
-            for (final s in Subject.values)
+            for (final s in Subject.forProfile(current))
               SwitchListTile(
                 secondary: Text(s.emoji, style: const TextStyle(fontSize: 26)),
                 title: Text(s.titleIn(t.lang)),

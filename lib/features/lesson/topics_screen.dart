@@ -92,31 +92,44 @@ class TopicsScreen extends ConsumerWidget {
               ),
             )),
             SliverToBoxAdapter(child: _continueCard(context, ref, rec, profile)),
-            SliverPadding(
-              padding: const EdgeInsets.fromLTRB(12, 4, 12, 24),
-              sliver: SliverGrid(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: columns,
-                  mainAxisSpacing: 12,
-                  crossAxisSpacing: 12,
-                  childAspectRatio: 0.95,
+            // Maktab dasturi bo'limlarga (choraklarga) ajratilgan.
+            for (final (chapter, topics) in _chapters(curriculum.topics)) ...[
+              if (chapter.isNotEmpty)
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 14, 16, 4),
+                    child: Text(chapter, style: TextStyle(fontSize: 17, fontWeight: FontWeight.w900, color: subject.color)),
+                  ),
                 ),
-                delegate: SliverChildBuilderDelegate(
-                  (context, i) {
-                    final t = curriculum.topics[i];
-                    return _TopicCard(
-                      topic: t,
-                      stars: starsFor(t, progress.skillOf(t.id)),
-                      color: subject.color,
-                      highlighted: t.id == rec.id,
-                      showCode: !profile.ageGroup.isJunior,
-                      onTap: () => _open(context, ref, t),
-                    );
-                  },
-                  childCount: curriculum.topics.length,
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(12, 4, 12, 12),
+                sliver: SliverGrid(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: columns,
+                    mainAxisSpacing: 12,
+                    crossAxisSpacing: 12,
+                    childAspectRatio: 0.95,
+                  ),
+                  delegate: SliverChildBuilderDelegate(
+                    (context, i) {
+                      final t = topics[i];
+                      final stat = progress.skillOf(t.id);
+                      return _TopicCard(
+                        topic: t,
+                        stars: starsFor(t, stat),
+                        color: subject.color,
+                        highlighted: t.id == rec.id,
+                        showCode: !profile.ageGroup.isJunior,
+                        mark: t.isTest && stat.started ? markFor(stat.lastAccuracy) : null,
+                        onTap: () => _open(context, ref, t),
+                      );
+                    },
+                    childCount: topics.length,
+                  ),
                 ),
               ),
-            ),
+            ],
+            const SliverToBoxAdapter(child: SizedBox(height: 12)),
           ],
         ),
       ),
@@ -164,6 +177,21 @@ class TopicsScreen extends ConsumerWidget {
   }
 }
 
+/// Mavzularni bo'limlarga ajratadi (tartib saqlanadi). Bo'limsiz dastur — bitta guruh.
+List<(String, List<Topic>)> _chapters(List<Topic> topics) {
+  final result = <(String, List<Topic>)>[];
+  for (final t in topics) {
+    if (result.isEmpty || result.last.$1 != t.chapter) {
+      result.add((t.chapter, <Topic>[]));
+    }
+    result.last.$2.add(t);
+  }
+  return result;
+}
+
+/// Nazorat ishi natijasi (0..100) → 5 ballik baho.
+int markFor(double accuracy) => accuracy >= 90 ? 5 : (accuracy >= 70 ? 4 : (accuracy >= 50 ? 3 : 2));
+
 class _TopicCard extends StatelessWidget {
   const _TopicCard({
     required this.topic,
@@ -172,6 +200,7 @@ class _TopicCard extends StatelessWidget {
     required this.highlighted,
     required this.showCode,
     required this.onTap,
+    this.mark,
   });
 
   final Topic topic;
@@ -180,6 +209,9 @@ class _TopicCard extends StatelessWidget {
   final bool highlighted;
   final bool showCode;
   final VoidCallback onTap;
+
+  /// Nazorat ishi bahosi (oxirgi natija).
+  final int? mark;
 
   @override
   Widget build(BuildContext context) {
@@ -215,6 +247,13 @@ class _TopicCard extends StatelessWidget {
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.text, height: 1.1),
             ),
             const SizedBox(height: 4),
+            if (mark != null)
+              Text(
+                Tr.of(context).markLabel(mark!),
+                key: Key('topic_mark_${topic.id}'),
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: mark! >= 4 ? AppColors.success : AppColors.gentle),
+              )
+            else
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

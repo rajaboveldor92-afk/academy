@@ -22,7 +22,14 @@ class ContentRepository {
     required this.glyphs,
     required this.languages,
     required this.activities,
+    this.banks = const {},
   });
+
+  /// Maktab fanlari savollar banki: mavzu id → savollar (`assets/data/school/bank_*.json`).
+  final Map<String, List<Map<String, dynamic>>> banks;
+
+  /// Savollar banki fayllari.
+  static const List<String> bankFiles = [];
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
   static const List<String> curriculumFiles = [
@@ -54,6 +61,14 @@ class ContentRepository {
     'family_6',
     'social_4',
     'social_6',
+    // Maktab dasturlari (1–8-sinf): `assets/data/school/<fan>_g<sinf>.json`.
+    ...schoolFiles,
+  ];
+
+  /// Maktab fanlari dasturlari.
+  static const List<String> schoolFiles = [
+    'school/math_g3',
+    'school/math_g5',
   ];
 
   final Lexicon lexicon;
@@ -96,7 +111,15 @@ class ContentRepository {
 
     final curricula = <String, Curriculum>{};
     for (final name in curriculumFiles) {
-      curricula[name] = Curriculum.fromJson(await json(name));
+      final c = Curriculum.fromJson(await json(name));
+      curricula['${c.subject}_${c.ageSuffix}'] = c;
+    }
+    final banks = <String, List<Map<String, dynamic>>>{};
+    for (final name in bankFiles) {
+      final data = await json(name);
+      for (final item in (data['items'] as List? ?? const []).map(MapUtils.asStringMap)) {
+        banks.putIfAbsent(item['topic'].toString(), () => []).add(item);
+      }
     }
     return ContentRepository(
       lexicon: Lexicon.fromJson(await json('lexicon')),
@@ -107,6 +130,7 @@ class ContentRepository {
       glyphs: GlyphBank.fromJson(await json('glyphs')),
       languages: LanguageData.fromJson(await json('languages')),
       activities: ActivityData.fromJson(await json('montessori'), await json('social')),
+      banks: banks,
     );
   }
 }

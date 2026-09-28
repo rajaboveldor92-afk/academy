@@ -42,7 +42,7 @@ void main() {
         throwsA(isA<ProfileValidationException>()),
       );
       await expectLater(
-        n.create(name: 'Ali', age: 12, avatar: '🦄'),
+        n.create(name: 'Ali', age: 17, avatar: '🦄'),
         throwsA(isA<ProfileValidationException>()),
       );
       expect(c.read(profilesProvider), isEmpty);

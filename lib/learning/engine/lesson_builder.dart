@@ -162,6 +162,9 @@ class ExerciseValidator {
       case ExerciseKind.activity:
         final a = e.activity;
         return a != null && a.steps.isNotEmpty && a.title.trim().isNotEmpty;
+      case ExerciseKind.input:
+        final t = e.input;
+        return t != null && t.answer.trim().isNotEmpty && t.isCorrect(t.answer);
     }
   }
 }

@@ -2,7 +2,7 @@ name: academy
 description: "Azamjon & Muhammadjon Academy — 4–7 yoshli bolalar uchun offline ta'limiy o'yin platformasi."
 publish_to: 'none'
 
-version: 1.2.1+13
+version: 1.3.0+14
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -29,6 +29,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/
+    - assets/data/school/
     - assets/audio/uz/
     - assets/audio/uz/ona/
     - assets/audio/uz/klon/

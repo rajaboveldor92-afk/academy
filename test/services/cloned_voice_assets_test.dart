@@ -32,7 +32,7 @@ void main() {
     for (final s in [t.dailyLessonSpoken, t.achievements, t.whoPlays, t.levelUpSpoken, t.levelDown, t.lookAndRemember]) {
       expect(voiced(s), isTrue, reason: s);
     }
-    for (final s in Subject.values) {
+    for (final s in Subject.values.where((s) => s.preschool)) {
       final (name, lang) = s.spokenIn('uz');
       // English / Русский fan nomi o'z tilida aytiladi.
       if (lang == 'uz') expect(voiced(name), isTrue, reason: s.id);

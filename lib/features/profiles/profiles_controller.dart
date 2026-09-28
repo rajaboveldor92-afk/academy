@@ -38,7 +38,7 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       throw const ProfileValidationException('To‘liq ism juda uzun', ProfileError.fullNameTooLong);
     }
     if (age < AppConstants.minAge || age > AppConstants.maxAge) {
-      throw const ProfileValidationException('Yosh 3 dan 8 gacha bo‘lishi kerak', ProfileError.ageRange);
+      throw const ProfileValidationException('Yosh 3 dan 16 gacha bo‘lishi kerak', ProfileError.ageRange);
     }
   }
 
@@ -54,6 +54,7 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
     String greeting = '',
     String? photoPath,
     String language = 'uz',
+    int grade = 0,
   }) async {
     validate(name: name, age: age, fullName: fullName);
     final profile = ChildProfile.create(
@@ -63,6 +64,7 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       greeting: greeting,
       photoPath: photoPath,
       language: language,
+      grade: grade,
       age: age,
       avatar: avatar,
       colorIndex: colorIndex ?? state.length,

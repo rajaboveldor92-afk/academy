@@ -30,7 +30,7 @@ void main() {
     test('bo‘sh progress: barcha yoqilgan fanlar 0%, tavsiya bor', () {
       final profile = SeedData.muhammadjon(DateTime(2026));
       final r = ChildReport.build(profile: profile, progress: ChildProgress.empty(profile.id), content: content, now: now);
-      expect(r.subjects.length, Subject.values.length);
+      expect(r.subjects.length, Subject.forProfile(profile).length);
       for (final s in r.subjects) {
         expect(s.mastery, 0, reason: s.subject.id);
         expect(s.accuracy, isNull);

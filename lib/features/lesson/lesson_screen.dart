@@ -18,6 +18,7 @@ import '../../learning/models/topic.dart';
 import '../../learning/ui/activity_view.dart';
 import '../../learning/ui/assemble_view.dart';
 import '../../learning/ui/cards_view.dart';
+import '../../learning/ui/input_view.dart';
 import '../../learning/ui/chess_view.dart';
 import '../../learning/ui/choice_view.dart';
 import '../../learning/ui/coding_view.dart';
@@ -61,7 +62,7 @@ class LessonScreen extends ConsumerStatefulWidget {
   ConsumerState<LessonScreen> createState() => _LessonScreenState();
 }
 
-enum _Phase { loading, playing, feedback, finished, error }
+enum _Phase { loading, theory, playing, feedback, finished, error }
 
 class _LessonScreenState extends ConsumerState<LessonScreen> {
   _Phase _phase = _Phase.loading;
@@ -70,6 +71,9 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   List<PlannedExercise> _items = const [];
   final List<ExerciseResult> _results = [];
   int _retries = 0;
+
+  /// Maktab mavzusi qoidasi shu darsda ko'rsatildimi (qayta o'ynashda takrorlanmaydi).
+  bool _theoryShown = false;
   List<MedalDef> _newMedals = const [];
   int _index = 0;
   int _stars = 0;
@@ -131,6 +135,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           rng: widget.random,
           difficultyBias: profile.difficultyBias,
           lang: profile.language,
+          grade: profile.grade,
         );
       } else {
         topic = content.topic(widget.topicId!);
@@ -152,6 +157,8 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         items = [for (final e in exercises) PlannedExercise(topic: topic, level: level, exercise: e)];
       }
       if (!mounted) return;
+      final theoryTopic = topic;
+      final showTheory = !_theoryShown && theoryTopic != null && theoryTopic.theoryIn(profile.language) != null;
       setState(() {
         _topic = topic;
         _level = level;
@@ -162,7 +169,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         _index = 0;
         _stars = 0;
         _outcome = null;
-        _phase = items.isEmpty ? _Phase.error : _Phase.playing;
+        _phase = items.isEmpty ? _Phase.error : (showTheory ? _Phase.theory : _Phase.playing);
       });
       _speakCurrent();
     } catch (e) {
@@ -171,8 +178,25 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     }
   }
 
+  /// Maktab o'quvchisi o'zi o'qiydi: ko'rsatma avtomatik aytilmaydi (🔊 bosilsa aytiladi),
+  /// chet tili darslari bundan mustasno (talaffuz eshitilishi kerak).
+  bool get _autoSpeak {
+    final profile = _profile;
+    if (profile == null || !profile.isSchool) return true;
+    return MotherVoice.listeningSubjects.contains(_current.subject);
+  }
+
+  void _startPractice() {
+    setState(() {
+      _theoryShown = true;
+      _phase = _Phase.playing;
+    });
+    _speakCurrent();
+  }
+
   void _speakCurrent() {
     if (_phase != _Phase.playing || _items.isEmpty) return;
+    if (!_autoSpeak) return;
     final ex = _current;
     // Xotira mashqida ko'rsatma rasm yashiringanda aytiladi; avval — "Yaxshilab qara. Rasmlarni eslab qol."
     if (ex.kind == ExerciseKind.memory || (ex.kind == ExerciseKind.assemble && ex.previewVisual != null)) {
@@ -373,6 +397,15 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     final name = MotherVoice.nameClip(profile);
     final decision = outcome?.decision;
     final medalLine = medals.isEmpty ? null : '${_t.newMedal(medals.first.title.of(_lang))}!';
+    final mark = _testMark;
+    if (mark != null) {
+      // Nazorat ishi: 5 ballik baho.
+      _audio.speakParts([
+        SpeechPart('${_t.markLabel(mark)}. ${_t.markName(mark)}', _lang),
+        if (medalLine != null) SpeechPart(medalLine, _lang),
+      ]);
+      return;
+    }
     if (!_uzChild) {
       _audio.speakParts([
         SpeechPart(widget.daily ? _t.dailyFinished : _finishMessage(decision ?? LevelDecision.stay), _lang),
@@ -399,6 +432,16 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     _audio.speakParts(say);
   }
 
+  /// Nazorat ishi bahosi (5 ballik): birinchi urinishdagi to'g'ri javoblar ulushi bo'yicha.
+  int? get _testMark {
+    final topic = _topic;
+    if (topic == null || !topic.isTest || widget.daily) return null;
+    final original = _results.where((r) => !r.retry).toList();
+    if (original.isEmpty) return null;
+    final ratio = original.where((r) => r.firstTry).length / original.length;
+    return ratio >= 0.9 ? 5 : (ratio >= 0.7 ? 4 : (ratio >= 0.5 ? 3 : 2));
+  }
+
   String _finishMessage(LevelDecision d) => switch (d) {
         LevelDecision.up => _t.levelUp,
         LevelDecision.stay => _t.levelStay,
@@ -418,6 +461,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           child: switch (_phase) {
             _Phase.loading => const Center(child: CircularProgressIndicator()),
             _Phase.error => _error(),
+            _Phase.theory => _theoryView(theme),
             _Phase.finished => _result(theme),
             _ => _playing(theme),
           },
@@ -444,9 +488,100 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     );
   }
 
+  /// Maktab mavzusi: mashqdan oldin qisqa qoida va misollar.
+  Widget _theoryView(ProfileTheme theme) {
+    final topic = _topic!;
+    final text = topic.theoryIn(_lang) ?? '';
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              IconButton(
+                key: const Key('lesson_close'),
+                iconSize: 30,
+                onPressed: () => Navigator.of(context).maybePop(),
+                icon: const Icon(Icons.close_rounded),
+              ),
+              Expanded(
+                child: Text(
+                  '${topic.emoji} ${topic.title.of(_lang)}',
+                  style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.text),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Expanded(
+            child: Container(
+              key: const Key('lesson_theory_card'),
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(24),
+                border: Border.all(color: theme.primary.withAlpha(90), width: 2),
+              ),
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('📘 ${_t.theory}', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900, color: theme.primary)),
+                    const SizedBox(height: 10),
+                    Text(text, style: const TextStyle(fontSize: 19, height: 1.4, color: AppColors.text)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 12),
+          SizedBox(
+            height: 58,
+            child: FilledButton.icon(
+              key: const Key('theory_start'),
+              onPressed: _startPractice,
+              icon: const Icon(Icons.play_arrow_rounded, size: 30),
+              label: Text(_t.startPractice, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showTheoryDialog() {
+    final topic = _topic;
+    final text = topic?.theoryIn(_lang);
+    if (topic == null || text == null) return;
+    final t = _t;
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (ctx) => SafeArea(
+        child: ConstrainedBox(
+          constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(ctx).height * 0.8),
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('📘 ${t.theory}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 10),
+                Text(text, style: const TextStyle(fontSize: 18, height: 1.4)),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _topBar(ProfileTheme theme) {
     final total = _items.length;
     final done = _index + (_phase == _Phase.feedback ? 1 : 0);
+    final hasTheory = !widget.daily && _topic?.theoryIn(_lang) != null;
     return Padding(
       padding: const EdgeInsets.fromLTRB(4, 4, 12, 0),
       child: Row(
@@ -468,7 +603,15 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
               ),
             ),
           ),
-          const SizedBox(width: 12),
+          if (hasTheory)
+            IconButton(
+              key: const Key('lesson_theory'),
+              tooltip: _t.showRule,
+              onPressed: _showTheoryDialog,
+              icon: const Text('📘', style: TextStyle(fontSize: 24)),
+            )
+          else
+            const SizedBox(width: 12),
           Text('⭐ $_stars', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
         ],
       ),
@@ -497,6 +640,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
       ExerciseKind.spot => SpotExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.jigsaw => JigsawExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.activity => ActivityExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.input => InputExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.choice || ExerciseKind.memory => ChoiceExerciseView(key: key, exercise: ex, callbacks: callbacks),
     };
     return Stack(
@@ -673,9 +817,15 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         child: Column(
           children: [
             Text('⭐' * starsRow, style: const TextStyle(fontSize: 64)),
+            if (_testMark != null)
+              Text(
+                _t.markLabel(_testMark!),
+                key: const Key('test_mark'),
+                style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900, color: theme.primary),
+              ),
             const SizedBox(height: 12),
             Text(
-              widget.daily ? _t.dailyFinished : _finishMessage(decision),
+              widget.daily ? _t.dailyFinished : (_testMark != null ? _t.markName(_testMark!) : _finishMessage(decision)),
               key: const Key('lesson_result'),
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: theme.primary),
