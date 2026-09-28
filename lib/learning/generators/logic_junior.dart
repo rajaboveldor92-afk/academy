@@ -201,7 +201,7 @@ class LogicJunior {
     final binsCount = g.p('bins', 2);
     final itemsCount = g.p('items', 4);
     final useObjects = g.pb('objects');
-    final colorsPool = g.lex.colors.where((c) => !{'white', 'black', 'brown', 'pink'}.contains(c.id)).toList();
+    final colorsPool = g.lex.colors.where((c) => !{'white', 'black', 'brown', 'pink'}.contains(c.id) && (!useObjects || _objectsAvailable(g, c.id))).toList();
     final colors = g.sample(colorsPool, binsCount);
     final items = <ExerciseOption>[];
     final itemBins = <int>[];

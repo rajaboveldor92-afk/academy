@@ -401,6 +401,17 @@ SHAPES = [
  ("heart","yurakcha","heart","сердечко",0),
  ("rhombus","romb","rhombus","ромб",4),
 ]
+# Familiar objects available to age-three generators. Previously every entry
+# started at age four, leaving all age-three picture pools empty.
+BEGINNER_IDS = set("""apple banana pear orange carrot corn cucumber tomato
+ dog cat rabbit cow chicken rooster chick duck bee butterfly ladybug ant
+ fish tropical_fish whale dolphin car bus truck bicycle tshirt jeans dress socks
+ ball basketball teddy balloon bread cheese egg milk sun moon star cloud
+ house bed spoon cup eye ear nose hand mother father girl boy""".split())
+for entry in L:
+    if entry['id'] in BEGINNER_IDS:
+        entry['ageMin'] = 3
+
 # 99 = Android 9 da ko'rinmasligi mumkin — kontentda ishlatilmaydi (keyingi versiyalar uchun zaxira).
 out = {
   "schemaVersion": 1,

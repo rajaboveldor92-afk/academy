@@ -62,7 +62,7 @@ class MathJunior {
     final n = g.range(min, max);
     final item = g.pick(g.countables());
     final optCount = g.p('options', 3);
-    final nums = g.numberChoices(n, count: optCount, min: min == 0 ? 0 : 1, max: max < 5 ? 5 : max, spread: 2);
+    final nums = g.numberChoices(n, count: optCount, min: min == 0 ? 0 : 1, max: g.age == 3 ? 3 : (max < 5 ? 5 : max), spread: 2);
 
     switch (mode) {
       case 'group':
@@ -405,7 +405,7 @@ class MathJunior {
     return g.choice(
       say: g.say('add_pictures', {'item': item}),
       visual: SceneVisual(scene, aspect: 2.4),
-      options: [for (final v in g.numberChoices(sum, min: 1, max: max + 1, spread: 2)) Opt.number(v)],
+      options: [for (final v in g.numberChoices(sum, min: 1, max: max, spread: 2)) Opt.number(v)],
       concept: 'add:$a+$b',
       meta: {'a': a, 'b': b, 'op': '+', 'answer': sum, 'item': item.id},
       drag: g.pb('drag'),

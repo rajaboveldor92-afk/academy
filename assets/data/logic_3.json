@@ -1,0 +1,238 @@
+{
+ "subject": "logic",
+ "ageGroup": "3",
+ "ageMin": 3,
+ "ageMax": 3,
+ "lessonSize": 4,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
+ "topics": [
+  {
+   "id": "logic3.same",
+   "code": "L1",
+   "emoji": "👀",
+   "title": {
+    "uz": "Bir xilini top",
+    "en": "Find the same",
+    "ru": "Найди такой же"
+   },
+   "generator": "same_find",
+   "skill": "visual_match",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 2
+    },
+    {
+     "options": 2,
+     "sameCategory": true,
+     "drag": true
+    }
+   ]
+  },
+  {
+   "id": "logic3.shadow",
+   "code": "L2",
+   "emoji": "🌑",
+   "title": {
+    "uz": "Soyasini top",
+    "en": "Find the shadow",
+    "ru": "Найди тень"
+   },
+   "generator": "shadow",
+   "skill": "shadow",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 2
+    },
+    {
+     "options": 2,
+     "sameCategory": true,
+     "drag": true
+    }
+   ]
+  },
+  {
+   "id": "logic3.pairs",
+   "code": "L3",
+   "emoji": "🧦",
+   "title": {
+    "uz": "Juftini top",
+    "en": "Find the pair",
+    "ru": "Найди пару"
+   },
+   "generator": "pairs_match",
+   "skill": "associations",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "pairs": 2
+    },
+    {
+     "pairs": 2
+    },
+    {
+     "pairs": 2
+    }
+   ]
+  },
+  {
+   "id": "logic3.sort_color",
+   "code": "L4",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Rangiga qarab guruhla",
+    "en": "Sort by colour",
+    "ru": "Разложи по цвету"
+   },
+   "generator": "sort_color",
+   "skill": "classification",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 4,
+     "objects": true
+    }
+   ]
+  },
+  {
+   "id": "logic3.sort_shape",
+   "code": "L5",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Shakliga qarab guruhla",
+    "en": "Sort by shape",
+    "ru": "Разложи по форме"
+   },
+   "generator": "sort_shape",
+   "skill": "classification",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 4
+    },
+    {
+     "bins": 2,
+     "items": 4,
+     "varySize": true
+    }
+   ]
+  },
+  {
+   "id": "logic3.missing",
+   "code": "L6",
+   "emoji": "❔",
+   "title": {
+    "uz": "Qaysi biri yo‘qoldi?",
+    "en": "What is missing?",
+    "ru": "Что пропало?"
+   },
+   "generator": "missing_item",
+   "skill": "memory",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "items": 3,
+     "seconds": 7
+    },
+    {
+     "items": 3,
+     "seconds": 7
+    },
+    {
+     "items": 3,
+     "seconds": 7
+    }
+   ]
+  },
+  {
+   "id": "logic3.maze",
+   "code": "L7",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Labirint",
+    "en": "Maze",
+    "ru": "Лабиринт"
+   },
+   "generator": "maze",
+   "skill": "maze",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "rows": 3,
+     "cols": 3,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "extraOpenings": 2
+    },
+    {
+     "rows": 3,
+     "cols": 3,
+     "extraOpenings": 2
+    }
+   ]
+  },
+  {
+   "id": "logic3.puzzle",
+   "code": "L8",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Rasmni to‘ldir",
+    "en": "Finish the picture",
+    "ru": "Собери картинку"
+   },
+   "generator": "half_puzzle",
+   "skill": "puzzle",
+   "prerequisites": [],
+   "tags": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 2
+    },
+    {
+     "options": 2,
+     "sameCategory": true,
+     "drag": true
+    }
+   ]
+  }
+ ]
+}

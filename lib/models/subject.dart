@@ -244,7 +244,10 @@ enum Subject {
 
   /// Bolaga mos dastur qo'shimchasi: `4`, `6` (maktabgacha) yoki `g3` (3-sinf).
   String suffixFor(ChildProfile p) {
-    if (!p.isSchool) return p.ageGroup.suffix;
+    if (!p.isSchool) {
+      if (this == Subject.math || this == Subject.logic) return p.age.clamp(3, 8).toString();
+      return p.ageGroup.suffix;
+    }
     return schoolSuffix ?? 'g${p.grade}';
   }
 

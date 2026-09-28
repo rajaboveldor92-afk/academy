@@ -187,7 +187,7 @@ void main() {
   });
 
   testWidgets('sudoku: bo‘sh kataklarni to‘ldirish', (tester) async {
-    final e = make('logic6.sudoku', 1);
+    final e = make('logic8.sudoku', 1);
     final task = e.sudoku!;
     int? solved;
     await host(
@@ -204,7 +204,7 @@ void main() {
   });
 
   testWidgets('kodlash: to‘g‘ri dastur robotni maqsadga olib boradi', (tester) async {
-    final e = make('logic6.coding', 3);
+    final e = make('logic8.coding', 3);
     expect(e.kind, ExerciseKind.coding);
     final solution = PuzzleFactory.solveCoding(e.coding!)!;
     int? solved;

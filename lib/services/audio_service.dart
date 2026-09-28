@@ -99,14 +99,14 @@ class FeedbackPhrases {
 
 /// Real qurilmadagi implementatsiya (audioplayers + flutter_tts).
 class DeviceAudioService implements AudioService {
-  DeviceAudioService({AssetBundle? bundle}) : _bundle = bundle ?? rootBundle;
+  DeviceAudioService({AssetBundle? bundle, FlutterTts? tts, AudioPlayer? voicePlayer})
+      : _bundle = bundle ?? rootBundle, _tts = tts, _voicePlayer = voicePlayer ?? AudioPlayer();
 
   static const List<String> _extensions = ['mp3', 'ogg', 'm4a', 'wav'];
 
-  /// TTS til zaxirasi: o'zbek ovozi bo'lmasa turkcha ovoz lotin yozuvini
-  /// ancha to'g'ri o'qiydi.
+  /// Har bir matn faqat o'z tilidagi ovozda o'qiladi.
   static const Map<LangCode, List<String>> _ttsLocales = {
-    'uz': ['uz-UZ', 'uz', 'tr-TR', 'en-US'],
+    'uz': ['uz-UZ', 'uz'],
     'en': ['en-US', 'en-GB', 'en'],
     'ru': ['ru-RU', 'ru'],
   };
@@ -125,9 +125,9 @@ class DeviceAudioService implements AudioService {
   );
 
   final AssetBundle _bundle;
-  final AudioPlayer _voicePlayer = AudioPlayer();
-  final AudioPlayer _effectPlayer = AudioPlayer();
-  final AudioPlayer _musicPlayer = AudioPlayer();
+  final AudioPlayer _voicePlayer;
+  late final AudioPlayer _effectPlayer = AudioPlayer();
+  late final AudioPlayer _musicPlayer = AudioPlayer();
   bool _playersReady = false;
   FlutterTts? _tts;
   Set<String>? _assets;
@@ -148,6 +148,7 @@ class DeviceAudioService implements AudioService {
   void applySettings(AppSettings settings) {
     _soundEnabled = settings.soundEnabled;
     _voiceEnabled = settings.voiceEnabled;
+    if (!_voiceEnabled) unawaited(stop());
     _musicEnabled = settings.musicEnabled;
     _syncMusic();
   }
@@ -292,10 +293,7 @@ class DeviceAudioService implements AudioService {
 
   @override
   Future<void> playWord(String text, {LangCode lang = 'uz', String? key}) async {
-    if (!_voiceEnabled) return;
-    final fileKey = key ?? keyFor(text);
-    if (await _playAsset(_voicePlayer, lang, fileKey)) return;
-    await speak(text, lang: lang);
+    await _speak(text, lang: lang, key: key ?? keyFor(text));
   }
 
   /// Har yangi nutq so'rovi raqamni oshiradi — eski ketma-ketlik to'xtaydi.
@@ -350,9 +348,13 @@ class DeviceAudioService implements AudioService {
       await _voicePlayer.stop();
       if (token != _speechToken) return true;
       await _voicePlayer.play(AssetSource(path));
-      await wait.future.timeout(const Duration(seconds: 30), onTimeout: () {});
+      await wait.future.timeout(const Duration(seconds: 30));
     } catch (e) {
       debugPrint('AudioService: $path ijro etilmadi: $e');
+      if (token == _speechToken) {
+        try { await _voicePlayer.stop(); } catch (_) {}
+      }
+      return false;
     } finally {
       await sub.cancel();
       if (identical(_clipWait, wait)) _clipWait = null;
@@ -361,25 +363,33 @@ class DeviceAudioService implements AudioService {
   }
 
   @override
-  Future<void> speak(String text, {LangCode lang = 'uz'}) async {
-    if (!_voiceEnabled || text.trim().isEmpty) return;
+  Future<void> speak(String text, {LangCode lang = 'uz'}) => _speak(text, lang: lang);
+
+  Future<void> _speak(String text, {required LangCode lang, String? key}) async {
+    if (!_voiceEnabled || !_foreground || text.trim().isEmpty) return;
     _interrupt();
     final token = _speechToken;
     try {
+      await _tts?.stop();
+      if (token != _speechToken) return;
+      if (key != null && await _playClipAt(lang, key, token)) return;
+      if (token != _speechToken) return;
       if (lang == 'uz') {
         final recorded = await _recordedFor(text);
         if (token != _speechToken) return;
         if (recorded != null) {
-          await _tts?.stop();
-          await _playClipAt(recorded.$1, recorded.$2, token);
-          return;
+          if (await _playClipAt(recorded.$1, recorded.$2, token)) return;
+          if (token != _speechToken) return;
         }
       }
       await _voicePlayer.stop();
-      if (!await _prepare(lang)) return;
+      if (token != _speechToken || !await _prepare(lang)) return;
+      if (token != _speechToken) return;
       final tts = _ttsInstance();
       await tts.awaitSpeakCompletion(false);
+      if (token != _speechToken) return;
       await tts.stop();
+      if (token != _speechToken) return;
       await tts.speak(text);
     } catch (e) {
       debugPrint('AudioService: TTS xatosi: $e');
@@ -388,7 +398,7 @@ class DeviceAudioService implements AudioService {
 
   @override
   Future<void> speakParts(List<SpeechPart> parts) async {
-    if (!_voiceEnabled || parts.isEmpty) return;
+    if (!_voiceEnabled || !_foreground || parts.isEmpty) return;
     _interrupt();
     final token = _speechToken;
     try {
@@ -401,7 +411,7 @@ class DeviceAudioService implements AudioService {
         final clip = part.clip;
         if (clip != null && await _playClip(clip, token)) continue;
         if (token != _speechToken) return;
-        if (clip == null && part.lang == 'uz') {
+        if (part.lang == 'uz') {
           final recorded = await _recordedFor(part.text);
           if (token != _speechToken) return;
           if (recorded != null && await _playClipAt(recorded.$1, recorded.$2, token)) continue;
@@ -452,6 +462,8 @@ class DeviceAudioService implements AudioService {
 
   @override
   Future<void> dispose() async {
+    _foreground = false;
+    await stop();
     try {
       await _voicePlayer.dispose();
       await _effectPlayer.dispose();

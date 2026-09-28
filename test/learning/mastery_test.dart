@@ -59,6 +59,13 @@ void main() {
       expect(UzNumbers.word(10), 'o‘n');
       expect(UzNumbers.word(37), 'o‘ttiz yetti');
       expect(UzNumbers.word(100), 'yuz');
+      expect(UzNumbers.word(1000), 'ming');
+      expect(UzNumbers.word(1001), 'ming bir');
+      expect(UzNumbers.word(3344), 'uch ming uch yuz qirq to‘rt');
+      expect(UzNumbers.word(1000000), 'bir million');
+      expect(UzNumbers.word(2001000003), 'ikki milliard bir million uch');
+      expect(UzNumbers.word(-1250), 'minus ming ikki yuz ellik');
+      expect(UzNumbers.spellDigits('3344 : x = 8'), 'uch ming uch yuz qirq to‘rt : x = sakkiz');
       expect(UzNumbers.ordinal(3), 'uchinchi');
       expect(UzNumbers.ordinal(2), 'ikkinchi');
     });

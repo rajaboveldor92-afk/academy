@@ -33,6 +33,10 @@ class ContentRepository {
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
   static const List<String> curriculumFiles = [
+    'math_3', 'logic_3',
+    'math_5', 'logic_5',
+    'math_7', 'logic_7',
+    'math_8', 'logic_8',
     'math_4',
     'logic_4',
     'math_6',

@@ -55,7 +55,10 @@ class GeneratorRegistry {
   /// Maktab dasturi (`g3`, `g5` ...) — `school.<fan>.<nom>`, keyin umumiy `school.<nom>`.
   static ExerciseGenerator? find(String subject, String ageSuffix, String name) {
     if (ageSuffix.startsWith('g')) return _all['school.$subject.$name'] ?? _all['school.$name'];
-    return _all['$subject$ageSuffix.$name'];
+    final age = int.tryParse(ageSuffix);
+    final group = (subject == 'math' || subject == 'logic') && age != null && age >= 3 && age <= 8
+        ? (age <= 5 ? '4' : '6') : ageSuffix;
+    return _all['$subject$group.$name'];
   }
 
   static Iterable<String> get names => _all.keys;
