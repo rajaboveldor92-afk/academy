@@ -144,7 +144,7 @@
     "round",
     "tree"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -172,7 +172,7 @@
     "sweet",
     "tree"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -242,7 +242,7 @@
     "sweet",
     "tree"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "green"
   },
   {
@@ -256,7 +256,7 @@
     "round",
     "tree"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "orange"
   },
   {
@@ -362,7 +362,7 @@
    "ru": "морковь",
    "category": "vegetable",
    "tags": [],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "orange"
   },
   {
@@ -373,7 +373,7 @@
    "ru": "кукуруза",
    "category": "vegetable",
    "tags": [],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -384,7 +384,7 @@
    "ru": "огурец",
    "category": "vegetable",
    "tags": [],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "green"
   },
   {
@@ -397,7 +397,7 @@
    "tags": [
     "round"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -504,7 +504,7 @@
     "has_legs",
     "home_animal"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "brown"
   },
   {
@@ -519,7 +519,7 @@
     "has_legs",
     "home_animal"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "orange"
   },
   {
@@ -562,7 +562,7 @@
     "has_legs",
     "home_animal"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -577,7 +577,7 @@
     "has_legs",
     "big"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -648,7 +648,7 @@
     "farm",
     "has_legs"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -662,7 +662,7 @@
     "farm",
     "has_legs"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -677,7 +677,7 @@
     "small",
     "baby"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -692,7 +692,7 @@
     "flies",
     "swims"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "green"
   },
   {
@@ -1121,7 +1121,7 @@
     "flies",
     "small"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -1135,7 +1135,7 @@
     "flies",
     "small"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1149,7 +1149,7 @@
     "flies",
     "small"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -1162,7 +1162,7 @@
    "tags": [
     "small"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "black"
   },
   {
@@ -1201,7 +1201,7 @@
    "tags": [
     "swims"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1214,7 +1214,7 @@
    "tags": [
     "swims"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "orange"
   },
   {
@@ -1228,7 +1228,7 @@
     "swims",
     "big"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1241,7 +1241,7 @@
    "tags": [
     "swims"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1297,7 +1297,7 @@
     "wheels",
     "road"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -1326,7 +1326,7 @@
     "road",
     "big"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -1384,7 +1384,7 @@
     "road",
     "big"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1412,7 +1412,7 @@
     "wheels",
     "road"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1539,7 +1539,7 @@
    "tags": [
     "body_top"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1552,7 +1552,7 @@
    "tags": [
     "body_bottom"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -1565,7 +1565,7 @@
    "tags": [
     "body_top"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "green"
   },
   {
@@ -1618,7 +1618,7 @@
    "tags": [
     "pair"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -1730,7 +1730,7 @@
     "round",
     "sport"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -1744,7 +1744,7 @@
     "round",
     "sport"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "orange"
   },
   {
@@ -1757,7 +1757,7 @@
    "tags": [
     "soft"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "brown"
   },
   {
@@ -1771,7 +1771,7 @@
     "round",
     "flies"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -1907,7 +1907,7 @@
    "ru": "хлеб",
    "category": "food",
    "tags": [],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "brown"
   },
   {
@@ -1918,7 +1918,7 @@
    "ru": "сыр",
    "category": "food",
    "tags": [],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -1931,7 +1931,7 @@
    "tags": [
     "round"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -1944,7 +1944,7 @@
    "tags": [
     "drink"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -2135,7 +2135,7 @@
    "tags": [
     "building"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "red"
   },
   {
@@ -2159,7 +2159,7 @@
    "tags": [
     "furniture"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "blue"
   },
   {
@@ -2301,7 +2301,7 @@
    "tags": [
     "kitchen"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -2315,7 +2315,7 @@
     "kitchen",
     "hot"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -2543,7 +2543,7 @@
     "round",
     "hot"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -2557,7 +2557,7 @@
     "sky",
     "night"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -2571,7 +2571,7 @@
     "sky",
     "night"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "yellow"
   },
   {
@@ -2584,7 +2584,7 @@
    "tags": [
     "sky"
    ],
-   "ageMin": 4,
+   "ageMin": 3,
    "color": "white"
   },
   {
@@ -2895,7 +2895,7 @@
    "tags": [
     "head"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "ear",
@@ -2907,7 +2907,7 @@
    "tags": [
     "head"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "nose",
@@ -2919,7 +2919,7 @@
    "tags": [
     "head"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "mouth",
@@ -2957,7 +2957,7 @@
    "tags": [
     "limb"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "foot",
@@ -3031,7 +3031,7 @@
    "tags": [
     "woman"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "father",
@@ -3043,7 +3043,7 @@
    "tags": [
     "man"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "girl",
@@ -3055,7 +3055,7 @@
    "tags": [
     "child"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "boy",
@@ -3067,7 +3067,7 @@
    "tags": [
     "child"
    ],
-   "ageMin": 4
+   "ageMin": 3
   },
   {
    "id": "baby",

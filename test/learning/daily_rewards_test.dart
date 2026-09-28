@@ -178,8 +178,8 @@ void main() {
   group('▶ BUGUNGI DARSim (kunlik reja)', () {
     bool all(String _) => true;
 
-    test('4 va 6 yosh: to‘liq, aralash, yoshga mos reja', () {
-      for (final age in [4, 6]) {
+    test('3–8 yosh: to‘liq, aralash, yoshga mos reja', () {
+      for (final age in [3, 4, 5, 6, 7, 8]) {
         final plan = DailyPlanner.build(
           content: content,
           age: age,
@@ -191,7 +191,7 @@ void main() {
         expect(plan.length, DailyPlanner.sizeFor(age), reason: 'yosh $age');
         final suffix = age <= 5 ? '4' : '6';
         for (final it in plan) {
-          expect(it.topic.ageSuffix, suffix);
+          expect(it.topic.ageSuffix, ['math', 'logic'].contains(it.topic.subject) ? '$age' : suffix);
           expect(DailyPlanner.skipGenerators.contains(it.topic.generator), isFalse, reason: it.topic.id);
           expect(ExerciseValidator.isPlayable(it.exercise), isTrue, reason: it.topic.id);
           expect(it.review, isFalse);

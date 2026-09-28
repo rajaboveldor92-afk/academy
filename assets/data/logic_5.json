@@ -1,9 +1,9 @@
 {
  "subject": "logic",
- "ageGroup": "4",
- "ageMin": 4,
- "ageMax": 4,
- "lessonSize": 6,
+ "ageGroup": "5",
+ "ageMin": 5,
+ "ageMax": 5,
+ "lessonSize": 7,
  "title": {
   "uz": "Mantiq",
   "en": "Logic",
@@ -12,7 +12,7 @@
  "model": "KO‘R → ESHIT → BOS → SUR → MOSLASHTIR → MAQTOV OL",
  "topics": [
   {
-   "id": "logic4.same",
+   "id": "logic5.same",
    "code": "L1",
    "emoji": "👀",
    "title": {
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "id": "logic4.odd",
+   "id": "logic5.odd",
    "code": "L2",
    "emoji": "🙅",
    "title": {
@@ -70,7 +70,7 @@
    ]
   },
   {
-   "id": "logic4.shadow",
+   "id": "logic5.shadow",
    "code": "L3",
    "emoji": "🌑",
    "title": {
@@ -98,7 +98,7 @@
    ]
   },
   {
-   "id": "logic4.pairs",
+   "id": "logic5.pairs",
    "code": "L4",
    "emoji": "🧦",
    "title": {
@@ -123,7 +123,7 @@
    ]
   },
   {
-   "id": "logic4.sort_color",
+   "id": "logic5.sort_color",
    "code": "L5",
    "emoji": "🌈",
    "title": {
@@ -153,7 +153,7 @@
    ]
   },
   {
-   "id": "logic4.sort_shape",
+   "id": "logic5.sort_shape",
    "code": "L6",
    "emoji": "🔷",
    "title": {
@@ -183,7 +183,7 @@
    ]
   },
   {
-   "id": "logic4.sort_size",
+   "id": "logic5.sort_size",
    "code": "L7",
    "emoji": "📦",
    "title": {
@@ -209,7 +209,7 @@
    ]
   },
   {
-   "id": "logic4.missing",
+   "id": "logic5.missing",
    "code": "L8",
    "emoji": "❔",
    "title": {
@@ -223,21 +223,21 @@
    "tags": [],
    "levels": [
     {
-     "items": 3,
-     "seconds": 5
-    },
-    {
      "items": 4,
-     "seconds": 5
+     "seconds": 6
     },
     {
      "items": 5,
-     "seconds": 6
+     "seconds": 5
+    },
+    {
+     "items": 6,
+     "seconds": 5
     }
    ]
   },
   {
-   "id": "logic4.next",
+   "id": "logic5.next",
    "code": "L9",
    "emoji": "⏭️",
    "title": {
@@ -276,7 +276,7 @@
    ]
   },
   {
-   "id": "logic4.home",
+   "id": "logic5.home",
    "code": "L10",
    "emoji": "🏡",
    "title": {
@@ -301,7 +301,7 @@
    ]
   },
   {
-   "id": "logic4.maze",
+   "id": "logic5.maze",
    "code": "L11",
    "emoji": "🌀",
    "title": {
@@ -315,11 +315,6 @@
    "tags": [],
    "levels": [
     {
-     "rows": 3,
-     "cols": 3,
-     "extraOpenings": 2
-    },
-    {
      "rows": 4,
      "cols": 4,
      "extraOpenings": 2
@@ -328,11 +323,15 @@
      "rows": 5,
      "cols": 5,
      "extraOpenings": 1
+    },
+    {
+     "rows": 6,
+     "cols": 6
     }
    ]
   },
   {
-   "id": "logic4.analogy",
+   "id": "logic5.analogy",
    "code": "L12",
    "emoji": "🧩",
    "title": {
@@ -372,7 +371,7 @@
    ]
   },
   {
-   "id": "logic4.left_right",
+   "id": "logic5.left_right",
    "code": "L13",
    "emoji": "👉",
    "title": {
@@ -411,7 +410,7 @@
    ]
   },
   {
-   "id": "logic4.up_down",
+   "id": "logic5.up_down",
    "code": "L14",
    "emoji": "🗄️",
    "title": {
@@ -445,7 +444,7 @@
    ]
   },
   {
-   "id": "logic4.puzzle",
+   "id": "logic5.puzzle",
    "code": "L15",
    "emoji": "🧩",
    "title": {

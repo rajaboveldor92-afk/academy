@@ -65,6 +65,28 @@ void main() {
     }
   }
 
+  for (final age in [3, 4, 5, 6, 7, 8]) {
+    for (final subject in [Subject.math, Subject.logic]) {
+      testWidgets('$age yosh ${subject.id}: profil → mavzu → dars', (tester) async {
+        final c = await setup(tester, 'muhammadjon');
+        await tester.runAsync(() => c.read(profilesProvider.notifier).updateProfile(
+          c.read(activeProfileProvider)!.copyWith(age: age, grade: 0),
+        ));
+        expect(subject.suffixFor(c.read(activeProfileProvider)!), '$age');
+        await tester.pumpWidget(UncontrolledProviderScope(
+          container: c,
+          child: MaterialApp(home: SubjectScreen(subject: subject), onGenerateRoute: AppRouter.onGenerateRoute),
+        ));
+        await pumpUntil(tester, find.byKey(const Key('continue_topic')));
+        expect(find.byKey(const Key('continue_topic')), findsOneWidget);
+        await tester.tap(find.byKey(const Key('continue_topic')));
+        await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
+        expect(find.byKey(const Key('lesson_instruction')), findsOneWidget);
+        expect(tester.takeException(), isNull);
+      });
+    }
+  }
+
   testWidgets('Muhammadjon: matematika mavzulari va "Davom etamiz"', (tester) async {
     final c = await setup(tester, 'muhammadjon');
     await tester.pumpWidget(UncontrolledProviderScope(

@@ -68,7 +68,7 @@ class DailyPlanner {
   }) {
     final random = rng ?? Random();
     // Maktab o'quvchisi — sinf dasturi (`g3`), shaxmat — 6 yosh dasturi.
-    String suffixOf(String subject) => grade > 0 ? (subject == 'chess' ? '6' : 'g$grade') : (age <= 5 ? '4' : '6');
+    String suffixOf(String subject) => grade > 0 ? (subject == 'chess' ? '6' : 'g$grade') : ((subject == 'math' || subject == 'logic') ? age.clamp(3, 8).toString() : (age <= 5 ? '4' : '6'));
     final total = sizeFor(age, grade: grade);
     final plan = <PlannedExercise>[];
     final usedTopics = <String>{};

@@ -85,6 +85,9 @@ jobs:
           cp dist/academy-app-release.apk $out/app-release.apk
           ls -la dist
 
+      - name: APK kontentini tekshirish
+        run: python3 tool/verify_apk_content.py dist/academy-arm64-v8a.apk
+
       - name: APKni Actions'ga saqlash
         uses: actions/upload-artifact@v4
         with:

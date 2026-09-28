@@ -10,7 +10,7 @@ class UzNumbers {
     '', 'o‘n', 'yigirma', 'o‘ttiz', 'qirq', 'ellik', 'oltmish', 'yetmish', 'sakson', 'to‘qson',
   ];
 
-  /// 0..1000 oralig'idagi son so'z bilan: 37 → "o‘ttiz yetti".
+  /// Maktab mashqlaridagi butun son so'z bilan: 37 → "o‘ttiz yetti".
   static String word(int n) {
     if (n < 0) return 'minus ${word(-n)}';
     if (n < 10) return _ones[n];
@@ -25,8 +25,14 @@ class UzNumbers {
       final head = h == 1 ? 'yuz' : '${_ones[h]} yuz';
       return rest == 0 ? head : '$head ${word(rest)}';
     }
-    if (n == 1000) return 'ming';
-    return n.toString();
+    for (final scale in [(1000000000, 'milliard'), (1000000, 'million'), (1000, 'ming')]) {
+      if (n < scale.$1) continue;
+      final count = n ~/ scale.$1;
+      final rest = n % scale.$1;
+      final head = scale.$1 == 1000 && count == 1 ? 'ming' : '${word(count)} ${scale.$2}';
+      return rest == 0 ? head : '$head ${word(rest)}';
+    }
+    throw StateError('Unreachable number: $n');
   }
 
   /// Tartib son: 3 → "uchinchi".
