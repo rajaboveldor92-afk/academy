@@ -63,20 +63,17 @@ def main():
     timings = {'load_s': round(time.time() - t0, 1), 'items': []}
     print('model loaded', timings['load_s'], flush=True)
 
-    jobs = []
-    for ref_id, keys in REFS.items():
-        for tid, text in TEXTS.items():
-            jobs.append((ref_id, tid, text))
+    jobs = [('A', tid, text) for tid, text in TEXTS.items()]
+    jobs += [('B', tid, TEXTS[tid]) for tid in ('t1', 't3', 't5')]
     # Apostrof varianti: o' va g' oddiy apostrof bilan.
-    for tid in ('t1', 't4', 't6', 't8'):
-        jobs.append(('A', tid + 'ascii', TEXTS[tid].replace('‘', "'")))
+    jobs += [('A', tid + 'ascii', TEXTS[tid].replace('‘', "'")) for tid in ('t4', 't8')]
 
     for ref_id, keys in REFS.items():
         audio, text = build_ref(keys)
         sf.write(os.path.join(OUT, f'ref{ref_id}.wav'), audio, SR)
         prompt = model.create_voice_clone_prompt(ref_audio=(torch.from_numpy(audio).unsqueeze(0), SR), ref_text=text)
         for rid, tid, target in [j for j in jobs if j[0] == ref_id]:
-            for steps in (32,) if tid != 't1' else (16, 32):
+            for steps in (16, 32) if tid in ('t1', 't5') and ref_id == 'A' else (32,):
                 t = time.time()
                 wav = model.generate(text=target, language='uz', voice_clone_prompt=prompt, num_step=steps)[0]
                 dt = time.time() - t
@@ -86,6 +83,7 @@ def main():
                         'dur_s': round(len(wav) / model.sampling_rate, 2)}
                 timings['items'].append(item)
                 print(item, flush=True)
+                json.dump(timings, open(os.path.join(OUT, 'timings.json'), 'w'), ensure_ascii=False, indent=1)
     json.dump(timings, open(os.path.join(OUT, 'timings.json'), 'w'), ensure_ascii=False, indent=1)
 
 

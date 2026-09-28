@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Kesh (pip va model)
-        uses: actions/cache@v4
+      - name: Keshni tiklash (pip va model)
+        uses: actions/cache/restore@v4
         with:
           path: |
             ~/.cache/pip
@@ -33,24 +33,60 @@ jobs:
           pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install omnivoice soundfile librosa
           python -c "import torch, transformers; print(torch.__version__, transformers.__version__)"
+          nproc; free -g
 
       - name: Sinov
-        run: python tool/voice/probe.py 2>&1 | tee probe.log
-
-      - name: MP3 ga o'girish
-        if: always()
         run: |
-          mkdir -p dist
-          for f in probe_out/*.wav; do ffmpeg -loglevel error -y -i "$f" -ac 1 -b:a 96k "dist/$(basename "${f%.wav}").mp3"; done
-          cp probe_out/timings.json dist/ 2>/dev/null || true
-          cp probe.log dist/ 2>/dev/null || true
-          ls -la dist
+          set -o pipefail
+          python tool/voice/probe.py 2>&1 | tee probe.log
+
+      - name: Keshni saqlash
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: omnivoice-cpu-v1
 
       - name: Natijani release'ga yuklash
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          mkdir -p dist
+          cp probe_out/* dist/ 2>/dev/null || true
+          cp probe.log dist/ 2>/dev/null || echo "log yo'q" > dist/probe.log
+          ls -la dist
           gh release delete voice-probe --yes --cleanup-tag || true
           gh release create voice-probe dist/* --prerelease --target "$GITHUB_SHA" \
             --title "Voice lab — sinov" --notes "OmniVoice sinovi, commit $GITHUB_SHA"
+
+  speech:
+    # Ilovadagi barcha o'zbekcha nutq matnlari ro'yxati (klonlangan ovoz uchun).
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Matnlarni yig'ish
+        run: |
+          set -o pipefail
+          flutter test tool/voice/dump_speech_test.dart --reporter expanded --no-color 2>&1 | tee speech.log
+
+      - name: Release'ga yuklash
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p dist
+          cp tool/voice/out/speech_uz.json dist/ 2>/dev/null || true
+          cp speech.log dist/
+          gh release delete voice-speech --yes --cleanup-tag || true
+          gh release create voice-speech dist/* --prerelease --target "$GITHUB_SHA" \
+            --title "Voice lab — o'zbekcha matnlar" --notes "commit $GITHUB_SHA"
