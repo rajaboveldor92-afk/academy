@@ -20,6 +20,7 @@ import soundfile as sf
 import torch
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from uz_spoken import spoken  # noqa: E402
 from voice_keys import key_for  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -113,15 +114,17 @@ def main():
         target = os.path.join(out_dir, key + ".m4a")
         if os.path.exists(target):
             continue
+        # Model raqam va belgilarni so'z bilan o'qiydi; fayl kaliti esa ilovadagi asl matndan.
+        say = spoken(text)
         seed = int(key[:8], 16)
         t = time.time()
         best = None
         for attempt in range(3):
             torch.manual_seed(seed + attempt)
             np.random.seed((seed + attempt) % (2 ** 32))
-            y = model.generate(text=text, language="uz", voice_clone_prompt=prompt, num_step=args.steps)[0]
+            y = model.generate(text=say, language="uz", voice_clone_prompt=prompt, num_step=args.steps)[0]
             y = trim(np.asarray(y, dtype=np.float32))
-            ok, dur, expected = plausible(text, y)
+            ok, dur, expected = plausible(say, y)
             best = (y, attempt, ok, dur, expected)
             if ok:
                 break

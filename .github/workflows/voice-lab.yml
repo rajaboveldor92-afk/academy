@@ -14,6 +14,8 @@ jobs:
   lines:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    outputs:
+      tag: ${{ steps.select.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
 
@@ -22,11 +24,22 @@ jobs:
           channel: stable
           cache: true
 
+      # tool/voice/redo.json bo'lsa — faqat o'sha gaplar qayta tayyorlanadi (alohida release'ga).
       - name: O'zbekcha gaplarni yig'ish
+        id: select
         run: |
           set -o pipefail
-          flutter test tool/voice/dump_speech_test.dart --reporter expanded --no-color 2>&1 | tee speech.log
-          python3 tool/voice/select_lines.py | tee -a speech.log
+          mkdir -p tool/voice/out
+          if [ -f tool/voice/redo.json ]; then
+            cp tool/voice/redo.json tool/voice/out/lines.json
+            echo "redo: $(python3 -c "import json;print(json.load(open('tool/voice/out/lines.json'))['count'])") ta gap" | tee speech.log
+            echo "{}" > tool/voice/out/speech_uz.json
+            echo "tag=voice-clips-redo" >> "$GITHUB_OUTPUT"
+          else
+            flutter test tool/voice/dump_speech_test.dart --reporter expanded --no-color 2>&1 | tee speech.log
+            python3 tool/voice/select_lines.py | tee -a speech.log
+            echo "tag=voice-clips" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/upload-artifact@v4
         with:
@@ -37,8 +50,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete voice-clips --yes --cleanup-tag || true
-          gh release create voice-clips tool/voice/out/lines.json tool/voice/out/speech_uz.json speech.log --prerelease \
+          TAG=${{ steps.select.outputs.tag }}
+          gh release delete "$TAG" --yes --cleanup-tag || true
+          gh release create "$TAG" tool/voice/out/lines.json tool/voice/out/speech_uz.json speech.log --prerelease \
             --target "$GITHUB_SHA" --title "Voice lab — klonlangan ovoz" --notes "commit $GITHUB_SHA"
 
   generate:
@@ -90,4 +104,4 @@ jobs:
           zip -q -r ../../../klon-${{ matrix.shard }}.zip klon shard_${{ matrix.shard }}.json shard_${{ matrix.shard }}.log || true
           cd ../../..
           ls -la klon-${{ matrix.shard }}.zip
-          gh release upload voice-clips klon-${{ matrix.shard }}.zip --clobber
+          gh release upload "${{ needs.lines.outputs.tag }}" klon-${{ matrix.shard }}.zip --clobber
