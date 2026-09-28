@@ -13,6 +13,7 @@ import '../../widgets/profile_photo.dart';
 import '../session/progress_controller.dart';
 import '../profiles/profiles_controller.dart';
 import 'settings_controller.dart';
+import 'voice_check_dialog.dart';
 import 'week_bars.dart';
 
 /// Ota-ona bo'limi: bolalar statistikasi va umumiy sozlamalar.
@@ -99,6 +100,13 @@ class ParentHomeScreen extends ConsumerWidget {
                     title: Text(t.music),
                     value: settings.musicEnabled,
                     onChanged: (v) => ref.read(settingsProvider.notifier).setMusic(v),
+                  ),
+                  ListTile(
+                    key: const Key('voice_check_button'),
+                    leading: const Icon(Icons.record_voice_over_rounded),
+                    title: Text(t.voiceCheck),
+                    trailing: const Icon(Icons.chevron_right_rounded),
+                    onTap: () => VoiceCheckDialog.show(context),
                   ),
                   ListTile(
                     leading: const Icon(Icons.password_rounded),

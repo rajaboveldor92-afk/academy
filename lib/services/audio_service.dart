@@ -55,7 +55,20 @@ abstract class AudioService {
   /// Ilova oldingi plandami. Fonga o'tganda nutq to'xtaydi, fon musiqasi pauza qilinadi.
   Future<void> setForeground(bool foreground);
 
+  /// Telefonning ovoz dasturidagi (TTS) shu til ovozi. `null` — ovoz yo'q
+  /// (ota-ona «Ovozni tekshirish» oynasida ko'radi). Har chaqiruvda qayta tekshiriladi.
+  Future<TtsVoice?> ttsVoice(LangCode lang);
+
   Future<void> dispose();
+}
+
+/// Telefon ovozi: [locale] (`ru-RU`), [installed] — ovoz ma'lumotlari telefonga yuklangan
+/// (internetsiz ishlaydi). `false` bo'lsa, ovoz jim qolishi mumkin.
+class TtsVoice {
+  const TtsVoice(this.locale, {this.installed = true});
+
+  final String locale;
+  final bool installed;
 }
 
 /// Iboralar ro'yxati (spetsifikatsiyaning 21-bandi).
@@ -93,9 +106,9 @@ class DeviceAudioService implements AudioService {
   /// TTS til zaxirasi: o'zbek ovozi bo'lmasa turkcha ovoz lotin yozuvini
   /// ancha to'g'ri o'qiydi.
   static const Map<LangCode, List<String>> _ttsLocales = {
-    'uz': ['uz-UZ', 'tr-TR', 'en-US'],
-    'en': ['en-US', 'en-GB'],
-    'ru': ['ru-RU'],
+    'uz': ['uz-UZ', 'uz', 'tr-TR', 'en-US'],
+    'en': ['en-US', 'en-GB', 'en'],
+    'ru': ['ru-RU', 'ru'],
   };
 
   /// Fon musiqasi ovozi past (nutq va effektlar aniq eshitilsin).
@@ -118,7 +131,11 @@ class DeviceAudioService implements AudioService {
   bool _playersReady = false;
   FlutterTts? _tts;
   Set<String>? _assets;
-  final Map<LangCode, String?> _resolvedLocale = {};
+  final Map<LangCode, String> _resolvedLocale = {};
+  final Map<LangCode, bool> _localeInstalled = {};
+
+  /// Ovozi topilmagan til qachon tekshirilgani: ota-ona ovozni o'rnatib qaytsa, qayta tekshiriladi.
+  final Map<LangCode, DateTime> _missingSince = {};
   String? _currentLocale;
 
   bool _soundEnabled = true;
@@ -223,23 +240,50 @@ class DeviceAudioService implements AudioService {
     return tts;
   }
 
-  Future<String?> _localeFor(LangCode lang) async {
-    if (_resolvedLocale.containsKey(lang)) return _resolvedLocale[lang];
+  Future<String?> _localeFor(LangCode lang, {bool fresh = false}) async {
+    final cached = _resolvedLocale[lang];
+    if (cached != null) return cached;
+    final missing = _missingSince[lang];
+    if (!fresh && missing != null && DateTime.now().difference(missing) < const Duration(seconds: 20)) return null;
     final tts = _ttsInstance();
-    String? found;
+    // Avval ovoz ma'lumotlari telefonga yuklangan variant; bunday bo'lmasa — birinchi mavjud variant
+    // (ba'zi dvigatellar "yuklanganmi" savoliga javob bermaydi).
+    String? installed, available;
     for (final locale in _ttsLocales[lang] ?? const <String>['en-US']) {
       try {
-        final available = await tts.isLanguageAvailable(locale);
-        if (available == true || available == 1) {
-          found = locale;
+        final ok = await tts.isLanguageAvailable(locale);
+        if (ok != true && ok != 1) continue;
+        available ??= locale;
+        if (defaultTargetPlatform != TargetPlatform.android) {
+          installed = locale;
+          break;
+        }
+        final local = await tts.isLanguageInstalled(locale);
+        if (local == true || local == 1) {
+          installed = locale;
           break;
         }
       } catch (_) {
         // Plagin mavjud bo'lmasa (masalan, testda) — keyingisini sinaymiz.
       }
     }
-    _resolvedLocale[lang] = found;
+    final found = installed ?? available;
+    _localeInstalled[lang] = installed != null;
+    if (found == null) {
+      _missingSince[lang] = DateTime.now();
+    } else {
+      _resolvedLocale[lang] = found;
+      _missingSince.remove(lang);
+    }
     return found;
+  }
+
+  @override
+  Future<TtsVoice?> ttsVoice(LangCode lang) async {
+    _resolvedLocale.remove(lang);
+    final locale = await _localeFor(lang, fresh: true);
+    if (locale == null) return null;
+    return TtsVoice(locale, installed: _localeInstalled[lang] ?? true);
   }
 
   /// Fayl nomi uchun xavfsiz kalit: `Olma` → `olma`, `Яблоко` → `яблоко`.
@@ -439,6 +483,12 @@ class SilentAudioService implements AudioService {
 
   @override
   Future<void> setForeground(bool foreground) async => log.add('foreground:$foreground');
+
+  /// Testlarda: [missingVoices] dagi tillar uchun ovoz yo'q.
+  final Set<LangCode> missingVoices = {};
+
+  @override
+  Future<TtsVoice?> ttsVoice(LangCode lang) async => missingVoices.contains(lang) ? null : TtsVoice('$lang-TEST');
 
   @override
   Future<void> praise({LangCode lang = 'uz'}) async => log.add('praise:$lang');

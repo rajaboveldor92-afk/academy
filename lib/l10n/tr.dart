@@ -207,6 +207,38 @@ class Tr {
   String get weeklyMinutes => p('Haftalik (daqiqa)', 'This week (minutes)', 'За неделю (минуты)');
   String get detailedReport => p('Batafsil hisobot', 'Detailed report', 'Подробный отчёт');
 
+  // ------------------------------------------------------------ Ovozni tekshirish
+  String get voiceCheck => p('Ovozni tekshirish', 'Voice check', 'Проверка голоса');
+  String get voiceCheckHint => p(
+      'O‘zbekcha gaplarning ko‘pini onaning ovozi aytadi. Ruscha va inglizcha so‘zlarni telefonning ovoz dasturi (TTS) o‘qiydi — '
+          'shu tilning ovozi telefonda bo‘lmasa, so‘zlar jim qoladi.',
+      'Most Uzbek phrases are spoken in the mother’s voice. Russian and English words are read by the phone’s text-to-speech (TTS) — '
+          'if the phone has no voice for that language, the words stay silent.',
+      'Большинство узбекских фраз звучат голосом мамы. Русские и английские слова читает синтезатор речи телефона (TTS) — '
+          'если на телефоне нет голоса для этого языка, слова не звучат.');
+  String get voiceChecking => p('Tekshirilmoqda…', 'Checking…', 'Проверяем…');
+  String get voiceReady => p('Telefon ovozi bor ✅', 'Phone voice installed ✅', 'Голос телефона есть ✅');
+  String get voiceNotDownloaded => p('Ovoz bor, lekin yuklab olinmagan ⚠️', 'Voice found but not downloaded ⚠️', 'Голос есть, но не загружен ⚠️');
+  String get voiceMissing => p('Telefon ovozi yo‘q ❌ — so‘zlar jim qoladi', 'No phone voice ❌ — words will be silent', 'Нет голоса телефона ❌ — слова не звучат');
+  String get voiceMother => p('Onaning ovozi: bor (3000+ gap) ✅', 'Mother’s voice: included (3000+ phrases) ✅', 'Голос мамы: есть (3000+ фраз) ✅');
+  String voiceRest(String status) => p('Qolgan gaplar — $status', 'Other phrases — $status', 'Остальные фразы — $status');
+  String get voiceHowTo => p(
+      'Qanday yoqiladi: Sozlamalar → Umumiy boshqaruv → Matnni nutqqa aylantirish → «Afzal dvigatel» yonidagi ⚙️ → '
+          '«Ovoz ma’lumotlarini o‘rnatish» → tilni yuklab oling. Samsung dvigatelida til bo‘lmasa, «Afzal dvigatel»ni Google’ga '
+          'almashtiring. So‘ng bu yerda «Qayta tekshirish»ni bosing.',
+      'How to fix: Settings → General management → Text-to-speech → ⚙️ next to “Preferred engine” → “Install voice data” → '
+          'download the language. If the Samsung engine lacks it, switch the preferred engine to Google. Then tap “Check again” here.',
+      'Как включить: Настройки → Общие настройки → Преобразование текста в речь → ⚙️ рядом с «Предпочитаемый модуль» → '
+          '«Установка голосовых данных» → загрузите язык. Если в модуле Samsung языка нет, выберите модуль Google. '
+          'Затем нажмите здесь «Проверить снова».');
+  String get checkAgain => p('Qayta tekshirish', 'Check again', 'Проверить снова');
+  String get close => p('Yopish', 'Close', 'Закрыть');
+  String voiceSample(String lang) => switch (lang) {
+        'ru' => 'Привет! Давай учиться вместе.',
+        'en' => 'Hello! Let’s learn together.',
+        _ => 'Bugun juda yaxshi harakat qilding.',
+      };
+
   // ------------------------------------------------------------ Bola sozlamalari
   String get deleteProfile => p('Profilni o‘chirish', 'Delete profile', 'Удалить профиль');
   String deleteProfileConfirm(String name) => p('$name profili va uning barcha natijalari o‘chiriladi. Davom etasizmi?',
