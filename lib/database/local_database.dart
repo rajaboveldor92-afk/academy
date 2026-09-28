@@ -68,6 +68,7 @@ class LocalDatabase {
   Future<void> deleteProfile(String id) async {
     await _profiles.delete(id);
     await _progress.delete(id);
+    await _settings.delete('chess:$id');
   }
 
   // ---------------------------------------------------------------- Progress
@@ -100,6 +101,14 @@ class LocalDatabase {
   Future<void> saveSettings(AppSettings settings) =>
       _settings.put(_settingsKey, settings.toMap());
 
+  Map<String, dynamic>? getChessGame(String childId) {
+    final value = _settings.get('chess:$childId');
+    return value == null ? null : MapUtils.asStringMap(value);
+  }
+
+  Future<void> saveChessGame(String childId, Map<String, dynamic> game) =>
+      _settings.put('chess:$childId', game);
+
   // ---------------------------------------------------------------- Backup
 
   /// Butun bazani `academy_backup.json` formatidagi matnga aylantiradi.
@@ -110,6 +119,7 @@ class LocalDatabase {
       'exportedAt': (now ?? DateTime.now()).toIso8601String(),
       'settings': getSettings().toMap(),
       'profiles': getProfiles().map((p) => p.toMap()).toList(),
+      'chessGames': {for (final p in getProfiles()) if (getChessGame(p.id) != null) p.id: getChessGame(p.id)},
       'progress': getAllProgress().values.map((p) => p.toMap()).toList(),
     };
     return const JsonEncoder.withIndent('  ').convert(data);
@@ -131,6 +141,7 @@ class LocalDatabase {
         .toList();
     final settings = AppSettings.fromMap(MapUtils.asStringMap(data['settings']));
 
+    for (final p in getProfiles()) { await _settings.delete('chess:${p.id}'); }
     await _profiles.clear();
     await _progress.clear();
     for (final p in profiles) {
@@ -138,6 +149,10 @@ class LocalDatabase {
     }
     for (final p in progress) {
       await saveProgress(p);
+    }
+    final games = MapUtils.asStringMap(data['chessGames']);
+    for (final p in profiles) {
+      if (games[p.id] is Map) await saveChessGame(p.id, MapUtils.asStringMap(games[p.id]));
     }
     await saveSettings(settings.copyWith(seeded: true));
   }

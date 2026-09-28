@@ -14,6 +14,7 @@ import '../../services/mother_voice.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/pressable_scale.dart';
 import '../profiles/profiles_controller.dart';
+import '../chess/full_chess_screen.dart';
 import '../session/progress_controller.dart';
 
 /// Fan ichidagi mavzular: "▶ Davom etamiz" + mavzu kartalari (yulduzchalar bilan).
@@ -80,6 +81,16 @@ class TopicsScreen extends ConsumerWidget {
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
+            if (subject.id == 'chess') SliverToBoxAdapter(child: Padding(
+              padding: const EdgeInsets.fromLTRB(12, 12, 12, 4),
+              child: FilledButton.icon(
+                key: const Key('play_full_chess'),
+                onPressed: () => Navigator.of(context).push(MaterialPageRoute<void>(
+                  builder: (_) => FullChessScreen(profile: profile))),
+                icon: const Icon(Icons.sports_esports),
+                label: Text(lang == 'ru' ? 'Игра в шахматы' : lang == 'en' ? 'Play chess' : 'Shaxmat o‘ynash'),
+              ),
+            )),
             SliverToBoxAdapter(child: _continueCard(context, ref, rec, profile)),
             SliverPadding(
               padding: const EdgeInsets.fromLTRB(12, 4, 12, 24),
