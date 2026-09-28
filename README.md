@@ -266,6 +266,14 @@ Yangi mavzu qo‘shish:
     ("Bir, ikki, uch"); dars yakuni ism bilan ("Barakalla, Azamjon! Bugun juda yaxshi harakat qilding"); vaqt tugaganda
     "Endi biroz dam olamiz".
   Yozuv bo‘lmagan gaplar qurilma ovozida (TTS) aytiladi. Ssenariydagi "Rag‘bat va yakun" bo‘lim sarlavhasi bolaga aytilmaydi.
+- **Onaning klonlangan ovozi** (`assets/audio/uz/klon/*.m4a`, ~3000 gap): onaning yozuvidan ikki ibora
+  referens qilib olinib, [OmniVoice](https://github.com/k2-fsa/OmniVoice) (zero-shot, o‘zbek tilini qo‘llaydi) modeli
+  bilan ilovadagi eng ko‘p ishlatiladigan o‘zbekcha gaplar oldindan tayyorlangan — mashq ko‘rsatmalari, fan va mavzu
+  nomlari, medal va sovg‘alar (bola eshitadigan o‘zbekcha gaplarning ~97%). Model ilovaga kirmaydi, faqat tayyor fayllar.
+  Fayl nomi — gap matnining xeshi (`lib/services/cloned_voice.dart` ↔ `tool/voice/voice_keys.py`); `AudioService`
+  o‘zbekcha gapni avval onaning haqiqiy iborasidan, keyin klonlangan fayllardan qidiradi, topilmasa — TTS.
+  Qayta tayyorlash: `tool/voice/` (gaplarni yig‘ish → tanlash → GitHub Actions’da 20 ta parallel bo‘lakda generatsiya,
+  `voice-lab` tarmog‘iga push) va `python3 tool/voice/collect.py <zip papka> lines.json`.
 - **Ovoz effektlari** (`assets/audio/rewards/{tap,correct,tryAgain,star,medal}.ogg`) va **fon musiqasi**
   (`assets/audio/music/theme.ogg`, 22 soniyalik uzluksiz kuy) — originali, `python3 tool/audio/make_sounds.py`
   bilan sintez qilingan (tashqi namuna yo‘q). Fon musiqasi sukut bo‘yicha o‘chiq; ota-ona panelida yoqiladi,
