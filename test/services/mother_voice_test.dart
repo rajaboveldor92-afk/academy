@@ -77,10 +77,10 @@ void main() {
     expect(MotherVoice.instructionClip(oddShape), 'qaysi_shakl_farq_qiladi');
     final shadow = first('logic4.shadow', (e) => e.instructionKey == 'find_shadow');
     expect(MotherVoice.instructionClip(shadow), 'mos_soyasini_top');
-    final smaller = first('math6.hundred', (e) => e.instructionKey == 'which_smaller', level: 3, age: 6);
+    final smaller = first('math8.hundred', (e) => e.instructionKey == 'which_smaller', level: 3, age: 8);
     expect(MotherVoice.instructionClip(smaller), 'qaysi_son_kichik');
     expect(smaller.meta['answer'], min(smaller.meta['a'] as int, smaller.meta['b'] as int));
-    final bigger = first('math6.hundred', (e) => e.instructionKey == 'which_bigger', level: 3, age: 6);
+    final bigger = first('math8.hundred', (e) => e.instructionKey == 'which_bigger', level: 3, age: 8);
     expect(MotherVoice.instructionClip(bigger), 'qaysi_son_katta');
     // Mos yozuv bo'lmasa — mashqning o'z nutqi.
     final count = first('math4.count_1_3', (e) => e.instruction.uz != 'Nechta olma bor?');
@@ -92,7 +92,7 @@ void main() {
     for (final topic in content.allTopics) {
       for (var level = 1; level <= topic.maxLevel; level++) {
         final list = LessonBuilder.build(
-          content: content, topic: topic, level: level, count: 6, age: topic.ageSuffix == '4' ? 4 : 6, rng: Random(level),
+          content: content, topic: topic, level: level, count: 6, age: int.tryParse(topic.ageSuffix) ?? (int.parse(topic.ageSuffix.substring(1)) + 6), rng: Random(level),
         );
         for (final e in list) {
           final clip = MotherVoice.instructionClip(e);
