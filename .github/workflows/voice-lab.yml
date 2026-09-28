@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 40
     outputs:
       tag: ${{ steps.select.outputs.tag }}
+      shards: ${{ steps.select.outputs.shards }}
+      nshards: ${{ steps.select.outputs.nshards }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,10 +37,14 @@ jobs:
             echo "redo: $(python3 -c "import json;print(json.load(open('tool/voice/out/lines.json'))['count'])") ta gap" | tee speech.log
             echo "{}" > tool/voice/out/speech_uz.json
             echo "tag=voice-clips-redo" >> "$GITHUB_OUTPUT"
+            echo "shards=[0,1,2,3]" >> "$GITHUB_OUTPUT"
+            echo "nshards=4" >> "$GITHUB_OUTPUT"
           else
             flutter test tool/voice/dump_speech_test.dart --reporter expanded --no-color 2>&1 | tee speech.log
             python3 tool/voice/select_lines.py | tee -a speech.log
             echo "tag=voice-clips" >> "$GITHUB_OUTPUT"
+            echo "shards=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]" >> "$GITHUB_OUTPUT"
+            echo "nshards=20" >> "$GITHUB_OUTPUT"
           fi
 
       - uses: actions/upload-artifact@v4
@@ -62,7 +68,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        shard: ${{ fromJSON(needs.lines.outputs.shards) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -92,7 +98,7 @@ jobs:
       - name: Tayyorlash
         run: |
           set -o pipefail
-          python tool/voice/generate.py --shard ${{ matrix.shard }} --shards 20 --budget-min 290 2>&1 | tee gen.log
+          python tool/voice/generate.py --shard ${{ matrix.shard }} --shards ${{ needs.lines.outputs.nshards }} --budget-min 290 2>&1 | tee gen.log
 
       - name: Release'ga yuklash
         if: always()
