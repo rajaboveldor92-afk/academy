@@ -77,7 +77,7 @@ void main() {
       final r = bank.render('x', {'n': 7, 'item': const Localized(uz: 'suyak', en: 'bone', ru: 'кость')});
       expect(r.text.uz, '7 dan keyin suyakka qara');
       expect(r.text.en, 'After 7 look at bone');
-      expect(r.speech, 'Yetti dan keyin suyakka qara');
+      expect(r.speech, 'Yettidan keyin suyakka qara');
     });
   });
 }
