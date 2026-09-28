@@ -53,7 +53,11 @@ def spoken(text: str) -> str:
     s = re.sub(r"\d+", lambda m: word(int(m[0])), s)
     s = s.replace("+", " qo‘shuv ").replace("−", " ayiruv ").replace("=", " teng ")
     s = re.sub(r"\s+", " ", s).strip()
-    return _SUFFIX.sub(_join, s)
+    s = _SUFFIX.sub(_join, s)
+    # Bitta-ikkita kichik harfli so'z ("fil") model uchun juda qisqa — gap qilib beramiz: "Fil."
+    if len(s.split()) <= 2 and s and s[-1] not in ".!?»":
+        s = s[0].upper() + s[1:] + "."
+    return s
 
 
 if __name__ == "__main__":
