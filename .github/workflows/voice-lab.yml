@@ -1,0 +1,56 @@
+name: Voice lab
+
+# Onaning ovozini klonlash (OmniVoice) — faqat voice-lab tarmog'ida, APK build'iga ta'sir qilmaydi.
+on:
+  push:
+    branches: [voice-lab]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Kesh (pip va model)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: omnivoice-cpu-v1
+
+      - name: O'rnatish
+        run: |
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install omnivoice soundfile librosa
+          python -c "import torch, transformers; print(torch.__version__, transformers.__version__)"
+
+      - name: Sinov
+        run: python tool/voice/probe.py 2>&1 | tee probe.log
+
+      - name: MP3 ga o'girish
+        if: always()
+        run: |
+          mkdir -p dist
+          for f in probe_out/*.wav; do ffmpeg -loglevel error -y -i "$f" -ac 1 -b:a 96k "dist/$(basename "${f%.wav}").mp3"; done
+          cp probe_out/timings.json dist/ 2>/dev/null || true
+          cp probe.log dist/ 2>/dev/null || true
+          ls -la dist
+
+      - name: Natijani release'ga yuklash
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete voice-probe --yes --cleanup-tag || true
+          gh release create voice-probe dist/* --prerelease --target "$GITHUB_SHA" \
+            --title "Voice lab — sinov" --notes "OmniVoice sinovi, commit $GITHUB_SHA"
