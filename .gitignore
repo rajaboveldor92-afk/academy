@@ -16,3 +16,5 @@ android/key.properties
 
 # Oilaviy build imzo kaliti — ataylab repoda (README: Imzo).
 !tool/signing/family-release.jks
+tool/voice/out/
+__pycache__/

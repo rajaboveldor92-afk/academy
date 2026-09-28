@@ -122,7 +122,7 @@ class _ChessExerciseViewState extends State<ChessExerciseView> {
       _wrongSq = null;
     });
     final p = _pos.at(sq);
-    if (p != null) widget.callbacks.onSpeak?.call(ChessGenerators.names[p[1]]!.uz);
+    if (p != null) widget.callbacks.onSpeak?.call(ChessGenerators.names[p[1]]!.of(widget.exercise.speechLang));
   }
 
   void _onDrop(int from, int to) {

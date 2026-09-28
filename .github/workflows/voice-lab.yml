@@ -1,0 +1,93 @@
+name: Voice lab
+
+# Onaning klonlangan ovozida o'zbekcha gaplarni tayyorlash (OmniVoice, CPU, 20 ta parallel bo'lak).
+# Faqat voice-lab tarmog'iga push qilinganda ishlaydi, APK build'iga ta'sir qilmaydi.
+# Natija: "voice-clips" release'ida klon-<n>.zip fayllari → assets/audio/uz/klon/.
+on:
+  push:
+    branches: [voice-lab]
+
+permissions:
+  contents: write
+
+jobs:
+  lines:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: O'zbekcha gaplarni yig'ish
+        run: |
+          set -o pipefail
+          flutter test tool/voice/dump_speech_test.dart --reporter expanded --no-color 2>&1 | tee speech.log
+          python3 tool/voice/select_lines.py | tee -a speech.log
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lines
+          path: tool/voice/out/lines.json
+
+      - name: Release tayyorlash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete voice-clips --yes --cleanup-tag || true
+          gh release create voice-clips tool/voice/out/lines.json tool/voice/out/speech_uz.json speech.log --prerelease \
+            --target "$GITHUB_SHA" --title "Voice lab — klonlangan ovoz" --notes "commit $GITHUB_SHA"
+
+  generate:
+    needs: lines
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Keshni tiklash (pip va model)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: omnivoice-cpu-v1
+
+      - name: O'rnatish
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q omnivoice soundfile
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: lines
+          path: tool/voice/out
+
+      - name: Tayyorlash
+        run: |
+          set -o pipefail
+          python tool/voice/generate.py --shard ${{ matrix.shard }} --shards 20 --budget-min 290 2>&1 | tee gen.log
+
+      - name: Release'ga yuklash
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd tool/voice/out
+          cp ../../../gen.log shard_${{ matrix.shard }}.log 2>/dev/null || true
+          zip -q -r ../../../klon-${{ matrix.shard }}.zip klon shard_${{ matrix.shard }}.json shard_${{ matrix.shard }}.log || true
+          cd ../../..
+          ls -la klon-${{ matrix.shard }}.zip
+          gh release upload voice-clips klon-${{ matrix.shard }}.zip --clobber

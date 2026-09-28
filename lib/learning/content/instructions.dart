@@ -71,8 +71,31 @@ class InstructionBank {
   /// Chet tilidagi matnni ovoz uchun tayyorlash (sonlar so'z bilan).
   static String speechFor(String text, String lang) {
     if (lang == 'uz') return toSpeech(text);
-    return NumberWords.spellDigits(text, lang).replaceAll(RegExp(r'\s+'), ' ').trim();
+    return NumberWords.spellDigits(_splitLetterDigits(text), lang).replaceAll(RegExp(r'\s+'), ' ').trim();
   }
+
+  /// Shaxmat katagi "b4" → "b 4" (ovozda "bto‘rt" bo'lib qo'shilib ketmasin).
+  static String _splitLetterDigits(String text) => text.replaceAllMapped(RegExp(r'([A-Za-z])(\d)'), (m) => '${m[1]} ${m[2]}');
+
+  static const String _uzNumberWords =
+      'nol|bir|ikki|uch|to‘rt|besh|olti|yetti|sakkiz|to‘qqiz|o‘n|yigirma|o‘ttiz|qirq|ellik|oltmish|yetmish|sakson|to‘qson|yuz|ming';
+  static final RegExp _uzNumberSuffix = RegExp(
+    '(^|[^A-Za-z‘’ʻ])($_uzNumberWords) (ta|tasini|tasi|ga|gacha|ni|ning|dan|da)(?=\$|[^A-Za-z‘’ʻ])',
+    caseSensitive: false,
+  );
+
+  /// Son va qo'shimcha qo'shib aytiladi: "o‘n sakkiz ga" → "o‘n sakkizga", "bir ta" → "bitta",
+  /// "ellik ga" → "ellikka", "qirq ga" → "qirqqa".
+  static String joinUzNumberSuffixes(String text) => text.replaceAllMapped(_uzNumberSuffix, (m) {
+        final word = m[2]!;
+        var suffix = m[3]!;
+        final last = word[word.length - 1].toLowerCase();
+        if (suffix.startsWith('g') && (last == 'k' || last == 'q')) suffix = last + suffix.substring(1);
+        if (word.toLowerCase() == 'bir' && suffix.startsWith('ta')) {
+          return '${m[1]}${word[0]}it$suffix';
+        }
+        return '${m[1]}$word$suffix';
+      });
 
   static String _value(Object v, String lang, {bool speech = false}) {
     if (v is int) return speech ? NumberWords.word(v, lang) : '$v';
@@ -108,8 +131,8 @@ class InstructionBank {
         .replaceAll('>', ' katta ')
         .replaceAll('<', ' kichik ')
         .replaceAll('?', '?');
-    s = UzNumbers.spellDigits(s);
-    return s.replaceAll(RegExp(r'\s+'), ' ').trim();
+    s = joinUzNumberSuffixes(UzNumbers.spellDigits(_splitLetterDigits(s)).replaceAll(RegExp(r'\s+'), ' '));
+    return s.trim();
   }
 
   factory InstructionBank.fromJson(Map<String, dynamic> json) {

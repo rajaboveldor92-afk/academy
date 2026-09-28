@@ -1,6 +1,7 @@
 import '../learning/models/exercise.dart';
 import '../models/child_profile.dart';
 import '../models/speech_part.dart';
+import 'cloned_voice.dart';
 
 /// Onaning yozib olingan ovozi: `assets/audio/uz/ona/<kalit>.ogg`.
 ///
@@ -79,6 +80,14 @@ class MotherVoice {
   };
 
   static SpeechPart part(String key) => SpeechPart(clips[key]!, 'uz', clip: key);
+
+  static Map<String, String>? _byText;
+
+  /// Matni yozib olingan iboraga aynan mos kelsa — o'sha ibora kaliti ("Barakalla!" → `barakalla`).
+  static String? clipForText(String text) {
+    final map = _byText ??= {for (final e in clips.entries) ClonedVoice.normalize(e.value).toLowerCase(): e.key};
+    return map[ClonedVoice.normalize(text).toLowerCase()];
+  }
 
   static List<SpeechPart> parts(List<String> keys) => [for (final k in keys) part(k)];
 

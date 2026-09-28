@@ -8,6 +8,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 
 import '../models/app_settings.dart';
 import '../models/speech_part.dart';
+import 'cloned_voice.dart';
 import 'mother_voice.dart';
 
 export '../models/speech_part.dart';
@@ -22,7 +23,9 @@ typedef LangCode = String;
 ///
 /// Ishlash tartibi (`playWord` / `speak`):
 /// 1. `assets/audio/<lang>/<key>.(mp3|ogg|m4a|wav)` fayli bo'lsa — o'sha ijro etiladi.
-/// 2. Aks holda qurilmaning **offline** TTS ovozi matnni aytadi.
+/// 2. O'zbekcha gap onaning yozib olingan iborasiga ([MotherVoice]) yoki klonlangan ovozdagi
+///    tayyor faylga ([ClonedVoice]) mos kelsa — o'sha.
+/// 3. Aks holda qurilmaning **offline** TTS ovozi matnni aytadi.
 ///
 /// Shuning uchun keyinchalik haqiqiy ovoz yozuvlarini qo'shish uchun kodni
 /// o'zgartirish shart emas — faylni to'g'ri nom bilan papkaga qo'yish kifoya.
@@ -278,8 +281,20 @@ class DeviceAudioService implements AudioService {
   }
 
   /// Onaning ovozidagi iborani oxirigacha ijro etadi. Fayl bo'lmasa `false`.
-  Future<bool> _playClip(String key, int token) async {
-    final path = await _findAsset(MotherVoice.folder, key);
+  Future<bool> _playClip(String key, int token) => _playClipAt(MotherVoice.folder, key, token);
+
+  /// O'zbekcha gap uchun tayyor yozuv: onaning haqiqiy iborasi yoki klonlangan ovozdagi fayl.
+  Future<(String, String)?> _recordedFor(String text) async {
+    final mother = MotherVoice.clipForText(text);
+    if (mother != null && await _findAsset(MotherVoice.folder, mother) != null) return (MotherVoice.folder, mother);
+    final key = ClonedVoice.keyFor(text);
+    if (await _findAsset(ClonedVoice.folder, key) != null) return (ClonedVoice.folder, key);
+    return null;
+  }
+
+  /// [folder] dagi yozuvni oxirigacha ijro etadi. Fayl bo'lmasa `false`.
+  Future<bool> _playClipAt(String folder, String key, int token) async {
+    final path = await _findAsset(folder, key);
     if (path == null) return false;
     if (token != _speechToken) return true;
     final wait = Completer<void>();
@@ -291,7 +306,7 @@ class DeviceAudioService implements AudioService {
       await _voicePlayer.stop();
       if (token != _speechToken) return true;
       await _voicePlayer.play(AssetSource(path));
-      await wait.future.timeout(const Duration(seconds: 12), onTimeout: () {});
+      await wait.future.timeout(const Duration(seconds: 30), onTimeout: () {});
     } catch (e) {
       debugPrint('AudioService: $path ijro etilmadi: $e');
     } finally {
@@ -305,7 +320,17 @@ class DeviceAudioService implements AudioService {
   Future<void> speak(String text, {LangCode lang = 'uz'}) async {
     if (!_voiceEnabled || text.trim().isEmpty) return;
     _interrupt();
+    final token = _speechToken;
     try {
+      if (lang == 'uz') {
+        final recorded = await _recordedFor(text);
+        if (token != _speechToken) return;
+        if (recorded != null) {
+          await _tts?.stop();
+          await _playClipAt(recorded.$1, recorded.$2, token);
+          return;
+        }
+      }
       await _voicePlayer.stop();
       if (!await _prepare(lang)) return;
       final tts = _ttsInstance();
@@ -332,6 +357,12 @@ class DeviceAudioService implements AudioService {
         final clip = part.clip;
         if (clip != null && await _playClip(clip, token)) continue;
         if (token != _speechToken) return;
+        if (clip == null && part.lang == 'uz') {
+          final recorded = await _recordedFor(part.text);
+          if (token != _speechToken) return;
+          if (recorded != null && await _playClipAt(recorded.$1, recorded.$2, token)) continue;
+          if (token != _speechToken) return;
+        }
         if (part.text.trim().isEmpty || !await _prepare(part.lang)) continue;
         if (token != _speechToken) return;
         await tts.speak(part.text);
