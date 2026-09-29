@@ -1,0 +1,109 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "onatili_g3.word_classes",
+   "code": "1",
+   "emoji": "📝",
+   "title": {
+    "uz": "So‘z turkumlari",
+    "en": "So‘z turkumlari",
+    "ru": "So‘z turkumlari"
+   },
+   "generator": "bank",
+   "skill": "word_classes",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ot shaxs yoki narsani, sifat belgini, son miqdorni, fe’l harakatni bildiradi. Kitob — ot, yashil — sifat, uch — son, o‘qidi — fe’l. So‘zning ma’nosiga qarab ajrating."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.sentences",
+   "code": "2",
+   "emoji": "📝",
+   "title": {
+    "uz": "Darak va so‘roq gap",
+    "en": "Darak va so‘roq gap",
+    "ru": "Darak va so‘roq gap"
+   },
+   "generator": "bank",
+   "skill": "sentences",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Darak gap xabar beradi va odatda nuqta bilan tugaydi. So‘roq gap savol bildiradi va so‘roq belgisi bilan tugaydi. Masalan: Ali o‘qidi. Ali nima o‘qidi?"
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.review",
+   "code": "3",
+   "emoji": "📝",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "onatili_g3.word_classes",
+      "onatili_g3.sentences"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g3.word_classes",
+      "onatili_g3.sentences"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g3.word_classes",
+      "onatili_g3.sentences"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

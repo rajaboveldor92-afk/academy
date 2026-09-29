@@ -697,7 +697,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           ),
           const SizedBox(width: 10),
           Expanded(
-            child: Column(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(maxHeight: _item.topic.isSchool ? MediaQuery.sizeOf(context).height * 0.36 : double.infinity),
+              child: SingleChildScrollView(
+              child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -712,13 +715,15 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                   ),
                 ),
                 // Ko'rsatma boshqa tilda bo'lsa (chet tili yoki o'zbek tili darsi) — bolaning tilidagi tarjimasi.
-                if (ex.speechLang != _lang)
+                if (ex.speechLang != _lang && ex.instruction.of(_lang) != ex.prompt)
                   Text(
                     ex.instruction.of(_lang),
                     key: const Key('lesson_instruction_uz'),
                     style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSoft),
                   ),
               ],
+            ),
+            ),
             ),
           ),
         ],

@@ -1,0 +1,109 @@
+{
+ "subject": "science",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Tabiiy fan",
+  "en": "Science",
+  "ru": "Естествознание"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "science_g5.matter",
+   "code": "1",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Modda va uning o‘zgarishlari",
+    "en": "Modda va uning o‘zgarishlari",
+    "ru": "Modda va uning o‘zgarishlari"
+   },
+   "generator": "bank",
+   "skill": "matter",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Jism — alohida narsa, modda esa u nimadan tuzilganini bildiradi. Aralashmalarni ajratishda moddalarning eruvchanligi, zarracha o‘lchami va magnitga tortilishi kabi xususiyatlardan foydalaniladi."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "science_g5.ecosystems",
+   "code": "2",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Tabiatdagi bog‘lanishlar",
+    "en": "Tabiatdagi bog‘lanishlar",
+    "ru": "Tabiatdagi bog‘lanishlar"
+   },
+   "generator": "bank",
+   "skill": "ecosystems",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ekotizimda organizmlar va muhit o‘zaro bog‘langan. Oziq zanjiridagi strelka oziq va energiya yo‘nalishini ko‘rsatadi. O‘simliklar, hayvonlar va parchalovchilar tabiatda turli vazifalarni bajaradi."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "science_g5.review",
+   "code": "3",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "science_g5.matter",
+      "science_g5.ecosystems"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g5.matter",
+      "science_g5.ecosystems"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g5.matter",
+      "science_g5.ecosystems"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

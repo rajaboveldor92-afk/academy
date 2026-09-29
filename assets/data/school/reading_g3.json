@@ -1,0 +1,115 @@
+{
+ "subject": "reading",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "O‘qish",
+  "en": "Reading",
+  "ru": "Чтение"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "reading_g3.understand",
+   "code": "1",
+   "emoji": "📖",
+   "title": {
+    "uz": "Matnni tushunish",
+    "en": "Matnni tushunish",
+    "ru": "Matnni tushunish"
+   },
+   "generator": "comprehension",
+   "skill": "understand",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Matnni boshidan oxirigacha o‘qing. Kim, nima, qayerda va nima sababdan degan savollarga matndan dalil toping. Sarlavha matndagi asosiy voqeani ifodalashi kerak. Javobni tekshirgach izohni ham o‘qing."
+   },
+   "levels": [
+    {
+     "options": 2,
+     "infer": false
+    },
+    {
+     "options": 3,
+     "infer": false
+    },
+    {
+     "options": 4,
+     "infer": false
+    }
+   ]
+  },
+  {
+   "id": "reading_g3.reason",
+   "code": "2",
+   "emoji": "📖",
+   "title": {
+    "uz": "Sabab va natijani tushunish",
+    "en": "Sabab va natijani tushunish",
+    "ru": "Sabab va natijani tushunish"
+   },
+   "generator": "comprehension",
+   "skill": "reason",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Qahramon nima qilgani va uning natijasini ajrating. Xulosa matndagi dalilga mos bo‘lsin. Masalan, nihol parvarish qilinsa o‘sadi; unutmaslik uchun sana yozib qo‘yiladi."
+   },
+   "levels": [
+    {
+     "options": 2,
+     "infer": true
+    },
+    {
+     "options": 3,
+     "infer": true
+    },
+    {
+     "options": 4,
+     "infer": true
+    }
+   ]
+  },
+  {
+   "id": "reading_g3.review",
+   "code": "3",
+   "emoji": "📖",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "reading_g3.understand",
+      "reading_g3.reason"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g3.understand",
+      "reading_g3.reason"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g3.understand",
+      "reading_g3.reason"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

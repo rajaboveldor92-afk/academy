@@ -1,0 +1,286 @@
+{
+ "subject": "logic",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "logic_g5.sequence",
+   "code": "1",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Sonli qonuniyatlar",
+    "en": "Sonli qonuniyatlar",
+    "ru": "Sonli qonuniyatlar"
+   },
+   "generator": "rule_sequence",
+   "skill": "sequence",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ketma-ketlikda sonlar qanday o‘zgarayotganini aniqlang. Bir xil son qo‘shilishi yoki bir xil songa ko‘paytirish qoidasini tekshiring. Qoidani har bir qo‘shni juftlikka qo‘llang."
+   },
+   "levels": [
+    {
+     "maxStart": 20,
+     "maxStep": 3,
+     "multiply": true,
+     "mode": "choice"
+    },
+    {
+     "maxStart": 30,
+     "maxStep": 4,
+     "multiply": true,
+     "mode": "mixed"
+    },
+    {
+     "maxStart": 40,
+     "maxStep": 5,
+     "multiply": true,
+     "mode": "mixed"
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.ordering",
+   "code": "2",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Taqqoslashdan xulosa",
+    "en": "Taqqoslashdan xulosa",
+    "ru": "Taqqoslashdan xulosa"
+   },
+   "generator": "ordering",
+   "skill": "ordering",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "A B dan baland, B esa C dan baland bo‘lsa, tartib A → B → C bo‘ladi. Demak A eng baland, C eng past. Xulosani faqat berilgan ma’lumotdan chiqaring."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.sets",
+   "code": "3",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Kesishuvchi guruhlar",
+    "en": "Kesishuvchi guruhlar",
+    "ru": "Kesishuvchi guruhlar"
+   },
+   "generator": "set_count",
+   "skill": "sets",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ikki guruhdagi odamlarni qo‘shganda ikkala guruhga kiradiganlar ikki marta sanaladi. Umumiy son = birinchi guruh + ikkinchi guruh − ikkala guruhdagilar. Misol: 8 + 7 − 3 = 12."
+   },
+   "levels": [
+    {
+     "mode": "choice"
+    },
+    {
+     "mode": "mixed"
+    },
+    {
+     "mode": "input"
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.matrix3",
+   "code": "4",
+   "emoji": "🧩",
+   "title": {
+    "uz": "3×3 matritsa",
+    "en": "3×3 matrix",
+    "ru": "Матрица 3×3"
+   },
+   "generator": "matrix",
+   "skill": "matrix3",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Satr va ustunlarda shakl, rang yoki miqdor qanday o‘zgarayotganini tekshiring. Yetishmagan katak ham shu qoidaga mos kelishi kerak. Ikkala yo‘nalishni solishtiring."
+   },
+   "levels": [
+    {
+     "size": 3,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    },
+    {
+     "size": 3,
+     "rules": [
+      "count",
+      "shape_color"
+     ]
+    },
+    {
+     "size": 3,
+     "rules": [
+      "count",
+      "shape_color"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.coding",
+   "code": "5",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Kodlash",
+    "en": "Coding",
+    "ru": "Программирование"
+   },
+   "generator": "coding",
+   "skill": "coding",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Buyruqlarni qahramon turgan katakdan boshlab bajaring. Har bir o‘q bitta katakka yurishni bildiradi. Chegaradan yoki to‘siqdan o‘tmasdan maqsadga olib boradigan yo‘lni tanlang."
+   },
+   "levels": [
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 2,
+     "minSteps": 3,
+     "maxSteps": 5
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 3,
+     "minSteps": 3,
+     "maxSteps": 6,
+     "build": true
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 3,
+     "minSteps": 3,
+     "maxSteps": 6,
+     "build": true
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.sudoku",
+   "code": "6",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Mini-sudoku",
+    "en": "Mini sudoku",
+    "ru": "Мини-судоку"
+   },
+   "generator": "sudoku",
+   "skill": "sudoku",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Har bir satr, ustun va belgilangan kichik kataklar guruhida har bir belgi bir martadan bo‘lsin. Bo‘sh katak uchun boshqa kataklardagi belgilarni chiqarib tashlab, qolganini toping."
+   },
+   "levels": [
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 8,
+     "maxBlanks": 10,
+     "symbols": [
+      "numbers",
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 8,
+     "maxBlanks": 10,
+     "symbols": [
+      "numbers",
+      "emoji"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.review",
+   "code": "7",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.ordering",
+      "logic_g5.sets",
+      "logic_g5.matrix3",
+      "logic_g5.coding",
+      "logic_g5.sudoku"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.ordering",
+      "logic_g5.sets",
+      "logic_g5.matrix3",
+      "logic_g5.coding",
+      "logic_g5.sudoku"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.ordering",
+      "logic_g5.sets",
+      "logic_g5.matrix3",
+      "logic_g5.coding",
+      "logic_g5.sudoku"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

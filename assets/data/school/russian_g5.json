@@ -1,0 +1,400 @@
+{
+ "subject": "russian",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "russian_g5.city",
+   "code": "1",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Shahar: transport va kasblar",
+    "en": "Town: transport and jobs",
+    "ru": "Город: транспорт и профессии"
+   },
+   "generator": "vocab",
+   "skill": "city",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.actions",
+   "code": "2",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Harakat, belgi, iboralar",
+    "en": "Actions, qualities, phrases",
+    "ru": "Действия, признаки, вежливые слова"
+   },
+   "generator": "vocab",
+   "skill": "actions",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "actions",
+      "phrases"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions",
+      "opposites",
+      "phrases"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions",
+      "opposites",
+      "phrases"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.spelling",
+   "code": "3",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 6,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 7,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.sentences",
+   "code": "4",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Oddiy gap",
+    "en": "Simple sentences",
+    "ru": "Простое предложение"
+   },
+   "generator": "sentence",
+   "skill": "sentences",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen",
+      "build"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen",
+      "build"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.food",
+   "code": "5",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "vocab",
+   "skill": "food",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.agreement",
+   "code": "6",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Sifat va otning moslashuvi",
+    "en": "Sifat va otning moslashuvi",
+    "ru": "Sifat va otning moslashuvi"
+   },
+   "generator": "bank",
+   "skill": "agreement",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Sifat otga jins va sonda moslashadi: новый стол, новая книга, новое окно, новые книги. Avval otning jinsi yoki ko‘plik shaklini aniqlang."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.verbs",
+   "code": "7",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Fe’lning shaxs-son shakllari",
+    "en": "Fe’lning shaxs-son shakllari",
+    "ru": "Fe’lning shaxs-son shakllari"
+   },
+   "generator": "bank",
+   "skill": "verbs",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Hozirgi zamon fe’li shaxs va songa qarab o‘zgaradi: я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают. Ega bilan fe’lni moslang."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.past",
+   "code": "8",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "O‘tgan zamon",
+    "en": "O‘tgan zamon",
+    "ru": "O‘tgan zamon"
+   },
+   "generator": "bank",
+   "skill": "past",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "O‘tgan zamonda fe’l jins va songa moslashadi: он читал, она читала, оно читало, они читали. Вчера so‘zi kecha bajarilgan ishni bildiradi."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.review",
+   "code": "9",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "russian_g5.city",
+      "russian_g5.actions",
+      "russian_g5.spelling",
+      "russian_g5.sentences",
+      "russian_g5.food",
+      "russian_g5.agreement",
+      "russian_g5.verbs",
+      "russian_g5.past"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g5.city",
+      "russian_g5.actions",
+      "russian_g5.spelling",
+      "russian_g5.sentences",
+      "russian_g5.food",
+      "russian_g5.agreement",
+      "russian_g5.verbs",
+      "russian_g5.past"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g5.city",
+      "russian_g5.actions",
+      "russian_g5.spelling",
+      "russian_g5.sentences",
+      "russian_g5.food",
+      "russian_g5.agreement",
+      "russian_g5.verbs",
+      "russian_g5.past"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

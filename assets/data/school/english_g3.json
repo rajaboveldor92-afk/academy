@@ -1,0 +1,393 @@
+{
+ "subject": "english",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "english_g3.toys_school",
+   "code": "1",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "O‘yinchoq va maktab",
+    "en": "Toys and school",
+    "ru": "Игрушки и школа"
+   },
+   "generator": "vocab",
+   "skill": "toys_school",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english_g3.family",
+   "code": "2",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Oila va tana",
+    "en": "Family and body",
+    "ru": "Семья и тело"
+   },
+   "generator": "vocab",
+   "skill": "family",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english_g3.animals",
+   "code": "3",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
+   },
+   "generator": "vocab",
+   "skill": "animals",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english_g3.spelling",
+   "code": "4",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "minLetters": 3,
+     "maxLetters": 3
+    },
+    {
+     "minLetters": 3,
+     "maxLetters": 4,
+     "extra": 1
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "english_g3.sentences",
+   "code": "5",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Oddiy gaplar",
+    "en": "Simple sentences",
+    "ru": "Простые предложения"
+   },
+   "generator": "sentence",
+   "skill": "sentences",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "types": [
+      "this"
+     ],
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "build"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english_g3.be",
+   "code": "6",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Am, is, are",
+    "en": "Am, is, are",
+    "ru": "Am, is, are"
+   },
+   "generator": "bank",
+   "skill": "be",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "I bilan am; he, she, it bilan is; you, we, they bilan are ishlatiladi. Masalan: I am happy. She is ready. We are at school."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g3.plurals",
+   "code": "7",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Birlik va ko‘plik",
+    "en": "Birlik va ko‘plik",
+    "ru": "Birlik va ko‘plik"
+   },
+   "generator": "bank",
+   "skill": "plurals",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ko‘p otlarga ko‘plikda -s qo‘shiladi: book → books. -s, -sh, -ch, -x bilan tugagan so‘zlarda odatda -es: bus → buses, box → boxes."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g3.articles",
+   "code": "8",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "A va an",
+    "en": "A va an",
+    "ru": "A va an"
+   },
+   "generator": "bank",
+   "skill": "articles",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bitta predmetni aytishda undosh tovushdan oldin a, unli tovushdan oldin an keladi: a book, an apple. So‘zning birinchi tovushiga e’tibor bering."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g3.review",
+   "code": "9",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "english_g3.toys_school",
+      "english_g3.family",
+      "english_g3.animals",
+      "english_g3.spelling",
+      "english_g3.sentences",
+      "english_g3.be",
+      "english_g3.plurals",
+      "english_g3.articles"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g3.toys_school",
+      "english_g3.family",
+      "english_g3.animals",
+      "english_g3.spelling",
+      "english_g3.sentences",
+      "english_g3.be",
+      "english_g3.plurals",
+      "english_g3.articles"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g3.toys_school",
+      "english_g3.family",
+      "english_g3.animals",
+      "english_g3.spelling",
+      "english_g3.sentences",
+      "english_g3.be",
+      "english_g3.plurals",
+      "english_g3.articles"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

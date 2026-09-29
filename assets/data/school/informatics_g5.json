@@ -1,0 +1,109 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computer science",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "informatics_g5.files",
+   "code": "1",
+   "emoji": "💻",
+   "title": {
+    "uz": "Fayllar va axborot",
+    "en": "Fayllar va axborot",
+    "ru": "Fayllar va axborot"
+   },
+   "generator": "bank",
+   "skill": "files",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Fayl nomi va kengaytmasi uni tanishda yordam beradi. Fayllarni papkalarga tartiblang va muhim ishning zaxira nusxasini saqlang. Axborot matn, tasvir, ovoz va video shaklida bo‘lishi mumkin."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.algorithms",
+   "code": "2",
+   "emoji": "💻",
+   "title": {
+    "uz": "Algoritm va dasturlash tushunchalari",
+    "en": "Algoritm va dasturlash tushunchalari",
+    "ru": "Algoritm va dasturlash tushunchalari"
+   },
+   "generator": "bank",
+   "skill": "algorithms",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Algoritm qadamlari aniq bo‘lishi kerak. Ketma-ketlikda amallar navbat bilan bajariladi; tarmoqlanish shartga bog‘liq yo‘lni tanlaydi; takrorlash bir amalni qayta bajaradi. Natijani misollar bilan tekshiring."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.review",
+   "code": "3",
+   "emoji": "💻",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "informatics_g5.files",
+      "informatics_g5.algorithms"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g5.files",
+      "informatics_g5.algorithms"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g5.files",
+      "informatics_g5.algorithms"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

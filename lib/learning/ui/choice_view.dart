@@ -107,7 +107,10 @@ class _ChoiceExerciseViewState extends State<ChoiceExerciseView> {
             _dropTarget(),
           ],
           const SizedBox(height: 12),
-          if (longText) options else Expanded(flex: visual == null ? 6 : 4, child: options),
+          if (longText)
+            Expanded(child: SingleChildScrollView(child: options))
+          else
+            Expanded(flex: visual == null ? 6 : 4, child: options),
         ],
       );
     });

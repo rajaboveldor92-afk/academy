@@ -1,0 +1,112 @@
+{
+ "subject": "reading",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Adabiyot",
+  "en": "Literature",
+  "ru": "Литература"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "reading_g5.understand",
+   "code": "1",
+   "emoji": "📖",
+   "title": {
+    "uz": "Matndan xulosa chiqarish",
+    "en": "Matndan xulosa chiqarish",
+    "ru": "Matndan xulosa chiqarish"
+   },
+   "generator": "comprehension",
+   "skill": "understand",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Matnni boshidan oxirigacha o‘qing. Kim, nima, qayerda va nima sababdan degan savollarga matndan dalil toping. Sarlavha matndagi asosiy voqeani ifodalashi kerak. Javobni tekshirgach izohni ham o‘qing."
+   },
+   "levels": [
+    {
+     "options": 2,
+     "infer": true
+    },
+    {
+     "options": 3,
+     "infer": true
+    },
+    {
+     "options": 4,
+     "infer": true
+    }
+   ]
+  },
+  {
+   "id": "reading_g5.literature",
+   "code": "2",
+   "emoji": "📖",
+   "title": {
+    "uz": "Adabiy matnni tahlil qilish",
+    "en": "Adabiy matnni tahlil qilish",
+    "ru": "Adabiy matnni tahlil qilish"
+   },
+   "generator": "bank",
+   "skill": "literature",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Badiiy matnni o‘qiganda voqea, qahramon va muallif aytmoqchi bo‘lgan asosiy fikrni ajrating. Asarning nomi, mavzusi va g‘oyasi bir xil tushuncha emas. Xulosangizni matndan dalil bilan asoslang."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "reading_g5.review",
+   "code": "3",
+   "emoji": "📖",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "reading_g5.understand",
+      "reading_g5.literature"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g5.understand",
+      "reading_g5.literature"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g5.understand",
+      "reading_g5.literature"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

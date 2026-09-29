@@ -1,0 +1,109 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computer science",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "informatics_g3.devices",
+   "code": "1",
+   "emoji": "💻",
+   "title": {
+    "uz": "Kompyuter qurilmalari",
+    "en": "Kompyuter qurilmalari",
+    "ru": "Kompyuter qurilmalari"
+   },
+   "generator": "bank",
+   "skill": "devices",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Kompyuterga ma’lumot kiritish, natijani chiqarish va saqlash uchun turli vositalar kerak. Klaviatura kiritadi, monitor ko‘rsatadi, printer qog‘ozga chiqaradi. Qurilmani uning vazifasiga qarab ajrating."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.safe_use",
+   "code": "2",
+   "emoji": "💻",
+   "title": {
+    "uz": "Raqamli odob va xavfsizlik",
+    "en": "Raqamli odob va xavfsizlik",
+    "ru": "Raqamli odob va xavfsizlik"
+   },
+   "generator": "bank",
+   "skill": "safe_use",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Internetda ism, manzil va parol kabi shaxsiy ma’lumotlarni ehtiyot qiling. Noma’lum xabar yoki havolani kattalar bilan tekshiring. Boshqalar bilan muloyim gaplashing va ish orasida tanaffus qiling."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.review",
+   "code": "3",
+   "emoji": "💻",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "informatics_g3.devices",
+      "informatics_g3.safe_use"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g3.devices",
+      "informatics_g3.safe_use"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g3.devices",
+      "informatics_g3.safe_use"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
