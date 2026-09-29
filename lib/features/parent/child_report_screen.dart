@@ -10,6 +10,7 @@ import '../../models/child_profile.dart';
 import '../../models/subject.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/profile_photo.dart';
+import '../lesson/topics_screen.dart' show markFor;
 import '../profiles/profiles_controller.dart';
 import '../session/progress_controller.dart';
 import 'child_report.dart';
@@ -58,6 +59,10 @@ class ChildReportScreen extends ConsumerWidget {
                 _ReviewsCard(report: report),
                 const SizedBox(height: 12),
                 _HighlightsCard(report: report),
+                if (current.isSchool) ...[
+                  const SizedBox(height: 12),
+                  _MarksCard(report: report),
+                ],
                 const SizedBox(height: 16),
                 Text(t.bySubject, style: Theme.of(context).textTheme.titleLarge),
                 const SizedBox(height: 4),
@@ -274,6 +279,67 @@ class _HighlightsCard extends StatelessWidget {
             for (final t in help) _TopicLine(topic: t, showSubject: true),
         ],
       ),
+    );
+  }
+}
+
+/// Maktab o'quvchisi: nazorat ishlari (har chorak oxiri) bo'yicha 5 ballik baholar.
+class _MarksCard extends StatelessWidget {
+  const _MarksCard({required this.report});
+
+  final ChildReport report;
+
+  static Color markColor(int mark) => switch (mark) {
+        5 => AppColors.success,
+        4 => AppColors.primary,
+        3 => AppColors.gentle,
+        _ => const Color(0xFFE57373),
+      };
+
+  @override
+  Widget build(BuildContext context) {
+    final tr = Tr.of(context);
+    final rows = [
+      for (final s in report.subjects)
+        for (final t in s.topics)
+          if (t.topic.isTest && t.stat.started) (s.subject, t, markFor(t.stat.lastAccuracy)),
+    ];
+    final avg = rows.isEmpty ? 0.0 : rows.fold<int>(0, (a, r) => a + r.$3) / rows.length;
+    return _Card(
+      cardKey: const Key('report_marks'),
+      title: tr.marksTitle,
+      child: rows.isEmpty
+          ? Text(tr.noMarksYet, style: const TextStyle(color: AppColors.textSoft))
+          : Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(tr.averageMark(avg.toStringAsFixed(1).replaceAll('.', tr.lang == 'en' ? '.' : ',')),
+                    key: const Key('report_marks_avg'), style: const TextStyle(fontWeight: FontWeight.w800)),
+                const SizedBox(height: 6),
+                for (final (subject, t, mark) in rows)
+                  Padding(
+                    key: ValueKey('report_mark_${t.topic.id}'),
+                    padding: const EdgeInsets.symmetric(vertical: 3),
+                    child: Row(
+                      children: [
+                        Text(subject.emoji, style: const TextStyle(fontSize: 18)),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Text('${subject.titleIn(tr.lang)} · ${t.topic.title.of(tr.lang)}',
+                              style: const TextStyle(fontWeight: FontWeight.w600)),
+                        ),
+                        Container(
+                          width: 34,
+                          height: 34,
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(color: markColor(mark), borderRadius: BorderRadius.circular(10)),
+                          child: Text('$mark', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
+                        ),
+                      ],
+                    ),
+                  ),
+              ],
+            ),
     );
   }
 }

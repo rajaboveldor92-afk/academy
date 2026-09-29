@@ -220,6 +220,11 @@ class Tr {
   String get startPractice => p('Mashqni boshlash', 'Start practice', 'Начать упражнения');
   String get showRule => p('Qoidani ko‘rish', 'Show the rule', 'Показать правило');
   String get testTitle => p('Nazorat ishi', 'Test', 'Контрольная работа');
+  String get marksTitle => p('Nazorat ishlari baholari', 'Test marks', 'Оценки за контрольные');
+  String get noMarksYet => p('Hali nazorat ishi topshirilmagan. Har chorak oxirida fan ichida “Nazorat ishi” bor.',
+      'No tests taken yet. Each subject has a test at the end of every term.',
+      'Контрольных пока не было. В каждом предмете в конце четверти есть контрольная.');
+  String averageMark(String avg) => p('O‘rtacha baho: $avg', 'Average mark: $avg', 'Средняя оценка: $avg');
   String markLabel(int mark) => p('Baho: $mark', 'Mark: $mark', 'Оценка: $mark');
   String markName(int mark) => switch (mark) {
         5 => p('A’lo!', 'Excellent!', 'Отлично!'),

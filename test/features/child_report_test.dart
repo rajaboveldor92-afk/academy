@@ -130,4 +130,43 @@ void main() {
     expect(find.byKey(ValueKey('report_topic_${second.id}')), findsOneWidget);
     expect(find.byKey(ValueKey('report_topic_${first.id}')), findsWidgets);
   });
+
+  testWidgets('Maktab o‘quvchisi: hisobotda nazorat ishlari baholari', (tester) async {
+    TestDb? t;
+    await tester.runAsync(() async {
+      t = TestDb.memory();
+      await SeedData.ensureSeeded(t!.db);
+    });
+    addTearDown(() => t?.dispose());
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final c = ProviderContainer(overrides: [
+      databaseProvider.overrideWithValue(t!.db),
+      audioServiceProvider.overrideWithValue(SilentAudioService()),
+      contentProvider.overrideWith((ref) => content),
+    ]);
+    addTearDown(c.dispose);
+    final test1 = content.topic('math_g5.test1')!;
+    final test2 = content.topic('math_g5.test2')!;
+    await tester.runAsync(() => c.read(progressProvider.notifier).update(
+          'akramjon',
+          (p) => p
+              .withSkill(test1.id, SkillStat(level: 2, ema: 95, lessons: 1, lastPracticed: DateTime.now(), lastAccuracy: 95))
+              .withSkill(test2.id, SkillStat(level: 2, ema: 72, lessons: 1, lastPracticed: DateTime.now(), lastAccuracy: 72)),
+        ));
+    await tester.pumpWidget(UncontrolledProviderScope(
+      container: c,
+      child: const MaterialApp(home: ChildReportScreen(childId: 'akramjon')),
+    ));
+    for (var i = 0; i < 20 && find.byKey(const Key('report_tips')).evaluate().isEmpty; i++) {
+      await tester.pump(const Duration(milliseconds: 50));
+    }
+    final list = find.byKey(const Key('report_list'));
+    await tester.scrollUntilVisible(find.byKey(const Key('report_marks')), 300, scrollable: find.descendant(of: list, matching: find.byType(Scrollable)).first);
+    expect(find.byKey(const Key('report_marks')), findsOneWidget);
+    expect(find.text('O‘rtacha baho: 4,5'), findsOneWidget);
+    expect(find.descendant(of: find.byKey(ValueKey('report_mark_${test1.id}')), matching: find.text('5')), findsOneWidget);
+    expect(find.descendant(of: find.byKey(ValueKey('report_mark_${test2.id}')), matching: find.text('4')), findsOneWidget);
+  });
 }
