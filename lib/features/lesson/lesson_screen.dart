@@ -763,7 +763,10 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         child: Container(
           color: Colors.white.withAlpha(140),
           alignment: Alignment.center,
-          child: Column(
+          child: SingleChildScrollView(
+            primary: false,
+            padding: const EdgeInsets.symmetric(vertical: 12),
+            child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
               if (_lastCorrect)
@@ -801,6 +804,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
                 ),
               ],
             ],
+          ),
           ),
         ),
       ),
