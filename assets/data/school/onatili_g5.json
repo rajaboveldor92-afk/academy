@@ -1,0 +1,109 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "onatili_g5.cases",
+   "code": "1",
+   "emoji": "📝",
+   "title": {
+    "uz": "Otlarning kelishiklari",
+    "en": "Otlarning kelishiklari",
+    "ru": "Otlarning kelishiklari"
+   },
+   "generator": "bank",
+   "skill": "cases",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "O‘zbek tilida oltita kelishik bor: bosh (qo‘shimchasiz), qaratqich (-ning), tushum (-ni), jo‘nalish (-ga), o‘rin-payt (-da), chiqish (-dan). So‘zning gapdagi bog‘lanishini ham tekshiring."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.formation",
+   "code": "2",
+   "emoji": "📝",
+   "title": {
+    "uz": "Asos va so‘z yasovchi qo‘shimcha",
+    "en": "Asos va so‘z yasovchi qo‘shimcha",
+    "ru": "Asos va so‘z yasovchi qo‘shimcha"
+   },
+   "generator": "bank",
+   "skill": "formation",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘z yasovchi qo‘shimcha asosdan yangi so‘z hosil qiladi: ish + chi = ishchi, suv + li = suvli. Kelishik qo‘shimchasi esa so‘zlarni bog‘laydi: kitob + ning."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.review",
+   "code": "3",
+   "emoji": "📝",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "onatili_g5.cases",
+      "onatili_g5.formation"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g5.cases",
+      "onatili_g5.formation"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g5.cases",
+      "onatili_g5.formation"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2786 @@
+{
+ "items": [
+  {
+   "topic": "english_g3.be",
+   "id": "be_1",
+   "question": "Choose the missing word: I ___ happy.",
+   "answer": "am",
+   "wrong": [
+    "is",
+    "are",
+    "be"
+   ],
+   "explanation": "I am happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_2",
+   "question": "Choose the missing word: I ___ at school.",
+   "answer": "am",
+   "wrong": [
+    "is",
+    "are",
+    "be"
+   ],
+   "explanation": "I am at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_3",
+   "question": "Choose the missing word: I ___ ready.",
+   "answer": "am",
+   "wrong": [
+    "is",
+    "are",
+    "be"
+   ],
+   "explanation": "I am ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_4",
+   "question": "Choose the missing word: You ___ happy.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "You are happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_5",
+   "question": "Choose the missing word: You ___ at school.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "You are at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_6",
+   "question": "Choose the missing word: You ___ ready.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "You are ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_7",
+   "question": "Choose the missing word: He ___ happy.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "He is happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_8",
+   "question": "Choose the missing word: He ___ at school.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "He is at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_9",
+   "question": "Choose the missing word: He ___ ready.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "He is ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_10",
+   "question": "Choose the missing word: She ___ happy.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "She is happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_11",
+   "question": "Choose the missing word: She ___ at school.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "She is at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_12",
+   "question": "Choose the missing word: She ___ ready.",
+   "answer": "is",
+   "wrong": [
+    "am",
+    "are",
+    "be"
+   ],
+   "explanation": "She is ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_13",
+   "question": "Choose the missing word: We ___ happy.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "We are happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_14",
+   "question": "Choose the missing word: We ___ at school.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "We are at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_15",
+   "question": "Choose the missing word: We ___ ready.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "We are ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_16",
+   "question": "Choose the missing word: They ___ happy.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "They are happy. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_17",
+   "question": "Choose the missing word: They ___ at school.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "They are at school. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.be",
+   "id": "be_18",
+   "question": "Choose the missing word: They ___ ready.",
+   "answer": "are",
+   "wrong": [
+    "am",
+    "is",
+    "be"
+   ],
+   "explanation": "They are ready. I → am; he/she/it → is; you/we/they → are.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_1",
+   "question": "Choose the plural of \"cat\".",
+   "answer": "cats",
+   "wrong": [
+    "cat",
+    "cating",
+    "cated"
+   ],
+   "explanation": "One cat, two cats.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_2",
+   "question": "Choose the plural of \"dog\".",
+   "answer": "dogs",
+   "wrong": [
+    "dog",
+    "doging",
+    "doged"
+   ],
+   "explanation": "One dog, two dogs.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_3",
+   "question": "Choose the plural of \"book\".",
+   "answer": "books",
+   "wrong": [
+    "book",
+    "booking",
+    "booked"
+   ],
+   "explanation": "One book, two books.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_4",
+   "question": "Choose the plural of \"pen\".",
+   "answer": "pens",
+   "wrong": [
+    "pen",
+    "pening",
+    "pened"
+   ],
+   "explanation": "One pen, two pens.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_5",
+   "question": "Choose the plural of \"desk\".",
+   "answer": "desks",
+   "wrong": [
+    "desk",
+    "desking",
+    "desked"
+   ],
+   "explanation": "One desk, two desks.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_6",
+   "question": "Choose the plural of \"bag\".",
+   "answer": "bags",
+   "wrong": [
+    "bag",
+    "baging",
+    "baged"
+   ],
+   "explanation": "One bag, two bags.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_7",
+   "question": "Choose the plural of \"cup\".",
+   "answer": "cups",
+   "wrong": [
+    "cup",
+    "cuping",
+    "cuped"
+   ],
+   "explanation": "One cup, two cups.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_8",
+   "question": "Choose the plural of \"bird\".",
+   "answer": "birds",
+   "wrong": [
+    "bird",
+    "birding",
+    "birded"
+   ],
+   "explanation": "One bird, two birds.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_9",
+   "question": "Choose the plural of \"car\".",
+   "answer": "cars",
+   "wrong": [
+    "car",
+    "caring",
+    "cared"
+   ],
+   "explanation": "One car, two cars.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_10",
+   "question": "Choose the plural of \"tree\".",
+   "answer": "trees",
+   "wrong": [
+    "tree",
+    "treeing",
+    "treeed"
+   ],
+   "explanation": "One tree, two trees.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_11",
+   "question": "Choose the plural of \"box\".",
+   "answer": "boxes",
+   "wrong": [
+    "box",
+    "boxing",
+    "boxed"
+   ],
+   "explanation": "One box, two boxes.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_12",
+   "question": "Choose the plural of \"bus\".",
+   "answer": "buses",
+   "wrong": [
+    "bus",
+    "busing",
+    "bused"
+   ],
+   "explanation": "One bus, two buses.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_13",
+   "question": "Choose the plural of \"dish\".",
+   "answer": "dishes",
+   "wrong": [
+    "dish",
+    "dishing",
+    "dished"
+   ],
+   "explanation": "One dish, two dishes.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_14",
+   "question": "Choose the plural of \"watch\".",
+   "answer": "watches",
+   "wrong": [
+    "watch",
+    "watching",
+    "watched"
+   ],
+   "explanation": "One watch, two watches.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.plurals",
+   "id": "plurals_15",
+   "question": "Choose the plural of \"class\".",
+   "answer": "classes",
+   "wrong": [
+    "class",
+    "classing",
+    "classed"
+   ],
+   "explanation": "One class, two classes.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_1",
+   "question": "Use a or an for one object: ___ apple.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An apple. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_2",
+   "question": "Use a or an for one object: ___ orange.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An orange. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_3",
+   "question": "Use a or an for one object: ___ egg.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An egg. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_4",
+   "question": "Use a or an for one object: ___ umbrella.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An umbrella. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_5",
+   "question": "Use a or an for one object: ___ elephant.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An elephant. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_6",
+   "question": "Use a or an for one object: ___ ant.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An ant. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_7",
+   "question": "Use a or an for one object: ___ insect.",
+   "answer": "an",
+   "wrong": [
+    "a",
+    "are",
+    "am"
+   ],
+   "explanation": "An insect. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_8",
+   "question": "Use a or an for one object: ___ book.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A book. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_9",
+   "question": "Use a or an for one object: ___ cat.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A cat. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_10",
+   "question": "Use a or an for one object: ___ dog.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A dog. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_11",
+   "question": "Use a or an for one object: ___ pen.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A pen. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_12",
+   "question": "Use a or an for one object: ___ bag.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A bag. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_13",
+   "question": "Use a or an for one object: ___ cup.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A cup. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_14",
+   "question": "Use a or an for one object: ___ desk.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A desk. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.articles",
+   "id": "articles_15",
+   "question": "Use a or an for one object: ___ bird.",
+   "answer": "a",
+   "wrong": [
+    "an",
+    "are",
+    "am"
+   ],
+   "explanation": "A bird. Choose a/an by the first sound.",
+   "lang": "en"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_1",
+   "question": "Определи род слова «стол».",
+   "answer": "мужской род",
+   "wrong": [
+    "женский род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«стол» — мужской род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_2",
+   "question": "Определи род слова «дом».",
+   "answer": "мужской род",
+   "wrong": [
+    "женский род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«дом» — мужской род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_3",
+   "question": "Определи род слова «мяч».",
+   "answer": "мужской род",
+   "wrong": [
+    "женский род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«мяч» — мужской род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_4",
+   "question": "Определи род слова «карандаш».",
+   "answer": "мужской род",
+   "wrong": [
+    "женский род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«карандаш» — мужской род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_5",
+   "question": "Определи род слова «кот».",
+   "answer": "мужской род",
+   "wrong": [
+    "женский род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«кот» — мужской род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_6",
+   "question": "Определи род слова «книга».",
+   "answer": "женский род",
+   "wrong": [
+    "мужской род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«книга» — женский род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_7",
+   "question": "Определи род слова «школа».",
+   "answer": "женский род",
+   "wrong": [
+    "мужской род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«школа» — женский род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_8",
+   "question": "Определи род слова «ручка».",
+   "answer": "женский род",
+   "wrong": [
+    "мужской род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«ручка» — женский род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_9",
+   "question": "Определи род слова «лампа».",
+   "answer": "женский род",
+   "wrong": [
+    "мужской род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«лампа» — женский род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_10",
+   "question": "Определи род слова «кошка».",
+   "answer": "женский род",
+   "wrong": [
+    "мужской род",
+    "средний род",
+    "это глагол"
+   ],
+   "explanation": "«кошка» — женский род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_11",
+   "question": "Определи род слова «окно».",
+   "answer": "средний род",
+   "wrong": [
+    "мужской род",
+    "женский род",
+    "это глагол"
+   ],
+   "explanation": "«окно» — средний род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_12",
+   "question": "Определи род слова «море».",
+   "answer": "средний род",
+   "wrong": [
+    "мужской род",
+    "женский род",
+    "это глагол"
+   ],
+   "explanation": "«море» — средний род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_13",
+   "question": "Определи род слова «поле».",
+   "answer": "средний род",
+   "wrong": [
+    "мужской род",
+    "женский род",
+    "это глагол"
+   ],
+   "explanation": "«поле» — средний род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_14",
+   "question": "Определи род слова «письмо».",
+   "answer": "средний род",
+   "wrong": [
+    "мужской род",
+    "женский род",
+    "это глагол"
+   ],
+   "explanation": "«письмо» — средний род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.gender",
+   "id": "gender_15",
+   "question": "Определи род слова «яблоко».",
+   "answer": "средний род",
+   "wrong": [
+    "мужской род",
+    "женский род",
+    "это глагол"
+   ],
+   "explanation": "«яблоко» — средний род.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_1",
+   "question": "Выбери множественное число: один предмет — «стол», много предметов — …",
+   "answer": "столы",
+   "wrong": [
+    "стол",
+    "он",
+    "она"
+   ],
+   "explanation": "стол → столы.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_2",
+   "question": "Выбери множественное число: один предмет — «дом», много предметов — …",
+   "answer": "дома",
+   "wrong": [
+    "дом",
+    "он",
+    "она"
+   ],
+   "explanation": "дом → дома.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_3",
+   "question": "Выбери множественное число: один предмет — «книга», много предметов — …",
+   "answer": "книги",
+   "wrong": [
+    "книга",
+    "он",
+    "она"
+   ],
+   "explanation": "книга → книги.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_4",
+   "question": "Выбери множественное число: один предмет — «ручка», много предметов — …",
+   "answer": "ручки",
+   "wrong": [
+    "ручка",
+    "он",
+    "она"
+   ],
+   "explanation": "ручка → ручки.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_5",
+   "question": "Выбери множественное число: один предмет — «кот», много предметов — …",
+   "answer": "коты",
+   "wrong": [
+    "кот",
+    "он",
+    "она"
+   ],
+   "explanation": "кот → коты.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_6",
+   "question": "Выбери множественное число: один предмет — «кошка», много предметов — …",
+   "answer": "кошки",
+   "wrong": [
+    "кошка",
+    "он",
+    "она"
+   ],
+   "explanation": "кошка → кошки.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_7",
+   "question": "Выбери множественное число: один предмет — «лампа», много предметов — …",
+   "answer": "лампы",
+   "wrong": [
+    "лампа",
+    "он",
+    "она"
+   ],
+   "explanation": "лампа → лампы.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_8",
+   "question": "Выбери множественное число: один предмет — «школа», много предметов — …",
+   "answer": "школы",
+   "wrong": [
+    "школа",
+    "он",
+    "она"
+   ],
+   "explanation": "школа → школы.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_9",
+   "question": "Выбери множественное число: один предмет — «окно», много предметов — …",
+   "answer": "окна",
+   "wrong": [
+    "окно",
+    "он",
+    "она"
+   ],
+   "explanation": "окно → окна.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_10",
+   "question": "Выбери множественное число: один предмет — «море», много предметов — …",
+   "answer": "моря",
+   "wrong": [
+    "море",
+    "он",
+    "она"
+   ],
+   "explanation": "море → моря.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_11",
+   "question": "Выбери множественное число: один предмет — «поле», много предметов — …",
+   "answer": "поля",
+   "wrong": [
+    "поле",
+    "он",
+    "она"
+   ],
+   "explanation": "поле → поля.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_12",
+   "question": "Выбери множественное число: один предмет — «письмо», много предметов — …",
+   "answer": "письма",
+   "wrong": [
+    "письмо",
+    "он",
+    "она"
+   ],
+   "explanation": "письмо → письма.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_13",
+   "question": "Выбери множественное число: один предмет — «яблоко», много предметов — …",
+   "answer": "яблоки",
+   "wrong": [
+    "яблоко",
+    "он",
+    "она"
+   ],
+   "explanation": "яблоко → яблоки.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_14",
+   "question": "Выбери множественное число: один предмет — «мяч», много предметов — …",
+   "answer": "мячи",
+   "wrong": [
+    "мяч",
+    "он",
+    "она"
+   ],
+   "explanation": "мяч → мячи.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g3.plural",
+   "id": "plural_15",
+   "question": "Выбери множественное число: один предмет — «карандаш», много предметов — …",
+   "answer": "карандаши",
+   "wrong": [
+    "карандаш",
+    "он",
+    "она"
+   ],
+   "explanation": "карандаш → карандаши.",
+   "lang": "ru"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_1",
+   "question": "«kitob» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«kitob» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_2",
+   "question": "«daftar» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«daftar» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_3",
+   "question": "«qalam» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qalam» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_4",
+   "question": "«maktab» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«maktab» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_5",
+   "question": "«bog‘» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«bog‘» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_6",
+   "question": "«daraxt» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«daraxt» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_7",
+   "question": "«gul» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«gul» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_8",
+   "question": "«daryo» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«daryo» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_9",
+   "question": "«tog‘» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«tog‘» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_10",
+   "question": "«shahar» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«shahar» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_11",
+   "question": "«qishloq» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qishloq» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_12",
+   "question": "«bola» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«bola» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_13",
+   "question": "«ustoz» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«ustoz» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_14",
+   "question": "«qush» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qush» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_15",
+   "question": "«uy» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Ot",
+   "wrong": [
+    "Sifat",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«uy» — ot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_16",
+   "question": "«qizil» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qizil» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_17",
+   "question": "«yashil» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«yashil» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_18",
+   "question": "«baland» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«baland» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_19",
+   "question": "«past» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«past» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_20",
+   "question": "«katta» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«katta» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_21",
+   "question": "«kichik» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«kichik» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_22",
+   "question": "«uzun» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«uzun» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_23",
+   "question": "«qisqa» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qisqa» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_24",
+   "question": "«shirin» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«shirin» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_25",
+   "question": "«achchiq» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«achchiq» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_26",
+   "question": "«yumshoq» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«yumshoq» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_27",
+   "question": "«qattiq» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«qattiq» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_28",
+   "question": "«keng» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«keng» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_29",
+   "question": "«tor» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«tor» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_30",
+   "question": "«chiroyli» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Sifat",
+   "wrong": [
+    "Ot",
+    "Fe’l",
+    "Son"
+   ],
+   "explanation": "«chiroyli» — sifat.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_31",
+   "question": "«o‘qidi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«o‘qidi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_32",
+   "question": "«yozdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«yozdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_33",
+   "question": "«yugurdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«yugurdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_34",
+   "question": "«keldi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«keldi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_35",
+   "question": "«ketdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«ketdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_36",
+   "question": "«ochdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«ochdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_37",
+   "question": "«yopdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«yopdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_38",
+   "question": "«chizdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«chizdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_39",
+   "question": "«kuldi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«kuldi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_40",
+   "question": "«uxladi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«uxladi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_41",
+   "question": "«sakradi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«sakradi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_42",
+   "question": "«o‘ynadi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«o‘ynadi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_43",
+   "question": "«ichdi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«ichdi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_44",
+   "question": "«yedi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«yedi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_45",
+   "question": "«ishladi» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Fe’l",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "explanation": "«ishladi» — fe’l.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_46",
+   "question": "«bir» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«bir» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_47",
+   "question": "«ikki» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«ikki» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_48",
+   "question": "«uch» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«uch» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_49",
+   "question": "«to‘rt» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«to‘rt» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_50",
+   "question": "«besh» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«besh» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_51",
+   "question": "«olti» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«olti» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_52",
+   "question": "«yetti» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«yetti» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_53",
+   "question": "«sakkiz» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«sakkiz» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_54",
+   "question": "«to‘qqiz» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«to‘qqiz» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_55",
+   "question": "«o‘n» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«o‘n» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_56",
+   "question": "«yigirma» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«yigirma» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_57",
+   "question": "«o‘ttiz» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«o‘ttiz» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_58",
+   "question": "«qirq» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«qirq» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_59",
+   "question": "«ellik» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«ellik» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.word_classes",
+   "id": "word_classes_60",
+   "question": "«yuz» so‘zi qaysi so‘z turkumiga kiradi?",
+   "answer": "Son",
+   "wrong": [
+    "Ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "explanation": "«yuz» — son.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_1",
+   "question": "«Ali kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_2",
+   "question": "«Ali qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_3",
+   "question": "«Zarina kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_4",
+   "question": "«Zarina qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_5",
+   "question": "«Bobur kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_6",
+   "question": "«Bobur qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_7",
+   "question": "«Madina kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_8",
+   "question": "«Madina qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_9",
+   "question": "«Jasur kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_10",
+   "question": "«Jasur qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_11",
+   "question": "«Nodira kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_12",
+   "question": "«Nodira qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_13",
+   "question": "«Malika kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_14",
+   "question": "«Malika qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_15",
+   "question": "«Sardor kitob o‘qidi.» Mazmuniga ko‘ra qanday gap?",
+   "answer": "Darak gap",
+   "wrong": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap xabar beradi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "onatili_g3.sentences",
+   "id": "sentences_16",
+   "question": "«Sardor qaysi kitobni o‘qidi?» Mazmuniga ko‘ra qanday gap?",
+   "answer": "So‘roq gap",
+   "wrong": [
+    "Darak gap",
+    "Buyruq gap",
+    "Istak gap"
+   ],
+   "explanation": "Bu gap savol so‘raydi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_1",
+   "question": "O‘simlikni tuproqqa mahkamlaydigan va undan suv shimadigan qism. Bu qaysi tushuncha?",
+   "answer": "Ildiz",
+   "wrong": [
+    "Poya",
+    "Barg",
+    "Gul"
+   ],
+   "explanation": "Ildiz — o‘simlikni tuproqqa mahkamlaydigan va undan suv shimadigan qism.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_2",
+   "question": "Barg va gullarni tutib turadigan o‘simlik qismi. Bu qaysi tushuncha?",
+   "answer": "Poya",
+   "wrong": [
+    "Barg",
+    "Gul",
+    "Urug‘"
+   ],
+   "explanation": "Poya — barg va gullarni tutib turadigan o‘simlik qismi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_3",
+   "question": "O‘simlikning yorug‘likdan foydalanib oziq modda hosil qilishida asosiy qatnashadigan yassi yashil qismi. Bu qaysi tushuncha?",
+   "answer": "Barg",
+   "wrong": [
+    "Gul",
+    "Urug‘",
+    "Meva"
+   ],
+   "explanation": "Barg — o‘simlikning yorug‘likdan foydalanib oziq modda hosil qilishida asosiy qatnashadigan yassi yashil qismi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_4",
+   "question": "Gulli o‘simlikning urug‘ hosil bo‘lishi bilan bog‘liq ko‘payish organi. Bu qaysi tushuncha?",
+   "answer": "Gul",
+   "wrong": [
+    "Urug‘",
+    "Meva",
+    "Nihol"
+   ],
+   "explanation": "Gul — gulli o‘simlikning urug‘ hosil bo‘lishi bilan bog‘liq ko‘payish organi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_5",
+   "question": "Qulay sharoitda unib, yangi o‘simlikka boshlang‘ich bo‘ladigan tuzilma. Bu qaysi tushuncha?",
+   "answer": "Urug‘",
+   "wrong": [
+    "Meva",
+    "Nihol",
+    "Daraxt"
+   ],
+   "explanation": "Urug‘ — qulay sharoitda unib, yangi o‘simlikka boshlang‘ich bo‘ladigan tuzilma.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_6",
+   "question": "Olma daraxtida urug‘larni o‘rab turadigan, gul tugunchasidan rivojlanadigan qism. Bu qaysi tushuncha?",
+   "answer": "Meva",
+   "wrong": [
+    "Nihol",
+    "Daraxt",
+    "Buta"
+   ],
+   "explanation": "Meva — olma daraxtida urug‘larni o‘rab turadigan, gul tugunchasidan rivojlanadigan qism.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_7",
+   "question": "Urug‘dan yaqinda o‘sib chiqqan yosh o‘simlik. Bu qaysi tushuncha?",
+   "answer": "Nihol",
+   "wrong": [
+    "Daraxt",
+    "Buta",
+    "Qush"
+   ],
+   "explanation": "Nihol — urug‘dan yaqinda o‘sib chiqqan yosh o‘simlik.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_8",
+   "question": "Asosiy yog‘ochlashgan tanasi bo‘lgan ko‘p yillik o‘simlik shakli. Bu qaysi tushuncha?",
+   "answer": "Daraxt",
+   "wrong": [
+    "Buta",
+    "Qush",
+    "Baliq"
+   ],
+   "explanation": "Daraxt — asosiy yog‘ochlashgan tanasi bo‘lgan ko‘p yillik o‘simlik shakli.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_9",
+   "question": "Asosidan bir nechta yog‘ochlashgan poya chiqaradigan o‘simlik shakli. Bu qaysi tushuncha?",
+   "answer": "Buta",
+   "wrong": [
+    "Qush",
+    "Baliq",
+    "Hasharot"
+   ],
+   "explanation": "Buta — asosidan bir nechta yog‘ochlashgan poya chiqaradigan o‘simlik shakli.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_10",
+   "question": "Tanasi pat bilan qoplangan hayvon guruhi. Bu qaysi tushuncha?",
+   "answer": "Qush",
+   "wrong": [
+    "Baliq",
+    "Hasharot",
+    "Sutemizuvchi"
+   ],
+   "explanation": "Qush — tanasi pat bilan qoplangan hayvon guruhi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_11",
+   "question": "Suvda yashab, jabralari yordamida nafas oladigan umurtqali hayvon guruhi. Bu qaysi tushuncha?",
+   "answer": "Baliq",
+   "wrong": [
+    "Hasharot",
+    "Sutemizuvchi",
+    "O‘txo‘r"
+   ],
+   "explanation": "Baliq — suvda yashab, jabralari yordamida nafas oladigan umurtqali hayvon guruhi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_12",
+   "question": "Voyaga yetganida olti oyog‘i bo‘ladigan hayvon guruhi. Bu qaysi tushuncha?",
+   "answer": "Hasharot",
+   "wrong": [
+    "Sutemizuvchi",
+    "O‘txo‘r",
+    "Yirtqich"
+   ],
+   "explanation": "Hasharot — voyaga yetganida olti oyog‘i bo‘ladigan hayvon guruhi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_13",
+   "question": "Bolalarini sut bilan oziqlantiradigan hayvon guruhi. Bu qaysi tushuncha?",
+   "answer": "Sutemizuvchi",
+   "wrong": [
+    "O‘txo‘r",
+    "Yirtqich",
+    "Ildiz"
+   ],
+   "explanation": "Sutemizuvchi — bolalarini sut bilan oziqlantiradigan hayvon guruhi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_14",
+   "question": "Asosan o‘simlik bilan oziqlanadigan hayvon. Bu qaysi tushuncha?",
+   "answer": "O‘txo‘r",
+   "wrong": [
+    "Yirtqich",
+    "Ildiz",
+    "Poya"
+   ],
+   "explanation": "O‘txo‘r — asosan o‘simlik bilan oziqlanadigan hayvon.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.living",
+   "id": "living_15",
+   "question": "Boshqa hayvonlarni ovlab oziqlanadigan hayvon. Bu qaysi tushuncha?",
+   "answer": "Yirtqich",
+   "wrong": [
+    "Ildiz",
+    "Poya",
+    "Barg"
+   ],
+   "explanation": "Yirtqich — boshqa hayvonlarni ovlab oziqlanadigan hayvon.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_1",
+   "question": "Suvning qattiq holati. Bu qaysi tushuncha?",
+   "answer": "Muz",
+   "wrong": [
+    "Suv bug‘i",
+    "Bug‘lanish",
+    "Erish"
+   ],
+   "explanation": "Muz — suvning qattiq holati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_2",
+   "question": "Suvning gaz holati. Bu qaysi tushuncha?",
+   "answer": "Suv bug‘i",
+   "wrong": [
+    "Bug‘lanish",
+    "Erish",
+    "Muzlash"
+   ],
+   "explanation": "Suv bug‘i — suvning gaz holati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_3",
+   "question": "Suyuqlikning sirtidan gaz holatiga o‘tish jarayoni. Bu qaysi tushuncha?",
+   "answer": "Bug‘lanish",
+   "wrong": [
+    "Erish",
+    "Muzlash",
+    "Yomg‘ir"
+   ],
+   "explanation": "Bug‘lanish — suyuqlikning sirtidan gaz holatiga o‘tish jarayoni.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_4",
+   "question": "Muzning suyuq suvga aylanish jarayoni. Bu qaysi tushuncha?",
+   "answer": "Erish",
+   "wrong": [
+    "Muzlash",
+    "Yomg‘ir",
+    "Qor"
+   ],
+   "explanation": "Erish — muzning suyuq suvga aylanish jarayoni.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_5",
+   "question": "Suyuq suvning muzga aylanish jarayoni. Bu qaysi tushuncha?",
+   "answer": "Muzlash",
+   "wrong": [
+    "Yomg‘ir",
+    "Qor",
+    "Shamol"
+   ],
+   "explanation": "Muzlash — suyuq suvning muzga aylanish jarayoni.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_6",
+   "question": "Bulutdan suyuq suv tomchilari ko‘rinishida tushadigan yog‘in. Bu qaysi tushuncha?",
+   "answer": "Yomg‘ir",
+   "wrong": [
+    "Qor",
+    "Shamol",
+    "Termometr"
+   ],
+   "explanation": "Yomg‘ir — bulutdan suyuq suv tomchilari ko‘rinishida tushadigan yog‘in.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_7",
+   "question": "Bulutdan muz kristallari ko‘rinishida tushadigan yog‘in. Bu qaysi tushuncha?",
+   "answer": "Qor",
+   "wrong": [
+    "Shamol",
+    "Termometr",
+    "Bulut"
+   ],
+   "explanation": "Qor — bulutdan muz kristallari ko‘rinishida tushadigan yog‘in.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_8",
+   "question": "Havoning Yer yuzasiga nisbatan harakati. Bu qaysi tushuncha?",
+   "answer": "Shamol",
+   "wrong": [
+    "Termometr",
+    "Bulut",
+    "Tuman"
+   ],
+   "explanation": "Shamol — havoning Yer yuzasiga nisbatan harakati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_9",
+   "question": "Haroratni o‘lchash asbobi. Bu qaysi tushuncha?",
+   "answer": "Termometr",
+   "wrong": [
+    "Bulut",
+    "Tuman",
+    "Ko‘l"
+   ],
+   "explanation": "Termometr — haroratni o‘lchash asbobi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_10",
+   "question": "Havoda muallaq turgan mayda suv tomchilari yoki muz kristallari to‘plami. Bu qaysi tushuncha?",
+   "answer": "Bulut",
+   "wrong": [
+    "Tuman",
+    "Ko‘l",
+    "Daryo"
+   ],
+   "explanation": "Bulut — havoda muallaq turgan mayda suv tomchilari yoki muz kristallari to‘plami.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_11",
+   "question": "Yer yuzasiga yaqin havoda mayda suv tomchilari to‘planishi. Bu qaysi tushuncha?",
+   "answer": "Tuman",
+   "wrong": [
+    "Ko‘l",
+    "Daryo",
+    "Buloq"
+   ],
+   "explanation": "Tuman — yer yuzasiga yaqin havoda mayda suv tomchilari to‘planishi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_12",
+   "question": "Quruqlikdagi tabiiy chuqurlikni egallagan suv havzasi. Bu qaysi tushuncha?",
+   "answer": "Ko‘l",
+   "wrong": [
+    "Daryo",
+    "Buloq",
+    "Kamalak"
+   ],
+   "explanation": "Ko‘l — quruqlikdagi tabiiy chuqurlikni egallagan suv havzasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_13",
+   "question": "O‘zan bo‘ylab oqadigan tabiiy suv oqimi. Bu qaysi tushuncha?",
+   "answer": "Daryo",
+   "wrong": [
+    "Buloq",
+    "Kamalak",
+    "Muz"
+   ],
+   "explanation": "Daryo — o‘zan bo‘ylab oqadigan tabiiy suv oqimi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_14",
+   "question": "Yer osti suvining tabiiy ravishda yer yuzasiga chiqadigan joyi. Bu qaysi tushuncha?",
+   "answer": "Buloq",
+   "wrong": [
+    "Kamalak",
+    "Muz",
+    "Suv bug‘i"
+   ],
+   "explanation": "Buloq — yer osti suvining tabiiy ravishda yer yuzasiga chiqadigan joyi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "science_g3.environment",
+   "id": "environment_15",
+   "question": "Suv tomchilarida quyosh nuri bilan bog‘liq holda ko‘rinadigan rangli yoy. Bu qaysi tushuncha?",
+   "answer": "Kamalak",
+   "wrong": [
+    "Muz",
+    "Suv bug‘i",
+    "Bug‘lanish"
+   ],
+   "explanation": "Kamalak — suv tomchilarida quyosh nuri bilan bog‘liq holda ko‘rinadigan rangli yoy.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_1",
+   "question": "Kompyuterga harf va raqamlarni tugmalar yordamida kiritish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Klaviatura",
+   "wrong": [
+    "Sichqoncha",
+    "Monitor",
+    "Printer"
+   ],
+   "explanation": "Klaviatura — kompyuterga harf va raqamlarni tugmalar yordamida kiritish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_2",
+   "question": "Ko‘rsatkichni boshqarib, ekrandagi narsalarni tanlash qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Sichqoncha",
+   "wrong": [
+    "Monitor",
+    "Printer",
+    "Skaner"
+   ],
+   "explanation": "Sichqoncha — ko‘rsatkichni boshqarib, ekrandagi narsalarni tanlash qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_3",
+   "question": "Kompyuterning tasvirini ekranda ko‘rsatish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Monitor",
+   "wrong": [
+    "Printer",
+    "Skaner",
+    "Mikrofon"
+   ],
+   "explanation": "Monitor — kompyuterning tasvirini ekranda ko‘rsatish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_4",
+   "question": "Matn yoki rasmni qog‘ozga chiqarish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Printer",
+   "wrong": [
+    "Skaner",
+    "Mikrofon",
+    "Karnay"
+   ],
+   "explanation": "Printer — matn yoki rasmni qog‘ozga chiqarish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_5",
+   "question": "Qog‘ozdagi rasm yoki matnning raqamli tasvirini olish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Skaner",
+   "wrong": [
+    "Mikrofon",
+    "Karnay",
+    "Veb-kamera"
+   ],
+   "explanation": "Skaner — qog‘ozdagi rasm yoki matnning raqamli tasvirini olish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_6",
+   "question": "Ovozni kompyuterga kiritish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Mikrofon",
+   "wrong": [
+    "Karnay",
+    "Veb-kamera",
+    "Sensorli ekran"
+   ],
+   "explanation": "Mikrofon — ovozni kompyuterga kiritish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_7",
+   "question": "Kompyuterdagi ovozni eshittirish qurilmasi. Bu qaysi tushuncha?",
+   "answer": "Karnay",
+   "wrong": [
+    "Veb-kamera",
+    "Sensorli ekran",
+    "USB xotira"
+   ],
+   "explanation": "Karnay — kompyuterdagi ovozni eshittirish qurilmasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_8",
+   "question": "Kompyuterga video tasvir kiritish kamerasi. Bu qaysi tushuncha?",
+   "answer": "Veb-kamera",
+   "wrong": [
+    "Sensorli ekran",
+    "USB xotira",
+    "Fayl"
+   ],
+   "explanation": "Veb-kamera — kompyuterga video tasvir kiritish kamerasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_9",
+   "question": "Barmoq tegishi orqali ham boshqariladigan ekran. Bu qaysi tushuncha?",
+   "answer": "Sensorli ekran",
+   "wrong": [
+    "USB xotira",
+    "Fayl",
+    "Papka"
+   ],
+   "explanation": "Sensorli ekran — barmoq tegishi orqali ham boshqariladigan ekran.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_10",
+   "question": "Fayllarni ko‘chirish uchun USB portga ulanadigan ixcham saqlash vositasi. Bu qaysi tushuncha?",
+   "answer": "USB xotira",
+   "wrong": [
+    "Fayl",
+    "Papka",
+    "Dastur"
+   ],
+   "explanation": "USB xotira — fayllarni ko‘chirish uchun USB portga ulanadigan ixcham saqlash vositasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_11",
+   "question": "Kompyuterda nom bilan saqlangan ma’lumotlar birligi. Bu qaysi tushuncha?",
+   "answer": "Fayl",
+   "wrong": [
+    "Papka",
+    "Dastur",
+    "Brauzer"
+   ],
+   "explanation": "Fayl — kompyuterda nom bilan saqlangan ma’lumotlar birligi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_12",
+   "question": "Fayllarni tartib bilan guruhlash uchun ishlatiladigan joy. Bu qaysi tushuncha?",
+   "answer": "Papka",
+   "wrong": [
+    "Dastur",
+    "Brauzer",
+    "Kursor"
+   ],
+   "explanation": "Papka — fayllarni tartib bilan guruhlash uchun ishlatiladigan joy.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_13",
+   "question": "Kompyuter bajaradigan ko‘rsatmalar to‘plami. Bu qaysi tushuncha?",
+   "answer": "Dastur",
+   "wrong": [
+    "Brauzer",
+    "Kursor",
+    "Klaviatura"
+   ],
+   "explanation": "Dastur — kompyuter bajaradigan ko‘rsatmalar to‘plami.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_14",
+   "question": "Veb-sahifalarni ochish uchun ishlatiladigan dastur. Bu qaysi tushuncha?",
+   "answer": "Brauzer",
+   "wrong": [
+    "Kursor",
+    "Klaviatura",
+    "Sichqoncha"
+   ],
+   "explanation": "Brauzer — veb-sahifalarni ochish uchun ishlatiladigan dastur.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.devices",
+   "id": "devices_15",
+   "question": "Matn kiritiladigan joyni ko‘rsatadigan ekrandagi belgi. Bu qaysi tushuncha?",
+   "answer": "Kursor",
+   "wrong": [
+    "Klaviatura",
+    "Sichqoncha",
+    "Monitor"
+   ],
+   "explanation": "Kursor — matn kiritiladigan joyni ko‘rsatadigan ekrandagi belgi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_1",
+   "question": "Hisobga kirishni himoyalash uchun sir saqlanadigan belgilar ketma-ketligi. Bu qaysi tushuncha?",
+   "answer": "Parol",
+   "wrong": [
+    "Shaxsiy ma’lumot",
+    "Ota-onadan yordam so‘rash",
+    "Havolani tekshirtirish"
+   ],
+   "explanation": "Parol — hisobga kirishni himoyalash uchun sir saqlanadigan belgilar ketma-ketligi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_2",
+   "question": "Bolaning uy manzili, telefon raqami kabi unga tegishli maxfiy saqlanishi kerak bo‘lgan ma’lumot. Bu qaysi tushuncha?",
+   "answer": "Shaxsiy ma’lumot",
+   "wrong": [
+    "Ota-onadan yordam so‘rash",
+    "Havolani tekshirtirish",
+    "Ruxsat olish"
+   ],
+   "explanation": "Shaxsiy ma’lumot — bolaning uy manzili, telefon raqami kabi unga tegishli maxfiy saqlanishi kerak bo‘lgan ma’lumot.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_3",
+   "question": "Begona kishi manzil so‘raganda bolaning ishonchli kattaga murojaat qilishi. Bu qaysi tushuncha?",
+   "answer": "Ota-onadan yordam so‘rash",
+   "wrong": [
+    "Havolani tekshirtirish",
+    "Ruxsat olish",
+    "Muloyim yozish"
+   ],
+   "explanation": "Ota-onadan yordam so‘rash — begona kishi manzil so‘raganda bolaning ishonchli kattaga murojaat qilishi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_4",
+   "question": "Noma’lum xabardagi tugmani bosishdan oldin ishonchli katta bilan manzilni tekshirish harakati. Bu qaysi tushuncha?",
+   "answer": "Havolani tekshirtirish",
+   "wrong": [
+    "Ruxsat olish",
+    "Muloyim yozish",
+    "Tanaffus"
+   ],
+   "explanation": "Havolani tekshirtirish — noma’lum xabardagi tugmani bosishdan oldin ishonchli katta bilan manzilni tekshirish harakati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_5",
+   "question": "Birovning rasmini ulashishdan oldin uning roziligini so‘rash harakati. Bu qaysi tushuncha?",
+   "answer": "Ruxsat olish",
+   "wrong": [
+    "Muloyim yozish",
+    "Tanaffus",
+    "Saqlash"
+   ],
+   "explanation": "Ruxsat olish — birovning rasmini ulashishdan oldin uning roziligini so‘rash harakati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_6",
+   "question": "Suhbatdoshni haqorat qilmay, hurmat bilan xabar yuborish odati. Bu qaysi tushuncha?",
+   "answer": "Muloyim yozish",
+   "wrong": [
+    "Tanaffus",
+    "Saqlash",
+    "Zaxira nusxa"
+   ],
+   "explanation": "Muloyim yozish — suhbatdoshni haqorat qilmay, hurmat bilan xabar yuborish odati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_7",
+   "question": "Ekran oldidagi ishni vaqtincha to‘xtatib dam olish va harakatlanish. Bu qaysi tushuncha?",
+   "answer": "Tanaffus",
+   "wrong": [
+    "Saqlash",
+    "Zaxira nusxa",
+    "Hisobdan chiqish"
+   ],
+   "explanation": "Tanaffus — ekran oldidagi ishni vaqtincha to‘xtatib dam olish va harakatlanish.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_8",
+   "question": "Yozilgan hujjatdagi o‘zgarishlarni faylga yozib qo‘yish amali. Bu qaysi tushuncha?",
+   "answer": "Saqlash",
+   "wrong": [
+    "Zaxira nusxa",
+    "Hisobdan chiqish",
+    "Qurilmani qulflash"
+   ],
+   "explanation": "Saqlash — yozilgan hujjatdagi o‘zgarishlarni faylga yozib qo‘yish amali.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_9",
+   "question": "Asl fayl yo‘qolsa tiklash uchun saqlangan qo‘shimcha nusxa. Bu qaysi tushuncha?",
+   "answer": "Zaxira nusxa",
+   "wrong": [
+    "Hisobdan chiqish",
+    "Qurilmani qulflash",
+    "Manbani ko‘rsatish"
+   ],
+   "explanation": "Zaxira nusxa — asl fayl yo‘qolsa tiklash uchun saqlangan qo‘shimcha nusxa.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_10",
+   "question": "Umumiy kompyuterda ish tugagach shaxsiy hisob seansini yopish amali. Bu qaysi tushuncha?",
+   "answer": "Hisobdan chiqish",
+   "wrong": [
+    "Qurilmani qulflash",
+    "Manbani ko‘rsatish",
+    "Xabarni tekshirish"
+   ],
+   "explanation": "Hisobdan chiqish — umumiy kompyuterda ish tugagach shaxsiy hisob seansini yopish amali.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_11",
+   "question": "Qurilma qarovsiz qolganda undan boshqalarning foydalanishini cheklash amali. Bu qaysi tushuncha?",
+   "answer": "Qurilmani qulflash",
+   "wrong": [
+    "Manbani ko‘rsatish",
+    "Xabarni tekshirish",
+    "Bloklash"
+   ],
+   "explanation": "Qurilmani qulflash — qurilma qarovsiz qolganda undan boshqalarning foydalanishini cheklash amali.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_12",
+   "question": "Boshqaning matni yoki rasmidan foydalanganda uning qayerdan olinganini yozish odati. Bu qaysi tushuncha?",
+   "answer": "Manbani ko‘rsatish",
+   "wrong": [
+    "Xabarni tekshirish",
+    "Bloklash",
+    "Shikoyat yuborish"
+   ],
+   "explanation": "Manbani ko‘rsatish — boshqaning matni yoki rasmidan foydalanganda uning qayerdan olinganini yozish odati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_13",
+   "question": "Internetdagi da’voni ishonchli boshqa manba bilan solishtirish harakati. Bu qaysi tushuncha?",
+   "answer": "Xabarni tekshirish",
+   "wrong": [
+    "Bloklash",
+    "Shikoyat yuborish",
+    "Parol"
+   ],
+   "explanation": "Xabarni tekshirish — internetdagi da’voni ishonchli boshqa manba bilan solishtirish harakati.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_14",
+   "question": "Bezovta qilayotgan hisobdan keladigan muloqotni to‘sish vositasi. Bu qaysi tushuncha?",
+   "answer": "Bloklash",
+   "wrong": [
+    "Shikoyat yuborish",
+    "Parol",
+    "Shaxsiy ma’lumot"
+   ],
+   "explanation": "Bloklash — bezovta qilayotgan hisobdan keladigan muloqotni to‘sish vositasi.",
+   "lang": "uz"
+  },
+  {
+   "topic": "informatics_g3.safe_use",
+   "id": "safe_use_15",
+   "question": "Platformaga nomaqbul xabar yoki hisob haqida bildirish vositasi. Bu qaysi tushuncha?",
+   "answer": "Shikoyat yuborish",
+   "wrong": [
+    "Parol",
+    "Shaxsiy ma’lumot",
+    "Ota-onadan yordam so‘rash"
+   ],
+   "explanation": "Shikoyat yuborish — platformaga nomaqbul xabar yoki hisob haqida bildirish vositasi.",
+   "lang": "uz"
+  }
+ ]
+}

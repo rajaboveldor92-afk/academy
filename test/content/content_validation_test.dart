@@ -105,6 +105,8 @@ void main() {
     // Ota-ona bilan faoliyatlar va muloqot vaziyatlari — qo'lda yozilgan, soni cheklangan.
     if (t.generator == 'activity') return 2;
     if (t.subject == 'social' && t.generator == 'choice') return 3;
+    // Finite authored banks have their own exhaustive coverage test.
+    if (t.generator == 'bank') return min(15, (content.banks[t.id]!.length * 0.8).floor());
     if (t.generator != 'trace') return 15;
     final items = (t.paramsFor(level)['items'] as List).map((e) => '$e').toList();
     if (items.any((i) => i.startsWith('words:'))) return 10;

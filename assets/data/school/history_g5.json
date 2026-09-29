@@ -1,0 +1,109 @@
+{
+ "subject": "history",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Tarix",
+  "en": "History",
+  "ru": "История"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "history_g5.sources",
+   "code": "1",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Tarixiy manbalar",
+    "en": "Tarixiy manbalar",
+    "ru": "Tarixiy manbalar"
+   },
+   "generator": "bank",
+   "skill": "sources",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "O‘tmish haqidagi ma’lumot yozma, moddiy va og‘zaki manbalardan olinadi. Manbaning qachon, kim tomonidan va nima maqsadda yaratilganini so‘rang. Bitta manbadagi ma’lumotni boshqa dalillar bilan solishtiring."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "history_g5.centuries",
+   "code": "2",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Yil va asr",
+    "en": "Yil va asr",
+    "ru": "Yil va asr"
+   },
+   "generator": "timeline",
+   "skill": "centuries",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bir asr — yuz yil. Milodiy birinchi asr 1–100-yillar, ikkinchi asr 101–200-yillar. 1901–2000-yillar yigirmanchi asr, 2001–2100-yillar yigirma birinchi asr. Yuzlikning oxirgi yili avvalgi asrga kiradi."
+   },
+   "levels": [
+    {
+     "mode": "choice"
+    },
+    {
+     "mode": "mixed"
+    },
+    {
+     "mode": "input"
+    }
+   ]
+  },
+  {
+   "id": "history_g5.review",
+   "code": "3",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.centuries"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.centuries"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.centuries"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

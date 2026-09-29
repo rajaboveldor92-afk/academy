@@ -3,6 +3,10 @@ import 'dart:math';
 import 'package:academy/core/providers.dart';
 import 'package:academy/database/seed_data.dart';
 import 'package:academy/features/home/home_screen.dart';
+import 'package:academy/features/home/subject_screen.dart';
+import 'package:academy/models/subject.dart';
+import 'package:academy/learning/ui/choice_view.dart';
+import 'package:academy/learning/ui/option_card.dart';
 import 'package:academy/features/lesson/lesson_screen.dart';
 import 'package:academy/features/profiles/profiles_controller.dart';
 import 'package:academy/learning/content/content_provider.dart';
@@ -69,6 +73,45 @@ void main() {
     // Maktabgacha fanlar maktab o'quvchisiga ko'rsatilmaydi.
     expect(find.byKey(const Key('tile_trilingual')), findsNothing);
     expect(find.byKey(const Key('tile_motor')), findsNothing);
+  });
+
+  for (final child in ['jasmina', 'akramjon']) {
+    for (final subject in [Subject.logic, Subject.english, Subject.russian, Subject.onatili, Subject.reading, Subject.science, Subject.informatics]) {
+      testWidgets('$child ${subject.id}: fan → qoida → mashq', (tester) async {
+        final c = await setup(tester, child);
+        await tester.pumpWidget(UncontrolledProviderScope(container: c,
+          child: MaterialApp(home: SubjectScreen(subject: subject), onGenerateRoute: AppRouter.onGenerateRoute)));
+        await pumpUntil(tester, find.byKey(const Key('continue_topic')));
+        expect(find.byKey(const Key('continue_topic')), findsOneWidget);
+        await tester.tap(find.byKey(const Key('continue_topic')));
+        await pumpUntil(tester, find.byKey(const Key('theory_start')));
+        await tester.tap(find.byKey(const Key('theory_start')));
+        await pumpUntil(tester, find.byKey(const Key('lesson_instruction')));
+        expect(find.byKey(const Key('lesson_instruction')), findsOneWidget);
+        expect(tester.takeException(), isNull);
+      });
+    }
+  }
+
+  testWidgets('Small phone: reading text and long answers remain usable', (tester) async {
+    final c = await setup(tester, 'akramjon');
+    tester.view.physicalSize = const Size(360, 640);
+    tester.view.devicePixelRatio = 1;
+    await tester.pumpWidget(UncontrolledProviderScope(container: c,
+      child: MaterialApp(home: LessonScreen(topicId: 'reading_g5.understand', random: Random(8)))));
+    await pumpUntil(tester, find.byKey(const Key('theory_start')));
+    await tester.tap(find.byKey(const Key('theory_start')));
+    await pumpUntil(tester, find.byType(ChoiceExerciseView));
+    expect(find.byType(ChoiceExerciseView), findsOneWidget);
+    expect(tester.takeException(), isNull);
+    final ex = tester.widget<ChoiceExerciseView>(find.byType(ChoiceExerciseView)).exercise;
+    final correct = find.byWidgetPredicate((w) => w is OptionCard && w.option.text == ex.correctOption!.text);
+    await tester.ensureVisible(correct);
+    await tester.tap(correct);
+    await tester.pump();
+    await pumpUntil(tester, find.byKey(const Key('lesson_explanation')));
+    expect(find.byKey(const Key('lesson_explanation')), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('Maktab darsi: avval qoida, keyin mashq; ko‘rsatma avtomatik aytilmaydi', (tester) async {

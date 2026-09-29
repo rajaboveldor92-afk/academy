@@ -1,0 +1,390 @@
+{
+ "subject": "english",
+ "ageGroup": "g5",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "english_g5.jobs",
+   "code": "1",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Kasblar va joylar",
+    "en": "Jobs and places",
+    "ru": "Профессии и места"
+   },
+   "generator": "vocab",
+   "skill": "jobs",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "english_g5.actions",
+   "code": "2",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Harakatlar",
+    "en": "Actions",
+    "ru": "Действия"
+   },
+   "generator": "vocab",
+   "skill": "actions",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g5.spelling",
+   "code": "3",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 6,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 7,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "english_g5.sentences",
+   "code": "4",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Oddiy gaplar",
+    "en": "Simple sentences",
+    "ru": "Простые предложения"
+   },
+   "generator": "sentence",
+   "skill": "sentences",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "build"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "build"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english_g5.listening",
+   "code": "5",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Tinglab tushunish",
+    "en": "Listening",
+    "ru": "Аудирование"
+   },
+   "generator": "sentence",
+   "skill": "listening",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "count",
+      "action"
+     ],
+     "modes": [
+      "listen"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "english_g5.present",
+   "code": "6",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Present Simple",
+    "en": "Present Simple",
+    "ru": "Present Simple"
+   },
+   "generator": "bank",
+   "skill": "present",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Odatdagi ish-harakat Present Simple bilan ifodalanadi. He/she/it bilan fe’lga -s yoki -es qo‘shiladi. Study → studies. Every day odatiylikni bildiradi."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g5.past",
+   "code": "7",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Past Simple",
+    "en": "Past Simple",
+    "ru": "Past Simple"
+   },
+   "generator": "bank",
+   "skill": "past",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Tugagan o‘tgan harakat Past Simple bilan ifodalanadi. To‘g‘ri fe’llarga -ed qo‘shiladi: play → played. Noto‘g‘ri fe’llarning shakli yodlanadi: go → went, see → saw."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g5.comparatives",
+   "code": "8",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Qiyosiy sifatlar",
+    "en": "Qiyosiy sifatlar",
+    "ru": "Qiyosiy sifatlar"
+   },
+   "generator": "bank",
+   "skill": "comparatives",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Ikki narsani qiyoslashda comparative ishlatiladi: tall → taller, big → bigger, easy → easier. Good so‘zining qiyosiy shakli better. Qiyosda than kelishi mumkin."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "english_g5.review",
+   "code": "9",
+   "emoji": "🇬🇧",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "english_g5.jobs",
+      "english_g5.actions",
+      "english_g5.spelling",
+      "english_g5.sentences",
+      "english_g5.listening",
+      "english_g5.present",
+      "english_g5.past",
+      "english_g5.comparatives"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g5.jobs",
+      "english_g5.actions",
+      "english_g5.spelling",
+      "english_g5.sentences",
+      "english_g5.listening",
+      "english_g5.present",
+      "english_g5.past",
+      "english_g5.comparatives"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g5.jobs",
+      "english_g5.actions",
+      "english_g5.spelling",
+      "english_g5.sentences",
+      "english_g5.listening",
+      "english_g5.present",
+      "english_g5.past",
+      "english_g5.comparatives"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

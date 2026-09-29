@@ -4,6 +4,9 @@ import '../../models/exercise.dart';
 import '../generator_base.dart';
 import '../registry.dart';
 import 'math_school.dart';
+import 'school_practice.dart';
+import '../foreign_language.dart';
+import '../logic_senior.dart';
 
 /// Maktab fanlari generatorlari: kalit `school.<fan>.<nom>` yoki umumiy `school.<nom>`.
 class SchoolGenerators {
@@ -11,6 +14,15 @@ class SchoolGenerators {
 
   static Map<String, ExerciseGenerator> get all => {
         for (final e in MathSchool.generators.entries) 'school.math.${e.key}': e.value,
+        for (final subject in ['english', 'russian'])
+          for (final e in ForeignLanguage.generators.entries) 'school.$subject.${e.key}': e.value,
+        for (final e in LogicSenior.generators.entries) 'school.logic.${e.key}': e.value,
+        'school.bank': SchoolPractice.bank,
+        'school.logic.rule_sequence': SchoolPractice.sequence,
+        'school.logic.ordering': SchoolPractice.ordering,
+        'school.logic.set_count': SchoolPractice.sets,
+        'school.reading.comprehension': SchoolPractice.reading,
+        'school.history.timeline': SchoolPractice.timeline,
         'school.test': test,
       };
 

@@ -1,0 +1,109 @@
+{
+ "subject": "science",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Tabiiy fan",
+  "en": "Science",
+  "ru": "Естествознание"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "science_g3.living",
+   "code": "1",
+   "emoji": "🌿",
+   "title": {
+    "uz": "O‘simliklar va hayvonlar",
+    "en": "O‘simliklar va hayvonlar",
+    "ru": "O‘simliklar va hayvonlar"
+   },
+   "generator": "bank",
+   "skill": "living",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Tirik tabiatga o‘simliklar va hayvonlar kiradi. O‘simlikning ildizi suvni shimadi, poyasi tayanch bo‘ladi, barglari yorug‘likda oziq modda hosil qilishda qatnashadi. Hayvonlarni yashash muhiti va belgilari bilan taqqoslang."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "science_g3.environment",
+   "code": "2",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Suv, havo va ob-havo",
+    "en": "Suv, havo va ob-havo",
+    "ru": "Suv, havo va ob-havo"
+   },
+   "generator": "bank",
+   "skill": "environment",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Suv qattiq, suyuq va gaz holatida uchraydi. Ob-havoni kuzatishda harorat, shamol va yog‘inga e’tibor beriladi. Atrofdagi o‘zgarishlarni nomlashdan oldin kuzatgan belgingizni aniqlang."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "science_g3.review",
+   "code": "3",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "science_g3.living",
+      "science_g3.environment"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g3.living",
+      "science_g3.environment"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g3.living",
+      "science_g3.environment"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

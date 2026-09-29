@@ -29,7 +29,7 @@ class ContentRepository {
   final Map<String, List<Map<String, dynamic>>> banks;
 
   /// Savollar banki fayllari.
-  static const List<String> bankFiles = [];
+  static const List<String> bankFiles = ['school/bank_practice_g3', 'school/bank_practice_g5'];
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
   static const List<String> curriculumFiles = [
@@ -73,6 +73,21 @@ class ContentRepository {
   static const List<String> schoolFiles = [
     'school/math_g3',
     'school/math_g5',
+    'school/logic_g3',
+    'school/english_g3',
+    'school/russian_g3',
+    'school/onatili_g3',
+    'school/reading_g3',
+    'school/science_g3',
+    'school/informatics_g3',
+    'school/logic_g5',
+    'school/english_g5',
+    'school/russian_g5',
+    'school/onatili_g5',
+    'school/reading_g5',
+    'school/science_g5',
+    'school/informatics_g5',
+    'school/history_g5',
   ];
 
   final Lexicon lexicon;

@@ -1,0 +1,363 @@
+{
+ "subject": "russian",
+ "ageGroup": "g3",
+ "lessonSize": 6,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский"
+ },
+ "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "topics": [
+  {
+   "id": "russian_g3.toys_school",
+   "code": "1",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "O‘yinchoq va maktab",
+    "en": "Toys and school",
+    "ru": "Игрушки и школа"
+   },
+   "generator": "vocab",
+   "skill": "toys_school",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "toys_school"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.family",
+   "code": "2",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Oila va tana",
+    "en": "Family and body",
+    "ru": "Семья и тело"
+   },
+   "generator": "vocab",
+   "skill": "family",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "family_body"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.animals",
+   "code": "3",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Hayvonlar va tabiat",
+    "en": "Animals and nature",
+    "ru": "Животные и природа"
+   },
+   "generator": "vocab",
+   "skill": "animals",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.spelling",
+   "code": "4",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "So‘z yig‘ish",
+    "en": "Spelling",
+    "ru": "Собери слово"
+   },
+   "generator": "spell",
+   "skill": "spelling",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "minLetters": 3,
+     "maxLetters": 4
+    },
+    {
+     "minLetters": 3,
+     "maxLetters": 4,
+     "extra": 1
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 2
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.sentences",
+   "code": "5",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Oddiy gap",
+    "en": "Simple sentences",
+    "ru": "Простое предложение"
+   },
+   "generator": "sentence",
+   "skill": "sentences",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
+   },
+   "levels": [
+    {
+     "types": [
+      "this"
+     ],
+     "modes": [
+      "read"
+     ]
+    },
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen",
+      "build"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.gender",
+   "code": "6",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Otlarning jinsi",
+    "en": "Otlarning jinsi",
+    "ru": "Otlarning jinsi"
+   },
+   "generator": "bank",
+   "skill": "gender",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Rus tilida otlar uch jinsga bo‘linadi: мужской (он), женский (она), средний (оно). Masalan: стол — он, книга — она, окно — оно."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.plural",
+   "code": "7",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Ko‘plik shakllari",
+    "en": "Ko‘plik shakllari",
+    "ru": "Ko‘plik shakllari"
+   },
+   "generator": "bank",
+   "skill": "plural",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bitta va ko‘p predmet shakllarini farqlang: стол — столы, книга — книги, окно — окна. Ko‘plik qo‘shimchalari bir xil emas; so‘zni juftlikda o‘rganing."
+   },
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.review",
+   "code": "8",
+   "emoji": "🇷🇺",
+   "title": {
+    "uz": "Bo‘limni takrorlash",
+    "en": "Bo‘limni takrorlash",
+    "ru": "Bo‘limni takrorlash"
+   },
+   "generator": "test",
+   "skill": "review",
+   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "prerequisites": [],
+   "theory": {
+    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   },
+   "levels": [
+    {
+     "topics": [
+      "russian_g3.toys_school",
+      "russian_g3.family",
+      "russian_g3.animals",
+      "russian_g3.spelling",
+      "russian_g3.sentences",
+      "russian_g3.gender",
+      "russian_g3.plural"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g3.toys_school",
+      "russian_g3.family",
+      "russian_g3.animals",
+      "russian_g3.spelling",
+      "russian_g3.sentences",
+      "russian_g3.gender",
+      "russian_g3.plural"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g3.toys_school",
+      "russian_g3.family",
+      "russian_g3.animals",
+      "russian_g3.spelling",
+      "russian_g3.sentences",
+      "russian_g3.gender",
+      "russian_g3.plural"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -320,3 +320,17 @@ Yangi mavzu qo‘shish:
 - Release manifestida hech qanday ruxsat yo'q (INTERNET ham) — ilova jismonan tarmoqqa chiqa olmaydi.
 - Ota-ona bo'limi PIN bilan; bosh sahifada qulf belgisini **bosib turish** kerak. 5 ta xato urinishdan keyin 30 soniya blok.
 - Tashqi havolalar, reklama, chat, ijtimoiy tarmoq yo'q.
+
+### Maktab fanlari: qo‘shimcha mashqlar (1.4.0)
+
+Jasmina (3-sinf) va Akramjon (5-sinf) uchun mantiq, ingliz tili, rus tili,
+ona tili, o‘qish/adabiyot, tabiiy fan va informatika; 5-sinf uchun tarix
+mashqlari mavjud. Matematika va to‘liq shaxmat avvalgi tartibda ishlaydi.
+Yangi kontent: 15 dastur, 75 mavzu (takrorlash darslari bilan), 454 yozilgan
+savol hamda tasodifiy mantiq va matnni tushunish mashqlari.
+Bu qo‘shimcha mashqlar to‘plami; rasmiy yillik darslikni to‘liq qamrash da’vosi yo‘q.
+Qoidalar va izohlar o‘zbekcha; chet tilidagi savollar tegishli tilda aytiladi.
+
+Kontent manbasi: `tool/content/school_subjects_src.py`; qayta yaratish:
+`python3 tool/content/school_subjects_src.py`.
+APK tekshiruvi maktab dasturlari va savollar banklari ham yig‘ilganini tekshiradi.
