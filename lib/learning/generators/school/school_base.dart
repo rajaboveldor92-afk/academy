@@ -6,10 +6,10 @@ import '../generator_base.dart';
 /// Maktab mashqlari uchun yordamchilar: savol matni o'zbekcha (ekranda o'qiladi),
 /// ovoz — faqat 🔊 bosilganda (raqamlar so'z bilan).
 extension SchoolGen on GenContext {
-  /// Savol: ekranda shu matn, ovozda — raqamlar so'z bilan.
+  /// Savol: ekranda shu matn, ovozda — raqamlar, kasrlar, belgilar va birliklar so'z bilan.
   RenderedInstruction ask(String text, {String lang = 'uz'}) => RenderedInstruction(
         Localized.same(text),
-        InstructionBank.speechFor(text, lang),
+        lang == 'uz' ? schoolSpeech(text) : InstructionBank.speechFor(text, lang),
         lang: lang,
         key: 'school',
       );
@@ -115,6 +115,82 @@ extension SchoolGen on GenContext {
     return chance(0.5);
   }
 }
+
+/// Maktab savolini o'zbekcha ovoz uchun tayyorlaydi (ekrandagi matn o'zgarmaydi):
+/// "12 345" → bitta son, "3/4" → "to‘rtdan uch", "2 3/4" → "ikki butun to‘rtdan uch",
+/// "2,05" → "ikki butun yuzdan besh", "8:05 da" → "soat sakkizdan besh minut o‘tganda",
+/// "·" → "ko‘paytiruv", " : " → "bo‘luv", "sm²" → "kvadrat santimetr", "%" → "foiz", "°" → "gradus".
+String schoolSpeech(String text) {
+  var s = text;
+  // Xonalarga ajratilgan son bitta son bo'lib o'qiladi.
+  s = s.replaceAll(RegExp(r'(?<=\d) (?=\d{3}(?!\d))'), '');
+  // Soat: "8:00 da" → "soat sakkizda", "8:05 da" → "soat sakkizdan besh minut o‘tganda".
+  s = s.replaceAllMapped(RegExp(r'(\d{1,2}):(\d{2})( da(?![\p{L}‘’]))?', unicode: true), (m) {
+    final h = int.parse(m[1]!), min = int.parse(m[2]!);
+    if (min == 0) return 'soat $h${m[3] != null ? ' da' : ''}';
+    return 'soat $h dan $min minut o‘tganda';
+  });
+  // Aralash son va oddiy kasr.
+  s = s.replaceAllMapped(RegExp(r'(\d+) (\d+)/(\d+)'), (m) => '${m[1]} butun ${m[3]} dan ${m[2]}');
+  s = s.replaceAllMapped(RegExp(r'(\d+)/(\d+)'), (m) => '${m[2]} dan ${m[1]}');
+  // O'nli kasr: verguldan keyingi raqamlar soniga qarab "o‘ndan", "yuzdan", "mingdan".
+  s = s.replaceAllMapped(RegExp(r'(\d+),(\d+)'), (m) {
+    final frac = m[2]!;
+    final place = switch (frac.length) {
+      1 => 'o‘ndan',
+      2 => 'yuzdan',
+      3 => 'mingdan',
+      4 => 'o‘n mingdan',
+      5 => 'yuz mingdan',
+      _ => 'milliondan',
+    };
+    return '${m[1]} butun $place ${int.parse(frac)}';
+  });
+  // O'lchov birliklari to'liq nomi bilan.
+  s = s.replaceAllMapped(_unitPattern, (m) => _unitWords[m[1]]!);
+  // "25% ini" → "yigirma besh foizini".
+  s = s.replaceAllMapped(RegExp(r'% (i|ini|iga|idan)(?![\p{L}‘’])', unicode: true), (m) => ' foiz${m[1]}');
+  s = s
+      .replaceAll('·', ' ko‘paytiruv ')
+      .replaceAll('×', ' ko‘paytiruv ')
+      .replaceAll(' : ', ' bo‘luv ')
+      .replaceAll('○', ' va ')
+      .replaceAll('≈', ' taxminan ')
+      .replaceAll('%', ' foiz ')
+      .replaceAll('°', ' gradus ')
+      .replaceAll('(', ' qavs ochiladi, ')
+      .replaceAll(')', ' qavs yopiladi, ')
+      .replaceAll(RegExp('[{}]'), ' ');
+  return InstructionBank.toSpeech(s);
+}
+
+const Map<String, String> _unitWords = {
+  'km/soat': 'kilometr soatiga',
+  'km²': 'kvadrat kilometr',
+  'm²': 'kvadrat metr',
+  'dm²': 'kvadrat detsimetr',
+  'sm²': 'kvadrat santimetr',
+  'mm²': 'kvadrat millimetr',
+  'm³': 'kub metr',
+  'dm³': 'kub detsimetr',
+  'sm³': 'kub santimetr',
+  'km': 'kilometr',
+  'dm': 'detsimetr',
+  'sm': 'santimetr',
+  'mm': 'millimetr',
+  'kg': 'kilogramm',
+  'ml': 'millilitr',
+  'min': 'minut',
+  'm': 'metr',
+  'g': 'gramm',
+  't': 'tonna',
+  'l': 'litr',
+};
+
+final RegExp _unitPattern = RegExp(
+  '(?<![\\p{L}‘’ʻ])(${_unitWords.keys.join('|')})(?![\\p{L}‘’ʻ²³/])',
+  unicode: true,
+);
 
 /// Sonni xonalarga ajratib yozish: 1234567 → "1 234 567".
 String fmtNum(int n) {

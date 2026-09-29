@@ -78,7 +78,7 @@ class InstructionBank {
   static String _splitLetterDigits(String text) => text.replaceAllMapped(RegExp(r'([A-Za-z])(\d)'), (m) => '${m[1]} ${m[2]}');
 
   static const String _uzNumberWords =
-      'nol|bir|ikki|uch|to‘rt|besh|olti|yetti|sakkiz|to‘qqiz|o‘n|yigirma|o‘ttiz|qirq|ellik|oltmish|yetmish|sakson|to‘qson|yuz|ming';
+      'nol|bir|ikki|uch|to‘rt|besh|olti|yetti|sakkiz|to‘qqiz|o‘n|yigirma|o‘ttiz|qirq|ellik|oltmish|yetmish|sakson|to‘qson|yuz|ming|million|milliard';
   static final RegExp _uzNumberSuffix = RegExp(
     '(^|[^A-Za-z‘’ʻ])($_uzNumberWords) (ta|tasini|tasi|ga|gacha|ni|ning|dan|da)(?=\$|[^A-Za-z‘’ʻ])',
     caseSensitive: false,

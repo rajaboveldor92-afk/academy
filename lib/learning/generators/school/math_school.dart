@@ -312,7 +312,7 @@ class MathSchool {
       // Bitta xonasi farq qiladigan son: bola xonama-xona taqqoslashni o'rganadi.
       final digits = '$a'.split('');
       final i = g.range(0, digits.length - 1);
-      var d = int.parse(digits[i]);
+      final d = int.parse(digits[i]);
       var nd = d;
       while (nd == d || (i == 0 && nd == 0)) {
         nd = g.range(0, 9);
@@ -356,7 +356,7 @@ class MathSchool {
     'length': [('km', 'm', 1000), ('m', 'sm', 100), ('m', 'dm', 10), ('dm', 'sm', 10), ('sm', 'mm', 10), ('m', 'mm', 1000)],
     'mass': [('kg', 'g', 1000), ('t', 'kg', 1000), ('sentner', 'kg', 100), ('t', 'sentner', 10)],
     'time': [('soat', 'minut', 60), ('minut', 'sekund', 60), ('sutka', 'soat', 24), ('yil', 'oy', 12), ('hafta', 'kun', 7)],
-    'area': [('m²', 'dm²', 100), ('dm²', 'sm²', 100), ('ar', 'm²', 100), ('ga', 'ar', 100), ('km²', 'ga', 100)],
+    'area': [('m²', 'dm²', 100), ('dm²', 'sm²', 100), ('ar', 'm²', 100), ('gektar', 'ar', 100), ('km²', 'gektar', 100)],
     'volume': [('l', 'ml', 1000), ('m³', 'dm³', 1000), ('dm³', 'sm³', 1000)],
   };
 
@@ -901,7 +901,7 @@ class MathSchool {
     if (scale <= 0) return fmtNum(m * _pow10(-scale));
     final s = m.toString().padLeft(scale + 1, '0');
     final whole = s.substring(0, s.length - scale);
-    var frac = s.substring(s.length - scale).replaceAll(RegExp(r'0+$'), '');
+    final frac = s.substring(s.length - scale).replaceAll(RegExp(r'0+$'), '');
     return frac.isEmpty ? whole : '$whole,$frac';
   }
 
@@ -1095,7 +1095,7 @@ class MathSchool {
       final w = g.range(2, max);
       final rect = b * w, tri = b * h ~/ 2;
       return g.numberAnswer(
-        question: 'Shakl to‘g‘ri to‘rtburchak ($b sm × $w sm) va uning ustiga qo‘yilgan uchburchakdan iborat. '
+        question: 'Shakl tomonlari $b sm va $w sm bo‘lgan to‘g‘ri to‘rtburchak va uning ustiga qo‘yilgan uchburchakdan iborat. '
             'Uchburchakning asosi $b sm, balandligi $h sm. Butun shaklning yuzi necha sm²?',
         answer: rect + tri,
         input: g.useInput(),

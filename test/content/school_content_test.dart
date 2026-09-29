@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:academy/database/seed_data.dart';
 import 'package:academy/learning/content/content_repository.dart';
+import 'package:academy/learning/content/uz_numbers.dart';
 import 'package:academy/learning/engine/daily_planner.dart';
 import 'package:academy/learning/engine/lesson_builder.dart';
 import 'package:academy/learning/generators/generator_base.dart';
@@ -127,6 +128,38 @@ void main() {
     expect(d.isCorrect('0.75'), isTrue);
     expect(d.isCorrect(',75'), isTrue);
     expect(const InputTask(answer: '12345').isCorrect('12 345'), isTrue);
+  });
+
+  test('ovoz: katta sonlar, kasrlar, soat, birliklar va belgilar so‘z bilan', () {
+    expect(UzNumbers.word(1000), 'ming');
+    expect(UzNumbers.word(1001), 'ming bir');
+    expect(UzNumbers.word(2026), 'ikki ming yigirma olti');
+    expect(UzNumbers.word(45302), 'qirq besh ming uch yuz ikki');
+    expect(UzNumbers.word(1000000), 'bir million');
+    expect(UzNumbers.word(3500000), 'uch million besh yuz ming');
+    expect(schoolSpeech('3344 : x = 8. x = ?'), 'uch ming uch yuz qirq to‘rt bo‘luv x teng sakkiz. x teng ?');
+    expect(schoolSpeech('12 345 + 1 000 = ?'), contains('o‘n ikki ming uch yuz qirq besh qo‘shuv ming'));
+    expect(schoolSpeech('3/4 ni toping'), 'to‘rtdan uchni toping');
+    expect(schoolSpeech('2,05 · 10 = ?'), 'ikki butun yuzdan besh ko‘paytiruv o‘n teng ?');
+    expect(schoolSpeech('Dars 8:05 da boshlandi'), 'Dars soat sakkizdan besh minut o‘tganda boshlandi');
+    expect(schoolSpeech('Dars 9:00 da boshlandi'), 'Dars soat to‘qqizda boshlandi');
+    expect(schoolSpeech('Yuzi necha sm²?'), 'Yuzi necha kvadrat santimetr?');
+    expect(schoolSpeech('200 ning 25% ini toping'), 'ikki yuzning yigirma besh foizini toping');
+    expect(schoolSpeech('Soatiga 5 km/soat'), contains('besh kilometr soatiga'));
+
+    // Barcha maktab mashqlarida ovozda raqam qolmaydi (xatolar birdaniga ko'rsatiladi).
+    final bad = <String>{};
+    for (final topic in content.allTopics.where((t) => t.isSchool)) {
+      final gen = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator)!;
+      for (var level = 1; level <= topic.maxLevel; level++) {
+        final rng = Random(level * 97 + topic.id.hashCode);
+        for (var i = 0; i < 80; i++) {
+          final e = gen(GenContext(rng: rng, content: content, topic: topic, level: level, age: 10));
+          if (RegExp(r'[\d{}·%°²³/]').hasMatch(e.speech)) bad.add('${topic.id} L$level: ${e.instruction.uz} → ${e.speech}');
+        }
+      }
+    }
+    expect(bad.take(30).toList(), isEmpty);
   });
 
   test('maktab o‘quvchisi: fanlar va kunlik dars sinf dasturidan', () {
