@@ -6,6 +6,7 @@ import 'package:academy/learning/engine/lesson_builder.dart';
 import 'package:academy/learning/generators/generator_base.dart';
 import 'package:academy/learning/generators/puzzles.dart';
 import 'package:academy/learning/generators/registry.dart';
+import 'package:academy/learning/generators/school/bank_gen.dart';
 import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/learning/models/topic.dart';
 import 'package:academy/learning/models/visual.dart';
@@ -106,7 +107,7 @@ void main() {
     if (t.generator == 'activity') return 2;
     if (t.subject == 'social' && t.generator == 'choice') return 3;
     // Finite authored banks have their own exhaustive coverage test.
-    if (t.generator == 'bank') return min(15, (content.banks[t.id]!.length * 0.8).floor());
+    if (t.generator == 'bank') return min(15, (BankGen.poolFor(content.banks[t.id]!, level).length * 0.8).floor());
     if (t.generator != 'trace') return 15;
     final items = (t.paramsFor(level)['items'] as List).map((e) => '$e').toList();
     if (items.any((i) => i.startsWith('words:'))) return 10;

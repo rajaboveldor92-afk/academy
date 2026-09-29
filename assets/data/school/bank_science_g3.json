@@ -1,0 +1,4696 @@
+{
+ "items": [
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_1",
+   "t": "choice",
+   "q": "Qaysi biri tirik tabiatga kiradi?",
+   "a": "Qush",
+   "w": [
+    "Tosh",
+    "Bulut",
+    "Qum",
+    "Muz"
+   ],
+   "d": 1,
+   "x": "Qush nafas oladi, oziqlanadi, o‘sadi va ko‘payadi — u tirik.",
+   "e": "🐦"
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_2",
+   "t": "choice",
+   "q": "Qaysi biri notirik tabiatga kiradi?",
+   "a": "Tosh",
+   "w": [
+    "Mushuk",
+    "Olma daraxti",
+    "Qo‘ziqorin",
+    "Chumoli"
+   ],
+   "d": 1,
+   "x": "Tosh o‘smaydi, nafas olmaydi va ko‘paymaydi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_3",
+   "t": "choice",
+   "q": "Qaysi biri inson yasagan buyum?",
+   "a": "Stul",
+   "w": [
+    "Daraxt",
+    "Daryo",
+    "Tog‘",
+    "Quyosh"
+   ],
+   "d": 1,
+   "x": "Stulni inson yasagan, u tabiatning bir qismi emas."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_4",
+   "t": "choice",
+   "q": "Qaysi biri tabiatga kirmaydi?",
+   "a": "Mashina",
+   "w": [
+    "Bulut",
+    "Daryo",
+    "Qor",
+    "Chigirtka"
+   ],
+   "d": 1,
+   "x": "Mashinani inson yasagan — u buyum."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_5",
+   "t": "choice",
+   "q": "Tirik organizmlarning belgisi qaysi?",
+   "a": "O‘sadi",
+   "w": [
+    "Eriydi",
+    "Sinadi",
+    "Oqadi",
+    "Yaltiraydi"
+   ],
+   "d": 1,
+   "x": "Tirik organizmlar o‘sadi, oziqlanadi, nafas oladi va ko‘payadi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_6",
+   "t": "choice",
+   "q": "Hamma tirik organizmlar nima qiladi?",
+   "a": "Oziqlanadi",
+   "w": [
+    "Uchadi",
+    "Suzadi",
+    "Yuguradi",
+    "Gapiradi"
+   ],
+   "d": 1,
+   "x": "Uchish yoki suzish hammaga xos emas, oziqlanish esa barcha tiriklarga xos."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_7",
+   "t": "choice",
+   "q": "Qaysi biri ko‘payadi?",
+   "a": "Qo‘y",
+   "w": [
+    "Qoya",
+    "Qor",
+    "Bulut",
+    "Kamalak"
+   ],
+   "d": 1,
+   "x": "Qo‘y — tirik organizm, u bolalaydi, ya’ni ko‘payadi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_8",
+   "t": "choice",
+   "q": "Bulut qaysi tabiatga kiradi?",
+   "a": "Notirik tabiatga",
+   "w": [
+    "Tirik tabiatga",
+    "Inson yasagan buyumlarga",
+    "Hayvonlarga"
+   ],
+   "d": 1,
+   "x": "Bulut — suv tomchilari, u tirik emas."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_9",
+   "t": "tf",
+   "q": "Quyosh notirik tabiatga kiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Quyosh nafas olmaydi, o‘smaydi va ko‘paymaydi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_10",
+   "t": "tf",
+   "q": "Tosh o‘sadi va ko‘payadi.",
+   "a": false,
+   "d": 1,
+   "x": "Tosh — notirik jism, u o‘smaydi ham, ko‘paymaydi ham."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_11",
+   "t": "tf",
+   "q": "O‘simliklar ham nafas oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Barcha tirik organizmlar, jumladan o‘simliklar ham nafas oladi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_12",
+   "t": "tf",
+   "q": "Havo notirik tabiatga kiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Havo o‘smaydi va ko‘paymaydi — u notirik tabiat."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_13",
+   "t": "tf",
+   "q": "Baliq notirik tabiatga kiradi.",
+   "a": false,
+   "d": 1,
+   "x": "Baliq nafas oladi, oziqlanadi va ko‘payadi — u tirik."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_14",
+   "t": "tf",
+   "q": "Inson ham tirik tabiatning bir qismi.",
+   "a": true,
+   "d": 1,
+   "x": "Inson ham nafas oladi, oziqlanadi, o‘sadi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_15",
+   "t": "match",
+   "q": "Har birini o‘z guruhi bilan juftlang",
+   "pairs": [
+    [
+     "Olma daraxti",
+     "o‘simlik"
+    ],
+    [
+     "Mushuk",
+     "hayvon"
+    ],
+    [
+     "Qo‘ziqorin",
+     "zamburug‘"
+    ],
+    [
+     "Tosh",
+     "notirik jism"
+    ],
+    [
+     "Stol",
+     "inson yasagan buyum"
+    ]
+   ],
+   "d": 1,
+   "x": "Olma daraxti — o‘simlik, mushuk — hayvon, qo‘ziqorin — zamburug‘, tosh — notirik, stol — buyum."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_16",
+   "t": "choice",
+   "q": "Qo‘ziqorin tirikmi?",
+   "a": "Ha, u zamburug‘",
+   "w": [
+    "Yo‘q, u tosh",
+    "Yo‘q, u buyum",
+    "Yo‘q, u suv"
+   ],
+   "d": 2,
+   "x": "Qo‘ziqorin — zamburug‘, u o‘sadi va ko‘payadi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_17",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat tirik narsalar bor?",
+   "a": "Chumoli, terak, quyon",
+   "w": [
+    "Tosh, suv, qum",
+    "Quyon, tosh, bulut",
+    "Qor, muz, bug‘",
+    "Terak, qum, havo"
+   ],
+   "d": 2,
+   "x": "Chumoli, terak va quyon — tirik organizmlar."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_18",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat notirik narsalar bor?",
+   "a": "Qum, suv, havo",
+   "w": [
+    "Qush, qum, suv",
+    "Baliq, tosh, loy",
+    "Gul, havo, muz",
+    "Ari, bulut, qor"
+   ],
+   "d": 2,
+   "x": "Qum, suv va havo o‘smaydi, ko‘paymaydi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_19",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha: terak, lola, tosh, yalpiz?",
+   "a": "Tosh",
+   "w": [
+    "Terak",
+    "Lola",
+    "Yalpiz"
+   ],
+   "d": 2,
+   "x": "Tosh — notirik, qolganlari — o‘simliklar."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_20",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha: suv, qum, havo, chumchuq?",
+   "a": "Chumchuq",
+   "w": [
+    "Suv",
+    "Qum",
+    "Havo"
+   ],
+   "d": 2,
+   "x": "Chumchuq — tirik qush, qolganlari notirik tabiat."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_21",
+   "t": "choice",
+   "q": "Tirik organizmlar notiriklardan nimasi bilan farq qiladi?",
+   "a": "Ko‘payishi bilan",
+   "w": [
+    "Rangi bilan",
+    "Og‘irligi bilan",
+    "Shakli bilan",
+    "Kattaligi bilan"
+   ],
+   "d": 2,
+   "x": "Rang, og‘irlik, shakl notiriklarda ham bor, ko‘payish esa faqat tiriklarga xos."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_22",
+   "t": "choice",
+   "q": "Quyosh tirik tabiatga nima beradi?",
+   "a": "Yorug‘lik va issiqlik",
+   "w": [
+    "Suv va tuz",
+    "Tuproq va tosh",
+    "Sovuq va qor"
+   ],
+   "d": 2,
+   "x": "Quyosh yorug‘ligi va issiqligisiz o‘simlik va hayvonlar yashay olmaydi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_23",
+   "t": "tf",
+   "q": "Tirik tabiat notirik tabiat bilan bog‘liq.",
+   "a": true,
+   "d": 2,
+   "x": "Masalan, hayvonlar suv ichadi, o‘simliklar Quyosh nurida o‘sadi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_24",
+   "t": "tf",
+   "q": "Tirik organizmlar vaqt o‘tib nobud bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "Har bir tirik organizm tug‘iladi, o‘sadi, ko‘payadi va oxiri nobud bo‘ladi."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_25",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tirik",
+    "organizmlar",
+    "oziqlanadi",
+    "va",
+    "o‘sadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_26",
+   "t": "choice",
+   "q": "Tuxumdan jo‘ja chiqishi tiriklarning qaysi belgisiga misol?",
+   "a": "Ko‘payish",
+   "w": [
+    "Oziqlanish",
+    "Nafas olish",
+    "Harakat"
+   ],
+   "d": 3,
+   "x": "Tovuq tuxum qo‘yadi, undan jo‘ja chiqadi — bu ko‘payish."
+  },
+  {
+   "topic": "science_g3.nature",
+   "id": "nature_27",
+   "t": "choice",
+   "q": "Kichik nihol yillar o‘tib katta daraxtga aylandi. Bu qaysi belgi?",
+   "a": "O‘sish",
+   "w": [
+    "Nafas olish",
+    "Oziqlanish",
+    "Nobud bo‘lish"
+   ],
+   "d": 3,
+   "x": "Nihol kattalashdi — bu o‘sish."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_1",
+   "t": "choice",
+   "q": "O‘simlikni tuproqda nima ushlab turadi?",
+   "a": "Ildiz",
+   "w": [
+    "Barg",
+    "Gul",
+    "Meva",
+    "Poya"
+   ],
+   "d": 1,
+   "x": "Ildiz tuproqqa kirib, o‘simlikni mahkam ushlaydi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_2",
+   "t": "choice",
+   "q": "Tuproqdan suvni qaysi qism shimib oladi?",
+   "a": "Ildiz",
+   "w": [
+    "Barg",
+    "Gul",
+    "Urug‘"
+   ],
+   "d": 1,
+   "x": "Ildiz tuproqdan suv va mineral moddalarni shimib oladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_3",
+   "t": "choice",
+   "q": "Barg va gullarni qaysi qism ko‘tarib turadi?",
+   "a": "Poya",
+   "w": [
+    "Ildiz",
+    "Urug‘",
+    "Meva"
+   ],
+   "d": 1,
+   "x": "Poya o‘simlikning tayanchi, u barg va gullarni ko‘tarib turadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_4",
+   "t": "choice",
+   "q": "Quyosh nurida oziqni asosan qaysi qism tayyorlaydi?",
+   "a": "Barg",
+   "w": [
+    "Ildiz",
+    "Urug‘",
+    "Gul",
+    "Meva"
+   ],
+   "d": 1,
+   "x": "Yashil barglar Quyosh nurida o‘simlik uchun oziq tayyorlaydi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_5",
+   "t": "choice",
+   "q": "Meva qaysi qismdan hosil bo‘ladi?",
+   "a": "Guldan",
+   "w": [
+    "Ildizdan",
+    "Bargdan",
+    "Poyadan"
+   ],
+   "d": 1,
+   "x": "Gul changlangach, uning o‘rnida meva hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_6",
+   "t": "choice",
+   "q": "Urug‘ning vazifasi nima?",
+   "a": "Yangi o‘simlik berish",
+   "w": [
+    "Suv shimish",
+    "Oziq tayyorlash",
+    "Gulni ko‘tarish"
+   ],
+   "d": 1,
+   "x": "Urug‘ ekilsa, undan yangi o‘simlik unib chiqadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_7",
+   "t": "choice",
+   "q": "Gulli o‘simliklarda urug‘ qayerda yetiladi?",
+   "a": "Meva ichida",
+   "w": [
+    "Barg ustida",
+    "Ildiz ichida",
+    "Poya uchida"
+   ],
+   "d": 1,
+   "x": "Masalan, olma urug‘lari olma mevasining ichida bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_8",
+   "t": "choice",
+   "q": "Sabzining qaysi qismini yeymiz?",
+   "a": "Ildizini",
+   "w": [
+    "Bargini",
+    "Gulini",
+    "Urug‘ini"
+   ],
+   "d": 1,
+   "x": "Sabzi — ildizmeva, biz uning yo‘g‘on ildizini yeymiz.",
+   "e": "🥕"
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_9",
+   "t": "choice",
+   "q": "Olmaning qaysi qismini yeymiz?",
+   "a": "Mevasini",
+   "w": [
+    "Ildizini",
+    "Bargini",
+    "Poyasini"
+   ],
+   "d": 1,
+   "x": "Olma — olma daraxtining mevasi.",
+   "e": "🍎"
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_10",
+   "t": "choice",
+   "q": "O‘simlikning qaysi qismi ko‘pincha yashil bo‘ladi?",
+   "a": "Barg",
+   "w": [
+    "Ildiz",
+    "Urug‘",
+    "Gul"
+   ],
+   "d": 1,
+   "x": "Barglar yashil rangda bo‘ladi va Quyosh nurini tutadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_11",
+   "t": "tf",
+   "q": "Ildiz odatda yer ostida bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ildiz tuproq ichida o‘sadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_12",
+   "t": "tf",
+   "q": "Barg tuproqdan suv shimib oladi.",
+   "a": false,
+   "d": 1,
+   "x": "Tuproqdan suvni ildiz shimib oladi, barg esa oziq tayyorlaydi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_13",
+   "t": "tf",
+   "q": "Guldan meva va urug‘ hosil bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Gul o‘rnida meva paydo bo‘ladi, uning ichida urug‘ yetiladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_14",
+   "t": "match",
+   "q": "O‘simlik qismini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Ildiz",
+     "suv shimib oladi"
+    ],
+    [
+     "Poya",
+     "barglarni ko‘tarib turadi"
+    ],
+    [
+     "Barg",
+     "oziq tayyorlaydi"
+    ],
+    [
+     "Gul",
+     "undan meva hosil bo‘ladi"
+    ],
+    [
+     "Meva",
+     "urug‘ni saqlaydi"
+    ],
+    [
+     "Urug‘",
+     "yangi o‘simlik beradi"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ildiz",
+    "tuproqdan",
+    "suv",
+    "shimib",
+    "oladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_16",
+   "t": "choice",
+   "q": "Karamning qaysi qismini yeymiz?",
+   "a": "Bargini",
+   "w": [
+    "Ildizini",
+    "Gulini",
+    "Mevasini"
+   ],
+   "d": 2,
+   "x": "Karam boshi bir-biriga zich o‘ralgan barglardan iborat."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_17",
+   "t": "choice",
+   "q": "Lavlagining qaysi qismini yeymiz?",
+   "a": "Ildizini",
+   "w": [
+    "Gulini",
+    "Mevasini",
+    "Urug‘ini"
+   ],
+   "d": 2,
+   "x": "Lavlagi ham sabzi kabi ildizmeva."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_18",
+   "t": "choice",
+   "q": "Kungaboqarning qaysi qismidan yog‘ olinadi?",
+   "a": "Urug‘idan",
+   "w": [
+    "Ildizidan",
+    "Bargidan",
+    "Poyasidan"
+   ],
+   "d": 2,
+   "x": "Kungaboqar pistasi — uning urug‘i, undan o‘simlik yog‘i olinadi.",
+   "e": "🌻"
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_19",
+   "t": "choice",
+   "q": "Bug‘doyning qaysi qismidan un tortiladi?",
+   "a": "Donidan",
+   "w": [
+    "Poyasidan",
+    "Ildizidan",
+    "Bargidan"
+   ],
+   "d": 2,
+   "x": "Bug‘doy donlari tegirmonda tortilib, un olinadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_20",
+   "t": "choice",
+   "q": "Daraxtning yo‘g‘on poyasi nima deyiladi?",
+   "a": "Tana",
+   "w": [
+    "Ildiz",
+    "Shox",
+    "Barg"
+   ],
+   "d": 2,
+   "x": "Daraxtning bitta yo‘g‘on yog‘och poyasi tana deyiladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_21",
+   "t": "choice",
+   "q": "Asalari va kapalaklarni qaysi qism o‘ziga jalb qiladi?",
+   "a": "Gul",
+   "w": [
+    "Ildiz",
+    "Poya",
+    "Urug‘"
+   ],
+   "d": 2,
+   "x": "Gulning rangi, hidi va shirasi hasharotlarni jalb qiladi, ular gulni changlatadi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_22",
+   "t": "tf",
+   "q": "Gul o‘simlikni chiroyli qilishdan boshqa vazifa bajarmaydi.",
+   "a": false,
+   "d": 2,
+   "x": "Guldan meva va urug‘ hosil bo‘ladi — bu o‘simlikning ko‘payishi uchun zarur."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_23",
+   "t": "tf",
+   "q": "Poya orqali suv ildizdan barglarga yetib boradi.",
+   "a": true,
+   "d": 2,
+   "x": "Poya ichida suv va oziq harakatlanadigan yo‘llar bor."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_24",
+   "t": "choice",
+   "q": "G‘o‘zaning paxta tolasi qayerda yetiladi?",
+   "a": "Ko‘sakda",
+   "w": [
+    "Ildizda",
+    "Bargda",
+    "Poyada"
+   ],
+   "d": 3,
+   "x": "Ko‘sak — g‘o‘zaning mevasi, ichida urug‘ va oq tola bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_parts",
+   "id": "plant_parts_25",
+   "t": "choice",
+   "q": "Gul changlangandan keyin uning o‘rnida nima hosil bo‘ladi?",
+   "a": "Meva",
+   "w": [
+    "Ildiz",
+    "Barg",
+    "Tana"
+   ],
+   "d": 3,
+   "x": "Changlangan gul o‘rnida meva, meva ichida urug‘ yetiladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_1",
+   "t": "choice",
+   "q": "O‘simlik o‘sishi uchun nima kerak?",
+   "a": "Yorug‘lik",
+   "w": [
+    "Qorong‘ilik",
+    "Shovqin",
+    "Chang"
+   ],
+   "d": 1,
+   "x": "Yorug‘liksiz o‘simlik oziq tayyorlay olmaydi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_2",
+   "t": "choice",
+   "q": "Sug‘orilmagan o‘simlik bilan nima bo‘ladi?",
+   "a": "So‘lib qoladi",
+   "w": [
+    "Tez o‘sadi",
+    "Gullaydi",
+    "Yashnab ketadi"
+   ],
+   "d": 1,
+   "x": "Suv yetmasa, o‘simlik so‘lib qoladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_3",
+   "t": "choice",
+   "q": "O‘simlik qaysi joyda eng yaxshi o‘sadi?",
+   "a": "Yorug‘, iliq va nam joyda",
+   "w": [
+    "Qorong‘i va sovuq joyda",
+    "Quruq qum ustida",
+    "Muz ustida"
+   ],
+   "d": 1,
+   "x": "O‘simlikka yorug‘lik, issiqlik va suv kerak."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_4",
+   "t": "choice",
+   "q": "Qaysi faslda o‘simliklar tez o‘sa boshlaydi?",
+   "a": "Bahorda",
+   "w": [
+    "Qishda",
+    "Kech kuzda",
+    "Qor yog‘ganda"
+   ],
+   "d": 1,
+   "x": "Bahorda havo iliydi, kunlar uzayadi — o‘simliklar uyg‘onadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_5",
+   "t": "choice",
+   "q": "Qaysi biri o‘simlik o‘sishi uchun zarur EMAS?",
+   "a": "Shovqin",
+   "w": [
+    "Suv",
+    "Havo",
+    "Issiqlik",
+    "Yorug‘lik"
+   ],
+   "d": 1,
+   "x": "O‘simlikka suv, havo, issiqlik, yorug‘lik va tuproq kerak, shovqin emas."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_6",
+   "t": "tf",
+   "q": "O‘simlikka yorug‘lik kerak emas.",
+   "a": false,
+   "d": 1,
+   "x": "Yorug‘liksiz o‘simlik oziq tayyorlay olmaydi va sarg‘ayadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_7",
+   "t": "tf",
+   "q": "O‘simliklar ham havo bilan nafas oladi.",
+   "a": true,
+   "d": 1,
+   "x": "O‘simliklar ham tirik, ular nafas oladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_8",
+   "t": "tf",
+   "q": "Xona o‘simligini derazaga yaqin qo‘ygan ma’qul.",
+   "a": true,
+   "d": 1,
+   "x": "Deraza yonida yorug‘lik ko‘p, o‘simlik yaxshi o‘sadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_9",
+   "t": "tf",
+   "q": "Issiqlik ham o‘simlik o‘sishi uchun zarur.",
+   "a": true,
+   "d": 1,
+   "x": "Sovuqda o‘simliklar o‘smaydi, qattiq sovuqda muzlab qoladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_10",
+   "t": "tf",
+   "q": "O‘simliklar qorong‘ida ham yaxshi o‘sib, gullaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Qorong‘ida o‘simlik oziq tayyorlay olmaydi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "O‘simliklarga",
+    "suv",
+    "va",
+    "yorug‘lik",
+    "kerak"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_12",
+   "t": "choice",
+   "q": "Qorong‘i shkafda qolgan o‘simlikning barglari qanday bo‘lib qoladi?",
+   "a": "Sarg‘ayib qoladi",
+   "w": [
+    "Yashilroq bo‘ladi",
+    "Qizarib ketadi",
+    "Kattalashadi"
+   ],
+   "d": 2,
+   "x": "Yorug‘lik yetmasa, barglar rangsizlanib, sarg‘ayadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_13",
+   "t": "choice",
+   "q": "Urug‘ unib chiqishi uchun nima zarur?",
+   "a": "Namlik, havo, issiqlik",
+   "w": [
+    "Faqat qum",
+    "Sovuq va qorong‘ilik",
+    "Faqat shamol",
+    "Tuz va muz"
+   ],
+   "d": 2,
+   "x": "Nam, iliq va havo bor joyda urug‘ unib chiqadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_14",
+   "t": "choice",
+   "q": "Qishda issiqsevar o‘simliklar qayerda o‘stiriladi?",
+   "a": "Issiqxonada",
+   "w": [
+    "Muzlatgichda",
+    "Qor ostida",
+    "Qorong‘i yerto‘lada"
+   ],
+   "d": 2,
+   "x": "Issiqxonada qishda ham issiq va yorug‘ bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_15",
+   "t": "choice",
+   "q": "Tuproqning qaysi xususiyati o‘simlik uchun muhim?",
+   "a": "Unumdorligi",
+   "w": [
+    "Rangi",
+    "Hidi",
+    "Og‘irligi"
+   ],
+   "d": 2,
+   "x": "Unumdor tuproqda o‘simlik uchun oziq moddalar ko‘p."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_16",
+   "t": "choice",
+   "q": "Ildiz tuproqdan nimani oladi?",
+   "a": "Suv va mineral moddalar",
+   "w": [
+    "Yorug‘lik",
+    "Quyosh nuri",
+    "Shamol"
+   ],
+   "d": 2,
+   "x": "Yorug‘likni barglar tutadi, ildiz esa suv va mineral moddalarni oladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_17",
+   "t": "choice",
+   "q": "Dehqonlar yerni nima uchun o‘g‘itlaydi?",
+   "a": "Tuproq unumdor bo‘lishi uchun",
+   "w": [
+    "Yerni qotirish uchun",
+    "Suvni quritish uchun",
+    "Rangini o‘zgartirish uchun"
+   ],
+   "d": 2,
+   "x": "O‘g‘it tuproqqa o‘simlik uchun kerakli oziq moddalarni qo‘shadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_18",
+   "t": "choice",
+   "q": "Bitta nihol yorug‘da, ikkinchisi qorong‘ida o‘sdi. Qaysi biri sog‘lomroq?",
+   "a": "Yorug‘dagisi",
+   "w": [
+    "Qorong‘idagisi",
+    "Ikkalasi bir xil",
+    "Ikkalasi ham qurib qoladi"
+   ],
+   "d": 2,
+   "x": "Yorug‘da o‘sgan nihol yashil va baquvvat bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_19",
+   "t": "choice",
+   "q": "Loviya urug‘ini nam paxtaga qo‘ysak, bir necha kunda nima bo‘ladi?",
+   "a": "Unib chiqadi",
+   "w": [
+    "Eriydi",
+    "Toshga aylanadi",
+    "Muzlaydi"
+   ],
+   "d": 2,
+   "x": "Namlik, havo va issiqlik bor — urug‘ unib chiqadi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_20",
+   "t": "match",
+   "q": "Nima yetishmasa, nima bo‘ladi? Juftlang",
+   "pairs": [
+    [
+     "Suv yetmasa",
+     "so‘lib qoladi"
+    ],
+    [
+     "Yorug‘lik yetmasa",
+     "barglari sarg‘ayadi"
+    ],
+    [
+     "Qattiq sovuq bo‘lsa",
+     "muzlab qoladi"
+    ],
+    [
+     "Tuproq unumsiz bo‘lsa",
+     "sust o‘sadi"
+    ],
+    [
+     "Hamma sharoit bo‘lsa",
+     "yaxshi o‘sadi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_21",
+   "t": "tf",
+   "q": "O‘simlikni juda ko‘p sug‘orish ham zararli.",
+   "a": true,
+   "d": 2,
+   "x": "Suv haddan ko‘p bo‘lsa, ildizlarga havo yetmaydi va ular chiriydi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_22",
+   "t": "tf",
+   "q": "Urug‘ quruq qutida uzoq tursa ham unib chiqmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Urug‘ unishi uchun namlik kerak, quruq joyda u unmaydi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_23",
+   "t": "choice",
+   "q": "Tomchilatib sug‘orish nima uchun foydali?",
+   "a": "Suvni tejaydi",
+   "w": [
+    "Tuproqni sovitadi",
+    "O‘simlikni quritadi",
+    "Barglarni yuvadi"
+   ],
+   "d": 3,
+   "x": "Suv to‘g‘ridan-to‘g‘ri ildizga tomchilab boradi va isrof bo‘lmaydi."
+  },
+  {
+   "topic": "science_g3.plant_growth",
+   "id": "plant_growth_24",
+   "t": "choice",
+   "q": "Yantoq kabi cho‘l o‘simliklari kam suvga qanday moslashgan?",
+   "a": "Ildizi juda uzun",
+   "w": [
+    "Barglari juda katta",
+    "Ildizi bo‘lmaydi",
+    "Faqat suvda o‘sadi"
+   ],
+   "d": 3,
+   "x": "Yantoqning ildizi yer ostidagi suvgacha chuqur kirib boradi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_1",
+   "t": "choice",
+   "q": "Qaysi biri daraxt?",
+   "a": "Terak",
+   "w": [
+    "Na’matak",
+    "Lola",
+    "Yalpiz",
+    "Beda"
+   ],
+   "d": 1,
+   "x": "Terakning bitta baland va yo‘g‘on tanasi bor."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_2",
+   "t": "choice",
+   "q": "Qaysi biri buta?",
+   "a": "Na’matak",
+   "w": [
+    "Chinor",
+    "Bug‘doy",
+    "Terak",
+    "Lola"
+   ],
+   "d": 1,
+   "x": "Na’matakda yerdan bir nechta ingichka yog‘och poya o‘sib chiqadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_3",
+   "t": "choice",
+   "q": "Qaysi biri o‘t o‘simlik?",
+   "a": "Lola",
+   "w": [
+    "Olma",
+    "Chinor",
+    "Archa",
+    "O‘rik"
+   ],
+   "d": 1,
+   "x": "Lolaning poyasi yumshoq va yashil."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_4",
+   "t": "choice",
+   "q": "O‘t o‘simliklarning poyasi qanday?",
+   "a": "Yumshoq va yashil",
+   "w": [
+    "Yo‘g‘on va yog‘och",
+    "Qalin po‘stloqli",
+    "Tosh kabi qattiq"
+   ],
+   "d": 1,
+   "x": "O‘t o‘simliklar poyasi yog‘ochlanmaydi, u yumshoq bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_5",
+   "t": "choice",
+   "q": "Qaysi biri madaniy o‘simlik?",
+   "a": "G‘o‘za",
+   "w": [
+    "Yantoq",
+    "Shuvoq",
+    "Qoqio‘t",
+    "Saksovul"
+   ],
+   "d": 1,
+   "x": "G‘o‘zani dehqonlar ekib, parvarish qiladi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_6",
+   "t": "choice",
+   "q": "Qaysi biri yovvoyi o‘simlik?",
+   "a": "Yantoq",
+   "w": [
+    "Bug‘doy",
+    "Uzum",
+    "Sholi",
+    "Karam"
+   ],
+   "d": 1,
+   "x": "Yantoqni hech kim ekmaydi, u cho‘lda o‘z-o‘zidan o‘sadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_7",
+   "t": "choice",
+   "q": "Madaniy o‘simliklarni kim parvarish qiladi?",
+   "a": "Inson",
+   "w": [
+    "Hech kim",
+    "Shamol",
+    "Hayvonlar"
+   ],
+   "d": 1,
+   "x": "Madaniy o‘simliklarni inson ekadi, sug‘oradi va hosilini yig‘adi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_8",
+   "t": "choice",
+   "q": "O‘zbekistonda ko‘p ekiladigan, tolasidan gazlama to‘qiladigan o‘simlik?",
+   "a": "G‘o‘za",
+   "w": [
+    "Lola",
+    "Yantoq",
+    "Archa"
+   ],
+   "d": 1,
+   "x": "G‘o‘za tolasi — paxta, undan ip va gazlama olinadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_9",
+   "t": "tf",
+   "q": "Archa qishda ham yashil turadi.",
+   "a": true,
+   "d": 1,
+   "x": "Archaning barglari — ignalar, ular qishda to‘kilmaydi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_10",
+   "t": "tf",
+   "q": "Olma daraxti kuzda barglarini to‘kadi.",
+   "a": true,
+   "d": 1,
+   "x": "Ko‘p daraxtlar kuzda barglarini to‘kadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_11",
+   "t": "tf",
+   "q": "Yovvoyi o‘simliklarni inson ekib, sug‘oradi.",
+   "a": false,
+   "d": 1,
+   "x": "Yovvoyi o‘simliklar o‘z-o‘zidan o‘sadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Chinor",
+    "katta",
+    "va",
+    "baland",
+    "daraxt"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_13",
+   "t": "choice",
+   "q": "Daraxtning butadan farqi nima?",
+   "a": "Bitta yo‘g‘on tanasi bor",
+   "w": [
+    "Barglari yo‘q",
+    "Poyasi yumshoq",
+    "Ildizi bo‘lmaydi"
+   ],
+   "d": 2,
+   "x": "Daraxtda bitta tana, butada esa bir nechta ingichka poya bo‘ladi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_14",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat daraxtlar bor?",
+   "a": "Olma, o‘rik, yong‘oq",
+   "w": [
+    "Lola, olma, beda",
+    "Na’matak, lola, yalpiz",
+    "Bug‘doy, chinor, rayhon"
+   ],
+   "d": 2,
+   "x": "Olma, o‘rik va yong‘oqning bitta yo‘g‘on tanasi bor."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_15",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat o‘t o‘simliklar bor?",
+   "a": "Bug‘doy, lola, rayhon",
+   "w": [
+    "Terak, lola, yalpiz",
+    "Archa, chinor, tut",
+    "Olma, beda, na’matak"
+   ],
+   "d": 2,
+   "x": "Bug‘doy, lola va rayhonning poyasi yumshoq."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_16",
+   "t": "choice",
+   "q": "Guruch qaysi o‘simlikdan olinadi?",
+   "a": "Sholidan",
+   "w": [
+    "Bug‘doydan",
+    "Makkajo‘xoridan",
+    "G‘o‘zadan"
+   ],
+   "d": 2,
+   "x": "Sholi — suvli dalalarda ekiladigan madaniy o‘simlik."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_17",
+   "t": "choice",
+   "q": "Qaysi o‘simlikning barglari igna shaklida?",
+   "a": "Archa",
+   "w": [
+    "Olma",
+    "Chinor",
+    "Tut"
+   ],
+   "d": 2,
+   "x": "Archa — ignabargli daraxt."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_18",
+   "t": "choice",
+   "q": "Qovun qaysi ekinlar guruhiga kiradi?",
+   "a": "Poliz ekinlariga",
+   "w": [
+    "Mevali daraxtlarga",
+    "Butalarga",
+    "Yovvoyi o‘tlarga"
+   ],
+   "d": 2,
+   "x": "Qovun, tarvuz, qovoq — poliz ekinlari."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_19",
+   "t": "choice",
+   "q": "Bahorda adirlarda qip-qizil bo‘lib ochiladigan o‘t o‘simlik?",
+   "a": "Lola",
+   "w": [
+    "Paxta",
+    "Bug‘doy",
+    "Karam"
+   ],
+   "d": 2,
+   "x": "Bahorda tog‘ va adirlarda lolalar ochiladi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_20",
+   "t": "match",
+   "q": "Madaniy o‘simlikni undan olinadigan mahsulot bilan juftlang",
+   "pairs": [
+    [
+     "G‘o‘za",
+     "paxta tolasi"
+    ],
+    [
+     "Bug‘doy",
+     "un"
+    ],
+    [
+     "Sholi",
+     "guruch"
+    ],
+    [
+     "Uzum",
+     "mayiz"
+    ],
+    [
+     "Kungaboqar",
+     "o‘simlik yog‘i"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_21",
+   "t": "tf",
+   "q": "Butaning bitta yo‘g‘on tanasi bo‘ladi.",
+   "a": false,
+   "d": 2,
+   "x": "Butada yerdan bir nechta ingichka poya o‘sib chiqadi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_22",
+   "t": "tf",
+   "q": "Bog‘dagi mevali daraxtlar — madaniy o‘simliklar.",
+   "a": true,
+   "d": 2,
+   "x": "Ularni bog‘bon ekadi va parvarish qiladi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_23",
+   "t": "choice",
+   "q": "Cho‘lda o‘sadigan, qumni mustahkamlaydigan yovvoyi o‘simlik?",
+   "a": "Saksovul",
+   "w": [
+    "Pomidor",
+    "Sholi",
+    "Karam"
+   ],
+   "d": 3,
+   "x": "Saksovul ildizlari qumni ushlab turadi, shamol uni uchira olmaydi."
+  },
+  {
+   "topic": "science_g3.plant_kinds",
+   "id": "plant_kinds_24",
+   "t": "choice",
+   "q": "Qaysi daraxtning bargi bilan ipak qurti oziqlanadi?",
+   "a": "Tut",
+   "w": [
+    "Terak",
+    "Archa",
+    "Chinor"
+   ],
+   "d": 3,
+   "x": "Ipak qurti tut barglarini yeydi va pilla o‘raydi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_1",
+   "t": "choice",
+   "q": "Bolasini sut bilan boqadigan hayvonlar qaysi guruhga kiradi?",
+   "a": "Sutemizuvchilar",
+   "w": [
+    "Qushlar",
+    "Baliqlar",
+    "Hasharotlar"
+   ],
+   "d": 1,
+   "x": "Sigir, it, quyon bolasini sut bilan boqadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_2",
+   "t": "choice",
+   "q": "Tanasi pat bilan qoplangan hayvonlar qaysi guruhga kiradi?",
+   "a": "Qushlar",
+   "w": [
+    "Baliqlar",
+    "Sutemizuvchilar",
+    "Hasharotlar"
+   ],
+   "d": 1,
+   "x": "Patlar faqat qushlarda bo‘ladi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_3",
+   "t": "choice",
+   "q": "Jabra bilan nafas oladigan hayvonlar qaysi guruhga kiradi?",
+   "a": "Baliqlar",
+   "w": [
+    "Qushlar",
+    "Sutemizuvchilar",
+    "Sudralib yuruvchilar"
+   ],
+   "d": 1,
+   "x": "Baliqlar suvdagi havoni jabra orqali oladi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_4",
+   "t": "choice",
+   "q": "Hasharotning nechta oyog‘i bor?",
+   "a": "6 ta",
+   "w": [
+    "4 ta",
+    "8 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Barcha hasharotlarning 6 ta oyog‘i bor."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_5",
+   "t": "choice",
+   "q": "Qaysi biri hasharot?",
+   "a": "Asalari",
+   "w": [
+    "O‘rgimchak",
+    "Chumchuq",
+    "Baqa",
+    "Ilon"
+   ],
+   "d": 1,
+   "x": "Asalarining 6 ta oyog‘i bor — u hasharot.",
+   "e": "🐝"
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_6",
+   "t": "choice",
+   "q": "Qaysi biri sudralib yuruvchi?",
+   "a": "Kaltakesak",
+   "w": [
+    "Baqa",
+    "Laqqa",
+    "Chumoli",
+    "Quyon"
+   ],
+   "d": 1,
+   "x": "Kaltakesakning terisi quruq va tangachali."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_7",
+   "t": "choice",
+   "q": "Qaysi biri sutemizuvchi?",
+   "a": "Tuya",
+   "w": [
+    "Tovuq",
+    "Toshbaqa",
+    "Zog‘ora baliq"
+   ],
+   "d": 1,
+   "x": "Tuya bo‘tasini sut bilan boqadi.",
+   "e": "🐫"
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_8",
+   "t": "choice",
+   "q": "Qushlar tanasini nima qoplab turadi?",
+   "a": "Pat",
+   "w": [
+    "Jun",
+    "Tangacha",
+    "Shilliq teri"
+   ],
+   "d": 1,
+   "x": "Qushlar tanasi pat bilan qoplangan."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_9",
+   "t": "choice",
+   "q": "Baliqlar suvda nima yordamida suzadi?",
+   "a": "Suzgichlar",
+   "w": [
+    "Qanotlar",
+    "Oyoqlar",
+    "Tumshuq"
+   ],
+   "d": 1,
+   "x": "Baliq suzgichlari va dumi yordamida suzadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_10",
+   "t": "tf",
+   "q": "Ilonning oyog‘i yo‘q, u sudralib harakatlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Ilon — sudralib yuruvchi, u tanasini egib harakatlanadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_11",
+   "t": "match",
+   "q": "Hayvonni guruhi bilan juftlang",
+   "pairs": [
+    [
+     "Sigir",
+     "sutemizuvchi"
+    ],
+    [
+     "Burgut",
+     "qush"
+    ],
+    [
+     "Laqqa",
+     "baliq"
+    ],
+    [
+     "Kapalak",
+     "hasharot"
+    ],
+    [
+     "Ilon",
+     "sudralib yuruvchi"
+    ],
+    [
+     "Baqa",
+     "suvda hamda quruqlikda yashovchi"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_12",
+   "t": "choice",
+   "q": "Qaysi biri suvda hamda quruqlikda yashovchi?",
+   "a": "Baqa",
+   "w": [
+    "Ilon",
+    "Laqqa",
+    "Kaltakesak",
+    "Chumoli"
+   ],
+   "d": 2,
+   "x": "Baqa suvda ham, quruqlikda ham yashaydi, terisi nam va silliq."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_13",
+   "t": "choice",
+   "q": "Qaysi biri qush?",
+   "a": "Laylak",
+   "w": [
+    "Ko‘rshapalak",
+    "Kapalak",
+    "Ninachi"
+   ],
+   "d": 2,
+   "x": "Laylakning pati va tumshug‘i bor, u tuxum qo‘yadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_14",
+   "t": "choice",
+   "q": "Baqa tuxumini qayerga qo‘yadi?",
+   "a": "Suvga",
+   "w": [
+    "Daraxtga",
+    "Qumga",
+    "Qush iniga"
+   ],
+   "d": 2,
+   "x": "Baqa tuxumlarini suvga qo‘yadi, bolalari ham suvda o‘sadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_15",
+   "t": "choice",
+   "q": "Qaysi hayvonning terisi nam va silliq?",
+   "a": "Baqa",
+   "w": [
+    "Ilon",
+    "Kaltakesak",
+    "Toshbaqa"
+   ],
+   "d": 2,
+   "x": "Sudralib yuruvchilarning terisi quruq, baqaniki esa nam."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_16",
+   "t": "tf",
+   "q": "O‘rgimchak — hasharot.",
+   "a": false,
+   "d": 2,
+   "x": "O‘rgimchakning 8 ta oyog‘i bor, hasharotlarniki esa 6 ta."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_17",
+   "t": "tf",
+   "q": "Delfin — sutemizuvchi hayvon.",
+   "a": true,
+   "d": 2,
+   "x": "Delfin suvda yashasa ham, bolasini sut bilan boqadi va o‘pka bilan nafas oladi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_18",
+   "t": "tf",
+   "q": "Pingvin ucha olmasa ham qush hisoblanadi.",
+   "a": true,
+   "d": 2,
+   "x": "Pingvinning pati, qanoti, tumshug‘i bor va u tuxum qo‘yadi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_19",
+   "t": "tf",
+   "q": "Kit — baliq.",
+   "a": false,
+   "d": 2,
+   "x": "Kit o‘pka bilan nafas oladi va bolasini sut bilan boqadi — u sutemizuvchi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_20",
+   "t": "match",
+   "q": "Guruhni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Qushlar",
+     "pat va qanot"
+    ],
+    [
+     "Baliqlar",
+     "tangacha va suzgich"
+    ],
+    [
+     "Hasharotlar",
+     "6 ta oyoq"
+    ],
+    [
+     "Sutemizuvchilar",
+     "bolasini sut bilan boqadi"
+    ],
+    [
+     "Sudralib yuruvchilar",
+     "quruq tangachali teri"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Qushlar",
+    "tuxum",
+    "qo‘yib",
+    "jo‘ja",
+    "ochadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_22",
+   "t": "tf",
+   "q": "Ko‘rshapalak — qush.",
+   "a": false,
+   "d": 3,
+   "x": "Ko‘rshapalak ucha oladi, lekin bolasini sut bilan boqadi — u sutemizuvchi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_23",
+   "t": "choice",
+   "q": "Toshbaqa qaysi guruhga kiradi?",
+   "a": "Sudralib yuruvchilar",
+   "w": [
+    "Suvda hamda quruqlikda yashovchilar",
+    "Baliqlar",
+    "Hasharotlar"
+   ],
+   "d": 3,
+   "x": "Toshbaqaning terisi quruq, kosasi bor, u quruqlikka tuxum qo‘yadi — u sudralib yuruvchi."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_24",
+   "t": "choice",
+   "q": "Hasharot tanasi nechta qismdan iborat?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 3,
+   "x": "Hasharot tanasi bosh, ko‘krak va qorindan iborat."
+  },
+  {
+   "topic": "science_g3.animal_groups",
+   "id": "animal_groups_25",
+   "t": "choice",
+   "q": "Qaysi biri baliq?",
+   "a": "Cho‘rtan",
+   "w": [
+    "Delfin",
+    "Kit",
+    "Baqa"
+   ],
+   "d": 3,
+   "x": "Cho‘rtan jabra bilan nafas oladi, delfin va kit esa sutemizuvchilar."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_1",
+   "t": "choice",
+   "q": "Quyon nima bilan oziqlanadi?",
+   "a": "O‘simlik bilan",
+   "w": [
+    "Baliq bilan",
+    "Go‘sht bilan",
+    "Hasharot bilan"
+   ],
+   "d": 1,
+   "x": "Quyon — o‘txo‘r, u o‘t, barg va sabzavot yeydi.",
+   "e": "🐰"
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_2",
+   "t": "choice",
+   "q": "Qaysi hayvon yirtqich?",
+   "a": "Bo‘ri",
+   "w": [
+    "Quyon",
+    "Sigir",
+    "Qo‘y",
+    "Echki"
+   ],
+   "d": 1,
+   "x": "Bo‘ri boshqa hayvonlarni ovlaydi.",
+   "e": "🐺"
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_3",
+   "t": "choice",
+   "q": "Qaysi hayvon o‘txo‘r?",
+   "a": "Qo‘y",
+   "w": [
+    "Bo‘ri",
+    "Sher",
+    "Burgut",
+    "Tulki"
+   ],
+   "d": 1,
+   "x": "Qo‘y o‘t va pichan bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_4",
+   "t": "choice",
+   "q": "Oziq zanjiri nimadan boshlanadi?",
+   "a": "O‘simlikdan",
+   "w": [
+    "Yirtqichdan",
+    "Toshdan",
+    "Hasharotdan"
+   ],
+   "d": 1,
+   "x": "Har qanday oziq zanjiri o‘simlikdan boshlanadi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_5",
+   "t": "choice",
+   "q": "Burgut nima bilan oziqlanadi?",
+   "a": "Mayda hayvonlar bilan",
+   "w": [
+    "O‘t bilan",
+    "Barg bilan",
+    "Don bilan"
+   ],
+   "d": 1,
+   "x": "Burgut — yirtqich qush, u kemiruvchilar va boshqa hayvonlarni ovlaydi.",
+   "e": "🦅"
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_6",
+   "t": "choice",
+   "q": "Qaysi hayvonlar o‘simliklarni yeydi?",
+   "a": "O‘txo‘rlar",
+   "w": [
+    "Yirtqichlar",
+    "Ilonlar",
+    "Burgutlar"
+   ],
+   "d": 1,
+   "x": "O‘txo‘rlar faqat o‘simlik bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_7",
+   "t": "choice",
+   "q": "Qaysi biri yirtqich qush?",
+   "a": "Burgut",
+   "w": [
+    "Tovuq",
+    "Kaptar",
+    "Musicha"
+   ],
+   "d": 1,
+   "x": "Burgutning o‘tkir tumshug‘i va tirnoqlari bor."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_8",
+   "t": "tf",
+   "q": "Sher — o‘txo‘r hayvon.",
+   "a": false,
+   "d": 1,
+   "x": "Sher — yirtqich, u boshqa hayvonlarni ovlaydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_9",
+   "t": "tf",
+   "q": "Sigir o‘t va pichan bilan oziqlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Sigir — o‘txo‘r hayvon."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_10",
+   "t": "tf",
+   "q": "Hammaxo‘r hayvonlar faqat go‘sht yeydi.",
+   "a": false,
+   "d": 1,
+   "x": "Hammaxo‘rlar ham o‘simlik, ham hayvon bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quyon",
+    "o‘t",
+    "va",
+    "sabzi",
+    "yeydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_12",
+   "t": "choice",
+   "q": "Qaysi hayvon hammaxo‘r?",
+   "a": "Ayiq",
+   "w": [
+    "Sigir",
+    "Quyon",
+    "Jayron",
+    "Ot"
+   ],
+   "d": 2,
+   "x": "Ayiq baliq, asal, meva va rezavorlarni ham yeydi.",
+   "e": "🐻"
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_13",
+   "t": "choice",
+   "q": "Oziq zanjirini to‘ldiring: o‘t → quyon → ...",
+   "a": "Tulki",
+   "w": [
+    "Sigir",
+    "Qo‘y",
+    "Chumchuq"
+   ],
+   "d": 2,
+   "x": "Tulki quyonni ovlaydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_14",
+   "t": "choice",
+   "q": "Oziq zanjirini to‘ldiring: ... → chigirtka → baqa",
+   "a": "O‘t",
+   "w": [
+    "Ilon",
+    "Burgut",
+    "Tosh"
+   ],
+   "d": 2,
+   "x": "Chigirtka o‘t yeydi, baqa esa chigirtkani yeydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_15",
+   "t": "choice",
+   "q": "Yirtqich hayvonlarning qanday belgisi bor?",
+   "a": "O‘tkir tishlari va tirnoqlari",
+   "w": [
+    "Tuyoqlari",
+    "Uzun qulog‘i",
+    "Yumshoq tumshug‘i"
+   ],
+   "d": 2,
+   "x": "O‘tkir tish va tirnoqlar ov qilishga yordam beradi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_16",
+   "t": "choice",
+   "q": "Jayron nima bilan oziqlanadi?",
+   "a": "O‘simliklar bilan",
+   "w": [
+    "Baliqlar bilan",
+    "Qushlar bilan",
+    "Hasharotlar bilan"
+   ],
+   "d": 2,
+   "x": "Jayron — o‘txo‘r, u cho‘l o‘tlarini yeydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_17",
+   "t": "choice",
+   "q": "Qaysi qush uchib yurib chivin va pashshalarni tutadi?",
+   "a": "Qaldirg‘och",
+   "w": [
+    "Tovuq",
+    "Kaptar",
+    "Tuyaqush"
+   ],
+   "d": 2,
+   "x": "Qaldirg‘och havoda uchayotgan hasharotlarni tutib yeydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_18",
+   "t": "choice",
+   "q": "Qaysi biri ortiqcha: ho‘kiz, qo‘y, echki, bo‘ri?",
+   "a": "Bo‘ri",
+   "w": [
+    "Ho‘kiz",
+    "Qo‘y",
+    "Echki"
+   ],
+   "d": 2,
+   "x": "Bo‘ri — yirtqich, qolganlari o‘txo‘r."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_19",
+   "t": "match",
+   "q": "Hayvonni uning ozig‘i bilan juftlang",
+   "pairs": [
+    [
+     "Sigir",
+     "o‘t"
+    ],
+    [
+     "Mushuk",
+     "sichqon"
+    ],
+    [
+     "Ipak qurti",
+     "tut bargi"
+    ],
+    [
+     "Asalari",
+     "gul shirasi"
+    ],
+    [
+     "Laylak",
+     "baqa"
+    ],
+    [
+     "Qaldirg‘och",
+     "chivin"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_20",
+   "t": "tf",
+   "q": "Oziq zanjiri doimo o‘simlikdan boshlanadi.",
+   "a": true,
+   "d": 2,
+   "x": "O‘simlik o‘zi oziq tayyorlaydi, hayvonlar esa tayyor oziq yeydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_21",
+   "t": "tf",
+   "q": "O‘txo‘r hayvonlar yirtqichlar uchun ozuqa bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "Masalan, quyonni tulki, jayronni bo‘ri ovlaydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_22",
+   "t": "choice",
+   "q": "To‘g‘ri oziq zanjirini toping",
+   "a": "Barg → qurt → chumchuq",
+   "w": [
+    "Chumchuq → barg → qurt",
+    "Qurt → chumchuq → barg",
+    "Chumchuq → qurt → barg"
+   ],
+   "d": 3,
+   "x": "Qurt barg yeydi, chumchuq esa qurtni yeydi."
+  },
+  {
+   "topic": "science_g3.animal_food",
+   "id": "animal_food_23",
+   "t": "choice",
+   "q": "Dalada sichqonlar ko‘payib ketsa, qaysi qush foyda keltiradi?",
+   "a": "Boyqush",
+   "w": [
+    "Tovuq",
+    "Kaptar",
+    "Musicha"
+   ],
+   "d": 3,
+   "x": "Boyqush — yirtqich qush, u kechasi sichqonlarni ovlaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_1",
+   "t": "choice",
+   "q": "Qaysi biri uy hayvoni?",
+   "a": "Sigir",
+   "w": [
+    "Bo‘ri",
+    "Tulki",
+    "Ayiq",
+    "Jayron"
+   ],
+   "d": 1,
+   "x": "Sigirni inson boqadi, u sut beradi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_2",
+   "t": "choice",
+   "q": "Qaysi biri yovvoyi hayvon?",
+   "a": "Tulki",
+   "w": [
+    "Mushuk",
+    "Qo‘y",
+    "Echki",
+    "Ot"
+   ],
+   "d": 1,
+   "x": "Tulki tabiatda o‘zi oziq topib yashaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_3",
+   "t": "choice",
+   "q": "Sigir insonga nima beradi?",
+   "a": "Sut",
+   "w": [
+    "Asal",
+    "Jun",
+    "Tuxum"
+   ],
+   "d": 1,
+   "x": "Sigir sut va go‘sht beradi.",
+   "e": "🐄"
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_4",
+   "t": "choice",
+   "q": "Asalni qaysi hasharot beradi?",
+   "a": "Asalari",
+   "w": [
+    "Chumoli",
+    "Pashsha",
+    "Kapalak"
+   ],
+   "d": 1,
+   "x": "Asalarilar gul shirasidan asal tayyorlaydi.",
+   "e": "🐝"
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_5",
+   "t": "choice",
+   "q": "Jun qaysi hayvondan olinadi?",
+   "a": "Qo‘ydan",
+   "w": [
+    "Tovuqdan",
+    "Baliqdan",
+    "Asalaridan"
+   ],
+   "d": 1,
+   "x": "Qo‘y junidan ip yigiriladi, kiyim to‘qiladi.",
+   "e": "🐑"
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_6",
+   "t": "choice",
+   "q": "Tuxumni qaysi uy parrandasi beradi?",
+   "a": "Tovuq",
+   "w": [
+    "Sigir",
+    "Echki",
+    "It"
+   ],
+   "d": 1,
+   "x": "Tovuq — uy parrandasi, u tuxum qo‘yadi.",
+   "e": "🐔"
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_7",
+   "t": "choice",
+   "q": "Qaysi hayvon “cho‘l kemasi” deb ataladi?",
+   "a": "Tuya",
+   "w": [
+    "Ot",
+    "Eshak",
+    "Sigir"
+   ],
+   "d": 1,
+   "x": "Tuya cho‘lda og‘ir yuklarni uzoq masofaga tashiydi.",
+   "e": "🐫"
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_8",
+   "t": "choice",
+   "q": "Uyni qo‘riqlashda qaysi hayvon yordam beradi?",
+   "a": "It",
+   "w": [
+    "Quyon",
+    "Tovuq",
+    "Qo‘y"
+   ],
+   "d": 1,
+   "x": "It — insonning sodiq do‘sti va qo‘riqchisi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_9",
+   "t": "choice",
+   "q": "Uy hayvonini qanday parvarish qilish kerak?",
+   "a": "Vaqtida boqib, sug‘orish",
+   "w": [
+    "Och qoldirish",
+    "Qo‘rqitish",
+    "Qarovsiz tashlab qo‘yish"
+   ],
+   "d": 1,
+   "x": "Uy hayvonlariga mehr bilan qarash kerak."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_10",
+   "t": "choice",
+   "q": "Qaysi hayvon yuk tashishda yordam beradi?",
+   "a": "Eshak",
+   "w": [
+    "Mushuk",
+    "Tovuq",
+    "Asalari"
+   ],
+   "d": 1,
+   "x": "Eshak va ot qadimdan yuk tashishda yordam beradi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_11",
+   "t": "tf",
+   "q": "Yovvoyi hayvonlar ozuqani o‘zi topadi.",
+   "a": true,
+   "d": 1,
+   "x": "Yovvoyi hayvonlarni hech kim boqmaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_12",
+   "t": "tf",
+   "q": "Bo‘ri — uy hayvoni.",
+   "a": false,
+   "d": 1,
+   "x": "Bo‘ri — yovvoyi yirtqich hayvon."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_13",
+   "t": "tf",
+   "q": "Uy hayvonlarini inson parvarish qiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Inson ularni boqadi, sug‘oradi, joy qilib beradi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_14",
+   "t": "match",
+   "q": "Uy hayvonini foydasi bilan juftlang",
+   "pairs": [
+    [
+     "Sigir",
+     "sut"
+    ],
+    [
+     "Qo‘y",
+     "jun"
+    ],
+    [
+     "Tovuq",
+     "tuxum"
+    ],
+    [
+     "Asalari",
+     "asal"
+    ],
+    [
+     "Ipak qurti",
+     "pilla"
+    ],
+    [
+     "It",
+     "uyni qo‘riqlaydi"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Sigir",
+    "bizga",
+    "sut",
+    "beradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_16",
+   "t": "choice",
+   "q": "Pilla qaysi hasharotdan olinadi?",
+   "a": "Ipak qurtidan",
+   "w": [
+    "Asalaridan",
+    "Chumolidan",
+    "Ninachidan"
+   ],
+   "d": 2,
+   "x": "Ipak qurti pilla o‘raydi, pilladan ipak tola olinadi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_17",
+   "t": "choice",
+   "q": "Baland tog‘larda yashovchi yovvoyi hayvon?",
+   "a": "Qor qoploni",
+   "w": [
+    "Sigir",
+    "Tovuq",
+    "Mushuk"
+   ],
+   "d": 2,
+   "x": "Qor qoploni tog‘ qoyalarida yashaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_18",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat uy hayvonlari bor?",
+   "a": "Ot, echki, tovuq",
+   "w": [
+    "Bo‘ri, ot, tovuq",
+    "Tulki, ayiq, jayron",
+    "Echki, burgut, qo‘y"
+   ],
+   "d": 2,
+   "x": "Ot, echki va tovuqni inson boqadi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_19",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat yovvoyi hayvonlar bor?",
+   "a": "Bo‘ri, tulki, jayron",
+   "w": [
+    "Sigir, tulki, qo‘y",
+    "Mushuk, it, tovuq",
+    "Ot, bo‘ri, eshak"
+   ],
+   "d": 2,
+   "x": "Bo‘ri, tulki va jayron tabiatda erkin yashaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_20",
+   "t": "choice",
+   "q": "Qaysi hayvon qishda inida uxlab chiqadi?",
+   "a": "Ayiq",
+   "w": [
+    "Bo‘ri",
+    "Tulki",
+    "Quyon"
+   ],
+   "d": 2,
+   "x": "Ayiq kuzda ko‘p yeb semiradi va qish bo‘yi inida uxlaydi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_21",
+   "t": "choice",
+   "q": "Mushuk uyda qanday foyda keltiradi?",
+   "a": "Sichqon tutadi",
+   "w": [
+    "Sut beradi",
+    "Jun beradi",
+    "Tuxum qo‘yadi"
+   ],
+   "d": 2,
+   "x": "Mushuk uy va omborlarda sichqonlarni tutadi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_22",
+   "t": "tf",
+   "q": "Tuya uzoq vaqt suv ichmasdan yura oladi.",
+   "a": true,
+   "d": 2,
+   "x": "Shuning uchun tuya cho‘lda yuk tashishga juda mos."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_23",
+   "t": "tf",
+   "q": "Laylak va qaldirg‘och kuzda issiq o‘lkalarga uchib ketadi.",
+   "a": true,
+   "d": 2,
+   "x": "Ular bahorda yana qaytib keladi."
+  },
+  {
+   "topic": "science_g3.animal_home",
+   "id": "animal_home_24",
+   "t": "choice",
+   "q": "Ko‘p yovvoyi hayvonlar qishga qanday tayyorlanadi?",
+   "a": "Juni qalinlashadi",
+   "w": [
+    "Juni to‘kilib ketadi",
+    "Suvga ko‘chib o‘tadi",
+    "Uxlamay qo‘yadi"
+   ],
+   "d": 3,
+   "x": "Kuzga kelib quyon, tulki kabi hayvonlarning juni qalin va issiq bo‘ladi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_1",
+   "t": "choice",
+   "q": "Qaysi a’zo bilan ko‘ramiz?",
+   "a": "Ko‘z",
+   "w": [
+    "Quloq",
+    "Burun",
+    "Til"
+   ],
+   "d": 1,
+   "x": "Ko‘z — ko‘rish a’zosi.",
+   "e": "👀"
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_2",
+   "t": "choice",
+   "q": "Qaysi a’zo bilan eshitamiz?",
+   "a": "Quloq",
+   "w": [
+    "Ko‘z",
+    "Til",
+    "Teri"
+   ],
+   "d": 1,
+   "x": "Quloq — eshitish a’zosi.",
+   "e": "👂"
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_3",
+   "t": "choice",
+   "q": "Gulning hidini qaysi a’zo sezadi?",
+   "a": "Burun",
+   "w": [
+    "Ko‘z",
+    "Quloq",
+    "Teri"
+   ],
+   "d": 1,
+   "x": "Burun — hid bilish a’zosi.",
+   "e": "👃"
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_4",
+   "t": "choice",
+   "q": "Limonning nordonligini qaysi a’zo sezadi?",
+   "a": "Til",
+   "w": [
+    "Burun",
+    "Quloq",
+    "Ko‘z"
+   ],
+   "d": 1,
+   "x": "Til — ta’m bilish a’zosi.",
+   "e": "🍋"
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_5",
+   "t": "choice",
+   "q": "Issiq va sovuqni qaysi a’zo sezadi?",
+   "a": "Teri",
+   "w": [
+    "Ko‘z",
+    "Quloq",
+    "Burun"
+   ],
+   "d": 1,
+   "x": "Teri issiq-sovuqni, og‘riqni va tegishni sezadi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_6",
+   "t": "choice",
+   "q": "Insonda nechta sezgi a’zosi bor?",
+   "a": "5 ta",
+   "w": [
+    "3 ta",
+    "4 ta",
+    "7 ta"
+   ],
+   "d": 1,
+   "x": "Ko‘z, quloq, burun, til va teri — 5 ta sezgi a’zosi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_7",
+   "t": "choice",
+   "q": "Qo‘ng‘iroq ovozini qaysi a’zo bilan eshitamiz?",
+   "a": "Quloq",
+   "w": [
+    "Til",
+    "Burun",
+    "Teri"
+   ],
+   "d": 1,
+   "x": "Tovushni quloq qabul qiladi.",
+   "e": "🔔"
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_8",
+   "t": "choice",
+   "q": "Ko‘zni asrash uchun nima qilish kerak?",
+   "a": "Yorug‘ joyda o‘qish",
+   "w": [
+    "Uzoq vaqt telefonga qarash",
+    "Ko‘zni iflos qo‘l bilan ishqalash",
+    "Quyoshga tik qarash"
+   ],
+   "d": 1,
+   "x": "Qorong‘ida o‘qish va ekranga uzoq qarash ko‘zni charchatadi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_9",
+   "t": "choice",
+   "q": "Qattiq shovqin qaysi a’zoga zarar yetkazadi?",
+   "a": "Quloqqa",
+   "w": [
+    "Tilga",
+    "Burunga",
+    "Tirnoqqa"
+   ],
+   "d": 1,
+   "x": "Qattiq shovqin eshitishni susaytiradi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_10",
+   "t": "tf",
+   "q": "Til yordamida shirin, achchiq, nordon va sho‘r ta’mni bilamiz.",
+   "a": true,
+   "d": 1,
+   "x": "Til — ta’m bilish a’zosi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_11",
+   "t": "tf",
+   "q": "Quloq yordamida ranglarni ajratamiz.",
+   "a": false,
+   "d": 1,
+   "x": "Ranglarni ko‘z bilan ajratamiz."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_12",
+   "t": "tf",
+   "q": "Kitobni qorong‘ida o‘qish ko‘zga zarar.",
+   "a": true,
+   "d": 1,
+   "x": "Kitobni yorug‘ joyda o‘qish kerak."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_13",
+   "t": "match",
+   "q": "Sezgi a’zosini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Ko‘z",
+     "ko‘rish"
+    ],
+    [
+     "Quloq",
+     "eshitish"
+    ],
+    [
+     "Burun",
+     "hid bilish"
+    ],
+    [
+     "Til",
+     "ta’m bilish"
+    ],
+    [
+     "Teri",
+     "tegishni sezish"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Biz",
+    "ko‘zimiz",
+    "bilan",
+    "ko‘ramiz"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_15",
+   "t": "choice",
+   "q": "Qaysi biri sezgi a’zosi emas?",
+   "a": "Tizza",
+   "w": [
+    "Ko‘z",
+    "Burun",
+    "Til"
+   ],
+   "d": 2,
+   "x": "Tizza — oyoqning bir qismi, u sezgi a’zosi emas."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_16",
+   "t": "choice",
+   "q": "Tana qismlari qaysi qatorda to‘g‘ri berilgan?",
+   "a": "Bosh, bo‘yin, gavda, qo‘l, oyoq",
+   "w": [
+    "Bosh, ildiz, barg, oyoq",
+    "Qanot, dum, bosh, gavda",
+    "Poya, gavda, qo‘l, gul"
+   ],
+   "d": 2,
+   "x": "Ildiz, barg, poya — o‘simlik qismlari, qanot — qushniki."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_17",
+   "t": "choice",
+   "q": "Qaysi a’zolar juft?",
+   "a": "Ko‘z va quloq",
+   "w": [
+    "Burun va til",
+    "Til va bosh",
+    "Burun va bo‘yin"
+   ],
+   "d": 2,
+   "x": "Insonda ikkita ko‘z va ikkita quloq bor."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_18",
+   "t": "choice",
+   "q": "Tutun hidini sezib, xavf haqida bilamiz. Bunga qaysi a’zo yordam beradi?",
+   "a": "Burun",
+   "w": [
+    "Til",
+    "Quloq",
+    "Teri"
+   ],
+   "d": 2,
+   "x": "Burun hidni sezadi va bizni ogohlantiradi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_19",
+   "t": "choice",
+   "q": "Quloqni asrash uchun nima qilmaslik kerak?",
+   "a": "Quloqqa o‘tkir narsa tiqish",
+   "w": [
+    "Quloqni yuvish",
+    "Sovuqda telpak kiyish",
+    "Musiqani past ovozda tinglash"
+   ],
+   "d": 2,
+   "x": "O‘tkir narsa quloq pardasini shikastlashi mumkin."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_20",
+   "t": "tf",
+   "q": "Teri tanamizni himoya qiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Teri tanaga chang va mikroblar kirishiga to‘sqinlik qiladi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_21",
+   "t": "choice",
+   "q": "Ko‘zi ojiz odamlar maxsus kitoblarni qanday o‘qiydi?",
+   "a": "Barmoqlari bilan sezib",
+   "w": [
+    "Hidlab",
+    "Tatib ko‘rib",
+    "Quloq bilan"
+   ],
+   "d": 3,
+   "x": "Ular bo‘rtma nuqtalardan iborat yozuvni barmoq terisi bilan sezib o‘qiydi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_22",
+   "t": "choice",
+   "q": "Burun hid bilishdan tashqari yana nima qiladi?",
+   "a": "Havoni tozalab, isitadi",
+   "w": [
+    "Ovqatni chaynaydi",
+    "Tovushni eshitadi",
+    "Ranglarni ko‘radi"
+   ],
+   "d": 3,
+   "x": "Burun ichidagi tukchalar changni ushlab qoladi, havo esa isiydi."
+  },
+  {
+   "topic": "science_g3.body_senses",
+   "id": "body_senses_23",
+   "t": "tf",
+   "q": "Ta’m bilishga burun ham yordam beradi.",
+   "a": true,
+   "d": 3,
+   "x": "Tumov bo‘lganda ovqat ta’mi yaxshi sezilmaydi, chunki hid sezilmaydi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_1",
+   "t": "choice",
+   "q": "Tanaga tayanch bo‘ladigan suyaklar yig‘indisi nima deyiladi?",
+   "a": "Skelet",
+   "w": [
+    "Muskul",
+    "Teri",
+    "Qon"
+   ],
+   "d": 1,
+   "x": "Skelet — tanamizning suyak tayanchi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_2",
+   "t": "choice",
+   "q": "Qonni butun tanaga qaysi a’zo haydaydi?",
+   "a": "Yurak",
+   "w": [
+    "O‘pka",
+    "Oshqozon",
+    "Miya"
+   ],
+   "d": 1,
+   "x": "Yurak nasos kabi qonni tomirlar bo‘ylab haydaydi.",
+   "e": "❤️"
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_3",
+   "t": "choice",
+   "q": "Qaysi a’zo orqali nafas olamiz?",
+   "a": "O‘pka",
+   "w": [
+    "Yurak",
+    "Oshqozon",
+    "Jigar"
+   ],
+   "d": 1,
+   "x": "Nafas olganda havo o‘pkaga kiradi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_4",
+   "t": "choice",
+   "q": "Butun tanani qaysi a’zo boshqaradi?",
+   "a": "Miya",
+   "w": [
+    "Yurak",
+    "O‘pka",
+    "Oshqozon"
+   ],
+   "d": 1,
+   "x": "Miya fikrlash, harakat va sezgilarni boshqaradi.",
+   "e": "🧠"
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_5",
+   "t": "choice",
+   "q": "Ovqatni hazm qiladigan a’zo qaysi?",
+   "a": "Oshqozon",
+   "w": [
+    "O‘pka",
+    "Yurak",
+    "Miya"
+   ],
+   "d": 1,
+   "x": "Oshqozonda ovqat maydalanib, hazm bo‘ladi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_6",
+   "t": "choice",
+   "q": "Tanani nima harakatga keltiradi?",
+   "a": "Muskullar",
+   "w": [
+    "Sochlar",
+    "Tirnoqlar",
+    "Tishlar"
+   ],
+   "d": 1,
+   "x": "Muskullar qisqarib, suyaklarni harakatga keltiradi.",
+   "e": "💪"
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_7",
+   "t": "choice",
+   "q": "Yugurganda yurak qanday uradi?",
+   "a": "Tezroq",
+   "w": [
+    "Sekinroq",
+    "To‘xtab qoladi",
+    "Umuman urmaydi"
+   ],
+   "d": 1,
+   "x": "Harakat qilganda tanaga ko‘proq qon kerak, yurak tezroq uradi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_8",
+   "t": "tf",
+   "q": "Muskullar mashq qilinsa, kuchliroq bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Sport va harakat muskullarni baquvvat qiladi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_9",
+   "t": "tf",
+   "q": "Yurak faqat biz yugurganimizda ishlaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Yurak kecha-yu kunduz, uxlaganimizda ham to‘xtovsiz ishlaydi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_10",
+   "t": "tf",
+   "q": "Toza havoda sayr qilish o‘pka uchun foydali.",
+   "a": true,
+   "d": 1,
+   "x": "Toza havo o‘pkaga yaxshi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_11",
+   "t": "match",
+   "q": "A’zoni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Yurak",
+     "qonni haydaydi"
+    ],
+    [
+     "O‘pka",
+     "nafas olish"
+    ],
+    [
+     "Miya",
+     "tanani boshqaradi"
+    ],
+    [
+     "Oshqozon",
+     "ovqatni hazm qiladi"
+    ],
+    [
+     "Muskullar",
+     "harakatlantiradi"
+    ],
+    [
+     "Skelet",
+     "tayanch bo‘ladi"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_12",
+   "t": "choice",
+   "q": "Miyani qaysi suyak himoya qiladi?",
+   "a": "Bosh suyagi",
+   "w": [
+    "Qovurg‘alar",
+    "Oyoq suyagi",
+    "Qo‘l suyagi"
+   ],
+   "d": 2,
+   "x": "Miya mustahkam bosh suyagi ichida joylashgan."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_13",
+   "t": "choice",
+   "q": "Yurak va o‘pkani qaysi suyaklar himoya qiladi?",
+   "a": "Qovurg‘alar",
+   "w": [
+    "Bosh suyagi",
+    "Barmoq suyaklari",
+    "Tizza suyagi"
+   ],
+   "d": 2,
+   "x": "Qovurg‘alar ko‘krak qafasini hosil qiladi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_14",
+   "t": "choice",
+   "q": "Yurak qayerda joylashgan?",
+   "a": "Ko‘krak qafasida",
+   "w": [
+    "Qorinda",
+    "Boshda",
+    "Oyoqda"
+   ],
+   "d": 2,
+   "x": "Yurak ko‘krak qafasida, ikki o‘pka orasida joylashgan."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_15",
+   "t": "choice",
+   "q": "Bilak tomirini ushlab nimani sanash mumkin?",
+   "a": "Yurak urishini",
+   "w": [
+    "Suyaklar sonini",
+    "Tishlar sonini",
+    "Sochlar sonini"
+   ],
+   "d": 2,
+   "x": "Tomir urishi (puls) yurak urishini ko‘rsatadi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_16",
+   "t": "choice",
+   "q": "Suyaklar mustahkam bo‘lishi uchun qaysi ovqat foydali?",
+   "a": "Sut va tvorog",
+   "w": [
+    "Chips",
+    "Gazli ichimlik",
+    "Konfet"
+   ],
+   "d": 2,
+   "x": "Sut mahsulotlarida suyak uchun kerakli kalsiy ko‘p."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_17",
+   "t": "tf",
+   "q": "Insonda ikkita o‘pka bor.",
+   "a": true,
+   "d": 2,
+   "x": "O‘ng va chap o‘pka ko‘krak qafasida joylashgan."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_18",
+   "t": "tf",
+   "q": "Nafas olganimizda havodagi kislorod qonga o‘tadi.",
+   "a": true,
+   "d": 2,
+   "x": "Qon kislorodni butun tanaga tarqatadi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_19",
+   "t": "tf",
+   "q": "Chekish o‘pkaga zarar keltiradi.",
+   "a": true,
+   "d": 2,
+   "x": "Tutun o‘pkani ifloslaydi va kasallantiradi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yurak",
+    "qonni",
+    "butun",
+    "tanaga",
+    "haydaydi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_21",
+   "t": "choice",
+   "q": "Nafas chiqarganimizda tanadan qaysi gaz chiqadi?",
+   "a": "Karbonat angidrid",
+   "w": [
+    "Vodorod",
+    "Tabiiy gaz",
+    "Faqat azot"
+   ],
+   "d": 3,
+   "x": "Tanada hosil bo‘lgan karbonat angidrid nafas bilan tashqariga chiqadi."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_22",
+   "t": "choice",
+   "q": "Orqadagi, tanani tik tutib turadigan suyaklar qatori nima deyiladi?",
+   "a": "Umurtqa pog‘onasi",
+   "w": [
+    "Qovurg‘alar",
+    "Bosh suyagi",
+    "Tizza qopqog‘i"
+   ],
+   "d": 3,
+   "x": "Umurtqa pog‘onasi ko‘plab umurtqalardan tuzilgan."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_23",
+   "t": "choice",
+   "q": "Qomatni to‘g‘ri tutish nima uchun kerak?",
+   "a": "Umurtqa pog‘onasi qiyshaymasligi uchun",
+   "w": [
+    "Soch tez o‘sishi uchun",
+    "Ko‘z rangi o‘zgarmasligi uchun",
+    "Tish oqarishi uchun"
+   ],
+   "d": 3,
+   "x": "Egilib o‘tirish umurtqa pog‘onasini qiyshaytirishi mumkin."
+  },
+  {
+   "topic": "science_g3.body_organs",
+   "id": "body_organs_24",
+   "t": "choice",
+   "q": "Yurakning kattaligi taxminan qanday?",
+   "a": "O‘z mushtingizdek",
+   "w": [
+    "Tarvuzdek",
+    "No‘xat donidek",
+    "Kitobdek"
+   ],
+   "d": 3,
+   "x": "Har bir odamning yuragi taxminan o‘z mushtidek keladi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_1",
+   "t": "choice",
+   "q": "Qo‘lni qachon yuvish kerak?",
+   "a": "Ovqatdan oldin",
+   "w": [
+    "Faqat bayramda",
+    "Haftada bir marta",
+    "Hech qachon"
+   ],
+   "d": 1,
+   "x": "Iflos qo‘ldagi mikroblar ovqat bilan tanaga tushishi mumkin."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_2",
+   "t": "choice",
+   "q": "Tishlarni kuniga necha marta tozalash kerak?",
+   "a": "2 marta",
+   "w": [
+    "Haftada 1 marta",
+    "Oyda 1 marta",
+    "Umuman kerak emas"
+   ],
+   "d": 1,
+   "x": "Tishlar ertalab va kechqurun tozalanadi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_3",
+   "t": "choice",
+   "q": "Qaysi biri eng foydali ovqat?",
+   "a": "Meva va sabzavot",
+   "w": [
+    "Chips",
+    "Gazli ichimlik",
+    "Konfet"
+   ],
+   "d": 1,
+   "x": "Meva va sabzavotlarda vitaminlar ko‘p."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_4",
+   "t": "choice",
+   "q": "Vitaminlar asosan qayerda ko‘p?",
+   "a": "Meva va sabzavotlarda",
+   "w": [
+    "Konfetlarda",
+    "Gazli ichimliklarda",
+    "Chipslarda"
+   ],
+   "d": 1,
+   "x": "Vitaminlar tanani kasallikdan himoya qiladi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_5",
+   "t": "choice",
+   "q": "Mevalarni yeyishdan oldin nima qilish kerak?",
+   "a": "Yuvish",
+   "w": [
+    "Quyoshda qoldirish",
+    "Tuproqqa ko‘mish",
+    "Muzlatish"
+   ],
+   "d": 1,
+   "x": "Yuvilmagan mevada chang va mikroblar bo‘ladi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_6",
+   "t": "choice",
+   "q": "Shaxsiy gigiyena buyumi qaysi?",
+   "a": "Tish cho‘tkasi",
+   "w": [
+    "Qalam",
+    "To‘p",
+    "Kitob"
+   ],
+   "d": 1,
+   "x": "Tish cho‘tkasi, sochiq, taroq — shaxsiy gigiyena buyumlari."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_7",
+   "t": "choice",
+   "q": "Qaysi odat sog‘liqqa foydali?",
+   "a": "Ko‘p harakat qilish",
+   "w": [
+    "Kech yotish",
+    "Nonushtasiz maktabga borish",
+    "Kam suv ichish"
+   ],
+   "d": 1,
+   "x": "Harakat tanani chiniqtiradi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_8",
+   "t": "choice",
+   "q": "Qishda sog‘lom bo‘lish uchun nima qilish kerak?",
+   "a": "Issiq kiyinish",
+   "w": [
+    "Yupqa kiyinish",
+    "Qor yeyish",
+    "Ho‘l oyoq kiyimda yurish"
+   ],
+   "d": 1,
+   "x": "Issiq kiyim tanani shamollashdan saqlaydi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_9",
+   "t": "tf",
+   "q": "Ko‘p shirinlik yeyish tishlarga zarar.",
+   "a": true,
+   "d": 1,
+   "x": "Shirinlik qoldiqlari tishlarni yemiradi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_10",
+   "t": "tf",
+   "q": "Ertalabki badantarbiya sog‘liq uchun foydali.",
+   "a": true,
+   "d": 1,
+   "x": "Badantarbiya tanani uyg‘otadi va chiniqtiradi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_11",
+   "t": "tf",
+   "q": "Bolalar kechasi kam uxlasa ham bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘sayotgan bola yetarli uxlashi kerak, aks holda tez charchaydi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_12",
+   "t": "tf",
+   "q": "Nonushta qilmasdan maktabga borish yaxshi odat.",
+   "a": false,
+   "d": 1,
+   "x": "Nonushta kun davomida kuch beradi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_13",
+   "t": "tf",
+   "q": "Toza havoda o‘ynash sog‘liqni mustahkamlaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Toza havo va harakat tanaga foydali."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_14",
+   "t": "match",
+   "q": "Gigiyena buyumini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Tish cho‘tkasi",
+     "tishni tozalash"
+    ],
+    [
+     "Sovun",
+     "qo‘lni yuvish"
+    ],
+    [
+     "Sochiq",
+     "artinish"
+    ],
+    [
+     "Taroq",
+     "sochni tarash"
+    ],
+    [
+     "Tirnoq olgich",
+     "tirnoqni kesish"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ovqatdan",
+    "oldin",
+    "qo‘lni",
+    "sovunlab",
+    "yuvamiz"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_16",
+   "t": "choice",
+   "q": "Kun tartibi nima uchun kerak?",
+   "a": "Vaqtni to‘g‘ri taqsimlash uchun",
+   "w": [
+    "Ko‘proq televizor ko‘rish uchun",
+    "Uxlamaslik uchun",
+    "Darsni unutish uchun"
+   ],
+   "d": 2,
+   "x": "Kun tartibi bilan dars, dam olish va uyquga vaqt yetadi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_17",
+   "t": "choice",
+   "q": "Kompyuter va telefonda uzoq o‘tirish nimaga zarar?",
+   "a": "Ko‘z va qomatga",
+   "w": [
+    "Sochga",
+    "Tirnoqqa",
+    "Ovozga"
+   ],
+   "d": 2,
+   "x": "Ekranga uzoq qarash ko‘zni, egilib o‘tirish qomatni buzadi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_18",
+   "t": "choice",
+   "q": "Sut mahsulotlari qaysi qatorda?",
+   "a": "Qatiq, pishloq, tvorog",
+   "w": [
+    "Non, guruch, un",
+    "Olma, nok, o‘rik",
+    "Sabzi, piyoz, karam"
+   ],
+   "d": 2,
+   "x": "Qatiq, pishloq va tvorog sutdan tayyorlanadi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_19",
+   "t": "choice",
+   "q": "Mikroblar qayerda ko‘p bo‘ladi?",
+   "a": "Iflos qo‘llarda",
+   "w": [
+    "Toza sochiqda",
+    "Yuvilgan mevada",
+    "Qaynatilgan suvda"
+   ],
+   "d": 2,
+   "x": "Qo‘lni sovunlab yuvsak, mikroblar ketadi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_20",
+   "t": "choice",
+   "q": "Qaysi suvni ichish xavfsiz?",
+   "a": "Qaynatilgan suvni",
+   "w": [
+    "Ariq suvini",
+    "Ko‘lmak suvini",
+    "Hovuz suvini"
+   ],
+   "d": 2,
+   "x": "Qaynatilganda suvdagi mikroblar nobud bo‘ladi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_21",
+   "t": "choice",
+   "q": "Tobingiz qochsa, avvalo nima qilasiz?",
+   "a": "Kattalarga aytaman",
+   "w": [
+    "Hech kimga aytmayman",
+    "O‘zim dori ichaman",
+    "Ko‘chaga chiqib ketaman"
+   ],
+   "d": 2,
+   "x": "Kattalar shifokorga olib boradi, dorini o‘zboshimchalik bilan ichish xavfli."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_22",
+   "t": "choice",
+   "q": "Sport bilan shug‘ullanish nimaga yordam beradi?",
+   "a": "Tana chiniqib, kuchli bo‘lishiga",
+   "w": [
+    "Tez charchashga",
+    "Ko‘z xiralashishiga",
+    "Tish og‘rishiga"
+   ],
+   "d": 2,
+   "x": "Sport muskullar, yurak va o‘pkani mustahkamlaydi."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_23",
+   "t": "tf",
+   "q": "Tish cho‘tkasini boshqalar bilan almashib ishlatish mumkin.",
+   "a": false,
+   "d": 2,
+   "x": "Tish cho‘tkasi — shaxsiy buyum, u orqali mikroblar yuqishi mumkin."
+  },
+  {
+   "topic": "science_g3.health",
+   "id": "health_24",
+   "t": "choice",
+   "q": "Qaysi kun tartibi to‘g‘ri?",
+   "a": "Turish, badantarbiya, nonushta, maktab",
+   "w": [
+    "Maktab, turish, nonushta, badantarbiya",
+    "Nonushta, turish, maktab, badantarbiya",
+    "Badantarbiya, maktab, turish, nonushta"
+   ],
+   "d": 3,
+   "x": "Avval turamiz, badantarbiya qilamiz, nonushta qilib, maktabga boramiz."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_1",
+   "t": "choice",
+   "q": "Suv muzlasa nimaga aylanadi?",
+   "a": "Muzga",
+   "w": [
+    "Bug‘ga",
+    "Bulutga",
+    "Qumga"
+   ],
+   "d": 1,
+   "x": "Sovuqda suv qotib, muzga aylanadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_2",
+   "t": "choice",
+   "q": "Suv qaynasa nimaga aylanadi?",
+   "a": "Bug‘ga",
+   "w": [
+    "Muzga",
+    "Qorga",
+    "Tuzga"
+   ],
+   "d": 1,
+   "x": "Qaynayotgan suv bug‘ga aylanadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_3",
+   "t": "choice",
+   "q": "Muz isitilsa nima bo‘ladi?",
+   "a": "Eriydi",
+   "w": [
+    "Qotadi",
+    "Yonadi",
+    "O‘sadi"
+   ],
+   "d": 1,
+   "x": "Issiqda muz erib, suvga aylanadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_4",
+   "t": "choice",
+   "q": "Suvning qattiq holati qaysi?",
+   "a": "Muz",
+   "w": [
+    "Bug‘",
+    "Yomg‘ir",
+    "Tuman"
+   ],
+   "d": 1,
+   "x": "Muz va qor — suvning qattiq holati."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_5",
+   "t": "choice",
+   "q": "Suvning gaz holati nima deyiladi?",
+   "a": "Bug‘",
+   "w": [
+    "Muz",
+    "Qor",
+    "Do‘l"
+   ],
+   "d": 1,
+   "x": "Bug‘ — suvning gaz holati."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_6",
+   "t": "choice",
+   "q": "Havo haroratini qaysi asbob o‘lchaydi?",
+   "a": "Termometr",
+   "w": [
+    "Tarozi",
+    "Chizg‘ich",
+    "Soat"
+   ],
+   "d": 1,
+   "x": "Termometr haroratni darajalarda ko‘rsatadi.",
+   "e": "🌡️"
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_7",
+   "t": "choice",
+   "q": "Suvni tejash uchun nima qilish kerak?",
+   "a": "Jo‘mrakni yopib qo‘yish",
+   "w": [
+    "Jo‘mrakni ochiq qoldirish",
+    "Mashinani har kuni yuvish",
+    "Uzoq vaqt dush qabul qilish"
+   ],
+   "d": 1,
+   "x": "Toza suv — bebaho boylik, uni isrof qilmaslik kerak."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_8",
+   "t": "tf",
+   "q": "Toza suv rangsiz va hidsiz bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Toza suvning rangi ham, hidi ham yo‘q."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_9",
+   "t": "tf",
+   "q": "Shakar suvda eriydi.",
+   "a": true,
+   "d": 1,
+   "x": "Shakar suvda erib, ko‘rinmay qoladi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_10",
+   "t": "tf",
+   "q": "Qum suvda eriydi.",
+   "a": false,
+   "d": 1,
+   "x": "Qum suvda erimaydi, u idish tagiga cho‘kadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_11",
+   "t": "tf",
+   "q": "Suv idish shaklini oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Suv suyuq, u qaysi idishga quyilsa, o‘sha shaklni oladi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_12",
+   "t": "choice",
+   "q": "Suv necha darajada muzlaydi?",
+   "a": "0 darajada",
+   "w": [
+    "100 darajada",
+    "10 darajada",
+    "50 darajada"
+   ],
+   "d": 2,
+   "x": "Suv 0 °C da muzlaydi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_13",
+   "t": "choice",
+   "q": "Suv necha darajada qaynaydi?",
+   "a": "100 darajada",
+   "w": [
+    "0 darajada",
+    "20 darajada",
+    "50 darajada"
+   ],
+   "d": 2,
+   "x": "Suv 100 °C da qaynaydi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_14",
+   "t": "choice",
+   "q": "Bulutlar nimadan hosil bo‘ladi?",
+   "a": "Suv bug‘idan",
+   "w": [
+    "Tutundan",
+    "Changdan",
+    "Qumdan"
+   ],
+   "d": 2,
+   "x": "Yuqoriga ko‘tarilgan bug‘ soviydi va mayda tomchilarga aylanib, bulut hosil qiladi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_15",
+   "t": "choice",
+   "q": "Qaysi biri yog‘in emas?",
+   "a": "Shamol",
+   "w": [
+    "Yomg‘ir",
+    "Qor",
+    "Do‘l"
+   ],
+   "d": 2,
+   "x": "Yomg‘ir, qor, do‘l — yog‘inlar, shamol esa havoning harakati."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_16",
+   "t": "choice",
+   "q": "Ho‘l kiyim quyoshda nima uchun quriydi?",
+   "a": "Suv bug‘lanadi",
+   "w": [
+    "Suv muzlaydi",
+    "Suv tuzga aylanadi",
+    "Suv toshga aylanadi"
+   ],
+   "d": 2,
+   "x": "Quyosh issiqligida kiyimdagi suv bug‘ga aylanib uchib ketadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_17",
+   "t": "choice",
+   "q": "Termometr 25 daraja issiqni ko‘rsatsa, havo qanday?",
+   "a": "Issiq",
+   "w": [
+    "Juda sovuq",
+    "Qahraton sovuq",
+    "Muz qotadigan darajada sovuq"
+   ],
+   "d": 2,
+   "x": "25 daraja issiq — bu iliq-issiq havo."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_18",
+   "t": "choice",
+   "q": "Ob-havo haqida kim ma’lumot beradi?",
+   "a": "Sinoptik",
+   "w": [
+    "Oshpaz",
+    "Sartarosh",
+    "Duradgor"
+   ],
+   "d": 2,
+   "x": "Sinoptiklar ob-havoni kuzatib, oldindan aytib beradi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_19",
+   "t": "tf",
+   "q": "Muz suvda cho‘kib ketadi.",
+   "a": false,
+   "d": 2,
+   "x": "Muz suvdan yengil, shuning uchun suv yuzasida suzib yuradi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_20",
+   "t": "match",
+   "q": "Ob-havo hodisasini tavsifi bilan juftlang",
+   "pairs": [
+    [
+     "Yomg‘ir",
+     "suv tomchilari yog‘adi"
+    ],
+    [
+     "Qor",
+     "oq yumshoq parchalar yog‘adi"
+    ],
+    [
+     "Do‘l",
+     "muz donachalari yog‘adi"
+    ],
+    [
+     "Shamol",
+     "havo harakati"
+    ],
+    [
+     "Tuman",
+     "yerga yaqin paydo bo‘lgan bulut"
+    ],
+    [
+     "Shudring",
+     "ertalab o‘tlardagi tomchilar"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quyosh",
+    "suvni",
+    "isitadi",
+    "va",
+    "u",
+    "bug‘lanadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_22",
+   "t": "choice",
+   "q": "Suvning aylanishini nima harakatga keltiradi?",
+   "a": "Quyosh issiqligi",
+   "w": [
+    "Oy nuri",
+    "Shamol tegirmoni",
+    "Inson"
+   ],
+   "d": 3,
+   "x": "Quyosh issiqligi suvni bug‘latadi — aylanish shundan boshlanadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_23",
+   "t": "choice",
+   "q": "Qaysi harorat eng sovuq?",
+   "a": "10 daraja sovuq",
+   "w": [
+    "5 daraja issiq",
+    "0 daraja",
+    "20 daraja issiq"
+   ],
+   "d": 3,
+   "x": "10 daraja sovuq — noldan past, u eng sovuq."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_24",
+   "t": "choice",
+   "q": "Shamol yo‘nalishini qaysi asbob ko‘rsatadi?",
+   "a": "Flyuger",
+   "w": [
+    "Termometr",
+    "Tarozi",
+    "Chizg‘ich"
+   ],
+   "d": 3,
+   "x": "Flyuger shamol esayotgan tomonga burilib turadi."
+  },
+  {
+   "topic": "science_g3.water_weather",
+   "id": "water_weather_25",
+   "t": "tf",
+   "q": "Suv muzlaganda kengayadi.",
+   "a": true,
+   "d": 3,
+   "x": "Shuning uchun qishda suvli shisha idish muzlab yorilib ketishi mumkin."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_1",
+   "t": "choice",
+   "q": "Toza havo qanday rangda?",
+   "a": "Rangsiz",
+   "w": [
+    "Ko‘k",
+    "Oq",
+    "Yashil"
+   ],
+   "d": 1,
+   "x": "Havo rangsiz va shaffof, shuning uchun biz uni ko‘rmaymiz."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_2",
+   "t": "choice",
+   "q": "Havoning harakati nima deyiladi?",
+   "a": "Shamol",
+   "w": [
+    "Yomg‘ir",
+    "Tuman",
+    "Qor"
+   ],
+   "d": 1,
+   "x": "Shamol — harakatlanayotgan havo."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_3",
+   "t": "choice",
+   "q": "Havoni nima tozalaydi?",
+   "a": "Daraxtlar",
+   "w": [
+    "Zavod tutuni",
+    "Mashina gazi",
+    "Chiqindi yoqish"
+   ],
+   "d": 1,
+   "x": "Daraxtlar changni ushlaydi va havoga kislorod chiqaradi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_4",
+   "t": "choice",
+   "q": "Havoni nima ifloslantiradi?",
+   "a": "Zavod tutuni",
+   "w": [
+    "Daraxtlar",
+    "Gullar",
+    "Yomg‘ir"
+   ],
+   "d": 1,
+   "x": "Tutun va mashina gazlari havoni ifloslaydi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_5",
+   "t": "choice",
+   "q": "Tuproq nima?",
+   "a": "Yerning ustki unumdor qatlami",
+   "w": [
+    "Tog‘ ichidagi tosh",
+    "Daryo tubidagi suv",
+    "Osmondagi bulut"
+   ],
+   "d": 1,
+   "x": "O‘simliklar tuproqda o‘sadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_6",
+   "t": "choice",
+   "q": "Tuproqni asrash uchun nima qilish kerak?",
+   "a": "Daraxt ekish",
+   "w": [
+    "Chiqindi ko‘mish",
+    "Yerni ifloslash",
+    "O‘tlarni yoqish"
+   ],
+   "d": 1,
+   "x": "Daraxt ildizlari tuproqni yuvilib ketishdan saqlaydi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_7",
+   "t": "choice",
+   "q": "Shar puflanganda ichi nima bilan to‘ladi?",
+   "a": "Havo bilan",
+   "w": [
+    "Suv bilan",
+    "Qum bilan",
+    "Tuproq bilan"
+   ],
+   "d": 1,
+   "x": "Puflaganda sharga havo kiradi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_8",
+   "t": "tf",
+   "q": "Havo joy egallaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Shar yoki pufakni puflaganimizda u havo bilan to‘lib kattalashadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_9",
+   "t": "tf",
+   "q": "Toza havo hidsiz bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Toza havoning hidi yo‘q."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_10",
+   "t": "tf",
+   "q": "Tuproqda o‘simliklar o‘sadi.",
+   "a": true,
+   "d": 1,
+   "x": "Tuproq o‘simlikni suv va oziq bilan ta’minlaydi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Daraxtlar",
+    "havoni",
+    "toza",
+    "saqlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_12",
+   "t": "choice",
+   "q": "Nafas olish uchun havodagi qaysi gaz kerak?",
+   "a": "Kislorod",
+   "w": [
+    "Karbonat angidrid",
+    "Azot",
+    "Tutun"
+   ],
+   "d": 2,
+   "x": "Inson va hayvonlar havodagi kislorod bilan nafas oladi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_13",
+   "t": "choice",
+   "q": "Tuproqni nima unumdor qiladi?",
+   "a": "Chirindi",
+   "w": [
+    "Tosh",
+    "Shisha",
+    "Plastik"
+   ],
+   "d": 2,
+   "x": "Chirindida o‘simlik uchun oziq moddalar ko‘p."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_14",
+   "t": "choice",
+   "q": "Chirindi nimadan hosil bo‘ladi?",
+   "a": "O‘simlik va hayvon qoldiqlaridan",
+   "w": [
+    "Toshlardan",
+    "Qumdan",
+    "Muzdan"
+   ],
+   "d": 2,
+   "x": "Barg, o‘t va boshqa qoldiqlar chirib, chirindiga aylanadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_15",
+   "t": "choice",
+   "q": "Tuproqni yumshatib, unga havo kirishiga yordam beradigan jonivor?",
+   "a": "Yomg‘ir chuvalchangi",
+   "w": [
+    "Chivin",
+    "Kapalak",
+    "Pashsha"
+   ],
+   "d": 2,
+   "x": "Chuvalchang tuproqda yo‘l ochib, uni yumshatadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_16",
+   "t": "choice",
+   "q": "Havo ifloslanishini kamaytirish uchun nima qilish kerak?",
+   "a": "Velosipedda yurish",
+   "w": [
+    "Chiqindi yoqish",
+    "Daraxt kesish",
+    "Mashinani bekorga yurgizib qo‘yish"
+   ],
+   "d": 2,
+   "x": "Velosiped tutun chiqarmaydi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_17",
+   "t": "tf",
+   "q": "Havo isiganda kengayadi.",
+   "a": true,
+   "d": 2,
+   "x": "Issiqda havo ko‘proq joy egallaydi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_18",
+   "t": "tf",
+   "q": "Issiq havo pastga tushadi.",
+   "a": false,
+   "d": 2,
+   "x": "Issiq havo yengil, shuning uchun yuqoriga ko‘tariladi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_19",
+   "t": "tf",
+   "q": "Tuproqda havo ham bor.",
+   "a": true,
+   "d": 2,
+   "x": "Tuproq bo‘lagini suvga solsak, havo pufakchalari chiqadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_20",
+   "t": "tf",
+   "q": "Tuproq bir necha kunda hosil bo‘ladi.",
+   "a": false,
+   "d": 2,
+   "x": "Tuproq juda sekin — yuzlab yillar davomida hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_21",
+   "t": "match",
+   "q": "So‘zni ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Shamol",
+     "havoning harakati"
+    ],
+    [
+     "Kislorod",
+     "nafas olish uchun gaz"
+    ],
+    [
+     "Chirindi",
+     "tuproqdagi unumdor modda"
+    ],
+    [
+     "Tuproq",
+     "yerning unumdor qatlami"
+    ],
+    [
+     "Chuvalchang",
+     "tuproqni yumshatadi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_22",
+   "t": "choice",
+   "q": "Yonish uchun havodagi qaysi gaz kerak?",
+   "a": "Kislorod",
+   "w": [
+    "Azot",
+    "Suv bug‘i",
+    "Karbonat angidrid"
+   ],
+   "d": 3,
+   "x": "Kislorod bo‘lmasa, olov o‘chadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_23",
+   "t": "choice",
+   "q": "Havo tarkibida eng ko‘p qaysi gaz bor?",
+   "a": "Azot",
+   "w": [
+    "Kislorod",
+    "Karbonat angidrid",
+    "Suv bug‘i"
+   ],
+   "d": 3,
+   "x": "Havoning eng katta qismi azot, kislorod esa undan kamroq."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_24",
+   "t": "choice",
+   "q": "Qo‘sh romli deraza xonani nima uchun issiq saqlaydi?",
+   "a": "Oynalar orasidagi havo issiqlikni ushlaydi",
+   "w": [
+    "Oyna issiqlik chiqaradi",
+    "Romlar temirdan",
+    "Deraza doim ochiq turadi"
+   ],
+   "d": 3,
+   "x": "Havo issiqlikni yomon o‘tkazadi."
+  },
+  {
+   "topic": "science_g3.air_soil",
+   "id": "air_soil_25",
+   "t": "choice",
+   "q": "Qaysi tuproq unumdorroq?",
+   "a": "Qora, chirindiga boy tuproq",
+   "w": [
+    "Toza qum",
+    "Mayda toshloq",
+    "Sho‘r tuproq"
+   ],
+   "d": 3,
+   "x": "Chirindi ko‘p bo‘lgan tuproq qora rangda va unumdor bo‘ladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_1",
+   "t": "choice",
+   "q": "Yerga yorug‘lik va issiqlik nima beradi?",
+   "a": "Quyosh",
+   "w": [
+    "Oy",
+    "Bulut",
+    "Shamol"
+   ],
+   "d": 1,
+   "x": "Quyosh — Yerga eng yaqin yulduz.",
+   "e": "☀️"
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_2",
+   "t": "choice",
+   "q": "Yer o‘z o‘qi atrofida qancha vaqtda aylanadi?",
+   "a": "1 sutkada",
+   "w": [
+    "1 yilda",
+    "1 oyda",
+    "1 haftada"
+   ],
+   "d": 1,
+   "x": "Bir sutka — 24 soat."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_3",
+   "t": "choice",
+   "q": "Yer Quyosh atrofida qancha vaqtda aylanib chiqadi?",
+   "a": "1 yilda",
+   "w": [
+    "1 sutkada",
+    "1 haftada",
+    "1 soatda"
+   ],
+   "d": 1,
+   "x": "Yer Quyosh atrofini bir yilda aylanib chiqadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_4",
+   "t": "choice",
+   "q": "Oy nima?",
+   "a": "Yerning yo‘ldoshi",
+   "w": [
+    "Yulduz",
+    "Bulut",
+    "Quyoshning bir qismi"
+   ],
+   "d": 1,
+   "x": "Oy Yer atrofida aylanadi.",
+   "e": "🌙"
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_5",
+   "t": "choice",
+   "q": "Yilda nechta fasl bor?",
+   "a": "4 ta",
+   "w": [
+    "2 ta",
+    "3 ta",
+    "12 ta"
+   ],
+   "d": 1,
+   "x": "Bahor, yoz, kuz va qish."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_6",
+   "t": "choice",
+   "q": "Qaysi oy qish fasliga kiradi?",
+   "a": "Yanvar",
+   "w": [
+    "Aprel",
+    "Iyul",
+    "Oktabr"
+   ],
+   "d": 1,
+   "x": "Qish oylari: dekabr, yanvar, fevral."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_7",
+   "t": "choice",
+   "q": "Qaysi faslda kunlar eng uzun va issiq bo‘ladi?",
+   "a": "Yozda",
+   "w": [
+    "Qishda",
+    "Kuzda",
+    "Bahorda"
+   ],
+   "d": 1,
+   "x": "Yozda Quyosh uzoq vaqt osmonda turadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_8",
+   "t": "choice",
+   "q": "Fasllar ketma-ketligini to‘ldiring: qish → bahor → ...",
+   "a": "Yoz",
+   "w": [
+    "Kuz",
+    "Qish",
+    "Bahor"
+   ],
+   "d": 1,
+   "x": "Qishdan keyin bahor, bahordan keyin yoz keladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_9",
+   "t": "choice",
+   "q": "Quyosh qaysi tomondan chiqadi?",
+   "a": "Sharqdan",
+   "w": [
+    "G‘arbdan",
+    "Shimoldan",
+    "Janubdan"
+   ],
+   "d": 1,
+   "x": "Quyosh ertalab sharqdan chiqadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_10",
+   "t": "choice",
+   "q": "Quyosh qaysi tomonga botadi?",
+   "a": "G‘arbga",
+   "w": [
+    "Sharqqa",
+    "Shimolga",
+    "Janubga"
+   ],
+   "d": 1,
+   "x": "Kechqurun Quyosh g‘arbga botadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_11",
+   "t": "choice",
+   "q": "Yil necha oydan iborat?",
+   "a": "12 oydan",
+   "w": [
+    "10 oydan",
+    "7 oydan",
+    "4 oydan"
+   ],
+   "d": 1,
+   "x": "Yilda 12 oy va 4 fasl bor."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_12",
+   "t": "tf",
+   "q": "Quyosh — yulduz.",
+   "a": true,
+   "d": 1,
+   "x": "Quyosh — ulkan issiq yulduz."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_13",
+   "t": "tf",
+   "q": "Yer shar shaklida.",
+   "a": true,
+   "d": 1,
+   "x": "Globus Yerning kichik modeli, u ham shar shaklida."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_14",
+   "t": "tf",
+   "q": "Yer Quyosh atrofida aylanadigan sayyora.",
+   "a": true,
+   "d": 1,
+   "x": "Yer — Quyosh atrofida aylanuvchi sayyoralardan biri."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_15",
+   "t": "choice",
+   "q": "Kecha va kunduz nima sababdan almashadi?",
+   "a": "Yer o‘z o‘qi atrofida aylanadi",
+   "w": [
+    "Oy Quyoshni to‘sadi",
+    "Bulutlar Quyoshni yopadi",
+    "Quyosh o‘chib qoladi"
+   ],
+   "d": 2,
+   "x": "Yerning Quyoshga qaragan tomonida kunduz, qarama-qarshi tomonida kecha bo‘ladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_16",
+   "t": "choice",
+   "q": "Yerning Quyoshga qaragan tomonida nima bo‘ladi?",
+   "a": "Kunduz",
+   "w": [
+    "Kecha",
+    "Qish",
+    "Tun"
+   ],
+   "d": 2,
+   "x": "Quyosh nuri tushib turgan tomonda kunduz bo‘ladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_17",
+   "t": "choice",
+   "q": "Qaysi oy kuz fasliga kiradi?",
+   "a": "Oktabr",
+   "w": [
+    "Fevral",
+    "May",
+    "Avgust"
+   ],
+   "d": 2,
+   "x": "Kuz oylari: sentabr, oktabr, noyabr."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_18",
+   "t": "choice",
+   "q": "Kompas mili qaysi tomonni ko‘rsatadi?",
+   "a": "Shimolni",
+   "w": [
+    "Sharqni",
+    "G‘arbni",
+    "Osmonni"
+   ],
+   "d": 2,
+   "x": "Kompas mili doimo shimol tomonga buriladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_19",
+   "t": "tf",
+   "q": "Oy o‘zidan yorug‘lik chiqaradi.",
+   "a": false,
+   "d": 2,
+   "x": "Oy Quyosh nurini qaytaradi, shuning uchun yorug‘ ko‘rinadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_20",
+   "t": "match",
+   "q": "So‘zni ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Quyosh",
+     "eng yaqin yulduz"
+    ],
+    [
+     "Oy",
+     "Yerning yo‘ldoshi"
+    ],
+    [
+     "Kompas",
+     "yo‘nalishni aniqlaydi"
+    ],
+    [
+     "Sutka",
+     "24 soat"
+    ],
+    [
+     "Yil",
+     "12 oy"
+    ],
+    [
+     "Ufq",
+     "osmon yer bilan tutashgandek chiziq"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quyosh",
+    "sharqdan",
+    "chiqib",
+    "g‘arbga",
+    "botadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_22",
+   "t": "choice",
+   "q": "Shimolga qarab tursangiz, o‘ng qo‘lingiz qaysi tomonda bo‘ladi?",
+   "a": "Sharqda",
+   "w": [
+    "G‘arbda",
+    "Janubda",
+    "Shimolda"
+   ],
+   "d": 3,
+   "x": "Shimolga qaraganda o‘ngda sharq, chapda g‘arb bo‘ladi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_23",
+   "t": "choice",
+   "q": "Tushda Quyosh O‘zbekistonda qaysi tomonda turadi?",
+   "a": "Janubda",
+   "w": [
+    "Shimolda",
+    "Sharqda",
+    "G‘arbda"
+   ],
+   "d": 3,
+   "x": "Tush paytida Quyosh janubda, soyamiz esa shimolga tushadi."
+  },
+  {
+   "topic": "science_g3.earth_sky",
+   "id": "earth_sky_24",
+   "t": "tf",
+   "q": "Qutb yulduzi osmonning shimol tomonida ko‘rinadi.",
+   "a": true,
+   "d": 3,
+   "x": "Qadimda sayohatchilar Qutb yulduziga qarab shimolni topishgan."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_1",
+   "t": "choice",
+   "q": "O‘zbekistondagi eng katta daryolar qaysilar?",
+   "a": "Amudaryo va Sirdaryo",
+   "w": [
+    "Volga va Nil",
+    "Dunay va Amazonka",
+    "Chirchiq va Ohangaron"
+   ],
+   "d": 1,
+   "x": "Amudaryo va Sirdaryo — O‘zbekistonning eng katta daryolari."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_2",
+   "t": "choice",
+   "q": "Qizil kitobga qanday hayvonlar kiritiladi?",
+   "a": "Kamyob, yo‘qolib borayotgan",
+   "w": [
+    "Uy hayvonlari",
+    "Eng ko‘p uchraydigan",
+    "Faqat baliqlar"
+   ],
+   "d": 1,
+   "x": "Qizil kitob kamyob turlarni asrashga yordam beradi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_3",
+   "t": "choice",
+   "q": "Qaysi hayvon O‘zbekiston Qizil kitobiga kiritilgan?",
+   "a": "Qor qoploni",
+   "w": [
+    "Sigir",
+    "Chumchuq",
+    "Tovuq",
+    "Qo‘y"
+   ],
+   "d": 1,
+   "x": "Qor qoploni — kamyob tog‘ yirtqichi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_4",
+   "t": "choice",
+   "q": "Buxoro bug‘usi qaysi kitobga kiritilgan?",
+   "a": "Qizil kitobga",
+   "w": [
+    "Alifbega",
+    "Lug‘atga",
+    "Oshpazlik kitobiga"
+   ],
+   "d": 1,
+   "x": "Buxoro bug‘usi — kamyob hayvon, u Qizil kitobda."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_5",
+   "t": "choice",
+   "q": "Tabiatni asrash uchun nima qilamiz?",
+   "a": "Daraxt ekamiz",
+   "w": [
+    "Gullarni uzamiz",
+    "Chiqindini yerga tashlaymiz",
+    "Qush uyasini buzamiz"
+   ],
+   "d": 1,
+   "x": "Daraxtlar havoni tozalaydi, tuproqni saqlaydi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_6",
+   "t": "choice",
+   "q": "Chiqindini qayerga tashlash kerak?",
+   "a": "Axlat qutisiga",
+   "w": [
+    "Ariqqa",
+    "Yo‘l chetiga",
+    "Daryoga"
+   ],
+   "d": 1,
+   "x": "Chiqindi tabiatni ifloslamasligi kerak."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_7",
+   "t": "choice",
+   "q": "Qishda qushlarga qanday yordam beramiz?",
+   "a": "Yemlik osib, don sepamiz",
+   "w": [
+    "Uyalarini buzamiz",
+    "Ularni quvlaymiz",
+    "Ularni qo‘rqitamiz"
+   ],
+   "d": 1,
+   "x": "Qishda qushlarga oziq topish qiyin, yemlik ularga yordam beradi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_8",
+   "t": "tf",
+   "q": "Qo‘riqxonada ov qilish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Qo‘riqxonada hayvon va o‘simliklar qo‘riqlanadi, ov qilish taqiqlanadi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_9",
+   "t": "tf",
+   "q": "Qor qoploni tog‘larda yashaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Qor qoploni baland tog‘ qoyalarida yashaydi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_10",
+   "t": "tf",
+   "q": "Amudaryo — O‘zbekistondagi daryo.",
+   "a": true,
+   "d": 1,
+   "x": "Amudaryo O‘zbekistonning eng katta daryolaridan biri."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_11",
+   "t": "tf",
+   "q": "Tog‘ va cho‘llardagi kamyob hayvonlarni asrash kerak.",
+   "a": true,
+   "d": 1,
+   "x": "Ular yo‘qolib ketmasligi uchun muhofaza qilinadi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_12",
+   "t": "tf",
+   "q": "Buloq va ariqlarni ifloslantirish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Suv manbalarini toza saqlash kerak."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Biz",
+    "tabiatni",
+    "asrashimiz",
+    "kerak"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_14",
+   "t": "choice",
+   "q": "O‘zbekistondagi eng katta cho‘l qaysi?",
+   "a": "Qizilqum",
+   "w": [
+    "Sahroi Kabir",
+    "Gobi",
+    "Mirzacho‘l"
+   ],
+   "d": 2,
+   "x": "Qizilqum — O‘zbekistondagi eng katta cho‘l."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_15",
+   "t": "choice",
+   "q": "Cho‘lda yashovchi, Qizil kitobga kiritilgan chaqqon hayvon?",
+   "a": "Jayron",
+   "w": [
+    "Echki",
+    "Mushuk",
+    "Quyon"
+   ],
+   "d": 2,
+   "x": "Jayron — cho‘l va dashtlarda yashovchi kamyob hayvon."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_16",
+   "t": "choice",
+   "q": "Orol dengizi bilan nima bo‘ldi?",
+   "a": "Qurib, kichrayib ketdi",
+   "w": [
+    "Kattalashib ketdi",
+    "Muzlab qoldi",
+    "Chuchuk ko‘lga aylandi"
+   ],
+   "d": 2,
+   "x": "Orol dengizi ko‘p yillar davomida sayozlanib, kichrayib ketdi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_17",
+   "t": "choice",
+   "q": "Qaysi tog‘lar O‘zbekistonda joylashgan?",
+   "a": "Tyan-Shan va Hisor",
+   "w": [
+    "Alp va Pireney",
+    "And va Kordilyera",
+    "Ural va Kavkaz"
+   ],
+   "d": 2,
+   "x": "Tyan-Shan va Hisor tog‘lari O‘zbekistonning sharqi va janubi-sharqida."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_18",
+   "t": "choice",
+   "q": "Qo‘riqxona nima?",
+   "a": "Tabiat muhofaza qilinadigan hudud",
+   "w": [
+    "Hayvonot bog‘i",
+    "Bozor",
+    "Istirohat bog‘i"
+   ],
+   "d": 2,
+   "x": "Qo‘riqxonada tabiat o‘z holicha saqlanadi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_19",
+   "t": "choice",
+   "q": "Qumni ushlab turish uchun cho‘lga qaysi o‘simlik ekiladi?",
+   "a": "Saksovul",
+   "w": [
+    "Sholi",
+    "Karam",
+    "Kartoshka"
+   ],
+   "d": 2,
+   "x": "Saksovul qumli cho‘lda yaxshi o‘sadi va qumni mustahkamlaydi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_20",
+   "t": "match",
+   "q": "Hayvonni yashash joyi bilan juftlang",
+   "pairs": [
+    [
+     "Qor qoploni",
+     "baland tog‘lar"
+    ],
+    [
+     "Jayron",
+     "cho‘l"
+    ],
+    [
+     "Laqqa",
+     "daryo"
+    ],
+    [
+     "Buxoro bug‘usi",
+     "to‘qay o‘rmoni"
+    ],
+    [
+     "Kit",
+     "okean"
+    ],
+    [
+     "Oq ayiq",
+     "muzli shimol"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_21",
+   "t": "choice",
+   "q": "Qaysi daryo Toshkent viloyatidan oqib o‘tadi?",
+   "a": "Chirchiq",
+   "w": [
+    "Amazonka",
+    "Nil",
+    "Volga"
+   ],
+   "d": 3,
+   "x": "Chirchiq daryosi Toshkent viloyatidan oqib o‘tadi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_22",
+   "t": "choice",
+   "q": "Qizil kitob nega “qizil” deb nomlangan?",
+   "a": "Qizil rang xavfdan ogohlantiradi",
+   "w": [
+    "Unda faqat qizil gullar bor",
+    "Uni qizil siyohda yozishgan",
+    "Unda faqat qizil hayvonlar bor"
+   ],
+   "d": 3,
+   "x": "Qizil rang — “ehtiyot bo‘ling, xavf bor!” degan belgi."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_23",
+   "t": "choice",
+   "q": "Turkiston silovsini qanday hayvon?",
+   "a": "Yovvoyi mushuksimon yirtqich",
+   "w": [
+    "Uy hayvoni",
+    "Qush",
+    "Baliq"
+   ],
+   "d": 3,
+   "x": "Silovsin — yovvoyi mushuklar oilasiga kiruvchi kamyob yirtqich."
+  },
+  {
+   "topic": "science_g3.uzbekistan",
+   "id": "uzbekistan_24",
+   "t": "choice",
+   "q": "O‘zbekistonning qaysi qismida tog‘lar ko‘p?",
+   "a": "Sharqi va janubi-sharqida",
+   "w": [
+    "G‘arbida",
+    "Shimoli-g‘arbida",
+    "Markazidagi cho‘llarda"
+   ],
+   "d": 3,
+   "x": "G‘arbda tekisliklar va cho‘llar, sharq va janubi-sharqda esa tog‘lar."
+  }
+ ]
+}

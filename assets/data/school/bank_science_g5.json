@@ -1,0 +1,5194 @@
+{
+ "items": [
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_1",
+   "t": "choice",
+   "q": "Massani qaysi asbob bilan o‘lchaymiz?",
+   "a": "Tarozi",
+   "w": [
+    "Chizg‘ich",
+    "Termometr",
+    "Menzurka",
+    "Sekundomer"
+   ],
+   "d": 1,
+   "x": "Tarozi jismning massasini gramm va kilogrammlarda ko‘rsatadi.",
+   "e": "⚖️"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_2",
+   "t": "choice",
+   "q": "Haroratni qaysi asbob o‘lchaydi?",
+   "a": "Termometr",
+   "w": [
+    "Tarozi",
+    "Menzurka",
+    "Chizg‘ich"
+   ],
+   "d": 1,
+   "x": "Termometr haroratni gradus Selsiyda ko‘rsatadi."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_3",
+   "t": "choice",
+   "q": "Suyuqlik hajmini qaysi asbob bilan o‘lchaymiz?",
+   "a": "Menzurka",
+   "w": [
+    "Tarozi",
+    "Chizg‘ich",
+    "Sekundomer"
+   ],
+   "d": 1,
+   "x": "Menzurka — millilitr bo‘laklari chizilgan idish."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_4",
+   "t": "choice",
+   "q": "Yugurish vaqtini qaysi asbob bilan o‘lchaymiz?",
+   "a": "Sekundomer",
+   "w": [
+    "Termometr",
+    "Menzurka",
+    "Tarozi"
+   ],
+   "d": 1,
+   "x": "Sekundomer vaqtni sekundlarda aniq o‘lchaydi.",
+   "e": "⏱️"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_5",
+   "t": "choice",
+   "q": "Uzunlikni qaysi asbob bilan o‘lchaymiz?",
+   "a": "Chizg‘ich",
+   "w": [
+    "Termometr",
+    "Tarozi",
+    "Sekundomer"
+   ],
+   "d": 1,
+   "x": "Chizg‘ich, ruletka, santimetr lenta uzunlikni o‘lchaydi.",
+   "e": "📏"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_6",
+   "t": "choice",
+   "q": "Qushlarning kuzda uchib ketishini kuzatib borish qaysi usul?",
+   "a": "Kuzatish",
+   "w": [
+    "Tajriba",
+    "O‘lchash",
+    "Chizish"
+   ],
+   "d": 1,
+   "x": "Biz hodisaga aralashmaymiz, faqat kuzatamiz."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_7",
+   "t": "choice",
+   "q": "1 metrda necha santimetr bor?",
+   "a": "100",
+   "w": [
+    "10",
+    "1000",
+    "60"
+   ],
+   "d": 1,
+   "x": "1 m = 100 sm."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_8",
+   "t": "choice",
+   "q": "1 kilogrammda necha gramm bor?",
+   "a": "1000",
+   "w": [
+    "100",
+    "10",
+    "60"
+   ],
+   "d": 1,
+   "x": "1 kg = 1000 g."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_9",
+   "t": "choice",
+   "q": "1 minutda necha sekund bor?",
+   "a": "60",
+   "w": [
+    "100",
+    "10",
+    "30"
+   ],
+   "d": 1,
+   "x": "1 minut = 60 sekund."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_10",
+   "t": "choice",
+   "q": "Juda mayda narsalarni ko‘rish uchun qaysi asbob kerak?",
+   "a": "Mikroskop",
+   "w": [
+    "Tarozi",
+    "Termometr",
+    "Sekundomer"
+   ],
+   "d": 1,
+   "x": "Mikroskop mayda narsalarni ko‘p marta kattalashtiradi.",
+   "e": "🔬"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_11",
+   "t": "tf",
+   "q": "Termometr haroratni gradusda ko‘rsatadi.",
+   "a": true,
+   "d": 1,
+   "x": "Harorat birligi — gradus Selsiy (°C)."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_12",
+   "t": "tf",
+   "q": "Menzurka bilan massani o‘lchaymiz.",
+   "a": false,
+   "d": 1,
+   "x": "Menzurka suyuqlik hajmini, tarozi esa massani o‘lchaydi."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_13",
+   "t": "tf",
+   "q": "Lupa narsalarni kattalashtirib ko‘rsatadi.",
+   "a": true,
+   "d": 1,
+   "x": "Lupa — kattalashtiruvchi shisha."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_14",
+   "t": "match",
+   "q": "Asbobni u o‘lchaydigan kattalik bilan juftlang",
+   "pairs": [
+    [
+     "Chizg‘ich",
+     "uzunlik"
+    ],
+    [
+     "Tarozi",
+     "massa"
+    ],
+    [
+     "Termometr",
+     "harorat"
+    ],
+    [
+     "Menzurka",
+     "suyuqlik hajmi"
+    ],
+    [
+     "Sekundomer",
+     "vaqt"
+    ],
+    [
+     "Dinamometr",
+     "kuch"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Termometr",
+    "havo",
+    "haroratini",
+    "o‘lchaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_16",
+   "t": "choice",
+   "q": "Urug‘larni turli haroratda undirib ko‘rish qaysi usul?",
+   "a": "Tajriba",
+   "w": [
+    "Kuzatish",
+    "O‘lchash",
+    "Tasavvur qilish"
+   ],
+   "d": 2,
+   "x": "Sharoitni o‘zimiz yaratib, natijani tekshiramiz — bu tajriba."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_17",
+   "t": "choice",
+   "q": "Tajriba kuzatishdan nimasi bilan farq qiladi?",
+   "a": "Sharoitni o‘zimiz yaratamiz",
+   "w": [
+    "Asbob umuman kerak emas",
+    "Faqat tabiatda o‘tkaziladi",
+    "Natija yozilmaydi"
+   ],
+   "d": 2,
+   "x": "Tajribada hodisani maxsus sharoitda o‘zimiz hosil qilamiz."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_18",
+   "t": "choice",
+   "q": "1 litrda necha millilitr bor?",
+   "a": "1000",
+   "w": [
+    "100",
+    "10",
+    "500"
+   ],
+   "d": 2,
+   "x": "1 l = 1000 ml."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_19",
+   "t": "choice",
+   "q": "Uzoqdagi yulduzlarni kuzatish uchun qaysi asbob kerak?",
+   "a": "Teleskop",
+   "w": [
+    "Mikroskop",
+    "Menzurka",
+    "Tarozi"
+   ],
+   "d": 2,
+   "x": "Teleskop uzoqdagi osmon jismlarini yaqinlashtirib ko‘rsatadi.",
+   "e": "🔭"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_20",
+   "t": "choice",
+   "q": "O‘lchash natijasini qanday yozgan ma’qul?",
+   "a": "Jadvalga, birligi bilan",
+   "w": [
+    "Faqat eslab qolish",
+    "Birligisiz raqam",
+    "Hech yozmaslik"
+   ],
+   "d": 2,
+   "x": "Birligi yozilmagan raqam tushunarsiz bo‘ladi: 5 nima — metrmi, grammmi?"
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_21",
+   "t": "choice",
+   "q": "Tajriba vaqtida nima qilish mumkin EMAS?",
+   "a": "Moddalarni tatib ko‘rish",
+   "w": [
+    "Ustoz ko‘rsatmasiga amal qilish",
+    "Ish joyini toza tutish",
+    "Asboblarni ehtiyot qilish"
+   ],
+   "d": 2,
+   "x": "Noma’lum moddalarni tatib yoki hidlab ko‘rish xavfli."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_22",
+   "t": "match",
+   "q": "Kattalikni o‘lchov birligi bilan juftlang",
+   "pairs": [
+    [
+     "Uzunlik",
+     "metr"
+    ],
+    [
+     "Massa",
+     "kilogramm"
+    ],
+    [
+     "Vaqt",
+     "sekund"
+    ],
+    [
+     "Harorat",
+     "gradus Selsiy"
+    ],
+    [
+     "Hajm",
+     "litr"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_23",
+   "t": "choice",
+   "q": "Tadqiqot bosqichlarining to‘g‘ri tartibi qaysi?",
+   "a": "Savol → faraz → tajriba → xulosa",
+   "w": [
+    "Xulosa → tajriba → savol → faraz",
+    "Tajriba → savol → xulosa → faraz",
+    "Faraz → xulosa → savol → tajriba"
+   ],
+   "d": 3,
+   "x": "Avval savol qo‘yiladi, faraz qilinadi, tajribada tekshiriladi va xulosa chiqariladi."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_24",
+   "t": "choice",
+   "q": "Menzurkada suv 50 ml edi, tosh solingach 70 ml bo‘ldi. Toshning hajmi qancha?",
+   "a": "20 ml",
+   "w": [
+    "70 ml",
+    "50 ml",
+    "120 ml"
+   ],
+   "d": 3,
+   "x": "Tosh hajmi = 70 − 50 = 20 ml."
+  },
+  {
+   "topic": "science_g5.methods",
+   "id": "methods_25",
+   "t": "choice",
+   "q": "Tarozi 2 kg 300 g ni ko‘rsatdi. Bu necha gramm?",
+   "a": "2300 g",
+   "w": [
+    "230 g",
+    "23 000 g",
+    "2003 g"
+   ],
+   "d": 3,
+   "x": "2 kg = 2000 g, 2000 + 300 = 2300 g."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_1",
+   "t": "choice",
+   "q": "Qaysi biri jism?",
+   "a": "Qalam",
+   "w": [
+    "Yog‘och",
+    "Temir",
+    "Shisha"
+   ],
+   "d": 1,
+   "x": "Qalam — jism, u yog‘och va grafitdan yasalgan."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_2",
+   "t": "choice",
+   "q": "Qaysi biri modda?",
+   "a": "Temir",
+   "w": [
+    "Mix",
+    "Qoshiq",
+    "Kalit"
+   ],
+   "d": 1,
+   "x": "Temir — modda, mix, qoshiq va kalit esa jismlar."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_3",
+   "t": "choice",
+   "q": "Stakan qaysi moddadan yasalishi mumkin?",
+   "a": "Shishadan",
+   "w": [
+    "Suvdan",
+    "Havodan",
+    "Bug‘dan"
+   ],
+   "d": 1,
+   "x": "Stakan shisha, plastmassa yoki metalldan yasaladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_4",
+   "t": "choice",
+   "q": "Qaysi modda odatdagi sharoitda suyuq?",
+   "a": "Suv",
+   "w": [
+    "Temir",
+    "Tosh",
+    "Kislorod"
+   ],
+   "d": 1,
+   "x": "Xona haroratida suv suyuq holatda bo‘ladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_5",
+   "t": "choice",
+   "q": "Qaysi modda odatdagi sharoitda gaz holatida?",
+   "a": "Kislorod",
+   "w": [
+    "Suv",
+    "Mis",
+    "Yog‘och"
+   ],
+   "d": 1,
+   "x": "Kislorod — havo tarkibidagi gaz."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_6",
+   "t": "choice",
+   "q": "Muzning suvga aylanishi nima deyiladi?",
+   "a": "Erish",
+   "w": [
+    "Qotish",
+    "Bug‘lanish",
+    "Kondensatsiya"
+   ],
+   "d": 1,
+   "x": "Qattiq moddaning suyuqlikka aylanishi — erish."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_7",
+   "t": "choice",
+   "q": "Suvning bug‘ga aylanishi nima deyiladi?",
+   "a": "Bug‘lanish",
+   "w": [
+    "Erish",
+    "Qotish",
+    "Kondensatsiya"
+   ],
+   "d": 1,
+   "x": "Suyuqlikning gazga aylanishi — bug‘lanish."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_8",
+   "t": "choice",
+   "q": "Tabiatda uch holatda ham uchraydigan modda qaysi?",
+   "a": "Suv",
+   "w": [
+    "Temir",
+    "Shisha",
+    "Yog‘och"
+   ],
+   "d": 1,
+   "x": "Suv muz (qattiq), suv (suyuq) va bug‘ (gaz) holatida uchraydi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_9",
+   "t": "tf",
+   "q": "Bir moddadan turli jismlar yasash mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, yog‘ochdan stol, stul va qalam yasaladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_10",
+   "t": "tf",
+   "q": "Suv faqat suyuq holatda bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Suv qattiq (muz) va gaz (bug‘) holatida ham bo‘ladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_11",
+   "t": "tf",
+   "q": "Qattiq jismlarning shakli ham, hajmi ham saqlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, tosh qaysi idishga solinsa ham shaklini saqlaydi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_12",
+   "t": "match",
+   "q": "Jismni u yasalgan modda bilan juftlang",
+   "pairs": [
+    [
+     "Mix",
+     "temir"
+    ],
+    [
+     "Stakan",
+     "shisha"
+    ],
+    [
+     "Daftar",
+     "qog‘oz"
+    ],
+    [
+     "Elektr simi",
+     "mis"
+    ],
+    [
+     "Muz parchasi",
+     "suv"
+    ],
+    [
+     "Shar",
+     "rezina"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Muz",
+    "isitilganda",
+    "suvga",
+    "aylanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_14",
+   "t": "choice",
+   "q": "Qattiq jism qanday xususiyatga ega?",
+   "a": "Shakli va hajmi saqlanadi",
+   "w": [
+    "Idish shaklini oladi",
+    "Butun idishni to‘ldiradi",
+    "Oqib ketadi"
+   ],
+   "d": 2,
+   "x": "Qattiq jismda zarrachalar o‘z joyida mahkam turadi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_15",
+   "t": "choice",
+   "q": "Suyuqlik qanday xususiyatga ega?",
+   "a": "Idish shaklini oladi",
+   "w": [
+    "Shakli o‘zgarmaydi",
+    "Butun xonani to‘ldiradi",
+    "Bo‘laklarga sinadi"
+   ],
+   "d": 2,
+   "x": "Suyuqlik oquvchan, u qaysi idishga quyilsa, o‘sha shaklni oladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_16",
+   "t": "choice",
+   "q": "Gaz qanday xususiyatga ega?",
+   "a": "Butun idishni to‘ldiradi",
+   "w": [
+    "Shakli saqlanadi",
+    "Hajmi o‘zgarmaydi",
+    "Qo‘lda ushlab bo‘ladi"
+   ],
+   "d": 2,
+   "x": "Gaz o‘ziga berilgan butun hajmni egallaydi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_17",
+   "t": "choice",
+   "q": "Suyuq moddaning qattiq holga o‘tishi nima deyiladi?",
+   "a": "Qotish",
+   "w": [
+    "Erish",
+    "Bug‘lanish",
+    "Qaynash"
+   ],
+   "d": 2,
+   "x": "Masalan, suv muzlaganda qotadi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_18",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat moddalar bor?",
+   "a": "Shakar, tuz, suv",
+   "w": [
+    "Qoshiq, tuz, suv",
+    "Stakan, mix, qalam",
+    "Shakar, kitob, stol"
+   ],
+   "d": 2,
+   "x": "Shakar, tuz va suv — moddalar, qoshiq, kitob, stol — jismlar."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_19",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat jismlar bor?",
+   "a": "Kitob, qoshiq, to‘p",
+   "w": [
+    "Kitob, temir, suv",
+    "Qog‘oz, shisha, rezina",
+    "Mis, oltin, kumush"
+   ],
+   "d": 2,
+   "x": "Kitob, qoshiq va to‘p — jismlar."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_20",
+   "t": "choice",
+   "q": "Moddaning xossalariga nimalar kiradi?",
+   "a": "Rangi, hidi, qattiqligi",
+   "w": [
+    "Narxi va egasi",
+    "Sotilgan joyi",
+    "Nomining uzunligi"
+   ],
+   "d": 2,
+   "x": "Rang, hid, qattiqlik, eruvchanlik — modda xossalari."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_21",
+   "t": "choice",
+   "q": "Ko‘lmak quyoshli kunda nima uchun yo‘qolib qoladi?",
+   "a": "Suv bug‘lanadi",
+   "w": [
+    "Suv muzlaydi",
+    "Suv kondensatsiyalanadi",
+    "Suv yonib ketadi"
+   ],
+   "d": 2,
+   "x": "Quyosh issiqligida suv bug‘ga aylanib, havoga ko‘tariladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_22",
+   "t": "choice",
+   "q": "Sham yonganda mum eriydi. Sovigach mum bilan nima bo‘ladi?",
+   "a": "Qotadi",
+   "w": [
+    "Bug‘lanadi",
+    "Gazga aylanadi",
+    "Yo‘qolib ketadi"
+   ],
+   "d": 2,
+   "x": "Erigan mum sovib, yana qattiq holga o‘tadi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_23",
+   "t": "tf",
+   "q": "Gaz o‘ziga berilgan butun hajmni egallaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Shuning uchun atir hidi butun xonaga tarqaladi."
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_24",
+   "t": "match",
+   "q": "Holat o‘zgarishini izohi bilan juftlang",
+   "pairs": [
+    [
+     "Erish",
+     "qattiqdan suyuqqa o‘tish"
+    ],
+    [
+     "Qotish",
+     "suyuqdan qattiqqa o‘tish"
+    ],
+    [
+     "Bug‘lanish",
+     "suyuqdan gazga o‘tish"
+    ],
+    [
+     "Kondensatsiya",
+     "gazdan suyuqqa o‘tish"
+    ],
+    [
+     "Qaynash",
+     "butun hajmda pufakchalar bilan bug‘lanish"
+    ]
+   ],
+   "d": 3
+  },
+  {
+   "topic": "science_g5.matter",
+   "id": "matter_25",
+   "t": "choice",
+   "q": "Sovuq oyna yuzasida suv tomchilari paydo bo‘ldi. Bu qanday hodisa?",
+   "a": "Kondensatsiya",
+   "w": [
+    "Erish",
+    "Qotish",
+    "Yonish"
+   ],
+   "d": 3,
+   "x": "Havodagi suv bug‘i sovuq oynaga tegib, suyuqlikka aylandi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_1",
+   "t": "choice",
+   "q": "Moddalar nimadan tuzilgan?",
+   "a": "Mayda zarrachalardan",
+   "w": [
+    "Faqat suvdan",
+    "Bo‘shliqdan",
+    "Faqat havodan"
+   ],
+   "d": 1,
+   "x": "Har qanday modda juda mayda zarrachalar — molekulalardan tuzilgan."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_2",
+   "t": "choice",
+   "q": "Atir hidining butun xonaga tarqalishi qanday hodisa?",
+   "a": "Diffuziya",
+   "w": [
+    "Erish",
+    "Qotish",
+    "Kondensatsiya"
+   ],
+   "d": 1,
+   "x": "Atir zarrachalari havo zarrachalari orasiga o‘z-o‘zidan kirib boradi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_3",
+   "t": "choice",
+   "q": "Shakar qaysi suvda tezroq eriydi?",
+   "a": "Issiq suvda",
+   "w": [
+    "Sovuq suvda",
+    "Muzli suvda",
+    "Farqi yo‘q"
+   ],
+   "d": 1,
+   "x": "Issiq suvda zarrachalar tezroq harakatlanadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_4",
+   "t": "choice",
+   "q": "Qaysi holatda zarrachalar eng zich joylashgan?",
+   "a": "Qattiq",
+   "w": [
+    "Suyuq",
+    "Gaz",
+    "Bug‘"
+   ],
+   "d": 1,
+   "x": "Qattiq jismda zarrachalar bir-biriga juda yaqin turadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_5",
+   "t": "choice",
+   "q": "Diffuziyaga misolni toping",
+   "a": "Oshxonadan ovqat hidi kelishi",
+   "w": [
+    "Suvning muzlashi",
+    "Qorning erishi",
+    "Shishaning sinishi"
+   ],
+   "d": 1,
+   "x": "Ovqat hidi zarrachalari havoda o‘z-o‘zidan tarqaladi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_6",
+   "t": "choice",
+   "q": "Zarrachalar harakati qachon tezlashadi?",
+   "a": "Qizdirilganda",
+   "w": [
+    "Sovitilganda",
+    "Muzlatilganda",
+    "Qorong‘ida"
+   ],
+   "d": 1,
+   "x": "Harorat oshsa, zarrachalar tezroq harakatlanadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_7",
+   "t": "tf",
+   "q": "Zarrachalar doimo harakatda bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Zarrachalar hech qachon to‘xtamaydi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_8",
+   "t": "tf",
+   "q": "Harorat ko‘tarilsa, zarrachalar sekinlashadi.",
+   "a": false,
+   "d": 1,
+   "x": "Aksincha, qizdirilganda zarrachalar tezlashadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_9",
+   "t": "tf",
+   "q": "Havo ham mayda zarrachalardan iborat.",
+   "a": true,
+   "d": 1,
+   "x": "Havo — turli gazlar zarrachalaridan iborat."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_10",
+   "t": "tf",
+   "q": "Qattiq jismda zarrachalar bir-biriga juda yaqin joylashgan.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun qattiq jismni siqish qiyin."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Barcha",
+    "moddalar",
+    "mayda",
+    "zarrachalardan",
+    "tuzilgan"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_12",
+   "t": "choice",
+   "q": "Diffuziya qaysi holatda eng tez boradi?",
+   "a": "Gazlarda",
+   "w": [
+    "Suyuqliklarda",
+    "Qattiq jismlarda",
+    "Muzda"
+   ],
+   "d": 2,
+   "x": "Gazda zarrachalar erkin va tez harakatlanadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_13",
+   "t": "choice",
+   "q": "Diffuziya qaysi holatda eng sekin boradi?",
+   "a": "Qattiq jismlarda",
+   "w": [
+    "Gazlarda",
+    "Suyuqliklarda",
+    "Havoda"
+   ],
+   "d": 2,
+   "x": "Qattiq jismda zarrachalar zich joylashgan va kam harakatlanadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_14",
+   "t": "choice",
+   "q": "Qaysi holatda zarrachalar bir-biridan eng uzoqda?",
+   "a": "Gaz",
+   "w": [
+    "Qattiq",
+    "Suyuq",
+    "Muz"
+   ],
+   "d": 2,
+   "x": "Gaz zarrachalari orasida katta bo‘shliq bor."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_15",
+   "t": "choice",
+   "q": "Molekulalarni oddiy ko‘z bilan ko‘rish mumkinmi?",
+   "a": "Yo‘q, ular juda mayda",
+   "w": [
+    "Ha, osongina",
+    "Faqat kechasi",
+    "Faqat lupa bilan"
+   ],
+   "d": 2,
+   "x": "Molekulalar shunchalik maydaki, ularni lupa bilan ham ko‘rib bo‘lmaydi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_16",
+   "t": "choice",
+   "q": "Choyga solingan shakar aralashtirilmasa ham choyni shirin qiladi. Sababi nima?",
+   "a": "Diffuziya",
+   "w": [
+    "Muzlash",
+    "Yonish",
+    "Ishqalanish"
+   ],
+   "d": 2,
+   "x": "Shakar zarrachalari suv zarrachalari orasiga o‘z-o‘zidan tarqaladi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_17",
+   "t": "choice",
+   "q": "Suvga tomizilgan siyoh aralashtirilmasa ham suvni bo‘yaydi. Bu nima?",
+   "a": "Diffuziya",
+   "w": [
+    "Qotish",
+    "Kondensatsiya",
+    "Zanglash"
+   ],
+   "d": 2,
+   "x": "Siyoh zarrachalari suv zarrachalari orasiga kirib boradi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_18",
+   "t": "choice",
+   "q": "Qaysi hodisa diffuziya EMAS?",
+   "a": "Toshning suvga cho‘kishi",
+   "w": [
+    "Atir hidining tarqalishi",
+    "Siyohning suvda tarqalishi",
+    "Choyda shakarning tarqalishi"
+   ],
+   "d": 2,
+   "x": "Tosh cho‘kishi — og‘irlik kuchi ta’siri, diffuziya emas."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_19",
+   "t": "tf",
+   "q": "Zarrachalar orasida bo‘shliq yo‘q.",
+   "a": false,
+   "d": 2,
+   "x": "Zarrachalar orasida bo‘shliq bor, shuning uchun gazni siqish mumkin."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_20",
+   "t": "match",
+   "q": "Tushunchani izohi bilan juftlang",
+   "pairs": [
+    [
+     "Molekula",
+     "moddaning mayda zarrachasi"
+    ],
+    [
+     "Diffuziya",
+     "zarrachalarning o‘z-o‘zidan aralashishi"
+    ],
+    [
+     "Qattiq jism",
+     "zarrachalar zich joylashgan"
+    ],
+    [
+     "Gaz",
+     "zarrachalar bir-biridan uzoq"
+    ],
+    [
+     "Harorat ortishi",
+     "zarrachalar tezlashadi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_21",
+   "t": "choice",
+   "q": "Nima uchun gazni siqish oson?",
+   "a": "Zarrachalari orasida bo‘shliq katta",
+   "w": [
+    "Zarrachalari yo‘q",
+    "U juda og‘ir",
+    "U qattiq"
+   ],
+   "d": 3,
+   "x": "Gaz zarrachalari bir-biridan uzoq, ularni yaqinlashtirish oson."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_22",
+   "t": "choice",
+   "q": "Gul hidi qaysi havoda tezroq tarqaladi?",
+   "a": "Issiq havoda",
+   "w": [
+    "Sovuq havoda",
+    "Farqi yo‘q",
+    "Faqat kechasi"
+   ],
+   "d": 3,
+   "x": "Issiqda zarrachalar tezroq harakatlanadi, diffuziya tezlashadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_23",
+   "t": "choice",
+   "q": "Temir sharcha qizdirilganda nima bo‘ladi?",
+   "a": "Biroz kengayadi",
+   "w": [
+    "Kichrayadi",
+    "Darhol oqib ketadi",
+    "Rangsiz bo‘ladi"
+   ],
+   "d": 3,
+   "x": "Qizdirilganda zarrachalar orasidagi masofa ortadi — jism kengayadi."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_24",
+   "t": "tf",
+   "q": "Molekulalar yanada mayda zarrachalar — atomlardan tuzilgan.",
+   "a": true,
+   "d": 3,
+   "x": "Masalan, suv molekulasi vodorod va kislorod atomlaridan iborat."
+  },
+  {
+   "topic": "science_g5.particles",
+   "id": "particles_25",
+   "t": "tf",
+   "q": "Diffuziya qattiq jismlarda ham boradi, lekin juda sekin.",
+   "a": true,
+   "d": 3,
+   "x": "Qattiq jismlarda zarrachalar kam harakatlanadi, shuning uchun juda sekin boradi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_1",
+   "t": "choice",
+   "q": "Qumli suvni qanday ajratish mumkin?",
+   "a": "Filtrlash",
+   "w": [
+    "Magnit bilan",
+    "Muzlatib",
+    "Aralashtirib"
+   ],
+   "d": 1,
+   "x": "Suv filtrdan o‘tadi, qum esa filtrda qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_2",
+   "t": "choice",
+   "q": "Tuzli suvdan tuzni qanday ajratib olamiz?",
+   "a": "Bug‘latish",
+   "w": [
+    "Filtrlash",
+    "Magnit bilan",
+    "Elash"
+   ],
+   "d": 1,
+   "x": "Suv bug‘lanib ketadi, idishda tuz qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_3",
+   "t": "choice",
+   "q": "Temir qipiqlarini qumdan qanday ajratamiz?",
+   "a": "Magnit bilan",
+   "w": [
+    "Bug‘latib",
+    "Filtrlab",
+    "Suvda eritib"
+   ],
+   "d": 1,
+   "x": "Temir magnitga tortiladi, qum esa tortilmaydi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_4",
+   "t": "choice",
+   "q": "Loyqa suv tinsa, tuproq zarrachalari qayerda to‘planadi?",
+   "a": "Idish tagida",
+   "w": [
+    "Suv yuzasida",
+    "Havoda",
+    "Idish qopqog‘ida"
+   ],
+   "d": 1,
+   "x": "Og‘ir zarrachalar idish tagiga cho‘kadi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_5",
+   "t": "choice",
+   "q": "Filtr sifatida nimadan foydalanish mumkin?",
+   "a": "Filtr qog‘ozi",
+   "w": [
+    "Temir plastinka",
+    "Shisha bo‘lagi",
+    "Plastik qopqoq"
+   ],
+   "d": 1,
+   "x": "Filtr qog‘ozida suv o‘tadigan juda mayda teshikchalar bor."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_6",
+   "t": "choice",
+   "q": "Guruchni mayda toshlardan qanday tozalaymiz?",
+   "a": "Qo‘lda terib",
+   "w": [
+    "Bug‘latib",
+    "Magnit bilan",
+    "Eritib"
+   ],
+   "d": 1,
+   "x": "Toshlar ko‘zga ko‘rinadi, ularni terib olish mumkin."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_7",
+   "t": "choice",
+   "q": "Tuproq aralashgan suv qanday ataladi?",
+   "a": "Loyqa suv",
+   "w": [
+    "Distillangan suv",
+    "Muz",
+    "Bug‘"
+   ],
+   "d": 1,
+   "x": "Loyqa suv — suv va tuproq aralashmasi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_8",
+   "t": "tf",
+   "q": "Magnit temir qipiqlarini o‘ziga tortadi.",
+   "a": true,
+   "d": 1,
+   "x": "Temir magnitga tortiladigan modda."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_9",
+   "t": "tf",
+   "q": "Tindirishda og‘ir zarrachalar idish tagiga cho‘kadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu usul loyqa suvni tozalashda qo‘llanadi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_10",
+   "t": "tf",
+   "q": "Filtrlash bilan qumni suvdan ajratish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Qum zarrachalari filtrdan o‘ta olmaydi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_11",
+   "t": "tf",
+   "q": "Salat — bir nechta sabzavotdan tayyorlangan aralashma.",
+   "a": true,
+   "d": 1,
+   "x": "Salatdagi har bir sabzavotni ajratib ko‘rish mumkin."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_12",
+   "t": "choice",
+   "q": "Qaysi biri aralashma?",
+   "a": "Havo",
+   "w": [
+    "Distillangan suv",
+    "Toza shakar",
+    "Toza oltin"
+   ],
+   "d": 2,
+   "x": "Havo — azot, kislorod va boshqa gazlar aralashmasi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_13",
+   "t": "choice",
+   "q": "Undan yirik zarrachalarni ajratish uchun nima qilinadi?",
+   "a": "Elakdan o‘tkaziladi",
+   "w": [
+    "Magnit tutiladi",
+    "Bug‘latiladi",
+    "Muzlatiladi"
+   ],
+   "d": 2,
+   "x": "Mayda un elakdan o‘tadi, yirik zarrachalar elakda qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_14",
+   "t": "choice",
+   "q": "Qaysi biri toza modda?",
+   "a": "Distillangan suv",
+   "w": [
+    "Dengiz suvi",
+    "Havo",
+    "Tuproq"
+   ],
+   "d": 2,
+   "x": "Distillangan suvda boshqa moddalar deyarli yo‘q."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_15",
+   "t": "choice",
+   "q": "Choy damlanganda choy barglari suzgichda qoladi. Bu qaysi usulga o‘xshaydi?",
+   "a": "Filtrlash",
+   "w": [
+    "Bug‘latish",
+    "Magnit bilan ajratish",
+    "Tindirish"
+   ],
+   "d": 2,
+   "x": "Suyuqlik suzgichdan o‘tadi, barglar esa ushlanib qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_16",
+   "t": "choice",
+   "q": "Dengiz suvidan osh tuzi qanday olinadi?",
+   "a": "Suvni bug‘latib",
+   "w": [
+    "Magnit bilan",
+    "Elab",
+    "Filtrlab"
+   ],
+   "d": 2,
+   "x": "Quyosh issiqligida suv bug‘lanadi, tuz qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_17",
+   "t": "choice",
+   "q": "Qaysi aralashmada moddalarni ko‘z bilan ajratib ko‘rish mumkin?",
+   "a": "Qum va shag‘al",
+   "w": [
+    "Tuzli suv",
+    "Shakarli suv",
+    "Havo"
+   ],
+   "d": 2,
+   "x": "Qum va shag‘al donachalari ko‘zga ko‘rinadi, eritmada esa ko‘rinmaydi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_18",
+   "t": "choice",
+   "q": "Qaysi biri aralashma EMAS?",
+   "a": "Toza shakar",
+   "w": [
+    "Salat",
+    "Loyqa suv",
+    "Havo"
+   ],
+   "d": 2,
+   "x": "Toza shakar — bitta modda."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_19",
+   "t": "choice",
+   "q": "Shakarli suvdan shakarni qanday ajratish mumkin?",
+   "a": "Bug‘latish",
+   "w": [
+    "Filtrlash",
+    "Magnit bilan",
+    "Elash"
+   ],
+   "d": 2,
+   "x": "Erigan shakar filtrdan o‘tib ketadi, bug‘latilganda esa idishda qoladi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_20",
+   "t": "tf",
+   "q": "Havo — toza modda.",
+   "a": false,
+   "d": 2,
+   "x": "Havo — azot, kislorod va boshqa gazlar aralashmasi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_21",
+   "t": "match",
+   "q": "Aralashmani ajratish usuli bilan juftlang",
+   "pairs": [
+    [
+     "Qumli suv",
+     "filtrlash"
+    ],
+    [
+     "Tuzli suv",
+     "bug‘latish"
+    ],
+    [
+     "Temir qipig‘i va qum",
+     "magnit"
+    ],
+    [
+     "Un va kepak",
+     "elash"
+    ],
+    [
+     "Loyqa suv",
+     "tindirish"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tuzli",
+    "suv",
+    "bug‘latilsa",
+    "tuz",
+    "qoladi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_23",
+   "t": "choice",
+   "q": "Qum va tuz aralashmasini ajratish tartibi qanday?",
+   "a": "Eritish → filtrlash → bug‘latish",
+   "w": [
+    "Bug‘latish → eritish → filtrlash",
+    "Filtrlash → bug‘latish → eritish",
+    "Magnit → bug‘latish → eritish"
+   ],
+   "d": 3,
+   "x": "Tuz suvda eriydi, qum filtrda qoladi, so‘ng suv bug‘latilib tuz olinadi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_24",
+   "t": "tf",
+   "q": "Erigan tuzni filtrlash bilan ajratib bo‘lmaydi.",
+   "a": true,
+   "d": 3,
+   "x": "Erigan tuz zarrachalari filtrdan suv bilan birga o‘tib ketadi."
+  },
+  {
+   "topic": "science_g5.mixtures",
+   "id": "mixtures_25",
+   "t": "tf",
+   "q": "Aralashmadagi har bir modda o‘z xossalarini saqlaydi.",
+   "a": true,
+   "d": 3,
+   "x": "Masalan, temir qipig‘i qum bilan aralashganda ham magnitga tortiladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_1",
+   "t": "choice",
+   "q": "Qaysi biri fizik hodisa?",
+   "a": "Muzning erishi",
+   "w": [
+    "Qog‘ozning yonishi",
+    "Temirning zanglashi",
+    "Sutning achishi"
+   ],
+   "d": 1,
+   "x": "Muz erib suvga aylanadi, lekin yangi modda hosil bo‘lmaydi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_2",
+   "t": "choice",
+   "q": "Qaysi biri kimyoviy hodisa?",
+   "a": "Yog‘ochning yonishi",
+   "w": [
+    "Shishaning sinishi",
+    "Suvning qaynashi",
+    "Qorning erishi"
+   ],
+   "d": 1,
+   "x": "Yonishda kul, tutun va gazlar — yangi moddalar hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_3",
+   "t": "choice",
+   "q": "Kimyoviy hodisada nima hosil bo‘ladi?",
+   "a": "Yangi modda",
+   "w": [
+    "Faqat yangi shakl",
+    "Hech narsa",
+    "Faqat boshqa holat"
+   ],
+   "d": 1,
+   "x": "Kimyoviy hodisaning asosiy belgisi — yangi modda paydo bo‘lishi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_4",
+   "t": "choice",
+   "q": "Kamalak qanday hodisa?",
+   "a": "Yorug‘lik hodisasi",
+   "w": [
+    "Tovush hodisasi",
+    "Elektr hodisasi",
+    "Kimyoviy hodisa"
+   ],
+   "d": 1,
+   "x": "Quyosh nuri yomg‘ir tomchilarida ranglarga ajraladi.",
+   "e": "🌈"
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_5",
+   "t": "choice",
+   "q": "Plastilindan shar yasash qanday hodisa?",
+   "a": "Fizik",
+   "w": [
+    "Kimyoviy",
+    "Elektr",
+    "Yorug‘lik"
+   ],
+   "d": 1,
+   "x": "Plastilinning faqat shakli o‘zgaradi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_6",
+   "t": "tf",
+   "q": "Temirning zanglashi — kimyoviy hodisa.",
+   "a": true,
+   "d": 1,
+   "x": "Zang — temirdan hosil bo‘lgan yangi modda."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_7",
+   "t": "tf",
+   "q": "Suvning qaynashi — kimyoviy hodisa.",
+   "a": false,
+   "d": 1,
+   "x": "Qaynashda suv bug‘ga aylanadi, lekin yangi modda hosil bo‘lmaydi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_8",
+   "t": "tf",
+   "q": "Qog‘ozni yirtish — fizik hodisa.",
+   "a": true,
+   "d": 1,
+   "x": "Yirtilgan qog‘oz ham qog‘ozligicha qoladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_9",
+   "t": "tf",
+   "q": "Yonishda issiqlik va yorug‘lik ajraladi.",
+   "a": true,
+   "d": 1,
+   "x": "Gulxan yonganda issiq va yorug‘ bo‘ladi.",
+   "e": "🔥"
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_10",
+   "t": "tf",
+   "q": "Fizik hodisada yangi modda hosil bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Fizik hodisada modda o‘zgarmaydi, faqat shakli yoki holati o‘zgaradi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_11",
+   "t": "tf",
+   "q": "Qorning erishi — fizik hodisa.",
+   "a": true,
+   "d": 1,
+   "x": "Qor erib, suvga aylanadi — modda o‘sha-o‘sha suv."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_12",
+   "t": "choice",
+   "q": "Kimyoviy hodisa belgisi qaysi?",
+   "a": "Yangi gaz hosil bo‘lishi",
+   "w": [
+    "Shaklning o‘zgarishi",
+    "Bo‘laklarga bo‘linish",
+    "Joyining o‘zgarishi"
+   ],
+   "d": 2,
+   "x": "Yangi gaz, rang, hid paydo bo‘lishi — kimyoviy hodisa belgilari."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_13",
+   "t": "choice",
+   "q": "Kesilgan olma havoda qorayadi. Bu qanday hodisa?",
+   "a": "Kimyoviy",
+   "w": [
+    "Fizik",
+    "Tovush",
+    "Magnit"
+   ],
+   "d": 2,
+   "x": "Olma havo bilan ta’sirlashib, yangi modda hosil bo‘ladi va rangi o‘zgaradi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_14",
+   "t": "choice",
+   "q": "Soda ustiga sirka quyilganda pufakchalar chiqadi. Bu qanday hodisa?",
+   "a": "Kimyoviy",
+   "w": [
+    "Fizik",
+    "Mexanik",
+    "Tovush"
+   ],
+   "d": 2,
+   "x": "Yangi modda — karbonat angidrid gazi hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_15",
+   "t": "choice",
+   "q": "Qaysi o‘zgarish kimyoviy?",
+   "a": "Sutning achishi",
+   "w": [
+    "Sutning qaynashi",
+    "Sutning to‘kilishi",
+    "Sutning muzlashi"
+   ],
+   "d": 2,
+   "x": "Achigan sutda yangi modda hosil bo‘ladi, ta’mi va hidi o‘zgaradi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_16",
+   "t": "choice",
+   "q": "Qaysi o‘zgarish fizik?",
+   "a": "Shishaning sinishi",
+   "w": [
+    "Go‘shtning pishishi",
+    "Olmaning chirishi",
+    "Gazning yonishi"
+   ],
+   "d": 2,
+   "x": "Singan shisha ham shishaligicha qoladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_17",
+   "t": "choice",
+   "q": "Chaqmoq qanday hodisa?",
+   "a": "Elektr hodisasi",
+   "w": [
+    "Kimyoviy hodisa",
+    "Magnit hodisasi",
+    "Mexanik hodisa"
+   ],
+   "d": 2,
+   "x": "Chaqmoq — bulutlar orasidagi kuchli elektr uchquni."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_18",
+   "t": "choice",
+   "q": "Temir buyumlarni zanglashdan qanday saqlaymiz?",
+   "a": "Bo‘yab qo‘yamiz",
+   "w": [
+    "Suvda saqlaymiz",
+    "Tuzli suvga botiramiz",
+    "Nam joyda qoldiramiz"
+   ],
+   "d": 2,
+   "x": "Bo‘yoq temirni suv va havodan to‘sadi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_19",
+   "t": "choice",
+   "q": "Nonning qizarib, kuyib qolishi qanday hodisa?",
+   "a": "Kimyoviy",
+   "w": [
+    "Fizik",
+    "Magnit",
+    "Tovush"
+   ],
+   "d": 2,
+   "x": "Kuyganda rang va hid o‘zgaradi — yangi moddalar hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_20",
+   "t": "choice",
+   "q": "Qaysi hodisa kimyoviy EMAS?",
+   "a": "Qorning erishi",
+   "w": [
+    "Gugurtning yonishi",
+    "Mixning zanglashi",
+    "Ovqatning aynishi"
+   ],
+   "d": 2,
+   "x": "Qorning erishi — fizik hodisa."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_21",
+   "t": "tf",
+   "q": "Barcha kimyoviy hodisalarda yangi modda hosil bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "Bu kimyoviy hodisaning asosiy belgisi."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_22",
+   "t": "match",
+   "q": "Hodisani fizik hodisa turi bilan juftlang",
+   "pairs": [
+    [
+     "Chaqmoq chaqishi",
+     "elektr hodisasi"
+    ],
+    [
+     "Momaqaldiroq gumburlashi",
+     "tovush hodisasi"
+    ],
+    [
+     "Kamalak",
+     "yorug‘lik hodisasi"
+    ],
+    [
+     "Muzning erishi",
+     "issiqlik hodisasi"
+    ],
+    [
+     "To‘pning dumalashi",
+     "mexanik hodisa"
+    ],
+    [
+     "Kompas milining burilishi",
+     "magnit hodisasi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yonishda",
+    "yangi",
+    "moddalar",
+    "hosil",
+    "bo‘ladi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_24",
+   "t": "choice",
+   "q": "Sham yonganda qanday hodisalar sodir bo‘ladi?",
+   "a": "Ham fizik, ham kimyoviy",
+   "w": [
+    "Faqat fizik",
+    "Faqat kimyoviy",
+    "Hech qanday"
+   ],
+   "d": 3,
+   "x": "Mumning erishi — fizik, pilikning yonishi — kimyoviy hodisa."
+  },
+  {
+   "topic": "science_g5.phenomena",
+   "id": "phenomena_25",
+   "t": "choice",
+   "q": "Temir zanglashi uchun nima kerak?",
+   "a": "Namlik va havo",
+   "w": [
+    "Faqat quyosh nuri",
+    "Faqat sovuq",
+    "Qorong‘ilik"
+   ],
+   "d": 3,
+   "x": "Quruq havoda yoki havosiz suvda temir juda sekin zanglaydi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_1",
+   "t": "choice",
+   "q": "Kuch qanday birlikda o‘lchanadi?",
+   "a": "Nyuton",
+   "w": [
+    "Metr",
+    "Kilogramm",
+    "Sekund"
+   ],
+   "d": 1,
+   "x": "Kuch birligi — nyuton (N)."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_2",
+   "t": "choice",
+   "q": "Kuchni qaysi asbob o‘lchaydi?",
+   "a": "Dinamometr",
+   "w": [
+    "Termometr",
+    "Menzurka",
+    "Chizg‘ich"
+   ],
+   "d": 1,
+   "x": "Dinamometr kuchni nyutonlarda ko‘rsatadi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_3",
+   "t": "choice",
+   "q": "Qo‘ldan tushgan olma nima uchun pastga tushadi?",
+   "a": "Og‘irlik kuchi tufayli",
+   "w": [
+    "Ishqalanish tufayli",
+    "Shamol tufayli",
+    "Magnit tufayli"
+   ],
+   "d": 1,
+   "x": "Yer barcha jismlarni o‘ziga tortadi.",
+   "e": "🍎"
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_4",
+   "t": "choice",
+   "q": "Cho‘zilgan rezina qo‘yib yuborilsa nima bo‘ladi?",
+   "a": "Avvalgi shakliga qaytadi",
+   "w": [
+    "Uzayib ketaveradi",
+    "Eriydi",
+    "Qotib qoladi"
+   ],
+   "d": 1,
+   "x": "Rezinada elastiklik kuchi paydo bo‘ladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_5",
+   "t": "choice",
+   "q": "Futbolchi to‘pni tepdi. Kuch to‘pga qanday ta’sir qildi?",
+   "a": "Harakatga keltirdi",
+   "w": [
+    "Eritdi",
+    "Rangini o‘zgartirdi",
+    "Og‘irlashtirdi"
+   ],
+   "d": 1,
+   "x": "Kuch tinch turgan to‘pni harakatga keltirdi.",
+   "e": "⚽"
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_6",
+   "t": "choice",
+   "q": "Arava tortilsa, u nima qiladi?",
+   "a": "Harakatga keladi",
+   "w": [
+    "Eriydi",
+    "Yonadi",
+    "Rangi o‘zgaradi"
+   ],
+   "d": 1,
+   "x": "Tortish kuchi aravani harakatga keltiradi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_7",
+   "t": "choice",
+   "q": "Chana tepalikdan o‘z-o‘zidan nima uchun sirpanib tushadi?",
+   "a": "Og‘irlik kuchi tortadi",
+   "w": [
+    "Elastiklik kuchi itaradi",
+    "Magnit tortadi",
+    "Havo yo‘qoladi"
+   ],
+   "d": 1,
+   "x": "Og‘irlik kuchi chanani pastga tortadi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_8",
+   "t": "choice",
+   "q": "Qaysi biri kuch turi?",
+   "a": "Ishqalanish kuchi",
+   "w": [
+    "Harorat",
+    "Uzunlik",
+    "Vaqt"
+   ],
+   "d": 1,
+   "x": "Ishqalanish, og‘irlik, elastiklik — kuch turlari."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_9",
+   "t": "tf",
+   "q": "Kuch jismning shaklini o‘zgartira oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, plastilinni qo‘l bilan siqsak, shakli o‘zgaradi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_10",
+   "t": "tf",
+   "q": "Yer barcha jismlarni o‘ziga tortadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu kuch og‘irlik kuchi deyiladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_11",
+   "t": "tf",
+   "q": "Muz ustida ishqalanish kichik bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun muzda sirpanib ketish oson."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_12",
+   "t": "choice",
+   "q": "Muz ustida yurish nima uchun qiyin?",
+   "a": "Ishqalanish kam",
+   "w": [
+    "Ishqalanish ko‘p",
+    "Og‘irlik kuchi yo‘q",
+    "Muz magnitlangan"
+   ],
+   "d": 2,
+   "x": "Silliq muzda oyoq kiyim yaxshi ilashmaydi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_13",
+   "t": "choice",
+   "q": "Qishda muzlagan yo‘lga nima uchun qum sepiladi?",
+   "a": "Ishqalanishni oshirish uchun",
+   "w": [
+    "Yo‘lni isitish uchun",
+    "Muzni oqartirish uchun",
+    "Ishqalanishni kamaytirish uchun"
+   ],
+   "d": 2,
+   "x": "Qum yo‘lni g‘adir-budur qiladi, sirpanish kamayadi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_14",
+   "t": "choice",
+   "q": "Velosiped zanjiri nima uchun moylanadi?",
+   "a": "Ishqalanishni kamaytirish uchun",
+   "w": [
+    "Ishqalanishni oshirish uchun",
+    "Chiroyli bo‘lishi uchun",
+    "Og‘irlashtirish uchun"
+   ],
+   "d": 2,
+   "x": "Moy qismlarning oson harakatlanishiga yordam beradi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_15",
+   "t": "choice",
+   "q": "Prujinani siqqanda paydo bo‘ladigan kuch?",
+   "a": "Elastiklik kuchi",
+   "w": [
+    "Ishqalanish kuchi",
+    "Og‘irlik kuchi",
+    "Magnit kuchi"
+   ],
+   "d": 2,
+   "x": "Siqilgan prujina avvalgi shakliga qaytishga intiladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_16",
+   "t": "choice",
+   "q": "Qaysi sirtda ishqalanish eng katta?",
+   "a": "Qumli yo‘lda",
+   "w": [
+    "Muz ustida",
+    "Silliq oynada",
+    "Moylangan temirda"
+   ],
+   "d": 2,
+   "x": "G‘adir-budur sirtda ishqalanish katta bo‘ladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_17",
+   "t": "choice",
+   "q": "Kuch nimaning natijasi?",
+   "a": "Jismlarning o‘zaro ta’sirining",
+   "w": [
+    "Jism rangining",
+    "Jism hidining",
+    "Jism nomining"
+   ],
+   "d": 2,
+   "x": "Kuch doimo bir jismning boshqasiga ta’siri natijasida paydo bo‘ladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_18",
+   "t": "choice",
+   "q": "Mashinaning tormozi qaysi kuch hisobiga ishlaydi?",
+   "a": "Ishqalanish kuchi",
+   "w": [
+    "Og‘irlik kuchi",
+    "Elastiklik kuchi",
+    "Magnit kuchi"
+   ],
+   "d": 2,
+   "x": "Tormoz qismlari g‘ildirakka ishqalanib, uni to‘xtatadi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_19",
+   "t": "choice",
+   "q": "Qaysi biri ishqalanishni kamaytiradi?",
+   "a": "Moylash",
+   "w": [
+    "Qum sepish",
+    "Sirtni g‘adir-budur qilish",
+    "Rezina tagcharm"
+   ],
+   "d": 2,
+   "x": "Moy sirtlar orasida sirpanchiq qatlam hosil qiladi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_20",
+   "t": "choice",
+   "q": "Qaysi misolda kuch jismning harakat yo‘nalishini o‘zgartirdi?",
+   "a": "To‘p devorga urilib qaytdi",
+   "w": [
+    "Kitob stolda yotibdi",
+    "Rasm devorda osilgan",
+    "Tosh yerda turibdi"
+   ],
+   "d": 2,
+   "x": "Devorning ta’siri to‘p yo‘nalishini teskarisiga o‘zgartirdi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_21",
+   "t": "tf",
+   "q": "Ishqalanish har doim zararli.",
+   "a": false,
+   "d": 2,
+   "x": "Ishqalanish bo‘lmasa, yura olmasdik, mashina ham tormoz bera olmasdi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_22",
+   "t": "match",
+   "q": "Misolni kuch turi bilan juftlang",
+   "pairs": [
+    [
+     "Olma pastga tushdi",
+     "og‘irlik kuchi"
+    ],
+    [
+     "Chana qorda sekinlab to‘xtadi",
+     "ishqalanish kuchi"
+    ],
+    [
+     "Batut bolani yuqoriga otdi",
+     "elastiklik kuchi"
+    ],
+    [
+     "Mix magnitga yopishdi",
+     "magnit kuchi"
+    ],
+    [
+     "Bola to‘pni tepdi",
+     "muskul kuchi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kuch",
+    "jismning",
+    "tezligini",
+    "o‘zgartiradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_24",
+   "t": "choice",
+   "q": "Qaysi holatda ishqalanish foydali?",
+   "a": "Poyabzal tagi yerga ilashganda",
+   "w": [
+    "Mashina qismlari yeyilganda",
+    "Chana og‘ir sirpanganda",
+    "Eshik g‘ichirlaganda"
+   ],
+   "d": 3,
+   "x": "Ishqalanish tufayli oyog‘imiz sirpanmaydi va yura olamiz."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_25",
+   "t": "choice",
+   "q": "Og‘irlik kuchi qaysi tomonga yo‘nalgan?",
+   "a": "Pastga, Yer markaziga",
+   "w": [
+    "Yuqoriga",
+    "Chapga",
+    "O‘ngga"
+   ],
+   "d": 3,
+   "x": "Yer barcha jismlarni o‘z markazi tomon tortadi."
+  },
+  {
+   "topic": "science_g5.forces",
+   "id": "forces_26",
+   "t": "tf",
+   "q": "Prujina qancha ko‘p cho‘zilsa, elastiklik kuchi shuncha katta bo‘ladi.",
+   "a": true,
+   "d": 3,
+   "x": "Dinamometr ham shu xossaga asoslangan."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_1",
+   "t": "choice",
+   "q": "Yerdagi energiyaning asosiy manbai nima?",
+   "a": "Quyosh",
+   "w": [
+    "Oy",
+    "Ko‘mir",
+    "Yulduzlar"
+   ],
+   "d": 1,
+   "x": "Quyosh Yerga yorug‘lik va issiqlik beradi, o‘simliklar shu energiya bilan o‘sadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_2",
+   "t": "choice",
+   "q": "Qaysi biri qayta tiklanadigan energiya manbai?",
+   "a": "Shamol",
+   "w": [
+    "Ko‘mir",
+    "Neft",
+    "Tabiiy gaz"
+   ],
+   "d": 1,
+   "x": "Shamol tugamaydi, u doimo qayta paydo bo‘ladi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_3",
+   "t": "choice",
+   "q": "Qaysi biri tiklanmaydigan energiya manbai?",
+   "a": "Neft",
+   "w": [
+    "Quyosh",
+    "Shamol",
+    "Oqar suv"
+   ],
+   "d": 1,
+   "x": "Neft zaxiralari tugashi mumkin."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_4",
+   "t": "choice",
+   "q": "Quyosh paneli Quyosh nurini qanday energiyaga aylantiradi?",
+   "a": "Elektr",
+   "w": [
+    "Tovush",
+    "Kimyoviy",
+    "Magnit"
+   ],
+   "d": 1,
+   "x": "Quyosh panellari uylarni elektr bilan ta’minlaydi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_5",
+   "t": "choice",
+   "q": "Qaysi modda issiqlikni yaxshi o‘tkazadi?",
+   "a": "Mis",
+   "w": [
+    "Yog‘och",
+    "Plastmassa",
+    "Jun"
+   ],
+   "d": 1,
+   "x": "Metallar issiqlikni yaxshi o‘tkazadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_6",
+   "t": "choice",
+   "q": "Shamol generatori nima ishlab chiqaradi?",
+   "a": "Elektr energiya",
+   "w": [
+    "Toza suv",
+    "Yoqilg‘i",
+    "Kislorod"
+   ],
+   "d": 1,
+   "x": "Shamol parraklarni aylantiradi, generator elektr ishlab chiqaradi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_7",
+   "t": "choice",
+   "q": "Issiq choyga temir qoshiq solinsa, qoshiq dastasi qanday bo‘ladi?",
+   "a": "Isib qoladi",
+   "w": [
+    "Sovib qoladi",
+    "Muzlaydi",
+    "O‘zgarmaydi"
+   ],
+   "d": 1,
+   "x": "Temir issiqlikni yaxshi o‘tkazadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_8",
+   "t": "choice",
+   "q": "Energiyani tejash uchun nima qilamiz?",
+   "a": "Keraksiz chiroqni o‘chiramiz",
+   "w": [
+    "Chiroqni kun bo‘yi yoqib qo‘yamiz",
+    "Televizorni ochiq qoldiramiz",
+    "Muzlatgich eshigini ochiq qo‘yamiz"
+   ],
+   "d": 1,
+   "x": "Tejalgan elektr — tejalgan tabiiy boylik."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_9",
+   "t": "tf",
+   "q": "Metallar issiqlikni yaxshi o‘tkazadi.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun qozon va choynaklar metalldan yasaladi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_10",
+   "t": "tf",
+   "q": "Ko‘mir — qayta tiklanadigan energiya manbai.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘mir millionlab yillar davomida hosil bo‘lgan, u tugab qolishi mumkin."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_11",
+   "t": "tf",
+   "q": "Yugurayotgan bolada harakat energiyasi bor.",
+   "a": true,
+   "d": 1,
+   "x": "Harakatlanayotgan har bir jismda harakat energiyasi bor."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_12",
+   "t": "choice",
+   "q": "Lampochkada elektr energiya nimaga aylanadi?",
+   "a": "Yorug‘lik va issiqlikka",
+   "w": [
+    "Tovush va suvga",
+    "Faqat sovuqqa",
+    "Magnitga"
+   ],
+   "d": 2,
+   "x": "Yongan lampochka yorug‘lik beradi va qiziydi.",
+   "e": "💡"
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_13",
+   "t": "choice",
+   "q": "Suv elektr stansiyasi qaysi energiyadan foydalanadi?",
+   "a": "Oqar suv energiyasidan",
+   "w": [
+    "Ko‘mir energiyasidan",
+    "Neft energiyasidan",
+    "Oy nuridan"
+   ],
+   "d": 2,
+   "x": "Oqayotgan suv turbinani aylantiradi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_14",
+   "t": "choice",
+   "q": "Oziq-ovqatda qanday energiya saqlanadi?",
+   "a": "Kimyoviy",
+   "w": [
+    "Elektr",
+    "Magnit",
+    "Tovush"
+   ],
+   "d": 2,
+   "x": "Ovqatdagi kimyoviy energiya tanamizga kuch beradi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_15",
+   "t": "choice",
+   "q": "Qozon dastasi nima uchun yog‘ochdan yasaladi?",
+   "a": "Yog‘och issiqlikni yomon o‘tkazadi",
+   "w": [
+    "Yog‘och og‘ir",
+    "Yog‘och yaltiraydi",
+    "Yog‘och issiqlikni yaxshi o‘tkazadi"
+   ],
+   "d": 2,
+   "x": "Yog‘och dasta qizimaydi va qo‘lni kuydirmaydi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_16",
+   "t": "choice",
+   "q": "Qishda jun kiyim nima uchun issiq tutadi?",
+   "a": "Jun issiqlikni yomon o‘tkazadi",
+   "w": [
+    "Jun o‘zi issiqlik chiqaradi",
+    "Jun Quyoshdan quvvat oladi",
+    "Jun elektr o‘tkazadi"
+   ],
+   "d": 2,
+   "x": "Jun va uning orasidagi havo tana issiqligini tashqariga chiqarmaydi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_17",
+   "t": "choice",
+   "q": "Quyosh va shamol energiyasi nima uchun foydali?",
+   "a": "Tugamaydi va havoni ifloslamaydi",
+   "w": [
+    "Tutun chiqaradi",
+    "Faqat kechasi ishlaydi",
+    "Tez tugab qoladi"
+   ],
+   "d": 2,
+   "x": "Ular qayta tiklanadigan va toza energiya manbalari."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_18",
+   "t": "choice",
+   "q": "Xonada issiq havo qayerda to‘planadi?",
+   "a": "Shiftga yaqin joyda",
+   "w": [
+    "Pol yaqinida",
+    "Deraza tagida",
+    "Stol ostida"
+   ],
+   "d": 2,
+   "x": "Issiq havo yengil, u yuqoriga ko‘tariladi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_19",
+   "t": "choice",
+   "q": "Qaysi modda issiqlikni yomon o‘tkazadi?",
+   "a": "Plastmassa",
+   "w": [
+    "Temir",
+    "Alyuminiy",
+    "Mis"
+   ],
+   "d": 2,
+   "x": "Plastmassa, yog‘och, jun — issiqlikni yomon o‘tkazadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_20",
+   "t": "choice",
+   "q": "Benzinli avtomobil qaysi energiya hisobiga yuradi?",
+   "a": "Yoqilg‘ining kimyoviy energiyasi",
+   "w": [
+    "Oy nuri",
+    "Tovush energiyasi",
+    "Magnit energiyasi"
+   ],
+   "d": 2,
+   "x": "Benzin yonganda kimyoviy energiya harakat energiyasiga aylanadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Lampochka",
+    "elektr",
+    "energiyani",
+    "yorug‘likka",
+    "aylantiradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_22",
+   "t": "choice",
+   "q": "Quyosh issiqligi Yerga qanday yetib keladi?",
+   "a": "Nurlanish orqali",
+   "w": [
+    "Havo oqimi orqali",
+    "Suv orqali",
+    "Simlar orqali"
+   ],
+   "d": 3,
+   "x": "Quyosh bilan Yer orasida havo yo‘q, issiqlik nurlar orqali keladi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_23",
+   "t": "choice",
+   "q": "Termos devorlari orasidagi bo‘shliq nima uchun kerak?",
+   "a": "Issiqlik tashqariga chiqmasligi uchun",
+   "w": [
+    "Termos yengil bo‘lishi uchun",
+    "Chiroyli ko‘rinishi uchun",
+    "Choy tez sovishi uchun"
+   ],
+   "d": 3,
+   "x": "Havosiz bo‘shliq issiqlikni deyarli o‘tkazmaydi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_24",
+   "t": "tf",
+   "q": "Energiya yo‘qolmaydi, bir turdan boshqasiga aylanadi.",
+   "a": true,
+   "d": 3,
+   "x": "Masalan, ventilyatorda elektr energiya harakat energiyasiga aylanadi."
+  },
+  {
+   "topic": "science_g5.energy",
+   "id": "energy_25",
+   "t": "match",
+   "q": "Qurilmani energiya aylanishi bilan juftlang",
+   "pairs": [
+    [
+     "Lampochka",
+     "elektr → yorug‘lik"
+    ],
+    [
+     "Ventilyator",
+     "elektr → harakat"
+    ],
+    [
+     "Quyosh paneli",
+     "yorug‘lik → elektr"
+    ],
+    [
+     "Batareya",
+     "kimyoviy → elektr"
+    ],
+    [
+     "Elektr choynak",
+     "elektr → issiqlik"
+    ]
+   ],
+   "d": 3
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_1",
+   "t": "choice",
+   "q": "Qaysi biri tabiiy yorug‘lik manbai?",
+   "a": "Quyosh",
+   "w": [
+    "Lampochka",
+    "Fonar",
+    "Televizor"
+   ],
+   "d": 1,
+   "x": "Quyoshni inson yaratmagan — u tabiiy manba."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_2",
+   "t": "choice",
+   "q": "Qaysi biri sun’iy yorug‘lik manbai?",
+   "a": "Lampochka",
+   "w": [
+    "Quyosh",
+    "Yulduz",
+    "Chaqmoq"
+   ],
+   "d": 1,
+   "x": "Lampochkani inson yaratgan."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_3",
+   "t": "choice",
+   "q": "Yorug‘lik qanday tarqaladi?",
+   "a": "To‘g‘ri chiziq bo‘ylab",
+   "w": [
+    "Aylana bo‘ylab",
+    "Zigzag bo‘ylab",
+    "Faqat pastga"
+   ],
+   "d": 1,
+   "x": "Shuning uchun yorug‘lik to‘siq ortiga o‘tmaydi va soya hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_4",
+   "t": "choice",
+   "q": "Qaysi jism shaffof?",
+   "a": "Deraza oynasi",
+   "w": [
+    "Yog‘och taxta",
+    "Temir plastinka",
+    "G‘isht"
+   ],
+   "d": 1,
+   "x": "Toza shisha yorug‘likni to‘liq o‘tkazadi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_5",
+   "t": "choice",
+   "q": "Yorug‘likni eng yaxshi qaytaradigan narsa?",
+   "a": "Ko‘zgu",
+   "w": [
+    "Qora mato",
+    "Yog‘och",
+    "Tuproq"
+   ],
+   "d": 1,
+   "x": "Ko‘zgu silliq va yaltiroq, u yorug‘likni yaxshi qaytaradi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_6",
+   "t": "choice",
+   "q": "Tovush qanday hosil bo‘ladi?",
+   "a": "Jismlar tebranganda",
+   "w": [
+    "Jismlar muzlaganda",
+    "Jismlar bo‘yalganda",
+    "Jismlar qorayganda"
+   ],
+   "d": 1,
+   "x": "Tebranayotgan jism atrofidagi havoni tebratadi.",
+   "e": "🔊"
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_7",
+   "t": "choice",
+   "q": "Tog‘da baqirganda ovozimiz qaytib eshitiladi. Bu nima?",
+   "a": "Aks-sado",
+   "w": [
+    "Chaqmoq",
+    "Kamalak",
+    "Soya"
+   ],
+   "d": 1,
+   "x": "Tovush qoyaga urilib, orqaga qaytdi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_8",
+   "t": "choice",
+   "q": "Gitara tori chertilganda nima uchun ovoz chiqadi?",
+   "a": "Tor tebranadi",
+   "w": [
+    "Tor qiziydi",
+    "Tor yorug‘lik chiqaradi",
+    "Tor uzayadi"
+   ],
+   "d": 1,
+   "x": "Tebranayotgan tor tovush hosil qiladi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_9",
+   "t": "choice",
+   "q": "Qattiq shovqin nimaga zarar?",
+   "a": "Eshitish qobiliyatiga",
+   "w": [
+    "Sochga",
+    "Tirnoqqa",
+    "Ko‘z rangiga"
+   ],
+   "d": 1,
+   "x": "Qattiq shovqin quloqni charchatadi va eshitishni susaytiradi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_10",
+   "t": "tf",
+   "q": "Tovush suvda ham tarqaladi.",
+   "a": true,
+   "d": 1,
+   "x": "Baliqlar va delfinlar suvdagi tovushlarni eshitadi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_11",
+   "t": "tf",
+   "q": "Deraza oynasi yorug‘likni o‘tkazadi.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun xonaga kunduzi yorug‘lik kiradi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_12",
+   "t": "choice",
+   "q": "Soya qachon hosil bo‘ladi?",
+   "a": "Noshaffof jism yorug‘likni to‘sganda",
+   "w": [
+    "Yorug‘lik ko‘payganda",
+    "Shaffof shisha oldida",
+    "Chiroq o‘chganda"
+   ],
+   "d": 2,
+   "x": "Yorug‘lik to‘g‘ri tarqaladi va jism ortiga o‘ta olmaydi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_13",
+   "t": "choice",
+   "q": "Tushda soya qanday bo‘ladi?",
+   "a": "Eng qisqa",
+   "w": [
+    "Eng uzun",
+    "Juda uzun",
+    "Kechqurungidan uzunroq"
+   ],
+   "d": 2,
+   "x": "Tushda Quyosh eng baland turadi, soya eng qisqa bo‘ladi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_14",
+   "t": "choice",
+   "q": "Tovush qayerda tarqalmaydi?",
+   "a": "Bo‘shliqda (vakuumda)",
+   "w": [
+    "Havoda",
+    "Suvda",
+    "Temirda"
+   ],
+   "d": 2,
+   "x": "Tovushni tarqatish uchun modda zarrachalari kerak."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_15",
+   "t": "choice",
+   "q": "Qaysi jism yarim shaffof?",
+   "a": "Xira shisha",
+   "w": [
+    "Toza deraza oynasi",
+    "Temir eshik",
+    "G‘isht devor"
+   ],
+   "d": 2,
+   "x": "Xira shisha yorug‘likni o‘tkazadi, lekin narsalar aniq ko‘rinmaydi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_16",
+   "t": "tf",
+   "q": "Oy — yorug‘lik manbai.",
+   "a": false,
+   "d": 2,
+   "x": "Oy o‘zidan nur chiqarmaydi, Quyosh nurini qaytaradi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_17",
+   "t": "tf",
+   "q": "Kosmosda tovush eshitilmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Kosmosda havo yo‘q, tovush esa bo‘shliqda tarqalmaydi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_18",
+   "t": "match",
+   "q": "Tushunchani izohi bilan juftlang",
+   "pairs": [
+    [
+     "Soya",
+     "yorug‘lik tushmagan joy"
+    ],
+    [
+     "Aks-sado",
+     "qaytgan tovush"
+    ],
+    [
+     "Ko‘zgu",
+     "yorug‘likni qaytaradi"
+    ],
+    [
+     "Tebranish",
+     "tovush manbai"
+    ],
+    [
+     "Vakuum",
+     "havosiz bo‘shliq"
+    ],
+    [
+     "Kamalak",
+     "yorug‘likning ranglarga ajralishi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_19",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tovush",
+    "jismlarning",
+    "tebranishidan",
+    "hosil",
+    "bo‘ladi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_20",
+   "t": "choice",
+   "q": "Momaqaldiroqda nima uchun avval chaqmoq ko‘rinadi, keyin gumburlash eshitiladi?",
+   "a": "Yorug‘lik tovushdan tezroq",
+   "w": [
+    "Tovush yorug‘likdan tezroq",
+    "Chaqmoq yaqinroqda chaqadi",
+    "Quloq ko‘zdan sekin ishlaydi"
+   ],
+   "d": 3,
+   "x": "Yorug‘lik juda tez tarqaladi, tovush esa undan ancha sekin."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_21",
+   "t": "choice",
+   "q": "Oq yorug‘lik prizmadan o‘tganda nima hosil bo‘ladi?",
+   "a": "Kamalak ranglari",
+   "w": [
+    "Qora soya",
+    "Tovush",
+    "Issiq bug‘"
+   ],
+   "d": 3,
+   "x": "Oq yorug‘lik turli ranglar aralashmasidan iborat."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_22",
+   "t": "choice",
+   "q": "Qaysi hayvon aks-sado yordamida qorong‘ida mo‘ljal oladi?",
+   "a": "Ko‘rshapalak",
+   "w": [
+    "Tovuq",
+    "Sigir",
+    "Toshbaqa"
+   ],
+   "d": 3,
+   "x": "Ko‘rshapalak tovush chiqaradi va qaytgan aks-sadoni eshitib yo‘l topadi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_23",
+   "t": "tf",
+   "q": "Tovush qattiq jismlarda havodagiga qaraganda tezroq tarqaladi.",
+   "a": true,
+   "d": 3,
+   "x": "Qattiq jismda zarrachalar zich joylashgani uchun tebranish tez uzatiladi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_24",
+   "t": "choice",
+   "q": "Yozda qora kiyim nima uchun ko‘proq qiziydi?",
+   "a": "Qora rang yorug‘likni yutadi",
+   "w": [
+    "Qora rang yorug‘likni qaytaradi",
+    "Qora mato og‘ir",
+    "Qora rang sovuq"
+   ],
+   "d": 3,
+   "x": "Oq rang yorug‘likni qaytaradi, qora esa yutib, qiziydi."
+  },
+  {
+   "topic": "science_g5.light_sound",
+   "id": "light_sound_25",
+   "t": "choice",
+   "q": "Chiroq jismga yaqinlashtirilsa, devordagi soya qanday o‘zgaradi?",
+   "a": "Kattalashadi",
+   "w": [
+    "Kichrayadi",
+    "Yo‘qoladi",
+    "Rangi o‘zgaradi"
+   ],
+   "d": 3,
+   "x": "Chiroq yaqin bo‘lsa, jism yorug‘likning ko‘proq qismini to‘sadi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_1",
+   "t": "choice",
+   "q": "Magnit qaysi jismni o‘ziga tortadi?",
+   "a": "Temir mix",
+   "w": [
+    "Yog‘och qalam",
+    "Qog‘oz",
+    "Shisha stakan"
+   ],
+   "d": 1,
+   "x": "Temir magnitga tortiladi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_2",
+   "t": "choice",
+   "q": "Magnitning nechta qutbi bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "Shimoliy (N) va janubiy (S) qutb."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_3",
+   "t": "choice",
+   "q": "Magnitning shimoliy va janubiy qutblari yaqinlashtirilsa nima bo‘ladi?",
+   "a": "Tortishadi",
+   "w": [
+    "Itarishadi",
+    "Hech narsa bo‘lmaydi",
+    "Eriydi"
+   ],
+   "d": 1,
+   "x": "Har xil qutblar bir-birini tortadi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_4",
+   "t": "choice",
+   "q": "Elektr zanjirida tok manbai qaysi?",
+   "a": "Batareya",
+   "w": [
+    "Lampochka",
+    "Kalit",
+    "Sim"
+   ],
+   "d": 1,
+   "x": "Batareya zanjirga elektr energiya beradi.",
+   "e": "🔋"
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_5",
+   "t": "choice",
+   "q": "Zanjirni ulash va uzish uchun nima kerak?",
+   "a": "Kalit",
+   "w": [
+    "Lampochka",
+    "Batareya",
+    "Rezina"
+   ],
+   "d": 1,
+   "x": "Kalit yordamida chiroqni yoqamiz va o‘chiramiz."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_6",
+   "t": "choice",
+   "q": "Qaysi modda elektr tokini yaxshi o‘tkazadi?",
+   "a": "Mis",
+   "w": [
+    "Rezina",
+    "Plastmassa",
+    "Shisha"
+   ],
+   "d": 1,
+   "x": "Shuning uchun elektr simlari misdan yasaladi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_7",
+   "t": "choice",
+   "q": "Qaysi modda izolyator?",
+   "a": "Rezina",
+   "w": [
+    "Mis",
+    "Alyuminiy",
+    "Temir"
+   ],
+   "d": 1,
+   "x": "Rezina elektr tokini o‘tkazmaydi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_8",
+   "t": "choice",
+   "q": "Uzilib tushgan elektr simini ko‘rsangiz nima qilasiz?",
+   "a": "Yaqinlashmay, kattalarga aytaman",
+   "w": [
+    "Qo‘lim bilan olaman",
+    "Tayoq bilan o‘ynayman",
+    "Ustidan sakrab o‘taman"
+   ],
+   "d": 1,
+   "x": "Uzilgan sim juda xavfli, unga yaqinlashmaslik kerak."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_9",
+   "t": "choice",
+   "q": "Magnit bilan qumdan nimani ajratib olish mumkin?",
+   "a": "Temir qipig‘ini",
+   "w": [
+    "Tuzni",
+    "Shakarni",
+    "Suvni"
+   ],
+   "d": 1,
+   "x": "Faqat temir qipig‘i magnitga tortiladi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_10",
+   "t": "tf",
+   "q": "Magnitning bir xil qutblari bir-birini itaradi.",
+   "a": true,
+   "d": 1,
+   "x": "N va N yoki S va S qutblar itarishadi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_11",
+   "t": "tf",
+   "q": "Ho‘l qo‘l bilan rozetkaga tegish xavfli.",
+   "a": true,
+   "d": 1,
+   "x": "Nam teri tokni yaxshiroq o‘tkazadi, tok urishi mumkin."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_12",
+   "t": "choice",
+   "q": "Kompas mili nima uchun doim bir yo‘nalishni ko‘rsatadi?",
+   "a": "Yer katta magnit",
+   "w": [
+    "Kompas batareyada ishlaydi",
+    "Shamol buradi",
+    "Quyosh tortadi"
+   ],
+   "d": 2,
+   "x": "Kompas mili — kichik magnit, u Yer magnitiga qarab buriladi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_13",
+   "t": "choice",
+   "q": "Elektr simlari nima uchun plastmassa bilan qoplanadi?",
+   "a": "Tok urmasligi uchun",
+   "w": [
+    "Chiroyli bo‘lishi uchun",
+    "Tok tezroq o‘tishi uchun",
+    "Og‘ir bo‘lishi uchun"
+   ],
+   "d": 2,
+   "x": "Plastmassa — izolyator, u bizni tokdan himoya qiladi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_14",
+   "t": "choice",
+   "q": "Kalit ochilsa (zanjir uzilsa), lampochka bilan nima bo‘ladi?",
+   "a": "O‘chadi",
+   "w": [
+    "Yorqinroq yonadi",
+    "Rangi o‘zgaradi",
+    "Kattalashadi"
+   ],
+   "d": 2,
+   "x": "Uzilgan zanjirda tok o‘tmaydi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_15",
+   "t": "choice",
+   "q": "Qaysi juftlikning ikkalasi ham magnitga tortiladi?",
+   "a": "Temir mix va skrepka",
+   "w": [
+    "Mis sim va qog‘oz",
+    "Plastmassa va shisha",
+    "Yog‘och va rezina"
+   ],
+   "d": 2,
+   "x": "Mix va skrepka temirdan (po‘latdan) yasalgan."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_16",
+   "t": "choice",
+   "q": "Tabiatdagi qaysi hodisa elektr bilan bog‘liq?",
+   "a": "Chaqmoq",
+   "w": [
+    "Kamalak",
+    "Shudring",
+    "Tuman"
+   ],
+   "d": 2,
+   "x": "Chaqmoq — ulkan elektr uchquni."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_17",
+   "t": "tf",
+   "q": "Magnit mis simni o‘ziga tortadi.",
+   "a": false,
+   "d": 2,
+   "x": "Mis magnitga tortilmaydi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_18",
+   "t": "tf",
+   "q": "Lampochka yonishi uchun zanjir yopiq bo‘lishi kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Tok faqat uzilmagan, yopiq zanjirda oqadi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_19",
+   "t": "tf",
+   "q": "Quruq yog‘och elektr tokini yaxshi o‘tkazadi.",
+   "a": false,
+   "d": 2,
+   "x": "Quruq yog‘och — izolyator."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_20",
+   "t": "match",
+   "q": "Zanjir qismini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Batareya",
+     "tok manbai"
+    ],
+    [
+     "Lampochka",
+     "yorug‘lik beradi"
+    ],
+    [
+     "Kalit",
+     "zanjirni ulaydi va uzadi"
+    ],
+    [
+     "Sim",
+     "tokni o‘tkazadi"
+    ],
+    [
+     "Sim qoplamasi",
+     "tokdan himoya qiladi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Har",
+    "xil",
+    "qutblar",
+    "bir-birini",
+    "tortadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_22",
+   "t": "choice",
+   "q": "Magnit qayerida eng kuchli tortadi?",
+   "a": "Qutblarida",
+   "w": [
+    "O‘rtasida",
+    "Hamma joyida bir xil",
+    "Hech qayerida"
+   ],
+   "d": 3,
+   "x": "Temir qipiqlari magnit uchlariga ko‘proq yopishadi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_23",
+   "t": "choice",
+   "q": "Qaysi qurilma elektr energiyani harakatga aylantiradi?",
+   "a": "Elektr dvigatel",
+   "w": [
+    "Lampochka",
+    "Batareya",
+    "Termometr"
+   ],
+   "d": 3,
+   "x": "Elektr dvigatel ventilyator va mikserlarni aylantiradi."
+  },
+  {
+   "topic": "science_g5.magnet_electric",
+   "id": "magnet_electric_24",
+   "t": "choice",
+   "q": "Sochga ishqalangan plastmassa taroq mayda qog‘ozlarga yaqinlashtirilsa nima bo‘ladi?",
+   "a": "Qog‘ozlar taroqqa tortiladi",
+   "w": [
+    "Qog‘ozlar yonadi",
+    "Taroq eriydi",
+    "Hech narsa bo‘lmaydi"
+   ],
+   "d": 3,
+   "x": "Taroq ishqalanishdan elektrlanadi va yengil narsalarni tortadi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_1",
+   "t": "choice",
+   "q": "Yerning eng ustki qattiq qatlami nima deyiladi?",
+   "a": "Yer po‘sti",
+   "w": [
+    "Mantiya",
+    "Yadro",
+    "Atmosfera"
+   ],
+   "d": 1,
+   "x": "Biz yer po‘sti ustida yashaymiz."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_2",
+   "t": "choice",
+   "q": "Yerning markazidagi qismi nima deyiladi?",
+   "a": "Yadro",
+   "w": [
+    "Yer po‘sti",
+    "Mantiya",
+    "Litosfera"
+   ],
+   "d": 1,
+   "x": "Yadro — Yerning eng ichki, eng issiq qismi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_3",
+   "t": "choice",
+   "q": "Yerning havo qobig‘i nima deyiladi?",
+   "a": "Atmosfera",
+   "w": [
+    "Gidrosfera",
+    "Litosfera",
+    "Biosfera"
+   ],
+   "d": 1,
+   "x": "Atmosfera — Yerni o‘rab turgan havo qatlami."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_4",
+   "t": "choice",
+   "q": "Yerning suv qobig‘i nima deyiladi?",
+   "a": "Gidrosfera",
+   "w": [
+    "Atmosfera",
+    "Litosfera",
+    "Biosfera"
+   ],
+   "d": 1,
+   "x": "Okean, dengiz, daryo, ko‘l va muzliklar — gidrosfera."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_5",
+   "t": "choice",
+   "q": "Yerning tosh qobig‘i nima deyiladi?",
+   "a": "Litosfera",
+   "w": [
+    "Gidrosfera",
+    "Atmosfera",
+    "Biosfera"
+   ],
+   "d": 1,
+   "x": "Tog‘lar, toshlar, tuproq ostidagi qatlamlar — litosfera."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_6",
+   "t": "choice",
+   "q": "Tirik organizmlar tarqalgan qobiq nima deyiladi?",
+   "a": "Biosfera",
+   "w": [
+    "Litosfera",
+    "Atmosfera",
+    "Gidrosfera"
+   ],
+   "d": 1,
+   "x": "Biosfera — hayot qobig‘i."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_7",
+   "t": "choice",
+   "q": "Yer qanday shaklda?",
+   "a": "Sharsimon",
+   "w": [
+    "Yassi",
+    "Kub shaklida",
+    "Uchburchak"
+   ],
+   "d": 1,
+   "x": "Yer shar shakliga ega."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_8",
+   "t": "choice",
+   "q": "Yer po‘stining silkinishi nima deyiladi?",
+   "a": "Zilzila",
+   "w": [
+    "Kamalak",
+    "Shamol",
+    "Tuman"
+   ],
+   "d": 1,
+   "x": "Zilzilada yer po‘sti tebranadi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_9",
+   "t": "choice",
+   "q": "Yer yuzasining katta qismini nima egallaydi?",
+   "a": "Suv",
+   "w": [
+    "Cho‘l",
+    "Tog‘lar",
+    "O‘rmonlar"
+   ],
+   "d": 1,
+   "x": "Okean va dengizlar Yer yuzasining katta qismini egallaydi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_10",
+   "t": "tf",
+   "q": "Tog‘lar va toshlar litosferaga kiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Litosfera — Yerning tosh qobig‘i."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_11",
+   "t": "match",
+   "q": "Tushunchani izohi bilan juftlang",
+   "pairs": [
+    [
+     "Atmosfera",
+     "havo qobig‘i"
+    ],
+    [
+     "Gidrosfera",
+     "suv qobig‘i"
+    ],
+    [
+     "Litosfera",
+     "tosh qobig‘i"
+    ],
+    [
+     "Biosfera",
+     "hayot qobig‘i"
+    ],
+    [
+     "Yadro",
+     "Yerning markazi"
+    ],
+    [
+     "Yer po‘sti",
+     "eng yupqa ustki qatlam"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_12",
+   "t": "choice",
+   "q": "Yer po‘sti va yadro orasidagi qatlam qaysi?",
+   "a": "Mantiya",
+   "w": [
+    "Atmosfera",
+    "Gidrosfera",
+    "Biosfera"
+   ],
+   "d": 2,
+   "x": "Mantiya — yer po‘sti ostidagi o‘rta qatlam."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_13",
+   "t": "choice",
+   "q": "Eng katta okean qaysi?",
+   "a": "Tinch okeani",
+   "w": [
+    "Atlantika okeani",
+    "Hind okeani",
+    "Shimoliy Muz okeani"
+   ],
+   "d": 2,
+   "x": "Tinch okeani — Yerdagi eng katta okean."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_14",
+   "t": "choice",
+   "q": "Vulqondan otilib chiqadigan qaynoq suyuq tog‘ jinsi nima deyiladi?",
+   "a": "Lava",
+   "w": [
+    "Muz",
+    "Qum",
+    "Tuman"
+   ],
+   "d": 2,
+   "x": "Yer ostidagi magma yuzaga chiqqach, lava deyiladi.",
+   "e": "🌋"
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_15",
+   "t": "choice",
+   "q": "Qaysi biri gidrosferaga kirmaydi?",
+   "a": "Tog‘ jinslari",
+   "w": [
+    "Okeanlar",
+    "Daryolar",
+    "Muzliklar"
+   ],
+   "d": 2,
+   "x": "Tog‘ jinslari — litosferaning qismi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_16",
+   "t": "choice",
+   "q": "Litosferaga nima kiradi?",
+   "a": "Tog‘lar va toshlar",
+   "w": [
+    "Bulutlar",
+    "Daryo suvi",
+    "Havo"
+   ],
+   "d": 2,
+   "x": "Litosfera — Yerning qattiq, tosh qobig‘i."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_17",
+   "t": "choice",
+   "q": "Yer po‘sti boshqa qatlamlarga nisbatan qanday?",
+   "a": "Eng yupqa",
+   "w": [
+    "Eng qalin",
+    "Yadrodan qalin",
+    "Mantiyadan qalin"
+   ],
+   "d": 2,
+   "x": "Yer po‘sti Yer ichki qatlamlari orasida eng yupqasi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_18",
+   "t": "tf",
+   "q": "Yadro — Yerning eng issiq qismi.",
+   "a": true,
+   "d": 2,
+   "x": "Yer markaziga yaqinlashgan sari harorat oshib boradi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_19",
+   "t": "tf",
+   "q": "Yerdagi suvning ko‘p qismi chuchuk.",
+   "a": false,
+   "d": 2,
+   "x": "Yerdagi suvning katta qismi okean va dengizlardagi sho‘r suv."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_20",
+   "t": "tf",
+   "q": "Atmosfera Yerni Quyoshning zararli nurlaridan himoya qiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Havo qobig‘i hayotni zararli nurlar va sovuqdan asraydi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_21",
+   "t": "tf",
+   "q": "Tirik organizmlar havoda, suvda va tuproqda ham yashaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Shuning uchun biosfera boshqa qobiqlarning bir qismini ham qamrab oladi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yerning",
+    "havo",
+    "qobig‘i",
+    "atmosfera",
+    "deyiladi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_23",
+   "t": "choice",
+   "q": "Havodagi qaysi qatlam Quyoshning zararli ultrabinafsha nurlarini ushlab qoladi?",
+   "a": "Ozon qatlami",
+   "w": [
+    "Bulutlar qatlami",
+    "Chang qatlami",
+    "Tuman qatlami"
+   ],
+   "d": 3,
+   "x": "Ozon qatlami tiriklarni zararli nurlardan himoya qiladi."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_24",
+   "t": "choice",
+   "q": "Chuchuk suvning katta qismi qayerda?",
+   "a": "Muzliklarda",
+   "w": [
+    "Dengizlarda",
+    "Okeanlarda",
+    "Bulutlarda"
+   ],
+   "d": 3,
+   "x": "Chuchuk suvning ko‘p qismi qutblardagi va tog‘lardagi muzliklarda."
+  },
+  {
+   "topic": "science_g5.earth",
+   "id": "earth_25",
+   "t": "tf",
+   "q": "Yerning tashqi yadrosi suyuq, ichki yadrosi qattiq.",
+   "a": true,
+   "d": 3,
+   "x": "Ichki yadro juda katta bosim ostida qattiq holatda turadi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_1",
+   "t": "choice",
+   "q": "Quyosh tizimining markazida nima joylashgan?",
+   "a": "Quyosh",
+   "w": [
+    "Yer",
+    "Oy",
+    "Yupiter"
+   ],
+   "d": 1,
+   "x": "Barcha sayyoralar Quyosh atrofida aylanadi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_2",
+   "t": "choice",
+   "q": "Quyosh tizimida nechta sayyora bor?",
+   "a": "8 ta",
+   "w": [
+    "7 ta",
+    "9 ta",
+    "12 ta"
+   ],
+   "d": 1,
+   "x": "Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran, Neptun."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_3",
+   "t": "choice",
+   "q": "Eng katta sayyora qaysi?",
+   "a": "Yupiter",
+   "w": [
+    "Yer",
+    "Mars",
+    "Merkuriy"
+   ],
+   "d": 1,
+   "x": "Yupiter — Quyosh tizimidagi eng katta sayyora."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_4",
+   "t": "choice",
+   "q": "Quyoshga eng yaqin sayyora qaysi?",
+   "a": "Merkuriy",
+   "w": [
+    "Venera",
+    "Yer",
+    "Neptun"
+   ],
+   "d": 1,
+   "x": "Merkuriy — birinchi sayyora."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_5",
+   "t": "choice",
+   "q": "Qaysi sayyora “qizil sayyora” deb ataladi?",
+   "a": "Mars",
+   "w": [
+    "Venera",
+    "Yupiter",
+    "Neptun"
+   ],
+   "d": 1,
+   "x": "Mars tuprog‘i qizg‘ish rangda."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_6",
+   "t": "choice",
+   "q": "Yorqin halqalari bilan mashhur sayyora qaysi?",
+   "a": "Saturn",
+   "w": [
+    "Mars",
+    "Merkuriy",
+    "Venera"
+   ],
+   "d": 1,
+   "x": "Saturn halqalari muz va tosh bo‘laklaridan iborat."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_7",
+   "t": "choice",
+   "q": "Yer Quyoshdan nechanchi sayyora?",
+   "a": "3-sayyora",
+   "w": [
+    "1-sayyora",
+    "2-sayyora",
+    "4-sayyora"
+   ],
+   "d": 1,
+   "x": "Merkuriy, Venera, keyin Yer."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_8",
+   "t": "choice",
+   "q": "Yerning tabiiy yo‘ldoshi nima?",
+   "a": "Oy",
+   "w": [
+    "Mars",
+    "Quyosh",
+    "Venera"
+   ],
+   "d": 1,
+   "x": "Oy Yer atrofida aylanadi.",
+   "e": "🌙"
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_9",
+   "t": "tf",
+   "q": "Quyosh — yulduz.",
+   "a": true,
+   "d": 1,
+   "x": "Quyosh — bizga eng yaqin yulduz."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_10",
+   "t": "tf",
+   "q": "Hayot borligi ma’lum bo‘lgan yagona sayyora — Yer.",
+   "a": true,
+   "d": 1,
+   "x": "Boshqa sayyoralarda hozircha hayot topilmagan."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_11",
+   "t": "tf",
+   "q": "Yupiter — Quyoshga eng yaqin sayyora.",
+   "a": false,
+   "d": 1,
+   "x": "Quyoshga eng yaqini — Merkuriy, Yupiter esa beshinchi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_12",
+   "t": "tf",
+   "q": "Oy Yer atrofida aylanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Oy — Yerning yo‘ldoshi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_13",
+   "t": "choice",
+   "q": "Quyoshdan eng uzoq sayyora qaysi?",
+   "a": "Neptun",
+   "w": [
+    "Uran",
+    "Saturn",
+    "Mars"
+   ],
+   "d": 2,
+   "x": "Neptun — sakkizinchi, oxirgi sayyora."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_14",
+   "t": "choice",
+   "q": "Quyoshdan uzoqlashish tartibida Yerdan keyin qaysi sayyora keladi?",
+   "a": "Mars",
+   "w": [
+    "Venera",
+    "Yupiter",
+    "Merkuriy"
+   ],
+   "d": 2,
+   "x": "Yer — 3-, Mars — 4-sayyora."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_15",
+   "t": "choice",
+   "q": "Yupiter va Uran orasida qaysi sayyora joylashgan?",
+   "a": "Saturn",
+   "w": [
+    "Mars",
+    "Neptun",
+    "Venera"
+   ],
+   "d": 2,
+   "x": "Yupiter, Saturn, Uran — ketma-ket."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_16",
+   "t": "choice",
+   "q": "Venera va Mars orasida qaysi sayyora joylashgan?",
+   "a": "Yer",
+   "w": [
+    "Merkuriy",
+    "Yupiter",
+    "Saturn"
+   ],
+   "d": 2,
+   "x": "Venera — 2-, Yer — 3-, Mars — 4-sayyora."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_17",
+   "t": "choice",
+   "q": "Yulduzning sayyoradan farqi nima?",
+   "a": "Yulduz o‘zi nur sochadi",
+   "w": [
+    "Sayyora o‘zi nur sochadi",
+    "Yulduzlar Yer atrofida aylanadi",
+    "Farqi yo‘q"
+   ],
+   "d": 2,
+   "x": "Sayyoralar yulduz nurini qaytarib ko‘rinadi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_18",
+   "t": "choice",
+   "q": "Dumli osmon jismi nima deyiladi?",
+   "a": "Kometa",
+   "w": [
+    "Sayyora",
+    "Yo‘ldosh",
+    "Yulduz"
+   ],
+   "d": 2,
+   "x": "Kometa Quyoshga yaqinlashganda uzun yorug‘ dum hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_19",
+   "t": "match",
+   "q": "Sayyorani belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Merkuriy",
+     "Quyoshga eng yaqin"
+    ],
+    [
+     "Yer",
+     "hayot bor"
+    ],
+    [
+     "Mars",
+     "qizil sayyora"
+    ],
+    [
+     "Yupiter",
+     "eng katta"
+    ],
+    [
+     "Saturn",
+     "yorqin halqalari bor"
+    ],
+    [
+     "Neptun",
+     "Quyoshdan eng uzoq"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_20",
+   "t": "order",
+   "q": "Sayyoralarni Quyoshdan boshlab tartiblang",
+   "parts": [
+    "Merkuriy",
+    "Venera",
+    "Yer",
+    "Mars"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Merkuriy, Venera, Yer, Mars — Quyoshga yaqin sayyoralar."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_21",
+   "t": "order",
+   "q": "Sayyoralarni Quyoshdan boshlab tartiblang",
+   "parts": [
+    "Yupiter",
+    "Saturn",
+    "Uran",
+    "Neptun"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Yupiter, Saturn, Uran, Neptun — ulkan sayyoralar."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_22",
+   "t": "choice",
+   "q": "Mars va Yupiter orasida nima joylashgan?",
+   "a": "Asteroidlar belbog‘i",
+   "w": [
+    "Oy",
+    "Quyosh",
+    "Saturn halqasi"
+   ],
+   "d": 3,
+   "x": "U yerda son-sanoqsiz tosh bo‘laklari — asteroidlar aylanadi."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_23",
+   "t": "choice",
+   "q": "Pluton hozir qanday osmon jismi hisoblanadi?",
+   "a": "Mitti sayyora",
+   "w": [
+    "Katta sayyora",
+    "Yulduz",
+    "Kometa"
+   ],
+   "d": 3,
+   "x": "Olimlar Plutonni mitti sayyoralar qatoriga kiritgan."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_24",
+   "t": "choice",
+   "q": "Qaysi sayyoralar ulkan sayyoralar deyiladi?",
+   "a": "Yupiter, Saturn, Uran, Neptun",
+   "w": [
+    "Merkuriy, Venera, Yer, Mars",
+    "Yer, Oy, Mars, Venera",
+    "Merkuriy, Mars, Uran, Yer"
+   ],
+   "d": 3,
+   "x": "Bu to‘rt sayyora Yerdan ko‘p marta katta."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_25",
+   "t": "choice",
+   "q": "Quyosh nuri Yerga taxminan qancha vaqtda yetib keladi?",
+   "a": "8 minutda",
+   "w": [
+    "1 sekundda",
+    "1 kunda",
+    "1 yilda"
+   ],
+   "d": 3,
+   "x": "Yorug‘lik juda tez bo‘lsa ham, Quyoshgacha masofa juda katta."
+  },
+  {
+   "topic": "science_g5.solar",
+   "id": "solar_26",
+   "t": "choice",
+   "q": "Eng issiq sayyora qaysi?",
+   "a": "Venera",
+   "w": [
+    "Merkuriy",
+    "Mars",
+    "Neptun"
+   ],
+   "d": 3,
+   "x": "Veneraning qalin atmosferasi issiqlikni ushlab turadi, shuning uchun u Merkuriydan ham issiq."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_1",
+   "t": "choice",
+   "q": "Tirik organizmlar nimadan tuzilgan?",
+   "a": "Hujayralardan",
+   "w": [
+    "Toshlardan",
+    "Tomchilardan",
+    "Qumdan"
+   ],
+   "d": 1,
+   "x": "Hujayra — tiriklikning eng kichik birligi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_2",
+   "t": "choice",
+   "q": "Hujayrani ko‘rish uchun qaysi asbob kerak?",
+   "a": "Mikroskop",
+   "w": [
+    "Teleskop",
+    "Termometr",
+    "Tarozi"
+   ],
+   "d": 1,
+   "x": "Ko‘pchilik hujayralar juda mayda, ular faqat mikroskopda ko‘rinadi.",
+   "e": "🔬"
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_3",
+   "t": "choice",
+   "q": "Hujayra hayotini qaysi qism boshqaradi?",
+   "a": "Yadro",
+   "w": [
+    "Vakuola",
+    "Hujayra devori",
+    "Sitoplazma"
+   ],
+   "d": 1,
+   "x": "Yadro hujayraning “boshqaruv markazi”."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_4",
+   "t": "choice",
+   "q": "Qaysi biri mikroskop qismi EMAS?",
+   "a": "Menzurka",
+   "w": [
+    "Okulyar",
+    "Obyektiv",
+    "Tubus"
+   ],
+   "d": 1,
+   "x": "Menzurka — suyuqlik hajmini o‘lchaydigan idish."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_5",
+   "t": "choice",
+   "q": "Hujayrani tashqaridan o‘rab turuvchi yupqa parda nima?",
+   "a": "Membrana",
+   "w": [
+    "Yadro",
+    "Sitoplazma",
+    "Vakuola"
+   ],
+   "d": 1,
+   "x": "Membrana hujayra ichini tashqi muhitdan ajratib turadi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_6",
+   "t": "choice",
+   "q": "Kichik narsalarni biroz kattalashtirib ko‘rsatuvchi oddiy asbob?",
+   "a": "Lupa",
+   "w": [
+    "Teleskop",
+    "Termometr",
+    "Dinamometr"
+   ],
+   "d": 1,
+   "x": "Lupa bir necha marta, mikroskop esa yuzlab marta kattalashtiradi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_7",
+   "t": "tf",
+   "q": "O‘simlik hujayrasida qattiq hujayra devori bor.",
+   "a": true,
+   "d": 1,
+   "x": "Hujayra devori o‘simlikka mustahkamlik beradi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_8",
+   "t": "tf",
+   "q": "Hamma tirik organizmlar hujayralardan tuzilgan.",
+   "a": true,
+   "d": 1,
+   "x": "Bakteriyadan tortib odamgacha — hamma hujayralardan iborat."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_9",
+   "t": "tf",
+   "q": "Hujayralarni oddiy ko‘z bilan osongina ko‘rish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘pchilik hujayralar juda kichik, ularni mikroskopsiz ko‘rib bo‘lmaydi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Barcha",
+    "tirik",
+    "organizmlar",
+    "hujayralardan",
+    "tuzilgan"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_11",
+   "t": "choice",
+   "q": "O‘simlik hujayrasiga yashil rang beradigan qism?",
+   "a": "Xloroplastlar",
+   "w": [
+    "Yadro",
+    "Vakuola",
+    "Membrana"
+   ],
+   "d": 2,
+   "x": "Xloroplastlarda yashil modda — xlorofill bor."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_12",
+   "t": "choice",
+   "q": "Qaysi qism faqat o‘simlik hujayrasida bor?",
+   "a": "Xloroplast",
+   "w": [
+    "Yadro",
+    "Sitoplazma",
+    "Membrana"
+   ],
+   "d": 2,
+   "x": "Hayvon hujayrasida xloroplast bo‘lmaydi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_13",
+   "t": "choice",
+   "q": "Mikroskopning ko‘z qo‘yib qaraladigan qismi?",
+   "a": "Okulyar",
+   "w": [
+    "Obyektiv",
+    "Buyum stolchasi",
+    "Vint"
+   ],
+   "d": 2,
+   "x": "Okulyar — ko‘zga yaqin turadigan linza."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_14",
+   "t": "choice",
+   "q": "Kuzatiladigan preparat mikroskopning qayeriga qo‘yiladi?",
+   "a": "Buyum stolchasiga",
+   "w": [
+    "Okulyarga",
+    "Tubus ichiga",
+    "Vint ustiga"
+   ],
+   "d": 2,
+   "x": "Preparat buyum stolchasidagi teshik ustiga qo‘yiladi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_15",
+   "t": "choice",
+   "q": "Hujayra ichini to‘ldirib turuvchi quyuq suyuqlik?",
+   "a": "Sitoplazma",
+   "w": [
+    "Yadro",
+    "Xloroplast",
+    "Hujayra devori"
+   ],
+   "d": 2,
+   "x": "Sitoplazmada hujayraning boshqa qismlari joylashgan."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_16",
+   "t": "choice",
+   "q": "Qaysi organizm bitta hujayradan iborat?",
+   "a": "Amyoba",
+   "w": [
+    "Mushuk",
+    "Olma daraxti",
+    "Baliq"
+   ],
+   "d": 2,
+   "x": "Amyoba — bir hujayrali organizm."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_17",
+   "t": "choice",
+   "q": "Maktabda mikroskopda ko‘pincha qaysi hujayralar kuzatiladi?",
+   "a": "Piyoz po‘sti hujayralari",
+   "w": [
+    "Tosh zarralari",
+    "Temir qipig‘i",
+    "Qum donachasi"
+   ],
+   "d": 2,
+   "x": "Piyoz po‘sti yupqa bo‘lgani uchun hujayralari yaxshi ko‘rinadi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_18",
+   "t": "choice",
+   "q": "Mikroskopni qanday ko‘tarish kerak?",
+   "a": "Ikki qo‘llab, ehtiyotkorlik bilan",
+   "w": [
+    "Bir barmoq bilan",
+    "Okulyaridan ushlab",
+    "Silkitib"
+   ],
+   "d": 2,
+   "x": "Mikroskop — nozik asbob, uni tushirib yuborish mumkin emas."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_19",
+   "t": "choice",
+   "q": "O‘simlik va hayvon hujayrasida qaysi qism ikkalasida ham bor?",
+   "a": "Yadro",
+   "w": [
+    "Xloroplast",
+    "Hujayra devori",
+    "Katta vakuola"
+   ],
+   "d": 2,
+   "x": "Yadro, sitoplazma va membrana ikkala hujayrada ham bor."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_20",
+   "t": "tf",
+   "q": "Hayvon hujayrasida xloroplast bo‘lmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Shuning uchun hayvonlar o‘zi oziq tayyorlay olmaydi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_21",
+   "t": "match",
+   "q": "Hujayra qismini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Yadro",
+     "hujayrani boshqaradi"
+    ],
+    [
+     "Membrana",
+     "hujayrani o‘rab turadi"
+    ],
+    [
+     "Sitoplazma",
+     "hujayra ichini to‘ldiradi"
+    ],
+    [
+     "Xloroplast",
+     "fotosintez qiladi"
+    ],
+    [
+     "Vakuola",
+     "hujayra shirasini saqlaydi"
+    ],
+    [
+     "Hujayra devori",
+     "o‘simlik hujayrasiga mustahkamlik beradi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_22",
+   "t": "choice",
+   "q": "Okulyar 10 marta, obyektiv 20 marta kattalashtiradi. Mikroskop necha marta kattalashtiradi?",
+   "a": "200 marta",
+   "w": [
+    "30 marta",
+    "10 marta",
+    "20 marta"
+   ],
+   "d": 3,
+   "x": "Umumiy kattalashtirish = 10 × 20 = 200 marta."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_23",
+   "t": "choice",
+   "q": "Hujayrani birinchi bo‘lib kim kuzatgan va nomlagan?",
+   "a": "Robert Guk",
+   "w": [
+    "Isaak Nyuton",
+    "Charlz Darvin",
+    "Galileo Galiley"
+   ],
+   "d": 3,
+   "x": "Robert Guk po‘kak bo‘lagini o‘zi yasagan mikroskopda kuzatib, “hujayra” deb nomlagan."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_24",
+   "t": "choice",
+   "q": "Hujayra shirasi to‘plangan qism?",
+   "a": "Vakuola",
+   "w": [
+    "Yadro",
+    "Membrana",
+    "Okulyar"
+   ],
+   "d": 3,
+   "x": "O‘simlik hujayrasida katta vakuola bo‘ladi."
+  },
+  {
+   "topic": "science_g5.cell",
+   "id": "cell_25",
+   "t": "tf",
+   "q": "Organizm hujayralarning bo‘linishi tufayli o‘sadi.",
+   "a": true,
+   "d": 3,
+   "x": "Hujayralar bo‘linib ko‘payadi, organizm kattalashadi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_1",
+   "t": "choice",
+   "q": "Qaysi biri tirik organizm belgisi?",
+   "a": "Ko‘payish",
+   "w": [
+    "Erish",
+    "Zanglash",
+    "Sinish"
+   ],
+   "d": 1,
+   "x": "Ko‘payish faqat tirik organizmlarga xos."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_2",
+   "t": "choice",
+   "q": "Fotosintez o‘simlikning qaysi qismida asosan boradi?",
+   "a": "Bargida",
+   "w": [
+    "Ildizida",
+    "Urug‘ida",
+    "Gulida"
+   ],
+   "d": 1,
+   "x": "Yashil barglarda xloroplastlar ko‘p."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_3",
+   "t": "choice",
+   "q": "Fotosintezda havoga qaysi gaz chiqariladi?",
+   "a": "Kislorod",
+   "w": [
+    "Karbonat angidrid",
+    "Azot",
+    "Vodorod"
+   ],
+   "d": 1,
+   "x": "O‘simliklar chiqargan kislorod bilan biz nafas olamiz."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_4",
+   "t": "choice",
+   "q": "Qaysi organizmlar o‘zi uchun oziq tayyorlay oladi?",
+   "a": "Yashil o‘simliklar",
+   "w": [
+    "Hayvonlar",
+    "Zamburug‘lar",
+    "Odamlar"
+   ],
+   "d": 1,
+   "x": "Yashil o‘simliklar fotosintez orqali oziq hosil qiladi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_5",
+   "t": "choice",
+   "q": "Tirik organizmni notirik jismdan qanday farqlaymiz?",
+   "a": "U nafas oladi va ko‘payadi",
+   "w": [
+    "U og‘ir bo‘ladi",
+    "U rangli bo‘ladi",
+    "U qattiq bo‘ladi"
+   ],
+   "d": 1,
+   "x": "Nafas olish, oziqlanish, o‘sish, ko‘payish — tiriklik belgilari."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_6",
+   "t": "choice",
+   "q": "Fotosintezda hosil bo‘lgan kislorod kimga kerak?",
+   "a": "Nafas oluvchi barcha tiriklarga",
+   "w": [
+    "Faqat toshlarga",
+    "Hech kimga",
+    "Faqat bulutlarga"
+   ],
+   "d": 1,
+   "x": "Odamlar, hayvonlar va o‘simliklar kislorod bilan nafas oladi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_7",
+   "t": "choice",
+   "q": "Qaysi biri tirik organizm EMAS?",
+   "a": "Tosh",
+   "w": [
+    "Bakteriya",
+    "Qo‘ziqorin",
+    "Chumoli"
+   ],
+   "d": 1,
+   "x": "Tosh nafas olmaydi, o‘smaydi va ko‘paymaydi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_8",
+   "t": "tf",
+   "q": "Fotosintez faqat yorug‘likda boradi.",
+   "a": true,
+   "d": 1,
+   "x": "Yorug‘lik — fotosintez uchun energiya manbai."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_9",
+   "t": "tf",
+   "q": "O‘simliklar nafas olmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘simliklar ham nafas oladi: kislorod yutib, karbonat angidrid chiqaradi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_10",
+   "t": "tf",
+   "q": "Hayvonlar ham, o‘simliklar ham o‘sadi.",
+   "a": true,
+   "d": 1,
+   "x": "O‘sish — barcha tiriklarga xos belgi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_11",
+   "t": "tf",
+   "q": "Qo‘ziqorin — tirik organizm.",
+   "a": true,
+   "d": 1,
+   "x": "Qo‘ziqorin o‘sadi, oziqlanadi va sporalar orqali ko‘payadi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_12",
+   "t": "choice",
+   "q": "Fotosintez uchun nima kerak?",
+   "a": "Yorug‘lik, suv, karbonat angidrid",
+   "w": [
+    "Qorong‘ilik va muz",
+    "Faqat tuproq",
+    "Kislorod va qum"
+   ],
+   "d": 2,
+   "x": "Barg yorug‘likda suv va karbonat angidriddan oziq tayyorlaydi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_13",
+   "t": "choice",
+   "q": "Fotosintezda o‘simlik havodan qaysi gazni yutadi?",
+   "a": "Karbonat angidrid",
+   "w": [
+    "Kislorod",
+    "Azot",
+    "Vodorod"
+   ],
+   "d": 2,
+   "x": "Karbonat angidrid barg ichiga kirib, oziq hosil qilishga sarflanadi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_14",
+   "t": "choice",
+   "q": "Barglarga yashil rang beradigan modda?",
+   "a": "Xlorofill",
+   "w": [
+    "Kraxmal",
+    "Shakar",
+    "Tuz"
+   ],
+   "d": 2,
+   "x": "Xlorofill xloroplastlarda joylashgan."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_15",
+   "t": "choice",
+   "q": "Fotosintezda qanday oziq modda hosil bo‘ladi?",
+   "a": "Shakar va kraxmal",
+   "w": [
+    "Tuz",
+    "Temir",
+    "Qum"
+   ],
+   "d": 2,
+   "x": "Shakar keyinchalik kraxmalga aylanib, zaxira sifatida saqlanadi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_16",
+   "t": "choice",
+   "q": "Qaysi biri bir hujayrali organizm?",
+   "a": "Bakteriya",
+   "w": [
+    "Qo‘ziqorin",
+    "Chumoli",
+    "Terak"
+   ],
+   "d": 2,
+   "x": "Bakteriya bitta hujayradan iborat va juda mayda."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_17",
+   "t": "choice",
+   "q": "O‘simlik qorong‘i xonada uzoq tursa nima bo‘ladi?",
+   "a": "Oziq tayyorlay olmay so‘liydi",
+   "w": [
+    "Tezroq o‘sadi",
+    "Ko‘proq kislorod chiqaradi",
+    "Gullab ketadi"
+   ],
+   "d": 2,
+   "x": "Yorug‘liksiz fotosintez bormaydi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_18",
+   "t": "choice",
+   "q": "O‘rmonlar nima uchun “sayyora o‘pkasi” deyiladi?",
+   "a": "Ular ko‘p kislorod chiqaradi",
+   "w": [
+    "Ular havoni isitadi",
+    "Ular karbonat angidrid chiqaradi",
+    "Ular shamol hosil qiladi"
+   ],
+   "d": 2,
+   "x": "Daraxtlar fotosintezda karbonat angidridni yutib, kislorod chiqaradi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_19",
+   "t": "tf",
+   "q": "Hayvonlar o‘zi uchun fotosintez orqali oziq tayyorlaydi.",
+   "a": false,
+   "d": 2,
+   "x": "Hayvonlar tayyor oziq bilan oziqlanadi, fotosintezni yashil o‘simliklar qiladi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_20",
+   "t": "match",
+   "q": "Tiriklik belgisini misoli bilan juftlang",
+   "pairs": [
+    [
+     "Oziqlanish",
+     "quyon sabzi yeydi"
+    ],
+    [
+     "O‘sish",
+     "nihol daraxtga aylanadi"
+    ],
+    [
+     "Ko‘payish",
+     "mushuk bolaladi"
+    ],
+    [
+     "Nafas olish",
+     "baliq jabrasi bilan kislorod oladi"
+    ],
+    [
+     "Ta’sirlanish",
+     "issiqqa tekkan qo‘l tortib olinadi"
+    ],
+    [
+     "Harakat",
+     "qush uchib ketdi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yashil",
+    "barglar",
+    "yorug‘likda",
+    "kislorod",
+    "chiqaradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_22",
+   "t": "choice",
+   "q": "Barglardagi kraxmalni qaysi modda yordamida aniqlash mumkin?",
+   "a": "Yod",
+   "w": [
+    "Tuz",
+    "Shakar",
+    "Suv"
+   ],
+   "d": 3,
+   "x": "Yod kraxmal bilan ko‘k-binafsha rangga bo‘yaladi."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_23",
+   "t": "choice",
+   "q": "Keraksiz moddalarni tanadan chiqarish nima deyiladi?",
+   "a": "Ayirish",
+   "w": [
+    "Oziqlanish",
+    "Ko‘payish",
+    "O‘sish"
+   ],
+   "d": 3,
+   "x": "Ayirish — tiriklik belgilaridan biri."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_24",
+   "t": "choice",
+   "q": "Kapalak qurtdan g‘umbakka, so‘ng kapalakka aylanadi. Bu qaysi belgi?",
+   "a": "Rivojlanish",
+   "w": [
+    "Nafas olish",
+    "Ayirish",
+    "Oziqlanish"
+   ],
+   "d": 3,
+   "x": "Organizmning shakli va tuzilishi o‘zgarib borishi — rivojlanish."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_25",
+   "t": "choice",
+   "q": "Karbonat angidrid barg ichiga qayerdan kiradi?",
+   "a": "Barg og‘izchalari orqali",
+   "w": [
+    "Ildiz tuklari orqali",
+    "Gul barglari orqali",
+    "Urug‘ orqali"
+   ],
+   "d": 3,
+   "x": "Barg sirtida gaz almashadigan juda mayda teshikchalar — og‘izchalar bor."
+  },
+  {
+   "topic": "science_g5.living",
+   "id": "living_26",
+   "t": "tf",
+   "q": "Zamburug‘lar fotosintez qilmaydi.",
+   "a": true,
+   "d": 3,
+   "x": "Zamburug‘larda xlorofill yo‘q, ular tayyor organik moddalar bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_1",
+   "t": "choice",
+   "q": "Oziq zanjirida ishlab chiqaruvchilar kimlar?",
+   "a": "Yashil o‘simliklar",
+   "w": [
+    "Yirtqichlar",
+    "O‘txo‘rlar",
+    "Zamburug‘lar"
+   ],
+   "d": 1,
+   "x": "Yashil o‘simliklar oziqni o‘zi hosil qiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_2",
+   "t": "choice",
+   "q": "Qoldiqlarni chiritadigan organizmlar kimlar?",
+   "a": "Bakteriyalar va zamburug‘lar",
+   "w": [
+    "Qushlar",
+    "Baliqlar",
+    "Daraxtlar"
+   ],
+   "d": 1,
+   "x": "Ular parchalovchilar deyiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_3",
+   "t": "choice",
+   "q": "Hayvonlar ekotizimda qaysi guruhga kiradi?",
+   "a": "Iste’molchilar",
+   "w": [
+    "Ishlab chiqaruvchilar",
+    "Parchalovchilar",
+    "Notirik tabiat"
+   ],
+   "d": 1,
+   "x": "Hayvonlar tayyor oziq iste’mol qiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_4",
+   "t": "choice",
+   "q": "Oziq zanjiri nimadan boshlanadi?",
+   "a": "Yashil o‘simlikdan",
+   "w": [
+    "Yirtqichdan",
+    "Zamburug‘dan",
+    "Hasharotdan"
+   ],
+   "d": 1,
+   "x": "Oziq zanjirining birinchi halqasi — ishlab chiqaruvchi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_5",
+   "t": "choice",
+   "q": "Oziq zanjirini to‘ldiring: ... → quyon → bo‘ri",
+   "a": "O‘t",
+   "w": [
+    "Tulki",
+    "Burgut",
+    "Qo‘ziqorin"
+   ],
+   "d": 1,
+   "x": "Quyon o‘t bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_6",
+   "t": "choice",
+   "q": "Tulki oziq zanjirida qaysi guruhga kiradi?",
+   "a": "Iste’molchi",
+   "w": [
+    "Ishlab chiqaruvchi",
+    "Parchalovchi",
+    "Notirik tabiat"
+   ],
+   "d": 1,
+   "x": "Tulki boshqa hayvonlarni yeydi — u iste’molchi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_7",
+   "t": "choice",
+   "q": "Ekotizimning notirik qismiga nima kiradi?",
+   "a": "Suv va tuproq",
+   "w": [
+    "Daraxtlar",
+    "Qushlar",
+    "Zamburug‘lar"
+   ],
+   "d": 1,
+   "x": "Suv, havo, tuproq, yorug‘lik — notirik tabiat."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_8",
+   "t": "choice",
+   "q": "Cho‘l ekotizimida yashovchi hayvon?",
+   "a": "Jayron",
+   "w": [
+    "Pingvin",
+    "Oq ayiq",
+    "Kit"
+   ],
+   "d": 1,
+   "x": "Jayron issiq cho‘l va dashtlarda yashaydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_9",
+   "t": "tf",
+   "q": "Ekotizim faqat hayvonlardan iborat.",
+   "a": false,
+   "d": 1,
+   "x": "Ekotizimga o‘simliklar, hayvonlar, zamburug‘lar, bakteriyalar hamda suv, havo, tuproq kiradi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_10",
+   "t": "tf",
+   "q": "O‘rmon — ekotizimga misol.",
+   "a": true,
+   "d": 1,
+   "x": "O‘rmonda daraxtlar, hayvonlar, zamburug‘lar tuproq, suv va havo bilan birga yashaydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Oziq",
+    "zanjiri",
+    "yashil",
+    "o‘simlikdan",
+    "boshlanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_12",
+   "t": "choice",
+   "q": "Oziq zanjirini to‘ldiring: o‘t → chigirtka → baqa → ...",
+   "a": "Ilon",
+   "w": [
+    "Bug‘doy",
+    "Sigir",
+    "Qo‘ziqorin"
+   ],
+   "d": 2,
+   "x": "Ilon baqani ovlaydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_13",
+   "t": "choice",
+   "q": "Qaysi biri tabiiy ekotizim?",
+   "a": "O‘rmon",
+   "w": [
+    "Akvarium",
+    "Bog‘",
+    "Paxta dalasi"
+   ],
+   "d": 2,
+   "x": "O‘rmonni inson yaratmagan, bog‘, dala va akvarium esa sun’iy."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_14",
+   "t": "choice",
+   "q": "Qaysi biri sun’iy ekotizim?",
+   "a": "Akvarium",
+   "w": [
+    "O‘rmon",
+    "Ko‘l",
+    "Cho‘l"
+   ],
+   "d": 2,
+   "x": "Akvariumni inson yaratadi va parvarish qiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_15",
+   "t": "choice",
+   "q": "Ko‘lda baliqlar yo‘qolib ketsa, baliqxo‘r qushlar bilan nima bo‘ladi?",
+   "a": "Ozuqasiz qoladi",
+   "w": [
+    "Ko‘payib ketadi",
+    "Hech narsa bo‘lmaydi",
+    "O‘txo‘rga aylanadi"
+   ],
+   "d": 2,
+   "x": "Ekotizimda hamma bir-biri bilan bog‘langan."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_16",
+   "t": "choice",
+   "q": "Oziq zanjirida o‘txo‘r hayvon qaysi o‘rinda turadi?",
+   "a": "O‘simlikdan keyin",
+   "w": [
+    "Zanjir boshida",
+    "Yirtqichdan keyin",
+    "Eng oxirida"
+   ],
+   "d": 2,
+   "x": "O‘txo‘r o‘simlikni yeydi, uni esa yirtqich yeydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_17",
+   "t": "choice",
+   "q": "Qo‘ziqorin ekotizimda qanday vazifa bajaradi?",
+   "a": "Qoldiqlarni parchalaydi",
+   "w": [
+    "Kislorod ishlab chiqaradi",
+    "Hayvonlarni ovlaydi",
+    "Yorug‘lik chiqaradi"
+   ],
+   "d": 2,
+   "x": "Zamburug‘lar parchalovchilar guruhiga kiradi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_18",
+   "t": "choice",
+   "q": "Ko‘l ekotizimida ishlab chiqaruvchi kim?",
+   "a": "Suv o‘tlari",
+   "w": [
+    "Baliq",
+    "Baqa",
+    "O‘rdak"
+   ],
+   "d": 2,
+   "x": "Suv o‘tlari yashil, ular fotosintez qiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_19",
+   "t": "tf",
+   "q": "Parchalovchilar tuproqni unumdor qiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Ular qoldiqlarni chiritib, mineral moddalarni tuproqqa qaytaradi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_20",
+   "t": "tf",
+   "q": "Ekotizimdagi energiyaning asosiy manbai — Quyosh.",
+   "a": true,
+   "d": 2,
+   "x": "O‘simliklar Quyosh energiyasini oziqqa aylantiradi, undan hamma foydalanadi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_21",
+   "t": "match",
+   "q": "Tushunchani izohi bilan juftlang",
+   "pairs": [
+    [
+     "Ishlab chiqaruvchi",
+     "oziqni o‘zi hosil qiladi"
+    ],
+    [
+     "Iste’molchi",
+     "tayyor oziq yeydi"
+    ],
+    [
+     "Parchalovchi",
+     "qoldiqlarni chiritadi"
+    ],
+    [
+     "Ekotizim",
+     "tiriklar va muhit birligi"
+    ],
+    [
+     "Oziq zanjiri",
+     "kim kimni yeyishi tartibi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_22",
+   "t": "choice",
+   "q": "To‘g‘ri oziq zanjirini toping",
+   "a": "Barg → qurt → chumchuq → qirg‘iy",
+   "w": [
+    "Qirg‘iy → barg → chumchuq → qurt",
+    "Chumchuq → qurt → qirg‘iy → barg",
+    "Qurt → barg → qirg‘iy → chumchuq"
+   ],
+   "d": 3,
+   "x": "Qurt barg yeydi, chumchuq qurtni, qirg‘iy esa chumchuqni ovlaydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_23",
+   "t": "choice",
+   "q": "Bir-biri bilan bog‘langan ko‘p oziq zanjirlari nima deyiladi?",
+   "a": "Oziq to‘ri",
+   "w": [
+    "Oziq qopi",
+    "Qo‘riqxona",
+    "Hayvonot bog‘i"
+   ],
+   "d": 3,
+   "x": "Bir hayvon bir necha xil oziq yeydi, shuning uchun zanjirlar to‘r hosil qiladi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_24",
+   "t": "choice",
+   "q": "O‘rmondagi bo‘rilar butunlay yo‘qolsa, dastlab nima bo‘lishi mumkin?",
+   "a": "O‘txo‘rlar ko‘payib ketadi",
+   "w": [
+    "Quyosh so‘nadi",
+    "Suv ko‘payadi",
+    "Tuproq toshga aylanadi"
+   ],
+   "d": 3,
+   "x": "O‘txo‘rlarni ovlaydigan yirtqich qolmaydi, ular ko‘payib, o‘simliklarni ko‘p yeydi."
+  },
+  {
+   "topic": "science_g5.ecosystem",
+   "id": "ecosystem_25",
+   "t": "tf",
+   "q": "Parchalovchilar bo‘lmasa, yer qurigan barg va qoldiqlar bilan to‘lib ketardi.",
+   "a": true,
+   "d": 3,
+   "x": "Parchalovchilar tabiatni tozalab turadi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_1",
+   "t": "choice",
+   "q": "Orol dengiziga qaysi daryolar quyilgan?",
+   "a": "Amudaryo va Sirdaryo",
+   "w": [
+    "Chirchiq va Zarafshon",
+    "Volga va Ural",
+    "Nil va Dunay"
+   ],
+   "d": 1,
+   "x": "Orol dengizi Amudaryo va Sirdaryo suvi bilan to‘lib turgan."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_2",
+   "t": "choice",
+   "q": "Plastik chiqindini nima qilish kerak?",
+   "a": "Saralab, qayta ishlashga berish",
+   "w": [
+    "Daryoga tashlash",
+    "Yoqib yuborish",
+    "Yerga ko‘mish"
+   ],
+   "d": 1,
+   "x": "Qayta ishlangan plastikdan yangi buyumlar yasaladi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_3",
+   "t": "choice",
+   "q": "Havoni nima ifloslantiradi?",
+   "a": "Zavod va mashinalar tutuni",
+   "w": [
+    "Daraxtlar",
+    "Yomg‘ir",
+    "Shamol"
+   ],
+   "d": 1,
+   "x": "Tutun tarkibida zararli gazlar va chang bor."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_4",
+   "t": "choice",
+   "q": "Qaysi odat tabiatni asraydi?",
+   "a": "Chiroqni o‘chirib chiqish",
+   "w": [
+    "Chiqindini ko‘chaga tashlash",
+    "Daraxt shoxlarini sindirish",
+    "Gullarni uzish"
+   ],
+   "d": 1,
+   "x": "Elektrni tejash — tabiiy boyliklarni tejash."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_5",
+   "t": "choice",
+   "q": "Qizil kitobga qanday turlar kiritiladi?",
+   "a": "Kamyob va yo‘qolib borayotgan",
+   "w": [
+    "Eng ko‘p uchraydigan",
+    "Faqat uy hayvonlari",
+    "Faqat begona o‘tlar"
+   ],
+   "d": 1,
+   "x": "Qizil kitob kamyob turlarni asrash uchun tuziladi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_6",
+   "t": "choice",
+   "q": "Qaysi hayvon O‘zbekiston Qizil kitobiga kiritilgan?",
+   "a": "Jayron",
+   "w": [
+    "Chumchuq",
+    "Qarg‘a",
+    "Kaptar"
+   ],
+   "d": 1,
+   "x": "Jayron — kamyob cho‘l hayvoni."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_7",
+   "t": "choice",
+   "q": "Qo‘riqxonada nima taqiqlanadi?",
+   "a": "Ov qilish va daraxt kesish",
+   "w": [
+    "Tabiatni o‘rganish",
+    "Hayvonlarni kuzatish",
+    "Qushlarni sanash"
+   ],
+   "d": 1,
+   "x": "Qo‘riqxonada tabiat o‘z holicha saqlanadi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_8",
+   "t": "choice",
+   "q": "Qaysi transport havoni eng kam ifloslaydi?",
+   "a": "Velosiped",
+   "w": [
+    "Yuk mashinasi",
+    "Avtobus",
+    "Mototsikl"
+   ],
+   "d": 1,
+   "x": "Velosiped yoqilg‘i yoqmaydi va tutun chiqarmaydi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_9",
+   "t": "tf",
+   "q": "Plastik tabiatda juda uzoq vaqt parchalanmaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Plastik yuzlab yillar davomida tabiatda qolishi mumkin."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_10",
+   "t": "tf",
+   "q": "O‘rmonlarni kesish tabiatga foyda keltiradi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘rmonlar kesilsa, havo ifloslanadi, hayvonlar uysiz qoladi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_11",
+   "t": "tf",
+   "q": "Orol dengizi hozir avvalgidan ancha kichik.",
+   "a": true,
+   "d": 1,
+   "x": "Dengizning katta qismi qurib qolgan."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_12",
+   "t": "tf",
+   "q": "Bir tup daraxt ekish ham tabiatga katta yordam.",
+   "a": true,
+   "d": 1,
+   "x": "Har bir daraxt havoni tozalaydi va soya beradi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Chiqindilarni",
+    "saralab",
+    "qayta",
+    "ishlash",
+    "kerak"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_14",
+   "t": "choice",
+   "q": "Orol dengizi qurishining asosiy sababi nima?",
+   "a": "Daryo suvi sug‘orishga ko‘p olingani",
+   "w": [
+    "Kuchli yomg‘irlar",
+    "Zilzila",
+    "Qor ko‘p yog‘gani"
+   ],
+   "d": 2,
+   "x": "Daryolar suvi dalalarga ko‘p olinib, dengizga kam yetib bordi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_15",
+   "t": "choice",
+   "q": "Orol dengizining qurigan tubida qanday cho‘l paydo bo‘ldi?",
+   "a": "Orolqum",
+   "w": [
+    "Qizilqum",
+    "Qoraqum",
+    "Sahroi Kabir"
+   ],
+   "d": 2,
+   "x": "Qurigan dengiz tubi Orolqum cho‘liga aylandi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_16",
+   "t": "choice",
+   "q": "Qurigan Orol tubida qumni ushlab turish uchun qaysi o‘simlik ekilmoqda?",
+   "a": "Saksovul",
+   "w": [
+    "Sholi",
+    "Bug‘doy",
+    "Tarvuz"
+   ],
+   "d": 2,
+   "x": "Saksovul sho‘r va quruq yerda o‘sa oladi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_17",
+   "t": "choice",
+   "q": "Suvni tejaydigan sug‘orish usuli qaysi?",
+   "a": "Tomchilatib sug‘orish",
+   "w": [
+    "Egatlarni suvga bostirish",
+    "Jo‘mrakni ochiq qoldirish",
+    "Ko‘chani shlang bilan yuvish"
+   ],
+   "d": 2,
+   "x": "Tomchilatib sug‘orishda suv to‘g‘ridan-to‘g‘ri ildizga boradi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_18",
+   "t": "choice",
+   "q": "Qaysi chiqindilarni qayta ishlash mumkin?",
+   "a": "Qog‘oz, shisha, plastik",
+   "w": [
+    "Hech qaysisini",
+    "Faqat tosh",
+    "Faqat chang"
+   ],
+   "d": 2,
+   "x": "Eski qog‘ozdan yangi qog‘oz, shishadan yangi shisha idish olinadi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_19",
+   "t": "choice",
+   "q": "“Qayta ishlash” nima degani?",
+   "a": "Eski buyumdan yangi mahsulot olish",
+   "w": [
+    "Chiqindini yoqish",
+    "Chiqindini ko‘mish",
+    "Chiqindini daryoga tashlash"
+   ],
+   "d": 2,
+   "x": "Qayta ishlash tabiiy xomashyoni tejaydi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_20",
+   "t": "choice",
+   "q": "Ekologiya fani nimani o‘rganadi?",
+   "a": "Tiriklar va muhit aloqasini",
+   "w": [
+    "Faqat yulduzlarni",
+    "Faqat raqamlarni",
+    "Faqat tillarni"
+   ],
+   "d": 2,
+   "x": "Ekologiya tirik organizmlarning bir-biri va muhit bilan bog‘liqligini o‘rganadi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_21",
+   "t": "tf",
+   "q": "Quyosh va shamol energiyasi havoni tutun bilan ifloslantirmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Ular yoqilg‘i yoqmasdan elektr ishlab chiqaradi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_22",
+   "t": "match",
+   "q": "Muammoni yechimi bilan juftlang",
+   "pairs": [
+    [
+     "Havo ifloslanishi",
+     "daraxt ekish"
+    ],
+    [
+     "Chiqindilar ko‘payishi",
+     "qayta ishlash"
+    ],
+    [
+     "Suv tanqisligi",
+     "tomchilatib sug‘orish"
+    ],
+    [
+     "Kamyob hayvonlar yo‘qolishi",
+     "qo‘riqxonalar tashkil etish"
+    ],
+    [
+     "Ko‘mir va neftning tugashi",
+     "quyosh va shamol energiyasi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_23",
+   "t": "choice",
+   "q": "Orol dengizi qurishi oqibatida nima kuzatildi?",
+   "a": "Tuzli chang bo‘ronlari",
+   "w": [
+    "Baliqlar ko‘paydi",
+    "Havo namlandi",
+    "Yangi o‘rmonlar paydo bo‘ldi"
+   ],
+   "d": 3,
+   "x": "Shamol qurigan dengiz tubidan tuz va changni uchirib ketadi."
+  },
+  {
+   "topic": "science_g5.ecology",
+   "id": "ecology_24",
+   "t": "choice",
+   "q": "Tuproq sho‘rlanishining sabablaridan biri qaysi?",
+   "a": "Haddan tashqari sug‘orish",
+   "w": [
+    "Daraxt ekish",
+    "Almashlab ekish",
+    "Tuproqni yumshatish"
+   ],
+   "d": 3,
+   "x": "Ortiqcha suv yer ostidagi tuzlarni yuzaga olib chiqadi."
+  }
+ ]
+}

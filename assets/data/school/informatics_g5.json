@@ -1,105 +1,679 @@
 {
  "subject": "informatics",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
-  "uz": "Informatika",
-  "en": "Computer science",
-  "ru": "Информатика"
+  "uz": "Informatika va axborot texnologiyalari",
+  "en": "Computer science and IT",
+  "ru": "Информатика и ИТ"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "informatics_g5.files",
+   "id": "informatics_g5.axborot",
    "code": "1",
-   "emoji": "💻",
+   "emoji": "💡",
    "title": {
-    "uz": "Fayllar va axborot",
-    "en": "Fayllar va axborot",
-    "ru": "Fayllar va axborot"
+    "uz": "Axborot, uning xossalari va turlari",
+    "en": "Information, its properties and types",
+    "ru": "Информация, её свойства и виды"
    },
    "generator": "bank",
-   "skill": "files",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot va uni o‘lchash",
    "prerequisites": [],
-   "theory": {
-    "uz": "Fayl nomi va kengaytmasi uni tanishda yordam beradi. Fayllarni papkalarga tartiblang va muhim ishning zaxira nusxasini saqlang. Axborot matn, tasvir, ovoz va video shaklida bo‘lishi mumkin."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Axborot — atrof-olam haqidagi ma’lumotlar.\nQabul qilinishiga ko‘ra: ko‘rish, eshitish, hid, ta’m va sezish orqali. Ifodalanishiga ko‘ra: matnli, sonli, grafik, tovushli, video.\nXossalari: ishonchli (haqiqatga mos), to‘liq (yetarli), dolzarb (o‘z vaqtida), tushunarli, foydali, aniq.\nAxborot bilan jarayonlar: yig‘ish, saqlash, uzatish, qayta ishlash, himoyalash.\nUzatish: manba → aloqa kanali → qabul qiluvchi. Masalan, telefon suhbati."
+   }
   },
   {
-   "id": "informatics_g5.algorithms",
+   "id": "informatics_g5.kodlash",
    "code": "2",
-   "emoji": "💻",
+   "emoji": "🔐",
    "title": {
-    "uz": "Algoritm va dasturlash tushunchalari",
-    "en": "Algoritm va dasturlash tushunchalari",
-    "ru": "Algoritm va dasturlash tushunchalari"
+    "uz": "Axborotni kodlash",
+    "en": "Encoding information",
+    "ru": "Кодирование информации"
    },
    "generator": "bank",
-   "skill": "algorithms",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot va uni o‘lchash",
    "prerequisites": [],
-   "theory": {
-    "uz": "Algoritm qadamlari aniq bo‘lishi kerak. Ketma-ketlikda amallar navbat bilan bajariladi; tarmoqlanish shartga bog‘liq yo‘lni tanlaydi; takrorlash bir amalni qayta bajaradi. Natijani misollar bilan tekshiring."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Kod — axborotni ifodalash uchun belgilar va ularni qo‘llash qoidasi.\nKodlash — axborotni kodga aylantirish, dekodlash — koddan asl axborotni tiklash.\nMisollar: harflar — nutq kodi, notalar — musiqa kodi, Morze alifbosi — nuqta va tire, Brayl alifbosi — ko‘zi ojizlar uchun bo‘rtma nuqtalar, shtrix-kod va QR-kod.\nKompyuter har qanday axborotni faqat ikkita belgi — 0 va 1 bilan kodlaydi (ikkilik kod). Masalan, 5 soni — 101."
+   }
   },
   {
-   "id": "informatics_g5.review",
+   "id": "informatics_g5.olchov",
    "code": "3",
-   "emoji": "💻",
+   "emoji": "📏",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "Axborot o‘lchov birliklari",
+    "en": "Units of information",
+    "ru": "Единицы измерения информации"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot va uni o‘lchash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Axborotning eng kichik o‘lchov birligi — bit. Bir bit — bitta 0 yoki 1.\n• 1 bayt = 8 bit;  1 KB (kilobayt) = 1024 bayt.\n• 1 MB (megabayt) = 1024 KB;  1 GB (gigabayt) = 1024 MB;  1 TB (terabayt) = 1024 GB.\nKatta birlikdan kichigiga o‘tishda ko‘paytiramiz, kichigidan kattasiga o‘tishda bo‘lamiz: baytdan bitga — 8 ga, qolganlarida — 1024 ga.\nMisol: 3 KB = 3 · 1024 = 3072 bayt;  16 bit = 16 : 8 = 2 bayt."
+   }
+  },
+  {
+   "id": "informatics_g5.ikkilik",
+   "code": "4",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ikkilik sanoq sistemasi",
+    "en": "The binary number system",
+    "ru": "Двоичная система счисления"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot va uni o‘lchash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Biz o‘nlik sanoq sistemasida 10 ta raqam (0–9) bilan sanaymiz. Kompyuter esa ikkilik sanoq sistemasida ishlaydi: faqat 2 ta raqam — 0 va 1.\nIkkilik sonda xona qiymatlari o‘ngdan chapga: 1, 2, 4, 8, 16 … — har biri oldingisidan 2 marta katta.\n• Ikkilikdan o‘nlikka: 1 turgan xonalar qiymatini qo‘shamiz: 1011 → 8 + 0 + 2 + 1 = 11.\n• O‘nlikdan ikkilikka: sonni xona qiymatlari yig‘indisiga ajratamiz: 13 = 8 + 4 + 1 → 1101.\nSanash: 0, 1, 10, 11, 100, 101, 110, 111, 1000 …"
+   }
+  },
+  {
+   "id": "informatics_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Axborot va uni o‘lchash",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "informatics_g5.files",
-      "informatics_g5.algorithms"
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik"
      ],
      "level": 1
     },
     {
      "topics": [
-      "informatics_g5.files",
-      "informatics_g5.algorithms"
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik"
      ],
      "level": 2
     },
     {
      "topics": [
-      "informatics_g5.files",
-      "informatics_g5.algorithms"
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.kompyuter_tuzilishi",
+   "code": "5",
+   "emoji": "🖥️",
+   "title": {
+    "uz": "Kompyuter tuzilishi",
+    "en": "How a computer is built",
+    "ru": "Устройство компьютера"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kompyuter va dasturlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter axborotni qabul qiladi, saqlaydi, qayta ishlaydi va uzatadi.\n• Protsessor — kompyuterning “miyasi”: barcha hisob-kitob va buyruqlarni bajaradi.\n• Operativ xotira — ishlayotgan dastur va ma’lumotlar vaqtincha turadigan tezkor xotira; kompyuter o‘chsa, undagi ma’lumot o‘chib ketadi.\n• Doimiy xotira — qattiq disk yoki SSD: fayllar kompyuter o‘chganda ham saqlanadi. SSD qattiq diskdan tezroq ishlaydi.\n• Fleshka va xotira kartasi — ko‘chma xotira. Barcha qismlar ona plataga ulanadi."
+   }
+  },
+  {
+   "id": "informatics_g5.dasturiy",
+   "code": "6",
+   "emoji": "💿",
+   "title": {
+    "uz": "Dasturiy ta’minot",
+    "en": "Software",
+    "ru": "Программное обеспечение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kompyuter va dasturlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Dastur — kompyuter bajaradigan buyruqlar to‘plami. Kompyuterdagi barcha dasturlar — dasturiy ta’minot, qurilmalar esa apparat ta’minoti.\n• Operatsion tizim — kompyuterni boshqaradigan asosiy dastur: Windows, Linux, macOS; telefonlarda — Android, iOS.\n• Amaliy dasturlar — aniq ish uchun: matn muharriri (Word), grafik muharrir (Paint), brauzer (Chrome), o‘yinlar, pleyerlar.\n• Antivirus kompyuterni viruslardan himoya qiladi.\nOperatsion tizimsiz kompyuterda boshqa dasturlar ishlamaydi."
+   }
+  },
+  {
+   "id": "informatics_g5.fayl",
+   "code": "7",
+   "emoji": "📁",
+   "title": {
+    "uz": "Fayl, papka va kengaytmalar",
+    "en": "Files, folders and extensions",
+    "ru": "Файлы, папки и расширения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kompyuter va dasturlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Fayl — diskda nomi bilan saqlanadigan ma’lumot. Fayl nomi ikki qismdan iborat: nom va kengaytma, ular nuqta bilan ajratiladi: dars.docx.\nKengaytma fayl turini bildiradi:\n• .txt, .docx — matn; .pdf — hujjat; .jpg, .png — rasm; .mp3 — musiqa; .mp4 — video; .pptx — taqdimot.\nPapka (jild) — fayllar va boshqa papkalarni guruhlab saqlaydigan joy.\nFayl manzili: C:\\Maktab\\Rasmlar\\gul.jpg — gul.jpg fayli C diskidagi Maktab papkasi ichidagi Rasmlar papkasida."
+   }
+  },
+  {
+   "id": "informatics_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kompyuter va dasturlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.matn_muharriri",
+   "code": "8",
+   "emoji": "📝",
+   "title": {
+    "uz": "Matn muharriri",
+    "en": "Text editor",
+    "ru": "Текстовый редактор"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Matn muharriri va algoritmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matn muharriri — matn yozish, tahrirlash va bezash dasturi: Bloknot, WordPad, Microsoft Word, LibreOffice Writer.\n• Kursor — matn qayerga yozilishini ko‘rsatuvchi miltillovchi chiziq.\n• Shrift — harflarning ko‘rinishi (masalan, Arial, Times New Roman); shrift o‘lchami — harflarning kattaligi.\n• Bezash tugmalari: B — qalin, I — kursiv (qiya), U — tagiga chizilgan.\n• Tekislash: chapga, markazga, o‘ngga, kenglik bo‘yicha. Sarlavha odatda markazga tekislanadi."
+   }
+  },
+  {
+   "id": "informatics_g5.tahrirlash",
+   "code": "9",
+   "emoji": "⌨️",
+   "title": {
+    "uz": "Tahrirlash va tezkor tugmalar",
+    "en": "Editing and keyboard shortcuts",
+    "ru": "Редактирование и горячие клавиши"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Matn muharriri va algoritmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tahrirlash — matndagi xatolarni tuzatish, qismlarini ko‘chirish yoki o‘chirish. Avval kerakli qism belgilanadi, keyin buyruq beriladi.\n• Ctrl+C — nusxa olish (matn joyida qoladi);  Ctrl+X — kesish (matn o‘z joyidan olinadi).\n• Ctrl+V — kursor turgan joyga qo‘yish;  Ctrl+Z — oxirgi amalni bekor qilish.\n• Ctrl+S — saqlash;  Ctrl+A — hammasini belgilash;  Ctrl+P — chop etish.\nNusxa olingan yoki kesilgan matn almashuv buferida vaqtincha saqlanadi."
+   }
+  },
+  {
+   "id": "informatics_g5.algoritm",
+   "code": "10",
+   "emoji": "📋",
+   "title": {
+    "uz": "Algoritm va uning xossalari",
+    "en": "Algorithms and their properties",
+    "ru": "Алгоритм и его свойства"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Matn muharriri va algoritmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm — ijrochi natijaga erishishi uchun bajariladigan aniq buyruqlar ketma-ketligi. Bu so‘z vatandoshimiz Muhammad al-Xorazmiy nomidan kelib chiqqan.\nXossalari: diskretlik — alohida qadamlarga bo‘lingan; tushunarlilik — ijrochiga tushunarli;\naniqlik — har bir buyruq bir xil tushuniladi; natijaviylik — chekli qadamdan so‘ng natija beradi; ommaviylik — bir turdagi ko‘p masalalarga qo‘llanadi.\nTasvirlash usullari: so‘zlar bilan, blok-sxema bilan, dastur ko‘rinishida.\nIjrochi faqat o‘z buyruqlar tizimidagi buyruqlarni bajara oladi."
+   }
+  },
+  {
+   "id": "informatics_g5.blok_sxema",
+   "code": "11",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Algoritm turlari va blok-sxema",
+    "en": "Types of algorithms and flowcharts",
+    "ru": "Виды алгоритмов и блок-схемы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Matn muharriri va algoritmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm turlari:\n• Chiziqli — buyruqlar birin-ketin, tartib bilan bajariladi.\n• Tarmoqlanuvchi — shartga qarab yo‘l tanlanadi: “Agar yomg‘ir yog‘sa, soyabon ol, aks holda soyabonsiz chiq”.\n• Takrorlanuvchi (sikl) — ba’zi buyruqlar bir necha marta takrorlanadi.\nBlok-sxema shakllari: oval — boshlanish va tugash; to‘g‘ri to‘rtburchak — amal; romb — shart (“ha” yoki “yo‘q”); parallelogramm — kiritish va chiqarish. Strelkalar bajarilish tartibini ko‘rsatadi."
+   }
+  },
+  {
+   "id": "informatics_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Matn muharriri va algoritmlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.scratch",
+   "code": "12",
+   "emoji": "🐱",
+   "title": {
+    "uz": "Scratch asoslari",
+    "en": "Scratch basics",
+    "ru": "Основы Scratch"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Scratch — rangli bloklarni ulab dastur tuziladigan dasturlash muhiti. Uni AQShdagi MIT olimlari bolalar uchun yaratgan.\n• Sprayt — sahnada harakatlanadigan personaj (dastlab — mushuk); sahna — spraytlar harakatlanadigan joy, uning fonini almashtirish mumkin.\n• Bloklar guruhlarga bo‘lingan: Harakat (ko‘k), Ko‘rinish (binafsha), Tovush, Hodisalar (sariq), Boshqaruv, Operatorlar (yashil).\n• Yashil bayroqcha dasturni ishga tushiradi, qizil tugma to‘xtatadi.\nBloklardan tuzilgan dastur skript deb ataladi. Misol: “4 marta takrorla: 100 qadam yur, 90° buril” — kvadrat chizadi."
+   }
+  },
+  {
+   "id": "informatics_g5.internet",
+   "code": "13",
+   "emoji": "🌐",
+   "title": {
+    "uz": "Internet, brauzer va qidiruv",
+    "en": "Internet, browsers and search",
+    "ru": "Интернет, браузер и поиск"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Internet — butun dunyodagi kompyuter tarmoqlarini birlashtirgan global tarmoq.\n• Brauzer — veb-sahifalarni ko‘rish dasturi: Google Chrome, Mozilla Firefox, Microsoft Edge, Opera, Safari.\n• Sayt — veb-sahifalar to‘plami; har bir saytning manzili bor, u manzil satriga yoziladi. “.uz” — O‘zbekiston domeni.\n• Havola — bosilganda boshqa sahifaga o‘tkazadigan matn yoki rasm.\n• Qidiruv tizimi (Google, Yandex, Bing) kalit so‘zlar bo‘yicha ma’lumot topadi. Topilgan ma’lumotni bir necha manbada tekshiring."
+   }
+  },
+  {
+   "id": "informatics_g5.pochta",
+   "code": "14",
+   "emoji": "📧",
+   "title": {
+    "uz": "Elektron pochta",
+    "en": "Email",
+    "ru": "Электронная почта"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Elektron pochta (e-mail) — internet orqali xat va fayl yuborish xizmati.\nManzil tuzilishi: login@domen, masalan, ali2015@pochta.uz: ali2015 — foydalanuvchi nomi, @ — “at” belgisi, pochta.uz — pochta serveri.\nXat qismlari: “Kimga” (qabul qiluvchi manzili), “Mavzu”, xat matni; faylni ilova qilib biriktirish mumkin.\nPapkalar: Kiruvchi, Yuborilgan, Qoralamalar, Spam, Savat.\nPochtaga login va parol bilan kiriladi; notanish xatdagi ilova va havolani ochmang."
+   }
+  },
+  {
+   "id": "informatics_g5.xavfsizlik",
+   "code": "15",
+   "emoji": "🛡️",
+   "title": {
+    "uz": "Xavfsizlik va odob",
+    "en": "Online safety and etiquette",
+    "ru": "Безопасность и этикет в сети"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Internetda o‘zingizni va kompyuterni himoya qiling:\n• Kuchli parol — kamida 8 belgi: katta va kichik harflar, raqamlar, maxsus belgilar (!, #, $). Parolni hech kimga aytmang.\n• Shubhali havola va notanish ilovalarni ochmang: ular aldashi yoki virus yuqtirishi mumkin.\n• Virus — kompyuterga zarar yetkazadigan va o‘zidan nusxa ko‘paytiradigan dastur. Antivirus (Kaspersky, ESET NOD32, Microsoft Defender) ularni topib yo‘q qiladi.\n• Mualliflik huquqi: boshqalarning rasmi, matni, musiqasi — ularning mehnati; foydalansangiz, muallif va manbani ko‘rsating.\n• Internetda ham odobli bo‘ling: haqorat qilmang, shaxsiy ma’lumotni tarqatmang."
+   }
+  },
+  {
+   "id": "informatics_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Scratch va internet",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik",
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl",
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema",
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik",
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl",
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema",
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "informatics_g5.axborot",
+      "informatics_g5.kodlash",
+      "informatics_g5.olchov",
+      "informatics_g5.ikkilik",
+      "informatics_g5.kompyuter_tuzilishi",
+      "informatics_g5.dasturiy",
+      "informatics_g5.fayl",
+      "informatics_g5.matn_muharriri",
+      "informatics_g5.tahrirlash",
+      "informatics_g5.algoritm",
+      "informatics_g5.blok_sxema",
+      "informatics_g5.scratch",
+      "informatics_g5.internet",
+      "informatics_g5.pochta",
+      "informatics_g5.xavfsizlik"
      ],
      "level": 3
     }

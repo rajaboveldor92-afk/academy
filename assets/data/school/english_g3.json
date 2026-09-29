@@ -1,34 +1,292 @@
 {
  "subject": "english",
  "ageGroup": "g3",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Ingliz tili",
   "en": "English",
-  "ru": "Английский"
+  "ru": "Английский язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "english_g3.toys_school",
+   "id": "english_g3.greetings",
    "code": "1",
-   "emoji": "🇬🇧",
+   "emoji": "👋",
    "title": {
-    "uz": "O‘yinchoq va maktab",
-    "en": "Toys and school",
-    "ru": "Игрушки и школа"
+    "uz": "Salomlashish va tanishuv",
+    "en": "Hello! Nice to meet you",
+    "ru": "Приветствие и знакомство"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom! Alifbo va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Salomlashish: Hello! / Hi! — Salom!  Good morning! — Xayrli tong!  Goodbye! / Bye! — Xayr!\nTanishuv: What's your name? — Isming nima? — My name is Ali. — Mening ismim Ali.\nHow old are you? — Necha yoshdasan? — I'm nine. — Men to‘qqiz yoshdaman.\nHow are you? — Qalaysan? — I'm fine, thank you. — Yaxshi, rahmat.\nNice to meet you! — Tanishganimdan xursandman!  Thank you! — You're welcome! (Arzimaydi!)"
+   }
+  },
+  {
+   "id": "english_g3.alphabet",
+   "code": "2",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Ingliz alifbosi",
+    "en": "The alphabet",
+    "ru": "Английский алфавит"
+   },
+   "generator": "letters",
+   "skill": "letters",
+   "chapter": "1-chorak. Salom! Alifbo va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "set": "all",
+     "modes": [
+      "upper"
+     ],
+     "options": 3
+    },
+    {
+     "set": "all",
+     "modes": [
+      "upper",
+      "lower"
+     ],
+     "options": 3,
+     "similar": true
+    },
+    {
+     "set": "all",
+     "modes": [
+      "mixed",
+      "lower"
+     ],
+     "options": 4,
+     "similar": true
+    }
+   ],
+   "theory": {
+    "uz": "Ingliz alifbosida 26 ta harf bor: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.\nUnli harflar: A, E, I, O, U. Qolganlari asosan undosh harflar.\nHar bir harfning bosh (katta) va kichik shakli bor: A a, B b, G g, R r.\nHarf nomlari: A — [ey], E — [i:], I — [ay], G — [ji:], J — [jey], Y — [uay].\nAdashtirmang: b — d, p — q, m — n, i — l."
+   }
+  },
+  {
+   "id": "english_g3.phonics",
+   "code": "3",
+   "emoji": "👂",
+   "title": {
+    "uz": "Harf va tovush",
+    "en": "Letters and sounds",
+    "ru": "Буквы и звуки"
+   },
+   "generator": "first_letter",
+   "skill": "first_letter",
+   "chapter": "1-chorak. Salom! Alifbo va sonlar",
+   "prerequisites": [
+    "english_g3.alphabet"
+   ],
+   "levels": [
+    {
+     "options": 3,
+     "letters": [
+      "b",
+      "c",
+      "d",
+      "f",
+      "h",
+      "m",
+      "p",
+      "s",
+      "t"
+     ]
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘p harflar so‘z boshida o‘z tovushini beradi:\n• b — ball, bag;  d — dog, desk;  m — mouse, milk;  s — sun, sock.\n• c ko‘pincha [k] deb o‘qiladi: cat, cup, car.\n• t — tiger, tree;  f — fish, fox;  h — hat, horse.\nRasmga qarang, so‘zni ichingizda ayting va birinchi tovushni eshiting: fish — f."
+   }
+  },
+  {
+   "id": "english_g3.numbers",
+   "code": "4",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar 1–100",
+    "en": "Numbers 1–100",
+    "ru": "Числа 1–100"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom! Alifbo va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "1–10: one, two, three, four, five, six, seven, eight, nine, ten.\n11–20: eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.\n13–19 oxirida -teen, o‘nliklar oxirida -ty: thirty (30), forty (40), fifty (50), sixty (60),\nseventy (70), eighty (80), ninety (90), one hundred (100).\n• Adashtirmang: thirteen (13) — thirty (30). Diqqat: forty (fourty emas!).\nMurakkab son chiziqcha bilan yoziladi: 25 — twenty-five, 47 — forty-seven."
+   }
+  },
+  {
+   "id": "english_g3.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Salom! Alifbo va sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.alphabet",
+      "english_g3.phonics",
+      "english_g3.numbers"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.alphabet",
+      "english_g3.phonics",
+      "english_g3.numbers"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.alphabet",
+      "english_g3.phonics",
+      "english_g3.numbers"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g3.colours",
+   "code": "5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "chapter": "2-chorak. Ranglar, buyumlar va kiyimlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown"
+     ],
+     "options": 3,
+     "modes": [
+      "listen",
+      "read"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 3,
+     "modes": [
+      "read",
+      "picture_word"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 4,
+     "modes": [
+      "picture_word",
+      "object",
+      "read"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Ranglar: red — qizil, yellow — sariq, blue — ko‘k, green — yashil, orange — to‘q sariq,\npurple — binafsha, pink — pushti, brown — jigarrang, black — qora, white — oq, grey — kulrang.\nRang so‘zi otdan oldin keladi: a red apple — qizil olma, a green bag — yashil sumka.\nSavol: What colour is it? — U qanday rangda? — It's blue. — U ko‘k."
+   }
+  },
+  {
+   "id": "english_g3.things",
+   "code": "6",
+   "emoji": "🎒",
+   "title": {
+    "uz": "Maktab buyumlari, o‘yinchoqlar, kiyimlar",
+    "en": "School things, toys and clothes",
+    "ru": "Школьные вещи, игрушки и одежда"
    },
    "generator": "vocab",
-   "skill": "toys_school",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "vocab",
+   "chapter": "2-chorak. Ranglar, buyumlar va kiyimlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
      "themes": [
-      "toys_school"
+      "toys_school",
+      "clothes"
      ],
      "modes": [
       "listen",
@@ -38,7 +296,8 @@
     },
     {
      "themes": [
-      "toys_school"
+      "toys_school",
+      "clothes"
      ],
      "modes": [
       "read",
@@ -49,7 +308,8 @@
     },
     {
      "themes": [
-      "toys_school"
+      "toys_school",
+      "clothes"
      ],
      "modes": [
       "picture_word",
@@ -58,77 +318,157 @@
      ],
      "options": 4,
      "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Maktab buyumlari: pen — ruchka, pencil — qalam, book — kitob, ruler — chizg‘ich, bag — sumka.\nO‘yinchoqlar: ball — to‘p, doll — qo‘g‘irchoq, teddy bear — ayiqcha, kite — varrak, robot — robot.\nKiyimlar: T-shirt — futbolka, dress — ko‘ylak, hat — shlyapa, socks — paypoq, coat — palto.\nMisol: This is my pencil. — Bu mening qalamim.  It's a red ball. — Bu qizil to‘p."
+   }
+  },
+  {
+   "id": "english_g3.this_these",
+   "code": "7",
+   "emoji": "👉",
+   "title": {
+    "uz": "a / an, This is / These are",
+    "en": "a / an, This is / These are",
+    "ru": "a / an, This is / These are"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ranglar, buyumlar va kiyimlar",
+   "prerequisites": [
+    "english_g3.things"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "a — undosh tovush bilan boshlanadigan so‘z oldidan: a cat, a pen, a dress.\nan — unli tovush (a, e, i, o, u) bilan boshlanadigan so‘z oldidan: an apple, an egg, an umbrella.\nThis is … — Bu … (bitta narsa): This is a book.\nThese are … — Bular … (ko‘p narsa): These are books. Ko‘plikda so‘zga -s qo‘shiladi, a / an qo‘yilmaydi.\nWhat is this? — Bu nima? — It's a ruler. What are these? — They are socks."
+   }
+  },
+  {
+   "id": "english_g3.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ranglar, buyumlar va kiyimlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g3.colours",
+      "english_g3.things",
+      "english_g3.this_these",
+      "english_g3.numbers"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g3.colours",
+      "english_g3.things",
+      "english_g3.this_these",
+      "english_g3.numbers"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g3.colours",
+      "english_g3.things",
+      "english_g3.this_these",
+      "english_g3.numbers"
+     ],
+     "level": 3
     }
    ]
   },
   {
    "id": "english_g3.family",
-   "code": "2",
-   "emoji": "🇬🇧",
+   "code": "8",
+   "emoji": "👨‍👩‍👧",
    "title": {
-    "uz": "Oila va tana",
-    "en": "Family and body",
-    "ru": "Семья и тело"
+    "uz": "Mening oilam",
+    "en": "My family",
+    "ru": "Моя семья"
    },
-   "generator": "vocab",
-   "skill": "family",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va hayvonlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "themes": [
-      "family_body"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
      "options": 3
     },
     {
-     "themes": [
-      "family_body"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
-     "options": 3,
-     "sameTheme": true
+     "options": 4
     },
     {
-     "themes": [
-      "family_body"
-     ],
-     "modes": [
-      "picture_word",
-      "read",
-      "listen"
-     ],
-     "options": 4,
-     "sameTheme": true
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Oila a’zolari: mother (mum) — ona, father (dad) — ota, sister — opa yoki singil, brother — aka yoki uka.\ngrandmother (granny) — buvi, grandfather (grandpa) — bobo, baby — chaqaloq, family — oila.\nThis is my mother. — Bu mening onam.  Who is this? — Bu kim?\nhe — u (o‘g‘il bola, erkak kishi): He is my brother.\nshe — u (qiz bola, ayol kishi): She is my sister."
+   }
+  },
+  {
+   "id": "english_g3.have_got",
+   "code": "9",
+   "emoji": "🙋",
+   "title": {
+    "uz": "have got / has got. Tanam",
+    "en": "have got / has got. My body",
+    "ru": "have got / has got. Тело"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va hayvonlar",
+   "prerequisites": [
+    "english_g3.family"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "have got — bor (I, you, we, they bilan): I have got a cat. — Mening mushugim bor.\nhas got — bor (he, she, it bilan): She has got a doll. It has got long ears.\nQisqa shakl: I've got, he's got. Inkor: I haven't got a dog. She hasn't got a bike.\nSavol: Have you got a pet? — Yes, I have. / No, I haven't.\nTana a’zolari: head — bosh, eye — ko‘z, ear — quloq, nose — burun, mouth — og‘iz, hand — qo‘l, leg — oyoq."
+   }
   },
   {
    "id": "english_g3.animals",
-   "code": "3",
-   "emoji": "🇬🇧",
+   "code": "10",
+   "emoji": "🐾",
    "title": {
     "uz": "Hayvonlar",
     "en": "Animals",
     "ru": "Животные"
    },
    "generator": "vocab",
-   "skill": "animals",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "vocab",
+   "chapter": "3-chorak. Oilam, tanam va hayvonlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
      "themes": [
@@ -163,227 +503,297 @@
      "options": 4,
      "sameTheme": true
     }
-   ]
-  },
-  {
-   "id": "english_g3.spelling",
-   "code": "4",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "So‘z yig‘ish",
-    "en": "Spelling",
-    "ru": "Собери слово"
-   },
-   "generator": "spell",
-   "skill": "spelling",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
+   ],
    "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "minLetters": 3,
-     "maxLetters": 3
-    },
-    {
-     "minLetters": 3,
-     "maxLetters": 4,
-     "extra": 1
-    },
-    {
-     "minLetters": 4,
-     "maxLetters": 5,
-     "extra": 2
-    }
-   ]
+    "uz": "Uy hayvonlari (pets): cat — mushuk, dog — it, rabbit — quyon, parrot — to‘tiqush, fish — baliq.\nFerma hayvonlari: cow — sigir, horse — ot, sheep — qo‘y, goat — echki, chicken — tovuq.\nYovvoyi hayvonlar: lion — sher, tiger — yo‘lbars, bear — ayiq, monkey — maymun, elephant — fil.\nMisol: It's a monkey. It's brown. — Bu maymun. U jigarrang."
+   }
   },
   {
-   "id": "english_g3.sentences",
-   "code": "5",
-   "emoji": "🇬🇧",
+   "id": "english_g3.can",
+   "code": "11",
+   "emoji": "🏊",
    "title": {
-    "uz": "Oddiy gaplar",
-    "en": "Simple sentences",
-    "ru": "Простые предложения"
-   },
-   "generator": "sentence",
-   "skill": "sentences",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "types": [
-      "this"
-     ],
-     "modes": [
-      "read"
-     ]
-    },
-    {
-     "types": [
-      "this",
-      "color"
-     ],
-     "modes": [
-      "read",
-      "picture"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "count",
-      "action"
-     ],
-     "modes": [
-      "read",
-      "picture",
-      "build"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "english_g3.be",
-   "code": "6",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Am, is, are",
-    "en": "Am, is, are",
-    "ru": "Am, is, are"
+    "uz": "I can / I can't",
+    "en": "I can / I can't",
+    "ru": "I can / I can't"
    },
    "generator": "bank",
-   "skill": "be",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "I bilan am; he, she, it bilan is; you, we, they bilan are ishlatiladi. Masalan: I am happy. She is ready. We are at school."
-   },
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va hayvonlar",
+   "prerequisites": [
+    "english_g3.animals"
+   ],
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
-    }
-   ]
-  },
-  {
-   "id": "english_g3.plurals",
-   "code": "7",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Birlik va ko‘plik",
-    "en": "Birlik va ko‘plik",
-    "ru": "Birlik va ko‘plik"
-   },
-   "generator": "bank",
-   "skill": "plurals",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "Ko‘p otlarga ko‘plikda -s qo‘shiladi: book → books. -s, -sh, -ch, -x bilan tugagan so‘zlarda odatda -es: bus → buses, box → boxes."
-   },
-   "levels": [
-    {
-     "options": 2
-    },
-    {
-     "options": 3
     },
     {
      "options": 4
     }
-   ]
-  },
-  {
-   "id": "english_g3.articles",
-   "code": "8",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "A va an",
-    "en": "A va an",
-    "ru": "A va an"
-   },
-   "generator": "bank",
-   "skill": "articles",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
+   ],
    "theory": {
-    "uz": "Bitta predmetni aytishda undosh tovushdan oldin a, unli tovushdan oldin an keladi: a book, an apple. So‘zning birinchi tovushiga e’tibor bering."
-   },
-   "levels": [
-    {
-     "options": 2
-    },
-    {
-     "options": 3
-    },
-    {
-     "options": 4
-    }
-   ]
+    "uz": "can — qila olaman (qila oladi): I can swim. — Men suza olaman.\ncan't (cannot) — qila olmayman: I can't fly. — Men ucha olmayman.\ncan hamma shaxs bilan bir xil: I can, he can, she can, it can — -s qo‘shilmaydi!\ncan dan keyin fe’l o‘zgarmaydi: She can run. (She can runs emas.)\nSavol: Can you dance? — Yes, I can. / No, I can't."
+   }
   },
   {
-   "id": "english_g3.review",
-   "code": "9",
-   "emoji": "🇬🇧",
+   "id": "english_g3.test3",
+   "code": "N",
+   "emoji": "📝",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "3-chorak. Oilam, tanam va hayvonlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "english_g3.toys_school",
       "english_g3.family",
+      "english_g3.have_got",
       "english_g3.animals",
-      "english_g3.spelling",
-      "english_g3.sentences",
-      "english_g3.be",
-      "english_g3.plurals",
-      "english_g3.articles"
+      "english_g3.can"
      ],
      "level": 1
     },
     {
      "topics": [
-      "english_g3.toys_school",
       "english_g3.family",
+      "english_g3.have_got",
       "english_g3.animals",
-      "english_g3.spelling",
-      "english_g3.sentences",
-      "english_g3.be",
-      "english_g3.plurals",
-      "english_g3.articles"
+      "english_g3.can"
      ],
      "level": 2
     },
     {
      "topics": [
-      "english_g3.toys_school",
       "english_g3.family",
+      "english_g3.have_got",
       "english_g3.animals",
-      "english_g3.spelling",
-      "english_g3.sentences",
-      "english_g3.be",
-      "english_g3.plurals",
-      "english_g3.articles"
+      "english_g3.can"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g3.food",
+   "code": "12",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Taomlar, meva va sabzavotlar",
+    "en": "Food, fruit and vegetables",
+    "ru": "Еда, фрукты и овощи"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "4-chorak. Taomlar, kunlar va joylashuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food_all"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Mevalar: apple — olma, banana — banan, orange — apelsin, grapes — uzum, pear — nok.\nSabzavotlar: carrot — sabzi, tomato — pomidor, potato — kartoshka, cucumber — bodring.\nTaomlar: bread — non, milk — sut, egg — tuxum, cheese — pishloq, soup — sho‘rva, ice cream — muzqaymoq.\nMisol: I like apples. — Men olmani yaxshi ko‘raman. I don't like carrots. — Men sabzini yoqtirmayman."
+   }
+  },
+  {
+   "id": "english_g3.days",
+   "code": "13",
+   "emoji": "📅",
+   "title": {
+    "uz": "Hafta kunlari",
+    "en": "Days of the week",
+    "ru": "Дни недели"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Taomlar, kunlar va joylashuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari doim bosh harf bilan yoziladi:\nMonday — dushanba, Tuesday — seshanba, Wednesday — chorshanba, Thursday — payshanba,\nFriday — juma, Saturday — shanba, Sunday — yakshanba.\nKun oldidan on qo‘yiladi: on Monday — dushanba kuni.\nWhat day is it today? — Bugun qaysi kun? — It's Friday. — Bugun juma."
+   }
+  },
+  {
+   "id": "english_g3.where_is",
+   "code": "14",
+   "emoji": "📦",
+   "title": {
+    "uz": "Where is…? in / on / under",
+    "en": "Where is…? in / on / under",
+    "ru": "Where is…? in / on / under"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Taomlar, kunlar va joylashuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "in — ichida: The pen is in the bag. — Ruchka sumkaning ichida.\non — ustida: The book is on the desk. — Kitob partaning ustida.\nunder — tagida (ostida): The cat is under the chair. — Mushuk stulning tagida.\nWhere is …? — … qayerda? Where is the ball? — It's under the bed.\nKo‘p narsa: Where are my books? — They are in the box."
+   }
+  },
+  {
+   "id": "english_g3.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Taomlar, kunlar va joylashuv",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is",
+      "english_g3.can"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is",
+      "english_g3.can"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is",
+      "english_g3.can"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Taomlar, kunlar va joylashuv",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.numbers",
+      "english_g3.colours",
+      "english_g3.this_these",
+      "english_g3.family",
+      "english_g3.have_got",
+      "english_g3.animals",
+      "english_g3.can",
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.numbers",
+      "english_g3.colours",
+      "english_g3.this_these",
+      "english_g3.family",
+      "english_g3.have_got",
+      "english_g3.animals",
+      "english_g3.can",
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "english_g3.greetings",
+      "english_g3.numbers",
+      "english_g3.colours",
+      "english_g3.this_these",
+      "english_g3.family",
+      "english_g3.have_got",
+      "english_g3.animals",
+      "english_g3.can",
+      "english_g3.food",
+      "english_g3.days",
+      "english_g3.where_is"
      ],
      "level": 3
     }

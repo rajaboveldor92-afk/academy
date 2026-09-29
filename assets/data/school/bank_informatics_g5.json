@@ -1,0 +1,6254 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_1",
+   "t": "choice",
+   "q": "Haqiqatga mos keladigan axborot qanday ataladi?",
+   "a": "Ishonchli",
+   "w": [
+    "Dolzarb",
+    "To‘liq",
+    "Tushunarli"
+   ],
+   "d": 1,
+   "x": "Ishonchli axborot voqelikni to‘g‘ri aks ettiradi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_2",
+   "t": "choice",
+   "q": "O‘z vaqtida olingan, hozir kerakli axborot qanday ataladi?",
+   "a": "Dolzarb",
+   "w": [
+    "Ishonchli",
+    "To‘liq",
+    "Aniq"
+   ],
+   "d": 1,
+   "x": "Dolzarb axborot aynan kerak bo‘lgan paytda keladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_3",
+   "t": "choice",
+   "q": "Qaror qabul qilish uchun yetarli bo‘lgan axborot qanday ataladi?",
+   "a": "To‘liq",
+   "w": [
+    "Dolzarb",
+    "Tushunarli",
+    "Foydali"
+   ],
+   "d": 1,
+   "x": "To‘liq axborotda kerakli hamma ma’lumot bor."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_4",
+   "t": "choice",
+   "q": "Qabul qiluvchi biladigan tilda berilgan axborot qanday ataladi?",
+   "a": "Tushunarli",
+   "w": [
+    "Dolzarb",
+    "To‘liq",
+    "Ishonchli"
+   ],
+   "d": 1,
+   "x": "Tushunarli axborotni qabul qiluvchi anglay oladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_5",
+   "t": "choice",
+   "q": "Inson eng ko‘p axborotni qaysi sezgi a’zosi orqali oladi?",
+   "a": "Ko‘z",
+   "w": [
+    "Quloq",
+    "Burun",
+    "Til"
+   ],
+   "d": 1,
+   "x": "Axborotning eng katta qismini ko‘rish orqali olamiz."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_6",
+   "t": "match",
+   "q": "Axborot turini misol bilan juftlang",
+   "pairs": [
+    [
+     "Matnli",
+     "Gazeta maqolasi"
+    ],
+    [
+     "Sonli",
+     "Telefon raqami"
+    ],
+    [
+     "Grafik",
+     "Xarita"
+    ],
+    [
+     "Tovushli",
+     "Qo‘shiq"
+    ],
+    [
+     "Video",
+     "Multfilm"
+    ]
+   ],
+   "d": 1,
+   "x": "Axborot matn, son, rasm, tovush va video ko‘rinishida ifodalanadi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_7",
+   "t": "match",
+   "q": "Sezgi a’zosini axborot bilan juftlang",
+   "pairs": [
+    [
+     "Ko‘z",
+     "Kamalak ranglari"
+    ],
+    [
+     "Quloq",
+     "Qush sayrashi"
+    ],
+    [
+     "Burun",
+     "Atir hidi"
+    ],
+    [
+     "Til",
+     "Asalning shirinligi"
+    ],
+    [
+     "Teri",
+     "Muzning sovuqligi"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir sezgi a’zosi o‘z turdagi axborotni qabul qiladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_8",
+   "t": "choice",
+   "q": "Kundalikka dars jadvalini yozish — axborot bilan qanday jarayon?",
+   "a": "Saqlash",
+   "w": [
+    "Uzatish",
+    "Qayta ishlash",
+    "Himoyalash"
+   ],
+   "d": 1,
+   "x": "Yozib qo‘yilgan axborot keyinchalik foydalanish uchun saqlanadi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_9",
+   "t": "choice",
+   "q": "Do‘stga SMS yuborish — axborot bilan qanday jarayon?",
+   "a": "Uzatish",
+   "w": [
+    "Saqlash",
+    "Qayta ishlash",
+    "Yig‘ish"
+   ],
+   "d": 1,
+   "x": "Axborot bir odamdan boshqasiga yetkaziladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_10",
+   "t": "choice",
+   "q": "Masalani yechish — axborot bilan qanday jarayon?",
+   "a": "Qayta ishlash",
+   "w": [
+    "Uzatish",
+    "Saqlash",
+    "Yig‘ish"
+   ],
+   "d": 1,
+   "x": "Berilganlardan yangi axborot — javob hosil qilinadi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_11",
+   "t": "choice",
+   "q": "Loyiha uchun kitob va saytlardan ma’lumot to‘plash — qanday jarayon?",
+   "a": "Yig‘ish",
+   "w": [
+    "Himoyalash",
+    "Uzatish",
+    "O‘chirish"
+   ],
+   "d": 1,
+   "x": "Turli manbalardan axborot to‘planadi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_12",
+   "t": "choice",
+   "q": "Qaysi biri axborot tashuvchi?",
+   "a": "Fleshka",
+   "w": [
+    "Havo",
+    "Quyosh nuri",
+    "Shamol"
+   ],
+   "d": 1,
+   "x": "Axborot tashuvchi — axborot yozib saqlanadigan narsa: kitob, daftar, fleshka, disk."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_13",
+   "t": "choice",
+   "q": "Qaysi axborot grafik turga kiradi?",
+   "a": "Chizma",
+   "w": [
+    "She’r",
+    "Qo‘shiq",
+    "Telefon raqami"
+   ],
+   "d": 1,
+   "x": "Grafik axborot — rasm, chizma, xarita, sxema."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_14",
+   "t": "choice",
+   "q": "Qaysi axborot tovushli turga kiradi?",
+   "a": "Radio eshittirishi",
+   "w": [
+    "Fotosurat",
+    "Jadval",
+    "Kitob matni"
+   ],
+   "d": 1,
+   "x": "Radioda axborot tovush orqali uzatiladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_15",
+   "t": "choice",
+   "q": "Maktabdagi qo‘ng‘iroq chalinishi qanday axborot?",
+   "a": "Tovushli",
+   "w": [
+    "Grafik",
+    "Matnli",
+    "Sonli"
+   ],
+   "d": 1,
+   "x": "Qo‘ng‘iroq ovozini quloq bilan eshitamiz."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_16",
+   "t": "tf",
+   "q": "Kitob, daftar va fleshka — axborot tashuvchilar.",
+   "a": true,
+   "d": 1,
+   "x": "Ularda axborot yozib saqlanadi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_17",
+   "t": "choice",
+   "q": "Tekshirilmagan mish-mishda qaysi xossa yo‘q?",
+   "a": "Ishonchlilik",
+   "w": [
+    "Tushunarlilik",
+    "Grafiklik",
+    "Ovozlilik"
+   ],
+   "d": 2,
+   "x": "Mish-mish tekshirilmagan, u haqiqatga mos kelmasligi mumkin."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_18",
+   "t": "choice",
+   "q": "Kechagi ob-havo ma’lumoti bugungi sayohatni rejalash uchun qanday axborot?",
+   "a": "Dolzarb emas",
+   "w": [
+    "Tushunarsiz",
+    "Grafik",
+    "Juda dolzarb"
+   ],
+   "d": 2,
+   "x": "Axborot eskirgan: u bugungi kun uchun o‘z vaqtida emas."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_19",
+   "t": "choice",
+   "q": "“Ertaga soat 9 da uchrashamiz” — joyi aytilmagan. Bu axborot qanday?",
+   "a": "To‘liq emas",
+   "w": [
+    "Dolzarb emas",
+    "Tushunarsiz",
+    "Grafik"
+   ],
+   "d": 2,
+   "x": "Qayerda uchrashish kerakligi aytilmagan — ma’lumot yetarli emas."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_20",
+   "t": "choice",
+   "q": "Yapon tilidagi ko‘rsatma yapon tilini bilmaydigan o‘quvchi uchun qanday axborot?",
+   "a": "Tushunarsiz",
+   "w": [
+    "To‘liq emas",
+    "Dolzarb emas",
+    "Sonli"
+   ],
+   "d": 2,
+   "x": "Axborot qabul qiluvchi bilmaydigan tilda berilgan."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_21",
+   "t": "tf",
+   "q": "Oddiy kompyuter hid va ta’m axborotini qabul qila oladi.",
+   "a": false,
+   "d": 2,
+   "x": "Oddiy kompyuter matn, son, rasm, tovush va video bilan ishlaydi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_22",
+   "t": "tf",
+   "q": "Buzuq termometr ko‘rsatgan harorat — ishonchli axborot.",
+   "a": false,
+   "d": 2,
+   "x": "Buzuq asbob noto‘g‘ri ko‘rsatadi, bunday axborotga ishonib bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_23",
+   "t": "choice",
+   "q": "Telefon suhbatida gapirayotgan odam kim hisoblanadi?",
+   "a": "Axborot manbai",
+   "w": [
+    "Qabul qiluvchi",
+    "Aloqa kanali",
+    "Axborot tashuvchi"
+   ],
+   "d": 2,
+   "x": "Axborotni yuborayotgan odam — manba."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_24",
+   "t": "choice",
+   "q": "Kompyuterga parol qo‘yish — axborot bilan qanday jarayon?",
+   "a": "Himoyalash",
+   "w": [
+    "Uzatish",
+    "Yig‘ish",
+    "Qayta ishlash"
+   ],
+   "d": 2,
+   "x": "Parol axborotni begonalardan himoya qiladi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_25",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kompyuter",
+    "axborotni",
+    "qayta",
+    "ishlaydi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_26",
+   "t": "choice",
+   "q": "Telefon suhbatida telefon aloqasi nima vazifasini bajaradi?",
+   "a": "Aloqa kanali",
+   "w": [
+    "Axborot manbai",
+    "Qabul qiluvchi",
+    "Axborot turi"
+   ],
+   "d": 3,
+   "x": "Aloqa kanali orqali axborot manbadan qabul qiluvchiga yetib boradi."
+  },
+  {
+   "topic": "informatics_g5.axborot",
+   "id": "axborot_27",
+   "t": "tf",
+   "q": "Axborotni boshqa odamga aytib bersak, u bizda ham saqlanib qoladi.",
+   "a": true,
+   "d": 3,
+   "x": "Axborot uzatilganda manbada kamaymaydi: bilimini ulashgan odamda u qoladi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_1",
+   "t": "choice",
+   "q": "Kompyuter axborotni qanday belgilar bilan kodlaydi?",
+   "a": "0 va 1",
+   "w": [
+    "A va B",
+    "Nuqta va vergul",
+    "Faqat harflar"
+   ],
+   "d": 1,
+   "x": "Kompyuter har qanday axborotni ikkilik kod — 0 va 1 bilan ifodalaydi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_2",
+   "t": "choice",
+   "q": "Morze alifbosida qanday belgilar ishlatiladi?",
+   "a": "Nuqta va tire",
+   "w": [
+    "Faqat raqamlar",
+    "Ranglar",
+    "Rasmlar"
+   ],
+   "d": 1,
+   "x": "Morze alifbosida har bir harf qisqa (nuqta) va uzun (tire) signallar bilan beriladi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_3",
+   "t": "choice",
+   "q": "Ko‘zi ojiz odamlar barmoq bilan o‘qiydigan yozuv qanday ataladi?",
+   "a": "Brayl alifbosi",
+   "w": [
+    "Morze alifbosi",
+    "Shtrix-kod",
+    "Notalar"
+   ],
+   "d": 1,
+   "x": "Brayl alifbosi qog‘ozdagi bo‘rtma nuqtalardan iborat."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_4",
+   "t": "choice",
+   "q": "Musiqa qanday belgilar bilan yoziladi?",
+   "a": "Notalar",
+   "w": [
+    "Shtrix-kod",
+    "Morze alifbosi",
+    "Yo‘l belgilari"
+   ],
+   "d": 1,
+   "x": "Notalar — musiqani yozish kodi.",
+   "e": "🎵"
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_5",
+   "t": "choice",
+   "q": "Do‘kondagi mahsulot ustidagi qora-oq chiziqlar nima?",
+   "a": "Shtrix-kod",
+   "w": [
+    "Nota",
+    "Brayl alifbosi",
+    "Morze alifbosi"
+   ],
+   "d": 1,
+   "x": "Shtrix-kodda mahsulot haqidagi axborot kodlangan, uni skaner o‘qiydi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_6",
+   "t": "choice",
+   "q": "Svetoforning qizil rangi qanday axborotni kodlaydi?",
+   "a": "To‘xta",
+   "w": [
+    "Yur",
+    "Tayyorlan",
+    "Tezlashtir"
+   ],
+   "d": 1,
+   "x": "Qizil rang — “to‘xta”, yashil — “yur” degan buyruq.",
+   "e": "🚦"
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_7",
+   "t": "tf",
+   "q": "Kodlash — axborotni boshqa belgilar yordamida ifodalash.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, so‘zni harflar bilan yozish ham kodlash."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_8",
+   "t": "tf",
+   "q": "Yo‘l belgilari — axborotni kodlashning bir usuli.",
+   "a": true,
+   "d": 1,
+   "x": "Har bir belgi haydovchi va piyodaga aniq axborot beradi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_9",
+   "t": "tf",
+   "q": "Bitta axborotni turli usullar bilan kodlash mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, 5 sonini raqam bilan, “besh” so‘zi bilan yoki ikkilik kodda 101 deb yozish mumkin."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kompyuter",
+    "axborotni",
+    "ikkilik",
+    "kodda",
+    "saqlaydi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_11",
+   "t": "choice",
+   "q": "Koddan asl axborotni tiklash nima deyiladi?",
+   "a": "Dekodlash",
+   "w": [
+    "Kodlash",
+    "Saqlash",
+    "Chop etish"
+   ],
+   "d": 2,
+   "x": "Dekodlash — kodlashga teskari jarayon."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_12",
+   "t": "match",
+   "q": "Kodni qo‘llanish joyi bilan juftlang",
+   "pairs": [
+    [
+     "Notalar",
+     "Musiqa"
+    ],
+    [
+     "Morze alifbosi",
+     "Telegraf"
+    ],
+    [
+     "Brayl alifbosi",
+     "Ko‘zi ojizlar"
+    ],
+    [
+     "Shtrix-kod",
+     "Do‘kon mahsulotlari"
+    ],
+    [
+     "Yo‘l belgilari",
+     "Haydovchilar"
+    ],
+    [
+     "Ikkilik kod",
+     "Kompyuter"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir kod o‘z sohasida ishlatiladi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_13",
+   "t": "choice",
+   "q": "Telefon kamerasi bilan o‘qiladigan kvadrat shaklidagi kod qanday ataladi?",
+   "a": "QR-kod",
+   "w": [
+    "Morze kodi",
+    "Nota",
+    "Brayl kodi"
+   ],
+   "d": 2,
+   "x": "QR-kodda sayt manzili yoki matn kodlangan bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_14",
+   "t": "choice",
+   "q": "Axborotni begonalar tushunmasligi uchun maxfiy kodlash nima deyiladi?",
+   "a": "Shifrlash",
+   "w": [
+    "Chop etish",
+    "Skanerlash",
+    "Nusxalash"
+   ],
+   "d": 2,
+   "x": "Shifrlangan axborotni faqat kalitni biladigan odam o‘qiy oladi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_15",
+   "t": "choice",
+   "q": "Harflar qanday axborotni kodlaydi?",
+   "a": "Nutqni",
+   "w": [
+    "Musiqani",
+    "Ranglarni",
+    "Haroratni"
+   ],
+   "d": 2,
+   "x": "Harflar yordamida og‘zaki nutqni yozib qo‘yamiz."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_16",
+   "t": "choice",
+   "q": "SOS yordam signali qaysi kod bilan uzatiladi?",
+   "a": "Morze alifbosi",
+   "w": [
+    "Brayl alifbosi",
+    "Shtrix-kod",
+    "Notalar"
+   ],
+   "d": 3,
+   "x": "SOS — Morze alifbosidagi yordam signali: uchta nuqta, uchta tire, uchta nuqta."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_17",
+   "t": "choice",
+   "q": "Brayl alifbosining bitta belgisi nechta nuqtali katakda yoziladi?",
+   "a": "6",
+   "w": [
+    "2",
+    "4",
+    "10"
+   ],
+   "d": 3,
+   "x": "Brayl katagida 6 ta nuqta bor, ulardan qaysilari bo‘rtib turishi harfni bildiradi."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_18",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “OTA” so‘zi qanday kodlanadi?",
+   "a": "671",
+   "w": [
+    "176",
+    "761",
+    "617",
+    "672"
+   ],
+   "d": 1,
+   "x": "Har bir harfni jadvaldagi raqam bilan almashtiramiz: OTA → 671."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_19",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “OLMA” so‘zi qanday kodlanadi?",
+   "a": "6451",
+   "w": [
+    "1546",
+    "4651",
+    "6415",
+    "6452"
+   ],
+   "d": 2,
+   "x": "Har bir harfni jadvaldagi raqam bilan almashtiramiz: OLMA → 6451."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_20",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “KITOB” so‘zi qanday kodlanadi?",
+   "a": "38762",
+   "w": [
+    "26783",
+    "83762",
+    "38726",
+    "38763"
+   ],
+   "d": 3,
+   "x": "Har bir harfni jadvaldagi raqam bilan almashtiramiz: KITOB → 38762."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_21",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “2641” kodi qaysi so‘zni bildiradi?",
+   "a": "BOLA",
+   "w": [
+    "OLMA",
+    "LOLA",
+    "TOLA",
+    "OTA"
+   ],
+   "d": 1,
+   "x": "Har bir raqamni jadvaldagi harf bilan almashtiramiz: 2641 → BOLA."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_22",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “5176” kodi qaysi so‘zni bildiradi?",
+   "a": "MATO",
+   "w": [
+    "OLMA",
+    "BOLA",
+    "LOLA",
+    "OTA"
+   ],
+   "d": 2,
+   "x": "Har bir raqamni jadvaldagi harf bilan almashtiramiz: 5176 → MATO."
+  },
+  {
+   "topic": "informatics_g5.kodlash",
+   "id": "kodlash_23",
+   "t": "choice",
+   "q": "Kod jadvali: A=1, B=2, K=3, L=4, M=5, O=6, T=7, I=8. “7641” kodi qaysi so‘zni bildiradi?",
+   "a": "TOLA",
+   "w": [
+    "OLMA",
+    "BOLA",
+    "LOLA",
+    "OTA"
+   ],
+   "d": 2,
+   "x": "Har bir raqamni jadvaldagi harf bilan almashtiramiz: 7641 → TOLA."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_1",
+   "t": "choice",
+   "q": "Axborotning eng kichik o‘lchov birligi qaysi?",
+   "a": "Bit",
+   "w": [
+    "Bayt",
+    "Kilobayt",
+    "Megabayt"
+   ],
+   "d": 1,
+   "x": "Bit — bitta 0 yoki 1, bundan kichik birlik yo‘q."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_2",
+   "t": "choice",
+   "q": "1 bayt necha bitga teng?",
+   "a": "8",
+   "w": [
+    "2",
+    "10",
+    "16",
+    "1024"
+   ],
+   "d": 1,
+   "x": "1 bayt = 8 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_3",
+   "t": "choice",
+   "q": "1 KB necha baytga teng?",
+   "a": "1024",
+   "w": [
+    "100",
+    "8",
+    "10",
+    "512"
+   ],
+   "d": 1,
+   "x": "Maktab informatikasida 1 KB = 1024 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_4",
+   "t": "choice",
+   "q": "1 MB necha KB ga teng?",
+   "a": "1024",
+   "w": [
+    "8",
+    "100",
+    "10",
+    "512"
+   ],
+   "d": 1,
+   "x": "1 MB = 1024 KB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_5",
+   "t": "choice",
+   "q": "1 GB necha MB ga teng?",
+   "a": "1024",
+   "w": [
+    "8",
+    "100",
+    "512",
+    "10"
+   ],
+   "d": 1,
+   "x": "1 GB = 1024 MB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_6",
+   "t": "choice",
+   "q": "Qaysi birlik eng katta?",
+   "a": "Terabayt",
+   "w": [
+    "Gigabayt",
+    "Megabayt",
+    "Kilobayt"
+   ],
+   "d": 1,
+   "x": "Tartib: bit, bayt, KB, MB, GB, TB — terabayt eng katta."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_7",
+   "t": "match",
+   "q": "Birlikni teng qiymati bilan juftlang",
+   "pairs": [
+    [
+     "1 bayt",
+     "8 bit"
+    ],
+    [
+     "1 KB",
+     "1024 bayt"
+    ],
+    [
+     "1 MB",
+     "1024 KB"
+    ],
+    [
+     "1 GB",
+     "1024 MB"
+    ],
+    [
+     "1 TB",
+     "1024 GB"
+    ]
+   ],
+   "d": 1,
+   "x": "Baytdan boshlab har bir keyingi birlik oldingisidan 1024 marta katta."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_8",
+   "t": "tf",
+   "q": "1 bit — bitta 0 yoki 1.",
+   "a": true,
+   "d": 1,
+   "x": "Bit ikkilik kodning bitta xonasi."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_9",
+   "t": "tf",
+   "q": "Megabayt kilobaytdan katta.",
+   "a": true,
+   "d": 1,
+   "x": "1 MB = 1024 KB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_10",
+   "t": "choice",
+   "q": "1 TB necha GB ga teng?",
+   "a": "1024",
+   "w": [
+    "8",
+    "100",
+    "512",
+    "10"
+   ],
+   "d": 2,
+   "x": "1 TB = 1024 GB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_11",
+   "t": "choice",
+   "q": "Qaysi qatorda birliklar kichigidan kattasiga qarab yozilgan?",
+   "a": "bit, bayt, KB, MB",
+   "w": [
+    "bayt, bit, KB, MB",
+    "KB, bayt, MB, GB",
+    "MB, KB, GB, TB"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri tartib: bit < bayt < KB < MB < GB < TB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_12",
+   "t": "tf",
+   "q": "1 KB = 1024 bit.",
+   "a": false,
+   "d": 2,
+   "x": "1 KB = 1024 bayt = 8 192 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_13",
+   "t": "choice",
+   "q": "Qaysi axborot hajmi eng katta?",
+   "a": "1 MB",
+   "w": [
+    "900 KB",
+    "1000 bayt",
+    "8000 bit"
+   ],
+   "d": 2,
+   "x": "1 MB = 1 048 576 bayt, 900 KB = 921 600 bayt — 1 MB eng katta."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_14",
+   "t": "choice",
+   "q": "Qaysi axborot hajmi eng kichik?",
+   "a": "16 bit",
+   "w": [
+    "3 bayt",
+    "1 KB",
+    "1 MB"
+   ],
+   "d": 2,
+   "x": "16 bit = 2 bayt, bu 3 baytdan ham kichik."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_15",
+   "t": "choice",
+   "q": "Qaysi axborot hajmi eng katta?",
+   "a": "2 GB",
+   "w": [
+    "1500 MB",
+    "1 GB",
+    "900 MB"
+   ],
+   "d": 3,
+   "x": "2 GB = 2 048 MB, bu 1500 MB dan katta."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_16",
+   "t": "choice",
+   "q": "2 bayt necha bit?",
+   "a": "16",
+   "w": [
+    "24",
+    "8",
+    "20",
+    "4"
+   ],
+   "d": 1,
+   "x": "1 bayt = 8 bit, shuning uchun 2 bayt = 2 · 8 = 16 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_17",
+   "t": "choice",
+   "q": "3 bayt necha bit?",
+   "a": "24",
+   "w": [
+    "32",
+    "16",
+    "30",
+    "6"
+   ],
+   "d": 1,
+   "x": "1 bayt = 8 bit, shuning uchun 3 bayt = 3 · 8 = 24 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_18",
+   "t": "choice",
+   "q": "5 bayt necha bit?",
+   "a": "40",
+   "w": [
+    "48",
+    "32",
+    "50",
+    "10"
+   ],
+   "d": 2,
+   "x": "1 bayt = 8 bit, shuning uchun 5 bayt = 5 · 8 = 40 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_19",
+   "t": "choice",
+   "q": "16 bit necha bayt?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4",
+    "128"
+   ],
+   "d": 1,
+   "x": "Bitdan baytga o‘tishda 8 ga bo‘lamiz: 16 : 8 = 2."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_20",
+   "t": "choice",
+   "q": "32 bit necha bayt?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "8",
+    "256"
+   ],
+   "d": 2,
+   "x": "Bitdan baytga o‘tishda 8 ga bo‘lamiz: 32 : 8 = 4."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_21",
+   "t": "choice",
+   "q": "64 bit necha bayt?",
+   "a": "8",
+   "w": [
+    "9",
+    "7",
+    "16",
+    "512"
+   ],
+   "d": 2,
+   "x": "Bitdan baytga o‘tishda 8 ga bo‘lamiz: 64 : 8 = 8."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_22",
+   "t": "choice",
+   "q": "2 KB necha bayt?",
+   "a": "2048",
+   "w": [
+    "3072",
+    "1024",
+    "16",
+    "16384"
+   ],
+   "d": 1,
+   "x": "1 KB = 1024 bayt, shuning uchun 2 KB = 2 · 1024 = 2048 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_23",
+   "t": "choice",
+   "q": "3 KB necha bayt?",
+   "a": "3072",
+   "w": [
+    "4096",
+    "2048",
+    "24",
+    "1536"
+   ],
+   "d": 2,
+   "x": "1 KB = 1024 bayt, shuning uchun 3 KB = 3 · 1024 = 3072 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_24",
+   "t": "choice",
+   "q": "4 KB necha bayt?",
+   "a": "4096",
+   "w": [
+    "5120",
+    "3072",
+    "32",
+    "2048"
+   ],
+   "d": 2,
+   "x": "1 KB = 1024 bayt, shuning uchun 4 KB = 4 · 1024 = 4096 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_25",
+   "t": "choice",
+   "q": "2048 bayt necha KB?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "16",
+    "4"
+   ],
+   "d": 2,
+   "x": "Baytdan KB ga o‘tishda 1024 ga bo‘lamiz: 2048 : 1024 = 2."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_26",
+   "t": "choice",
+   "q": "5120 bayt necha KB?",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "40",
+    "10"
+   ],
+   "d": 3,
+   "x": "Baytdan KB ga o‘tishda 1024 ga bo‘lamiz: 5120 : 1024 = 5."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_27",
+   "t": "choice",
+   "q": "2 MB necha KB?",
+   "a": "2048",
+   "w": [
+    "3072",
+    "1024",
+    "16"
+   ],
+   "d": 2,
+   "x": "1 MB = 1024 KB, shuning uchun 2 MB = 2048 KB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_28",
+   "t": "choice",
+   "q": "5 MB necha KB?",
+   "a": "5120",
+   "w": [
+    "6144",
+    "4096",
+    "40",
+    "2560"
+   ],
+   "d": 3,
+   "x": "1 MB = 1024 KB, shuning uchun 5 MB = 5120 KB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_29",
+   "t": "choice",
+   "q": "2 GB necha MB?",
+   "a": "2048",
+   "w": [
+    "3072",
+    "1024",
+    "16"
+   ],
+   "d": 2,
+   "x": "1 GB = 1024 MB, shuning uchun 2 GB = 2048 MB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_30",
+   "t": "choice",
+   "q": "4 GB necha MB?",
+   "a": "4096",
+   "w": [
+    "5120",
+    "3072",
+    "32",
+    "2048"
+   ],
+   "d": 3,
+   "x": "1 GB = 1024 MB, shuning uchun 4 GB = 4096 MB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_31",
+   "t": "choice",
+   "q": "1 KB necha bit?",
+   "a": "8 192",
+   "w": [
+    "1 024",
+    "8",
+    "4 096",
+    "16 384"
+   ],
+   "d": 3,
+   "x": "1 KB = 1024 bayt, 1024 · 8 = 8 192 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_32",
+   "t": "choice",
+   "q": "1 MB necha bayt?",
+   "a": "1 048 576",
+   "w": [
+    "1 024",
+    "8 388 608",
+    "524 288",
+    "2 097 152"
+   ],
+   "d": 3,
+   "x": "1 MB = 1024 KB = 1024 · 1024 = 1 048 576 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_33",
+   "t": "choice",
+   "q": "Fleshka hajmi 16 GB. Bu necha MB?",
+   "a": "16 384",
+   "w": [
+    "1 024",
+    "2 048",
+    "8 192",
+    "32 768"
+   ],
+   "d": 3,
+   "x": "16 · 1024 = 16 384 MB."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_34",
+   "t": "choice",
+   "q": "Bitta rasm 3 MB. Telefonda 30 MB bo‘sh joy bor. Nechta shunday rasm sig‘adi?",
+   "a": "10",
+   "w": [
+    "3",
+    "9",
+    "27",
+    "33"
+   ],
+   "d": 2,
+   "x": "30 : 3 = 10."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_35",
+   "t": "choice",
+   "q": "Har bir harf 1 bayt bilan kodlansa, “KITOB” so‘zi necha bayt joy egallaydi?",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "40",
+    "13"
+   ],
+   "d": 2,
+   "x": "“KITOB” so‘zida 5 ta harf bor: 5 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_36",
+   "t": "choice",
+   "q": "Har bir harf 1 bayt bilan kodlansa, “INFORMATIKA” so‘zi necha bayt joy egallaydi?",
+   "a": "11",
+   "w": [
+    "12",
+    "10",
+    "88",
+    "19"
+   ],
+   "d": 2,
+   "x": "“INFORMATIKA” so‘zida 11 ta harf bor: 11 bayt."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_37",
+   "t": "choice",
+   "q": "Har bir harf 1 bayt bilan kodlansa, “KOMPYUTER” so‘zi necha bit joy egallaydi?",
+   "a": "72",
+   "w": [
+    "73",
+    "71",
+    "9",
+    "80"
+   ],
+   "d": 3,
+   "x": "“KOMPYUTER” so‘zida 9 ta harf bor: 9 bayt = 9 · 8 = 72 bit."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_38",
+   "t": "choice",
+   "q": "1 bit yordamida nechta turli kod hosil qilish mumkin?",
+   "a": "2",
+   "w": [
+    "1",
+    "4"
+   ],
+   "d": 2,
+   "x": "Har bir bit 2 xil qiymat oladi, 1 bit — 2 ni 1 marta ko‘paytiramiz: 2 ta kod."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_39",
+   "t": "choice",
+   "q": "2 bit yordamida nechta turli kod hosil qilish mumkin?",
+   "a": "4",
+   "w": [
+    "2",
+    "6",
+    "8",
+    "3"
+   ],
+   "d": 2,
+   "x": "Har bir bit 2 xil qiymat oladi, 2 bit — 2 ni 2 marta ko‘paytiramiz: 4 ta kod."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_40",
+   "t": "choice",
+   "q": "3 bit yordamida nechta turli kod hosil qilish mumkin?",
+   "a": "8",
+   "w": [
+    "6",
+    "3",
+    "10",
+    "16"
+   ],
+   "d": 3,
+   "x": "Har bir bit 2 xil qiymat oladi, 3 bit — 2 ni 3 marta ko‘paytiramiz: 8 ta kod."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_41",
+   "t": "choice",
+   "q": "4 bit yordamida nechta turli kod hosil qilish mumkin?",
+   "a": "16",
+   "w": [
+    "8",
+    "4",
+    "18",
+    "32"
+   ],
+   "d": 3,
+   "x": "Har bir bit 2 xil qiymat oladi, 4 bit — 2 ni 4 marta ko‘paytiramiz: 16 ta kod."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_42",
+   "t": "choice",
+   "q": "8 bit yordamida nechta turli kod hosil qilish mumkin?",
+   "a": "256",
+   "w": [
+    "16",
+    "8",
+    "258",
+    "512"
+   ],
+   "d": 3,
+   "x": "Har bir bit 2 xil qiymat oladi, 8 bit — 2 ni 8 marta ko‘paytiramiz: 256 ta kod."
+  },
+  {
+   "topic": "informatics_g5.olchov",
+   "id": "olchov_43",
+   "t": "choice",
+   "q": "3 ta chiroqning har biri yoniq yoki o‘chiq bo‘lishi mumkin. Nechta turli signal berish mumkin?",
+   "a": "8",
+   "w": [
+    "3",
+    "6",
+    "9",
+    "16"
+   ],
+   "d": 3,
+   "x": "Har bir chiroq — 2 holat: 2 · 2 · 2 = 8."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_1",
+   "t": "choice",
+   "q": "Ikkilik sanoq sistemasida nechta raqam bor?",
+   "a": "2",
+   "w": [
+    "10",
+    "8",
+    "1"
+   ],
+   "d": 1,
+   "x": "Ikkilik sistemada faqat ikkita raqam: 0 va 1."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_2",
+   "t": "choice",
+   "q": "Ikkilik sanoq sistemasining raqamlari qaysilar?",
+   "a": "0 va 1",
+   "w": [
+    "1 va 2",
+    "0 dan 9 gacha",
+    "1 dan 10 gacha"
+   ],
+   "d": 1,
+   "x": "Ikkilik sistemada faqat 0 va 1 ishlatiladi."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_3",
+   "t": "choice",
+   "q": "O‘nlik sanoq sistemasida nechta raqam bor?",
+   "a": "10",
+   "w": [
+    "2",
+    "8",
+    "9"
+   ],
+   "d": 1,
+   "x": "O‘nlik sistemada 0 dan 9 gacha 10 ta raqam bor."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_4",
+   "t": "tf",
+   "q": "Kompyuter ichida sonlar ikkilik sanoq sistemasida saqlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Kompyuter xotirasi faqat 0 va 1 ni saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_5",
+   "t": "choice",
+   "q": "Qaysi yozuv ikkilik son bo‘la olmaydi?",
+   "a": "102",
+   "w": [
+    "101",
+    "110",
+    "111"
+   ],
+   "d": 1,
+   "x": "Ikkilik sonda faqat 0 va 1 raqamlari bo‘ladi, 2 raqami bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_6",
+   "t": "choice",
+   "q": "Qaysi yozuv ikkilik son bo‘la oladi?",
+   "a": "1001",
+   "w": [
+    "1201",
+    "3001",
+    "1009"
+   ],
+   "d": 1,
+   "x": "1001 da faqat 0 va 1 raqamlari bor."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_7",
+   "t": "choice",
+   "q": "Ikkilik sonda o‘ngdan uchinchi xonaning qiymati nechaga teng?",
+   "a": "4",
+   "w": [
+    "3",
+    "8",
+    "2"
+   ],
+   "d": 2,
+   "x": "Xona qiymatlari o‘ngdan: 1, 2, 4, 8 — uchinchisi 4."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_8",
+   "t": "choice",
+   "q": "Ikkilik sonda o‘ngdan to‘rtinchi xonaning qiymati nechaga teng?",
+   "a": "8",
+   "w": [
+    "4",
+    "16",
+    "6"
+   ],
+   "d": 2,
+   "x": "Xona qiymatlari o‘ngdan: 1, 2, 4, 8 — to‘rtinchisi 8."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_9",
+   "t": "tf",
+   "q": "Ikkilikdagi 10 soni o‘nlikdagi 10 ga teng.",
+   "a": false,
+   "d": 2,
+   "x": "Ikkilikdagi 10 — bu o‘nlikdagi 2."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_10",
+   "t": "choice",
+   "q": "Ikkilikda sanaganda 11 dan keyin qaysi son keladi?",
+   "a": "100",
+   "w": [
+    "12",
+    "111",
+    "20"
+   ],
+   "d": 2,
+   "x": "11 = 3, keyingisi 4 = 100."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_11",
+   "t": "choice",
+   "q": "8 soni ikkilikda necha xonali?",
+   "a": "4",
+   "w": [
+    "3",
+    "8",
+    "1"
+   ],
+   "d": 2,
+   "x": "8 = 1000 — 4 xonali."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_12",
+   "t": "tf",
+   "q": "Ikkilikdagi 1000 soni ikkilikdagi 111 sonidan katta.",
+   "a": true,
+   "d": 2,
+   "x": "1000 = 8, 111 = 7."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_13",
+   "t": "choice",
+   "q": "Eng kichik uch xonali ikkilik son qaysi?",
+   "a": "100",
+   "w": [
+    "111",
+    "001",
+    "101"
+   ],
+   "d": 2,
+   "x": "Uch xonali son 1 bilan boshlanadi, eng kichigi 100 = 4."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_14",
+   "t": "match",
+   "q": "O‘nlik sonni ikkilik yozuvi bilan juftlang",
+   "pairs": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "10"
+    ],
+    [
+     "3",
+     "11"
+    ],
+    [
+     "4",
+     "100"
+    ],
+    [
+     "5",
+     "101"
+    ],
+    [
+     "6",
+     "110"
+    ],
+    [
+     "7",
+     "111"
+    ],
+    [
+     "8",
+     "1000"
+    ]
+   ],
+   "d": 2,
+   "x": "Xona qiymatlari 8, 4, 2, 1 yordamida tekshiring."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_15",
+   "t": "choice",
+   "q": "Ikkilik sanoq sistemasida 1 + 1 yig‘indisi qanday yoziladi?",
+   "a": "10",
+   "w": [
+    "11",
+    "0",
+    "1"
+   ],
+   "d": 3,
+   "x": "1 + 1 = 2, ikkilikda esa 2 = 10."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_16",
+   "t": "choice",
+   "q": "4 xonali eng katta ikkilik son o‘nlikda nechaga teng?",
+   "a": "15",
+   "w": [
+    "16",
+    "14",
+    "8"
+   ],
+   "d": 3,
+   "x": "1111 = 8 + 4 + 2 + 1 = 15."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_17",
+   "t": "tf",
+   "q": "Ikkilikda 0 bilan tugaydigan son juft bo‘ladi.",
+   "a": true,
+   "d": 3,
+   "x": "Oxirgi xona qiymati 1; u 0 bo‘lsa, son faqat 2, 4, 8 … lardan yig‘iladi va juft bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_18",
+   "t": "match",
+   "q": "O‘nlik sonni ikkilik yozuvi bilan juftlang ",
+   "pairs": [
+    [
+     "9",
+     "1001"
+    ],
+    [
+     "10",
+     "1010"
+    ],
+    [
+     "11",
+     "1011"
+    ],
+    [
+     "12",
+     "1100"
+    ],
+    [
+     "13",
+     "1101"
+    ],
+    [
+     "14",
+     "1110"
+    ],
+    [
+     "15",
+     "1111"
+    ]
+   ],
+   "d": 3,
+   "x": "Masalan, 13 = 8 + 4 + 1 = 1101."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_19",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 2 sonini ikkilik sistemada yozing.",
+   "a": "10",
+   "w": [
+    "11",
+    "1",
+    "100",
+    "110"
+   ],
+   "d": 1,
+   "x": "2 = 2, shuning uchun 2 = 10."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_20",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 3 sonini ikkilik sistemada yozing.",
+   "a": "11",
+   "w": [
+    "10",
+    "100",
+    "1",
+    "101"
+   ],
+   "d": 1,
+   "x": "3 = 2 + 1, shuning uchun 3 = 11."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_21",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 4 sonini ikkilik sistemada yozing.",
+   "a": "100",
+   "w": [
+    "101",
+    "11",
+    "110",
+    "10"
+   ],
+   "d": 1,
+   "x": "4 = 4, shuning uchun 4 = 100."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_22",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 5 sonini ikkilik sistemada yozing.",
+   "a": "101",
+   "w": [
+    "100",
+    "110",
+    "111",
+    "11"
+   ],
+   "d": 1,
+   "x": "5 = 4 + 1, shuning uchun 5 = 101."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_23",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 6 sonini ikkilik sistemada yozing.",
+   "a": "110",
+   "w": [
+    "111",
+    "101",
+    "100",
+    "1000"
+   ],
+   "d": 2,
+   "x": "6 = 4 + 2, shuning uchun 6 = 110."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_24",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 7 sonini ikkilik sistemada yozing.",
+   "a": "111",
+   "w": [
+    "110",
+    "1000",
+    "101",
+    "1001"
+   ],
+   "d": 2,
+   "x": "7 = 4 + 2 + 1, shuning uchun 7 = 111."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_25",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 8 sonini ikkilik sistemada yozing.",
+   "a": "1000",
+   "w": [
+    "1001",
+    "111",
+    "1010",
+    "110"
+   ],
+   "d": 2,
+   "x": "8 = 8, shuning uchun 8 = 1000."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_26",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 9 sonini ikkilik sistemada yozing.",
+   "a": "1001",
+   "w": [
+    "1000",
+    "1010",
+    "1011",
+    "111"
+   ],
+   "d": 2,
+   "x": "9 = 8 + 1, shuning uchun 9 = 1001."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_27",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 10 sonini ikkilik sistemada yozing.",
+   "a": "1010",
+   "w": [
+    "1011",
+    "1001",
+    "1000",
+    "1100"
+   ],
+   "d": 2,
+   "x": "10 = 8 + 2, shuning uchun 10 = 1010."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_28",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 11 sonini ikkilik sistemada yozing.",
+   "a": "1011",
+   "w": [
+    "1010",
+    "1100",
+    "1101",
+    "1001"
+   ],
+   "d": 3,
+   "x": "11 = 8 + 2 + 1, shuning uchun 11 = 1011."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_29",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 12 sonini ikkilik sistemada yozing.",
+   "a": "1100",
+   "w": [
+    "1101",
+    "1011",
+    "1110",
+    "1010"
+   ],
+   "d": 3,
+   "x": "12 = 8 + 4, shuning uchun 12 = 1100."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_30",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 13 sonini ikkilik sistemada yozing.",
+   "a": "1101",
+   "w": [
+    "1100",
+    "1110",
+    "1011",
+    "1111"
+   ],
+   "d": 3,
+   "x": "13 = 8 + 4 + 1, shuning uchun 13 = 1101."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_31",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 14 sonini ikkilik sistemada yozing.",
+   "a": "1110",
+   "w": [
+    "1111",
+    "1101",
+    "1100",
+    "10000"
+   ],
+   "d": 3,
+   "x": "14 = 8 + 4 + 2, shuning uchun 14 = 1110."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_32",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 15 sonini ikkilik sistemada yozing.",
+   "a": "1111",
+   "w": [
+    "1110",
+    "10000",
+    "1101",
+    "10001"
+   ],
+   "d": 3,
+   "x": "15 = 8 + 4 + 2 + 1, shuning uchun 15 = 1111."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_33",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 10 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4",
+    "10"
+   ],
+   "d": 1,
+   "x": "10 = 2 + 0 = 2."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_34",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 11 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5",
+    "11"
+   ],
+   "d": 1,
+   "x": "11 = 2 + 1 = 3."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_35",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 100 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "1",
+    "6"
+   ],
+   "d": 1,
+   "x": "100 = 4 + 0 + 0 = 4."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_36",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 101 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "7",
+    "101"
+   ],
+   "d": 1,
+   "x": "101 = 4 + 0 + 1 = 5."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_37",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 110 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "3",
+    "8"
+   ],
+   "d": 2,
+   "x": "110 = 4 + 2 + 0 = 6."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_38",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 111 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "7",
+   "w": [
+    "8",
+    "6",
+    "9",
+    "111"
+   ],
+   "d": 2,
+   "x": "111 = 4 + 2 + 1 = 7."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_39",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1000 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "8",
+   "w": [
+    "9",
+    "7",
+    "1",
+    "10"
+   ],
+   "d": 2,
+   "x": "1000 = 8 + 0 + 0 + 0 = 8."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_40",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1001 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "9",
+   "w": [
+    "10",
+    "8",
+    "11",
+    "1001"
+   ],
+   "d": 2,
+   "x": "1001 = 8 + 0 + 0 + 1 = 9."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_41",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1010 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "10",
+   "w": [
+    "11",
+    "9",
+    "5",
+    "12"
+   ],
+   "d": 2,
+   "x": "1010 = 8 + 0 + 2 + 0 = 10."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_42",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1011 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "11",
+   "w": [
+    "12",
+    "10",
+    "13",
+    "1011"
+   ],
+   "d": 3,
+   "x": "1011 = 8 + 0 + 2 + 1 = 11."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_43",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1100 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "12",
+   "w": [
+    "13",
+    "11",
+    "3",
+    "14"
+   ],
+   "d": 3,
+   "x": "1100 = 8 + 4 + 0 + 0 = 12."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_44",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1101 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "13",
+   "w": [
+    "14",
+    "12",
+    "11",
+    "15"
+   ],
+   "d": 3,
+   "x": "1101 = 8 + 4 + 0 + 1 = 13."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_45",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1110 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "14",
+   "w": [
+    "15",
+    "13",
+    "7",
+    "16"
+   ],
+   "d": 3,
+   "x": "1110 = 8 + 4 + 2 + 0 = 14."
+  },
+  {
+   "topic": "informatics_g5.ikkilik",
+   "id": "ikkilik_46",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1111 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "15",
+   "w": [
+    "16",
+    "14",
+    "17",
+    "1111"
+   ],
+   "d": 3,
+   "x": "1111 = 8 + 4 + 2 + 1 = 15."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_1",
+   "t": "choice",
+   "q": "Kompyuterning “miyasi” deb qaysi qism ataladi?",
+   "a": "Protsessor",
+   "w": [
+    "Monitor",
+    "Klaviatura",
+    "Karnay"
+   ],
+   "d": 1,
+   "x": "Protsessor barcha hisob-kitob va buyruqlarni bajaradi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_2",
+   "t": "choice",
+   "q": "Kompyuter o‘chirilganda qaysi xotiradagi ma’lumot o‘chib ketadi?",
+   "a": "Operativ xotira",
+   "w": [
+    "Qattiq disk",
+    "Fleshka",
+    "SSD"
+   ],
+   "d": 1,
+   "x": "Operativ xotira faqat kompyuter ishlab turganda ma’lumotni saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_3",
+   "t": "choice",
+   "q": "Fayllar uzoq muddat qayerda saqlanadi?",
+   "a": "Qattiq diskda",
+   "w": [
+    "Operativ xotirada",
+    "Protsessorda",
+    "Monitorda"
+   ],
+   "d": 1,
+   "x": "Qattiq disk — doimiy xotira, undagi fayllar kompyuter o‘chganda ham qoladi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_4",
+   "t": "choice",
+   "q": "Faylni boshqa kompyuterga olib o‘tish uchun qaysi qurilma qulay?",
+   "a": "Fleshka",
+   "w": [
+    "Protsessor",
+    "Operativ xotira",
+    "Ona plata"
+   ],
+   "d": 1,
+   "x": "Fleshka — kichik ko‘chma xotira, uni USB uyaga ulaymiz."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_5",
+   "t": "choice",
+   "q": "Stol kompyuterida protsessor, xotira va ona plata qayerda joylashgan?",
+   "a": "Tizim blokida",
+   "w": [
+    "Monitorda",
+    "Klaviaturada",
+    "Printerda"
+   ],
+   "d": 1,
+   "x": "Asosiy qismlar tizim bloki ichida bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_6",
+   "t": "tf",
+   "q": "Operativ xotiradagi ma’lumot kompyuter o‘chganda ham saqlanib qoladi.",
+   "a": false,
+   "d": 1,
+   "x": "Operativ xotira kompyuter o‘chganda tozalanadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_7",
+   "t": "tf",
+   "q": "Fleshka — ko‘chma xotira qurilmasi.",
+   "a": true,
+   "d": 1,
+   "x": "Fleshkani bir kompyuterdan boshqasiga olib o‘tish mumkin."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_8",
+   "t": "tf",
+   "q": "Qattiq disk — doimiy xotira.",
+   "a": true,
+   "d": 1,
+   "x": "Qattiq diskdagi fayllar tok o‘chganda ham saqlanadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_9",
+   "t": "choice",
+   "q": "Qaysi biri kiritish qurilmasi?",
+   "a": "Skaner",
+   "w": [
+    "Printer",
+    "Monitor",
+    "Karnay"
+   ],
+   "d": 1,
+   "x": "Skaner qog‘ozdagi tasvirni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_10",
+   "t": "choice",
+   "q": "Klaviaturadan harf kiritildi, protsessor uni qayta ishladi. Keyin harf qayerda ko‘rinadi?",
+   "a": "Monitorda",
+   "w": [
+    "Mikrofonda",
+    "Skanerda",
+    "Sichqonchada"
+   ],
+   "d": 1,
+   "x": "Natija chiqarish qurilmasi — monitorda ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_11",
+   "t": "choice",
+   "q": "Noutbuk qanday kompyuter?",
+   "a": "Ko‘chma kompyuter",
+   "w": [
+    "Faqat printer",
+    "Katta televizor",
+    "Faqat skaner"
+   ],
+   "d": 1,
+   "x": "Noutbukda barcha qismlar bitta yig‘ma korpusda, uni ko‘tarib yurish mumkin.",
+   "e": "💻"
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_12",
+   "t": "choice",
+   "q": "Kompyuterning barcha qismlari ulanadigan asosiy plata nima deb ataladi?",
+   "a": "Ona plata",
+   "w": [
+    "Videokarta",
+    "Fleshka",
+    "Monitor"
+   ],
+   "d": 2,
+   "x": "Ona plata protsessor, xotira va boshqa qismlarni bir-biri bilan bog‘laydi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_13",
+   "t": "choice",
+   "q": "Tasvirni monitorga chiqarishga javob beradigan qism qaysi?",
+   "a": "Videokarta",
+   "w": [
+    "Ovoz kartasi",
+    "Quvvat bloki",
+    "Fleshka"
+   ],
+   "d": 2,
+   "x": "Videokarta tasvirni tayyorlab, monitorga uzatadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_14",
+   "t": "choice",
+   "q": "Kompyuter qismlarini elektr bilan ta’minlaydigan qism qaysi?",
+   "a": "Quvvat bloki",
+   "w": [
+    "Protsessor",
+    "Videokarta",
+    "Qattiq disk"
+   ],
+   "d": 2,
+   "x": "Quvvat bloki rozetkadagi tokni kompyuter qismlariga mos holga keltiradi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_15",
+   "t": "tf",
+   "q": "SSD qattiq diskka qaraganda tezroq ishlaydi.",
+   "a": true,
+   "d": 2,
+   "x": "SSD da aylanadigan qismlar yo‘q, u ma’lumotni tezroq o‘qiydi va yozadi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_16",
+   "t": "match",
+   "q": "Qismni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Protsessor",
+     "Hisob-kitobni bajaradi"
+    ],
+    [
+     "Operativ xotira",
+     "Vaqtincha saqlaydi"
+    ],
+    [
+     "Qattiq disk",
+     "Fayllarni doimiy saqlaydi"
+    ],
+    [
+     "Videokarta",
+     "Tasvirni chiqaradi"
+    ],
+    [
+     "Quvvat bloki",
+     "Elektr bilan ta’minlaydi"
+    ],
+    [
+     "Ona plata",
+     "Qismlarni bog‘laydi"
+    ]
+   ],
+   "d": 2,
+   "x": "Kompyuterning har bir qismi o‘z vazifasini bajaradi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_17",
+   "t": "choice",
+   "q": "Qaysi biri chiqarish qurilmasi?",
+   "a": "Proyektor",
+   "w": [
+    "Mikrofon",
+    "Klaviatura",
+    "Skaner"
+   ],
+   "d": 2,
+   "x": "Proyektor tasvirni devorga yoki ekranga chiqaradi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_18",
+   "t": "choice",
+   "q": "Telefon va fotoapparatda ishlatiladigan kichik ko‘chma xotira nima?",
+   "a": "Xotira kartasi",
+   "w": [
+    "Qattiq disk",
+    "Protsessor",
+    "Videokarta"
+   ],
+   "d": 2,
+   "x": "Xotira kartasi rasm, video va boshqa fayllarni saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_19",
+   "t": "choice",
+   "q": "Operativ xotira hajmi odatda qaysi birlikda o‘lchanadi?",
+   "a": "Gigabayt",
+   "w": [
+    "Metr",
+    "Kilogramm",
+    "Litr"
+   ],
+   "d": 2,
+   "x": "Masalan, kompyuterda 8 GB operativ xotira bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_20",
+   "t": "choice",
+   "q": "Kompyuter qanday tartibda ishlaydi?",
+   "a": "Kiritish → qayta ishlash → chiqarish",
+   "w": [
+    "Chiqarish → kiritish → qayta ishlash",
+    "Qayta ishlash → chiqarish → kiritish",
+    "Chiqarish → qayta ishlash → kiritish"
+   ],
+   "d": 2,
+   "x": "Avval axborot kiritiladi, protsessor uni qayta ishlaydi, natija chiqariladi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_21",
+   "t": "choice",
+   "q": "Kompyuterning qurilmalari birgalikda qanday ataladi?",
+   "a": "Apparat ta’minoti",
+   "w": [
+    "Dasturiy ta’minot",
+    "Operatsion tizim",
+    "Amaliy dastur"
+   ],
+   "d": 2,
+   "x": "Apparat ta’minoti — kompyuterning qo‘l bilan ushlab ko‘rish mumkin bo‘lgan qismlari."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_22",
+   "t": "choice",
+   "q": "Qaysi qurilma ham kiritish, ham chiqarish vazifasini bajaradi?",
+   "a": "Sensorli ekran",
+   "w": [
+    "Printer",
+    "Mikrofon",
+    "Karnay"
+   ],
+   "d": 2,
+   "x": "Sensorli ekran tasvirni ko‘rsatadi va barmoq tegishini qabul qiladi."
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Protsessor",
+    "barcha",
+    "buyruqlarni",
+    "bajaradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g5.kompyuter_tuzilishi",
+   "id": "kompyuter_tuzilishi_24",
+   "t": "choice",
+   "q": "CD va DVD disklar qanday xotira?",
+   "a": "Optik disk",
+   "w": [
+    "Operativ xotira",
+    "Protsessor",
+    "Ona plata"
+   ],
+   "d": 3,
+   "x": "CD va DVD dagi ma’lumot lazer nuri yordamida o‘qiladi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_1",
+   "t": "choice",
+   "q": "Kompyuterni boshqaradigan asosiy dastur nima deb ataladi?",
+   "a": "Operatsion tizim",
+   "w": [
+    "Brauzer",
+    "O‘yin",
+    "Matn muharriri"
+   ],
+   "d": 1,
+   "x": "Operatsion tizim qurilmalar va boshqa dasturlarning ishini boshqaradi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_2",
+   "t": "choice",
+   "q": "Qaysi biri operatsion tizim?",
+   "a": "Windows",
+   "w": [
+    "Paint",
+    "Word",
+    "Chrome"
+   ],
+   "d": 1,
+   "x": "Windows — Microsoft kompaniyasining operatsion tizimi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_3",
+   "t": "choice",
+   "q": "Qaysi biri operatsion tizim?",
+   "a": "Linux",
+   "w": [
+    "Excel",
+    "Scratch",
+    "Paint"
+   ],
+   "d": 1,
+   "x": "Linux — bepul tarqatiladigan operatsion tizim."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_4",
+   "t": "choice",
+   "q": "Ko‘pchilik smartfonlarda qaysi operatsion tizim o‘rnatilgan?",
+   "a": "Android",
+   "w": [
+    "Paint",
+    "Word",
+    "Scratch"
+   ],
+   "d": 1,
+   "x": "Android — smartfon va planshetlar uchun operatsion tizim.",
+   "e": "📱"
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_5",
+   "t": "choice",
+   "q": "Matn yozish uchun qaysi dastur mo‘ljallangan?",
+   "a": "Word",
+   "w": [
+    "Paint",
+    "Windows",
+    "Antivirus"
+   ],
+   "d": 1,
+   "x": "Word — matn muharriri."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_6",
+   "t": "choice",
+   "q": "Internet sahifalarini ko‘rish uchun qaysi dastur kerak?",
+   "a": "Brauzer",
+   "w": [
+    "Paint",
+    "Kalkulyator",
+    "Antivirus"
+   ],
+   "d": 1,
+   "x": "Brauzer veb-sahifalarni ochib ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_7",
+   "t": "choice",
+   "q": "Kompyuterni viruslardan qaysi dastur himoya qiladi?",
+   "a": "Antivirus",
+   "w": [
+    "Paint",
+    "Brauzer",
+    "Pleyer"
+   ],
+   "d": 1,
+   "x": "Antivirus zararli dasturlarni topib zararsizlantiradi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_8",
+   "t": "match",
+   "q": "Dasturni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Word",
+     "Matn yozish"
+    ],
+    [
+     "Paint",
+     "Rasm chizish"
+    ],
+    [
+     "Chrome",
+     "Saytlarni ko‘rish"
+    ],
+    [
+     "Kalkulyator",
+     "Hisoblash"
+    ],
+    [
+     "Antivirus",
+     "Viruslardan himoya"
+    ],
+    [
+     "Scratch",
+     "Dastur tuzish"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir amaliy dastur o‘z ishiga mo‘ljallangan."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_9",
+   "t": "tf",
+   "q": "Paint — operatsion tizim.",
+   "a": false,
+   "d": 1,
+   "x": "Paint — rasm chizish uchun amaliy dastur."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_10",
+   "t": "choice",
+   "q": "Qaysi biri brauzer?",
+   "a": "Google Chrome",
+   "w": [
+    "Windows",
+    "Paint",
+    "Word"
+   ],
+   "d": 1,
+   "x": "Google Chrome — keng tarqalgan brauzer."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_11",
+   "t": "choice",
+   "q": "Musiqa va video ijro etadigan dastur qanday ataladi?",
+   "a": "Media pleyer",
+   "w": [
+    "Antivirus",
+    "Matn muharriri",
+    "Operatsion tizim"
+   ],
+   "d": 1,
+   "x": "Pleyer audio va video fayllarni ijro etadi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_12",
+   "t": "choice",
+   "q": "Dasturlarni kim yaratadi?",
+   "a": "Dasturchi",
+   "w": [
+    "Shifokor",
+    "Oshpaz",
+    "Haydovchi"
+   ],
+   "d": 1,
+   "x": "Dasturchi dasturlash tilida dastur yozadi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Windows",
+    "operatsion",
+    "tizim",
+    "hisoblanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_14",
+   "t": "choice",
+   "q": "Apple kompyuterlarida qaysi operatsion tizim ishlaydi?",
+   "a": "macOS",
+   "w": [
+    "Android",
+    "Paint",
+    "Word"
+   ],
+   "d": 2,
+   "x": "macOS — Apple kompaniyasining kompyuterlar uchun operatsion tizimi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_15",
+   "t": "choice",
+   "q": "iPhone telefonlarida qaysi operatsion tizim ishlaydi?",
+   "a": "iOS",
+   "w": [
+    "Windows",
+    "Android",
+    "Paint"
+   ],
+   "d": 2,
+   "x": "iOS — Apple kompaniyasining telefonlar uchun operatsion tizimi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_16",
+   "t": "tf",
+   "q": "Operatsion tizimsiz kompyuterda boshqa dasturlar ishlamaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Amaliy dasturlar operatsion tizim yordamida ishga tushadi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_17",
+   "t": "choice",
+   "q": "Aniq bir ishni bajarish uchun mo‘ljallangan dasturlar qanday ataladi?",
+   "a": "Amaliy dasturlar",
+   "w": [
+    "Operatsion tizimlar",
+    "Qurilmalar",
+    "Viruslar"
+   ],
+   "d": 2,
+   "x": "Matn muharriri, grafik muharrir, o‘yinlar — amaliy dasturlar."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_18",
+   "t": "choice",
+   "q": "Kompyuterdagi barcha dasturlar birgalikda qanday ataladi?",
+   "a": "Dasturiy ta’minot",
+   "w": [
+    "Apparat ta’minoti",
+    "Ona plata",
+    "Tizim bloki"
+   ],
+   "d": 2,
+   "x": "Dasturiy ta’minot — kompyuterdagi barcha dasturlar majmui."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_19",
+   "t": "choice",
+   "q": "Dastur o‘rnatish nima?",
+   "a": "Uni kompyuterga yozib, ishga tayyorlash",
+   "w": [
+    "Uni o‘chirish",
+    "Uni chop etish",
+    "Uni savatga tashlash"
+   ],
+   "d": 2,
+   "x": "O‘rnatilgan dastur kompyuterda ishga tushirishga tayyor bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_20",
+   "t": "choice",
+   "q": "Kompyuterda jadval tuzib, hisoblash uchun qaysi dastur mos?",
+   "a": "Excel",
+   "w": [
+    "Paint",
+    "Bloknot",
+    "Pleyer"
+   ],
+   "d": 2,
+   "x": "Excel — elektron jadvallar dasturi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_21",
+   "t": "choice",
+   "q": "Taqdimot slaydlarini tayyorlash uchun qaysi dastur mos?",
+   "a": "PowerPoint",
+   "w": [
+    "Paint",
+    "Kalkulyator",
+    "Antivirus"
+   ],
+   "d": 2,
+   "x": "PowerPoint — taqdimot tayyorlash dasturi."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_22",
+   "t": "tf",
+   "q": "Dasturlarni faqat ishonchli saytlardan yuklab olish kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Noma’lum saytdan olingan dasturda virus bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.dasturiy",
+   "id": "dasturiy_23",
+   "t": "choice",
+   "q": "Qaysi biri bepul tarqatiladigan operatsion tizim?",
+   "a": "Linux",
+   "w": [
+    "Paint",
+    "Word",
+    "Excel"
+   ],
+   "d": 2,
+   "x": "Linux — bepul va ochiq kodli operatsion tizim; qolganlari amaliy dasturlar."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_1",
+   "t": "choice",
+   "q": "Fayl nomidagi nuqtadan keyingi qism nima deb ataladi?",
+   "a": "Kengaytma",
+   "w": [
+    "Papka",
+    "Manzil",
+    "Belgi"
+   ],
+   "d": 1,
+   "x": "Kengaytma fayl turini bildiradi: dars.docx faylida kengaytma — docx."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_2",
+   "t": "choice",
+   "q": "Kengaytma nimani bildiradi?",
+   "a": "Fayl turini",
+   "w": [
+    "Fayl hajmini",
+    "Yaratilgan kunni",
+    "Muallifni"
+   ],
+   "d": 1,
+   "x": "Kengaytma bo‘yicha kompyuter faylni qaysi dasturda ochishni biladi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_3",
+   "t": "match",
+   "q": "Kengaytmani fayl turi bilan juftlang",
+   "pairs": [
+    [
+     ".txt",
+     "Oddiy matn"
+    ],
+    [
+     ".mp3",
+     "Musiqa"
+    ],
+    [
+     ".mp4",
+     "Video"
+    ],
+    [
+     ".jpg",
+     "Rasm"
+    ],
+    [
+     ".pptx",
+     "Taqdimot"
+    ],
+    [
+     ".xlsx",
+     "Elektron jadval"
+    ]
+   ],
+   "d": 1,
+   "x": "Kengaytma fayl turini ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_4",
+   "t": "tf",
+   "q": "Papka ichida boshqa papka bo‘lishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Papkalar ichma-ich joylashishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_5",
+   "t": "choice",
+   "q": "Faylni o‘chirganda u avval qayerga tushadi?",
+   "a": "Savatga",
+   "w": [
+    "Fleshkaga",
+    "Printerga",
+    "Internetga"
+   ],
+   "d": 1,
+   "x": "Savat tozalanmaguncha faylni qayta tiklash mumkin."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_6",
+   "t": "choice",
+   "q": "Fayl hajmi qanday birliklarda o‘lchanadi?",
+   "a": "Bayt, KB, MB",
+   "w": [
+    "Metr, santimetr",
+    "Kilogramm, gramm",
+    "Litr, millilitr"
+   ],
+   "d": 1,
+   "x": "Fayl hajmi axborot o‘lchov birliklarida ifodalanadi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_7",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kengaytma",
+    "fayl",
+    "turini",
+    "bildiradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_8",
+   "t": "choice",
+   "q": "“dars.docx” faylida kengaytma qaysi?",
+   "a": "docx",
+   "w": [
+    "dars",
+    "dars.docx",
+    "doc"
+   ],
+   "d": 2,
+   "x": "Kengaytma — nuqtadan keyingi qism: docx."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_9",
+   "t": "choice",
+   "q": "“oila.jpg” faylining kengaytmasiz nomi qaysi?",
+   "a": "oila",
+   "w": [
+    "jpg",
+    "oila.jpg",
+    ".jpg"
+   ],
+   "d": 2,
+   "x": "Nuqtagacha bo‘lgan qism — faylning nomi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_10",
+   "t": "choice",
+   "q": "“kitob.pdf” fayli ko‘pincha nima bo‘ladi?",
+   "a": "Hujjat yoki kitob",
+   "w": [
+    "Musiqa",
+    "Video",
+    "O‘yin"
+   ],
+   "d": 2,
+   "x": "PDF formatida hujjat va kitoblar saqlanadi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_11",
+   "t": "choice",
+   "q": "Fayl manzili: C:\\Maktab\\Rasmlar\\gul.jpg. gul.jpg qaysi papkada turibdi?",
+   "a": "Rasmlar",
+   "w": [
+    "Maktab",
+    "C",
+    "gul"
+   ],
+   "d": 2,
+   "x": "Fayl nomidan oldingi papka — Rasmlar; u esa Maktab papkasi ichida."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_12",
+   "t": "tf",
+   "q": "Bitta papkada nomi va kengaytmasi bir xil bo‘lgan ikkita fayl bo‘lishi mumkin.",
+   "a": false,
+   "d": 2,
+   "x": "Bir papkada to‘liq nomi bir xil bo‘lgan ikkita fayl saqlanmaydi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_13",
+   "t": "choice",
+   "q": "Fayl nomini o‘zgartirish qanday ataladi?",
+   "a": "Qayta nomlash",
+   "w": [
+    "Nusxalash",
+    "O‘chirish",
+    "Ko‘chirish"
+   ],
+   "d": 2,
+   "x": "Qayta nomlashda faqat nom o‘zgaradi, mazmun o‘zgarmaydi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_14",
+   "t": "choice",
+   "q": "Faylning nusxasi boshqa papkada paydo bo‘lib, asli ham joyida qolsa, bu nima?",
+   "a": "Nusxalash",
+   "w": [
+    "Ko‘chirish",
+    "O‘chirish",
+    "Qayta nomlash"
+   ],
+   "d": 2,
+   "x": "Nusxalashda fayl ikkita bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_15",
+   "t": "choice",
+   "q": "Fayl asl joyidan yo‘qolib, boshqa papkada paydo bo‘lsa, bu nima?",
+   "a": "Ko‘chirish",
+   "w": [
+    "Nusxalash",
+    "Qayta nomlash",
+    "Yaratish"
+   ],
+   "d": 2,
+   "x": "Ko‘chirishda fayl bitta qoladi, faqat joyi o‘zgaradi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_16",
+   "t": "choice",
+   "q": "Fayl manzili: D:\\O‘yinlar\\Shaxmat\\qoida.txt. Shaxmat papkasi qaysi papka ichida?",
+   "a": "O‘yinlar",
+   "w": [
+    "Shaxmat",
+    "qoida",
+    "txt"
+   ],
+   "d": 3,
+   "x": "Manzil chapdan o‘ngga o‘qiladi: D diski → O‘yinlar → Shaxmat → qoida.txt."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_17",
+   "t": "choice",
+   "q": "Windows tizimida qaysi belgini fayl nomida ishlatib bo‘lmaydi?",
+   "a": "?",
+   "w": [
+    "_",
+    "-",
+    "1"
+   ],
+   "d": 3,
+   "x": "Windows fayl nomida ? * : / kabi maxsus belgilarga ruxsat bermaydi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_18",
+   "t": "choice",
+   "q": "“bayram.jpg” faylida nima saqlangan?",
+   "a": "Rasm",
+   "w": [
+    "Musiqa",
+    "Video",
+    "Matn",
+    "Taqdimot"
+   ],
+   "d": 1,
+   "x": "jpg kengaytmasi — rasm fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_19",
+   "t": "choice",
+   "q": "“sayohat.png” faylida nima saqlangan?",
+   "a": "Rasm",
+   "w": [
+    "Musiqa",
+    "Video",
+    "Matn",
+    "Taqdimot"
+   ],
+   "d": 1,
+   "x": "png kengaytmasi — rasm fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_20",
+   "t": "choice",
+   "q": "“tabiat.mp3” faylida nima saqlangan?",
+   "a": "Musiqa",
+   "w": [
+    "Rasm",
+    "Video",
+    "Matn",
+    "Taqdimot"
+   ],
+   "d": 1,
+   "x": "mp3 kengaytmasi — musiqa fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_21",
+   "t": "choice",
+   "q": "“loyiha.mp4” faylida nima saqlangan?",
+   "a": "Video",
+   "w": [
+    "Rasm",
+    "Musiqa",
+    "Matn",
+    "Taqdimot"
+   ],
+   "d": 1,
+   "x": "mp4 kengaytmasi — video fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_22",
+   "t": "choice",
+   "q": "“insho.docx” faylida nima saqlangan?",
+   "a": "Matn",
+   "w": [
+    "Rasm",
+    "Musiqa",
+    "Video",
+    "Taqdimot"
+   ],
+   "d": 2,
+   "x": "docx kengaytmasi — matn fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_23",
+   "t": "choice",
+   "q": "“eslatma.txt” faylida nima saqlangan?",
+   "a": "Matn",
+   "w": [
+    "Rasm",
+    "Musiqa",
+    "Video",
+    "Taqdimot"
+   ],
+   "d": 2,
+   "x": "txt kengaytmasi — matn fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_24",
+   "t": "choice",
+   "q": "“dars.pptx” faylida nima saqlangan?",
+   "a": "Taqdimot",
+   "w": [
+    "Rasm",
+    "Musiqa",
+    "Video",
+    "Matn"
+   ],
+   "d": 2,
+   "x": "pptx kengaytmasi — taqdimot fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_25",
+   "t": "choice",
+   "q": "“baholar.xlsx” faylida nima saqlangan?",
+   "a": "Elektron jadval",
+   "w": [
+    "Rasm",
+    "Musiqa",
+    "Video",
+    "Matn"
+   ],
+   "d": 2,
+   "x": "xlsx kengaytmasi — elektron jadval fayli."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_26",
+   "t": "choice",
+   "q": "Qaysi faylda rasm saqlangan?",
+   "a": "sayohat.jpg",
+   "w": [
+    "sayohat.mp3",
+    "sayohat.mp4",
+    "sayohat.docx",
+    "sayohat.pptx"
+   ],
+   "d": 1,
+   "x": "jpg kengaytmasi rasm faylini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_27",
+   "t": "choice",
+   "q": "Qaysi faylda musiqa saqlangan?",
+   "a": "sayohat.mp3",
+   "w": [
+    "sayohat.jpg",
+    "sayohat.mp4",
+    "sayohat.docx",
+    "sayohat.pptx"
+   ],
+   "d": 1,
+   "x": "mp3 kengaytmasi musiqa faylini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_28",
+   "t": "choice",
+   "q": "Qaysi faylda video saqlangan?",
+   "a": "sayohat.mp4",
+   "w": [
+    "sayohat.jpg",
+    "sayohat.mp3",
+    "sayohat.docx",
+    "sayohat.pptx"
+   ],
+   "d": 1,
+   "x": "mp4 kengaytmasi video faylini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_29",
+   "t": "choice",
+   "q": "Qaysi faylda matn saqlangan?",
+   "a": "sayohat.docx",
+   "w": [
+    "sayohat.jpg",
+    "sayohat.mp3",
+    "sayohat.mp4",
+    "sayohat.pptx"
+   ],
+   "d": 2,
+   "x": "docx kengaytmasi matn faylini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.fayl",
+   "id": "fayl_30",
+   "t": "choice",
+   "q": "Qaysi faylda taqdimot saqlangan?",
+   "a": "sayohat.pptx",
+   "w": [
+    "sayohat.jpg",
+    "sayohat.mp3",
+    "sayohat.mp4",
+    "sayohat.docx"
+   ],
+   "d": 2,
+   "x": "pptx kengaytmasi taqdimot faylini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_1",
+   "t": "choice",
+   "q": "Matn yozish va tahrirlash uchun qaysi dastur ishlatiladi?",
+   "a": "Matn muharriri",
+   "w": [
+    "Grafik muharrir",
+    "Antivirus",
+    "Media pleyer"
+   ],
+   "d": 1,
+   "x": "Matn muharriri — matn bilan ishlash dasturi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_2",
+   "t": "choice",
+   "q": "Qaysi biri matn muharriri?",
+   "a": "Microsoft Word",
+   "w": [
+    "Paint",
+    "Google Chrome",
+    "Windows"
+   ],
+   "d": 1,
+   "x": "Word — keng tarqalgan matn muharriri."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_3",
+   "t": "choice",
+   "q": "Harflarni qalin qiladigan tugma qaysi?",
+   "a": "B",
+   "w": [
+    "I",
+    "U",
+    "A"
+   ],
+   "d": 1,
+   "x": "B — inglizcha “bold”, ya’ni “qalin” so‘zidan."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_4",
+   "t": "choice",
+   "q": "Harflarni kursiv (qiya) qiladigan tugma qaysi?",
+   "a": "I",
+   "w": [
+    "B",
+    "U",
+    "S"
+   ],
+   "d": 1,
+   "x": "I — inglizcha “italic”, ya’ni “kursiv” so‘zidan."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_5",
+   "t": "choice",
+   "q": "Matn tagiga chiziq tortadigan tugma qaysi?",
+   "a": "U",
+   "w": [
+    "B",
+    "I",
+    "E"
+   ],
+   "d": 1,
+   "x": "U — inglizcha “underline”, ya’ni “tagiga chizish” so‘zidan."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_6",
+   "t": "choice",
+   "q": "Harflarning ko‘rinishi, masalan, Arial yoki Times New Roman nima deb ataladi?",
+   "a": "Shrift",
+   "w": [
+    "Kursor",
+    "Abzas",
+    "Sahifa"
+   ],
+   "d": 1,
+   "x": "Shrift — harflarning chizilish uslubi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_7",
+   "t": "choice",
+   "q": "Sarlavha odatda qanday tekislanadi?",
+   "a": "Markazga",
+   "w": [
+    "Chapga",
+    "O‘ngga",
+    "Pastga"
+   ],
+   "d": 1,
+   "x": "Markazga tekislangan sarlavha chiroyli ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_8",
+   "t": "choice",
+   "q": "Matn qayerga yozilishini ko‘rsatuvchi miltillovchi chiziq nima?",
+   "a": "Kursor",
+   "w": [
+    "Shrift",
+    "Abzas",
+    "Kengaytma"
+   ],
+   "d": 1,
+   "x": "Harflar kursor turgan joyga yoziladi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_9",
+   "t": "match",
+   "q": "Tugmani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "B",
+     "Qalin"
+    ],
+    [
+     "I",
+     "Kursiv"
+    ],
+    [
+     "U",
+     "Tagiga chizilgan"
+    ],
+    [
+     "Enter",
+     "Yangi abzas"
+    ],
+    [
+     "Backspace",
+     "Chapdagi belgini o‘chirish"
+    ],
+    [
+     "Delete",
+     "O‘ngdagi belgini o‘chirish"
+    ]
+   ],
+   "d": 1,
+   "x": "Bu tugmalar matn bilan ishlashda eng ko‘p ishlatiladi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_10",
+   "t": "tf",
+   "q": "Shrift o‘lchami qancha katta bo‘lsa, harflar shuncha katta ko‘rinadi.",
+   "a": true,
+   "d": 1,
+   "x": "Shrift o‘lchami harflar kattaligini belgilaydi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_11",
+   "t": "choice",
+   "q": "Yangi abzas boshlash uchun qaysi tugma bosiladi?",
+   "a": "Enter",
+   "w": [
+    "Shift",
+    "Probel",
+    "Caps Lock"
+   ],
+   "d": 1,
+   "x": "Enter yangi abzas boshlaydi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_12",
+   "t": "tf",
+   "q": "Word dasturida harflar rangini o‘zgartirish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Shrift rangi tugmasi harflarni istalgan rangga bo‘yaydi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_13",
+   "t": "tf",
+   "q": "Kursiv harflar qiya yoziladi.",
+   "a": true,
+   "d": 1,
+   "x": "Kursiv — qiya yozuv."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_14",
+   "t": "choice",
+   "q": "Matnni qog‘ozga chiqarish qanday ataladi?",
+   "a": "Chop etish",
+   "w": [
+    "Saqlash",
+    "Nusxalash",
+    "Belgilash"
+   ],
+   "d": 1,
+   "x": "Chop etish printer orqali bajariladi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_15",
+   "t": "choice",
+   "q": "Shrift o‘lchami nimani bildiradi?",
+   "a": "Harflar kattaligini",
+   "w": [
+    "Harflar rangini",
+    "Harflar sonini",
+    "Sahifalar sonini"
+   ],
+   "d": 1,
+   "x": "Shrift o‘lchami qancha katta bo‘lsa, harflar shuncha katta."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_16",
+   "t": "choice",
+   "q": "Matndagi so‘zlar orasiga nechta Probel qo‘yiladi?",
+   "a": "1 ta",
+   "w": [
+    "2 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "So‘zlar orasiga bitta bo‘sh joy qo‘yiladi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_17",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Sarlavhani",
+    "markazga",
+    "tekislang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_18",
+   "t": "choice",
+   "q": "Matnning ikkala cheti ham tekis bo‘lsa, bu qanday tekislash?",
+   "a": "Kenglik bo‘yicha",
+   "w": [
+    "Chapga",
+    "Markazga",
+    "O‘ngga"
+   ],
+   "d": 2,
+   "x": "Kenglik bo‘yicha tekislashda qatorlar chap va o‘ng chetga bir tekis yetadi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_19",
+   "t": "choice",
+   "q": "Bloknot dasturida saqlangan fayl odatda qanday kengaytmaga ega bo‘ladi?",
+   "a": "txt",
+   "w": [
+    "docx",
+    "jpg",
+    "mp3"
+   ],
+   "d": 2,
+   "x": "Bloknot oddiy matnni .txt faylga saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_20",
+   "t": "choice",
+   "q": "Microsoft Word hujjati odatda qanday kengaytma bilan saqlanadi?",
+   "a": "docx",
+   "w": [
+    "txt",
+    "png",
+    "mp4"
+   ],
+   "d": 2,
+   "x": "Zamonaviy Word hujjatlari .docx kengaytmasiga ega."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_21",
+   "t": "choice",
+   "q": "Matnni belgilash uchun nima qilinadi?",
+   "a": "Sichqoncha bilan bosib sudraladi",
+   "w": [
+    "Enter bosiladi",
+    "Probel bosiladi",
+    "Kompyuter o‘chiriladi"
+   ],
+   "d": 2,
+   "x": "Belgilangan matn rangli fon bilan ajralib turadi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_22",
+   "t": "choice",
+   "q": "Bezash, ya’ni formatlash nima?",
+   "a": "Matn ko‘rinishini o‘zgartirish",
+   "w": [
+    "Matnni o‘chirish",
+    "Faylni ko‘chirish",
+    "Kompyuterni yoqish"
+   ],
+   "d": 2,
+   "x": "Formatlashda shrift, o‘lcham, rang, tekislash o‘zgartiriladi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_23",
+   "t": "choice",
+   "q": "Word dasturida so‘zni tez belgilash uchun unga nima qilinadi?",
+   "a": "Ikki marta bosiladi",
+   "w": [
+    "O‘ng tugma bilan sudraladi",
+    "Enter bosiladi",
+    "Delete bosiladi"
+   ],
+   "d": 3,
+   "x": "So‘z ustida ikki marta bosilsa, u belgilanadi."
+  },
+  {
+   "topic": "informatics_g5.matn_muharriri",
+   "id": "matn_muharriri_24",
+   "t": "choice",
+   "q": "Oddiy matn uchun odatda qaysi shrift o‘lchami qulay?",
+   "a": "12–14",
+   "w": [
+    "1–2",
+    "72–96",
+    "200"
+   ],
+   "d": 3,
+   "x": "Hujjatlarda odatda 12–14 o‘lchamdagi shrift ishlatiladi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_1",
+   "t": "match",
+   "q": "Tugmalar birikmasini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Ctrl+C",
+     "Nusxa oladi"
+    ],
+    [
+     "Ctrl+V",
+     "Qo‘yadi"
+    ],
+    [
+     "Ctrl+X",
+     "Kesadi"
+    ],
+    [
+     "Ctrl+Z",
+     "Oxirgi amalni bekor qiladi"
+    ],
+    [
+     "Ctrl+S",
+     "Saqlaydi"
+    ],
+    [
+     "Ctrl+A",
+     "Hammasini belgilaydi"
+    ],
+    [
+     "Ctrl+P",
+     "Chop etadi"
+    ]
+   ],
+   "d": 1,
+   "x": "Ctrl bilan birga bosiladigan harflar tez ishlash imkonini beradi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_2",
+   "t": "tf",
+   "q": "Kesilgan matn o‘z joyidan yo‘qoladi.",
+   "a": true,
+   "d": 1,
+   "x": "Kesishda matn o‘z joyidan olinib, buferga tushadi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_3",
+   "t": "tf",
+   "q": "Nusxa olinganda matn o‘z joyidan o‘chib ketadi.",
+   "a": false,
+   "d": 1,
+   "x": "Nusxa olishda matn joyida qoladi, nusxasi buferga tushadi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_4",
+   "t": "choice",
+   "q": "Kursordan chapdagi belgini qaysi tugma o‘chiradi?",
+   "a": "Backspace",
+   "w": [
+    "Delete",
+    "Enter",
+    "Tab"
+   ],
+   "d": 1,
+   "x": "Backspace chapdagi belgini o‘chiradi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_5",
+   "t": "choice",
+   "q": "Kursordan o‘ngdagi belgini qaysi tugma o‘chiradi?",
+   "a": "Delete",
+   "w": [
+    "Backspace",
+    "Shift",
+    "Enter"
+   ],
+   "d": 1,
+   "x": "Delete o‘ngdagi belgini o‘chiradi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_6",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Avval",
+    "kerakli",
+    "matnni",
+    "belgilang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_7",
+   "t": "choice",
+   "q": "Matnni bir joydan boshqa joyga ko‘chirish uchun qaysi tartib to‘g‘ri?",
+   "a": "Belgilash, Ctrl+X, Ctrl+V",
+   "w": [
+    "Ctrl+V, belgilash, Ctrl+X",
+    "Ctrl+X, Ctrl+V, belgilash",
+    "Belgilash, Ctrl+Z, Ctrl+S"
+   ],
+   "d": 2,
+   "x": "Avval belgilaymiz, kesamiz, kursorni yangi joyga qo‘yib, qo‘yamiz."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_8",
+   "t": "choice",
+   "q": "Gapni nusxalab, boshqa joyga ham qo‘yish uchun qaysi tartib to‘g‘ri?",
+   "a": "Belgilash, Ctrl+C, Ctrl+V",
+   "w": [
+    "Ctrl+V, Ctrl+C, belgilash",
+    "Belgilash, Ctrl+Z, Ctrl+V",
+    "Ctrl+C, belgilash, Ctrl+S"
+   ],
+   "d": 2,
+   "x": "Belgilab, nusxa olib, yangi joyga qo‘yamiz — asl gap joyida qoladi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_9",
+   "t": "choice",
+   "q": "Nusxa olingan matn qayerda vaqtincha saqlanadi?",
+   "a": "Almashuv buferida",
+   "w": [
+    "Savatda",
+    "Printerda",
+    "Fleshkada"
+   ],
+   "d": 2,
+   "x": "Almashuv buferi — nusxa olingan yoki kesilgan narsa vaqtincha turadigan joy."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_10",
+   "t": "choice",
+   "q": "Tahrirlashdan oldin matnning kerakli qismi bilan nima qilinadi?",
+   "a": "Belgilanadi",
+   "w": [
+    "Chop etiladi",
+    "O‘chiriladi",
+    "Saqlanadi"
+   ],
+   "d": 2,
+   "x": "Buyruq faqat belgilangan qismga ta’sir qiladi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_11",
+   "t": "tf",
+   "q": "Ctrl+V bosilganda matn kursor turgan joyga qo‘yiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Shuning uchun avval kursorni kerakli joyga qo‘yamiz."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_12",
+   "t": "choice",
+   "q": "Zarina insho yozyapti va kompyuter o‘chib qolishidan qo‘rqadi. U tez-tez qaysi birikmani bosishi kerak?",
+   "a": "Ctrl+S",
+   "w": [
+    "Ctrl+Z",
+    "Ctrl+X",
+    "Ctrl+A"
+   ],
+   "d": 2,
+   "x": "Ctrl+S hujjatni saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_13",
+   "t": "tf",
+   "q": "Bitta nusxa olingan matnni bir necha marta qo‘yish mumkin.",
+   "a": true,
+   "d": 3,
+   "x": "Buferga yangi narsa tushmaguncha Ctrl+V har safar o‘sha matnni qo‘yadi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_14",
+   "t": "choice",
+   "q": "Ctrl tugmalari klaviaturaning qayerida joylashgan?",
+   "a": "Pastki qatorning chetlarida",
+   "w": [
+    "Eng yuqori qatorning o‘rtasida",
+    "Probel ichida",
+    "Raqamlar qatorida"
+   ],
+   "d": 3,
+   "x": "Ctrl tugmalari pastki qatorda, chap va o‘ng chetda turadi."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_15",
+   "t": "choice",
+   "q": "Nusxa olish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+C",
+   "w": [
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z",
+    "Ctrl+S"
+   ],
+   "d": 1,
+   "x": "Nusxa olish — Ctrl+C."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_16",
+   "t": "choice",
+   "q": "Ctrl+C tugmalari nima qiladi?",
+   "a": "Nusxa oladi",
+   "w": [
+    "Qo‘yadi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi",
+    "Saqlaydi"
+   ],
+   "d": 1,
+   "x": "Ctrl+C — nusxa olish."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_17",
+   "t": "choice",
+   "q": "Qo‘yish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+V",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+X",
+    "Ctrl+Z",
+    "Ctrl+S"
+   ],
+   "d": 1,
+   "x": "Qo‘yish — Ctrl+V."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_18",
+   "t": "choice",
+   "q": "Ctrl+V tugmalari nima qiladi?",
+   "a": "Qo‘yadi",
+   "w": [
+    "Nusxa oladi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi",
+    "Saqlaydi"
+   ],
+   "d": 1,
+   "x": "Ctrl+V — qo‘yish."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_19",
+   "t": "choice",
+   "q": "Kesish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+X",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+Z",
+    "Ctrl+S"
+   ],
+   "d": 1,
+   "x": "Kesish — Ctrl+X."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_20",
+   "t": "choice",
+   "q": "Ctrl+X tugmalari nima qiladi?",
+   "a": "Kesadi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Oxirgi amalni bekor qiladi",
+    "Saqlaydi"
+   ],
+   "d": 1,
+   "x": "Ctrl+X — kesish."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_21",
+   "t": "choice",
+   "q": "Oxirgi amalni bekor qilish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+Z",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+S"
+   ],
+   "d": 1,
+   "x": "Oxirgi amalni bekor qilish — Ctrl+Z."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_22",
+   "t": "choice",
+   "q": "Ctrl+Z tugmalari nima qiladi?",
+   "a": "Oxirgi amalni bekor qiladi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Kesadi",
+    "Saqlaydi"
+   ],
+   "d": 1,
+   "x": "Ctrl+Z — oxirgi amalni bekor qilish."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_23",
+   "t": "choice",
+   "q": "Saqlash uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+S",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z"
+   ],
+   "d": 1,
+   "x": "Saqlash — Ctrl+S."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_24",
+   "t": "choice",
+   "q": "Ctrl+S tugmalari nima qiladi?",
+   "a": "Saqlaydi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi"
+   ],
+   "d": 1,
+   "x": "Ctrl+S — saqlash."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_25",
+   "t": "choice",
+   "q": "Hammasini belgilash uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+A",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z"
+   ],
+   "d": 2,
+   "x": "Hammasini belgilash — Ctrl+A."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_26",
+   "t": "choice",
+   "q": "Ctrl+A tugmalari nima qiladi?",
+   "a": "Hammasini belgilaydi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi"
+   ],
+   "d": 2,
+   "x": "Ctrl+A — hammasini belgilash."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_27",
+   "t": "choice",
+   "q": "Chop etish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+P",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z"
+   ],
+   "d": 2,
+   "x": "Chop etish — Ctrl+P."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_28",
+   "t": "choice",
+   "q": "Ctrl+P tugmalari nima qiladi?",
+   "a": "Chop etadi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi"
+   ],
+   "d": 2,
+   "x": "Ctrl+P — chop etish."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_29",
+   "t": "choice",
+   "q": "Matndan so‘z qidirish uchun qaysi tugmalar birikmasi ishlatiladi?",
+   "a": "Ctrl+F",
+   "w": [
+    "Ctrl+C",
+    "Ctrl+V",
+    "Ctrl+X",
+    "Ctrl+Z"
+   ],
+   "d": 3,
+   "x": "Matndan so‘z qidirish — Ctrl+F."
+  },
+  {
+   "topic": "informatics_g5.tahrirlash",
+   "id": "tahrirlash_30",
+   "t": "choice",
+   "q": "Ctrl+F tugmalari nima qiladi?",
+   "a": "So‘z qidiradi",
+   "w": [
+    "Nusxa oladi",
+    "Qo‘yadi",
+    "Kesadi",
+    "Oxirgi amalni bekor qiladi"
+   ],
+   "d": 3,
+   "x": "Ctrl+F — matndan so‘z qidirish."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_1",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Aniq buyruqlar ketma-ketligi",
+   "w": [
+    "Kompyuter qurilmasi",
+    "Fayl kengaytmasi",
+    "Operatsion tizim"
+   ],
+   "d": 1,
+   "x": "Algoritm — natijaga olib boradigan aniq buyruqlar tartibi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_2",
+   "t": "choice",
+   "q": "“Algoritm” so‘zi kimning nomidan kelib chiqqan?",
+   "a": "Al-Xorazmiy",
+   "w": [
+    "Ibn Sino",
+    "Ulug‘bek",
+    "Beruniy"
+   ],
+   "d": 1,
+   "x": "Buyuk vatandoshimiz Muhammad al-Xorazmiy nomi lotin tilida “Algoritmi” deb yozilgan."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_3",
+   "t": "choice",
+   "q": "Buyruqlarni bajaruvchi kim yoki nima deb ataladi?",
+   "a": "Ijrochi",
+   "w": [
+    "Algoritm",
+    "Kengaytma",
+    "Bufer"
+   ],
+   "d": 1,
+   "x": "Ijrochi — odam, robot yoki kompyuter bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_4",
+   "t": "choice",
+   "q": "Algoritmni tasvirlash usuli qaysi?",
+   "a": "Blok-sxema",
+   "w": [
+    "Fleshka",
+    "Printer",
+    "Kengaytma"
+   ],
+   "d": 1,
+   "x": "Algoritm so‘zlar bilan, blok-sxema bilan yoki dastur ko‘rinishida tasvirlanadi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_5",
+   "t": "tf",
+   "q": "Algoritmni so‘zlar bilan ham yozish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, taom retsepti so‘zlar bilan yozilgan algoritm."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_6",
+   "t": "tf",
+   "q": "Algoritmni faqat kompyuter bajaradi.",
+   "a": false,
+   "d": 1,
+   "x": "Algoritmni odam ham, robot ham bajaradi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_7",
+   "t": "choice",
+   "q": "Qaysi biri algoritmga misol bo‘la oladi?",
+   "a": "Taom retsepti",
+   "w": [
+    "Qizil olma",
+    "Baland tog‘",
+    "Tinch dengiz"
+   ],
+   "d": 1,
+   "x": "Retseptda ish tartibi qadam-baqadam yozilgan."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_8",
+   "t": "choice",
+   "q": "Qaysi buyruq Robot ijrochi uchun aniq?",
+   "a": "5 qadam oldinga yur",
+   "w": [
+    "Uzoqroqqa bor",
+    "Tezroq yur",
+    "Biror joyga bor"
+   ],
+   "d": 1,
+   "x": "Aniq buyruqda nima qilish va qancha qilish aytiladi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_9",
+   "t": "choice",
+   "q": "Qaysi ijrochi “chop et” buyrug‘ini bajaradi?",
+   "a": "Printer",
+   "w": [
+    "Mikrofon",
+    "Skaner",
+    "Klaviatura"
+   ],
+   "d": 1,
+   "x": "Printer chop etish buyrug‘ini bajaradi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ijrochi",
+    "algoritmni",
+    "bajaradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_11",
+   "t": "choice",
+   "q": "Ijrochi bajara oladigan buyruqlar to‘plami nima deb ataladi?",
+   "a": "Buyruqlar tizimi",
+   "w": [
+    "Operatsion tizim",
+    "Fayl tizimi",
+    "Sanoq sistemasi"
+   ],
+   "d": 2,
+   "x": "Ijrochi faqat o‘z buyruqlar tizimidagi buyruqlarni bajaradi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_12",
+   "t": "choice",
+   "q": "Algoritmning alohida qadamlarga bo‘linishi qaysi xossa?",
+   "a": "Diskretlik",
+   "w": [
+    "Ommaviylik",
+    "Natijaviylik",
+    "Tushunarlilik"
+   ],
+   "d": 2,
+   "x": "Diskretlik — algoritm alohida, ketma-ket qadamlardan iborat."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_13",
+   "t": "choice",
+   "q": "Algoritm chekli qadamdan so‘ng natijaga olib kelishi qaysi xossa?",
+   "a": "Natijaviylik",
+   "w": [
+    "Diskretlik",
+    "Ommaviylik",
+    "Aniqlik"
+   ],
+   "d": 2,
+   "x": "Natijaviylik — algoritm oxir-oqibat natija beradi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_14",
+   "t": "choice",
+   "q": "Algoritmni bir turdagi ko‘p masalalarga qo‘llash mumkinligi qaysi xossa?",
+   "a": "Ommaviylik",
+   "w": [
+    "Diskretlik",
+    "Aniqlik",
+    "Tushunarlilik"
+   ],
+   "d": 2,
+   "x": "Masalan, qo‘shish algoritmi istalgan sonlar uchun ishlaydi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_15",
+   "t": "choice",
+   "q": "Har bir buyruq bir xil ma’noda tushunilishi qaysi xossa?",
+   "a": "Aniqlik",
+   "w": [
+    "Ommaviylik",
+    "Natijaviylik",
+    "Diskretlik"
+   ],
+   "d": 2,
+   "x": "Aniq buyruqni har qanday ijrochi bir xil bajaradi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_16",
+   "t": "choice",
+   "q": "Algoritm ijrochiga tushunarli buyruqlardan tuzilishi qaysi xossa?",
+   "a": "Tushunarlilik",
+   "w": [
+    "Ommaviylik",
+    "Diskretlik",
+    "Natijaviylik"
+   ],
+   "d": 2,
+   "x": "Ijrochi bilmaydigan buyruqni bajara olmaydi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_17",
+   "t": "match",
+   "q": "Xossani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Diskretlik",
+     "Qadamlarga bo‘lingan"
+    ],
+    [
+     "Aniqlik",
+     "Buyruqlar bir ma’noli"
+    ],
+    [
+     "Tushunarlilik",
+     "Ijrochiga tushunarli"
+    ],
+    [
+     "Natijaviylik",
+     "Natijaga olib keladi"
+    ],
+    [
+     "Ommaviylik",
+     "Ko‘p masalaga qo‘llanadi"
+    ]
+   ],
+   "d": 2,
+   "x": "Algoritmning beshta asosiy xossasi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_18",
+   "t": "choice",
+   "q": "Dasturlash tilida yozilgan algoritm nima deb ataladi?",
+   "a": "Dastur",
+   "w": [
+    "Fayl kengaytmasi",
+    "Brauzer",
+    "Papka"
+   ],
+   "d": 2,
+   "x": "Dastur — kompyuter tushunadigan tilda yozilgan algoritm."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_19",
+   "t": "tf",
+   "q": "Algoritmdagi buyruqlar tartibi o‘zgarsa, natija ham o‘zgarishi mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "Masalan, 3 ni avval 2 ga ko‘paytirib 4 qo‘shsak 10, avval 4 qo‘shib 2 ga ko‘paytirsak 14 chiqadi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_20",
+   "t": "choice",
+   "q": "Algoritm so‘zlar va blok-sxemadan tashqari yana qanday ko‘rinishda tasvirlanadi?",
+   "a": "Dastur ko‘rinishida",
+   "w": [
+    "Musiqa ko‘rinishida",
+    "Hid ko‘rinishida",
+    "Fleshka ko‘rinishida"
+   ],
+   "d": 2,
+   "x": "Algoritm dasturlash tilida dastur sifatida yoziladi."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_21",
+   "t": "choice",
+   "q": "“Biroz tuz sol” buyrug‘ida qaysi xossa buzilgan?",
+   "a": "Aniqlik",
+   "w": [
+    "Diskretlik",
+    "Ommaviylik",
+    "Natijaviylik"
+   ],
+   "d": 3,
+   "x": "“Biroz” har kim uchun har xil — buyruq aniq emas."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_22",
+   "t": "choice",
+   "q": "Ijrochi 3 sonini oldi va buyruqlarni tartib bilan bajardi: “2 ga ko‘paytir”, “4 ni qo‘sh”. Natija qanday?",
+   "a": "10",
+   "w": [
+    "11",
+    "9",
+    "12",
+    "20"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni birma-bir bajaramiz: natija 10."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_23",
+   "t": "choice",
+   "q": "Ijrochi 5 sonini oldi va buyruqlarni tartib bilan bajardi: “3 ni qo‘sh”, “2 ga ko‘paytir”. Natija qanday?",
+   "a": "16",
+   "w": [
+    "17",
+    "15",
+    "18",
+    "32"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni birma-bir bajaramiz: natija 16."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_24",
+   "t": "choice",
+   "q": "Ijrochi 3 sonini oldi va buyruqlarni tartib bilan bajardi: “4 ni qo‘sh”, “2 ga ko‘paytir”. Natija qanday?",
+   "a": "14",
+   "w": [
+    "15",
+    "13",
+    "16",
+    "28"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni birma-bir bajaramiz: natija 14."
+  },
+  {
+   "topic": "informatics_g5.algoritm",
+   "id": "algoritm_25",
+   "t": "choice",
+   "q": "Ijrochi 20 sonini oldi va buyruqlarni tartib bilan bajardi: “5 ni ayir”, “3 ga bo‘l”. Natija qanday?",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "7",
+    "10"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni birma-bir bajaramiz: natija 5."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_1",
+   "t": "choice",
+   "q": "Blok-sxemada boshlanish va tugash qaysi shakl bilan belgilanadi?",
+   "a": "Oval",
+   "w": [
+    "Romb",
+    "To‘g‘ri to‘rtburchak",
+    "Parallelogramm"
+   ],
+   "d": 1,
+   "x": "Oval ichiga “Boshlash” va “Tamom” yoziladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_2",
+   "t": "choice",
+   "q": "Blok-sxemada shart qaysi shakl bilan belgilanadi?",
+   "a": "Romb",
+   "w": [
+    "Oval",
+    "To‘g‘ri to‘rtburchak",
+    "Parallelogramm"
+   ],
+   "d": 1,
+   "x": "Romb ichida shart yoziladi, undan “ha” va “yo‘q” yo‘llari chiqadi.",
+   "e": "🔷"
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_3",
+   "t": "choice",
+   "q": "Blok-sxemada amal, ya’ni hisoblash qaysi shakl bilan belgilanadi?",
+   "a": "To‘g‘ri to‘rtburchak",
+   "w": [
+    "Romb",
+    "Oval",
+    "Parallelogramm"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri to‘rtburchak ichida bajariladigan amal yoziladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_4",
+   "t": "choice",
+   "q": "Blok-sxemada ma’lumot kiritish va chiqarish qaysi shakl bilan belgilanadi?",
+   "a": "Parallelogramm",
+   "w": [
+    "Romb",
+    "Oval",
+    "To‘g‘ri to‘rtburchak"
+   ],
+   "d": 1,
+   "x": "Parallelogramm — kiritish va chiqarish bloki."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_5",
+   "t": "match",
+   "q": "Shaklni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Oval",
+     "Boshlanish yoki tugash"
+    ],
+    [
+     "To‘g‘ri to‘rtburchak",
+     "Amal bajarish"
+    ],
+    [
+     "Romb",
+     "Shartni tekshirish"
+    ],
+    [
+     "Parallelogramm",
+     "Kiritish yoki chiqarish"
+    ],
+    [
+     "Strelka",
+     "Bajarilish yo‘nalishi"
+    ]
+   ],
+   "d": 1,
+   "x": "Blok-sxemaning har bir shakli o‘z ma’nosiga ega."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_6",
+   "t": "choice",
+   "q": "Buyruqlar birin-ketin, hech narsa tekshirilmasdan bajariladigan algoritm qanday ataladi?",
+   "a": "Chiziqli",
+   "w": [
+    "Tarmoqlanuvchi",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Chiziqli algoritmda buyruqlar navbat bilan bir martadan bajariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_7",
+   "t": "choice",
+   "q": "Shartga qarab turli yo‘ldan boradigan algoritm qanday ataladi?",
+   "a": "Tarmoqlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Tarmoqlanuvchi algoritmda “agar … bo‘lsa” sharti bor."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_8",
+   "t": "choice",
+   "q": "Ba’zi buyruqlari bir necha marta qaytariladigan algoritm qanday ataladi?",
+   "a": "Takrorlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Takrorlanuvchi algoritm sikl deb ham ataladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_9",
+   "t": "choice",
+   "q": "Blok-sxemadagi strelkalar nimani ko‘rsatadi?",
+   "a": "Bajarilish tartibini",
+   "w": [
+    "Xatolarni",
+    "Fayl hajmini",
+    "Kompyuter tezligini"
+   ],
+   "d": 1,
+   "x": "Strelkalar qaysi blokdan keyin qaysi blok bajarilishini ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_10",
+   "t": "tf",
+   "q": "Tarmoqlanuvchi algoritmda shart tekshiriladi.",
+   "a": true,
+   "d": 1,
+   "x": "Shart natijasiga qarab yo‘l tanlanadi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_11",
+   "t": "tf",
+   "q": "Chiziqli algoritmda buyruqlar takrorlanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Chiziqli algoritmda har bir buyruq bir marta, tartib bilan bajariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Romb",
+    "shartni",
+    "bildiradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_13",
+   "t": "choice",
+   "q": "Romb shaklidan nechta chiqish yo‘li bo‘ladi?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 2,
+   "x": "Shart to‘g‘ri bo‘lsa “ha”, noto‘g‘ri bo‘lsa “yo‘q” yo‘li tanlanadi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_14",
+   "t": "choice",
+   "q": "Romb shaklidan chiquvchi yo‘llar qanday belgilanadi?",
+   "a": "“Ha” va “Yo‘q”",
+   "w": [
+    "“Boshla” va “Tamom”",
+    "“Kirit” va “Chiqar”",
+    "“1” va “2”"
+   ],
+   "d": 2,
+   "x": "Shart bajarilsa — “ha”, bajarilmasa — “yo‘q”."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_15",
+   "t": "tf",
+   "q": "Blok-sxema oval bilan boshlanib, oval bilan tugaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Boshlanish va tugash bloklari oval shaklida."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_16",
+   "t": "choice",
+   "q": "Takrorlanuvchi algoritm yana qanday ataladi?",
+   "a": "Sikl",
+   "w": [
+    "Shart",
+    "Kengaytma",
+    "Bufer"
+   ],
+   "d": 2,
+   "x": "Sikl — takrorlanish."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_17",
+   "t": "choice",
+   "q": "“Qo‘l yuvish: jo‘mrakni och, qo‘lni sovunla, chay, art.” Bu qanday algoritm?",
+   "a": "Chiziqli",
+   "w": [
+    "Tarmoqlanuvchi",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Buyruqlar birin-ketin bir martadan bajariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_18",
+   "t": "choice",
+   "q": "“Kitobni och, 10-betni top, matnni o‘qi.” Bu qanday algoritm?",
+   "a": "Chiziqli",
+   "w": [
+    "Tarmoqlanuvchi",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Buyruqlar birin-ketin bir martadan bajariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_19",
+   "t": "choice",
+   "q": "“Agar dars tayyor bo‘lsa, sayrga chiq, aks holda darsni tayyorla.” Bu qanday algoritm?",
+   "a": "Tarmoqlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Shartga qarab ikki yo‘ldan biri tanlanadi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_20",
+   "t": "choice",
+   "q": "“Agar svetoforda yashil chiroq yonsa, yo‘ldan o‘t, aks holda kut.” Bu qanday algoritm?",
+   "a": "Tarmoqlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 2,
+   "x": "Shartga qarab ikki yo‘ldan biri tanlanadi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_21",
+   "t": "choice",
+   "q": "“Arqonda 20 marta sakra.” Bu qanday algoritm?",
+   "a": "Takrorlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Bir xil harakat bir necha marta qaytariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_22",
+   "t": "choice",
+   "q": "“Zinapoyaning har bir pog‘onasiga navbat bilan qadam qo‘y, 5-qavatga yetguncha.” Bu qanday algoritm?",
+   "a": "Takrorlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 2,
+   "x": "Bir xil harakat bir necha marta qaytariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_23",
+   "t": "choice",
+   "q": "“Qo‘ng‘iroq chalinmaguncha masala yechishni davom ettir.” Bu qanday algoritm?",
+   "a": "Takrorlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 3,
+   "x": "Bir xil harakat bir necha marta qaytariladi."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_24",
+   "t": "choice",
+   "q": "Boshida son 2 ga teng. “Songa 3 ni qo‘sh” buyrug‘i 4 marta takrorlandi. Natija qanday?",
+   "a": "14",
+   "w": [
+    "17",
+    "11",
+    "5",
+    "12"
+   ],
+   "d": 2,
+   "x": "Buyruqni 4 marta bajaramiz: natija 14."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_25",
+   "t": "choice",
+   "q": "Boshida son 0 ga teng. “Songa 5 ni qo‘sh” buyrug‘i 6 marta takrorlandi. Natija qanday?",
+   "a": "30",
+   "w": [
+    "35",
+    "25",
+    "5",
+    "31"
+   ],
+   "d": 2,
+   "x": "Buyruqni 6 marta bajaramiz: natija 30."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_26",
+   "t": "choice",
+   "q": "Boshida son 1 ga teng. “Sonni 2 ga ko‘paytir” buyrug‘i 3 marta takrorlandi. Natija qanday?",
+   "a": "8",
+   "w": [
+    "10",
+    "6",
+    "3",
+    "9"
+   ],
+   "d": 3,
+   "x": "Buyruqni 3 marta bajaramiz: natija 8."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_27",
+   "t": "choice",
+   "q": "Boshida son 20 ga teng. “Sondan 3 ni ayir” buyrug‘i 3 marta takrorlandi. Natija qanday?",
+   "a": "11",
+   "w": [
+    "14",
+    "8",
+    "23",
+    "9"
+   ],
+   "d": 3,
+   "x": "Buyruqni 3 marta bajaramiz: natija 11."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_28",
+   "t": "choice",
+   "q": "Agar son 10 dan katta bo‘lsa, uni 2 ga bo‘l, aks holda unga 5 ni qo‘sh. Son 14 bo‘lsa, natija qanday?",
+   "a": "7",
+   "w": [
+    "19",
+    "8",
+    "6",
+    "14"
+   ],
+   "d": 2,
+   "x": "14 > 10 — shart bajarildi: 14 : 2 = 7."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_29",
+   "t": "choice",
+   "q": "Agar son 10 dan katta bo‘lsa, uni 2 ga bo‘l, aks holda unga 5 ni qo‘sh. Son 6 bo‘lsa, natija qanday?",
+   "a": "11",
+   "w": [
+    "3",
+    "12",
+    "10",
+    "6"
+   ],
+   "d": 2,
+   "x": "6 10 dan katta emas — “aks holda” yo‘li: 6 + 5 = 11."
+  },
+  {
+   "topic": "informatics_g5.blok_sxema",
+   "id": "blok_sxema_30",
+   "t": "choice",
+   "q": "Agar son 10 dan katta bo‘lsa, uni 2 ga bo‘l, aks holda unga 5 ni qo‘sh. Son 10 bo‘lsa, natija qanday?",
+   "a": "15",
+   "w": [
+    "5",
+    "16",
+    "14",
+    "10"
+   ],
+   "d": 3,
+   "x": "10 10 dan katta emas — “aks holda” yo‘li: 10 + 5 = 15."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_1",
+   "t": "choice",
+   "q": "Scratch muhitida dastur qanday tuziladi?",
+   "a": "Bloklarni ulab",
+   "w": [
+    "Faqat matn yozib",
+    "Rasm chizib",
+    "Musiqa yozib"
+   ],
+   "d": 1,
+   "x": "Scratchda rangli bloklarni sudrab, bir-biriga ulaymiz."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_2",
+   "t": "choice",
+   "q": "Scratch sahnasida harakatlanadigan personaj nima deb ataladi?",
+   "a": "Sprayt",
+   "w": [
+    "Sahna",
+    "Blok",
+    "Skript"
+   ],
+   "d": 1,
+   "x": "Sprayt — sahnadagi personaj yoki obyekt."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_3",
+   "t": "choice",
+   "q": "Scratchda yangi loyiha ochilganda qaysi sprayt turadi?",
+   "a": "Mushuk",
+   "w": [
+    "It",
+    "Quyon",
+    "Robot"
+   ],
+   "d": 1,
+   "x": "Scratchning belgisi va dastlabki spraytı — mushuk.",
+   "e": "🐱"
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_4",
+   "t": "choice",
+   "q": "Scratch dasturini ishga tushiradigan tugma qaysi?",
+   "a": "Yashil bayroqcha",
+   "w": [
+    "Qizil doira",
+    "Sariq yulduz",
+    "Ko‘k uchburchak"
+   ],
+   "d": 1,
+   "x": "Yashil bayroqcha bosilganda dastur boshlanadi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_5",
+   "t": "choice",
+   "q": "Scratch dasturini to‘xtatadigan tugma qanday rangda?",
+   "a": "Qizil",
+   "w": [
+    "Yashil",
+    "Sariq",
+    "Ko‘k"
+   ],
+   "d": 1,
+   "x": "Qizil to‘xtatish tugmasi barcha skriptlarni to‘xtatadi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_6",
+   "t": "choice",
+   "q": "“10 qadam yur” bloki qaysi guruhda?",
+   "a": "Harakat",
+   "w": [
+    "Ko‘rinish",
+    "Hodisalar",
+    "Tovush"
+   ],
+   "d": 1,
+   "x": "Spraytni suradigan bloklar — Harakat guruhida."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_7",
+   "t": "tf",
+   "q": "Scratch sahnasining foni almashtirilishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Sahna uchun turli fon rasmlarini tanlash mumkin."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_8",
+   "t": "tf",
+   "q": "Scratch loyihasida bir nechta sprayt bo‘lishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Har bir spraytning o‘z skriptlari bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_9",
+   "t": "choice",
+   "q": "Scratch nima uchun yaratilgan?",
+   "a": "Dasturlashni o‘rganish uchun",
+   "w": [
+    "Matn chop etish uchun",
+    "Viruslarni o‘chirish uchun",
+    "Xat yuborish uchun"
+   ],
+   "d": 1,
+   "x": "Scratch bolalarga dasturlashni o‘yin tarzida o‘rgatadi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_10",
+   "t": "choice",
+   "q": "Scratch sahnasi nima?",
+   "a": "Spraytlar harakatlanadigan joy",
+   "w": [
+    "Bloklar ro‘yxati",
+    "Fayl kengaytmasi",
+    "Tovush turi"
+   ],
+   "d": 1,
+   "x": "Sahnada spraytlar harakatlanadi va dastur natijasi ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_11",
+   "t": "choice",
+   "q": "Harakat bloklari qanday rangda?",
+   "a": "Ko‘k",
+   "w": [
+    "Sariq",
+    "Yashil",
+    "Binafsha"
+   ],
+   "d": 2,
+   "x": "Scratchda Harakat bloklari ko‘k rangda."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_12",
+   "t": "choice",
+   "q": "“Yashil bayroqcha bosilganda” bloki qaysi guruhda?",
+   "a": "Hodisalar",
+   "w": [
+    "Harakat",
+    "Tovush",
+    "Operatorlar"
+   ],
+   "d": 2,
+   "x": "Hodisalar bloklari skriptni qachon boshlashni belgilaydi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_13",
+   "t": "choice",
+   "q": "“Salom! deb 2 soniya ayt” bloki qaysi guruhda?",
+   "a": "Ko‘rinish",
+   "w": [
+    "Harakat",
+    "Operatorlar",
+    "Hodisalar"
+   ],
+   "d": 2,
+   "x": "Spraytning gapirishi va kostyumi Ko‘rinish guruhida."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_14",
+   "t": "choice",
+   "q": "“10 marta takrorla” bloki qaysi guruhda?",
+   "a": "Boshqaruv",
+   "w": [
+    "Harakat",
+    "Ko‘rinish",
+    "Tovush"
+   ],
+   "d": 2,
+   "x": "Takrorlash, kutish va shart bloklari — Boshqaruv guruhida."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_15",
+   "t": "choice",
+   "q": "“Doimo takrorla” bloki qanday ishlaydi?",
+   "a": "To‘xtatilmaguncha takrorlaydi",
+   "w": [
+    "Bir marta bajaradi",
+    "Hech narsa bajarmaydi",
+    "Faqat 10 marta bajaradi"
+   ],
+   "d": 2,
+   "x": "“Doimo takrorla” ichidagi bloklar to‘xtatish tugmasi bosilguncha bajariladi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_16",
+   "t": "choice",
+   "q": "Spraytning turli ko‘rinishlari nima deb ataladi?",
+   "a": "Kostyumlar",
+   "w": [
+    "Sahnalar",
+    "Bloklar",
+    "Hodisalar"
+   ],
+   "d": 2,
+   "x": "Kostyumlarni almashtirib, sprayt harakatini jonlantiramiz."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_17",
+   "t": "choice",
+   "q": "Kostyumlarni tez-tez almashtirsak, nima hosil bo‘ladi?",
+   "a": "Animatsiya",
+   "w": [
+    "Virus",
+    "Kengaytma",
+    "Papka"
+   ],
+   "d": 2,
+   "x": "Rasmlar tez almashsa, harakat ko‘rinadi — bu animatsiya."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_18",
+   "t": "choice",
+   "q": "“1 soniya kut” bloki nima qiladi?",
+   "a": "Dasturni 1 soniya to‘xtatib turadi",
+   "w": [
+    "Spraytni o‘chiradi",
+    "Sahnani almashtiradi",
+    "Tovushni o‘chiradi"
+   ],
+   "d": 2,
+   "x": "Kutish bloki keyingi buyruqni biroz kechiktiradi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_19",
+   "t": "choice",
+   "q": "Bloklardan tuzilgan dastur Scratchda nima deb ataladi?",
+   "a": "Skript",
+   "w": [
+    "Sprayt",
+    "Kostyum",
+    "Sahna"
+   ],
+   "d": 2,
+   "x": "Skript — bir-biriga ulangan bloklar zanjiri."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_20",
+   "t": "match",
+   "q": "Blokni guruhi bilan juftlang",
+   "pairs": [
+    [
+     "10 qadam yur",
+     "Harakat"
+    ],
+    [
+     "Salom! deb ayt",
+     "Ko‘rinish"
+    ],
+    [
+     "Yashil bayroqcha bosilganda",
+     "Hodisalar"
+    ],
+    [
+     "10 marta takrorla",
+     "Boshqaruv"
+    ],
+    [
+     "Tovushni ijro et",
+     "Tovush"
+    ],
+    [
+     "Tasodifiy son tanla",
+     "Operatorlar"
+    ]
+   ],
+   "d": 2,
+   "x": "Scratch bloklari vazifasiga qarab guruhlarga ajratilgan."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yashil",
+    "bayroqcha",
+    "dasturni",
+    "ishga",
+    "tushiradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_22",
+   "t": "choice",
+   "q": "Scratch loyihasi fayli qanday kengaytmaga ega?",
+   "a": "sb3",
+   "w": [
+    "mp3",
+    "docx",
+    "jpg"
+   ],
+   "d": 3,
+   "x": "Scratch 3 loyihalari .sb3 faylga saqlanadi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_23",
+   "t": "choice",
+   "q": "Scratch sahnasi markazining koordinatalari qanday?",
+   "a": "x: 0, y: 0",
+   "w": [
+    "x: 100, y: 100",
+    "x: 240, y: 180",
+    "x: 480, y: 360"
+   ],
+   "d": 3,
+   "x": "Sahna markazi — koordinatalar boshi: x = 0, y = 0."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_24",
+   "t": "choice",
+   "q": "“y ni 10 ga o‘zgartir” bloki spraytni qayerga suradi?",
+   "a": "Yuqoriga",
+   "w": [
+    "Pastga",
+    "O‘ngga",
+    "Chapga"
+   ],
+   "d": 3,
+   "x": "y oshsa, sprayt yuqoriga ko‘tariladi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_25",
+   "t": "choice",
+   "q": "“x ni 10 ga o‘zgartir” bloki spraytni qayerga suradi?",
+   "a": "O‘ngga",
+   "w": [
+    "Chapga",
+    "Yuqoriga",
+    "Pastga"
+   ],
+   "d": 3,
+   "x": "x oshsa, sprayt o‘ngga suriladi."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_26",
+   "t": "choice",
+   "q": "“5 marta takrorla” bloki ichida “10 qadam yur” bor. Sprayt jami necha qadam yuradi?",
+   "a": "50",
+   "w": [
+    "15",
+    "60",
+    "40",
+    "10"
+   ],
+   "d": 2,
+   "x": "5 · 10 = 50 qadam."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_27",
+   "t": "choice",
+   "q": "“4 marta takrorla” bloki ichida “25 qadam yur” bor. Sprayt jami necha qadam yuradi?",
+   "a": "100",
+   "w": [
+    "29",
+    "125",
+    "75",
+    "25"
+   ],
+   "d": 2,
+   "x": "4 · 25 = 100 qadam."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_28",
+   "t": "choice",
+   "q": "“3 marta takrorla” bloki ichida “20 qadam yur” bor. Sprayt jami necha qadam yuradi?",
+   "a": "60",
+   "w": [
+    "23",
+    "80",
+    "40",
+    "20"
+   ],
+   "d": 2,
+   "x": "3 · 20 = 60 qadam."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_29",
+   "t": "choice",
+   "q": "Sprayt x = 0 nuqtada. “x ni 10 ga o‘zgartir” bloki 3 marta bajarildi. Endi x nechaga teng?",
+   "a": "30",
+   "w": [
+    "10",
+    "13",
+    "40",
+    "20"
+   ],
+   "d": 3,
+   "x": "x har safar 10 ga oshadi: 3 · 10 = 30."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_30",
+   "t": "choice",
+   "q": "Sprayt x = 0 nuqtada. “x ni 15 ga o‘zgartir” bloki 4 marta bajarildi. Endi x nechaga teng?",
+   "a": "60",
+   "w": [
+    "15",
+    "19",
+    "75",
+    "45"
+   ],
+   "d": 3,
+   "x": "x har safar 15 ga oshadi: 4 · 15 = 60."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_31",
+   "t": "choice",
+   "q": "Scratchda kvadrat chizish uchun “4 marta takrorla” ichida “qadam yur” va “burilish” bloklari bor. Har safar necha gradusga burilish kerak?",
+   "a": "90°",
+   "w": [
+    "120°",
+    "72°",
+    "60°",
+    "45°"
+   ],
+   "d": 2,
+   "x": "To‘liq aylanish 360°: 360 : 4 = 90°."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_32",
+   "t": "choice",
+   "q": "Scratchda teng tomonli uchburchak chizish uchun “3 marta takrorla” ichida “qadam yur” va “burilish” bloklari bor. Har safar necha gradusga burilish kerak?",
+   "a": "120°",
+   "w": [
+    "90°",
+    "72°",
+    "60°",
+    "45°"
+   ],
+   "d": 3,
+   "x": "To‘liq aylanish 360°: 360 : 3 = 120°."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_33",
+   "t": "choice",
+   "q": "Scratchda muntazam oltiburchak chizish uchun “6 marta takrorla” ichida “qadam yur” va “burilish” bloklari bor. Har safar necha gradusga burilish kerak?",
+   "a": "60°",
+   "w": [
+    "120°",
+    "90°",
+    "72°",
+    "45°"
+   ],
+   "d": 3,
+   "x": "To‘liq aylanish 360°: 360 : 6 = 60°."
+  },
+  {
+   "topic": "informatics_g5.scratch",
+   "id": "scratch_34",
+   "t": "choice",
+   "q": "Scratchda kvadrat chizish uchun “qadam yur” va “90° buril” bloklari necha marta takrorlanishi kerak?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6",
+    "90"
+   ],
+   "d": 2,
+   "x": "Kvadratning 4 ta tomoni bor: 4 · 90° = 360°."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_1",
+   "t": "choice",
+   "q": "Veb-sahifalarni ko‘rish uchun qaysi dastur kerak?",
+   "a": "Brauzer",
+   "w": [
+    "Antivirus",
+    "Paint",
+    "Kalkulyator"
+   ],
+   "d": 1,
+   "x": "Brauzer saytlarni ochib ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_2",
+   "t": "choice",
+   "q": "Qaysi biri brauzer?",
+   "a": "Mozilla Firefox",
+   "w": [
+    "Windows",
+    "Word",
+    "Paint"
+   ],
+   "d": 1,
+   "x": "Mozilla Firefox — brauzer."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_3",
+   "t": "choice",
+   "q": "Qaysi biri qidiruv tizimi?",
+   "a": "Google",
+   "w": [
+    "Paint",
+    "Windows",
+    "Excel"
+   ],
+   "d": 1,
+   "x": "Google — dunyodagi eng mashhur qidiruv tizimi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_4",
+   "t": "choice",
+   "q": "Qaysi biri qidiruv tizimi?",
+   "a": "Yandex",
+   "w": [
+    "Word",
+    "Paint",
+    "Linux"
+   ],
+   "d": 1,
+   "x": "Yandex — qidiruv tizimi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_5",
+   "t": "choice",
+   "q": "“.uz” domeni qaysi mamlakatga tegishli?",
+   "a": "O‘zbekiston",
+   "w": [
+    "Ukraina",
+    "AQSh",
+    "Italiya"
+   ],
+   "d": 1,
+   "x": "“.uz” — O‘zbekiston milliy domeni."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_6",
+   "t": "choice",
+   "q": "Bosilganda boshqa sahifaga o‘tkazadigan matn yoki rasm nima deb ataladi?",
+   "a": "Havola",
+   "w": [
+    "Kengaytma",
+    "Papka",
+    "Shrift"
+   ],
+   "d": 1,
+   "x": "Havola ko‘pincha ko‘k rangda va tagiga chizilgan bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_7",
+   "t": "choice",
+   "q": "Qidiruv tizimiga yoziladigan so‘zlar nima deb ataladi?",
+   "a": "Kalit so‘zlar",
+   "w": [
+    "Parollar",
+    "Kengaytmalar",
+    "Havolalar"
+   ],
+   "d": 1,
+   "x": "Kalit so‘zlar nimani izlayotganimizni bildiradi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_8",
+   "t": "tf",
+   "q": "Internet — butun dunyo bo‘ylab tarqalgan kompyuter tarmog‘i.",
+   "a": true,
+   "d": 1,
+   "x": "Internet millionlab kompyuterlarni bog‘laydi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_9",
+   "t": "tf",
+   "q": "Internetdagi har bir ma’lumot ishonchli.",
+   "a": false,
+   "d": 1,
+   "x": "Internetda xato ma’lumot ham bor, uni tekshirish kerak."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_10",
+   "t": "choice",
+   "q": "Internet orqali qaysi ishni bajarib bo‘lmaydi?",
+   "a": "Non yopish",
+   "w": [
+    "Xat yuborish",
+    "Video ko‘rish",
+    "Ma’lumot izlash"
+   ],
+   "d": 1,
+   "x": "Internet axborot bilan ishlaydi, non yopib bermaydi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Brauzer",
+    "veb-sahifalarni",
+    "ko‘rsatadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_12",
+   "t": "choice",
+   "q": "Sayt manzili yoziladigan joy nima deb ataladi?",
+   "a": "Manzil satri",
+   "w": [
+    "Vazifalar paneli",
+    "Sarlavha qatori",
+    "Savat"
+   ],
+   "d": 2,
+   "x": "Manzil satri brauzer oynasining yuqori qismida joylashgan."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_13",
+   "t": "tf",
+   "q": "Google Chrome — qidiruv tizimi.",
+   "a": false,
+   "d": 2,
+   "x": "Google Chrome — brauzer; qidiruv tizimi esa Google."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_14",
+   "t": "choice",
+   "q": "Qurilmalarni simsiz internetga ulaydigan texnologiya qaysi?",
+   "a": "Wi-Fi",
+   "w": [
+    "USB",
+    "HDMI",
+    "Probel"
+   ],
+   "d": 2,
+   "x": "Wi-Fi radio to‘lqinlar orqali simsiz ulanishni ta’minlaydi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_15",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Brauzer",
+     "Sahifalarni ko‘rish dasturi"
+    ],
+    [
+     "Sayt",
+     "Veb-sahifalar to‘plami"
+    ],
+    [
+     "Havola",
+     "Boshqa sahifaga o‘tkazadi"
+    ],
+    [
+     "Qidiruv tizimi",
+     "Ma’lumot izlash xizmati"
+    ],
+    [
+     "Manzil satri",
+     "Sayt manzili yoziladi"
+    ],
+    [
+     "Internet",
+     "Global kompyuter tarmog‘i"
+    ]
+   ],
+   "d": 2,
+   "x": "Internetda ishlash uchun asosiy tushunchalar."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_16",
+   "t": "choice",
+   "q": "Oy haqida ma’lumot izlash uchun qidiruvga qaysi so‘rov eng mos?",
+   "a": "Oy haqida qiziqarli faktlar",
+   "w": [
+    "Salom",
+    "Men",
+    "Qiziq"
+   ],
+   "d": 2,
+   "x": "So‘rovda izlanayotgan narsa aniq aytilishi kerak."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_17",
+   "t": "choice",
+   "q": "Maktab loyihasi uchun olingan ma’lumotni qanday tekshirish kerak?",
+   "a": "Bir necha manbada solishtirib",
+   "w": [
+    "Tekshirmaslik kerak",
+    "Faqat bitta saytga ishonib",
+    "Birinchi rasmga qarab"
+   ],
+   "d": 2,
+   "x": "Bir necha ishonchli manba bir xil desa, ma’lumotga ishonsa bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_18",
+   "t": "choice",
+   "q": "Brauzerda oldingi sahifaga qaytish uchun qaysi tugma bosiladi?",
+   "a": "Orqaga strelkasi",
+   "w": [
+    "Yopish tugmasi",
+    "Yangilash",
+    "Yangi varaq"
+   ],
+   "d": 2,
+   "x": "Orqaga strelkasi avval ochilgan sahifaga qaytaradi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_19",
+   "t": "choice",
+   "q": "Sahifani qayta yuklaydigan tugma qanday ataladi?",
+   "a": "Yangilash",
+   "w": [
+    "Orqaga",
+    "Yopish",
+    "Saqlash"
+   ],
+   "d": 2,
+   "x": "Yangilash tugmasi sahifani qaytadan yuklaydi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_20",
+   "t": "choice",
+   "q": "Havola ustiga kelganda sichqoncha ko‘rsatkichi qanday shaklga kiradi?",
+   "a": "Qo‘l",
+   "w": [
+    "Qum soat",
+    "Qalam",
+    "Doira"
+   ],
+   "d": 2,
+   "x": "Qo‘l shaklidagi ko‘rsatkich bu yerni bosish mumkinligini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_21",
+   "t": "choice",
+   "q": "Manzil satrida qulf belgisi va “https” nimani bildiradi?",
+   "a": "Xavfsiz ulanishni",
+   "w": [
+    "Sayt yopiqligini",
+    "Virus borligini",
+    "Internet yo‘qligini"
+   ],
+   "d": 3,
+   "x": "https da ma’lumot shifrlangan holda uzatiladi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_22",
+   "t": "choice",
+   "q": "Brauzerda bir vaqtda bir nechta saytni ochish uchun nima ochiladi?",
+   "a": "Yangi varaq",
+   "w": [
+    "Yangi papka",
+    "Yangi fayl",
+    "Yangi kengaytma"
+   ],
+   "d": 3,
+   "x": "Har bir varaqda (vkladkada) alohida sayt ochiladi."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_23",
+   "t": "choice",
+   "q": "Yoqqan saytni keyin tez topish uchun brauzerda nima qilinadi?",
+   "a": "Xatcho‘plarga qo‘shiladi",
+   "w": [
+    "O‘chiriladi",
+    "Chop etiladi",
+    "Savatga tashlanadi"
+   ],
+   "d": 3,
+   "x": "Xatcho‘pdagi saytni bir bosishda ochish mumkin."
+  },
+  {
+   "topic": "informatics_g5.internet",
+   "id": "internet_24",
+   "t": "choice",
+   "q": "“www” qisqartmasi nimani bildiradi?",
+   "a": "Butunjahon o‘rgimchak to‘ri",
+   "w": [
+    "Windows dasturi",
+    "Wi-Fi tarmog‘i",
+    "Veb-kamera"
+   ],
+   "d": 3,
+   "x": "www — World Wide Web, ya’ni butunjahon o‘rgimchak to‘ri."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_1",
+   "t": "choice",
+   "q": "Elektron pochta manzilida qaysi belgi albatta bo‘ladi?",
+   "a": "@",
+   "w": [
+    "#",
+    "&",
+    "*"
+   ],
+   "d": 1,
+   "x": "@ belgisi foydalanuvchi nomini domendan ajratadi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_2",
+   "t": "choice",
+   "q": "Qaysi yozuv elektron pochta manzili bo‘la oladi?",
+   "a": "ali2015@pochta.uz",
+   "w": [
+    "ali2015.pochta.uz",
+    "ali 2015@pochta",
+    "www.ali2015.uz"
+   ],
+   "d": 1,
+   "x": "Pochta manzilida @ belgisi bor va bo‘sh joy yo‘q."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_3",
+   "t": "choice",
+   "q": "Kelgan xatlar qaysi papkada saqlanadi?",
+   "a": "Kiruvchi",
+   "w": [
+    "Yuborilgan",
+    "Qoralamalar",
+    "Savat"
+   ],
+   "d": 1,
+   "x": "Yangi xatlar Kiruvchi papkasiga tushadi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_4",
+   "t": "choice",
+   "q": "Siz yuborgan xatlar qaysi papkada saqlanadi?",
+   "a": "Yuborilgan",
+   "w": [
+    "Kiruvchi",
+    "Spam",
+    "Qoralamalar"
+   ],
+   "d": 1,
+   "x": "Jo‘natilgan xatlarning nusxasi Yuborilgan papkasida turadi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_5",
+   "t": "choice",
+   "q": "Xatga rasm yoki hujjat qo‘shish nima deyiladi?",
+   "a": "Faylni ilova qilish",
+   "w": [
+    "Faylni o‘chirish",
+    "Faylni chop etish",
+    "Faylni qayta nomlash"
+   ],
+   "d": 1,
+   "x": "Ilova qilingan fayl xat bilan birga yuboriladi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_6",
+   "t": "choice",
+   "q": "Xatning “Kimga” maydoniga nima yoziladi?",
+   "a": "Qabul qiluvchining manzili",
+   "w": [
+    "Xat matni",
+    "Parol",
+    "Sana"
+   ],
+   "d": 1,
+   "x": "“Kimga” maydoniga xat boradigan pochta manzili yoziladi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_7",
+   "t": "tf",
+   "q": "Elektron pochta orqali faqat matn yuborish mumkin, fayl yuborib bo‘lmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Rasm, hujjat va boshqa fayllarni ilova qilish mumkin."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_8",
+   "t": "choice",
+   "q": "Pochta qutisiga kirish uchun nima kerak?",
+   "a": "Login va parol",
+   "w": [
+    "Faqat ism",
+    "Faqat rasm",
+    "Telefon rangi"
+   ],
+   "d": 1,
+   "x": "Login va parol pochtani begonalardan himoya qiladi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_9",
+   "t": "choice",
+   "q": "Notanish odamdan ilovali shubhali xat keldi. Nima qilasiz?",
+   "a": "Ilovani ochmayman",
+   "w": [
+    "Darhol ochaman",
+    "Hammaga yuboraman",
+    "Parolimni yozib javob beraman"
+   ],
+   "d": 1,
+   "x": "Shubhali ilovada virus bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_10",
+   "t": "choice",
+   "q": "Oddiy pochtaga qaraganda elektron pochtaning afzalligi nima?",
+   "a": "Tez yetib boradi",
+   "w": [
+    "Marka kerak",
+    "Konvert kerak",
+    "Pochtachi olib boradi"
+   ],
+   "d": 1,
+   "x": "Elektron xat bir necha soniyada yetib boradi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Xatga",
+    "mavzu",
+    "yozishni",
+    "unutmang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_12",
+   "t": "choice",
+   "q": "“ali2015@pochta.uz” manzilida foydalanuvchi nomi qaysi?",
+   "a": "ali2015",
+   "w": [
+    "pochta.uz",
+    "@",
+    "uz"
+   ],
+   "d": 2,
+   "x": "@ belgisigacha bo‘lgan qism — foydalanuvchi nomi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_13",
+   "t": "choice",
+   "q": "“ali2015@pochta.uz” manzilida pochta serveri qaysi?",
+   "a": "pochta.uz",
+   "w": [
+    "ali2015",
+    "ali",
+    "@"
+   ],
+   "d": 2,
+   "x": "@ belgisidan keyingi qism — pochta serveri, ya’ni domen."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_14",
+   "t": "choice",
+   "q": "Tugallanmagan, hali yuborilmagan xat qaysi papkada saqlanadi?",
+   "a": "Qoralamalar",
+   "w": [
+    "Kiruvchi",
+    "Yuborilgan",
+    "Spam"
+   ],
+   "d": 2,
+   "x": "Qoralamada xatni keyin davom ettirib yuborish mumkin."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_15",
+   "t": "choice",
+   "q": "Keraksiz reklama xatlari qaysi papkaga tushadi?",
+   "a": "Spam",
+   "w": [
+    "Yuborilgan",
+    "Qoralamalar",
+    "Kiruvchi"
+   ],
+   "d": 2,
+   "x": "Pochta xizmati keraksiz xatlarni Spam papkasiga ajratadi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_16",
+   "t": "choice",
+   "q": "Xatning qisqacha mazmuni qaysi maydonga yoziladi?",
+   "a": "Mavzu",
+   "w": [
+    "Kimga",
+    "Parol",
+    "Ilova"
+   ],
+   "d": 2,
+   "x": "Mavzu qabul qiluvchiga xat nima haqida ekanini aytadi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_17",
+   "t": "match",
+   "q": "Papkani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Kiruvchi",
+     "Kelgan xatlar"
+    ],
+    [
+     "Yuborilgan",
+     "Jo‘natilgan xatlar"
+    ],
+    [
+     "Qoralamalar",
+     "Yuborilmagan xatlar"
+    ],
+    [
+     "Spam",
+     "Keraksiz reklama"
+    ],
+    [
+     "Savat",
+     "O‘chirilgan xatlar"
+    ]
+   ],
+   "d": 2,
+   "x": "Pochta papkalari xatlarni tartibda saqlaydi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_18",
+   "t": "tf",
+   "q": "Elektron pochta manzilida bo‘sh joy bo‘lmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Manzil bitta uzluksiz yozuv: ali2015@pochta.uz."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_19",
+   "t": "choice",
+   "q": "Kelgan xatga javob yozish uchun qaysi tugma bosiladi?",
+   "a": "Javob berish",
+   "w": [
+    "Yo‘naltirish",
+    "O‘chirish",
+    "Spam"
+   ],
+   "d": 2,
+   "x": "Javob berishda qabul qiluvchi manzili o‘zi yoziladi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_20",
+   "t": "choice",
+   "q": "Qaysi biri elektron pochta xizmati?",
+   "a": "Gmail",
+   "w": [
+    "Paint",
+    "Scratch",
+    "Excel"
+   ],
+   "d": 2,
+   "x": "Gmail — Google kompaniyasining pochta xizmati."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_21",
+   "t": "tf",
+   "q": "Bitta xatni bir vaqtda bir nechta manzilga yuborish mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "“Kimga” maydoniga bir nechta manzil yozish mumkin."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_22",
+   "t": "choice",
+   "q": "Elektron pochta manzilida @ belgisidan keyin nima yoziladi?",
+   "a": "Pochta serveri nomi",
+   "w": [
+    "Parol",
+    "Xat mavzusi",
+    "Foydalanuvchi nomi"
+   ],
+   "d": 2,
+   "x": "Masalan, ali2015@pochta.uz da @ dan keyin pochta.uz — server nomi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_23",
+   "t": "choice",
+   "q": "Kelgan xatni boshqa odamga jo‘natish nima deyiladi?",
+   "a": "Yo‘naltirish",
+   "w": [
+    "Javob berish",
+    "Qoralama",
+    "O‘chirish"
+   ],
+   "d": 3,
+   "x": "Yo‘naltirishda xat o‘zgarishsiz boshqa manzilga yuboriladi."
+  },
+  {
+   "topic": "informatics_g5.pochta",
+   "id": "pochta_24",
+   "t": "choice",
+   "q": "“@” belgisi xalq orasida qanday nom bilan ham ataladi?",
+   "a": "Kuchukcha",
+   "w": [
+    "Mushukcha",
+    "Qush",
+    "Baliq"
+   ],
+   "d": 3,
+   "x": "@ belgisi shakli jingalak dumli kuchukchaga o‘xshatiladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_1",
+   "t": "choice",
+   "q": "Qaysi parol eng kuchli?",
+   "a": "Daryo!Kitob7",
+   "w": [
+    "123456",
+    "qwerty",
+    "ali2014"
+   ],
+   "d": 1,
+   "x": "Uzun, katta-kichik harf, raqam va belgi aralashgan parolni topish qiyin."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_2",
+   "t": "choice",
+   "q": "Kuchli parol kamida nechta belgidan iborat bo‘lishi tavsiya etiladi?",
+   "a": "8",
+   "w": [
+    "2",
+    "3",
+    "4"
+   ],
+   "d": 1,
+   "x": "Qisqa parolni tez topish mumkin, kamida 8 belgi kerak."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_3",
+   "t": "tf",
+   "q": "Parol sifatida tug‘ilgan kuningizni qo‘yish xavfsiz.",
+   "a": false,
+   "d": 1,
+   "x": "Tug‘ilgan kunni boshqalar bilishi mumkin, uni topish oson."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_4",
+   "t": "choice",
+   "q": "Kompyuterga zarar yetkazadigan va o‘zidan nusxa ko‘paytiradigan dastur nima?",
+   "a": "Virus",
+   "w": [
+    "Antivirus",
+    "Brauzer",
+    "Matn muharriri"
+   ],
+   "d": 1,
+   "x": "Virus fayllarni buzishi va boshqa kompyuterlarga tarqalishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_5",
+   "t": "choice",
+   "q": "Viruslarni topib yo‘q qiladigan dastur qanday ataladi?",
+   "a": "Antivirus",
+   "w": [
+    "Brauzer",
+    "Paint",
+    "Pleyer"
+   ],
+   "d": 1,
+   "x": "Antivirus kompyuterni tekshirib, viruslarni zararsizlantiradi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_6",
+   "t": "choice",
+   "q": "Virus kompyuterga qanday yo‘l bilan tushishi mumkin?",
+   "a": "Notanish fleshka orqali",
+   "w": [
+    "Monitorni artganda",
+    "Klaviaturani tozalaganda",
+    "Kompyuterni o‘chirganda"
+   ],
+   "d": 1,
+   "x": "Virus fleshka, internetdan yuklangan fayl yoki xat ilovasi orqali tushishi mumkin."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_7",
+   "t": "choice",
+   "q": "“Tabriklaymiz! Siz telefon yutdingiz, havolani bosing” degan xabar keldi. Nima qilasiz?",
+   "a": "Bosmayman, o‘chiraman",
+   "w": [
+    "Darhol bosaman",
+    "Parolimni yuboraman",
+    "Do‘stlarimga tarqataman"
+   ],
+   "d": 1,
+   "x": "Bunday xabarlar ko‘pincha aldov bo‘ladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_8",
+   "t": "choice",
+   "q": "Boshqa odamning rasmini o‘z loyihangizda ishlatsangiz, nima qilish kerak?",
+   "a": "Muallifini ko‘rsatish",
+   "w": [
+    "O‘zimniki deb aytish",
+    "Rasmni buzib qo‘yish",
+    "Hech narsa qilmaslik"
+   ],
+   "d": 1,
+   "x": "Muallif va manbani ko‘rsatish — mualliflik huquqini hurmat qilish."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_9",
+   "t": "tf",
+   "q": "Internetdagi har qanday rasmni o‘zimniki deb e’lon qilsam bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Rasm uni yaratgan muallifga tegishli."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_10",
+   "t": "choice",
+   "q": "Internetda kimdir sizni haqorat qilsa, nima qilasiz?",
+   "a": "Javob bermay, kattalarga aytaman",
+   "w": [
+    "Men ham haqorat qilaman",
+    "Parolimni beraman",
+    "Hammaga tarqataman"
+   ],
+   "d": 1,
+   "x": "Kattalar muammoni hal qilishga yordam beradi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_11",
+   "t": "choice",
+   "q": "Qaysi ma’lumotni ijtimoiy tarmoqda e’lon qilmaslik kerak?",
+   "a": "Uy manzilini",
+   "w": [
+    "Sevimli kitob nomini",
+    "Chizgan rasmimni",
+    "Ob-havo haqidagi fikrni"
+   ],
+   "d": 1,
+   "x": "Uy manzili — shaxsiy ma’lumot, uni begonalar bilmasligi kerak."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_12",
+   "t": "choice",
+   "q": "Kuchli parolda nimalar bo‘lishi kerak?",
+   "a": "Harf, raqam va belgilar",
+   "w": [
+    "Faqat ism",
+    "Faqat bitta raqam",
+    "Faqat tug‘ilgan yil"
+   ],
+   "d": 1,
+   "x": "Turli belgilar aralashgan parol ishonchliroq."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Shubhali",
+    "havolalarni",
+    "ochmang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_14",
+   "t": "choice",
+   "q": "Qaysi biri antivirus dasturi?",
+   "a": "Kaspersky",
+   "w": [
+    "Paint",
+    "Word",
+    "Scratch"
+   ],
+   "d": 2,
+   "x": "Kaspersky — antivirus dasturi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_15",
+   "t": "tf",
+   "q": "Antivirus dasturini muntazam yangilab turish kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Yangi viruslar paydo bo‘lib turadi, yangilangan antivirus ularni taniydi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_16",
+   "t": "choice",
+   "q": "Mualliflik huquqi belgisi qaysi?",
+   "a": "©",
+   "w": [
+    "@",
+    "#",
+    "&"
+   ],
+   "d": 2,
+   "x": "© belgisi asar muallifga tegishli ekanini bildiradi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_17",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Virus",
+     "Zararli dastur"
+    ],
+    [
+     "Antivirus",
+     "Himoya dasturi"
+    ],
+    [
+     "Parol",
+     "Maxfiy so‘z"
+    ],
+    [
+     "Spam",
+     "Keraksiz reklama xati"
+    ],
+    [
+     "Fishing",
+     "Aldab ma’lumot olish"
+    ],
+    [
+     "Mualliflik huquqi",
+     "Yaratuvchining huquqi"
+    ]
+   ],
+   "d": 2,
+   "x": "Internet xavfsizligining asosiy tushunchalari."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_18",
+   "t": "tf",
+   "q": "Bitta parolni barcha saytlarda ishlatish xavfsiz.",
+   "a": false,
+   "d": 2,
+   "x": "Bitta parol o‘g‘irlansa, barcha sahifalaringiz xavf ostida qoladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_19",
+   "t": "choice",
+   "q": "Umumiy kompyuterda pochtangizdan chiqishni unutsangiz, nima bo‘lishi mumkin?",
+   "a": "Begona odam xatlaringizni o‘qiydi",
+   "w": [
+    "Kompyuter tezlashadi",
+    "Parol kuchayadi",
+    "Printer ishlamay qoladi"
+   ],
+   "d": 2,
+   "x": "Profildan chiqmasangiz, keyingi odam unga kira oladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_20",
+   "t": "choice",
+   "q": "Kiberbulling nima?",
+   "a": "Internetda birovni haqorat qilish",
+   "w": [
+    "Kompyuter o‘yini",
+    "Antivirus turi",
+    "Fayl kengaytmasi"
+   ],
+   "d": 2,
+   "x": "Kiberbulling — internet orqali birovni kamsitish, qo‘rqitish; bunday holatda kattalarga aytish kerak."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_21",
+   "t": "choice",
+   "q": "Internetdan yuklangan faylni ochishdan oldin nima qilish kerak?",
+   "a": "Antivirus bilan tekshirish",
+   "w": [
+    "Hammaga yuborish",
+    "Nomini o‘zgartirish",
+    "Chop etish"
+   ],
+   "d": 2,
+   "x": "Antivirus faylda zararli dastur bor-yo‘qligini aniqlaydi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_22",
+   "t": "choice",
+   "q": "Aldov yo‘li bilan parol va shaxsiy ma’lumotni o‘g‘irlash nima deb ataladi?",
+   "a": "Fishing",
+   "w": [
+    "Formatlash",
+    "Skanerlash",
+    "Arxivlash"
+   ],
+   "d": 3,
+   "x": "Fishingda soxta sayt yoki xat orqali parol so‘raladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_23",
+   "t": "choice",
+   "q": "Internetda katta harflar bilan yozish nimani bildiradi deb qabul qilingan?",
+   "a": "Baqirishni",
+   "w": [
+    "Xursandchilikni",
+    "Sirni",
+    "Xatoni"
+   ],
+   "d": 3,
+   "x": "Tarmoq odobida BUTUN MATNNI katta harflarda yozish baqirishga tenglashtiriladi."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_24",
+   "t": "choice",
+   "q": "Ruxsatsiz nusxalangan dasturdan foydalanish nima deb ataladi?",
+   "a": "Qaroqchilik",
+   "w": [
+    "Dasturlash",
+    "Formatlash",
+    "Arxivlash"
+   ],
+   "d": 3,
+   "x": "Qaroqchilik (piratlik) — muallif ruxsatisiz nusxalash, bu qonunga zid."
+  },
+  {
+   "topic": "informatics_g5.xavfsizlik",
+   "id": "xavfsizlik_25",
+   "t": "tf",
+   "q": "Ikki bosqichli tekshiruv, masalan SMS kod, hisobni qo‘shimcha himoya qiladi.",
+   "a": true,
+   "d": 3,
+   "x": "Parol o‘g‘irlansa ham, SMS kodsiz hisobga kirib bo‘lmaydi."
+  }
+ ]
+}

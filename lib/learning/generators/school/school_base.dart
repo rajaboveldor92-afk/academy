@@ -1,4 +1,5 @@
 import '../../content/instructions.dart';
+import '../../content/uz_numbers.dart';
 import '../../models/exercise.dart';
 import '../../models/visual.dart';
 import '../generator_base.dart';
@@ -130,6 +131,10 @@ String schoolSpeech(String text) {
     if (min == 0) return 'soat $h${m[3] != null ? ' da' : ''}';
     return 'soat $h dan $min minut o‘tganda';
   });
+  // Tartib son: "3-sinf" → "uchinchi sinf", "2-katakda" → "ikkinchi katakda".
+  s = s.replaceAllMapped(RegExp(r'(?<![\d,/])(\d+)-(?=\p{L})', unicode: true), (m) => '${UzNumbers.ordinal(int.parse(m[1]!))} ');
+  // "Ctrl+C" → "Ctrl va C", "he / she" → "he yoki she".
+  s = s.replaceAllMapped(RegExp(r'(?<=\p{L})\+(?=\p{L})', unicode: true), (_) => ' va ').replaceAll(' / ', ' yoki ');
   // Aralash son va oddiy kasr.
   s = s.replaceAllMapped(RegExp(r'(\d+) (\d+)/(\d+)'), (m) => '${m[1]} butun ${m[3]} dan ${m[2]}');
   s = s.replaceAllMapped(RegExp(r'(\d+)/(\d+)'), (m) => '${m[2]} dan ${m[1]}');

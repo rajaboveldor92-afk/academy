@@ -1,105 +1,679 @@
 {
  "subject": "science",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
-  "uz": "Tabiiy fan",
-  "en": "Science",
-  "ru": "Естествознание"
+  "uz": "Tabiiy fanlar",
+  "en": "Natural sciences",
+  "ru": "Естественные науки"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "science_g5.matter",
+   "id": "science_g5.methods",
    "code": "1",
-   "emoji": "🌿",
+   "emoji": "🔍",
    "title": {
-    "uz": "Modda va uning o‘zgarishlari",
-    "en": "Modda va uning o‘zgarishlari",
-    "ru": "Modda va uning o‘zgarishlari"
+    "uz": "Tabiatni o‘rganish usullari",
+    "en": "How we study nature",
+    "ru": "Методы изучения природы"
    },
    "generator": "bank",
-   "skill": "matter",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiatni o‘rganish va moddalar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Jism — alohida narsa, modda esa u nimadan tuzilganini bildiradi. Aralashmalarni ajratishda moddalarning eruvchanligi, zarracha o‘lchami va magnitga tortilishi kabi xususiyatlardan foydalaniladi."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Tabiat uch asosiy usulda o‘rganiladi:\n• Kuzatish — hodisani o‘zgartirmasdan diqqat bilan kuzatib borish (masalan, qushlarning uchib ketishini).\n• Tajriba — hodisani maxsus sharoitda o‘zimiz hosil qilib, tekshirish.\n• O‘lchash — kattalikni asbob yordamida aniqlash: uzunlik — chizg‘ich (m, sm), massa — tarozi (kg, g), harorat — termometr (°C), suyuqlik hajmi — menzurka (ml), vaqt — sekundomer (s).\nNatijalar birligi bilan jadvalga yoziladi va xulosa chiqariladi."
+   }
   },
   {
-   "id": "science_g5.ecosystems",
+   "id": "science_g5.matter",
    "code": "2",
-   "emoji": "🌿",
+   "emoji": "⚗️",
    "title": {
-    "uz": "Tabiatdagi bog‘lanishlar",
-    "en": "Tabiatdagi bog‘lanishlar",
-    "ru": "Tabiatdagi bog‘lanishlar"
+    "uz": "Jism va modda. Moddaning holatlari",
+    "en": "Objects and substances. States of matter",
+    "ru": "Тела и вещества. Агрегатные состояния"
    },
    "generator": "bank",
-   "skill": "ecosystems",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiatni o‘rganish va moddalar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Ekotizimda organizmlar va muhit o‘zaro bog‘langan. Oziq zanjiridagi strelka oziq va energiya yo‘nalishini ko‘rsatadi. O‘simliklar, hayvonlar va parchalovchilar tabiatda turli vazifalarni bajaradi."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Jism — atrofimizdagi har qanday narsa: qalam, stakan, tomchi. Modda — jism nimadan tuzilgani: yog‘och, shisha, suv, temir.\nBir moddadan turli jismlar yasash mumkin (shishadan stakan va deraza oynasi), bir xil jism turli moddalardan bo‘lishi mumkin (temir yoki yog‘och qoshiq).\nModda uch holatda bo‘ladi:\n• qattiq — shakli va hajmi saqlanadi; suyuq — hajmi saqlanadi, shakli idishga moslashadi; gaz — butun idishni to‘ldiradi.\nHolat o‘zgarishlari: erish, qotish, bug‘lanish, kondensatsiya (bug‘ning suyuqlikka aylanishi)."
+   }
   },
   {
-   "id": "science_g5.review",
+   "id": "science_g5.particles",
    "code": "3",
-   "emoji": "🌿",
+   "emoji": "⚛️",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "Moddalarning tuzilishi. Diffuziya",
+    "en": "Structure of matter. Diffusion",
+    "ru": "Строение вещества. Диффузия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiatni o‘rganish va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Barcha moddalar ko‘zga ko‘rinmaydigan juda mayda zarrachalardan — molekulalardan tuzilgan.\n• Zarrachalar orasida bo‘shliq bor va ular to‘xtovsiz harakatlanadi. Harorat ko‘tarilsa, tezroq harakatlanadi.\n• Qattiq jismda zarrachalar zich joylashgan, suyuqlikda erkinroq, gazda esa bir-biridan uzoq.\nDiffuziya — bir modda zarrachalarining boshqa modda zarrachalari orasiga o‘z-o‘zidan kirib borishi.\nMasalan, atir hidi butun xonaga tarqaladi. Diffuziya gazlarda tez, suyuqliklarda sekinroq, qattiq jismlarda juda sekin boradi."
+   }
+  },
+  {
+   "id": "science_g5.mixtures",
+   "code": "4",
+   "emoji": "☕",
+   "title": {
+    "uz": "Toza moddalar va aralashmalar",
+    "en": "Pure substances and mixtures",
+    "ru": "Чистые вещества и смеси"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiatni o‘rganish va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Toza modda bir xil zarrachalardan iborat (distillangan suv, shakar). Aralashma — bir necha moddaning qo‘shilmasi (havo, loyqa suv, tuzli suv).\nAralashmalarni ajratish usullari:\n• tindirish (cho‘ktirish) — og‘ir zarrachalar idish tagiga cho‘kadi;\n• filtrlash — suyuqlik filtrdan o‘tadi, qum filtrda qoladi;\n• bug‘latish — tuzli suvdan suv bug‘lanadi, tuz qoladi;\n• magnit bilan — temir qipiqlari magnitga tortiladi."
+   }
+  },
+  {
+   "id": "science_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Tabiatni o‘rganish va moddalar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
+      "science_g5.methods",
       "science_g5.matter",
-      "science_g5.ecosystems"
+      "science_g5.particles",
+      "science_g5.mixtures"
      ],
      "level": 1
     },
     {
      "topics": [
+      "science_g5.methods",
       "science_g5.matter",
-      "science_g5.ecosystems"
+      "science_g5.particles",
+      "science_g5.mixtures"
      ],
      "level": 2
     },
     {
      "topics": [
+      "science_g5.methods",
       "science_g5.matter",
-      "science_g5.ecosystems"
+      "science_g5.particles",
+      "science_g5.mixtures"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g5.phenomena",
+   "code": "5",
+   "emoji": "🔥",
+   "title": {
+    "uz": "Fizik va kimyoviy hodisalar",
+    "en": "Physical and chemical changes",
+    "ru": "Физические и химические явления"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Hodisalar, kuch va energiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiatdagi har qanday o‘zgarish hodisa deyiladi.\n• Fizik hodisada yangi modda hosil bo‘lmaydi, faqat shakli yoki holati o‘zgaradi: muzning erishi, suvning qaynashi, shishaning sinishi.\n• Kimyoviy hodisada yangi modda hosil bo‘ladi: yonish, temirning zanglashi, sutning achishi.\nKimyoviy hodisa belgilari: rang o‘zgaradi, gaz ajraladi, hid paydo bo‘ladi, issiqlik yoki yorug‘lik chiqadi, cho‘kma tushadi.\nFizik hodisalar turlari: mexanik, issiqlik, yorug‘lik, tovush, elektr va magnit hodisalari."
+   }
+  },
+  {
+   "id": "science_g5.forces",
+   "code": "6",
+   "emoji": "⚽",
+   "title": {
+    "uz": "Kuch va uning turlari",
+    "en": "Forces",
+    "ru": "Сила и её виды"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Hodisalar, kuch va energiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kuch — jismlarning bir-biriga ta’siri. Kuch jismni harakatga keltiradi, to‘xtatadi, yo‘nalishini yoki shaklini o‘zgartiradi.\nKuch nyutonlarda (N) o‘lchanadi, o‘lchash asbobi — dinamometr.\n• Og‘irlik kuchi — Yerning jismlarni o‘ziga tortishi, shu sababli narsalar pastga tushadi.\n• Ishqalanish kuchi — sirtlar bir-biriga tegib harakatlanganda paydo bo‘ladi va harakatga qarshilik qiladi.\n• Elastiklik kuchi — cho‘zilgan yoki siqilgan jism (prujina, rezina) avvalgi shakliga qaytishga intiladi."
+   }
+  },
+  {
+   "id": "science_g5.energy",
+   "code": "7",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Energiya va issiqlik",
+    "en": "Energy and heat",
+    "ru": "Энергия и теплота"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Hodisalar, kuch va energiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Energiya — ish bajarish qobiliyati. Turlari: harakat (mexanik), issiqlik, yorug‘lik, elektr, tovush, kimyoviy (oziq-ovqat va yoqilg‘ida).\nEnergiya yo‘qolmaydi, bir turdan boshqasiga aylanadi: lampochkada elektr energiya yorug‘lik va issiqlikka aylanadi.\n• Qayta tiklanadigan manbalar: Quyosh, shamol, oqar suv. • Tiklanmaydigan manbalar: ko‘mir, neft, tabiiy gaz.\nMetallar issiqlikni yaxshi o‘tkazadi; yog‘och, plastmassa, jun va havo yomon o‘tkazadi.\nShuning uchun qozon dastasi yog‘och yoki plastmassadan yasaladi."
+   }
+  },
+  {
+   "id": "science_g5.light_sound",
+   "code": "8",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yorug‘lik va tovush",
+    "en": "Light and sound",
+    "ru": "Свет и звук"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Hodisalar, kuch va energiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yorug‘lik manbalari: tabiiy (Quyosh, yulduzlar, olov) va sun’iy (lampochka, fonar). Oy manba emas — u Quyosh nurini qaytaradi.\n• Yorug‘lik to‘g‘ri chiziq bo‘ylab tarqaladi. Noshaffof jism yorug‘likni to‘sganda soya hosil bo‘ladi.\n• Ko‘zgu va silliq sirtlar yorug‘likni qaytaradi.\nTovush jismlarning tebranishidan hosil bo‘ladi. U havoda, suvda va qattiq jismlarda tarqaladi, lekin bo‘shliqda (vakuumda) tarqalmaydi.\nTovushning to‘siqqa urilib qaytishi — aks-sado."
+   }
+  },
+  {
+   "id": "science_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Hodisalar, kuch va energiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g5.magnet_electric",
+   "code": "9",
+   "emoji": "🔋",
+   "title": {
+    "uz": "Magnit va elektr",
+    "en": "Magnets and electricity",
+    "ru": "Магнит и электричество"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Magnit, elektr, Yer va koinot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Magnit temir, po‘lat va nikelni o‘ziga tortadi; yog‘och, qog‘oz, shisha, plastmassa, mis tortilmaydi.\nMagnitning ikki qutbi bor: shimoliy (N) va janubiy (S). Har xil qutblar tortishadi, bir xil qutblar itarishadi. Yer ham katta magnit, shuning uchun kompas ishlaydi.\nElektr zanjiri: tok manbai (batareya), simlar, iste’molchi (lampochka) va kalit. Zanjir yopiq bo‘lsa, tok o‘tadi.\n• O‘tkazgichlar tokni o‘tkazadi: mis, alyuminiy, temir. • Izolyatorlar o‘tkazmaydi: rezina, plastmassa, shisha, quruq yog‘och.\nXavfsizlik: rozetkaga narsa tiqmang, ho‘l qo‘l bilan elektr asboblarga tegmang."
+   }
+  },
+  {
+   "id": "science_g5.earth",
+   "code": "10",
+   "emoji": "🌋",
+   "title": {
+    "uz": "Yer tuzilishi va qobiqlari",
+    "en": "Earth's structure and spheres",
+    "ru": "Строение Земли и её оболочки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Magnit, elektr, Yer va koinot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yerning ichki tuzilishi uch qatlamdan iborat:\n• yer po‘sti — eng yupqa, ustki qattiq qatlam; • mantiya — o‘rta qatlam; • yadro — markazdagi eng issiq qism.\nYerning tashqi qobiqlari:\n• atmosfera — havo qobig‘i; • gidrosfera — suv qobig‘i (okean, dengiz, daryo, ko‘l, muzlik);\n• litosfera — tosh qobig‘i; • biosfera — hayot qobig‘i, ya’ni tirik organizmlar tarqalgan qism.\nYer yuzasining katta qismi suv bilan qoplangan, bu suvning ko‘p qismi sho‘r."
+   }
+  },
+  {
+   "id": "science_g5.solar",
+   "code": "11",
+   "emoji": "🌞",
+   "title": {
+    "uz": "Quyosh tizimi",
+    "en": "The Solar System",
+    "ru": "Солнечная система"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Magnit, elektr, Yer va koinot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Quyosh tizimi markazida Quyosh — ulkan issiq yulduz turadi. Uning atrofida 8 ta sayyora aylanadi.\nQuyoshdan boshlab tartibi: Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran, Neptun.\n• Merkuriy — Quyoshga eng yaqin va eng kichik sayyora. • Yupiter — eng katta sayyora.\n• Mars — “qizil sayyora”. • Saturn — yorqin halqalari bilan mashhur.\nYer — hayot borligi ma’lum bo‘lgan yagona sayyora. Oy — Yerning tabiiy yo‘ldoshi."
+   }
+  },
+  {
+   "id": "science_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Magnit, elektr, Yer va koinot",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g5.cell",
+   "code": "12",
+   "emoji": "🔬",
+   "title": {
+    "uz": "Hujayra va mikroskop",
+    "en": "Cells and the microscope",
+    "ru": "Клетка и микроскоп"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Barcha tirik organizmlar hujayralardan tuzilgan. Hujayrani mikroskop yordamida ko‘ramiz.\nHujayraning asosiy qismlari: membrana (qobiq), sitoplazma va yadro. Yadro hujayra hayotini boshqaradi.\nO‘simlik hujayrasida bulardan tashqari qattiq hujayra devori, yashil xloroplastlar va hujayra shirasi to‘la vakuola bor.\nHayvon hujayrasida hujayra devori va xloroplast bo‘lmaydi.\nMikroskop qismlari: okulyar, obyektiv, tubus, buyum stolchasi, vintlar va oyna (yoki chiroq)."
+   }
+  },
+  {
+   "id": "science_g5.living",
+   "code": "13",
+   "emoji": "🌿",
+   "title": {
+    "uz": "Tirik organizmlar. Fotosintez",
+    "en": "Living organisms. Photosynthesis",
+    "ru": "Живые организмы. Фотосинтез"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tirik organizmlarning belgilari: nafas olish, oziqlanish, o‘sish va rivojlanish, ko‘payish, harakat, ta’sirlanish, keraksiz moddalarni chiqarish (ayirish).\nTirik organizmlar bir hujayrali (amyoba, bakteriya) va ko‘p hujayrali (o‘simlik, hayvon) bo‘ladi.\nFotosintez — yashil o‘simliklar barglarida yorug‘lik ta’sirida karbonat angidrid va suvdan oziq modda (shakar, kraxmal) va kislorod hosil bo‘lishi.\nFotosintez xloroplastlardagi yashil modda — xlorofill yordamida boradi. Hosil bo‘lgan kislorod havoga chiqadi.\nO‘simliklar ham kecha-kunduz nafas oladi: kislorod yutib, karbonat angidrid chiqaradi."
+   }
+  },
+  {
+   "id": "science_g5.ecosystem",
+   "code": "14",
+   "emoji": "🦉",
+   "title": {
+    "uz": "Ekotizim va oziq zanjiri",
+    "en": "Ecosystems and food chains",
+    "ru": "Экосистема и пищевые цепи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ekotizim — bir joyda yashovchi tirik organizmlar va ularni o‘rab turgan notirik tabiat (suv, havo, tuproq, yorug‘lik) birligi: o‘rmon, ko‘l, cho‘l.\nEkotizimda organizmlarning uch guruhi bor:\n• ishlab chiqaruvchilar — yashil o‘simliklar, ular Quyosh energiyasi yordamida oziq hosil qiladi;\n• iste’molchilar — hayvonlar, ular tayyor oziq bilan oziqlanadi;\n• parchalovchilar — bakteriyalar va zamburug‘lar, ular qoldiqlarni chiritib, tuproqqa qaytaradi.\nOziq zanjiri: o‘t → chigirtka → baqa → ilon. Zanjir doimo ishlab chiqaruvchidan boshlanadi."
+   }
+  },
+  {
+   "id": "science_g5.ecology",
+   "code": "15",
+   "emoji": "♻️",
+   "title": {
+    "uz": "Ekologik muammolar va tabiatni asrash",
+    "en": "Environmental problems and protecting nature",
+    "ru": "Экологические проблемы и охрана природы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Inson faoliyati tabiatga ta’sir qiladi. Asosiy ekologik muammolar:\n• havo va suvning ifloslanishi, chiqindilarning ko‘payishi, o‘rmonlarning kesilishi, tuproqning sho‘rlanishi.\n• Orol dengizi fojiasi: Amudaryo va Sirdaryo suvi sug‘orishga ko‘p olingani sababli dengiz sayozlanib, katta qismi qurib qoldi, o‘rnida Orolqum cho‘li paydo bo‘ldi.\nTabiatni asrash yo‘llari: daraxt ekish, suv va elektrni tejash, chiqindini saralab, qayta ishlash, quyosh va shamol energiyasidan foydalanish.\nKamyob turlar Qizil kitobga kiritiladi, qo‘riqxona va milliy bog‘larda muhofaza qilinadi."
+   }
+  },
+  {
+   "id": "science_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tirik organizmlar va ekologiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g5.methods",
+      "science_g5.matter",
+      "science_g5.particles",
+      "science_g5.mixtures",
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound",
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar",
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g5.methods",
+      "science_g5.matter",
+      "science_g5.particles",
+      "science_g5.mixtures",
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound",
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar",
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "science_g5.methods",
+      "science_g5.matter",
+      "science_g5.particles",
+      "science_g5.mixtures",
+      "science_g5.phenomena",
+      "science_g5.forces",
+      "science_g5.energy",
+      "science_g5.light_sound",
+      "science_g5.magnet_electric",
+      "science_g5.earth",
+      "science_g5.solar",
+      "science_g5.cell",
+      "science_g5.living",
+      "science_g5.ecosystem",
+      "science_g5.ecology"
      ],
      "level": 3
     }

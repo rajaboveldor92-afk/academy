@@ -1,138 +1,348 @@
 {
  "subject": "russian",
  "ageGroup": "g3",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Rus tili",
   "en": "Russian",
-  "ru": "Русский"
+  "ru": "Русский язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "russian_g3.toys_school",
+   "id": "russian_g3.alphabet",
    "code": "1",
-   "emoji": "🇷🇺",
+   "emoji": "🔤",
    "title": {
-    "uz": "O‘yinchoq va maktab",
-    "en": "Toys and school",
-    "ru": "Игрушки и школа"
+    "uz": "Alifbo: tovush va harflar",
+    "en": "Alphabet: sounds and letters",
+    "ru": "Алфавит: звуки и буквы"
    },
-   "generator": "vocab",
-   "skill": "toys_school",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Alifbo va tanishuv",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "themes": [
-      "toys_school"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
      "options": 3
     },
     {
-     "themes": [
-      "toys_school"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
-     "options": 3,
-     "sameTheme": true
+     "options": 4
     },
     {
-     "themes": [
-      "toys_school"
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Rus alifbosida 33 ta harf bor: 10 ta unli, 21 ta undosh va 2 ta belgi (ь, ъ).\n• Unli harflar: а, о, у, ы, э, я, ё, ю, е, и.\n• Undosh harflar: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ.\n• ь (yumshatish belgisi) tovush bildirmaydi, oldingi undoshni yumshatadi: день, соль, мать.\nSo‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bor: ма-ма (2), мо-ло-ко (3)."
+   }
+  },
+  {
+   "id": "russian_g3.greet",
+   "code": "2",
+   "emoji": "👋",
+   "title": {
+    "uz": "Tanishuv va xushmuomala so‘zlar",
+    "en": "Greetings and polite words",
+    "ru": "Знакомство и вежливые слова"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Alifbo va tanishuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tanishganda shunday so‘raymiz va javob beramiz:\n• — Как тебя зовут? — Меня зовут Али.\n• — Как дела? — Хорошо, спасибо.\nSalomlashish: Здравствуйте! (kattalarga), Привет! (do‘stga). Xayrlashish: До свидания! Пока!\nXushmuomala so‘zlar: спасибо (rahmat), пожалуйста (iltimos, marhamat), извините (kechirasiz)."
+   }
+  },
+  {
+   "id": "russian_g3.family",
+   "code": "3",
+   "emoji": "👪",
+   "title": {
+    "uz": "Mening oilam",
+    "en": "My family",
+    "ru": "Моя семья"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Alifbo va tanishuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Oila a’zolari: мама (ona), папа (ota), брат (aka, uka), сестра (opa, singil), бабушка (buvi), дедушка (bobo).\n• Erkak kishi — мой: мой папа, мой брат, мой дедушка.\n• Ayol kishi — моя: моя мама, моя сестра, моя бабушка.\nDiqqat: папа va дедушка -а bilan tugasa ham, мой deymiz.\nMisol: Это моя семья. Это мой папа."
+   }
+  },
+  {
+   "id": "russian_g3.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Alifbo va tanishuv",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family"
      ],
-     "modes": [
-      "picture_word",
-      "read",
-      "listen"
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family"
      ],
-     "options": 4,
-     "sameTheme": true
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family"
+     ],
+     "level": 3
     }
    ]
   },
   {
-   "id": "russian_g3.family",
-   "code": "2",
-   "emoji": "🇷🇺",
+   "id": "russian_g3.school",
+   "code": "4",
+   "emoji": "🏫",
    "title": {
-    "uz": "Oila va tana",
-    "en": "Family and body",
-    "ru": "Семья и тело"
+    "uz": "Maktab va o‘yinchoqlar",
+    "en": "School and toys",
+    "ru": "Школа и игрушки"
    },
-   "generator": "vocab",
-   "skill": "family",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Maktab, ranglar va sonlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "themes": [
-      "family_body"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
      "options": 3
     },
     {
-     "themes": [
-      "family_body"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
-     "options": 3,
-     "sameTheme": true
+     "options": 4
     },
     {
-     "themes": [
-      "family_body"
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Narsa haqida so‘raganda — Что это? (Bu nima?). Odam yoki hayvon haqida — Кто это? (Bu kim?).\n• — Что это? — Это книга. Это ручка. Это мяч.\n• — Кто это? — Это учитель. Это кошка. (Hayvon uchun ham Кто?)\nMaktab narsalari: книга, тетрадь, ручка, карандаш, линейка, рюкзак, пенал, доска.\nO‘yinchoqlar: мяч (koptok), кукла (qo‘g‘irchoq), мишка (ayiqcha), машинка, кубики."
+   }
+  },
+  {
+   "id": "russian_g3.colors",
+   "code": "5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "colors",
+   "skill": "colors",
+   "chapter": "2-chorak. Maktab, ranglar va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown"
      ],
+     "options": 3,
      "modes": [
-      "picture_word",
-      "read",
-      "listen"
+      "listen",
+      "read"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
      ],
      "options": 4,
-     "sameTheme": true
+     "modes": [
+      "read",
+      "picture_word",
+      "listen"
+     ]
+    },
+    {
+     "colors": [
+      "red",
+      "yellow",
+      "blue",
+      "green",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+     ],
+     "options": 4,
+     "modes": [
+      "picture_word",
+      "object",
+      "read"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Ranglar (цвета): красный — qizil, жёлтый — sariq, зелёный — yashil, синий — ko‘k,\nоранжевый — to‘q sariq, фиолетовый — binafsha, розовый — pushti, коричневый — jigarrang,\nчёрный — qora, белый — oq.\nRang so‘zi otga moslashadi: красный мяч, красная машина, красное яблоко.\nSavol: Какого цвета? — Мяч красный."
+   }
+  },
+  {
+   "id": "russian_g3.numbers",
+   "code": "6",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar 1–20",
+    "en": "Numbers 1–20",
+    "ru": "Числа от 1 до 20"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "chapter": "2-chorak. Maktab, ranglar va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 10,
+     "modes": [
+      "listen_digit",
+      "read_word"
+     ]
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "listen_digit",
+      "read_word"
+     ],
+     "options": 4
+    },
+    {
+     "min": 1,
+     "max": 20,
+     "modes": [
+      "read_word",
+      "match",
+      "listen_digit"
+     ],
+     "pairs": 4,
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "1–10: один, два, три, четыре, пять, шесть, семь, восемь, девять, десять.\n11–19 “-надцать” bilan tugaydi: одиннадцать, двенадцать, тринадцать … девятнадцать.\n20 — двадцать.\nSavol: Сколько? (Nechta?)  Сколько тебе лет? — Мне девять лет."
+   }
+  },
+  {
+   "id": "russian_g3.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Maktab, ranglar va sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers"
+     ],
+     "level": 3
     }
    ]
   },
   {
    "id": "russian_g3.animals",
-   "code": "3",
-   "emoji": "🇷🇺",
+   "code": "7",
+   "emoji": "🐶",
    "title": {
-    "uz": "Hayvonlar va tabiat",
-    "en": "Animals and nature",
-    "ru": "Животные и природа"
+    "uz": "Hayvonlar",
+    "en": "Animals",
+    "ru": "Животные"
    },
    "generator": "vocab",
-   "skill": "animals",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "vocab",
+   "chapter": "3-chorak. Hayvonlar, mevalar va ot rodi",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
      "themes": [
-      "animals_nature"
+      "animals"
      ],
      "modes": [
       "listen",
@@ -142,192 +352,159 @@
     },
     {
      "themes": [
-      "animals_nature"
+      "animals"
      ],
      "modes": [
       "read",
       "picture_word"
      ],
-     "options": 3,
+     "options": 4,
      "sameTheme": true
     },
     {
      "themes": [
-      "animals_nature"
+      "animals"
      ],
      "modes": [
       "picture_word",
-      "read",
-      "listen"
+      "listen",
+      "read"
      ],
      "options": 4,
      "sameTheme": true
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Uy hayvonlari: кошка (mushuk), собака (it), корова (sigir), лошадь (ot), овца (qo‘y).\nYovvoyi hayvonlar: лев (sher), тигр (yo‘lbars), медведь (ayiq), волк (bo‘ri), лиса (tulki), слон (fil).\nHayvon haqida “Кто это?” deb so‘raymiz: — Кто это? — Это собака."
+   }
   },
   {
-   "id": "russian_g3.spelling",
-   "code": "4",
-   "emoji": "🇷🇺",
+   "id": "russian_g3.fruits_veg",
+   "code": "8",
+   "emoji": "🍎",
    "title": {
-    "uz": "So‘z yig‘ish",
-    "en": "Spelling",
-    "ru": "Собери слово"
+    "uz": "Mevalar va sabzavotlar",
+    "en": "Fruits and vegetables",
+    "ru": "Фрукты и овощи"
    },
-   "generator": "spell",
-   "skill": "spelling",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "3-chorak. Hayvonlar, mevalar va ot rodi",
    "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "minLetters": 3,
-     "maxLetters": 4
-    },
-    {
-     "minLetters": 3,
-     "maxLetters": 4,
-     "extra": 1
-    },
-    {
-     "minLetters": 4,
-     "maxLetters": 5,
-     "extra": 2
-    }
-   ]
-  },
-  {
-   "id": "russian_g3.sentences",
-   "code": "5",
-   "emoji": "🇷🇺",
-   "title": {
-    "uz": "Oddiy gap",
-    "en": "Simple sentences",
-    "ru": "Простое предложение"
-   },
-   "generator": "sentence",
-   "skill": "sentences",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "Avval so‘z yoki gapni tinglang, keyin ma’nosini rasm bilan bog‘lang. Notanish so‘zni 🔊 tugmasi bilan qayta eshiting. So‘z tuzishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "types": [
-      "this"
+     "themes": [
+      "fruits_veg"
      ],
      "modes": [
-      "read"
-     ]
-    },
-    {
-     "types": [
-      "this",
-      "color"
-     ],
-     "modes": [
-      "read",
-      "picture",
-      "listen"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "action"
-     ],
-     "modes": [
-      "read",
-      "picture",
       "listen",
-      "build"
-     ]
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "fruits_veg"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "fruits_veg"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Mevalar (фрукты): яблоко (olma), груша (nok), банан, виноград (uzum), арбуз (tarvuz), дыня (qovun).\nSabzavotlar (овощи): морковь (sabzi), помидор, огурец (bodring), картофель (kartoshka), капуста (karam).\nMisol: Что это? — Это яблоко. Это морковь."
+   }
   },
   {
    "id": "russian_g3.gender",
-   "code": "6",
-   "emoji": "🇷🇺",
+   "code": "9",
+   "emoji": "🏷️",
    "title": {
-    "uz": "Otlarning jinsi",
-    "en": "Otlarning jinsi",
-    "ru": "Otlarning jinsi"
+    "uz": "Ot rodi: он, она, оно",
+    "en": "Noun gender",
+    "ru": "Род существительных"
    },
    "generator": "bank",
-   "skill": "gender",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "3-chorak. Hayvonlar, mevalar va ot rodi",
    "prerequisites": [],
-   "theory": {
-    "uz": "Rus tilida otlar uch jinsga bo‘linadi: мужской (он), женский (она), средний (оно). Masalan: стол — он, книга — она, окно — оно."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Rus tilida otlar uch rodda bo‘ladi:\n• он — стол, дом, мяч (undosh bilan tugaydi) → мой стол\n• она — мама, книга, земля (-а, -я bilan tugaydi) → моя книга\n• оно — окно, море, яблоко (-о, -е bilan tugaydi) → моё окно\nDiqqat: папа, дедушка -а bilan tugasa ham — он (мой папа)."
+   }
   },
   {
    "id": "russian_g3.plural",
-   "code": "7",
-   "emoji": "🇷🇺",
+   "code": "10",
+   "emoji": "📚",
    "title": {
-    "uz": "Ko‘plik shakllari",
-    "en": "Ko‘plik shakllari",
-    "ru": "Ko‘plik shakllari"
+    "uz": "Birlik va ko‘plik",
+    "en": "Singular and plural",
+    "ru": "Единственное и множественное число"
    },
    "generator": "bank",
-   "skill": "plural",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "3-chorak. Hayvonlar, mevalar va ot rodi",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bitta va ko‘p predmet shakllarini farqlang: стол — столы, книга — книги, окно — окна. Ko‘plik qo‘shimchalari bir xil emas; so‘zni juftlikda o‘rganing."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Ko‘plikda otlarning oxiri o‘zgaradi:\n• -ы: стол — столы, лампа — лампы, машина — машины.\n• -и (г, к, х, ж, ш, ч, щ dan keyin): книга — книги, мяч — мячи, карандаш — карандаши.\n• -а, -я (оно rodidagi so‘zlar): окно — окна, море — моря.\nBitta narsa: Это стол. Ko‘p narsa: Это столы. Ko‘plikda — мои: мои книги."
+   }
   },
   {
-   "id": "russian_g3.review",
-   "code": "8",
-   "emoji": "🇷🇺",
+   "id": "russian_g3.test3",
+   "code": "N",
+   "emoji": "📝",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "3-chorak. Hayvonlar, mevalar va ot rodi",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "russian_g3.toys_school",
-      "russian_g3.family",
       "russian_g3.animals",
-      "russian_g3.spelling",
-      "russian_g3.sentences",
+      "russian_g3.fruits_veg",
       "russian_g3.gender",
       "russian_g3.plural"
      ],
@@ -335,11 +512,8 @@
     },
     {
      "topics": [
-      "russian_g3.toys_school",
-      "russian_g3.family",
       "russian_g3.animals",
-      "russian_g3.spelling",
-      "russian_g3.sentences",
+      "russian_g3.fruits_veg",
       "russian_g3.gender",
       "russian_g3.plural"
      ],
@@ -347,13 +521,264 @@
     },
     {
      "topics": [
-      "russian_g3.toys_school",
-      "russian_g3.family",
       "russian_g3.animals",
-      "russian_g3.spelling",
-      "russian_g3.sentences",
+      "russian_g3.fruits_veg",
       "russian_g3.gender",
       "russian_g3.plural"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.clothes",
+   "code": "11",
+   "emoji": "👕",
+   "title": {
+    "uz": "Kiyimlar",
+    "en": "Clothes",
+    "ru": "Одежда"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "clothes"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Kiyimlar (одежда): футболка (futbolka), брюки (shim), платье (ko‘ylak), пальто (palto),\nшарф (sharf), перчатки (qo‘lqop), носки (paypoq), кепка (kepka), кроссовки (krossovka).\nKiyim nomi ham rodga ega: мой шарф, моя футболка, моё пальто, мои носки.\nMisol: Что это? — Это моё платье."
+   }
+  },
+  {
+   "id": "russian_g3.days",
+   "code": "12",
+   "emoji": "📅",
+   "title": {
+    "uz": "Hafta kunlari",
+    "en": "Days of the week",
+    "ru": "Дни недели"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari (дни недели): понедельник (dushanba), вторник (seshanba), среда (chorshanba),\nчетверг (payshanba), пятница (juma), суббота (shanba), воскресенье (yakshanba).\n• Kun nomlari kichik harf bilan yoziladi.\n• Qachon? — в понедельник, в среду, в субботу.\nSavol: Какой сегодня день? — Сегодня пятница."
+   }
+  },
+  {
+   "id": "russian_g3.verbs",
+   "code": "13",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Hozirgi zamon fe’llari",
+    "en": "Present tense verbs",
+    "ru": "Глаголы настоящего времени"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hozirgi zamonda fe’l shaxsga qarab o‘zgaradi (читать — o‘qimoq):\n• я читаю, ты читаешь, он/она читает\n• мы читаем, вы читаете, они читают\nXuddi shunday: играть — я играю, ты играешь, он играет; рисовать — я рисую, он рисует.\nMisol: Я читаю книгу. Мама читает газету."
+   }
+  },
+  {
+   "id": "russian_g3.prepositions",
+   "code": "14",
+   "emoji": "📦",
+   "title": {
+    "uz": "Qayerda? в va на",
+    "en": "Where? в and на",
+    "ru": "Где? Предлоги в и на"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "“Где?” (Qayerda?) savoliga javobda в va на ishlatiladi, so‘z oxiri ko‘pincha -е bo‘ladi:\n• в — ichida: в школе, в классе, в парке, в сумке.\n• на — ustida: на стуле, на диване, на полке, на стене.\nMisol: — Где мама? — Мама в магазине. — Где кошка? — Кошка на диване.\nздесь — shu yerda, там — u yerda."
+   }
+  },
+  {
+   "id": "russian_g3.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kiyim, hafta kunlari va harakatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family",
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers",
+      "russian_g3.animals",
+      "russian_g3.fruits_veg",
+      "russian_g3.gender",
+      "russian_g3.plural",
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family",
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers",
+      "russian_g3.animals",
+      "russian_g3.fruits_veg",
+      "russian_g3.gender",
+      "russian_g3.plural",
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "russian_g3.alphabet",
+      "russian_g3.greet",
+      "russian_g3.family",
+      "russian_g3.school",
+      "russian_g3.colors",
+      "russian_g3.numbers",
+      "russian_g3.animals",
+      "russian_g3.fruits_veg",
+      "russian_g3.gender",
+      "russian_g3.plural",
+      "russian_g3.clothes",
+      "russian_g3.days",
+      "russian_g3.verbs",
+      "russian_g3.prepositions"
      ],
      "level": 3
     }

@@ -1,105 +1,611 @@
 {
  "subject": "informatics",
  "ageGroup": "g3",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Informatika",
   "en": "Computer science",
   "ru": "Информатика"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "informatics_g3.devices",
+   "id": "informatics_g3.kompyuter",
    "code": "1",
-   "emoji": "💻",
+   "emoji": "🖥️",
    "title": {
-    "uz": "Kompyuter qurilmalari",
-    "en": "Kompyuter qurilmalari",
-    "ru": "Kompyuter qurilmalari"
+    "uz": "Kompyuter va uning qismlari",
+    "en": "The computer and its parts",
+    "ru": "Компьютер и его части"
    },
    "generator": "bank",
-   "skill": "devices",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter bilan tanishuv",
    "prerequisites": [],
-   "theory": {
-    "uz": "Kompyuterga ma’lumot kiritish, natijani chiqarish va saqlash uchun turli vositalar kerak. Klaviatura kiritadi, monitor ko‘rsatadi, printer qog‘ozga chiqaradi. Qurilmani uning vazifasiga qarab ajrating."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Kompyuter — axborot bilan ishlaydigan aqlli yordamchi qurilma.\n• Tizim bloki — kompyuterning asosiy qismlari joylashgan quti.\n• Monitor — rasm va matn ko‘rinadigan ekran.\n• Klaviatura — harf va raqam yozish uchun; sichqoncha — ekrandagi ko‘rsatkichni boshqarish uchun.\nQo‘shimcha qurilmalar: karnay, quloqchin, printer, skaner, mikrofon, veb-kamera."
+   }
   },
   {
-   "id": "informatics_g3.safe_use",
+   "id": "informatics_g3.qurilmalar",
    "code": "2",
-   "emoji": "💻",
+   "emoji": "🖨️",
    "title": {
-    "uz": "Raqamli odob va xavfsizlik",
-    "en": "Raqamli odob va xavfsizlik",
-    "ru": "Raqamli odob va xavfsizlik"
+    "uz": "Kiritish va chiqarish qurilmalari",
+    "en": "Input and output devices",
+    "ru": "Устройства ввода и вывода"
    },
    "generator": "bank",
-   "skill": "safe_use",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter bilan tanishuv",
    "prerequisites": [],
-   "theory": {
-    "uz": "Internetda ism, manzil va parol kabi shaxsiy ma’lumotlarni ehtiyot qiling. Noma’lum xabar yoki havolani kattalar bilan tekshiring. Boshqalar bilan muloyim gaplashing va ish orasida tanaffus qiling."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Kiritish qurilmalari axborotni kompyuterga kiritadi: klaviatura, sichqoncha, mikrofon, skaner, veb-kamera.\nChiqarish qurilmalari axborotni kompyuterdan bizga chiqaradi: monitor, printer, karnay, quloqchin.\nEslab qoling: “kiritish” — kompyuterga, “chiqarish” — kompyuterdan.\nMasalan, mikrofonga gapirsak — kiritish, karnaydan qo‘shiq eshitsak — chiqarish."
+   }
   },
   {
-   "id": "informatics_g3.review",
+   "id": "informatics_g3.togri_otirish",
    "code": "3",
-   "emoji": "💻",
+   "emoji": "👀",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "Kompyuter oldida to‘g‘ri o‘tirish",
+    "en": "Sitting correctly at the computer",
+    "ru": "Правильная посадка за компьютером"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter bilan tanishuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter oldida sog‘lom bo‘lish qoidalari:\n• Orqani tik tutib o‘tiring, oyoqlar polda tursin.\n• Ko‘zdan ekrangacha kamida 50 sm bo‘lsin, ekran ko‘z balandligida yoki biroz pastda tursin.\n• Xona yorug‘ bo‘lsin; vaqti-vaqti bilan tanaffus qilib, ko‘zga dam bering: uzoqqa qarang, ko‘zni yumib oching.\n• Ho‘l qo‘l bilan kompyuterga tegmang, simlarni tortmang, kompyuter yonida ovqat yemang."
+   }
+  },
+  {
+   "id": "informatics_g3.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Kompyuter bilan tanishuv",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "informatics_g3.devices",
-      "informatics_g3.safe_use"
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish"
      ],
      "level": 1
     },
     {
      "topics": [
-      "informatics_g3.devices",
-      "informatics_g3.safe_use"
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish"
      ],
      "level": 2
     },
     {
      "topics": [
-      "informatics_g3.devices",
-      "informatics_g3.safe_use"
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.sichqoncha",
+   "code": "4",
+   "emoji": "🖱️",
+   "title": {
+    "uz": "Sichqoncha bilan ishlash",
+    "en": "Using the mouse",
+    "ru": "Работа с мышью"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Sichqoncha va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sichqonchada chap va o‘ng tugma hamda g‘ildirakcha bor.\n• Bosish — chap tugmani bir marta bosib qo‘yib yuborish: belgini tanlaydi.\n• Ikki marta bosish — chap tugmani tez-tez ikki marta bosish: dastur yoki papkani ochadi.\n• Sudrab o‘tkazish — chap tugmani bosib turib sichqonchani surish, keyin qo‘yib yuborish.\n• O‘ng tugma — qo‘shimcha buyruqlar ro‘yxatini (menyu) ochadi; g‘ildirakcha sahifani yuqori-pastga suradi."
+   }
+  },
+  {
+   "id": "informatics_g3.klaviatura",
+   "code": "5",
+   "emoji": "⌨️",
+   "title": {
+    "uz": "Klaviatura tugmalari",
+    "en": "Keyboard keys",
+    "ru": "Клавиши клавиатуры"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Sichqoncha va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Klaviaturada harf, raqam va maxsus tugmalar bor.\n• Probel — eng uzun tugma, so‘zlar orasiga bo‘sh joy qo‘yadi.\n• Enter — yangi qatorga o‘tkazadi yoki buyruqni tasdiqlaydi.\n• Backspace — kursordan chapdagi belgini, Delete — o‘ngdagi belgini o‘chiradi.\n• Shift — bosib turib harf bossak, bosh harf chiqadi; Caps Lock yoqilsa, hamma harflar bosh harf bo‘ladi."
+   }
+  },
+  {
+   "id": "informatics_g3.matn_terish",
+   "code": "6",
+   "emoji": "✏️",
+   "title": {
+    "uz": "Matn terish",
+    "en": "Typing text",
+    "ru": "Набор текста"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Sichqoncha va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni kompyuterda yozish uchun matn muharriridan foydalanamiz, masalan, Bloknot yoki Word.\n• Gap bosh harf bilan boshlanadi — buning uchun Shift bosib turiladi.\n• So‘zlar orasiga bitta Probel qo‘yiladi; vergul va nuqta so‘zga yopishib yoziladi, ulardan keyin Probel qo‘yiladi.\n• Xato harfni Backspace bilan o‘chirib, qaytadan yozamiz; yangi qatorni Enter boshlaydi.\nMisol: “Men kitob o‘qiyman.” — 3 ta so‘z, 2 ta Probel."
+   }
+  },
+  {
+   "id": "informatics_g3.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Sichqoncha va klaviatura",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.ish_stoli",
+   "code": "7",
+   "emoji": "💻",
+   "title": {
+    "uz": "Ish stoli, belgi va oyna",
+    "en": "Desktop, icons and windows",
+    "ru": "Рабочий стол, значки и окна"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ish stoli, fayl va rasm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter yoqilganda ekranda ish stoli ko‘rinadi.\n• Belgi (ikonka) — dastur, papka yoki faylning kichik rasmi. Uni ikki marta bossak, ochiladi.\n• Ekran pastidagi yo‘lak — vazifalar paneli: unda Pusk tugmasi, ochiq dasturlar va soat bor.\n• Dastur ochilganda oyna paydo bo‘ladi. Oyna tepasidagi tugmalar: “—” yig‘adi, “□” butun ekranga yoyadi, “×” yopadi.\n• O‘chirilgan fayllar avval savatga tushadi."
+   }
+  },
+  {
+   "id": "informatics_g3.fayl_papka",
+   "code": "8",
+   "emoji": "📁",
+   "title": {
+    "uz": "Fayl va papka",
+    "en": "Files and folders",
+    "ru": "Файлы и папки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ish stoli, fayl va rasm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Fayl — kompyuterda saqlanadigan ma’lumot: rasm, matn, qo‘shiq yoki video. Har bir faylning nomi bor.\nPapka — fayllarni tartib bilan saqlaydigan joy, xuddi daftarlar solinadigan sumka kabi.\n• Papka ichida fayl ham, boshqa papka ham bo‘lishi mumkin.\n• Yangi papka yaratish: ish stolida o‘ng tugmani bosib, menyudan yangi papka buyrug‘ini tanlaymiz, nomini yozib, Enter bosamiz.\n• Keraksiz faylni tanlab Delete bossak, u savatga tushadi."
+   }
+  },
+  {
+   "id": "informatics_g3.paint",
+   "code": "9",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Rasm chizish dasturi",
+    "en": "Drawing program",
+    "ru": "Графический редактор"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ish stoli, fayl va rasm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuterda rasm chizish uchun grafik muharrir ishlatiladi, masalan, Paint dasturi.\n• Qalam — ingichka chiziq chizadi; cho‘tka — qalinroq chiziq chizadi.\n• O‘chirg‘ich — rasmning keraksiz qismini o‘chiradi.\n• Bo‘yoq chelagi — yopiq shaklning ichini bir bosishda bo‘yaydi.\n• Shakllar — to‘rtburchak, oval, uchburchak, yulduzni tayyor chizadi; rang palitradan tanlanadi."
+   }
+  },
+  {
+   "id": "informatics_g3.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ish stoli, fayl va rasm",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.axborot",
+   "code": "10",
+   "emoji": "💡",
+   "title": {
+    "uz": "Axborot va uning turlari",
+    "en": "Information and its types",
+    "ru": "Информация и её виды"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Axborot — atrofimizdagi olam haqida biladigan ma’lumotlarimiz.\nBiz axborotni sezgi a’zolari orqali olamiz:\n• ko‘z — ko‘rish, quloq — eshitish, burun — hid bilish,\n• til — ta’m bilish, teri — sezish (tegib bilish).\nEng ko‘p axborotni ko‘z orqali olamiz. Axborotni yig‘amiz, saqlaymiz, uzatamiz va qayta ishlaymiz."
+   }
+  },
+  {
+   "id": "informatics_g3.algoritm",
+   "code": "11",
+   "emoji": "📋",
+   "title": {
+    "uz": "Algoritm — buyruqlar ketma-ketligi",
+    "en": "Algorithm: a sequence of commands",
+    "ru": "Алгоритм — последовательность команд"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm — biror ishni bajarish uchun aniq buyruqlarning tartibli ketma-ketligi.\nBuyruqlar tartibi muhim: tartib buzilsa, natija chiqmaydi.\nMisol — choy damlash: 1) choynakni chayamiz, 2) choy solamiz, 3) qaynoq suv quyamiz, 4) biroz kutamiz, 5) piyolaga quyamiz.\n“Algoritm” so‘zi buyuk olim Muhammad al-Xorazmiy nomidan kelib chiqqan."
+   }
+  },
+  {
+   "id": "informatics_g3.ijrochi",
+   "code": "12",
+   "emoji": "🤖",
+   "title": {
+    "uz": "Ijrochi va buyruqlar",
+    "en": "Executor and commands",
+    "ru": "Исполнитель и команды"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ijrochi — buyruqlarni bajaruvchi: odam, robot yoki kompyuter.\nHar bir ijrochi faqat o‘zi biladigan buyruqlarni bajara oladi — bu uning buyruqlar tizimi.\nMasalan, Robot buyruqlari: “oldinga”, “orqaga”, “chapga”, “o‘ngga” — har biri bir katak suradi.\nRobot 1-katakda turibdi va “oldinga” buyrug‘ini 3 marta bajardi — endi u 4-katakda."
+   }
+  },
+  {
+   "id": "informatics_g3.internet",
+   "code": "13",
+   "emoji": "🔒",
+   "title": {
+    "uz": "Internetda xavfsizlik",
+    "en": "Staying safe online",
+    "ru": "Безопасность в интернете"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Internet — butun dunyodagi kompyuterlarni bog‘lovchi katta tarmoq. Unda foydali narsa ko‘p, lekin ehtiyot bo‘lish kerak.\n• Parolingizni hech kimga aytmang — uni faqat siz va ota-onangiz biladi.\n• Notanish odamga ismingiz, uy manzilingiz, telefon raqamingiz va maktabingizni aytmang.\n• Notanish odam bilan uchrashmang, noma’lum havola va fayllarni ochmang.\n• Biror narsa sizni qo‘rqitsa yoki xafa qilsa — darhol kattalarga ayting."
+   }
+  },
+  {
+   "id": "informatics_g3.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Axborot va algoritm",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish",
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish",
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint",
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish",
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish",
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint",
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "informatics_g3.kompyuter",
+      "informatics_g3.qurilmalar",
+      "informatics_g3.togri_otirish",
+      "informatics_g3.sichqoncha",
+      "informatics_g3.klaviatura",
+      "informatics_g3.matn_terish",
+      "informatics_g3.ish_stoli",
+      "informatics_g3.fayl_papka",
+      "informatics_g3.paint",
+      "informatics_g3.axborot",
+      "informatics_g3.algoritm",
+      "informatics_g3.ijrochi",
+      "informatics_g3.internet"
      ],
      "level": 3
     }

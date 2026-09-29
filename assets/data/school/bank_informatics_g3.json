@@ -1,0 +1,4396 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_1",
+   "t": "choice",
+   "q": "Kompyuterning qaysi qismida tasvir ko‘rinadi?",
+   "a": "Monitor",
+   "w": [
+    "Klaviatura",
+    "Sichqoncha",
+    "Karnay",
+    "Mikrofon"
+   ],
+   "d": 1,
+   "x": "Monitor — kompyuterning ekrani, unda rasm va matn ko‘rinadi.",
+   "e": "🖥️"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_2",
+   "t": "choice",
+   "q": "Harf va raqamlarni yozish uchun qaysi qurilma kerak?",
+   "a": "Klaviatura",
+   "w": [
+    "Monitor",
+    "Karnay",
+    "Printer",
+    "Veb-kamera"
+   ],
+   "d": 1,
+   "x": "Klaviaturada harf va raqam tugmalari bor.",
+   "e": "⌨️"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_3",
+   "t": "choice",
+   "q": "Ekrandagi ko‘rsatkichni qaysi qurilma boshqaradi?",
+   "a": "Sichqoncha",
+   "w": [
+    "Printer",
+    "Karnay",
+    "Mikrofon",
+    "Skaner"
+   ],
+   "d": 1,
+   "x": "Sichqonchani stol ustida sursak, ekrandagi ko‘rsatkich ham suriladi.",
+   "e": "🖱️"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_4",
+   "t": "choice",
+   "q": "Kompyuterdan tovush qaysi qurilma orqali chiqadi?",
+   "a": "Karnay",
+   "w": [
+    "Skaner",
+    "Klaviatura",
+    "Sichqoncha",
+    "Veb-kamera"
+   ],
+   "d": 1,
+   "x": "Karnay (kolonka) musiqa va ovozni eshittiradi.",
+   "e": "🔊"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_5",
+   "t": "choice",
+   "q": "Matn yoki rasmni qog‘ozga chiqaradigan qurilma qaysi?",
+   "a": "Printer",
+   "w": [
+    "Skaner",
+    "Mikrofon",
+    "Sichqoncha",
+    "Karnay"
+   ],
+   "d": 1,
+   "x": "Printer kompyuterdagi matn va rasmni qog‘ozga chop etadi.",
+   "e": "🖨️"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_6",
+   "t": "choice",
+   "q": "Qog‘ozdagi rasmni kompyuterga o‘tkazadigan qurilma qaysi?",
+   "a": "Skaner",
+   "w": [
+    "Printer",
+    "Karnay",
+    "Monitor",
+    "Quloqchin"
+   ],
+   "d": 1,
+   "x": "Skaner qog‘ozdagi rasm va matnni nusxalab, kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_7",
+   "t": "choice",
+   "q": "Ovozni kompyuterga yozib olish uchun nima kerak?",
+   "a": "Mikrofon",
+   "w": [
+    "Karnay",
+    "Printer",
+    "Monitor",
+    "Quloqchin"
+   ],
+   "d": 1,
+   "x": "Mikrofon ovozimizni kompyuterga kiritadi.",
+   "e": "🎤"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_8",
+   "t": "choice",
+   "q": "Videoqo‘ng‘iroqda yuzimizni ko‘rsatadigan qurilma qaysi?",
+   "a": "Veb-kamera",
+   "w": [
+    "Karnay",
+    "Skaner",
+    "Klaviatura",
+    "Printer"
+   ],
+   "d": 1,
+   "x": "Veb-kamera tasvirimizni olib, kompyuter orqali suhbatdoshga uzatadi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_9",
+   "t": "choice",
+   "q": "Kompyuterning asosiy qismlari joylashgan quti qanday ataladi?",
+   "a": "Tizim bloki",
+   "w": [
+    "Monitor",
+    "Klaviatura",
+    "Karnay",
+    "Printer"
+   ],
+   "d": 1,
+   "x": "Stol kompyuterida asosiy qismlar tizim bloki ichida joylashgan."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_10",
+   "t": "choice",
+   "q": "Musiqani boshqalarga eshittirmay tinglash uchun nima kerak?",
+   "a": "Quloqchin",
+   "w": [
+    "Printer",
+    "Skaner",
+    "Veb-kamera",
+    "Klaviatura"
+   ],
+   "d": 1,
+   "x": "Quloqchin tovushni faqat bizning quloqqa yetkazadi.",
+   "e": "🎧"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_11",
+   "t": "choice",
+   "q": "Qaysi biri kompyuter qurilmasi emas?",
+   "a": "Muzlatgich",
+   "w": [
+    "Sichqoncha",
+    "Monitor",
+    "Klaviatura",
+    "Printer"
+   ],
+   "d": 1,
+   "x": "Muzlatgich — oshxona jihozi, u kompyuterning qismi emas."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_12",
+   "t": "choice",
+   "q": "Kompyuter nima bilan ishlaydi?",
+   "a": "Elektr toki bilan",
+   "w": [
+    "Suv bilan",
+    "Benzin bilan",
+    "Ko‘mir bilan"
+   ],
+   "d": 1,
+   "x": "Kompyuter elektr tokida ishlaydi, noutbukda esa batareya ham bor.",
+   "e": "🔌"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_13",
+   "t": "tf",
+   "q": "Monitor — kompyuterning ekrani.",
+   "a": true,
+   "d": 1,
+   "x": "Monitorda rasm, matn va video ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_14",
+   "t": "tf",
+   "q": "Printer ovoz chiqaradi.",
+   "a": false,
+   "d": 1,
+   "x": "Ovozni karnay chiqaradi, printer esa qog‘ozga chop etadi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_15",
+   "t": "tf",
+   "q": "Klaviatura yordamida matn yozamiz.",
+   "a": true,
+   "d": 1,
+   "x": "Klaviatura tugmalarini bosib harf va raqam yozamiz."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_16",
+   "t": "match",
+   "q": "Qurilmani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Monitor",
+     "Tasvirni ko‘rsatadi"
+    ],
+    [
+     "Klaviatura",
+     "Harflarni yozadi"
+    ],
+    [
+     "Karnay",
+     "Tovush chiqaradi"
+    ],
+    [
+     "Printer",
+     "Qog‘ozga chop etadi"
+    ],
+    [
+     "Mikrofon",
+     "Ovozni yozib oladi"
+    ],
+    [
+     "Skaner",
+     "Rasmni nusxalab kiritadi"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir qurilmaning o‘z vazifasi bor."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_17",
+   "t": "match",
+   "q": "Rasmni qurilma nomi bilan juftlang",
+   "pairs": [
+    [
+     "🖥️",
+     "Monitor"
+    ],
+    [
+     "⌨️",
+     "Klaviatura"
+    ],
+    [
+     "🖱️",
+     "Sichqoncha"
+    ],
+    [
+     "🖨️",
+     "Printer"
+    ],
+    [
+     "🎤",
+     "Mikrofon"
+    ],
+    [
+     "🎧",
+     "Quloqchin"
+    ],
+    [
+     "💻",
+     "Noutbuk"
+    ]
+   ],
+   "d": 1,
+   "x": "Qurilmalarni ko‘rinishidan tanib olamiz."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_18",
+   "t": "choice",
+   "q": "Ekran, klaviatura va boshqa qismlar bitta korpusda bo‘lgan ko‘chma kompyuter nima deb ataladi?",
+   "a": "Noutbuk",
+   "w": [
+    "Printer",
+    "Skaner",
+    "Karnay"
+   ],
+   "d": 2,
+   "x": "Noutbukda ekran, klaviatura va boshqa qismlar birga yig‘ilgan, uni ko‘tarib yurish mumkin.",
+   "e": "💻"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_19",
+   "t": "choice",
+   "q": "Noutbukda sichqoncha o‘rniga nimadan foydalanish mumkin?",
+   "a": "Sensorli panel",
+   "w": [
+    "Karnay",
+    "Veb-kamera",
+    "Mikrofon"
+   ],
+   "d": 2,
+   "x": "Sensorli panelda barmoqni yurgizib ko‘rsatkichni boshqaramiz."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_20",
+   "t": "tf",
+   "q": "Printer bo‘lmasa ham kompyuter ishlay oladi.",
+   "a": true,
+   "d": 2,
+   "x": "Printer qo‘shimcha qurilma: kompyuter usiz ham ishlayveradi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_21",
+   "t": "tf",
+   "q": "Veb-kamera tovush chiqaradi.",
+   "a": false,
+   "d": 2,
+   "x": "Veb-kamera tasvirni oladi, tovushni esa karnay chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_22",
+   "t": "choice",
+   "q": "Qaysi qurilma bo‘lmasa, kompyuterdagi rasmni ko‘ra olmaymiz?",
+   "a": "Monitor",
+   "w": [
+    "Karnay",
+    "Printer",
+    "Mikrofon"
+   ],
+   "d": 2,
+   "x": "Tasvir monitor ekranida ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_23",
+   "t": "choice",
+   "q": "Kompyuterni yoqish uchun qaysi tugma bosiladi?",
+   "a": "Quvvat tugmasi",
+   "w": [
+    "Probel",
+    "Enter",
+    "Shift"
+   ],
+   "d": 2,
+   "x": "Quvvat tugmasi kompyuterni yoqadi; stol kompyuterida u tizim blokida bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_24",
+   "t": "choice",
+   "q": "Planshet va smartfonda harf tugmalari qayerda chiqadi?",
+   "a": "Ekranning o‘zida",
+   "w": [
+    "Tizim blokida",
+    "Printerda",
+    "Karnayda"
+   ],
+   "d": 3,
+   "x": "Planshet va smartfonda harflar sensorli ekranda chiqadi va barmoq bilan bosiladi.",
+   "e": "📱"
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_25",
+   "t": "choice",
+   "q": "Stol kompyuterida hisob-kitobni bajaradigan “miya” — protsessor qayerda joylashgan?",
+   "a": "Tizim blokida",
+   "w": [
+    "Monitorda",
+    "Sichqonchada",
+    "Karnayda"
+   ],
+   "d": 3,
+   "x": "Protsessor tizim bloki ichida joylashgan va barcha hisob-kitobni bajaradi."
+  },
+  {
+   "topic": "informatics_g3.kompyuter",
+   "id": "kompyuter_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Monitor",
+    "rasm",
+    "va",
+    "matnni",
+    "ko‘rsatadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_1",
+   "t": "choice",
+   "q": "Qaysi biri kiritish qurilmasi?",
+   "a": "Klaviatura",
+   "w": [
+    "Monitor",
+    "Printer",
+    "Karnay",
+    "Quloqchin"
+   ],
+   "d": 1,
+   "x": "Klaviatura orqali harflarni kompyuterga kiritamiz."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_2",
+   "t": "choice",
+   "q": "Qaysi biri kiritish qurilmasi?",
+   "a": "Mikrofon",
+   "w": [
+    "Karnay",
+    "Printer",
+    "Quloqchin",
+    "Monitor"
+   ],
+   "d": 1,
+   "x": "Mikrofon ovozni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_3",
+   "t": "choice",
+   "q": "Qaysi biri kiritish qurilmasi?",
+   "a": "Skaner",
+   "w": [
+    "Printer",
+    "Monitor",
+    "Quloqchin",
+    "Karnay"
+   ],
+   "d": 1,
+   "x": "Skaner qog‘ozdagi rasmni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_4",
+   "t": "choice",
+   "q": "Qaysi biri kiritish qurilmasi?",
+   "a": "Sichqoncha",
+   "w": [
+    "Karnay",
+    "Monitor",
+    "Printer",
+    "Quloqchin"
+   ],
+   "d": 1,
+   "x": "Sichqoncha orqali kompyuterga buyruq beramiz."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_5",
+   "t": "choice",
+   "q": "Qaysi biri chiqarish qurilmasi?",
+   "a": "Monitor",
+   "w": [
+    "Sichqoncha",
+    "Mikrofon",
+    "Skaner",
+    "Klaviatura"
+   ],
+   "d": 1,
+   "x": "Monitor axborotni kompyuterdan ekranga chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_6",
+   "t": "choice",
+   "q": "Qaysi biri chiqarish qurilmasi?",
+   "a": "Printer",
+   "w": [
+    "Klaviatura",
+    "Veb-kamera",
+    "Skaner",
+    "Mikrofon"
+   ],
+   "d": 1,
+   "x": "Printer axborotni qog‘ozga chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_7",
+   "t": "choice",
+   "q": "Qaysi biri chiqarish qurilmasi?",
+   "a": "Karnay",
+   "w": [
+    "Mikrofon",
+    "Sichqoncha",
+    "Klaviatura",
+    "Skaner"
+   ],
+   "d": 1,
+   "x": "Karnay tovushni kompyuterdan chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_8",
+   "t": "tf",
+   "q": "Sichqoncha — kiritish qurilmasi.",
+   "a": true,
+   "d": 1,
+   "x": "Sichqoncha buyruqlarni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_9",
+   "t": "tf",
+   "q": "Karnay — kiritish qurilmasi.",
+   "a": false,
+   "d": 1,
+   "x": "Karnay tovushni kompyuterdan chiqaradi, demak u chiqarish qurilmasi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_10",
+   "t": "tf",
+   "q": "Printer — chiqarish qurilmasi.",
+   "a": true,
+   "d": 1,
+   "x": "Printer axborotni kompyuterdan qog‘ozga chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_11",
+   "t": "tf",
+   "q": "Mikrofon — chiqarish qurilmasi.",
+   "a": false,
+   "d": 1,
+   "x": "Mikrofon ovozni kompyuterga kiritadi, u kiritish qurilmasi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_12",
+   "t": "tf",
+   "q": "Quloqchin — chiqarish qurilmasi.",
+   "a": true,
+   "d": 1,
+   "x": "Quloqchin tovushni kompyuterdan bizga yetkazadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_13",
+   "t": "choice",
+   "q": "Kompyuterdagi rasmni qog‘ozda ko‘rish uchun qaysi qurilma kerak?",
+   "a": "Printer",
+   "w": [
+    "Skaner",
+    "Mikrofon",
+    "Klaviatura",
+    "Veb-kamera"
+   ],
+   "d": 1,
+   "x": "Printer rasmni qog‘ozga chop etadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_14",
+   "t": "match",
+   "q": "Qurilmani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Mikrofon",
+     "Ovozni kiritadi"
+    ],
+    [
+     "Karnay",
+     "Ovozni chiqaradi"
+    ],
+    [
+     "Skaner",
+     "Rasmni kiritadi"
+    ],
+    [
+     "Printer",
+     "Rasmni qog‘ozga chiqaradi"
+    ],
+    [
+     "Klaviatura",
+     "Harflarni kiritadi"
+    ],
+    [
+     "Monitor",
+     "Tasvirni ko‘rsatadi"
+    ]
+   ],
+   "d": 1,
+   "x": "Kiritish qurilmasi kompyuterga, chiqarish qurilmasi kompyuterdan axborot o‘tkazadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_15",
+   "t": "choice",
+   "q": "Mikrofon ovozni qayerga uzatadi?",
+   "a": "Kompyuterga",
+   "w": [
+    "Printerga",
+    "Skanerga",
+    "Sichqonchaga"
+   ],
+   "d": 2,
+   "x": "Mikrofon — kiritish qurilmasi, u ovozni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_16",
+   "t": "tf",
+   "q": "Veb-kamera — kiritish qurilmasi.",
+   "a": true,
+   "d": 2,
+   "x": "Veb-kamera tasvirni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_17",
+   "t": "tf",
+   "q": "Skaner va printer — ikkalasi ham chiqarish qurilmasi.",
+   "a": false,
+   "d": 2,
+   "x": "Skaner — kiritish, printer — chiqarish qurilmasi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_18",
+   "t": "choice",
+   "q": "Qaysi juftlikda ikkala qurilma ham kiritish qurilmasi?",
+   "a": "Klaviatura va sichqoncha",
+   "w": [
+    "Monitor va karnay",
+    "Printer va sichqoncha",
+    "Karnay va mikrofon"
+   ],
+   "d": 2,
+   "x": "Klaviatura ham, sichqoncha ham kompyuterga axborot kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_19",
+   "t": "choice",
+   "q": "Qaysi juftlikda ikkala qurilma ham chiqarish qurilmasi?",
+   "a": "Monitor va printer",
+   "w": [
+    "Skaner va printer",
+    "Mikrofon va karnay",
+    "Klaviatura va monitor"
+   ],
+   "d": 2,
+   "x": "Monitor ekranga, printer qog‘ozga axborot chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_20",
+   "t": "choice",
+   "q": "Ali videoqo‘ng‘iroqda buvisi bilan gaplashmoqda. Buvisining ovozini qaysi qurilma eshittiradi?",
+   "a": "Karnay",
+   "w": [
+    "Mikrofon",
+    "Veb-kamera",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Ovozni eshittiradigan chiqarish qurilmasi — karnay."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_21",
+   "t": "choice",
+   "q": "Ali videoqo‘ng‘iroqda gapirmoqda. Uning ovozini kompyuterga qaysi qurilma kiritadi?",
+   "a": "Mikrofon",
+   "w": [
+    "Karnay",
+    "Monitor",
+    "Printer"
+   ],
+   "d": 2,
+   "x": "Ovozni kompyuterga mikrofon kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_22",
+   "t": "choice",
+   "q": "Zarina qog‘ozga chizgan rasmini kompyuterga o‘tkazmoqchi. Unga nima kerak?",
+   "a": "Skaner",
+   "w": [
+    "Printer",
+    "Karnay",
+    "Quloqchin"
+   ],
+   "d": 2,
+   "x": "Skaner qog‘ozdagi rasmni kompyuterga kiritadi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_23",
+   "t": "choice",
+   "q": "Sensorli ekran qanday qurilma?",
+   "a": "Ham kiritish, ham chiqarish",
+   "w": [
+    "Faqat kiritish",
+    "Faqat chiqarish",
+    "Faqat tovush chiqarish"
+   ],
+   "d": 3,
+   "x": "Sensorli ekran tasvirni ko‘rsatadi va barmoq tegishini ham qabul qiladi."
+  },
+  {
+   "topic": "informatics_g3.qurilmalar",
+   "id": "qurilmalar_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Karnay",
+    "chiqarish",
+    "qurilmasi",
+    "hisoblanadi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_1",
+   "t": "choice",
+   "q": "Kompyuter oldida qanday o‘tirish kerak?",
+   "a": "Orqani tik tutib",
+   "w": [
+    "Egilib, bukchayib",
+    "Oyoqni stolga qo‘yib",
+    "Yonboshlab yotib"
+   ],
+   "d": 1,
+   "x": "Orqa tik bo‘lsa, umurtqa pog‘onasi charchamaydi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_2",
+   "t": "choice",
+   "q": "Ko‘zdan ekrangacha masofa qancha bo‘lishi kerak?",
+   "a": "Kamida 50 sm",
+   "w": [
+    "5 sm",
+    "10 sm",
+    "20 sm"
+   ],
+   "d": 1,
+   "x": "Ekranga juda yaqin o‘tirish ko‘zni charchatadi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_3",
+   "t": "tf",
+   "q": "Ho‘l qo‘l bilan kompyuterga tegish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Suv tokni o‘tkazadi, bu juda xavfli."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_4",
+   "t": "tf",
+   "q": "Kompyuter yonida choy ichish mumkin emas.",
+   "a": true,
+   "d": 1,
+   "x": "Choy to‘kilsa, klaviatura va kompyuter buzilishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_5",
+   "t": "choice",
+   "q": "Ko‘z charchasa nima qilish kerak?",
+   "a": "Uzoqqa qarab dam olish",
+   "w": [
+    "Ekranga yaqinroq borish",
+    "Ko‘zni qattiq ishqalash",
+    "Xonani qorong‘i qilish"
+   ],
+   "d": 1,
+   "x": "Uzoqqa qarash va ko‘zni yumib ochish ko‘zga dam beradi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_6",
+   "t": "tf",
+   "q": "Qorong‘i xonada kompyuterda o‘ynash ko‘z uchun foydali.",
+   "a": false,
+   "d": 1,
+   "x": "Qorong‘ida yorug‘ ekran ko‘zni tez charchatadi, xona yorug‘ bo‘lishi kerak."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_7",
+   "t": "choice",
+   "q": "Kompyuter oldida o‘tirganda oyoqlar qayerda bo‘lishi kerak?",
+   "a": "Polda",
+   "w": [
+    "Stol ustida",
+    "Stul ustida bukilgan",
+    "Havoda osilib"
+   ],
+   "d": 1,
+   "x": "Oyoqlar polda tursa, gavda to‘g‘ri va qulay turadi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_8",
+   "t": "tf",
+   "q": "Kompyuter simlarini tortish xavfli.",
+   "a": true,
+   "d": 1,
+   "x": "Sim uzilib ketsa yoki rozetkadan chiqsa, tok urishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_9",
+   "t": "tf",
+   "q": "Kompyuter buzilsa, uni o‘zim ochib tuzatishim kerak.",
+   "a": false,
+   "d": 1,
+   "x": "Buzilgan kompyuterni faqat kattalar yoki usta tekshiradi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_10",
+   "t": "choice",
+   "q": "Kompyuterdan kuygan hid kelsa nima qilasiz?",
+   "a": "Kattalarga aytaman",
+   "w": [
+    "O‘ynashda davom etaman",
+    "Ichini ochaman",
+    "Suv sepaman"
+   ],
+   "d": 1,
+   "x": "Bunday paytda darhol o‘qituvchi yoki ota-onaga aytish kerak."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_11",
+   "t": "choice",
+   "q": "Ekran qayerda turgani to‘g‘ri?",
+   "a": "Ko‘z balandligida",
+   "w": [
+    "Boshdan ancha yuqorida",
+    "Tizza balandligida",
+    "Polda"
+   ],
+   "d": 1,
+   "x": "Ekran ko‘z balandligida yoki biroz pastroqda bo‘lsa, bo‘yin charchamaydi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_12",
+   "t": "tf",
+   "q": "Uzoq vaqt kompyuterda o‘tirganda tanaffus qilish kerak.",
+   "a": true,
+   "d": 1,
+   "x": "Tanaffusda ko‘z va gavda dam oladi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_13",
+   "t": "tf",
+   "q": "Kompyuterda to‘xtovsiz bir necha soat o‘ynash foydali.",
+   "a": false,
+   "d": 1,
+   "x": "Uzoq o‘tirish ko‘z va gavdaga zarar, tanaffus kerak."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_14",
+   "t": "match",
+   "q": "Qoidani foydasi bilan juftlang",
+   "pairs": [
+    [
+     "Tanaffus qilish",
+     "Ko‘z dam oladi"
+    ],
+    [
+     "Orqani tik tutish",
+     "Umurtqa charchamaydi"
+    ],
+    [
+     "Quruq qo‘l bilan ishlash",
+     "Tok urishidan saqlaydi"
+    ],
+    [
+     "Yonida ovqat yemaslik",
+     "Klaviatura toza turadi"
+    ],
+    [
+     "Xonani yorug‘ qilish",
+     "Ko‘z zo‘riqmaydi"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir qoida sog‘lig‘imizni yoki kompyuterni asraydi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_15",
+   "t": "choice",
+   "q": "Klaviaturada yozganda qo‘llar qanday turishi kerak?",
+   "a": "Erkin, tirsakdan bukilgan",
+   "w": [
+    "Yelkadan baland ko‘tarilgan",
+    "Qattiq taranglashgan",
+    "Stol chetiga osilgan"
+   ],
+   "d": 2,
+   "x": "Qo‘llar erkin tursa, bilak va yelka charchamaydi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_16",
+   "t": "choice",
+   "q": "Nima uchun ekranga juda yaqin o‘tirmaslik kerak?",
+   "a": "Ko‘z tez charchaydi",
+   "w": [
+    "Ekran buziladi",
+    "Kompyuter o‘chadi",
+    "Sichqoncha ishlamaydi"
+   ],
+   "d": 2,
+   "x": "Yaqin masofada ko‘z ko‘proq zo‘riqadi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_17",
+   "t": "choice",
+   "q": "Ko‘z mashqi uchun nima qilish mumkin?",
+   "a": "Ko‘zni yumib ochish",
+   "w": [
+    "Ekranga tikilib turish",
+    "Ko‘zni ishqalash",
+    "Qorong‘ida o‘qish"
+   ],
+   "d": 2,
+   "x": "Ko‘zni yumib ochish, uzoq va yaqinga navbat bilan qarash ko‘zga dam beradi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_18",
+   "t": "tf",
+   "q": "Ekranga uzoq tikilganda ko‘z quriydi va charchaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Ekranga tikilganda ko‘zni kam pirpiratamiz, shuning uchun u quriydi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_19",
+   "t": "choice",
+   "q": "Kompyuter xonasida qanday yurish kerak?",
+   "a": "Tinch, yugurmasdan",
+   "w": [
+    "Yugurib, sakrab",
+    "Simlardan hatlab o‘ynab",
+    "Stullarni surib"
+   ],
+   "d": 2,
+   "x": "Yugurganda simga ilinib, qurilmani tushirib yuborish mumkin."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_20",
+   "t": "choice",
+   "q": "Qaysi odat ko‘z uchun zararli?",
+   "a": "Yotib telefon o‘ynash",
+   "w": [
+    "Uzoqqa qarab dam olish",
+    "Yorug‘ xonada ishlash",
+    "Tanaffus qilish"
+   ],
+   "d": 2,
+   "x": "Yotgan holda ekran ko‘zga juda yaqin va qiyshiq turadi, bu ko‘zni charchatadi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_21",
+   "t": "choice",
+   "q": "Stulning balandligi qanday bo‘lishi kerak?",
+   "a": "Oyoq polga yetadigan",
+   "w": [
+    "Oyoq osilib qoladigan",
+    "Stoldan baland",
+    "Tizza iyakka tegadigan"
+   ],
+   "d": 3,
+   "x": "Oyoq polga tegsa, gavda to‘g‘ri va barqaror turadi."
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ekranga",
+    "juda",
+    "yaqin",
+    "o‘tirmang"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.togri_otirish",
+   "id": "togri_otirish_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ho‘l",
+    "qo‘l",
+    "bilan",
+    "kompyuterga",
+    "tegmang"
+   ],
+   "sep": " ",
+   "d": 3
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_1",
+   "t": "choice",
+   "q": "Papkani ochish uchun sichqoncha chap tugmasini necha marta bosamiz?",
+   "a": "Ikki marta",
+   "w": [
+    "Bir marta",
+    "Uch marta",
+    "Besh marta"
+   ],
+   "d": 1,
+   "x": "Belgini chap tugma bilan ikki marta tez bosish uni ochadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_2",
+   "t": "choice",
+   "q": "Sichqonchaning nechta asosiy tugmasi bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "5 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Sichqonchada chap va o‘ng tugma, o‘rtasida g‘ildirakcha bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_3",
+   "t": "choice",
+   "q": "Sahifani yuqoriga va pastga surish uchun sichqonchaning qaysi qismi ishlatiladi?",
+   "a": "G‘ildirakcha",
+   "w": [
+    "Sim",
+    "O‘ng tugma",
+    "Sichqonchaning tagi"
+   ],
+   "d": 1,
+   "x": "G‘ildirakchani aylantirsak, sahifa yuqori yoki pastga suriladi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_4",
+   "t": "tf",
+   "q": "Sichqonchani stolda sursak, ekrandagi ko‘rsatkich ham suriladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ko‘rsatkich sichqoncha bilan birga harakatlanadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_5",
+   "t": "tf",
+   "q": "Qo‘shimcha menyu sichqonchaning o‘ng tugmasi bilan ochiladi.",
+   "a": true,
+   "d": 1,
+   "x": "O‘ng tugma bosilganda buyruqlar ro‘yxati — menyu chiqadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_6",
+   "t": "choice",
+   "q": "Belgini boshqa joyga ko‘chirish uchun nima qilamiz?",
+   "a": "Sudrab o‘tkazamiz",
+   "w": [
+    "Ikki marta bosamiz",
+    "G‘ildirakchani aylantiramiz",
+    "O‘ng tugmani bosamiz"
+   ],
+   "d": 1,
+   "x": "Chap tugmani bosib turib sursak, belgi yangi joyga o‘tadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_7",
+   "t": "choice",
+   "q": "Belgini tanlash uchun chap tugmani necha marta bosamiz?",
+   "a": "1 marta",
+   "w": [
+    "2 marta",
+    "3 marta",
+    "5 marta"
+   ],
+   "d": 1,
+   "x": "Bir marta bosish belgini tanlaydi — u ajralib ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_8",
+   "t": "tf",
+   "q": "Sudrab o‘tkazishda chap tugma bosib turiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Tugma qo‘yib yuborilganda belgi yangi joyda qoladi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_9",
+   "t": "tf",
+   "q": "Sichqonchaning g‘ildirakchasi sahifani suradi.",
+   "a": true,
+   "d": 1,
+   "x": "G‘ildirakcha uzun sahifani ko‘rishga yordam beradi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_10",
+   "t": "tf",
+   "q": "Sichqoncha — chiqarish qurilmasi.",
+   "a": false,
+   "d": 1,
+   "x": "Sichqoncha buyruqlarni kompyuterga kiritadi, u kiritish qurilmasi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_11",
+   "t": "match",
+   "q": "Harakatni natijasi bilan juftlang",
+   "pairs": [
+    [
+     "Bir marta bosish",
+     "Belgini tanlaydi"
+    ],
+    [
+     "Ikki marta bosish",
+     "Papkani ochadi"
+    ],
+    [
+     "Sudrab o‘tkazish",
+     "Belgini ko‘chiradi"
+    ],
+    [
+     "O‘ng tugmani bosish",
+     "Menyuni ochadi"
+    ],
+    [
+     "G‘ildirakchani aylantirish",
+     "Sahifani suradi"
+    ]
+   ],
+   "d": 1,
+   "x": "Sichqonchaning har bir harakati o‘z ishini bajaradi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_12",
+   "t": "choice",
+   "q": "Ekranda sichqoncha bilan birga yuradigan kichik strelka nima deb ataladi?",
+   "a": "Ko‘rsatkich",
+   "w": [
+    "Belgi",
+    "Oyna",
+    "Papka"
+   ],
+   "d": 1,
+   "x": "Ko‘rsatkich (kursor) sichqoncha bilan birga harakatlanadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_13",
+   "t": "choice",
+   "q": "Sichqoncha qanday sirt ustida yaxshi ishlaydi?",
+   "a": "Tekis gilamcha ustida",
+   "w": [
+    "Suv ichida",
+    "Qum ustida",
+    "Havoda"
+   ],
+   "d": 1,
+   "x": "Sichqoncha tekis sirtda yaxshi suriladi, uning uchun maxsus gilamcha bor."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_14",
+   "t": "choice",
+   "q": "Chap tugma bosib turilganda sichqoncha surilsa, bu nima deyiladi?",
+   "a": "Sudrab o‘tkazish",
+   "w": [
+    "Ikki marta bosish",
+    "Bir marta bosish",
+    "Aylantirish"
+   ],
+   "d": 2,
+   "x": "Sudrab o‘tkazishda tugma qo‘yib yuborilmaydi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_15",
+   "t": "choice",
+   "q": "Ikki marta bosish qanday bajariladi?",
+   "a": "Chap tugmani tez-tez ikki marta",
+   "w": [
+    "O‘ng tugmani sekin ikki marta",
+    "G‘ildirakchani ikki marta aylantirib",
+    "Ikkala tugmani birga"
+   ],
+   "d": 2,
+   "x": "Ikki bosish orasida oraliq bo‘lmasligi kerak."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_16",
+   "t": "tf",
+   "q": "Ikki marta bosishda tugmani sekin, katta oraliq bilan bosish kerak.",
+   "a": false,
+   "d": 2,
+   "x": "Oraliq katta bo‘lsa, kompyuter buni ikkita alohida bosish deb tushunadi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_17",
+   "t": "choice",
+   "q": "Zarina rasmni savatga olib tashlamoqchi. U qaysi usuldan foydalanadi?",
+   "a": "Sudrab o‘tkazish",
+   "w": [
+    "G‘ildirakchani aylantirish",
+    "Bir marta bosish",
+    "Ikki marta bosish"
+   ],
+   "d": 2,
+   "x": "Belgini chap tugma bilan bosib turib savat ustiga sudrab olib borish mumkin."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_18",
+   "t": "choice",
+   "q": "O‘ng tugma bosilganda ochiladigan buyruqlar ro‘yxati nima deb ataladi?",
+   "a": "Menyu",
+   "w": [
+    "Papka",
+    "Fayl",
+    "Savat"
+   ],
+   "d": 2,
+   "x": "Menyuda tanlash mumkin bo‘lgan buyruqlar ro‘yxati bor."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_19",
+   "t": "tf",
+   "q": "Sichqonchasiz noutbukda sensorli panel bilan ishlash mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "Sensorli panel sichqoncha vazifasini bajaradi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_20",
+   "t": "choice",
+   "q": "Simsiz sichqoncha nima bilan ishlaydi?",
+   "a": "Batareya bilan",
+   "w": [
+    "Suv bilan",
+    "Qog‘oz bilan",
+    "Benzin bilan"
+   ],
+   "d": 2,
+   "x": "Simsiz sichqoncha ichida kichik batareya bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_21",
+   "t": "choice",
+   "q": "Internet sahifasida ko‘rsatkich qo‘l shakliga o‘tsa, bu nimani bildiradi?",
+   "a": "Havolani bosish mumkin",
+   "w": [
+    "Kompyuter o‘chmoqda",
+    "Sichqoncha buzildi",
+    "Sahifa tugadi"
+   ],
+   "d": 3,
+   "x": "Qo‘l shaklidagi ko‘rsatkich bosiladigan havola ustida paydo bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_22",
+   "t": "choice",
+   "q": "Kompyuter band bo‘lib, kutish kerak bo‘lganda ko‘rsatkich qanday ko‘rinadi?",
+   "a": "Aylanayotgan doira",
+   "w": [
+    "Qo‘l",
+    "Yulduzcha",
+    "Yurakcha"
+   ],
+   "d": 3,
+   "x": "Aylanayotgan doira kompyuter ish bajarayotganini, biroz kutish kerakligini bildiradi."
+  },
+  {
+   "topic": "informatics_g3.sichqoncha",
+   "id": "sichqoncha_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Papkani",
+    "ikki",
+    "marta",
+    "bosib",
+    "oching"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_1",
+   "t": "choice",
+   "q": "Klaviaturadagi eng uzun tugma qaysi?",
+   "a": "Probel",
+   "w": [
+    "Enter",
+    "Shift",
+    "Backspace"
+   ],
+   "d": 1,
+   "x": "Probel — so‘zlar orasiga bo‘sh joy qo‘yadigan eng uzun tugma."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_2",
+   "t": "choice",
+   "q": "So‘zlar orasiga bo‘sh joy qo‘yish uchun qaysi tugma bosiladi?",
+   "a": "Probel",
+   "w": [
+    "Enter",
+    "Caps Lock",
+    "Shift",
+    "Delete"
+   ],
+   "d": 1,
+   "x": "Probel bo‘sh joy qo‘yadi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_3",
+   "t": "choice",
+   "q": "Yangi qatorga o‘tish uchun qaysi tugma bosiladi?",
+   "a": "Enter",
+   "w": [
+    "Probel",
+    "Shift",
+    "Caps Lock",
+    "Backspace"
+   ],
+   "d": 1,
+   "x": "Enter kursorni yangi qatorga o‘tkazadi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_4",
+   "t": "choice",
+   "q": "Kursordan chapdagi harfni o‘chirish uchun qaysi tugma bosiladi?",
+   "a": "Backspace",
+   "w": [
+    "Enter",
+    "Probel",
+    "Shift",
+    "Caps Lock"
+   ],
+   "d": 1,
+   "x": "Backspace kursordan chapdagi belgini o‘chiradi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_5",
+   "t": "choice",
+   "q": "Bitta bosh harf yozish uchun qaysi tugma bosib turiladi?",
+   "a": "Shift",
+   "w": [
+    "Enter",
+    "Probel",
+    "Backspace",
+    "Delete"
+   ],
+   "d": 1,
+   "x": "Shift bosib turilganda harf bosh harf bo‘lib yoziladi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_6",
+   "t": "choice",
+   "q": "Hamma harflarni bosh harf bilan yozish uchun qaysi tugma yoqiladi?",
+   "a": "Caps Lock",
+   "w": [
+    "Backspace",
+    "Enter",
+    "Probel",
+    "Delete"
+   ],
+   "d": 1,
+   "x": "Caps Lock yoqilsa, barcha harflar bosh harf bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_7",
+   "t": "tf",
+   "q": "Enter tugmasi harfni o‘chiradi.",
+   "a": false,
+   "d": 1,
+   "x": "Harfni Backspace yoki Delete o‘chiradi, Enter esa yangi qatorga o‘tkazadi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_8",
+   "t": "tf",
+   "q": "Probel so‘zlar orasiga bo‘sh joy qo‘yadi.",
+   "a": true,
+   "d": 1,
+   "x": "Probel — bo‘sh joy tugmasi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_9",
+   "t": "tf",
+   "q": "Klaviaturada raqam tugmalari ham bor.",
+   "a": true,
+   "d": 1,
+   "x": "Raqamlar harflar ustidagi qatorda joylashgan."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_10",
+   "t": "match",
+   "q": "Tugmani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Probel",
+     "Bo‘sh joy qo‘yadi"
+    ],
+    [
+     "Enter",
+     "Yangi qatorga o‘tkazadi"
+    ],
+    [
+     "Backspace",
+     "Chapdagi belgini o‘chiradi"
+    ],
+    [
+     "Shift",
+     "Bosh harf yozadi"
+    ],
+    [
+     "Caps Lock",
+     "Doimiy bosh harfni yoqadi"
+    ],
+    [
+     "Delete",
+     "O‘ngdagi belgini o‘chiradi"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir maxsus tugmaning o‘z vazifasi bor."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_11",
+   "t": "choice",
+   "q": "Klaviaturada raqamlar qatori qayerda joylashgan?",
+   "a": "Harflar ustida",
+   "w": [
+    "Probel tagida",
+    "Faqat chap chetda",
+    "Klaviaturada raqam yo‘q"
+   ],
+   "d": 1,
+   "x": "Raqamlar qatori harf tugmalari ustida; ko‘p klaviaturalarda o‘ng tomonda ham raqamlar bloki bor."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_12",
+   "t": "choice",
+   "q": "Matnda harf qayerga yozilishini ko‘rsatuvchi miltillovchi chiziq nima?",
+   "a": "Kursor",
+   "w": [
+    "Probel",
+    "Papka",
+    "Belgi"
+   ],
+   "d": 1,
+   "x": "Kursor — miltillab turadigan kichik chiziq, harf shu yerga yoziladi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_13",
+   "t": "choice",
+   "q": "Caps Lock yoqilganda “olma” so‘zi qanday yoziladi?",
+   "a": "OLMA",
+   "w": [
+    "olma",
+    "Olma",
+    "oLMA"
+   ],
+   "d": 2,
+   "x": "Caps Lock yoqilsa, hamma harflar bosh harf bo‘lib yoziladi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_14",
+   "t": "choice",
+   "q": "Shift bosib turilib “a” tugmasi bosilsa, ekranda nima chiqadi?",
+   "a": "A",
+   "w": [
+    "a",
+    "1",
+    "Bo‘sh joy"
+   ],
+   "d": 2,
+   "x": "Shift bilan harf bosh harf bo‘lib chiqadi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_15",
+   "t": "choice",
+   "q": "Kursordan o‘ngdagi belgini qaysi tugma o‘chiradi?",
+   "a": "Delete",
+   "w": [
+    "Backspace",
+    "Enter",
+    "Shift"
+   ],
+   "d": 2,
+   "x": "Delete o‘ngdagi, Backspace chapdagi belgini o‘chiradi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_16",
+   "t": "choice",
+   "q": "Kursorni chapga, o‘ngga, yuqoriga va pastga suradigan tugmalar qanday ataladi?",
+   "a": "Strelkali tugmalar",
+   "w": [
+    "Raqam tugmalari",
+    "Harf tugmalari",
+    "Probel tugmalari"
+   ],
+   "d": 2,
+   "x": "Strelkali tugmalarda yo‘nalish belgisi chizilgan."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_17",
+   "t": "tf",
+   "q": "Caps Lock yoqilgan bo‘lsa, barcha harflar kichik harf bilan yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "Aksincha: Caps Lock yoqilganda harflar bosh harf bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_18",
+   "t": "tf",
+   "q": "Klaviaturada ikkita Shift tugmasi bor: chapda va o‘ngda.",
+   "a": true,
+   "d": 2,
+   "x": "Ikkala qo‘l bilan qulay ishlash uchun Shift ikki tomonda joylashgan."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_19",
+   "t": "choice",
+   "q": "“Kitobb” deb xato yozdingiz, kursor so‘z oxirida. Ortiqcha “b” ni qaysi tugma o‘chiradi?",
+   "a": "Backspace",
+   "w": [
+    "Enter",
+    "Shift",
+    "Caps Lock",
+    "Delete"
+   ],
+   "d": 2,
+   "x": "Backspace kursordan chapdagi, ya’ni oxirgi yozilgan harfni o‘chiradi; Delete esa o‘ngdagini o‘chiradi, o‘ngda esa hech narsa yo‘q."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_20",
+   "t": "choice",
+   "q": "Klaviaturadagi yuqori harflar qatori qaysi harflar bilan boshlanadi?",
+   "a": "Q W E R T Y",
+   "w": [
+    "A B C D E F",
+    "Z X C V B N",
+    "O P A S D F"
+   ],
+   "d": 3,
+   "x": "Ko‘p klaviaturalarda yuqori harflar qatori Q, W, E, R, T, Y harflari bilan boshlanadi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_21",
+   "t": "choice",
+   "q": "Qaysi ikki harf tugmasida barmoq sezadigan bo‘rtiqcha bor?",
+   "a": "F va J",
+   "w": [
+    "A va B",
+    "Q va P",
+    "X va O"
+   ],
+   "d": 3,
+   "x": "F va J dagi bo‘rtiqchalar qaramasdan barmoqlarni to‘g‘ri qo‘yishga yordam beradi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_22",
+   "t": "choice",
+   "q": "Buyruqni bekor qilish yoki oynadan chiqish uchun ko‘pincha qaysi tugma bosiladi?",
+   "a": "Esc",
+   "w": [
+    "Enter",
+    "Probel",
+    "Shift"
+   ],
+   "d": 3,
+   "x": "Esc — inglizcha “escape”, ya’ni “chiqib ketish” so‘zidan olingan."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_23",
+   "t": "choice",
+   "q": "Undov belgisi “!” ni yozish uchun 1 raqami tugmasi bilan birga qaysi tugma bosib turiladi?",
+   "a": "Shift",
+   "w": [
+    "Enter",
+    "Probel",
+    "Backspace"
+   ],
+   "d": 3,
+   "x": "Raqam tugmalari ustidagi belgilar Shift bilan yoziladi: Shift va 1 — undov belgisi."
+  },
+  {
+   "topic": "informatics_g3.klaviatura",
+   "id": "klaviatura_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Enter",
+    "yangi",
+    "qatorga",
+    "o‘tkazadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_1",
+   "t": "choice",
+   "q": "Kompyuterda matn yozadigan dastur qanday ataladi?",
+   "a": "Matn muharriri",
+   "w": [
+    "Kalkulyator",
+    "O‘yin",
+    "Soat",
+    "Pleyer"
+   ],
+   "d": 1,
+   "x": "Matn muharriri — matn yozish va tuzatish dasturi, masalan, Bloknot yoki Word."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_2",
+   "t": "choice",
+   "q": "Gap qanday harf bilan boshlanadi?",
+   "a": "Bosh harf bilan",
+   "w": [
+    "Kichik harf bilan",
+    "Raqam bilan",
+    "Nuqta bilan"
+   ],
+   "d": 1,
+   "x": "Har bir gap bosh harf bilan boshlanadi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_3",
+   "t": "tf",
+   "q": "So‘zlar orasiga bitta Probel qo‘yiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Bitta bo‘sh joy yetarli, ortiqchasi kerak emas."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_4",
+   "t": "tf",
+   "q": "Darak gap oxiriga nuqta qo‘yiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Darak gap nuqta bilan tugaydi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_5",
+   "t": "choice",
+   "q": "Xato yozilgan harfni qaysi tugma bilan o‘chiramiz?",
+   "a": "Backspace",
+   "w": [
+    "Enter",
+    "Shift",
+    "Probel"
+   ],
+   "d": 1,
+   "x": "Backspace kursordan chapdagi harfni o‘chiradi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_6",
+   "t": "choice",
+   "q": "Qaysi dastur matn yozish uchun mo‘ljallangan?",
+   "a": "Word",
+   "w": [
+    "Paint",
+    "Kalkulyator",
+    "Pleyer"
+   ],
+   "d": 1,
+   "x": "Word — matn muharriri, Paint esa rasm chizish dasturi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_7",
+   "t": "choice",
+   "q": "Ism qanday yoziladi?",
+   "a": "Bosh harf bilan",
+   "w": [
+    "Faqat raqam bilan",
+    "Kichik harf bilan",
+    "Nuqta bilan boshlab"
+   ],
+   "d": 1,
+   "x": "Ismlar doim bosh harf bilan yoziladi: Ali, Zarina."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_8",
+   "t": "choice",
+   "q": "Terilgan matn qayerda ko‘rinadi?",
+   "a": "Monitor ekranida",
+   "w": [
+    "Printer ichida",
+    "Sichqonchada",
+    "Karnayda"
+   ],
+   "d": 1,
+   "x": "Terilgan harflar darhol ekranda paydo bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_9",
+   "t": "tf",
+   "q": "Vergul va nuqtadan keyin Probel qo‘yiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Tinish belgisi oldingi so‘zga yopishib yoziladi, undan keyin bo‘sh joy qo‘yiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_10",
+   "t": "tf",
+   "q": "Verguldan oldin Probel qo‘yiladi.",
+   "a": false,
+   "d": 2,
+   "x": "Vergul oldingi so‘zga yopishtirib yoziladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_11",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri terilgan?",
+   "a": "Men kitob o‘qiyman.",
+   "w": [
+    "men kitob o‘qiyman.",
+    "Men kitob o‘qiyman .",
+    "Menkitob o‘qiyman."
+   ],
+   "d": 2,
+   "x": "Gap bosh harf bilan boshlanadi, so‘zlar orasida bitta bo‘sh joy, nuqta so‘zga yopishgan."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_12",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri terilgan?",
+   "a": "Bugun havo issiq.",
+   "w": [
+    "bugun havo issiq.",
+    "Bugun havo issiq .",
+    "Bugunhavo issiq."
+   ],
+   "d": 2,
+   "x": "Bosh harf, so‘zlar orasida bo‘sh joy va oxirida yopishgan nuqta — to‘g‘ri."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_13",
+   "t": "choice",
+   "q": "She’rning har bir misrasini yangi qatordan yozish uchun qaysi tugma bosiladi?",
+   "a": "Enter",
+   "w": [
+    "Probel",
+    "Shift",
+    "Delete"
+   ],
+   "d": 2,
+   "x": "Enter bosilganda kursor yangi qatorga o‘tadi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_14",
+   "t": "choice",
+   "q": "“ali” deb yozildi. Ismni to‘g‘ri yozish uchun nima qilish kerak?",
+   "a": "“A” ni Shift bilan yozish",
+   "w": [
+    "Oxiriga nuqta qo‘yish",
+    "Probel bosish",
+    "Enter bosish"
+   ],
+   "d": 2,
+   "x": "Ism bosh harf bilan yoziladi: Shift bosib turib “a” ni bossak, “A” chiqadi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_15",
+   "t": "tf",
+   "q": "Matnni terib bo‘lgach, uni saqlab qo‘yish kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Saqlanmagan matn dastur yopilganda yo‘qolib qolishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_16",
+   "t": "choice",
+   "q": "Matnni qog‘ozga chiqarish uchun nima qilinadi?",
+   "a": "Printerda chop etiladi",
+   "w": [
+    "Skanerga qo‘yiladi",
+    "Mikrofonga aytiladi",
+    "Karnay yoqiladi"
+   ],
+   "d": 2,
+   "x": "Printer matnni qog‘ozga chop etadi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_17",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Gap",
+    "bosh",
+    "harf",
+    "bilan",
+    "boshlanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_18",
+   "t": "choice",
+   "q": "“olma” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6",
+    "2"
+   ],
+   "d": 1,
+   "x": "“olma” so‘zida 4 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_19",
+   "t": "choice",
+   "q": "“bola” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6",
+    "2"
+   ],
+   "d": 1,
+   "x": "“bola” so‘zida 4 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_20",
+   "t": "choice",
+   "q": "“kitob” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "5",
+   "w": [
+    "4",
+    "6",
+    "7",
+    "3"
+   ],
+   "d": 1,
+   "x": "“kitob” so‘zida 5 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_21",
+   "t": "choice",
+   "q": "“qalam” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "5",
+   "w": [
+    "4",
+    "6",
+    "7",
+    "3"
+   ],
+   "d": 1,
+   "x": "“qalam” so‘zida 5 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_22",
+   "t": "choice",
+   "q": "“daftar” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "6",
+   "w": [
+    "5",
+    "7",
+    "8",
+    "4"
+   ],
+   "d": 2,
+   "x": "“daftar” so‘zida 6 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_23",
+   "t": "choice",
+   "q": "“maktab” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "6",
+   "w": [
+    "5",
+    "7",
+    "8",
+    "4"
+   ],
+   "d": 2,
+   "x": "“maktab” so‘zida 6 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_24",
+   "t": "choice",
+   "q": "“kompyuter” so‘zini terish uchun nechta harf tugmasi bosiladi?",
+   "a": "9",
+   "w": [
+    "8",
+    "10",
+    "11",
+    "7"
+   ],
+   "d": 2,
+   "x": "“kompyuter” so‘zida 9 ta harf bor, har bir harf uchun bitta tugma bosiladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_25",
+   "t": "choice",
+   "q": "“Men maktabga boraman.” gapini terishda Probel necha marta bosiladi?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4",
+    "5"
+   ],
+   "d": 1,
+   "x": "Gapda 3 ta so‘z bor, ular orasida 2 ta bo‘sh joy bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_26",
+   "t": "choice",
+   "q": "“Ali kitob o‘qiydi.” gapini terishda Probel necha marta bosiladi?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4",
+    "5"
+   ],
+   "d": 1,
+   "x": "Gapda 3 ta so‘z bor, ular orasida 2 ta bo‘sh joy bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_27",
+   "t": "choice",
+   "q": "“Bugun havo juda issiq.” gapini terishda Probel necha marta bosiladi?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5",
+    "6"
+   ],
+   "d": 2,
+   "x": "Gapda 4 ta so‘z bor, ular orasida 3 ta bo‘sh joy bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_28",
+   "t": "choice",
+   "q": "“Biz kompyuterda rasm chizamiz.” gapini terishda Probel necha marta bosiladi?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5",
+    "6"
+   ],
+   "d": 2,
+   "x": "Gapda 4 ta so‘z bor, ular orasida 3 ta bo‘sh joy bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.matn_terish",
+   "id": "matn_terish_29",
+   "t": "choice",
+   "q": "“Zarina daftarga chiroyli qilib yozdi.” gapini terishda Probel necha marta bosiladi?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "6",
+    "7"
+   ],
+   "d": 2,
+   "x": "Gapda 5 ta so‘z bor, ular orasida 4 ta bo‘sh joy bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_1",
+   "t": "choice",
+   "q": "Kompyuter yoqilganda ko‘rinadigan asosiy ekran nima deb ataladi?",
+   "a": "Ish stoli",
+   "w": [
+    "Tizim bloki",
+    "Klaviatura",
+    "Karnay"
+   ],
+   "d": 1,
+   "x": "Ish stoli — belgilar joylashgan asosiy ekran."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_2",
+   "t": "choice",
+   "q": "Dastur yoki papkani ifodalovchi kichik rasm nima deb ataladi?",
+   "a": "Belgi",
+   "w": [
+    "Oyna",
+    "Kursor",
+    "Probel"
+   ],
+   "d": 1,
+   "x": "Belgi (ikonka) orqali dastur va papkalarni ochamiz."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_3",
+   "t": "choice",
+   "q": "Oynani yopish uchun qaysi tugma bosiladi?",
+   "a": "×",
+   "w": [
+    "—",
+    "□",
+    "Probel"
+   ],
+   "d": 1,
+   "x": "× belgili tugma oynani yopadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_4",
+   "t": "tf",
+   "q": "Belgini ikki marta bossak, u ochiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ikki marta bosish dastur yoki papkani ochadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_5",
+   "t": "choice",
+   "q": "Ish stolining pastidagi uzun yo‘lak odatda nima deb ataladi?",
+   "a": "Vazifalar paneli",
+   "w": [
+    "Sarlavha qatori",
+    "Savat",
+    "Papka"
+   ],
+   "d": 1,
+   "x": "Vazifalar panelida Pusk tugmasi, ochiq dasturlar va soat joylashgan."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_6",
+   "t": "choice",
+   "q": "O‘chirilgan fayllar avval qayerga tushadi?",
+   "a": "Savatga",
+   "w": [
+    "Printerga",
+    "Monitorga",
+    "Karnayga"
+   ],
+   "d": 1,
+   "x": "Savatdan faylni qaytarib olish ham mumkin.",
+   "e": "🗑️"
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_7",
+   "t": "tf",
+   "q": "Kompyuterda bir vaqtda bir nechta oyna ochish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, rasm chizib turib, musiqa ham tinglash mumkin."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_8",
+   "t": "tf",
+   "q": "Ish stolida belgilar joylashadi.",
+   "a": true,
+   "d": 1,
+   "x": "Ish stolida dastur, papka va fayl belgilari bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_9",
+   "t": "match",
+   "q": "Oyna qismini vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "×",
+     "Oynani yopadi"
+    ],
+    [
+     "—",
+     "Oynani yig‘adi"
+    ],
+    [
+     "□",
+     "Butun ekranga yoyadi"
+    ],
+    [
+     "Sarlavha qatori",
+     "Oyna nomini ko‘rsatadi"
+    ],
+    [
+     "Aylantirish yo‘lagi",
+     "Oyna ichini suradi"
+    ]
+   ],
+   "d": 1,
+   "x": "Oyna tugmalari uning ko‘rinishini boshqaradi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Belgini",
+    "ikki",
+    "marta",
+    "bosing"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_11",
+   "t": "choice",
+   "q": "Ish stolining orqa tomonida ko‘rinadigan chiroyli rasm qanday ataladi?",
+   "a": "Fon rasmi",
+   "w": [
+    "Belgi",
+    "Kursor",
+    "Savat"
+   ],
+   "d": 1,
+   "x": "Fon rasmini o‘zimiz yoqtirgan rasmga almashtirish mumkin."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_12",
+   "t": "choice",
+   "q": "Vazifalar panelining o‘ng tomonida odatda nima ko‘rinadi?",
+   "a": "Soat va sana",
+   "w": [
+    "Savat",
+    "Klaviatura",
+    "Printer"
+   ],
+   "d": 2,
+   "x": "Vazifalar panelining o‘ng chetida soat va sana turadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_13",
+   "t": "tf",
+   "q": "“—” tugmasi bosilganda dastur butunlay yopiladi.",
+   "a": false,
+   "d": 2,
+   "x": "Yig‘ilgan oyna vazifalar paneliga yashirinadi, dastur esa ishlashda davom etadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_14",
+   "t": "tf",
+   "q": "Oynani butun ekranga yoyish uchun “□” tugmasi bosiladi.",
+   "a": true,
+   "d": 2,
+   "x": "“□” oynani butun ekranga yoyadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_15",
+   "t": "choice",
+   "q": "Oyna nomi yozilgan eng yuqori qator nima deb ataladi?",
+   "a": "Sarlavha qatori",
+   "w": [
+    "Vazifalar paneli",
+    "Savat",
+    "Probel"
+   ],
+   "d": 2,
+   "x": "Sarlavha qatorida dastur yoki fayl nomi yoziladi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_16",
+   "t": "choice",
+   "q": "Savatdagi faylni qaytarib olish mumkinmi?",
+   "a": "Ha, savat tozalanmaguncha",
+   "w": [
+    "Yo‘q, hech qachon",
+    "Faqat printer bilan",
+    "Faqat ertasiga"
+   ],
+   "d": 2,
+   "x": "Savat tozalanmagan bo‘lsa, faylni qayta tiklash mumkin."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_17",
+   "t": "choice",
+   "q": "Pusk tugmasi qayerda joylashgan?",
+   "a": "Vazifalar panelida",
+   "w": [
+    "Oyna ichida",
+    "Savatda",
+    "Sarlavha qatorida"
+   ],
+   "d": 2,
+   "x": "Pusk tugmasi vazifalar panelida turadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_18",
+   "t": "choice",
+   "q": "Pusk tugmasi bosilganda nima ochiladi?",
+   "a": "Dasturlar ro‘yxati",
+   "w": [
+    "Printer",
+    "Savat tozalanadi",
+    "Kompyuter buziladi"
+   ],
+   "d": 2,
+   "x": "Pusk menyusidan kerakli dasturni topib ochish mumkin."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_19",
+   "t": "choice",
+   "q": "Ish stolidagi belgini sudrab qayerga olib borsak, u o‘chiriladi?",
+   "a": "Savatga",
+   "w": [
+    "Soatga",
+    "Pusk tugmasiga",
+    "Fon rasmiga"
+   ],
+   "d": 2,
+   "x": "Savatga sudralgan belgi o‘chiriladi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_20",
+   "t": "choice",
+   "q": "Kompyuterni to‘g‘ri o‘chirish qanday bajariladi?",
+   "a": "Pusk menyusi orqali",
+   "w": [
+    "Simini sug‘urib",
+    "Faqat monitorni o‘chirib",
+    "Tizim blokini urib"
+   ],
+   "d": 2,
+   "x": "Simini tortib o‘chirish kompyuter va undagi fayllarga zarar yetkazishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_21",
+   "t": "choice",
+   "q": "Ochiq dasturlar belgisi qayerda ko‘rinadi?",
+   "a": "Vazifalar panelida",
+   "w": [
+    "Savatda",
+    "Fon rasmida",
+    "Klaviaturada"
+   ],
+   "d": 2,
+   "x": "Vazifalar panelidagi belgini bossak, o‘sha oyna oldinga chiqadi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_22",
+   "t": "choice",
+   "q": "Oynada ko‘p matn bo‘lsa, pastini ko‘rish uchun nima qilamiz?",
+   "a": "G‘ildirakchani aylantiramiz",
+   "w": [
+    "Oynani yopamiz",
+    "Enterni bosamiz",
+    "Kompyuterni o‘chiramiz"
+   ],
+   "d": 2,
+   "x": "G‘ildirakcha yoki aylantirish yo‘lagi oyna ichini suradi."
+  },
+  {
+   "topic": "informatics_g3.ish_stoli",
+   "id": "ish_stoli_23",
+   "t": "choice",
+   "q": "Oynani ekranning boshqa joyiga ko‘chirish uchun uning qayeridan sudraymiz?",
+   "a": "Sarlavha qatoridan",
+   "w": [
+    "× tugmasidan",
+    "Oyna ichidagi matndan",
+    "Vazifalar panelidan"
+   ],
+   "d": 3,
+   "x": "Sarlavha qatorini bosib turib sursak, oyna yangi joyga ko‘chadi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_1",
+   "t": "choice",
+   "q": "Fayllarni tartib bilan saqlash uchun nima yaratiladi?",
+   "a": "Papka",
+   "w": [
+    "Printer",
+    "Karnay",
+    "Klaviatura"
+   ],
+   "d": 1,
+   "x": "Papkada o‘xshash fayllarni bir joyga yig‘amiz."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_2",
+   "t": "tf",
+   "q": "Papka ichida boshqa papka bo‘lishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, “Rasmlar” papkasi ichida “Bayram” papkasi bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_3",
+   "t": "tf",
+   "q": "Har bir faylning nomi bor.",
+   "a": true,
+   "d": 1,
+   "x": "Faylni nomi bo‘yicha topamiz."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_4",
+   "t": "choice",
+   "q": "Qaysi biri kompyuterda fayl bo‘la oladi?",
+   "a": "Rasm",
+   "w": [
+    "Stol",
+    "Sichqoncha",
+    "Stul"
+   ],
+   "d": 1,
+   "x": "Rasm, matn, qo‘shiq, video kompyuterda fayl bo‘lib saqlanadi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_5",
+   "t": "choice",
+   "q": "Kompyuterdagi papka nimaga o‘xshaydi?",
+   "a": "Narsalar solinadigan qutiga",
+   "w": [
+    "Chiroqqa",
+    "Suvga",
+    "Soatga"
+   ],
+   "d": 1,
+   "x": "Qutiga narsalarni solgandek, papkaga fayllarni joylaymiz."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_6",
+   "t": "choice",
+   "q": "Keraksiz faylni o‘chirish uchun qaysi tugma bosiladi?",
+   "a": "Delete",
+   "w": [
+    "Enter",
+    "Shift",
+    "Caps Lock"
+   ],
+   "d": 1,
+   "x": "Faylni tanlab Delete tugmasini bossak, u savatga tushadi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_7",
+   "t": "tf",
+   "q": "Faylni o‘chirsak, u avval savatga tushadi.",
+   "a": true,
+   "d": 1,
+   "x": "Savat tozalanmaguncha faylni qaytarish mumkin."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_8",
+   "t": "choice",
+   "q": "Qo‘shiq kompyuterda qanday saqlanadi?",
+   "a": "Fayl bo‘lib",
+   "w": [
+    "Qog‘ozga yozilib",
+    "Printer ichida",
+    "Saqlab bo‘lmaydi"
+   ],
+   "d": 1,
+   "x": "Qo‘shiq, rasm va video kompyuterda fayl sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_9",
+   "t": "choice",
+   "q": "Papkani ochish uchun nima qilamiz?",
+   "a": "Ikki marta bosamiz",
+   "w": [
+    "O‘ng tugmani bosamiz",
+    "Savatga sudraymiz",
+    "Delete bosamiz"
+   ],
+   "d": 1,
+   "x": "Papka belgisini ikki marta bossak, u ochiladi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_10",
+   "t": "tf",
+   "q": "Fayl faqat rasm bo‘lishi mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Fayl matn, qo‘shiq, video yoki dastur ham bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_11",
+   "t": "match",
+   "q": "Faylni mos papka bilan juftlang",
+   "pairs": [
+    [
+     "Dengiz rasmi",
+     "Rasmlar"
+    ],
+    [
+     "Bolalar qo‘shig‘i",
+     "Musiqa"
+    ],
+    [
+     "Multfilm",
+     "Videolar"
+    ],
+    [
+     "Ertak matni",
+     "Hujjatlar"
+    ],
+    [
+     "Shaxmat o‘yini",
+     "O‘yinlar"
+    ]
+   ],
+   "d": 1,
+   "x": "O‘xshash fayllarni bitta papkaga yig‘sak, ularni tez topamiz."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Papkada",
+    "fayllar",
+    "saqlanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_13",
+   "t": "choice",
+   "q": "Fayl yoki papkaning nomini o‘zgartirish menyusini ochish uchun sichqonchaning qaysi tugmasi bosiladi?",
+   "a": "O‘ng tugma",
+   "w": [
+    "G‘ildirakcha",
+    "Chap tugma ikki marta",
+    "Quvvat tugmasi"
+   ],
+   "d": 2,
+   "x": "O‘ng tugma menyusida nomini o‘zgartirish buyrug‘i bor."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_14",
+   "t": "choice",
+   "q": "Faylni bir papkadan boshqasiga qanday o‘tkazish mumkin?",
+   "a": "Sudrab o‘tkazib",
+   "w": [
+    "Ikki marta bosib",
+    "Enter bosib",
+    "Probel bosib"
+   ],
+   "d": 2,
+   "x": "Faylni bosib turib boshqa papka ustiga sudrab olib boramiz."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_15",
+   "t": "tf",
+   "q": "Bitta papkada mutlaqo bir xil nomli ikkita faylni saqlab bo‘lmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Bir papkada har bir fayl nomi boshqacha bo‘lishi kerak, aks holda kompyuter ularni ajrata olmaydi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_16",
+   "t": "choice",
+   "q": "Zarina rasmlarini bir joyda saqlamoqchi. U nima qilishi kerak?",
+   "a": "“Rasmlar” papkasini yaratishi",
+   "w": [
+    "Rasmlarni o‘chirishi",
+    "Printerni yoqishi",
+    "Kompyuterni o‘chirishi"
+   ],
+   "d": 2,
+   "x": "Papka yaratib, barcha rasmlarni unga joylash qulay."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_17",
+   "t": "choice",
+   "q": "Fayl nomi qanday bo‘lgani yaxshi?",
+   "a": "Mazmuniga mos",
+   "w": [
+    "Ma’nosiz harflar",
+    "Juda uzun gap",
+    "Faqat belgilar"
+   ],
+   "d": 2,
+   "x": "“Mening mushugim” degan nom “aaa123” dan ko‘ra tushunarli."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_18",
+   "t": "tf",
+   "q": "Savat tozalangandan keyin undagi fayllar butunlay o‘chadi.",
+   "a": true,
+   "d": 2,
+   "x": "Savat tozalansa, fayllarni oddiy yo‘l bilan qaytarib bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_19",
+   "t": "choice",
+   "q": "Faylni savatga sudrasak, nima bo‘ladi?",
+   "a": "Fayl o‘chiriladi",
+   "w": [
+    "Fayl chop etiladi",
+    "Fayl ochiladi",
+    "Fayl ikkiga ko‘payadi"
+   ],
+   "d": 2,
+   "x": "Savatga tushgan fayl o‘chirilgan hisoblanadi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_20",
+   "t": "choice",
+   "q": "Qaysi biri papka nomi uchun eng mos?",
+   "a": "Uy vazifalari",
+   "w": [
+    "qwrt",
+    "!!!!",
+    "1a2b3c"
+   ],
+   "d": 2,
+   "x": "Papka nomi ichidagi fayllar haqida aytib turishi kerak."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_21",
+   "t": "choice",
+   "q": "Papka va fayl o‘rtasidagi farq nima?",
+   "a": "Papka fayllarni saqlaydi",
+   "w": [
+    "Fayl papkalarni saqlaydi",
+    "Ular bir xil narsa",
+    "Papka ovoz chiqaradi"
+   ],
+   "d": 2,
+   "x": "Papka — fayllar uchun joy, fayl esa ma’lumotning o‘zi."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_22",
+   "t": "choice",
+   "q": "Kompyuterda yangi papka yaratish uchun ish stolida qaysi tugmani bosamiz?",
+   "a": "Sichqonchaning o‘ng tugmasini",
+   "w": [
+    "Enter tugmasini",
+    "Probelni",
+    "Quvvat tugmasini"
+   ],
+   "d": 2,
+   "x": "O‘ng tugma menyusida yangi papka yaratish buyrug‘i bor."
+  },
+  {
+   "topic": "informatics_g3.fayl_papka",
+   "id": "fayl_papka_23",
+   "t": "choice",
+   "q": "Yangi papkaning nomi yozilgach, uni tasdiqlash uchun qaysi tugma bosiladi?",
+   "a": "Enter",
+   "w": [
+    "Backspace",
+    "Esc",
+    "Shift"
+   ],
+   "d": 3,
+   "x": "Enter yozilgan nomni tasdiqlaydi, Esc esa bekor qiladi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_1",
+   "t": "choice",
+   "q": "Paint dasturi nima uchun kerak?",
+   "a": "Rasm chizish uchun",
+   "w": [
+    "Musiqa tinglash uchun",
+    "Hisoblash uchun",
+    "Xat yuborish uchun"
+   ],
+   "d": 1,
+   "x": "Paint — rasm chizish dasturi, ya’ni grafik muharrir.",
+   "e": "🎨"
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_2",
+   "t": "choice",
+   "q": "Paint dasturida ingichka chiziq chizish uchun qaysi asbob olinadi?",
+   "a": "Qalam",
+   "w": [
+    "O‘chirg‘ich",
+    "Bo‘yoq chelagi",
+    "Lupa"
+   ],
+   "d": 1,
+   "x": "Qalam ingichka chiziq chizadi.",
+   "e": "✏️"
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_3",
+   "t": "choice",
+   "q": "Rasmning keraksiz qismini qaysi asbob o‘chiradi?",
+   "a": "O‘chirg‘ich",
+   "w": [
+    "Qalam",
+    "Cho‘tka",
+    "Bo‘yoq chelagi"
+   ],
+   "d": 1,
+   "x": "O‘chirg‘ich rasmning bir qismini o‘chiradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_4",
+   "t": "choice",
+   "q": "Shaklning ichini bir bosishda bo‘yash uchun qaysi asbob kerak?",
+   "a": "Bo‘yoq chelagi",
+   "w": [
+    "Qalam",
+    "O‘chirg‘ich",
+    "Lupa"
+   ],
+   "d": 1,
+   "x": "Bo‘yoq chelagi yopiq shaklning ichini tanlangan rang bilan to‘ldiradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_5",
+   "t": "choice",
+   "q": "Paint dasturida rang qayerdan tanlanadi?",
+   "a": "Palitradan",
+   "w": [
+    "Savatdan",
+    "Vazifalar panelidan",
+    "Klaviaturadan"
+   ],
+   "d": 1,
+   "x": "Palitrada turli ranglar bor, keraklisini bosib tanlaymiz."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_6",
+   "t": "tf",
+   "q": "Paint dasturida tayyor shakllar chizish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Shakllar orasida to‘rtburchak, oval, uchburchak, yulduz bor."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_7",
+   "t": "tf",
+   "q": "O‘chirg‘ich rasmga rang beradi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘chirg‘ich rasmning bir qismini o‘chiradi, rangni bo‘yoq chelagi yoki qalam beradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_8",
+   "t": "tf",
+   "q": "Chizilgan rasmni printerda chop etish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Printer rasmni qog‘ozga chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_9",
+   "t": "match",
+   "q": "Asbobni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Qalam",
+     "Ingichka chiziq chizadi"
+    ],
+    [
+     "O‘chirg‘ich",
+     "Keraksiz joyni o‘chiradi"
+    ],
+    [
+     "Bo‘yoq chelagi",
+     "Shakl ichini bo‘yaydi"
+    ],
+    [
+     "Lupa",
+     "Rasmni kattalashtiradi"
+    ],
+    [
+     "Palitra",
+     "Rang tanlaydi"
+    ],
+    [
+     "Matn asbobi",
+     "Rasmga yozuv qo‘shadi"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir asbob o‘z ishini bajaradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_10",
+   "t": "choice",
+   "q": "Doira yoki tuxumsimon shakl nima deb ataladi?",
+   "a": "Oval",
+   "w": [
+    "To‘rtburchak",
+    "Uchburchak",
+    "Yulduz"
+   ],
+   "d": 1,
+   "x": "Oval — dumaloq yoki cho‘zinchoq dumaloq shakl."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_11",
+   "t": "choice",
+   "q": "Quyosh chizish uchun qaysi shakl eng mos?",
+   "a": "Oval",
+   "w": [
+    "Uchburchak",
+    "To‘rtburchak",
+    "Chiziq"
+   ],
+   "d": 1,
+   "x": "Quyosh dumaloq, uni oval shakli bilan chizamiz.",
+   "e": "☀️"
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_12",
+   "t": "choice",
+   "q": "Uyning tomini chizish uchun qaysi shakl mos?",
+   "a": "Uchburchak",
+   "w": [
+    "Oval",
+    "Yulduz",
+    "Yurak"
+   ],
+   "d": 1,
+   "x": "Uy tomi ko‘pincha uchburchak shaklida chiziladi.",
+   "e": "🏠"
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_13",
+   "t": "choice",
+   "q": "Rasmga yozuv qo‘shish uchun qaysi asbob kerak?",
+   "a": "Matn asbobi",
+   "w": [
+    "O‘chirg‘ich",
+    "Bo‘yoq chelagi",
+    "Qalam"
+   ],
+   "d": 2,
+   "x": "Matn asbobi “A” harfi bilan belgilangan."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_14",
+   "t": "choice",
+   "q": "Rasmni kattalashtirib ko‘rish uchun qaysi asbob kerak?",
+   "a": "Lupa",
+   "w": [
+    "O‘chirg‘ich",
+    "Cho‘tka",
+    "Qalam"
+   ],
+   "d": 2,
+   "x": "Lupa rasmni kattalashtirib ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_15",
+   "t": "choice",
+   "q": "Chizilgan rasmni kompyuterda qoldirish uchun nima qilish kerak?",
+   "a": "Saqlash",
+   "w": [
+    "O‘chirish",
+    "Saqlamasdan yopish",
+    "Savatga tashlash"
+   ],
+   "d": 2,
+   "x": "Saqlangan rasm fayl bo‘lib kompyuterda qoladi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_16",
+   "t": "choice",
+   "q": "Qalinroq chiziq chizish uchun qalam o‘rniga nima tanlanadi?",
+   "a": "Cho‘tka",
+   "w": [
+    "O‘chirg‘ich",
+    "Lupa",
+    "Bo‘yoq chelagi"
+   ],
+   "d": 2,
+   "x": "Cho‘tka qalin va chiroyli chiziq chizadi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_17",
+   "t": "tf",
+   "q": "Paint dasturida sichqoncha qalam vazifasini bajaradi.",
+   "a": true,
+   "d": 2,
+   "x": "Chap tugmani bosib turib sichqonchani sursak, chiziq chiziladi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_18",
+   "t": "choice",
+   "q": "Paint dasturida to‘g‘ri chiziq chizish uchun qaysi asbob qulay?",
+   "a": "Chiziq",
+   "w": [
+    "Bo‘yoq chelagi",
+    "O‘chirg‘ich",
+    "Lupa"
+   ],
+   "d": 2,
+   "x": "Chiziq asbobi ikki nuqta orasiga tekis chiziq tortadi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_19",
+   "t": "choice",
+   "q": "Paint qanday dastur?",
+   "a": "Grafik muharrir",
+   "w": [
+    "Matn muharriri",
+    "O‘yin",
+    "Kalkulyator"
+   ],
+   "d": 2,
+   "x": "Rasm chizish dasturlari grafik muharrir deb ataladi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Palitradan",
+    "qizil",
+    "rangni",
+    "tanlang"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_21",
+   "t": "tf",
+   "q": "Bo‘yoq chelagi bilan ochiq shakl bo‘yalsa, bo‘yoq tashqariga ham tarqaladi.",
+   "a": true,
+   "d": 3,
+   "x": "Shakl chizig‘ida teshik bo‘lsa, bo‘yoq undan chiqib, atrofni ham bo‘yaydi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_22",
+   "t": "choice",
+   "q": "Xato chizilgan chiziqni tezda bekor qilish uchun qaysi tugmalar bosiladi?",
+   "a": "Ctrl + Z",
+   "w": [
+    "Ctrl + P",
+    "Shift + A",
+    "Alt + 1"
+   ],
+   "d": 3,
+   "x": "Ctrl + Z oxirgi amalni bekor qiladi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_23",
+   "t": "choice",
+   "q": "Rasmdagi biror rangni aynan olish uchun qaysi asbob kerak?",
+   "a": "Pipetka",
+   "w": [
+    "Lupa",
+    "Qalam",
+    "O‘chirg‘ich"
+   ],
+   "d": 3,
+   "x": "Pipetka rasmdagi rangni “olib”, shu rang bilan chizishga imkon beradi."
+  },
+  {
+   "topic": "informatics_g3.paint",
+   "id": "paint_24",
+   "t": "choice",
+   "q": "Paint dasturida oval chizganda Shift tugmasini bosib tursak, nima bo‘ladi?",
+   "a": "Tekis doira chiqadi",
+   "w": [
+    "Rasm o‘chadi",
+    "Rang o‘zgaradi",
+    "Dastur yopiladi"
+   ],
+   "d": 3,
+   "x": "Shift bosib turilsa, oval tekis doira, to‘rtburchak esa kvadrat bo‘lib chiziladi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_1",
+   "t": "choice",
+   "q": "Gulning hidini qaysi a’zo orqali bilamiz?",
+   "a": "Burun",
+   "w": [
+    "Ko‘z",
+    "Quloq",
+    "Til"
+   ],
+   "d": 1,
+   "x": "Hidni burun orqali sezamiz.",
+   "e": "🌸"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_2",
+   "t": "choice",
+   "q": "Qo‘ng‘iroq ovozini qaysi a’zo orqali bilamiz?",
+   "a": "Quloq",
+   "w": [
+    "Burun",
+    "Til",
+    "Ko‘z"
+   ],
+   "d": 1,
+   "x": "Tovushni quloq orqali eshitamiz.",
+   "e": "🔔"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_3",
+   "t": "choice",
+   "q": "Limonning nordonligini qaysi a’zo orqali bilamiz?",
+   "a": "Til",
+   "w": [
+    "Quloq",
+    "Ko‘z",
+    "Burun"
+   ],
+   "d": 1,
+   "x": "Ta’mni til orqali bilamiz.",
+   "e": "🍋"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_4",
+   "t": "choice",
+   "q": "Svetofor rangini qaysi a’zo orqali bilamiz?",
+   "a": "Ko‘z",
+   "w": [
+    "Quloq",
+    "Burun",
+    "Til"
+   ],
+   "d": 1,
+   "x": "Rangni ko‘z orqali ko‘ramiz.",
+   "e": "🚦"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_5",
+   "t": "choice",
+   "q": "Qorning sovuqligini qanday bilamiz?",
+   "a": "Teri orqali sezib",
+   "w": [
+    "Hidlab",
+    "Tinglab",
+    "Tatib ko‘rib"
+   ],
+   "d": 1,
+   "x": "Issiq-sovuqni teri orqali sezamiz.",
+   "e": "❄️"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_6",
+   "t": "choice",
+   "q": "Eng ko‘p axborotni qaysi a’zo orqali olamiz?",
+   "a": "Ko‘z",
+   "w": [
+    "Burun",
+    "Til",
+    "Teri"
+   ],
+   "d": 1,
+   "x": "Atrofdagi axborotning eng katta qismini ko‘rish orqali olamiz.",
+   "e": "👀"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_7",
+   "t": "choice",
+   "q": "Kitob o‘qiganda axborotni qaysi a’zo orqali olamiz?",
+   "a": "Ko‘z",
+   "w": [
+    "Burun",
+    "Til",
+    "Quloq"
+   ],
+   "d": 1,
+   "x": "Kitobdagi harflarni ko‘z bilan ko‘rib o‘qiymiz.",
+   "e": "📖"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_8",
+   "t": "tf",
+   "q": "Qo‘shiqni quloq orqali eshitamiz.",
+   "a": true,
+   "d": 1,
+   "x": "Tovush axborotini quloq qabul qiladi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_9",
+   "t": "tf",
+   "q": "Shokoladning ta’mini ko‘z bilan bilamiz.",
+   "a": false,
+   "d": 1,
+   "x": "Ta’mni til orqali bilamiz."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_10",
+   "t": "tf",
+   "q": "Kompyuter matn, rasm, tovush va video bilan ishlay oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Bular kompyuter qayta ishlaydigan axborot turlari."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_11",
+   "t": "match",
+   "q": "Axborotni a’zo bilan juftlang",
+   "pairs": [
+    [
+     "Musiqa",
+     "Quloq"
+    ],
+    [
+     "Rasm",
+     "Ko‘z"
+    ],
+    [
+     "Atir hidi",
+     "Burun"
+    ],
+    [
+     "Asal ta’mi",
+     "Til"
+    ],
+    [
+     "Mushukning yumshoq juni",
+     "Teri"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir sezgi a’zosi o‘z axborotini qabul qiladi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_12",
+   "t": "choice",
+   "q": "Axborot qayerda saqlanishi mumkin?",
+   "a": "Kitobda",
+   "w": [
+    "Havoda",
+    "Suvda",
+    "Shamolda"
+   ],
+   "d": 1,
+   "x": "Kitob, daftar, kompyuter xotirasi axborotni saqlaydi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_13",
+   "t": "choice",
+   "q": "Non yangi yopilganini hididan bildik. Bu qanday axborot?",
+   "a": "Hid orqali olingan",
+   "w": [
+    "Eshitish orqali olingan",
+    "Ta’m orqali olingan",
+    "Ko‘rish orqali olingan"
+   ],
+   "d": 2,
+   "x": "Hidni burun sezadi, bu hid bilish orqali olingan axborot."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_14",
+   "t": "choice",
+   "q": "Issiq choy ekanini piyolaga tegib bildik. Bu qaysi yo‘l bilan olingan axborot?",
+   "a": "Sezish",
+   "w": [
+    "Eshitish",
+    "Ko‘rish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Issiqlikni teri orqali sezamiz."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_15",
+   "t": "choice",
+   "q": "Kundalikka uy vazifasini yozib qo‘yish — bu axborot bilan qanday ish?",
+   "a": "Saqlash",
+   "w": [
+    "Uzatish",
+    "Qayta ishlash",
+    "Hidlash"
+   ],
+   "d": 2,
+   "x": "Yozib qo‘yilgan axborot keyin kerak bo‘lguncha saqlanadi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_16",
+   "t": "choice",
+   "q": "Do‘stga telefonda yangilikni aytish — bu axborot bilan qanday ish?",
+   "a": "Uzatish",
+   "w": [
+    "Saqlash",
+    "Qayta ishlash",
+    "O‘chirish"
+   ],
+   "d": 2,
+   "x": "Axborot bir odamdan boshqasiga yetkazildi — bu uzatish."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_17",
+   "t": "choice",
+   "q": "Misolni yechib, javobni topish — bu axborot bilan qanday ish?",
+   "a": "Qayta ishlash",
+   "w": [
+    "Saqlash",
+    "Uzatish",
+    "Hidlash"
+   ],
+   "d": 2,
+   "x": "Berilgan sonlardan yangi axborot — javob hosil qildik."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_18",
+   "t": "choice",
+   "q": "Kutubxonadan hayvonlar haqida ma’lumot to‘plash — bu qanday ish?",
+   "a": "Yig‘ish",
+   "w": [
+    "Uzatish",
+    "O‘chirish",
+    "Unutish"
+   ],
+   "d": 2,
+   "x": "Turli manbalardan ma’lumot to‘plash — axborotni yig‘ish."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_19",
+   "t": "choice",
+   "q": "Kompyuter qaysi axborotni qabul qila olmaydi?",
+   "a": "Ovqat ta’mini",
+   "w": [
+    "Rasmni",
+    "Matnni",
+    "Ovozni"
+   ],
+   "d": 2,
+   "x": "Oddiy kompyuter ta’m va hidni sezmaydi, u matn, rasm, ovoz va video bilan ishlaydi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_20",
+   "t": "match",
+   "q": "Axborot ko‘rinishini misol bilan juftlang",
+   "pairs": [
+    [
+     "Matn",
+     "Ertak kitobi"
+    ],
+    [
+     "Rasm",
+     "Fotosurat"
+    ],
+    [
+     "Tovush",
+     "Qo‘shiq"
+    ],
+    [
+     "Son",
+     "Telefon raqami"
+    ],
+    [
+     "Video",
+     "Multfilm"
+    ]
+   ],
+   "d": 2,
+   "x": "Axborot matn, rasm, tovush, son va video ko‘rinishida bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_21",
+   "t": "choice",
+   "q": "Soat bizga qanday axborot beradi?",
+   "a": "Vaqt haqida",
+   "w": [
+    "Og‘irlik haqida",
+    "Hid haqida",
+    "Ta’m haqida"
+   ],
+   "d": 2,
+   "x": "Soat vaqtni ko‘rsatadi.",
+   "e": "⏰"
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quloq",
+    "orqali",
+    "tovushni",
+    "eshitamiz"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_23",
+   "t": "tf",
+   "q": "Hayvonlar ham bir-biriga axborot beradi.",
+   "a": true,
+   "d": 3,
+   "x": "Masalan, it vovullab, qushlar sayrab boshqalarga xabar beradi."
+  },
+  {
+   "topic": "informatics_g3.axborot",
+   "id": "axborot_24",
+   "t": "choice",
+   "q": "Tana haroratini bilish uchun qaysi asbob axborot beradi?",
+   "a": "Termometr",
+   "w": [
+    "Soat",
+    "Chizg‘ich",
+    "Tarozi"
+   ],
+   "d": 3,
+   "x": "Termometr haroratni o‘lchab, bizga axborot beradi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_1",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Buyruqlar ketma-ketligi",
+   "w": [
+    "Kompyuter qismi",
+    "Rasm chizish asbobi",
+    "Klaviatura tugmasi"
+   ],
+   "d": 1,
+   "x": "Algoritm — ishni bajarish uchun tartib bilan yozilgan buyruqlar."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_2",
+   "t": "tf",
+   "q": "Algoritmda buyruqlar tartibi muhim.",
+   "a": true,
+   "d": 1,
+   "x": "Tartib buzilsa, to‘g‘ri natija chiqmaydi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_3",
+   "t": "tf",
+   "q": "Buyruqlar tartibini almashtirsak ham natija doim bir xil bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Masalan, choynakka suv quymasdan choyni piyolaga quyib bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_4",
+   "t": "choice",
+   "q": "Tish yuvish algoritmida “tishlarni yuvish”dan oldin qaysi qadam keladi?",
+   "a": "Cho‘tkaga pasta surtish",
+   "w": [
+    "Cho‘tkani yuvib qo‘yish",
+    "Sochiqqa artinish",
+    "Uxlashga yotish"
+   ],
+   "d": 1,
+   "x": "Avval cho‘tkaga pasta surtiladi, keyin tishlar yuviladi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_5",
+   "t": "choice",
+   "q": "Choy damlashda choynakka choy solingandan keyin nima qilinadi?",
+   "a": "Qaynoq suv quyiladi",
+   "w": [
+    "Piyolaga quyiladi",
+    "Choynak chayiladi",
+    "Choy ichiladi"
+   ],
+   "d": 1,
+   "x": "Choy solingandan so‘ng ustidan qaynoq suv quyiladi.",
+   "e": "🍵"
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_6",
+   "t": "match",
+   "q": "Choy damlash algoritmi: qadamni raqami bilan juftlang",
+   "pairs": [
+    [
+     "1-qadam",
+     "Choynakni chayish"
+    ],
+    [
+     "2-qadam",
+     "Choy solish"
+    ],
+    [
+     "3-qadam",
+     "Qaynoq suv quyish"
+    ],
+    [
+     "4-qadam",
+     "Biroz kutish"
+    ],
+    [
+     "5-qadam",
+     "Piyolaga quyish"
+    ]
+   ],
+   "d": 1,
+   "x": "Choy damlash: chayish → choy solish → suv quyish → kutish → piyolaga quyish."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_7",
+   "t": "choice",
+   "q": "Qaysi biri algoritmga misol bo‘ladi?",
+   "a": "Palov pishirish tartibi",
+   "w": [
+    "Qizil rang",
+    "Katta tosh",
+    "Baland daraxt"
+   ],
+   "d": 1,
+   "x": "Palov pishirish tartibi — ketma-ket bajariladigan buyruqlar."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_8",
+   "t": "choice",
+   "q": "Retsept bo‘yicha pishiriq tayyorlash — bu nima?",
+   "a": "Algoritmni bajarish",
+   "w": [
+    "Rasm chizish",
+    "Musiqa tinglash",
+    "Uxlash"
+   ],
+   "d": 1,
+   "x": "Retsept — pishiriq tayyorlash algoritmi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_9",
+   "t": "choice",
+   "q": "Qo‘l yuvish algoritmida qaysi qadam eng oxirida bajariladi?",
+   "a": "Qo‘lni sochiqqa artish",
+   "w": [
+    "Jo‘mrakni ochish",
+    "Sovun surtish",
+    "Qo‘lni ho‘llash"
+   ],
+   "d": 1,
+   "x": "Qo‘l yuvilib, chayilgandan keyin sochiqqa artiladi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_10",
+   "t": "match",
+   "q": "Tish yuvish algoritmi: qadamni raqami bilan juftlang",
+   "pairs": [
+    [
+     "1-qadam",
+     "Cho‘tkani olish"
+    ],
+    [
+     "2-qadam",
+     "Pasta surtish"
+    ],
+    [
+     "3-qadam",
+     "Tishlarni yuvish"
+    ],
+    [
+     "4-qadam",
+     "Og‘izni chayish"
+    ],
+    [
+     "5-qadam",
+     "Cho‘tkani yuvib qo‘yish"
+    ]
+   ],
+   "d": 2,
+   "x": "Tish yuvish: cho‘tkani olish → pasta surtish → yuvish → chayish → cho‘tkani yuvib qo‘yish."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_11",
+   "t": "match",
+   "q": "Ertalabki algoritm: qadamni raqami bilan juftlang",
+   "pairs": [
+    [
+     "1-qadam",
+     "Uyg‘onish"
+    ],
+    [
+     "2-qadam",
+     "Yuz-qo‘lni yuvish"
+    ],
+    [
+     "3-qadam",
+     "Nonushta qilish"
+    ],
+    [
+     "4-qadam",
+     "Sumkani olish"
+    ],
+    [
+     "5-qadam",
+     "Maktabga borish"
+    ]
+   ],
+   "d": 2,
+   "x": "Har kuni ertalab shu tartibda ish qilamiz."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_12",
+   "t": "choice",
+   "q": "Berilganlardan qaysi biri kiyinishda eng oxirida bajariladi?",
+   "a": "Oyoq kiyim kiyish",
+   "w": [
+    "Paypoq kiyish",
+    "Ko‘ylak kiyish",
+    "Shim kiyish"
+   ],
+   "d": 2,
+   "x": "Avval paypoq, ko‘ylak va shim, keyin oyoq kiyim kiyiladi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_13",
+   "t": "choice",
+   "q": "“Algoritm” so‘zi qaysi olim nomidan kelib chiqqan?",
+   "a": "Al-Xorazmiy",
+   "w": [
+    "Ibn Sino",
+    "Beruniy",
+    "Ulug‘bek"
+   ],
+   "d": 2,
+   "x": "Buyuk vatandoshimiz Muhammad al-Xorazmiy nomi lotin tilida “Algoritmi” deb yozilgan."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_14",
+   "t": "choice",
+   "q": "Yo‘lni svetofordan o‘tish algoritmida yashil chiroq yonganda nima qilinadi?",
+   "a": "Chap va o‘ngga qarab o‘tiladi",
+   "w": [
+    "Yugurib o‘tiladi",
+    "Qizil yonguncha kutiladi",
+    "Ko‘zni yumib o‘tiladi"
+   ],
+   "d": 2,
+   "x": "Yashil chiroqda ham avval atrofga qarab, keyin xotirjam o‘tiladi.",
+   "e": "🚦"
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_15",
+   "t": "choice",
+   "q": "Algoritmning har bir buyrug‘i qanday bo‘lishi kerak?",
+   "a": "Aniq va tushunarli",
+   "w": [
+    "Chalkash",
+    "Tushunarsiz",
+    "Noaniq"
+   ],
+   "d": 2,
+   "x": "Buyruq aniq bo‘lsa, uni har kim bir xil bajaradi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_16",
+   "t": "tf",
+   "q": "Kundalik ishlarimizning ko‘pi algoritm asosida bajariladi.",
+   "a": true,
+   "d": 2,
+   "x": "Tish yuvish, kiyinish, ovqat tayyorlash — hammasi algoritm."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_17",
+   "t": "choice",
+   "q": "Choy damlash: choynakni chayish, …, qaynoq suv quyish, kutish, piyolaga quyish. Qaysi qadam tushib qolgan?",
+   "a": "Choy solish",
+   "w": [
+    "Piyolani yuvish",
+    "Qand solish",
+    "Stolni artish"
+   ],
+   "d": 2,
+   "x": "Choynakka choy solinmasa, choy damlanmaydi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_18",
+   "t": "choice",
+   "q": "Daraxt ekish algoritmida berilganlardan birinchi nima qilinadi?",
+   "a": "Chuqur qaziladi",
+   "w": [
+    "Ko‘chat o‘tqaziladi",
+    "Suv quyiladi",
+    "Tuproq bosiladi"
+   ],
+   "d": 2,
+   "x": "Avval chuqur qaziladi, keyin ko‘chat o‘tqazilib, tuproq bosiladi va suv quyiladi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_19",
+   "t": "choice",
+   "q": "Qaysi so‘z algoritmdagi buyruq bo‘la oladi?",
+   "a": "Oldinga yur",
+   "w": [
+    "Chiroyli",
+    "Katta",
+    "Qizil"
+   ],
+   "d": 2,
+   "x": "Buyruq nima qilish kerakligini aytadi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_20",
+   "t": "tf",
+   "q": "Algoritm faqat kompyuter uchun yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "Algoritmni odam ham bajaradi: masalan, retsept bo‘yicha ovqat pishiradi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_21",
+   "t": "choice",
+   "q": "Nima uchun algoritm buyruqlari tartib bilan yoziladi?",
+   "a": "To‘g‘ri natija olish uchun",
+   "w": [
+    "Chiroyli ko‘rinishi uchun",
+    "Uzun bo‘lishi uchun",
+    "Qog‘ozni to‘ldirish uchun"
+   ],
+   "d": 2,
+   "x": "Tartib buzilsa, ish to‘g‘ri bajarilmaydi."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Algoritmda",
+    "buyruqlar",
+    "tartibi",
+    "muhim"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_23",
+   "t": "choice",
+   "q": "“Eshikni och, xonaga kir, eshikni yop.” Bu algoritmda nechta buyruq bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta",
+    "1 ta"
+   ],
+   "d": 1,
+   "x": "Buyruqlarni sanaymiz: 3 ta."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_24",
+   "t": "choice",
+   "q": "“Daftarni och, sanani yoz, masalani yech, daftarni yop.” Bu algoritmda nechta buyruq bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta",
+    "2 ta"
+   ],
+   "d": 1,
+   "x": "Buyruqlarni sanaymiz: 4 ta."
+  },
+  {
+   "topic": "informatics_g3.algoritm",
+   "id": "algoritm_25",
+   "t": "choice",
+   "q": "“Ruchkani ol, qopqog‘ini och, ismingni yoz, qopqog‘ini yop, ruchkani qo‘y.” Bu algoritmda nechta buyruq bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta",
+    "3 ta"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni sanaymiz: 5 ta."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_1",
+   "t": "choice",
+   "q": "Buyruqlarni bajaruvchi nima deb ataladi?",
+   "a": "Ijrochi",
+   "w": [
+    "Algoritm",
+    "Papka",
+    "Monitor"
+   ],
+   "d": 1,
+   "x": "Ijrochi — buyruqlarni bajaruvchi: odam, robot yoki kompyuter.",
+   "e": "🤖"
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_2",
+   "t": "choice",
+   "q": "Qaysi biri ijrochi bo‘la oladi?",
+   "a": "Robot",
+   "w": [
+    "Stol",
+    "Tosh",
+    "Qog‘oz"
+   ],
+   "d": 1,
+   "x": "Robot buyruqlarni qabul qilib bajaradi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_3",
+   "t": "tf",
+   "q": "Odam ham ijrochi bo‘la oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, o‘quvchi o‘qituvchining topshirig‘ini bajaradi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_4",
+   "t": "tf",
+   "q": "Robot o‘zi bilmaydigan buyruqni ham bajaradi.",
+   "a": false,
+   "d": 1,
+   "x": "Ijrochi faqat o‘z buyruqlar tizimidagi buyruqlarni bajaradi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_5",
+   "t": "choice",
+   "q": "Robot faqat “oldinga”, “orqaga”, “chapga”, “o‘ngga” buyruqlarini biladi. Qaysi buyruqni bajara olmaydi?",
+   "a": "Sakra",
+   "w": [
+    "Oldinga",
+    "Chapga",
+    "Orqaga"
+   ],
+   "d": 1,
+   "x": "“Sakra” Robotning buyruqlar tizimida yo‘q."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_6",
+   "t": "choice",
+   "q": "Robot bir katak o‘ngga, keyin bir katak chapga yurdi. U qayerda bo‘ladi?",
+   "a": "Boshlagan joyida",
+   "w": [
+    "Ikki katak chapda",
+    "Ikki katak o‘ngda",
+    "Bir katak yuqorida"
+   ],
+   "d": 1,
+   "x": "O‘ngga bir qadam va chapga bir qadam bir-birini yo‘qqa chiqaradi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_7",
+   "t": "tf",
+   "q": "Kalkulyator ham ijrochi: u hisoblash buyruqlarini bajaradi.",
+   "a": true,
+   "d": 1,
+   "x": "Kalkulyator bosilgan tugmalar bo‘yicha hisoblaydi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_8",
+   "t": "choice",
+   "q": "Printer qanday buyruqni bajaradi?",
+   "a": "Chop etish",
+   "w": [
+    "Rasm chizish",
+    "Yurish",
+    "Qo‘shiq aytish"
+   ],
+   "d": 1,
+   "x": "Printer — chop etish buyrug‘ini bajaradigan ijrochi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_9",
+   "t": "choice",
+   "q": "Ijrochi bajara oladigan buyruqlar to‘plami nima deb ataladi?",
+   "a": "Buyruqlar tizimi",
+   "w": [
+    "Vazifalar paneli",
+    "Ish stoli",
+    "Palitra"
+   ],
+   "d": 2,
+   "x": "Har bir ijrochining o‘z buyruqlar tizimi bor."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_10",
+   "t": "match",
+   "q": "Ijrochini buyrug‘i bilan juftlang",
+   "pairs": [
+    [
+     "Printer",
+     "Chop et"
+    ],
+    [
+     "Oshpaz",
+     "Osh pishir"
+    ],
+    [
+     "Robot-changyutkich",
+     "Polni tozala"
+    ],
+    [
+     "Haydovchi",
+     "Mashinani yurgiz"
+    ],
+    [
+     "Kir yuvish mashinasi",
+     "Kirni yuv"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir ijrochi o‘ziga mos buyruqni bajaradi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_11",
+   "t": "tf",
+   "q": "Buyruq aniq bo‘lmasa, ijrochi uni to‘g‘ri bajara olmaydi.",
+   "a": true,
+   "d": 2,
+   "x": "“Biroz yur” desak, Robot qancha yurishni bilmaydi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_12",
+   "t": "choice",
+   "q": "Qaysi buyruq Robot uchun aniq?",
+   "a": "3 qadam oldinga yur",
+   "w": [
+    "Biroz yur",
+    "Qayergadir bor",
+    "Ko‘proq yur"
+   ],
+   "d": 2,
+   "x": "Aniq buyruqda nima qilish va necha marta qilish aytiladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ijrochi",
+    "buyruqlarni",
+    "bajaradi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_14",
+   "t": "choice",
+   "q": "Robot shimolga qarab turibdi. “O‘ngga buril” buyrug‘idan keyin qaysi tomonga qaraydi?",
+   "a": "Sharqqa",
+   "w": [
+    "G‘arbga",
+    "Janubga",
+    "Shimolga"
+   ],
+   "d": 3,
+   "x": "Shimolga qarab turib o‘ngga burilsak, sharqqa qaraymiz."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_15",
+   "t": "choice",
+   "q": "Robot 1-katakda turibdi. Har bir buyruq uni bir katak suradi. Buyruqlar: oldinga, oldinga, oldinga. Robot nechanchi katakda bo‘ladi?",
+   "a": "4-katakda",
+   "w": [
+    "5-katakda",
+    "3-katakda",
+    "6-katakda",
+    "1-katakda"
+   ],
+   "d": 1,
+   "x": "Har bir “oldinga” — bir katak oldinga, “orqaga” — bir katak orqaga: Robot 4-katakka keladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_16",
+   "t": "choice",
+   "q": "Robot 4-katakda turibdi. Har bir buyruq uni bir katak suradi. Buyruqlar: orqaga, orqaga. Robot nechanchi katakda bo‘ladi?",
+   "a": "2-katakda",
+   "w": [
+    "3-katakda",
+    "1-katakda",
+    "4-katakda"
+   ],
+   "d": 1,
+   "x": "Har bir “oldinga” — bir katak oldinga, “orqaga” — bir katak orqaga: Robot 2-katakka keladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_17",
+   "t": "choice",
+   "q": "Robot 2-katakda turibdi. Har bir buyruq uni bir katak suradi. Buyruqlar: oldinga, oldinga, orqaga, oldinga. Robot nechanchi katakda bo‘ladi?",
+   "a": "4-katakda",
+   "w": [
+    "5-katakda",
+    "3-katakda",
+    "6-katakda",
+    "2-katakda"
+   ],
+   "d": 2,
+   "x": "Har bir “oldinga” — bir katak oldinga, “orqaga” — bir katak orqaga: Robot 4-katakka keladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_18",
+   "t": "choice",
+   "q": "Robot 6-katakda turibdi. Har bir buyruq uni bir katak suradi. Buyruqlar: orqaga, orqaga, oldinga, orqaga. Robot nechanchi katakda bo‘ladi?",
+   "a": "4-katakda",
+   "w": [
+    "5-katakda",
+    "3-katakda",
+    "6-katakda"
+   ],
+   "d": 2,
+   "x": "Har bir “oldinga” — bir katak oldinga, “orqaga” — bir katak orqaga: Robot 4-katakka keladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_19",
+   "t": "choice",
+   "q": "Robot 3-katakda turibdi. Har bir buyruq uni bir katak suradi. Buyruqlar: oldinga, oldinga, oldinga, orqaga, oldinga. Robot nechanchi katakda bo‘ladi?",
+   "a": "6-katakda",
+   "w": [
+    "7-katakda",
+    "5-katakda",
+    "8-katakda",
+    "3-katakda"
+   ],
+   "d": 3,
+   "x": "Har bir “oldinga” — bir katak oldinga, “orqaga” — bir katak orqaga: Robot 6-katakka keladi."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_20",
+   "t": "choice",
+   "q": "Robot 2-katakda turibdi. 5-katakka borishi uchun nechta “oldinga” buyrug‘i kerak?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5"
+   ],
+   "d": 1,
+   "x": "5 − 2 = 3, demak 3 ta “oldinga” kerak."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_21",
+   "t": "choice",
+   "q": "Robot 3-katakda turibdi. 9-katakka borishi uchun nechta “oldinga” buyrug‘i kerak?",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "9",
+    "8"
+   ],
+   "d": 2,
+   "x": "9 − 3 = 6, demak 6 ta “oldinga” kerak."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_22",
+   "t": "choice",
+   "q": "Robot 5-katakda. U 3 katak o‘ngga, keyin 2 katak chapga yurdi. Endi nechanchi katakda?",
+   "a": "6-katakda",
+   "w": [
+    "8-katakda",
+    "3-katakda",
+    "7-katakda",
+    "5-katakda"
+   ],
+   "d": 2,
+   "x": "5 + 3 − 2 = 6."
+  },
+  {
+   "topic": "informatics_g3.ijrochi",
+   "id": "ijrochi_23",
+   "t": "choice",
+   "q": "Robot 4-katakda. U 2 katak o‘ngga, keyin 3 katak chapga yurdi. Endi nechanchi katakda?",
+   "a": "3-katakda",
+   "w": [
+    "6-katakda",
+    "1-katakda",
+    "4-katakda",
+    "2-katakda"
+   ],
+   "d": 2,
+   "x": "4 + 2 − 3 = 3."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_1",
+   "t": "choice",
+   "q": "Parolingizni kim bilishi mumkin?",
+   "a": "Faqat siz va ota-onangiz",
+   "w": [
+    "Sinfdoshingiz",
+    "Internetdagi notanish odam",
+    "Hamma"
+   ],
+   "d": 1,
+   "x": "Parol sir: uni boshqalarga aytmaymiz.",
+   "e": "🔑"
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_2",
+   "t": "tf",
+   "q": "Parolni eng yaqin do‘stimga aytsam bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Parol sir, uni faqat o‘zingiz va ota-onangiz biladi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_3",
+   "t": "choice",
+   "q": "Internetda notanish odam uy manzilingizni so‘rasa nima qilasiz?",
+   "a": "Aytmayman va kattalarga aytaman",
+   "w": [
+    "Darhol aytaman",
+    "Rasmini yuboraman",
+    "Uchrashuvga boraman"
+   ],
+   "d": 1,
+   "x": "Shaxsiy ma’lumotni notanishlarga bermaymiz."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_4",
+   "t": "tf",
+   "q": "Internetdagi notanish odam bilan uchrashish xavfli.",
+   "a": true,
+   "d": 1,
+   "x": "Internetdagi odam o‘zini boshqacha qilib ko‘rsatishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_5",
+   "t": "choice",
+   "q": "Qaysi biri shaxsiy ma’lumot?",
+   "a": "Uy manzili",
+   "w": [
+    "Ob-havo",
+    "Ertak nomi",
+    "Hayvonlar haqidagi fakt"
+   ],
+   "d": 1,
+   "x": "Uy manzili, telefon raqami, parol — shaxsiy ma’lumot."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_6",
+   "t": "choice",
+   "q": "Internetda sizni qo‘rqitgan narsa ko‘rsangiz nima qilasiz?",
+   "a": "Kattalarga aytaman",
+   "w": [
+    "Hech kimga aytmayman",
+    "Davom etib ko‘raman",
+    "Do‘stlarimga yuboraman"
+   ],
+   "d": 1,
+   "x": "Ota-ona yoki o‘qituvchi yordam beradi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_7",
+   "t": "choice",
+   "q": "O‘yin yoki dastur yuklab olishdan oldin nima qilish kerak?",
+   "a": "Kattalardan ruxsat so‘rash",
+   "w": [
+    "Hech kimga aytmaslik",
+    "Parolni yozish",
+    "Hamma tugmani bosish"
+   ],
+   "d": 1,
+   "x": "Ba’zi dasturlarda virus bo‘lishi mumkin, kattalar tekshirib beradi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_8",
+   "t": "tf",
+   "q": "Internetda ham odob bilan muloqot qilish kerak.",
+   "a": true,
+   "d": 1,
+   "x": "Ekran ortida ham tirik odam o‘tiradi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_9",
+   "t": "choice",
+   "q": "Internetda boshqalarga qanday yozish kerak?",
+   "a": "Xushmuomala bo‘lib",
+   "w": [
+    "Qo‘pol so‘zlar bilan",
+    "Masxara qilib",
+    "Baqirgandek, katta harflar bilan"
+   ],
+   "d": 1,
+   "x": "Odobli so‘zlar internetda ham kerak."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_10",
+   "t": "tf",
+   "q": "O‘z rasmimni notanish odamga yuborsam bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Rasm ham shaxsiy ma’lumot, uni notanishga yubormaymiz."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_11",
+   "t": "tf",
+   "q": "Internet — dunyodagi kompyuterlarni bog‘lovchi tarmoq.",
+   "a": true,
+   "d": 1,
+   "x": "Internet orqali boshqa shahar va mamlakatdagi kompyuterlar bog‘lanadi.",
+   "e": "🌐"
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_12",
+   "t": "choice",
+   "q": "Internetda qaysi ish foydali?",
+   "a": "Darsga ma’lumot izlash",
+   "w": [
+    "Notanishga manzil berish",
+    "Parol tarqatish",
+    "Birovni masxara qilish"
+   ],
+   "d": 1,
+   "x": "Internetdan o‘qish va bilim olish uchun foydalanamiz."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Parolni",
+    "hech",
+    "kimga",
+    "aytmang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_14",
+   "t": "choice",
+   "q": "Ekranda “Siz yutdingiz! Sovg‘a olish uchun bosing” degan yozuv chiqdi. Nima qilasiz?",
+   "a": "Bosmayman, kattalarga aytaman",
+   "w": [
+    "Darhol bosaman",
+    "Parolimni yozaman",
+    "Manzilimni yozaman"
+   ],
+   "d": 2,
+   "x": "Bunday yozuvlar ko‘pincha aldov bo‘ladi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_15",
+   "t": "tf",
+   "q": "Internetdagi har bir ma’lumot to‘g‘ri bo‘ladi.",
+   "a": false,
+   "d": 2,
+   "x": "Internetda xato va yolg‘on ma’lumot ham bor, uni kattalar bilan tekshirish kerak."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_16",
+   "t": "match",
+   "q": "Vaziyatni to‘g‘ri harakat bilan juftlang",
+   "pairs": [
+    [
+     "Notanish telefon raqamingni so‘radi",
+     "Aytmayman"
+    ],
+    [
+     "Kimdir seni xafa qildi",
+     "Kattalarga aytaman"
+    ],
+    [
+     "Shubhali havola keldi",
+     "Bosmayman"
+    ],
+    [
+     "Parolingni so‘rashdi",
+     "Sir saqlayman"
+    ],
+    [
+     "Yangi o‘yin yuklamoqchisan",
+     "Ruxsat so‘rayman"
+    ]
+   ],
+   "d": 2,
+   "x": "Xavfsizlik qoidalari bizni himoya qiladi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_17",
+   "t": "choice",
+   "q": "Qaysi parolni topish qiyinroq?",
+   "a": "Qalam7Olma3",
+   "w": [
+    "12345",
+    "aaaa",
+    "ali"
+   ],
+   "d": 2,
+   "x": "Harf va raqamlar aralashgan uzun parolni topish qiyin."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_18",
+   "t": "choice",
+   "q": "Internetda qancha vaqt o‘tirish kerak?",
+   "a": "Kattalar ruxsat bergancha",
+   "w": [
+    "Kun bo‘yi",
+    "Tun bo‘yi",
+    "To‘xtovsiz"
+   ],
+   "d": 2,
+   "x": "Vaqtni chegaralash ko‘z va sog‘liq uchun foydali."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_19",
+   "t": "choice",
+   "q": "Sinfdoshingizni internetda boshqalar masxara qilyapti. Nima qilasiz?",
+   "a": "Kattalarga aytaman",
+   "w": [
+    "Men ham kulaman",
+    "Masxarani tarqataman",
+    "Hech narsa qilmayman"
+   ],
+   "d": 2,
+   "x": "Kattalarga aytsangiz, ular do‘stingizni himoya qilishga yordam beradi."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_20",
+   "t": "tf",
+   "q": "Notanish odam yuborgan faylni ochmaslik kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Bunday faylda kompyuterni buzadigan virus bo‘lishi mumkin."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_21",
+   "t": "choice",
+   "q": "Notanish odam “Maktabing qayerda?” deb so‘radi. To‘g‘ri javob qaysi?",
+   "a": "Aytmayman",
+   "w": [
+    "Maktab raqamimni aytaman",
+    "Manzilni yozaman",
+    "Rasmini yuboraman"
+   ],
+   "d": 2,
+   "x": "Maktab ham shaxsiy ma’lumot, uni notanishga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Notanish",
+    "havolani",
+    "bosmang"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "informatics_g3.internet",
+   "id": "internet_23",
+   "t": "choice",
+   "q": "Umumiy kompyuterda ishni tugatganda nima qilish kerak?",
+   "a": "Profildan chiqish",
+   "w": [
+    "Parolni ekranga yozib qoldirish",
+    "Parolni stolga yozib qo‘yish",
+    "Profilni ochiq qoldirish"
+   ],
+   "d": 3,
+   "x": "Profildan chiqmasangiz, keyingi odam sizning sahifangizga kirishi mumkin."
+  }
+ ]
+}

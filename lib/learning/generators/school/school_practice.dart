@@ -6,10 +6,8 @@ import 'school_base.dart';
 class SchoolPractice {
   SchoolPractice._();
 
-  static Exercise bank(GenContext g) {
-    final items = g.content.banks[g.topic.id];
-    if (items == null || items.isEmpty) throw StateError('Empty bank: ${g.topic.id}');
-    final item = g.pick(items);
+  /// Eski formatdagi bank savoli (`question`, `answer`, `wrong`, `explanation`, `lang`).
+  static Exercise bankItem(GenContext g, Map<String, dynamic> item) {
     return g.textChoice(
       question: item['question'] as String,
       answer: item['answer'] as String,

@@ -20,8 +20,13 @@ TITLES = {
 }
 CURRICULA = {}
 BANKS = {3: [], 5: []}
+# Bu fanlar batafsil dasturga ko'chirildi: tool/content/school/<fan>_g<N>.py (schoolkit).
+# Bu yerda ular yaratilmaydi, aks holda o'sha fayllar ustidan yozilib ketadi.
+MOVED = {'english', 'russian', 'science', 'informatics'}
 
 def topic(subject, grade, key, title, generator, theory, levels=None):
+ if subject in MOVED:
+  return dict(id=f'{subject}_g{grade}.{key}', title=dict(uz=title, en=title, ru=title))
  c = CURRICULA.setdefault((subject, grade), [])
  t = dict(id=f'{subject}_g{grade}.{key}', code=str(len(c)+1), emoji=TITLES[subject][3],
           title=dict(uz=title, en=title, ru=title), generator=generator, skill=key,
@@ -32,6 +37,8 @@ def topic(subject, grade, key, title, generator, theory, levels=None):
 
 def bank(subject, grade, key, title, theory, rows, lang='uz'):
  t=topic(subject, grade, key, title, 'bank', theory)
+ if subject in MOVED:
+  return t
  assert len(rows)>=15, (t['id'], len(rows))
  for i,(q,a,w,e) in enumerate(rows):
   assert len(set([a]+w))==len(w)+1 and len(w)>=3, (q,a,w)

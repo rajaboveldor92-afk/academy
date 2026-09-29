@@ -6,6 +6,7 @@ import 'package:academy/learning/engine/daily_planner.dart';
 import 'package:academy/learning/engine/lesson_builder.dart';
 import 'package:academy/learning/generators/generator_base.dart';
 import 'package:academy/learning/generators/registry.dart';
+import 'package:academy/learning/generators/school/bank_gen.dart';
 import 'package:academy/models/child_progress.dart';
 import 'package:academy/models/subject.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -37,27 +38,66 @@ void main() {
     }
   });
 
-  test('authored banks: unique questions, one correct answer, explanation and full coverage', () {
+  test('authored banks: unique ids, one correct answer, explanation and full coverage', () {
     expect(content.banks.length, greaterThanOrEqualTo(20));
     for (final entry in content.banks.entries) {
       final topic = content.topic(entry.key)!;
       final items = entry.value;
       expect(items.length, greaterThanOrEqualTo(15), reason: entry.key);
-      expect(items.map((x) => x['id']).toSet().length, items.length);
-      expect(items.map((x) => x['question']).toSet().length, items.length);
+      expect(items.map((x) => x['id']).toSet().length, items.length, reason: entry.key);
+      // Eski format (question/answer) va schoolkit formati (t/q/a/w).
+      final legacy = items.first.containsKey('question');
+      if (legacy) expect(items.map((x) => x['question']).toSet().length, items.length, reason: entry.key);
       final gen = GeneratorRegistry.find(topic.subject, topic.ageSuffix, topic.generator)!;
       final seen = <String>{};
       final rng = Random(19);
-      for (var i = 0; i < 700; i++) {
+      for (var i = 0; i < 900; i++) {
         final e = gen(GenContext(rng: rng, content: content, topic: topic, level: 3, age: 11));
         final source = items.singleWhere((x) => x['id'] == e.meta['bankId']);
-        expect(ExerciseValidator.isPlayable(e), isTrue);
-        expect(e.correctOption!.text, source['answer']);
-        expect(e.explanation, source['explanation']);
-        expect(e.speechLang, source['lang']);
+        final where = '${entry.key} ${source['id']}';
+        expect(ExerciseValidator.isPlayable(e), isTrue, reason: where);
+        expect(e.explanation, isNotNull, reason: where);
+        if (legacy) {
+          expect(e.correctOption!.text, source['answer']);
+          expect(e.explanation, source['explanation']);
+          expect(e.speechLang, source['lang']);
+        } else {
+          switch (source['t']) {
+            case 'choice':
+              expect(e.correctOption!.text, source['a'], reason: where);
+              expect(e.options.where((o) => o.text == source['a']).length, 1, reason: where);
+            case 'tf':
+              expect(e.correctOption!.text, source['a'] == true ? BankGen.trueText : BankGen.falseText, reason: where);
+            case 'order':
+              expect(e.assemble!.answer, source['parts'], reason: where);
+            case 'match':
+              final pairs = {for (final p in source['pairs'] as List) '${p[0]}=${p[1]}'};
+              expect(e.pairs.length, greaterThanOrEqualTo(3), reason: where);
+              for (final p in e.pairs) {
+                expect(pairs.contains('${p.left.text}=${p.right.text}'), isTrue, reason: where);
+              }
+          }
+          if (source['say'] != null && source['lang'] != null) expect(e.speechLang, source['lang'], reason: where);
+        }
         seen.add(source['id'] as String);
       }
       expect(seen.length, items.length, reason: entry.key);
+    }
+  });
+
+  test('schoolkit banks: every level has enough questions and every topic a rule', () {
+    for (final entry in content.banks.entries) {
+      final items = entry.value;
+      if (items.first.containsKey('question')) continue;
+      final topic = content.topic(entry.key)!;
+      expect(topic.theoryIn('uz'), isNotNull, reason: entry.key);
+      expect(topic.chapter, isNotEmpty, reason: entry.key);
+      expect(BankGen.poolFor(items, 1).length, greaterThanOrEqualTo(8), reason: entry.key);
+      for (final i in items) {
+        final t = i['t'];
+        expect(['choice', 'tf', 'order', 'match'], contains(t), reason: '${entry.key} ${i['id']}');
+        if (t == 'choice') expect((i['w'] as List).contains(i['a']), isFalse, reason: '${entry.key} ${i['id']}');
+      }
     }
   });
 

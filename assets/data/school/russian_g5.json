@@ -1,169 +1,111 @@
 {
  "subject": "russian",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Rus tili",
   "en": "Russian",
-  "ru": "Русский"
+  "ru": "Русский язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "russian_g5.city",
+   "id": "russian_g5.nouns",
    "code": "1",
-   "emoji": "🇷🇺",
+   "emoji": "📘",
    "title": {
-    "uz": "Shahar: transport va kasblar",
-    "en": "Town: transport and jobs",
-    "ru": "Город: транспорт и профессии"
+    "uz": "Ot: rod va son",
+    "en": "Nouns: gender and number",
+    "ru": "Существительное: род и число"
    },
-   "generator": "vocab",
-   "skill": "city",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ot, sifat va olmosh",
    "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "themes": [
-      "transport_city"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
      "options": 3
     },
     {
-     "themes": [
-      "transport_city"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
-     "options": 3,
-     "sameTheme": true
+     "options": 4
     },
     {
-     "themes": [
-      "transport_city"
-     ],
-     "modes": [
-      "picture_word",
-      "read",
-      "listen"
-     ],
-     "options": 4,
-     "sameTheme": true
-    }
-   ]
-  },
-  {
-   "id": "russian_g5.actions",
-   "code": "2",
-   "emoji": "🇷🇺",
-   "title": {
-    "uz": "Harakat, belgi, iboralar",
-    "en": "Actions, qualities, phrases",
-    "ru": "Действия, признаки, вежливые слова"
-   },
-   "generator": "vocab",
-   "skill": "actions",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "themes": [
-      "actions",
-      "phrases"
-     ],
-     "modes": [
-      "listen"
-     ],
-     "options": 3
-    },
-    {
-     "themes": [
-      "actions",
-      "opposites",
-      "phrases"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
-     "options": 3
-    },
-    {
-     "themes": [
-      "actions",
-      "opposites",
-      "phrases"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
      "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Otning rodi so‘z oxiridan aniqlanadi:\n• он: стол, город, музей — этот, мой;  она: книга, земля — эта, моя;  оно: окно, поле — это, моё.\n• -ь bilan tugagan so‘zlar rodini yodlang: день — он, тетрадь — она.\nKo‘plik: -ы / -и (столы, книги), -а / -я (окна, поля).\nIstisnolar: город — города, друг — друзья, брат — братья, ребёнок — дети, человек — люди."
+   }
   },
   {
-   "id": "russian_g5.spelling",
-   "code": "3",
-   "emoji": "🇷🇺",
+   "id": "russian_g5.adjectives",
+   "code": "2",
+   "emoji": "🌈",
    "title": {
-    "uz": "So‘z yig‘ish",
-    "en": "Spelling",
-    "ru": "Собери слово"
+    "uz": "Sifat va ot moslashuvi",
+    "en": "Adjective agreement",
+    "ru": "Согласование прилагательных"
    },
-   "generator": "spell",
-   "skill": "spelling",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ot, sifat va olmosh",
    "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
-     "minLetters": 4,
-     "maxLetters": 5,
-     "extra": 1
+     "options": 3
     },
     {
-     "minLetters": 5,
-     "maxLetters": 6,
-     "extra": 1
+     "options": 4
     },
     {
-     "minLetters": 5,
-     "maxLetters": 7,
-     "extra": 2
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Sifat otning rodi va soniga moslashadi:\n• он — какой? красный мяч, новый дом, синий шарф, большой город\n• она — какая? красная машина, новая книга, синяя куртка\n• оно — какое? красное яблоко, новое окно, синее море\n• они — какие? красные цветы, новые книги, синие ручки"
+   }
+  },
+  {
+   "id": "russian_g5.pronouns",
+   "code": "3",
+   "emoji": "🙋",
+   "title": {
+    "uz": "Kishilik va egalik olmoshlari",
+    "en": "Personal and possessive pronouns",
+    "ru": "Личные и притяжательные местоимения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ot, sifat va olmosh",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kishilik olmoshlari: я (men), ты (sen), он, она, оно (u), мы (biz), вы (siz), они (ular).\nEgalik olmoshlari — чей? чья? чьё? чьи? (kimning?):\n• мой, моя, моё, мои — mening;  твой, твоя, твоё, твои — sening\n• наш, наша, наше, наши — bizning;  ваш, ваша, ваше, ваши — sizning\n• его (uning — erkak), её (uning — ayol), их (ularning) o‘zgarmaydi: его книга, её брат, их дом."
+   }
   },
   {
    "id": "russian_g5.sentences",
    "code": "4",
-   "emoji": "🇷🇺",
+   "emoji": "💬",
    "title": {
-    "uz": "Oddiy gap",
-    "en": "Simple sentences",
-    "ru": "Простое предложение"
+    "uz": "Rasmga qarab gap",
+    "en": "Picture sentences",
+    "ru": "Предложения по картинке"
    },
    "generator": "sentence",
-   "skill": "sentences",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "sentence",
+   "chapter": "1-chorak. Ot, sifat va olmosh",
    "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
      "types": [
@@ -172,6 +114,16 @@
      ],
      "modes": [
       "read",
+      "picture"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
       "picture",
       "listen"
      ]
@@ -182,46 +134,286 @@
       "action"
      ],
      "modes": [
-      "read",
-      "picture",
-      "listen",
-      "build"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "action"
-     ],
-     "modes": [
-      "read",
       "picture",
       "listen",
       "build"
      ]
     }
+   ],
+   "theory": {
+    "uz": "Rus tilida hozirgi zamonda “bo‘lmoq” fe’li aytilmaydi: Мяч красный. (To‘p qizil.)\n• Это … — Bu …: Это мяч. Это кошка.\n• Sifat otga moslashadi: Мяч красный. Машина красная. Яблоко красное.\n• Kim nima qiladi: Кошка спит. Птица летит."
+   }
+  },
+  {
+   "id": "russian_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Ot, sifat va olmosh",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences"
+     ],
+     "level": 3
+    }
    ]
   },
   {
-   "id": "russian_g5.food",
+   "id": "russian_g5.conjugation",
    "code": "5",
-   "emoji": "🇷🇺",
+   "emoji": "🗣️",
    "title": {
-    "uz": "Taomlar",
-    "en": "Food",
-    "ru": "Еда"
+    "uz": "Fe’l tuslanishi",
+    "en": "Verb conjugation",
+    "ru": "Спряжение глаголов"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Fe’l va mening kunim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hozirgi zamonda fe’llar ikki xil tuslanadi:\n• I tuslanish (-е-): читать — я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают.\n• II tuslanish (-и-): говорить — я говорю, ты говоришь, он говорит, мы говорим, вы говорите, они говорят.\nII tuslanishga ko‘pincha -ить bilan tugagan fe’llar kiradi: говорить, учить, звонить, любить (я люблю).\nDiqqat: смотреть ham II tuslanish — ты смотришь, они смотрят."
+   }
+  },
+  {
+   "id": "russian_g5.past",
+   "code": "6",
+   "emoji": "⏪",
+   "title": {
+    "uz": "O‘tgan zamon",
+    "en": "Past tense",
+    "ru": "Прошедшее время"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Fe’l va mening kunim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘tgan zamonda fe’l oxiridagi -ть o‘rniga -л qo‘yiladi va rod-songa moslashadi:\n• читать: он читал, она читала, оно читало, они читали\n• быть: он был, она была, оно было, они были\nFe’l shaxsga emas, rod va songa qarab o‘zgaradi: Али читал, Лола читала, мы читали.\nMisol: Вчера я был в парке (o‘g‘il bola). Вчера я была в парке (qiz bola)."
+   }
+  },
+  {
+   "id": "russian_g5.my_day",
+   "code": "7",
+   "emoji": "⏰",
+   "title": {
+    "uz": "Mening kunim",
+    "en": "My day",
+    "ru": "Мой день"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Fe’l va mening kunim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kun tartibi (режим дня):\n• Утром я встаю, умываюсь, делаю зарядку и завтракаю.\n• Днём я учусь в школе, потом обедаю и делаю уроки.\n• Вечером я ужинаю, читаю и ложусь спать.\nKun qismlari: утром (ertalab), днём (kunduzi), вечером (kechqurun), ночью (kechasi)."
+   }
+  },
+  {
+   "id": "russian_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Fe’l va mening kunim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.numbers",
+   "code": "8",
+   "emoji": "💯",
+   "title": {
+    "uz": "Sonlar 100 gacha",
+    "en": "Numbers to 100",
+    "ru": "Числа до 100"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Sonlar, vaqt va shahar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘nliklar: 20 — двадцать, 30 — тридцать, 40 — сорок, 50 — пятьдесят, 60 — шестьдесят,\n70 — семьдесят, 80 — восемьдесят, 90 — девяносто, 100 — сто.\nMurakkab son ikki so‘zdan tuziladi: 25 — двадцать пять, 47 — сорок семь, 99 — девяносто девять.\n• Diqqat: 40 — сорок, 90 — девяносто (boshqacha tuzilgan).\nSavol: Сколько тебе лет? — Мне одиннадцать лет."
+   }
+  },
+  {
+   "id": "russian_g5.time",
+   "code": "9",
+   "emoji": "🕒",
+   "title": {
+    "uz": "Soat necha?",
+    "en": "What time is it?",
+    "ru": "Который час?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Sonlar, vaqt va shahar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Vaqtni so‘rash: Который час? (Soat necha?)\n• 1 — час: Сейчас час.\n• 2, 3, 4 — часа: два часа, три часа, четыре часа.\n• 5–12 — часов: пять часов, семь часов, двенадцать часов.\nQachon? — в: Урок начинается в восемь часов. 8:30 — восемь тридцать (половина девятого)."
+   }
+  },
+  {
+   "id": "russian_g5.cases",
+   "code": "10",
+   "emoji": "📍",
+   "title": {
+    "uz": "Qayerda? Qayerga? Kimni? Nimani?",
+    "en": "Where? Where to? Whom? What?",
+    "ru": "Где? Куда? Кого? Что?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Sonlar, vaqt va shahar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Otning oxiri savolga qarab o‘zgaradi:\n• Кого? Что? (tushum): Я вижу маму. Я читаю книгу. (-а → -у, -я → -ю)\n• Куда? (qayerga?) — в/на + tushum: в школу, в парк, на работу.\n• Где? (qayerda?) — в/на + -е: в школе, в парке, на работе.\nMisol: Я иду в школу. Я учусь в школе."
+   }
+  },
+  {
+   "id": "russian_g5.transport",
+   "code": "11",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Shahar transporti",
+    "en": "City transport",
+    "ru": "Городской транспорт"
    },
    "generator": "vocab",
-   "skill": "food",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "vocab",
+   "chapter": "3-chorak. Sonlar, vaqt va shahar",
    "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
    "levels": [
     {
      "themes": [
-      "food_all"
+      "transport"
      ],
      "modes": [
       "listen",
@@ -231,166 +423,330 @@
     },
     {
      "themes": [
-      "food_all"
+      "transport"
      ],
      "modes": [
       "read",
-      "picture_word"
-     ],
-     "options": 3,
-     "sameTheme": true
-    },
-    {
-     "themes": [
-      "food_all"
-     ],
-     "modes": [
       "picture_word",
-      "read",
       "listen"
      ],
      "options": 4,
      "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
     }
-   ]
-  },
-  {
-   "id": "russian_g5.agreement",
-   "code": "6",
-   "emoji": "🇷🇺",
-   "title": {
-    "uz": "Sifat va otning moslashuvi",
-    "en": "Sifat va otning moslashuvi",
-    "ru": "Sifat va otning moslashuvi"
-   },
-   "generator": "bank",
-   "skill": "agreement",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
+   ],
    "theory": {
-    "uz": "Sifat otga jins va sonda moslashadi: новый стол, новая книга, новое окно, новые книги. Avval otning jinsi yoki ko‘plik shaklini aniqlang."
-   },
-   "levels": [
-    {
-     "options": 2
-    },
-    {
-     "options": 3
-    },
-    {
-     "options": 4
-    }
-   ]
+    "uz": "Transport: автобус, трамвай, метро, такси, машина, поезд, самолёт, велосипед.\nNimada boramiz? — ехать на …: Я еду на автобусе. Мы едем на метро (метро o‘zgarmaydi).\nPiyoda — пешком: Я иду в школу пешком.\nShaharda: улица (ko‘cha), площадь (maydon), светофор (svetofor), остановка (bekat)."
+   }
   },
   {
-   "id": "russian_g5.verbs",
-   "code": "7",
-   "emoji": "🇷🇺",
+   "id": "russian_g5.test3",
+   "code": "N",
+   "emoji": "📝",
    "title": {
-    "uz": "Fe’lning shaxs-son shakllari",
-    "en": "Fe’lning shaxs-son shakllari",
-    "ru": "Fe’lning shaxs-son shakllari"
-   },
-   "generator": "bank",
-   "skill": "verbs",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "Hozirgi zamon fe’li shaxs va songa qarab o‘zgaradi: я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают. Ega bilan fe’lni moslang."
-   },
-   "levels": [
-    {
-     "options": 2
-    },
-    {
-     "options": 3
-    },
-    {
-     "options": 4
-    }
-   ]
-  },
-  {
-   "id": "russian_g5.past",
-   "code": "8",
-   "emoji": "🇷🇺",
-   "title": {
-    "uz": "O‘tgan zamon",
-    "en": "O‘tgan zamon",
-    "ru": "O‘tgan zamon"
-   },
-   "generator": "bank",
-   "skill": "past",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "O‘tgan zamonda fe’l jins va songa moslashadi: он читал, она читала, оно читало, они читали. Вчера so‘zi kecha bajarilgan ishni bildiradi."
-   },
-   "levels": [
-    {
-     "options": 2
-    },
-    {
-     "options": 3
-    },
-    {
-     "options": 4
-    }
-   ]
-  },
-  {
-   "id": "russian_g5.review",
-   "code": "9",
-   "emoji": "🇷🇺",
-   "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "3-chorak. Sonlar, vaqt va shahar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "russian_g5.city",
-      "russian_g5.actions",
-      "russian_g5.spelling",
-      "russian_g5.sentences",
-      "russian_g5.food",
-      "russian_g5.agreement",
-      "russian_g5.verbs",
-      "russian_g5.past"
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport"
      ],
      "level": 1
     },
     {
      "topics": [
-      "russian_g5.city",
-      "russian_g5.actions",
-      "russian_g5.spelling",
-      "russian_g5.sentences",
-      "russian_g5.food",
-      "russian_g5.agreement",
-      "russian_g5.verbs",
-      "russian_g5.past"
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport"
      ],
      "level": 2
     },
     {
      "topics": [
-      "russian_g5.city",
-      "russian_g5.actions",
-      "russian_g5.spelling",
-      "russian_g5.sentences",
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.professions",
+   "code": "12",
+   "emoji": "👷",
+   "title": {
+    "uz": "Kasblar",
+    "en": "Professions",
+    "ru": "Профессии"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "read",
+      "picture_word",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "jobs_places"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Kasblar: врач (shifokor), учитель (o‘qituvchi), повар (oshpaz), водитель (haydovchi),\nстроитель (quruvchi), пожарный (o‘t o‘chiruvchi), пилот (uchuvchi), художник (rassom).\nSavol: Кем работает твой папа? — Он работает врачом.\nIsh joyi: врач — в больнице, учитель — в школе, продавец — в магазине."
+   }
+  },
+  {
+   "id": "russian_g5.seasons",
+   "code": "13",
+   "emoji": "⛅",
+   "title": {
+    "uz": "Fasllar va ob-havo",
+    "en": "Seasons and weather",
+    "ru": "Времена года и погода"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Fasllar (времена года): зима (qish), весна (bahor), лето (yoz), осень (kuz).\nQachon? — зимой, весной, летом, осенью.\nOb-havo (погода): тепло (iliq), холодно (sovuq), жарко (issiq).\nИдёт дождь. Идёт снег. Светит солнце. Дует ветер.\nMisol: Летом жарко. Зимой идёт снег."
+   }
+  },
+  {
+   "id": "russian_g5.food",
+   "code": "14",
+   "emoji": "🛒",
+   "title": {
+    "uz": "Ovqat va do‘kon",
+    "en": "Food and shopping",
+    "ru": "Еда и магазин"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ovqatlar: хлеб (non), молоко (sut), сыр (pishloq), мясо (go‘sht), рис (guruch), суп (sho‘rva), чай (choy), сок (sharbat).\nDo‘konda:\n• — Сколько стоит хлеб? — Пять тысяч сумов.\n• — Дайте, пожалуйста, молоко. — Вот, пожалуйста.\nYoqtirish: Я люблю чай. Я не люблю лук. Мне нравится плов."
+   }
+  },
+  {
+   "id": "russian_g5.reading",
+   "code": "15",
+   "emoji": "📖",
+   "title": {
+    "uz": "Matn o‘qiymiz",
+    "en": "Reading texts",
+    "ru": "Читаем тексты"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni o‘qishdan oldin savolni o‘qing — nimani qidirish kerakligini bilasiz.\n• Кто? — kim haqida; Где? — qayerda; Когда? — qachon; Что делает? — nima qiladi.\n• Notanish so‘z bo‘lsa, gapning boshqa so‘zlariga qarab ma’nosini toping.\nJavobni matndan toping: Где живёт Анвар? — В Ташкенте."
+   }
+  },
+  {
+   "id": "russian_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g5.professions",
+      "russian_g5.seasons",
       "russian_g5.food",
-      "russian_g5.agreement",
-      "russian_g5.verbs",
-      "russian_g5.past"
+      "russian_g5.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g5.professions",
+      "russian_g5.seasons",
+      "russian_g5.food",
+      "russian_g5.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g5.professions",
+      "russian_g5.seasons",
+      "russian_g5.food",
+      "russian_g5.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kasblar, fasllar va do‘kon",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences",
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day",
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport",
+      "russian_g5.professions",
+      "russian_g5.seasons",
+      "russian_g5.food",
+      "russian_g5.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences",
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day",
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport",
+      "russian_g5.professions",
+      "russian_g5.seasons",
+      "russian_g5.food",
+      "russian_g5.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "russian_g5.nouns",
+      "russian_g5.adjectives",
+      "russian_g5.pronouns",
+      "russian_g5.sentences",
+      "russian_g5.conjugation",
+      "russian_g5.past",
+      "russian_g5.my_day",
+      "russian_g5.numbers",
+      "russian_g5.time",
+      "russian_g5.cases",
+      "russian_g5.transport",
+      "russian_g5.professions",
+      "russian_g5.seasons",
+      "russian_g5.food",
+      "russian_g5.reading"
      ],
      "level": 3
     }

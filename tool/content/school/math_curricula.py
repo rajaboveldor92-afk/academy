@@ -165,7 +165,7 @@ g3 = [
              {"kinds": ["length"], "modes": ["simple", "compound", "reverse"], "max": 20, "mode": "input"}),
           "1 sm = 10 mm\n1 dm = 10 sm\n1 m = 10 dm = 100 sm = 1 000 mm\n1 km = 1 000 m\n"
           "Misol: 3 m 45 sm = 300 sm + 45 sm = 345 sm.", C3),
-    topic(3, "area_units", "17", "🟩", L("Yuza birliklari: ar va gektar", "Units of area: are and hectare", "Единицы площади: ар и гектар"), "units",
+    topic(3, "area_units", "17", "⬛", L("Yuza birliklari: ar va gektar", "Units of area: are and hectare", "Единицы площади: ар и гектар"), "units",
           lv({"kinds": ["area"], "modes": ["simple"], "max": 9, "mode": "choice"}, {"kinds": ["area"], "modes": ["simple", "reverse"], "max": 9, "mode": "mixed"},
              {"kinds": ["area"], "modes": ["simple", "compound", "reverse"], "max": 20, "mode": "input"}),
           "Yuza kvadrat birliklarda o‘lchanadi: 1 sm² — tomoni 1 sm bo‘lgan kvadrat yuzi.\n"
@@ -189,7 +189,7 @@ g3 = [
           "Yuza (S) — shakl egallagan joy, kvadrat birliklarda o‘lchanadi.\n"
           "To‘g‘ri to‘rtburchak: S = a · b;  kvadrat: S = a · a.\n"
           "Misol: 6 sm va 4 sm → P = 20 sm, S = 24 sm².", C3),
-    topic(3, "volume", "21", "🧊", L("Kub va parallelepiped. Hajm", "Cube and cuboid. Volume", "Куб и параллелепипед. Объём"), "volume",
+    topic(3, "volume", "21", "📦", L("Kub va parallelepiped. Hajm", "Cube and cuboid. Volume", "Куб и параллелепипед. Объём"), "volume",
           lv({"max": 5, "modes": ["cube", "edges"], "mode": "choice"}, {"max": 6, "modes": ["cuboid", "cube", "edges"], "mode": "mixed"},
              {"max": 9, "modes": ["cuboid", "cube", "edges", "liters"], "mode": "input"}),
           "Kubning 6 ta yog‘i (hammasi kvadrat) va 12 ta teng qirrasi bor.\n"
@@ -333,7 +333,7 @@ g5 = [
           "Uchburchak yuzi: S = asos · balandlik : 2 (to‘g‘ri to‘rtburchak yuzining yarmi).\n"
           "Balandlik — uchidan asosga tik tushirilgan kesma.\n"
           "Murakkab shakl yuzini topish uchun uni to‘g‘ri to‘rtburchak va uchburchaklarga bo‘lamiz va yuzalarni qo‘shamiz.", D2),
-    topic(5, "volume", "15", "🧊", L("Kub va kuboid hajmi", "Volume of cubes and cuboids", "Объём куба и прямоугольного параллелепипеда"), "volume",
+    topic(5, "volume", "15", "📦", L("Kub va kuboid hajmi", "Volume of cubes and cuboids", "Объём куба и прямоугольного параллелепипеда"), "volume",
           lv({"max": 6, "modes": ["cube", "cuboid"], "mode": "choice"}, {"max": 10, "modes": ["cube", "cuboid", "liters"], "mode": "mixed"},
              {"max": 15, "modes": ["cube", "cuboid", "liters"], "mode": "input"}),
           "Hajm birliklari: sm³, dm³, m³. Kuboid hajmi: V = uzunlik · en · balandlik.\n"

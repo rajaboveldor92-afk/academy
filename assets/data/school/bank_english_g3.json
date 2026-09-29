@@ -1,0 +1,3570 @@
+{
+ "items": [
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_1",
+   "t": "choice",
+   "q": "“Salom!” inglizcha qanday?",
+   "a": "Hello!",
+   "w": [
+    "Goodbye!",
+    "Thank you!",
+    "Sorry!"
+   ],
+   "d": 1,
+   "x": "Hello! yoki Hi! — salomlashganda aytiladi.",
+   "e": "👋"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_2",
+   "t": "choice",
+   "q": "“Xayr!” inglizcha qanday?",
+   "a": "Goodbye!",
+   "w": [
+    "Hello!",
+    "Good morning!",
+    "Thank you!"
+   ],
+   "d": 1,
+   "x": "Goodbye! yoki Bye! — xayrlashganda aytiladi."
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_3",
+   "t": "choice",
+   "q": "“Rahmat!” inglizcha qanday?",
+   "a": "Thank you!",
+   "w": [
+    "Sorry!",
+    "Hello!",
+    "Goodbye!"
+   ],
+   "d": 1,
+   "x": "Thank you! — rahmat."
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_4",
+   "t": "choice",
+   "q": "“Kechirasiz!” inglizcha qanday?",
+   "a": "Sorry!",
+   "w": [
+    "Please",
+    "Hello!",
+    "Thank you!"
+   ],
+   "d": 1,
+   "x": "Sorry! — kechirasiz (uzr so‘raganda aytiladi)."
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_5",
+   "t": "choice",
+   "q": "Ertalab qanday salomlashamiz?",
+   "a": "Good morning!",
+   "w": [
+    "Good night!",
+    "Goodbye!",
+    "Good evening!"
+   ],
+   "d": 1,
+   "x": "Good morning! — xayrli tong. Good night! esa uxlashdan oldin aytiladi.",
+   "e": "🌅"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_6",
+   "t": "choice",
+   "q": "Uxlashdan oldin nima deymiz?",
+   "a": "Good night!",
+   "w": [
+    "Good morning!",
+    "Hello!",
+    "Thank you!"
+   ],
+   "d": 1,
+   "x": "Good night! — xayrli tun.",
+   "e": "🌙"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_7",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Isming nima?",
+   "w": [
+    "Necha yoshdasan?",
+    "Qalaysan?",
+    "Bu nima?"
+   ],
+   "d": 1,
+   "x": "What's your name? — Isming nima?",
+   "say": "What's your name?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_8",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Necha yoshdasan?",
+   "w": [
+    "Isming nima?",
+    "Qalaysan?",
+    "Qayerdansan?"
+   ],
+   "d": 1,
+   "x": "How old are you? — Necha yoshdasan? (old — yosh)",
+   "say": "How old are you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_9",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Qalaysan?",
+   "w": [
+    "Isming nima?",
+    "Necha yoshdasan?",
+    "Bu kim?"
+   ],
+   "d": 1,
+   "x": "How are you? — Qalaysan? Javob: I'm fine, thank you.",
+   "say": "How are you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_10",
+   "t": "choice",
+   "q": "“What's your name?” savoliga mos javobni tanlang",
+   "a": "My name is Zarina.",
+   "w": [
+    "I'm nine.",
+    "I'm fine, thank you.",
+    "Goodbye!"
+   ],
+   "d": 1,
+   "x": "Ism so‘ralsa, My name is … deb javob beramiz.",
+   "say": "What's your name?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_11",
+   "t": "choice",
+   "q": "“How old are you?” savoliga mos javobni tanlang",
+   "a": "I'm nine.",
+   "w": [
+    "My name is Ali.",
+    "I'm fine, thank you.",
+    "Hello!"
+   ],
+   "d": 1,
+   "x": "Yosh so‘ralsa: I'm nine. — Men to‘qqiz yoshdaman.",
+   "say": "How old are you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_12",
+   "t": "choice",
+   "q": "“How are you?” savoliga mos javobni tanlang",
+   "a": "I'm fine, thank you.",
+   "w": [
+    "I'm nine.",
+    "My name is Bobur.",
+    "Good night!"
+   ],
+   "d": 1,
+   "x": "Hol so‘ralsa: I'm fine, thank you. — Yaxshi, rahmat.",
+   "say": "How are you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_13",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: My ... is Anvar.",
+   "a": "name",
+   "w": [
+    "old",
+    "fine",
+    "nice"
+   ],
+   "d": 1,
+   "x": "My name is Anvar. — Mening ismim Anvar.",
+   "say": "My ... is Anvar.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_14",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "Hello!",
+     "Salom!"
+    ],
+    [
+     "Goodbye!",
+     "Xayr!"
+    ],
+    [
+     "Thank you!",
+     "Rahmat!"
+    ],
+    [
+     "Good morning!",
+     "Xayrli tong!"
+    ],
+    [
+     "Good night!",
+     "Xayrli tun!"
+    ],
+    [
+     "Sorry!",
+     "Kechirasiz!"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_15",
+   "t": "tf",
+   "q": "“Good morning!” — “Xayrli tong!” degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: morning — tong, ertalab.",
+   "say": "Good morning!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_16",
+   "t": "tf",
+   "q": "“Goodbye!” — “Salom!” degani.",
+   "a": false,
+   "d": 1,
+   "x": "Goodbye! — Xayr! Salom! esa — Hello!",
+   "say": "Goodbye!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_17",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: How ... are you? — I'm ten.",
+   "a": "old",
+   "w": [
+    "name",
+    "is",
+    "fine"
+   ],
+   "d": 2,
+   "x": "How old are you? — Necha yoshdasan?",
+   "say": "How ... are you? — I'm ten.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_18",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Nice to ... you!",
+   "a": "meet",
+   "w": [
+    "name",
+    "old",
+    "fine"
+   ],
+   "d": 2,
+   "x": "Nice to meet you! — Tanishganimdan xursandman!",
+   "say": "Nice to ... you!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_19",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... name is Dilnoza.",
+   "a": "My",
+   "w": [
+    "I",
+    "I'm",
+    "Me"
+   ],
+   "d": 2,
+   "x": "My name is … — Mening ismim …",
+   "say": "... name is Dilnoza.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_20",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Tanishganimdan xursandman!",
+   "w": [
+    "Xayrli tun!",
+    "Kechirasiz!",
+    "Rahmat!"
+   ],
+   "d": 2,
+   "x": "Nice to meet you! — Tanishganimdan xursandman!",
+   "say": "Nice to meet you!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_21",
+   "t": "choice",
+   "q": "Qaysi javob “Hello! I'm Sardor.” gapiga mos?",
+   "a": "Hi, Sardor! I'm Laylo.",
+   "w": [
+    "Good night, Sardor!",
+    "I'm fine, thank you.",
+    "I'm eight."
+   ],
+   "d": 2,
+   "x": "Salomga salom bilan javob berib, o‘zimizni tanishtiramiz.",
+   "say": "Hello! I'm Sardor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "name",
+    "is",
+    "Kamola"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My name is Kamola. — Mening ismim Kamola.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_23",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "is",
+    "your",
+    "name"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "What is your name? — Isming nima?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_24",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "How",
+    "old",
+    "are",
+    "you"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "How old are you? — Necha yoshdasan?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_25",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri yozilgan?",
+   "a": "I'm nine years old.",
+   "w": [
+    "I nine years old.",
+    "I'm nine year old.",
+    "I is nine years old."
+   ],
+   "d": 3,
+   "x": "To‘g‘ri: I'm (I am) nine years old. — Men to‘qqiz yoshdaman."
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "am",
+    "fine,",
+    "thank",
+    "you"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "I am fine, thank you. — Yaxshi, rahmat.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.greetings",
+   "id": "greetings_27",
+   "t": "choice",
+   "q": "Do‘stingiz “Thank you!” dedi. Siz nima deysiz?",
+   "a": "You're welcome!",
+   "w": [
+    "Sorry!",
+    "Good night!",
+    "Goodbye!"
+   ],
+   "d": 3,
+   "x": "Rahmatga javoban: You're welcome! — Arzimaydi!",
+   "say": "Thank you!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_1",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "7",
+   "w": [
+    "1",
+    "11",
+    "17"
+   ],
+   "d": 1,
+   "x": "seven — 7",
+   "say": "seven",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_2",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "12",
+   "w": [
+    "2",
+    "20",
+    "21"
+   ],
+   "d": 1,
+   "x": "twelve — 12",
+   "say": "twelve",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_3",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "15",
+   "w": [
+    "50",
+    "5",
+    "14"
+   ],
+   "d": 1,
+   "x": "fifteen — 15",
+   "say": "fifteen",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_4",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "3",
+   "w": [
+    "13",
+    "30",
+    "8"
+   ],
+   "d": 1,
+   "x": "three — 3",
+   "say": "three",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_5",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "20",
+   "w": [
+    "12",
+    "2",
+    "22"
+   ],
+   "d": 1,
+   "x": "twenty — 20",
+   "say": "twenty",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_6",
+   "t": "choice",
+   "q": "“Sakkiz” inglizcha qanday?",
+   "a": "eight",
+   "w": [
+    "eighteen",
+    "eighty",
+    "three"
+   ],
+   "d": 1,
+   "x": "8 — eight; 18 — eighteen; 80 — eighty."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_7",
+   "t": "choice",
+   "q": "“O‘n bir” inglizcha qanday?",
+   "a": "eleven",
+   "w": [
+    "seven",
+    "twelve",
+    "one"
+   ],
+   "d": 1,
+   "x": "11 — eleven."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_8",
+   "t": "choice",
+   "q": "“nine” — bu qaysi son?",
+   "a": "9",
+   "w": [
+    "5",
+    "19",
+    "90"
+   ],
+   "d": 1,
+   "x": "nine — 9; nineteen — 19; ninety — 90.",
+   "say": "nine",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_9",
+   "t": "match",
+   "q": "Son va so‘zni juftlang",
+   "pairs": [
+    [
+     "1",
+     "one"
+    ],
+    [
+     "2",
+     "two"
+    ],
+    [
+     "3",
+     "three"
+    ],
+    [
+     "4",
+     "four"
+    ],
+    [
+     "5",
+     "five"
+    ],
+    [
+     "6",
+     "six"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_10",
+   "t": "match",
+   "q": "11 dan 19 gacha: son va so‘zni juftlang",
+   "pairs": [
+    [
+     "11",
+     "eleven"
+    ],
+    [
+     "12",
+     "twelve"
+    ],
+    [
+     "13",
+     "thirteen"
+    ],
+    [
+     "14",
+     "fourteen"
+    ],
+    [
+     "16",
+     "sixteen"
+    ],
+    [
+     "19",
+     "nineteen"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_11",
+   "t": "choice",
+   "q": "5 soni inglizcha qanday yoziladi?",
+   "a": "five",
+   "w": [
+    "fife",
+    "fiev",
+    "fiwe"
+   ],
+   "d": 1,
+   "x": "5 — five."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_12",
+   "t": "choice",
+   "q": "Hisoblang: 2 + 3. Javobni inglizcha tanlang",
+   "a": "five",
+   "w": [
+    "four",
+    "six",
+    "three"
+   ],
+   "d": 1,
+   "x": "2 + 3 = 5 — five."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_13",
+   "t": "choice",
+   "q": "Hisoblang: 10 + 10. Javobni inglizcha tanlang",
+   "a": "twenty",
+   "w": [
+    "twelve",
+    "ten",
+    "thirty"
+   ],
+   "d": 1,
+   "x": "10 + 10 = 20 — twenty."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_14",
+   "t": "tf",
+   "q": "“six” — 6 degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: six — 6.",
+   "say": "six",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_15",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I'm ... years old. (10)",
+   "a": "ten",
+   "w": [
+    "two",
+    "twelve",
+    "one"
+   ],
+   "d": 1,
+   "x": "10 — ten: I'm ten years old.",
+   "say": "I'm ... years old.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_16",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "30",
+   "w": [
+    "13",
+    "3",
+    "33"
+   ],
+   "d": 2,
+   "x": "thirty — 30 (oxiri -ty); thirteen — 13 (oxiri -teen).",
+   "say": "thirty",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_17",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "13",
+   "w": [
+    "30",
+    "31",
+    "3"
+   ],
+   "d": 2,
+   "x": "thirteen — 13 (oxiri -teen).",
+   "say": "thirteen",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_18",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "40",
+   "w": [
+    "14",
+    "4",
+    "44"
+   ],
+   "d": 2,
+   "x": "forty — 40.",
+   "say": "forty",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_19",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "90",
+   "w": [
+    "19",
+    "9",
+    "99"
+   ],
+   "d": 2,
+   "x": "ninety — 90.",
+   "say": "ninety",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_20",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "100",
+   "w": [
+    "10",
+    "1",
+    "1000"
+   ],
+   "d": 2,
+   "x": "one hundred — 100.",
+   "say": "one hundred",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_21",
+   "t": "choice",
+   "q": "“Ellik” inglizcha qanday?",
+   "a": "fifty",
+   "w": [
+    "fifteen",
+    "five",
+    "sixty"
+   ],
+   "d": 2,
+   "x": "50 — fifty; 15 — fifteen."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_22",
+   "t": "choice",
+   "q": "“Yetmish” inglizcha qanday?",
+   "a": "seventy",
+   "w": [
+    "seventeen",
+    "seven",
+    "sixty"
+   ],
+   "d": 2,
+   "x": "70 — seventy; 17 — seventeen."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_23",
+   "t": "match",
+   "q": "O‘nliklarni juftlang",
+   "pairs": [
+    [
+     "20",
+     "twenty"
+    ],
+    [
+     "30",
+     "thirty"
+    ],
+    [
+     "40",
+     "forty"
+    ],
+    [
+     "50",
+     "fifty"
+    ],
+    [
+     "60",
+     "sixty"
+    ],
+    [
+     "80",
+     "eighty"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_24",
+   "t": "choice",
+   "q": "Qaysi son tushib qolgan? ten, twenty, thirty, ...",
+   "a": "forty",
+   "w": [
+    "fourteen",
+    "fifty",
+    "thirteen"
+   ],
+   "d": 2,
+   "x": "10, 20, 30, 40 — forty.",
+   "say": "ten, twenty, thirty, ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_25",
+   "t": "tf",
+   "q": "“fourteen” — 40 degani.",
+   "a": false,
+   "d": 2,
+   "x": "fourteen — 14; 40 esa — forty.",
+   "say": "fourteen",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_26",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "forty",
+   "w": [
+    "fourty",
+    "fortey",
+    "fourtey"
+   ],
+   "d": 3,
+   "x": "40 — forty: “four” so‘zidagi u harfi tushib qoladi."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_27",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "25",
+   "w": [
+    "52",
+    "35",
+    "15"
+   ],
+   "d": 3,
+   "x": "twenty-five — 25 (20 + 5).",
+   "say": "twenty-five",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_28",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "68",
+   "w": [
+    "86",
+    "16",
+    "60"
+   ],
+   "d": 3,
+   "x": "sixty-eight — 68 (60 + 8).",
+   "say": "sixty-eight",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_29",
+   "t": "choice",
+   "q": "Tinglang va sonni tanlang",
+   "a": "47",
+   "w": [
+    "74",
+    "17",
+    "40"
+   ],
+   "d": 3,
+   "x": "forty-seven — 47 (40 + 7).",
+   "say": "forty-seven",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_30",
+   "t": "choice",
+   "q": "36 inglizcha qanday?",
+   "a": "thirty-six",
+   "w": [
+    "sixty-three",
+    "thirteen-six",
+    "thirty-seven"
+   ],
+   "d": 3,
+   "x": "36 = 30 + 6 — thirty-six."
+  },
+  {
+   "topic": "english_g3.numbers",
+   "id": "numbers_31",
+   "t": "choice",
+   "q": "Hisoblang: 50 + 20. Javobni inglizcha tanlang",
+   "a": "seventy",
+   "w": [
+    "seventeen",
+    "sixty",
+    "eighty"
+   ],
+   "d": 3,
+   "x": "50 + 20 = 70 — seventy."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_1",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "an apple",
+   "w": [
+    "a apple",
+    "an apples",
+    "a apples"
+   ],
+   "d": 1,
+   "x": "apple unli a bilan boshlanadi: an apple."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_2",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "a pencil",
+   "w": [
+    "an pencil",
+    "a pencils",
+    "an pencils"
+   ],
+   "d": 1,
+   "x": "pencil undosh p bilan boshlanadi: a pencil."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_3",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "an egg",
+   "w": [
+    "a egg",
+    "an eggs",
+    "a eggs"
+   ],
+   "d": 1,
+   "x": "egg unli e bilan boshlanadi: an egg."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_4",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "a dog",
+   "w": [
+    "an dog",
+    "a dogs",
+    "an dogs"
+   ],
+   "d": 1,
+   "x": "dog undosh d bilan boshlanadi: a dog."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_5",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "an orange",
+   "w": [
+    "a orange",
+    "an oranges",
+    "a oranges"
+   ],
+   "d": 1,
+   "x": "orange unli o bilan boshlanadi: an orange."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_6",
+   "t": "choice",
+   "q": "Qaysi so‘z oldidan “an” qo‘yiladi?",
+   "a": "elephant",
+   "w": [
+    "dog",
+    "book",
+    "cat"
+   ],
+   "d": 1,
+   "x": "elephant unli e bilan boshlanadi: an elephant."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_7",
+   "t": "choice",
+   "q": "Qaysi so‘z oldidan “a” qo‘yiladi?",
+   "a": "ball",
+   "w": [
+    "egg",
+    "apple",
+    "ice cream"
+   ],
+   "d": 1,
+   "x": "ball undosh b bilan boshlanadi: a ball."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_8",
+   "t": "choice",
+   "q": "“Bu kitob.” inglizcha qanday?",
+   "a": "This is a book.",
+   "w": [
+    "These are a book.",
+    "This are a book.",
+    "These is books."
+   ],
+   "d": 1,
+   "x": "Bitta narsa: This is a book."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_9",
+   "t": "choice",
+   "q": "“Bular qalamlar.” inglizcha qanday?",
+   "a": "These are pencils.",
+   "w": [
+    "This is pencils.",
+    "These are a pencil.",
+    "This are pencils."
+   ],
+   "d": 1,
+   "x": "Ko‘p narsa: These are pencils."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_10",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: This ... a ruler.",
+   "a": "is",
+   "w": [
+    "are",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Bitta narsa — This is: This is a ruler.",
+   "say": "This ... a ruler.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_11",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: These ... books.",
+   "a": "are",
+   "w": [
+    "is",
+    "am",
+    "a"
+   ],
+   "d": 1,
+   "x": "Ko‘p narsa — These are: These are books.",
+   "say": "These ... books.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_12",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... is a bag.",
+   "a": "This",
+   "w": [
+    "These",
+    "Are",
+    "Is"
+   ],
+   "d": 1,
+   "x": "This is a bag. — Bu sumka.",
+   "say": "... is a bag.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_13",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... are toys.",
+   "a": "These",
+   "w": [
+    "This",
+    "Is",
+    "It"
+   ],
+   "d": 1,
+   "x": "These are toys. — Bular o‘yinchoqlar.",
+   "say": "... are toys.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_14",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Bu nima?",
+   "w": [
+    "Bular nima?",
+    "Bu kim?",
+    "U qayerda?"
+   ],
+   "d": 1,
+   "x": "What is this? — Bu nima?",
+   "say": "What is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_15",
+   "t": "choice",
+   "q": "Rasmga qarang. What is this?",
+   "a": "It's an apple.",
+   "w": [
+    "It's a apple.",
+    "They are apples.",
+    "It's an egg."
+   ],
+   "d": 1,
+   "x": "Bu olma: It's an apple.",
+   "e": "🍎",
+   "say": "What is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_16",
+   "t": "choice",
+   "q": "Rasmga qarang. What is this?",
+   "a": "It's a cat.",
+   "w": [
+    "It's an cat.",
+    "It's a dog.",
+    "These are cats."
+   ],
+   "d": 1,
+   "x": "Bu mushuk: It's a cat.",
+   "e": "🐱",
+   "say": "What is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_17",
+   "t": "choice",
+   "q": "Rasmga qarang. What is this?",
+   "a": "It's an egg.",
+   "w": [
+    "It's a egg.",
+    "It's an apple.",
+    "They are eggs."
+   ],
+   "d": 1,
+   "x": "Bu tuxum: It's an egg.",
+   "e": "🥚",
+   "say": "What is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_18",
+   "t": "choice",
+   "q": "Rasmga qarang. What is this?",
+   "a": "It's a book.",
+   "w": [
+    "It's an book.",
+    "It's a pen.",
+    "These are books."
+   ],
+   "d": 1,
+   "x": "Bu kitob: It's a book.",
+   "e": "📕",
+   "say": "What is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_19",
+   "t": "match",
+   "q": "Maktab buyumlarini tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "pen",
+     "ruchka"
+    ],
+    [
+     "bag",
+     "sumka"
+    ],
+    [
+     "ruler",
+     "chizg‘ich"
+    ],
+    [
+     "desk",
+     "parta"
+    ],
+    [
+     "rubber",
+     "o‘chirg‘ich"
+    ],
+    [
+     "book",
+     "kitob"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_20",
+   "t": "match",
+   "q": "Kiyimlarni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "hat",
+     "shlyapa"
+    ],
+    [
+     "socks",
+     "paypoq"
+    ],
+    [
+     "coat",
+     "palto"
+    ],
+    [
+     "T-shirt",
+     "futbolka"
+    ],
+    [
+     "trousers",
+     "shim"
+    ],
+    [
+     "skirt",
+     "yubka"
+    ],
+    [
+     "scarf",
+     "sharf"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_21",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "an umbrella",
+   "w": [
+    "a umbrella",
+    "an umbrellas",
+    "a umbrellas"
+   ],
+   "d": 2,
+   "x": "umbrella unli u bilan boshlanadi: an umbrella."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_22",
+   "t": "tf",
+   "q": "“an umbrella” — to‘g‘ri yozilgan.",
+   "a": true,
+   "d": 2,
+   "x": "umbrella unli u bilan boshlanadi, shuning uchun an.",
+   "say": "an umbrella",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_23",
+   "t": "tf",
+   "q": "“a elephant” — to‘g‘ri yozilgan.",
+   "a": false,
+   "d": 2,
+   "x": "elephant unli e bilan boshlanadi: an elephant.",
+   "say": "a elephant",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_24",
+   "t": "choice",
+   "q": "“book” so‘zining ko‘plik shakli qaysi?",
+   "a": "books",
+   "w": [
+    "book",
+    "bookes",
+    "a books"
+   ],
+   "d": 2,
+   "x": "Ko‘plikda -s qo‘shiladi: books.",
+   "say": "book",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_25",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: These are ...",
+   "a": "dolls",
+   "w": [
+    "doll",
+    "a doll",
+    "an doll"
+   ],
+   "d": 2,
+   "x": "These are dan keyin ko‘plik: These are dolls.",
+   "say": "These are ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_26",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "This is an orange.",
+   "w": [
+    "This is a orange.",
+    "These is an orange.",
+    "This are an orange."
+   ],
+   "d": 2,
+   "x": "This is + an orange (orange unli bilan boshlanadi)."
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_27",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "This",
+    "is",
+    "a",
+    "red",
+    "pen"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "This is a red pen. — Bu qizil ruchka.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_28",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "These",
+    "are",
+    "my",
+    "books"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "These are my books. — Bular mening kitoblarim.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_29",
+   "t": "choice",
+   "q": "“box” so‘zining ko‘plik shakli qaysi?",
+   "a": "boxes",
+   "w": [
+    "boxs",
+    "box",
+    "boxies"
+   ],
+   "d": 3,
+   "x": "x harfidan keyin -es qo‘shiladi: boxes.",
+   "say": "box",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_30",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "It",
+    "is",
+    "an",
+    "orange",
+    "ball"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "orange (to‘q sariq) unli bilan boshlanadi: an orange ball.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_31",
+   "t": "choice",
+   "q": "“Bular nima?” inglizcha qanday?",
+   "a": "What are these?",
+   "w": [
+    "What is this?",
+    "What is these?",
+    "Who are these?"
+   ],
+   "d": 3,
+   "x": "Ko‘p narsa haqida: What are these?"
+  },
+  {
+   "topic": "english_g3.this_these",
+   "id": "this_these_32",
+   "t": "choice",
+   "q": "“What are these?” savoliga mos javobni tanlang",
+   "a": "They are socks.",
+   "w": [
+    "It's a sock.",
+    "It is socks.",
+    "This is socks."
+   ],
+   "d": 3,
+   "x": "Ko‘p narsa: They are socks. — Ular paypoqlar.",
+   "say": "What are these?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_1",
+   "t": "choice",
+   "q": "“Ona” inglizcha qanday?",
+   "a": "mother",
+   "w": [
+    "father",
+    "sister",
+    "brother"
+   ],
+   "d": 1,
+   "x": "mother (mum) — ona."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_2",
+   "t": "choice",
+   "q": "“Ota” inglizcha qanday?",
+   "a": "father",
+   "w": [
+    "mother",
+    "grandfather",
+    "baby"
+   ],
+   "d": 1,
+   "x": "father (dad) — ota."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_3",
+   "t": "choice",
+   "q": "“brother” so‘zining tarjimasi qaysi?",
+   "a": "aka yoki uka",
+   "w": [
+    "opa yoki singil",
+    "ota",
+    "bobo"
+   ],
+   "d": 1,
+   "x": "brother — aka yoki uka",
+   "say": "brother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_4",
+   "t": "choice",
+   "q": "“sister” so‘zining tarjimasi qaysi?",
+   "a": "opa yoki singil",
+   "w": [
+    "aka yoki uka",
+    "ona",
+    "buvi"
+   ],
+   "d": 1,
+   "x": "sister — opa yoki singil",
+   "say": "sister",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_5",
+   "t": "choice",
+   "q": "“Buvi” inglizcha qanday?",
+   "a": "grandmother",
+   "w": [
+    "grandfather",
+    "mother",
+    "sister"
+   ],
+   "d": 1,
+   "x": "grandmother (granny) — buvi."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_6",
+   "t": "choice",
+   "q": "“Bobo” inglizcha qanday?",
+   "a": "grandfather",
+   "w": [
+    "grandmother",
+    "father",
+    "brother"
+   ],
+   "d": 1,
+   "x": "grandfather (grandpa) — bobo."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_7",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "mother",
+     "ona"
+    ],
+    [
+     "father",
+     "ota"
+    ],
+    [
+     "grandmother",
+     "buvi"
+    ],
+    [
+     "grandfather",
+     "bobo"
+    ],
+    [
+     "baby",
+     "chaqaloq"
+    ],
+    [
+     "family",
+     "oila"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_8",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Bu mening onam.",
+   "w": [
+    "Bu mening otam.",
+    "Bu mening singlim.",
+    "U mening buvim."
+   ],
+   "d": 1,
+   "x": "This is my mother. — Bu mening onam.",
+   "say": "This is my mother.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_9",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Bu kim?",
+   "w": [
+    "Bu nima?",
+    "Isming nima?",
+    "Qalaysan?"
+   ],
+   "d": 1,
+   "x": "Who — kim? What — nima?",
+   "say": "Who is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_10",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... is my brother.",
+   "a": "He",
+   "w": [
+    "She",
+    "I",
+    "They"
+   ],
+   "d": 1,
+   "x": "brother — o‘g‘il bola, shuning uchun He.",
+   "say": "... is my brother.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_11",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... is my sister.",
+   "a": "She",
+   "w": [
+    "He",
+    "I",
+    "They"
+   ],
+   "d": 1,
+   "x": "sister — qiz bola, shuning uchun She.",
+   "say": "... is my sister.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_12",
+   "t": "choice",
+   "q": "“dad” so‘zining tarjimasi qaysi?",
+   "a": "ota",
+   "w": [
+    "ona",
+    "aka",
+    "bobo"
+   ],
+   "d": 1,
+   "x": "dad — ota (father so‘zining qisqa, mehrli shakli).",
+   "say": "dad",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_13",
+   "t": "tf",
+   "q": "“grandfather” — bobo degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: grandfather — bobo.",
+   "say": "grandfather",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_14",
+   "t": "tf",
+   "q": "“mum” — ota degani.",
+   "a": false,
+   "d": 1,
+   "x": "mum — ona (mother); ota esa — dad (father).",
+   "say": "mum",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_15",
+   "t": "choice",
+   "q": "Onangizning onasi sizga kim bo‘ladi? Inglizcha tanlang",
+   "a": "grandmother",
+   "w": [
+    "mother",
+    "sister",
+    "grandfather"
+   ],
+   "d": 2,
+   "x": "Onaning onasi — buvi: grandmother."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_16",
+   "t": "choice",
+   "q": "Otangizning otasi sizga kim bo‘ladi? Inglizcha tanlang",
+   "a": "grandfather",
+   "w": [
+    "father",
+    "brother",
+    "grandmother"
+   ],
+   "d": 2,
+   "x": "Otaning otasi — bobo: grandfather."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_17",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: This is my ... . She is ten.",
+   "a": "sister",
+   "w": [
+    "brother",
+    "father",
+    "grandfather"
+   ],
+   "d": 2,
+   "x": "She — qiz bola haqida: sister.",
+   "say": "This is my ... . She is ten.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_18",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: This is my ... . He is a doctor.",
+   "a": "father",
+   "w": [
+    "mother",
+    "sister",
+    "grandmother"
+   ],
+   "d": 2,
+   "x": "He — erkak kishi haqida: father.",
+   "say": "This is my ... . He is a doctor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_19",
+   "t": "choice",
+   "q": "“Who is this?” savoliga mos javobni tanlang",
+   "a": "This is my grandpa.",
+   "w": [
+    "It is a pen.",
+    "I'm fine, thank you.",
+    "I'm nine."
+   ],
+   "d": 2,
+   "x": "Who? — kim? Javobda odam aytiladi: This is my grandpa.",
+   "say": "Who is this?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_20",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "pencil",
+   "w": [
+    "mother",
+    "brother",
+    "sister"
+   ],
+   "d": 2,
+   "x": "pencil — qalam; qolganlari oila a’zolari."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "This",
+    "is",
+    "my",
+    "little",
+    "brother"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "This is my little brother. — Bu mening ukam.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "She",
+    "is",
+    "my",
+    "mum"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "She is my mum. — U mening onam.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_23",
+   "t": "tf",
+   "q": "“She is my father.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 2,
+   "x": "father — erkak kishi, shuning uchun: He is my father.",
+   "say": "She is my father.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_24",
+   "t": "choice",
+   "q": "“Mening oilam katta.” inglizcha qanday?",
+   "a": "My family is big.",
+   "w": [
+    "My family is small.",
+    "My big is family.",
+    "Me family is big."
+   ],
+   "d": 3,
+   "x": "big — katta, small — kichik: My family is big."
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_25",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Uning ismi Nodira.",
+   "w": [
+    "Mening ismim Nodira.",
+    "Sening isming Nodira.",
+    "U mening singlim."
+   ],
+   "d": 3,
+   "x": "Her name — uning (qizning) ismi.",
+   "say": "Her name is Nodira.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_26",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: This is my brother. ... name is Aziz.",
+   "a": "His",
+   "w": [
+    "Her",
+    "She",
+    "He"
+   ],
+   "d": 3,
+   "x": "O‘g‘il bolaning ismi — his name, qiz bolaning ismi — her name.",
+   "say": "This is my brother. ... name is Aziz.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.family",
+   "id": "family_27",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "granny",
+    "is",
+    "very",
+    "kind"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "My granny is very kind. — Buvim juda mehribon.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_1",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I ... got a dog.",
+   "a": "have",
+   "w": [
+    "has",
+    "am",
+    "is"
+   ],
+   "d": 1,
+   "x": "I bilan have got: I have got a dog.",
+   "say": "I ... got a dog.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_2",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: She ... got a doll.",
+   "a": "has",
+   "w": [
+    "have",
+    "are",
+    "am"
+   ],
+   "d": 1,
+   "x": "she bilan has got: She has got a doll.",
+   "say": "She ... got a doll.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_3",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: He ... got a bike.",
+   "a": "has",
+   "w": [
+    "have",
+    "am",
+    "are"
+   ],
+   "d": 1,
+   "x": "he bilan has got: He has got a bike.",
+   "say": "He ... got a bike.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_4",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: We ... got a big house.",
+   "a": "have",
+   "w": [
+    "has",
+    "is",
+    "am"
+   ],
+   "d": 1,
+   "x": "we bilan have got.",
+   "say": "We ... got a big house.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_5",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: They ... got a cat.",
+   "a": "have",
+   "w": [
+    "has",
+    "is",
+    "am"
+   ],
+   "d": 1,
+   "x": "they bilan have got.",
+   "say": "They ... got a cat.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_6",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: The rabbit ... got long ears.",
+   "a": "has",
+   "w": [
+    "have",
+    "are",
+    "am"
+   ],
+   "d": 1,
+   "x": "The rabbit = it, shuning uchun has got.",
+   "say": "The rabbit ... got long ears.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_7",
+   "t": "choice",
+   "q": "“Ko‘z” inglizcha qanday?",
+   "a": "eye",
+   "w": [
+    "ear",
+    "nose",
+    "hand"
+   ],
+   "d": 1,
+   "x": "eye — ko‘z; eyes — ko‘zlar.",
+   "e": "👀"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_8",
+   "t": "choice",
+   "q": "“Quloq” inglizcha qanday?",
+   "a": "ear",
+   "w": [
+    "eye",
+    "mouth",
+    "leg"
+   ],
+   "d": 1,
+   "x": "ear — quloq.",
+   "e": "👂"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_9",
+   "t": "choice",
+   "q": "“Burun” inglizcha qanday?",
+   "a": "nose",
+   "w": [
+    "mouth",
+    "head",
+    "ear"
+   ],
+   "d": 1,
+   "x": "nose — burun.",
+   "e": "👃"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_10",
+   "t": "match",
+   "q": "Tana a’zolarini tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "head",
+     "bosh"
+    ],
+    [
+     "eye",
+     "ko‘z"
+    ],
+    [
+     "ear",
+     "quloq"
+    ],
+    [
+     "nose",
+     "burun"
+    ],
+    [
+     "mouth",
+     "og‘iz"
+    ],
+    [
+     "hand",
+     "qo‘l"
+    ],
+    [
+     "leg",
+     "oyoq"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_11",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Mening mushugim bor.",
+   "w": [
+    "Mening itim bor.",
+    "Uning mushugi bor.",
+    "Mening mushugim yo‘q."
+   ],
+   "d": 1,
+   "x": "I have got a cat. — Mening mushugim bor.",
+   "say": "I have got a cat.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_12",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Uning qo‘g‘irchog‘i bor.",
+   "w": [
+    "Mening qo‘g‘irchog‘im bor.",
+    "Uning to‘pi bor.",
+    "Uning qo‘g‘irchog‘i yo‘q."
+   ],
+   "d": 1,
+   "x": "She has got a doll. — Uning qo‘g‘irchog‘i bor.",
+   "say": "She has got a doll.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_13",
+   "t": "tf",
+   "q": "“I has got a ball.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "I bilan have got ishlatiladi: I have got a ball.",
+   "say": "I has got a ball.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_14",
+   "t": "tf",
+   "q": "“He has got a kite.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: he bilan has got.",
+   "say": "He has got a kite.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_15",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I have got two ...",
+   "a": "eyes",
+   "w": [
+    "eye",
+    "a eye",
+    "an eyes"
+   ],
+   "d": 2,
+   "x": "Ikkita — ko‘plik: two eyes.",
+   "say": "I have got two ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_16",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "A cat has got four legs.",
+   "w": [
+    "A cat have got four legs.",
+    "A cat has got four leg.",
+    "A cat has got two legs."
+   ],
+   "d": 2,
+   "x": "a cat = it → has got; mushukning to‘rtta oyog‘i bor."
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_17",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "We have got two hands.",
+   "w": [
+    "We has got two hands.",
+    "We have got two hand.",
+    "We have got three hands."
+   ],
+   "d": 2,
+   "x": "we → have got; ikkita qo‘l — two hands."
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_18",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: My brother ... got a computer.",
+   "a": "has",
+   "w": [
+    "have",
+    "is",
+    "are"
+   ],
+   "d": 2,
+   "x": "My brother = he, shuning uchun has got.",
+   "say": "My brother ... got a computer.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_19",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Have you got a pet? — Yes, I ...",
+   "a": "have",
+   "w": [
+    "has",
+    "am",
+    "got"
+   ],
+   "d": 2,
+   "x": "Qisqa javob: Yes, I have. / No, I haven't.",
+   "say": "Have you got a pet? — Yes, I ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_20",
+   "t": "choice",
+   "q": "“Mening akam bor.” inglizcha qanday?",
+   "a": "I have got a brother.",
+   "w": [
+    "I has got a brother.",
+    "He has got a brother.",
+    "I have got a sister."
+   ],
+   "d": 2,
+   "x": "Mening … bor — I have got …"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_21",
+   "t": "choice",
+   "q": "Qaysi so‘z tana a’zosi emas?",
+   "a": "desk",
+   "w": [
+    "arm",
+    "leg",
+    "head"
+   ],
+   "d": 2,
+   "x": "desk — parta; arm, leg, head — tana a’zolari."
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "have",
+    "got",
+    "a",
+    "new",
+    "ball"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I have got a new ball. — Mening yangi to‘pim bor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "sister",
+    "has",
+    "got",
+    "long",
+    "hair"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My sister has got long hair. — Opamning sochi uzun.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_24",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Has she got a bike? — No, she ...",
+   "a": "hasn't",
+   "w": [
+    "haven't",
+    "isn't",
+    "has"
+   ],
+   "d": 3,
+   "x": "she bilan: Yes, she has. / No, she hasn't.",
+   "say": "Has she got a bike? — No, she ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Have",
+    "you",
+    "got",
+    "a",
+    "brother"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Have you got a brother? — Sening akang (ukang) bormi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_26",
+   "t": "choice",
+   "q": "Qaysi gap “yo‘q” (inkor) ma’nosida?",
+   "a": "I haven't got a pet.",
+   "w": [
+    "I have got a pet.",
+    "I've got a pet.",
+    "Have you got a pet?"
+   ],
+   "d": 3,
+   "x": "haven't got — yo‘q: Mening uy hayvonim yo‘q."
+  },
+  {
+   "topic": "english_g3.have_got",
+   "id": "have_got_27",
+   "t": "tf",
+   "q": "“The elephant has got a long nose.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 3,
+   "x": "The elephant = it → has got; filning burni (xartumi) uzun.",
+   "say": "The elephant has got a long nose.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_1",
+   "t": "choice",
+   "q": "“swim” so‘zining tarjimasi qaysi?",
+   "a": "suzmoq",
+   "w": [
+    "yugurmoq",
+    "uchmoq",
+    "sakramoq"
+   ],
+   "d": 1,
+   "x": "swim — suzmoq",
+   "e": "🏊",
+   "say": "swim",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_2",
+   "t": "choice",
+   "q": "“uchmoq” inglizcha qanday?",
+   "a": "fly",
+   "w": [
+    "run",
+    "swim",
+    "jump"
+   ],
+   "d": 1,
+   "x": "fly — uchmoq."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_3",
+   "t": "choice",
+   "q": "“sakramoq” inglizcha qanday?",
+   "a": "jump",
+   "w": [
+    "climb",
+    "sing",
+    "fly"
+   ],
+   "d": 1,
+   "x": "jump — sakramoq."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_4",
+   "t": "choice",
+   "q": "“run” so‘zining tarjimasi qaysi?",
+   "a": "yugurmoq",
+   "w": [
+    "suzmoq",
+    "o‘qimoq",
+    "raqsga tushmoq"
+   ],
+   "d": 1,
+   "x": "run — yugurmoq",
+   "e": "🏃",
+   "say": "run",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_5",
+   "t": "match",
+   "q": "Fe’lni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "swim",
+     "suzmoq"
+    ],
+    [
+     "run",
+     "yugurmoq"
+    ],
+    [
+     "jump",
+     "sakramoq"
+    ],
+    [
+     "fly",
+     "uchmoq"
+    ],
+    [
+     "sing",
+     "qo‘shiq aytmoq"
+    ],
+    [
+     "dance",
+     "raqsga tushmoq"
+    ],
+    [
+     "climb",
+     "tirmashib chiqmoq"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_6",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Men suza olaman.",
+   "w": [
+    "Men suza olmayman.",
+    "U suza oladi.",
+    "Men yugura olaman."
+   ],
+   "d": 1,
+   "x": "I can swim. — Men suza olaman.",
+   "say": "I can swim.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_7",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Men ucha olmayman.",
+   "w": [
+    "Men ucha olaman.",
+    "Qush ucha oladi.",
+    "Men sakray olmayman."
+   ],
+   "d": 1,
+   "x": "I can't fly. — Men ucha olmayman.",
+   "say": "I can't fly.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_8",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "A fish can swim.",
+   "w": [
+    "A fish can run.",
+    "A fish can sing.",
+    "A fish can ride a bike."
+   ],
+   "d": 1,
+   "x": "Baliq suza oladi: A fish can swim.",
+   "e": "🐟"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_9",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "A bird can fly.",
+   "w": [
+    "A dog can fly.",
+    "A cow can fly.",
+    "A cat can fly."
+   ],
+   "d": 1,
+   "x": "Qush ucha oladi: A bird can fly.",
+   "e": "🐦"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_10",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: A monkey ... climb trees.",
+   "a": "can",
+   "w": [
+    "can't",
+    "is",
+    "has"
+   ],
+   "d": 1,
+   "x": "Maymun daraxtga chiqa oladi: A monkey can climb trees.",
+   "e": "🐒",
+   "say": "A monkey ... climb trees.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_11",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: A cat ... fly.",
+   "a": "can't",
+   "w": [
+    "can",
+    "is",
+    "have"
+   ],
+   "d": 1,
+   "x": "Mushuk ucha olmaydi: A cat can't fly.",
+   "say": "A cat ... fly.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_12",
+   "t": "tf",
+   "q": "“A horse can run.” — to‘g‘ri fikr.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: ot yugura oladi.",
+   "say": "A horse can run.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_13",
+   "t": "tf",
+   "q": "“A snake can walk.” — to‘g‘ri fikr.",
+   "a": false,
+   "d": 1,
+   "x": "Ilonning oyog‘i yo‘q — u yura olmaydi, sudralib yuradi.",
+   "say": "A snake can walk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_14",
+   "t": "choice",
+   "q": "Qaysi hayvon ucha oladi?",
+   "a": "a parrot",
+   "w": [
+    "a cow",
+    "a dog",
+    "a horse"
+   ],
+   "d": 1,
+   "x": "parrot — to‘tiqush, u ucha oladi."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_15",
+   "t": "choice",
+   "q": "“Can you swim?” savoliga qisqa javobni tanlang",
+   "a": "Yes, I can.",
+   "w": [
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, I have."
+   ],
+   "d": 2,
+   "x": "Can bilan savolga can bilan javob beramiz: Yes, I can.",
+   "say": "Can you swim?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_16",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "She can dance.",
+   "w": [
+    "She cans dance.",
+    "She can dances.",
+    "She can to dance."
+   ],
+   "d": 2,
+   "x": "can ga ham, undan keyingi fe’lga ham -s qo‘shilmaydi: She can dance."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_17",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "He can't sing.",
+   "w": [
+    "He can't sings.",
+    "He cant sing.",
+    "He can'ts sing."
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: can't (apostrof bilan), fe’l o‘zgarmaydi."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_18",
+   "t": "choice",
+   "q": "“Men shaxmat o‘ynay olaman.” inglizcha qanday?",
+   "a": "I can play chess.",
+   "w": [
+    "I can't play chess.",
+    "I can plays chess.",
+    "I play can chess."
+   ],
+   "d": 2,
+   "x": "can + fe’l: I can play chess."
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_19",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Sen raqsga tusha olasanmi?",
+   "w": [
+    "Men raqsga tusha olaman.",
+    "U raqsga tusha olmaydi.",
+    "Sen qo‘shiq ayta olasanmi?"
+   ],
+   "d": 2,
+   "x": "Can you dance? — Sen raqsga tusha olasanmi?",
+   "say": "Can you dance?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_20",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: A baby ... read.",
+   "a": "can't",
+   "w": [
+    "can",
+    "cans",
+    "is"
+   ],
+   "d": 2,
+   "x": "Chaqaloq o‘qiy olmaydi: A baby can't read.",
+   "say": "A baby ... read.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "can",
+    "ride",
+    "a",
+    "bike"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I can ride a bike. — Men velosiped hayday olaman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "brother",
+    "can",
+    "play",
+    "chess"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My brother can play chess. — Akam shaxmat o‘ynay oladi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_23",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Can",
+    "you",
+    "play",
+    "football"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Can you play football? — Sen futbol o‘ynay olasanmi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_24",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Can a penguin fly? — No, it ...",
+   "a": "can't",
+   "w": [
+    "can",
+    "isn't",
+    "doesn't"
+   ],
+   "d": 3,
+   "x": "Pingvin ucha olmaydi: No, it can't.",
+   "say": "Can a penguin fly? — No, it ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_25",
+   "t": "choice",
+   "q": "Topishmoqni toping: It can swim, but it can't walk.",
+   "a": "a fish",
+   "w": [
+    "a cat",
+    "a horse",
+    "a bird"
+   ],
+   "d": 3,
+   "x": "Suza oladi, lekin yura olmaydi — baliq (a fish).",
+   "say": "It can swim, but it can't walk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.can",
+   "id": "can_26",
+   "t": "choice",
+   "q": "Topishmoqni toping: It can fly. It can sing. It has got two legs.",
+   "a": "a bird",
+   "w": [
+    "a fish",
+    "a cat",
+    "a frog"
+   ],
+   "d": 3,
+   "x": "Ucha oladi, sayray oladi, ikki oyog‘i bor — qush (a bird).",
+   "say": "It can fly. It can sing. It has got two legs.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_1",
+   "t": "choice",
+   "q": "“Dushanba” inglizcha qanday?",
+   "a": "Monday",
+   "w": [
+    "Sunday",
+    "Tuesday",
+    "Friday"
+   ],
+   "d": 1,
+   "x": "Dushanba — Monday"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_2",
+   "t": "choice",
+   "q": "“Juma” inglizcha qanday?",
+   "a": "Friday",
+   "w": [
+    "Thursday",
+    "Monday",
+    "Saturday"
+   ],
+   "d": 1,
+   "x": "Juma — Friday"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_3",
+   "t": "choice",
+   "q": "“Sunday” — bu qaysi kun?",
+   "a": "yakshanba",
+   "w": [
+    "shanba",
+    "dushanba",
+    "juma"
+   ],
+   "d": 1,
+   "x": "Sunday — yakshanba.",
+   "say": "Sunday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_4",
+   "t": "choice",
+   "q": "“Wednesday” — bu qaysi kun?",
+   "a": "chorshanba",
+   "w": [
+    "seshanba",
+    "payshanba",
+    "dushanba"
+   ],
+   "d": 1,
+   "x": "Wednesday — chorshanba.",
+   "say": "Wednesday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_5",
+   "t": "choice",
+   "q": "Qaysi kun tushib qolgan? Monday, ..., Wednesday",
+   "a": "Tuesday",
+   "w": [
+    "Sunday",
+    "Thursday",
+    "Friday"
+   ],
+   "d": 1,
+   "x": "Monday, Tuesday, Wednesday.",
+   "say": "Monday, ..., Wednesday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_6",
+   "t": "choice",
+   "q": "Qaysi kun tushib qolgan? Thursday, ..., Saturday",
+   "a": "Friday",
+   "w": [
+    "Sunday",
+    "Monday",
+    "Wednesday"
+   ],
+   "d": 1,
+   "x": "Thursday, Friday, Saturday.",
+   "say": "Thursday, ..., Saturday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_7",
+   "t": "match",
+   "q": "Kunni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "Monday",
+     "dushanba"
+    ],
+    [
+     "Tuesday",
+     "seshanba"
+    ],
+    [
+     "Wednesday",
+     "chorshanba"
+    ],
+    [
+     "Thursday",
+     "payshanba"
+    ],
+    [
+     "Friday",
+     "juma"
+    ],
+    [
+     "Saturday",
+     "shanba"
+    ],
+    [
+     "Sunday",
+     "yakshanba"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_8",
+   "t": "tf",
+   "q": "Hafta kunlari bosh harf bilan yoziladi: Monday, Friday.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: hafta kunlari doim bosh harf bilan yoziladi.",
+   "say": "Monday, Friday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_9",
+   "t": "tf",
+   "q": "Haftada yetti kun bor: seven days.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: haftada 7 kun bor.",
+   "say": "There are seven days in a week.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_10",
+   "t": "choice",
+   "q": "Tinglang va kunni tanlang",
+   "a": "Thursday",
+   "w": [
+    "Tuesday",
+    "Saturday",
+    "Sunday"
+   ],
+   "d": 1,
+   "x": "Thursday — payshanba; Tuesday — seshanba.",
+   "say": "Thursday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_11",
+   "t": "choice",
+   "q": "Tinglang va kunni tanlang",
+   "a": "Tuesday",
+   "w": [
+    "Thursday",
+    "Wednesday",
+    "Friday"
+   ],
+   "d": 1,
+   "x": "Tuesday — seshanba.",
+   "say": "Tuesday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_12",
+   "t": "choice",
+   "q": "Tinglang va kunni tanlang",
+   "a": "Saturday",
+   "w": [
+    "Sunday",
+    "Monday",
+    "Friday"
+   ],
+   "d": 1,
+   "x": "Saturday — shanba.",
+   "say": "Saturday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_13",
+   "t": "choice",
+   "q": "Qaysi kun “T” harfi bilan boshlanadi?",
+   "a": "Tuesday",
+   "w": [
+    "Monday",
+    "Friday",
+    "Sunday"
+   ],
+   "d": 1,
+   "x": "Tuesday — T bilan boshlanadi (Thursday ham)."
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_14",
+   "t": "choice",
+   "q": "Haftada nechta kun bor? Inglizcha tanlang",
+   "a": "seven",
+   "w": [
+    "five",
+    "six",
+    "ten"
+   ],
+   "d": 1,
+   "x": "Haftada seven (7) kun bor."
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_15",
+   "t": "choice",
+   "q": "Qaysi so‘z hafta kuni emas?",
+   "a": "Monkey",
+   "w": [
+    "Monday",
+    "Sunday",
+    "Friday"
+   ],
+   "d": 1,
+   "x": "Monkey — maymun; Monday — dushanba."
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_16",
+   "t": "choice",
+   "q": "Qaysi kun tushib qolgan? Saturday, ..., Monday",
+   "a": "Sunday",
+   "w": [
+    "Friday",
+    "Tuesday",
+    "Thursday"
+   ],
+   "d": 2,
+   "x": "Saturday, Sunday, Monday.",
+   "say": "Saturday, ..., Monday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_17",
+   "t": "choice",
+   "q": "Inglizchada “weekend” qaysi kunlar?",
+   "a": "Saturday and Sunday",
+   "w": [
+    "Monday and Tuesday",
+    "Friday and Monday",
+    "Wednesday and Thursday"
+   ],
+   "d": 2,
+   "x": "weekend — hafta oxiri: Saturday and Sunday.",
+   "say": "weekend",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_18",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I have English ... Monday.",
+   "a": "on",
+   "w": [
+    "in",
+    "at",
+    "under"
+   ],
+   "d": 2,
+   "x": "Hafta kuni oldidan on: on Monday.",
+   "say": "I have English ... Monday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_19",
+   "t": "choice",
+   "q": "Bugun — Friday. Ertaga qaysi kun bo‘ladi?",
+   "a": "Saturday",
+   "w": [
+    "Thursday",
+    "Sunday",
+    "Monday"
+   ],
+   "d": 2,
+   "x": "Friday dan keyin Saturday keladi.",
+   "say": "Today is Friday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_20",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Bugun qaysi kun?",
+   "w": [
+    "Soat necha?",
+    "Isming nima?",
+    "Bugun havo qanday?"
+   ],
+   "d": 2,
+   "x": "What day is it today? — Bugun qaysi kun?",
+   "say": "What day is it today?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Today",
+    "is",
+    "Wednesday"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Today is Wednesday. — Bugun chorshanba.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "go",
+    "to",
+    "the",
+    "park",
+    "on",
+    "Sunday"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "We go to the park on Sunday. — Yakshanba kuni parkka boramiz.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_23",
+   "t": "choice",
+   "q": "Bugun — Monday. Kecha qaysi kun edi?",
+   "a": "Sunday",
+   "w": [
+    "Tuesday",
+    "Saturday",
+    "Wednesday"
+   ],
+   "d": 3,
+   "x": "Monday dan oldin Sunday keladi.",
+   "say": "Today is Monday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_24",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "Wednesday",
+   "w": [
+    "Wensday",
+    "Wednsday",
+    "wednesday"
+   ],
+   "d": 3,
+   "x": "Wednesday: d harfi eshitilmaydi, lekin yoziladi; kun nomi bosh harf bilan."
+  },
+  {
+   "topic": "english_g3.days",
+   "id": "days_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "day",
+    "is",
+    "it",
+    "today"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What day is it today? — Bugun qaysi kun?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_1",
+   "t": "choice",
+   "q": "“ichida” inglizcha qanday?",
+   "a": "in",
+   "w": [
+    "on",
+    "under",
+    "at"
+   ],
+   "d": 1,
+   "x": "in — ichida."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_2",
+   "t": "choice",
+   "q": "“ustida” inglizcha qanday?",
+   "a": "on",
+   "w": [
+    "in",
+    "under",
+    "near"
+   ],
+   "d": 1,
+   "x": "on — ustida."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_3",
+   "t": "choice",
+   "q": "“tagida (ostida)” inglizcha qanday?",
+   "a": "under",
+   "w": [
+    "on",
+    "in",
+    "near"
+   ],
+   "d": 1,
+   "x": "under — tagida, ostida."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_4",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Mushuk stulning tagida.",
+   "w": [
+    "Mushuk stulning ustida.",
+    "Mushuk qutining ichida.",
+    "It stulning tagida."
+   ],
+   "d": 1,
+   "x": "The cat is under the chair. — Mushuk stulning tagida.",
+   "say": "The cat is under the chair.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_5",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Kitob partaning ustida.",
+   "w": [
+    "Kitob partaning ichida.",
+    "Kitob partaning tagida.",
+    "Ruchka partaning ustida."
+   ],
+   "d": 1,
+   "x": "The book is on the desk. — Kitob partaning ustida.",
+   "say": "The book is on the desk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_6",
+   "t": "choice",
+   "q": "Tinglang va to‘g‘ri tarjimani tanlang",
+   "a": "Olma sumkaning ichida.",
+   "w": [
+    "Olma sumkaning tagida.",
+    "Olma stolning ustida.",
+    "Nok sumkaning ichida."
+   ],
+   "d": 1,
+   "x": "The apple is in the bag. — Olma sumkaning ichida.",
+   "say": "The apple is in the bag.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_7",
+   "t": "choice",
+   "q": "Ruchka sumkaning ichida. Mos gapni tanlang",
+   "a": "The pen is in the bag.",
+   "w": [
+    "The pen is on the bag.",
+    "The pen is under the bag.",
+    "The bag is in the pen."
+   ],
+   "d": 1,
+   "x": "ichida — in: The pen is in the bag."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_8",
+   "t": "choice",
+   "q": "To‘p stolning tagida. Mos gapni tanlang",
+   "a": "The ball is under the table.",
+   "w": [
+    "The ball is on the table.",
+    "The ball is in the table.",
+    "The doll is under the table."
+   ],
+   "d": 1,
+   "x": "tagida — under."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_9",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: ... is my bag? — It's on the chair.",
+   "a": "Where",
+   "w": [
+    "What",
+    "Who",
+    "How"
+   ],
+   "d": 1,
+   "x": "Where — qayerda? Javobda joy aytiladi.",
+   "say": "... is my bag? — It's on the chair.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_10",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Where ... the ball?",
+   "a": "is",
+   "w": [
+    "are",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Bitta narsa: Where is …?",
+   "say": "Where ... the ball?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_11",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: The lamp is ... the table. (ustida)",
+   "a": "on",
+   "w": [
+    "in",
+    "under",
+    "at"
+   ],
+   "d": 1,
+   "x": "ustida — on.",
+   "say": "The lamp is ... the table.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_12",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: The shoes are ... the bed. (tagida)",
+   "a": "under",
+   "w": [
+    "on",
+    "in",
+    "at"
+   ],
+   "d": 1,
+   "x": "tagida — under.",
+   "say": "The shoes are ... the bed.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_13",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: The toys are ... the box. (ichida)",
+   "a": "in",
+   "w": [
+    "on",
+    "under",
+    "at"
+   ],
+   "d": 1,
+   "x": "ichida — in.",
+   "say": "The toys are ... the box.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_14",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "in",
+     "ichida"
+    ],
+    [
+     "on",
+     "ustida"
+    ],
+    [
+     "under",
+     "tagida"
+    ],
+    [
+     "box",
+     "quti"
+    ],
+    [
+     "bed",
+     "karavot"
+    ],
+    [
+     "table",
+     "stol"
+    ],
+    [
+     "chair",
+     "stul"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_15",
+   "t": "tf",
+   "q": "“on” — ustida degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: on — ustida.",
+   "say": "on",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_16",
+   "t": "tf",
+   "q": "“under” — ichida degani.",
+   "a": false,
+   "d": 1,
+   "x": "under — tagida (ostida); ichida esa — in.",
+   "say": "under",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_17",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: Where ... my shoes?",
+   "a": "are",
+   "w": [
+    "is",
+    "am",
+    "be"
+   ],
+   "d": 2,
+   "x": "Ko‘p narsa (shoes): Where are …?",
+   "say": "Where ... my shoes?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_18",
+   "t": "choice",
+   "q": "“Where is the dog?” savoliga mos javobni tanlang",
+   "a": "It's under the bed.",
+   "w": [
+    "It's a dog.",
+    "Yes, it is.",
+    "It's brown."
+   ],
+   "d": 2,
+   "x": "Where? — qayerda? Javobda joy aytiladi: under the bed.",
+   "say": "Where is the dog?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_19",
+   "t": "choice",
+   "q": "“Mening qalamim qayerda?” inglizcha qanday?",
+   "a": "Where is my pencil?",
+   "w": [
+    "What is my pencil?",
+    "Who is my pencil?",
+    "Where are my pencil?"
+   ],
+   "d": 2,
+   "x": "qayerda — where; bitta qalam — is."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "The",
+    "cat",
+    "is",
+    "on",
+    "the",
+    "sofa"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "The cat is on the sofa. — Mushuk divanning ustida.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_21",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Where",
+    "is",
+    "my",
+    "ruler"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Where is my ruler? — Chizg‘ichim qayerda?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_22",
+   "t": "choice",
+   "q": "“Where are the pencils?” savoliga mos javobni tanlang",
+   "a": "They are in the box.",
+   "w": [
+    "It is in the box.",
+    "They are pencils.",
+    "Yes, they are."
+   ],
+   "d": 3,
+   "x": "Ko‘p narsa — they are: They are in the box.",
+   "say": "Where are the pencils?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_23",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "The books are on the desk.",
+   "w": [
+    "The books is on the desk.",
+    "The book are on the desk.",
+    "The books are on desk."
+   ],
+   "d": 3,
+   "x": "books — ko‘p narsa, shuning uchun are."
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "books",
+    "are",
+    "in",
+    "the",
+    "bag"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "My books are in the bag. — Kitoblarim sumkada.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_25",
+   "t": "choice",
+   "q": "Tinglang: kitob qayerda?",
+   "a": "stulning tagida",
+   "w": [
+    "stulning ustida",
+    "sumkaning ichida",
+    "stolning ustida"
+   ],
+   "d": 3,
+   "x": "under the chair — stulning tagida.",
+   "say": "Where is the book? It's under the chair.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g3.where_is",
+   "id": "where_is_26",
+   "t": "choice",
+   "q": "Tinglang: ayiqcha qayerda?",
+   "a": "qutining ichida",
+   "w": [
+    "qutining ustida",
+    "karavotning tagida",
+    "stolning ustida"
+   ],
+   "d": 3,
+   "x": "in the box — qutining ichida.",
+   "say": "The teddy bear is in the box.",
+   "lang": "en"
+  }
+ ]
+}

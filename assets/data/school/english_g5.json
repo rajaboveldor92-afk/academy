@@ -1,30 +1,368 @@
 {
  "subject": "english",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Ingliz tili",
   "en": "English",
-  "ru": "Английский"
+  "ru": "Английский язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "english_g5.jobs",
+   "id": "english_g5.to_be",
    "code": "1",
-   "emoji": "🇬🇧",
+   "emoji": "🙂",
    "title": {
-    "uz": "Kasblar va joylar",
-    "en": "Jobs and places",
-    "ru": "Профессии и места"
+    "uz": "to be: am / is / are",
+    "en": "to be: am / is / are",
+    "ru": "Глагол to be: am / is / are"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Men, oilam va do‘stlarim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "to be fe’li hozirgi zamonda uch shaklda keladi:\n• I am (I'm) • he / she / it is (he's, she's, it's) • we / you / they are (we're, you're, they're)\nInkor: not qo‘shiladi — I'm not, she isn't (is not), they aren't (are not).\nSavolda fe’l oldinga chiqadi: Is he a pupil? — Yes, he is. / No, he isn't.\nMisol: My sister is ten. We are in the classroom."
+   }
+  },
+  {
+   "id": "english_g5.possessives",
+   "code": "2",
+   "emoji": "🔑",
+   "title": {
+    "uz": "Egalik: my, your, his, her… va 's",
+    "en": "Possessives: my, your, his… and 's",
+    "ru": "Притяжательные: my, your, his… и 's"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Men, oilam va do‘stlarim",
+   "prerequisites": [
+    "english_g5.to_be"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Egalik olmoshlari otdan oldin keladi:\nI → my, you → your, he → his, she → her, it → its, we → our, they → their.\nMisol: She has got a cat. Her cat is white. — Uning mushugi oq.\n's — kimningdir narsasi: Ali's bag — Alining sumkasi, my mum's car — onamning mashinasi.\nWhose …? — Kimning …? Whose pen is this? — It's Zarina's."
+   }
+  },
+  {
+   "id": "english_g5.plurals",
+   "code": "3",
+   "emoji": "👣",
+   "title": {
+    "uz": "Otlarning ko‘plik shakli",
+    "en": "Plural nouns",
+    "ru": "Множественное число"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Men, oilam va do‘stlarim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘plikda odatda -s qo‘shiladi: a book → books, a cat → cats.\n-s, -ss, -sh, -ch, -x dan keyin -es: a bus → buses, a box → boxes, a watch → watches.\nUndosh + y → -ies: a city → cities, a baby → babies (lekin a boy → boys).  -f / -fe → -ves: leaf → leaves.\nMaxsus shakllar: man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice.\nthis → these, that → those: These are my shoes. Those birds are big."
+   }
+  },
+  {
+   "id": "english_g5.question_words",
+   "code": "4",
+   "emoji": "❓",
+   "title": {
+    "uz": "So‘roq so‘zlari",
+    "en": "Question words",
+    "ru": "Вопросительные слова"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Men, oilam va do‘stlarim",
+   "prerequisites": [
+    "english_g5.to_be"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "What? — Nima?  Who? — Kim?  Where? — Qayerda?  When? — Qachon?\nWhy? — Nega? (javob: Because …)  How? — Qanday?  How old? — Necha yoshda?\nHow many? — Nechta?  Whose? — Kimning?  Which? — Qaysi? (tanlash kerak bo‘lsa)\nMisol: Where do you live? — I live in Bukhara. When is your birthday? — It's in May."
+   }
+  },
+  {
+   "id": "english_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Men, oilam va do‘stlarim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g5.present_simple",
+   "code": "5",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Present Simple: I play / she plays",
+    "en": "Present Simple",
+    "ru": "Present Simple"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kun tartibi va mashg‘ulotlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Present Simple — odatiy, doimiy ishlar: I go to school every day.\nhe / she / it bilan fe’lga -s qo‘shiladi: she plays, he reads.\n-o, -sh, -ch, -x, -s dan keyin -es: goes, watches; undosh + y → -ies: study → studies; have → has.\nInkor: don't / doesn't + fe’l: I don't like milk. He doesn't like fish.\nSavol: Do / Does + ega + fe’l: Do you speak English? Does she live here? — Yes, she does."
+   }
+  },
+  {
+   "id": "english_g5.routine_time",
+   "code": "6",
+   "emoji": "⏰",
+   "title": {
+    "uz": "Kun tartibi, vaqt, always / never",
+    "en": "Daily routine, time, adverbs of frequency",
+    "ru": "Распорядок дня, время, наречия частоты"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kun tartibi va mashg‘ulotlar",
+   "prerequisites": [
+    "english_g5.present_simple"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Vaqt: What time is it? — It's seven o’clock (7:00). It's half past eight (8:30).\nquarter past nine — 9:15;  quarter to ten — 9:45.\nKun tartibi: get up, have breakfast, go to school, do homework, go to bed.\nalways (doim) → usually (odatda) → often (tez-tez) → sometimes (ba’zan) → never (hech qachon).\nBu so‘zlar asosiy fe’ldan oldin, to be dan keyin keladi: I always get up at 7. She is never late."
+   }
+  },
+  {
+   "id": "english_g5.present_continuous",
+   "code": "7",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Present Continuous: I am reading",
+    "en": "Present Continuous",
+    "ru": "Present Continuous"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kun tartibi va mashg‘ulotlar",
+   "prerequisites": [
+    "english_g5.present_simple"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Present Continuous — hozir, ayni paytda bo‘layotgan ish: I am reading now.\nTuzilishi: am / is / are + fe’l-ing: She is dancing. They are playing.\n-ing qo‘shish: write → writing (e tushadi), swim → swimming, run → running, sit → sitting.\nInkor: He isn't sleeping. Savol: Are you listening? — Yes, I am.\nKalit so‘zlar: now, at the moment, Look!, Listen!"
+   }
+  },
+  {
+   "id": "english_g5.actions",
+   "code": "8",
+   "emoji": "🤸",
+   "title": {
+    "uz": "Harakatlar",
+    "en": "Actions",
+    "ru": "Действия"
    },
    "generator": "vocab",
-   "skill": "jobs",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "vocab",
+   "chapter": "2-chorak. Kun tartibi va mashg‘ulotlar",
    "prerequisites": [],
+   "levels": [
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "picture_word",
+      "listen"
+     ],
+     "options": 4
+    }
+   ],
    "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
+    "uz": "Harakat fe’llari: run — yugurmoq, walk — yurmoq, swim — suzmoq, dance — raqsga tushmoq,\nclimb — tirmashib chiqmoq, ride — minmoq (velosiped, ot), write — yozmoq, sleep — uxlamoq.\nHozir bo‘layotgan harakat: He is running. They are dancing.\nOdatiy harakat: I swim every Sunday.  Savol: What is he doing? — He is climbing."
+   }
+  },
+  {
+   "id": "english_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
    },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kun tartibi va mashg‘ulotlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.actions"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.actions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.actions"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g5.jobs_places",
+   "code": "9",
+   "emoji": "🏥",
+   "title": {
+    "uz": "Kasblar va shahardagi joylar",
+    "en": "Jobs and places in town",
+    "ru": "Профессии и места в городе"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "3-chorak. Shahar, qoidalar va ob-havo",
+   "prerequisites": [],
    "levels": [
     {
      "themes": [
@@ -59,328 +397,381 @@
      "options": 4,
      "sameTheme": true
     }
-   ]
-  },
-  {
-   "id": "english_g5.actions",
-   "code": "2",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Harakatlar",
-    "en": "Actions",
-    "ru": "Действия"
-   },
-   "generator": "vocab",
-   "skill": "actions",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
+   ],
    "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "themes": [
-      "actions"
-     ],
-     "modes": [
-      "listen"
-     ],
-     "options": 3
-    },
-    {
-     "themes": [
-      "actions"
-     ],
-     "modes": [
-      "listen",
-      "read"
-     ],
-     "options": 3
-    },
-    {
-     "themes": [
-      "actions"
-     ],
-     "modes": [
-      "read",
-      "picture_word"
-     ],
-     "options": 4
-    }
-   ]
+    "uz": "Kasblar: doctor — shifokor, teacher — o‘qituvchi, cook — oshpaz, farmer — fermer, pilot — uchuvchi,\nbuilder — quruvchi, firefighter — o‘t o‘chiruvchi, police officer — politsiyachi.\nJoylar: hospital — kasalxona, shop — do‘kon, bank — bank, stadium — stadion, bridge — ko‘prik.\nMisol: A doctor works in a hospital. What does your mum do? — She is a teacher.\nKasb oldidan a / an: a pilot, an artist."
+   }
   },
   {
-   "id": "english_g5.spelling",
-   "code": "3",
-   "emoji": "🇬🇧",
+   "id": "english_g5.there_is",
+   "code": "10",
+   "emoji": "🏙️",
    "title": {
-    "uz": "So‘z yig‘ish",
-    "en": "Spelling",
-    "ru": "Собери слово"
-   },
-   "generator": "spell",
-   "skill": "spelling",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "minLetters": 4,
-     "maxLetters": 5,
-     "extra": 1
-    },
-    {
-     "minLetters": 5,
-     "maxLetters": 6,
-     "extra": 1
-    },
-    {
-     "minLetters": 5,
-     "maxLetters": 7,
-     "extra": 2
-    }
-   ]
-  },
-  {
-   "id": "english_g5.sentences",
-   "code": "4",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Oddiy gaplar",
-    "en": "Simple sentences",
-    "ru": "Простые предложения"
-   },
-   "generator": "sentence",
-   "skill": "sentences",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "types": [
-      "this",
-      "color"
-     ],
-     "modes": [
-      "read",
-      "picture"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "count",
-      "action"
-     ],
-     "modes": [
-      "read",
-      "picture",
-      "build"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "count",
-      "action"
-     ],
-     "modes": [
-      "read",
-      "picture",
-      "build"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "english_g5.listening",
-   "code": "5",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Tinglab tushunish",
-    "en": "Listening",
-    "ru": "Аудирование"
-   },
-   "generator": "sentence",
-   "skill": "listening",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "So‘zning ma’nosini gapdagi vaziyat bilan bog‘lang. Harakatni, predmetni va belgini ajrating. Tinglash mashqida barcha so‘zlarni eshitib bo‘lgach javob tanlang; yozishda harflar tartibini tekshiring."
-   },
-   "levels": [
-    {
-     "types": [
-      "this",
-      "color"
-     ],
-     "modes": [
-      "listen"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "count",
-      "action"
-     ],
-     "modes": [
-      "listen"
-     ]
-    },
-    {
-     "types": [
-      "color",
-      "count",
-      "action"
-     ],
-     "modes": [
-      "listen"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "english_g5.present",
-   "code": "6",
-   "emoji": "🇬🇧",
-   "title": {
-    "uz": "Present Simple",
-    "en": "Present Simple",
-    "ru": "Present Simple"
+    "uz": "There is / There are, some / any",
+    "en": "There is / There are, some / any",
+    "ru": "There is / There are, some / any"
    },
    "generator": "bank",
-   "skill": "present",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
-   "prerequisites": [],
-   "theory": {
-    "uz": "Odatdagi ish-harakat Present Simple bilan ifodalanadi. He/she/it bilan fe’lga -s yoki -es qo‘shiladi. Study → studies. Every day odatiylikni bildiradi."
-   },
+   "skill": "bank",
+   "chapter": "3-chorak. Shahar, qoidalar va ob-havo",
+   "prerequisites": [
+    "english_g5.plurals"
+   ],
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "There is + birlik: There is a park near my house.  There are + ko‘plik: There are two shops.\nInkor: There isn't a cinema. There aren't any trees. Savol: Is there a bank? Are there any shops?\nsome — darak gapda, any — inkor va savolda: There is some milk. Is there any juice?\nSanaladigan otlar (apple, egg) bilan — How many? Sanalmaydigan (milk, water, bread) bilan — How much?\nSanalmaydigan otlarga -s qo‘shilmaydi: water (waters emas), bread (breads emas)."
+   }
   },
   {
-   "id": "english_g5.past",
-   "code": "7",
-   "emoji": "🇬🇧",
+   "id": "english_g5.can_must",
+   "code": "11",
+   "emoji": "🚦",
    "title": {
-    "uz": "Past Simple",
-    "en": "Past Simple",
-    "ru": "Past Simple"
+    "uz": "can va must",
+    "en": "can and must",
+    "ru": "can и must"
    },
    "generator": "bank",
-   "skill": "past",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "3-chorak. Shahar, qoidalar va ob-havo",
    "prerequisites": [],
-   "theory": {
-    "uz": "Tugagan o‘tgan harakat Past Simple bilan ifodalanadi. To‘g‘ri fe’llarga -ed qo‘shiladi: play → played. Noto‘g‘ri fe’llarning shakli yodlanadi: go → went, see → saw."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "can — qila olmoq (qobiliyat) yoki mumkin (ruxsat): I can swim. Can I open the window?\ncan't — qila olmaslik yoki mumkin emas: You can't play football in the classroom.\nmust — shart, kerak (qoida): You must wear a seat belt.\nmustn't — mumkin emas, taqiqlangan: You mustn't run in the corridor.\ncan va must dan keyin fe’l o‘zgarmaydi: She must go. (She must goes, must to go — xato.)"
+   }
   },
   {
-   "id": "english_g5.comparatives",
-   "code": "8",
-   "emoji": "🇬🇧",
+   "id": "english_g5.months_weather",
+   "code": "12",
+   "emoji": "🌦️",
    "title": {
-    "uz": "Qiyosiy sifatlar",
-    "en": "Qiyosiy sifatlar",
-    "ru": "Qiyosiy sifatlar"
+    "uz": "Oylar, fasllar va ob-havo",
+    "en": "Months, seasons and weather",
+    "ru": "Месяцы, времена года, погода"
    },
    "generator": "bank",
-   "skill": "comparatives",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "3-chorak. Shahar, qoidalar va ob-havo",
    "prerequisites": [],
-   "theory": {
-    "uz": "Ikki narsani qiyoslashda comparative ishlatiladi: tall → taller, big → bigger, easy → easier. Good so‘zining qiyosiy shakli better. Qiyosda than kelishi mumkin."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Fasllar: spring — bahor, summer — yoz, autumn — kuz, winter — qish.\nOylar (doim bosh harf bilan): January, February, March, April, May, June, July, August,\nSeptember, October, November, December.  Oy va fasl oldidan in: in May, in summer.\nWhat's the weather like? — It's sunny / rainy / cloudy / windy / snowy / hot / cold / warm.\nMisol: In winter it's cold and snowy. My birthday is in April."
+   }
   },
   {
-   "id": "english_g5.review",
-   "code": "9",
-   "emoji": "🇬🇧",
+   "id": "english_g5.test3",
+   "code": "N",
+   "emoji": "📝",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "3-chorak. Shahar, qoidalar va ob-havo",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "english_g5.jobs",
-      "english_g5.actions",
-      "english_g5.spelling",
-      "english_g5.sentences",
-      "english_g5.listening",
-      "english_g5.present",
-      "english_g5.past",
-      "english_g5.comparatives"
+      "english_g5.jobs_places",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather"
      ],
      "level": 1
     },
     {
      "topics": [
-      "english_g5.jobs",
-      "english_g5.actions",
-      "english_g5.spelling",
-      "english_g5.sentences",
-      "english_g5.listening",
-      "english_g5.present",
-      "english_g5.past",
-      "english_g5.comparatives"
+      "english_g5.jobs_places",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather"
      ],
      "level": 2
     },
     {
      "topics": [
-      "english_g5.jobs",
-      "english_g5.actions",
-      "english_g5.spelling",
-      "english_g5.sentences",
-      "english_g5.listening",
-      "english_g5.present",
+      "english_g5.jobs_places",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g5.past",
+   "code": "13",
+   "emoji": "🕰️",
+   "title": {
+    "uz": "Past Simple: was / were, went, saw",
+    "en": "Past Simple: was / were and verbs",
+    "ru": "Past Simple: was / were и глаголы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [
+    "english_g5.to_be",
+    "english_g5.present_simple"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "to be o‘tgan zamonda: I / he / she / it was; we / you / they were. I was at home yesterday.\nTo‘g‘ri fe’llar -ed oladi: play → played, watch → watched, like → liked, stop → stopped.\nNoto‘g‘ri fe’llarni yodlash kerak: go → went, see → saw, have → had, eat → ate, do → did,\ncome → came, buy → bought.  Inkor va savol: did + fe’lning oddiy shakli — I didn't go. Did you see it?\nKalit so‘zlar: yesterday, last week, last summer, two days ago."
+   }
+  },
+  {
+   "id": "english_g5.opposites",
+   "code": "14",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Qarama-qarshi sifatlar",
+    "en": "Opposite adjectives",
+    "ru": "Противоположные прилагательные"
+   },
+   "generator": "opposites",
+   "skill": "opposites",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "size",
+      "length",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 3
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qarama-qarshi sifatlar: big — small, long — short, hot — cold, fast — slow,\nold — young, happy — sad, loud — quiet, open — closed.\nSifat otdan oldin keladi: a fast car, a small house. Yoki to be dan keyin: The soup is hot.\nKeyingi mavzuda sifatlarni taqqoslaymiz: big → bigger → the biggest."
+   }
+  },
+  {
+   "id": "english_g5.comparatives",
+   "code": "15",
+   "emoji": "📏",
+   "title": {
+    "uz": "Sifat darajalari: bigger, the biggest",
+    "en": "Comparatives and superlatives",
+    "ru": "Степени сравнения прилагательных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [
+    "english_g5.opposites"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qisqa sifatlar: -er (qiyosiy daraja), the …-est (orttirma daraja): tall → taller → the tallest.\ne bilan tugasa: nice → nicer → the nicest. Undosh ikkilanadi: big → bigger → the biggest, hot → hotter.\nUndosh + y → -ier / -iest: happy → happier → the happiest, easy → easier.\nUzun sifatlar — more / the most: beautiful → more beautiful → the most beautiful.\nMaxsus: good → better → the best; bad → worse → the worst.\nTaqqoslashda than: An elephant is bigger than a horse."
+   }
+  },
+  {
+   "id": "english_g5.reading",
+   "code": "16",
+   "emoji": "📖",
+   "title": {
+    "uz": "O‘qib tushunish",
+    "en": "Reading",
+    "ru": "Чтение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni o‘qishdan oldin savolga qarang — nimani izlash kerakligini bilib olasiz.\nKeyin matnni diqqat bilan o‘qing va javobni matndan toping.\nSavol so‘ziga e’tibor bering: Who? — kim, Where? — qayerda, When? — qachon, What? — nima.\nTrue / False: fikr matnga mos kelsa — To‘g‘ri, mos kelmasa — Noto‘g‘ri."
+   }
+  },
+  {
+   "id": "english_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
       "english_g5.past",
-      "english_g5.comparatives"
+      "english_g5.opposites",
+      "english_g5.comparatives",
+      "english_g5.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g5.past",
+      "english_g5.opposites",
+      "english_g5.comparatives",
+      "english_g5.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g5.past",
+      "english_g5.opposites",
+      "english_g5.comparatives",
+      "english_g5.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. O‘tgan zamon va taqqoslash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words",
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather",
+      "english_g5.past",
+      "english_g5.comparatives",
+      "english_g5.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words",
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather",
+      "english_g5.past",
+      "english_g5.comparatives",
+      "english_g5.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "english_g5.to_be",
+      "english_g5.possessives",
+      "english_g5.plurals",
+      "english_g5.question_words",
+      "english_g5.present_simple",
+      "english_g5.routine_time",
+      "english_g5.present_continuous",
+      "english_g5.there_is",
+      "english_g5.can_must",
+      "english_g5.months_weather",
+      "english_g5.past",
+      "english_g5.comparatives",
+      "english_g5.reading"
      ],
      "level": 3
     }
