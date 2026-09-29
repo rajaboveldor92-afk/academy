@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:typed_data';
 
 import 'package:academy/models/app_settings.dart';
 import 'package:academy/services/audio_service.dart';

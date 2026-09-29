@@ -1,0 +1,2178 @@
+{
+ "items": [
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_1",
+   "t": "choice",
+   "q": "Sardor tanaffusda nima uchun yolg‘iz o‘tirdi?",
+   "a": "Hech kimni tanimasdi",
+   "w": [
+    "Kasal edi",
+    "Kitob o‘qiyotgan edi",
+    "Charchagan edi"
+   ],
+   "d": 1,
+   "x": "Matnda: “U hech kimni tanimasdi”.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_2",
+   "t": "choice",
+   "q": "Sardorni o‘yinga kim taklif qildi?",
+   "a": "Malika",
+   "w": [
+    "O‘qituvchi",
+    "Akasi",
+    "Qo‘shnisi"
+   ],
+   "d": 1,
+   "x": "Malika uning yoniga kelib, o‘yinga taklif qildi.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_3",
+   "t": "choice",
+   "q": "Ertasi kuni Sardor maktabga qanday bordi?",
+   "a": "Quvonib",
+   "w": [
+    "Yig‘lab",
+    "Istamay",
+    "Kechikib"
+   ],
+   "d": 1,
+   "x": "Do‘st orttirgach, u maktabga quvonib bordi.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_4",
+   "t": "choice",
+   "q": "Hikoyaga eng mos sarlavhani tanlang.",
+   "a": "Yangi do‘st",
+   "w": [
+    "Qishki ta’til",
+    "Yo‘qolgan kitob",
+    "Bog‘dagi daraxt"
+   ],
+   "d": 2,
+   "x": "Hikoya Sardorning do‘st orttirgani haqida.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_5",
+   "t": "choice",
+   "q": "Malikaning qaysi fazilati ko‘rindi?",
+   "a": "Mehribonligi",
+   "w": [
+    "Dangasaligi",
+    "Maqtanchoqligi",
+    "Qo‘rqoqligi"
+   ],
+   "d": 2,
+   "x": "U yolg‘iz bolaga e’tibor berib, yordam qo‘lini cho‘zdi.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_6",
+   "t": "choice",
+   "q": "Qushlarga nima qiyin bo‘lib qoldi?",
+   "a": "Don topish",
+   "w": [
+    "Uchish",
+    "Sayrash",
+    "Uya qurish"
+   ],
+   "d": 1,
+   "x": "Qor qoplagani uchun don topish qiyinlashdi.",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_7",
+   "t": "choice",
+   "q": "Zarina yemlikni kim bilan yasadi?",
+   "a": "Bobosi bilan",
+   "w": [
+    "Onasi bilan",
+    "Dugonasi bilan",
+    "Yolg‘iz o‘zi"
+   ],
+   "d": 1,
+   "x": "“Zarina bobosi bilan … yemlik yasadi.”",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_8",
+   "t": "choice",
+   "q": "Yemlik nimadan yasaldi?",
+   "a": "Yog‘ochdan",
+   "w": [
+    "Temirdan",
+    "Qog‘ozdan",
+    "Shishadan"
+   ],
+   "d": 1,
+   "x": "Yemlik yog‘ochdan yasaldi.",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_9",
+   "t": "choice",
+   "q": "Yemlik qayerga osildi?",
+   "a": "Bog‘dagi daraxtga",
+   "w": [
+    "Deraza tokchasiga",
+    "Uy tomiga",
+    "Darvozaga"
+   ],
+   "d": 1,
+   "x": "Ular yemlikni bog‘dagi daraxtga osishdi.",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_10",
+   "t": "choice",
+   "q": "Matnning asosiy fikri qaysi?",
+   "a": "Qishda qushlarga g‘amxo‘rlik qilish kerak",
+   "w": [
+    "Qishda uydan chiqmaslik kerak",
+    "Qushlar qishda uxlaydi",
+    "Qor faqat zarar keltiradi"
+   ],
+   "d": 2,
+   "x": "Zarina va bobosi qushlarga yordam berishdi.",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_11",
+   "t": "choice",
+   "q": "Anvar avval qanday xato qilardi?",
+   "a": "Jo‘mrakni ochiq qoldirardi",
+   "w": [
+    "Tishini yuvmasdi",
+    "Kech yotardi",
+    "Nonushta qilmasdi"
+   ],
+   "d": 1,
+   "x": "U tish yuvayotganda jo‘mrakni ochiq qoldirardi.",
+   "text": "Anvar tishini yuvayotganda jo‘mrakni ochiq qoldirardi. Bir kuni dadasi unga: “Toza suv — bebaho boylik, har tomchisini asrash kerak”, dedi. Shundan keyin Anvar tish yuvayotganda jo‘mrakni yopib qo‘yadigan bo‘ldi. U buni singlisiga ham o‘rgatdi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_12",
+   "t": "choice",
+   "q": "Dadasi Anvarga nimani tushuntirdi?",
+   "a": "Suvni asrash kerakligini",
+   "w": [
+    "Tishni qanday yuvishni",
+    "Darsni qanday qilishni",
+    "Qanday o‘ynashni"
+   ],
+   "d": 1,
+   "x": "“Toza suv — bebaho boylik”.",
+   "text": "Anvar tishini yuvayotganda jo‘mrakni ochiq qoldirardi. Bir kuni dadasi unga: “Toza suv — bebaho boylik, har tomchisini asrash kerak”, dedi. Shundan keyin Anvar tish yuvayotganda jo‘mrakni yopib qo‘yadigan bo‘ldi. U buni singlisiga ham o‘rgatdi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_13",
+   "t": "choice",
+   "q": "Anvar o‘rganganini kimga o‘rgatdi?",
+   "a": "Singlisiga",
+   "w": [
+    "Akasiga",
+    "Dadasiga",
+    "Do‘stiga"
+   ],
+   "d": 1,
+   "x": "U buni singlisiga ham o‘rgatdi.",
+   "text": "Anvar tishini yuvayotganda jo‘mrakni ochiq qoldirardi. Bir kuni dadasi unga: “Toza suv — bebaho boylik, har tomchisini asrash kerak”, dedi. Shundan keyin Anvar tish yuvayotganda jo‘mrakni yopib qo‘yadigan bo‘ldi. U buni singlisiga ham o‘rgatdi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_14",
+   "t": "choice",
+   "q": "Hikoyaga mos maqolni tanlang.",
+   "a": "Tomchi-tomchi ko‘l bo‘lur.",
+   "w": [
+    "Ko‘z qo‘rqoq, qo‘l botir.",
+    "Bir kun tuz ichgan joyga qirq kun salom ber.",
+    "Sabr tagi — sariq oltin."
+   ],
+   "d": 3,
+   "x": "Har tomchi suvni asrasak, ko‘p suv tejaladi.",
+   "text": "Anvar tishini yuvayotganda jo‘mrakni ochiq qoldirardi. Bir kuni dadasi unga: “Toza suv — bebaho boylik, har tomchisini asrash kerak”, dedi. Shundan keyin Anvar tish yuvayotganda jo‘mrakni yopib qo‘yadigan bo‘ldi. U buni singlisiga ham o‘rgatdi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_15",
+   "t": "tf",
+   "q": "Malika Sardorni o‘yinga taklif qildi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Sardor yangi maktabga keldi. U hech kimni tanimasdi, shuning uchun tanaffusda yolg‘iz o‘tirdi. Buni ko‘rgan Malika uning yoniga keldi va o‘yinga taklif qildi. Tez orada Sardor sinfdoshlari bilan do‘stlashib oldi. Ertasi kuni u maktabga quvonib bordi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_16",
+   "t": "tf",
+   "q": "Zarina chumchuqlarni hovlida quvlab yurdi.",
+   "a": false,
+   "d": 1,
+   "x": "Zarina ularni derazadan kuzatib, xursand bo‘ldi.",
+   "text": "Qish kelib, hamma yoqni qor qopladi. Qushlarga don topish qiyinlashdi. Zarina bobosi bilan yog‘ochdan kichik yemlik yasadi. Ular yemlikni bog‘dagi daraxtga osib, ichiga don sepishdi. Ertalab yemlik atrofida chumchuqlar chug‘urlashib yurardi. Zarina ularni derazadan kuzatib, xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g3.understand_story",
+   "id": "understand_story_17",
+   "t": "tf",
+   "q": "Anvar dadasining gapidan keyin suvni tejay boshladi.",
+   "a": true,
+   "d": 1,
+   "x": "U jo‘mrakni yopib qo‘yadigan bo‘ldi.",
+   "text": "Anvar tishini yuvayotganda jo‘mrakni ochiq qoldirardi. Bir kuni dadasi unga: “Toza suv — bebaho boylik, har tomchisini asrash kerak”, dedi. Shundan keyin Anvar tish yuvayotganda jo‘mrakni yopib qo‘yadigan bo‘ldi. U buni singlisiga ham o‘rgatdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_1",
+   "t": "choice",
+   "q": "Lola qanday kitob oldi?",
+   "a": "“Hayvonlar olami”",
+   "w": [
+    "“Ertaklar”",
+    "“Qiziqarli matematika”",
+    "“O‘simliklar dunyosi”"
+   ],
+   "d": 1,
+   "x": "Kitob nomi — “Hayvonlar olami”.",
+   "text": "Lola kutubxonadan “Hayvonlar olami” degan kitob oldi. Kitobda turli o‘lkalarda yashaydigan hayvonlar haqida qiziqarli ma’lumotlar bor edi. Lolaga eng ko‘p qor qoploni haqidagi sahifa yoqdi. U o‘qiganlarini darsda sinfdoshlariga so‘zlab berdi. O‘qituvchi uni maqtadi va qor qoploni rasmini chizishni topshirdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_2",
+   "t": "choice",
+   "q": "Lolaga qaysi hayvon haqidagi sahifa eng ko‘p yoqdi?",
+   "a": "Qor qoploni",
+   "w": [
+    "Fil",
+    "Delfin",
+    "Jirafa"
+   ],
+   "d": 1,
+   "x": "Unga qor qoploni haqidagi sahifa yoqdi.",
+   "text": "Lola kutubxonadan “Hayvonlar olami” degan kitob oldi. Kitobda turli o‘lkalarda yashaydigan hayvonlar haqida qiziqarli ma’lumotlar bor edi. Lolaga eng ko‘p qor qoploni haqidagi sahifa yoqdi. U o‘qiganlarini darsda sinfdoshlariga so‘zlab berdi. O‘qituvchi uni maqtadi va qor qoploni rasmini chizishni topshirdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_3",
+   "t": "choice",
+   "q": "Lola o‘qiganlarini kimlarga so‘zlab berdi?",
+   "a": "Sinfdoshlariga",
+   "w": [
+    "Buvisiga",
+    "Qo‘shnisiga",
+    "Ukasiga"
+   ],
+   "d": 1,
+   "x": "U darsda sinfdoshlariga so‘zlab berdi.",
+   "text": "Lola kutubxonadan “Hayvonlar olami” degan kitob oldi. Kitobda turli o‘lkalarda yashaydigan hayvonlar haqida qiziqarli ma’lumotlar bor edi. Lolaga eng ko‘p qor qoploni haqidagi sahifa yoqdi. U o‘qiganlarini darsda sinfdoshlariga so‘zlab berdi. O‘qituvchi uni maqtadi va qor qoploni rasmini chizishni topshirdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_4",
+   "t": "choice",
+   "q": "O‘qituvchi Lolaga nima topshirdi?",
+   "a": "Qor qoploni rasmini chizishni",
+   "w": [
+    "She’r yodlashni",
+    "Kitobni qaytarishni",
+    "Masala yechishni"
+   ],
+   "d": 1,
+   "x": "Matnning oxirgi gapida aytilgan.",
+   "text": "Lola kutubxonadan “Hayvonlar olami” degan kitob oldi. Kitobda turli o‘lkalarda yashaydigan hayvonlar haqida qiziqarli ma’lumotlar bor edi. Lolaga eng ko‘p qor qoploni haqidagi sahifa yoqdi. U o‘qiganlarini darsda sinfdoshlariga so‘zlab berdi. O‘qituvchi uni maqtadi va qor qoploni rasmini chizishni topshirdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_5",
+   "t": "choice",
+   "q": "Hashar qaysi faslda bo‘ldi?",
+   "a": "Bahorda",
+   "w": [
+    "Qishda",
+    "Yozda",
+    "Kuzda"
+   ],
+   "d": 1,
+   "x": "“Bahor keldi.”",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_6",
+   "t": "choice",
+   "q": "Hasharda bolalar nima qilishdi?",
+   "a": "Ariqlarni tozalashdi",
+   "w": [
+    "Ko‘chat o‘tqazishdi",
+    "Non yopishdi",
+    "Uy qurishdi"
+   ],
+   "d": 1,
+   "x": "Kattalar ko‘chat o‘tqazdi, bolalar ariqlarni tozaladi.",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_7",
+   "t": "choice",
+   "q": "Buvijonlar hammaga nima olib chiqishdi?",
+   "a": "Issiq non va choy",
+   "w": [
+    "Meva va sharbat",
+    "Gul va ko‘chat",
+    "Kitob va daftar"
+   ],
+   "d": 1,
+   "x": "Buvijonlar issiq non va choy olib chiqishdi.",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_8",
+   "t": "choice",
+   "q": "“Hashar” so‘zining ma’nosi qaysi?",
+   "a": "Birgalikda bajariladigan ish",
+   "w": [
+    "Bayram tantanasi",
+    "Sport musobaqasi",
+    "Dam olish kuni"
+   ],
+   "d": 2,
+   "x": "Hasharda qo‘ni-qo‘shnilar yig‘ilib, birgalikda ishlaydi.",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_9",
+   "t": "choice",
+   "q": "Matnning asosiy fikri qaysi?",
+   "a": "Birgalikda qilingan ish natija beradi",
+   "w": [
+    "Bahorda ko‘p uxlash kerak",
+    "Faqat kattalar ishlashi kerak",
+    "Charchash yomon narsa"
+   ],
+   "d": 2,
+   "x": "Hamma birga ishlab, ko‘chani ko‘rkam qildi.",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_10",
+   "t": "choice",
+   "q": "Bobur nimani payqadi?",
+   "a": "Qaytim ko‘p berilganini",
+   "w": [
+    "Non qotib qolganini",
+    "Do‘kon yopilganini",
+    "Pulini yo‘qotganini"
+   ],
+   "d": 1,
+   "x": "Sotuvchi qaytimni ko‘p berib yuborgan edi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_11",
+   "t": "choice",
+   "q": "Bobur ortiqcha pulni nima qildi?",
+   "a": "Sotuvchiga qaytardi",
+   "w": [
+    "O‘ziga oldi",
+    "Konfet oldi",
+    "Do‘stiga berdi"
+   ],
+   "d": 1,
+   "x": "U ortiga qaytib, pulni sotuvchiga berdi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_12",
+   "t": "choice",
+   "q": "Sotuvchi Boburni qanday bola dedi?",
+   "a": "Rostgo‘y",
+   "w": [
+    "Sho‘x",
+    "Dangasa",
+    "Qo‘rqoq"
+   ],
+   "d": 1,
+   "x": "“Rostgo‘y bola ekansan”, dedi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_13",
+   "t": "choice",
+   "q": "Hikoyada qanday fazilat ulug‘langan?",
+   "a": "Halollik",
+   "w": [
+    "Shoshqaloqlik",
+    "Maqtanchoqlik",
+    "Yalqovlik"
+   ],
+   "d": 2,
+   "x": "Bobur birovning haqini qaytarib, halollik qildi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_14",
+   "t": "choice",
+   "q": "Onasi nima uchun faxrlandi?",
+   "a": "O‘g‘li halol ish qilgani uchun",
+   "w": [
+    "O‘g‘li non olib kelgani uchun",
+    "O‘g‘li tez yugurgani uchun",
+    "Do‘kon arzonlashgani uchun"
+   ],
+   "d": 3,
+   "x": "Bobur ortiqcha pulni qaytarib, rostgo‘ylik qildi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_15",
+   "t": "tf",
+   "q": "Lola kitobni do‘kondan sotib oldi.",
+   "a": false,
+   "d": 1,
+   "x": "U kitobni kutubxonadan oldi.",
+   "text": "Lola kutubxonadan “Hayvonlar olami” degan kitob oldi. Kitobda turli o‘lkalarda yashaydigan hayvonlar haqida qiziqarli ma’lumotlar bor edi. Lolaga eng ko‘p qor qoploni haqidagi sahifa yoqdi. U o‘qiganlarini darsda sinfdoshlariga so‘zlab berdi. O‘qituvchi uni maqtadi va qor qoploni rasmini chizishni topshirdi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_16",
+   "t": "tf",
+   "q": "Hasharda hamma charchagan bo‘lsa ham, mamnun edi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnning oxirgi gapi.",
+   "text": "Bahor keldi. Mahalla ahli hasharga yig‘ildi. Kattalar ko‘chaga ko‘chat o‘tqazdi, bolalar esa ariqlarni tozaladi. Buvijonlar hammaga issiq non va choy olib chiqishdi. Kechga borib ko‘cha ko‘rkam bo‘ldi. Hamma charchagan bo‘lsa ham, mamnun edi."
+  },
+  {
+   "topic": "reading_g3.infer",
+   "id": "infer_17",
+   "t": "tf",
+   "q": "Bobur ortiqcha pulni o‘zida qoldirdi.",
+   "a": false,
+   "d": 1,
+   "x": "U pulni sotuvchiga qaytardi.",
+   "text": "Bobur do‘kondan non olib qaytayotib, sotuvchi qaytimni ko‘p berib yuborganini payqadi. U ortiga qaytib, ortiqcha pulni sotuvchiga berdi. Sotuvchi Boburga rahmat aytdi va: “Rostgo‘y bola ekansan”, dedi. Uyda bu voqeani eshitgan onasi o‘g‘li bilan faxrlandi."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_1",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Birlashgan o‘zar, …”",
+   "a": "birlashmagan to‘zar.",
+   "w": [
+    "o‘z yurtingda gado bo‘l.",
+    "oltin beshiging.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Birlashgan o‘zar, birlashmagan to‘zar. Mavzusi: birlik va hamjihatlik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_2",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Sabr tagi — …”",
+   "a": "sariq oltin.",
+   "w": [
+    "ko‘l bo‘lur.",
+    "yo‘li ochiq.",
+    "odam bolasi bo‘l."
+   ],
+   "d": 1,
+   "x": "Sabr tagi — sariq oltin. Mavzusi: sabr-toqat."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_3",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Hunar — …”",
+   "a": "hunardan unar.",
+   "w": [
+    "oltin beshiging.",
+    "odam bolasi bo‘l.",
+    "bilimi zo‘r mingni yiqar."
+   ],
+   "d": 1,
+   "x": "Hunar — hunardan unar. Mavzusi: hunar o‘rganish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_4",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Olim bo‘lsang, …”",
+   "a": "olam seniki.",
+   "w": [
+    "odam bolasi bo‘l.",
+    "yo‘li ochiq.",
+    "qo‘l botir."
+   ],
+   "d": 1,
+   "x": "Olim bo‘lsang, olam seniki. Mavzusi: ilm olish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_5",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ilm olish — …”",
+   "a": "igna bilan quduq qazish.",
+   "w": [
+    "boshda.",
+    "hunardan unar.",
+    "o‘z yurtingda gado bo‘l."
+   ],
+   "d": 1,
+   "x": "Ilm olish — igna bilan quduq qazish. Mavzusi: ilm olish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_6",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Yaxshi so‘z — jon ozig‘i, …”",
+   "a": "yomon so‘z — bosh qozig‘i.",
+   "w": [
+    "keyin so‘yla.",
+    "boshda.",
+    "odam bolasi bo‘l."
+   ],
+   "d": 1,
+   "x": "Yaxshi so‘z — jon ozig‘i, yomon so‘z — bosh qozig‘i. Mavzusi: so‘z odobi."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_7",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ona yurting — …”",
+   "a": "oltin beshiging.",
+   "w": [
+    "yo‘li ochiq.",
+    "sariq oltin.",
+    "keyin so‘yla."
+   ],
+   "d": 1,
+   "x": "Ona yurting — oltin beshiging. Mavzusi: vatanni sevish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_8",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Kattaga hurmatda, …”",
+   "a": "kichikka izzatda bo‘l.",
+   "w": [
+    "ko‘l bo‘lur.",
+    "bilimi zo‘r mingni yiqar.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Kattaga hurmatda, kichikka izzatda bo‘l. Mavzusi: hurmat va odob."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_9",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Bir kun tuz ichgan joyga …”",
+   "a": "qirq kun salom ber.",
+   "w": [
+    "olam seniki.",
+    "sariq oltin.",
+    "bilimi zo‘r mingni yiqar."
+   ],
+   "d": 1,
+   "x": "Bir kun tuz ichgan joyga qirq kun salom ber. Mavzusi: minnatdorlik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_10",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Tomchi-tomchi …”",
+   "a": "ko‘l bo‘lur.",
+   "w": [
+    "boshda.",
+    "oltin beshiging.",
+    "hunardan unar."
+   ],
+   "d": 1,
+   "x": "Tomchi-tomchi ko‘l bo‘lur. Mavzusi: tejamkorlik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_11",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Aql yoshda emas, …”",
+   "a": "boshda.",
+   "w": [
+    "ko‘rganini qiladi.",
+    "olam seniki.",
+    "bilimi zo‘r mingni yiqar."
+   ],
+   "d": 1,
+   "x": "Aql yoshda emas, boshda. Mavzusi: aql-idrok."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_12",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Bilagi zo‘r birni yiqar, …”",
+   "a": "bilimi zo‘r mingni yiqar.",
+   "w": [
+    "kichikka izzatda bo‘l.",
+    "odam bolasi bo‘l.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Bilagi zo‘r birni yiqar, bilimi zo‘r mingni yiqar. Mavzusi: ilm olish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_13",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Qush uyasida …”",
+   "a": "ko‘rganini qiladi.",
+   "w": [
+    "boshda.",
+    "birlashmagan to‘zar.",
+    "bilimi zo‘r mingni yiqar."
+   ],
+   "d": 2,
+   "x": "Qush uyasida ko‘rganini qiladi. Mavzusi: oila tarbiyasi."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_14",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Do‘stsiz boshim — …”",
+   "a": "tuzsiz oshim.",
+   "w": [
+    "odam bolasi bo‘l.",
+    "ko‘l bo‘lur.",
+    "ko‘rganini qiladi."
+   ],
+   "d": 2,
+   "x": "Do‘stsiz boshim — tuzsiz oshim. Mavzusi: do‘stlik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_15",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Avval o‘yla, …”",
+   "a": "keyin so‘yla.",
+   "w": [
+    "ko‘rganini qiladi.",
+    "yomon so‘z — bosh qozig‘i.",
+    "olam seniki."
+   ],
+   "d": 2,
+   "x": "Avval o‘yla, keyin so‘yla. Mavzusi: so‘z odobi."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_16",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ko‘z qo‘rqoq, …”",
+   "a": "qo‘l botir.",
+   "w": [
+    "sariq oltin.",
+    "bilimi zo‘r mingni yiqar.",
+    "olam seniki."
+   ],
+   "d": 2,
+   "x": "Ko‘z qo‘rqoq, qo‘l botir. Mavzusi: mehnat va jasorat."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_17",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Qo‘li ochiqning …”",
+   "a": "yo‘li ochiq.",
+   "w": [
+    "hunardan unar.",
+    "igna bilan quduq qazish.",
+    "o‘z yurtingda gado bo‘l."
+   ],
+   "d": 2,
+   "x": "Qo‘li ochiqning yo‘li ochiq. Mavzusi: saxiylik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_18",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Otang bolasi bo‘lma, …”",
+   "a": "odam bolasi bo‘l.",
+   "w": [
+    "olam seniki.",
+    "boshda.",
+    "birlashmagan to‘zar."
+   ],
+   "d": 2,
+   "x": "Otang bolasi bo‘lma, odam bolasi bo‘l. Mavzusi: insoniylik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_19",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Yaxshidan bog‘ qoladi, …”",
+   "a": "yomondan — dog‘.",
+   "w": [
+    "sariq oltin.",
+    "tuzsiz oshim.",
+    "qirq kun salom ber."
+   ],
+   "d": 2,
+   "x": "Yaxshidan bog‘ qoladi, yomondan — dog‘. Mavzusi: yaxshilik."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_20",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “O‘zga yurtda shoh bo‘lguncha, …”",
+   "a": "o‘z yurtingda gado bo‘l.",
+   "w": [
+    "bilimi zo‘r mingni yiqar.",
+    "oltin beshiging.",
+    "odam bolasi bo‘l."
+   ],
+   "d": 2,
+   "x": "O‘zga yurtda shoh bo‘lguncha, o‘z yurtingda gado bo‘l. Mavzusi: vatanni sevish."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_21",
+   "t": "choice",
+   "q": "“Birlashgan o‘zar, birlashmagan to‘zar.” maqoli nima haqida?",
+   "a": "Birlik va hamjihatlik",
+   "w": [
+    "Saxiylik",
+    "Yaxshilik",
+    "Mehnat va jasorat"
+   ],
+   "d": 2,
+   "x": "Bu maqol birlik va hamjihatlik haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_22",
+   "t": "choice",
+   "q": "“Sabr tagi — sariq oltin.” maqoli nima haqida?",
+   "a": "Sabr-toqat",
+   "w": [
+    "Mehnat va jasorat",
+    "Oila tarbiyasi",
+    "Yaxshilik"
+   ],
+   "d": 2,
+   "x": "Bu maqol sabr-toqat haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_23",
+   "t": "choice",
+   "q": "“Hunar — hunardan unar.” maqoli nima haqida?",
+   "a": "Hunar o‘rganish",
+   "w": [
+    "Tejamkorlik",
+    "Insoniylik",
+    "Sabr-toqat"
+   ],
+   "d": 2,
+   "x": "Bu maqol hunar o‘rganish haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_24",
+   "t": "choice",
+   "q": "“Olim bo‘lsang, olam seniki.” maqoli nima haqida?",
+   "a": "Ilm olish",
+   "w": [
+    "Oila tarbiyasi",
+    "Minnatdorlik",
+    "Tejamkorlik"
+   ],
+   "d": 2,
+   "x": "Bu maqol ilm olish haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_25",
+   "t": "choice",
+   "q": "“Ilm olish — igna bilan quduq qazish.” maqoli nima haqida?",
+   "a": "Ilm olish",
+   "w": [
+    "Vatanni sevish",
+    "Hurmat va odob",
+    "Minnatdorlik"
+   ],
+   "d": 2,
+   "x": "Bu maqol ilm olish haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_26",
+   "t": "choice",
+   "q": "“Yaxshi so‘z — jon ozig‘i, yomon so‘z — bosh qozig‘i.” maqoli nima haqida?",
+   "a": "So‘z odobi",
+   "w": [
+    "Birlik va hamjihatlik",
+    "Aql-idrok",
+    "Mehnat va jasorat"
+   ],
+   "d": 2,
+   "x": "Bu maqol so‘z odobi haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_27",
+   "t": "choice",
+   "q": "“Ona yurting — oltin beshiging.” maqoli nima haqida?",
+   "a": "Vatanni sevish",
+   "w": [
+    "Insoniylik",
+    "Yaxshilik",
+    "So‘z odobi"
+   ],
+   "d": 2,
+   "x": "Bu maqol vatanni sevish haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_28",
+   "t": "choice",
+   "q": "“Kattaga hurmatda, kichikka izzatda bo‘l.” maqoli nima haqida?",
+   "a": "Hurmat va odob",
+   "w": [
+    "Tejamkorlik",
+    "Insoniylik",
+    "Birlik va hamjihatlik"
+   ],
+   "d": 2,
+   "x": "Bu maqol hurmat va odob haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_29",
+   "t": "choice",
+   "q": "“Bir kun tuz ichgan joyga qirq kun salom ber.” maqoli nima haqida?",
+   "a": "Minnatdorlik",
+   "w": [
+    "Saxiylik",
+    "Vatanni sevish",
+    "Hunar o‘rganish"
+   ],
+   "d": 2,
+   "x": "Bu maqol minnatdorlik haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_30",
+   "t": "choice",
+   "q": "“Tomchi-tomchi ko‘l bo‘lur.” maqoli nima haqida?",
+   "a": "Tejamkorlik",
+   "w": [
+    "Aql-idrok",
+    "Minnatdorlik",
+    "Sabr-toqat"
+   ],
+   "d": 2,
+   "x": "Bu maqol tejamkorlik haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_31",
+   "t": "choice",
+   "q": "“Aql yoshda emas, boshda.” maqoli nima haqida?",
+   "a": "Aql-idrok",
+   "w": [
+    "Minnatdorlik",
+    "So‘z odobi",
+    "Insoniylik"
+   ],
+   "d": 2,
+   "x": "Bu maqol aql-idrok haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_32",
+   "t": "choice",
+   "q": "“Bilagi zo‘r birni yiqar, bilimi zo‘r mingni yiqar.” maqoli nima haqida?",
+   "a": "Ilm olish",
+   "w": [
+    "Vatanni sevish",
+    "Yaxshilik",
+    "So‘z odobi"
+   ],
+   "d": 2,
+   "x": "Bu maqol ilm olish haqida."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_33",
+   "t": "tf",
+   "q": "Maqol — xalq donoligi, qisqa va ta’sirli ibratli gap.",
+   "a": true,
+   "d": 1,
+   "x": "Maqollarni xalq yaratgan, avloddan avlodga o‘tib kelgan."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_34",
+   "t": "tf",
+   "q": "Maqollarni bitta yozuvchi yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "Maqollar — xalq og‘zaki ijodi, muallifi xalq."
+  },
+  {
+   "topic": "reading_g3.proverbs",
+   "id": "proverbs_35",
+   "t": "match",
+   "q": "Maqolning boshini oxiri bilan juftlang",
+   "pairs": [
+    [
+     "Birlashgan o‘zar",
+     "birlashmagan to‘zar."
+    ],
+    [
+     "Sabr tagi",
+     "sariq oltin."
+    ],
+    [
+     "Hunar",
+     "hunardan unar."
+    ],
+    [
+     "Olim bo‘lsang",
+     "olam seniki."
+    ],
+    [
+     "Ilm olish",
+     "igna bilan quduq qazish."
+    ],
+    [
+     "Yaxshi so‘z — jon ozig‘i",
+     "yomon so‘z — bosh qozig‘i."
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_1",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Tunda uxlamas, sichqon poylar, mo‘ylovi bor, “miyov” deydi.”",
+   "a": "Mushuk",
+   "w": [
+    "It",
+    "Quyon",
+    "Tovuq"
+   ],
+   "d": 1,
+   "x": "Javob: mushuk."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_2",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Oyog‘i yo‘q — yuradi, tili yo‘q — vaqtni aytadi.”",
+   "a": "Soat",
+   "w": [
+    "Kitob",
+    "Qalam",
+    "Radio"
+   ],
+   "d": 1,
+   "x": "Javob: soat."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_3",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Tishi bor — tishlamaydi, sochni tartibga soladi.”",
+   "a": "Taroq",
+   "w": [
+    "Qaychi",
+    "Arra",
+    "Vilka"
+   ],
+   "d": 1,
+   "x": "Javob: taroq."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_4",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Varaqlari bor — daraxt emas, gapirmaydi, lekin ko‘p narsani o‘rgatadi.”",
+   "a": "Kitob",
+   "w": [
+    "Daftar",
+    "Televizor",
+    "Gazeta"
+   ],
+   "d": 1,
+   "x": "Javob: kitob."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_5",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Osmonda yetti rangli ko‘prik, yomg‘irdan keyin paydo bo‘ladi.”",
+   "a": "Kamalak",
+   "w": [
+    "Bulut",
+    "Chaqmoq",
+    "Quyosh"
+   ],
+   "d": 1,
+   "x": "Javob: kamalak."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_6",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Qishda ham yashil, ignasi bor — lekin tikuvchi emas.”",
+   "a": "Archa",
+   "w": [
+    "Terak",
+    "Tipratikan",
+    "Olma daraxti"
+   ],
+   "d": 1,
+   "x": "Javob: archa."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_7",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Suvda suzadi, jabrasi bor, tangachasi yaltiraydi.”",
+   "a": "Baliq",
+   "w": [
+    "Baqa",
+    "O‘rdak",
+    "Delfin"
+   ],
+   "d": 1,
+   "x": "Javob: baliq."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_8",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Uyni qo‘riqlaydi, begonani ko‘rsa vovullaydi.”",
+   "a": "It",
+   "w": [
+    "Mushuk",
+    "Echki",
+    "Qo‘y"
+   ],
+   "d": 1,
+   "x": "Javob: it."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_9",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Bulutdan tomchi-tomchi tushib, yerni sug‘oradi.”",
+   "a": "Yomg‘ir",
+   "w": [
+    "Qor",
+    "Shamol",
+    "Tuman"
+   ],
+   "d": 1,
+   "x": "Javob: yomg‘ir."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_10",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Kunduzi osmonda porlaydi, hammani isitadi.”",
+   "a": "Quyosh",
+   "w": [
+    "Oy",
+    "Bulut",
+    "Chiroq"
+   ],
+   "d": 1,
+   "x": "Javob: quyosh."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_11",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Tunda chiqadi, goh o‘roqday, goh patirday.”",
+   "a": "Oy",
+   "w": [
+    "Quyosh",
+    "Bulut",
+    "Kamalak"
+   ],
+   "d": 1,
+   "x": "Javob: oy."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_12",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Ichi qizil, sirti yashil, yozda pishadi, urug‘i qora.”",
+   "a": "Tarvuz",
+   "w": [
+    "Olma",
+    "Qovun",
+    "Pomidor"
+   ],
+   "d": 1,
+   "x": "Javob: tarvuz."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_13",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Gul shirasidan asal yig‘adi, g‘uvillab uchadi.”",
+   "a": "Asalari",
+   "w": [
+    "Kapalak",
+    "Chivin",
+    "Ninachi"
+   ],
+   "d": 2,
+   "x": "Javob: asalari."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_14",
+   "t": "choice",
+   "q": "Topishmoqni toping: “O‘rkachi bor, cho‘lda yuk tashiydi, uzoq chanqamaydi.”",
+   "a": "Tuya",
+   "w": [
+    "Ot",
+    "Eshak",
+    "Sigir"
+   ],
+   "d": 2,
+   "x": "Javob: tuya."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_15",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Bo‘yni juda uzun, baland daraxt barglarini yeydi, terisi dog‘li.”",
+   "a": "Jirafa",
+   "w": [
+    "Fil",
+    "Zebra",
+    "Tuya"
+   ],
+   "d": 2,
+   "x": "Javob: jirafa."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_16",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Qishda oppoq, qulog‘i uzun, sakrab yuradi, sabzini yaxshi ko‘radi.”",
+   "a": "Quyon",
+   "w": [
+    "Tulki",
+    "Olmaxon",
+    "Qo‘y"
+   ],
+   "d": 2,
+   "x": "Javob: quyon."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_17",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Kunduzi uxlaydi, tunda ov qiladi, boshini ko‘p buradi, ko‘zlari katta.”",
+   "a": "Boyqush",
+   "w": [
+    "Qarg‘a",
+    "Kaptar",
+    "Chumchuq"
+   ],
+   "d": 2,
+   "x": "Javob: boyqush."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_18",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Yozganimni o‘chiradi, o‘zi esa kichrayadi.”",
+   "a": "O‘chirg‘ich",
+   "w": [
+    "Qalam",
+    "Chizg‘ich",
+    "Daftar"
+   ],
+   "d": 2,
+   "x": "Javob: o‘chirg‘ich."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_19",
+   "t": "tf",
+   "q": "Topishmoqda narsa nomi aytilmaydi, uning belgilari ta’riflanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Tinglovchi belgilarga qarab narsani topadi."
+  },
+  {
+   "topic": "reading_g3.riddles",
+   "id": "riddles_20",
+   "t": "choice",
+   "q": "Topishmoq nima?",
+   "a": "Narsaning belgilarini yashirin ta’riflab, topishni so‘rash",
+   "w": [
+    "Uzun hikoya",
+    "Qo‘shiq",
+    "Ibratli qisqa gap"
+   ],
+   "d": 2,
+   "x": "Maqol — ibratli gap, topishmoq esa jumboq."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_1",
+   "t": "choice",
+   "q": "“Zumrad va Qimmat” qanday asar?",
+   "a": "Xalq ertagi",
+   "w": [
+    "Xalq dostoni",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Zumrad va Qimmat” — xalq ertagi, xalq og‘zaki ijodi namunasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_2",
+   "t": "choice",
+   "q": "“Ur to‘qmoq” qanday asar?",
+   "a": "Xalq ertagi",
+   "w": [
+    "Xalq dostoni",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Ur to‘qmoq” — xalq ertagi, xalq og‘zaki ijodi namunasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_3",
+   "t": "choice",
+   "q": "“Uch og‘a-ini botirlar” qanday asar?",
+   "a": "Xalq ertagi",
+   "w": [
+    "Xalq dostoni",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Uch og‘a-ini botirlar” — xalq ertagi, xalq og‘zaki ijodi namunasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_4",
+   "t": "choice",
+   "q": "“Alpomish” qanday asar?",
+   "a": "Xalq dostoni",
+   "w": [
+    "Xalq ertagi",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Alpomish” — xalq dostoni, xalq og‘zaki ijodi namunasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_5",
+   "t": "choice",
+   "q": "“Go‘ro‘g‘li” qanday asar?",
+   "a": "Xalq dostoni",
+   "w": [
+    "Xalq ertagi",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Go‘ro‘g‘li” — xalq dostoni, xalq og‘zaki ijodi namunasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_6",
+   "t": "choice",
+   "q": "Ertaklar qanday yaratilgan?",
+   "a": "Xalq og‘zaki ijodida",
+   "w": [
+    "Bitta olim yozgan",
+    "Gazetada chiqqan",
+    "Kompyuterda yaratilgan"
+   ],
+   "d": 1,
+   "x": "Ertaklarni xalq to‘qigan, og‘izdan og‘izga o‘tib kelgan."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_7",
+   "t": "choice",
+   "q": "Ko‘pchilik ertaklar qanday so‘zlar bilan boshlanadi?",
+   "a": "Bor ekan-u, yo‘q ekan…",
+   "w": [
+    "Hurmatli do‘stlar…",
+    "Bugun darsda…",
+    "Ob-havo ma’lumoti…"
+   ],
+   "d": 1,
+   "x": "An’anaviy ertak boshlanmasi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_8",
+   "t": "choice",
+   "q": "Ertaklarda odatda nima g‘alaba qiladi?",
+   "a": "Yaxshilik",
+   "w": [
+    "Yomonlik",
+    "Dangasalik",
+    "Yolg‘on"
+   ],
+   "d": 1,
+   "x": "Ertaklarda yaxshilik yomonlik ustidan g‘alaba qozonadi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_9",
+   "t": "choice",
+   "q": "“Zumrad va Qimmat” ertagida mehnatkash va odobli qiz kim?",
+   "a": "Zumrad",
+   "w": [
+    "Qimmat",
+    "O‘gay ona",
+    "Kampir"
+   ],
+   "d": 2,
+   "x": "Zumrad — mehnatkash va odobli, Qimmat esa dangasa va qo‘pol."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_10",
+   "t": "choice",
+   "q": "“Alpomish” dostonining bosh qahramoni kim?",
+   "a": "Alpomish",
+   "w": [
+    "Go‘ro‘g‘li",
+    "Zumrad",
+    "Nasriddin"
+   ],
+   "d": 2,
+   "x": "Doston uning nomi bilan ataladi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_11",
+   "t": "choice",
+   "q": "Dostonlarni xalq orasida kim kuylab aytgan?",
+   "a": "Baxshilar",
+   "w": [
+    "Sotuvchilar",
+    "Dehqonlar",
+    "Hunarmandlar"
+   ],
+   "d": 2,
+   "x": "Baxshilar dostonlarni do‘mbira jo‘rligida kuylaydi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_12",
+   "t": "tf",
+   "q": "Ertaklarda hayvonlar ham gapirishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, hayvonlar haqidagi ertaklarda."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_13",
+   "t": "tf",
+   "q": "Xalq ertaklarining bitta aniq muallifi bor.",
+   "a": false,
+   "d": 1,
+   "x": "Ertaklar — xalq og‘zaki ijodi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_14",
+   "t": "tf",
+   "q": "“Ur to‘qmoq” — o‘zbek xalq ertagi.",
+   "a": true,
+   "d": 1,
+   "x": "U xalq og‘zaki ijodiga mansub."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_15",
+   "t": "match",
+   "q": "Asarni turi bilan juftlang",
+   "pairs": [
+    [
+     "“Zumrad va Qimmat”",
+     "ertak"
+    ],
+    [
+     "“Alpomish”",
+     "doston"
+    ],
+    [
+     "“Olim bo‘lsang, olam seniki”",
+     "maqol"
+    ],
+    [
+     "“Oyog‘i yo‘q — yuradi”",
+     "topishmoq"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_16",
+   "t": "choice",
+   "q": "Qaysi biri xalq og‘zaki ijodiga kirmaydi?",
+   "a": "Gazeta maqolasi",
+   "w": [
+    "Ertak",
+    "Maqol",
+    "Topishmoq"
+   ],
+   "d": 2,
+   "x": "Gazeta maqolasini muayyan muallif yozadi."
+  },
+  {
+   "topic": "reading_g3.folk",
+   "id": "folk_17",
+   "t": "choice",
+   "q": "Ertakdagi “Bor ekan-u, yo‘q ekan” qismi nima deyiladi?",
+   "a": "Ertak boshlanmasi",
+   "w": [
+    "Ertak oxiri",
+    "Maqol",
+    "Sarlavha"
+   ],
+   "d": 3,
+   "x": "Ertaklar ko‘pincha an’anaviy boshlanma bilan boshlanadi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_1",
+   "t": "choice",
+   "q": "She’rning bir qatori nima deyiladi?",
+   "a": "Misra",
+   "w": [
+    "Band",
+    "Sarlavha",
+    "Xat"
+   ],
+   "d": 1,
+   "x": "She’r misralardan tuziladi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_2",
+   "t": "choice",
+   "q": "She’rdagi misralar guruhi nima deyiladi?",
+   "a": "Band",
+   "w": [
+    "Misra",
+    "Qofiya",
+    "Bob"
+   ],
+   "d": 1,
+   "x": "Bir necha misra bandni tashkil etadi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_3",
+   "t": "choice",
+   "q": "Misralar oxiridagi ohangdosh so‘zlar nima deyiladi?",
+   "a": "Qofiya",
+   "w": [
+    "Band",
+    "Sarlavha",
+    "Maqol"
+   ],
+   "d": 1,
+   "x": "Masalan: bahor — qor, gul — bulbul."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_4",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "tong — rang",
+   "w": [
+    "kitob — daftar",
+    "olma — nok",
+    "uy — maktab"
+   ],
+   "d": 2,
+   "x": "tong va rang oxiri ohangdosh: -ng."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_5",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "gul — bulbul",
+   "w": [
+    "gul — daraxt",
+    "qush — suv",
+    "kitob — qalam"
+   ],
+   "d": 1,
+   "x": "gul — bulbul: oxiri “-ul”."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_6",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "bahor — anor",
+   "w": [
+    "bahor — kuz",
+    "anor — olma",
+    "qor — yomg‘ir"
+   ],
+   "d": 1,
+   "x": "bahor — anor: oxiri “-or”."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_7",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "tog‘ — bog‘",
+   "w": [
+    "tog‘ — daryo",
+    "bog‘ — gul",
+    "tosh — suv"
+   ],
+   "d": 1,
+   "x": "tog‘ — bog‘: oxiri “-og‘”."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_8",
+   "t": "choice",
+   "q": "Hikoya she’rdan nimasi bilan farq qiladi?",
+   "a": "Oddiy gaplar bilan, misralarsiz yoziladi",
+   "w": [
+    "Doim qofiyali bo‘ladi",
+    "Faqat kuylanadi",
+    "Ikki so‘zdan iborat bo‘ladi"
+   ],
+   "d": 2,
+   "x": "She’r misralarga bo‘linadi va ohangdor bo‘ladi, hikoya — nasr."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_9",
+   "t": "choice",
+   "q": "Masalning oxirida odatda nima bo‘ladi?",
+   "a": "Ibratli xulosa",
+   "w": [
+    "Topishmoq",
+    "Qofiya",
+    "Savol"
+   ],
+   "d": 2,
+   "x": "Masalda voqeadan ibrat chiqariladi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_10",
+   "t": "choice",
+   "q": "Masallarda ko‘pincha kimlar odamlarday gapiradi?",
+   "a": "Hayvonlar",
+   "w": [
+    "Faqat podshohlar",
+    "Faqat bolalar",
+    "Hech kim"
+   ],
+   "d": 1,
+   "x": "Hayvonlar orqali odamlarning fe’l-atvori ko‘rsatiladi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_11",
+   "t": "tf",
+   "q": "She’r misra va bandlardan tuziladi.",
+   "a": true,
+   "d": 1,
+   "x": "Misralar birlashib band hosil qiladi."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_12",
+   "t": "tf",
+   "q": "Hikoyada qofiya bo‘lishi shart.",
+   "a": false,
+   "d": 1,
+   "x": "Hikoya nasrda yoziladi, qofiya shart emas."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_13",
+   "t": "tf",
+   "q": "Masaldan ibrat chiqariladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masal — ibratli qisqa hikoya."
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_14",
+   "t": "match",
+   "q": "Janrni ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Ertak",
+     "to‘qima voqea, yaxshilik g‘alaba qiladi"
+    ],
+    [
+     "She’r",
+     "misra va qofiyali asar"
+    ],
+    [
+     "Masal",
+     "hayvonlar orqali ibrat"
+    ],
+    [
+     "Hikoya",
+     "hayotiy voqea haqida nasriy asar"
+    ],
+    [
+     "Topishmoq",
+     "narsa belgilari yashirin ta’riflanadi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "She’r",
+    "misra",
+    "va",
+    "bandlardan",
+    "tuziladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "reading_g3.genres",
+   "id": "genres_16",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Masaldan",
+    "ibrat",
+    "olamiz"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_1",
+   "t": "choice",
+   "q": "“Shum bola” asarining muallifi kim?",
+   "a": "G‘afur G‘ulom",
+   "w": [
+    "Alisher Navoiy",
+    "O‘tkir Hoshimov",
+    "Yusuf Xos Hojib"
+   ],
+   "d": 1,
+   "x": "“Shum bola” — G‘afur G‘ulom asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_2",
+   "t": "choice",
+   "q": "“Sariq devni minib” asarining muallifi kim?",
+   "a": "Xudoyberdi To‘xtaboyev",
+   "w": [
+    "Abdulhamid Cho‘lpon",
+    "Abdulla Qodiriy",
+    "G‘afur G‘ulom"
+   ],
+   "d": 1,
+   "x": "“Sariq devni minib” — Xudoyberdi To‘xtaboyev asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_3",
+   "t": "choice",
+   "q": "“Bolalik” asarining muallifi kim?",
+   "a": "Oybek",
+   "w": [
+    "O‘tkir Hoshimov",
+    "G‘afur G‘ulom",
+    "Mahmud Koshg‘ariy"
+   ],
+   "d": 1,
+   "x": "“Bolalik” — Oybek asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_4",
+   "t": "choice",
+   "q": "“O‘tkan kunlar” asarining muallifi kim?",
+   "a": "Abdulla Qodiriy",
+   "w": [
+    "Xudoyberdi To‘xtaboyev",
+    "Oybek",
+    "Hamid Olimjon"
+   ],
+   "d": 1,
+   "x": "“O‘tkan kunlar” — Abdulla Qodiriy asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_5",
+   "t": "choice",
+   "q": "“Xamsa” asarining muallifi kim?",
+   "a": "Alisher Navoiy",
+   "w": [
+    "O‘tkir Hoshimov",
+    "Yusuf Xos Hojib",
+    "Zahiriddin Muhammad Bobur"
+   ],
+   "d": 1,
+   "x": "“Xamsa” — Alisher Navoiy asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_6",
+   "t": "choice",
+   "q": "“Boburnoma” asarining muallifi kim?",
+   "a": "Zahiriddin Muhammad Bobur",
+   "w": [
+    "Mahmud Koshg‘ariy",
+    "Abdulhamid Cho‘lpon",
+    "Yusuf Xos Hojib"
+   ],
+   "d": 1,
+   "x": "“Boburnoma” — Zahiriddin Muhammad Bobur asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_7",
+   "t": "choice",
+   "q": "“Kecha va kunduz” asarining muallifi kim?",
+   "a": "Abdulhamid Cho‘lpon",
+   "w": [
+    "Mahmud Koshg‘ariy",
+    "Zahiriddin Muhammad Bobur",
+    "Gulxaniy"
+   ],
+   "d": 2,
+   "x": "“Kecha va kunduz” — Abdulhamid Cho‘lpon asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_8",
+   "t": "choice",
+   "q": "“Oygul bilan Baxtiyor” asarining muallifi kim?",
+   "a": "Hamid Olimjon",
+   "w": [
+    "Abdulla Qodiriy",
+    "Alisher Navoiy",
+    "Mahmud Koshg‘ariy"
+   ],
+   "d": 2,
+   "x": "“Oygul bilan Baxtiyor” — Hamid Olimjon asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_9",
+   "t": "choice",
+   "q": "“Dunyoning ishlari” asarining muallifi kim?",
+   "a": "O‘tkir Hoshimov",
+   "w": [
+    "Yusuf Xos Hojib",
+    "G‘afur G‘ulom",
+    "Alisher Navoiy"
+   ],
+   "d": 2,
+   "x": "“Dunyoning ishlari” — O‘tkir Hoshimov asari."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_10",
+   "t": "choice",
+   "q": "O‘zbekiston Respublikasi Davlat madhiyasi so‘zlarining muallifi kim?",
+   "a": "Abdulla Oripov",
+   "w": [
+    "Alisher Navoiy",
+    "G‘afur G‘ulom",
+    "Oybek"
+   ],
+   "d": 1,
+   "x": "Madhiya so‘zlari — Abdulla Oripov, musiqasi — Mutal Burhonov."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_11",
+   "t": "choice",
+   "q": "Buyuk shoir Alisher Navoiy qaysi shaharda tug‘ilgan?",
+   "a": "Hirotda",
+   "w": [
+    "Samarqandda",
+    "Buxoroda",
+    "Toshkentda"
+   ],
+   "d": 2,
+   "x": "Alisher Navoiy 1441-yilda Hirotda tug‘ilgan."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_12",
+   "t": "choice",
+   "q": "Zahiriddin Muhammad Bobur qaysi shaharda tug‘ilgan?",
+   "a": "Andijonda",
+   "w": [
+    "Xivada",
+    "Termizda",
+    "Nukusda"
+   ],
+   "d": 2,
+   "x": "Bobur 1483-yilda Andijonda tug‘ilgan."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_13",
+   "t": "choice",
+   "q": "Zulfiya kim bo‘lgan?",
+   "a": "Shoira",
+   "w": [
+    "Rassom",
+    "Olim",
+    "Bastakor"
+   ],
+   "d": 2,
+   "x": "Zulfiya — mashhur o‘zbek shoirasi."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_14",
+   "t": "tf",
+   "q": "“Shum bola” asarini G‘afur G‘ulom yozgan.",
+   "a": true,
+   "d": 1,
+   "x": "Bu — G‘afur G‘ulomning mashhur qissasi."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_15",
+   "t": "tf",
+   "q": "“Sariq devni minib” asarini Alisher Navoiy yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "Uni Xudoyberdi To‘xtaboyev yozgan."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_16",
+   "t": "tf",
+   "q": "Oybek “Bolalik” asarida o‘z bolaligi haqida hikoya qiladi.",
+   "a": true,
+   "d": 2,
+   "x": "“Bolalik” — Oybekning xotira qissasi."
+  },
+  {
+   "topic": "reading_g3.authors",
+   "id": "authors_17",
+   "t": "match",
+   "q": "Asarni muallifi bilan juftlang",
+   "pairs": [
+    [
+     "“Shum bola”",
+     "G‘afur G‘ulom"
+    ],
+    [
+     "“Sariq devni minib”",
+     "Xudoyberdi To‘xtaboyev"
+    ],
+    [
+     "“Bolalik”",
+     "Oybek"
+    ],
+    [
+     "“O‘tkan kunlar”",
+     "Abdulla Qodiriy"
+    ],
+    [
+     "“Xamsa”",
+     "Alisher Navoiy"
+    ],
+    [
+     "“Boburnoma”",
+     "Zahiriddin Muhammad Bobur"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_1",
+   "t": "choice",
+   "q": "Voqea qaysi faslda bo‘ldi?",
+   "a": "Kuzda",
+   "w": [
+    "Bahorda",
+    "Yozda",
+    "Qishda"
+   ],
+   "d": 1,
+   "x": "“Kuz kirdi.”",
+   "text": "Kuz kirdi. Bog‘dagi daraxtlar sarg‘aya boshladi. Dilnoza buvisiga olma terishda yordam berdi. Ular eng chiroyli olmalarni savatga solib, qo‘shnilarga ham ulashishdi. Qo‘shni xola ularga rahmat aytib, issiq somsa chiqardi. Dilnoza: “Yaxshilik qilsang, yaxshilik qaytar ekan”, deb o‘yladi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_2",
+   "t": "choice",
+   "q": "Dilnoza kimga yordam berdi?",
+   "a": "Buvisiga",
+   "w": [
+    "Onasiga",
+    "O‘qituvchisiga",
+    "Ukasiga"
+   ],
+   "d": 1,
+   "x": "U buvisiga olma terishda yordam berdi.",
+   "text": "Kuz kirdi. Bog‘dagi daraxtlar sarg‘aya boshladi. Dilnoza buvisiga olma terishda yordam berdi. Ular eng chiroyli olmalarni savatga solib, qo‘shnilarga ham ulashishdi. Qo‘shni xola ularga rahmat aytib, issiq somsa chiqardi. Dilnoza: “Yaxshilik qilsang, yaxshilik qaytar ekan”, deb o‘yladi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_3",
+   "t": "choice",
+   "q": "Ular olmalarni kimlarga ulashishdi?",
+   "a": "Qo‘shnilarga",
+   "w": [
+    "Sotuvchilarga",
+    "Sinfdoshlarga",
+    "Mehmonlarga"
+   ],
+   "d": 1,
+   "x": "Qo‘shnilarga ham ulashishdi.",
+   "text": "Kuz kirdi. Bog‘dagi daraxtlar sarg‘aya boshladi. Dilnoza buvisiga olma terishda yordam berdi. Ular eng chiroyli olmalarni savatga solib, qo‘shnilarga ham ulashishdi. Qo‘shni xola ularga rahmat aytib, issiq somsa chiqardi. Dilnoza: “Yaxshilik qilsang, yaxshilik qaytar ekan”, deb o‘yladi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_4",
+   "t": "choice",
+   "q": "Hikoyaning asosiy fikri qaysi?",
+   "a": "Yaxshilik qilsang, yaxshilik qaytadi",
+   "w": [
+    "Olma faqat kuzda pishadi",
+    "Somsa mazali taom",
+    "Bog‘da ishlash qiyin"
+   ],
+   "d": 2,
+   "x": "Dilnozaning o‘yi hikoyaning asosiy fikrini aytadi.",
+   "text": "Kuz kirdi. Bog‘dagi daraxtlar sarg‘aya boshladi. Dilnoza buvisiga olma terishda yordam berdi. Ular eng chiroyli olmalarni savatga solib, qo‘shnilarga ham ulashishdi. Qo‘shni xola ularga rahmat aytib, issiq somsa chiqardi. Dilnoza: “Yaxshilik qilsang, yaxshilik qaytar ekan”, deb o‘yladi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_5",
+   "t": "choice",
+   "q": "Jasur nima uchun xafa bo‘ldi?",
+   "a": "Gol ura olmadi",
+   "w": [
+    "Jarohat oldi",
+    "O‘yinga kechikdi",
+    "To‘pi yo‘qoldi"
+   ],
+   "d": 1,
+   "x": "U musobaqada gol ura olmadi.",
+   "text": "Jasur futbol musobaqasida gol ura olmadi va xafa bo‘ldi. Murabbiy uning yelkasiga qo‘lini qo‘yib: “Har bir mag‘lubiyat — yangi saboq. Ertadan ko‘proq mashq qilamiz”, dedi. Jasur har kuni mashq qildi. Keyingi o‘yinda u ikki gol urdi va jamoasi g‘alaba qozondi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_6",
+   "t": "choice",
+   "q": "Murabbiy Jasurga nima dedi?",
+   "a": "Mag‘lubiyat — yangi saboq, ko‘proq mashq qilamiz",
+   "w": [
+    "Futbolni tashla",
+    "Sen eng yomon o‘yinchisan",
+    "Endi o‘ynamaysan"
+   ],
+   "d": 1,
+   "x": "Murabbiy uni ruhlantirdi.",
+   "text": "Jasur futbol musobaqasida gol ura olmadi va xafa bo‘ldi. Murabbiy uning yelkasiga qo‘lini qo‘yib: “Har bir mag‘lubiyat — yangi saboq. Ertadan ko‘proq mashq qilamiz”, dedi. Jasur har kuni mashq qildi. Keyingi o‘yinda u ikki gol urdi va jamoasi g‘alaba qozondi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_7",
+   "t": "choice",
+   "q": "Keyingi o‘yinda Jasur nechta gol urdi?",
+   "a": "Ikkita",
+   "w": [
+    "Bitta",
+    "Uchta",
+    "Hech qancha"
+   ],
+   "d": 1,
+   "x": "U ikki gol urdi.",
+   "text": "Jasur futbol musobaqasida gol ura olmadi va xafa bo‘ldi. Murabbiy uning yelkasiga qo‘lini qo‘yib: “Har bir mag‘lubiyat — yangi saboq. Ertadan ko‘proq mashq qilamiz”, dedi. Jasur har kuni mashq qildi. Keyingi o‘yinda u ikki gol urdi va jamoasi g‘alaba qozondi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_8",
+   "t": "choice",
+   "q": "Hikoyadan qanday xulosa chiqadi?",
+   "a": "Qunt bilan mashq qilgan kishi yutadi",
+   "w": [
+    "Xafa bo‘lsang, tashlab ketish kerak",
+    "Futbol zararli",
+    "Murabbiylar qattiqqo‘l"
+   ],
+   "d": 2,
+   "x": "Jasur har kuni mashq qilib, natijaga erishdi.",
+   "text": "Jasur futbol musobaqasida gol ura olmadi va xafa bo‘ldi. Murabbiy uning yelkasiga qo‘lini qo‘yib: “Har bir mag‘lubiyat — yangi saboq. Ertadan ko‘proq mashq qilamiz”, dedi. Jasur har kuni mashq qildi. Keyingi o‘yinda u ikki gol urdi va jamoasi g‘alaba qozondi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_9",
+   "t": "choice",
+   "q": "Bekzod qayerga bordi?",
+   "a": "Qo‘g‘irchoq teatriga",
+   "w": [
+    "Hayvonot bog‘iga",
+    "Sirkka",
+    "Kutubxonaga"
+   ],
+   "d": 1,
+   "x": "U qo‘g‘irchoq teatriga birinchi marta bordi.",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_10",
+   "t": "choice",
+   "q": "Ertakda kim kimni aldamoqchi bo‘ldi?",
+   "a": "Tulki quyonni",
+   "w": [
+    "Quyon tulkini",
+    "Bo‘ri quyonni",
+    "Ayiq tulkini"
+   ],
+   "d": 1,
+   "x": "Tulki quyonni aldamoqchi bo‘ldi.",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_11",
+   "t": "choice",
+   "q": "Quyon qanday ekan?",
+   "a": "Aqlli",
+   "w": [
+    "Dangasa",
+    "Qo‘rqoq",
+    "Maqtanchoq"
+   ],
+   "d": 1,
+   "x": "“Aqlli quyon uning hiylasini sezib qoldi.”",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_12",
+   "t": "choice",
+   "q": "Hikoya kimning tilidan aytilgan?",
+   "a": "Bekzodning akasi yoki opasining",
+   "w": [
+    "Tulkining",
+    "Quyonning",
+    "Bekzodning o‘zining"
+   ],
+   "d": 3,
+   "x": "“Ukam Bekzod …” — hikoyachi Bekzodning akasi yoki opasi.",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_13",
+   "t": "tf",
+   "q": "Dilnoza olmalarni bozorga sotib yubordi.",
+   "a": false,
+   "d": 1,
+   "x": "Ular olmalarni qo‘shnilarga ulashishdi.",
+   "text": "Kuz kirdi. Bog‘dagi daraxtlar sarg‘aya boshladi. Dilnoza buvisiga olma terishda yordam berdi. Ular eng chiroyli olmalarni savatga solib, qo‘shnilarga ham ulashishdi. Qo‘shni xola ularga rahmat aytib, issiq somsa chiqardi. Dilnoza: “Yaxshilik qilsang, yaxshilik qaytar ekan”, deb o‘yladi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_14",
+   "t": "tf",
+   "q": "Jasur mag‘lubiyatdan keyin har kuni mashq qildi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Jasur futbol musobaqasida gol ura olmadi va xafa bo‘ldi. Murabbiy uning yelkasiga qo‘lini qo‘yib: “Har bir mag‘lubiyat — yangi saboq. Ertadan ko‘proq mashq qilamiz”, dedi. Jasur har kuni mashq qildi. Keyingi o‘yinda u ikki gol urdi va jamoasi g‘alaba qozondi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_15",
+   "t": "tf",
+   "q": "Tomosha oxirida hamma qarsak chaldi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  },
+  {
+   "topic": "reading_g3.think",
+   "id": "think_16",
+   "t": "tf",
+   "q": "Bekzod qo‘g‘irchoq teatriga ko‘p marta borgan edi.",
+   "a": false,
+   "d": 1,
+   "x": "U birinchi marta bordi.",
+   "text": "Ukam Bekzod qo‘g‘irchoq teatriga birinchi marta bordi. Sahnada tulki va quyon haqida ertak ko‘rsatildi. Tulki quyonni aldamoqchi bo‘ldi, ammo aqlli quyon uning hiylasini sezib qoldi. Tomosha oxirida hamma qarsak chaldi. Uyga qaytgach, Bekzod ertakni boshidan oxirigacha menga so‘zlab berdi."
+  }
+ ]
+}

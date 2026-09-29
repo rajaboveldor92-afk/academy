@@ -1,58 +1,83 @@
 {
  "subject": "history",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Tarix",
   "en": "History",
   "ru": "История"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
    "id": "history_g5.sources",
    "code": "1",
-   "emoji": "🏛️",
+   "emoji": "🏺",
    "title": {
-    "uz": "Tarixiy manbalar",
-    "en": "Tarixiy manbalar",
-    "ru": "Tarixiy manbalar"
+    "uz": "Tarix fani va tarixiy manbalar",
+    "en": "History and its sources",
+    "ru": "История и исторические источники"
    },
    "generator": "bank",
-   "skill": "sources",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Tarix fani va ibtidoiy davr",
    "prerequisites": [],
-   "theory": {
-    "uz": "O‘tmish haqidagi ma’lumot yozma, moddiy va og‘zaki manbalardan olinadi. Manbaning qachon, kim tomonidan va nima maqsadda yaratilganini so‘rang. Bitta manbadagi ma’lumotni boshqa dalillar bilan solishtiring."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Tarix — insoniyat o‘tmishini o‘rganadigan fan. O‘tmish haqidagi bilimlar manbalardan olinadi:\n• yozma manbalar — qo‘lyozma, yilnoma, xat, kitob;\n• moddiy manbalar — buyumlar, qurollar, tangalar, inshoot qoldiqlari, qoyatosh rasmlari;\n• og‘zaki manbalar — rivoyat, doston, qo‘shiq.\nArxeologiya yer ostidagi qadimgi buyumlarni qazib o‘rganadi, ular muzeylarda saqlanadi."
+   }
+  },
+  {
+   "id": "history_g5.time",
+   "code": "2",
+   "emoji": "⏳",
+   "title": {
+    "uz": "Vaqt hisobi: yil, asr, ming yillik",
+    "en": "Measuring time: years and centuries",
+    "ru": "Счёт времени: год, век"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tarix fani va ibtidoiy davr",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Asr — 100 yil, ming yillik — 1000 yil. Milodiy yillar milod boshlanishidan sanaladi, undan oldingilar — miloddan avvalgi (mil. avv.).\n• 1-asr: 1–100-yillar, 20-asr: 1901–2000, 21-asr: 2001–2100.\n• Asrni topish: yilning yuzliklar sonini olib, 1 qo‘shamiz (1991 → 19 + 1 = 20-asr); 1900, 2000 kabi yillar oldingi asrga kiradi.\n• Miloddan avvalgi sanada son qancha katta bo‘lsa, voqea shuncha qadimiy."
+   }
   },
   {
    "id": "history_g5.centuries",
-   "code": "2",
-   "emoji": "🏛️",
+   "code": "3",
+   "emoji": "📅",
    "title": {
-    "uz": "Yil va asr",
-    "en": "Yil va asr",
-    "ru": "Yil va asr"
+    "uz": "Yil va asr (mashq)",
+    "en": "Years and centuries (practice)",
+    "ru": "Год и век (практика)"
    },
    "generator": "timeline",
-   "skill": "centuries",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "timeline",
+   "chapter": "1-chorak. Tarix fani va ibtidoiy davr",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bir asr — yuz yil. Milodiy birinchi asr 1–100-yillar, ikkinchi asr 101–200-yillar. 1901–2000-yillar yigirmanchi asr, 2001–2100-yillar yigirma birinchi asr. Yuzlikning oxirgi yili avvalgi asrga kiradi."
-   },
    "levels": [
     {
      "mode": "choice"
@@ -63,43 +88,484 @@
     {
      "mode": "input"
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Bir asr — yuz yil. Milodiy birinchi asr 1–100-yillar, ikkinchi asr 101–200-yillar. 1901–2000-yillar yigirmanchi asr, 2001–2100-yillar yigirma birinchi asr. Yuzlikning oxirgi yili avvalgi asrga kiradi."
+   }
   },
   {
-   "id": "history_g5.review",
-   "code": "3",
-   "emoji": "🏛️",
+   "id": "history_g5.stone_age",
+   "code": "4",
+   "emoji": "🔥",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "Ibtidoiy odamlar hayoti",
+    "en": "Life of early humans",
+    "ru": "Жизнь первобытных людей"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tarix fani va ibtidoiy davr",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ibtidoiy odamlar tosh qurollar yasagan (tosh davri), g‘orlarda yashagan, ovchilik va termachilik bilan shug‘ullangan.\nOlov isinish, ovqat pishirish va himoya uchun muhim bo‘lgan. Keyinroq dehqonchilik va chorvachilik paydo bo‘ldi.\nVatanimizdagi yodgorliklar: Teshiktosh g‘ori (Surxondaryo, Boysun tog‘lari) — qadimgi odam bolasining suyaklari topilgan;\nSarmishsoy (Navoiy) va Zarautsoy (Surxondaryo) — qoyatosh rasmlari."
+   }
+  },
+  {
+   "id": "history_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Tarix fani va ibtidoiy davr",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
       "history_g5.sources",
-      "history_g5.centuries"
+      "history_g5.time",
+      "history_g5.stone_age"
      ],
      "level": 1
     },
     {
      "topics": [
       "history_g5.sources",
-      "history_g5.centuries"
+      "history_g5.time",
+      "history_g5.stone_age"
      ],
      "level": 2
     },
     {
      "topics": [
       "history_g5.sources",
-      "history_g5.centuries"
+      "history_g5.time",
+      "history_g5.stone_age"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g5.egypt_mesopotamia",
+   "code": "5",
+   "emoji": "🔺",
+   "title": {
+    "uz": "Qadimgi Misr va Mesopotamiya",
+    "en": "Ancient Egypt and Mesopotamia",
+    "ru": "Древний Египет и Месопотамия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Qadimgi Sharq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Qadimgi Misr — Nil daryosi bo‘yida. Hukmdori — fir’avn. Piramidalar — fir’avnlar maqbaralari (eng kattasi — Xeops piramidasi).\n  Yozuvi — iyeroglif, yozuv materiali — papirus.\n• Mesopotamiya — Dajla va Frot daryolari oralig‘ida. Yozuvi — mixxat (loy taxtachalarga).\n  Bobil podshosi Xammurapi mashhur qonunlar to‘plamini yaratgan."
+   }
+  },
+  {
+   "id": "history_g5.india_china",
+   "code": "6",
+   "emoji": "🏯",
+   "title": {
+    "uz": "Qadimgi Hindiston va Xitoy",
+    "en": "Ancient India and China",
+    "ru": "Древняя Индия и Китай"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Qadimgi Sharq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Qadimgi Hindiston — Hind va Gang daryolari bo‘yida. Hozirgi raqamlar hind raqamlaridan kelib chiqqan.\n• Qadimgi Xitoy — Xuanxe (Sariq daryo) va Yanszi bo‘yida. Buyuk Xitoy devori ko‘chmanchilardan himoya uchun qurilgan.\n• Xitoy ixtirolari: qog‘oz, ipak, chinni, kompas, porox."
+   }
+  },
+  {
+   "id": "history_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Qadimgi Sharq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g5.greece",
+   "code": "7",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Qadimgi Yunoniston",
+    "en": "Ancient Greece",
+    "ru": "Древняя Греция"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Olimpiya o‘yinlari miloddan avvalgi 776-yilda boshlangan; g‘oliblarga zaytun gulchambari kiydirilgan.\n• Afina — demokratiya (xalq hokimiyati) vatani; Sparta — kuchli jangchilar tarbiyasi bilan mashhur.\n• Gomer — “Iliada” va “Odisseya” dostonlari muallifi. Aristotel — faylasuf, Aleksandr Makedonskiyning ustozi.\n• Aleksandr Makedonskiyga qarshi So‘g‘diyonada Spitamen kurashgan."
+   }
+  },
+  {
+   "id": "history_g5.rome",
+   "code": "8",
+   "emoji": "🏟️",
+   "title": {
+    "uz": "Qadimgi Rim",
+    "en": "Ancient Rome",
+    "ru": "Древний Рим"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Rim — Italiyada (Apennin yarim oroli), Tibr daryosi bo‘yida. Avval respublika, keyin imperiya bo‘lgan.\n• Mashhur arbob — Yuliy Sezar. Til — lotin tili (lotin yozuvi hozirgi ko‘plab alifbolar asosi).\n• Kolizey — ulkan amfiteatr; gladiatorlar arenada jang qilgan. Akveduklar shaharlarga suv keltirgan."
+   }
+  },
+  {
+   "id": "history_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g5.greece",
+      "history_g5.rome"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g5.greece",
+      "history_g5.rome"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g5.greece",
+      "history_g5.rome"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g5.ancient_uz",
+   "code": "9",
+   "emoji": "🏜️",
+   "title": {
+    "uz": "Vatanimizning qadimgi davlatlari va qahramonlari",
+    "en": "Ancient states and heroes of our land",
+    "ru": "Древние государства и герои"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Qadimgi davlatlar: Baqtriya, So‘g‘diyona (Zarafshon vodiysi), Xorazm (Amudaryo quyi oqimi).\n• Afrosiyob — qadimgi Samarqand o‘rni; Samarqandning 2750 yilligi 2007-yilda, Buxoro va Xivaning 2500 yilligi 1997-yilda nishonlangan.\n• “Avesto” — zardushtiylikning muqaddas kitobi, eng qadimgi yozma manbalardan.\n• Qahramonlar: To‘maris (massagetlar malikasi, Kir II ga qarshi), Shiroq (cho‘pon), Spitamen (Aleksandr Makedonskiyga qarshi)."
+   }
+  },
+  {
+   "id": "history_g5.silk_road",
+   "code": "10",
+   "emoji": "🐫",
+   "title": {
+    "uz": "Buyuk ipak yo‘li",
+    "en": "The Great Silk Road",
+    "ru": "Великий шёлковый путь"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Buyuk ipak yo‘li miloddan avvalgi II asrda shakllangan va Xitoyni O‘rta yer dengizi bo‘yi bilan bog‘lagan.\nVatanimizdagi Samarqand, Buxoro, Termiz — yo‘lning muhim savdo markazlari. So‘g‘d savdogarlari mashhur bo‘lgan.\nKarvonlar tuyalarda yuk tashigan, karvonsaroylarda dam olgan. Yo‘l orqali mollar bilan birga bilim va madaniyat ham tarqalgan."
+   }
+  },
+  {
+   "id": "history_g5.scholars",
+   "code": "11",
+   "emoji": "🔭",
+   "title": {
+    "uz": "Buyuk allomalarimiz",
+    "en": "Our great scholars",
+    "ru": "Великие учёные нашего края"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Muhammad al-Xorazmiy — algebra asoschisi; “algoritm” so‘zi uning nomidan.\n• Ahmad al-Farg‘oniy — astronom. • Abu Rayhon Beruniy — Xorazmlik qomusiy olim, Yer globusini yasagan.\n• Abu Ali ibn Sino (980, Afshona) — tabib, “Tib qonunlari” muallifi.\n• Amir Temur (1336, Kesh yaqinida) — sarkarda, poytaxti Samarqand. • Mirzo Ulug‘bek — Temurning nabirasi, Samarqandda rasadxona qurdirgan."
+   }
+  },
+  {
+   "id": "history_g5.independence",
+   "code": "12",
+   "emoji": "🇺🇿",
+   "title": {
+    "uz": "O‘zbekiston — mustaqil davlat",
+    "en": "Independent Uzbekistan",
+    "ru": "Независимый Узбекистан"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• O‘zbekiston 1991-yilda mustaqil bo‘ldi; Mustaqillik kuni — 1-sentabr. Poytaxt — Toshkent.\n• Konstitutsiya kuni — 8-dekabr (1992-yil).\n• Davlat ramzlari: bayroq (1991-yil 18-noyabr; yarim oy va 12 yulduz), gerb (Humo qushi), madhiya\n  (so‘zlari Abdulla Oripov, musiqasi Mutal Burhonov). Madhiya tik turib tinglanadi."
+   }
+  },
+  {
+   "id": "history_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Vatanimizning qadimgi tarixi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.time",
+      "history_g5.stone_age",
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china",
+      "history_g5.greece",
+      "history_g5.rome",
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.time",
+      "history_g5.stone_age",
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china",
+      "history_g5.greece",
+      "history_g5.rome",
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "history_g5.sources",
+      "history_g5.time",
+      "history_g5.stone_age",
+      "history_g5.egypt_mesopotamia",
+      "history_g5.india_china",
+      "history_g5.greece",
+      "history_g5.rome",
+      "history_g5.ancient_uz",
+      "history_g5.silk_road",
+      "history_g5.scholars",
+      "history_g5.independence"
      ],
      "level": 3
     }

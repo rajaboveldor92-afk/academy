@@ -101,7 +101,7 @@ class BankGen {
     final text = _s(item, 'text');
     final emoji = _s(item, 'e');
     final say = text == null && _s(item, 'say') == null
-        ? RenderedInstruction(Localized.same('Bu fikr to‘g‘rimi?'), schoolSpeech('$statement Bu fikr to‘g‘rimi?'), key: 'school')
+        ? RenderedInstruction(const Localized.same('Bu fikr to‘g‘rimi?'), schoolSpeech('$statement Bu fikr to‘g‘rimi?'), key: 'school')
         : _say(g, item, text == null ? 'Bu fikr to‘g‘rimi?' : statement);
     return g.choice(
       say: say,

@@ -22,7 +22,7 @@ CURRICULA = {}
 BANKS = {3: [], 5: []}
 # Bu fanlar batafsil dasturga ko'chirildi: tool/content/school/<fan>_g<N>.py (schoolkit).
 # Bu yerda ular yaratilmaydi, aks holda o'sha fayllar ustidan yozilib ketadi.
-MOVED = {'english', 'russian', 'science', 'informatics', 'onatili'}
+MOVED = {'english', 'russian', 'science', 'informatics', 'onatili', 'reading', 'history'}
 
 def topic(subject, grade, key, title, generator, theory, levels=None):
  if subject in MOVED:
@@ -381,5 +381,9 @@ for (subject,grade),topics in list(CURRICULA.items()):
  if subject=='reading' and grade==5: data['title']=dict(uz='Adabiyot',en='Literature',ru='Литература')
  (OUT/f'{subject}_g{grade}.json').write_text(json.dumps(data,ensure_ascii=False,indent=1)+'\n')
 for grade,items in BANKS.items():
- (OUT/f'bank_practice_g{grade}.json').write_text(json.dumps(dict(items=items),ensure_ascii=False,indent=1)+'\n')
+ path=OUT/f'bank_practice_g{grade}.json'
+ if items:
+  path.write_text(json.dumps(dict(items=items),ensure_ascii=False,indent=1)+'\n')
+ elif path.exists():
+  path.unlink()  # barcha savollar batafsil dasturlarga ko'chirilgan
 print(f'{len(CURRICULA)} curricula; {sum(map(len,CURRICULA.values()))} topics; {sum(map(len,BANKS.values()))} authored questions')

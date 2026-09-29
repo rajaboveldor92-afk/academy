@@ -19,7 +19,7 @@ Reklama, chat, login, internet yo'q — barcha ma'lumot faqat qurilmada saqlanad
 | CONTENT 8 | ▶ Bugungi darsim (fanlar aralash kunlik dars), takrorlash (shu dars → ertaga → 3 kun → 7 kun), 🌳 bog‘, 🎁 sovg‘a qutisi va kolleksiya, 🏅 24 medal, 🏆 fan kuboklari | ✅ |
 | CONTENT 9 | 📊 Ota-ona uchun batafsil hisobot: vaqt va faol kunlar, aniqlik, har fan bo‘yicha egallash %, har mavzu holati (daraja, foiz, oxirgi mashq), takrorlash navbati, kuchli tomonlar va e’tibor kerak bo‘lgan mavzular, tavsiyalar | ✅ |
 | CONTENT 10 | Yakuniy QA va release | ✅ |
-| Maktab rejimi | 1–8-sinf: profilda sinf, Jasmina (3-sinf) va Akramjon (5-sinf); qoida → mashq → nazorat ishi (5 ballik baho), javobni klaviaturada yozish. 3 va 5-sinf: matematika, ona tili, ingliz, rus, tabiiy fan, informatika ✅ (4 chorak); o‘qish, tarix, mantiq — qo‘shimcha mashqlar; boshqa sinflar — navbatda | 🟡 |
+| Maktab rejimi | 1–8-sinf: profilda sinf, Jasmina (3-sinf) va Akramjon (5-sinf); qoida → mashq → nazorat ishi (5 ballik baho), javobni klaviaturada yozish. 3 va 5-sinf: matematika, ona tili, o‘qish/adabiyot, ingliz, rus, tabiiy fan, informatika, tarix ✅ (4 chorak); mantiq — qo‘shimcha mashqlar; boshqa sinflar — navbatda | 🟡 |
 | Ilova tillari | O‘zbekcha, Русский, English — har bir bolaga alohida (interfeys + mashqlar), ota-ona bo‘limi uchun umumiy til | ✅ |
 
 ## O‘quv dvigateli
@@ -93,8 +93,8 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
 * Kontent: `tool/content/school/*.py` → `assets/data/school/<fan>_g<sinf>.json`; generatorlar `lib/learning/generators/school/`.
   Mavzular darslik tartibiga moslangan, tushuntirish va savollar o‘zimizniki (darslik matnlari ko‘chirilmagan).
 * Tekshiruv: `test/content/school_content_test.dart` — har bir mashq javobi mustaqil hisoblab tekshiriladi.
-* **3 va 5-sinf to‘liq fanlari (1.5.0):** Ona tili, Ingliz tili, Rus tili, Tabiiy fan, Informatika — har biri 4 chorak,
-  14–16 mavzu, har chorakda nazorat ishi va yillik takrorlash; jami ~3 440 ta savol.
+* **3 va 5-sinf to‘liq fanlari (1.5.0):** Ona tili, O‘qish/Adabiyot, Ingliz tili, Rus tili, Tabiiy fan, Informatika, Tarix (5-sinf) — har biri 4 chorak,
+  14–16 mavzu, har chorakda nazorat ishi va yillik takrorlash; jami ~3 940 ta savol.
   Ona tili savollari so‘z ro‘yxatlaridan (`uzlang.py`) dastur bilan tuziladi, sinonim/antonim chalg‘ituvchilari qo‘lda tanlangan. Manba —
   `tool/content/school/<fan>_g<sinf>.py` (`schoolkit.py`: `Q` tanlash, `TF` to‘g‘ri/noto‘g‘ri, `ORDER` so‘zlardan gap,
   `MATCH` juftlash; `d` — qiyinlik 1–3). Qayta yaratish: `python3 tool/content/school/english_g3.py` va hokazo —
@@ -339,7 +339,7 @@ savol hamda tasodifiy mantiq va matnni tushunish mashqlari.
 Bu qo‘shimcha mashqlar to‘plami; rasmiy yillik darslikni to‘liq qamrash da’vosi yo‘q.
 Qoidalar va izohlar o‘zbekcha; chet tilidagi savollar tegishli tilda aytiladi.
 
-Kontent manbasi: `tool/content/school_subjects_src.py` (mantiq, o‘qish, tarix; ona tili, ingliz, rus,
-tabiiy fan va informatika 1.5.0 da batafsil dasturga ko‘chirildi); qayta yaratish:
+Kontent manbasi: `tool/content/school_subjects_src.py` (mantiq; qolgan fanlar 1.5.0 da
+`tool/content/school/` dagi batafsil dasturlarga ko‘chirildi); qayta yaratish:
 `python3 tool/content/school_subjects_src.py`.
 APK tekshiruvi maktab dasturlari va savollar banklari ham yig‘ilganini tekshiradi.

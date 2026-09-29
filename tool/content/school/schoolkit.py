@@ -82,6 +82,14 @@ class Course:
         self._code += 1
         if items is not None:
             gen = "bank"
+            # 1-darajada kamida 8 ta savol bo'lsin: yetmasa, eng oson (d=2) savollar 1-darajaga o'tkaziladi.
+            easy = sum(1 for it in items if it.get("d", 1) <= 1)
+            for it in items:
+                if easy >= 8:
+                    break
+                if it.get("d", 1) == 2:
+                    it["d"] = 1
+                    easy += 1
             levels = levels or [{"options": 3}, {"options": 4}, {"options": 4}]
             for n, it in enumerate(items, 1):
                 self.items.append({"topic": self._id(key), "id": f"{key}_{n}", **it})

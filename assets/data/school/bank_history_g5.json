@@ -1,0 +1,2328 @@
+{
+ "items": [
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_1",
+   "t": "choice",
+   "q": "Tarix fani nimani o‘rganadi?",
+   "a": "Insoniyatning o‘tmishini",
+   "w": [
+    "Faqat hayvonlarni",
+    "Yulduzlarni",
+    "Sonlarni"
+   ],
+   "d": 1,
+   "x": "Tarix — insoniyat o‘tmishi haqidagi fan."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_2",
+   "t": "choice",
+   "q": "Yer ostidan qadimgi buyumlarni qazib o‘rganadigan fan qaysi?",
+   "a": "Arxeologiya",
+   "w": [
+    "Geografiya",
+    "Biologiya",
+    "Matematika"
+   ],
+   "d": 1,
+   "x": "Arxeologlar qazishma o‘tkazadi."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_3",
+   "t": "choice",
+   "q": "Qadimgi qo‘lyozma qanday tarixiy manba?",
+   "a": "Yozma manba",
+   "w": [
+    "Moddiy manba",
+    "Og‘zaki manba",
+    "Manba emas"
+   ],
+   "d": 1,
+   "x": "Unda ma’lumot yozuv orqali yetib kelgan."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_4",
+   "t": "choice",
+   "q": "Qazishmada topilgan sopol ko‘za qanday manba?",
+   "a": "Moddiy manba",
+   "w": [
+    "Yozma manba",
+    "Og‘zaki manba",
+    "Manba emas"
+   ],
+   "d": 1,
+   "x": "Buyumlar, inshootlar, qurollar — moddiy manbalar."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_5",
+   "t": "choice",
+   "q": "Avloddan avlodga og‘zaki aytib kelingan rivoyat qanday manba?",
+   "a": "Og‘zaki manba",
+   "w": [
+    "Yozma manba",
+    "Moddiy manba",
+    "Manba emas"
+   ],
+   "d": 1,
+   "x": "Doston, rivoyat, qo‘shiqlar — og‘zaki manbalar."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_6",
+   "t": "choice",
+   "q": "Tosh mehnat quroli qanday manba?",
+   "a": "Moddiy manba",
+   "w": [
+    "Yozma manba",
+    "Og‘zaki manba",
+    "Manba emas"
+   ],
+   "d": 1,
+   "x": "Qadimgi odamlar yasagan buyum — moddiy manba."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_7",
+   "t": "choice",
+   "q": "Qadimgi tanga qanday manba?",
+   "a": "Moddiy manba",
+   "w": [
+    "Og‘zaki manba",
+    "Yozma manba",
+    "Manba emas"
+   ],
+   "d": 2,
+   "x": "Tangadagi yozuv ham bor, lekin u asosan buyum sifatida o‘rganiladi."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_8",
+   "t": "choice",
+   "q": "Tarixiy buyumlar saqlanadigan va ko‘rgazmaga qo‘yiladigan joy qanday ataladi?",
+   "a": "Muzey",
+   "w": [
+    "Kutubxona",
+    "Bozor",
+    "Stadion"
+   ],
+   "d": 1,
+   "x": "Muzeyda eksponatlar saqlanadi."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_9",
+   "t": "choice",
+   "q": "“Alpomish” dostoni qanday tarixiy manba hisoblanadi?",
+   "a": "Og‘zaki manba",
+   "w": [
+    "Moddiy manba",
+    "Yozma manba",
+    "Manba emas"
+   ],
+   "d": 2,
+   "x": "Doston xalq orasida og‘zaki saqlangan."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_10",
+   "t": "choice",
+   "q": "Qoyatoshlarga chizilgan qadimgi rasmlar qanday manba?",
+   "a": "Moddiy manba",
+   "w": [
+    "Yozma manba",
+    "Og‘zaki manba",
+    "Manba emas"
+   ],
+   "d": 2,
+   "x": "Qoyatosh rasmlari — moddiy manba."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_11",
+   "t": "tf",
+   "q": "Tarixiy manbalar yozma, moddiy va og‘zaki bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu — manbalarning asosiy turlari."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_12",
+   "t": "tf",
+   "q": "Arxeologlar qazishmalar orqali o‘tmishni o‘rganadi.",
+   "a": true,
+   "d": 1,
+   "x": "Ular yer ostidagi buyum va inshootlarni topadi."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_13",
+   "t": "tf",
+   "q": "Og‘zaki manba qog‘ozga yozilgan bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Og‘zaki manba — og‘izdan og‘izga o‘tgan hikoya, qo‘shiq, doston."
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_14",
+   "t": "match",
+   "q": "Manbani turi bilan juftlang",
+   "pairs": [
+    [
+     "qo‘lyozma",
+     "yozma"
+    ],
+    [
+     "sopol ko‘za",
+     "moddiy"
+    ],
+    [
+     "rivoyat",
+     "og‘zaki"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.sources",
+   "id": "sources_15",
+   "t": "choice",
+   "q": "Tarixchi bitta manbadagi ma’lumotni nima qilishi kerak?",
+   "a": "Boshqa manbalar bilan solishtirishi",
+   "w": [
+    "Tekshirmasdan qabul qilishi",
+    "Yashirib qo‘yishi",
+    "O‘chirib tashlashi"
+   ],
+   "d": 3,
+   "x": "Bir necha manbani solishtirish haqiqatga yaqinlashtiradi."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_1",
+   "t": "choice",
+   "q": "Milodiy 1991-yil nechanchi asrga kiradi?",
+   "a": "20-asr",
+   "w": [
+    "19-asr",
+    "21-asr",
+    "22-asr"
+   ],
+   "d": 1,
+   "x": "20-asr: 1901–2000-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_2",
+   "t": "choice",
+   "q": "Milodiy 2024-yil nechanchi asrga kiradi?",
+   "a": "21-asr",
+   "w": [
+    "20-asr",
+    "22-asr",
+    "23-asr"
+   ],
+   "d": 1,
+   "x": "21-asr: 2001–2100-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_3",
+   "t": "choice",
+   "q": "Milodiy 1441-yil nechanchi asrga kiradi?",
+   "a": "15-asr",
+   "w": [
+    "14-asr",
+    "16-asr",
+    "17-asr"
+   ],
+   "d": 1,
+   "x": "15-asr: 1401–1500-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_4",
+   "t": "choice",
+   "q": "Milodiy 1336-yil nechanchi asrga kiradi?",
+   "a": "14-asr",
+   "w": [
+    "13-asr",
+    "15-asr",
+    "16-asr"
+   ],
+   "d": 1,
+   "x": "14-asr: 1301–1400-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_5",
+   "t": "choice",
+   "q": "Milodiy 1483-yil nechanchi asrga kiradi?",
+   "a": "15-asr",
+   "w": [
+    "14-asr",
+    "16-asr",
+    "17-asr"
+   ],
+   "d": 1,
+   "x": "15-asr: 1401–1500-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_6",
+   "t": "choice",
+   "q": "Milodiy 1901-yil nechanchi asrga kiradi?",
+   "a": "20-asr",
+   "w": [
+    "19-asr",
+    "21-asr",
+    "22-asr"
+   ],
+   "d": 3,
+   "x": "20-asr: 1901–2000-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_7",
+   "t": "choice",
+   "q": "Milodiy 1800-yil nechanchi asrga kiradi?",
+   "a": "18-asr",
+   "w": [
+    "17-asr",
+    "19-asr",
+    "20-asr"
+   ],
+   "d": 3,
+   "x": "18-asr: 1701–1800-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_8",
+   "t": "choice",
+   "q": "Milodiy 1200-yil nechanchi asrga kiradi?",
+   "a": "12-asr",
+   "w": [
+    "11-asr",
+    "13-asr",
+    "14-asr"
+   ],
+   "d": 1,
+   "x": "12-asr: 1101–1200-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_9",
+   "t": "choice",
+   "q": "Milodiy 500-yil nechanchi asrga kiradi?",
+   "a": "5-asr",
+   "w": [
+    "4-asr",
+    "6-asr",
+    "7-asr"
+   ],
+   "d": 2,
+   "x": "5-asr: 401–500-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_10",
+   "t": "choice",
+   "q": "Milodiy 100-yil nechanchi asrga kiradi?",
+   "a": "1-asr",
+   "w": [
+    "2-asr",
+    "3-asr"
+   ],
+   "d": 2,
+   "x": "1-asr: 1–100-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_11",
+   "t": "choice",
+   "q": "Milodiy 2000-yil nechanchi asrga kiradi?",
+   "a": "20-asr",
+   "w": [
+    "19-asr",
+    "21-asr",
+    "22-asr"
+   ],
+   "d": 3,
+   "x": "20-asr: 1901–2000-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_12",
+   "t": "choice",
+   "q": "Milodiy 101-yil nechanchi asrga kiradi?",
+   "a": "2-asr",
+   "w": [
+    "1-asr",
+    "3-asr",
+    "4-asr"
+   ],
+   "d": 3,
+   "x": "2-asr: 101–200-yillar."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_13",
+   "t": "choice",
+   "q": "Qaysi sana qadimiyroq: miloddan avvalgi 500-yilmi yoki miloddan avvalgi 300-yilmi?",
+   "a": "mil. avv. 500-yil",
+   "w": [
+    "mil. avv. 300-yil",
+    "Ikkalasi bir vaqtda"
+   ],
+   "d": 2,
+   "x": "Miloddan avvalgi sanalarda son qancha katta bo‘lsa, voqea shuncha qadimiy."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_14",
+   "t": "choice",
+   "q": "Qaysi sana qadimiyroq: miloddan avvalgi 776-yilmi yoki miloddan avvalgi 509-yilmi?",
+   "a": "mil. avv. 776-yil",
+   "w": [
+    "mil. avv. 509-yil",
+    "Ikkalasi bir vaqtda"
+   ],
+   "d": 2,
+   "x": "Miloddan avvalgi sanalarda son qancha katta bo‘lsa, voqea shuncha qadimiy."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_15",
+   "t": "choice",
+   "q": "Qaysi sana qadimiyroq: miloddan avvalgi 1000-yilmi yoki miloddan avvalgi 100-yilmi?",
+   "a": "mil. avv. 1000-yil",
+   "w": [
+    "mil. avv. 100-yil",
+    "Ikkalasi bir vaqtda"
+   ],
+   "d": 2,
+   "x": "Miloddan avvalgi sanalarda son qancha katta bo‘lsa, voqea shuncha qadimiy."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_16",
+   "t": "choice",
+   "q": "Qaysi sana qadimiyroq: miloddan avvalgi 2000-yilmi yoki miloddan avvalgi 1500-yilmi?",
+   "a": "mil. avv. 2000-yil",
+   "w": [
+    "mil. avv. 1500-yil",
+    "Ikkalasi bir vaqtda"
+   ],
+   "d": 2,
+   "x": "Miloddan avvalgi sanalarda son qancha katta bo‘lsa, voqea shuncha qadimiy."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_17",
+   "t": "choice",
+   "q": "Bir asr necha yilga teng?",
+   "a": "100 yil",
+   "w": [
+    "10 yil",
+    "1000 yil",
+    "50 yil"
+   ],
+   "d": 1,
+   "x": "Asr — yuz yil."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_18",
+   "t": "choice",
+   "q": "Ming yillik necha asrga teng?",
+   "a": "10 asr",
+   "w": [
+    "100 asr",
+    "5 asr",
+    "1 asr"
+   ],
+   "d": 1,
+   "x": "1000 yil = 10 × 100 yil."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_19",
+   "t": "choice",
+   "q": "Yillar hisobi qaysi voqeadan boshlab milodiy deb ataladi?",
+   "a": "Milod boshlanishidan",
+   "w": [
+    "Olimpiya o‘yinlaridan",
+    "Piramidalar qurilishidan",
+    "Rim tashkil topishidan"
+   ],
+   "d": 2,
+   "x": "Undan oldingi yillar — miloddan avvalgi (mil. avv.)."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_20",
+   "t": "tf",
+   "q": "Miloddan avvalgi 500-yil miloddan avvalgi 100-yildan oldin bo‘lgan.",
+   "a": true,
+   "d": 2,
+   "x": "Miloddan avvalgi sanalar kamayib boradi: 500, 400, … 100."
+  },
+  {
+   "topic": "history_g5.time",
+   "id": "time_21",
+   "t": "tf",
+   "q": "2001-yil 20-asrga kiradi.",
+   "a": false,
+   "d": 2,
+   "x": "21-asr 2001-yildan boshlanadi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_1",
+   "t": "choice",
+   "q": "Ibtidoiy odamlar dastlab qanday qurollardan foydalanishgan?",
+   "a": "Tosh qurollardan",
+   "w": [
+    "Temir qurollardan",
+    "Plastmassa qurollardan",
+    "Oltin qurollardan"
+   ],
+   "d": 1,
+   "x": "Shuning uchun bu davr tosh davri deyiladi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_2",
+   "t": "choice",
+   "q": "Ibtidoiy odamlar olovdan nima maqsadda foydalanishgan?",
+   "a": "Isinish, ovqat pishirish, yirtqichlardan saqlanish",
+   "w": [
+    "Faqat o‘yin uchun",
+    "Kitob o‘qish uchun",
+    "Mashina yurgizish uchun"
+   ],
+   "d": 1,
+   "x": "Olov hayotni ancha yengillashtirdi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_3",
+   "t": "choice",
+   "q": "Ibtidoiy odamlarning dastlabki mashg‘ulotlari qaysilar?",
+   "a": "Ovchilik va termachilik",
+   "w": [
+    "Savdo va sanoat",
+    "Hunarmandchilik va bank ishi",
+    "Dengizchilik"
+   ],
+   "d": 1,
+   "x": "Ular hayvon ovlab, yovvoyi meva va urug‘ terishgan."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_4",
+   "t": "choice",
+   "q": "Keyinchalik qaysi xo‘jalik turlari paydo bo‘ldi?",
+   "a": "Dehqonchilik va chorvachilik",
+   "w": [
+    "Kompyuter sanoati",
+    "Kosmik parvozlar",
+    "Temir yo‘l qurilishi"
+   ],
+   "d": 1,
+   "x": "Odamlar o‘simlik ekish va hayvon boqishni o‘rgandi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_5",
+   "t": "choice",
+   "q": "Teshiktosh g‘ori qayerda joylashgan?",
+   "a": "Surxondaryoda, Boysun tog‘larida",
+   "w": [
+    "Toshkent shahri markazida",
+    "Orol dengizi tubida",
+    "Farg‘ona shahrida"
+   ],
+   "d": 2,
+   "x": "Teshiktosh g‘orida qadimgi odam — neandertal bola suyaklari topilgan."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_6",
+   "t": "choice",
+   "q": "Teshiktosh g‘orida nima topilgan?",
+   "a": "Qadimgi odam bolasining suyaklari",
+   "w": [
+    "Oltin toj",
+    "Qadimgi kitob",
+    "Temir qilich"
+   ],
+   "d": 2,
+   "x": "Bu topilma butun dunyoga mashhur."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_7",
+   "t": "choice",
+   "q": "Qadimgi qoyatosh rasmlari bilan mashhur Sarmishsoy qaysi viloyatda?",
+   "a": "Navoiy viloyatida",
+   "w": [
+    "Andijon viloyatida",
+    "Toshkent viloyatida",
+    "Xorazm viloyatida"
+   ],
+   "d": 3,
+   "x": "Sarmishsoyda minglab qoyatosh rasmlari bor."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_8",
+   "t": "choice",
+   "q": "Zarautsoy qanday yodgorlik bilan mashhur?",
+   "a": "Qoyatosh rasmlari",
+   "w": [
+    "Piramidalar",
+    "Qadimgi masjid",
+    "Qal’a devorlari"
+   ],
+   "d": 3,
+   "x": "Zarautsoy (Surxondaryo) qoyatosh rasmlarida ov manzaralari tasvirlangan."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_9",
+   "t": "tf",
+   "q": "Tosh davrida odamlar temir qurollardan foydalanishgan.",
+   "a": false,
+   "d": 1,
+   "x": "Temir ancha keyin o‘zlashtirilgan."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_10",
+   "t": "tf",
+   "q": "Ibtidoiy odamlar jamoa bo‘lib yashashgan.",
+   "a": true,
+   "d": 1,
+   "x": "Birgalikda ov qilish va yashash osonroq edi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_11",
+   "t": "tf",
+   "q": "Dehqonchilikning paydo bo‘lishi odamlarni o‘troq hayotga o‘tkazdi.",
+   "a": true,
+   "d": 2,
+   "x": "Ekin ekkan odamlar bir joyda qolib yashay boshladi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_12",
+   "t": "tf",
+   "q": "Olov ibtidoiy odamlarni yirtqich hayvonlardan himoya qilgan.",
+   "a": true,
+   "d": 1,
+   "x": "Hayvonlar olovdan qo‘rqadi."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_13",
+   "t": "match",
+   "q": "Yodgorlikni topilma bilan juftlang",
+   "pairs": [
+    [
+     "Teshiktosh g‘ori",
+     "qadimgi odam suyaklari"
+    ],
+    [
+     "Sarmishsoy",
+     "qoyatosh rasmlari"
+    ],
+    [
+     "Afrosiyob",
+     "qadimgi Samarqand xarobalari"
+    ]
+   ],
+   "d": 3
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_14",
+   "t": "choice",
+   "q": "Qaysi biri ibtidoiy odamlarning uy-joyi bo‘lgan?",
+   "a": "G‘or",
+   "w": [
+    "Ko‘p qavatli uy",
+    "Mehmonxona",
+    "Saroy"
+   ],
+   "d": 1,
+   "x": "Dastlab ular g‘orlarda yashashgan."
+  },
+  {
+   "topic": "history_g5.stone_age",
+   "id": "stone_age_15",
+   "t": "choice",
+   "q": "Odamlar hayvonlarni qo‘lga o‘rgatishi natijasida qaysi xo‘jalik paydo bo‘ldi?",
+   "a": "Chorvachilik",
+   "w": [
+    "Dehqonchilik",
+    "Savdo",
+    "Hunarmandchilik"
+   ],
+   "d": 2,
+   "x": "Chorvachilik — uy hayvonlarini boqish."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_1",
+   "t": "choice",
+   "q": "Qadimgi Misr qaysi daryo bo‘yida vujudga kelgan?",
+   "a": "Nil",
+   "w": [
+    "Amudaryo",
+    "Dajla",
+    "Xuanxe"
+   ],
+   "d": 1,
+   "x": "Nil daryosi toshqinlari yerni unumdor qilgan."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_2",
+   "t": "choice",
+   "q": "Qadimgi Misr hukmdori qanday atalgan?",
+   "a": "Fir’avn",
+   "w": [
+    "Imperator",
+    "Xon",
+    "Prezident"
+   ],
+   "d": 1,
+   "x": "Fir’avnlar cheksiz hokimiyatga ega bo‘lgan."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_3",
+   "t": "choice",
+   "q": "Misrdagi eng katta piramida qaysi fir’avn uchun qurilgan?",
+   "a": "Xeops",
+   "w": [
+    "Tutanxamon",
+    "Xammurapi",
+    "Sezar"
+   ],
+   "d": 2,
+   "x": "Xeops piramidasi — eng katta piramida."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_4",
+   "t": "choice",
+   "q": "Qadimgi misrliklar yozuvi qanday nomlanadi?",
+   "a": "Iyeroglif",
+   "w": [
+    "Mixxat",
+    "Lotin yozuvi",
+    "Kirill yozuvi"
+   ],
+   "d": 1,
+   "x": "Iyerogliflar — rasmli belgilar."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_5",
+   "t": "choice",
+   "q": "Misrliklar qaysi o‘simlikdan yozuv materiali tayyorlashgan?",
+   "a": "Papirus",
+   "w": [
+    "Paxta",
+    "Bug‘doy",
+    "Tut"
+   ],
+   "d": 2,
+   "x": "Papirus qamishidan qog‘ozga o‘xshash material tayyorlangan."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_6",
+   "t": "choice",
+   "q": "Piramidalar nima uchun qurilgan?",
+   "a": "Fir’avnlar maqbarasi sifatida",
+   "w": [
+    "Uy-joy sifatida",
+    "Bozor sifatida",
+    "Maktab sifatida"
+   ],
+   "d": 1,
+   "x": "Piramidalar — fir’avnlarning maqbaralari."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_7",
+   "t": "tf",
+   "q": "Qadimgi Misr Nil daryosi bo‘yida vujudga kelgan.",
+   "a": true,
+   "d": 1,
+   "x": "Nil — Misr hayotining manbai."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_8",
+   "t": "tf",
+   "q": "Misrliklar mixxatda yozishgan.",
+   "a": false,
+   "d": 1,
+   "x": "Misrliklar iyerogliflardan foydalangan; mixxat — Mesopotamiyada."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_9",
+   "t": "choice",
+   "q": "Mesopotamiya (Ikki daryo oralig‘i) qaysi daryolar orasida joylashgan?",
+   "a": "Dajla va Frot",
+   "w": [
+    "Nil va Kongo",
+    "Amudaryo va Sirdaryo",
+    "Hind va Gang"
+   ],
+   "d": 1,
+   "x": "Mesopotamiya — “ikki daryo oralig‘i” degani."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_10",
+   "t": "choice",
+   "q": "Mesopotamiyada paydo bo‘lgan yozuv qaysi?",
+   "a": "Mixxat",
+   "w": [
+    "Iyeroglif",
+    "Lotin yozuvi",
+    "Arab yozuvi"
+   ],
+   "d": 1,
+   "x": "Belgilar ho‘l loy taxtachalarga tayoqcha bilan bosilgan."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_11",
+   "t": "choice",
+   "q": "Mixxat nimaga yozilgan?",
+   "a": "Loy taxtachalarga",
+   "w": [
+    "Qog‘ozga",
+    "Ipak matoga",
+    "Shishaga"
+   ],
+   "d": 2,
+   "x": "Yozilgan taxtachalar quritilgan yoki pishirilgan."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_12",
+   "t": "choice",
+   "q": "Mashhur qadimgi qonunlar to‘plami kimning nomi bilan ataladi?",
+   "a": "Xammurapi",
+   "w": [
+    "Fir’avn",
+    "Sezar",
+    "Aleksandr"
+   ],
+   "d": 2,
+   "x": "Xammurapi — Bobil podshosi."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_13",
+   "t": "choice",
+   "q": "Xammurapi qaysi davlatning podshosi bo‘lgan?",
+   "a": "Bobil",
+   "w": [
+    "Misr",
+    "Rim",
+    "Xitoy"
+   ],
+   "d": 2,
+   "x": "Bobil — Mesopotamiyadagi qudratli davlat."
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_14",
+   "t": "match",
+   "q": "Qadimgi davlatni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Misr",
+     "piramidalar"
+    ],
+    [
+     "Mesopotamiya",
+     "mixxat"
+    ],
+    [
+     "Bobil",
+     "Xammurapi qonunlari"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.egypt_mesopotamia",
+   "id": "egypt_mesopotamia_15",
+   "t": "choice",
+   "q": "Qadimgi dehqonlar daryo suvidan qanday foydalanishgan?",
+   "a": "Kanal qazib, dalalarni sug‘organ",
+   "w": [
+    "Suvdan umuman foydalanishmagan",
+    "Faqat baliq tutishgan",
+    "Suvni sotishgan"
+   ],
+   "d": 2,
+   "x": "Sug‘orish dehqonchilik rivojlanishining asosi bo‘lgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_1",
+   "t": "choice",
+   "q": "Qadimgi Hindiston qaysi daryolar bo‘yida vujudga kelgan?",
+   "a": "Hind va Gang",
+   "w": [
+    "Nil va Kongo",
+    "Dajla va Frot",
+    "Amudaryo va Sirdaryo"
+   ],
+   "d": 1,
+   "x": "Mamlakat nomi Hind daryosidan olingan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_2",
+   "t": "choice",
+   "q": "Hozirgi “arab raqamlari” aslida qayerda paydo bo‘lgan?",
+   "a": "Hindistonda",
+   "w": [
+    "Misrda",
+    "Rimda",
+    "Yunonistonda"
+   ],
+   "d": 1,
+   "x": "Hind raqamlarini arablar Yevropaga yetkazgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_3",
+   "t": "choice",
+   "q": "Qadimgi Xitoy qaysi daryolar bo‘yida vujudga kelgan?",
+   "a": "Xuanxe va Yanszi",
+   "w": [
+    "Nil va Frot",
+    "Hind va Gang",
+    "Tibr va Po"
+   ],
+   "d": 2,
+   "x": "Xuanxe — “Sariq daryo”."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_4",
+   "t": "choice",
+   "q": "Xitoyliklar ko‘chmanchilardan himoyalanish uchun nima qurishgan?",
+   "a": "Buyuk Xitoy devorini",
+   "w": [
+    "Piramidalarni",
+    "Kolizeyni",
+    "Minorani"
+   ],
+   "d": 1,
+   "x": "Buyuk Xitoy devori — dunyodagi eng uzun mudofaa inshooti."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_5",
+   "t": "choice",
+   "q": "Qaysi ixtiro qadimgi Xitoyga tegishli?",
+   "a": "Qog‘oz",
+   "w": [
+    "Telefon",
+    "Samolyot",
+    "Kompyuter"
+   ],
+   "d": 1,
+   "x": "Qog‘oz, ipak, kompas, porox — Xitoy ixtirolari."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_6",
+   "t": "choice",
+   "q": "Xitoyliklar qaysi qurt yordamida mashhur matoni ishlab chiqarishgan?",
+   "a": "Ipak qurti",
+   "w": [
+    "Chuvalchang",
+    "Chumoli",
+    "Asalari"
+   ],
+   "d": 2,
+   "x": "Ipak Xitoyning mashhur mahsuloti bo‘lgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_7",
+   "t": "choice",
+   "q": "Qaysi biri qadimgi Xitoy ixtirosi EMAS?",
+   "a": "Elektr lampochka",
+   "w": [
+    "Qog‘oz",
+    "Kompas",
+    "Porox"
+   ],
+   "d": 2,
+   "x": "Elektr lampochka XIX asrda ixtiro qilingan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_8",
+   "t": "tf",
+   "q": "Buyuk Xitoy devori ko‘chmanchilardan himoyalanish uchun qurilgan.",
+   "a": true,
+   "d": 1,
+   "x": "Devor shimoliy chegara bo‘ylab qurilgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_9",
+   "t": "tf",
+   "q": "Qog‘oz qadimgi Rimda ixtiro qilingan.",
+   "a": false,
+   "d": 1,
+   "x": "Qog‘oz qadimgi Xitoyda ixtiro qilingan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_10",
+   "t": "tf",
+   "q": "Ipak Xitoydan boshqa mamlakatlarga olib ketilgan qimmatbaho mahsulot bo‘lgan.",
+   "a": true,
+   "d": 1,
+   "x": "Buyuk ipak yo‘li nomi shundan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_11",
+   "t": "match",
+   "q": "Mamlakatni ixtiro yoki belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Xitoy",
+     "qog‘oz"
+    ],
+    [
+     "Hindiston",
+     "raqamlar"
+    ],
+    [
+     "Misr",
+     "papirus"
+    ],
+    [
+     "Mesopotamiya",
+     "mixxat"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_12",
+   "t": "choice",
+   "q": "Xuanxe daryosining boshqa nomi qaysi?",
+   "a": "Sariq daryo",
+   "w": [
+    "Qizil daryo",
+    "Oq daryo",
+    "Moviy daryo"
+   ],
+   "d": 3,
+   "x": "Suvi sariq loyqa bo‘lgani uchun shunday atalgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_13",
+   "t": "choice",
+   "q": "Xitoy imperatorlari qanday unvon bilan atalgan?",
+   "a": "Osmon o‘g‘li",
+   "w": [
+    "Fir’avn",
+    "Konsul",
+    "Xon"
+   ],
+   "d": 3,
+   "x": "Xitoyda imperator “Osmon o‘g‘li” deb atalgan."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_14",
+   "t": "choice",
+   "q": "Qadimgi Xitoyda qanday qimmatbaho idishlar yasalgan?",
+   "a": "Chinni idishlar",
+   "w": [
+    "Plastik idishlar",
+    "Shisha butilkalar",
+    "Temir bankalar"
+   ],
+   "d": 2,
+   "x": "Xitoy chinnisi dunyoga mashhur."
+  },
+  {
+   "topic": "history_g5.india_china",
+   "id": "india_china_15",
+   "t": "choice",
+   "q": "Qaysi daryo bo‘yida Hindiston tsivilizatsiyasi boshlangan?",
+   "a": "Hind",
+   "w": [
+    "Nil",
+    "Tibr",
+    "Frot"
+   ],
+   "d": 1,
+   "x": "Hind daryosi vodiysida qadimgi shaharlar bo‘lgan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_1",
+   "t": "choice",
+   "q": "Birinchi Olimpiya o‘yinlari qachon o‘tkazilgan?",
+   "a": "Miloddan avvalgi 776-yilda",
+   "w": [
+    "Milodiy 1991-yilda",
+    "Miloddan avvalgi 50-yilda",
+    "Milodiy 1500-yilda"
+   ],
+   "d": 1,
+   "x": "Olimpiya o‘yinlari Yunonistonning Olimpiya shahrida o‘tkazilgan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_2",
+   "t": "choice",
+   "q": "Olimpiya o‘yinlari qaysi mamlakatda paydo bo‘lgan?",
+   "a": "Qadimgi Yunonistonda",
+   "w": [
+    "Qadimgi Misrda",
+    "Qadimgi Xitoyda",
+    "Qadimgi Hindistonda"
+   ],
+   "d": 1,
+   "x": "Olimpiya — Yunonistondagi joy nomi."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_3",
+   "t": "choice",
+   "q": "“Iliada” va “Odisseya” dostonlarining muallifi kim?",
+   "a": "Gomer",
+   "w": [
+    "Sezar",
+    "Xammurapi",
+    "Aristotel"
+   ],
+   "d": 1,
+   "x": "Gomer — qadimgi yunon shoiri."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_4",
+   "t": "choice",
+   "q": "Qaysi yunon shahar-davlatida demokratiya rivojlangan?",
+   "a": "Afina",
+   "w": [
+    "Sparta",
+    "Bobil",
+    "Rim"
+   ],
+   "d": 1,
+   "x": "Afinada muhim masalalarni fuqarolar yig‘ini hal qilgan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_5",
+   "t": "choice",
+   "q": "Qaysi yunon shahar-davlati kuchli jangchilar tarbiyasi bilan mashhur?",
+   "a": "Sparta",
+   "w": [
+    "Afina",
+    "Misr",
+    "Bobil"
+   ],
+   "d": 1,
+   "x": "Spartada bolalar yoshligidan harbiy mashqlarga o‘rgatilgan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_6",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiyning ustozi kim bo‘lgan?",
+   "a": "Aristotel",
+   "w": [
+    "Gomer",
+    "Sezar",
+    "Xeops"
+   ],
+   "d": 3,
+   "x": "Aristotel — mashhur yunon faylasufi."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_7",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiyga qarshi kurashgan So‘g‘d sarkardasi kim?",
+   "a": "Spitamen",
+   "w": [
+    "Shiroq",
+    "Alpomish",
+    "Temur"
+   ],
+   "d": 2,
+   "x": "Spitamen So‘g‘diyonada bosqinchilarga qarshi qo‘zg‘olon ko‘targan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_8",
+   "t": "tf",
+   "q": "Olimpiya o‘yinlari qadimgi Yunonistonda paydo bo‘lgan.",
+   "a": true,
+   "d": 1,
+   "x": "Miloddan avvalgi 776-yildan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_9",
+   "t": "tf",
+   "q": "“Iliada” dostonini Yuliy Sezar yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "“Iliada” — Gomer asari."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_10",
+   "t": "choice",
+   "q": "Yunonlar xudolari yashaydi deb ishongan tog‘ qaysi?",
+   "a": "Olimp",
+   "w": [
+    "Everest",
+    "Pomir",
+    "Chimyon"
+   ],
+   "d": 2,
+   "x": "Yunon afsonalarida xudolar Olimp tog‘ida yashagan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_11",
+   "t": "choice",
+   "q": "“Demokratiya” so‘zining ma’nosi qaysi?",
+   "a": "Xalq hokimiyati",
+   "w": [
+    "Podsho hokimiyati",
+    "Harbiy qo‘shin",
+    "Ibodatxona"
+   ],
+   "d": 2,
+   "x": "Yunoncha: demos — xalq, kratos — hokimiyat."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_12",
+   "t": "match",
+   "q": "Shaxs yoki joyni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Gomer",
+     "“Iliada”"
+    ],
+    [
+     "Afina",
+     "demokratiya"
+    ],
+    [
+     "Sparta",
+     "jangchilar tarbiyasi"
+    ],
+    [
+     "Olimpiya",
+     "sport o‘yinlari"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_13",
+   "t": "choice",
+   "q": "Qadimgi Olimpiya o‘yinlarida g‘oliblarga nima kiydirilgan?",
+   "a": "Zaytun novdasidan gulchambar",
+   "w": [
+    "Oltin toj",
+    "Temir dubulg‘a",
+    "Ipak to‘n"
+   ],
+   "d": 3,
+   "x": "Zaytun gulchambari — g‘alaba ramzi."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_14",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy qaysi davlatning podshosi bo‘lgan?",
+   "a": "Makedoniya",
+   "w": [
+    "Misr",
+    "Xitoy",
+    "Bobil"
+   ],
+   "d": 1,
+   "x": "U juda katta hududlarni bosib olgan."
+  },
+  {
+   "topic": "history_g5.greece",
+   "id": "greece_15",
+   "t": "choice",
+   "q": "Yunonlar teatrda qanday asarlarni sahnalashtirgan?",
+   "a": "Tragediya va komediya",
+   "w": [
+    "Faqat operalar",
+    "Faqat filmlar",
+    "Faqat raqslar"
+   ],
+   "d": 2,
+   "x": "Teatr qadimgi Yunonistonda keng rivojlangan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_1",
+   "t": "choice",
+   "q": "Rim shahri qaysi daryo bo‘yida joylashgan?",
+   "a": "Tibr",
+   "w": [
+    "Nil",
+    "Frot",
+    "Gang"
+   ],
+   "d": 1,
+   "x": "Rim Italiyada, Tibr daryosi bo‘yida."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_2",
+   "t": "choice",
+   "q": "Rimdagi mashhur ulkan amfiteatr qanday nomlanadi?",
+   "a": "Kolizey",
+   "w": [
+    "Piramida",
+    "Parfenon",
+    "Buyuk devor"
+   ],
+   "d": 1,
+   "x": "Kolizeyda tomoshalar o‘tkazilgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_3",
+   "t": "choice",
+   "q": "Rimda arenada bir-biri bilan jang qilgan kishilar kimlar edi?",
+   "a": "Gladiatorlar",
+   "w": [
+    "Fir’avnlar",
+    "Baxshilar",
+    "Olimlar"
+   ],
+   "d": 1,
+   "x": "Gladiatorlar ko‘pincha qullardan bo‘lgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_4",
+   "t": "choice",
+   "q": "Qadimgi Rimliklar qaysi tilda so‘zlashgan?",
+   "a": "Lotin tilida",
+   "w": [
+    "Yunon tilida",
+    "Xitoy tilida",
+    "Misr tilida"
+   ],
+   "d": 1,
+   "x": "Lotin tili ko‘plab Yevropa tillariga ta’sir qilgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_5",
+   "t": "choice",
+   "q": "Mashhur Rim sarkardasi va davlat arbobi kim?",
+   "a": "Yuliy Sezar",
+   "w": [
+    "Gomer",
+    "Xammurapi",
+    "Konfutsiy"
+   ],
+   "d": 1,
+   "x": "Yuliy Sezar — mashhur Rim sarkardasi."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_6",
+   "t": "choice",
+   "q": "Rimda yillar davomida saylanadigan boshqaruvchilar bilan boshqariladigan tuzum nima deyiladi?",
+   "a": "Respublika",
+   "w": [
+    "Imperiya",
+    "Qabila",
+    "Fir’avnlik"
+   ],
+   "d": 2,
+   "x": "Keyinchalik Rim imperiyaga aylangan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_7",
+   "t": "choice",
+   "q": "Rimda keyinchalik yakka hukmdor — imperator boshqargan davlat qanday atalgan?",
+   "a": "Imperiya",
+   "w": [
+    "Respublika",
+    "Shahar-davlat",
+    "Jamoa"
+   ],
+   "d": 2,
+   "x": "Rim imperiyasi juda katta hududni egallagan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_8",
+   "t": "tf",
+   "q": "Kolizey — Rimdagi mashhur amfiteatr.",
+   "a": true,
+   "d": 1,
+   "x": "U hozir ham saqlanib qolgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_9",
+   "t": "tf",
+   "q": "Qadimgi rimliklar lotin tilida so‘zlashgan.",
+   "a": true,
+   "d": 1,
+   "x": "Lotin alifbosi ham Rimdan tarqalgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_10",
+   "t": "tf",
+   "q": "Gladiatorlar Olimpiya o‘yinlarida qatnashgan yunon sportchilari edi.",
+   "a": false,
+   "d": 1,
+   "x": "Gladiatorlar Rim arenalarida jang qilgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_11",
+   "t": "choice",
+   "q": "Rimliklar suv keltirish uchun qanday inshoot qurishgan?",
+   "a": "Akveduk (suv o‘tkazgich)",
+   "w": [
+    "Piramida",
+    "Minora",
+    "Zikkurat"
+   ],
+   "d": 3,
+   "x": "Akveduklar orqali shaharga toza suv keltirilgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_12",
+   "t": "choice",
+   "q": "Hozirgi o‘zbek lotin alifbosining asosi qaysi yozuv?",
+   "a": "Lotin yozuvi",
+   "w": [
+    "Iyeroglif",
+    "Mixxat",
+    "Kirill yozuvi"
+   ],
+   "d": 2,
+   "x": "Lotin yozuvi qadimgi Rimdan tarqalgan."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_13",
+   "t": "match",
+   "q": "Atamani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Kolizey",
+     "amfiteatr"
+    ],
+    [
+     "Gladiator",
+     "arena jangchisi"
+    ],
+    [
+     "Lotin",
+     "rimliklar tili"
+    ],
+    [
+     "Akveduk",
+     "suv o‘tkazgich"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_14",
+   "t": "choice",
+   "q": "Rim qaysi yarim orolda joylashgan?",
+   "a": "Apennin",
+   "w": [
+    "Arabiston",
+    "Skandinaviya",
+    "Hindiston"
+   ],
+   "d": 3,
+   "x": "Italiya — Apennin yarim orolida."
+  },
+  {
+   "topic": "history_g5.rome",
+   "id": "rome_15",
+   "t": "choice",
+   "q": "“Barcha yo‘llar Rimga olib boradi” degan ibora nimani bildiradi?",
+   "a": "Rim juda qudratli markaz bo‘lganini",
+   "w": [
+    "Rimda yo‘l yo‘qligini",
+    "Rim kichik qishloq bo‘lganini",
+    "Rimda faqat dengiz borligini"
+   ],
+   "d": 2,
+   "x": "Rim imperiyasining ko‘plab yo‘llari poytaxtga olib borgan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_1",
+   "t": "choice",
+   "q": "Vatanimiz hududidagi qadimgi davlatlar qaysilar?",
+   "a": "Baqtriya, So‘g‘diyona, Xorazm",
+   "w": [
+    "Misr, Bobil, Rim",
+    "Afina, Sparta, Troya",
+    "Xitoy, Hindiston, Yaponiya"
+   ],
+   "d": 1,
+   "x": "Ular miloddan avvalgi ming yillikda mavjud bo‘lgan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_2",
+   "t": "choice",
+   "q": "Qadimgi Samarqand xarobalari qanday ataladi?",
+   "a": "Afrosiyob",
+   "w": [
+    "Kolizey",
+    "Tuproqqal’a",
+    "Teshiktosh"
+   ],
+   "d": 1,
+   "x": "Afrosiyob — qadimgi Samarqand o‘rni."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_3",
+   "t": "choice",
+   "q": "Samarqand shahrining necha yillik yubileyi 2007-yilda nishonlangan?",
+   "a": "2750 yillik",
+   "w": [
+    "500 yillik",
+    "1000 yillik",
+    "100 yillik"
+   ],
+   "d": 1,
+   "x": "Samarqand — dunyodagi eng qadimiy shaharlardan biri."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_4",
+   "t": "choice",
+   "q": "Buxoro va Xivaning 2500 yillik yubileyi qaysi yilda nishonlangan?",
+   "a": "1997-yilda",
+   "w": [
+    "1991-yilda",
+    "2007-yilda",
+    "1941-yilda"
+   ],
+   "d": 3,
+   "x": "1997-yilda Buxoro va Xivaning 2500 yilligi nishonlangan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_5",
+   "t": "choice",
+   "q": "Zardushtiylikning muqaddas kitobi qanday nomlanadi?",
+   "a": "“Avesto”",
+   "w": [
+    "“Boburnoma”",
+    "“Iliada”",
+    "“Xamsa”"
+   ],
+   "d": 1,
+   "x": "“Avesto” — eng qadimgi yozma manbalardan biri."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_6",
+   "t": "choice",
+   "q": "Massagetlar malikasi To‘maris qaysi fors podshosiga qarshi kurashgan?",
+   "a": "Kir II",
+   "w": [
+    "Aleksandr Makedonskiy",
+    "Yuliy Sezar",
+    "Xammurapi"
+   ],
+   "d": 3,
+   "x": "To‘maris miloddan avvalgi 530-yilda Kir II qo‘shiniga qarshi kurashgan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_7",
+   "t": "choice",
+   "q": "Dushman qo‘shinini cho‘lga adashtirib, vatanini qutqargan cho‘pon kim?",
+   "a": "Shiroq",
+   "w": [
+    "Spitamen",
+    "Alpomish",
+    "Gomer"
+   ],
+   "d": 2,
+   "x": "Shiroq jasorati haqidagi rivoyat mashhur."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_8",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiyga qarshi kurashgan sarkarda kim?",
+   "a": "Spitamen",
+   "w": [
+    "Shiroq",
+    "To‘maris",
+    "Kir II"
+   ],
+   "d": 2,
+   "x": "Spitamen So‘g‘diyonada qo‘zg‘olonga boshchilik qilgan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_9",
+   "t": "tf",
+   "q": "Afrosiyob — qadimgi Samarqand o‘rni.",
+   "a": true,
+   "d": 1,
+   "x": "Afrosiyob tepaligida qadimgi shahar xarobalari bor."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_10",
+   "t": "tf",
+   "q": "Shiroq — Misr fir’avni.",
+   "a": false,
+   "d": 1,
+   "x": "Shiroq — vatanparvar cho‘pon, xalq qahramoni."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_11",
+   "t": "tf",
+   "q": "To‘maris — massagetlar malikasi.",
+   "a": true,
+   "d": 1,
+   "x": "U vatan mustaqilligi uchun kurashgan."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_12",
+   "t": "match",
+   "q": "Qahramonni ishi bilan juftlang",
+   "pairs": [
+    [
+     "To‘maris",
+     "Kir II ga qarshi kurashgan malika"
+    ],
+    [
+     "Shiroq",
+     "dushmanni cho‘lga adashtirgan cho‘pon"
+    ],
+    [
+     "Spitamen",
+     "Aleksandrga qarshi kurashgan sarkarda"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_13",
+   "t": "choice",
+   "q": "Qadimgi Xorazm hududi qaysi daryo bo‘yida joylashgan?",
+   "a": "Amudaryo",
+   "w": [
+    "Sirdaryo",
+    "Zarafshon",
+    "Chirchiq"
+   ],
+   "d": 2,
+   "x": "Xorazm Amudaryoning quyi oqimida."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_14",
+   "t": "choice",
+   "q": "Zarafshon vodiysida joylashgan qadimgi o‘lka qaysi?",
+   "a": "So‘g‘diyona",
+   "w": [
+    "Baqtriya",
+    "Xorazm",
+    "Misr"
+   ],
+   "d": 3,
+   "x": "Samarqand va Buxoro So‘g‘diyona hududida."
+  },
+  {
+   "topic": "history_g5.ancient_uz",
+   "id": "ancient_uz_15",
+   "t": "choice",
+   "q": "Qaysi shahar dunyodagi eng qadimiy shaharlardan biri?",
+   "a": "Samarqand",
+   "w": [
+    "Navoiy",
+    "Zarafshon",
+    "Nurafshon"
+   ],
+   "d": 1,
+   "x": "Samarqand 2750 yildan ortiq tarixga ega."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_1",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘li qaysi hududlarni bog‘lagan?",
+   "a": "Xitoyni O‘rta yer dengizi bo‘yi bilan",
+   "w": [
+    "Afrika va Amerikani",
+    "Shimoliy va Janubiy qutbni",
+    "Avstraliya va Osiyoni"
+   ],
+   "d": 1,
+   "x": "Savdo yo‘li Sharq va G‘arbni bog‘lagan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_2",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘li qachon shakllangan?",
+   "a": "Miloddan avvalgi II asrda",
+   "w": [
+    "Milodiy XX asrda",
+    "Tosh davrida",
+    "Milodiy XVIII asrda"
+   ],
+   "d": 1,
+   "x": "Miloddan avvalgi II asrda Xitoy va G‘arb o‘rtasida muntazam savdo boshlangan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_3",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘lidagi qaysi shaharlar Vatanimizda joylashgan?",
+   "a": "Samarqand, Buxoro, Termiz",
+   "w": [
+    "Rim, Afina, Iskandariya",
+    "Pekin, Sian, Dunxuan",
+    "Parij, London, Berlin"
+   ],
+   "d": 1,
+   "x": "Ular yirik savdo markazlari bo‘lgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_4",
+   "t": "choice",
+   "q": "Yo‘l nomi qaysi mahsulot nomidan olingan?",
+   "a": "Ipak",
+   "w": [
+    "Paxta",
+    "Oltin",
+    "Tuz"
+   ],
+   "d": 1,
+   "x": "Xitoy ipagi eng qimmatbaho mollardan edi."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_5",
+   "t": "choice",
+   "q": "Savdogarlar karvonlarida yuklarni qaysi hayvonlarda tashishgan?",
+   "a": "Tuyalarda",
+   "w": [
+    "Fillarda",
+    "Delfinlarda",
+    "Itlarda"
+   ],
+   "d": 1,
+   "x": "Tuya cho‘l sharoitiga chidamli."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_6",
+   "t": "choice",
+   "q": "Karvonlar dam oladigan mehmonxona qanday atalgan?",
+   "a": "Karvonsaroy",
+   "w": [
+    "Kolizey",
+    "Piramida",
+    "Rasadxona"
+   ],
+   "d": 2,
+   "x": "Karvonsaroylarda savdogarlar tunab, mol almashgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_7",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘li orqali nimalar tarqalgan?",
+   "a": "Mollar, bilimlar va madaniyat",
+   "w": [
+    "Faqat ipak",
+    "Faqat qurol",
+    "Hech narsa"
+   ],
+   "d": 2,
+   "x": "Yo‘l xalqlar madaniyatini yaqinlashtirgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_8",
+   "t": "tf",
+   "q": "Buyuk ipak yo‘li Xitoydan boshlangan.",
+   "a": true,
+   "d": 1,
+   "x": "Xitoydan G‘arbga qarab yo‘nalgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_9",
+   "t": "tf",
+   "q": "Samarqand Buyuk ipak yo‘lidan uzoqda bo‘lgan.",
+   "a": false,
+   "d": 1,
+   "x": "Samarqand yo‘lning muhim markazi bo‘lgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_10",
+   "t": "tf",
+   "q": "Buyuk ipak yo‘li orqali qog‘oz tayyorlash sirlari ham tarqalgan.",
+   "a": true,
+   "d": 2,
+   "x": "Samarqand qog‘ozi keyinchalik mashhur bo‘lgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_11",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘lida savdo qilgan so‘g‘d savdogarlari qaysi o‘lkadan bo‘lgan?",
+   "a": "So‘g‘diyonadan",
+   "w": [
+    "Misrdan",
+    "Rimdan",
+    "Hindistondan"
+   ],
+   "d": 3,
+   "x": "So‘g‘dlar mohir savdogarlar sifatida mashhur bo‘lgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_12",
+   "t": "match",
+   "q": "Tushunchani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Karvon",
+     "yuk ortilgan tuyalar qatori"
+    ],
+    [
+     "Karvonsaroy",
+     "karvon to‘xtaydigan joy"
+    ],
+    [
+     "Ipak",
+     "Xitoyning qimmatbaho matosi"
+    ],
+    [
+     "Savdogar",
+     "mol olib sotuvchi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_13",
+   "t": "choice",
+   "q": "Qaysi mahsulot Xitoydan G‘arbga olib borilgan?",
+   "a": "Chinni idishlar",
+   "w": [
+    "Kartoshka",
+    "Kofe",
+    "Shokolad"
+   ],
+   "d": 2,
+   "x": "Ipak va chinni — Xitoyning mashhur mollari."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_14",
+   "t": "choice",
+   "q": "Buyuk ipak yo‘li bo‘ylab savdo nima uchun foydali bo‘lgan?",
+   "a": "Xalqlar bir-biridan kerakli mollarni olgan",
+   "w": [
+    "Hech kimga foyda bermagan",
+    "Faqat urushlar bo‘lgan",
+    "Shaharlar vayron bo‘lgan"
+   ],
+   "d": 1,
+   "x": "Savdo shaharlarning gullab-yashnashiga olib kelgan."
+  },
+  {
+   "topic": "history_g5.silk_road",
+   "id": "silk_road_15",
+   "t": "choice",
+   "q": "Karvonlar cho‘lda qanday yo‘l topishgan?",
+   "a": "Yulduzlar va quduqlarga qarab",
+   "w": [
+    "Svetoforlarga qarab",
+    "Telefon xaritasi bilan",
+    "Temir yo‘l bo‘ylab"
+   ],
+   "d": 3,
+   "x": "Tunda yulduzlar yo‘l ko‘rsatgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_1",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: algebra fani asoschisi, “algoritm” so‘zi uning nomidan?",
+   "a": "Muhammad al-Xorazmiy",
+   "w": [
+    "Abu Rayhon Beruniy",
+    "Abu Ali ibn Sino",
+    "Amir Temur"
+   ],
+   "d": 1,
+   "x": "Muhammad al-Xorazmiy — algebra fani asoschisi, “algoritm” so‘zi uning nomidan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_2",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: astronom, Nil daryosi suv o‘lchagichini qurgan?",
+   "a": "Ahmad al-Farg‘oniy",
+   "w": [
+    "Abu Ali ibn Sino",
+    "Amir Temur",
+    "Mirzo Ulug‘bek"
+   ],
+   "d": 1,
+   "x": "Ahmad al-Farg‘oniy — astronom, Nil daryosi suv o‘lchagichini qurgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_3",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: Xorazmlik qomusiy olim, Yer globusini yasagan?",
+   "a": "Abu Rayhon Beruniy",
+   "w": [
+    "Mirzo Ulug‘bek",
+    "Abu Ali ibn Sino",
+    "Amir Temur"
+   ],
+   "d": 1,
+   "x": "Abu Rayhon Beruniy — Xorazmlik qomusiy olim, Yer globusini yasagan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_4",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: tabib, “Tib qonunlari” muallifi?",
+   "a": "Abu Ali ibn Sino",
+   "w": [
+    "Amir Temur",
+    "Abu Rayhon Beruniy",
+    "Muhammad al-Xorazmiy"
+   ],
+   "d": 1,
+   "x": "Abu Ali ibn Sino — tabib, “Tib qonunlari” muallifi."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_5",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: Samarqandda rasadxona qurdirgan olim va hukmdor?",
+   "a": "Mirzo Ulug‘bek",
+   "w": [
+    "Abu Ali ibn Sino",
+    "Amir Temur",
+    "Abu Rayhon Beruniy"
+   ],
+   "d": 1,
+   "x": "Mirzo Ulug‘bek — Samarqandda rasadxona qurdirgan olim va hukmdor."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_6",
+   "t": "choice",
+   "q": "Kim haqida gap ketyapti: buyuk sarkarda va davlat asoschisi, poytaxti Samarqand?",
+   "a": "Amir Temur",
+   "w": [
+    "Mirzo Ulug‘bek",
+    "Muhammad al-Xorazmiy",
+    "Abu Rayhon Beruniy"
+   ],
+   "d": 1,
+   "x": "Amir Temur — buyuk sarkarda va davlat asoschisi, poytaxti Samarqand."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_7",
+   "t": "choice",
+   "q": "“Tib qonunlari” asarining muallifi kim?",
+   "a": "Abu Ali ibn Sino",
+   "w": [
+    "Beruniy",
+    "Ulug‘bek",
+    "Xorazmiy"
+   ],
+   "d": 1,
+   "x": "Asar ko‘p asrlar davomida tibbiyot darsligi bo‘lgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_8",
+   "t": "choice",
+   "q": "Ibn Sino qayerda tug‘ilgan?",
+   "a": "Buxoro yaqinidagi Afshona qishlog‘ida",
+   "w": [
+    "Rimda",
+    "Pekinda",
+    "Qohirada"
+   ],
+   "d": 2,
+   "x": "Ibn Sino 980-yilda Afshonada tug‘ilgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_9",
+   "t": "choice",
+   "q": "Amir Temur qaysi yilda tug‘ilgan?",
+   "a": "1336-yilda",
+   "w": [
+    "1441-yilda",
+    "1483-yilda",
+    "1991-yilda"
+   ],
+   "d": 2,
+   "x": "Amir Temur 1336-yilda Kesh (Shahrisabz) yaqinida tug‘ilgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_10",
+   "t": "choice",
+   "q": "Mirzo Ulug‘bek rasadxonasi qaysi shaharda?",
+   "a": "Samarqandda",
+   "w": [
+    "Buxoroda",
+    "Xivada",
+    "Toshkentda"
+   ],
+   "d": 1,
+   "x": "Rasadxona qoldiqlari Samarqandda saqlanib qolgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_11",
+   "t": "choice",
+   "q": "“Algoritm” so‘zi qaysi olim nomi bilan bog‘liq?",
+   "a": "Al-Xorazmiy",
+   "w": [
+    "Ibn Sino",
+    "Beruniy",
+    "Farg‘oniy"
+   ],
+   "d": 1,
+   "x": "Uning nomi lotincha “Algoritmi” deb yozilgan."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_12",
+   "t": "tf",
+   "q": "Mirzo Ulug‘bek — Amir Temurning nabirasi.",
+   "a": true,
+   "d": 2,
+   "x": "Ulug‘bek — Temurning o‘g‘li Shohruxning farzandi."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_13",
+   "t": "tf",
+   "q": "Beruniy Xorazmda tug‘ilgan.",
+   "a": true,
+   "d": 2,
+   "x": "Beruniy — xorazmlik qomusiy olim."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_14",
+   "t": "tf",
+   "q": "Ibn Sino mashhur sarkarda bo‘lgan.",
+   "a": false,
+   "d": 1,
+   "x": "Ibn Sino — buyuk tabib va olim."
+  },
+  {
+   "topic": "history_g5.scholars",
+   "id": "scholars_15",
+   "t": "match",
+   "q": "Allomani sohasi bilan juftlang",
+   "pairs": [
+    [
+     "Xorazmiy",
+     "algebra"
+    ],
+    [
+     "Ibn Sino",
+     "tibbiyot"
+    ],
+    [
+     "Ulug‘bek",
+     "astronomiya"
+    ],
+    [
+     "Beruniy",
+     "qomusiy ilm"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_1",
+   "t": "choice",
+   "q": "O‘zbekiston mustaqilligi qaysi sanada nishonlanadi?",
+   "a": "1-sentabr",
+   "w": [
+    "8-dekabr",
+    "9-may",
+    "21-mart"
+   ],
+   "d": 1,
+   "x": "O‘zbekiston 1991-yilda mustaqil bo‘ldi; Mustaqillik kuni — 1-sentabr."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_2",
+   "t": "choice",
+   "q": "O‘zbekiston qaysi yilda mustaqil davlat bo‘ldi?",
+   "a": "1991-yilda",
+   "w": [
+    "1924-yilda",
+    "2000-yilda",
+    "1945-yilda"
+   ],
+   "d": 1,
+   "x": "1991-yil 31-avgustda mustaqillik e’lon qilingan."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_3",
+   "t": "choice",
+   "q": "O‘zbekiston Respublikasining poytaxti qaysi shahar?",
+   "a": "Toshkent",
+   "w": [
+    "Samarqand",
+    "Buxoro",
+    "Xiva"
+   ],
+   "d": 1,
+   "x": "Toshkent — O‘zbekistonning poytaxti."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_4",
+   "t": "choice",
+   "q": "Konstitutsiya kuni qaysi sanada nishonlanadi?",
+   "a": "8-dekabr",
+   "w": [
+    "1-sentabr",
+    "1-oktabr",
+    "14-yanvar"
+   ],
+   "d": 2,
+   "x": "Konstitutsiya 1992-yil 8-dekabrda qabul qilingan."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_5",
+   "t": "choice",
+   "q": "Davlat madhiyasi so‘zlari muallifi kim?",
+   "a": "Abdulla Oripov",
+   "w": [
+    "Alisher Navoiy",
+    "Erkin Vohidov",
+    "Oybek"
+   ],
+   "d": 2,
+   "x": "Musiqasi — Mutal Burhonov."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_6",
+   "t": "choice",
+   "q": "O‘zbekiston davlat ramzlari qaysilar?",
+   "a": "Bayroq, gerb, madhiya",
+   "w": [
+    "Pul, soat, xarita",
+    "Kitob, qalam, daftar",
+    "Tog‘, daryo, cho‘l"
+   ],
+   "d": 1,
+   "x": "Davlat ramzlari — bayroq, gerb va madhiya."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_7",
+   "t": "choice",
+   "q": "Davlat bayrog‘idagi yarim oy va yulduzlar yonidagi yashil rang nimani ifodalaydi?",
+   "a": "Tabiat va hayot",
+   "w": [
+    "Qonni",
+    "Qorni",
+    "Tunni"
+   ],
+   "d": 3,
+   "x": "Moviy — osmon va suv, oq — tinchlik va poklik, yashil — tabiat, qizil chiziqlar — hayot kuchi."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_8",
+   "t": "tf",
+   "q": "O‘zbekiston 1991-yilda mustaqil bo‘ldi.",
+   "a": true,
+   "d": 1,
+   "x": "Mustaqillik kuni — 1-sentabr."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_9",
+   "t": "tf",
+   "q": "O‘zbekiston poytaxti — Samarqand.",
+   "a": false,
+   "d": 1,
+   "x": "Poytaxt — Toshkent."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_10",
+   "t": "tf",
+   "q": "Davlat madhiyasi tik turib, qo‘l ko‘krakka qo‘yilgan holda tinglanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu — davlat ramziga hurmat belgisi."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_11",
+   "t": "match",
+   "q": "Sanani bayram bilan juftlang",
+   "pairs": [
+    [
+     "1-sentabr",
+     "Mustaqillik kuni"
+    ],
+    [
+     "8-dekabr",
+     "Konstitutsiya kuni"
+    ],
+    [
+     "1-oktabr",
+     "O‘qituvchi va murabbiylar kuni"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_12",
+   "t": "choice",
+   "q": "Davlat bayrog‘ida nechta yulduz tasvirlangan?",
+   "a": "12 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "15 ta"
+   ],
+   "d": 2,
+   "x": "Bayroqda yarim oy va 12 ta yulduz bor."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_13",
+   "t": "choice",
+   "q": "Davlat gerbida qaysi afsonaviy qush tasvirlangan?",
+   "a": "Humo",
+   "w": [
+    "Burgut",
+    "Laylak",
+    "Tovus"
+   ],
+   "d": 2,
+   "x": "Humo qushi — baxt va erkinlik ramzi."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_14",
+   "t": "choice",
+   "q": "Davlat bayrog‘i qaysi yilda qabul qilingan?",
+   "a": "1991-yilda",
+   "w": [
+    "1992-yilda",
+    "2000-yilda",
+    "1924-yilda"
+   ],
+   "d": 3,
+   "x": "Bayroq 1991-yil 18-noyabrda qabul qilingan."
+  },
+  {
+   "topic": "history_g5.independence",
+   "id": "independence_15",
+   "t": "choice",
+   "q": "Navro‘z bayrami qaysi sanada nishonlanadi?",
+   "a": "21-mart",
+   "w": [
+    "1-yanvar",
+    "1-sentabr",
+    "8-dekabr"
+   ],
+   "d": 1,
+   "x": "Navro‘z — bahor va yangilanish bayrami."
+  }
+ ]
+}

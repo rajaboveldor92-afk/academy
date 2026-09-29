@@ -1,0 +1,2389 @@
+{
+ "items": [
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_1",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Birlashgan o‘zar, birlashmagan to‘zar.",
+   "w": [
+    "Olim bo‘lsang, olam seniki.",
+    "Kattaga hurmatda, kichikka izzatda bo‘l.",
+    "Yaxshi so‘z — jon ozig‘i, yomon so‘z — bosh qozig‘i."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Birlashgan o‘zar, birlashmagan to‘zar.",
+   "text": "Sinf jamoasi birgalikda ishlab, maktab bog‘ini tez obodonlashtirdi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_2",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Tomchi-tomchi ko‘l bo‘lur.",
+   "w": [
+    "Aql yoshda emas, boshda.",
+    "Hunar — hunardan unar.",
+    "Yaxshi so‘z — jon ozig‘i, yomon so‘z — bosh qozig‘i."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Tomchi-tomchi ko‘l bo‘lur.",
+   "text": "Ali har kuni oz-ozdan so‘z yodlab, yil oxirida ingliz tilida bemalol gapiradigan bo‘ldi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_3",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Ko‘z qo‘rqoq, qo‘l botir.",
+   "w": [
+    "Tomchi-tomchi ko‘l bo‘lur.",
+    "Hunar — hunardan unar.",
+    "Bilagi zo‘r birni yiqar, bilimi zo‘r mingni yiqar."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Ko‘z qo‘rqoq, qo‘l botir.",
+   "text": "Dilnoza qiyin masaladan qo‘rqdi, lekin boshlab yuborgach, oson yechib qo‘ydi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_4",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Avval o‘yla, keyin so‘yla.",
+   "w": [
+    "Qo‘li ochiqning yo‘li ochiq.",
+    "Yaxshidan bog‘ qoladi, yomondan — dog‘.",
+    "Qush uyasida ko‘rganini qiladi."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Avval o‘yla, keyin so‘yla.",
+   "text": "Bobur gapirishdan oldin yaxshilab o‘ylab oldi va hech kimni xafa qilmadi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_5",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Aql yoshda emas, boshda.",
+   "w": [
+    "Do‘stsiz boshim — tuzsiz oshim.",
+    "Otang bolasi bo‘lma, odam bolasi bo‘l.",
+    "O‘zga yurtda shoh bo‘lguncha, o‘z yurtingda gado bo‘l."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Aql yoshda emas, boshda.",
+   "text": "Kichkina Jasur kattalar ham topa olmagan jumboqni yechdi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_6",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni tanlang.",
+   "a": "Olim bo‘lsang, olam seniki.",
+   "w": [
+    "Bilagi zo‘r birni yiqar, bilimi zo‘r mingni yiqar.",
+    "Avval o‘yla, keyin so‘yla.",
+    "Sabr tagi — sariq oltin."
+   ],
+   "d": 2,
+   "x": "Vaziyatning mazmuni maqolga mos: Olim bo‘lsang, olam seniki.",
+   "text": "Malika yillar davomida qunt bilan o‘qib, taniqli olima bo‘ldi."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_7",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Birlashgan o‘zar, …”",
+   "a": "birlashmagan to‘zar.",
+   "w": [
+    "ko‘l bo‘lur.",
+    "hunardan unar.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Birlashgan o‘zar, birlashmagan to‘zar. (birlik va hamjihatlik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_8",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Sabr tagi — …”",
+   "a": "sariq oltin.",
+   "w": [
+    "odam bolasi bo‘l.",
+    "birlashmagan to‘zar.",
+    "qo‘l botir."
+   ],
+   "d": 1,
+   "x": "Sabr tagi — sariq oltin. (sabr-toqat)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_9",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Hunar — …”",
+   "a": "hunardan unar.",
+   "w": [
+    "qirq kun salom ber.",
+    "sariq oltin.",
+    "tuzsiz oshim."
+   ],
+   "d": 1,
+   "x": "Hunar — hunardan unar. (hunar o‘rganish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_10",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Olim bo‘lsang, …”",
+   "a": "olam seniki.",
+   "w": [
+    "qirq kun salom ber.",
+    "hunardan unar.",
+    "odam bolasi bo‘l."
+   ],
+   "d": 1,
+   "x": "Olim bo‘lsang, olam seniki. (ilm olish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_11",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ilm olish — …”",
+   "a": "igna bilan quduq qazish.",
+   "w": [
+    "keyin so‘yla.",
+    "kichikka izzatda bo‘l.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Ilm olish — igna bilan quduq qazish. (ilm olish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_12",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Yaxshi so‘z — jon ozig‘i, …”",
+   "a": "yomon so‘z — bosh qozig‘i.",
+   "w": [
+    "kichikka izzatda bo‘l.",
+    "keyin so‘yla.",
+    "oltin beshiging."
+   ],
+   "d": 1,
+   "x": "Yaxshi so‘z — jon ozig‘i, yomon so‘z — bosh qozig‘i. (so‘z odobi)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_13",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ona yurting — …”",
+   "a": "oltin beshiging.",
+   "w": [
+    "boshda.",
+    "bilimi zo‘r mingni yiqar.",
+    "birlashmagan to‘zar."
+   ],
+   "d": 1,
+   "x": "Ona yurting — oltin beshiging. (vatanni sevish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_14",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Kattaga hurmatda, …”",
+   "a": "kichikka izzatda bo‘l.",
+   "w": [
+    "olam seniki.",
+    "keyin so‘yla.",
+    "boshda."
+   ],
+   "d": 1,
+   "x": "Kattaga hurmatda, kichikka izzatda bo‘l. (hurmat va odob)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_15",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Bir kun tuz ichgan joyga …”",
+   "a": "qirq kun salom ber.",
+   "w": [
+    "bilimi zo‘r mingni yiqar.",
+    "ko‘rganini qiladi.",
+    "oltin beshiging."
+   ],
+   "d": 1,
+   "x": "Bir kun tuz ichgan joyga qirq kun salom ber. (minnatdorlik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_16",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Tomchi-tomchi …”",
+   "a": "ko‘l bo‘lur.",
+   "w": [
+    "kichikka izzatda bo‘l.",
+    "qo‘l botir.",
+    "yomon so‘z — bosh qozig‘i."
+   ],
+   "d": 1,
+   "x": "Tomchi-tomchi ko‘l bo‘lur. (tejamkorlik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_17",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Aql yoshda emas, …”",
+   "a": "boshda.",
+   "w": [
+    "yomon so‘z — bosh qozig‘i.",
+    "kichikka izzatda bo‘l.",
+    "ko‘l bo‘lur."
+   ],
+   "d": 1,
+   "x": "Aql yoshda emas, boshda. (aql-idrok)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_18",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Bilagi zo‘r birni yiqar, …”",
+   "a": "bilimi zo‘r mingni yiqar.",
+   "w": [
+    "yomondan — dog‘.",
+    "yomon so‘z — bosh qozig‘i.",
+    "qo‘l botir."
+   ],
+   "d": 1,
+   "x": "Bilagi zo‘r birni yiqar, bilimi zo‘r mingni yiqar. (ilm olish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_19",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Qush uyasida …”",
+   "a": "ko‘rganini qiladi.",
+   "w": [
+    "oltin beshiging.",
+    "ko‘l bo‘lur.",
+    "igna bilan quduq qazish."
+   ],
+   "d": 1,
+   "x": "Qush uyasida ko‘rganini qiladi. (oila tarbiyasi)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_20",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Do‘stsiz boshim — …”",
+   "a": "tuzsiz oshim.",
+   "w": [
+    "keyin so‘yla.",
+    "yo‘li ochiq.",
+    "olam seniki."
+   ],
+   "d": 1,
+   "x": "Do‘stsiz boshim — tuzsiz oshim. (do‘stlik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_21",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Avval o‘yla, …”",
+   "a": "keyin so‘yla.",
+   "w": [
+    "ko‘rganini qiladi.",
+    "hunardan unar.",
+    "qirq kun salom ber."
+   ],
+   "d": 1,
+   "x": "Avval o‘yla, keyin so‘yla. (so‘z odobi)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_22",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Ko‘z qo‘rqoq, …”",
+   "a": "qo‘l botir.",
+   "w": [
+    "sariq oltin.",
+    "qirq kun salom ber.",
+    "ko‘l bo‘lur."
+   ],
+   "d": 1,
+   "x": "Ko‘z qo‘rqoq, qo‘l botir. (mehnat va jasorat)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_23",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Qo‘li ochiqning …”",
+   "a": "yo‘li ochiq.",
+   "w": [
+    "boshda.",
+    "qirq kun salom ber.",
+    "igna bilan quduq qazish."
+   ],
+   "d": 1,
+   "x": "Qo‘li ochiqning yo‘li ochiq. (saxiylik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_24",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Otang bolasi bo‘lma, …”",
+   "a": "odam bolasi bo‘l.",
+   "w": [
+    "hunardan unar.",
+    "tuzsiz oshim.",
+    "keyin so‘yla."
+   ],
+   "d": 1,
+   "x": "Otang bolasi bo‘lma, odam bolasi bo‘l. (insoniylik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_25",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “Yaxshidan bog‘ qoladi, …”",
+   "a": "yomondan — dog‘.",
+   "w": [
+    "qo‘l botir.",
+    "o‘z yurtingda gado bo‘l.",
+    "hunardan unar."
+   ],
+   "d": 1,
+   "x": "Yaxshidan bog‘ qoladi, yomondan — dog‘. (yaxshilik)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_26",
+   "t": "choice",
+   "q": "Maqolni davom ettiring: “O‘zga yurtda shoh bo‘lguncha, …”",
+   "a": "o‘z yurtingda gado bo‘l.",
+   "w": [
+    "qo‘l botir.",
+    "qirq kun salom ber.",
+    "bilimi zo‘r mingni yiqar."
+   ],
+   "d": 1,
+   "x": "O‘zga yurtda shoh bo‘lguncha, o‘z yurtingda gado bo‘l. (vatanni sevish)"
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_27",
+   "t": "choice",
+   "q": "Maqol bilan topishmoqning farqi nimada?",
+   "a": "Maqol ibrat beradi, topishmoq narsani topishni so‘raydi",
+   "w": [
+    "Ikkalasi bir xil",
+    "Maqol faqat she’rda bo‘ladi",
+    "Topishmoqni yozuvchi yozadi"
+   ],
+   "d": 2,
+   "x": "Maqol — hikmatli xulosa, topishmoq — jumboq."
+  },
+  {
+   "topic": "reading_g5.proverbs",
+   "id": "proverbs_28",
+   "t": "tf",
+   "q": "Maqollar xalq og‘zaki ijodining namunasi.",
+   "a": true,
+   "d": 1,
+   "x": "Muallifi — xalq."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_1",
+   "t": "choice",
+   "q": "Ertaklar mazmuniga ko‘ra qanday turlarga bo‘linadi?",
+   "a": "Hayvonlar haqidagi, sehrli, hayotiy",
+   "w": [
+    "Qisqa va uzun",
+    "Kulgili va qayg‘uli",
+    "Yozma va og‘zaki"
+   ],
+   "d": 1,
+   "x": "Ertaklar: hayvonlar haqidagi, sehrli-fantastik va hayotiy (maishiy) ertaklar."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_2",
+   "t": "choice",
+   "q": "Qaysi ertakda voqealar hayvonlar orasida kechadi va ular odamlarday gapiradi?",
+   "a": "Hayvonlar haqidagi ertakda",
+   "w": [
+    "Hayotiy ertakda",
+    "Rivoyatda",
+    "Dostonda"
+   ],
+   "d": 1,
+   "x": "Masalan, tulki, bo‘ri, quyon ishtirok etadigan ertaklar."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_3",
+   "t": "choice",
+   "q": "Sehrli ertakda nima bo‘ladi?",
+   "a": "G‘ayritabiiy kuchlar va sehrli buyumlar",
+   "w": [
+    "Faqat haqiqiy voqealar",
+    "Tarixiy sanalar",
+    "Ilmiy tajribalar"
+   ],
+   "d": 1,
+   "x": "Sehrli ertaklarda dev, pari, uchar gilam kabi to‘qima obrazlar bo‘ladi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_4",
+   "t": "choice",
+   "q": "“Ur to‘qmoq” ertagidagi o‘z-o‘zidan uradigan to‘qmoq qanday buyum?",
+   "a": "Sehrli buyum",
+   "w": [
+    "Oddiy mehnat quroli",
+    "Tarixiy yodgorlik",
+    "O‘yinchoq"
+   ],
+   "d": 2,
+   "x": "U buyruq bilan o‘z-o‘zidan uradi — sehrli buyum."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_5",
+   "t": "choice",
+   "q": "Afsona qanday asar?",
+   "a": "To‘qima, g‘ayrioddiy voqealar haqidagi og‘zaki hikoya",
+   "w": [
+    "Aniq tarixiy hujjat",
+    "Ilmiy maqola",
+    "Rasmiy xat"
+   ],
+   "d": 2,
+   "x": "Afsonada xayoliy voqea va obrazlar bo‘ladi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_6",
+   "t": "choice",
+   "q": "Rivoyat afsonadan nimasi bilan farq qiladi?",
+   "a": "Haqiqatga yaqin, ko‘pincha tarixiy shaxs haqida bo‘ladi",
+   "w": [
+    "Doim she’r bilan aytiladi",
+    "Faqat hayvonlar haqida bo‘ladi",
+    "Muallifi aniq bo‘ladi"
+   ],
+   "d": 2,
+   "x": "Masalan, Shiroq va To‘maris haqidagi rivoyatlar."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_7",
+   "t": "choice",
+   "q": "Vatanini himoya qilib, dushman qo‘shinini cho‘lga adashtirgan cho‘pon haqidagi rivoyat qahramoni kim?",
+   "a": "Shiroq",
+   "w": [
+    "Alpomish",
+    "Go‘ro‘g‘li",
+    "Spitamen"
+   ],
+   "d": 2,
+   "x": "Shiroq haqidagi rivoyat vatanparvarlikni ulug‘laydi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_8",
+   "t": "choice",
+   "q": "Massagetlar malikasi, mard ayol haqidagi rivoyat qahramoni kim?",
+   "a": "To‘maris",
+   "w": [
+    "Barchin",
+    "Zumrad",
+    "Qimmat"
+   ],
+   "d": 3,
+   "x": "To‘maris — massagetlar malikasi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_9",
+   "t": "tf",
+   "q": "Ertaklarda ko‘pincha yaxshilik yomonlik ustidan g‘alaba qiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu — xalq orzusining ifodasi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_10",
+   "t": "tf",
+   "q": "Afsona tarixiy hujjat hisoblanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Afsona — to‘qima, xayoliy hikoya."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_11",
+   "t": "tf",
+   "q": "Ertak, afsona, rivoyat — xalq og‘zaki ijodi janrlari.",
+   "a": true,
+   "d": 1,
+   "x": "Ularni xalq yaratgan."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_12",
+   "t": "match",
+   "q": "Janrni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Ertak",
+     "to‘qima voqea, yaxshilik g‘alabasi"
+    ],
+    [
+     "Afsona",
+     "xayoliy, g‘ayrioddiy hikoya"
+    ],
+    [
+     "Rivoyat",
+     "tarixiy shaxs haqidagi hikoya"
+    ],
+    [
+     "Maqol",
+     "qisqa hikmatli gap"
+    ],
+    [
+     "Topishmoq",
+     "yashirin ta’rif, jumboq"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_13",
+   "t": "choice",
+   "q": "Qaysi biri hayotiy (maishiy) ertakning belgisi?",
+   "a": "Oddiy odamlar hayotidagi voqealar",
+   "w": [
+    "Devlar va parilar",
+    "Uchar gilam",
+    "Gapiradigan daraxt"
+   ],
+   "d": 2,
+   "x": "Hayotiy ertaklarda sehr kam, voqealar kundalik hayotga yaqin."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_14",
+   "t": "choice",
+   "q": "Ertaklarning an’anaviy boshlanmasi qaysi?",
+   "a": "Bor ekan-u, yo‘q ekan…",
+   "w": [
+    "Qadrli o‘quvchilar…",
+    "Xulosa qilib aytganda…",
+    "Mavzu:"
+   ],
+   "d": 1,
+   "x": "Ertaklar ko‘pincha shunday boshlanadi."
+  },
+  {
+   "topic": "reading_g5.tales",
+   "id": "tales_15",
+   "t": "choice",
+   "q": "Xalq og‘zaki ijodi asarlari qanday saqlanib kelgan?",
+   "a": "Og‘izdan og‘izga, avloddan avlodga o‘tib",
+   "w": [
+    "Faqat kitoblarda",
+    "Faqat toshga yozilib",
+    "Radio orqali"
+   ],
+   "d": 1,
+   "x": "Keyinchalik ular yozib olinib, to‘plamlarda nashr etilgan."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_1",
+   "t": "choice",
+   "q": "“Alpomish” qanday asar?",
+   "a": "Xalq qahramonlik dostoni",
+   "w": [
+    "Roman",
+    "G‘azal",
+    "Masal"
+   ],
+   "d": 1,
+   "x": "“Alpomish” — o‘zbek xalqining qahramonlik dostoni."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_2",
+   "t": "choice",
+   "q": "“Alpomish” dostonining bosh qahramoni kim?",
+   "a": "Alpomish",
+   "w": [
+    "Go‘ro‘g‘li",
+    "Shiroq",
+    "Farhod"
+   ],
+   "d": 1,
+   "x": "Doston uning nomi bilan ataladi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_3",
+   "t": "choice",
+   "q": "Alpomishning sevgan qizi (qallig‘i) kim?",
+   "a": "Barchin",
+   "w": [
+    "Zumrad",
+    "Layli",
+    "Shirin"
+   ],
+   "d": 1,
+   "x": "Barchinoy — Alpomishning qallig‘i."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_4",
+   "t": "choice",
+   "q": "Alpomishning oti qanday nomlanadi?",
+   "a": "Boychibor",
+   "w": [
+    "G‘irot",
+    "Duldul",
+    "Qorabayir"
+   ],
+   "d": 2,
+   "x": "Boychibor — Alpomishning sadoqatli oti."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_5",
+   "t": "choice",
+   "q": "Dostonlarni xalq orasida kim kuylab ijro etadi?",
+   "a": "Baxshilar",
+   "w": [
+    "Kotiblar",
+    "Savdogarlar",
+    "Hunarmandlar"
+   ],
+   "d": 1,
+   "x": "Baxshilar dostonni do‘mbira jo‘rligida kuylaydi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_6",
+   "t": "choice",
+   "q": "Baxshilar dostonni qaysi cholg‘u jo‘rligida kuylaydi?",
+   "a": "Do‘mbira",
+   "w": [
+    "Pianino",
+    "Skripka",
+    "Baraban"
+   ],
+   "d": 2,
+   "x": "Do‘mbira — baxshilarning an’anaviy cholg‘usi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_7",
+   "t": "choice",
+   "q": "“Alpomish” dostonining eng mashhur variantini qaysi baxshi aytgan?",
+   "a": "Fozil Yo‘ldosh o‘g‘li",
+   "w": [
+    "Alisher Navoiy",
+    "Abdulla Qodiriy",
+    "Gulxaniy"
+   ],
+   "d": 3,
+   "x": "Mashhur baxshi Fozil Yo‘ldosh o‘g‘lidan yozib olingan variant eng mashhuri."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_8",
+   "t": "choice",
+   "q": "“Alpomish” dostonida qanday fazilatlar ulug‘lanadi?",
+   "a": "Vatanparvarlik, sadoqat, mardlik",
+   "w": [
+    "Xiyonat va qo‘rqoqlik",
+    "Dangasalik",
+    "Maqtanchoqlik"
+   ],
+   "d": 1,
+   "x": "Doston qahramonlik va sadoqatni ulug‘laydi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_9",
+   "t": "choice",
+   "q": "“Go‘ro‘g‘li” qanday asar?",
+   "a": "Xalq dostonlari turkumi",
+   "w": [
+    "Roman",
+    "Ertak",
+    "Ruboiy"
+   ],
+   "d": 2,
+   "x": "Go‘ro‘g‘li haqidagi dostonlar turkumi mavjud."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_10",
+   "t": "choice",
+   "q": "G‘irot kimning oti?",
+   "a": "Go‘ro‘g‘lining",
+   "w": [
+    "Alpomishning",
+    "Farhodning",
+    "Shiroqning"
+   ],
+   "d": 3,
+   "x": "G‘irot — Go‘ro‘g‘lining mashhur oti."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_11",
+   "t": "tf",
+   "q": "Dostonlar nasrda va she’rda aralash aytiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Dostonda she’riy qismlar va nasriy parchalar almashib keladi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_12",
+   "t": "tf",
+   "q": "“Alpomish” dostonini Alisher Navoiy yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "U xalq og‘zaki ijodi — muallifi xalq."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_13",
+   "t": "tf",
+   "q": "Boychibor — Alpomishning oti.",
+   "a": true,
+   "d": 1,
+   "x": "Boychibor egasiga sodiq qoladi."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_14",
+   "t": "tf",
+   "q": "Baxshilar dostonlarni yod bilib, kuylab aytgan.",
+   "a": true,
+   "d": 1,
+   "x": "Dostonlar og‘zaki holda saqlangan."
+  },
+  {
+   "topic": "reading_g5.epic",
+   "id": "epic_15",
+   "t": "match",
+   "q": "Qahramonni dostondagi o‘rni bilan juftlang",
+   "pairs": [
+    [
+     "Alpomish",
+     "bosh qahramon"
+    ],
+    [
+     "Barchin",
+     "Alpomishning qallig‘i"
+    ],
+    [
+     "Boychibor",
+     "Alpomishning oti"
+    ],
+    [
+     "Baxshi",
+     "dostonni kuylovchi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_1",
+   "t": "choice",
+   "q": "Alisher Navoiy qaysi yilda tug‘ilgan?",
+   "a": "1441-yilda",
+   "w": [
+    "1336-yilda",
+    "1483-yilda",
+    "1991-yilda"
+   ],
+   "d": 1,
+   "x": "Alisher Navoiy 1441-yil 9-fevralda Hirotda tug‘ilgan."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_2",
+   "t": "choice",
+   "q": "Alisher Navoiy qaysi shaharda tug‘ilgan?",
+   "a": "Hirotda",
+   "w": [
+    "Samarqandda",
+    "Andijonda",
+    "Xivada"
+   ],
+   "d": 1,
+   "x": "Hirot — Temuriylar davrining madaniy markazi."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_3",
+   "t": "choice",
+   "q": "“Xamsa” nechta dostondan iborat?",
+   "a": "5 ta",
+   "w": [
+    "3 ta",
+    "7 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "“Xamsa” — “beshlik” degani."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_4",
+   "t": "choice",
+   "q": "Qaysi doston “Xamsa” tarkibiga kiradi?",
+   "a": "“Farhod va Shirin”",
+   "w": [
+    "“Alpomish”",
+    "“Go‘ro‘g‘li”",
+    "“Oygul bilan Baxtiyor”"
+   ],
+   "d": 1,
+   "x": "“Xamsa”: “Hayrat ul-abror”, “Farhod va Shirin”, “Layli va Majnun”, “Sab’ai sayyor”, “Saddi Iskandariy”."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_5",
+   "t": "choice",
+   "q": "Qaysi doston “Xamsa” tarkibiga kirmaydi?",
+   "a": "“Alpomish”",
+   "w": [
+    "“Layli va Majnun”",
+    "“Saddi Iskandariy”",
+    "“Sab’ai sayyor”"
+   ],
+   "d": 2,
+   "x": "“Alpomish” — xalq dostoni."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_6",
+   "t": "choice",
+   "q": "“Xamsa”ning birinchi dostoni qaysi?",
+   "a": "“Hayrat ul-abror”",
+   "w": [
+    "“Farhod va Shirin”",
+    "“Saddi Iskandariy”",
+    "“Layli va Majnun”"
+   ],
+   "d": 3,
+   "x": "“Hayrat ul-abror” — “Xamsa”ning birinchi dostoni."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_7",
+   "t": "choice",
+   "q": "Navoiyning nasriy asari qaysi?",
+   "a": "“Mahbub ul-qulub”",
+   "w": [
+    "“Xamsa”",
+    "“Boburnoma”",
+    "“Shum bola”"
+   ],
+   "d": 2,
+   "x": "“Mahbub ul-qulub” — nasr bilan yozilgan hikmatli asar."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_8",
+   "t": "choice",
+   "q": "Alisher Navoiy qaysi til rivojiga katta hissa qo‘shgan?",
+   "a": "Turkiy (eski o‘zbek) til",
+   "w": [
+    "Lotin tili",
+    "Ingliz tili",
+    "Xitoy tili"
+   ],
+   "d": 2,
+   "x": "U “Muhokamat ul-lug‘atayn” asarida turkiy tilning boyligini isbotlagan."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_9",
+   "t": "tf",
+   "q": "Alisher Navoiy — o‘zbek adabiy tilining asoschisi hisoblanadi.",
+   "a": true,
+   "d": 1,
+   "x": "U turkiy tilda buyuk asarlar yaratgan."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_10",
+   "t": "tf",
+   "q": "“Xamsa” — bitta doston.",
+   "a": false,
+   "d": 1,
+   "x": "“Xamsa” — besh dostondan iborat."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_11",
+   "t": "tf",
+   "q": "“Layli va Majnun” — “Xamsa” tarkibidagi doston.",
+   "a": true,
+   "d": 1,
+   "x": "U “Xamsa”ning uchinchi dostoni."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_12",
+   "t": "match",
+   "q": "Asarni turi bilan juftlang",
+   "pairs": [
+    [
+     "“Xamsa”",
+     "besh dostonli asar"
+    ],
+    [
+     "“Mahbub ul-qulub”",
+     "nasriy hikmatli asar"
+    ],
+    [
+     "“Farhod va Shirin”",
+     "“Xamsa” dostoni"
+    ],
+    [
+     "“Muhokamat ul-lug‘atayn”",
+     "tillar qiyosi haqida asar"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_13",
+   "t": "choice",
+   "q": "Navoiy asarlarida qanday fazilatlar ulug‘lanadi?",
+   "a": "Ilm, odob, mehnat, sadoqat",
+   "w": [
+    "Xasislik",
+    "Yolg‘onchilik",
+    "Dangasalik"
+   ],
+   "d": 1,
+   "x": "Navoiy insonni ezgulikka chorlaydi."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_14",
+   "t": "choice",
+   "q": "Navoiy qaysi davrda yashagan?",
+   "a": "Temuriylar davrida",
+   "w": [
+    "Mustaqillik davrida",
+    "Qadimgi Misr davrida",
+    "XX asrda"
+   ],
+   "d": 2,
+   "x": "U Husayn Boyqaro saroyida xizmat qilgan."
+  },
+  {
+   "topic": "reading_g5.navoi",
+   "id": "navoi_15",
+   "t": "choice",
+   "q": "Navoiy bilan yaqin do‘st bo‘lgan hukmdor kim?",
+   "a": "Husayn Boyqaro",
+   "w": [
+    "Amir Temur",
+    "Aleksandr Makedonskiy",
+    "Mirzo Ulug‘bek"
+   ],
+   "d": 3,
+   "x": "Husayn Boyqaro — Xuroson hukmdori, Navoiyning bolalikdagi do‘sti."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_1",
+   "t": "choice",
+   "q": "Zahiriddin Muhammad Bobur qaysi yilda tug‘ilgan?",
+   "a": "1483-yilda",
+   "w": [
+    "1441-yilda",
+    "1336-yilda",
+    "1924-yilda"
+   ],
+   "d": 1,
+   "x": "Bobur 1483-yilda Andijonda tug‘ilgan."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_2",
+   "t": "choice",
+   "q": "Bobur qaysi shaharda tug‘ilgan?",
+   "a": "Andijonda",
+   "w": [
+    "Hirotda",
+    "Samarqandda",
+    "Buxoroda"
+   ],
+   "d": 1,
+   "x": "Andijon — Farg‘ona vodiysidagi shahar."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_3",
+   "t": "choice",
+   "q": "“Boburnoma” qanday asar?",
+   "a": "Bobur hayoti va zamonasi haqidagi xotira asari",
+   "w": [
+    "Ertaklar to‘plami",
+    "Doston",
+    "Lug‘at"
+   ],
+   "d": 1,
+   "x": "Unda voqealar, shaharlar, tabiat va odamlar tasvirlangan."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_4",
+   "t": "choice",
+   "q": "Bobur qaysi mamlakatda yangi saltanatga asos solgan?",
+   "a": "Hindistonda",
+   "w": [
+    "Misrda",
+    "Xitoyda",
+    "Rimda"
+   ],
+   "d": 2,
+   "x": "Bobur Hindistonda Boburiylar saltanatiga asos solgan."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_5",
+   "t": "choice",
+   "q": "Bobur faqat hukmdor emas, yana kim edi?",
+   "a": "Shoir va yozuvchi",
+   "w": [
+    "Futbolchi",
+    "Rassom",
+    "Kosmonavt"
+   ],
+   "d": 1,
+   "x": "U g‘azal va ruboiylar ham yozgan."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_6",
+   "t": "choice",
+   "q": "To‘rt misrali she’r nima deyiladi?",
+   "a": "Ruboiy",
+   "w": [
+    "G‘azal",
+    "Doston",
+    "Masal"
+   ],
+   "d": 2,
+   "x": "Boburning ruboiylari mashhur."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_7",
+   "t": "tf",
+   "q": "“Boburnoma”ni Alisher Navoiy yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "Uni Zahiriddin Muhammad Bobur yozgan."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_8",
+   "t": "tf",
+   "q": "Bobur Andijonda tug‘ilgan.",
+   "a": true,
+   "d": 1,
+   "x": "1483-yilda."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_9",
+   "t": "choice",
+   "q": "“Qutadg‘u bilig” asarining muallifi kim?",
+   "a": "Yusuf Xos Hojib",
+   "w": [
+    "Mahmud Koshg‘ariy",
+    "Gulxaniy",
+    "Bobur"
+   ],
+   "d": 1,
+   "x": "“Qutadg‘u bilig” — “Baxtga eltuvchi bilim” ma’nosini beradi."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_10",
+   "t": "choice",
+   "q": "“Devonu lug‘otit turk” asarining muallifi kim?",
+   "a": "Mahmud Koshg‘ariy",
+   "w": [
+    "Yusuf Xos Hojib",
+    "Alisher Navoiy",
+    "Ogahiy"
+   ],
+   "d": 2,
+   "x": "Bu — turkiy so‘zlar lug‘ati va qomusi."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_11",
+   "t": "choice",
+   "q": "“Zarbulmasal” asarining muallifi kim?",
+   "a": "Gulxaniy",
+   "w": [
+    "Bobur",
+    "Navoiy",
+    "Qodiriy"
+   ],
+   "d": 2,
+   "x": "“Zarbulmasal” — masallar va maqollarga boy asar."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_12",
+   "t": "choice",
+   "q": "“Zarbulmasal”da voqealar kimlar orqali hikoya qilinadi?",
+   "a": "Qushlar orqali",
+   "w": [
+    "Podshohlar orqali",
+    "Olimlar orqali",
+    "Dengizchilar orqali"
+   ],
+   "d": 3,
+   "x": "Asar qahramonlari — boyqush, qarg‘a kabi qushlar."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_13",
+   "t": "choice",
+   "q": "Nodira kim bo‘lgan?",
+   "a": "Shoira",
+   "w": [
+    "Sarkarda",
+    "Me’mor",
+    "Olim"
+   ],
+   "d": 2,
+   "x": "Nodira — XIX asr o‘zbek shoirasi."
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_14",
+   "t": "match",
+   "q": "Asarni muallifi bilan juftlang",
+   "pairs": [
+    [
+     "“Xamsa”",
+     "Alisher Navoiy"
+    ],
+    [
+     "“Boburnoma”",
+     "Zahiriddin Muhammad Bobur"
+    ],
+    [
+     "“Qutadg‘u bilig”",
+     "Yusuf Xos Hojib"
+    ],
+    [
+     "“Devonu lug‘otit turk”",
+     "Mahmud Koshg‘ariy"
+    ],
+    [
+     "“Zarbulmasal”",
+     "Gulxaniy"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.classics",
+   "id": "classics_15",
+   "t": "tf",
+   "q": "Mumtoz adabiyot — o‘tmishda yaratilgan namunali adabiyot.",
+   "a": true,
+   "d": 1,
+   "x": "Navoiy, Bobur, Gulxaniy asarlari mumtoz adabiyotga kiradi."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_1",
+   "t": "choice",
+   "q": "“O‘tkan kunlar” asarining muallifi kim?",
+   "a": "Abdulla Qodiriy",
+   "w": [
+    "Abdulla Qahhor",
+    "Erkin Vohidov",
+    "Xudoyberdi To‘xtaboyev"
+   ],
+   "d": 1,
+   "x": "“O‘tkan kunlar” — Abdulla Qodiriy asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_2",
+   "t": "choice",
+   "q": "“Mehrobdan chayon” asarining muallifi kim?",
+   "a": "Abdulla Qodiriy",
+   "w": [
+    "O‘tkir Hoshimov",
+    "Hamid Olimjon",
+    "G‘afur G‘ulom"
+   ],
+   "d": 2,
+   "x": "“Mehrobdan chayon” — Abdulla Qodiriy asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_3",
+   "t": "choice",
+   "q": "“Kecha va kunduz” asarining muallifi kim?",
+   "a": "Abdulhamid Cho‘lpon",
+   "w": [
+    "Xudoyberdi To‘xtaboyev",
+    "Hamid Olimjon",
+    "Abdulla Qodiriy"
+   ],
+   "d": 1,
+   "x": "“Kecha va kunduz” — Abdulhamid Cho‘lpon asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_4",
+   "t": "choice",
+   "q": "“Bolalik” asarining muallifi kim?",
+   "a": "Oybek",
+   "w": [
+    "G‘afur G‘ulom",
+    "Abdulhamid Cho‘lpon",
+    "Abdulla Qahhor"
+   ],
+   "d": 1,
+   "x": "“Bolalik” — Oybek asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_5",
+   "t": "choice",
+   "q": "“Navoiy” romani asarining muallifi kim?",
+   "a": "Oybek",
+   "w": [
+    "Hamid Olimjon",
+    "O‘tkir Hoshimov",
+    "Erkin Vohidov"
+   ],
+   "d": 2,
+   "x": "“Navoiy” romani — Oybek asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_6",
+   "t": "choice",
+   "q": "“Shum bola” asarining muallifi kim?",
+   "a": "G‘afur G‘ulom",
+   "w": [
+    "Oybek",
+    "Xudoyberdi To‘xtaboyev",
+    "Abdulla Qodiriy"
+   ],
+   "d": 1,
+   "x": "“Shum bola” — G‘afur G‘ulom asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_7",
+   "t": "choice",
+   "q": "“Sen yetim emassan” asarining muallifi kim?",
+   "a": "G‘afur G‘ulom",
+   "w": [
+    "Abdulhamid Cho‘lpon",
+    "Xudoyberdi To‘xtaboyev",
+    "Abdulla Qodiriy"
+   ],
+   "d": 2,
+   "x": "“Sen yetim emassan” — G‘afur G‘ulom asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_8",
+   "t": "choice",
+   "q": "“Oygul bilan Baxtiyor” asarining muallifi kim?",
+   "a": "Hamid Olimjon",
+   "w": [
+    "Erkin Vohidov",
+    "Xudoyberdi To‘xtaboyev",
+    "Abdulla Qodiriy"
+   ],
+   "d": 2,
+   "x": "“Oygul bilan Baxtiyor” — Hamid Olimjon asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_9",
+   "t": "choice",
+   "q": "“O‘g‘ri” hikoyasi asarining muallifi kim?",
+   "a": "Abdulla Qahhor",
+   "w": [
+    "Xudoyberdi To‘xtaboyev",
+    "Hamid Olimjon",
+    "Erkin Vohidov"
+   ],
+   "d": 2,
+   "x": "“O‘g‘ri” hikoyasi — Abdulla Qahhor asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_10",
+   "t": "choice",
+   "q": "“Sarob” asarining muallifi kim?",
+   "a": "Abdulla Qahhor",
+   "w": [
+    "O‘tkir Hoshimov",
+    "Erkin Vohidov",
+    "Oybek"
+   ],
+   "d": 2,
+   "x": "“Sarob” — Abdulla Qahhor asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_11",
+   "t": "choice",
+   "q": "“Dunyoning ishlari” asarining muallifi kim?",
+   "a": "O‘tkir Hoshimov",
+   "w": [
+    "Xudoyberdi To‘xtaboyev",
+    "Abdulla Qahhor",
+    "Hamid Olimjon"
+   ],
+   "d": 1,
+   "x": "“Dunyoning ishlari” — O‘tkir Hoshimov asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_12",
+   "t": "choice",
+   "q": "“Sariq devni minib” asarining muallifi kim?",
+   "a": "Xudoyberdi To‘xtaboyev",
+   "w": [
+    "Erkin Vohidov",
+    "Abdulla Qahhor",
+    "G‘afur G‘ulom"
+   ],
+   "d": 1,
+   "x": "“Sariq devni minib” — Xudoyberdi To‘xtaboyev asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_13",
+   "t": "choice",
+   "q": "“O‘zbegim” asarining muallifi kim?",
+   "a": "Erkin Vohidov",
+   "w": [
+    "G‘afur G‘ulom",
+    "Oybek",
+    "O‘tkir Hoshimov"
+   ],
+   "d": 2,
+   "x": "“O‘zbegim” — Erkin Vohidov asari."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_14",
+   "t": "choice",
+   "q": "Birinchi o‘zbek romani qaysi?",
+   "a": "“O‘tkan kunlar”",
+   "w": [
+    "“Boburnoma”",
+    "“Alpomish”",
+    "“Shum bola”"
+   ],
+   "d": 1,
+   "x": "“O‘tkan kunlar”ni Abdulla Qodiriy yozgan."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_15",
+   "t": "choice",
+   "q": "O‘zbekiston Davlat madhiyasi so‘zlari muallifi kim?",
+   "a": "Abdulla Oripov",
+   "w": [
+    "Erkin Vohidov",
+    "Hamid Olimjon",
+    "Oybek"
+   ],
+   "d": 1,
+   "x": "Musiqasi — Mutal Burhonov."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_16",
+   "t": "choice",
+   "q": "“Shum bola” qanday janrdagi asar?",
+   "a": "Qissa",
+   "w": [
+    "G‘azal",
+    "Masal",
+    "Ruboiy"
+   ],
+   "d": 2,
+   "x": "Qissa — hikoyadan katta, romandan kichik nasriy asar."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_17",
+   "t": "choice",
+   "q": "Zulfiya kim bo‘lgan?",
+   "a": "Shoira",
+   "w": [
+    "Rassom",
+    "Bastakor",
+    "Olim"
+   ],
+   "d": 1,
+   "x": "Zulfiya — mashhur o‘zbek shoirasi."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_18",
+   "t": "tf",
+   "q": "“Bolalik” — Oybekning o‘z bolaligi haqidagi qissasi.",
+   "a": true,
+   "d": 1,
+   "x": "Asar muallif xotiralari asosida yozilgan."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_19",
+   "t": "tf",
+   "q": "“O‘tkan kunlar” romanini Cho‘lpon yozgan.",
+   "a": false,
+   "d": 1,
+   "x": "“O‘tkan kunlar” — Abdulla Qodiriy romani."
+  },
+  {
+   "topic": "reading_g5.modern",
+   "id": "modern_20",
+   "t": "match",
+   "q": "Adibni asari bilan juftlang",
+   "pairs": [
+    [
+     "Abdulla Qodiriy",
+     "“O‘tkan kunlar”"
+    ],
+    [
+     "Oybek",
+     "“Bolalik”"
+    ],
+    [
+     "G‘afur G‘ulom",
+     "“Shum bola”"
+    ],
+    [
+     "Cho‘lpon",
+     "“Kecha va kunduz”"
+    ],
+    [
+     "O‘tkir Hoshimov",
+     "“Dunyoning ishlari”"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_1",
+   "t": "choice",
+   "q": "Hikoyaning mavzusi nima?",
+   "a": "Tabiatga g‘amxo‘rlik",
+   "w": [
+    "Sport musobaqasi",
+    "Maktab bayrami",
+    "Uzoq safar"
+   ],
+   "d": 1,
+   "x": "Bolalar sinib qolgan daraxtni asrab qolishdi.",
+   "text": "Qishloq chekkasida keksa tut daraxti bor edi. Bolalar uning soyasida o‘ynashar, qushlar shoxlariga in qurishardi. Bir kuni kuchli bo‘ron turib, daraxtning katta shoxi sindi. Ertasi kuni bolalar bobolari bilan kelib, singan joyni bog‘lab qo‘yishdi, atrofini chopib, suv berishdi. Bahorda tut yana yashnadi, shoxlarida yangi kurtaklar ko‘rindi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_2",
+   "t": "choice",
+   "q": "Hikoyaning g‘oyasi qaysi?",
+   "a": "Tabiatni asrasak, u bizga yana quvonch beradi",
+   "w": [
+    "Daraxtlar keraksiz",
+    "Bo‘ron foydali",
+    "Bolalar faqat o‘ynashi kerak"
+   ],
+   "d": 1,
+   "x": "G‘oya — muallif aytmoqchi bo‘lgan asosiy fikr.",
+   "text": "Qishloq chekkasida keksa tut daraxti bor edi. Bolalar uning soyasida o‘ynashar, qushlar shoxlariga in qurishardi. Bir kuni kuchli bo‘ron turib, daraxtning katta shoxi sindi. Ertasi kuni bolalar bobolari bilan kelib, singan joyni bog‘lab qo‘yishdi, atrofini chopib, suv berishdi. Bahorda tut yana yashnadi, shoxlarida yangi kurtaklar ko‘rindi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_3",
+   "t": "choice",
+   "q": "Daraxtning shoxi nima sababdan sindi?",
+   "a": "Kuchli bo‘rondan",
+   "w": [
+    "Bolalar sindirgani uchun",
+    "Qurib qolgani uchun",
+    "Qor og‘irligidan"
+   ],
+   "d": 1,
+   "x": "“Kuchli bo‘ron turib, daraxtning katta shoxi sindi.”",
+   "text": "Qishloq chekkasida keksa tut daraxti bor edi. Bolalar uning soyasida o‘ynashar, qushlar shoxlariga in qurishardi. Bir kuni kuchli bo‘ron turib, daraxtning katta shoxi sindi. Ertasi kuni bolalar bobolari bilan kelib, singan joyni bog‘lab qo‘yishdi, atrofini chopib, suv berishdi. Bahorda tut yana yashnadi, shoxlarida yangi kurtaklar ko‘rindi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_4",
+   "t": "choice",
+   "q": "Matnda qaysi tasvir usuli bor: “Bahorda tut yana yashnadi”?",
+   "a": "Tabiat tasviri (peyzaj)",
+   "w": [
+    "Portret",
+    "Dialog",
+    "Monolog"
+   ],
+   "d": 2,
+   "x": "Tabiat manzarasining tasviri — peyzaj.",
+   "text": "Qishloq chekkasida keksa tut daraxti bor edi. Bolalar uning soyasida o‘ynashar, qushlar shoxlariga in qurishardi. Bir kuni kuchli bo‘ron turib, daraxtning katta shoxi sindi. Ertasi kuni bolalar bobolari bilan kelib, singan joyni bog‘lab qo‘yishdi, atrofini chopib, suv berishdi. Bahorda tut yana yashnadi, shoxlarida yangi kurtaklar ko‘rindi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_5",
+   "t": "choice",
+   "q": "Nodir qaysi o‘rinni oldi?",
+   "a": "Ikkinchi",
+   "w": [
+    "Birinchi",
+    "Uchinchi",
+    "Hech qanday"
+   ],
+   "d": 1,
+   "x": "U ikkinchi o‘rinni oldi.",
+   "text": "Nodir rasm tanlovida ikkinchi o‘rinni oldi. Birinchi o‘rin uning do‘sti Sanjarga nasib etdi. Nodir avvaliga xafa bo‘ldi, keyin esa Sanjarning oldiga borib, uni chin dildan tabrikladi. “Keyingi safar birga chizamiz, sen menga soya berishni o‘rgat”, dedi u. Sanjar jilmayib, bosh irg‘adi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_6",
+   "t": "choice",
+   "q": "Nodirning qaysi fazilati namoyon bo‘ldi?",
+   "a": "Do‘stining yutug‘idan quvona olishi",
+   "w": [
+    "Hasadgo‘yligi",
+    "Maqtanchoqligi",
+    "Dangasaligi"
+   ],
+   "d": 1,
+   "x": "U xafa bo‘lsa ham, do‘stini chin dildan tabrikladi.",
+   "text": "Nodir rasm tanlovida ikkinchi o‘rinni oldi. Birinchi o‘rin uning do‘sti Sanjarga nasib etdi. Nodir avvaliga xafa bo‘ldi, keyin esa Sanjarning oldiga borib, uni chin dildan tabrikladi. “Keyingi safar birga chizamiz, sen menga soya berishni o‘rgat”, dedi u. Sanjar jilmayib, bosh irg‘adi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_7",
+   "t": "choice",
+   "q": "Nodir va Sanjarning suhbati qanday tasvir usuli?",
+   "a": "Dialog",
+   "w": [
+    "Peyzaj",
+    "Portret",
+    "Qofiya"
+   ],
+   "d": 2,
+   "x": "Qahramonlarning o‘zaro suhbati — dialog.",
+   "text": "Nodir rasm tanlovida ikkinchi o‘rinni oldi. Birinchi o‘rin uning do‘sti Sanjarga nasib etdi. Nodir avvaliga xafa bo‘ldi, keyin esa Sanjarning oldiga borib, uni chin dildan tabrikladi. “Keyingi safar birga chizamiz, sen menga soya berishni o‘rgat”, dedi u. Sanjar jilmayib, bosh irg‘adi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_8",
+   "t": "choice",
+   "q": "Hikoyaga mos maqolni tanlang.",
+   "a": "Do‘stsiz boshim — tuzsiz oshim.",
+   "w": [
+    "Ko‘z qo‘rqoq, qo‘l botir.",
+    "Hunar — hunardan unar.",
+    "Tomchi-tomchi ko‘l bo‘lur."
+   ],
+   "d": 3,
+   "x": "Hikoya do‘stlik qadri haqida.",
+   "text": "Nodir rasm tanlovida ikkinchi o‘rinni oldi. Birinchi o‘rin uning do‘sti Sanjarga nasib etdi. Nodir avvaliga xafa bo‘ldi, keyin esa Sanjarning oldiga borib, uni chin dildan tabrikladi. “Keyingi safar birga chizamiz, sen menga soya berishni o‘rgat”, dedi u. Sanjar jilmayib, bosh irg‘adi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_9",
+   "t": "tf",
+   "q": "Bolalar singan shoxni bog‘lab, daraxtga suv berishdi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Qishloq chekkasida keksa tut daraxti bor edi. Bolalar uning soyasida o‘ynashar, qushlar shoxlariga in qurishardi. Bir kuni kuchli bo‘ron turib, daraxtning katta shoxi sindi. Ertasi kuni bolalar bobolari bilan kelib, singan joyni bog‘lab qo‘yishdi, atrofini chopib, suv berishdi. Bahorda tut yana yashnadi, shoxlarida yangi kurtaklar ko‘rindi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_10",
+   "t": "tf",
+   "q": "Nodir Sanjarni tabriklamadi.",
+   "a": false,
+   "d": 1,
+   "x": "U Sanjarni chin dildan tabrikladi.",
+   "text": "Nodir rasm tanlovida ikkinchi o‘rinni oldi. Birinchi o‘rin uning do‘sti Sanjarga nasib etdi. Nodir avvaliga xafa bo‘ldi, keyin esa Sanjarning oldiga borib, uni chin dildan tabrikladi. “Keyingi safar birga chizamiz, sen menga soya berishni o‘rgat”, dedi u. Sanjar jilmayib, bosh irg‘adi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_11",
+   "t": "choice",
+   "q": "Asarning mavzusi va g‘oyasi qanday farqlanadi?",
+   "a": "Mavzu — nima haqida, g‘oya — asosiy fikr",
+   "w": [
+    "Ular bir xil",
+    "Mavzu — muallif ismi",
+    "G‘oya — sarlavha"
+   ],
+   "d": 2,
+   "x": "Mavzu: asar nima haqida; g‘oya: muallif nimani aytmoqchi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_12",
+   "t": "choice",
+   "q": "Qahramonning tashqi ko‘rinishi tasviri nima deyiladi?",
+   "a": "Portret",
+   "w": [
+    "Peyzaj",
+    "Dialog",
+    "Syujet"
+   ],
+   "d": 1,
+   "x": "Portret — qahramon tashqi qiyofasining tasviri."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_13",
+   "t": "choice",
+   "q": "Asardagi voqealar tizimi nima deyiladi?",
+   "a": "Syujet",
+   "w": [
+    "Qofiya",
+    "Portret",
+    "Band"
+   ],
+   "d": 2,
+   "x": "Syujet — voqealarning bog‘lanib, rivojlanib borishi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_14",
+   "t": "choice",
+   "q": "Bitta qahramonning o‘z-o‘zi bilan yoki uzoq gapirishi nima deyiladi?",
+   "a": "Monolog",
+   "w": [
+    "Dialog",
+    "Peyzaj",
+    "Portret"
+   ],
+   "d": 2,
+   "x": "Monolog — bir kishi nutqi."
+  },
+  {
+   "topic": "reading_g5.analysis",
+   "id": "analysis_15",
+   "t": "match",
+   "q": "Atamani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Mavzu",
+     "asar nima haqida"
+    ],
+    [
+     "G‘oya",
+     "asosiy fikr"
+    ],
+    [
+     "Peyzaj",
+     "tabiat tasviri"
+    ],
+    [
+     "Portret",
+     "tashqi qiyofa tasviri"
+    ],
+    [
+     "Dialog",
+     "ikki kishi suhbati"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_1",
+   "t": "choice",
+   "q": "“hikoya” qaysi adabiy turga mansub?",
+   "a": "Epik tur",
+   "w": [
+    "Lirik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 1,
+   "x": "hikoya — epik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_2",
+   "t": "choice",
+   "q": "“roman” qaysi adabiy turga mansub?",
+   "a": "Epik tur",
+   "w": [
+    "Lirik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 1,
+   "x": "roman — epik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_3",
+   "t": "choice",
+   "q": "“qissa” qaysi adabiy turga mansub?",
+   "a": "Epik tur",
+   "w": [
+    "Lirik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 2,
+   "x": "qissa — epik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_4",
+   "t": "choice",
+   "q": "“g‘azal” qaysi adabiy turga mansub?",
+   "a": "Lirik tur",
+   "w": [
+    "Epik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 2,
+   "x": "g‘azal — lirik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_5",
+   "t": "choice",
+   "q": "“ruboiy” qaysi adabiy turga mansub?",
+   "a": "Lirik tur",
+   "w": [
+    "Epik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 2,
+   "x": "ruboiy — lirik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_6",
+   "t": "choice",
+   "q": "“she’r” qaysi adabiy turga mansub?",
+   "a": "Lirik tur",
+   "w": [
+    "Epik tur",
+    "Dramatik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 1,
+   "x": "she’r — lirik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_7",
+   "t": "choice",
+   "q": "“komediya” qaysi adabiy turga mansub?",
+   "a": "Dramatik tur",
+   "w": [
+    "Epik tur",
+    "Lirik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 1,
+   "x": "komediya — dramatik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_8",
+   "t": "choice",
+   "q": "“drama” qaysi adabiy turga mansub?",
+   "a": "Dramatik tur",
+   "w": [
+    "Epik tur",
+    "Lirik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 2,
+   "x": "drama — dramatik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_9",
+   "t": "choice",
+   "q": "“tragediya” qaysi adabiy turga mansub?",
+   "a": "Dramatik tur",
+   "w": [
+    "Epik tur",
+    "Lirik tur",
+    "Xalq og‘zaki ijodi"
+   ],
+   "d": 2,
+   "x": "tragediya — dramatik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_10",
+   "t": "choice",
+   "q": "Qaysi turda voqea hikoya qilinadi?",
+   "a": "Epik",
+   "w": [
+    "Lirik",
+    "Dramatik",
+    "Hech qaysi"
+   ],
+   "d": 1,
+   "x": "Epik asarlarda voqealar hikoya qilinadi: hikoya, qissa, roman."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_11",
+   "t": "choice",
+   "q": "Qaysi turda his-tuyg‘u ifodalanadi?",
+   "a": "Lirik",
+   "w": [
+    "Epik",
+    "Dramatik",
+    "Hech qaysi"
+   ],
+   "d": 1,
+   "x": "Lirik asar — she’r, g‘azal, ruboiy."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_12",
+   "t": "choice",
+   "q": "Qaysi tur sahnada ijro etish uchun yoziladi?",
+   "a": "Dramatik",
+   "w": [
+    "Epik",
+    "Lirik",
+    "Hech qaysi"
+   ],
+   "d": 1,
+   "x": "Dramatik asar qahramonlar nutqi (dialog) asosida quriladi."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_13",
+   "t": "choice",
+   "q": "Hajmi jihatidan eng katta epik asar qaysi?",
+   "a": "Roman",
+   "w": [
+    "Hikoya",
+    "Qissa",
+    "Masal"
+   ],
+   "d": 2,
+   "x": "Hikoya < qissa < roman."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_14",
+   "t": "tf",
+   "q": "Komediya — kulgili dramatik asar.",
+   "a": true,
+   "d": 1,
+   "x": "Komediya kamchiliklarni kulgi orqali fosh etadi."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_15",
+   "t": "tf",
+   "q": "Roman lirik turga mansub.",
+   "a": false,
+   "d": 1,
+   "x": "Roman — epik tur."
+  },
+  {
+   "topic": "reading_g5.kinds",
+   "id": "kinds_16",
+   "t": "match",
+   "q": "Janrni turi bilan juftlang",
+   "pairs": [
+    [
+     "roman",
+     "epik"
+    ],
+    [
+     "g‘azal",
+     "lirik"
+    ],
+    [
+     "komediya",
+     "dramatik"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_1",
+   "t": "choice",
+   "q": "“Qizning yuzi oydek go‘zal.” — qaysi badiiy tasvir vositasi?",
+   "a": "O‘xshatish",
+   "w": [
+    "Jonlantirish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Narsa boshqasiga qiyoslangan (-dek, -day, kabi)."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_2",
+   "t": "choice",
+   "q": "“Qor paxtadek oppoq.” — qaysi badiiy tasvir vositasi?",
+   "a": "O‘xshatish",
+   "w": [
+    "Jonlantirish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Narsa boshqasiga qiyoslangan (-dek, -day, kabi)."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_3",
+   "t": "choice",
+   "q": "“Bola sherdek botir.” — qaysi badiiy tasvir vositasi?",
+   "a": "O‘xshatish",
+   "w": [
+    "Jonlantirish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Narsa boshqasiga qiyoslangan (-dek, -day, kabi)."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_4",
+   "t": "choice",
+   "q": "“Shamol qo‘shiq kuyladi.” — qaysi badiiy tasvir vositasi?",
+   "a": "Jonlantirish",
+   "w": [
+    "O‘xshatish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Jonsiz narsaga insonga xos harakat berilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_5",
+   "t": "choice",
+   "q": "“Daraxtlar bir-biriga nimadir shivirlashdi.” — qaysi badiiy tasvir vositasi?",
+   "a": "Jonlantirish",
+   "w": [
+    "O‘xshatish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Jonsiz narsaga insonga xos harakat berilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_6",
+   "t": "choice",
+   "q": "“Quyosh bizga jilmaydi.” — qaysi badiiy tasvir vositasi?",
+   "a": "Jonlantirish",
+   "w": [
+    "O‘xshatish",
+    "Mubolag‘a",
+    "Sifatlash"
+   ],
+   "d": 1,
+   "x": "Jonsiz narsaga insonga xos harakat berilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_7",
+   "t": "choice",
+   "q": "“Ko‘z yoshi daryo bo‘lib oqdi.” — qaysi badiiy tasvir vositasi?",
+   "a": "Mubolag‘a",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Sifatlash"
+   ],
+   "d": 2,
+   "x": "Belgi ataylab kuchaytirib, oshirib tasvirlangan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_8",
+   "t": "choice",
+   "q": "“Alp bir sakrab, tog‘dan oshib o‘tdi.” — qaysi badiiy tasvir vositasi?",
+   "a": "Mubolag‘a",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Sifatlash"
+   ],
+   "d": 2,
+   "x": "Belgi ataylab kuchaytirib, oshirib tasvirlangan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_9",
+   "t": "choice",
+   "q": "“Ming yil kutdim seni!” — qaysi badiiy tasvir vositasi?",
+   "a": "Mubolag‘a",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Sifatlash"
+   ],
+   "d": 2,
+   "x": "Belgi ataylab kuchaytirib, oshirib tasvirlangan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_10",
+   "t": "choice",
+   "q": "“oltin kuz” — qaysi badiiy tasvir vositasi?",
+   "a": "Sifatlash",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Mubolag‘a"
+   ],
+   "d": 2,
+   "x": "Narsaning obrazli, bo‘yoqdor belgisi ko‘rsatilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_11",
+   "t": "choice",
+   "q": "“kumush qor” — qaysi badiiy tasvir vositasi?",
+   "a": "Sifatlash",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Mubolag‘a"
+   ],
+   "d": 2,
+   "x": "Narsaning obrazli, bo‘yoqdor belgisi ko‘rsatilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_12",
+   "t": "choice",
+   "q": "“zangori osmon” — qaysi badiiy tasvir vositasi?",
+   "a": "Sifatlash",
+   "w": [
+    "O‘xshatish",
+    "Jonlantirish",
+    "Mubolag‘a"
+   ],
+   "d": 2,
+   "x": "Narsaning obrazli, bo‘yoqdor belgisi ko‘rsatilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_13",
+   "t": "choice",
+   "q": "O‘xshatishda ko‘pincha qaysi qo‘shimcha yoki so‘z qatnashadi?",
+   "a": "-dek, -day, kabi",
+   "w": [
+    "-lar, -ning",
+    "-ga, -da",
+    "-chi, -kor"
+   ],
+   "d": 2,
+   "x": "oydek, sherday, paxta kabi."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_14",
+   "t": "tf",
+   "q": "“Gullar kuldi” — jonlantirish.",
+   "a": true,
+   "d": 1,
+   "x": "Gullarga insonga xos harakat (kulish) berilgan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_15",
+   "t": "tf",
+   "q": "“Qor paxtadek oppoq” — mubolag‘a.",
+   "a": false,
+   "d": 1,
+   "x": "Bu — o‘xshatish: qor paxtaga qiyoslangan."
+  },
+  {
+   "topic": "reading_g5.devices",
+   "id": "devices_16",
+   "t": "match",
+   "q": "Vositani misol bilan juftlang",
+   "pairs": [
+    [
+     "O‘xshatish",
+     "sherdek botir"
+    ],
+    [
+     "Jonlantirish",
+     "shamol kuyladi"
+    ],
+    [
+     "Mubolag‘a",
+     "ko‘z yoshi daryo bo‘ldi"
+    ],
+    [
+     "Sifatlash",
+     "oltin kuz"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_1",
+   "t": "choice",
+   "q": "She’rning bir qatori nima deyiladi?",
+   "a": "Misra",
+   "w": [
+    "Band",
+    "Bayt",
+    "Qofiya"
+   ],
+   "d": 1,
+   "x": "Misra — she’rning bir qatori."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_2",
+   "t": "choice",
+   "q": "Ikki misradan iborat she’riy birlik nima deyiladi?",
+   "a": "Bayt",
+   "w": [
+    "Band",
+    "Ruboiy",
+    "Radif"
+   ],
+   "d": 1,
+   "x": "G‘azal baytlardan tuziladi."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_3",
+   "t": "choice",
+   "q": "To‘rt misrali mustaqil she’r nima deyiladi?",
+   "a": "Ruboiy",
+   "w": [
+    "G‘azal",
+    "Doston",
+    "Masal"
+   ],
+   "d": 1,
+   "x": "Boburning ruboiylari mashhur."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_4",
+   "t": "choice",
+   "q": "Misralar oxirida ohangdosh so‘zlarning kelishi nima deyiladi?",
+   "a": "Qofiya",
+   "w": [
+    "Radif",
+    "Bayt",
+    "Band"
+   ],
+   "d": 1,
+   "x": "bahor — anor, tog‘ — bog‘."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_5",
+   "t": "choice",
+   "q": "Qofiyadan keyin takrorlanib keladigan so‘z nima deyiladi?",
+   "a": "Radif",
+   "w": [
+    "Qofiya",
+    "Misra",
+    "Band"
+   ],
+   "d": 2,
+   "x": "Radif — qofiyadan keyin aynan takrorlanadigan so‘z yoki so‘zlar."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_6",
+   "t": "choice",
+   "q": "G‘azalning birinchi bayti nima deyiladi?",
+   "a": "Matla’",
+   "w": [
+    "Maqta’",
+    "Radif",
+    "Band"
+   ],
+   "d": 3,
+   "x": "Matla’ — g‘azal boshlanmasi."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_7",
+   "t": "choice",
+   "q": "G‘azalning oxirgi bayti nima deyiladi?",
+   "a": "Maqta’",
+   "w": [
+    "Matla’",
+    "Ruboiy",
+    "Qofiya"
+   ],
+   "d": 3,
+   "x": "Maqta’da ko‘pincha shoirning taxallusi keladi."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_8",
+   "t": "choice",
+   "q": "Shoirning adabiy nomi nima deyiladi?",
+   "a": "Taxallus",
+   "w": [
+    "Radif",
+    "Sarlavha",
+    "Band"
+   ],
+   "d": 2,
+   "x": "Masalan, Alisher Navoiyning taxalluslari: Navoiy, Foniy."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_9",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "diyor — bahor",
+   "w": [
+    "kitob — maktab",
+    "olma — anor",
+    "tog‘ — daryo"
+   ],
+   "d": 1,
+   "x": "Oxiri ohangdosh: -or."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_10",
+   "t": "choice",
+   "q": "Qaysi so‘zlar qofiyadosh?",
+   "a": "gul — bulbul",
+   "w": [
+    "gul — lola",
+    "bulbul — qush",
+    "gul — daraxt"
+   ],
+   "d": 1,
+   "x": "Oxiri ohangdosh: -ul."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_11",
+   "t": "tf",
+   "q": "Band bir necha misradan iborat bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, to‘rt misrali band."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_12",
+   "t": "tf",
+   "q": "Bayt uch misradan iborat.",
+   "a": false,
+   "d": 1,
+   "x": "Bayt — ikki misra."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_13",
+   "t": "tf",
+   "q": "Ruboiy to‘rt misradan iborat.",
+   "a": true,
+   "d": 1,
+   "x": "Ruboiy — to‘rtlik."
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_14",
+   "t": "match",
+   "q": "Atamani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Misra",
+     "she’rning bir qatori"
+    ],
+    [
+     "Bayt",
+     "ikki misra"
+    ],
+    [
+     "Ruboiy",
+     "to‘rt misrali she’r"
+    ],
+    [
+     "Qofiya",
+     "ohangdosh so‘zlar"
+    ],
+    [
+     "Radif",
+     "qofiyadan keyin takrorlanadigan so‘z"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "reading_g5.verse",
+   "id": "verse_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "G‘azal",
+    "baytlardan",
+    "tuziladi"
+   ],
+   "sep": " ",
+   "d": 1
+  }
+ ]
+}

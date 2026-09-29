@@ -30,8 +30,6 @@ class ContentRepository {
 
   /// Savollar banki fayllari.
   static const List<String> bankFiles = [
-    'school/bank_practice_g3',
-    'school/bank_practice_g5',
     'school/bank_english_g3',
     'school/bank_english_g5',
     'school/bank_russian_g3',
@@ -42,6 +40,9 @@ class ContentRepository {
     'school/bank_informatics_g5',
     'school/bank_onatili_g3',
     'school/bank_onatili_g5',
+    'school/bank_reading_g3',
+    'school/bank_reading_g5',
+    'school/bank_history_g5',
   ];
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
