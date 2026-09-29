@@ -40,6 +40,8 @@ class ContentRepository {
     'school/bank_science_g5',
     'school/bank_informatics_g3',
     'school/bank_informatics_g5',
+    'school/bank_onatili_g3',
+    'school/bank_onatili_g5',
   ];
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.

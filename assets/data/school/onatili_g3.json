@@ -1,105 +1,611 @@
 {
  "subject": "onatili",
  "ageGroup": "g3",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Ona tili",
   "en": "Native language",
   "ru": "Родной язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "onatili_g3.word_classes",
+   "id": "onatili_g3.sounds",
    "code": "1",
-   "emoji": "📝",
+   "emoji": "🔤",
    "title": {
-    "uz": "So‘z turkumlari",
-    "en": "So‘z turkumlari",
-    "ru": "So‘z turkumlari"
+    "uz": "Unli va undosh tovushlar",
+    "en": "Vowels and consonants",
+    "ru": "Гласные и согласные звуки"
    },
    "generator": "bank",
-   "skill": "word_classes",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va bo‘g‘in",
    "prerequisites": [],
-   "theory": {
-    "uz": "Ot shaxs yoki narsani, sifat belgini, son miqdorni, fe’l harakatni bildiradi. Kitob — ot, yashil — sifat, uch — son, o‘qidi — fe’l. So‘zning ma’nosiga qarab ajrating."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Tovushni eshitamiz va aytamiz, harfni ko‘ramiz va yozamiz.\n• Unli tovushlar (6 ta): a, o, u, e, i, o‘. Ular cho‘zib aytiladi, havo to‘siqsiz chiqadi.\n• Qolgan tovushlar — undoshlar: b, d, k, m, q, s, t …\n• sh, ch, ng — ikki belgi bilan yoziladigan bitta tovush: shamol, choy, tong.\nMisol: “olma” so‘zida o, a — 2 ta unli; l, m — 2 ta undosh."
+   }
   },
   {
-   "id": "onatili_g3.sentences",
+   "id": "onatili_g3.syllables",
    "code": "2",
-   "emoji": "📝",
+   "emoji": "✂️",
    "title": {
-    "uz": "Darak va so‘roq gap",
-    "en": "Darak va so‘roq gap",
-    "ru": "Darak va so‘roq gap"
+    "uz": "Bo‘g‘in va so‘zni ko‘chirish",
+    "en": "Syllables and hyphenation",
+    "ru": "Слог и перенос слов"
    },
    "generator": "bank",
-   "skill": "sentences",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va bo‘g‘in",
    "prerequisites": [],
-   "theory": {
-    "uz": "Darak gap xabar beradi va odatda nuqta bilan tugaydi. So‘roq gap savol bildiradi va so‘roq belgisi bilan tugaydi. Masalan: Ali o‘qidi. Ali nima o‘qidi?"
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "So‘z bo‘g‘inlarga bo‘linadi. Har bir bo‘g‘inda bitta unli bo‘ladi: ki-tob, mak-tab.\nSo‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bor: o-na (2), chu-mo-li (3).\n• So‘z qatordan qatorga bo‘g‘in bo‘yicha ko‘chiriladi: mak-tab.\n• Bitta harfli bo‘g‘in qatorda qoldirilmaydi va ko‘chirilmaydi: o-na so‘zini bo‘lib bo‘lmaydi."
+   }
   },
   {
-   "id": "onatili_g3.review",
+   "id": "onatili_g3.alphabet",
    "code": "3",
+   "emoji": "🔠",
+   "title": {
+    "uz": "Alifbo tartibi",
+    "en": "Alphabetical order",
+    "ru": "Алфавитный порядок"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va bo‘g‘in",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘zbek lotin alifbosi: A B D E F G H I J K L M N O P Q R S T U V X Y Z O‘ G‘ Sh Ch Ng.\n• Lug‘atlarda va ro‘yxatlarda so‘zlar alifbo tartibida yoziladi.\n• Birinchi harflar bir xil bo‘lsa, ikkinchi harf solishtiriladi: bola, bosh, bug‘doy.\n• O‘, G‘, Sh, Ch alifbo oxirida turadi: “shamol” so‘zi “tulki”dan keyin keladi."
+   }
+  },
+  {
+   "id": "onatili_g3.test1",
+   "code": "N",
    "emoji": "📝",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Tovush, harf va bo‘g‘in",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.synonyms",
+   "code": "4",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Ma’nodosh so‘zlar",
+    "en": "Synonyms",
+    "ru": "Синонимы"
    },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. So‘z va uning ma’nosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ma’nodosh (sinonim) so‘zlar — yozilishi har xil, ma’nosi bir xil yoki yaqin so‘zlar.\nMisollar: chiroyli — go‘zal, aqlli — dono, botir — jasur, xursand — shod.\nMa’nodosh so‘zlar nutqni boy qiladi, bir so‘zni takrorlamaslikka yordam beradi."
+   }
+  },
+  {
+   "id": "onatili_g3.antonyms",
+   "code": "5",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Zid ma’noli so‘zlar",
+    "en": "Antonyms",
+    "ru": "Антонимы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. So‘z va uning ma’nosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Zid ma’noli (antonim) so‘zlar qarama-qarshi ma’noni bildiradi.\nMisollar: katta — kichik, issiq — sovuq, kun — tun, kulmoq — yig‘lamoq.\nMaqol va she’rlarda zid ma’noli so‘zlar fikrni ta’sirli qiladi."
+   }
+  },
+  {
+   "id": "onatili_g3.word_parts",
+   "code": "6",
+   "emoji": "🧱",
+   "title": {
+    "uz": "So‘z tarkibi: o‘zak va qo‘shimcha",
+    "en": "Root and suffix",
+    "ru": "Корень и суффикс"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. So‘z va uning ma’nosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘z o‘zak va qo‘shimchadan tuzilishi mumkin.\n• O‘zak — so‘zning asosiy ma’noli qismi: kitob, gul, bola.\n• Qo‘shimcha o‘zakdan keyin qo‘shiladi: kitob+lar, gul+chi, bola+ga.\nMisol: daftarlarim = daftar (o‘zak) + lar + im."
+   }
+  },
+  {
+   "id": "onatili_g3.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. So‘z va uning ma’nosi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.word_classes",
+   "code": "7",
+   "emoji": "🗂️",
+   "title": {
+    "uz": "So‘z turkumlari",
+    "en": "Parts of speech",
+    "ru": "Части речи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘zlar ma’nosi va so‘rog‘iga qarab turkumlarga bo‘linadi:\n• Ot — kim? nima? qayer?: bola, kitob, maktab.\n• Sifat — qanday? qanaqa?: katta, qizil, chiroyli.\n• Son — nechta? qancha? nechanchi?: uch, o‘n, beshinchi.\n• Fe’l — nima qildi? nima qilyapti?: o‘qidi, yozyapti, yugurdi."
+   }
+  },
+  {
+   "id": "onatili_g3.proper_nouns",
+   "code": "8",
+   "emoji": "🏙️",
+   "title": {
+    "uz": "Atoqli va turdosh otlar",
+    "en": "Proper and common nouns",
+    "ru": "Собственные и нарицательные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ot kim? nima? qayer? so‘roqlariga javob beradi.\n• Turdosh ot — bir xil narsalarning umumiy nomi: shahar, daryo, qiz, kitob.\n• Atoqli ot — yakka nom: kishi ismi, shahar, daryo, mamlakat nomi. U bosh harf bilan yoziladi:\n  Dilnoza, Toshkent, Amudaryo, O‘zbekiston."
+   }
+  },
+  {
+   "id": "onatili_g3.noun_forms",
+   "code": "9",
+   "emoji": "📚",
+   "title": {
+    "uz": "Otning birlik va ko‘plik, egalik shakllari",
+    "en": "Plural and possessive forms",
+    "ru": "Число и принадлежность"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Ko‘plik -lar qo‘shimchasi bilan: daftar — daftarlar, olma — olmalar.\n• Egalik qo‘shimchalari narsa kimga tegishli ekanini bildiradi:\n  unli bilan tugagan so‘zga: ona-m, ona-ng, ona-si;\n  undosh bilan tugagan so‘zga: kitob-im, kitob-ing, kitob-i."
+   }
+  },
+  {
+   "id": "onatili_g3.adj_verb",
+   "code": "10",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Sifat va fe’l",
+    "en": "Adjectives and verbs",
+    "ru": "Прилагательное и глагол"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Sifat — narsaning belgisini bildiradi va qanday? qanaqa? so‘rog‘iga javob beradi:\n  qizil olma, katta uy, shirin qovun, aqlli bola.\n• Fe’l — harakatni bildiradi va nima qildi? nima qilyapti? nima qiladi? so‘roqlariga javob beradi:\n  o‘qidi, yozyapti, yuguradi."
+   }
+  },
+  {
+   "id": "onatili_g3.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. So‘z turkumlari",
+   "prerequisites": [],
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
       "onatili_g3.word_classes",
-      "onatili_g3.sentences"
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb"
      ],
      "level": 1
     },
     {
      "topics": [
       "onatili_g3.word_classes",
-      "onatili_g3.sentences"
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb"
      ],
      "level": 2
     },
     {
      "topics": [
       "onatili_g3.word_classes",
-      "onatili_g3.sentences"
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.sentence_types",
+   "code": "11",
+   "emoji": "💬",
+   "title": {
+    "uz": "Gap turlari",
+    "en": "Types of sentences",
+    "ru": "Виды предложений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Gap va tinish belgilari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gap — tugal fikr bildiradigan so‘z yoki so‘zlar.\nMaqsadiga ko‘ra gaplar:\n• Darak gap — xabar beradi: Bugun havo iliq. (oxirida nuqta)\n• So‘roq gap — savol bildiradi: Sen qayerga ketyapsan? (oxirida so‘roq belgisi)\n• Buyruq gap — buyruq, iltimos bildiradi: Eshikni yoping. (nuqta yoki undov belgisi)\nKuchli his bilan aytilgan gap oxiriga undov belgisi qo‘yiladi: Qanday chiroyli!"
+   }
+  },
+  {
+   "id": "onatili_g3.punctuation",
+   "code": "12",
+   "emoji": "❗",
+   "title": {
+    "uz": "Gap oxirida tinish belgilari",
+    "en": "End punctuation",
+    "ru": "Знаки в конце предложения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Gap va tinish belgilari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gap bosh harf bilan boshlanadi. Gap oxiriga maqsad va ohangga qarab belgi qo‘yiladi:\n• nuqta (.) — darak va oddiy buyruq gapda;\n• so‘roq belgisi (?) — so‘roq gapda;\n• undov belgisi (!) — kuchli his bilan aytilgan gapda: Voy, qanday go‘zal!"
+   }
+  },
+  {
+   "id": "onatili_g3.sentence_build",
+   "code": "13",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Gap tuzish",
+    "en": "Building sentences",
+    "ru": "Составление предложений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Gap va tinish belgilari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gap tugal fikr bildiradi. Gapdagi so‘zlar ma’no jihatdan bog‘lanadi.\nO‘zbek tilida odatda avval kim? nima? (ega), oxirida nima qildi? (kesim) keladi:\nBolalar hovlida o‘ynashyapti. Onam mazali osh pishirdi."
+   }
+  },
+  {
+   "id": "onatili_g3.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Gap va tinish belgilari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Gap va tinish belgilari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet",
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts",
+      "onatili_g3.word_classes",
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb",
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet",
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts",
+      "onatili_g3.word_classes",
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb",
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "onatili_g3.sounds",
+      "onatili_g3.syllables",
+      "onatili_g3.alphabet",
+      "onatili_g3.synonyms",
+      "onatili_g3.antonyms",
+      "onatili_g3.word_parts",
+      "onatili_g3.word_classes",
+      "onatili_g3.proper_nouns",
+      "onatili_g3.noun_forms",
+      "onatili_g3.adj_verb",
+      "onatili_g3.sentence_types",
+      "onatili_g3.punctuation",
+      "onatili_g3.sentence_build"
      ],
      "level": 3
     }

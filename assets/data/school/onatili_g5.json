@@ -1,105 +1,645 @@
 {
  "subject": "onatili",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Ona tili",
   "en": "Native language",
   "ru": "Родной язык"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
-   "id": "onatili_g5.cases",
+   "id": "onatili_g5.phonetics",
    "code": "1",
-   "emoji": "📝",
+   "emoji": "🔊",
    "title": {
-    "uz": "Otlarning kelishiklari",
-    "en": "Otlarning kelishiklari",
-    "ru": "Otlarning kelishiklari"
+    "uz": "Tovush va harf. Unlilar",
+    "en": "Sounds and letters",
+    "ru": "Звуки и буквы"
    },
    "generator": "bank",
-   "skill": "cases",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Fonetika va imlo",
    "prerequisites": [],
-   "theory": {
-    "uz": "O‘zbek tilida oltita kelishik bor: bosh (qo‘shimchasiz), qaratqich (-ning), tushum (-ni), jo‘nalish (-ga), o‘rin-payt (-da), chiqish (-dan). So‘zning gapdagi bog‘lanishini ham tekshiring."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Tovush — nutqning eng kichik bo‘lagi, uni eshitamiz va aytamiz. Harf — tovushning yozuvdagi belgisi.\n• O‘zbek tilida 6 ta unli: a, o, u, e, i, o‘. Qolganlari — undoshlar.\n• sh, ch, ng — ikki belgi bilan yoziladigan bitta tovush: shamol (5 tovush), tong (3 tovush).\n• Bo‘g‘in soni unlilar soniga teng: kitob — 2, kutubxona — 4."
+   }
   },
   {
-   "id": "onatili_g5.formation",
+   "id": "onatili_g5.consonants",
    "code": "2",
-   "emoji": "📝",
+   "emoji": "🎙️",
    "title": {
-    "uz": "Asos va so‘z yasovchi qo‘shimcha",
-    "en": "Asos va so‘z yasovchi qo‘shimcha",
-    "ru": "Asos va so‘z yasovchi qo‘shimcha"
+    "uz": "Jarangli va jarangsiz undoshlar. Imlo",
+    "en": "Voiced and voiceless consonants",
+    "ru": "Звонкие и глухие согласные"
    },
    "generator": "bank",
-   "skill": "formation",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "bank",
+   "chapter": "1-chorak. Fonetika va imlo",
    "prerequisites": [],
-   "theory": {
-    "uz": "So‘z yasovchi qo‘shimcha asosdan yangi so‘z hosil qiladi: ish + chi = ishchi, suv + li = suvli. Kelishik qo‘shimchasi esa so‘zlarni bog‘laydi: kitob + ning."
-   },
    "levels": [
-    {
-     "options": 2
-    },
     {
      "options": 3
     },
     {
      "options": 4
+    },
+    {
+     "options": 4
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Undoshlar jarangli (ovoz ishtirokida) va jarangsiz (faqat shovqin) bo‘ladi.\nJuftlar: b — p, d — t, g — k, z — s, v — f.\nJarangli undoshlar: b, v, g, d, j, z, y, l, m, n, r, g‘. Jarangsizlar: p, f, k, t, s, sh, ch, x, h, q.\nImlo: so‘z oxiridagi jarangli undosh jarangsiz eshitilsa ham o‘zgarmay yoziladi:\nkitob (kitobi), obod (obodi), tog‘ (tog‘i)."
+   }
   },
   {
-   "id": "onatili_g5.review",
+   "id": "onatili_g5.spelling",
    "code": "3",
+   "emoji": "✍️",
+   "title": {
+    "uz": "Imlo: tutuq belgisi, o‘ va g‘",
+    "en": "Spelling: apostrophe, o‘ and g‘",
+    "ru": "Орфография: апостроф, o‘ и g‘"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Fonetika va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Tutuq belgisi (’) arab tilidan kirgan ayrim so‘zlarda yoziladi: ma’no, she’r, san’at, ta’lim, e’lon.\n  U ma’noni farqlashi mumkin: she’r (adabiy asar) — sher (hayvon).\n• O‘ va G‘ harflari belgisi (‘) bilan yoziladi: o‘qituvchi, g‘isht, bog‘cha, to‘g‘ri."
+   }
+  },
+  {
+   "id": "onatili_g5.test1",
+   "code": "N",
    "emoji": "📝",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "1-chorak. Fonetika va imlo",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "onatili_g5.cases",
-      "onatili_g5.formation"
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling"
      ],
      "level": 1
     },
     {
      "topics": [
-      "onatili_g5.cases",
-      "onatili_g5.formation"
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling"
      ],
      "level": 2
     },
     {
      "topics": [
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.lexicon",
+   "code": "4",
+   "emoji": "📘",
+   "title": {
+    "uz": "Sinonim, antonim, omonim",
+    "en": "Synonyms, antonyms, homonyms",
+    "ru": "Синонимы, антонимы, омонимы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Leksika: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Sinonimlar — ma’nosi bir xil yoki yaqin so‘zlar: chiroyli — go‘zal, dono — aqlli.\n• Antonimlar — zid ma’noli so‘zlar: issiq — sovuq, do‘st — dushman.\n• Omonimlar — yozilishi va aytilishi bir xil, ma’nosi har xil so‘zlar:\n  ot (hayvon) — ot (ism), yoz (fasl) — yoz (harakat), o‘t (o‘simlik) — o‘t (olov)."
+   }
+  },
+  {
+   "id": "onatili_g5.figurative",
+   "code": "5",
+   "emoji": "🌟",
+   "title": {
+    "uz": "O‘z va ko‘chma ma’no",
+    "en": "Literal and figurative meaning",
+    "ru": "Прямое и переносное значение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Leksika: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘zning asosiy ma’nosi — o‘z ma’no: oltin uzuk, temir eshik, sovuq suv.\nSo‘z boshqa narsaga o‘xshatib ishlatilsa — ko‘chma ma’no: oltin qo‘l (mohir), temir intizom (qattiq),\nsovuq javob (iltifotsiz), shirin so‘z (yoqimli).\nKo‘p ma’noli so‘z: ko‘z — odamning ko‘zi, uzukning ko‘zi, buloqning ko‘zi."
+   }
+  },
+  {
+   "id": "onatili_g5.idioms",
+   "code": "6",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Iboralar",
+    "en": "Idioms",
+    "ru": "Фразеологизмы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Leksika: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ibora (frazeologizm) — ikki yoki undan ortiq so‘zdan tuzilgan, bir butun ko‘chma ma’no bildiradigan birikma.\nMisollar: qo‘li ochiq — saxiy; ko‘zi to‘rt bo‘lmoq — intiqib kutmoq; og‘zi qulog‘ida — juda xursand;\nko‘z ochib yumguncha — juda tez. Iboralar nutqni ta’sirli va obrazli qiladi."
+   }
+  },
+  {
+   "id": "onatili_g5.vocab_use",
+   "code": "7",
+   "emoji": "🏺",
+   "title": {
+    "uz": "Eskirgan so‘zlar va atamalar",
+    "en": "Archaic words and terms",
+    "ru": "Устаревшие слова и термины"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Leksika: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Eskirgan so‘zlar — hozir kam ishlatiladigan so‘zlar: mirshab, qozi, chopar, sarbon.\n• Yangi so‘zlar (neologizmlar) — yangi narsa va tushunchalar nomi: smartfon, planshet.\n• Atamalar — fan va kasbga oid so‘zlar: kasr (matematika), sayyora (tabiiy fan), kesim (ona tili)."
+   }
+  },
+  {
+   "id": "onatili_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Leksika: so‘z va ma’no",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.morphemes",
+   "code": "8",
+   "emoji": "🧱",
+   "title": {
+    "uz": "So‘z tarkibi va so‘z yasalishi",
+    "en": "Word structure and word formation",
+    "ru": "Состав и образование слов"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z tarkibi va so‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘z tarkibi: o‘zak + qo‘shimchalar. O‘zak — so‘zning asosiy ma’noli qismi.\n• So‘z yasovchi qo‘shimcha yangi so‘z hosil qiladi: ish+chi, paxta+kor, gul+zor, tuz+don, aql+li, suv+siz, do‘st+lik.\n• Shakl yasovchi qo‘shimcha so‘zning shaklini o‘zgartiradi: kitob+lar, kitob+ning, kitob+im.\nTartib: o‘zak → so‘z yasovchi → shakl yasovchi: ish-chi-lar-imiz."
+   }
+  },
+  {
+   "id": "onatili_g5.word_classes",
+   "code": "9",
+   "emoji": "🗂️",
+   "title": {
+    "uz": "Mustaqil so‘z turkumlari",
+    "en": "Parts of speech",
+    "ru": "Самостоятельные части речи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z tarkibi va so‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Ot — kim? nima? qayer?: kitob, bahor, do‘stlik.\n• Sifat — qanday? qanaqa?: aqlli, keng, qizil.\n• Son — nechta? nechanchi?: yigirma, beshinchi.\n• Olmosh — ot, sifat, son o‘rnida keladi: men, biz, bu, kim, hamma.\n• Fe’l — harakat: yozdi, keladi. • Ravish — harakat belgisi: yayov, hamisha, birdan, ertaga."
+   }
+  },
+  {
+   "id": "onatili_g5.cases",
+   "code": "10",
+   "emoji": "🔀",
+   "title": {
+    "uz": "Otlarning kelishiklar bilan turlanishi",
+    "en": "Noun cases",
+    "ru": "Падежи существительных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z tarkibi va so‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘zbek tilida 6 ta kelishik bor:\nbosh (—) kim? nima?;  qaratqich (-ning) kimning?;  tushum (-ni) kimni? nimani?;\njo‘nalish (-ga, -ka, -qa) kimga? qayerga?;  o‘rin-payt (-da) kimda? qayerda?;  chiqish (-dan) kimdan? qayerdan?\nImlo: k bilan tugagan so‘zga -ka (yurakka), q bilan tugaganga -qa (qishloqqa) qo‘shiladi."
+   }
+  },
+  {
+   "id": "onatili_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. So‘z tarkibi va so‘z turkumlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
+      "onatili_g5.cases"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
+      "onatili_g5.cases"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
+      "onatili_g5.cases"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.phrases",
+   "code": "11",
+   "emoji": "🔗",
+   "title": {
+    "uz": "So‘z birikmasi va gap",
+    "en": "Phrases and sentences",
+    "ru": "Словосочетание и предложение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘z birikmasi — ikki yoki undan ortiq mustaqil so‘zning ma’no va grammatik jihatdan bog‘lanishi:\nchiroyli gul, kitob o‘qimoq. Unda hokim so‘z va tobe so‘z bor: qanday gul? — chiroyli (tobe), gul (hokim).\nGap — tugal fikr bildiradi va ohang bilan aytiladi: Gul chiroyli."
+   }
+  },
+  {
+   "id": "onatili_g5.sentence_parts",
+   "code": "12",
+   "emoji": "🏗️",
+   "title": {
+    "uz": "Gap bo‘laklari: ega va kesim",
+    "en": "Subject and predicate",
+    "ru": "Подлежащее и сказуемое"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gapning bosh bo‘laklari — ega va kesim.\n• Ega — kim? nima? so‘roqlariga javob beradi: Bolalar o‘ynashdi.\n• Kesim — egani ta’riflaydi: nima qildi? nima qilyapti? qanday?: Bolalar o‘ynashdi.\nIkkinchi darajali bo‘laklar: to‘ldiruvchi (kimni? nimani?), aniqlovchi (qanday? qaysi?), hol (qayerda? qachon?)."
+   }
+  },
+  {
+   "id": "onatili_g5.vocative_homogeneous",
+   "code": "13",
+   "emoji": "📣",
+   "title": {
+    "uz": "Undalma va uyushiq bo‘laklar",
+    "en": "Direct address and compound parts",
+    "ru": "Обращение и однородные члены"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Undalma — nutq qaratilgan shaxs yoki narsa: Ali, bu yoqqa kel. Undalma vergul bilan ajratiladi, u gap bo‘lagi emas.\n• Uyushiq bo‘laklar — bir xil so‘roqqa javob beradigan va bir so‘zga bog‘lanadigan bo‘laklar:\n  Olma, nok va o‘rik pishdi. Uyushiq bo‘laklar orasiga vergul qo‘yiladi, “va” oldidan qo‘yilmaydi."
+   }
+  },
+  {
+   "id": "onatili_g5.sentence_types",
+   "code": "14",
+   "emoji": "💬",
+   "title": {
+    "uz": "Gap turlari va tinish belgilari",
+    "en": "Sentence types and punctuation",
+    "ru": "Виды предложений и знаки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Maqsadiga ko‘ra: darak (xabar), so‘roq (savol), buyruq (buyruq, iltimos) gaplar.\nHis-hayajon bilan aytilsa — undov gap: Voy, qanday chiroyli!\nTinish belgilari: darak gap — nuqta; so‘roq gap — so‘roq belgisi; undov gap — undov belgisi;\nbuyruq gap — nuqta yoki undov belgisi."
+   }
+  },
+  {
+   "id": "onatili_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Sintaksis: birikma va gap",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling",
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use",
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
       "onatili_g5.cases",
-      "onatili_g5.formation"
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling",
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use",
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
+      "onatili_g5.cases",
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "onatili_g5.phonetics",
+      "onatili_g5.consonants",
+      "onatili_g5.spelling",
+      "onatili_g5.lexicon",
+      "onatili_g5.figurative",
+      "onatili_g5.idioms",
+      "onatili_g5.vocab_use",
+      "onatili_g5.morphemes",
+      "onatili_g5.word_classes",
+      "onatili_g5.cases",
+      "onatili_g5.phrases",
+      "onatili_g5.sentence_parts",
+      "onatili_g5.vocative_homogeneous",
+      "onatili_g5.sentence_types"
      ],
      "level": 3
     }
