@@ -1,0 +1,612 @@
+{
+ "subject": "reading",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "O‘qish",
+  "en": "Reading",
+  "ru": "Чтение"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "reading_g4.proverbs",
+   "code": "1",
+   "emoji": "🗝️",
+   "title": {
+    "uz": "Maqollarning ma’nosi",
+    "en": "The meaning of proverbs",
+    "ru": "Смысл пословиц"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Maqol — xalq donoligi aks etgan qisqa, ibratli gap. Ko‘p maqollarning to‘g‘ri va ko‘chma ma’nosi bor.\n• “Yetti o‘lchab, bir kes” — faqat mato kesish haqida emas, har ishni o‘ylab qilish haqida.\n• Maqollar Vatan, mehnat, ilm, do‘stlik, rostgo‘ylik kabi mavzularda bo‘ladi.\nMaqolni nutqda o‘rinli ishlatsangiz, fikringiz ta’sirli chiqadi."
+   }
+  },
+  {
+   "id": "reading_g4.riddles",
+   "code": "2",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Topishmoq va tez aytishlar",
+    "en": "Riddles and tongue twisters",
+    "ru": "Загадки и скороговорки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Topishmoq — narsaning nomi aytilmay, belgilari yashirin ta’riflanadigan jumboq.\n• Javobni topish uchun har bir belgini o‘ylang: tashqi ko‘rinishi, nima qiladi, qayerda bo‘ladi.\nTez aytish — bir xil tovushlar ko‘p takrorlanadigan qisqa gap. U nutqni ravon qiladi.\nMisol: “Sobir sakkiz savat sariq sabzi sotdi.” (s tovushi). Avval sekin, keyin tez ayting."
+   }
+  },
+  {
+   "id": "reading_g4.tales",
+   "code": "3",
+   "emoji": "🦊",
+   "title": {
+    "uz": "Ertaklar olamida",
+    "en": "The world of folk tales",
+    "ru": "В мире сказок"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ertak — xalq to‘qigan, xayoliy voqealar haqidagi og‘zaki hikoya.\n• Ertak odatda “Bor ekan-u, yo‘q ekan…” deb boshlanadi va “murod-maqsadiga yetibdi” deb tugaydi.\n• Qahramonlar ijobiy (mehribon, mard) va salbiy (maqtanchoq, ochko‘z) bo‘ladi; “uch” soni ko‘p takrorlanadi.\n• Sehrli ertaklarda sehrli buyumlar, hayvonlar haqidagi ertaklarda gapiradigan hayvonlar uchraydi."
+   }
+  },
+  {
+   "id": "reading_g4.understand",
+   "code": "4",
+   "emoji": "📚",
+   "title": {
+    "uz": "Matnni o‘qib tushunish",
+    "en": "Reading practice",
+    "ru": "Понимание текста"
+   },
+   "generator": "comprehension",
+   "skill": "comprehension",
+   "chapter": "1-chorak. Xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 2,
+     "infer": false
+    },
+    {
+     "options": 3,
+     "infer": true
+    },
+    {
+     "options": 4,
+     "infer": true
+    }
+   ],
+   "theory": {
+    "uz": "Matnni oxirigacha diqqat bilan o‘qing. Avval kim, nima, qayerda degan savollarga javob toping, keyin qahramon nima uchun shunday qilganini o‘ylang. Xulosani doim matndagi dalil bilan tekshiring."
+   }
+  },
+  {
+   "id": "reading_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g4.homeland",
+   "code": "5",
+   "emoji": "🇺🇿",
+   "title": {
+    "uz": "Vatanim — O‘zbekiston",
+    "en": "My homeland Uzbekistan",
+    "ru": "Моя Родина — Узбекистан"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Vatan va tabiat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Vatan haqidagi matnni o‘qiganda:\n• matnda qaysi joylar, shaharlar va odamlar tilga olinganini aniqlang;\n• muallif Vatanga qanday munosabat bildirganini toping;\n• matnning bosh fikrini bir gap bilan ayting.\nMasalan: “Vatanni sevish uni obod qilishdan boshlanadi” — bosh fikr."
+   }
+  },
+  {
+   "id": "reading_g4.nature",
+   "code": "6",
+   "emoji": "🏞️",
+   "title": {
+    "uz": "Tabiat va fasllar",
+    "en": "Nature and seasons",
+    "ru": "Природа и времена года"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Vatan va tabiat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiat haqidagi matnda muallif manzarani so‘z bilan chizadi.\n• Qaysi fasl, qaysi joy tasvirlanganini aniqlang.\n• Tasviriy so‘zlarga e’tibor bering: “qip-qizil gilam”, “g‘uvillaydi”.\n• Muallif tabiatga qanday munosabatda bo‘lishga chaqirayotganini toping. Masalan: tabiatni asrash — hammaning burchi."
+   }
+  },
+  {
+   "id": "reading_g4.poem",
+   "code": "7",
+   "emoji": "🎶",
+   "title": {
+    "uz": "She’r o‘qiymiz",
+    "en": "Reading poems",
+    "ru": "Читаем стихи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Vatan va tabiat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "She’r — misralarga bo‘lib yoziladigan ohangdor asar (nazm). She’r yozuvchi ijodkor — shoir.\n• Misra — she’rning bir qatori; band — bir necha misradan iborat qism.\n• Qofiya — misralar oxirida keladigan ohangdosh so‘zlar: kitob — javob, olam — odam.\n• She’rni ifodali o‘qing: to‘xtam va ohangga e’tibor bering, shoirning kayfiyatini his qiling."
+   }
+  },
+  {
+   "id": "reading_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Vatan va tabiat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g4.writers",
+   "code": "8",
+   "emoji": "✒️",
+   "title": {
+    "uz": "Adiblar va asarlar",
+    "en": "Writers and their works",
+    "ru": "Писатели и их произведения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Adiblar va ularning asarlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bolalar uchun ko‘plab ajoyib asarlar yozilgan:\n• Xudoyberdi To‘xtaboyev — “Sariq devni minib” (bosh qahramon — Hoshimjon).\n• G‘afur G‘ulom — “Shum bola” qissasi; Oybek — “Bolalik” qissasi.\n• Hamid Olimjon — “Oygul bilan Baxtiyor”; Hamza Hakimzoda Niyoziy (Qo‘qon) — “Boy ila xizmatchi”.\n• Quddus Muhammadiy, Po‘lat Mo‘min, Zafar Diyor, Anvar Obidjon — bolalar shoirlari."
+   }
+  },
+  {
+   "id": "reading_g4.friendship",
+   "code": "9",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Do‘stlik va mehr",
+    "en": "Friendship and kindness",
+    "ru": "Дружба и доброта"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Adiblar va ularning asarlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Do‘stlik haqidagi hikoyalarda qahramonlarning xatti-harakatiga e’tibor bering:\n• Kim kimga yordam berdi? Nima uchun?\n• Qahramonning ishidan uning fazilatini aniqlang: yordam berdi → mehribon, xatoni tan oldi → rostgo‘y.\n• Hikoyadan olingan saboqni o‘z hayotingiz bilan solishtiring."
+   }
+  },
+  {
+   "id": "reading_g4.fables",
+   "code": "10",
+   "emoji": "🐓",
+   "title": {
+    "uz": "Masallar",
+    "en": "Fables",
+    "ru": "Басни"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Adiblar va ularning asarlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Masal — hayvonlar, qushlar yoki narsalar ishtirokida yozilgan qisqa ibratli asar.\n• Masal qahramonlari odamlarday gapiradi va odamlarning fe’l-atvorini eslatadi.\n• Masal oxirida ibratli xulosa bo‘ladi, u “qissadan hissa” deb ataladi.\n• Qadimgi yunon masalchisi Ezop, o‘zbek adabiyotida Gulxaniy masallari mashhur."
+   }
+  },
+  {
+   "id": "reading_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Adiblar va ularning asarlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g4.genres",
+   "code": "11",
+   "emoji": "🎭",
+   "title": {
+    "uz": "Adabiy janrlar",
+    "en": "Literary genres",
+    "ru": "Литературные жанры"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Janrlar va adabiy tushunchalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Adabiy asarlar janrlarga bo‘linadi:\n• She’r — misra va qofiyali ohangdor asar (nazm). Hikoya — hayotiy voqea haqidagi kichik nasriy asar.\n• Ertak — xayoliy, sehrli voqealar haqidagi xalq asari.\n• Masal — hayvon yoki narsalar orqali ibrat beruvchi asar; oxirida “qissadan hissa” bo‘ladi.\n• Rivoyat — joy nomlari yoki mashhur kishilar haqidagi, haqiqatga yaqin og‘zaki hikoya."
+   }
+  },
+  {
+   "id": "reading_g4.terms",
+   "code": "12",
+   "emoji": "🔖",
+   "title": {
+    "uz": "Qahramon, sarlavha, reja, bosh fikr",
+    "en": "Character, title, plan, main idea",
+    "ru": "Герой, заглавие, план, главная мысль"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Janrlar va adabiy tushunchalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Asarni tahlil qilishda quyidagi tushunchalar yordam beradi:\n• Muallif — asarni yozgan kishi; qahramon — voqea ishtirokchisi (ijobiy yoki salbiy).\n• Sarlavha — asarning nomi, u mazmunni qisqa ifodalaydi.\n• Reja — matn qismlarining tartibli ro‘yxati: boshlanma → voqealar rivoji → yakun.\n• Bosh fikr — muallif aytmoqchi bo‘lgan eng muhim fikr."
+   }
+  },
+  {
+   "id": "reading_g4.reflect",
+   "code": "13",
+   "emoji": "💡",
+   "title": {
+    "uz": "O‘qib, xulosa chiqaramiz",
+    "en": "Read and reflect",
+    "ru": "Читаем и делаем выводы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Janrlar va adabiy tushunchalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hikoyani o‘qigach, o‘zingizga savol bering:\n• Voqea nimadan boshlandi va qanday tugadi? (sabab → natija)\n• Qahramon qanday o‘zgardi va nima uchun?\n• Hikoyaga qaysi maqol mos keladi? Qisqa reja tuzib, hikoyani qayta so‘zlab bering."
+   }
+  },
+  {
+   "id": "reading_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Janrlar va adabiy tushunchalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Janrlar va adabiy tushunchalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales",
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem",
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables",
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales",
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem",
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables",
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "reading_g4.proverbs",
+      "reading_g4.riddles",
+      "reading_g4.tales",
+      "reading_g4.homeland",
+      "reading_g4.nature",
+      "reading_g4.poem",
+      "reading_g4.writers",
+      "reading_g4.friendship",
+      "reading_g4.fables",
+      "reading_g4.genres",
+      "reading_g4.terms",
+      "reading_g4.reflect"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

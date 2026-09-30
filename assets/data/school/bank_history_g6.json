@@ -1,0 +1,3521 @@
+{
+ "items": [
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_1",
+   "t": "choice",
+   "q": "Tosh davrining eng qadimgi bosqichi qanday ataladi?",
+   "a": "Paleolit (qadimgi tosh davri)",
+   "w": [
+    "Neolit (yangi tosh davri)",
+    "Mezolit (o‘rta tosh davri)",
+    "Bronza davri"
+   ],
+   "d": 1,
+   "x": "Tosh davri: paleolit → mezolit → neolit."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_2",
+   "t": "choice",
+   "q": "“Yangi tosh davri” qanday ataladi?",
+   "a": "Neolit",
+   "w": [
+    "Paleolit",
+    "Mezolit",
+    "Eneolit"
+   ],
+   "d": 1,
+   "x": "Neolit — tosh davrining oxirgi bosqichi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_3",
+   "t": "choice",
+   "q": "O‘rta tosh davri (mezolit)da qanday muhim qurol keng tarqalgan?",
+   "a": "Kamon va o‘q",
+   "w": [
+    "Temir qilich",
+    "Porox",
+    "Kompas"
+   ],
+   "d": 2,
+   "x": "Kamon uzoqdan ov qilish imkonini berdi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_4",
+   "t": "choice",
+   "q": "Neolit davrida odamlar nimani o‘rgandi?",
+   "a": "Sopol idish yasash va to‘quvchilikni",
+   "w": [
+    "Temir eritishni",
+    "Qog‘oz tayyorlashni",
+    "Tanga zarb qilishni"
+   ],
+   "d": 2,
+   "x": "Neolitda kulolchilik va to‘quvchilik paydo bo‘ldi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_5",
+   "t": "choice",
+   "q": "Odam qo‘lga o‘rgatgan ilk hayvon qaysi deb hisoblanadi?",
+   "a": "It",
+   "w": [
+    "Ot",
+    "Tuya",
+    "Mushuk"
+   ],
+   "d": 2,
+   "x": "It ovda va qo‘riqlashda odamga yordamchi bo‘lgan."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_6",
+   "t": "choice",
+   "q": "Qadimgi dehqonlar dastlab qaysi ekinlarni ekishgan?",
+   "a": "Bug‘doy va arpa",
+   "w": [
+    "Kartoshka va makkajo‘xori",
+    "Paxta va choy",
+    "Kofe va kakao"
+   ],
+   "d": 2,
+   "x": "Bug‘doy va arpa — eng qadimgi madaniy ekinlar."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_7",
+   "t": "choice",
+   "q": "Dehqonchilik va chorvachilikka o‘tish tarixda qanday ataladi?",
+   "a": "Neolit inqilobi",
+   "w": [
+    "Sanoat inqilobi",
+    "Olimpiya o‘yinlari",
+    "Buyuk ipak yo‘li"
+   ],
+   "d": 3,
+   "x": "Bu o‘zgarish odamlar hayotini tubdan o‘zgartirgani uchun “inqilob” deyiladi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_8",
+   "t": "choice",
+   "q": "Dehqonchilik paydo bo‘lgach, odamlar qanday hayotga o‘tdi?",
+   "a": "O‘troq hayotga",
+   "w": [
+    "Faqat ko‘chmanchilikka",
+    "G‘orlarga qaytishga",
+    "Dengizda yashashga"
+   ],
+   "d": 1,
+   "x": "Ekin ekkan odamlar bir joyda uy qurib yashay boshladi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_9",
+   "t": "choice",
+   "q": "Ibtidoiy odamlar olovni qanday hosil qilishgan?",
+   "a": "Yog‘ochni ishqalab yoki toshni urib",
+   "w": [
+    "Gugurt chaqib",
+    "Zajigalka bilan",
+    "Elektr orqali"
+   ],
+   "d": 1,
+   "x": "Ishqalanish yoki uchqun olov chiqargan."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_10",
+   "t": "choice",
+   "q": "Qadimgi odamlarning manzilgohi arxeologiyada qanday ataladi?",
+   "a": "Makon",
+   "w": [
+    "Saroy",
+    "Qal’a",
+    "Bozor"
+   ],
+   "d": 2,
+   "x": "Makonlarda qurollar, suyaklar, gulxan izlari topiladi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_11",
+   "t": "choice",
+   "q": "Toshkent viloyatidagi paleolit davri g‘ori qaysi?",
+   "a": "Obirahmat",
+   "w": [
+    "Afrosiyob",
+    "Tuproqqal’a",
+    "Kolizey"
+   ],
+   "d": 3,
+   "x": "Obirahmat g‘orida qadimgi odamlar yashagan."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_12",
+   "t": "choice",
+   "q": "Xorazmdagi neolit davri ovchi va baliqchilari madaniyati qanday ataladi?",
+   "a": "Kaltaminor madaniyati",
+   "w": [
+    "Afrosiyob madaniyati",
+    "Misr madaniyati",
+    "Rim madaniyati"
+   ],
+   "d": 3,
+   "x": "Kaltaminor madaniyati Amudaryo quyi oqimida tarqalgan."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_13",
+   "t": "choice",
+   "q": "Qon-qarindosh kishilarning birgalikda yashovchi jamoasi nima deyiladi?",
+   "a": "Urug‘",
+   "w": [
+    "Davlat",
+    "Imperiya",
+    "Respublika"
+   ],
+   "d": 1,
+   "x": "Urug‘ a’zolari umumiy ajdoddan tarqalgan."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_14",
+   "t": "choice",
+   "q": "Bir necha urug‘ birlashuvidan nima hosil bo‘lgan?",
+   "a": "Qabila",
+   "w": [
+    "Imperiya",
+    "Shahar-davlat",
+    "Respublika"
+   ],
+   "d": 2,
+   "x": "Qabila — urug‘lar birlashmasi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_15",
+   "t": "choice",
+   "q": "Neolit tosh qurollari oldingilaridan nimasi bilan farq qiladi?",
+   "a": "Silliqlangan va teshilgan",
+   "w": [
+    "Temirdan yasalgan",
+    "Plastmassadan qilingan",
+    "Oltin bilan qoplangan"
+   ],
+   "d": 3,
+   "x": "Neolitda toshni silliqlash va teshish o‘rganildi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_16",
+   "t": "tf",
+   "q": "Kamon va o‘q mezolit davrida keng tarqalgan.",
+   "a": true,
+   "d": 2,
+   "x": "Kamon — mezolitning muhim ixtirosi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_17",
+   "t": "tf",
+   "q": "Neolit — tosh davrining eng qadimgi bosqichi.",
+   "a": false,
+   "d": 1,
+   "x": "Eng qadimgisi — paleolit, neolit esa oxirgi bosqich."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_18",
+   "t": "tf",
+   "q": "Sopol idishlar ovqat pishirish va don saqlashni osonlashtirdi.",
+   "a": true,
+   "d": 1,
+   "x": "Kulolchilik neolitda paydo bo‘ldi."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_19",
+   "t": "order",
+   "q": "Tosh davri bosqichlarini tartib bilan joylang",
+   "parts": [
+    "Paleolit",
+    "Mezolit",
+    "Neolit"
+   ],
+   "sep": " → ",
+   "d": 1,
+   "x": "Qadimgi → o‘rta → yangi tosh davri."
+  },
+  {
+   "topic": "history_g6.prehistory",
+   "id": "prehistory_20",
+   "t": "match",
+   "q": "Bosqich yoki yodgorlikni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Paleolit",
+     "olovdan foydalanish"
+    ],
+    [
+     "Mezolit",
+     "kamon va o‘q"
+    ],
+    [
+     "Neolit",
+     "dehqonchilik va kulolchilik"
+    ],
+    [
+     "Obirahmat",
+     "paleolit makoni"
+    ],
+    [
+     "Kaltaminor",
+     "Xorazm neolit madaniyati"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_1",
+   "t": "choice",
+   "q": "Odamlar ilk bor keng o‘zlashtirgan metall qaysi?",
+   "a": "Mis",
+   "w": [
+    "Temir",
+    "Alyuminiy",
+    "Po‘lat"
+   ],
+   "d": 1,
+   "x": "Mis yumshoq bo‘lib, oson ishlov berilgan."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_2",
+   "t": "choice",
+   "q": "Bronza qaysi metallar qotishmasi?",
+   "a": "Mis va qalay",
+   "w": [
+    "Temir va oltin",
+    "Kumush va temir",
+    "Alyuminiy va mis"
+   ],
+   "d": 1,
+   "x": "Bronza misdan qattiqroq."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_3",
+   "t": "choice",
+   "q": "Mis va tosh qurollar birga ishlatilgan davr qanday ataladi?",
+   "a": "Eneolit (mis-tosh davri)",
+   "w": [
+    "Paleolit",
+    "Mezolit",
+    "Neolit"
+   ],
+   "d": 2,
+   "x": "Eneolit — tosh davridan metall davriga o‘tish bosqichi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_4",
+   "t": "choice",
+   "q": "Temir qurollarning bronzadan afzalligi nimada?",
+   "a": "Mustahkam va ko‘p uchraydi",
+   "w": [
+    "Juda yumshoq",
+    "Yaltiroq bo‘ladi",
+    "Suvda eriydi"
+   ],
+   "d": 2,
+   "x": "Temir rudasi tabiatda ko‘p, qurollari esa mustahkam."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_5",
+   "t": "choice",
+   "q": "Kulolchilik charxi nima uchun kerak bo‘lgan?",
+   "a": "Sopol idishlarni tez va tekis yasash uchun",
+   "w": [
+    "Don yanchish uchun",
+    "Suv tortish uchun",
+    "Mato to‘qish uchun"
+   ],
+   "d": 1,
+   "x": "Charx aylanib, idishni tekis shakllantirishga yordam beradi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_6",
+   "t": "choice",
+   "q": "Hunarmandchilik alohida kasbga aylangach, nima rivojlandi?",
+   "a": "Ayirboshlash va savdo",
+   "w": [
+    "Ovchilikka qaytish",
+    "Olovdan voz kechish",
+    "Termachilik"
+   ],
+   "d": 2,
+   "x": "Hunarmand buyumini dehqon mahsulotiga almashtirgan."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_7",
+   "t": "choice",
+   "q": "Surxondaryodagi bronza davri manzilgohi qaysi?",
+   "a": "Sopollitepa",
+   "w": [
+    "Obirahmat",
+    "Afrosiyob",
+    "Tuproqqal’a"
+   ],
+   "d": 2,
+   "x": "Sopollitepa — Sherobod tumanidagi yodgorlik."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_8",
+   "t": "choice",
+   "q": "Farg‘ona vodiysidagi qadimgi dehqonlar madaniyati qanday ataladi?",
+   "a": "Chust madaniyati",
+   "w": [
+    "Kaltaminor madaniyati",
+    "Rim madaniyati",
+    "Misr madaniyati"
+   ],
+   "d": 3,
+   "x": "Chust madaniyati bronza va ilk temir davriga oid."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_9",
+   "t": "choice",
+   "q": "Jarqo‘ton qanday yodgorlik?",
+   "a": "Bronza davri qadimgi shahri",
+   "w": [
+    "Paleolit g‘ori",
+    "Rim amfiteatri",
+    "Misr piramidasi"
+   ],
+   "d": 3,
+   "x": "Jarqo‘ton — Surxondaryodagi ilk shahar xarobalari."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_10",
+   "t": "choice",
+   "q": "Davlatning asosiy belgilari qaysilar?",
+   "a": "Hukmdor, qo‘shin, soliq va qonunlar",
+   "w": [
+    "Faqat g‘orlar",
+    "Faqat ov qurollari",
+    "Faqat olov"
+   ],
+   "d": 1,
+   "x": "Davlat hudud va aholini boshqaradi, soliq yig‘adi, qonun chiqaradi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_11",
+   "t": "choice",
+   "q": "Ilk davlatlar asosan qanday joylarda paydo bo‘lgan?",
+   "a": "Katta daryolar vodiylarida",
+   "w": [
+    "Qutb muzliklarida",
+    "Baland tog‘ cho‘qqilarida",
+    "Okean orollarida"
+   ],
+   "d": 1,
+   "x": "Nil, Dajla va Frot, Hind, Xuanxe bo‘ylarida."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_12",
+   "t": "choice",
+   "q": "Nima uchun ilk davlatlar daryo bo‘ylarida vujudga kelgan?",
+   "a": "Sug‘orish uchun suv va unumdor yer bo‘lgan",
+   "w": [
+    "Daryoda oltin ko‘p bo‘lgan",
+    "U yerda tog‘lar yo‘q edi",
+    "U yerda qish bo‘lmagan"
+   ],
+   "d": 2,
+   "x": "Sug‘orma dehqonchilik ko‘p hosil bergan."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_13",
+   "t": "choice",
+   "q": "Yozuvning paydo bo‘lishi nimaga yordam berdi?",
+   "a": "Bilim va qonunlarni saqlashga",
+   "w": [
+    "Ovchilikni to‘xtatishga",
+    "Olovni o‘chirishga",
+    "Daryolarni quritishga"
+   ],
+   "d": 1,
+   "x": "Yozuv orqali bilimlar avlodlarga yetib keldi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_14",
+   "t": "choice",
+   "q": "Mulkiy tengsizlik paydo bo‘lishiga nima sabab bo‘lgan?",
+   "a": "Ortiqcha mahsulot to‘planishi",
+   "w": [
+    "Olovning ixtiro qilinishi",
+    "G‘orlarda yashash",
+    "Termachilik"
+   ],
+   "d": 3,
+   "x": "Kimdir ko‘proq mahsulot va mulk to‘plab, boyib borgan."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_15",
+   "t": "tf",
+   "q": "Bronza temirdan oldin o‘zlashtirilgan.",
+   "a": true,
+   "d": 1,
+   "x": "Tartib: mis → bronza → temir."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_16",
+   "t": "tf",
+   "q": "Bronza — temir va oltin qotishmasi.",
+   "a": false,
+   "d": 1,
+   "x": "Bronza — mis va qalay qotishmasi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_17",
+   "t": "tf",
+   "q": "G‘ildirak ixtirosi yuk tashishni ancha osonlashtirdi.",
+   "a": true,
+   "d": 1,
+   "x": "G‘ildirakli aravalar paydo bo‘ldi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_18",
+   "t": "order",
+   "q": "Davrlarni tartib bilan joylang",
+   "parts": [
+    "Tosh davri",
+    "Mis-tosh davri",
+    "Bronza davri",
+    "Temir davri"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Metall davrlari tosh davridan keyin keladi."
+  },
+  {
+   "topic": "history_g6.metals",
+   "id": "metals_19",
+   "t": "match",
+   "q": "Davr yoki yodgorlikni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Bronza davri",
+     "mis va qalay qotishmasi"
+    ],
+    [
+     "Temir davri",
+     "mustahkam temir qurollar"
+    ],
+    [
+     "Eneolit",
+     "mis va tosh qurollar birga"
+    ],
+    [
+     "Sopollitepa",
+     "Surxondaryodagi bronza davri manzilgohi"
+    ],
+    [
+     "Chust madaniyati",
+     "Farg‘ona vodiysi dehqonlari"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_1",
+   "t": "choice",
+   "q": "Miloddan avvalgi 776-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 8-asr",
+   "w": [
+    "mil. avv. 7-asr",
+    "mil. avv. 9-asr",
+    "mil. avv. 10-asr",
+    "milodiy 8-asr"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 8-asr — mil. avv. 800–701-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_2",
+   "t": "choice",
+   "q": "Miloddan avvalgi 509-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 6-asr",
+   "w": [
+    "mil. avv. 5-asr",
+    "mil. avv. 7-asr",
+    "mil. avv. 8-asr",
+    "milodiy 6-asr"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 6-asr — mil. avv. 600–501-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_3",
+   "t": "choice",
+   "q": "Miloddan avvalgi 490-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 5-asr",
+   "w": [
+    "mil. avv. 4-asr",
+    "mil. avv. 6-asr",
+    "mil. avv. 7-asr",
+    "milodiy 5-asr"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 5-asr — mil. avv. 500–401-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_4",
+   "t": "choice",
+   "q": "Miloddan avvalgi 753-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 8-asr",
+   "w": [
+    "mil. avv. 7-asr",
+    "mil. avv. 9-asr",
+    "mil. avv. 10-asr",
+    "milodiy 8-asr"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 8-asr — mil. avv. 800–701-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_5",
+   "t": "choice",
+   "q": "Miloddan avvalgi 44-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 1-asr",
+   "w": [
+    "mil. avv. 2-asr",
+    "mil. avv. 3-asr",
+    "milodiy 1-asr"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 1-asr — mil. avv. 100–1-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_6",
+   "t": "choice",
+   "q": "Miloddan avvalgi 221-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 3-asr",
+   "w": [
+    "mil. avv. 2-asr",
+    "mil. avv. 4-asr",
+    "mil. avv. 5-asr",
+    "milodiy 3-asr"
+   ],
+   "d": 2,
+   "x": "Mil. avv. 3-asr — mil. avv. 300–201-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_7",
+   "t": "choice",
+   "q": "Miloddan avvalgi 330-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 4-asr",
+   "w": [
+    "mil. avv. 3-asr",
+    "mil. avv. 5-asr",
+    "mil. avv. 6-asr",
+    "milodiy 4-asr"
+   ],
+   "d": 2,
+   "x": "Mil. avv. 4-asr — mil. avv. 400–301-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_8",
+   "t": "choice",
+   "q": "Miloddan avvalgi 1750-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 18-asr",
+   "w": [
+    "mil. avv. 17-asr",
+    "mil. avv. 19-asr",
+    "mil. avv. 20-asr",
+    "milodiy 18-asr"
+   ],
+   "d": 2,
+   "x": "Mil. avv. 18-asr — mil. avv. 1800–1701-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_9",
+   "t": "choice",
+   "q": "Miloddan avvalgi 100-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 1-asr",
+   "w": [
+    "mil. avv. 2-asr",
+    "mil. avv. 3-asr",
+    "milodiy 1-asr"
+   ],
+   "d": 3,
+   "x": "Mil. avv. 1-asr — mil. avv. 100–1-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_10",
+   "t": "choice",
+   "q": "Miloddan avvalgi 101-yil nechanchi asrga kiradi?",
+   "a": "mil. avv. 2-asr",
+   "w": [
+    "mil. avv. 1-asr",
+    "mil. avv. 3-asr",
+    "mil. avv. 4-asr",
+    "milodiy 2-asr"
+   ],
+   "d": 3,
+   "x": "Mil. avv. 2-asr — mil. avv. 200–101-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_11",
+   "t": "choice",
+   "q": "Miloddan avvalgi 1000-yildan miloddan avvalgi 600-yilgacha necha yil o‘tgan?",
+   "a": "400",
+   "w": [
+    "1600",
+    "410",
+    "390"
+   ],
+   "d": 1,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 1000 − 600 = 400."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_12",
+   "t": "choice",
+   "q": "Miloddan avvalgi 2500-yildan miloddan avvalgi 2000-yilgacha necha yil o‘tgan?",
+   "a": "500",
+   "w": [
+    "4500",
+    "510",
+    "490"
+   ],
+   "d": 1,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 2500 − 2000 = 500."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_13",
+   "t": "choice",
+   "q": "Rivoyatga ko‘ra Rim mil. avv. 753-yilda tashkil topgan, respublika esa mil. avv. 509-yilda o‘rnatilgan. Oradan necha yil o‘tgan?",
+   "a": "244",
+   "w": [
+    "1262",
+    "254",
+    "234"
+   ],
+   "d": 2,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 753 − 509 = 244."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_14",
+   "t": "choice",
+   "q": "Birinchi Olimpiya o‘yinlari mil. avv. 776-yilda, Marafon jangi mil. avv. 490-yilda bo‘lgan. Oradan necha yil o‘tgan?",
+   "a": "286",
+   "w": [
+    "1266",
+    "296",
+    "276"
+   ],
+   "d": 2,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 776 − 490 = 286."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_15",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy mil. avv. 334-yilda yurish boshlab, mil. avv. 323-yilda vafot etgan. Oradan necha yil o‘tgan?",
+   "a": "11",
+   "w": [
+    "657",
+    "21",
+    "1"
+   ],
+   "d": 2,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 334 − 323 = 11."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_16",
+   "t": "choice",
+   "q": "Ahamoniylar davlati mil. avv. 550-yilda tashkil topib, mil. avv. 330-yilda qulagan. Davlat necha yil mavjud bo‘lgan?",
+   "a": "220",
+   "w": [
+    "880",
+    "230",
+    "210"
+   ],
+   "d": 3,
+   "x": "Ikkala sana ham miloddan avvalgi, shuning uchun ayiramiz: 550 − 330 = 220."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_17",
+   "t": "choice",
+   "q": "Miloddan avvalgi 2500-yil nechanchi ming yillikka kiradi?",
+   "a": "mil. avv. 3-ming yillik",
+   "w": [
+    "mil. avv. 2-ming yillik",
+    "mil. avv. 25-ming yillik",
+    "milodiy 3-ming yillik"
+   ],
+   "d": 2,
+   "x": "Mil. avv. 3-ming yillik — mil. avv. 3000–2001-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_18",
+   "t": "choice",
+   "q": "Miloddan avvalgi 1200-yil nechanchi ming yillikka kiradi?",
+   "a": "mil. avv. 2-ming yillik",
+   "w": [
+    "mil. avv. 1-ming yillik",
+    "mil. avv. 12-ming yillik",
+    "milodiy 2-ming yillik"
+   ],
+   "d": 3,
+   "x": "Mil. avv. 2-ming yillik — mil. avv. 2000–1001-yillar."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_19",
+   "t": "choice",
+   "q": "Miloddan avvalgi yillar qanday tartibda sanaladi?",
+   "a": "Kattadan kichikka qarab kamayadi",
+   "w": [
+    "Kichikdan kattaga qarab ortadi",
+    "Tasodifiy tartibda",
+    "Faqat yuzliklar bilan"
+   ],
+   "d": 1,
+   "x": "Masalan: mil. avv. 776, 775, 774 … 2, 1."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_20",
+   "t": "choice",
+   "q": "Qaysi sana eng qadimiy?",
+   "a": "mil. avv. 753-yil",
+   "w": [
+    "mil. avv. 509-yil",
+    "mil. avv. 44-yil",
+    "milodiy 476-yil"
+   ],
+   "d": 1,
+   "x": "Mil. avv. sanalarda son qancha katta bo‘lsa, shuncha qadimiy."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_21",
+   "t": "choice",
+   "q": "Qaysi sana bizga eng yaqin?",
+   "a": "milodiy 79-yil",
+   "w": [
+    "mil. avv. 44-yil",
+    "mil. avv. 221-yil",
+    "mil. avv. 490-yil"
+   ],
+   "d": 2,
+   "x": "Milodiy sana har qanday mil. avv. sanadan keyin keladi."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_22",
+   "t": "tf",
+   "q": "Yillar hisobida nolinchi yil yo‘q: mil. avv. 1-yildan keyin milodiy 1-yil keladi.",
+   "a": true,
+   "d": 3,
+   "x": "Shuning uchun milod chegarasida “0-yil” bo‘lmaydi."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_23",
+   "t": "tf",
+   "q": "Mil. avv. 490-yil mil. avv. 776-yildan oldin bo‘lgan.",
+   "a": false,
+   "d": 1,
+   "x": "Mil. avv. sanalarda katta son qadimiyroq: avval 776, keyin 490."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_24",
+   "t": "order",
+   "q": "Sanalarni qadimiydan yangisiga tartiblang",
+   "parts": [
+    "mil. avv. 776",
+    "mil. avv. 490",
+    "mil. avv. 44",
+    "milodiy 476"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Avval mil. avv. sanalar kamayib boradi, keyin milodiy sanalar keladi."
+  },
+  {
+   "topic": "history_g6.time_bc",
+   "id": "time_bc_25",
+   "t": "match",
+   "q": "Sanani asri bilan juftlang",
+   "pairs": [
+    [
+     "mil. avv. 776-yil",
+     "mil. avv. 8-asr"
+    ],
+    [
+     "mil. avv. 490-yil",
+     "mil. avv. 5-asr"
+    ],
+    [
+     "mil. avv. 221-yil",
+     "mil. avv. 3-asr"
+    ],
+    [
+     "mil. avv. 44-yil",
+     "mil. avv. 1-asr"
+    ],
+    [
+     "milodiy 476-yil",
+     "milodiy 5-asr"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_1",
+   "t": "choice",
+   "q": "Qadimgi yunon tarixchisi Gerodot Misrni nima deb atagan?",
+   "a": "Nil in’omi",
+   "w": [
+    "Quyosh o‘lkasi",
+    "Qumlar podsholigi",
+    "Tog‘lar yurti"
+   ],
+   "d": 2,
+   "x": "Misr hayoti butunlay Nil daryosiga bog‘liq bo‘lgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_2",
+   "t": "choice",
+   "q": "Nil daryosi har yili dehqonlarga qanday foyda keltirgan?",
+   "a": "Toshib, dalalarga unumdor loyqa qoldirgan",
+   "w": [
+    "Muzlab qolgan",
+    "Butunlay qurib qolgan",
+    "Sho‘r suvga aylangan"
+   ],
+   "d": 1,
+   "x": "Toshqindan keyin yer serhosil bo‘lgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_3",
+   "t": "choice",
+   "q": "Yuqori va Quyi Misr taxminan qachon yagona davlatga birlashgan?",
+   "a": "Mil. avv. 3000-yillar atrofida",
+   "w": [
+    "Milodiy 1000-yilda",
+    "Mil. avv. 100-yilda",
+    "Milodiy 1991-yilda"
+   ],
+   "d": 2,
+   "x": "Misr dunyodagi eng qadimgi davlatlardan biri."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_4",
+   "t": "choice",
+   "q": "Misrliklarning quyosh xudosi qanday atalgan?",
+   "a": "Ra",
+   "w": [
+    "Zevs",
+    "Yupiter",
+    "Axura Mazda"
+   ],
+   "d": 2,
+   "x": "Misrliklar Ra ni eng ulug‘ xudo deb bilgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_5",
+   "t": "choice",
+   "q": "Giza yaqinidagi sher tanli, odam boshli ulkan haykal nima deb ataladi?",
+   "a": "Sfinks",
+   "w": [
+    "Kolizey",
+    "Zikkurat",
+    "Obelisk"
+   ],
+   "d": 1,
+   "x": "Sfinks piramidalar yonida joylashgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_6",
+   "t": "choice",
+   "q": "Misrliklar marhumlar jasadini uzoq saqlash uchun nima qilishgan?",
+   "a": "Mumiyolashgan",
+   "w": [
+    "Yoqishgan",
+    "Muzlatishgan",
+    "Daryoga tashlashgan"
+   ],
+   "d": 2,
+   "x": "Maxsus moddalar bilan ishlov berib, mumiyo tayyorlangan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_7",
+   "t": "choice",
+   "q": "Misr iyerogliflarini birinchi bo‘lib o‘qigan olim kim?",
+   "a": "Fransua Shampolyon",
+   "w": [
+    "Gerodot",
+    "Xammurapi",
+    "Aristotel"
+   ],
+   "d": 3,
+   "x": "Shampolyon 1822-yilda iyerogliflarni o‘qigan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_8",
+   "t": "choice",
+   "q": "Iyerogliflarni o‘qishga kalit bo‘lgan tosh qanday nomlanadi?",
+   "a": "Rozetta toshi",
+   "w": [
+    "Qora tosh",
+    "Oltin tosh",
+    "Bobil toshi"
+   ],
+   "d": 3,
+   "x": "Toshda bitta matn uch xil yozuvda, jumladan yunoncha ham yozilgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_9",
+   "t": "choice",
+   "q": "Misrliklar yaratgan quyosh kalendarida yil necha kundan iborat bo‘lgan?",
+   "a": "365 kun",
+   "w": [
+    "100 kun",
+    "300 kun",
+    "400 kun"
+   ],
+   "d": 2,
+   "x": "12 oy × 30 kun + 5 kun = 365 kun."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_10",
+   "t": "choice",
+   "q": "Piramidalarni asosan kimlar qurgan?",
+   "a": "Minglab dehqonlar va hunarmandlar",
+   "w": [
+    "Faqat fir’avnning o‘zi",
+    "Chet ellik sayyohlar",
+    "Rim askarlari"
+   ],
+   "d": 2,
+   "x": "Qurilishda ko‘p ming kishi yillar davomida ishlagan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_11",
+   "t": "choice",
+   "q": "Maqbarasi 1922-yilda deyarli buzilmagan holda topilgan yosh fir’avn kim?",
+   "a": "Tutanxamon",
+   "w": [
+    "Xeops",
+    "Xammurapi",
+    "Kir II"
+   ],
+   "d": 3,
+   "x": "Tutanxamon maqbarasidan son-sanoqsiz boyliklar topilgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_12",
+   "t": "choice",
+   "q": "Misr dehqonlari dalalarni qanday sug‘organ?",
+   "a": "Kanallar va to‘g‘onlar orqali",
+   "w": [
+    "Quvur va nasoslar bilan",
+    "Faqat yomg‘ir suvi bilan",
+    "Qor suvi bilan"
+   ],
+   "d": 1,
+   "x": "Nil suvi kanallar orqali dalalarga yetkazilgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_13",
+   "t": "choice",
+   "q": "Misrda yozuvni biladigan va hisob-kitob yurituvchi amaldorlar kim edi?",
+   "a": "Kotiblar",
+   "w": [
+    "Gladiatorlar",
+    "Baxshilar",
+    "Legionerlar"
+   ],
+   "d": 1,
+   "x": "Kotiblik hurmatli kasb bo‘lgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_14",
+   "t": "choice",
+   "q": "Qadimgi Misrda qaysi fanlar rivojlangan?",
+   "a": "Matematika, astronomiya, tibbiyot",
+   "w": [
+    "Kompyuter va robototexnika",
+    "Kosmonavtika",
+    "Atom fizikasi"
+   ],
+   "d": 1,
+   "x": "Toshqin vaqtini hisoblash, yer o‘lchash, davolash zarurati fanlarni rivojlantirgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_15",
+   "t": "choice",
+   "q": "Dunyoning yetti mo‘jizasidan qaysi biri bizgacha saqlangan?",
+   "a": "Misr piramidalari",
+   "w": [
+    "Bobil osma bog‘lari",
+    "Zevs haykali",
+    "Iskandariya mayog‘i"
+   ],
+   "d": 3,
+   "x": "Yetti mo‘jizadan faqat Giza piramidalari saqlanib qolgan."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_16",
+   "t": "tf",
+   "q": "Misrliklar yilni 365 kunga bo‘lishgan.",
+   "a": true,
+   "d": 1,
+   "x": "Bu quyosh kalendari edi."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_17",
+   "t": "tf",
+   "q": "Sfinks — Rimdagi amfiteatr.",
+   "a": false,
+   "d": 1,
+   "x": "Sfinks — Misrdagi haykal; Rimdagi amfiteatr — Kolizey."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_18",
+   "t": "tf",
+   "q": "Rozetta toshidagi yozuvlar iyerogliflarni o‘qishga yordam bergan.",
+   "a": true,
+   "d": 2,
+   "x": "Yunoncha matn bilan solishtirish orqali."
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_19",
+   "t": "match",
+   "q": "Tushunchani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "fir’avn",
+     "Misr hukmdori"
+    ],
+    [
+     "Sfinks",
+     "sher tanli haykal"
+    ],
+    [
+     "papirus",
+     "yozuv materiali"
+    ],
+    [
+     "kotib",
+     "yozuvni biluvchi amaldor"
+    ],
+    [
+     "Ra",
+     "quyosh xudosi"
+    ],
+    [
+     "Rozetta toshi",
+     "iyerogliflar kaliti"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.egypt",
+   "id": "egypt_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Nil",
+    "daryosi",
+    "Misrga",
+    "hayot",
+    "baxsh",
+    "etgan"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Gerodot Misrni “Nil in’omi” deb atagan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_1",
+   "t": "choice",
+   "q": "Mesopotamiyada ilk shahar-davlatlarni barpo etgan xalq kim?",
+   "a": "Shumerlar",
+   "w": [
+    "Rimliklar",
+    "Spartaliklar",
+    "Finikiyaliklar"
+   ],
+   "d": 1,
+   "x": "Shumerlar — Mesopotamiyaning eng qadimgi aholisi."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_2",
+   "t": "choice",
+   "q": "Shumerlarning qadimgi shahar-davlatlaridan biri qaysi?",
+   "a": "Ur",
+   "w": [
+    "Afina",
+    "Rim",
+    "Memfis"
+   ],
+   "d": 2,
+   "x": "Ur va Uruk — shumer shaharlari."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_3",
+   "t": "choice",
+   "q": "Mesopotamiyadagi pog‘onali ibodatxona-minora qanday ataladi?",
+   "a": "Zikkurat",
+   "w": [
+    "Piramida",
+    "Kolizey",
+    "Parfenon"
+   ],
+   "d": 1,
+   "x": "Zikkuratlar xom g‘ishtdan qurilgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_4",
+   "t": "choice",
+   "q": "Qaysi muhim ixtiro shumerlarga nisbat beriladi?",
+   "a": "G‘ildirak",
+   "w": [
+    "Qog‘oz",
+    "Porox",
+    "Kompas"
+   ],
+   "d": 2,
+   "x": "Qog‘oz, porox va kompas — Xitoy ixtirolari."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_5",
+   "t": "choice",
+   "q": "Soatning 60 daqiqaga bo‘linishi qaysi xalqlar sanoq tizimidan kelib chiqqan?",
+   "a": "Shumer va bobilliklar",
+   "w": [
+    "Rimliklar",
+    "Xitoyliklar",
+    "Misrliklar"
+   ],
+   "d": 3,
+   "x": "Ular 60 lik sanoq tizimidan foydalangan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_6",
+   "t": "choice",
+   "q": "Xammurapi qonunlari nimaga o‘yib yozilgan?",
+   "a": "Tosh ustunga",
+   "w": [
+    "Papirusga",
+    "Ipak matoga",
+    "Yog‘och taxtaga"
+   ],
+   "d": 2,
+   "x": "Qonunlar baland tosh ustunga mixxatda o‘yilgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_7",
+   "t": "choice",
+   "q": "Xammurapi qaysi asrda hukmronlik qilgan?",
+   "a": "Mil. avv. XVIII asrda",
+   "w": [
+    "Milodiy XV asrda",
+    "Mil. avv. I asrda",
+    "Milodiy XX asrda"
+   ],
+   "d": 3,
+   "x": "Xammurapi — mil. avv. XVIII asrda yashagan Bobil podshosi."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_8",
+   "t": "choice",
+   "q": "Yetti mo‘jizadan biri bo‘lgan osma bog‘lar qaysi shaharda bo‘lgan?",
+   "a": "Bobil",
+   "w": [
+    "Afina",
+    "Rim",
+    "Memfis"
+   ],
+   "d": 1,
+   "x": "Bobil osma bog‘lari dunyoning yetti mo‘jizasidan biri."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_9",
+   "t": "choice",
+   "q": "Bobil shahri qaysi daryo bo‘yida joylashgan?",
+   "a": "Frot",
+   "w": [
+    "Nil",
+    "Tibr",
+    "Gang"
+   ],
+   "d": 1,
+   "x": "Bobil Frot daryosi bo‘yida qurilgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_10",
+   "t": "choice",
+   "q": "Ossuriya podshosi Ashshurbanipal nimasi bilan mashhur?",
+   "a": "Loy taxtachali katta kutubxonasi bilan",
+   "w": [
+    "Piramida qurgani bilan",
+    "Olimpiya o‘yinlarini boshlagani bilan",
+    "Qog‘oz ixtiro qilgani bilan"
+   ],
+   "d": 3,
+   "x": "Kutubxonada minglab loy taxtachalar saqlangan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_11",
+   "t": "choice",
+   "q": "Ilk harfli alifboni yaratgan xalq kim?",
+   "a": "Finikiyaliklar",
+   "w": [
+    "Misrliklar",
+    "Shumerlar",
+    "Xitoyliklar"
+   ],
+   "d": 2,
+   "x": "Finikiya alifbosi ko‘plab alifbolarga asos bo‘lgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_12",
+   "t": "choice",
+   "q": "Finikiyaliklar qanday kasb bilan mashhur edi?",
+   "a": "Dengizchilik va savdo",
+   "w": [
+    "Faqat chorvachilik",
+    "Piramida qurish",
+    "Ipak to‘qish"
+   ],
+   "d": 1,
+   "x": "Ular O‘rta yer dengizida suzgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_13",
+   "t": "choice",
+   "q": "Finikiya alifbosi nechta harfdan iborat bo‘lgan?",
+   "a": "22 ta",
+   "w": [
+    "5 ta",
+    "33 ta",
+    "100 ta"
+   ],
+   "d": 3,
+   "x": "22 ta harf, faqat undosh tovushlar uchun."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_14",
+   "t": "choice",
+   "q": "Qadimgi Forsda Ahamoniylar davlatiga kim asos solgan?",
+   "a": "Kir II",
+   "w": [
+    "Xammurapi",
+    "Yuliy Sezar",
+    "Tutanxamon"
+   ],
+   "d": 2,
+   "x": "Kir II mil. avv. 550-yilda davlatga asos solgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_15",
+   "t": "choice",
+   "q": "Ahamoniylar podshosi Doro I qurdirgan uzun yo‘l qanday ataladi?",
+   "a": "Shoh yo‘li",
+   "w": [
+    "Ipak yo‘li",
+    "Appiy yo‘li",
+    "Temir yo‘l"
+   ],
+   "d": 3,
+   "x": "Shoh yo‘li davlatning uzoq viloyatlarini bog‘lagan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_16",
+   "t": "choice",
+   "q": "Mixxat belgilari qanday shaklda bo‘lgan?",
+   "a": "Mixga o‘xshash chiziqchalar",
+   "w": [
+    "Hayvon rasmlari",
+    "Doiracha va nuqtalar",
+    "Lotin harflari"
+   ],
+   "d": 1,
+   "x": "Belgilar ho‘l loyga uchli tayoqcha bilan bosilgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_17",
+   "t": "tf",
+   "q": "Zikkurat — Mesopotamiyadagi pog‘onali ibodatxona.",
+   "a": true,
+   "d": 1,
+   "x": "Zikkurat tepasida ibodatxona joylashgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_18",
+   "t": "tf",
+   "q": "Xammurapi qonunlari papirusga yozilgan.",
+   "a": false,
+   "d": 1,
+   "x": "Ular tosh ustunga o‘yib yozilgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_19",
+   "t": "tf",
+   "q": "Finikiya alifbosi keyinchalik yunon va lotin alifbolariga asos bo‘lgan.",
+   "a": true,
+   "d": 2,
+   "x": "Yunonlar unga unli harflarni qo‘shgan."
+  },
+  {
+   "topic": "history_g6.mesopotamia",
+   "id": "mesopotamia_20",
+   "t": "match",
+   "q": "Xalq yoki shaxsni yutug‘i bilan juftlang",
+   "pairs": [
+    [
+     "shumerlar",
+     "g‘ildirak va mixxat"
+    ],
+    [
+     "Xammurapi",
+     "qonunlar to‘plami"
+    ],
+    [
+     "finikiyaliklar",
+     "ilk harfli alifbo"
+    ],
+    [
+     "Ashshurbanipal",
+     "loy taxtachali kutubxona"
+    ],
+    [
+     "Kir II",
+     "Ahamoniylar davlati"
+    ],
+    [
+     "Doro I",
+     "Shoh yo‘li"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_1",
+   "t": "choice",
+   "q": "Hind vodiysidagi qadimgi shaharlardan biri qaysi?",
+   "a": "Moxenjo-Daro",
+   "w": [
+    "Ur",
+    "Memfis",
+    "Afina"
+   ],
+   "d": 1,
+   "x": "Xarappa va Moxenjo-Daro — Hind vodiysi shaharlari."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_2",
+   "t": "choice",
+   "q": "Xarappa va Moxenjo-Daro shaharlari nimasi bilan hayratlanarli?",
+   "a": "To‘g‘ri ko‘chalari va kanalizatsiyasi",
+   "w": [
+    "Piramidalari",
+    "Kolizeyi",
+    "Buyuk devori"
+   ],
+   "d": 3,
+   "x": "Shaharlar puxta reja asosida qurilgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_3",
+   "t": "choice",
+   "q": "Qadimgi Hindistonda jamiyat nechta varnaga bo‘lingan?",
+   "a": "4 ta",
+   "w": [
+    "2 ta",
+    "7 ta",
+    "10 ta"
+   ],
+   "d": 2,
+   "x": "Varna — jamiyatdagi tabaqa."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_4",
+   "t": "choice",
+   "q": "Qaysi o‘yin qadimgi Hindistonda paydo bo‘lgan deb hisoblanadi?",
+   "a": "Shaxmat",
+   "w": [
+    "Futbol",
+    "Tennis",
+    "Basketbol"
+   ],
+   "d": 1,
+   "x": "Shaxmatning qadimgi shakli Hindistonda paydo bo‘lgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_5",
+   "t": "choice",
+   "q": "Hind matematiklari qaysi muhim tushunchani ishlab chiqqan?",
+   "a": "Nol va o‘nli sanoq",
+   "w": [
+    "Rim raqamlari",
+    "Mixxat",
+    "Iyeroglif"
+   ],
+   "d": 2,
+   "x": "Bugungi raqamlarimiz hind raqamlaridan kelib chiqqan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_6",
+   "t": "choice",
+   "q": "Hindistondagi Maurya davlatining mashhur podshosi kim?",
+   "a": "Ashoka",
+   "w": [
+    "Xammurapi",
+    "Kir II",
+    "Yuliy Sezar"
+   ],
+   "d": 3,
+   "x": "Ashoka — Maurya davlatining qudratli hukmdori."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_7",
+   "t": "choice",
+   "q": "Xitoyni birinchi marta birlashtirgan imperator kim?",
+   "a": "Sin Shixuandi",
+   "w": [
+    "Konfutsiy",
+    "Ashoka",
+    "Xammurapi"
+   ],
+   "d": 2,
+   "x": "U o‘zini “birinchi imperator” deb e’lon qilgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_8",
+   "t": "choice",
+   "q": "Xitoy qachon Sin Shixuandi tomonidan birlashtirilgan?",
+   "a": "Mil. avv. 221-yilda",
+   "w": [
+    "Milodiy 1911-yilda",
+    "Mil. avv. 1000-yilda",
+    "Milodiy 500-yilda"
+   ],
+   "d": 3,
+   "x": "Mil. avv. 221-yilda yagona Xitoy imperiyasi tuzilgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_9",
+   "t": "choice",
+   "q": "Sin Shixuandi maqbarasi yonidan topilgan minglab haykallar qanday ataladi?",
+   "a": "Sopol (terrakota) qo‘shin",
+   "w": [
+    "Oltin qo‘shin",
+    "Tosh bog‘",
+    "Bronza otlar"
+   ],
+   "d": 2,
+   "x": "Har bir sopol askarning yuzi o‘ziga xos yasalgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_10",
+   "t": "choice",
+   "q": "Qadimgi Xitoyning mashhur faylasufi kim?",
+   "a": "Konfutsiy",
+   "w": [
+    "Gomer",
+    "Aristotel",
+    "Gerodot"
+   ],
+   "d": 1,
+   "x": "Konfutsiy ta’limoti Xitoyda juda mashhur."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_11",
+   "t": "choice",
+   "q": "Konfutsiy ta’limotida nimalar ulug‘langan?",
+   "a": "Kattalarga hurmat, odob va bilim",
+   "w": [
+    "Urush va bosqinchilik",
+    "Dangasalik",
+    "Yolg‘onchilik"
+   ],
+   "d": 1,
+   "x": "Konfutsiy oilada va jamiyatda hurmat va odobni ulug‘lagan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_12",
+   "t": "choice",
+   "q": "An’anaga ko‘ra, qog‘oz tayyorlashni milodiy 105-yilda takomillashtirgan xitoylik kim?",
+   "a": "Say Lun",
+   "w": [
+    "Konfutsiy",
+    "Sin Shixuandi",
+    "Ashoka"
+   ],
+   "d": 3,
+   "x": "Say Lun qog‘oz tayyorlash usulini yaxshilagan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_13",
+   "t": "choice",
+   "q": "Qaysi xitoy ixtirosi dengizchilarga yo‘l topishda yordam bergan?",
+   "a": "Kompas",
+   "w": [
+    "Porox",
+    "Chinni",
+    "Ipak"
+   ],
+   "d": 1,
+   "x": "Kompas mili shimolni ko‘rsatadi."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_14",
+   "t": "choice",
+   "q": "Buyuk Xitoy devori asosan qaysi tomondan kelgan hujumlardan himoya uchun qurilgan?",
+   "a": "Shimoldan",
+   "w": [
+    "Janubdan",
+    "Dengizdan",
+    "Sharqdagi orollardan"
+   ],
+   "d": 2,
+   "x": "Shimoldagi ko‘chmanchilar hujumidan himoyalanish uchun."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_15",
+   "t": "tf",
+   "q": "Shaxmat qadimgi Hindistonda paydo bo‘lgan deb hisoblanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Keyin u Eron va arablar orqali dunyoga tarqalgan."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_16",
+   "t": "tf",
+   "q": "Konfutsiy — qadimgi Hindiston podshosi.",
+   "a": false,
+   "d": 1,
+   "x": "Konfutsiy — qadimgi Xitoy faylasufi."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_17",
+   "t": "tf",
+   "q": "Sin Shixuandi Xitoyni birinchi bo‘lib yagona davlatga birlashtirgan.",
+   "a": true,
+   "d": 2,
+   "x": "Mil. avv. 221-yilda."
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_18",
+   "t": "match",
+   "q": "Nomni u haqidagi ma’lumot bilan juftlang",
+   "pairs": [
+    [
+     "Moxenjo-Daro",
+     "Hind vodiysi shahri"
+    ],
+    [
+     "Ashoka",
+     "Maurya podshosi"
+    ],
+    [
+     "Sin Shixuandi",
+     "Xitoyning birinchi imperatori"
+    ],
+    [
+     "Konfutsiy",
+     "xitoy faylasufi"
+    ],
+    [
+     "varna",
+     "hind jamiyati tabaqasi"
+    ],
+    [
+     "Say Lun",
+     "qog‘oz tayyorlashni yaxshilagan"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.india_china",
+   "id": "india_china_19",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Shaxmat",
+    "qadimgi",
+    "Hindistonda",
+    "paydo",
+    "bo‘lgan"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Shaxmatning qadimgi shakli Hindistonda yaratilgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_1",
+   "t": "choice",
+   "q": "Qadimgi yunon shahar-davlati qanday ataladi?",
+   "a": "Polis",
+   "w": [
+    "Satraplik",
+    "Varna",
+    "Legion"
+   ],
+   "d": 1,
+   "x": "Afina va Sparta — eng mashhur polislar."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_2",
+   "t": "choice",
+   "q": "Qadimgi Yunoniston asosan qaysi yarim orolda joylashgan?",
+   "a": "Bolqon yarim orolida",
+   "w": [
+    "Apennin yarim orolida",
+    "Arabiston yarim orolida",
+    "Hindiston yarim orolida"
+   ],
+   "d": 1,
+   "x": "Yunoniston Bolqon yarim orolining janubida."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_3",
+   "t": "choice",
+   "q": "Afina demokratiyasi eng gullagan davrda uning rahbari kim bo‘lgan?",
+   "a": "Perikl",
+   "w": [
+    "Leonid",
+    "Yuliy Sezar",
+    "Doro I"
+   ],
+   "d": 2,
+   "x": "Mil. avv. V asrda Perikl davrida Afina gullab-yashnagan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_4",
+   "t": "choice",
+   "q": "Afinadagi muhim masalalarni hal qilgan fuqarolar yig‘ini qanday atalgan?",
+   "a": "Xalq majlisi",
+   "w": [
+    "Senat",
+    "Kurultoy",
+    "Parlament"
+   ],
+   "d": 2,
+   "x": "Xalq majlisida fuqarolar ovoz berib qaror qabul qilgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_5",
+   "t": "choice",
+   "q": "Ma’buda Afina sharafiga qurilgan mashhur ibodatxona qaysi?",
+   "a": "Parfenon",
+   "w": [
+    "Kolizey",
+    "Panteon",
+    "Zikkurat"
+   ],
+   "d": 1,
+   "x": "Parfenon Akropolda joylashgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_6",
+   "t": "choice",
+   "q": "Parfenon qaysi tepalikda joylashgan?",
+   "a": "Akropolda",
+   "w": [
+    "Olimpda",
+    "Kapitoliyda",
+    "Gizada"
+   ],
+   "d": 2,
+   "x": "Akropol — Afinadagi muqaddas tepalik."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_7",
+   "t": "choice",
+   "q": "Marafon jangi qachon bo‘lgan?",
+   "a": "Mil. avv. 490-yilda",
+   "w": [
+    "Mil. avv. 776-yilda",
+    "Milodiy 476-yilda",
+    "Mil. avv. 44-yilda"
+   ],
+   "d": 3,
+   "x": "Marafon jangi yunon-fors urushlarining mashhur jangi."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_8",
+   "t": "choice",
+   "q": "Marafon jangida yunonlar kimga qarshi kurashgan?",
+   "a": "Forslarga",
+   "w": [
+    "Rimliklarga",
+    "Misrliklarga",
+    "Xitoyliklarga"
+   ],
+   "d": 1,
+   "x": "Bu yunon-fors urushlari davri edi."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_9",
+   "t": "choice",
+   "q": "“Marafon” yugurish poygasi nomi qaysi voqea bilan bog‘liq?",
+   "a": "G‘alaba xabarini yetkazgan chopar",
+   "w": [
+    "Olimpda xudolar poygasi",
+    "Rim gladiatorlari",
+    "Piramidalar qurilishi"
+   ],
+   "d": 2,
+   "x": "Rivoyatga ko‘ra, chopar Marafondan Afinagacha yugurib, g‘alaba xabarini yetkazgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_10",
+   "t": "choice",
+   "q": "Spartada o‘g‘il bolalar necha yoshdan harbiy tarbiyaga berilgan?",
+   "a": "7 yoshdan",
+   "w": [
+    "1 yoshdan",
+    "15 yoshdan",
+    "20 yoshdan"
+   ],
+   "d": 3,
+   "x": "Spartada bolalar yoshligidan chidamli jangchi qilib tarbiyalangan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_11",
+   "t": "choice",
+   "q": "Fermopil darasida forslarga qarshi turgan Sparta podshosi kim?",
+   "a": "Leonid",
+   "w": [
+    "Perikl",
+    "Yuliy Sezar",
+    "Doro I"
+   ],
+   "d": 3,
+   "x": "Podsho Leonid 300 spartalik bilan jasorat ko‘rsatgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_12",
+   "t": "choice",
+   "q": "Troya urushi haqida hikoya qiluvchi doston qaysi?",
+   "a": "“Iliada”",
+   "w": [
+    "“Avesto”",
+    "“Alpomish”",
+    "“Boburnoma”"
+   ],
+   "d": 2,
+   "x": "“Iliada” — Gomer dostoni."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_13",
+   "t": "choice",
+   "q": "Afinada kimlar fuqaro hisoblangan?",
+   "a": "Afinalik ota-onadan tug‘ilgan erkaklar",
+   "w": [
+    "Barcha aholi",
+    "Faqat chet elliklar",
+    "Faqat bolalar"
+   ],
+   "d": 3,
+   "x": "Ayollar, qullar va chet elliklar siyosiy huquqqa ega bo‘lmagan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_14",
+   "t": "choice",
+   "q": "Yunonlar O‘rta yer va Qora dengiz bo‘ylarida nima barpo etgan?",
+   "a": "Koloniyalar (yangi shaharlar)",
+   "w": [
+    "Piramidalar",
+    "Buyuk devor",
+    "Zikkuratlar"
+   ],
+   "d": 3,
+   "x": "Yunon koloniyalari savdo va madaniyatni tarqatgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_15",
+   "t": "tf",
+   "q": "Polis — qadimgi yunon shahar-davlati.",
+   "a": true,
+   "d": 1,
+   "x": "Har bir polis mustaqil davlat bo‘lgan."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_16",
+   "t": "tf",
+   "q": "Parfenon Rimdagi Kapitoliy tepaligida joylashgan.",
+   "a": false,
+   "d": 1,
+   "x": "Parfenon Afinadagi Akropolda."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_17",
+   "t": "tf",
+   "q": "Marafon jangida yunonlar forslar ustidan g‘alaba qozongan.",
+   "a": true,
+   "d": 1,
+   "x": "Mil. avv. 490-yilda."
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_18",
+   "t": "match",
+   "q": "Nomni ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "polis",
+     "shahar-davlat"
+    ],
+    [
+     "Akropol",
+     "Afinadagi muqaddas tepalik"
+    ],
+    [
+     "Parfenon",
+     "ma’buda Afina ibodatxonasi"
+    ],
+    [
+     "Perikl",
+     "Afina rahbari"
+    ],
+    [
+     "Leonid",
+     "Sparta podshosi"
+    ],
+    [
+     "Marafon",
+     "mil. avv. 490-yilgi jang joyi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.greece",
+   "id": "greece_19",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Afina",
+    "demokratiya",
+    "beshigi",
+    "hisoblanadi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Demokratiya — xalq hokimiyati — Afinada shakllangan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_1",
+   "t": "choice",
+   "q": "Qadimgi Olimpiya o‘yinlari necha yilda bir marta o‘tkazilgan?",
+   "a": "4 yilda",
+   "w": [
+    "1 yilda",
+    "2 yilda",
+    "10 yilda"
+   ],
+   "d": 1,
+   "x": "To‘rt yillik davr “olimpiada” deb atalgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_2",
+   "t": "choice",
+   "q": "Olimpiya o‘yinlari vaqtida yunon polislari nima qilgan?",
+   "a": "Urushlarni to‘xtatib, sulh tuzgan",
+   "w": [
+    "Yangi urush boshlagan",
+    "Shaharlarni yopgan",
+    "Savdoni taqiqlagan"
+   ],
+   "d": 2,
+   "x": "O‘yinlar vaqtida muqaddas sulh e’lon qilingan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_3",
+   "t": "choice",
+   "q": "Zamonaviy Olimpiya o‘yinlari qachon va qayerda qayta boshlangan?",
+   "a": "1896-yilda Afinada",
+   "w": [
+    "1900-yilda Rimda",
+    "776-yilda Spartada",
+    "1924-yilda Qohirada"
+   ],
+   "d": 3,
+   "x": "Birinchi zamonaviy Olimpiya o‘yinlari Afinada bo‘lib o‘tgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_4",
+   "t": "choice",
+   "q": "Olimpiya o‘yinlari qaysi xudo sharafiga o‘tkazilgan?",
+   "a": "Zevs",
+   "w": [
+    "Ra",
+    "Yupiter",
+    "Mars"
+   ],
+   "d": 2,
+   "x": "Zevs — yunonlarning bosh xudosi."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_5",
+   "t": "choice",
+   "q": "“Tarix otasi” deb kim ataladi?",
+   "a": "Gerodot",
+   "w": [
+    "Gippokrat",
+    "Pifagor",
+    "Arximed"
+   ],
+   "d": 1,
+   "x": "Gerodot yunon-fors urushlari tarixini yozgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_6",
+   "t": "choice",
+   "q": "“Tibbiyot otasi” deb kim ataladi?",
+   "a": "Gippokrat",
+   "w": [
+    "Gerodot",
+    "Sokrat",
+    "Evklid"
+   ],
+   "d": 1,
+   "x": "Shifokorlar qasamyodi Gippokrat nomi bilan bog‘liq."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_7",
+   "t": "choice",
+   "q": "To‘g‘ri burchakli uchburchak haqidagi mashhur teorema kimning nomi bilan ataladi?",
+   "a": "Pifagor",
+   "w": [
+    "Arximed",
+    "Platon",
+    "Gomer"
+   ],
+   "d": 1,
+   "x": "Pifagor teoremasi."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_8",
+   "t": "choice",
+   "q": "“Evrika!” (“Topdim!”) deb xitob qilgan olim kim?",
+   "a": "Arximed",
+   "w": [
+    "Pifagor",
+    "Gerodot",
+    "Perikl"
+   ],
+   "d": 2,
+   "x": "Arximed suyuqlikdagi jism qonunini kashf etgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_9",
+   "t": "choice",
+   "q": "Aristotelning ustozi kim bo‘lgan?",
+   "a": "Platon",
+   "w": [
+    "Sokrat",
+    "Gomer",
+    "Pifagor"
+   ],
+   "d": 2,
+   "x": "Aristotel Platon akademiyasida o‘qigan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_10",
+   "t": "choice",
+   "q": "Platonning ustozi, suhbat orqali haqiqatni izlagan faylasuf kim?",
+   "a": "Sokrat",
+   "w": [
+    "Aristotel",
+    "Arximed",
+    "Gerodot"
+   ],
+   "d": 2,
+   "x": "Sokrat savol-javob usulida o‘rgatgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_11",
+   "t": "choice",
+   "q": "“Negizlar” asarida geometriya asoslarini bayon qilgan olim kim?",
+   "a": "Evklid",
+   "w": [
+    "Gippokrat",
+    "Gerodot",
+    "Sokrat"
+   ],
+   "d": 3,
+   "x": "Evklid geometriyasi hozir ham maktabda o‘rganiladi."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_12",
+   "t": "choice",
+   "q": "Moddalar mayda bo‘linmas zarralar — atomlardan tuzilgan degan yunon olimi kim?",
+   "a": "Demokrit",
+   "w": [
+    "Perikl",
+    "Leonid",
+    "Gomer"
+   ],
+   "d": 3,
+   "x": "“Atom” — yunoncha “bo‘linmas”."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_13",
+   "t": "choice",
+   "q": "Yunon teatrida aktyorlar yuziga nima taqib o‘ynagan?",
+   "a": "Niqob",
+   "w": [
+    "Toj",
+    "Dubulg‘a",
+    "Ko‘zoynak"
+   ],
+   "d": 1,
+   "x": "Niqob qahramon qiyofasi va kayfiyatini ko‘rsatgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_14",
+   "t": "choice",
+   "q": "“Faylasuf” so‘zining ma’nosi nima?",
+   "a": "Donolikni sevuvchi",
+   "w": [
+    "Qo‘shin boshlig‘i",
+    "Savdogar",
+    "Sportchi"
+   ],
+   "d": 2,
+   "x": "Yunoncha: filo — sevaman, sofiya — donolik."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_15",
+   "t": "choice",
+   "q": "Dunyoning yetti mo‘jizasidan qaysi biri Olimpiyada bo‘lgan?",
+   "a": "Zevs haykali",
+   "w": [
+    "Osma bog‘lar",
+    "Piramida",
+    "Iskandariya mayog‘i"
+   ],
+   "d": 3,
+   "x": "Olimpiyadagi ulkan Zevs haykali yetti mo‘jizadan biri bo‘lgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_16",
+   "t": "tf",
+   "q": "Sokrat — Platonning ustozi.",
+   "a": true,
+   "d": 1,
+   "x": "Sokrat → Platon → Aristotel."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_17",
+   "t": "tf",
+   "q": "Gippokrat “tarix otasi” deb ataladi.",
+   "a": false,
+   "d": 1,
+   "x": "“Tarix otasi” — Gerodot; Gippokrat — “tibbiyot otasi”."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_18",
+   "t": "tf",
+   "q": "Qadimgi Olimpiya o‘yinlari har yili o‘tkazilgan.",
+   "a": false,
+   "d": 1,
+   "x": "Ular 4 yilda bir marta o‘tkazilgan."
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_19",
+   "t": "match",
+   "q": "Olimni sohasi bilan juftlang",
+   "pairs": [
+    [
+     "Gerodot",
+     "tarix"
+    ],
+    [
+     "Gippokrat",
+     "tibbiyot"
+    ],
+    [
+     "Pifagor",
+     "matematika"
+    ],
+    [
+     "Evklid",
+     "geometriya"
+    ],
+    [
+     "Arximed",
+     "fizika va mexanika"
+    ],
+    [
+     "Sokrat",
+     "falsafa"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.greek_culture",
+   "id": "greek_culture_20",
+   "t": "order",
+   "q": "Ustoz va shogirdlarni tartib bilan joylang",
+   "parts": [
+    "Sokrat",
+    "Platon",
+    "Aristotel",
+    "Aleksandr Makedonskiy"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Har biri keyingisining ustozi bo‘lgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_1",
+   "t": "choice",
+   "q": "Rivoyatga ko‘ra, Rim shahriga qaysi aka-ukalar asos solgan?",
+   "a": "Romul va Rem",
+   "w": [
+    "Kastor va Polluks",
+    "Avazxon va Hasanxon",
+    "Farhod va Qays"
+   ],
+   "d": 1,
+   "x": "Shahar Romul nomi bilan atalgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_2",
+   "t": "choice",
+   "q": "Rivoyatga ko‘ra, go‘dak Romul va Remni qaysi hayvon boqqan?",
+   "a": "Ona bo‘ri",
+   "w": [
+    "Ayiq",
+    "Sher",
+    "Burgut"
+   ],
+   "d": 1,
+   "x": "Ona bo‘ri haykali — Rim ramzlaridan biri."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_3",
+   "t": "choice",
+   "q": "Rivoyatga ko‘ra, Rim qaysi yili tashkil topgan?",
+   "a": "Mil. avv. 753-yilda",
+   "w": [
+    "Mil. avv. 776-yilda",
+    "Milodiy 476-yilda",
+    "Mil. avv. 221-yilda"
+   ],
+   "d": 2,
+   "x": "Rimliklar yillarni shahar tashkil topgan kundan sanashgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_4",
+   "t": "choice",
+   "q": "Rim respublikasida har yili saylanadigan ikki oliy mansabdor kim?",
+   "a": "Konsullar",
+   "w": [
+    "Fir’avnlar",
+    "Satraplar",
+    "Imperatorlar"
+   ],
+   "d": 2,
+   "x": "Ikki konsul bir-birini nazorat qilgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_5",
+   "t": "choice",
+   "q": "Rimdagi zodagonlar kengashi qanday atalgan?",
+   "a": "Senat",
+   "w": [
+    "Kurultoy",
+    "Xalq majlisi",
+    "Varna"
+   ],
+   "d": 2,
+   "x": "Senat davlat ishlarini muhokama qilgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_6",
+   "t": "choice",
+   "q": "Rimdagi zodagon oilalar vakillari qanday atalgan?",
+   "a": "Patritsiylar",
+   "w": [
+    "Plebeylar",
+    "Gladiatorlar",
+    "Legionerlar"
+   ],
+   "d": 3,
+   "x": "Patritsiylar — Rim zodagonlari."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_7",
+   "t": "choice",
+   "q": "Rimdagi oddiy erkin aholi qanday atalgan?",
+   "a": "Plebeylar",
+   "w": [
+    "Patritsiylar",
+    "Senatorlar",
+    "Konsullar"
+   ],
+   "d": 3,
+   "x": "Plebeylar huquq uchun uzoq kurashgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_8",
+   "t": "choice",
+   "q": "Rim qo‘shinining asosiy bo‘linmasi qanday atalgan?",
+   "a": "Legion",
+   "w": [
+    "Falanga",
+    "Varna",
+    "Polis"
+   ],
+   "d": 2,
+   "x": "Legion yaxshi qurollangan piyoda askarlardan iborat bo‘lgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_9",
+   "t": "choice",
+   "q": "Rim bilan Karfagen o‘rtasidagi urushlar qanday ataladi?",
+   "a": "Punik urushlari",
+   "w": [
+    "Yunon-fors urushlari",
+    "Troya urushi",
+    "Yuz yillik urush"
+   ],
+   "d": 2,
+   "x": "Bu urushlarda Rim g‘olib chiqqan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_10",
+   "t": "choice",
+   "q": "Fillar bilan Alp tog‘laridan oshib o‘tgan Karfagen sarkardasi kim?",
+   "a": "Gannibal",
+   "w": [
+    "Spartak",
+    "Yuliy Sezar",
+    "Leonid"
+   ],
+   "d": 1,
+   "x": "Gannibal — mashhur Karfagen sarkardasi."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_11",
+   "t": "choice",
+   "q": "Rimda eng yirik qullar qo‘zg‘oloniga kim boshchilik qilgan?",
+   "a": "Spartak",
+   "w": [
+    "Gannibal",
+    "Oktavian",
+    "Perikl"
+   ],
+   "d": 2,
+   "x": "Spartak qo‘zg‘oloni mil. avv. I asrda bo‘lgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_12",
+   "t": "choice",
+   "q": "“Keldim, ko‘rdim, yengdim” degan mashhur so‘zlar kimga tegishli?",
+   "a": "Yuliy Sezar",
+   "w": [
+    "Spartak",
+    "Gannibal",
+    "Romul"
+   ],
+   "d": 1,
+   "x": "Sezar tezkor g‘alabasi haqida shunday yozgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_13",
+   "t": "choice",
+   "q": "Rimning birinchi imperatori kim?",
+   "a": "Oktavian Avgust",
+   "w": [
+    "Yuliy Sezar",
+    "Romul",
+    "Spartak"
+   ],
+   "d": 2,
+   "x": "Oktavian mil. avv. 27-yilda imperator bo‘lgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_14",
+   "t": "choice",
+   "q": "Yil oylaridan qaysi biri Oktavian Avgust nomi bilan ataladi?",
+   "a": "Avgust",
+   "w": [
+    "Mart",
+    "Yanvar",
+    "May"
+   ],
+   "d": 1,
+   "x": "Avgust oyi imperator sharafiga nomlangan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_15",
+   "t": "choice",
+   "q": "Yil oylaridan qaysi biri Yuliy Sezar nomi bilan bog‘liq?",
+   "a": "Iyul",
+   "w": [
+    "Iyun",
+    "Aprel",
+    "Oktabr"
+   ],
+   "d": 2,
+   "x": "Iyul — Yuliy nomidan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_16",
+   "t": "choice",
+   "q": "Milodiy 79-yilda Vezuviy vulqoni kuli ostida qolgan shahar qaysi?",
+   "a": "Pompey",
+   "w": [
+    "Afina",
+    "Karfagen",
+    "Iskandariya"
+   ],
+   "d": 3,
+   "x": "Qazishmalar Pompeyda Rim hayotini yaxshi saqlab qolgan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_17",
+   "t": "choice",
+   "q": "G‘arbiy Rim imperiyasi qaysi yili qulagan?",
+   "a": "Milodiy 476-yilda",
+   "w": [
+    "Mil. avv. 753-yilda",
+    "Milodiy 1453-yilda",
+    "Mil. avv. 44-yilda"
+   ],
+   "d": 3,
+   "x": "476-yil qadimgi dunyo tarixining yakuni hisoblanadi."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_18",
+   "t": "choice",
+   "q": "Yunonlarning Zevsiga Rimda qaysi xudo mos kelgan?",
+   "a": "Yupiter",
+   "w": [
+    "Mars",
+    "Ra",
+    "Neptun"
+   ],
+   "d": 3,
+   "x": "Rimliklar ko‘p yunon xudolarini boshqa nom bilan ulug‘lagan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_19",
+   "t": "tf",
+   "q": "Spartak — Karfagen sarkardasi.",
+   "a": false,
+   "d": 1,
+   "x": "Spartak — Rimdagi qullar qo‘zg‘oloni rahbari; Karfagen sarkardasi — Gannibal."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_20",
+   "t": "tf",
+   "q": "Oktavian Avgust Rimning birinchi imperatori bo‘lgan.",
+   "a": true,
+   "d": 1,
+   "x": "Undan keyin Rim imperiyaga aylangan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_21",
+   "t": "tf",
+   "q": "Rim respublikasini bitta konsul boshqargan.",
+   "a": false,
+   "d": 1,
+   "x": "Har yili ikkita konsul saylangan."
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_22",
+   "t": "match",
+   "q": "Atamani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "senat",
+     "zodagonlar kengashi"
+    ],
+    [
+     "konsul",
+     "saylanadigan oliy mansabdor"
+    ],
+    [
+     "legion",
+     "Rim qo‘shini bo‘linmasi"
+    ],
+    [
+     "patritsiy",
+     "zodagon"
+    ],
+    [
+     "plebey",
+     "oddiy erkin fuqaro"
+    ],
+    [
+     "Punik urushlari",
+     "Rim va Karfagen urushlari"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.rome",
+   "id": "rome_23",
+   "t": "order",
+   "q": "Voqealarni tartib bilan joylang",
+   "parts": [
+    "Rimning tashkil topishi",
+    "Respublika o‘rnatilishi",
+    "Imperiya boshlanishi",
+    "G‘arbiy Rimning qulashi"
+   ],
+   "sep": " → ",
+   "d": 3,
+   "x": "Mil. avv. 753 → mil. avv. 509 → mil. avv. 27 → milodiy 476."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_1",
+   "t": "choice",
+   "q": "Qadimgi Baqtriya hududiga Vatanimizning qaysi viloyati kirgan?",
+   "a": "Surxondaryo",
+   "w": [
+    "Xorazm",
+    "Qoraqalpog‘iston",
+    "Toshkent"
+   ],
+   "d": 1,
+   "x": "Baqtriya Amudaryoning yuqori oqimida joylashgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_2",
+   "t": "choice",
+   "q": "Qadimgi So‘g‘diyona hududida qaysi hozirgi shaharlar joylashgan?",
+   "a": "Samarqand va Buxoro",
+   "w": [
+    "Termiz va Denov",
+    "Nukus va Urganch",
+    "Andijon va Namangan"
+   ],
+   "d": 2,
+   "x": "So‘g‘diyona — Zarafshon vodiysi."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_3",
+   "t": "choice",
+   "q": "Samarqand shahrining qadimgi nomi qaysi?",
+   "a": "Maroqand",
+   "w": [
+    "Baqtra",
+    "Iskandariya",
+    "Memfis"
+   ],
+   "d": 1,
+   "x": "Qadimgi yunon manbalarida Samarqand Maroqand deb atalgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_4",
+   "t": "choice",
+   "q": "Qadimgi Baqtriyaning poytaxti qaysi shahar bo‘lgan?",
+   "a": "Baqtra (Balx)",
+   "w": [
+    "Maroqand",
+    "Tuproqqal’a",
+    "Afina"
+   ],
+   "d": 3,
+   "x": "Baqtra — hozirgi Balx shahri o‘rnida."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_5",
+   "t": "choice",
+   "q": "Qadimgi Xorazm hozirgi qaysi hududlarga to‘g‘ri keladi?",
+   "a": "Xorazm viloyati va Qoraqalpog‘iston",
+   "w": [
+    "Surxondaryo",
+    "Farg‘ona vodiysi",
+    "Toshkent vohasi"
+   ],
+   "d": 2,
+   "x": "Xorazm Amudaryoning quyi oqimida joylashgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_6",
+   "t": "choice",
+   "q": "Mil. avv. VI asrda O‘rta Osiyoning katta qismini bosib olgan davlat qaysi?",
+   "a": "Ahamoniylar (Qadimgi Fors)",
+   "w": [
+    "Rim",
+    "Misr",
+    "Xitoy"
+   ],
+   "d": 2,
+   "x": "Kir II va Doro I davrida."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_7",
+   "t": "choice",
+   "q": "O‘rta Osiyoning ko‘chmanchi chorvador qabilalari qanday atalgan?",
+   "a": "Saklar va massagetlar",
+   "w": [
+    "Rimliklar va yunonlar",
+    "Shumerlar va finikiyaliklar",
+    "Misrliklar va hindlar"
+   ],
+   "d": 1,
+   "x": "Ular dasht va tog‘ oldi hududlarida yashagan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_8",
+   "t": "choice",
+   "q": "Ahamoniylar davlatidagi viloyatlar qanday atalgan?",
+   "a": "Satrapliklar",
+   "w": [
+    "Polislar",
+    "Legionlar",
+    "Varnalar"
+   ],
+   "d": 3,
+   "x": "Satraplikni satrap boshqargan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_9",
+   "t": "choice",
+   "q": "Qadimgi Xorazm shohlarining qasri joylashgan mashhur yodgorlik qaysi?",
+   "a": "Tuproqqal’a",
+   "w": [
+    "Afrosiyob",
+    "Kolizey",
+    "Parfenon"
+   ],
+   "d": 1,
+   "x": "Tuproqqal’a — Qoraqalpog‘istondagi yodgorlik."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_10",
+   "t": "choice",
+   "q": "Xorazmdagi aylana shaklidagi qadimgi qal’a-ibodatxona qaysi?",
+   "a": "Qo‘yqirilganqal’a",
+   "w": [
+    "Tuproqqal’a",
+    "Afrosiyob",
+    "Sopollitepa"
+   ],
+   "d": 3,
+   "x": "Qo‘yqirilganqal’a aylana shaklida qurilgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_11",
+   "t": "choice",
+   "q": "Qadimgi Xorazm yodgorliklarini o‘rgangan mashhur arxeolog kim?",
+   "a": "Sergey Tolstov",
+   "w": [
+    "Fransua Shampolyon",
+    "Gerodot",
+    "Sokrat"
+   ],
+   "d": 3,
+   "x": "S. P. Tolstov boshchiligidagi ekspeditsiya Xorazmni ko‘p yillar o‘rgangan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_12",
+   "t": "choice",
+   "q": "Qadimgi Xorazm dehqonchiligining asosi nima bo‘lgan?",
+   "a": "Amudaryodan chiqarilgan kanallar",
+   "w": [
+    "Yomg‘ir suvi",
+    "Dengiz suvi",
+    "Qor suvi"
+   ],
+   "d": 1,
+   "x": "Xorazmda sug‘orish tizimi juda qadimdan rivojlangan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_13",
+   "t": "choice",
+   "q": "So‘g‘dlar Buyuk ipak yo‘lida qanday faoliyat bilan mashhur bo‘lgan?",
+   "a": "Savdogarlik",
+   "w": [
+    "Dengizchilik",
+    "Piramida qurish",
+    "Gladiatorlik"
+   ],
+   "d": 1,
+   "x": "So‘g‘d savdogarlari Xitoygacha borgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_14",
+   "t": "choice",
+   "q": "So‘g‘d va xorazm yozuvlari qaysi yozuv asosida paydo bo‘lgan?",
+   "a": "Oromiy yozuvi",
+   "w": [
+    "Lotin yozuvi",
+    "Iyeroglif",
+    "Kirill yozuvi"
+   ],
+   "d": 3,
+   "x": "Oromiy yozuvi Ahamoniylar davrida keng tarqalgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_15",
+   "t": "choice",
+   "q": "Qadimgi shaharlar qanday himoyalangan?",
+   "a": "Qalin mudofaa devorlari bilan",
+   "w": [
+    "Yog‘och panjaralar bilan",
+    "Hech qanday himoyasiz",
+    "Shisha devorlar bilan"
+   ],
+   "d": 1,
+   "x": "Shaharlar atrofi baland devor va xandaq bilan o‘ralgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_16",
+   "t": "tf",
+   "q": "Tuproqqal’a — qadimgi Xorazm shohlarining qasri.",
+   "a": true,
+   "d": 2,
+   "x": "U Qoraqalpog‘iston hududida joylashgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_17",
+   "t": "tf",
+   "q": "Saklar — Misrning o‘troq dehqonlari.",
+   "a": false,
+   "d": 1,
+   "x": "Saklar — O‘rta Osiyo va dasht hududlaridagi ko‘chmanchi chorvadorlar."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_18",
+   "t": "tf",
+   "q": "Mil. avv. VI asrda O‘rta Osiyoning katta qismi Ahamoniylar davlati tarkibiga kirgan.",
+   "a": true,
+   "d": 2,
+   "x": "Bu davr mil. avv. IV asrgacha davom etgan."
+  },
+  {
+   "topic": "history_g6.ancient_states",
+   "id": "ancient_states_19",
+   "t": "match",
+   "q": "Qadimgi o‘lkani hududi bilan juftlang",
+   "pairs": [
+    [
+     "Xorazm",
+     "Amudaryo quyi oqimi"
+    ],
+    [
+     "So‘g‘diyona",
+     "Zarafshon vodiysi"
+    ],
+    [
+     "Baqtriya",
+     "Amudaryo yuqori oqimi"
+    ],
+    [
+     "Dovon",
+     "Farg‘ona vodiysi"
+    ],
+    [
+     "Qang‘",
+     "Sirdaryo o‘rta oqimi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_1",
+   "t": "choice",
+   "q": "Zardushtiylik ta’limotining asoschisi kim?",
+   "a": "Zardusht",
+   "w": [
+    "Konfutsiy",
+    "Gomer",
+    "Xammurapi"
+   ],
+   "d": 1,
+   "x": "Ta’limot uning nomi bilan ataladi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_2",
+   "t": "choice",
+   "q": "Zardushtiylikda qaysi narsa muqaddas va poklik ramzi sanalgan?",
+   "a": "Olov",
+   "w": [
+    "Temir",
+    "Oltin",
+    "Tosh"
+   ],
+   "d": 1,
+   "x": "Otashkadalarda olov doim yonib turgan."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_3",
+   "t": "choice",
+   "q": "Zardushtiylikning asosiy axloqiy qoidasi qaysi?",
+   "a": "Ezgu fikr, ezgu so‘z, ezgu amal",
+   "w": [
+    "Kuchli bo‘lsang, hammasi seniki",
+    "Faqat o‘zingni o‘yla",
+    "Boylik — eng oliy maqsad"
+   ],
+   "d": 1,
+   "x": "Bu qoida insonni yaxshilikka chorlaydi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_4",
+   "t": "choice",
+   "q": "“Avesto”da ezgulik timsoli sifatida kim ulug‘langan?",
+   "a": "Axura Mazda",
+   "w": [
+    "Axriman",
+    "Zevs",
+    "Ra"
+   ],
+   "d": 2,
+   "x": "Axura Mazda — ezgulik va yorug‘lik timsoli."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_5",
+   "t": "choice",
+   "q": "“Avesto”da yovuzlik timsoli kim?",
+   "a": "Axriman",
+   "w": [
+    "Axura Mazda",
+    "Yupiter",
+    "Ra"
+   ],
+   "d": 3,
+   "x": "Ezgulik va yovuzlik kurashi — ta’limotning asosiy g‘oyasi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_6",
+   "t": "choice",
+   "q": "Zardushtiylar qaysi tabiat unsurlarini ifloslantirmaslikka chaqirgan?",
+   "a": "Yer, suv, havo va olov",
+   "w": [
+    "Faqat temirni",
+    "Faqat oltinni",
+    "Hech narsani"
+   ],
+   "d": 2,
+   "x": "Tabiatni pok saqlash muqaddas burch hisoblangan."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_7",
+   "t": "choice",
+   "q": "Zardushtiylikdagi olov ibodatxonasi qanday ataladi?",
+   "a": "Otashkada",
+   "w": [
+    "Zikkurat",
+    "Parfenon",
+    "Piramida"
+   ],
+   "d": 3,
+   "x": "“Otash” — olov degani."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_8",
+   "t": "choice",
+   "q": "“Avesto”da tilga olingan o‘lkalar qaysilar?",
+   "a": "So‘g‘d, Xorazm, Baqtriya, Marg‘iyona",
+   "w": [
+    "Misr, Rim, Yunoniston",
+    "Xitoy, Hindiston, Yaponiya",
+    "Finikiya, Bobil, Ossuriya"
+   ],
+   "d": 2,
+   "x": "Shuning uchun “Avesto” Vatanimiz tarixining muhim manbai."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_9",
+   "t": "choice",
+   "q": "“Avesto” qanday tarixiy manba?",
+   "a": "Eng qadimgi yozma manbalardan biri",
+   "w": [
+    "Rim qonunlari to‘plami",
+    "Yunon dostoni",
+    "Xitoy lug‘ati"
+   ],
+   "d": 1,
+   "x": "U O‘rta Osiyo xalqlarining qadimgi hayoti haqida ma’lumot beradi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_10",
+   "t": "choice",
+   "q": "“Avesto”da qanday mehnat ezgu ish sifatida ulug‘langan?",
+   "a": "Dehqonchilik va chorvachilik",
+   "w": [
+    "Talonchilik",
+    "Dangasalik",
+    "Qimor"
+   ],
+   "d": 2,
+   "x": "Yerni obod qilish, chorva boqish savobli ish deb bilingan."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_11",
+   "t": "choice",
+   "q": "Amudaryo bo‘yidan topilgan mashhur oltin va kumush buyumlar to‘plami qanday ataladi?",
+   "a": "Amudaryo xazinasi",
+   "w": [
+    "Tutanxamon xazinasi",
+    "Troya xazinasi",
+    "Rim xazinasi"
+   ],
+   "d": 3,
+   "x": "Xazina qadimgi zargarlarning yuksak mahoratini ko‘rsatadi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_12",
+   "t": "choice",
+   "q": "Navro‘z qanday bayram?",
+   "a": "Bahor va yangi yil bayrami",
+   "w": [
+    "Qish bayrami",
+    "Hosil bayrami",
+    "Dengiz bayrami"
+   ],
+   "d": 1,
+   "x": "Navro‘z juda qadimiy bayram, u kun va tun tenglashganda nishonlanadi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_13",
+   "t": "choice",
+   "q": "Toshkent shahrining 2200 yillik yubileyi qaysi yili nishonlangan?",
+   "a": "2009-yilda",
+   "w": [
+    "1991-yilda",
+    "1997-yilda",
+    "2020-yilda"
+   ],
+   "d": 3,
+   "x": "Toshkent — qadimiy shaharlarimizdan biri."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_14",
+   "t": "choice",
+   "q": "Termiz shahrining 2500 yillik yubileyi qaysi yili nishonlangan?",
+   "a": "2002-yilda",
+   "w": [
+    "1997-yilda",
+    "2007-yilda",
+    "2016-yilda"
+   ],
+   "d": 3,
+   "x": "Termiz — Surxondaryodagi qadimiy shahar."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_15",
+   "t": "tf",
+   "q": "Zardusht — “Avesto” ta’limotining asoschisi.",
+   "a": true,
+   "d": 1,
+   "x": "Zardushtiylik uning nomi bilan ataladi."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_16",
+   "t": "tf",
+   "q": "Axriman — ezgulik timsoli.",
+   "a": false,
+   "d": 1,
+   "x": "Axriman — yovuzlik timsoli; ezgulik timsoli — Axura Mazda."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_17",
+   "t": "tf",
+   "q": "Zardushtiylikda olov poklik ramzi hisoblangan.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun olov ibodatxonalari qurilgan."
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_18",
+   "t": "match",
+   "q": "Tushunchani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Zardusht",
+     "ta’limot asoschisi"
+    ],
+    [
+     "“Avesto”",
+     "muqaddas kitob"
+    ],
+    [
+     "Axura Mazda",
+     "ezgulik timsoli"
+    ],
+    [
+     "Axriman",
+     "yovuzlik timsoli"
+    ],
+    [
+     "otashkada",
+     "olov ibodatxonasi"
+    ],
+    [
+     "Navro‘z",
+     "bahor bayrami"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "history_g6.avesto",
+   "id": "avesto_19",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Zardushtiylar",
+    "olovni",
+    "poklik",
+    "ramzi",
+    "deb",
+    "bilgan"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Olov zardushtiylikda muqaddas sanalgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_1",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy kimning o‘g‘li edi?",
+   "a": "Filipp II",
+   "w": [
+    "Kir II",
+    "Doro I",
+    "Perikl"
+   ],
+   "d": 2,
+   "x": "Filipp II — Makedoniya podshosi."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_2",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy Sharqqa yurishni qaysi yili boshlagan?",
+   "a": "Mil. avv. 334-yilda",
+   "w": [
+    "Mil. avv. 776-yilda",
+    "Milodiy 476-yilda",
+    "Mil. avv. 44-yilda"
+   ],
+   "d": 3,
+   "x": "U Ahamoniylar davlatiga qarshi yurish boshlagan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_3",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy qo‘shini O‘rta Osiyoga qachon kirib kelgan?",
+   "a": "Mil. avv. 329-yilda",
+   "w": [
+    "Mil. avv. 530-yilda",
+    "Milodiy 79-yilda",
+    "Mil. avv. 221-yilda"
+   ],
+   "d": 1,
+   "x": "Mil. avv. 329-yilda Aleksandr Baqtriya va So‘g‘diyonaga kirib keldi."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_4",
+   "t": "choice",
+   "q": "Aleksandr qaysi davlatni tor-mor etib, O‘rta Osiyoga yo‘l ochgan?",
+   "a": "Ahamoniylar davlatini",
+   "w": [
+    "Rim respublikasini",
+    "Xitoy imperiyasini",
+    "Kushon podsholigini"
+   ],
+   "d": 2,
+   "x": "Ahamoniylar davlati mil. avv. 330-yilda qulagan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_5",
+   "t": "choice",
+   "q": "Aleksandr So‘g‘diyonaning qaysi markaziy shahrini egallagan?",
+   "a": "Maroqand",
+   "w": [
+    "Rim",
+    "Afina",
+    "Memfis"
+   ],
+   "d": 1,
+   "x": "Maroqand — qadimgi Samarqand."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_6",
+   "t": "choice",
+   "q": "Spitamen qaysi o‘lkaning sarkardasi bo‘lgan?",
+   "a": "So‘g‘diyonaning",
+   "w": [
+    "Misrning",
+    "Rimning",
+    "Xitoyning"
+   ],
+   "d": 1,
+   "x": "Spitamen so‘g‘dlarning bosqinchilarga qarshi kurashiga boshchilik qilgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_7",
+   "t": "choice",
+   "q": "Spitamen boshchiligidagi kurash qaysi asrda bo‘lgan?",
+   "a": "Mil. avv. IV asrda",
+   "w": [
+    "Milodiy XV asrda",
+    "Mil. avv. VIII asrda",
+    "Milodiy I asrda"
+   ],
+   "d": 2,
+   "x": "Aleksandr yurishi davrida — mil. avv. 329-yildan boshlab."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_8",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy uylangan mahalliy zodagon qizi kim?",
+   "a": "Roksana",
+   "w": [
+    "Barchin",
+    "To‘maris",
+    "Kleopatra"
+   ],
+   "d": 3,
+   "x": "Roksana — O‘rta Osiyolik zodagonning qizi."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_9",
+   "t": "choice",
+   "q": "Aleksandr Makedonskiy qachon va qayerda vafot etgan?",
+   "a": "Mil. avv. 323-yilda Bobilda",
+   "w": [
+    "Mil. avv. 329-yilda Maroqandda",
+    "Milodiy 476-yilda Rimda",
+    "Mil. avv. 490-yilda Marafonda"
+   ],
+   "d": 3,
+   "x": "Uning ulkan davlati vafotidan keyin bo‘linib ketgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_10",
+   "t": "choice",
+   "q": "Aleksandr vafotidan keyin O‘rta Osiyo qaysi sulola davlati tarkibiga kirgan?",
+   "a": "Salavkiylar",
+   "w": [
+    "Ahamoniylar",
+    "Kushonlar",
+    "Somoniylar"
+   ],
+   "d": 3,
+   "x": "Salavkiylar — Aleksandr sarkardalaridan biri asos solgan sulola."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_11",
+   "t": "choice",
+   "q": "Mil. avv. III asrda Baqtriyada tashkil topgan davlat qanday ataladi?",
+   "a": "Yunon-Baqtriya podsholigi",
+   "w": [
+    "Kushon podsholigi",
+    "Ahamoniylar davlati",
+    "Rim imperiyasi"
+   ],
+   "d": 2,
+   "x": "Bu davlatda yunon va mahalliy madaniyat qo‘shilib ketgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_12",
+   "t": "choice",
+   "q": "Yunon va Sharq madaniyatlari qo‘shilishidan paydo bo‘lgan madaniyat qanday ataladi?",
+   "a": "Ellinistik madaniyat",
+   "w": [
+    "Neolit madaniyati",
+    "Kaltaminor madaniyati",
+    "Shumer madaniyati"
+   ],
+   "d": 2,
+   "x": "“Ellin” — yunonlarning o‘zlarini atagan nomi."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_13",
+   "t": "choice",
+   "q": "Kushon podsholigi qaysi asrlarda mavjud bo‘lgan?",
+   "a": "Milodiy I–IV asrlarda",
+   "w": [
+    "Mil. avv. X asrda",
+    "Milodiy XV asrda",
+    "Milodiy XX asrda"
+   ],
+   "d": 2,
+   "x": "Kushonlar O‘rta Osiyo, Afg‘oniston va Shimoliy Hindistonni birlashtirgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_14",
+   "t": "choice",
+   "q": "Kushon podsholigining eng mashhur hukmdori kim?",
+   "a": "Kanishka",
+   "w": [
+    "Kir II",
+    "Ashoka",
+    "Doro I"
+   ],
+   "d": 1,
+   "x": "Kanishka davrida Kushon davlati eng qudratli bo‘lgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_15",
+   "t": "choice",
+   "q": "Surxondaryodagi qaysi Kushon davri shahri xarobasidan oltin xazina topilgan?",
+   "a": "Dalvarzintepa",
+   "w": [
+    "Afrosiyob",
+    "Tuproqqal’a",
+    "Obirahmat"
+   ],
+   "d": 3,
+   "x": "Dalvarzintepa xazinasi 1972-yilda topilgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_16",
+   "t": "choice",
+   "q": "Kushonlar davrida Hindistondan O‘rta Osiyoga qaysi ta’limot tarqalgan?",
+   "a": "Buddaviylik",
+   "w": [
+    "Zardushtiylik",
+    "Konfutsiylik",
+    "Yunon falsafasi"
+   ],
+   "d": 3,
+   "x": "Termiz yaqinidagi Fayoztepa va Qoratepa — buddaviylik ibodatxonalari xarobalari."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_17",
+   "t": "choice",
+   "q": "Kushonlar davrida Buyuk ipak yo‘li qanday ahvolda bo‘lgan?",
+   "a": "Savdo gullab-yashnagan",
+   "w": [
+    "Butunlay yopilgan",
+    "Hali ochilmagan",
+    "Faqat dengiz yo‘li bo‘lgan"
+   ],
+   "d": 1,
+   "x": "Kushon davlati Sharq va G‘arb savdosida vositachi bo‘lgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_18",
+   "t": "choice",
+   "q": "Xitoy manbalarida Farg‘ona vodiysidagi qadimgi davlat qanday atalgan?",
+   "a": "Dovon",
+   "w": [
+    "Qang‘",
+    "Baqtra",
+    "Satraplik"
+   ],
+   "d": 2,
+   "x": "Dovon haqida xitoy elchisi Chjan Szyan xabar bergan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_19",
+   "t": "choice",
+   "q": "Dovon qanday mashhur otlari bilan dong taratgan?",
+   "a": "“Samoviy otlar” (arg‘umoqlar)",
+   "w": [
+    "Mitti otlar",
+    "Qanotli otlar",
+    "Suv otlari"
+   ],
+   "d": 2,
+   "x": "Xitoy imperatorlari Dovon otlarini juda qadrlagan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_20",
+   "t": "tf",
+   "q": "Spitamen Aleksandr Makedonskiy qo‘shiniga qarshi kurashgan.",
+   "a": true,
+   "d": 1,
+   "x": "U vatan ozodligi uchun kurashgan qahramon."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_21",
+   "t": "tf",
+   "q": "Kanishka — Yunon-Baqtriya podsholigining asoschisi.",
+   "a": false,
+   "d": 1,
+   "x": "Kanishka — Kushon podsholigining mashhur hukmdori."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_22",
+   "t": "tf",
+   "q": "Kushonlar davrida tangalar zarb qilingan va savdo rivojlangan.",
+   "a": true,
+   "d": 1,
+   "x": "Kushon tangalari ko‘p joylardan topilgan."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_23",
+   "t": "order",
+   "q": "Davrlarni tartib bilan joylang",
+   "parts": [
+    "Ahamoniylar hukmronligi",
+    "Aleksandr yurishi",
+    "Yunon-Baqtriya podsholigi",
+    "Kushon podsholigi"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Mil. avv. VI asr → mil. avv. IV asr → mil. avv. III asr → milodiy I asr."
+  },
+  {
+   "topic": "history_g6.alexander_kushan",
+   "id": "alexander_kushan_24",
+   "t": "match",
+   "q": "Shaxs yoki joyni u haqidagi ma’lumot bilan juftlang",
+   "pairs": [
+    [
+     "Aleksandr Makedonskiy",
+     "mil. avv. 329-yilda O‘rta Osiyoga kelgan"
+    ],
+    [
+     "Spitamen",
+     "so‘g‘dlar kurashi rahbari"
+    ],
+    [
+     "Roksana",
+     "Aleksandrning rafiqasi"
+    ],
+    [
+     "Kanishka",
+     "Kushon hukmdori"
+    ],
+    [
+     "Dovon",
+     "samoviy otlar yurti"
+    ],
+    [
+     "Dalvarzintepa",
+     "Kushon davri shahri"
+    ]
+   ],
+   "d": 2
+  }
+ ]
+}

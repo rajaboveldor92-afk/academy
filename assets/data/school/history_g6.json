@@ -1,0 +1,609 @@
+{
+ "subject": "history",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Tarix",
+  "en": "History",
+  "ru": "История"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "history_g6.prehistory",
+   "code": "1",
+   "emoji": "🏹",
+   "title": {
+    "uz": "Tosh davri bosqichlari",
+    "en": "Stages of the Stone Age",
+    "ru": "Этапы каменного века"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ibtidoiy jamiyat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tosh davri uch bosqichga bo‘linadi:\n• Paleolit (qadimgi tosh davri) — tosh qurollar, olovdan foydalanish, ovchilik va termachilik; odamlar g‘or va makonlarda yashagan\n  (Obirahmat g‘ori — Toshkent viloyati).\n• Mezolit (o‘rta tosh davri) — kamon va o‘q keng tarqaldi, it qo‘lga o‘rgatildi.\n• Neolit (yangi tosh davri) — silliqlangan qurollar, kulolchilik, to‘quvchilik; dehqonchilik (bug‘doy, arpa) va chorvachilik paydo bo‘ldi\n  (“neolit inqilobi”), odamlar o‘troq hayotga o‘tdi. Xorazmda — Kaltaminor madaniyati.\n• Jamiyat: urug‘ (qon-qarindoshlar jamoasi) → qabila (urug‘lar birlashmasi)."
+   }
+  },
+  {
+   "id": "history_g6.metals",
+   "code": "2",
+   "emoji": "⚒️",
+   "title": {
+    "uz": "Metall davri va ilk davlatlar",
+    "en": "The Metal Age and early states",
+    "ru": "Век металлов и первые государства"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ibtidoiy jamiyat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Neolitdan keyin metall davri boshlandi:\n• Eneolit (mis-tosh davri) → bronza davri (bronza — mis va qalay qotishmasi) → temir davri.\n• Kulolchilik charxi, g‘ildirak ixtiro qilindi; hunarmandchilik alohida kasbga aylanib, ayirboshlash rivojlandi.\n• Ortiqcha mahsulot mulkiy tengsizlikni keltirib chiqardi; ilk shaharlar va davlatlar katta daryolar vodiylarida paydo bo‘ldi.\n• Vatanimizda: Sopollitepa va Jarqo‘ton (Surxondaryo), Chust madaniyati (Farg‘ona vodiysi)."
+   }
+  },
+  {
+   "id": "history_g6.time_bc",
+   "code": "3",
+   "emoji": "⏳",
+   "title": {
+    "uz": "Miloddan avvalgi sanalar",
+    "en": "Dates before Christ",
+    "ru": "Даты до нашей эры"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ibtidoiy jamiyat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Milod boshlanishidan oldingi yillar “miloddan avvalgi” (mil. avv.) deyiladi va teskari tartibda sanaladi: 776, 775, … 2, 1.\n• Nolinchi yil yo‘q: mil. avv. 1-yildan keyin milodiy 1-yil keladi.\n• Mil. avv. asr: 1-asr — mil. avv. 100–1-yillar, 8-asr — mil. avv. 800–701-yillar (776 → 8-asr).\n• Ikki mil. avv. sana orasidagi farq ayirish bilan topiladi: mil. avv. 776 dan mil. avv. 490 gacha 776 − 490 = 286 yil."
+   }
+  },
+  {
+   "id": "history_g6.centuries",
+   "code": "4",
+   "emoji": "📅",
+   "title": {
+    "uz": "Asr va yil (mashq)",
+    "en": "Years and centuries (practice)",
+    "ru": "Год и век (практика)"
+   },
+   "generator": "timeline",
+   "skill": "timeline",
+   "chapter": "1-chorak. Ibtidoiy jamiyat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "mode": "choice"
+    },
+    {
+     "mode": "mixed"
+    },
+    {
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Milodiy asrni topish uchun yildagi yuzliklar soniga 1 qo‘shiladi: 1441 → 14 + 1 = 15-asr. Yuzlikning oxirgi yili (100, 1900, 2000) o‘sha asrning oxirgi yili: 2000-yil — 20-asr, 2001-yildan 21-asr boshlangan."
+   }
+  },
+  {
+   "id": "history_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Ibtidoiy jamiyat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g6.egypt",
+   "code": "5",
+   "emoji": "🔺",
+   "title": {
+    "uz": "Qadimgi Misr",
+    "en": "Ancient Egypt",
+    "ru": "Древний Египет"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Qadimgi Sharq davlatlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qadimgi Misr — Nil vodiysida. Gerodot Misrni “Nil in’omi” deb atagan: har yili Nil toshib, dalalarga unumdor loyqa qoldirgan.\n• Yuqori va Quyi Misr mil. avv. 3000-yillar atrofida birlashgan. Hukmdor — fir’avn, amaldorlar — kotiblar.\n• Giza piramidalari va Sfinks; piramidalar — yetti mo‘jizadan bizgacha saqlangan yagonasi. Tutanxamon maqbarasi 1922-yilda topilgan.\n• Misrliklar 365 kunlik quyosh kalendarini yaratgan; matematika, astronomiya, tibbiyot rivojlangan.\n• Iyerogliflarni 1822-yilda Fransua Shampolyon Rozetta toshi yordamida o‘qigan."
+   }
+  },
+  {
+   "id": "history_g6.mesopotamia",
+   "code": "6",
+   "emoji": "🏺",
+   "title": {
+    "uz": "Mesopotamiya va Old Osiyo",
+    "en": "Mesopotamia and the Near East",
+    "ru": "Месопотамия и Передняя Азия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Qadimgi Sharq davlatlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Mesopotamiya (Dajla va Frot oralig‘i) — shumerlar vatani: ilk shahar-davlatlar (Ur, Uruk), zikkuratlar, mixxat, g‘ildirak;\n  60 lik sanoq (soatda 60 daqiqa).\n• Bobil (Frot bo‘yida) podshosi Xammurapi (mil. avv. XVIII asr) qonunlari tosh ustunga o‘yib yozilgan. Bobil osma bog‘lari — yetti mo‘jizadan biri.\n• Ossuriya podshosi Ashshurbanipal loy taxtachalardan iborat kutubxona to‘plagan.\n• Finikiyaliklar — dengizchi va savdogarlar; 22 harfli alifboni yaratgan.\n• Fors Ahamoniylar davlatiga mil. avv. 550-yilda Kir II asos solgan; Doro I “Shoh yo‘li”ni qurdirgan."
+   }
+  },
+  {
+   "id": "history_g6.india_china",
+   "code": "7",
+   "emoji": "🏯",
+   "title": {
+    "uz": "Qadimgi Hindiston va Xitoy",
+    "en": "Ancient India and China",
+    "ru": "Древняя Индия и Китай"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Qadimgi Sharq davlatlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Hind vodiysida mil. avv. III ming yillikda Xarappa va Moxenjo-Daro shaharlari bo‘lgan: to‘g‘ri ko‘chalar, kanalizatsiya.\n• Hind jamiyati 4 varnaga bo‘lingan. Hindlar nol va o‘nli sanoqni ishlab chiqqan, shaxmat Hindistonda paydo bo‘lgan.\n  Mashhur podsho — Ashoka (Maurya davlati).\n• Xitoyni mil. avv. 221-yilda Sin Shixuandi birlashtirgan; uning maqbarasi yonida sopol qo‘shin topilgan.\n• Faylasuf Konfutsiy odob, kattalarga hurmat va bilimni ulug‘lagan. Xitoy ixtirolari: qog‘oz (Say Lun, 105-yil), kompas, porox, chinni."
+   }
+  },
+  {
+   "id": "history_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Qadimgi Sharq davlatlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g6.greece",
+   "code": "8",
+   "emoji": "🏛️",
+   "title": {
+    "uz": "Yunon polislari: Afina va Sparta",
+    "en": "Greek city-states: Athens and Sparta",
+    "ru": "Греческие полисы: Афины и Спарта"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qadimgi Yunoniston — Bolqon yarim orolida. Yunonlar polislarda (shahar-davlatlarda) yashagan, O‘rta yer va Qora dengiz bo‘ylarida koloniyalar barpo etgan.\n• Afina — demokratiya markazi; gullagan davrida rahbari Perikl bo‘lgan. Akropol tepaligida ma’buda Afina ibodatxonasi — Parfenon.\n• Sparta — qat’iy harbiy tarbiya: bolalar 7 yoshdan tarbiyaga berilgan; podsho Leonid Fermopilda forslarga qarshi turgan.\n• Mil. avv. 490-yil Marafon jangida yunonlar forslarni yenggan; “marafon” poygasi shu voqea bilan bog‘liq.\n• Gomerning “Iliada” dostoni Troya urushi haqida."
+   }
+  },
+  {
+   "id": "history_g6.greek_culture",
+   "code": "9",
+   "emoji": "🦉",
+   "title": {
+    "uz": "Yunon madaniyati va fani",
+    "en": "Greek culture and science",
+    "ru": "Культура и наука Греции"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yunon madaniyati butun dunyoga ta’sir ko‘rsatgan:\n• Olimpiya o‘yinlari Zevs sharafiga 4 yilda bir marta o‘tkazilgan, o‘yinlar paytida urushlar to‘xtatilgan. Zamonaviy o‘yinlar 1896-yilda Afinada tiklangan.\n• Faylasuflar (faylasuf — “donolikni sevuvchi”): Sokrat → shogirdi Platon → uning shogirdi Aristotel.\n• Olimlar: Pifagor (matematika), Evklid (geometriya), Arximed (fizika, “Evrika!”), Demokrit (atom haqida),\n  Gippokrat — “tibbiyot otasi”, Gerodot — “tarix otasi”. Teatrda aktyorlar niqob taqib o‘ynagan."
+   }
+  },
+  {
+   "id": "history_g6.rome",
+   "code": "10",
+   "emoji": "🐺",
+   "title": {
+    "uz": "Qadimgi Rim: respublikadan imperiyagacha",
+    "en": "Ancient Rome: republic to empire",
+    "ru": "Древний Рим: от республики к империи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Rivoyatga ko‘ra, Rimga mil. avv. 753-yilda Romul va Rem asos solgan (ularni ona bo‘ri boqqan).\n• Mil. avv. 509-yildan Rim — respublika: har yili ikki konsul saylangan, senat — zodagonlar kengashi.\n  Aholi: patritsiylar (zodagonlar) va plebeylar (oddiy fuqarolar). Qo‘shin — legionlar.\n• Punik urushlarida Rim Karfagenni yengdi (Karfagen sarkardasi Gannibal fillar bilan Alp tog‘laridan o‘tgan). Qullar qo‘zg‘oloniga Spartak boshchilik qilgan.\n• Yuliy Sezar (“Keldim, ko‘rdim, yengdim”) — iyul oyi uning nomida; birinchi imperator — Oktavian Avgust (mil. avv. 27-yil).\n• Milodiy 79-yilda Pompey Vezuviy kuli ostida qolgan; G‘arbiy Rim imperiyasi 476-yilda qulagan."
+   }
+  },
+  {
+   "id": "history_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Qadimgi Yunoniston va Rim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g6.ancient_states",
+   "code": "11",
+   "emoji": "🏰",
+   "title": {
+    "uz": "O‘rta Osiyoning qadimgi o‘lkalari",
+    "en": "Ancient lands of Central Asia",
+    "ru": "Древние области Средней Азии"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘rta Osiyo qadimgi davrda",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mil. avv. I ming yillikda Vatanimiz hududida qadimgi davlatlar va o‘lkalar bo‘lgan:\n• Xorazm (Amudaryo quyi oqimi; Xorazm viloyati va Qoraqalpog‘iston) — sug‘orish kanallari, Tuproqqal’a (shohlar qasri),\n  Qo‘yqirilganqal’a (aylana qal’a). Ularni arxeolog Sergey Tolstov o‘rgangan.\n• So‘g‘diyona (Zarafshon vodiysi; markazi — Maroqand, ya’ni Samarqand), Baqtriya (Amudaryo yuqori oqimi; poytaxti Baqtra).\n• Ko‘chmanchi chorvadorlar — saklar va massagetlar.\n• Mil. avv. VI asrda O‘rta Osiyoning katta qismi Ahamoniylar davlatiga qo‘shilgan; viloyatlar — satrapliklar.\n• So‘g‘d va xorazm yozuvlari oromiy yozuvi asosida paydo bo‘lgan."
+   }
+  },
+  {
+   "id": "history_g6.avesto",
+   "code": "12",
+   "emoji": "🔥",
+   "title": {
+    "uz": "Zardushtiylik va “Avesto”",
+    "en": "Zoroastrianism and the Avesta",
+    "ru": "Зороастризм и «Авеста»"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘rta Osiyo qadimgi davrda",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Zardushtiylik — O‘rta Osiyo va Eronda keng tarqalgan qadimgi ta’limot, asoschisi — Zardusht. Muqaddas kitobi — “Avesto”.\n• Asosiy qoida: “Ezgu fikr, ezgu so‘z, ezgu amal”. Ezgulik timsoli — Axura Mazda, yovuzlik timsoli — Axriman.\n• Olov poklik ramzi sanalgan, ibodatxonalar — otashkadalar. Yer, suv, havo va olovni ifloslantirmaslik buyurilgan;\n  dehqonchilik va chorvachilik ezgu mehnat deb ulug‘langan.\n• “Avesto”da So‘g‘d, Xorazm, Baqtriya, Marg‘iyona tilga olinadi — u Vatanimiz tarixining muhim manbai.\n• Qadimiy shaharlarimiz: Termizning 2500 yilligi (2002), Toshkentning 2200 yilligi (2009) nishonlangan."
+   }
+  },
+  {
+   "id": "history_g6.alexander_kushan",
+   "code": "13",
+   "emoji": "⚔️",
+   "title": {
+    "uz": "Aleksandr yurishidan Kushon podsholigigacha",
+    "en": "From Alexander to the Kushan Empire",
+    "ru": "От Александра до Кушанского царства"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. O‘rta Osiyo qadimgi davrda",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Mil. avv. 334-yilda Aleksandr Makedonskiy (Filipp II ning o‘g‘li) Sharqqa yurish boshladi, Ahamoniylar davlatini tor-mor etib,\n  mil. avv. 329-yilda O‘rta Osiyoga kirib keldi, Maroqandni egalladi. So‘g‘d sarkardasi Spitamen boshchiligida xalq qat’iy kurashdi.\n• Aleksandr mahalliy zodagon qizi Roksanaga uylandi, mil. avv. 323-yilda Bobilda vafot etdi.\n• Keyin Salavkiylar, mil. avv. III asrdan Yunon-Baqtriya podsholigi; ellinistik madaniyat shakllandi.\n• Dovon (Farg‘ona) — “samoviy otlar” yurti; Qang‘ — Sirdaryo o‘rta oqimida.\n• Kushon podsholigi (milodiy I–IV asrlar), mashhur hukmdori — Kanishka. Buyuk ipak yo‘li gullab-yashnadi, buddaviylik tarqaldi;\n  Dalvarzintepada oltin xazina topilgan."
+   }
+  },
+  {
+   "id": "history_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. O‘rta Osiyo qadimgi davrda",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "history_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. O‘rta Osiyo qadimgi davrda",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc",
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china",
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome",
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc",
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china",
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome",
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "history_g6.prehistory",
+      "history_g6.metals",
+      "history_g6.time_bc",
+      "history_g6.egypt",
+      "history_g6.mesopotamia",
+      "history_g6.india_china",
+      "history_g6.greece",
+      "history_g6.greek_culture",
+      "history_g6.rome",
+      "history_g6.ancient_states",
+      "history_g6.avesto",
+      "history_g6.alexander_kushan"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "subject": "reading",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Adabiyot",
+  "en": "Literature",
+  "ru": "Литература"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "reading_g6.alpomish",
+   "code": "1",
+   "emoji": "🐎",
+   "title": {
+    "uz": "“Alpomish” dostoni qahramonlari",
+    "en": "Heroes of the epic Alpomish",
+    "ru": "Герои дастана «Алпамыш»"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Dostonlar va xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "“Alpomish” — o‘zbek xalqining qahramonlik dostoni; 1999-yilda uning 1000 yilligi nishonlangan.\n• Alpomish (asl ismi Hakimbek) — Qo‘ng‘irot elidan, otasi Boybo‘ri. Qallig‘i Barchin — Boysarining qizi.\n• Boysari kalmoq yurtiga ko‘chib ketadi; Alpomish uni izlab borib, kalmoq botiri Qorajon bilan do‘stlashadi.\n• Alpomish yetti yil zindonda qoladi, bu orada Ultontoz taxtni egallaydi. Alpomish qaytib, elini xoinlardan qutqaradi.\n• Singlisi — Qaldirg‘och, o‘g‘li — Yodgor."
+   }
+  },
+  {
+   "id": "reading_g6.gorogly",
+   "code": "2",
+   "emoji": "🏇",
+   "title": {
+    "uz": "“Go‘ro‘g‘li” turkumi va baxshilar",
+    "en": "The Gorogly cycle and bakhshis",
+    "ru": "Цикл «Гёроглы» и бахши"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Dostonlar va xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "“Go‘ro‘g‘li” — bir qahramon atrofida birlashgan dostonlar turkumi; u ko‘plab turkiy xalqlarda mashhur.\n• Go‘ro‘g‘li — Chambil yurtining botir hukmdori, oti — G‘irot. Nomi “go‘rda tug‘ilgan” degan rivoyat bilan bog‘lanadi.\n• Asrandi o‘g‘illari — Avazxon va Hasanxon. Turkumdagi dostonlar: “Avazxon”, “Malika ayyor”, “Yunus pari” va boshqalar.\n• Dostonlar turlari: qahramonlik (“Alpomish”), ishqiy-romantik (“Tohir va Zuhra”), tarixiy.\n• Mashhur baxshilar: Ergash Jumanbulbul o‘g‘li, Fozil Yo‘ldosh o‘g‘li, Po‘lkan shoir, Islom shoir."
+   }
+  },
+  {
+   "id": "reading_g6.folk_genres",
+   "code": "3",
+   "emoji": "🎵",
+   "title": {
+    "uz": "Xalq qo‘shiqlari, latifa va askiya",
+    "en": "Folk songs, anecdotes and askiya",
+    "ru": "Народные песни, анекдоты и аския"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Dostonlar va xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Xalq og‘zaki ijodida kichik janrlar ko‘p:\n• Qo‘shiqlar: alla (bola uxlatishda), yor-yor (to‘yda), lapar (yigit-qiz aytishuvi), mehnat qo‘shiqlari,\n  marosim qo‘shiqlari (“Boychechak” — bahorni kutib olish, “Sust xotin” — yomg‘ir chaqirish).\n• Bolalar folklori: sanama, tez aytish, topishmoq.\n• Latifa — kulgili qisqa hikoya (qahramoni — Nasriddin Afandi); askiya — so‘z o‘yiniga asoslangan hazil bahsi.\n• Terma — baxshi doston oldidan aytadigan she’riy parcha."
+   }
+  },
+  {
+   "id": "reading_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Dostonlar va xalq og‘zaki ijodi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g6.navoi",
+   "code": "4",
+   "emoji": "📜",
+   "title": {
+    "uz": "Alisher Navoiy va “Xamsa”",
+    "en": "Alisher Navoi and Khamsa",
+    "ru": "Алишер Навои и «Хамса»"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Mumtoz adabiyot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Alisher Navoiy (1441–1501) turkiy she’rlarida “Navoiy”, forsiy she’rlarida “Foniy” taxallusini qo‘llagan.\n• “Xamsa” (1483–1485): “Hayrat ul-abror” → “Farhod va Shirin” → “Layli va Majnun” → “Sab’ai sayyor” → “Saddi Iskandariy”.\n• Qahramonlar: Farhod — Chin shahzodasi, ko‘p hunarli; Shirin — Armaniston malikasi; Majnun (asl ismi Qays); Bahrom; Iskandar.\n• Boshqa asarlari: “Xazoyin ul-maoniy” (to‘rt devon), “Lison ut-tayr” (qushlar tilidan doston)."
+   }
+  },
+  {
+   "id": "reading_g6.bobur",
+   "code": "5",
+   "emoji": "👑",
+   "title": {
+    "uz": "Zahiriddin Muhammad Bobur",
+    "en": "Zahiriddin Muhammad Babur",
+    "ru": "Захириддин Мухаммад Бабур"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Mumtoz adabiyot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Zahiriddin Muhammad Bobur (1483–1530) — Temuriylar sulolasidan, otasi Umarshayx Mirzo Farg‘ona hukmdori bo‘lgan.\n• 12 yoshida Farg‘ona taxtiga o‘tirgan; 1526-yilda Hindistonda Boburiylar saltanatiga asos solgan.\n• “Boburnoma” (“Vaqoye’”) — turkiy tilda yozilgan xotira asari: voqealar, shaharlar, tabiat va odamlar tasviri.\n• She’rlari devonga jamlangan, ruboiylarida Vatan sog‘inchi kuchli; “Mubayyin” — she’riy yo‘lda yozilgan asar.\n• O‘g‘li Humoyun, qizi Gulbadanbegim (“Humoyunnoma” muallifi), nabirasi Akbar."
+   }
+  },
+  {
+   "id": "reading_g6.classic_forms",
+   "code": "6",
+   "emoji": "🖋️",
+   "title": {
+    "uz": "Mumtoz she’r shakllari",
+    "en": "Classical verse forms",
+    "ru": "Формы классического стиха"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Mumtoz adabiyot",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mumtoz she’riyat shakllari:\n• G‘azal — baytlardan tuziladi; matla’dan keyingi baytlarning ikkinchi misrasi matla’ bilan qofiyalanadi (a-a, b-a, v-a).\n• Ruboiy — to‘rt misra, qofiyasi odatda a-a-b-a; tuyuq — qofiyasi shakldosh so‘zlardan tuzilgan to‘rtlik; fard — bir bayt.\n• Masnaviy — har bayti o‘zaro qofiyalanadi (dostonlar shu shaklda); murabba’, muxammas, musaddas — 4, 5, 6 misrali bandli she’rlar.\n• Vazn — aruz (cho‘ziq va qisqa bo‘g‘inlar navbati). She’rlar to‘plami — devon, shoirlar haqidagi asar — tazkira."
+   }
+  },
+  {
+   "id": "reading_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Mumtoz adabiyot",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g6.prose20",
+   "code": "7",
+   "emoji": "📕",
+   "title": {
+    "uz": "XX asr o‘zbek nasri",
+    "en": "20th-century Uzbek prose",
+    "ru": "Узбекская проза XX века"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. XX asr o‘zbek adabiyoti",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "XX asr o‘zbek nasri:\n• Abdulla Qodiriy (Toshkent; hajviy taxallusi — Julqunboy) — “O‘tkan kunlar” (Otabek va Kumush), “Mehrobdan chayon” (Anvar va Ra’no).\n• Cho‘lpon (Abdulhamid Sulaymon o‘g‘li; Andijon) — shoir va nosir: “Kecha va kunduz” romani, “Uyg‘onish” to‘plami.\n  “Cho‘lpon” — tong yulduzi.\n• Oybek (Muso Toshmuhammad o‘g‘li) — “Navoiy”, “Qutlug‘ qon” romanlari, “Bolalik” qissasi.\n• G‘afur G‘ulom — “Shum bola” qissasi; Abdulla Qahhor — hikoya ustasi (“Anor”, “O‘g‘ri”)."
+   }
+  },
+  {
+   "id": "reading_g6.poetry20",
+   "code": "8",
+   "emoji": "🌹",
+   "title": {
+    "uz": "XX asr o‘zbek she’riyati",
+    "en": "20th-century Uzbek poetry",
+    "ru": "Узбекская поэзия XX века"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. XX asr o‘zbek adabiyoti",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "XX asr o‘zbek she’riyati:\n• Hamid Olimjon (Jizzax) — “Oygul bilan Baxtiyor” ertak-dostoni; rafiqasi Zulfiya — shoira (“Bahor keldi seni so‘roqlab”).\n• G‘afur G‘ulom — “Sen yetim emassan” she’ri (mehr-oqibat, insonparvarlik).\n• Abdulla Oripov (Qashqadaryo) — Davlat madhiyasi so‘zlari muallifi (musiqasi Mutal Burhonov).\n• Erkin Vohidov — “O‘zbegim” qasidasi, “Ruhlar isyoni” dostoni, “Oltin devor” komediyasi.\nShe’rdagi shoir kechinmalarini ifodalovchi obraz — lirik qahramon."
+   }
+  },
+  {
+   "id": "reading_g6.text_analysis",
+   "code": "9",
+   "emoji": "🔍",
+   "title": {
+    "uz": "Syujet va kompozitsiya",
+    "en": "Plot and composition",
+    "ru": "Сюжет и композиция"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. XX asr o‘zbek adabiyoti",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Badiiy asar tahlilida syujet unsurlarini aniqlang:\n• ekspozitsiya (tanishtiruv) → tugun (voqeani boshlab bergan hodisa) → voqealar rivoji → kulminatsiya (eng keskin nuqta) → yechim.\n• Konflikt — qarama-qarshi kuchlar yoki fikrlar to‘qnashuvi.\n• Badiiy detal — katta ma’no yuklangan kichik tafsilot (masalan, eski ro‘molcha).\n• Hikoyachi voqeani birinchi shaxsda (“men”) yoki uchinchi shaxsda so‘zlashi mumkin."
+   }
+  },
+  {
+   "id": "reading_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. XX asr o‘zbek adabiyoti",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g6.verse",
+   "code": "10",
+   "emoji": "🎼",
+   "title": {
+    "uz": "She’r tuzilishi va vazni",
+    "en": "Verse structure and metre",
+    "ru": "Строение и размер стиха"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Adabiyot nazariyasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "She’r vazni — misralardagi ohang o‘lchovi:\n• Barmoq — bo‘g‘inlar soni tengligiga asoslanadi (xalq og‘zaki ijodi, ko‘p zamonaviy she’rlar); misra turoqlarga bo‘linadi:\n  “Ba-hor kel-di, | gul o-chil-di” (4+4). Bo‘g‘inni sanash uchun unlilarni sanang.\n• Aruz — cho‘ziq va qisqa bo‘g‘inlar navbati (mumtoz she’riyat). Sarbast — vazn va qofiyadan erkin she’r.\n• Qofiyalanish tartibi: a-a-b-b, a-b-a-b, a-b-b-a. Radif — qofiyadan keyin aynan takrorlanadigan so‘z."
+   }
+  },
+  {
+   "id": "reading_g6.devices",
+   "code": "11",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Badiiy san’atlar",
+    "en": "Literary devices",
+    "ru": "Художественные приёмы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Adabiyot nazariyasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Badiiy san’atlar nutqni obrazli va ta’sirli qiladi:\n• Tashbeh (o‘xshatish) — tog‘day mustahkam; vositalari: -day, -dek, kabi, singari, misoli, go‘yo. Istiora — vositasiz, yashirin o‘xshatish.\n• Tashxis (jonlantirish) — oy uyalib yashirindi; intoq — hayvon yoki narsani gapirtirish.\n• Mubolag‘a — oshirib tasvirlash; sifatlash (epitet) — zumrad maysa, baxmal tun.\n• Tazod — zid tushunchalarni qarshilantirish (“Kecha va kunduz”); takrir — so‘z takrori; talmeh — mashhur voqea yoki qahramonga ishora."
+   }
+  },
+  {
+   "id": "reading_g6.kinds",
+   "code": "12",
+   "emoji": "🎭",
+   "title": {
+    "uz": "Adabiy turlar va janrlar",
+    "en": "Literary kinds and genres",
+    "ru": "Роды и жанры литературы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Adabiyot nazariyasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Adabiyot uch turga bo‘linadi: epos (voqea hikoya qilinadi), lirika (his-tuyg‘u ifodalanadi), drama (sahnada ijro uchun).\n• Epik janrlar: hikoya < qissa < roman, masal; doston — liro-epik janr (voqea ham, tuyg‘u ham bor).\n• Lirik janrlar: she’r, g‘azal, ruboiy, qasida.\n• Dramatik janrlar: tragediya, komediya, drama. Dramatik asar pardalarga bo‘linadi, dialog va monologdan tuziladi;\n  muallif izohi — remarka.\n• Misollar: “O‘tkan kunlar” — roman, “Bolalik” — qissa, “Anor” — hikoya, “Maysaraning ishi” — komediya."
+   }
+  },
+  {
+   "id": "reading_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Adabiyot nazariyasi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Adabiyot nazariyasi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres",
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms",
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis",
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres",
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms",
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis",
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "reading_g6.alpomish",
+      "reading_g6.gorogly",
+      "reading_g6.folk_genres",
+      "reading_g6.navoi",
+      "reading_g6.bobur",
+      "reading_g6.classic_forms",
+      "reading_g6.prose20",
+      "reading_g6.poetry20",
+      "reading_g6.text_analysis",
+      "reading_g6.verse",
+      "reading_g6.devices",
+      "reading_g6.kinds"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
