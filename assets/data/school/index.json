@@ -1,5 +1,7 @@
 {
  "curricula": [
+  "english_g1",
+  "english_g2",
   "english_g3",
   "english_g4",
   "english_g5",
@@ -52,6 +54,8 @@
   "science_g6"
  ],
  "banks": [
+  "bank_english_g1",
+  "bank_english_g2",
   "bank_english_g3",
   "bank_english_g4",
   "bank_english_g5",

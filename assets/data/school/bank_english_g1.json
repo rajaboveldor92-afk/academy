@@ -1,0 +1,5249 @@
+{
+ "items": [
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_1",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Salom!",
+   "w": [
+    "Xayr!",
+    "Rahmat!",
+    "Iltimos"
+   ],
+   "d": 1,
+   "x": "Hello! — Salom!",
+   "e": "👋",
+   "say": "Hello!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_2",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Xayr!",
+   "w": [
+    "Salom!",
+    "Rahmat!",
+    "Xayrli tong!"
+   ],
+   "d": 1,
+   "x": "Goodbye! — Xayr!",
+   "say": "Goodbye!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_3",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Rahmat!",
+   "w": [
+    "Salom!",
+    "Xayr!",
+    "Kechirasiz!"
+   ],
+   "d": 1,
+   "x": "Thank you! — Rahmat!",
+   "say": "Thank you!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_4",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Xayrli tong!",
+   "w": [
+    "Xayrli tun!",
+    "Xayr!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "Good morning! — Xayrli tong!",
+   "e": "🌅",
+   "say": "Good morning!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_5",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Xayrli tun!",
+   "w": [
+    "Xayrli tong!",
+    "Salom!",
+    "Iltimos"
+   ],
+   "d": 1,
+   "x": "Good night! — Xayrli tun!",
+   "e": "🌙",
+   "say": "Good night!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_6",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Ha!",
+   "w": [
+    "Yo‘q!",
+    "Salom!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "Yes! — Ha!",
+   "say": "Yes!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_7",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Yo‘q!",
+   "w": [
+    "Ha!",
+    "Rahmat!",
+    "Salom!"
+   ],
+   "d": 1,
+   "x": "No! — Yo‘q!",
+   "say": "No!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Salom!",
+   "w": [
+    "Xayr!",
+    "Kechirasiz!",
+    "Yo‘q!"
+   ],
+   "d": 1,
+   "x": "Hi! — Salom!",
+   "say": "Hi!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Xayr!",
+   "w": [
+    "Salom!",
+    "Iltimos",
+    "Ha!"
+   ],
+   "d": 1,
+   "x": "Bye! — Xayr!",
+   "say": "Bye!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_10",
+   "t": "choice",
+   "q": "Tinglang: bu so‘z qachon aytiladi?",
+   "a": "🌅",
+   "w": [
+    "🌙",
+    "🌃"
+   ],
+   "d": 1,
+   "x": "Good morning! — Xayrli tong! U ertalab aytiladi.",
+   "say": "Good morning!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_11",
+   "t": "choice",
+   "q": "Tinglang: bu so‘z qachon aytiladi?",
+   "a": "🌙",
+   "w": [
+    "🌅",
+    "🌞"
+   ],
+   "d": 1,
+   "x": "Good night! — Xayrli tun! U uxlashdan oldin aytiladi.",
+   "say": "Good night!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_12",
+   "t": "tf",
+   "q": "Tinglang: bu salomlashishmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: Hello! — Salom!",
+   "e": "👋",
+   "say": "Hello!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_13",
+   "t": "tf",
+   "q": "Tinglang: bu “Rahmat!” degani.",
+   "a": false,
+   "d": 1,
+   "x": "Sorry! — Kechirasiz! “Rahmat!” esa — Thank you!",
+   "say": "Sorry!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_14",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Kechirasiz!",
+   "w": [
+    "Rahmat!",
+    "Salom!",
+    "Xayrli tun!"
+   ],
+   "d": 2,
+   "x": "Sorry! — Kechirasiz!",
+   "say": "Sorry!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_15",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Iltimos",
+   "w": [
+    "Rahmat",
+    "Kechirasiz",
+    "Xayr"
+   ],
+   "d": 2,
+   "x": "Please — Iltimos",
+   "say": "Please",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_16",
+   "t": "tf",
+   "q": "Tinglang: bu ertalab aytiladi.",
+   "a": false,
+   "d": 2,
+   "x": "Good night! — Xayrli tun! U kechasi, uxlashdan oldin aytiladi.",
+   "say": "Good night!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_17",
+   "t": "choice",
+   "q": "Do‘stingizni ko‘rdingiz. Nima deysiz?",
+   "a": "Hello!",
+   "w": [
+    "Goodbye!",
+    "Good night!",
+    "Sorry!"
+   ],
+   "d": 2,
+   "x": "Uchrashganda Hello! (Salom!) deymiz.",
+   "e": "🙂"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_18",
+   "t": "choice",
+   "q": "Maktabdan uyga ketyapsiz. Do‘stingizga nima deysiz?",
+   "a": "Bye!",
+   "w": [
+    "Hi!",
+    "Thank you!",
+    "Good morning!"
+   ],
+   "d": 2,
+   "x": "Xayrlashganda Bye! yoki Goodbye! (Xayr!) deymiz."
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_19",
+   "t": "choice",
+   "q": "Sizga sovg‘a berishdi. Nima deysiz?",
+   "a": "Thank you!",
+   "w": [
+    "Goodbye!",
+    "Sorry!",
+    "Good night!"
+   ],
+   "d": 2,
+   "x": "Sovg‘a olganda Thank you! (Rahmat!) deymiz.",
+   "e": "🎁"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_20",
+   "t": "choice",
+   "q": "Uxlashga yotyapsiz. Onangizga nima deysiz?",
+   "a": "Good night!",
+   "w": [
+    "Good morning!",
+    "Hello!",
+    "Thank you!"
+   ],
+   "d": 2,
+   "x": "Uxlashdan oldin Good night! (Xayrli tun!) deymiz.",
+   "e": "🛏️"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_21",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "Hello!",
+     "Salom!"
+    ],
+    [
+     "Goodbye!",
+     "Xayr!"
+    ],
+    [
+     "Thank you!",
+     "Rahmat!"
+    ],
+    [
+     "Yes",
+     "Ha"
+    ],
+    [
+     "No",
+     "Yo‘q"
+    ],
+    [
+     "Please",
+     "Iltimos"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_22",
+   "t": "choice",
+   "q": "Ustoz sinfga kirib shunday dedi. Siz nima deysiz?",
+   "a": "Good morning!",
+   "w": [
+    "Good night!",
+    "Goodbye!",
+    "Sorry!"
+   ],
+   "d": 3,
+   "x": "Salomga salom bilan javob beramiz: Good morning!",
+   "say": "Good morning, children!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_23",
+   "t": "choice",
+   "q": "Do‘stingizni bilmasdan turtib yubordingiz. Nima deysiz?",
+   "a": "Sorry!",
+   "w": [
+    "Thank you!",
+    "Hello!",
+    "Good night!"
+   ],
+   "d": 3,
+   "x": "Uzr so‘raganda Sorry! (Kechirasiz!) deymiz."
+  },
+  {
+   "topic": "english_g1.greetings",
+   "id": "greetings_24",
+   "t": "choice",
+   "q": "Qaysi so‘z “Ha” degani?",
+   "a": "Yes",
+   "w": [
+    "No",
+    "Hi",
+    "Bye"
+   ],
+   "d": 3,
+   "x": "Yes — Ha, No — Yo‘q."
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_1",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Isming nima?",
+   "w": [
+    "Qalaysan?",
+    "Xayr!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "What is your name? — Isming nima?",
+   "say": "What is your name?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_2",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Qalaysan, Ali?",
+   "w": [
+    "Isming nima, Ali?",
+    "Xayr, Ali!",
+    "Salom, Ali!"
+   ],
+   "d": 1,
+   "x": "How are you, Ali? — Qalaysan, Ali?",
+   "say": "How are you, Ali?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_3",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Yaxshi, rahmat.",
+   "w": [
+    "Mening ismim Anvar.",
+    "Xayrli tun!",
+    "Kechirasiz!"
+   ],
+   "d": 1,
+   "x": "I'm fine, thank you. — Yaxshi, rahmat.",
+   "say": "I'm fine, thank you.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_4",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Mening ismim Ali.",
+   "w": [
+    "Men o‘g‘il bolaman.",
+    "Salom, Ali!",
+    "Xayr, Ali!"
+   ],
+   "d": 1,
+   "x": "My name is Ali. — Mening ismim Ali.",
+   "say": "My name is Ali.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👦",
+   "w": [
+    "👧",
+    "👶"
+   ],
+   "d": 1,
+   "x": "boy — o‘g‘il bola 👦",
+   "say": "boy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👧",
+   "w": [
+    "👦",
+    "👴"
+   ],
+   "d": 1,
+   "x": "girl — qiz bola 👧",
+   "say": "girl",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👦",
+   "w": [
+    "👧",
+    "👵"
+   ],
+   "d": 1,
+   "x": "I am a boy. — Men o‘g‘il bolaman. 👦",
+   "say": "I am a boy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👧",
+   "w": [
+    "👦",
+    "👶"
+   ],
+   "d": 1,
+   "x": "I am a girl. — Men qiz bolaman. 👧",
+   "say": "I am a girl.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_9",
+   "t": "choice",
+   "q": "Tinglang: bolaning ismi nima?",
+   "a": "Zarina",
+   "w": [
+    "Laylo",
+    "Nodira",
+    "Kamola"
+   ],
+   "d": 1,
+   "x": "My name is Zarina. — Mening ismim Zarina.",
+   "say": "My name is Zarina.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_10",
+   "t": "choice",
+   "q": "Tinglang: bolaning ismi nima?",
+   "a": "Bobur",
+   "w": [
+    "Jasur",
+    "Sardor",
+    "Aziz"
+   ],
+   "d": 1,
+   "x": "My name is Bobur. — Mening ismim Bobur.",
+   "say": "Hello! My name is Bobur.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_11",
+   "t": "choice",
+   "q": "Tinglang: bola o‘zini qanday his qilyapti?",
+   "a": "🙂",
+   "w": [
+    "😢",
+    "😴"
+   ],
+   "d": 1,
+   "x": "I'm fine! — Yaxshiman! 🙂",
+   "say": "I'm fine!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_12",
+   "t": "tf",
+   "q": "Tinglang: gap rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: I am a girl. — Men qiz bolaman.",
+   "e": "👧",
+   "say": "I am a girl.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_13",
+   "t": "tf",
+   "q": "Tinglang: gap rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda o‘g‘il bola. U “I am a boy.” deydi.",
+   "e": "👦",
+   "say": "I am a girl.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_14",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Men Aliman.",
+   "w": [
+    "U Ali.",
+    "Salom, Ali!",
+    "Xayr, Ali!"
+   ],
+   "d": 2,
+   "x": "I am Ali. — Men Aliman.",
+   "say": "I am Ali.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_15",
+   "t": "choice",
+   "q": "Tinglang: kim gapiryapti?",
+   "a": "👧",
+   "w": [
+    "👦",
+    "👴"
+   ],
+   "d": 2,
+   "x": "I am a girl — men qiz bolaman. Ismi — Malika.",
+   "say": "Hi! I am a girl. My name is Malika.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_16",
+   "t": "choice",
+   "q": "Tinglang: kim gapiryapti?",
+   "a": "👦",
+   "w": [
+    "👧",
+    "👵"
+   ],
+   "d": 2,
+   "x": "I am a boy — men o‘g‘il bolaman. Ismi — Jasur.",
+   "say": "Hello! I am a boy. My name is Jasur.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_17",
+   "t": "choice",
+   "q": "Sizdan “What is your name?” deb so‘rashdi. Javob qaysi?",
+   "a": "My name is Olim.",
+   "w": [
+    "I'm fine, thank you.",
+    "Goodbye!",
+    "Good night!"
+   ],
+   "d": 2,
+   "x": "Ism so‘ralsa: My name is … — Mening ismim …",
+   "say": "What is your name?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_18",
+   "t": "tf",
+   "q": "“I'm fine.” — “Yaxshiman.” degani.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: I'm fine. — Yaxshiman. Hol so‘ralganda shunday javob beramiz.",
+   "say": "I'm fine.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_19",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I am a ...",
+   "a": "girl",
+   "w": [
+    "boy",
+    "name",
+    "fine"
+   ],
+   "d": 2,
+   "x": "Rasmda qiz bola: I am a girl.",
+   "e": "👧",
+   "say": "I am a ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_20",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: I am a ...",
+   "a": "boy",
+   "w": [
+    "girl",
+    "name",
+    "morning"
+   ],
+   "d": 2,
+   "x": "Rasmda o‘g‘il bola: I am a boy.",
+   "e": "👦",
+   "say": "I am a ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_21",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "What is your name?",
+     "Isming nima?"
+    ],
+    [
+     "How are you?",
+     "Qalaysan?"
+    ],
+    [
+     "I am a boy.",
+     "Men o‘g‘il bolaman."
+    ],
+    [
+     "I am a girl.",
+     "Men qiz bolaman."
+    ],
+    [
+     "I'm fine.",
+     "Yaxshiman."
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_22",
+   "t": "tf",
+   "q": "“My name is Kamol.” — “Mening ismim Kamol.” degani.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: My name is … — Mening ismim …",
+   "say": "My name is Kamol.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_23",
+   "t": "choice",
+   "q": "Bo‘sh joyga mos so‘zni tanlang: What is your ...?",
+   "a": "name",
+   "w": [
+    "boy",
+    "fine",
+    "girl"
+   ],
+   "d": 3,
+   "x": "What is your name? — Isming nima?",
+   "say": "What is your ...?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_24",
+   "t": "choice",
+   "q": "“Isming nima?” inglizcha qanday?",
+   "a": "What is your name?",
+   "w": [
+    "How are you?",
+    "My name is Ali.",
+    "Goodbye!"
+   ],
+   "d": 3,
+   "x": "Isming nima? — What is your name?"
+  },
+  {
+   "topic": "english_g1.my_name",
+   "id": "my_name_25",
+   "t": "choice",
+   "q": "Qiz bola o‘zi haqida nima deydi?",
+   "a": "I am a girl.",
+   "w": [
+    "I am a boy.",
+    "I am a baby.",
+    "Good night!"
+   ],
+   "d": 3,
+   "x": "Qiz bola: I am a girl. O‘g‘il bola: I am a boy.",
+   "e": "👧"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🖊️",
+   "w": [
+    "✏️",
+    "📕"
+   ],
+   "d": 1,
+   "x": "pen — ruchka 🖊️",
+   "say": "pen",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "✏️",
+   "w": [
+    "🖊️",
+    "📏"
+   ],
+   "d": 1,
+   "x": "pencil — qalam ✏️",
+   "say": "pencil",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "📕",
+   "w": [
+    "🎒",
+    "✂️"
+   ],
+   "d": 1,
+   "x": "book — kitob 📕",
+   "say": "book",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🎒",
+   "w": [
+    "📕",
+    "📏"
+   ],
+   "d": 1,
+   "x": "bag — sumka 🎒",
+   "say": "bag",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "📏",
+   "w": [
+    "✏️",
+    "✂️"
+   ],
+   "d": 1,
+   "x": "ruler — chizg‘ich 📏",
+   "say": "ruler",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "📓",
+   "w": [
+    "✂️",
+    "📏"
+   ],
+   "d": 1,
+   "x": "notebook — daftar 📓",
+   "say": "notebook",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "✂️",
+   "w": [
+    "🖊️",
+    "🎒"
+   ],
+   "d": 1,
+   "x": "scissors — qaychi ✂️",
+   "say": "scissors",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🖍️",
+   "w": [
+    "📓",
+    "✂️"
+   ],
+   "d": 1,
+   "x": "crayon — rangli qalam 🖍️",
+   "say": "crayon",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🏫",
+   "w": [
+    "🎒",
+    "📕"
+   ],
+   "d": 1,
+   "x": "school — maktab 🏫",
+   "say": "school",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "parta",
+   "w": [
+    "o‘chirg‘ich",
+    "maktab"
+   ],
+   "d": 1,
+   "x": "desk — parta",
+   "say": "desk",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "o‘chirg‘ich",
+   "w": [
+    "parta",
+    "chizg‘ich"
+   ],
+   "d": 1,
+   "x": "rubber — o‘chirg‘ich",
+   "say": "rubber",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_12",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: pencil — qalam ✏️.",
+   "e": "✏️",
+   "say": "pencil",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_13",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — chizg‘ich (ruler). book esa — kitob.",
+   "e": "📏",
+   "say": "book",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_14",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👩‍🏫",
+   "w": [
+    "🏫",
+    "📕"
+   ],
+   "d": 2,
+   "x": "teacher — o‘qituvchi 👩‍🏫",
+   "say": "teacher",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_15",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "o‘qituvchi",
+   "w": [
+    "maktab",
+    "parta"
+   ],
+   "d": 2,
+   "x": "teacher — o‘qituvchi 👩‍🏫",
+   "say": "teacher",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_16",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 2,
+   "x": "Rasmda — sumka (bag). scissors esa — qaychi.",
+   "e": "🎒",
+   "say": "scissors",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_17",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "📕",
+   "w": [
+    "🖊️",
+    "📏"
+   ],
+   "d": 2,
+   "x": "It is a book. — Bu kitob. 📕",
+   "say": "It is a book.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_18",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🎒",
+   "w": [
+    "✏️",
+    "🏫"
+   ],
+   "d": 2,
+   "x": "This is my bag. — Bu mening sumkam. 🎒",
+   "say": "This is my bag.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_19",
+   "t": "choice",
+   "q": "Tinglang: bu buyum bilan nima qilamiz?",
+   "a": "qog‘oz qirqamiz",
+   "w": [
+    "kitob o‘qiymiz",
+    "to‘p o‘ynaymiz"
+   ],
+   "d": 2,
+   "x": "scissors — qaychi ✂️. Qaychi bilan qog‘oz qirqamiz.",
+   "say": "scissors",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_20",
+   "t": "choice",
+   "q": "Tinglang: bu buyum bilan nima qilamiz?",
+   "a": "o‘qiymiz",
+   "w": [
+    "qirqamiz",
+    "yeymiz"
+   ],
+   "d": 2,
+   "x": "book — kitob 📕. Kitobni o‘qiymiz.",
+   "say": "book",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_21",
+   "t": "match",
+   "q": "Buyumni rasmga moslang",
+   "pairs": [
+    [
+     "pen",
+     "🖊️"
+    ],
+    [
+     "pencil",
+     "✏️"
+    ],
+    [
+     "book",
+     "📕"
+    ],
+    [
+     "bag",
+     "🎒"
+    ],
+    [
+     "ruler",
+     "📏"
+    ],
+    [
+     "scissors",
+     "✂️"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_22",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "desk",
+     "parta"
+    ],
+    [
+     "rubber",
+     "o‘chirg‘ich"
+    ],
+    [
+     "notebook",
+     "daftar"
+    ],
+    [
+     "teacher",
+     "o‘qituvchi"
+    ],
+    [
+     "school",
+     "maktab"
+    ],
+    [
+     "crayon",
+     "rangli qalam"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_23",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "pencil",
+   "w": [
+    "pen",
+    "bag",
+    "book"
+   ],
+   "d": 3,
+   "x": "✏️ — pencil (qalam)",
+   "e": "✏️"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_24",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "ruler",
+   "w": [
+    "rubber",
+    "desk",
+    "pen"
+   ],
+   "d": 3,
+   "x": "📏 — ruler (chizg‘ich)",
+   "e": "📏"
+  },
+  {
+   "topic": "english_g1.classroom",
+   "id": "classroom_25",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "cat",
+   "w": [
+    "pen",
+    "book",
+    "ruler"
+   ],
+   "d": 3,
+   "x": "cat — mushuk; pen, book, ruler — maktab buyumlari."
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_1",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Turing!",
+   "w": [
+    "O‘tiring!",
+    "Tinglang!"
+   ],
+   "d": 1,
+   "x": "Stand up! — Turing!",
+   "say": "Stand up!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_2",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "O‘tiring!",
+   "w": [
+    "Turing!",
+    "Qarang!"
+   ],
+   "d": 1,
+   "x": "Sit down! — O‘tiring!",
+   "say": "Sit down!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_3",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Kitobingizni oching!",
+   "w": [
+    "Kitobingizni yoping!",
+    "Turing!"
+   ],
+   "d": 1,
+   "x": "Open your book! — Kitobingizni oching! 📖",
+   "say": "Open your book!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_4",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Qarang!",
+   "w": [
+    "Tinglang!",
+    "O‘tiring!"
+   ],
+   "d": 1,
+   "x": "Look! — Qarang! 👀",
+   "say": "Look!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👂",
+   "w": [
+    "👀",
+    "👏"
+   ],
+   "d": 1,
+   "x": "Listen! — Tinglang! 👂",
+   "say": "Listen!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👀",
+   "w": [
+    "👂",
+    "🙌"
+   ],
+   "d": 1,
+   "x": "Look! — Qarang! 👀",
+   "say": "Look!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👏",
+   "w": [
+    "🙌",
+    "🤫"
+   ],
+   "d": 1,
+   "x": "Clap your hands! — Qarsak chaling! 👏",
+   "say": "Clap your hands!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🤫",
+   "w": [
+    "👏",
+    "👀"
+   ],
+   "d": 1,
+   "x": "Be quiet! — Jim bo‘ling! 🤫",
+   "say": "Be quiet!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🙌",
+   "w": [
+    "👏",
+    "👂"
+   ],
+   "d": 1,
+   "x": "Hands up! — Qo‘llarni ko‘taring! 🙌",
+   "say": "Hands up!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_10",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: Listen! — Tinglang! 👂",
+   "e": "👂",
+   "say": "Listen!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Kitobingizni yoping!",
+   "w": [
+    "Kitobingizni oching!",
+    "Qarsak chaling!"
+   ],
+   "d": 2,
+   "x": "Close your book! — Kitobingizni yoping! 📕",
+   "say": "Close your book!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_12",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Jim bo‘ling!",
+   "w": [
+    "Tinglang!",
+    "Qo‘llarni ko‘taring!"
+   ],
+   "d": 2,
+   "x": "Be quiet! — Jim bo‘ling! 🤫",
+   "say": "Be quiet!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_13",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "📖",
+   "w": [
+    "📕",
+    "👂"
+   ],
+   "d": 2,
+   "x": "Open your book! — Kitobingizni oching! 📖 (ochiq kitob)",
+   "say": "Open your book!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_14",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 2,
+   "x": "Rasmda qarsak 👏 — Clap your hands! Look! esa — Qarang!",
+   "e": "👏",
+   "say": "Look!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_15",
+   "t": "choice",
+   "q": "O‘qituvchi shunday dedi. Nima qilasiz?",
+   "a": "Jim o‘tiraman",
+   "w": [
+    "Qo‘shiq aytaman",
+    "Yuguraman",
+    "Baqiraman"
+   ],
+   "d": 2,
+   "x": "Be quiet! — Jim bo‘ling!",
+   "say": "Be quiet!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_16",
+   "t": "choice",
+   "q": "O‘qituvchi shunday dedi. Nima qilasiz?",
+   "a": "O‘rnimdan turaman",
+   "w": [
+    "O‘tiraman",
+    "Qarsak chalaman",
+    "Kitobni yopaman"
+   ],
+   "d": 2,
+   "x": "Stand up! — Turing!",
+   "say": "Stand up!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_17",
+   "t": "choice",
+   "q": "O‘qituvchi shunday dedi. Nima qilasiz?",
+   "a": "Qarsak chalaman",
+   "w": [
+    "O‘rnimdan turaman",
+    "Kitobni ochaman",
+    "Jim o‘tiraman"
+   ],
+   "d": 2,
+   "x": "Clap your hands! — Qarsak chaling!",
+   "say": "Clap your hands!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_18",
+   "t": "match",
+   "q": "Buyruqni rasmga moslang",
+   "pairs": [
+    [
+     "Listen!",
+     "👂"
+    ],
+    [
+     "Look!",
+     "👀"
+    ],
+    [
+     "Clap your hands!",
+     "👏"
+    ],
+    [
+     "Be quiet!",
+     "🤫"
+    ],
+    [
+     "Open your book!",
+     "📖"
+    ],
+    [
+     "Hands up!",
+     "🙌"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_19",
+   "t": "match",
+   "q": "Buyruqni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "Stand up!",
+     "Turing!"
+    ],
+    [
+     "Sit down!",
+     "O‘tiring!"
+    ],
+    [
+     "Open your book!",
+     "Kitobingizni oching!"
+    ],
+    [
+     "Close your book!",
+     "Kitobingizni yoping!"
+    ],
+    [
+     "Listen!",
+     "Tinglang!"
+    ],
+    [
+     "Look!",
+     "Qarang!"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_20",
+   "t": "choice",
+   "q": "Tinglang: bunga teskari buyruq qaysi?",
+   "a": "Sit down!",
+   "w": [
+    "Clap your hands!",
+    "Look!",
+    "Listen!"
+   ],
+   "d": 3,
+   "x": "Stand up! (Turing!) — Sit down! (O‘tiring!)",
+   "say": "Stand up!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_21",
+   "t": "choice",
+   "q": "Tinglang: bunga teskari buyruq qaysi?",
+   "a": "Close your book!",
+   "w": [
+    "Hands up!",
+    "Stand up!",
+    "Be quiet!"
+   ],
+   "d": 3,
+   "x": "Open your book! (Oching!) — Close your book! (Yoping!)",
+   "say": "Open your book!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.commands",
+   "id": "commands_22",
+   "t": "choice",
+   "q": "“Qarang!” inglizcha qanday?",
+   "a": "Look!",
+   "w": [
+    "Listen!",
+    "Sit down!",
+    "Stand up!"
+   ],
+   "d": 3,
+   "x": "Look! — Qarang! Listen! — Tinglang!"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_1",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "❤️",
+   "w": [
+    "💙",
+    "💛"
+   ],
+   "d": 1,
+   "x": "red — qizil ❤️",
+   "say": "red",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_2",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💛",
+   "w": [
+    "💚",
+    "💜"
+   ],
+   "d": 1,
+   "x": "yellow — sariq 💛",
+   "say": "yellow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_3",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💙",
+   "w": [
+    "❤️",
+    "💚"
+   ],
+   "d": 1,
+   "x": "blue — ko‘k 💙",
+   "say": "blue",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_4",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💚",
+   "w": [
+    "💛",
+    "💙"
+   ],
+   "d": 1,
+   "x": "green — yashil 💚",
+   "say": "green",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_5",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💜",
+   "w": [
+    "🧡",
+    "💙"
+   ],
+   "d": 1,
+   "x": "purple — binafsha 💜",
+   "say": "purple",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_6",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "🧡",
+   "w": [
+    "💜",
+    "💚"
+   ],
+   "d": 1,
+   "x": "orange — to‘q sariq 🧡",
+   "say": "orange",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_7",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💗",
+   "w": [
+    "💛",
+    "🖤"
+   ],
+   "d": 1,
+   "x": "pink — pushti 💗",
+   "say": "pink",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_8",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "🖤",
+   "w": [
+    "💗",
+    "💛"
+   ],
+   "d": 1,
+   "x": "black — qora 🖤",
+   "say": "black",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_9",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "⚪",
+   "w": [
+    "🖤",
+    "❤️"
+   ],
+   "d": 1,
+   "x": "white — oq ⚪",
+   "say": "white",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "jigarrang",
+   "w": [
+    "pushti",
+    "sariq"
+   ],
+   "d": 1,
+   "x": "brown — jigarrang",
+   "say": "brown",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "oq",
+   "w": [
+    "qora",
+    "qizil"
+   ],
+   "d": 1,
+   "x": "white — oq ⚪",
+   "say": "white",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_12",
+   "t": "tf",
+   "q": "Tinglang: rang rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: olma qizil — red.",
+   "e": "🍎",
+   "say": "red",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_13",
+   "t": "tf",
+   "q": "Tinglang: rang rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Banan sariq — yellow. blue esa — ko‘k.",
+   "e": "🍌",
+   "say": "blue",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_14",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "🍌",
+   "w": [
+    "🍎",
+    "🍇"
+   ],
+   "d": 2,
+   "x": "yellow — sariq. Banan sariq.",
+   "say": "yellow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_15",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "🐸",
+   "w": [
+    "🍌",
+    "🍎"
+   ],
+   "d": 2,
+   "x": "green — yashil. Qurbaqa yashil.",
+   "say": "green",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_16",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "🍎",
+   "w": [
+    "🍌",
+    "🐸"
+   ],
+   "d": 2,
+   "x": "red — qizil. Olma qizil.",
+   "say": "red",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_17",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "⛄",
+   "w": [
+    "🍫",
+    "🐸"
+   ],
+   "d": 2,
+   "x": "white — oq. Qor odam oppoq qordan yasaladi. ⛄",
+   "say": "white",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_18",
+   "t": "tf",
+   "q": "Tinglang: rang rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: apelsin to‘q sariq. Qiziq: apelsin ham inglizcha orange!",
+   "e": "🍊",
+   "say": "orange",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_19",
+   "t": "choice",
+   "q": "Tinglang va rangni toping",
+   "a": "💙",
+   "w": [
+    "💛",
+    "❤️"
+   ],
+   "d": 2,
+   "x": "It is blue. — U ko‘k. 💙",
+   "say": "It is blue.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_20",
+   "t": "match",
+   "q": "Rangni rasmga moslang",
+   "pairs": [
+    [
+     "red",
+     "❤️"
+    ],
+    [
+     "yellow",
+     "💛"
+    ],
+    [
+     "green",
+     "💚"
+    ],
+    [
+     "blue",
+     "💙"
+    ],
+    [
+     "purple",
+     "💜"
+    ],
+    [
+     "orange",
+     "🧡"
+    ],
+    [
+     "black",
+     "🖤"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_21",
+   "t": "match",
+   "q": "Rangni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "white",
+     "oq"
+    ],
+    [
+     "black",
+     "qora"
+    ],
+    [
+     "pink",
+     "pushti"
+    ],
+    [
+     "brown",
+     "jigarrang"
+    ],
+    [
+     "red",
+     "qizil"
+    ],
+    [
+     "yellow",
+     "sariq"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_22",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "🍫",
+   "w": [
+    "🍌",
+    "🐸"
+   ],
+   "d": 3,
+   "x": "brown — jigarrang. Shokolad jigarrang.",
+   "say": "brown",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_23",
+   "t": "choice",
+   "q": "Tinglang: qaysi narsa shu rangda?",
+   "a": "🍇",
+   "w": [
+    "🍋",
+    "🐸"
+   ],
+   "d": 3,
+   "x": "purple — binafsha. Bu uzum binafsha rangda.",
+   "say": "purple",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_24",
+   "t": "choice",
+   "q": "Rasmga qarang. Bu qanday rang? Inglizcha tanlang",
+   "a": "green",
+   "w": [
+    "red",
+    "yellow",
+    "blue"
+   ],
+   "d": 3,
+   "x": "💚 — green (yashil).",
+   "e": "💚"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_25",
+   "t": "choice",
+   "q": "Rasmga qarang. Bu qanday rang? Inglizcha tanlang",
+   "a": "pink",
+   "w": [
+    "purple",
+    "black",
+    "white"
+   ],
+   "d": 3,
+   "x": "💗 — pink (pushti).",
+   "e": "💗"
+  },
+  {
+   "topic": "english_g1.colours",
+   "id": "colours_26",
+   "t": "choice",
+   "q": "Tinglang: qaysi ikki rang aytildi?",
+   "a": "❤️💙",
+   "w": [
+    "💛💚",
+    "🖤⚪",
+    "💜🧡"
+   ],
+   "d": 3,
+   "x": "red and blue — qizil va ko‘k.",
+   "say": "red and blue",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_1",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "1",
+   "w": [
+    "7",
+    "4"
+   ],
+   "d": 1,
+   "x": "one — 1",
+   "say": "one",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_2",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "2",
+   "w": [
+    "5",
+    "3"
+   ],
+   "d": 1,
+   "x": "two — 2",
+   "say": "two",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_3",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "3",
+   "w": [
+    "8",
+    "10"
+   ],
+   "d": 1,
+   "x": "three — 3",
+   "say": "three",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_4",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "4",
+   "w": [
+    "6",
+    "9"
+   ],
+   "d": 1,
+   "x": "four — 4",
+   "say": "four",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_5",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "5",
+   "w": [
+    "2",
+    "9"
+   ],
+   "d": 1,
+   "x": "five — 5",
+   "say": "five",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_6",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "7",
+   "w": [
+    "1",
+    "4"
+   ],
+   "d": 1,
+   "x": "seven — 7",
+   "say": "seven",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_7",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "8",
+   "w": [
+    "3",
+    "6"
+   ],
+   "d": 1,
+   "x": "eight — 8",
+   "say": "eight",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_8",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "10",
+   "w": [
+    "1",
+    "7"
+   ],
+   "d": 1,
+   "x": "ten — 10",
+   "say": "ten",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_9",
+   "t": "choice",
+   "q": "Tinglang: qaysi rasmda shuncha narsa bor?",
+   "a": "🍎🍎",
+   "w": [
+    "🍎",
+    "🍎🍎🍎"
+   ],
+   "d": 1,
+   "x": "two — 2: 🍎🍎",
+   "say": "two",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_10",
+   "t": "choice",
+   "q": "Tinglang: qaysi rasmda shuncha narsa bor?",
+   "a": "🐶",
+   "w": [
+    "🐶🐶",
+    "🐶🐶🐶"
+   ],
+   "d": 1,
+   "x": "one — 1: 🐶",
+   "say": "one",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_11",
+   "t": "tf",
+   "q": "Tinglang: son to‘g‘rimi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: 3 ta shar — three.",
+   "text": "🎈 🎈 🎈",
+   "say": "three",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_12",
+   "t": "tf",
+   "q": "Tinglang: son to‘g‘rimi?",
+   "a": false,
+   "d": 1,
+   "x": "Bu yerda 2 ta baliq — two.",
+   "text": "🐟 🐟",
+   "say": "three",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_13",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "6",
+   "w": [
+    "9",
+    "3"
+   ],
+   "d": 2,
+   "x": "six — 6",
+   "say": "six",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_14",
+   "t": "choice",
+   "q": "Tinglang va sonni toping",
+   "a": "9",
+   "w": [
+    "6",
+    "5"
+   ],
+   "d": 2,
+   "x": "nine — 9",
+   "say": "nine",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_15",
+   "t": "choice",
+   "q": "Tinglang: qaysi rasmda shuncha narsa bor?",
+   "a": "🐱🐱🐱",
+   "w": [
+    "🐱🐱",
+    "🐱🐱🐱🐱"
+   ],
+   "d": 2,
+   "x": "three — 3: 🐱🐱🐱",
+   "say": "three",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_16",
+   "t": "choice",
+   "q": "Tinglang: qaysi rasmda shuncha narsa bor?",
+   "a": "⭐⭐⭐⭐",
+   "w": [
+    "⭐⭐⭐",
+    "⭐⭐"
+   ],
+   "d": 2,
+   "x": "four — 4: ⭐⭐⭐⭐",
+   "say": "four",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_17",
+   "t": "tf",
+   "q": "Tinglang: son to‘g‘rimi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: 5 ta yulduz — five.",
+   "text": "⭐ ⭐ ⭐ ⭐ ⭐",
+   "say": "five",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_18",
+   "t": "choice",
+   "q": "Sanang: nechta? Inglizcha tanlang",
+   "a": "four",
+   "w": [
+    "three",
+    "five",
+    "two"
+   ],
+   "d": 2,
+   "x": "4 ta jo‘ja — four.",
+   "text": "🐤 🐤 🐤 🐤"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_19",
+   "t": "choice",
+   "q": "Tinglang va hisoblang",
+   "a": "3",
+   "w": [
+    "2",
+    "4",
+    "5"
+   ],
+   "d": 2,
+   "x": "one plus two — 1 + 2 = 3.",
+   "say": "one plus two",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_20",
+   "t": "choice",
+   "q": "Tinglang va hisoblang",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "6"
+   ],
+   "d": 2,
+   "x": "two plus two — 2 + 2 = 4.",
+   "say": "two plus two",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_21",
+   "t": "choice",
+   "q": "Tinglang: qaysi son tushib qoldi?",
+   "a": "3",
+   "w": [
+    "5",
+    "6",
+    "2"
+   ],
+   "d": 2,
+   "x": "one, two, three, four — 1, 2, 3, 4.",
+   "say": "one, two, ..., four",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_22",
+   "t": "match",
+   "q": "Son va so‘zni juftlang",
+   "pairs": [
+    [
+     "5",
+     "five"
+    ],
+    [
+     "7",
+     "seven"
+    ],
+    [
+     "8",
+     "eight"
+    ],
+    [
+     "9",
+     "nine"
+    ],
+    [
+     "10",
+     "ten"
+    ],
+    [
+     "3",
+     "three"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_23",
+   "t": "choice",
+   "q": "Bir qo‘lingizda nechta barmoq bor? Inglizcha tanlang",
+   "a": "five",
+   "w": [
+    "four",
+    "six",
+    "ten"
+   ],
+   "d": 2,
+   "x": "Bir qo‘lda 5 ta barmoq — five.",
+   "e": "🖐️"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_24",
+   "t": "choice",
+   "q": "Sanang: nechta? Inglizcha tanlang",
+   "a": "six",
+   "w": [
+    "seven",
+    "five",
+    "nine"
+   ],
+   "d": 3,
+   "x": "6 ta qulupnay — six.",
+   "text": "🍓 🍓 🍓 🍓 🍓 🍓"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_25",
+   "t": "choice",
+   "q": "Tinglang va hisoblang",
+   "a": "10",
+   "w": [
+    "9",
+    "8",
+    "6"
+   ],
+   "d": 3,
+   "x": "five plus five — 5 + 5 = 10.",
+   "say": "five plus five",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_26",
+   "t": "choice",
+   "q": "Tinglang: qaysi son tushib qoldi?",
+   "a": "8",
+   "w": [
+    "6",
+    "9",
+    "10"
+   ],
+   "d": 3,
+   "x": "six, seven, eight, nine — 6, 7, 8, 9.",
+   "say": "six, seven, ..., nine",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.numbers",
+   "id": "numbers_27",
+   "t": "choice",
+   "q": "Ikkala qo‘lingizda nechta barmoq bor? Inglizcha tanlang",
+   "a": "ten",
+   "w": [
+    "five",
+    "eight",
+    "nine"
+   ],
+   "d": 3,
+   "x": "Ikki qo‘lda 10 ta barmoq — ten.",
+   "e": "🙌"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "⚽",
+   "w": [
+    "🚗",
+    "🥁"
+   ],
+   "d": 1,
+   "x": "ball — to‘p ⚽",
+   "say": "ball",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🚗",
+   "w": [
+    "🚂",
+    "✈️"
+   ],
+   "d": 1,
+   "x": "car — mashina 🚗",
+   "say": "car",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🎈",
+   "w": [
+    "⚽",
+    "🤖"
+   ],
+   "d": 1,
+   "x": "balloon — havo shari 🎈",
+   "say": "balloon",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🤖",
+   "w": [
+    "🚗",
+    "🎈"
+   ],
+   "d": 1,
+   "x": "robot — robot 🤖",
+   "say": "robot",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🥁",
+   "w": [
+    "⚽",
+    "🚲"
+   ],
+   "d": 1,
+   "x": "drum — baraban 🥁",
+   "say": "drum",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🚂",
+   "w": [
+    "🚗",
+    "⛵"
+   ],
+   "d": 1,
+   "x": "train — poyezd 🚂",
+   "say": "train",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "✈️",
+   "w": [
+    "🚂",
+    "🎈"
+   ],
+   "d": 1,
+   "x": "plane — samolyot ✈️",
+   "say": "plane",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🚲",
+   "w": [
+    "🚗",
+    "🥁"
+   ],
+   "d": 1,
+   "x": "bike — velosiped 🚲",
+   "say": "bike",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "⛵",
+   "w": [
+    "✈️",
+    "🤖"
+   ],
+   "d": 1,
+   "x": "boat — qayiq ⛵",
+   "say": "boat",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "qo‘g‘irchoq",
+   "w": [
+    "ayiqcha",
+    "varrak"
+   ],
+   "d": 1,
+   "x": "doll — qo‘g‘irchoq",
+   "say": "doll",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "ayiqcha",
+   "w": [
+    "qo‘g‘irchoq",
+    "to‘p"
+   ],
+   "d": 1,
+   "x": "teddy bear — ayiqcha",
+   "say": "teddy bear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_12",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: ball — to‘p ⚽.",
+   "e": "⚽",
+   "say": "ball",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_13",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — baraban (drum). robot esa — robot.",
+   "e": "🥁",
+   "say": "robot",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_14",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "varrak",
+   "w": [
+    "velosiped",
+    "qo‘g‘irchoq"
+   ],
+   "d": 2,
+   "x": "kite — varrak",
+   "say": "kite",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_15",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "o‘yinchoq",
+   "w": [
+    "robot",
+    "mashina"
+   ],
+   "d": 2,
+   "x": "toy — o‘yinchoq",
+   "say": "toy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_16",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 2,
+   "x": "Rasmda — qayiq (boat). train esa — poyezd.",
+   "e": "⛵",
+   "say": "train",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_17",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🚗",
+   "w": [
+    "🚂",
+    "🚲"
+   ],
+   "d": 2,
+   "x": "It is a red car. — Bu qizil mashina. 🚗",
+   "say": "It is a red car.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_18",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🎈",
+   "w": [
+    "⚽",
+    "🥁"
+   ],
+   "d": 2,
+   "x": "This is my balloon. — Bu mening havo sharim. 🎈",
+   "say": "This is my balloon.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_19",
+   "t": "choice",
+   "q": "Tinglang: qaysi rasm to‘g‘ri?",
+   "a": "⚽⚽",
+   "w": [
+    "⚽",
+    "⚽⚽⚽"
+   ],
+   "d": 2,
+   "x": "two balls — ikkita to‘p.",
+   "say": "two balls",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_20",
+   "t": "match",
+   "q": "O‘yinchoqni rasmga moslang",
+   "pairs": [
+    [
+     "ball",
+     "⚽"
+    ],
+    [
+     "car",
+     "🚗"
+    ],
+    [
+     "balloon",
+     "🎈"
+    ],
+    [
+     "robot",
+     "🤖"
+    ],
+    [
+     "drum",
+     "🥁"
+    ],
+    [
+     "train",
+     "🚂"
+    ],
+    [
+     "plane",
+     "✈️"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_21",
+   "t": "match",
+   "q": "O‘yinchoqni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "doll",
+     "qo‘g‘irchoq"
+    ],
+    [
+     "teddy bear",
+     "ayiqcha"
+    ],
+    [
+     "kite",
+     "varrak"
+    ],
+    [
+     "ball",
+     "to‘p"
+    ],
+    [
+     "car",
+     "mashina"
+    ],
+    [
+     "bike",
+     "velosiped"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_22",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "robot",
+   "w": [
+    "ball",
+    "drum",
+    "car"
+   ],
+   "d": 3,
+   "x": "🤖 — robot (robot)",
+   "e": "🤖"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_23",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "drum",
+   "w": [
+    "doll",
+    "ball",
+    "boat"
+   ],
+   "d": 3,
+   "x": "🥁 — drum (baraban)",
+   "e": "🥁"
+  },
+  {
+   "topic": "english_g1.toys",
+   "id": "toys_24",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "apple",
+   "w": [
+    "ball",
+    "doll",
+    "kite"
+   ],
+   "d": 3,
+   "x": "apple — olma; ball, doll, kite — o‘yinchoqlar."
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👩",
+   "w": [
+    "👨",
+    "👶"
+   ],
+   "d": 1,
+   "x": "mother — ona 👩",
+   "say": "mother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👨",
+   "w": [
+    "👩",
+    "👴"
+   ],
+   "d": 1,
+   "x": "father — ota 👨",
+   "say": "father",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👧",
+   "w": [
+    "👦",
+    "👶"
+   ],
+   "d": 1,
+   "x": "sister — opa yoki singil 👧",
+   "say": "sister",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👦",
+   "w": [
+    "👧",
+    "👨"
+   ],
+   "d": 1,
+   "x": "brother — aka yoki uka 👦",
+   "say": "brother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👶",
+   "w": [
+    "👧",
+    "👵"
+   ],
+   "d": 1,
+   "x": "baby — chaqaloq 👶",
+   "say": "baby",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👵",
+   "w": [
+    "👩",
+    "👴"
+   ],
+   "d": 1,
+   "x": "grandmother — buvi 👵",
+   "say": "grandmother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👴",
+   "w": [
+    "👨",
+    "👵"
+   ],
+   "d": 1,
+   "x": "grandfather — bobo 👴",
+   "say": "grandfather",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👪",
+   "w": [
+    "👶",
+    "👩"
+   ],
+   "d": 1,
+   "x": "family — oila 👪",
+   "say": "family",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👩",
+   "w": [
+    "👨",
+    "👵"
+   ],
+   "d": 1,
+   "x": "mum — ona 👩",
+   "say": "mum",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_10",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👨",
+   "w": [
+    "👩",
+    "👴"
+   ],
+   "d": 1,
+   "x": "dad — ota 👨",
+   "say": "dad",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "buvi",
+   "w": [
+    "ona",
+    "chaqaloq"
+   ],
+   "d": 1,
+   "x": "grandmother — buvi 👵",
+   "say": "grandmother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_12",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: baby — chaqaloq 👶.",
+   "e": "👶",
+   "say": "baby",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_13",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — ota (father). mother esa — ona.",
+   "e": "👨",
+   "say": "mother",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_14",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👵",
+   "w": [
+    "👴",
+    "👩"
+   ],
+   "d": 2,
+   "x": "granny — buvi 👵",
+   "say": "granny",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_15",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👴",
+   "w": [
+    "👵",
+    "👨"
+   ],
+   "d": 2,
+   "x": "grandpa — bobo 👴",
+   "say": "grandpa",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_16",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "oila",
+   "w": [
+    "ota",
+    "chaqaloq"
+   ],
+   "d": 2,
+   "x": "family — oila 👪",
+   "say": "family",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_17",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: grandfather — bobo 👴.",
+   "e": "👴",
+   "say": "grandfather",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_18",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👨",
+   "w": [
+    "👩",
+    "👶"
+   ],
+   "d": 2,
+   "x": "This is my dad. — Bu mening otam. 👨",
+   "say": "This is my dad.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_19",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👵",
+   "w": [
+    "👴",
+    "👧"
+   ],
+   "d": 2,
+   "x": "This is my granny. — Bu mening buvim. 👵",
+   "say": "This is my granny.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_20",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👧",
+   "w": [
+    "👦",
+    "👴"
+   ],
+   "d": 2,
+   "x": "This is my sister. — Bu mening opam (singlim). 👧",
+   "say": "This is my sister.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Men oilamni yaxshi ko‘raman.",
+   "w": [
+    "Bu mening onam.",
+    "Bu mening otam.",
+    "Men maktabni yaxshi ko‘raman."
+   ],
+   "d": 2,
+   "x": "I love my family. — Men oilamni yaxshi ko‘raman.",
+   "say": "I love my family.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_22",
+   "t": "match",
+   "q": "So‘zni rasmga moslang",
+   "pairs": [
+    [
+     "mother",
+     "👩"
+    ],
+    [
+     "father",
+     "👨"
+    ],
+    [
+     "baby",
+     "👶"
+    ],
+    [
+     "grandmother",
+     "👵"
+    ],
+    [
+     "grandfather",
+     "👴"
+    ],
+    [
+     "family",
+     "👪"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_23",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "mum",
+     "ona"
+    ],
+    [
+     "dad",
+     "ota"
+    ],
+    [
+     "sister",
+     "opa yoki singil"
+    ],
+    [
+     "brother",
+     "aka yoki uka"
+    ],
+    [
+     "baby",
+     "chaqaloq"
+    ],
+    [
+     "granny",
+     "buvi"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_24",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "baby",
+   "w": [
+    "father",
+    "mother",
+    "sister"
+   ],
+   "d": 3,
+   "x": "👶 — baby (chaqaloq)",
+   "e": "👶"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_25",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "grandmother",
+   "w": [
+    "grandfather",
+    "mother",
+    "sister"
+   ],
+   "d": 3,
+   "x": "👵 — grandmother (buvi)",
+   "e": "👵"
+  },
+  {
+   "topic": "english_g1.family",
+   "id": "family_26",
+   "t": "choice",
+   "q": "Tinglang: oilada necha kishi bor?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "2"
+   ],
+   "d": 3,
+   "x": "Mum, dad, sister va men — 4 kishi.",
+   "say": "Mum, dad, my sister and me.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👃",
+   "w": [
+    "👂",
+    "👄"
+   ],
+   "d": 1,
+   "x": "nose — burun 👃",
+   "say": "nose",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👀",
+   "w": [
+    "👃",
+    "✋"
+   ],
+   "d": 1,
+   "x": "eyes — ko‘zlar 👀",
+   "say": "eyes",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👂",
+   "w": [
+    "👀",
+    "👅"
+   ],
+   "d": 1,
+   "x": "ear — quloq 👂",
+   "say": "ear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👄",
+   "w": [
+    "👃",
+    "👂"
+   ],
+   "d": 1,
+   "x": "mouth — og‘iz 👄",
+   "say": "mouth",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "✋",
+   "w": [
+    "🙂",
+    "👄"
+   ],
+   "d": 1,
+   "x": "hand — qo‘l ✋",
+   "say": "hand",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🙂",
+   "w": [
+    "✋",
+    "👀"
+   ],
+   "d": 1,
+   "x": "face — yuz 🙂",
+   "say": "face",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_7",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "bosh",
+   "w": [
+    "soch",
+    "yuz"
+   ],
+   "d": 1,
+   "x": "head — bosh",
+   "say": "head",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "soch",
+   "w": [
+    "bosh",
+    "burun"
+   ],
+   "d": 1,
+   "x": "hair — soch",
+   "say": "hair",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "oyoqlar",
+   "w": [
+    "qo‘l",
+    "quloq"
+   ],
+   "d": 1,
+   "x": "legs — oyoqlar",
+   "say": "legs",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_10",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: ear — quloq 👂.",
+   "e": "👂",
+   "say": "ear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_11",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — burun (nose). mouth esa — og‘iz.",
+   "e": "👃",
+   "say": "mouth",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_12",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "👅",
+   "w": [
+    "👄",
+    "👀"
+   ],
+   "d": 2,
+   "x": "tongue — til 👅",
+   "say": "tongue",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_13",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: hand — qo‘l ✋.",
+   "e": "✋",
+   "say": "hand",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_14",
+   "t": "choice",
+   "q": "Tinglang: qaysi a’zoni ushlaysiz?",
+   "a": "👃",
+   "w": [
+    "👂",
+    "👀"
+   ],
+   "d": 2,
+   "x": "Touch your nose! — Burningizni ushlang! 👃",
+   "say": "Touch your nose!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_15",
+   "t": "choice",
+   "q": "Tinglang: qaysi a’zoni ushlaysiz?",
+   "a": "👂",
+   "w": [
+    "👄",
+    "👃"
+   ],
+   "d": 2,
+   "x": "Touch your ear! — Qulog‘ingizni ushlang! 👂",
+   "say": "Touch your ear!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_16",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Ko‘zingizni yuming!",
+   "w": [
+    "Ko‘zingizni oching!",
+    "Og‘zingizni oching!",
+    "Qulog‘ingizni ushlang!"
+   ],
+   "d": 2,
+   "x": "Close your eyes! — Ko‘zingizni yuming!",
+   "say": "Close your eyes!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_17",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Og‘zingizni oching!",
+   "w": [
+    "Ko‘zingizni yuming!",
+    "Qo‘lingizni ko‘taring!",
+    "Burningizni ushlang!"
+   ],
+   "d": 2,
+   "x": "Open your mouth! — Og‘zingizni oching!",
+   "say": "Open your mouth!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_18",
+   "t": "choice",
+   "q": "Tinglang: bu a’zo bilan nima qilamiz?",
+   "a": "ko‘ramiz",
+   "w": [
+    "eshitamiz",
+    "hid bilamiz"
+   ],
+   "d": 2,
+   "x": "eyes — ko‘zlar. Ko‘z bilan ko‘ramiz. 👀",
+   "say": "eyes",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_19",
+   "t": "choice",
+   "q": "Tinglang: bu a’zo bilan nima qilamiz?",
+   "a": "eshitamiz",
+   "w": [
+    "ko‘ramiz",
+    "hid bilamiz"
+   ],
+   "d": 2,
+   "x": "ears — quloqlar. Quloq bilan eshitamiz. 👂",
+   "say": "ears",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_20",
+   "t": "choice",
+   "q": "Odamning nechta qulog‘i bor? Inglizcha tanlang",
+   "a": "two",
+   "w": [
+    "one",
+    "three",
+    "four"
+   ],
+   "d": 2,
+   "x": "Odamning ikkita qulog‘i bor — two ears.",
+   "e": "👂"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_21",
+   "t": "match",
+   "q": "So‘zni rasmga moslang",
+   "pairs": [
+    [
+     "nose",
+     "👃"
+    ],
+    [
+     "eyes",
+     "👀"
+    ],
+    [
+     "ear",
+     "👂"
+    ],
+    [
+     "mouth",
+     "👄"
+    ],
+    [
+     "hand",
+     "✋"
+    ],
+    [
+     "tongue",
+     "👅"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_22",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "head",
+     "bosh"
+    ],
+    [
+     "hair",
+     "soch"
+    ],
+    [
+     "face",
+     "yuz"
+    ],
+    [
+     "nose",
+     "burun"
+    ],
+    [
+     "mouth",
+     "og‘iz"
+    ],
+    [
+     "legs",
+     "oyoqlar"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_23",
+   "t": "choice",
+   "q": "Tinglang: bu a’zo bilan nima qilamiz?",
+   "a": "hid bilamiz",
+   "w": [
+    "ko‘ramiz",
+    "eshitamiz"
+   ],
+   "d": 3,
+   "x": "nose — burun. Burun bilan hid bilamiz. 👃",
+   "say": "nose",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_24",
+   "t": "choice",
+   "q": "Odamning nechta burni bor? Inglizcha tanlang",
+   "a": "one",
+   "w": [
+    "two",
+    "three",
+    "four"
+   ],
+   "d": 3,
+   "x": "Odamning bitta burni bor — one nose.",
+   "e": "👃"
+  },
+  {
+   "topic": "english_g1.body",
+   "id": "body_25",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "nose",
+   "w": [
+    "ear",
+    "eyes",
+    "mouth"
+   ],
+   "d": 3,
+   "x": "👃 — nose (burun)",
+   "e": "👃"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😀",
+   "w": [
+    "😢",
+    "😠"
+   ],
+   "d": 1,
+   "x": "happy — xursand 😀",
+   "say": "happy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😢",
+   "w": [
+    "😀",
+    "😴"
+   ],
+   "d": 1,
+   "x": "sad — xafa 😢",
+   "say": "sad",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😠",
+   "w": [
+    "😀",
+    "😴"
+   ],
+   "d": 1,
+   "x": "angry — jahli chiqqan 😠",
+   "say": "angry",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😴",
+   "w": [
+    "😠",
+    "😀"
+   ],
+   "d": 1,
+   "x": "sleepy — uyqusi kelgan 😴",
+   "say": "sleepy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😫",
+   "w": [
+    "😀",
+    "😢"
+   ],
+   "d": 1,
+   "x": "tired — charchagan 😫",
+   "say": "tired",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😀",
+   "w": [
+    "😢",
+    "😴"
+   ],
+   "d": 1,
+   "x": "I'm happy! — Men xursandman! 😀",
+   "say": "I'm happy!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😢",
+   "w": [
+    "😀",
+    "😠"
+   ],
+   "d": 1,
+   "x": "I'm sad. — Men xafaman. 😢",
+   "say": "I'm sad.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "xafa",
+   "w": [
+    "xursand",
+    "uyqusi kelgan"
+   ],
+   "d": 1,
+   "x": "sad — xafa 😢",
+   "say": "sad",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Qornim och.",
+   "w": [
+    "Chanqadim.",
+    "Uyqum keldi.",
+    "Men xursandman."
+   ],
+   "d": 1,
+   "x": "I'm hungry. — Qornim och.",
+   "say": "I'm hungry.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_10",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: happy — xursand 😀.",
+   "e": "😀",
+   "say": "happy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_11",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — xursand (happy). sad esa — xafa.",
+   "e": "😀",
+   "say": "sad",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_12",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "😴",
+   "w": [
+    "😀",
+    "😢"
+   ],
+   "d": 2,
+   "x": "I'm sleepy. — Uyqum keldi. 😴",
+   "say": "I'm sleepy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_13",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Chanqadim.",
+   "w": [
+    "Qornim och.",
+    "Charchadim.",
+    "Jahlim chiqdi."
+   ],
+   "d": 2,
+   "x": "I'm thirsty. — Chanqadim.",
+   "say": "I'm thirsty.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_14",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Charchadim.",
+   "w": [
+    "Men xursandman.",
+    "Qornim och.",
+    "Men xafaman."
+   ],
+   "d": 2,
+   "x": "I'm tired. — Charchadim.",
+   "say": "I'm tired.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_15",
+   "t": "choice",
+   "q": "Tinglang: bolaga nima kerak?",
+   "a": "🍞",
+   "w": [
+    "🛏️",
+    "⚽"
+   ],
+   "d": 2,
+   "x": "I'm hungry. — Qornim och. Unga ovqat kerak. 🍞",
+   "say": "I'm hungry.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_16",
+   "t": "choice",
+   "q": "Tinglang: bolaga nima kerak?",
+   "a": "🛏️",
+   "w": [
+    "🍞",
+    "⚽"
+   ],
+   "d": 2,
+   "x": "I'm sleepy. — Uyqum keldi. U uxlashi kerak. 🛏️",
+   "say": "I'm sleepy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_17",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: angry — jahli chiqqan 😠.",
+   "e": "😠",
+   "say": "angry",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_18",
+   "t": "choice",
+   "q": "Tug‘ilgan kuningizda sovg‘a oldingiz. Qanday bo‘lasiz? Inglizcha tanlang",
+   "a": "happy",
+   "w": [
+    "sad",
+    "angry",
+    "sleepy"
+   ],
+   "d": 2,
+   "x": "Sovg‘a olsak xursand bo‘lamiz — happy. 😀",
+   "e": "🎁"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_19",
+   "t": "match",
+   "q": "So‘zni rasmga moslang",
+   "pairs": [
+    [
+     "happy",
+     "😀"
+    ],
+    [
+     "sad",
+     "😢"
+    ],
+    [
+     "angry",
+     "😠"
+    ],
+    [
+     "sleepy",
+     "😴"
+    ],
+    [
+     "tired",
+     "😫"
+    ],
+    [
+     "fine",
+     "🙂"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_20",
+   "t": "match",
+   "q": "Gapni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "I'm happy.",
+     "Men xursandman."
+    ],
+    [
+     "I'm sad.",
+     "Men xafaman."
+    ],
+    [
+     "I'm hungry.",
+     "Qornim och."
+    ],
+    [
+     "I'm thirsty.",
+     "Chanqadim."
+    ],
+    [
+     "I'm tired.",
+     "Charchadim."
+    ],
+    [
+     "I'm sleepy.",
+     "Uyqum keldi."
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_21",
+   "t": "choice",
+   "q": "Tinglang: bolaga nima kerak?",
+   "a": "🥛",
+   "w": [
+    "🛏️",
+    "🎈"
+   ],
+   "d": 3,
+   "x": "I'm thirsty. — Chanqadim. Unga ichimlik kerak. 🥛",
+   "say": "I'm thirsty.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_22",
+   "t": "choice",
+   "q": "Ko‘zingiz yumilib ketyapti, uxlagingiz kelyapti. Inglizcha qanday aytasiz?",
+   "a": "I'm sleepy.",
+   "w": [
+    "I'm hungry.",
+    "I'm happy.",
+    "I'm thirsty."
+   ],
+   "d": 3,
+   "x": "Uyqum keldi — I'm sleepy. 😴"
+  },
+  {
+   "topic": "english_g1.feelings",
+   "id": "feelings_23",
+   "t": "choice",
+   "q": "Sizdan “How are you?” deb so‘rashdi. Siz xursandsiz. Nima deysiz?",
+   "a": "I'm happy!",
+   "w": [
+    "I'm sad.",
+    "I'm angry.",
+    "I'm hungry."
+   ],
+   "d": 3,
+   "x": "Xursand bo‘lsak: I'm happy! — Men xursandman!",
+   "say": "How are you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐱",
+   "w": [
+    "🐶",
+    "🐰"
+   ],
+   "d": 1,
+   "x": "cat — mushuk 🐱",
+   "say": "cat",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐶",
+   "w": [
+    "🐱",
+    "🐮"
+   ],
+   "d": 1,
+   "x": "dog — it 🐶",
+   "say": "dog",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐰",
+   "w": [
+    "🐭",
+    "🐱"
+   ],
+   "d": 1,
+   "x": "rabbit — quyon 🐰",
+   "say": "rabbit",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐟",
+   "w": [
+    "🐦",
+    "🦆"
+   ],
+   "d": 1,
+   "x": "fish — baliq 🐟",
+   "say": "fish",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐦",
+   "w": [
+    "🐟",
+    "🐔"
+   ],
+   "d": 1,
+   "x": "bird — qush 🐦",
+   "say": "bird",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐮",
+   "w": [
+    "🐴",
+    "🐑"
+   ],
+   "d": 1,
+   "x": "cow — sigir 🐮",
+   "say": "cow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐴",
+   "w": [
+    "🐮",
+    "🐐"
+   ],
+   "d": 1,
+   "x": "horse — ot 🐴",
+   "say": "horse",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐑",
+   "w": [
+    "🐐",
+    "🐮"
+   ],
+   "d": 1,
+   "x": "sheep — qo‘y 🐑",
+   "say": "sheep",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐔",
+   "w": [
+    "🦆",
+    "🐦"
+   ],
+   "d": 1,
+   "x": "hen — tovuq 🐔",
+   "say": "hen",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_10",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: cow — sigir 🐮.",
+   "e": "🐮",
+   "say": "cow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_11",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — ot (horse). sheep esa — qo‘y.",
+   "e": "🐴",
+   "say": "sheep",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_12",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐐",
+   "w": [
+    "🐑",
+    "🐴"
+   ],
+   "d": 2,
+   "x": "goat — echki 🐐",
+   "say": "goat",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_13",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🦆",
+   "w": [
+    "🐔",
+    "🐟"
+   ],
+   "d": 2,
+   "x": "duck — o‘rdak 🦆",
+   "say": "duck",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_14",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐭",
+   "w": [
+    "🐰",
+    "🐱"
+   ],
+   "d": 2,
+   "x": "mouse — sichqon 🐭",
+   "say": "mouse",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_15",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday ovoz chiqaradi?",
+   "a": "🐶",
+   "w": [
+    "🐱",
+    "🐮"
+   ],
+   "d": 2,
+   "x": "Inglizchada it “woof” deydi. 🐶",
+   "say": "Woof! Woof!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_16",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday ovoz chiqaradi?",
+   "a": "🐱",
+   "w": [
+    "🐶",
+    "🦆"
+   ],
+   "d": 2,
+   "x": "Inglizchada mushuk “meow” deydi. 🐱",
+   "say": "Meow!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_17",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday ovoz chiqaradi?",
+   "a": "🐮",
+   "w": [
+    "🐑",
+    "🐶"
+   ],
+   "d": 2,
+   "x": "Inglizchada sigir “moo” deydi. 🐮",
+   "say": "Moo!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_18",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: fish — baliq 🐟.",
+   "e": "🐟",
+   "say": "fish",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_19",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐑",
+   "w": [
+    "🐐",
+    "🐮"
+   ],
+   "d": 2,
+   "x": "It is a white sheep. — Bu oq qo‘y. 🐑",
+   "say": "It is a white sheep.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_20",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐶",
+   "w": [
+    "🐱",
+    "🐴"
+   ],
+   "d": 2,
+   "x": "I love my dog. — Men itimni yaxshi ko‘raman. 🐶",
+   "say": "I love my dog.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_21",
+   "t": "match",
+   "q": "Hayvonni rasmga moslang",
+   "pairs": [
+    [
+     "cat",
+     "🐱"
+    ],
+    [
+     "dog",
+     "🐶"
+    ],
+    [
+     "cow",
+     "🐮"
+    ],
+    [
+     "horse",
+     "🐴"
+    ],
+    [
+     "sheep",
+     "🐑"
+    ],
+    [
+     "duck",
+     "🦆"
+    ],
+    [
+     "rabbit",
+     "🐰"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_22",
+   "t": "match",
+   "q": "Hayvonni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "goat",
+     "echki"
+    ],
+    [
+     "hen",
+     "tovuq"
+    ],
+    [
+     "fish",
+     "baliq"
+    ],
+    [
+     "bird",
+     "qush"
+    ],
+    [
+     "mouse",
+     "sichqon"
+    ],
+    [
+     "rabbit",
+     "quyon"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_23",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday ovoz chiqaradi?",
+   "a": "🦆",
+   "w": [
+    "🐱",
+    "🐮"
+   ],
+   "d": 3,
+   "x": "Inglizchada o‘rdak “quack” deydi. 🦆",
+   "say": "Quack! Quack!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_24",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "horse",
+   "w": [
+    "house",
+    "cow",
+    "goat"
+   ],
+   "d": 3,
+   "x": "🐴 — horse (ot)",
+   "e": "🐴"
+  },
+  {
+   "topic": "english_g1.pets",
+   "id": "pets_25",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "duck",
+   "w": [
+    "dog",
+    "hen",
+    "bird"
+   ],
+   "d": 3,
+   "x": "🦆 — duck (o‘rdak)",
+   "e": "🦆"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🦁",
+   "w": [
+    "🐯",
+    "🐻"
+   ],
+   "d": 1,
+   "x": "lion — sher 🦁",
+   "say": "lion",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐯",
+   "w": [
+    "🦁",
+    "🦓"
+   ],
+   "d": 1,
+   "x": "tiger — yo‘lbars 🐯",
+   "say": "tiger",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐻",
+   "w": [
+    "🦁",
+    "🐵"
+   ],
+   "d": 1,
+   "x": "bear — ayiq 🐻",
+   "say": "bear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐵",
+   "w": [
+    "🐻",
+    "🐸"
+   ],
+   "d": 1,
+   "x": "monkey — maymun 🐵",
+   "say": "monkey",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐘",
+   "w": [
+    "🦒",
+    "🐫"
+   ],
+   "d": 1,
+   "x": "elephant — fil 🐘",
+   "say": "elephant",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🦒",
+   "w": [
+    "🦓",
+    "🐘"
+   ],
+   "d": 1,
+   "x": "giraffe — jirafa 🦒",
+   "say": "giraffe",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🦓",
+   "w": [
+    "🦒",
+    "🐴"
+   ],
+   "d": 1,
+   "x": "zebra — zebra 🦓",
+   "say": "zebra",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐊",
+   "w": [
+    "🐍",
+    "🐸"
+   ],
+   "d": 1,
+   "x": "crocodile — timsoh 🐊",
+   "say": "crocodile",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐍",
+   "w": [
+    "🐊",
+    "🐵"
+   ],
+   "d": 1,
+   "x": "snake — ilon 🐍",
+   "say": "snake",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_10",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐸",
+   "w": [
+    "🐍",
+    "🦊"
+   ],
+   "d": 1,
+   "x": "frog — qurbaqa 🐸",
+   "say": "frog",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "katta",
+   "w": [
+    "kichik",
+    "yashil",
+    "oq"
+   ],
+   "d": 1,
+   "x": "big — katta",
+   "say": "big",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_12",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: lion — sher 🦁.",
+   "e": "🦁",
+   "say": "lion",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_13",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — ayiq (bear). monkey esa — maymun.",
+   "e": "🐻",
+   "say": "monkey",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_14",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🦊",
+   "w": [
+    "🐺",
+    "🐻"
+   ],
+   "d": 2,
+   "x": "fox — tulki 🦊",
+   "say": "fox",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_15",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐺",
+   "w": [
+    "🦊",
+    "🐯"
+   ],
+   "d": 2,
+   "x": "wolf — bo‘ri 🐺",
+   "say": "wolf",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_16",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐫",
+   "w": [
+    "🐘",
+    "🦒"
+   ],
+   "d": 2,
+   "x": "camel — tuya 🐫",
+   "say": "camel",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_17",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🐧",
+   "w": [
+    "🐻",
+    "🐵"
+   ],
+   "d": 2,
+   "x": "penguin — pingvin 🐧",
+   "say": "penguin",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "kichik",
+   "w": [
+    "katta",
+    "sariq",
+    "qora"
+   ],
+   "d": 2,
+   "x": "small — kichik",
+   "say": "small",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_19",
+   "t": "tf",
+   "q": "The elephant is big.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: fil katta — The elephant is big.",
+   "e": "🐘",
+   "say": "The elephant is big.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_20",
+   "t": "tf",
+   "q": "The mouse is big.",
+   "a": false,
+   "d": 2,
+   "x": "Sichqon kichik — The mouse is small.",
+   "e": "🐭",
+   "say": "The mouse is big.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_21",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday?",
+   "a": "🐘",
+   "w": [
+    "🐭",
+    "🐸"
+   ],
+   "d": 2,
+   "x": "It is big. — U katta. Fil katta. 🐘",
+   "say": "It is big.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_22",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shunday?",
+   "a": "🐭",
+   "w": [
+    "🐘",
+    "🐫"
+   ],
+   "d": 2,
+   "x": "It is small. — U kichik. Sichqon kichik. 🐭",
+   "say": "It is small.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_23",
+   "t": "match",
+   "q": "Hayvonni rasmga moslang",
+   "pairs": [
+    [
+     "lion",
+     "🦁"
+    ],
+    [
+     "tiger",
+     "🐯"
+    ],
+    [
+     "bear",
+     "🐻"
+    ],
+    [
+     "monkey",
+     "🐵"
+    ],
+    [
+     "elephant",
+     "🐘"
+    ],
+    [
+     "giraffe",
+     "🦒"
+    ],
+    [
+     "zebra",
+     "🦓"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_24",
+   "t": "match",
+   "q": "Hayvonni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "crocodile",
+     "timsoh"
+    ],
+    [
+     "snake",
+     "ilon"
+    ],
+    [
+     "frog",
+     "qurbaqa"
+    ],
+    [
+     "fox",
+     "tulki"
+    ],
+    [
+     "wolf",
+     "bo‘ri"
+    ],
+    [
+     "camel",
+     "tuya"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_25",
+   "t": "choice",
+   "q": "Tinglang: qaysi hayvon shu rangda?",
+   "a": "🐸",
+   "w": [
+    "🐻",
+    "🦁"
+   ],
+   "d": 3,
+   "x": "It is green. — U yashil. Qurbaqa yashil. 🐸",
+   "say": "It is green.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_26",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "monkey",
+   "w": [
+    "mouse",
+    "lion",
+    "bear"
+   ],
+   "d": 3,
+   "x": "🐵 — monkey (maymun)",
+   "e": "🐵"
+  },
+  {
+   "topic": "english_g1.zoo",
+   "id": "zoo_27",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "elephant",
+   "w": [
+    "giraffe",
+    "tiger",
+    "camel"
+   ],
+   "d": 3,
+   "x": "🐘 — elephant (fil)",
+   "e": "🐘"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_1",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍎",
+   "w": [
+    "🍌",
+    "🍐"
+   ],
+   "d": 1,
+   "x": "apple — olma 🍎",
+   "say": "apple",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_2",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍌",
+   "w": [
+    "🍋",
+    "🍎"
+   ],
+   "d": 1,
+   "x": "banana — banan 🍌",
+   "say": "banana",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_3",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍊",
+   "w": [
+    "🍋",
+    "🍎"
+   ],
+   "d": 1,
+   "x": "orange — apelsin 🍊",
+   "say": "orange",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_4",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍐",
+   "w": [
+    "🍎",
+    "🍋"
+   ],
+   "d": 1,
+   "x": "pear — nok 🍐",
+   "say": "pear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_5",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍇",
+   "w": [
+    "🍒",
+    "🍓"
+   ],
+   "d": 1,
+   "x": "grapes — uzum 🍇",
+   "say": "grapes",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_6",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍋",
+   "w": [
+    "🍌",
+    "🍊"
+   ],
+   "d": 1,
+   "x": "lemon — limon 🍋",
+   "say": "lemon",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_7",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍓",
+   "w": [
+    "🍒",
+    "🍉"
+   ],
+   "d": 1,
+   "x": "strawberry — qulupnay 🍓",
+   "say": "strawberry",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_8",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍉",
+   "w": [
+    "🍈",
+    "🍎"
+   ],
+   "d": 1,
+   "x": "watermelon — tarvuz 🍉",
+   "say": "watermelon",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_9",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🥕",
+   "w": [
+    "🍅",
+    "🥒"
+   ],
+   "d": 1,
+   "x": "carrot — sabzi 🥕",
+   "say": "carrot",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_10",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍅",
+   "w": [
+    "🍎",
+    "🥕"
+   ],
+   "d": 1,
+   "x": "tomato — pomidor 🍅",
+   "say": "tomato",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_11",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: apple — olma 🍎.",
+   "e": "🍎",
+   "say": "apple",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_12",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — banan (banana). pear esa — nok.",
+   "e": "🍌",
+   "say": "pear",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_13",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍒",
+   "w": [
+    "🍓",
+    "🍇"
+   ],
+   "d": 2,
+   "x": "cherry — gilos 🍒",
+   "say": "cherry",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_14",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🍈",
+   "w": [
+    "🍉",
+    "🍐"
+   ],
+   "d": 2,
+   "x": "melon — qovun 🍈",
+   "say": "melon",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_15",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🥔",
+   "w": [
+    "🥕",
+    "🌽"
+   ],
+   "d": 2,
+   "x": "potato — kartoshka 🥔",
+   "say": "potato",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_16",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🥒",
+   "w": [
+    "🥕",
+    "🌽"
+   ],
+   "d": 2,
+   "x": "cucumber — bodring 🥒",
+   "say": "cucumber",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_17",
+   "t": "choice",
+   "q": "Tinglang va rasmini toping",
+   "a": "🌽",
+   "w": [
+    "🥕",
+    "🍌"
+   ],
+   "d": 2,
+   "x": "corn — makkajo‘xori 🌽",
+   "say": "corn",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_18",
+   "t": "tf",
+   "q": "Tinglang: so‘z rasmga mosmi?",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: carrot — sabzi 🥕.",
+   "e": "🥕",
+   "say": "carrot",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini toping",
+   "a": "Mazali!",
+   "w": [
+    "Xayr!",
+    "Achchiq!",
+    "Rahmat!"
+   ],
+   "d": 2,
+   "x": "Yummy! — Mazali!",
+   "say": "Yummy!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_20",
+   "t": "choice",
+   "q": "Tinglang: bu meva qanday rangda?",
+   "a": "sariq",
+   "w": [
+    "ko‘k",
+    "qora"
+   ],
+   "d": 2,
+   "x": "banana — banan. Banan sariq bo‘ladi. 🍌",
+   "say": "banana",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_21",
+   "t": "choice",
+   "q": "Qaysi biri sabzavot?",
+   "a": "🥕",
+   "w": [
+    "🍎",
+    "🍌",
+    "🍇"
+   ],
+   "d": 2,
+   "x": "🥕 carrot (sabzi) — sabzavot; olma, banan, uzum — mevalar."
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_22",
+   "t": "match",
+   "q": "Mevani rasmga moslang",
+   "pairs": [
+    [
+     "apple",
+     "🍎"
+    ],
+    [
+     "banana",
+     "🍌"
+    ],
+    [
+     "pear",
+     "🍐"
+    ],
+    [
+     "grapes",
+     "🍇"
+    ],
+    [
+     "lemon",
+     "🍋"
+    ],
+    [
+     "cherry",
+     "🍒"
+    ],
+    [
+     "watermelon",
+     "🍉"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_23",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "carrot",
+     "sabzi"
+    ],
+    [
+     "tomato",
+     "pomidor"
+    ],
+    [
+     "potato",
+     "kartoshka"
+    ],
+    [
+     "cucumber",
+     "bodring"
+    ],
+    [
+     "orange",
+     "apelsin"
+    ],
+    [
+     "melon",
+     "qovun"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_24",
+   "t": "choice",
+   "q": "Tinglang: bu qanday rangda?",
+   "a": "qizil",
+   "w": [
+    "ko‘k",
+    "oq"
+   ],
+   "d": 3,
+   "x": "strawberry — qulupnay. Pishgan qulupnay qizil bo‘ladi. 🍓",
+   "say": "strawberry",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_25",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "banana",
+   "w": [
+    "apple",
+    "lemon",
+    "pear"
+   ],
+   "d": 3,
+   "x": "🍌 — banana (banan)",
+   "e": "🍌"
+  },
+  {
+   "topic": "english_g1.fruits",
+   "id": "fruits_26",
+   "t": "choice",
+   "q": "Rasmga qarang. Inglizcha qanday ataladi?",
+   "a": "carrot",
+   "w": [
+    "cherry",
+    "corn",
+    "tomato"
+   ],
+   "d": 3,
+   "x": "🥕 — carrot (sabzi)",
+   "e": "🥕"
+  }
+ ]
+}

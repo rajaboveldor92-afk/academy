@@ -1,4 +1,5 @@
 import '../../content/instructions.dart';
+import '../../../models/speech_part.dart';
 import '../../models/exercise.dart';
 import '../../models/visual.dart';
 import '../generator_base.dart';
@@ -59,7 +60,14 @@ class BankGen {
     final say = _s(item, 'say');
     final lang = _s(item, 'lang') ?? 'uz';
     if (say != null && lang != 'uz') {
-      return RenderedInstruction(Localized.same(question), InstructionBank.speechFor(say, lang), lang: lang, key: 'school');
+      final foreign = InstructionBank.speechFor(say, lang);
+      // 1–2-sinf: bola hali o'qiy olmaydi — avval o'zbekcha ko'rsatma, keyin chet tilidagi so'z aytiladi
+      // (ko'rsatmada chet tilidagi so'z qo'shtirnoqda bo'lsa, faqat chet tilidagi ovoz).
+      final grade = int.tryParse(g.topic.ageSuffix.replaceFirst('g', '')) ?? 0;
+      final parts = grade >= 1 && grade <= 2 && !question.contains('“')
+          ? [SpeechPart(schoolSpeech(question), 'uz'), SpeechPart(foreign, lang)]
+          : const <SpeechPart>[];
+      return RenderedInstruction(Localized.same(question), foreign, lang: lang, key: 'school', parts: parts);
     }
     return g.ask(say ?? question);
   }

@@ -1,0 +1,623 @@
+{
+ "subject": "english",
+ "ageGroup": "g1",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "english_g1.greetings",
+   "code": "1",
+   "emoji": "👋",
+   "title": {
+    "uz": "Salom! Xayr!",
+    "en": "Hello and goodbye",
+    "ru": "Привет и пока"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom, maktab!",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Salomlashganda: Hello! yoki Hi! 👋 — Salom!\nXayrlashganda: Goodbye! yoki Bye! — Xayr!\nErtalab: Good morning! 🌅 — Xayrli tong!  Uxlashdan oldin: Good night! 🌙 — Xayrli tun!\nThank you! — Rahmat!  Please — Iltimos.  Sorry! — Kechirasiz!\nYes — Ha.  No — Yo‘q."
+   }
+  },
+  {
+   "id": "english_g1.my_name",
+   "code": "2",
+   "emoji": "🙋",
+   "title": {
+    "uz": "Isming nima?",
+    "en": "What is your name?",
+    "ru": "Как тебя зовут?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom, maktab!",
+   "prerequisites": [
+    "english_g1.greetings"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "What is your name? — Isming nima?\nMy name is Ali. — Mening ismim Ali.  I am Ali. — Men Aliman.\nI am a boy. 👦 — Men o‘g‘il bolaman.  I am a girl. 👧 — Men qiz bolaman.\nHow are you? — Qalaysan? — I'm fine, thank you. 🙂 — Yaxshi, rahmat."
+   }
+  },
+  {
+   "id": "english_g1.classroom",
+   "code": "3",
+   "emoji": "🎒",
+   "title": {
+    "uz": "Maktab buyumlari",
+    "en": "School things",
+    "ru": "Школьные вещи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom, maktab!",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Maktab buyumlari: pen 🖊️ — ruchka, pencil ✏️ — qalam, book 📕 — kitob, bag 🎒 — sumka.\nruler 📏 — chizg‘ich, notebook 📓 — daftar, crayon 🖍️ — rangli qalam, scissors ✂️ — qaychi.\ndesk — parta, rubber — o‘chirg‘ich, school 🏫 — maktab, teacher 👩‍🏫 — o‘qituvchi.\nMisol: It is a pen. — Bu ruchka.  This is my bag. — Bu mening sumkam."
+   }
+  },
+  {
+   "id": "english_g1.commands",
+   "code": "4",
+   "emoji": "🙌",
+   "title": {
+    "uz": "Sinfdagi buyruqlar",
+    "en": "Classroom commands",
+    "ru": "Команды в классе"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salom, maktab!",
+   "prerequisites": [
+    "english_g1.classroom"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘qituvchi sinfda shunday deydi:\nStand up! — Turing!  Sit down! — O‘tiring!\nOpen your book! 📖 — Kitobingizni oching!  Close your book! 📕 — Kitobingizni yoping!\nListen! 👂 — Tinglang!  Look! 👀 — Qarang!  Be quiet! 🤫 — Jim bo‘ling!\nClap your hands! 👏 — Qarsak chaling!  Hands up! 🙌 — Qo‘llarni ko‘taring!"
+   }
+  },
+  {
+   "id": "english_g1.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Salom, maktab!",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g1.colours",
+   "code": "5",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Ranglar",
+    "en": "Colours",
+    "ru": "Цвета"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ranglar, sonlar va o‘yinchoqlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ranglar: red ❤️ — qizil, yellow 💛 — sariq, blue 💙 — ko‘k, green 💚 — yashil.\norange 🧡 — to‘q sariq, purple 💜 — binafsha, pink 💗 — pushti.\nblack 🖤 — qora, white ⚪ — oq, brown — jigarrang.\nMisol: It is red. 🍎 — U qizil.  It is yellow. 🍌 — U sariq."
+   }
+  },
+  {
+   "id": "english_g1.numbers",
+   "code": "6",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonlar 1–10",
+    "en": "Numbers 1–10",
+    "ru": "Числа 1–10"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ranglar, sonlar va o‘yinchoqlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "1 — one, 2 — two, 3 — three, 4 — four, 5 — five,\n6 — six, 7 — seven, 8 — eight, 9 — nine, 10 — ten.\nSanaymiz: one, two, three… 🖐️ Bir qo‘lda five (5) ta barmoq bor.\nHow many? — Nechta?  Three cats. 🐱🐱🐱 — Uchta mushuk."
+   }
+  },
+  {
+   "id": "english_g1.toys",
+   "code": "7",
+   "emoji": "🎈",
+   "title": {
+    "uz": "O‘yinchoqlar",
+    "en": "Toys",
+    "ru": "Игрушки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ranglar, sonlar va o‘yinchoqlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘yinchoqlar (toys): ball ⚽ — to‘p, car 🚗 — mashina, balloon 🎈 — havo shari.\nrobot 🤖 — robot, drum 🥁 — baraban, train 🚂 — poyezd, plane ✈️ — samolyot.\nbike 🚲 — velosiped, boat ⛵ — qayiq, doll — qo‘g‘irchoq, teddy bear — ayiqcha, kite — varrak.\nMisol: This is my ball. ⚽ — Bu mening to‘pim.  It is a red car. 🚗 — Bu qizil mashina."
+   }
+  },
+  {
+   "id": "english_g1.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ranglar, sonlar va o‘yinchoqlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g1.family",
+   "code": "8",
+   "emoji": "👪",
+   "title": {
+    "uz": "Mening oilam",
+    "en": "My family",
+    "ru": "Моя семья"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va kayfiyatim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Oila (family) 👪: mother (mum) 👩 — ona, father (dad) 👨 — ota.\nsister 👧 — opa yoki singil, brother 👦 — aka yoki uka, baby 👶 — chaqaloq.\ngrandmother (granny) 👵 — buvi, grandfather (grandpa) 👴 — bobo.\nMisol: This is my mum. — Bu mening onam.  I love my family. — Men oilamni yaxshi ko‘raman."
+   }
+  },
+  {
+   "id": "english_g1.body",
+   "code": "9",
+   "emoji": "👃",
+   "title": {
+    "uz": "Tana a’zolari",
+    "en": "My body",
+    "ru": "Части тела"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va kayfiyatim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tana a’zolari: head — bosh, hair — soch, face 🙂 — yuz.\neyes 👀 — ko‘zlar, ear 👂 — quloq, nose 👃 — burun, mouth 👄 — og‘iz, tongue 👅 — til.\nhand ✋ — qo‘l, legs — oyoqlar.\nBizda two eyes (ikkita ko‘z), two ears (ikkita quloq) va one nose (bitta burun) bor.\nTouch your nose! — Burningizni ushlang!  Close your eyes! — Ko‘zingizni yuming!"
+   }
+  },
+  {
+   "id": "english_g1.feelings",
+   "code": "10",
+   "emoji": "😀",
+   "title": {
+    "uz": "Kayfiyatim",
+    "en": "How do you feel?",
+    "ru": "Настроение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Oilam, tanam va kayfiyatim",
+   "prerequisites": [
+    "english_g1.my_name"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "How are you? — Qalaysan? Kayfiyatingizni ayting:\nI'm happy. 😀 — Men xursandman.  I'm sad. 😢 — Men xafaman.\nI'm angry. 😠 — Jahlim chiqdi.  I'm tired. 😫 — Charchadim.  I'm sleepy. 😴 — Uyqum keldi.\nI'm hungry. — Qornim och.  I'm thirsty. — Chanqadim.  I'm fine. 🙂 — Yaxshiman."
+   }
+  },
+  {
+   "id": "english_g1.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Oilam, tanam va kayfiyatim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g1.pets",
+   "code": "11",
+   "emoji": "🐶",
+   "title": {
+    "uz": "Uy va ferma hayvonlari",
+    "en": "Pets and farm animals",
+    "ru": "Домашние животные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, mevalar va sabzavotlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Uy hayvonlari: cat 🐱 — mushuk, dog 🐶 — it, rabbit 🐰 — quyon, fish 🐟 — baliq, bird 🐦 — qush.\nFerma hayvonlari: cow 🐮 — sigir, horse 🐴 — ot, sheep 🐑 — qo‘y, goat 🐐 — echki,\nhen 🐔 — tovuq, duck 🦆 — o‘rdak.  mouse 🐭 — sichqon.\nInglizchada hayvon ovozlari: dog — woof, cat — meow, cow — moo, duck — quack.\nMisol: It is a cat. — Bu mushuk. 🐱"
+   }
+  },
+  {
+   "id": "english_g1.zoo",
+   "code": "12",
+   "emoji": "🦁",
+   "title": {
+    "uz": "Hayvonot bog‘ida",
+    "en": "At the zoo",
+    "ru": "В зоопарке"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, mevalar va sabzavotlar",
+   "prerequisites": [
+    "english_g1.pets"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hayvonot bog‘i (zoo): lion 🦁 — sher, tiger 🐯 — yo‘lbars, bear 🐻 — ayiq, monkey 🐵 — maymun.\nelephant 🐘 — fil, giraffe 🦒 — jirafa, zebra 🦓 — zebra, crocodile 🐊 — timsoh, snake 🐍 — ilon.\nfrog 🐸 — qurbaqa, fox 🦊 — tulki, wolf 🐺 — bo‘ri, camel 🐫 — tuya, penguin 🐧 — pingvin.\nbig — katta, small — kichik: The elephant is big. 🐘  The mouse is small. 🐭"
+   }
+  },
+  {
+   "id": "english_g1.fruits",
+   "code": "13",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Mevalar va sabzavotlar",
+    "en": "Fruit and vegetables",
+    "ru": "Фрукты и овощи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, mevalar va sabzavotlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mevalar (fruit): apple 🍎 — olma, banana 🍌 — banan, orange 🍊 — apelsin, pear 🍐 — nok.\ngrapes 🍇 — uzum, lemon 🍋 — limon, cherry 🍒 — gilos, strawberry 🍓 — qulupnay.\nwatermelon 🍉 — tarvuz, melon 🍈 — qovun.\nSabzavotlar: carrot 🥕 — sabzi, tomato 🍅 — pomidor, potato 🥔 — kartoshka, cucumber 🥒 — bodring.\nMisol: a red apple 🍎 — qizil olma.  Yummy! — Mazali!"
+   }
+  },
+  {
+   "id": "english_g1.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hayvonlar, mevalar va sabzavotlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g1.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hayvonlar, mevalar va sabzavotlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands",
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys",
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings",
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands",
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys",
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings",
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "english_g1.greetings",
+      "english_g1.my_name",
+      "english_g1.classroom",
+      "english_g1.commands",
+      "english_g1.colours",
+      "english_g1.numbers",
+      "english_g1.toys",
+      "english_g1.family",
+      "english_g1.body",
+      "english_g1.feelings",
+      "english_g1.pets",
+      "english_g1.zoo",
+      "english_g1.fruits"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
