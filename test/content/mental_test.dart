@@ -26,7 +26,9 @@ void main() {
     expect(MentalGen.formula(3, 4), '+4 = +5 − 1');
     expect(MentalGen.formula(6, -3), '−3 = −5 + 2');
     expect(MentalGen.formula(8, 7), '+7 = +10 − 3');
-    expect(MentalGen.formula(13, -8), '−8 = −10 + 2');
+    expect(MentalGen.formula(12, -8), '−8 = −10 + 2');
+    // 13 − 8: birlarda 3 ta pastki munchoq — 2 ni qo'shib bo'lmaydi, kichik do'st ham kerak.
+    expect(MentalGen.formula(13, -8), '−8 = −10 + 5 − 3');
     expect(MentalGen.formula(5, 6), '+6 = +1 − 5 + 10');
     expect(MentalGen.formula(11, -6), '−6 = −10 + 5 − 1');
     expect(MentalGen.applyFormula('+1 − 5 + 10'), 6);

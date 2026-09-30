@@ -68,7 +68,7 @@ TH = {
     "friends10_sub": (
         "Katta do‘st bilan ayirish: birlarda munchoq yetmasa, o‘nliklardan 1 ni olib, katta do‘stni qo‘shamiz.\n"
         "• −9 = −10 + 1   • −8 = −10 + 2   • −6 = −10 + 4\n"
-        "Misol: 13 − 8 — o‘nliklardan 1 ni olamiz (−10), birlarga 2 ni qo‘shamiz (+2) = 5."
+        "Misol: 12 − 8 — o‘nliklardan 1 ni olamiz (−10), birlarga 2 ni qo‘shamiz (+2) = 4."
     ),
     "mixed": (
         "Aralash formula — katta va kichik do‘st birga ishlaydi.\n"
