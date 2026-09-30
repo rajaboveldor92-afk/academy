@@ -101,10 +101,19 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete latest-build --yes --cleanup-tag || true
-          gh release create latest-build dist/academy-app-release.apk dist/academy-arm64-v8a.apk dist/academy-armeabi-v7a.apk \
-            --title "Academy — oxirgi build" \
-            --notes "Commit: ${GITHUB_SHA}. Telefonga o'rnatish: faylni yuklab oling va oching."
+          # GitHub API ba'zan vaqtincha xato beradi — 3 marta urinib ko'ramiz.
+          for attempt in 1 2 3; do
+            gh release delete latest-build --yes --cleanup-tag || true
+            sleep 5
+            if gh release create latest-build dist/academy-app-release.apk dist/academy-arm64-v8a.apk dist/academy-armeabi-v7a.apk \
+              --title "Academy — oxirgi build" \
+              --notes "Commit: ${GITHUB_SHA}. Telefonga o'rnatish: faylni yuklab oling va oching."; then
+              exit 0
+            fi
+            echo "Release yaratilmadi (urinish $attempt), qayta urinamiz..."
+            sleep 30
+          done
+          exit 1
 
       # Xato bo'lsa, qisqa hisobot Issue sifatida yoziladi.
       - name: Xato hisoboti

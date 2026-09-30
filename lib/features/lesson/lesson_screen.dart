@@ -179,10 +179,11 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
   }
 
   /// Maktab o'quvchisi o'zi o'qiydi: ko'rsatma avtomatik aytilmaydi (🔊 bosilsa aytiladi),
-  /// chet tili darslari bundan mustasno (talaffuz eshitilishi kerak).
+  /// chet tili darslari bundan mustasno (talaffuz eshitilishi kerak). 1–2-sinf o'quvchisi hali
+  /// ravon o'qimaydi — unga ko'rsatma har doim o'qib beriladi.
   bool get _autoSpeak {
     final profile = _profile;
-    if (profile == null || !profile.isSchool) return true;
+    if (profile == null || !profile.isSchool || profile.grade <= 2) return true;
     return MotherVoice.listeningSubjects.contains(_current.subject);
   }
 
