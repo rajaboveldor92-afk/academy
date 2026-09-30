@@ -634,7 +634,7 @@ class MentalGen {
             'Oxirgi raqamga va yaxlit o‘nliklarning kvadratlariga qarang (20 × 20 = 400, 30 × 30 = 900).',
             '$r × $r = ${r * r}', {'a': r * r, 'op': 'sqrt'});
       case 'gauss':
-        final last = 10 * g.range(1, 10) + g.pick(const [0, 0, 0, 5]);
+        final last = 10 * g.range(1, 10) + g.pick<int>(const [0, 0, 0, 5]);
         final sum = last * (last + 1) ~/ 2;
         return _Trick('1 + 2 + 3 + … + $last = ?', sum, 'Chetdagi sonlarni juftlang: 1 + $last, 2 + ${last - 1} …',
             last.isEven

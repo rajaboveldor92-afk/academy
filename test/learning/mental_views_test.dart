@@ -7,6 +7,7 @@ import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/learning/models/visual.dart';
 import 'package:academy/learning/ui/abacus_view.dart';
 import 'package:academy/learning/ui/input_view.dart';
+import 'package:academy/learning/ui/option_card.dart';
 import 'package:academy/learning/ui/visual_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
