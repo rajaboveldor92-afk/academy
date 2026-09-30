@@ -10,7 +10,8 @@ def verify(apk_path):
     required = ['lexicon.json', 'instructions.json', 'logic_data.json'] + [
         f'{subject}_{age}.json' for age in range(3, 9) for subject in ('math', 'logic')
     ]
-    required += [str(p.relative_to(source)) for p in sorted((source / 'school').glob('*.json'))]
+    required += [str(p.relative_to(source)) for p in sorted((source / 'school').glob('*.json')) if p.name != 'index.json']
+    required.append('school/index.json')
     with zipfile.ZipFile(apk_path) as apk:
         for name in required:
             path = f'assets/flutter_assets/assets/data/{name}'
@@ -20,7 +21,7 @@ def verify(apk_path):
             if actual != (source / name).read_bytes():
                 raise ValueError(f'APK dars fayli eskirgan: {name}')
             data = json.loads(actual)
-            if name in required[3:] and not (data.get('topics') or data.get('items')):
+            if name in required[3:] and not (data.get('topics') or data.get('items') or data.get('curricula')):
                 raise ValueError(f'APK darslari bo‘sh: {name}')
     print(f'{apk_path}: {len(required)} ta kontent fayli, shu jumladan maktab dasturlari va savollar banklari tasdiqlandi.')
 

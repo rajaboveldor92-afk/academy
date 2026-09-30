@@ -387,3 +387,8 @@ for grade,items in BANKS.items():
  elif path.exists():
   path.unlink()  # barcha savollar batafsil dasturlarga ko'chirilgan
 print(f'{len(CURRICULA)} curricula; {sum(map(len,CURRICULA.values()))} topics; {sum(map(len,BANKS.values()))} authored questions')
+
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent / 'school'))
+import build_index  # noqa: E402
+build_index.build()

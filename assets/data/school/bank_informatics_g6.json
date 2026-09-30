@@ -1,0 +1,4949 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_1",
+   "t": "choice",
+   "q": "1 bit qanday qiymatlardan birini oladi?",
+   "a": "0 yoki 1",
+   "w": [
+    "0 dan 9 gacha",
+    "A dan Z gacha",
+    "Faqat 1"
+   ],
+   "d": 1,
+   "x": "Bit — ikkilik raqam: 0 yoki 1."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_2",
+   "t": "choice",
+   "q": "1 bayt necha bitdan iborat?",
+   "a": "8",
+   "w": [
+    "2",
+    "10",
+    "1024"
+   ],
+   "d": 1,
+   "x": "1 bayt = 8 bit."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_3",
+   "t": "choice",
+   "q": "Qaysi birlik eng katta?",
+   "a": "Terabayt",
+   "w": [
+    "Gigabayt",
+    "Megabayt",
+    "Kilobayt"
+   ],
+   "d": 1,
+   "x": "Bit < bayt < KB < MB < GB < TB."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_4",
+   "t": "choice",
+   "q": "Qaysi birlik eng kichik?",
+   "a": "Bit",
+   "w": [
+    "Bayt",
+    "Kilobayt",
+    "Gigabayt"
+   ],
+   "d": 1,
+   "x": "Bit — axborotning eng kichik birligi."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_5",
+   "t": "tf",
+   "q": "1 KB = 1024 bayt.",
+   "a": true,
+   "d": 1,
+   "x": "Informatikada 1 KB = 2 ning 10-darajasi = 1024 bayt deb olinadi."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_6",
+   "t": "tf",
+   "q": "1 MB 1 GB dan katta.",
+   "a": false,
+   "d": 1,
+   "x": "1 GB = 1024 MB, ya’ni GB kattaroq."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_7",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Bir",
+    "bayt",
+    "sakkiz",
+    "bitdan",
+    "iborat"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_8",
+   "t": "match",
+   "q": "Birlikni qiymati bilan juftlang",
+   "pairs": [
+    [
+     "1 bayt",
+     "8 bit"
+    ],
+    [
+     "1 KB",
+     "1024 bayt"
+    ],
+    [
+     "1 MB",
+     "1024 KB"
+    ],
+    [
+     "1 GB",
+     "1024 MB"
+    ],
+    [
+     "1 TB",
+     "1024 GB"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir keyingi birlik oldingisidan 1024 marta katta (bayt esa bitdan 8 marta)."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_9",
+   "t": "choice",
+   "q": "5 bayt necha bitga teng?",
+   "a": "40 bit",
+   "w": [
+    "5 bit",
+    "50 bit",
+    "5120 bit",
+    "20 bit"
+   ],
+   "d": 1,
+   "x": "1 bayt = 8 bit: 5 · 8 = 40 bit."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_10",
+   "t": "choice",
+   "q": "12 bayt necha bitga teng?",
+   "a": "96 bit",
+   "w": [
+    "12 bit",
+    "120 bit",
+    "12288 bit",
+    "48 bit"
+   ],
+   "d": 2,
+   "x": "1 bayt = 8 bit: 12 · 8 = 96 bit."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_11",
+   "t": "choice",
+   "q": "64 bit necha baytga teng?",
+   "a": "8 bayt",
+   "w": [
+    "512 bayt",
+    "32 bayt",
+    "64 bayt",
+    "6 bayt"
+   ],
+   "d": 1,
+   "x": "8 bit = 1 bayt: 64 : 8 = 8 bayt."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_12",
+   "t": "choice",
+   "q": "256 bit necha baytga teng?",
+   "a": "32 bayt",
+   "w": [
+    "2048 bayt",
+    "128 bayt",
+    "256 bayt",
+    "25 bayt"
+   ],
+   "d": 2,
+   "x": "8 bit = 1 bayt: 256 : 8 = 32 bayt."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_13",
+   "t": "choice",
+   "q": "3 KB necha baytga teng?",
+   "a": "3072 bayt",
+   "w": [
+    "3000 bayt",
+    "300 bayt",
+    "24 bayt",
+    "24 576 bayt"
+   ],
+   "d": 2,
+   "x": "1 KB = 1024 bayt: 3 · 1024 = 3072 bayt."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_14",
+   "t": "choice",
+   "q": "2 MB necha KB ga teng?",
+   "a": "2048 KB",
+   "w": [
+    "2000 KB",
+    "200 KB",
+    "16 KB",
+    "16 384 KB"
+   ],
+   "d": 1,
+   "x": "1 MB = 1024 KB: 2 · 1024 = 2048 KB."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_15",
+   "t": "choice",
+   "q": "4 GB necha MB ga teng?",
+   "a": "4096 MB",
+   "w": [
+    "4000 MB",
+    "400 MB",
+    "32 MB",
+    "32 768 MB"
+   ],
+   "d": 2,
+   "x": "1 GB = 1024 MB: 4 · 1024 = 4096 MB."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_16",
+   "t": "choice",
+   "q": "5 TB necha GB ga teng?",
+   "a": "5120 GB",
+   "w": [
+    "5000 GB",
+    "500 GB",
+    "40 GB",
+    "40 960 GB"
+   ],
+   "d": 3,
+   "x": "1 TB = 1024 GB: 5 · 1024 = 5120 GB."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_17",
+   "t": "choice",
+   "q": "1 KB necha bitga teng?",
+   "a": "8192 bit",
+   "w": [
+    "1024 bit",
+    "8000 bit",
+    "1000 bit"
+   ],
+   "d": 3,
+   "x": "1 KB = 1024 bayt = 1024 · 8 = 8192 bit."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_18",
+   "t": "choice",
+   "q": "3 bit yordamida nechta turli kod (qiymat) hosil qilish mumkin?",
+   "a": "8",
+   "w": [
+    "6",
+    "3",
+    "16",
+    "4"
+   ],
+   "d": 2,
+   "x": "Har bir bit 0 yoki 1: 2 ni 3 marta ko‘paytiramiz — 2 · 2 · 2 = 8."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_19",
+   "t": "choice",
+   "q": "4 bit yordamida nechta turli kod (qiymat) hosil qilish mumkin?",
+   "a": "16",
+   "w": [
+    "8",
+    "4",
+    "32"
+   ],
+   "d": 2,
+   "x": "Har bir bit 0 yoki 1: 2 ni 4 marta ko‘paytiramiz — 2 · 2 · 2 · 2 = 16."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_20",
+   "t": "choice",
+   "q": "8 bit yordamida nechta turli kod (qiymat) hosil qilish mumkin?",
+   "a": "256",
+   "w": [
+    "16",
+    "8",
+    "512",
+    "128"
+   ],
+   "d": 3,
+   "x": "Har bir bit 0 yoki 1: 2 ni 8 marta ko‘paytiramiz — 2 · 2 · 2 · 2 · 2 · 2 · 2 · 2 = 256."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_21",
+   "t": "choice",
+   "q": "32 ta turli belgini kodlash uchun kamida necha bit kerak?",
+   "a": "5",
+   "w": [
+    "16",
+    "6",
+    "4",
+    "8"
+   ],
+   "d": 3,
+   "x": "2 · 2 · 2 · 2 · 2 = 32, demak 5 bit yetadi."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_22",
+   "t": "choice",
+   "q": "16 ta turli belgini kodlash uchun kamida necha bit kerak?",
+   "a": "4",
+   "w": [
+    "8",
+    "5",
+    "3"
+   ],
+   "d": 2,
+   "x": "2 · 2 · 2 · 2 = 16, demak 4 bit yetadi."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_23",
+   "t": "choice",
+   "q": "Fleshka hajmi 1 GB. Unga 256 MB lik videofayldan nechta sig‘adi?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "8"
+   ],
+   "d": 2,
+   "x": "1 GB = 1024 MB: 1024 : 256 = 4."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_24",
+   "t": "choice",
+   "q": "Fleshka hajmi 2 GB. Unga 512 MB lik videofayldan nechta sig‘adi?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "8"
+   ],
+   "d": 3,
+   "x": "2 GB = 2048 MB: 2048 : 512 = 4."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_25",
+   "t": "choice",
+   "q": "Qaysi axborot hajmi eng katta?",
+   "a": "3 KB",
+   "w": [
+    "3000 bayt",
+    "24 000 bit",
+    "2 KB"
+   ],
+   "d": 3,
+   "x": "Hammasini baytga o‘tkazamiz: 3 KB = 3072 bayt, 3000 bayt = 3000 bayt, 24 000 bit = 3000 bayt, 2 KB = 2048 bayt."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_26",
+   "t": "choice",
+   "q": "Matnda 2048 ta belgi bor, har bir belgi 1 bayt bilan kodlangan. Matn hajmi necha KB?",
+   "a": "2 KB",
+   "w": [
+    "3 KB",
+    "16 KB",
+    "4 KB"
+   ],
+   "d": 2,
+   "x": "2048 · 1 = 2048 bayt = 2048 : 1024 = 2 KB."
+  },
+  {
+   "topic": "informatics_g6.olchov",
+   "id": "olchov_27",
+   "t": "choice",
+   "q": "Matnda 1024 ta belgi bor, har bir belgi 2 bayt bilan kodlangan. Matn hajmi necha KB?",
+   "a": "2 KB",
+   "w": [
+    "3 KB",
+    "16 KB",
+    "4 KB"
+   ],
+   "d": 3,
+   "x": "1024 · 2 = 2048 bayt = 2048 : 1024 = 2 KB."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_1",
+   "t": "choice",
+   "q": "Ikkilik sanoq sistemasida nechta raqam bor?",
+   "a": "2",
+   "w": [
+    "8",
+    "10",
+    "16"
+   ],
+   "d": 1,
+   "x": "Faqat 0 va 1."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_2",
+   "t": "choice",
+   "q": "Ikkilik sonning o‘ngdan 4-xonasi qiymati nechaga teng?",
+   "a": "8",
+   "w": [
+    "4",
+    "16",
+    "3"
+   ],
+   "d": 1,
+   "x": "Xona qiymatlari: 1, 2, 4, 8 — to‘rtinchisi 8."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_3",
+   "t": "tf",
+   "q": "Ikkilik son 0 bilan tugasa, u juft son.",
+   "a": true,
+   "d": 2,
+   "x": "Oxirgi xona qiymati 1; u 0 bo‘lsa, son 2 ga bo‘linadi."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_4",
+   "t": "tf",
+   "q": "Ikkilik sistemada 2 raqami ishlatiladi.",
+   "a": false,
+   "d": 1,
+   "x": "Ikkilik sistemada faqat 0 va 1 bor."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_5",
+   "t": "match",
+   "q": "O‘nlik sonni ikkilik yozuvi bilan juftlang",
+   "pairs": [
+    [
+     "2",
+     "10"
+    ],
+    [
+     "5",
+     "101"
+    ],
+    [
+     "8",
+     "1000"
+    ],
+    [
+     "10",
+     "1010"
+    ],
+    [
+     "15",
+     "1111"
+    ],
+    [
+     "16",
+     "10000"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir sonni xona qiymatlari 1, 2, 4, 8, 16 yig‘indisiga ajratib tekshiring."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_6",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kompyuter",
+    "sonlarni",
+    "ikkilik",
+    "sistemada",
+    "saqlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_7",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 9 sonini ikkilik sistemada yozing.",
+   "a": "1001",
+   "w": [
+    "1010",
+    "1000",
+    "10010",
+    "1011"
+   ],
+   "d": 1,
+   "x": "9 = 8 + 1 → 1001."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_8",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 12 sonini ikkilik sistemada yozing.",
+   "a": "1100",
+   "w": [
+    "1101",
+    "1011",
+    "11000",
+    "1110"
+   ],
+   "d": 1,
+   "x": "12 = 8 + 4 → 1100."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_9",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 21 sonini ikkilik sistemada yozing.",
+   "a": "10101",
+   "w": [
+    "10110",
+    "10100",
+    "101010",
+    "10111"
+   ],
+   "d": 2,
+   "x": "21 = 16 + 4 + 1 → 10101."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_10",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 37 sonini ikkilik sistemada yozing.",
+   "a": "100101",
+   "w": [
+    "100110",
+    "100100",
+    "101001",
+    "1001010"
+   ],
+   "d": 2,
+   "x": "37 = 32 + 4 + 1 → 100101."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_11",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 64 sonini ikkilik sistemada yozing.",
+   "a": "1000000",
+   "w": [
+    "1000001",
+    "111111",
+    "10000000",
+    "1000010"
+   ],
+   "d": 2,
+   "x": "64 = 64 → 1000000."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_12",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 100 sonini ikkilik sistemada yozing.",
+   "a": "1100100",
+   "w": [
+    "1100101",
+    "1100011",
+    "11001000",
+    "1100110"
+   ],
+   "d": 3,
+   "x": "100 = 64 + 32 + 4 → 1100100."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_13",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 127 sonini ikkilik sistemada yozing.",
+   "a": "1111111",
+   "w": [
+    "10000000",
+    "1111110",
+    "11111110",
+    "1111101"
+   ],
+   "d": 3,
+   "x": "127 = 64 + 32 + 16 + 8 + 4 + 2 + 1 → 1111111."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_14",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 200 sonini ikkilik sistemada yozing.",
+   "a": "11001000",
+   "w": [
+    "11001001",
+    "11000111",
+    "110010000",
+    "11001010"
+   ],
+   "d": 3,
+   "x": "200 = 128 + 64 + 8 → 11001000."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_15",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1010 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "10",
+   "w": [
+    "11",
+    "9",
+    "5",
+    "20"
+   ],
+   "d": 1,
+   "x": "1010 = 8 + 2 = 10."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_16",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1111 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "15",
+   "w": [
+    "16",
+    "14",
+    "30",
+    "17"
+   ],
+   "d": 1,
+   "x": "1111 = 8 + 4 + 2 + 1 = 15."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_17",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 10011 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "19",
+   "w": [
+    "20",
+    "18",
+    "25",
+    "38"
+   ],
+   "d": 2,
+   "x": "10011 = 16 + 2 + 1 = 19."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_18",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 101010 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "42",
+   "w": [
+    "43",
+    "41",
+    "21",
+    "84"
+   ],
+   "d": 2,
+   "x": "101010 = 32 + 8 + 2 = 42."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_19",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 1000000 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "64",
+   "w": [
+    "65",
+    "63",
+    "1",
+    "128"
+   ],
+   "d": 2,
+   "x": "1000000 = 64 = 64."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_20",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 11001000 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "200",
+   "w": [
+    "201",
+    "199",
+    "19",
+    "400"
+   ],
+   "d": 3,
+   "x": "11001000 = 128 + 64 + 8 = 200."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_21",
+   "t": "choice",
+   "q": "Ikkilik sistemadagi 11111111 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "255",
+   "w": [
+    "256",
+    "254",
+    "510",
+    "257"
+   ],
+   "d": 3,
+   "x": "11111111 = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_22",
+   "t": "choice",
+   "q": "Ikkilik sistemada qo‘shing: 101 + 11.",
+   "a": "1000",
+   "w": [
+    "1001",
+    "111",
+    "0001",
+    "1111"
+   ],
+   "d": 3,
+   "x": "101 = 5, 11 = 3, yig‘indi 8 = 1000."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_23",
+   "t": "choice",
+   "q": "Ikkilik sistemada qo‘shing: 1010 + 101.",
+   "a": "1111",
+   "w": [
+    "10000",
+    "1110",
+    "110010"
+   ],
+   "d": 3,
+   "x": "1010 = 10, 101 = 5, yig‘indi 15 = 1111."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_24",
+   "t": "choice",
+   "q": "Ikkilik sistemada qo‘shing: 111 + 1.",
+   "a": "1000",
+   "w": [
+    "1001",
+    "111",
+    "0001"
+   ],
+   "d": 3,
+   "x": "111 = 7, 1 = 1, yig‘indi 8 = 1000."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_25",
+   "t": "choice",
+   "q": "100 soni ikkilik sistemada necha xonali son bo‘ladi?",
+   "a": "7",
+   "w": [
+    "8",
+    "6",
+    "3"
+   ],
+   "d": 3,
+   "x": "100 = 1100100 — 7 ta raqam."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_26",
+   "t": "choice",
+   "q": "30 soni ikkilik sistemada necha xonali son bo‘ladi?",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "2",
+    "8"
+   ],
+   "d": 2,
+   "x": "30 = 11110 — 5 ta raqam."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_27",
+   "t": "choice",
+   "q": "Qaysi ikkilik son katta: 1100 yoki 1011?",
+   "a": "1100",
+   "w": [
+    "1011",
+    "Ular teng",
+    "Taqqoslab bo‘lmaydi"
+   ],
+   "d": 2,
+   "x": "1100 = 12, 1011 = 11."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_28",
+   "t": "choice",
+   "q": "Qaysi ikkilik son katta: 100000 yoki 11111?",
+   "a": "100000",
+   "w": [
+    "11111",
+    "Ular teng",
+    "Taqqoslab bo‘lmaydi"
+   ],
+   "d": 2,
+   "x": "100000 = 32, 11111 = 31."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_29",
+   "t": "choice",
+   "q": "8 xonali eng katta ikkilik son 11111111 o‘nlikda nechaga teng?",
+   "a": "255",
+   "w": [
+    "256",
+    "128",
+    "8",
+    "11111111"
+   ],
+   "d": 2,
+   "x": "128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255."
+  },
+  {
+   "topic": "informatics_g6.ikkilik",
+   "id": "ikkilik_30",
+   "t": "choice",
+   "q": "8 bit bilan 0 dan boshlab nechta turli son yozish mumkin?",
+   "a": "256",
+   "w": [
+    "255",
+    "8",
+    "128",
+    "16"
+   ],
+   "d": 3,
+   "x": "0 dan 255 gacha — jami 256 ta son."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_1",
+   "t": "choice",
+   "q": "Sakkizlik sistemada nechta raqam bor?",
+   "a": "8",
+   "w": [
+    "7",
+    "10",
+    "16"
+   ],
+   "d": 1,
+   "x": "0, 1, 2, 3, 4, 5, 6, 7 — jami 8 ta."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_2",
+   "t": "choice",
+   "q": "O‘n oltilik sistemada F raqami o‘nlikda nechaga teng?",
+   "a": "15",
+   "w": [
+    "16",
+    "6",
+    "14"
+   ],
+   "d": 1,
+   "x": "A = 10, B = 11, …, F = 15."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_3",
+   "t": "choice",
+   "q": "O‘n oltilik sistemada C raqami o‘nlikda nechaga teng?",
+   "a": "12",
+   "w": [
+    "3",
+    "13",
+    "11"
+   ],
+   "d": 1,
+   "x": "A = 10, B = 11, C = 12."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_4",
+   "t": "choice",
+   "q": "Qaysi sanoq sistemasida A, B, C, D, E, F harflari raqam sifatida ishlatiladi?",
+   "a": "O‘n oltilik",
+   "w": [
+    "Sakkizlik",
+    "Ikkilik",
+    "O‘nlik"
+   ],
+   "d": 1,
+   "x": "O‘n oltilik sistemaga 10 dan 15 gacha raqamlar uchun harflar kerak."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_5",
+   "t": "tf",
+   "q": "Sakkizlik sistemada 9 raqami bor.",
+   "a": false,
+   "d": 1,
+   "x": "Sakkizlik raqamlari faqat 0 dan 7 gacha."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_6",
+   "t": "tf",
+   "q": "Bitta o‘n oltilik raqam 4 ta ikkilik raqamga (bitga) mos keladi.",
+   "a": true,
+   "d": 2,
+   "x": "16 = 2 · 2 · 2 · 2, shuning uchun 4 bit."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_7",
+   "t": "choice",
+   "q": "Veb-sahifada #FF0000 kodi qaysi rangni bildiradi?",
+   "a": "Qizil",
+   "w": [
+    "Yashil",
+    "Ko‘k",
+    "Oq"
+   ],
+   "d": 3,
+   "x": "Kod uch qismdan iborat: qizil FF = 255, yashil 00, ko‘k 00 — faqat qizil yonadi."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_8",
+   "t": "choice",
+   "q": "Veb-sahifada #FFFFFF kodi qaysi rangni bildiradi?",
+   "a": "Oq",
+   "w": [
+    "Qora",
+    "Qizil",
+    "Kulrang"
+   ],
+   "d": 3,
+   "x": "Uchala rang ham eng yorqin — oq rang hosil bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "O‘n",
+    "oltilik",
+    "sistemada",
+    "o‘n",
+    "olti",
+    "raqam",
+    "bor"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_10",
+   "t": "match",
+   "q": "O‘n oltilik raqamni o‘nlikdagi qiymati bilan juftlang",
+   "pairs": [
+    [
+     "A",
+     "10"
+    ],
+    [
+     "B",
+     "11"
+    ],
+    [
+     "C",
+     "12"
+    ],
+    [
+     "D",
+     "13"
+    ],
+    [
+     "E",
+     "14"
+    ],
+    [
+     "F",
+     "15"
+    ]
+   ],
+   "d": 2,
+   "x": "O‘n oltilik sistemada 10–15 sonlari harflar bilan yoziladi."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_11",
+   "t": "choice",
+   "q": "Sakkizlik sistemadagi 17 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "15",
+   "w": [
+    "17",
+    "16",
+    "14",
+    "23"
+   ],
+   "d": 1,
+   "x": "1 · 8 + 7 · 1 = 15."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_12",
+   "t": "choice",
+   "q": "Sakkizlik sistemadagi 25 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "21",
+   "w": [
+    "25",
+    "22",
+    "20",
+    "37"
+   ],
+   "d": 2,
+   "x": "2 · 8 + 5 · 1 = 21."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_13",
+   "t": "choice",
+   "q": "Sakkizlik sistemadagi 100 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "64",
+   "w": [
+    "100",
+    "65",
+    "63",
+    "256"
+   ],
+   "d": 2,
+   "x": "1 · 64 + 0 · 8 + 0 · 1 = 64."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_14",
+   "t": "choice",
+   "q": "Sakkizlik sistemadagi 777 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "511",
+   "w": [
+    "777",
+    "512",
+    "510",
+    "1911"
+   ],
+   "d": 3,
+   "x": "7 · 64 + 7 · 8 + 7 · 1 = 511."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_15",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 10 sonini sakkizlik sistemada yozing.",
+   "a": "12",
+   "w": [
+    "13",
+    "11",
+    "10",
+    "21"
+   ],
+   "d": 1,
+   "x": "10 = 1 · 8 + 2 · 1 → 12."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_16",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 64 sonini sakkizlik sistemada yozing.",
+   "a": "100",
+   "w": [
+    "101",
+    "77",
+    "64",
+    "40"
+   ],
+   "d": 2,
+   "x": "64 = 1 · 64 + 0 · 8 + 0 · 1 → 100."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_17",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 30 sonini sakkizlik sistemada yozing.",
+   "a": "36",
+   "w": [
+    "37",
+    "35",
+    "30",
+    "63"
+   ],
+   "d": 3,
+   "x": "30 = 3 · 8 + 6 · 1 → 36."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_18",
+   "t": "choice",
+   "q": "O‘n oltilik sistemadagi A sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "10",
+   "w": [
+    "11",
+    "9",
+    "20",
+    "0"
+   ],
+   "d": 1,
+   "x": "A = 10."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_19",
+   "t": "choice",
+   "q": "O‘n oltilik sistemadagi D sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "13",
+   "w": [
+    "14",
+    "12",
+    "23",
+    "3"
+   ],
+   "d": 1,
+   "x": "D = 13."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_20",
+   "t": "choice",
+   "q": "O‘n oltilik sistemadagi 1A sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "26",
+   "w": [
+    "27",
+    "25",
+    "36",
+    "16"
+   ],
+   "d": 2,
+   "x": "1 · 16 + 10 · 1 = 26."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_21",
+   "t": "choice",
+   "q": "O‘n oltilik sistemadagi 20 sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "32",
+   "w": [
+    "33",
+    "31",
+    "20",
+    "16"
+   ],
+   "d": 2,
+   "x": "2 · 16 + 0 · 1 = 32."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_22",
+   "t": "choice",
+   "q": "O‘n oltilik sistemadagi FF sonini o‘nlik sistemaga o‘tkazing.",
+   "a": "255",
+   "w": [
+    "256",
+    "254",
+    "265",
+    "245"
+   ],
+   "d": 3,
+   "x": "15 · 16 + 15 · 1 = 255."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_23",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 11 sonini o‘n oltilik sistemada yozing.",
+   "a": "B",
+   "w": [
+    "C",
+    "A",
+    "11",
+    "13"
+   ],
+   "d": 1,
+   "x": "11 = 11 · 1 → B."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_24",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 16 sonini o‘n oltilik sistemada yozing.",
+   "a": "10",
+   "w": [
+    "11",
+    "F",
+    "16",
+    "20"
+   ],
+   "d": 2,
+   "x": "16 = 1 · 16 + 0 · 1 → 10."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_25",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 31 sonini o‘n oltilik sistemada yozing.",
+   "a": "1F",
+   "w": [
+    "20",
+    "1E",
+    "31",
+    "F1"
+   ],
+   "d": 2,
+   "x": "31 = 1 · 16 + 15 · 1 → 1F."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_26",
+   "t": "choice",
+   "q": "O‘nlik sistemadagi 255 sonini o‘n oltilik sistemada yozing.",
+   "a": "FF",
+   "w": [
+    "100",
+    "FE",
+    "255",
+    "377"
+   ],
+   "d": 3,
+   "x": "255 = 15 · 16 + 15 · 1 → FF."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_27",
+   "t": "choice",
+   "q": "Ikkilik 1111 sonini o‘n oltilik sistemada yozing.",
+   "a": "F",
+   "w": [
+    "10",
+    "E",
+    "15",
+    "1F"
+   ],
+   "d": 2,
+   "x": "4 tadan guruhlaymiz: 1111 → F."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_28",
+   "t": "choice",
+   "q": "Ikkilik 10100101 sonini o‘n oltilik sistemada yozing.",
+   "a": "A5",
+   "w": [
+    "A6",
+    "5A",
+    "165",
+    "1F"
+   ],
+   "d": 3,
+   "x": "4 tadan guruhlaymiz: 1010 0101 → A5."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_29",
+   "t": "choice",
+   "q": "Ikkilik 101110 sonini sakkizlik sistemada yozing.",
+   "a": "56",
+   "w": [
+    "65",
+    "46",
+    "2E",
+    "57"
+   ],
+   "d": 3,
+   "x": "3 tadan guruhlaymiz: 101 110 → 56."
+  },
+  {
+   "topic": "informatics_g6.sanoq",
+   "id": "sanoq_30",
+   "t": "choice",
+   "q": "Qaysi yozuv sakkizlik sistemadagi son bo‘la olmaydi?",
+   "a": "128",
+   "w": [
+    "127",
+    "70",
+    "12"
+   ],
+   "d": 2,
+   "x": "Sakkizlik sistemada 8 va 9 raqamlari yo‘q, 0–7 raqamlar ishlatiladi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_1",
+   "t": "choice",
+   "q": "Qaysi gap mulohaza bo‘ladi?",
+   "a": "Toshkent — O‘zbekiston poytaxti",
+   "w": [
+    "Soat necha bo‘ldi?",
+    "Eshikni yoping!",
+    "Qanday chiroyli!"
+   ],
+   "d": 1,
+   "x": "Mulohaza — rost yoki yolg‘onligini aytish mumkin bo‘lgan darak gap."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_2",
+   "t": "choice",
+   "q": "“5 + 3 = 9” mulohazasi qanday?",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Mulohaza emas",
+    "Ham rost, ham yolg‘on"
+   ],
+   "d": 1,
+   "x": "5 + 3 = 8, demak mulohaza yolg‘on."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_3",
+   "t": "choice",
+   "q": "Qaysi mantiqiy amal ikkala mulohaza rost bo‘lgandagina rost natija beradi?",
+   "a": "VA",
+   "w": [
+    "YOKI",
+    "EMAS",
+    "Hech qaysi"
+   ],
+   "d": 1,
+   "x": "VA — konyunksiya, “ham …, ham …” ma’nosida."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_4",
+   "t": "choice",
+   "q": "Qaysi mantiqiy amal qiymatni teskarisiga almashtiradi?",
+   "a": "EMAS",
+   "w": [
+    "VA",
+    "YOKI",
+    "TENG"
+   ],
+   "d": 1,
+   "x": "EMAS — inkor: rost yolg‘onga, yolg‘on rostga aylanadi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_5",
+   "t": "choice",
+   "q": "“Soat necha bo‘ldi?” gapi nima uchun mulohaza emas?",
+   "a": "U so‘roq gap",
+   "w": [
+    "U juda qisqa",
+    "Unda son yo‘q",
+    "U yolg‘on"
+   ],
+   "d": 2,
+   "x": "So‘roq va buyruq gaplar rost yoki yolg‘on bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_6",
+   "t": "tf",
+   "q": "YOKI amali ikkala mulohaza ham yolg‘on bo‘lganda yolg‘on natija beradi.",
+   "a": true,
+   "d": 1,
+   "x": "Faqat shu holatda YOKI yolg‘on bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_7",
+   "t": "tf",
+   "q": "EMAS (EMAS A) = A.",
+   "a": true,
+   "d": 2,
+   "x": "Ikki marta inkor qilinsa, qiymat o‘z holiga qaytadi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_8",
+   "t": "tf",
+   "q": "VA amali bitta mulohaza rost bo‘lsa ham rost natija beradi.",
+   "a": false,
+   "d": 1,
+   "x": "VA uchun ikkalasi ham rost bo‘lishi kerak."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Mulohaza",
+    "rost",
+    "yoki",
+    "yolg‘on",
+    "bo‘ladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_10",
+   "t": "match",
+   "q": "Amalni ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "VA",
+     "ikkalasi rost bo‘lsa rost"
+    ],
+    [
+     "YOKI",
+     "kamida bittasi rost bo‘lsa rost"
+    ],
+    [
+     "EMAS",
+     "qiymatni teskarisiga o‘zgartiradi"
+    ],
+    [
+     "Konyunksiya",
+     "VA amalining boshqa nomi"
+    ],
+    [
+     "Dizyunksiya",
+     "YOKI amalining boshqa nomi"
+    ],
+    [
+     "Inkor",
+     "EMAS amalining boshqa nomi"
+    ]
+   ],
+   "d": 2,
+   "x": "Mantiqiy amallarning o‘zbekcha va ilmiy nomlari."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_11",
+   "t": "choice",
+   "q": "A = 1, B = 0. “A VA B” ning qiymati nechaga teng?",
+   "a": "0",
+   "w": [
+    "1",
+    "2",
+    "10"
+   ],
+   "d": 1,
+   "x": "VA faqat ikkalasi 1 bo‘lsa 1 beradi. Javob: 0."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_12",
+   "t": "choice",
+   "q": "A = 1, B = 1. “A VA B” ning qiymati nechaga teng?",
+   "a": "1",
+   "w": [
+    "0",
+    "2",
+    "10"
+   ],
+   "d": 1,
+   "x": "VA faqat ikkalasi 1 bo‘lsa 1 beradi. Javob: 1."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_13",
+   "t": "choice",
+   "q": "A = 0, B = 1. “A YOKI B” ning qiymati nechaga teng?",
+   "a": "1",
+   "w": [
+    "0",
+    "2",
+    "10"
+   ],
+   "d": 1,
+   "x": "YOKI kamida bittasi 1 bo‘lsa 1 beradi. Javob: 1."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_14",
+   "t": "choice",
+   "q": "A = 0, B = 0. “A YOKI B” ning qiymati nechaga teng?",
+   "a": "0",
+   "w": [
+    "1",
+    "2",
+    "10"
+   ],
+   "d": 1,
+   "x": "YOKI kamida bittasi 1 bo‘lsa 1 beradi. Javob: 0."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_15",
+   "t": "choice",
+   "q": "A = 1, B = 0. “A YOKI B” ning qiymati nechaga teng?",
+   "a": "1",
+   "w": [
+    "0",
+    "2",
+    "10"
+   ],
+   "d": 2,
+   "x": "YOKI kamida bittasi 1 bo‘lsa 1 beradi. Javob: 1."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_16",
+   "t": "choice",
+   "q": "A = 0, B = 0. “A VA B” ning qiymati nechaga teng?",
+   "a": "0",
+   "w": [
+    "1",
+    "2",
+    "10"
+   ],
+   "d": 2,
+   "x": "VA faqat ikkalasi 1 bo‘lsa 1 beradi. Javob: 0."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_17",
+   "t": "choice",
+   "q": "A = 1. “EMAS A” ning qiymati nechaga teng?",
+   "a": "0",
+   "w": [
+    "1",
+    "2",
+    "−1"
+   ],
+   "d": 1,
+   "x": "EMAS qiymatni teskarisiga almashtiradi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_18",
+   "t": "choice",
+   "q": "A = 0. “EMAS A” ning qiymati nechaga teng?",
+   "a": "1",
+   "w": [
+    "0",
+    "2",
+    "−1"
+   ],
+   "d": 2,
+   "x": "EMAS qiymatni teskarisiga almashtiradi."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_19",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 1,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: yolg‘on.",
+   "text": "(7 > 3) VA (2 > 5)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_20",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 1,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: rost.",
+   "text": "(7 > 3) YOKI (2 > 5)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_21",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 2,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: yolg‘on.",
+   "text": "EMAS (4 = 4)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_22",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 2,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: yolg‘on.",
+   "text": "(10 < 5) YOKI (3 = 4)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_23",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 3,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: rost.",
+   "text": "EMAS (5 > 8) VA (6 > 1)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_24",
+   "t": "choice",
+   "q": "Murakkab mulohazaning qiymatini toping.",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 3,
+   "x": "Avval qavs ichidagi mulohazalarni baholaymiz. Natija: rost.",
+   "text": "(2 + 2 = 4) VA EMAS (9 < 3)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_25",
+   "t": "choice",
+   "q": "x = 4 bo‘lsa, mulohaza qanday qiymat oladi?",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 2,
+   "x": "x > 2 — rost, x < 5 — rost; VA natijasi: rost.",
+   "text": "(x > 2) VA (x < 5)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_26",
+   "t": "choice",
+   "q": "x = 7 bo‘lsa, mulohaza qanday qiymat oladi?",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi",
+    "Mulohaza emas"
+   ],
+   "d": 3,
+   "x": "x > 2 — rost, x < 5 — yolg‘on; VA natijasi: yolg‘on.",
+   "text": "(x > 2) VA (x < 5)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_27",
+   "t": "choice",
+   "q": "Qaysi x qiymatida mulohaza rost bo‘ladi?",
+   "a": "4",
+   "w": [
+    "2",
+    "7",
+    "6"
+   ],
+   "d": 3,
+   "x": "x 3 dan katta va 6 dan kichik bo‘lishi kerak: faqat 4 mos.",
+   "text": "(x > 3) VA (x < 6)"
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_28",
+   "t": "choice",
+   "q": "2 ta o‘zgaruvchili rostlik jadvalida nechta satr (holat) bo‘ladi?",
+   "a": "4",
+   "w": [
+    "2",
+    "5",
+    "6"
+   ],
+   "d": 2,
+   "x": "Har bir o‘zgaruvchi 2 xil qiymat oladi: 2 · 2 = 4."
+  },
+  {
+   "topic": "informatics_g6.mantiq",
+   "id": "mantiq_29",
+   "t": "choice",
+   "q": "3 ta o‘zgaruvchili rostlik jadvalida nechta satr (holat) bo‘ladi?",
+   "a": "8",
+   "w": [
+    "3",
+    "7",
+    "10"
+   ],
+   "d": 3,
+   "x": "Har bir o‘zgaruvchi 2 xil qiymat oladi: 2 · 2 · 2 = 8."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_1",
+   "t": "choice",
+   "q": "Qaysi dastur elektron jadval dasturi?",
+   "a": "Microsoft Excel",
+   "w": [
+    "Microsoft Word",
+    "Paint",
+    "PowerPoint"
+   ],
+   "d": 1,
+   "x": "Excel — elektron jadval, Word — matn, PowerPoint — taqdimot dasturi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_2",
+   "t": "choice",
+   "q": "Elektron jadvalda ustunlar qanday belgilanadi?",
+   "a": "Harflar bilan",
+   "w": [
+    "Raqamlar bilan",
+    "Ranglar bilan",
+    "Rasmlar bilan"
+   ],
+   "d": 1,
+   "x": "Ustunlar A, B, C … harflari bilan nomlanadi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_3",
+   "t": "choice",
+   "q": "Elektron jadvalda satrlar qanday belgilanadi?",
+   "a": "Raqamlar bilan",
+   "w": [
+    "Harflar bilan",
+    "Belgilar bilan",
+    "Ranglar bilan"
+   ],
+   "d": 1,
+   "x": "Satrlar 1, 2, 3 … raqamlari bilan nomlanadi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_4",
+   "t": "choice",
+   "q": "Ustun va satr kesishgan joy nima deyiladi?",
+   "a": "Katak",
+   "w": [
+    "Varaq",
+    "Diagramma",
+    "Formula"
+   ],
+   "d": 1,
+   "x": "Har bir katakning o‘z manzili bor."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_5",
+   "t": "choice",
+   "q": "Excel faylining kengaytmasi qaysi?",
+   "a": "xlsx",
+   "w": [
+    "docx",
+    "pptx",
+    "mp3"
+   ],
+   "d": 1,
+   "x": "xlsx — Excel ish kitobi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_6",
+   "t": "choice",
+   "q": "Elektron jadvalda formula qaysi belgi bilan boshlanadi?",
+   "a": "=",
+   "w": [
+    "+",
+    "#",
+    "@"
+   ],
+   "d": 1,
+   "x": "= belgisi dasturga “bu formula, hisobla” deydi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_7",
+   "t": "tf",
+   "q": "A1:B3 yozuvi — kataklar diapazoni.",
+   "a": true,
+   "d": 1,
+   "x": "Ikki nuqta diapazonning boshi va oxirini ajratadi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_8",
+   "t": "tf",
+   "q": "Katak manzilida avval satr raqami, keyin ustun harfi yoziladi.",
+   "a": false,
+   "d": 1,
+   "x": "Avval ustun harfi, keyin satr raqami: B7."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Formula",
+    "tenglik",
+    "belgisi",
+    "bilan",
+    "boshlanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_10",
+   "t": "choice",
+   "q": "Butunning qismlarini (masalan, foizlarni) ko‘rsatish uchun qaysi diagramma qulay?",
+   "a": "Doiraviy",
+   "w": [
+    "Chiziqli",
+    "Ustunli",
+    "Nuqtali"
+   ],
+   "d": 2,
+   "x": "Doiraviy diagramma butun doirani bo‘laklarga ajratib ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_11",
+   "t": "choice",
+   "q": "Haroratning kunlar bo‘yicha o‘zgarishini ko‘rsatish uchun qaysi diagramma qulay?",
+   "a": "Chiziqli",
+   "w": [
+    "Doiraviy",
+    "Hech qaysi",
+    "Faqat jadval"
+   ],
+   "d": 2,
+   "x": "Chiziqli grafik vaqt bo‘yicha o‘zgarishni yaxshi ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_12",
+   "t": "choice",
+   "q": "Ma’lumotlarni kattadan kichikka yoki alifbo bo‘yicha tartiblash nima deyiladi?",
+   "a": "Saralash",
+   "w": [
+    "Filtrlash",
+    "Birlashtirish",
+    "Nusxalash"
+   ],
+   "d": 2,
+   "x": "Saralash (sortirovka) satrlarni tartib bilan joylashtiradi."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_13",
+   "t": "choice",
+   "q": "Excelda son kiritilsa, u odatda katakning qaysi tomoniga tekislanadi?",
+   "a": "O‘ngga",
+   "w": [
+    "Chapga",
+    "Markazga",
+    "Pastga"
+   ],
+   "d": 3,
+   "x": "Sonlar o‘ngga, matn chapga tekislanadi — shundan sonni matndan ajratish mumkin."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_14",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Katak",
+     "ustun va satr kesishmasi"
+    ],
+    [
+     "Manzil",
+     "B5 kabi nom"
+    ],
+    [
+     "Diapazon",
+     "kataklar guruhi"
+    ],
+    [
+     "Formula",
+     "= bilan boshlanadi"
+    ],
+    [
+     "Varaq",
+     "kitobning bir sahifasi"
+    ],
+    [
+     "Diagramma",
+     "ma’lumotlarning grafik tasviri"
+    ]
+   ],
+   "d": 2,
+   "x": "Elektron jadvalning asosiy tushunchalari."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_15",
+   "t": "choice",
+   "q": "3-ustun va 5-satr kesishgan katakning manzili qanday?",
+   "a": "C5",
+   "w": [
+    "E3",
+    "5C",
+    "D5",
+    "C6"
+   ],
+   "d": 1,
+   "x": "3-ustun — C, manzil: avval ustun harfi, keyin satr raqami — C5."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_16",
+   "t": "choice",
+   "q": "1-ustun va 7-satr kesishgan katakning manzili qanday?",
+   "a": "A7",
+   "w": [
+    "G1",
+    "7A",
+    "B7",
+    "A8"
+   ],
+   "d": 1,
+   "x": "1-ustun — A, manzil: avval ustun harfi, keyin satr raqami — A7."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_17",
+   "t": "choice",
+   "q": "4-ustun va 2-satr kesishgan katakning manzili qanday?",
+   "a": "D2",
+   "w": [
+    "B4",
+    "2D",
+    "E2",
+    "D3"
+   ],
+   "d": 2,
+   "x": "4-ustun — D, manzil: avval ustun harfi, keyin satr raqami — D2."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_18",
+   "t": "choice",
+   "q": "26-ustun va 10-satr kesishgan katakning manzili qanday?",
+   "a": "Z10",
+   "w": [
+    "J26",
+    "10Z",
+    "AA10",
+    "Z11"
+   ],
+   "d": 3,
+   "x": "26-ustun — Z, manzil: avval ustun harfi, keyin satr raqami — Z10."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_19",
+   "t": "choice",
+   "q": "D7 katagi nechanchi ustunda joylashgan?",
+   "a": "4",
+   "w": [
+    "7",
+    "5",
+    "3",
+    "6"
+   ],
+   "d": 1,
+   "x": "D — alifboda 4-harf, demak 4-ustun."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_20",
+   "t": "choice",
+   "q": "B12 katagi nechanchi ustunda joylashgan?",
+   "a": "2",
+   "w": [
+    "12",
+    "3",
+    "1",
+    "4"
+   ],
+   "d": 2,
+   "x": "B — alifboda 2-harf, demak 2-ustun."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_21",
+   "t": "choice",
+   "q": "F3 katagi nechanchi ustunda joylashgan?",
+   "a": "6",
+   "w": [
+    "3",
+    "7",
+    "5",
+    "8"
+   ],
+   "d": 2,
+   "x": "F — alifboda 6-harf, demak 6-ustun."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_22",
+   "t": "choice",
+   "q": "A1:A5 diapazonida nechta katak bor?",
+   "a": "5",
+   "w": [
+    "6",
+    "2",
+    "4"
+   ],
+   "d": 1,
+   "x": "1 ta ustun · 5 ta satr = 5 ta katak."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_23",
+   "t": "choice",
+   "q": "B2:C4 diapazonida nechta katak bor?",
+   "a": "6",
+   "w": [
+    "5",
+    "7",
+    "2",
+    "8"
+   ],
+   "d": 2,
+   "x": "2 ta ustun · 3 ta satr = 6 ta katak."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_24",
+   "t": "choice",
+   "q": "A1:D3 diapazonida nechta katak bor?",
+   "a": "12",
+   "w": [
+    "7",
+    "13",
+    "2",
+    "16"
+   ],
+   "d": 2,
+   "x": "4 ta ustun · 3 ta satr = 12 ta katak."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_25",
+   "t": "choice",
+   "q": "C3:E7 diapazonida nechta katak bor?",
+   "a": "15",
+   "w": [
+    "8",
+    "16",
+    "2",
+    "18"
+   ],
+   "d": 3,
+   "x": "3 ta ustun · 5 ta satr = 15 ta katak."
+  },
+  {
+   "topic": "informatics_g6.jadval",
+   "id": "jadval_26",
+   "t": "choice",
+   "q": "Z ustunidan keyingi ustun qanday nomlanadi?",
+   "a": "AA",
+   "w": [
+    "ZA",
+    "A1",
+    "Z1",
+    "BB"
+   ],
+   "d": 3,
+   "x": "Harflar tugagach, ikki harfli nomlar boshlanadi: AA, AB, AC …"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_1",
+   "t": "choice",
+   "q": "SUM funksiyasi nima hisoblaydi?",
+   "a": "Yig‘indini",
+   "w": [
+    "Eng katta sonni",
+    "O‘rta arifmetikni",
+    "Eng kichik sonni"
+   ],
+   "d": 1,
+   "x": "SUM — inglizcha “yig‘indi”."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_2",
+   "t": "choice",
+   "q": "AVERAGE funksiyasi nima hisoblaydi?",
+   "a": "O‘rta arifmetikni",
+   "w": [
+    "Yig‘indini",
+    "Kataklar sonini",
+    "Eng katta sonni"
+   ],
+   "d": 1,
+   "x": "AVERAGE — sonlar yig‘indisini ularning soniga bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_3",
+   "t": "choice",
+   "q": "MAX funksiyasi nima topadi?",
+   "a": "Eng katta qiymatni",
+   "w": [
+    "Eng kichik qiymatni",
+    "Yig‘indini",
+    "O‘rtachani"
+   ],
+   "d": 1,
+   "x": "MAX — maksimum."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_4",
+   "t": "choice",
+   "q": "MIN funksiyasi nima topadi?",
+   "a": "Eng kichik qiymatni",
+   "w": [
+    "Eng katta qiymatni",
+    "Yig‘indini",
+    "Ko‘paytmani"
+   ],
+   "d": 1,
+   "x": "MIN — minimum."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_5",
+   "t": "choice",
+   "q": "Elektron jadvalda ko‘paytirish qaysi belgi bilan yoziladi?",
+   "a": "*",
+   "w": [
+    "x",
+    "·",
+    ":"
+   ],
+   "d": 1,
+   "x": "Formulada ko‘paytirish uchun yulduzcha * ishlatiladi."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_6",
+   "t": "tf",
+   "q": "Formulali katakda ekranda odatda formula emas, uning natijasi ko‘rinadi.",
+   "a": true,
+   "d": 1,
+   "x": "Formulaning o‘zi formula satrida ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_7",
+   "t": "tf",
+   "q": "=SUM(A1:A3) formulasi A1, A2, A3 kataklaridagi sonlarni qo‘shadi.",
+   "a": true,
+   "d": 1,
+   "x": "A1:A3 diapazoni uchta katakni o‘z ichiga oladi."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "SUM",
+    "funksiyasi",
+    "sonlar",
+    "yig‘indisini",
+    "hisoblaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_9",
+   "t": "match",
+   "q": "Funksiyani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "SUM",
+     "yig‘indi"
+    ],
+    [
+     "AVERAGE",
+     "o‘rta arifmetik"
+    ],
+    [
+     "MAX",
+     "eng katta qiymat"
+    ],
+    [
+     "MIN",
+     "eng kichik qiymat"
+    ],
+    [
+     "=",
+     "formula boshlanishi"
+    ]
+   ],
+   "d": 2,
+   "x": "Asosiy funksiyalarni yodda tuting."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_10",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "13",
+   "w": [
+    "14",
+    "12",
+    "54",
+    "3"
+   ],
+   "d": 1,
+   "x": "=A1+B1 → 13.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =A1+B1"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_11",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "36",
+   "w": [
+    "37",
+    "35",
+    "54",
+    "12"
+   ],
+   "d": 1,
+   "x": "=A2*B2 → 36.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =A2*B2"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_12",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "54",
+    "12"
+   ],
+   "d": 1,
+   "x": "=B3-A3 → 3.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =B3-A3"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_13",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "30",
+   "w": [
+    "31",
+    "29",
+    "54",
+    "12"
+   ],
+   "d": 1,
+   "x": "=SUM(A1:A4) → 30.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =SUM(A1:A4)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_14",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "54",
+    "12"
+   ],
+   "d": 2,
+   "x": "=AVERAGE(B1:B4) → 6.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =AVERAGE(B1:B4)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_15",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "12",
+   "w": [
+    "13",
+    "11",
+    "54",
+    "3"
+   ],
+   "d": 2,
+   "x": "=MAX(A1:B4) → 12.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =MAX(A1:B4)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_16",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "54",
+    "12"
+   ],
+   "d": 2,
+   "x": "=MIN(B1:B4) → 3.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =MIN(B1:B4)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_17",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "28",
+   "w": [
+    "29",
+    "27",
+    "54",
+    "12"
+   ],
+   "d": 2,
+   "x": "=SUM(A1:B2) → 28.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =SUM(A1:B2)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_18",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "20",
+   "w": [
+    "21",
+    "19",
+    "135",
+    "40"
+   ],
+   "d": 2,
+   "x": "=AVERAGE(A1:C1) → 20.",
+   "text": "A1 = 20, B1 = 15, C1 = 25\nA2 = 30, B2 = 40, C2 = 5\nFormula: =AVERAGE(A1:C1)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_19",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "35",
+   "w": [
+    "36",
+    "34",
+    "135",
+    "40"
+   ],
+   "d": 3,
+   "x": "=MAX(A1:C2)-MIN(A1:C2) → 35.",
+   "text": "A1 = 20, B1 = 15, C1 = 25\nA2 = 30, B2 = 40, C2 = 5\nFormula: =MAX(A1:C2)-MIN(A1:C2)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_20",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "25",
+   "w": [
+    "26",
+    "24",
+    "135",
+    "40"
+   ],
+   "d": 3,
+   "x": "=SUM(A2:C2)/3 → 25.",
+   "text": "A1 = 20, B1 = 15, C1 = 25\nA2 = 30, B2 = 40, C2 = 5\nFormula: =SUM(A2:C2)/3"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_21",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "70",
+   "w": [
+    "71",
+    "69",
+    "135",
+    "40"
+   ],
+   "d": 3,
+   "x": "=(A1+B1)*2 → 70.",
+   "text": "A1 = 20, B1 = 15, C1 = 25\nA2 = 30, B2 = 40, C2 = 5\nFormula: =(A1+B1)*2"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_22",
+   "t": "choice",
+   "q": "Jadvaldagi qiymatlar berilgan. Formula natijasi nechaga teng?",
+   "a": "54",
+   "w": [
+    "55",
+    "53",
+    "12",
+    "3"
+   ],
+   "d": 3,
+   "x": "=SUM(A1:A4)+SUM(B1:B4) → 54.",
+   "text": "A1 = 5, B1 = 8\nA2 = 12, B2 = 3\nA3 = 7, B3 = 10\nA4 = 6, B4 = 3\nFormula: =SUM(A1:A4)+SUM(B1:B4)"
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_23",
+   "t": "choice",
+   "q": "C1 katagida =A1+B1 formulasi bor. U C2 katagiga nusxalansa, qanday formula hosil bo‘ladi?",
+   "a": "=A2+B2",
+   "w": [
+    "=A1+B1",
+    "=B1+C1",
+    "=A2+B1"
+   ],
+   "d": 3,
+   "x": "Nisbiy manzillar nusxalanganda satr raqami 1 ga oshadi: A1 → A2, B1 → B2."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_24",
+   "t": "choice",
+   "q": "A1 katagidagi son o‘zgarsa, =A1*2 formulali katak nima bo‘ladi?",
+   "a": "Natija avtomatik qayta hisoblanadi",
+   "w": [
+    "O‘zgarmaydi",
+    "Xato chiqadi",
+    "Katak o‘chadi"
+   ],
+   "d": 2,
+   "x": "Elektron jadvalning asosiy qulayligi — formulalar avtomatik yangilanadi."
+  },
+  {
+   "topic": "informatics_g6.formula",
+   "id": "formula_25",
+   "t": "choice",
+   "q": "Nolga bo‘lish formulasi (masalan, =A1/0) qanday xato chiqaradi?",
+   "a": "#DIV/0!",
+   "w": [
+    "#NAME?",
+    "#####",
+    "0"
+   ],
+   "d": 3,
+   "x": "Nolga bo‘lish mumkin emas, Excel #DIV/0! xatosini chiqaradi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_1",
+   "t": "choice",
+   "q": "Hujjatga jadval qo‘shish uchun qaysi menyu ochiladi?",
+   "a": "Qo‘yish",
+   "w": [
+    "Fayl",
+    "Ko‘rinish",
+    "Yordam"
+   ],
+   "d": 1,
+   "x": "“Qo‘yish” menyusida jadval, rasm, shakl bor."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_2",
+   "t": "choice",
+   "q": "Har bir bandi • belgisi bilan boshlanadigan ro‘yxat qanday ataladi?",
+   "a": "Markerli ro‘yxat",
+   "w": [
+    "Raqamli ro‘yxat",
+    "Jadval",
+    "Sarlavha"
+   ],
+   "d": 1,
+   "x": "Marker — band oldidagi belgi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_3",
+   "t": "choice",
+   "q": "Bandlari 1., 2., 3. bilan boshlanadigan ro‘yxat qanday ataladi?",
+   "a": "Raqamli ro‘yxat",
+   "w": [
+    "Markerli ro‘yxat",
+    "Diagramma",
+    "Kolontitul"
+   ],
+   "d": 1,
+   "x": "Raqamli ro‘yxatda tartib muhim bo‘lgan bandlar yoziladi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_4",
+   "t": "choice",
+   "q": "Word imlo xatosi bor so‘zni qanday belgilaydi?",
+   "a": "Qizil to‘lqinli chiziq bilan",
+   "w": [
+    "Yashil bo‘yoq bilan",
+    "Qalin shrift bilan",
+    "Kursiv bilan"
+   ],
+   "d": 1,
+   "x": "Qizil to‘lqinli chiziq so‘zni tekshirib ko‘rishni eslatadi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_5",
+   "t": "choice",
+   "q": "Hujjatni chop etish uchun qaysi tugmalar bosiladi?",
+   "a": "Ctrl+P",
+   "w": [
+    "Ctrl+S",
+    "Ctrl+J",
+    "Ctrl+M"
+   ],
+   "d": 1,
+   "x": "P — inglizcha Print, ya’ni “chop etish”."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_6",
+   "t": "choice",
+   "q": "Keng jadval sig‘ishi uchun sahifa qaysi yo‘nalishga o‘giriladi?",
+   "a": "Albom (yotiq)",
+   "w": [
+    "Kitob (tik)",
+    "Teskari",
+    "Diagonal"
+   ],
+   "d": 2,
+   "x": "Albom yo‘nalishida sahifa kengroq bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_7",
+   "t": "choice",
+   "q": "Rasm atrofida matn qanday joylashishini qaysi buyruq sozlaydi?",
+   "a": "Matn bilan o‘rash",
+   "w": [
+    "Saralash",
+    "Saqlash sifatida",
+    "Imlo tekshirish"
+   ],
+   "d": 2,
+   "x": "Rasm matn ichida, yonida yoki ortida turishi mumkin."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_8",
+   "t": "choice",
+   "q": "Jadvaldagi bir nechta katakni bitta katakka aylantirish nima deyiladi?",
+   "a": "Kataklarni birlashtirish",
+   "w": [
+    "Kataklarni bo‘lish",
+    "Saralash",
+    "Formatlash"
+   ],
+   "d": 2,
+   "x": "Birlashtirish odatda jadval sarlavhasi uchun ishlatiladi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_9",
+   "t": "choice",
+   "q": "Har bir sahifaning yuqori yoki pastki qismida takrorlanadigan matn nima deyiladi?",
+   "a": "Kolontitul",
+   "w": [
+    "Xatboshi",
+    "Marker",
+    "Katak"
+   ],
+   "d": 3,
+   "x": "Kolontitulga sahifa raqami, sarlavha yoki muallif nomi yoziladi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_10",
+   "t": "choice",
+   "q": "Word’da yangi sahifani majburan boshlash uchun qaysi tugmalar bosiladi?",
+   "a": "Ctrl+Enter",
+   "w": [
+    "Ctrl+N",
+    "Shift+Tab",
+    "Alt+F4"
+   ],
+   "d": 3,
+   "x": "Ctrl+Enter sahifa uzilishini qo‘yadi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_11",
+   "t": "tf",
+   "q": "Hujjatdagi jadvalga keyin ham satr qo‘shish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Jadval o‘lchamini istalgan payt o‘zgartirish mumkin."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_12",
+   "t": "tf",
+   "q": "Raqamli ro‘yxatdan band o‘chirilsa, qolgan raqamlarni qo‘lda tuzatish shart.",
+   "a": false,
+   "d": 1,
+   "x": "Raqamlar avtomatik yangilanadi."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Qo‘yish",
+    "menyusidan",
+    "jadval",
+    "qo‘shiladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_14",
+   "t": "match",
+   "q": "Elementni qo‘shish yo‘li bilan juftlang",
+   "pairs": [
+    [
+     "Jadval",
+     "Qo‘yish → Jadval"
+    ],
+    [
+     "Rasm",
+     "Qo‘yish → Rasm"
+    ],
+    [
+     "Raqamli ro‘yxat",
+     "1, 2, 3 tugmasi"
+    ],
+    [
+     "Markerli ro‘yxat",
+     "• tugmasi"
+    ],
+    [
+     "Chop etish",
+     "Ctrl+P"
+    ]
+   ],
+   "d": 2,
+   "x": "Hujjatni boyitish uchun asosiy buyruqlar."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_15",
+   "t": "choice",
+   "q": "Hujjatga 3 satr va 4 ustunli jadval qo‘yildi. Jadvalda nechta katak bor?",
+   "a": "12",
+   "w": [
+    "7",
+    "15",
+    "16",
+    "11"
+   ],
+   "d": 1,
+   "x": "3 · 4 = 12 ta katak."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_16",
+   "t": "choice",
+   "q": "Hujjatga 5 satr va 2 ustunli jadval qo‘yildi. Jadvalda nechta katak bor?",
+   "a": "10",
+   "w": [
+    "7",
+    "15",
+    "12",
+    "9"
+   ],
+   "d": 1,
+   "x": "5 · 2 = 10 ta katak."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_17",
+   "t": "choice",
+   "q": "Hujjatga 4 satr va 6 ustunli jadval qo‘yildi. Jadvalda nechta katak bor?",
+   "a": "24",
+   "w": [
+    "10",
+    "28",
+    "30",
+    "23"
+   ],
+   "d": 2,
+   "x": "4 · 6 = 24 ta katak."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_18",
+   "t": "choice",
+   "q": "3 satr va 4 ustunli jadvalga yana 1 ta satr qo‘shildi. Endi nechta katak bor?",
+   "a": "16",
+   "w": [
+    "12",
+    "13",
+    "15",
+    "17"
+   ],
+   "d": 2,
+   "x": "Endi 4 satr: 4 · 4 = 16."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_19",
+   "t": "choice",
+   "q": "2 satr va 5 ustunli jadvalga yana 1 ta satr qo‘shildi. Endi nechta katak bor?",
+   "a": "15",
+   "w": [
+    "10",
+    "11",
+    "12",
+    "16"
+   ],
+   "d": 3,
+   "x": "Endi 3 satr: 3 · 5 = 15."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_20",
+   "t": "choice",
+   "q": "3 × 3 jadvalda birinchi satrning 3 ta katagi birlashtirildi. Jadvalda nechta katak qoldi?",
+   "a": "7",
+   "w": [
+    "9",
+    "6",
+    "8",
+    "5"
+   ],
+   "d": 3,
+   "x": "3 ta katak bitta bo‘ldi: 9 − 3 + 1 = 7."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_21",
+   "t": "choice",
+   "q": "4 × 4 jadvalda birinchi satrning 2 ta katagi birlashtirildi. Jadvalda nechta katak qoldi?",
+   "a": "15",
+   "w": [
+    "16",
+    "14",
+    "17",
+    "13"
+   ],
+   "d": 3,
+   "x": "2 ta katak bitta bo‘ldi: 16 − 2 + 1 = 15."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_22",
+   "t": "choice",
+   "q": "Raqamli ro‘yxatda 5 ta band bor edi. 2 ta band o‘chirildi. Oxirgi band qaysi raqam bilan belgilanadi?",
+   "a": "3",
+   "w": [
+    "5",
+    "4",
+    "2"
+   ],
+   "d": 2,
+   "x": "Raqamli ro‘yxat avtomatik qayta raqamlanadi: 5 − 2 = 3."
+  },
+  {
+   "topic": "informatics_g6.hujjat",
+   "id": "hujjat_23",
+   "t": "choice",
+   "q": "Raqamli ro‘yxatda 8 ta band bor edi. 3 ta band o‘chirildi. Oxirgi band qaysi raqam bilan belgilanadi?",
+   "a": "5",
+   "w": [
+    "8",
+    "7",
+    "3",
+    "6"
+   ],
+   "d": 2,
+   "x": "Raqamli ro‘yxat avtomatik qayta raqamlanadi: 8 − 3 = 5."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_1",
+   "t": "choice",
+   "q": "Namoyishni joriy slayddan boshlash uchun qaysi tugmalar bosiladi?",
+   "a": "Shift+F5",
+   "w": [
+    "F5",
+    "Ctrl+F5",
+    "Esc"
+   ],
+   "d": 1,
+   "x": "F5 — boshidan, Shift+F5 — joriy slayddan."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_2",
+   "t": "choice",
+   "q": "Slaydlar almashayotganda chiqadigan effekt nima deyiladi?",
+   "a": "O‘tish effekti",
+   "w": [
+    "Animatsiya",
+    "Maket",
+    "Kolontitul"
+   ],
+   "d": 1,
+   "x": "O‘tish effekti ikki slayd orasida bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_3",
+   "t": "choice",
+   "q": "Slayd ichidagi rasmning uchib kirishi nima deyiladi?",
+   "a": "Animatsiya",
+   "w": [
+    "O‘tish effekti",
+    "Maket",
+    "Dizayn mavzusi"
+   ],
+   "d": 1,
+   "x": "Animatsiya slayddagi alohida obyektga qo‘llanadi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_4",
+   "t": "choice",
+   "q": "Slaydda sarlavha, matn va rasm joylashuvi nima deyiladi?",
+   "a": "Slayd maketi",
+   "w": [
+    "Dizayn mavzusi",
+    "Animatsiya",
+    "Giperhavola"
+   ],
+   "d": 1,
+   "x": "Maket slayd “skeleti”."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_5",
+   "t": "choice",
+   "q": "Slayddagi matnni saytga bog‘lash nima deyiladi?",
+   "a": "Giperhavola",
+   "w": [
+    "Animatsiya",
+    "Saralash",
+    "Kolontitul"
+   ],
+   "d": 1,
+   "x": "Giperhavola bosilsa, sayt yoki boshqa slayd ochiladi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_6",
+   "t": "choice",
+   "q": "Taqdimotning barcha slaydlarini kichik ko‘rinishda ko‘rib, tartibini o‘zgartirish rejimi?",
+   "a": "Slaydlar saralovchi",
+   "w": [
+    "Namoyish",
+    "Chop etish",
+    "Oddiy"
+   ],
+   "d": 1,
+   "x": "Saralovchi rejimda slaydlarni sudrab joyini almashtirish qulay."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_7",
+   "t": "tf",
+   "q": "Taqdimotga video va tovush qo‘shish mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Qo‘yish menyusida video va audio bor."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_8",
+   "t": "tf",
+   "q": "Bitta slaydga iloji boricha ko‘p animatsiya qo‘yish taqdimotni yaxshilaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Ortiqcha animatsiya tomoshabinni chalg‘itadi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Esc",
+    "tugmasi",
+    "namoyishni",
+    "to‘xtatadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_10",
+   "t": "choice",
+   "q": "Ma’ruzachi slayd ostiga o‘zi uchun yozib qo‘yadigan matn nima deyiladi?",
+   "a": "Eslatmalar",
+   "w": [
+    "Sarlavha",
+    "Kolontitul",
+    "Marker"
+   ],
+   "d": 2,
+   "x": "Eslatmalar namoyishda tomoshabinlarga ko‘rinmaydi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_11",
+   "t": "choice",
+   "q": "Taqdimotni boshqa kompyuterda o‘zgarmasdan ochilishi uchun qaysi formatda saqlash qulay?",
+   "a": "PDF",
+   "w": [
+    "TXT",
+    "MP3",
+    "BMP"
+   ],
+   "d": 2,
+   "x": "PDF hujjati har qanday qurilmada bir xil ko‘rinadi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_12",
+   "t": "choice",
+   "q": "PowerPoint’da animatsiyaning qaysi turi obyektni slayddan yo‘qotadi?",
+   "a": "Chiqish",
+   "w": [
+    "Kirish",
+    "Ajratib ko‘rsatish",
+    "Maket"
+   ],
+   "d": 3,
+   "x": "Kirish — paydo bo‘lish, ajratib ko‘rsatish — urg‘u berish, chiqish — yo‘qolish."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_13",
+   "t": "choice",
+   "q": "Giperhavola qo‘shish uchun qaysi tugmalar bosiladi?",
+   "a": "Ctrl+K",
+   "w": [
+    "Ctrl+H",
+    "Ctrl+L",
+    "Ctrl+G"
+   ],
+   "d": 3,
+   "x": "Ctrl+K — giperhavola qo‘yish oynasini ochadi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_14",
+   "t": "choice",
+   "q": "Yaxshi slayd uchun qaysi tavsiya to‘g‘ri?",
+   "a": "Bir slaydda bitta asosiy fikr",
+   "w": [
+    "Har slaydda 10 xil shrift",
+    "Butun matnni slaydga ko‘chirish",
+    "Fon va matn rangi bir xil"
+   ],
+   "d": 2,
+   "x": "Qisqa, aniq va o‘qilishi oson slayd tomoshabinga tushunarli."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_15",
+   "t": "choice",
+   "q": "Barcha slaydlarga bir xil fon, rang va shrift berish uchun nima tanlanadi?",
+   "a": "Dizayn mavzusi",
+   "w": [
+    "O‘tish effekti",
+    "Animatsiya",
+    "Eslatmalar"
+   ],
+   "d": 1,
+   "x": "Dizayn mavzusi butun taqdimotga yagona ko‘rinish beradi."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_16",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Maket",
+     "elementlar joylashuvi"
+    ],
+    [
+     "Dizayn mavzusi",
+     "fon va ranglar to‘plami"
+    ],
+    [
+     "O‘tish effekti",
+     "slaydlar almashishi"
+    ],
+    [
+     "Animatsiya",
+     "obyekt harakati"
+    ],
+    [
+     "Giperhavola",
+     "boshqa joyga o‘tish"
+    ],
+    [
+     "Eslatmalar",
+     "ma’ruzachi uchun matn"
+    ]
+   ],
+   "d": 2,
+   "x": "Taqdimot yaratishning asosiy tushunchalari."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_17",
+   "t": "choice",
+   "q": "Taqdimotda 12 ta slayd, har biri avtomatik ravishda 45 soniyadan keyin almashadi. Namoyish qancha davom etadi?",
+   "a": "9 daqiqa",
+   "w": [
+    "10 daqiqa",
+    "12 daqiqa",
+    "8 daqiqa",
+    "5 daqiqa"
+   ],
+   "d": 2,
+   "x": "12 · 45 = 540 soniya = 9 daqiqa."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_18",
+   "t": "choice",
+   "q": "Taqdimotda 20 ta slayd, har biri avtomatik ravishda 30 soniyadan keyin almashadi. Namoyish qancha davom etadi?",
+   "a": "10 daqiqa",
+   "w": [
+    "11 daqiqa",
+    "20 daqiqa",
+    "9 daqiqa",
+    "6 daqiqa"
+   ],
+   "d": 2,
+   "x": "20 · 30 = 600 soniya = 10 daqiqa."
+  },
+  {
+   "topic": "informatics_g6.taqdimot",
+   "id": "taqdimot_19",
+   "t": "choice",
+   "q": "Taqdimotda 8 ta slayd, har biri avtomatik ravishda 75 soniyadan keyin almashadi. Namoyish qancha davom etadi?",
+   "a": "10 daqiqa",
+   "w": [
+    "11 daqiqa",
+    "8 daqiqa",
+    "9 daqiqa",
+    "6 daqiqa"
+   ],
+   "d": 3,
+   "x": "8 · 75 = 600 soniya = 10 daqiqa."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_1",
+   "t": "choice",
+   "q": "Blok-sxemada kiritish va chiqarish qaysi shakl bilan belgilanadi?",
+   "a": "Parallelogramm",
+   "w": [
+    "Romb",
+    "Oval",
+    "Doira"
+   ],
+   "d": 1,
+   "x": "Parallelogramm — ma’lumot kiritish yoki natijani chiqarish."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_2",
+   "t": "choice",
+   "q": "Blok-sxemada shart qaysi shakl ichiga yoziladi?",
+   "a": "Romb",
+   "w": [
+    "Oval",
+    "To‘g‘ri to‘rtburchak",
+    "Parallelogramm"
+   ],
+   "d": 1,
+   "x": "Rombdan “Ha” va “Yo‘q” yo‘llari chiqadi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_3",
+   "t": "choice",
+   "q": "Blok-sxemada hisoblash amali qaysi shakl ichiga yoziladi?",
+   "a": "To‘g‘ri to‘rtburchak",
+   "w": [
+    "Romb",
+    "Oval",
+    "Uchburchak"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri to‘rtburchak — amal bloki."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_4",
+   "t": "choice",
+   "q": "Blok-sxema qaysi shakl bilan boshlanadi va tugaydi?",
+   "a": "Oval",
+   "w": [
+    "Romb",
+    "Parallelogramm",
+    "Kvadrat"
+   ],
+   "d": 1,
+   "x": "Oval ichiga “Boshlash” va “Tugash” yoziladi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_5",
+   "t": "choice",
+   "q": "Shartga qarab ikki yo‘ldan biri tanlanadigan algoritm qanday ataladi?",
+   "a": "Tarmoqlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Takrorlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 1,
+   "x": "Tarmoqlanuvchi algoritmda romb bloki bor."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_6",
+   "t": "tf",
+   "q": "Chiziqli algoritmda buyruqlar birin-ketin, hech narsa tekshirilmasdan bajariladi.",
+   "a": true,
+   "d": 1,
+   "x": "Chiziqli algoritmda shart ham, sikl ham yo‘q."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_7",
+   "t": "tf",
+   "q": "Siklda strelka oldingi blokka qaytadi.",
+   "a": true,
+   "d": 2,
+   "x": "Qaytish strelkasi takrorlanishni ko‘rsatadi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Romb",
+    "ichiga",
+    "shart",
+    "yoziladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_9",
+   "t": "choice",
+   "q": "“Uyga kelgach, dars qil; agar vaqt qolsa, o‘yna” qaysi algoritm turiga misol?",
+   "a": "Tarmoqlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Takrorlanuvchi",
+    "Algoritm emas"
+   ],
+   "d": 2,
+   "x": "“Agar …” so‘zi shartni bildiradi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_10",
+   "t": "choice",
+   "q": "“Barcha misollar yechilmaguncha, navbatdagi misolni yech” qaysi algoritm turiga misol?",
+   "a": "Takrorlanuvchi",
+   "w": [
+    "Chiziqli",
+    "Tarmoqlanuvchi",
+    "Tasodifiy"
+   ],
+   "d": 2,
+   "x": "Bir xil ish shart bajarilguncha takrorlanadi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_11",
+   "t": "match",
+   "q": "Shaklni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Oval",
+     "boshlanish va tugash"
+    ],
+    [
+     "Parallelogramm",
+     "kiritish va chiqarish"
+    ],
+    [
+     "To‘g‘ri to‘rtburchak",
+     "amal"
+    ],
+    [
+     "Romb",
+     "shart"
+    ],
+    [
+     "Strelka",
+     "bajarilish tartibi"
+    ]
+   ],
+   "d": 2,
+   "x": "Blok-sxema shakllari xalqaro qabul qilingan."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_12",
+   "t": "choice",
+   "q": "Blok-sxema: x ga 7 kiritildi. Romb: “x > 5?”. “Ha” bo‘lsa y = x · 2, “Yo‘q” bo‘lsa y = x + 10. y nechaga teng?",
+   "a": "14",
+   "w": [
+    "17",
+    "7",
+    "15"
+   ],
+   "d": 1,
+   "x": "7 > 5 — ha: y = 7 · 2 = 14."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_13",
+   "t": "choice",
+   "q": "Blok-sxema: x ga 3 kiritildi. Romb: “x > 5?”. “Ha” bo‘lsa y = x · 2, “Yo‘q” bo‘lsa y = x + 10. y nechaga teng?",
+   "a": "13",
+   "w": [
+    "6",
+    "3",
+    "14"
+   ],
+   "d": 2,
+   "x": "3 > 5 — yo‘q: y = 3 + 10 = 13."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_14",
+   "t": "choice",
+   "q": "Blok-sxema: a = 8, b = 13. Romb: “a > b?”. “Ha” bo‘lsa a chiqariladi, “Yo‘q” bo‘lsa b chiqariladi. Nima chiqariladi?",
+   "a": "13",
+   "w": [
+    "8",
+    "21",
+    "5"
+   ],
+   "d": 2,
+   "x": "Algoritm ikki sondan kattasini chiqaradi: 13."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_15",
+   "t": "choice",
+   "q": "Blok-sxema: a = 15, b = 9. Romb: “a > b?”. “Ha” bo‘lsa a chiqariladi, “Yo‘q” bo‘lsa b chiqariladi. Nima chiqariladi?",
+   "a": "15",
+   "w": [
+    "9",
+    "24",
+    "6"
+   ],
+   "d": 2,
+   "x": "Algoritm ikki sondan kattasini chiqaradi: 15."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_16",
+   "t": "choice",
+   "q": "Blok-sxema: s = 0, i = 1. Romb: “i ≤ 4?”. “Ha” bo‘lsa: s = s + i, i = i + 1 va yana romb. “Yo‘q” bo‘lsa s chiqariladi. s nechaga teng?",
+   "a": "10",
+   "w": [
+    "6",
+    "15",
+    "4",
+    "11"
+   ],
+   "d": 2,
+   "x": "s = 1 + 2 + … + 4 = 10.",
+   "say": "Blok-sxema: s = 0, i = 1. Romb: i 4 dan kichik yoki tengmi? Ha bo‘lsa: s = s + i, i = i + 1 va yana romb. Yo‘q bo‘lsa s chiqariladi. s nechaga teng?"
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_17",
+   "t": "choice",
+   "q": "Blok-sxema: s = 0, i = 1. Romb: “i ≤ 6?”. “Ha” bo‘lsa: s = s + i, i = i + 1 va yana romb. “Yo‘q” bo‘lsa s chiqariladi. s nechaga teng?",
+   "a": "21",
+   "w": [
+    "15",
+    "28",
+    "6",
+    "22"
+   ],
+   "d": 3,
+   "x": "s = 1 + 2 + … + 6 = 21.",
+   "say": "Blok-sxema: s = 0, i = 1. Romb: i 6 dan kichik yoki tengmi? Ha bo‘lsa: s = s + i, i = i + 1 va yana romb. Yo‘q bo‘lsa s chiqariladi. s nechaga teng?"
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_18",
+   "t": "choice",
+   "q": "Blok-sxema: n = 20. Romb: “n > 5?”. “Ha” bo‘lsa n = n − 6 va yana romb, “Yo‘q” bo‘lsa n chiqariladi. Nima chiqariladi?",
+   "a": "2",
+   "w": [
+    "8",
+    "3",
+    "0",
+    "1"
+   ],
+   "d": 3,
+   "x": "n 3 marta 6 ga kamaydi: 20 → 2. Shart 4 marta tekshirildi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_19",
+   "t": "choice",
+   "q": "Blok-sxema: n = 20. Romb: “n > 5?”. “Ha” bo‘lsa n = n − 6 va yana romb. Sikl tanasi necha marta bajariladi?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5"
+   ],
+   "d": 3,
+   "x": "n qiymatlari: 20 → 14 → 8 → 2; tana 3 marta bajarildi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_20",
+   "t": "choice",
+   "q": "Blok-sxema: n = 15. Romb: “n > 5?”. “Ha” bo‘lsa n = n − 6 va yana romb, “Yo‘q” bo‘lsa n chiqariladi. Nima chiqariladi?",
+   "a": "3",
+   "w": [
+    "9",
+    "4",
+    "0",
+    "1"
+   ],
+   "d": 3,
+   "x": "n 2 marta 6 ga kamaydi: 15 → 3. Shart 3 marta tekshirildi."
+  },
+  {
+   "topic": "informatics_g6.blok_sxema",
+   "id": "blok_sxema_21",
+   "t": "choice",
+   "q": "Blok-sxema: n = 15. Romb: “n > 5?”. “Ha” bo‘lsa n = n − 6 va yana romb. Sikl tanasi necha marta bajariladi?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4"
+   ],
+   "d": 3,
+   "x": "n qiymatlari: 15 → 9 → 3; tana 2 marta bajarildi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_1",
+   "t": "choice",
+   "q": "Scratch’da o‘yin ochkosini saqlash uchun nima yaratiladi?",
+   "a": "O‘zgaruvchi",
+   "w": [
+    "Kostyum",
+    "Sahna",
+    "Tovush"
+   ],
+   "d": 1,
+   "x": "O‘zgaruvchi — qiymat saqlaydigan nomlangan joy."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_2",
+   "t": "choice",
+   "q": "“sprayt bosilganda” bloki qaysi guruhda?",
+   "a": "Hodisalar",
+   "w": [
+    "Harakat",
+    "Operatorlar",
+    "Tovush"
+   ],
+   "d": 1,
+   "x": "Hodisalar bloklari skript qachon boshlanishini belgilaydi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_3",
+   "t": "choice",
+   "q": "“agar … bo‘lsa” bloki qaysi guruhda?",
+   "a": "Boshqaruv",
+   "w": [
+    "Hodisalar",
+    "Ko‘rinish",
+    "Harakat"
+   ],
+   "d": 1,
+   "x": "Shart va sikl bloklari Boshqaruv guruhida."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_4",
+   "t": "choice",
+   "q": "“… ga tegyaptimi?” bloki qaysi guruhda?",
+   "a": "Sezish",
+   "w": [
+    "Harakat",
+    "Tovush",
+    "Hodisalar"
+   ],
+   "d": 1,
+   "x": "Sezish bloklari spraytning atrofini “sezadi”."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_5",
+   "t": "choice",
+   "q": "“ball ni 0 ga o‘rnat” bloki nima qiladi?",
+   "a": "ball ga 0 qiymatini beradi",
+   "w": [
+    "ball ga 0 qo‘shadi",
+    "ball ni o‘chiradi",
+    "Spraytni yashiradi"
+   ],
+   "d": 1,
+   "x": "“o‘rnat” eski qiymatni yangisiga almashtiradi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_6",
+   "t": "choice",
+   "q": "“ball ni 1 ga o‘zgartir” bloki nima qiladi?",
+   "a": "ball ga 1 qo‘shadi",
+   "w": [
+    "ball ni 1 ga tenglaydi",
+    "ball ni 1 ga bo‘ladi",
+    "ball ni o‘chiradi"
+   ],
+   "d": 1,
+   "x": "“o‘zgartir” joriy qiymatga berilgan sonni qo‘shadi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_7",
+   "t": "tf",
+   "q": "“doimo takrorla” ichidagi bloklar to‘xtatish tugmasi bosilguncha bajariladi.",
+   "a": true,
+   "d": 1,
+   "x": "Bu cheksiz sikl."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_8",
+   "t": "tf",
+   "q": "Bitta spraytda faqat bitta skript bo‘lishi mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Spraytda bir nechta skript bo‘lishi mumkin, har biri o‘z hodisasi bilan."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "O‘zgaruvchi",
+    "o‘yindagi",
+    "ballni",
+    "saqlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_10",
+   "t": "choice",
+   "q": "Spraytlar bir-biriga signal berishi uchun qaysi blok ishlatiladi?",
+   "a": "xabar yubor",
+   "w": [
+    "kut",
+    "takrorla",
+    "ayt"
+   ],
+   "d": 2,
+   "x": "Bir sprayt xabar yuboradi, boshqasi “xabar olinganda” bloki bilan ishga tushadi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_11",
+   "t": "choice",
+   "q": "Ikki shartni birlashtiruvchi “… va …” bloki qaysi guruhda?",
+   "a": "Operatorlar",
+   "w": [
+    "Hodisalar",
+    "Sezish",
+    "Harakat"
+   ],
+   "d": 3,
+   "x": "Mantiqiy “va”, “yoki”, “emas” bloklari Operatorlar guruhida."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_12",
+   "t": "choice",
+   "q": "“10 marta takrorla”dan farqli, “doimo takrorla” qachon to‘xtaydi?",
+   "a": "Dastur to‘xtatilganda",
+   "w": [
+    "10 martadan keyin",
+    "Hech qachon ishlamaydi",
+    "Bir martadan keyin"
+   ],
+   "d": 2,
+   "x": "“doimo takrorla” sanamaydi, u to‘xtatilguncha ishlaydi."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_13",
+   "t": "match",
+   "q": "Blokni guruhi bilan juftlang",
+   "pairs": [
+    [
+     "yashil bayroqcha bosilganda",
+     "Hodisalar"
+    ],
+    [
+     "agar … bo‘lsa",
+     "Boshqaruv"
+    ],
+    [
+     "… ga tegyaptimi?",
+     "Sezish"
+    ],
+    [
+     "tasodifiy son tanla",
+     "Operatorlar"
+    ],
+    [
+     "ball ni 1 ga o‘zgartir",
+     "O‘zgaruvchilar"
+    ],
+    [
+     "10 qadam yur",
+     "Harakat"
+    ]
+   ],
+   "d": 2,
+   "x": "Bloklar vazifasiga qarab guruhlangan."
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_14",
+   "t": "choice",
+   "q": "Skript bajarilgach, ball o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "10",
+   "w": [
+    "11",
+    "9",
+    "12",
+    "20"
+   ],
+   "d": 1,
+   "x": "Bloklarni tartib bilan bajarsak, ball = 10.",
+   "text": "yashil bayroqcha bosilganda\nball ni 0 ga o‘rnat\n5 marta takrorla: ball ni 2 ga o‘zgartir"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_15",
+   "t": "choice",
+   "q": "Skript bajarilgach, ball o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "6",
+    "8"
+   ],
+   "d": 2,
+   "x": "Bloklarni tartib bilan bajarsak, ball = 4.",
+   "text": "yashil bayroqcha bosilganda\nball ni 10 ga o‘rnat\n3 marta takrorla: ball ni -2 ga o‘zgartir"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_16",
+   "t": "choice",
+   "q": "Skript bajarilgach, son o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "12",
+   "w": [
+    "13",
+    "11",
+    "14",
+    "24"
+   ],
+   "d": 2,
+   "x": "Bloklarni tartib bilan bajarsak, son = 12.",
+   "text": "son ni 7 ga o‘rnat\nagar son > 10 bo‘lsa: son ni 1 ga o‘zgartir,\naks holda: son ni 5 ga o‘zgartir"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_17",
+   "t": "choice",
+   "q": "Skript bajarilgach, ball o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "8",
+    "12"
+   ],
+   "d": 3,
+   "x": "Bloklarni tartib bilan bajarsak, ball = 6.",
+   "text": "ball ni 0 ga o‘rnat\n2 marta takrorla [ 3 marta takrorla [ ball ni 1 ga o‘zgartir ] ]"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_18",
+   "t": "choice",
+   "q": "Skript bajarilgach, x o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "32",
+   "w": [
+    "33",
+    "31",
+    "34",
+    "64"
+   ],
+   "d": 3,
+   "x": "Bloklarni tartib bilan bajarsak, x = 32.",
+   "text": "x ni 1 ga o‘rnat\nx > 20 bo‘lguncha takrorla: x ni x * 2 ga o‘rnat"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_19",
+   "t": "choice",
+   "q": "Skript bajarilgach, ball o‘zgaruvchisi nechaga teng bo‘ladi?",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "8",
+    "12"
+   ],
+   "d": 3,
+   "x": "Bloklarni tartib bilan bajarsak, ball = 6.",
+   "text": "ball ni 0 ga o‘rnat\n6 marta takrorla [ ball ni 3 ga o‘zgartir;\nagar ball > 10 bo‘lsa: ball ni 0 ga o‘rnat ]"
+  },
+  {
+   "topic": "informatics_g6.scratch",
+   "id": "scratch_20",
+   "t": "choice",
+   "q": "Skript bajarilgach, sprayt nima deydi?",
+   "a": "“G‘alaba!”",
+   "w": [
+    "“Yana urin!”",
+    "Hech narsa demaydi",
+    "“60”"
+   ],
+   "d": 3,
+   "x": "4 · 15 = 60, 60 > 50 — shart rost.",
+   "text": "x ni 0 ga o‘rnat\n4 marta takrorla: x ni 15 ga o‘zgartir\nagar x > 50 bo‘lsa: “G‘alaba!” de,\naks holda: “Yana urin!” de"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_1",
+   "t": "choice",
+   "q": "“a = a + 1” buyrug‘i nima qiladi?",
+   "a": "a ning qiymatini 1 ga oshiradi",
+   "w": [
+    "a ni 1 ga tenglaydi",
+    "a ni o‘chiradi",
+    "Xato beradi"
+   ],
+   "d": 1,
+   "x": "O‘ng tomon hisoblanadi va natija a ga yoziladi."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_2",
+   "t": "choice",
+   "q": "17 % 5 ifodaning qiymati nechaga teng?",
+   "a": "2",
+   "w": [
+    "3",
+    "3,4",
+    "12"
+   ],
+   "d": 2,
+   "x": "% — bo‘linmaning qoldig‘i: 17 = 3 · 5 + 2."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_3",
+   "t": "choice",
+   "q": "17 // 5 ifodaning qiymati nechaga teng?",
+   "a": "3",
+   "w": [
+    "2",
+    "3,4",
+    "85"
+   ],
+   "d": 2,
+   "x": "// — butun bo‘lish: 17 : 5 = 3 (qoldiq 2)."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_4",
+   "t": "choice",
+   "q": "Qaysi buyruq natijani ekranga chiqaradi?",
+   "a": "chiqar",
+   "w": [
+    "takrorla",
+    "agar",
+    "toki"
+   ],
+   "d": 1,
+   "x": "“chiqar a” — a ning qiymatini ekranga chiqaradi."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_5",
+   "t": "choice",
+   "q": "“a = 5” buyrug‘idan keyin “a = 8” bajarilsa, a nechaga teng?",
+   "a": "8",
+   "w": [
+    "5",
+    "13",
+    "58"
+   ],
+   "d": 1,
+   "x": "Yangi qiymat eskisining o‘rniga yoziladi."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_6",
+   "t": "tf",
+   "q": "O‘zgaruvchiga yangi qiymat berilsa, eski qiymat saqlanib qoladi.",
+   "a": false,
+   "d": 1,
+   "x": "Eski qiymat o‘chadi, o‘rniga yangisi yoziladi."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_7",
+   "t": "tf",
+   "q": "Dastur buyruqlari yuqoridan pastga tartib bilan bajariladi.",
+   "a": true,
+   "d": 1,
+   "x": "Sikl va shartlar bu tartibni o‘zgartirishi mumkin."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "O‘zgaruvchi",
+    "qiymatni",
+    "saqlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_9",
+   "t": "match",
+   "q": "Amalni ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "+",
+     "qo‘shish"
+    ],
+    [
+     "-",
+     "ayirish"
+    ],
+    [
+     "*",
+     "ko‘paytirish"
+    ],
+    [
+     "//",
+     "butun bo‘lish"
+    ],
+    [
+     "%",
+     "qoldiq"
+    ],
+    [
+     "==",
+     "tenglikni tekshirish"
+    ]
+   ],
+   "d": 2,
+   "x": "Dasturlashdagi asosiy amallar."
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_10",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "16",
+   "w": [
+    "17",
+    "15",
+    "32",
+    "26"
+   ],
+   "d": 1,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 16.",
+   "text": "a = 5\nb = a + 3\na = b * 2\nchiqar a"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_11",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "17",
+   "w": [
+    "18",
+    "16",
+    "34",
+    "27"
+   ],
+   "d": 1,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 17.",
+   "text": "x = 10\ny = x - 3\nx = x + y\nchiqar x"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_12",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "12",
+   "w": [
+    "13",
+    "11",
+    "24",
+    "22"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 12.",
+   "text": "a = 7\nb = 2\na = a * b\nb = a - b\nchiqar b"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_13",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "8",
+    "14"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 4.",
+   "text": "son = 1234\nchiqar son % 10"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_14",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "123",
+   "w": [
+    "124",
+    "122",
+    "246",
+    "133"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 123.",
+   "text": "son = 1234\nchiqar son // 10"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_15",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "5",
+   "w": [
+    "6",
+    "4",
+    "10",
+    "15"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 5.",
+   "text": "n = 17\nq = n // 5\nr = n % 5\nchiqar q + r"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_16",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "8",
+    "14"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 4.",
+   "text": "a = 9\nagar a > 5 bo‘lsa: a = a - 5, aks holda: a = a + 5\nchiqar a"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_17",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "6",
+   "w": [
+    "7",
+    "5",
+    "12",
+    "16"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 6.",
+   "text": "a = 4\nb = 6\nagar a > b bo‘lsa: c = a, aks holda: c = b\nchiqar c"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_18",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "juft",
+   "w": [
+    "toq",
+    "12",
+    "0"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: juft.",
+   "text": "x = 12\nagar x % 2 == 0 bo‘lsa: chiqar “juft”, aks holda: chiqar “toq”"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_19",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "15",
+   "w": [
+    "10",
+    "21",
+    "16",
+    "14"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 15.",
+   "text": "s = 0\ni = 1 dan 5 gacha takrorla: s = s + i\nchiqar s"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_20",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "16",
+   "w": [
+    "8",
+    "32",
+    "17",
+    "15"
+   ],
+   "d": 2,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 16.",
+   "text": "p = 1\n4 marta takrorla: p = p * 2\nchiqar p"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_21",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "30",
+   "w": [
+    "14",
+    "55",
+    "31",
+    "29"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 30.",
+   "text": "s = 0\ni = 1 dan 4 gacha takrorla: s = s + i * i\nchiqar s"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_22",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "6",
+    "13"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 3.",
+   "text": "n = 20\nk = 0\ntoki n > 5: n = n - 6; k = k + 1\nchiqar k"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_23",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "5",
+   "w": [
+    "3",
+    "8",
+    "6",
+    "4"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 5.",
+   "text": "a = 1\nb = 1\n3 marta takrorla: c = a + b; a = b; b = c\nchiqar b"
+  },
+  {
+   "topic": "informatics_g6.dastur_natija",
+   "id": "dastur_natija_24",
+   "t": "choice",
+   "q": "Dastur bajarilgach, ekranga nima chiqadi?",
+   "a": "8, 3",
+   "w": [
+    "3, 8",
+    "3, 3",
+    "8, 8"
+   ],
+   "d": 3,
+   "x": "Buyruqlarni tartib bilan bajarib, o‘zgaruvchilar qiymatini kuzatamiz. Natija: 8, 3.",
+   "text": "a = 3\nb = 8\nc = a\na = b\nb = c\nchiqar a, b"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_1",
+   "t": "choice",
+   "q": "Bir xona yoki binodagi kompyuterlarni bog‘lovchi tarmoq qanday ataladi?",
+   "a": "Lokal tarmoq",
+   "w": [
+    "Global tarmoq",
+    "Provayder",
+    "Domen"
+   ],
+   "d": 1,
+   "x": "Masalan, maktabning informatika xonasidagi kompyuterlar tarmog‘i."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_2",
+   "t": "choice",
+   "q": "Internetga ulanish xizmatini ko‘rsatuvchi kompaniya nima deyiladi?",
+   "a": "Provayder",
+   "w": [
+    "Server",
+    "Brauzer",
+    "Domen"
+   ],
+   "d": 1,
+   "x": "Provayder uy va tashkilotlarni internetga ulaydi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_3",
+   "t": "choice",
+   "q": "Boshqa kompyuterlarga xizmat ko‘rsatuvchi, saytlar saqlanadigan kompyuter nima?",
+   "a": "Server",
+   "w": [
+    "Mijoz",
+    "Router",
+    "Skaner"
+   ],
+   "d": 1,
+   "x": "Server kecha-yu kunduz ishlaydi va so‘rovlarga javob beradi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_4",
+   "t": "choice",
+   "q": "Tarmoqdagi qurilmaning raqamli manzili nima deyiladi?",
+   "a": "IP-manzil",
+   "w": [
+    "Domen nomi",
+    "Parol",
+    "Kengaytma"
+   ],
+   "d": 1,
+   "x": "IP-manzil — Internet Protocol manzili."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_5",
+   "t": "choice",
+   "q": "IPv4 manzilidagi har bir son qaysi oraliqda bo‘ladi?",
+   "a": "0 dan 255 gacha",
+   "w": [
+    "0 dan 100 gacha",
+    "1 dan 1000 gacha",
+    "0 dan 9 gacha"
+   ],
+   "d": 1,
+   "x": "Har bir son 8 bit (1 bayt) bilan yoziladi: 0–255."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_6",
+   "t": "choice",
+   "q": "Domen nomini IP-manzilga aylantiruvchi xizmat qaysi?",
+   "a": "DNS",
+   "w": [
+    "HTML",
+    "USB",
+    "PDF"
+   ],
+   "d": 2,
+   "x": "DNS — internetning “telefon kitobi”."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_7",
+   "t": "choice",
+   "q": "“.org” domen zonasi odatda kimlarga tegishli?",
+   "a": "Tashkilotlarga",
+   "w": [
+    "Faqat maktablarga",
+    "Faqat O‘zbekistonga",
+    "Faqat o‘yinlarga"
+   ],
+   "d": 2,
+   "x": ".org — notijorat tashkilotlar zonasi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_8",
+   "t": "choice",
+   "q": "Ma’lumot uzatish tezligi qanday birlikda o‘lchanadi?",
+   "a": "Bit/s",
+   "w": [
+    "Gramm",
+    "Metr",
+    "Gradus"
+   ],
+   "d": 1,
+   "x": "Masalan, 100 Mbit/s — sekundiga 100 megabit."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_9",
+   "t": "tf",
+   "q": "Internet — global kompyuter tarmog‘i.",
+   "a": true,
+   "d": 1,
+   "x": "Internet butun dunyo tarmoqlarini birlashtiradi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_10",
+   "t": "tf",
+   "q": "Ikki qurilma bir tarmoqda bir xil IP-manzilga ega bo‘lishi kerak.",
+   "a": false,
+   "d": 1,
+   "x": "Har bir qurilmaning tarmoqda o‘z noyob manzili bo‘ladi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "DNS",
+    "domen",
+    "nomini",
+    "IP-manzilga",
+    "aylantiradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_12",
+   "t": "choice",
+   "q": "Hamma kompyuter bitta markaziy qurilmaga ulangan tarmoq tuzilishi qanday ataladi?",
+   "a": "Yulduz",
+   "w": [
+    "Halqa",
+    "Shina",
+    "Daraxt"
+   ],
+   "d": 3,
+   "x": "Yulduz topologiyasida markazda kommutator yoki router turadi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_13",
+   "t": "choice",
+   "q": "Yaqin masofada (bir necha metr) quloqchin va telefonni simsiz ulash texnologiyasi?",
+   "a": "Bluetooth",
+   "w": [
+    "Wi-Fi router",
+    "DNS",
+    "HTTPS"
+   ],
+   "d": 2,
+   "x": "Bluetooth kichik masofadagi qurilmalarni ulaydi."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_14",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Server",
+     "xizmat ko‘rsatuvchi kompyuter"
+    ],
+    [
+     "Provayder",
+     "internetga ulovchi kompaniya"
+    ],
+    [
+     "IP-manzil",
+     "qurilmaning raqamli manzili"
+    ],
+    [
+     "Domen nomi",
+     "saytning eslab qolinadigan nomi"
+    ],
+    [
+     "DNS",
+     "nomni IP ga aylantiradi"
+    ],
+    [
+     "URL",
+     "sahifaning to‘liq manzili"
+    ]
+   ],
+   "d": 2,
+   "x": "Tarmoq va internetning asosiy tushunchalari."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_15",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri IP-manzil?",
+   "a": "192.168.1.10",
+   "w": [
+    "256.10.1.1",
+    "10.0.0",
+    "172.16.300.4",
+    "192.168.1.1.5"
+   ],
+   "d": 2,
+   "x": "IPv4 manzil — nuqta bilan ajratilgan 4 ta son, har biri 0 dan 255 gacha."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_16",
+   "t": "choice",
+   "q": "Qaysi IP-manzil noto‘g‘ri yozilgan?",
+   "a": "10.20.256.1",
+   "w": [
+    "10.20.255.1",
+    "8.8.8.8",
+    "127.0.0.1"
+   ],
+   "d": 3,
+   "x": "256 soni ruxsat etilgan chegaradan (0–255) katta."
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_17",
+   "t": "choice",
+   "q": "Manzildagi protokol qaysi?",
+   "a": "https",
+   "w": [
+    "www",
+    "uz",
+    "html"
+   ],
+   "d": 2,
+   "x": "Manzil boshidagi https — ma’lumot almashish qoidasi (protokol).",
+   "text": "https://www.maktab.uz/darslar/fizika.html"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_18",
+   "t": "choice",
+   "q": "Manzildagi domen nomi qaysi?",
+   "a": "www.maktab.uz",
+   "w": [
+    "https",
+    "darslar",
+    "fizika.html"
+   ],
+   "d": 2,
+   "x": "Domen nomi — // dan keyin birinchi / gacha bo‘lgan qism.",
+   "text": "https://www.maktab.uz/darslar/fizika.html"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_19",
+   "t": "choice",
+   "q": "Manzildagi fayl nomi qaysi?",
+   "a": "fizika.html",
+   "w": [
+    "darslar",
+    "maktab",
+    "https"
+   ],
+   "d": 3,
+   "x": "Fayl nomi manzilning oxirida joylashgan.",
+   "text": "https://www.maktab.uz/darslar/fizika.html"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_20",
+   "t": "choice",
+   "q": "Hajmi 80 Mbit bo‘lgan fayl 10 Mbit/s tezlikda necha soniyada yuklanadi?",
+   "a": "8",
+   "w": [
+    "800",
+    "9",
+    "64",
+    "10"
+   ],
+   "d": 2,
+   "x": "80 : 10 = 8 soniya.",
+   "say": "Hajmi 80 megabit bo‘lgan fayl sekundiga 10 megabit tezlikda necha soniyada yuklanadi?"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_21",
+   "t": "choice",
+   "q": "Hajmi 40 Mbit bo‘lgan fayl 8 Mbit/s tezlikda necha soniyada yuklanadi?",
+   "a": "5",
+   "w": [
+    "320",
+    "6",
+    "40",
+    "8"
+   ],
+   "d": 3,
+   "x": "40 : 8 = 5 soniya.",
+   "say": "Hajmi 40 megabit bo‘lgan fayl sekundiga 8 megabit tezlikda necha soniyada yuklanadi?"
+  },
+  {
+   "topic": "informatics_g6.tarmoq",
+   "id": "tarmoq_22",
+   "t": "choice",
+   "q": "Hajmi 5 MB bo‘lgan fayl 8 Mbit/s tezlikda necha soniyada yuklanadi?",
+   "a": "5",
+   "w": [
+    "40",
+    "1",
+    "8"
+   ],
+   "d": 3,
+   "x": "5 MB = 5 · 8 = 40 Mbit; 40 : 8 = 5 soniya.",
+   "say": "Hajmi 5 megabayt bo‘lgan fayl sekundiga 8 megabit tezlikda necha soniyada yuklanadi?"
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_1",
+   "t": "choice",
+   "q": "Qaysi parol eng kuchli?",
+   "a": "t7#Kitob_Daryo2",
+   "w": [
+    "qwerty123",
+    "11111111",
+    "Aziz2012"
+   ],
+   "d": 1,
+   "x": "Uzun, turli belgilar aralashgan parolni topish juda qiyin."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_2",
+   "t": "choice",
+   "q": "Soxta xat yoki sayt orqali parolni o‘g‘irlash nima deyiladi?",
+   "a": "Fishing",
+   "w": [
+    "Spam",
+    "Brauzer",
+    "Zaxira nusxa"
+   ],
+   "d": 1,
+   "x": "Fishing — inglizcha “baliq ovlash” so‘zidan: aldab “ilintirish”."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_3",
+   "t": "choice",
+   "q": "Foydali dastur niqobidagi zararli dastur nima deyiladi?",
+   "a": "Troyan",
+   "w": [
+    "Antivirus",
+    "Brauzer",
+    "Drayver"
+   ],
+   "d": 1,
+   "x": "Nomi qadimgi “Troya oti” afsonasidan olingan."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_4",
+   "t": "choice",
+   "q": "Fayllarni shifrlab, ochish uchun pul so‘raydigan dastur qanday ataladi?",
+   "a": "To‘lov talab qiluvchi dastur",
+   "w": [
+    "Antivirus",
+    "Arxivator",
+    "Brauzer"
+   ],
+   "d": 1,
+   "x": "Bunday hujumdan zaxira nusxa saqlaydi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_5",
+   "t": "choice",
+   "q": "Bankdan deb qo‘ng‘iroq qilib, SMS-kodni so‘rashdi. Nima qilasiz?",
+   "a": "Kodni aytmayman",
+   "w": [
+    "Kodni aytaman",
+    "Karta raqamini aytaman",
+    "Parolni ham aytaman"
+   ],
+   "d": 1,
+   "x": "Haqiqiy bank xodimi hech qachon SMS-kodni so‘ramaydi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_6",
+   "t": "choice",
+   "q": "Ikki bosqichli tekshiruv nima?",
+   "a": "Parol va qo‘shimcha kod",
+   "w": [
+    "Ikkita brauzer",
+    "Ikki marta kirish",
+    "Ikki xil antivirus"
+   ],
+   "d": 1,
+   "x": "Parol o‘g‘irlansa ham, qo‘shimcha kodsiz hisobga kirib bo‘lmaydi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_7",
+   "t": "choice",
+   "q": "Fayllarni yo‘qolishdan saqlash uchun nima qilinadi?",
+   "a": "Zaxira nusxa olinadi",
+   "w": [
+    "Hammasi o‘chiriladi",
+    "Parol olib tashlanadi",
+    "Antivirus o‘chiriladi"
+   ],
+   "d": 1,
+   "x": "Zaxira nusxa boshqa diskda yoki bulutda saqlanadi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_8",
+   "t": "tf",
+   "q": "Hamma saytlar uchun bitta parol ishlatish xavfsiz.",
+   "a": false,
+   "d": 1,
+   "x": "Bitta sayt buzilsa, qolganlariga ham kirib olishadi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_9",
+   "t": "tf",
+   "q": "Operatsion tizim va dasturlarni yangilab turish xavfsizlikni oshiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Yangilanishlar topilgan zaif joylarni yopadi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "SMS",
+    "kodni",
+    "hech",
+    "kimga",
+    "aytmang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_11",
+   "t": "choice",
+   "q": "Qaysi sayt manzili fishing bo‘lishi mumkin?",
+   "a": "g00gle-login.com",
+   "w": [
+    "google.com",
+    "mail.google.com",
+    "accounts.google.com"
+   ],
+   "d": 2,
+   "x": "Harflar o‘rniga raqamlar (o → 0) — soxta saytning belgisi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_12",
+   "t": "choice",
+   "q": "Ochiq (parolsiz) Wi-Fi tarmog‘ida nima qilmagan ma’qul?",
+   "a": "Bank kartasi ma’lumotini kiritish",
+   "w": [
+    "Ob-havoni ko‘rish",
+    "Yangiliklarni o‘qish",
+    "Xaritaga qarash"
+   ],
+   "d": 2,
+   "x": "Ochiq tarmoqda ma’lumotni begonalar ushlab qolishi mumkin."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_13",
+   "t": "choice",
+   "q": "“Men robot emasman” tekshiruvi (CAPTCHA) nima uchun kerak?",
+   "a": "Odamni avtomatik dasturdan ajratish",
+   "w": [
+    "Ekranni tozalash",
+    "Internetni tezlashtirish",
+    "Faylni saqlash"
+   ],
+   "d": 3,
+   "x": "CAPTCHA avtomatik dasturlarning ommaviy ro‘yxatdan o‘tishiga yo‘l qo‘ymaydi."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_14",
+   "t": "match",
+   "q": "Tahdidni himoya bilan juftlang",
+   "pairs": [
+    [
+     "Virus",
+     "antivirus"
+    ],
+    [
+     "Fishing",
+     "manzilni tekshirish"
+    ],
+    [
+     "Parol o‘g‘irlanishi",
+     "ikki bosqichli tekshiruv"
+    ],
+    [
+     "Fayllar yo‘qolishi",
+     "zaxira nusxa"
+    ],
+    [
+     "Dasturdagi zaif joy",
+     "yangilash"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir xavfning o‘z himoya usuli bor."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_15",
+   "t": "choice",
+   "q": "4 xonali raqamli PIN-kod uchun nechta turli variant bor?",
+   "a": "10 000",
+   "w": [
+    "40",
+    "1000",
+    "6561",
+    "100 000"
+   ],
+   "d": 2,
+   "x": "Har bir xonaga 10 xil raqam: 10 ni 4 marta ko‘paytiramiz — 10 000."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_16",
+   "t": "choice",
+   "q": "6 xonali raqamli PIN-kod uchun nechta turli variant bor?",
+   "a": "1 000 000",
+   "w": [
+    "60",
+    "100 000",
+    "531 441",
+    "10 000 000"
+   ],
+   "d": 3,
+   "x": "Har bir xonaga 10 xil raqam: 10 ni 6 marta ko‘paytiramiz — 1 000 000."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_17",
+   "t": "choice",
+   "q": "Buzg‘unchi dastur soniyasiga 100 ta variantni tekshiradi. 4 xonali PIN-kodni ko‘pi bilan necha soniyada topadi?",
+   "a": "100",
+   "w": [
+    "1000",
+    "10",
+    "10000"
+   ],
+   "d": 3,
+   "x": "10 000 : 100 = 100 soniya — qisqa PIN tez topiladi, shuning uchun uzun parol kerak."
+  },
+  {
+   "topic": "informatics_g6.kiberxavfsizlik",
+   "id": "kiberxavfsizlik_18",
+   "t": "choice",
+   "q": "Parol faqat 0 va 1 raqamlaridan iborat va 3 belgili. Nechta turli parol bo‘lishi mumkin?",
+   "a": "8",
+   "w": [
+    "3",
+    "6",
+    "16"
+   ],
+   "d": 2,
+   "x": "2 · 2 · 2 = 8."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_1",
+   "t": "choice",
+   "q": "Mualliflik huquqi belgisi qaysi?",
+   "a": "©",
+   "w": [
+    "@",
+    "#",
+    "%"
+   ],
+   "d": 1,
+   "x": "© — inglizcha copyright so‘zining bosh harfi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_2",
+   "t": "choice",
+   "q": "Birovning ishini o‘ziniki qilib ko‘rsatish nima deyiladi?",
+   "a": "Plagiat",
+   "w": [
+    "Iqtibos",
+    "Litsenziya",
+    "Zaxira nusxa"
+   ],
+   "d": 1,
+   "x": "Plagiat — ilmiy va axloqiy qoidabuzarlik."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_3",
+   "t": "choice",
+   "q": "Asardan parcha keltirganda nima qilish kerak?",
+   "a": "Muallif va manbani ko‘rsatish",
+   "w": [
+    "Hech narsa",
+    "Matnni yashirish",
+    "Muallif nomini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Manba ko‘rsatilgan iqtibos — halol foydalanish."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_4",
+   "t": "choice",
+   "q": "Dasturdan foydalanish shartlari yozilgan hujjat nima?",
+   "a": "Litsenziya",
+   "w": [
+    "Kengaytma",
+    "Kolontitul",
+    "Protokol"
+   ],
+   "d": 1,
+   "x": "Litsenziyada nima qilish mumkin va mumkin emasligi yoziladi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_5",
+   "t": "choice",
+   "q": "Qaysi biri mualliflik huquqi bilan himoyalanadi?",
+   "a": "Kompyuter dasturi",
+   "w": [
+    "Ob-havo",
+    "Karra jadvali",
+    "Quyosh chiqishi"
+   ],
+   "d": 1,
+   "x": "Dastur ham kitob kabi asar hisoblanadi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_6",
+   "t": "choice",
+   "q": "Ruxsatsiz nusxalangan film yoki dasturni tarqatish nima deyiladi?",
+   "a": "Qaroqchilik",
+   "w": [
+    "Iqtibos",
+    "Arxivlash",
+    "Litsenziya"
+   ],
+   "d": 1,
+   "x": "Qaroqchilik mualliflarga zarar keltiradi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_7",
+   "t": "tf",
+   "q": "Internetdagi har qanday rasmni ruxsatsiz o‘z nomingizdan sotish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Rasmning muallifi bor, uning ruxsati kerak."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_8",
+   "t": "tf",
+   "q": "Referatda foydalanilgan manbalar ro‘yxatini ko‘rsatish kerak.",
+   "a": true,
+   "d": 1,
+   "x": "Bu muallif mehnatini hurmat qilish belgisi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Iqtibos",
+    "keltirilganda",
+    "manba",
+    "ko‘rsatiladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_10",
+   "t": "choice",
+   "q": "Kodi ochiq, uni o‘rganish va o‘zgartirish mumkin bo‘lgan dastur qanday ataladi?",
+   "a": "Ochiq kodli",
+   "w": [
+    "Qaroqchilik",
+    "Troyan",
+    "Yopiq"
+   ],
+   "d": 2,
+   "x": "Masalan, Linux va LibreOffice — ochiq kodli dasturlar."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_11",
+   "t": "choice",
+   "q": "Qaysi ofis dasturi ochiq kodli?",
+   "a": "LibreOffice",
+   "w": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Microsoft PowerPoint"
+   ],
+   "d": 2,
+   "x": "LibreOffice bepul va ochiq kodli ofis to‘plami."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_12",
+   "t": "choice",
+   "q": "Mualliflik huquqi asarga qachondan boshlab tegishli bo‘ladi?",
+   "a": "Asar yaratilgan paytdan",
+   "w": [
+    "Faqat 100 yildan keyin",
+    "Faqat sotilganda",
+    "Hech qachon"
+   ],
+   "d": 3,
+   "x": "Asarni maxsus ro‘yxatdan o‘tkazish shart emas."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_13",
+   "t": "choice",
+   "q": "Muallif o‘z asaridan erkin foydalanishga ruxsat beradigan mashhur ochiq litsenziya qaysi?",
+   "a": "Creative Commons",
+   "w": [
+    "Windows",
+    "HTTPS",
+    "Bluetooth"
+   ],
+   "d": 3,
+   "x": "Creative Commons belgisi bor asarlardan shartlariga rioya qilib foydalanish mumkin."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_14",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Plagiat",
+     "birovning ishini o‘zlashtirish"
+    ],
+    [
+     "Iqtibos",
+     "manbasi ko‘rsatilgan parcha"
+    ],
+    [
+     "Litsenziya",
+     "foydalanish shartlari"
+    ],
+    [
+     "Qaroqchilik",
+     "ruxsatsiz nusxalash"
+    ],
+    [
+     "Ochiq kodli dastur",
+     "kodini o‘zgartirish mumkin"
+    ],
+    [
+     "©",
+     "mualliflik belgisi"
+    ]
+   ],
+   "d": 2,
+   "x": "Mualliflik huquqiga oid asosiy tushunchalar."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_15",
+   "t": "choice",
+   "q": "Maktab loyihasi uchun internetdan rasm olsangiz, nima qilish to‘g‘ri?",
+   "a": "Muallif va manbani yozish",
+   "w": [
+    "Rasmga o‘z ismingizni yozish",
+    "Hech narsa qilmaslik",
+    "Rasmni yashirib qo‘yish"
+   ],
+   "d": 2,
+   "x": "Manba ko‘rsatilsa, boshqa odamning mehnati hurmat qilinadi."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_16",
+   "t": "choice",
+   "q": "Asarni yaratgan odam kim deyiladi?",
+   "a": "Muallif",
+   "w": [
+    "Provayder",
+    "Server",
+    "O‘quvchi"
+   ],
+   "d": 1,
+   "x": "Muallif — ijodkor."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_17",
+   "t": "choice",
+   "q": "Qaysi biri asar hisoblanmaydi?",
+   "a": "Karra jadvali faktlari",
+   "w": [
+    "Sinfdoshingiz chizgan rasm",
+    "Bastakor yozgan kuy",
+    "Shoir yozgan she’r"
+   ],
+   "d": 2,
+   "x": "Oddiy faktlar va raqamlar hech kimning ijodiy asari emas, rasm, kuy va she’r esa asar."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_18",
+   "t": "tf",
+   "q": "O‘zingiz olgan fotosuratning muallifi — o‘zingiz.",
+   "a": true,
+   "d": 2,
+   "x": "Fotosurat ham ijodiy asar, uni yaratgan odam muallif."
+  },
+  {
+   "topic": "informatics_g6.mualliflik",
+   "id": "mualliflik_19",
+   "t": "choice",
+   "q": "Qaysi harakat qonuniy va halol?",
+   "a": "Litsenziyali dasturni sotib olish",
+   "w": [
+    "Qaroqchi diskni sotish",
+    "Kitobni skanerlab sotish",
+    "Birovning she’rini o‘z nomidan chop etish"
+   ],
+   "d": 2,
+   "x": "Litsenziya dasturdan qonuniy foydalanish huquqini beradi."
+  }
+ ]
+}

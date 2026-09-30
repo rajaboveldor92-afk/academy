@@ -1,0 +1,754 @@
+{
+ "subject": "russian",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "russian_g6.accusative",
+   "code": "1",
+   "emoji": "🎯",
+   "title": {
+    "uz": "Tushum kelishigi: Кого? Что?",
+    "en": "Accusative case",
+    "ru": "Винительный падеж"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tushum va qaratqich kelishiklari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Винительный падеж — Кого? Что? (kimni? nimani?). Fe’llar: вижу, люблю, жду, читаю, покупаю.\n• она: -а → -у, -я → -ю: мама → вижу маму, книга → читаю книгу, Таня → жду Таню.\n• он (narsa) va оно o‘zgarmaydi: читаю журнал, вижу окно.\n• он (jonli: odam, hayvon) — -а / -я: вижу брата, жду друга, кормлю кота, спрашиваю учителя.\n• -ь bilan tugagan она rodidagi so‘z o‘zgarmaydi: открываю дверь, люблю осень."
+   }
+  },
+  {
+   "id": "russian_g6.genitive",
+   "code": "2",
+   "emoji": "🚫",
+   "title": {
+    "uz": "Qaratqich kelishigi: У меня нет…",
+    "en": "Genitive case",
+    "ru": "Родительный падеж"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tushum va qaratqich kelishiklari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Родительный падеж — Кого? Чего? (kimning? nimaning? nima yo‘q?).\n• У кого? — у меня, у тебя, у брата, у мамы: У брата есть велосипед.\n• нет + qaratqich: У меня нет собаки. Сегодня нет дождя.\n• Qo‘shimchalar: он / оно — -а / -я (стола, окна, дождя);  она — -ы / -и (мамы, книги, земли).\n• Egalik, miqdor, joy: книга брата (akamning kitobi), стакан воды, из Ташкента (Toshkentdan)."
+   }
+  },
+  {
+   "id": "russian_g6.possessive",
+   "code": "3",
+   "emoji": "🔑",
+   "title": {
+    "uz": "Egalik olmoshlari va свой",
+    "en": "Possessive pronouns",
+    "ru": "Притяжательные местоимения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tushum va qaratqich kelishiklari",
+   "prerequisites": [
+    "russian_g6.genitive"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Egalik olmoshlari otga moslashadi: мой / моя / моё / мои, твой…, наш / наша / наше / наши, ваш…\nего (uning — erkak), её (uning — ayol), их (ularning) — hech qachon o‘zgarmaydi: его сестра, их дети.\nсвой — o‘zining: Он читает свою книгу (o‘z kitobini). Он читает его книгу — boshqa odamning kitobini!\nKelishikda egalik olmoshlari ham o‘zgaradi: у моего брата, в нашем классе, с моей сестрой.\nЧей? Чья? Чьё? Чьи? — Kimning?"
+   }
+  },
+  {
+   "id": "russian_g6.spelling",
+   "code": "4",
+   "emoji": "✍️",
+   "title": {
+    "uz": "So‘zlarni to‘g‘ri yozish",
+    "en": "Spelling",
+    "ru": "Правописание слов"
+   },
+   "generator": "spell",
+   "skill": "spell",
+   "chapter": "1-chorak. Tushum va qaratqich kelishiklari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 6,
+     "extra": 1
+    },
+    {
+     "minLetters": 6,
+     "maxLetters": 8,
+     "extra": 2
+    }
+   ],
+   "theory": {
+    "uz": "Rus tilida ko‘p so‘z eshitilganidek yozilmaydi — urg‘usiz unliga e’tibor bering:\n• молоко [malako], собака [sabaka], корова [karova] — yozuvda о.\n• ё doim urg‘uli: ёж, самолёт, зелёный, пчёлы.\n• ь yumshatadi: конь, соль, морковь;  жи, ши — и bilan yoziladi: жираф, машина.\nRasmga qarang, so‘zni ayting va harflarni tering. Ortiqcha harflar ham bor!"
+   }
+  },
+  {
+   "id": "russian_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Tushum va qaratqich kelishiklari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.spelling"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.spelling"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.spelling"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g6.dative",
+   "code": "5",
+   "emoji": "🎁",
+   "title": {
+    "uz": "Jo‘nalish kelishigi: Кому? Чему?",
+    "en": "Dative case",
+    "ru": "Дательный падеж"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Jo‘nalish va vosita kelishiklari, harakat fe’llari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Дательный падеж — Кому? Чему? (kimga? nimaga?). Fe’llar: помогать, звонить, дарить, давать, писать.\n• он / оно: -у / -ю: брат → помогаю брату, учитель → учителю.\n• она: -е: мама → дарю маме, сестра → пишу сестре;  -ь → -и: мать → матери.\n• к + dativ — yoniga, kimnikiga: иду к врачу, еду к бабушке.  по + dativ — bo‘ylab: гуляю по парку.\n• Olmoshlar: мне, тебе, ему, ей, нам, вам, им. Мне нравится… — Menga yoqadi…"
+   }
+  },
+  {
+   "id": "russian_g6.instrumental",
+   "code": "6",
+   "emoji": "✏️",
+   "title": {
+    "uz": "Vosita kelishigi: С кем? Чем?",
+    "en": "Instrumental case",
+    "ru": "Творительный падеж"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Jo‘nalish va vosita kelishiklari, harakat fe’llari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Творительный падеж — Кем? Чем? С кем? С чем? (kim bilan? nima bilan?).\n• он / оно: -ом / -ем: друг → с другом, карандаш → карандашом, отец → с отцом.\n• она: -ой / -ей: мама → с мамой, ручка → ручкой, Таня → с Таней.\n• Чем ты пишешь? — Ручкой. С кем ты гуляешь? — С братом.\n• Kasb va mashg‘ulot: Я хочу стать врачом. Брат занимается спортом."
+   }
+  },
+  {
+   "id": "russian_g6.motion",
+   "code": "7",
+   "emoji": "🚶",
+   "title": {
+    "uz": "Harakat fe’llari: идти / ходить, ехать / ездить",
+    "en": "Verbs of motion",
+    "ru": "Глаголы движения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Jo‘nalish va vosita kelishiklari, harakat fe’llari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Piyoda: идти — hozir, bir tomonga: Я иду в школу (hozir maktabga ketyapman).\nходить — odatda, ko‘p marta yoki borib-kelish: Я хожу в школу каждый день. Вчера я ходил в музей.\nTransportda: ехать — hozir, bir tomonga: Мы едем на автобусе.  ездить — odatda yoki borib-kelish: Летом мы ездили на море.\nTuslanish: я иду, ты идёшь, они идут;  я хожу, ты ходишь;  я еду, ты едешь;  я езжу, ты ездишь.\nO‘tgan zamon: идти → шёл, шла, шли;  ехать → ехал, ехала."
+   }
+  },
+  {
+   "id": "russian_g6.actions",
+   "code": "8",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Harakatlar",
+    "en": "Actions",
+    "ru": "Действия"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "2-chorak. Jo‘nalish va vosita kelishiklari, harakat fe’llari",
+   "prerequisites": [
+    "russian_g6.motion"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4
+    },
+    {
+     "themes": [
+      "actions"
+     ],
+     "modes": [
+      "picture_word",
+      "listen"
+     ],
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Harakat fe’llari (он / она, hozir): бежит (yuguryapti), идёт (yuryapti), плывёт (suzyapti),\nедет на велосипеде, танцует, спит, сидит, пишет, думает, смеётся, плачет, лезет (tirmashyapti).\nЧто он делает? — Он бежит. Что она делает? — Она плывёт.\nEslang: бежать — бежит (hozir, bir tomonga), бегать — бегает (umuman, turli tomonga)."
+   }
+  },
+  {
+   "id": "russian_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Jo‘nalish va vosita kelishiklari, harakat fe’llari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.actions"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.actions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.actions"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g6.future",
+   "code": "9",
+   "emoji": "🔮",
+   "title": {
+    "uz": "Kelasi zamon: буду читать / прочитаю",
+    "en": "Future tense",
+    "ru": "Будущее время"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Kelasi zamon, taqqoslash va tartib sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kelasi zamon ikki xil:\n• Murakkab: быть + fe’l (jarayon): я буду читать, ты будешь, он будет, мы будем, вы будете, они будут.\n• Oddiy (tugallangan fe’l, natija): прочитать → я прочитаю, написать → он напишет, сделать → мы сделаем.\nЗавтра я буду читать весь день. — Ertaga kun bo‘yi o‘qiyman (jarayon).\nЗавтра я прочитаю эту книгу. — Ertaga bu kitobni o‘qib tugataman (natija)."
+   }
+  },
+  {
+   "id": "russian_g6.comparison",
+   "code": "10",
+   "emoji": "📏",
+   "title": {
+    "uz": "Sifat darajalari",
+    "en": "Comparison of adjectives",
+    "ru": "Степени сравнения прилагательных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Kelasi zamon, taqqoslash va tartib sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qiyosiy daraja (-ее): быстрый → быстрее, тёплый → теплее, интересный → интереснее.\nMaxsus shakllar: большой → больше, маленький → меньше, хороший → лучше, плохой → хуже,\nвысокий → выше, молодой → моложе, дорогой → дороже, лёгкий → легче.\nTaqqoslash: чем bilan — Слон больше, чем лошадь; yoki qaratqich bilan — Слон больше лошади.\nOrttirma daraja — самый: самый высокий дом, самая длинная улица, самое холодное утро."
+   }
+  },
+  {
+   "id": "russian_g6.ordinals",
+   "code": "11",
+   "emoji": "🥇",
+   "title": {
+    "uz": "Tartib sonlar",
+    "en": "Ordinal numbers",
+    "ru": "Порядковые числительные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Kelasi zamon, taqqoslash va tartib sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tartib son — Который? Какой по счёту? (nechanchi?): первый, второй, третий, четвёртый, пятый,\nшестой, седьмой, восьмой, девятый, десятый.\nUlar sifat kabi otga moslashadi: первый урок, первая парта, первое место, первые дни.\n• третий — alohida: третий день, третья неделя, третье окно.\nQayerda? — в пятом классе, на втором этаже. Sana: первое января, двадцать первое марта."
+   }
+  },
+  {
+   "id": "russian_g6.opposites",
+   "code": "12",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Qarama-qarshi sifatlar",
+    "en": "Opposite adjectives",
+    "ru": "Антонимы"
+   },
+   "generator": "opposites",
+   "skill": "opposites",
+   "chapter": "3-chorak. Kelasi zamon, taqqoslash va tartib sonlar",
+   "prerequisites": [
+    "russian_g6.comparison"
+   ],
+   "levels": [
+    {
+     "modes": [
+      "size",
+      "length",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 4
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qarama-qarshi ma’noli sifatlar (антонимы): большой — маленький, длинный — короткий,\nгорячий — холодный, быстрый — медленный, старый — молодой, весёлый — грустный,\nгромкий — тихий, открытый — закрытый.\nUlar ham otga moslashadi: быстрая машина — медленная машина.\nTaqqoslang: Черепаха медленнее зайца."
+   }
+  },
+  {
+   "id": "russian_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kelasi zamon, taqqoslash va tartib sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.opposites"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.opposites"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.opposites"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g6.weather",
+   "code": "13",
+   "emoji": "🌦️",
+   "title": {
+    "uz": "Fasllar va ob-havo",
+    "en": "Seasons and weather",
+    "ru": "Времена года и погода"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ob-havo: ясно (ochiq), облачно (bulutli), пасмурно (xira, bulut qoplagan), туман, гроза (momaqaldiroq),\nмороз (ayoz), жара (jazirama).\nHarorat: Сегодня плюс двадцать градусов. Ночью минус два градуса.\nZamon: Вчера было холодно. Сегодня тепло. Завтра будет дождь.\nFasl sifatlari: зимний, весенний, летний, осенний: летние каникулы, осенний дождь."
+   }
+  },
+  {
+   "id": "russian_g6.health",
+   "code": "14",
+   "emoji": "🤒",
+   "title": {
+    "uz": "Salomatlik",
+    "en": "Health",
+    "ru": "Здоровье"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qayering og‘riyapti? — Что у тебя болит? — У меня болит голова (зуб, живот, горло, ухо).\nKo‘plikda: У меня болят зубы (ноги, глаза).\nKasallik: У меня температура. У меня насморк (tumov). Я простудился (shamolladim).\nMaslahat: Надо (нужно) пойти к врачу. Надо пить тёплый чай. Нельзя бегать под дождём.\nShifoxonada: врач, медсестра (hamshira), лекарство (dori), рецепт, аптека (dorixona)."
+   }
+  },
+  {
+   "id": "russian_g6.travel",
+   "code": "15",
+   "emoji": "✈️",
+   "title": {
+    "uz": "Sayohat",
+    "en": "Travel",
+    "ru": "Путешествия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sayohat so‘zlari: путешествие (sayohat), билет (chipta), чемодан (chamadon), паспорт, вокзал,\nаэропорт, гостиница (mehmonxona), экскурсия, карта (xarita).\nTransport: ехать на поезде, лететь на самолёте, плыть на корабле.\nQayerga? — поехать в Самарканд, поехать на море.  Qayerdan? — вернуться из Бухары, прилететь из Ташкента.\nМы купили билеты, собрали чемоданы и поехали на вокзал."
+   }
+  },
+  {
+   "id": "russian_g6.reading",
+   "code": "16",
+   "emoji": "📖",
+   "title": {
+    "uz": "Matnlar va savollar",
+    "en": "Reading comprehension",
+    "ru": "Тексты с вопросами"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Uzunroq matnni o‘qishdan oldin savollarni ko‘zdan kechiring.\n• Matnda kalit so‘zlarni toping: ismlar, sanalar, joylar, sonlar.\n• Kelishik qo‘shimchalariga qarang: к бабушке — buvinikiga, с сестрой — opa (singil) bilan, из Хивы — Xivadan.\n• Fe’l zamoniga e’tibor bering: ездила (o‘tgan), буду (kelasi).\nJavobni matndan tekshiring, taxmin qilmang."
+   }
+  },
+  {
+   "id": "russian_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Ob-havo, salomatlik va sayohat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "russian_g6.accusative",
+      "russian_g6.genitive",
+      "russian_g6.possessive",
+      "russian_g6.dative",
+      "russian_g6.instrumental",
+      "russian_g6.motion",
+      "russian_g6.future",
+      "russian_g6.comparison",
+      "russian_g6.ordinals",
+      "russian_g6.weather",
+      "russian_g6.health",
+      "russian_g6.travel",
+      "russian_g6.reading"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

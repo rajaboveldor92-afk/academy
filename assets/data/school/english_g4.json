@@ -1,0 +1,779 @@
+{
+ "subject": "english",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "english_g4.time",
+   "code": "1",
+   "emoji": "⏰",
+   "title": {
+    "uz": "Soat necha? Vaqtni aytish",
+    "en": "What time is it?",
+    "ru": "Который час?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Mening kunim va taqvim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Vaqtni so‘rash: What time is it? — Soat necha?  Javob: It's … — Soat …\n• To‘liq soat — o’clock: 3:00 — It's three o’clock.\n• Yarim soat — half past: 7:30 — It's half past seven (yettidan yarim soat o‘tdi).\n• Qachon? — at: I get up at seven o’clock. School starts at eight.\nKun qismlari: in the morning (ertalab), in the afternoon (tushdan keyin),\nin the evening (kechqurun), at night (tunda)."
+   }
+  },
+  {
+   "id": "english_g4.routine",
+   "code": "2",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Kun tartibi: Present Simple",
+    "en": "Daily routine: Present Simple",
+    "ru": "Распорядок дня: Present Simple"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Mening kunim va taqvim",
+   "prerequisites": [
+    "english_g4.time"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Present Simple — har kuni takrorlanadigan ishlar: I get up at 7. We go to school.\nhe / she / it bilan fe’lga -s qo‘shiladi: I play → she plays, I read → he reads.\n-sh, -ch, -o dan keyin -es: wash → washes, watch → watches, go → goes, do → does.\nhave → has: She has breakfast at 7.\nKun tartibi: wake up, get dressed, have breakfast, go to school, do homework, go to bed."
+   }
+  },
+  {
+   "id": "english_g4.calendar",
+   "code": "3",
+   "emoji": "📅",
+   "title": {
+    "uz": "Kunlar, oylar va sanalar",
+    "en": "Days, months and dates",
+    "ru": "Дни, месяцы и даты"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Mening kunim va taqvim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.\nOylar: January, February, March, April, May, June, July, August, September, October, November, December.\nKun va oy nomlari doim bosh harf bilan yoziladi.\nPredloglar: on + kun (on Monday), in + oy yoki fasl (in May, in winter).\nTartib sonlar: first (1st), second (2nd), third (3rd), fourth (4th), fifth (5th).\nWhen is your birthday? — It's in April. It's on the fifth of April."
+   }
+  },
+  {
+   "id": "english_g4.spelling",
+   "code": "4",
+   "emoji": "✍️",
+   "title": {
+    "uz": "So‘zlarni harflab yozish",
+    "en": "Spelling",
+    "ru": "Правописание слов"
+   },
+   "generator": "spell",
+   "skill": "spell",
+   "chapter": "1-chorak. Mening kunim va taqvim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "minLetters": 3,
+     "maxLetters": 4
+    },
+    {
+     "minLetters": 4,
+     "maxLetters": 5,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 6,
+     "extra": 2
+    }
+   ],
+   "theory": {
+    "uz": "Inglizcha so‘z ko‘pincha eshitilganidek yozilmaydi — uni ko‘rib, yodlab olish kerak.\n• Qo‘sh harflar: apple, ball, egg, tree, moon.\n• Ikki harf — bitta tovush: sh (fish), ch (chair), th (three), ee (tree), oo (book).\n• So‘z oxiridagi e odatda o‘qilmaydi: cake, bike, nose.\nRasmga qarang, so‘zni ichingizda ayting va harflarni tartib bilan tering."
+   }
+  },
+  {
+   "id": "english_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Mening kunim va taqvim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.spelling"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.spelling"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.spelling"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g4.weather",
+   "code": "5",
+   "emoji": "🌦️",
+   "title": {
+    "uz": "Ob-havo va fasllar",
+    "en": "Weather and seasons",
+    "ru": "Погода и времена года"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ob-havo, taomlar va sevimli mashg‘ulotlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "What's the weather like? — Havo qanday?\nOtdan sifat: sun → sunny (quyoshli), cloud → cloudy (bulutli), rain → rainy (yomg‘irli),\nwind → windy (shamolli), snow → snowy (qorli), fog → foggy (tumanli).\nHarorat: hot (issiq), warm (iliq), cool (salqin), cold (sovuq).\nFasllar: spring, summer, autumn, winter. In autumn it's cool and rainy.\nHozir bo‘layotgan ob-havo: It's raining. It's snowing. Take an umbrella!"
+   }
+  },
+  {
+   "id": "english_g4.nature",
+   "code": "6",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Tabiat so‘zlari",
+    "en": "Nature words",
+    "ru": "Природа"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "2-chorak. Ob-havo, taomlar va sevimli mashg‘ulotlar",
+   "prerequisites": [
+    "english_g4.weather"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "nature"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Osmon: sun — quyosh, moon — oy, star — yulduz, cloud — bulut, rainbow — kamalak.\nOb-havo: rain — yomg‘ir, snow — qor, wind — shamol, lightning — chaqmoq.\nYer: tree — daraxt, flower — gul, grass — o‘t, leaf — barg, mountain — tog‘, sea — dengiz, island — orol.\nMisol: There is a rainbow in the sky. — Osmonda kamalak bor."
+   }
+  },
+  {
+   "id": "english_g4.likes",
+   "code": "7",
+   "emoji": "🍕",
+   "title": {
+    "uz": "Taomlar: I like / I don't like",
+    "en": "Food: I like / I don't like",
+    "ru": "Еда: I like / I don't like"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ob-havo, taomlar va sevimli mashg‘ulotlar",
+   "prerequisites": [
+    "english_g4.routine"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "like — yoqtirmoq: I like apples. — Men olmani yoqtiraman.  love — juda yaxshi ko‘rmoq: I love plov!\ndon't like — yoqtirmayman: I don't like onions.\nhe / she bilan: She likes pizza. He doesn't like fish.\nSavol: Do you like milk? — Yes, I do. / No, I don't.  Does he like tea? — Yes, he does.\nTaomlar: bread, rice, soup, meat, fish, cheese, eggs, juice, honey, sweets (konfetlar), biscuits (pechene)."
+   }
+  },
+  {
+   "id": "english_g4.hobbies",
+   "code": "8",
+   "emoji": "⚽",
+   "title": {
+    "uz": "Sport va sevimli mashg‘ulotlar",
+    "en": "Sports and hobbies",
+    "ru": "Спорт и хобби"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ob-havo, taomlar va sevimli mashg‘ulotlar",
+   "prerequisites": [
+    "english_g4.likes"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sport: play football / basketball / tennis / chess; go swimming / go skating; ride a bike; do judo.\nlike + -ing — … ni yoqtiraman: I like swimming. She likes drawing. He doesn't like running.\ncan — qila olaman: I can play chess. I can't skate.  Can you swim? — Yes, I can.\n-ing qo‘shish: draw → drawing, ride → riding (e tushadi), swim → swimming, jog → jogging.\nWhat's your hobby? — My hobby is reading."
+   }
+  },
+  {
+   "id": "english_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ob-havo, taomlar va sevimli mashg‘ulotlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g4.weather",
+      "english_g4.nature",
+      "english_g4.likes",
+      "english_g4.hobbies"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g4.weather",
+      "english_g4.nature",
+      "english_g4.likes",
+      "english_g4.hobbies"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g4.weather",
+      "english_g4.nature",
+      "english_g4.likes",
+      "english_g4.hobbies"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g4.house",
+   "code": "9",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Mening uyim: there is / there are va 's",
+    "en": "My house: there is / are and 's",
+    "ru": "Мой дом: there is / are и 's"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim, shahrim va kasblar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Xonalar: kitchen (oshxona), living room (mehmonxona), bedroom (yotoqxona), bathroom (hammom),\nhall (dahliz), garden (bog‘). Britaniyada kvartira — flat.\nThere is + bitta narsa: There is a sofa in the living room.\nThere are + ko‘p narsa: There are two beds in my bedroom.\nSavol: Is there a garden? — Yes, there is. / No, there isn't.  Are there any chairs? — Yes, there are.\n's — egalik: my sister's room — opamning xonasi, Dad's car — dadamning mashinasi."
+   }
+  },
+  {
+   "id": "english_g4.home",
+   "code": "10",
+   "emoji": "🛋️",
+   "title": {
+    "uz": "Uydagi narsalar",
+    "en": "Things at home",
+    "ru": "Вещи в доме"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "3-chorak. Uyim, shahrim va kasblar",
+   "prerequisites": [
+    "english_g4.house"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "home"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Uydagi narsalar: bed — karavot, sofa — divan, door — eshik, clock — devor soati, TV — televizor,\ncup — chashka, plate — likopcha, spoon — qoshiq, key — kalit, box — quti, shower — dush.\nMisol: There is a clock on the wall. The keys are on the table.\nSavol: What's this? — It's a spoon. Where is the key? — It's in the box."
+   }
+  },
+  {
+   "id": "english_g4.town",
+   "code": "11",
+   "emoji": "🏙️",
+   "title": {
+    "uz": "Shahar: joylar va yo‘l so‘rash",
+    "en": "Places in town and directions",
+    "ru": "Места в городе и дорога"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim, shahrim va kasblar",
+   "prerequisites": [
+    "english_g4.house"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Joylar: park, school, hospital, bank, café, library (kutubxona), post office (pochta),\nbus stop (avtobus bekati), museum (muzey).\nnext to — yonida, opposite — qarshisida, between — orasida, behind — orqasida, in front of — oldida.\nThe bank is next to the park. The café is between the bank and the library.\nYo‘l so‘rash: Excuse me, where is the museum? — Go straight on. Turn left / Turn right."
+   }
+  },
+  {
+   "id": "english_g4.jobs",
+   "code": "12",
+   "emoji": "👷",
+   "title": {
+    "uz": "Kasblar",
+    "en": "Jobs",
+    "ru": "Профессии"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim, shahrim va kasblar",
+   "prerequisites": [
+    "english_g4.town"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kasblar: doctor (shifokor), nurse (hamshira), teacher (o‘qituvchi), driver (haydovchi), cook (oshpaz),\nvet (veterinar), farmer (fermer), pilot (uchuvchi), dentist (tish shifokori), shop assistant (sotuvchi).\nKasb oldidan a / an: She is a nurse. He is an artist.\nWhat does your mum do? — She's a teacher. Where does she work? — She works at a school.\n-er / -or qo‘shimchasi: teach → teacher, drive → driver, act → actor."
+   }
+  },
+  {
+   "id": "english_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Uyim, shahrim va kasblar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g4.house",
+      "english_g4.home",
+      "english_g4.town",
+      "english_g4.jobs"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g4.house",
+      "english_g4.home",
+      "english_g4.town",
+      "english_g4.jobs"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g4.house",
+      "english_g4.home",
+      "english_g4.town",
+      "english_g4.jobs"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g4.wild_animals",
+   "code": "13",
+   "emoji": "🦁",
+   "title": {
+    "uz": "Yovvoyi hayvonlar va ularning makoni",
+    "en": "Wild animals and habitats",
+    "ru": "Дикие животные и их среда"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hayvonlar turli joylarda yashaydi:\n• jungle (tropik o‘rmon): monkey, parrot, snake;  • forest (o‘rmon): bear, fox, wolf, owl;\n• desert (cho‘l): camel, lizard;  • sea / ocean (dengiz, okean): dolphin, whale, shark;\n• savannah (savanna): lion, giraffe, zebra, elephant;  • Arctic (Arktika): polar bear.\nWhere do camels live? — They live in the desert. A giraffe has got a long neck."
+   }
+  },
+  {
+   "id": "english_g4.present_continuous",
+   "code": "14",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Present Continuous: I am reading",
+    "en": "Present Continuous",
+    "ru": "Present Continuous"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [
+    "english_g4.routine"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Present Continuous — ayni paytda bo‘layotgan ish: Look! The baby is sleeping.\nTuzilishi: am / is / are + fe’l-ing: I am reading. She is singing. They are playing.\n-ing qo‘shish: read → reading, make → making (e tushadi), cut → cutting, sit → sitting.\nInkor: I'm not sleeping. He isn't eating.  Savol: Is she dancing? — Yes, she is.\nWhat are you doing? — I'm drawing a cat."
+   }
+  },
+  {
+   "id": "english_g4.was_were",
+   "code": "15",
+   "emoji": "🕰️",
+   "title": {
+    "uz": "was / were: kecha qayerda edim?",
+    "en": "was / were",
+    "ru": "was / were"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [
+    "english_g4.present_continuous"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "was / were — to be fe’lining o‘tgan zamoni (edi, edim).\nI / he / she / it — was: I was at school yesterday. The film was funny.\nwe / you / they — were: We were in the park. They were happy.\nInkor: wasn't, weren't: It wasn't cold.  Savol: Were you at home? — Yes, I was. / No, I wasn't.\nKalit so‘zlar: yesterday (kecha), last week (o‘tgan hafta), last Sunday, two days ago (ikki kun oldin)."
+   }
+  },
+  {
+   "id": "english_g4.reading",
+   "code": "16",
+   "emoji": "📖",
+   "title": {
+    "uz": "O‘qib tushunish",
+    "en": "Reading",
+    "ru": "Чтение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Avval savolni o‘qing — matndan nimani izlash kerakligini bilasiz.\nKeyin matnni sekin, diqqat bilan o‘qing va javobni matndan toping.\nSavol so‘zlari: Who? — kim, Where? — qayerda, When? / What time? — qachon, soat nechada, What? — nima.\nTrue / False: fikr matnga mos kelsa — To‘g‘ri, mos kelmasa — Noto‘g‘ri."
+   }
+  },
+  {
+   "id": "english_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hayvonlar, hozir va kecha",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.weather",
+      "english_g4.likes",
+      "english_g4.hobbies",
+      "english_g4.house",
+      "english_g4.town",
+      "english_g4.jobs",
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.weather",
+      "english_g4.likes",
+      "english_g4.hobbies",
+      "english_g4.house",
+      "english_g4.town",
+      "english_g4.jobs",
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "english_g4.time",
+      "english_g4.routine",
+      "english_g4.calendar",
+      "english_g4.weather",
+      "english_g4.likes",
+      "english_g4.hobbies",
+      "english_g4.house",
+      "english_g4.town",
+      "english_g4.jobs",
+      "english_g4.wild_animals",
+      "english_g4.present_continuous",
+      "english_g4.was_were",
+      "english_g4.reading"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

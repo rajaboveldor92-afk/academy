@@ -420,3 +420,8 @@ def write(grade, topics):
 
 write(3, g3)
 write(5, g5)
+
+import sys  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import build_index  # noqa: E402
+build_index.build()

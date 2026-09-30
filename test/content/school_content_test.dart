@@ -1,3 +1,5 @@
+import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
 import 'package:academy/database/seed_data.dart';
@@ -21,6 +23,23 @@ void main() {
 
   setUpAll(() async {
     content = await ContentRepository.load();
+  });
+
+  test('index.json maktab papkasidagi barcha dastur va banklarni sanab o‘tadi', () {
+    final names = Directory('assets/data/school')
+        .listSync()
+        .whereType<File>()
+        .map((f) => f.uri.pathSegments.last)
+        .where((n) => n.endsWith('.json') && n != 'index.json')
+        .map((n) => n.substring(0, n.length - 5))
+        .toSet();
+    final index = jsonDecode(File('assets/data/school/index.json').readAsStringSync()) as Map<String, dynamic>;
+    final listed = {...(index['curricula'] as List).cast<String>(), ...(index['banks'] as List).cast<String>()};
+    expect(listed, names, reason: 'python3 tool/content/school/build_index.py');
+    for (final name in (index['curricula'] as List).cast<String>()) {
+      final parts = name.split('_g');
+      expect(content.curriculum(parts[0], 'g${parts[1]}'), isNotNull, reason: name);
+    }
   });
 
   test('3 va 5-sinf matematika dasturi: bo‘limlar, qoidalar, nazorat ishlari', () {

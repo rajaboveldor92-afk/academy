@@ -1,0 +1,788 @@
+{
+ "subject": "english",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "english_g6.past_simple",
+   "code": "1",
+   "emoji": "🕰️",
+   "title": {
+    "uz": "Past Simple: savol va inkor bilan",
+    "en": "Past Simple: questions and negatives",
+    "ru": "Past Simple: вопросы и отрицания"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. O‘tgan zamon va sayohatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Past Simple — o‘tgan zamonda tugagan ish: I visited my aunt last week.\nTo‘g‘ri fe’llar -ed oladi: work → worked, live → lived, study → studied, drop → dropped.\nNoto‘g‘ri fe’llar yodlanadi: take → took, write → wrote, find → found, bring → brought, teach → taught.\nInkor: didn't + fe’lning oddiy shakli: We didn't go out.  Savol: Did you enjoy it? — Yes, I did. / No, I didn't.\nSo‘roq so‘zi bilan: Where did you go? What did she buy? When did they arrive?"
+   }
+  },
+  {
+   "id": "english_g6.travel",
+   "code": "2",
+   "emoji": "✈️",
+   "title": {
+    "uz": "Sayohat va ta’til",
+    "en": "Travel and holidays",
+    "ru": "Путешествия и каникулы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. O‘tgan zamon va sayohatlar",
+   "prerequisites": [
+    "english_g6.past_simple"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sayohat so‘zlari: holiday (ta’til), trip / journey (safar), suitcase (chamadon), ticket (chipta),\npassport, luggage (yuk), airport, railway station (vokzal), hotel (mehmonxona), map (xarita), guide (gid).\nby + transport: by train, by plane, by car, by bus;  piyoda esa — on foot.\nIboralar: go on holiday, go sightseeing, pack a suitcase, book a hotel, take photos, miss the train.\nMisol: Last summer we went to Samarkand by train. We stayed in a hotel and took a lot of photos."
+   }
+  },
+  {
+   "id": "english_g6.adverbs",
+   "code": "3",
+   "emoji": "🐢",
+   "title": {
+    "uz": "Holat ravishlari: quickly, well",
+    "en": "Adverbs of manner",
+    "ru": "Наречия образа действия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. O‘tgan zamon va sayohatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ravish fe’lni tasvirlaydi — ish QANDAY bajariladi? (How?)\nSifat + -ly: quick → quickly, slow → slowly, quiet → quietly, careful → carefully, loud → loudly.\n-y → -ily: easy → easily, happy → happily;  -le → -ly: gentle → gently.\nMaxsus: good → well, fast → fast, hard → hard (hardly — “deyarli … emas” degani, boshqa so‘z!).\nSifat otni, ravish fe’lni tasvirlaydi: She is a careful driver. — She drives carefully."
+   }
+  },
+  {
+   "id": "english_g6.spelling",
+   "code": "4",
+   "emoji": "✍️",
+   "title": {
+    "uz": "So‘zlarni to‘g‘ri yozish",
+    "en": "Spelling",
+    "ru": "Правописание"
+   },
+   "generator": "spell",
+   "skill": "spell",
+   "chapter": "1-chorak. O‘tgan zamon va sayohatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "minLetters": 4,
+     "maxLetters": 6,
+     "extra": 1
+    },
+    {
+     "minLetters": 5,
+     "maxLetters": 7,
+     "extra": 2
+    },
+    {
+     "minLetters": 6,
+     "maxLetters": 9,
+     "extra": 2
+    }
+   ],
+   "theory": {
+    "uz": "Uzunroq so‘zlarni yozishda qoidalarga e’tibor bering:\n• Qo‘sh undosh: rabbit, carrot, butterfly, balloon.\n• Harf birikmalari: ph = f (dolphin), wh (whale), ck (clock), igh (lightning).\n• Eshitilmaydigan harflar: k (knife), w (write), b (lamb).\nRasmga qarang, so‘zni ichingizda bo‘g‘inlab ayting va harflarni tering. Ortiqcha harflar ham bor!"
+   }
+  },
+  {
+   "id": "english_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. O‘tgan zamon va sayohatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.spelling"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.spelling"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.spelling"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g6.future",
+   "code": "5",
+   "emoji": "🔮",
+   "title": {
+    "uz": "Kelasi zamon: will va be going to",
+    "en": "Future: will and be going to",
+    "ru": "Будущее время: will и be going to"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kelajak, sog‘liq va maslahatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "will + fe’l — bashorat, shu zahoti qilingan qaror, va’da: It will rain tomorrow. I'll help you!\nQisqa shakl: I'll, she'll; inkor: won't (will not): We won't be late.\nbe going to + fe’l — oldindan rejalashtirilgan ish yoki aniq belgi:\nI'm going to visit my aunt on Sunday. Look at those clouds! It's going to rain.\nSavol: Will you come? — Yes, I will.  Are you going to play? — Yes, I am.\nKalit so‘zlar: tomorrow, next week, next year, soon, in the future."
+   }
+  },
+  {
+   "id": "english_g6.health",
+   "code": "6",
+   "emoji": "🤒",
+   "title": {
+    "uz": "Sog‘liq va kasalliklar",
+    "en": "Health and illnesses",
+    "ru": "Здоровье и болезни"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kelajak, sog‘liq va maslahatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Nima bo‘ldi? — What's the matter? / What's wrong?\nI've got a headache (boshim og‘riyapti), a sore throat (tomog‘im), a cold (shamollash), a cough (yo‘tal),\na temperature (isitma), toothache (tish og‘rig‘i), stomach ache (qorin og‘rig‘i).\nMy leg hurts. — Oyog‘im og‘riyapti.  I feel ill. — O‘zimni yomon his qilyapman.\nMaslahat — should: You should see a doctor. You shouldn't eat too many sweets.\nDori — medicine; britancha dorixona — the chemist's. Get well soon! — Tezroq tuzalib keting!"
+   }
+  },
+  {
+   "id": "english_g6.modals",
+   "code": "7",
+   "emoji": "🚦",
+   "title": {
+    "uz": "should, have to, mustn't",
+    "en": "should, have to, mustn't",
+    "ru": "should, have to, mustn't"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kelajak, sog‘liq va maslahatlar",
+   "prerequisites": [
+    "english_g6.health"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "should — maslahat (… qilgan ma’qul): You should wear a coat.  shouldn't — qilmagan ma’qul.\nhave to / has to — majburiyat, qoida: I have to wear a uniform. She has to get up early.\ndon't have to — shart emas: We don't have to go to school on Sunday.\nmustn't — mumkin emas, taqiq: You mustn't use your phone in the exam.\nDiqqat: mustn't (taqiq) va don't have to (shart emas) — ma’nosi har xil!  O‘tgan zamon: had to — I had to wait."
+   }
+  },
+  {
+   "id": "english_g6.body",
+   "code": "8",
+   "emoji": "👀",
+   "title": {
+    "uz": "Tana a’zolari",
+    "en": "Parts of the body",
+    "ru": "Части тела"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "2-chorak. Kelajak, sog‘liq va maslahatlar",
+   "prerequisites": [
+    "english_g6.health"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "body"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Tana a’zolari: head (bosh), eye (ko‘z), ear (quloq), nose (burun), mouth (og‘iz), tongue (til),\ntooth (tish), hand (qo‘l panjasi), foot (oyoq panjasi), shoulder (yelka), back (bel, orqa).\nIchki a’zolar: brain (miya), heart (yurak), muscle (mushak), bone (suyak).\nMaxsus ko‘plik: tooth → teeth, foot → feet.  We see with our eyes and hear with our ears."
+   }
+  },
+  {
+   "id": "english_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kelajak, sog‘liq va maslahatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.body"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.body"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.body"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g6.comparatives",
+   "code": "9",
+   "emoji": "📏",
+   "title": {
+    "uz": "Taqqoslash: -er, the most, as … as",
+    "en": "Comparison: -er, the most, as … as",
+    "ru": "Сравнение: -er, the most, as … as"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Taqqoslash, xarid va texnologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qiyosiy daraja: -er / more + than: A plane is faster than a train. This book is more interesting than that one.\nOrttirma daraja: the -est / the most: Mount Everest is the highest mountain in the world.\nMaxsus: good → better → the best; bad → worse → the worst.\nas … as — xuddi … dek (teng): Anvar is as tall as his father.\nnot as … as — … chalik emas: A bike isn't as fast as a car."
+   }
+  },
+  {
+   "id": "english_g6.opposites",
+   "code": "10",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Qarama-qarshi sifatlar",
+    "en": "Opposite adjectives",
+    "ru": "Противоположные прилагательные"
+   },
+   "generator": "opposites",
+   "skill": "opposites",
+   "chapter": "3-chorak. Taqqoslash, xarid va texnologiya",
+   "prerequisites": [
+    "english_g6.comparatives"
+   ],
+   "levels": [
+    {
+     "modes": [
+      "size",
+      "length",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 4
+    },
+    {
+     "modes": [
+      "read",
+      "listen"
+     ],
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qarama-qarshi sifatlar: big — small, long — short, hot — cold, fast — slow,\nold — young, happy — sad, loud — quiet, open — closed.\nTaqqoslashda ham ishlatamiz: A snail is slower than a rabbit. The Arctic is colder than the desert.\nnot as … as bilan: A mouse isn't as big as a cat. = A mouse is smaller than a cat."
+   }
+  },
+  {
+   "id": "english_g6.shopping",
+   "code": "11",
+   "emoji": "🛍️",
+   "title": {
+    "uz": "Do‘konda: pul va miqdor",
+    "en": "Shopping: money and quantity",
+    "ru": "Покупки: деньги и количество"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Taqqoslash, xarid va texnologiya",
+   "prerequisites": [
+    "english_g6.comparatives"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Do‘konda: How much is it? / How much are they? — It's £5. / They're £3.50 (three pounds fifty).\nCan I help you? — Yes, I'd like a T-shirt, please. Can I try it on? Here's your change.\nmuch — sanalmaydigan otlar bilan (money, water, time), many — sanaladigan (apples, shops):\nHow much money? How many books?  a lot of — ikkalasi bilan: a lot of people, a lot of sugar.\nsome — darak gapda, any — savol va inkorda, no = not any: There's no milk. = There isn't any milk."
+   }
+  },
+  {
+   "id": "english_g6.technology",
+   "code": "12",
+   "emoji": "💻",
+   "title": {
+    "uz": "Texnologiya va internet",
+    "en": "Technology and the internet",
+    "ru": "Технологии и интернет"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Taqqoslash, xarid va texnologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qurilmalar: computer, laptop (noutbuk), tablet (planshet), smartphone, screen (ekran), keyboard (klaviatura),\nmouse (sichqoncha), printer, headphones (quloqchin), charger (quvvatlagich).\nHarakatlar: switch on / switch off (yoqmoq / o‘chirmoq), type (terish), download (yuklab olish),\nupload (joylash), save (saqlash), send a message, search the internet.\nXavfsizlik: password (parol) — uni hech kimga aytmang! Notanish odamlarga shaxsiy ma’lumot yubormang."
+   }
+  },
+  {
+   "id": "english_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Taqqoslash, xarid va texnologiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g6.comparatives",
+      "english_g6.opposites",
+      "english_g6.shopping",
+      "english_g6.technology"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g6.comparatives",
+      "english_g6.opposites",
+      "english_g6.shopping",
+      "english_g6.technology"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g6.comparatives",
+      "english_g6.opposites",
+      "english_g6.shopping",
+      "english_g6.technology"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g6.present_perfect",
+   "code": "13",
+   "emoji": "✅",
+   "title": {
+    "uz": "Present Perfect: ever, never, just, already",
+    "en": "Present Perfect",
+    "ru": "Present Perfect"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [
+    "english_g6.past_simple"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Present Perfect — have / has + fe’lning 3-shakli (V3): I have visited Bukhara. She has finished her work.\nTo‘g‘ri fe’llarda V3 = -ed: play → played. Noto‘g‘ri: see → seen, be → been, eat → eaten, do → done,\nwrite → written, go → gone, take → taken.\nTajriba: Have you ever been to Khiva? — Yes, I have. / No, I've never been there.\njust — hozirgina: I've just had lunch.  already — allaqachon: She has already done her homework.\nyet — hali (savol va inkorda, gap oxirida): Have you finished yet? I haven't finished yet."
+   }
+  },
+  {
+   "id": "english_g6.environment",
+   "code": "14",
+   "emoji": "♻️",
+   "title": {
+    "uz": "Atrof-muhitni asrash",
+    "en": "The environment",
+    "ru": "Окружающая среда"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [
+    "english_g6.modals"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Muammolar: pollution (ifloslanish), rubbish (axlat), plastic, cutting down trees, wasting water (suvni isrof qilish).\nYechimlar: recycle (qayta ishlash), reuse (qayta foydalanish), reduce (kamaytirish), plant trees,\nsave water and energy (suv va energiyani tejash).\nMaslahatlar: We should turn off the lights. We shouldn't drop litter. Take a reusable bag to the shop.\nTabiat: forest, river, lake, desert, ocean, air, wildlife (yovvoyi tabiat)."
+   }
+  },
+  {
+   "id": "english_g6.nature",
+   "code": "15",
+   "emoji": "🌍",
+   "title": {
+    "uz": "Tabiat va hayvonot dunyosi",
+    "en": "Nature and wildlife",
+    "ru": "Природа и животный мир"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [
+    "english_g6.environment"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 4,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "animals_nature"
+     ],
+     "modes": [
+      "picture_word",
+      "read",
+      "listen"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Tabiat: mountain (tog‘), desert (cho‘l), island (orol), volcano (vulqon), forest (o‘rmon), sea (dengiz).\nHayvonlar va qushlar: eagle (burgut), owl (boyqush), dolphin (delfin), whale (kit), crocodile (timsoh).\nHasharotlar: bee (asalari), butterfly (kapalak), ant (chumoli), spider (o‘rgimchak).\nMisol: Bees are very important for flowers and fruit trees."
+   }
+  },
+  {
+   "id": "english_g6.reading",
+   "code": "16",
+   "emoji": "📖",
+   "title": {
+    "uz": "O‘qib tushunish",
+    "en": "Reading comprehension",
+    "ru": "Чтение и понимание"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Uzun matnni o‘qishdan oldin sarlavha yoki birinchi gapga qarang — matn nima haqida?\nSavolni o‘qing va kalit so‘zni (ism, son, joy, vaqt) matndan qidiring.\nJavob ba’zan boshqa so‘zlar bilan berilgan bo‘ladi: “felt much better” = “got well”.\nTrue / False: fikrning hamma qismi matnga mos kelsagina — To‘g‘ri."
+   }
+  },
+  {
+   "id": "english_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.nature",
+      "english_g6.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.nature",
+      "english_g6.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.nature",
+      "english_g6.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tajriba, tabiat va o‘qish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.comparatives",
+      "english_g6.shopping",
+      "english_g6.technology",
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.comparatives",
+      "english_g6.shopping",
+      "english_g6.technology",
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "english_g6.past_simple",
+      "english_g6.travel",
+      "english_g6.adverbs",
+      "english_g6.future",
+      "english_g6.health",
+      "english_g6.modals",
+      "english_g6.comparatives",
+      "english_g6.shopping",
+      "english_g6.technology",
+      "english_g6.present_perfect",
+      "english_g6.environment",
+      "english_g6.reading"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computer science",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "informatics_g4.qurilmalar",
+   "code": "1",
+   "emoji": "🖥️",
+   "title": {
+    "uz": "Kompyuter qurilmalari",
+    "en": "Computer devices",
+    "ru": "Устройства компьютера"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter, axborot va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter — axborotni qabul qiladigan, saqlaydigan, qayta ishlaydigan va uzatadigan qurilma.\n• Sistema blokida protsessor (kompyuterning “miyasi”) va xotira joylashgan.\n• Kiritish qurilmalari kompyuterga axborot kiritadi: klaviatura, sichqoncha, mikrofon, skaner, veb-kamera.\n• Chiqarish qurilmalari axborotni chiqaradi: monitor, printer, karnay (kolonka), quloqchin, proyektor.\nFayllarni olib yurish uchun fleshka ishlatiladi. Noutbukda sichqoncha o‘rniga sensorli panel bor."
+   }
+  },
+  {
+   "id": "informatics_g4.axborot_turlari",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Axborot va uning turlari",
+    "en": "Information and its types",
+    "ru": "Информация и её виды"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter, axborot va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Axborot — atrofimizdagi narsa va hodisalar haqidagi ma’lumotlar.\n• Sezgi a’zolari bo‘yicha: ko‘rish (ko‘z), eshitish (quloq), hid (burun), ta’m (til), sezish (teri) orqali olinadi.\n• Ko‘rinishi bo‘yicha: matnli, sonli, grafik (rasm, chizma), tovushli va video axborot.\n• Axborot bilan ishlar: yig‘ish, saqlash, uzatish, qayta ishlash, himoyalash.\nAxborot tashuvchilar — axborot saqlanadigan narsalar: kitob, daftar, fleshka, disk."
+   }
+  },
+  {
+   "id": "informatics_g4.tez_terish",
+   "code": "3",
+   "emoji": "⌨️",
+   "title": {
+    "uz": "O‘n barmoq usulida terish",
+    "en": "Touch typing",
+    "ru": "Слепой десятипальцевый набор"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Kompyuter, axborot va klaviatura",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘n barmoq usulida har bir barmoq o‘z tugmalarini bosadi va klaviaturaga qaramasdan teriladi.\n• Tayanch qator: chap qo‘l barmoqlari A, S, D, F; o‘ng qo‘l barmoqlari J, K, L, ; tugmalarida turadi. F va J dagi bo‘rtiqlar barmoqlarni ko‘rmasdan topishga yordam beradi.\n• Ko‘rsatkich barmoqlar: chap — F va G, o‘ng — J va H. Probelni bosh barmoq bosadi. Tugmani bosgach, barmoq tayanch qatorga qaytadi.\n• Bosh harf uchun Shift, hamma harfni bosh harf qilish uchun Caps Lock ishlatiladi.\nTerish tezligi — 1 daqiqada terilgan belgilar soni. Avval xatosiz, keyin tez terishni o‘rganing."
+   }
+  },
+  {
+   "id": "informatics_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Kompyuter, axborot va klaviatura",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g4.matn_tahrir",
+   "code": "4",
+   "emoji": "📝",
+   "title": {
+    "uz": "Matn yozish va tahrirlash",
+    "en": "Typing and editing text",
+    "ru": "Набор и редактирование текста"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Matn va rasm muharrirlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matn muharririda (Bloknot, Word) matn yoziladi va tahrirlanadi. Kursor — matn yoziladigan joyni ko‘rsatuvchi miltillovchi chiziq.\n• Backspace — kursordan chapdagi belgini, Delete — o‘ngdagi belgini o‘chiradi. Enter — yangi xatboshi boshlaydi.\n• Belgilash: sichqoncha bilan sudrab; so‘zni ikki marta bosib; hamma matnni — Ctrl+A.\n• Belgilangan matnni nusxalash — Ctrl+C, qirqish — Ctrl+X, qo‘yish — Ctrl+V. Xato amalni bekor qilish — Ctrl+Z.\nNusxalashda matn joyida qoladi, qirqishda esa eski joyidan olib tashlanadi."
+   }
+  },
+  {
+   "id": "informatics_g4.matn_bezash",
+   "code": "5",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Matnni bezash va saqlash",
+    "en": "Formatting and saving text",
+    "ru": "Оформление и сохранение текста"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Matn va rasm muharrirlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni bezash (formatlash) — uning ko‘rinishini o‘zgartirish. Bezashdan oldin matn belgilanadi.\n• Shrift — harflar shakli (Arial, Times New Roman); shrift o‘lchami — harflar kattaligi: son qancha katta bo‘lsa, harf shuncha yirik.\n• B — qalin, I — kursiv (qiya), U — tagiga chizilgan. Shrift rangi ostida rangli chizig‘i bor “A” tugmasi bilan o‘zgartiriladi.\n• Tekislash: chapga, markazga, o‘ngga va kenglik bo‘yicha (ikki chetga). Sarlavha odatda markazga tekislanadi.\n• Saqlash — Ctrl+S; yangi nom yoki joy bilan — “Saqlash sifatida”. Word hujjati .docx, Bloknot matni .txt kengaytmali."
+   }
+  },
+  {
+   "id": "informatics_g4.rasm_muharriri",
+   "code": "6",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Rasm muharriri",
+    "en": "Graphics editor",
+    "ru": "Графический редактор"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Matn va rasm muharrirlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Rasm muharriri (masalan, Paint) — kompyuterda rasm chizish dasturi.\n• Asboblar: qalam — ingichka chiziq, cho‘tka — qalin chiziq, o‘chirg‘ich — o‘chiradi, bo‘yoq chelak — yopiq sohani bo‘yaydi, pipetka — rasmdagi rangni oladi, lupa — kattalashtiradi, “A” — matn yozadi.\n• Shakllar: chiziq, to‘g‘ri to‘rtburchak, oval va boshqalar. Shift bosib turib chizilsa, oval — aylana, to‘rtburchak — kvadrat bo‘ladi.\n• Ranglar palitrada. Rang 1 sichqonchaning chap tugmasi, Rang 2 (fon rangi) o‘ng tugmasi bilan ishlatiladi.\nRasm .png yoki .jpg fayl sifatida saqlanadi. Xato bo‘lsa — Ctrl+Z."
+   }
+  },
+  {
+   "id": "informatics_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Matn va rasm muharrirlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g4.fayllar",
+   "code": "7",
+   "emoji": "📁",
+   "title": {
+    "uz": "Fayl va papkalar bilan ishlash",
+    "en": "Working with files and folders",
+    "ru": "Работа с файлами и папками"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Fayllar, taqdimot va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Fayl — nomi bilan saqlangan ma’lumot (matn, rasm, musiqa). Papka — fayllar va boshqa papkalarni saqlaydigan joy.\n• Yangi papka: bo‘sh joyda o‘ng tugma → “Yaratish” → “Papka”. Nomini o‘zgartirish — F2 tugmasi.\n• Nusxalash (Ctrl+C, keyin Ctrl+V) — fayl eski joyida ham qoladi, yangi joyda nusxasi paydo bo‘ladi.\n• Ko‘chirish (Ctrl+X, keyin Ctrl+V) — fayl eski joyidan yangi joyga o‘tadi.\n• O‘chirilgan fayl avval Savatga tushadi, undan tiklash mumkin. Savat tozalansa, fayl butunlay o‘chadi."
+   }
+  },
+  {
+   "id": "informatics_g4.taqdimot",
+   "code": "8",
+   "emoji": "📊",
+   "title": {
+    "uz": "Taqdimot tayyorlash",
+    "en": "Making a presentation",
+    "ru": "Создание презентации"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Fayllar, taqdimot va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Taqdimot — slaydlar ketma-ketligi, u ma’ruza yoki loyihani ko‘rsatish uchun tayyorlanadi. Dasturlar: PowerPoint, LibreOffice Impress.\n• Slayd — taqdimotning bitta sahifasi. Unda sarlavha, matn, rasm, jadval bo‘lishi mumkin. Birinchi slaydga mavzu va muallif yoziladi.\n• Yangi slayd — Ctrl+M. Rasm qo‘shish — “Qo‘yish” → “Rasm”. “Dizayn” bo‘limida slayd foni va mavzusi tanlanadi.\n• Namoyishni boshlash — F5, to‘xtatish — Esc. Fayl .pptx kengaytmasi bilan saqlanadi.\nYaxshi slayd: qisqa matn, yirik shrift, mos rasm, ko‘zga yoqimli ranglar."
+   }
+  },
+  {
+   "id": "informatics_g4.internet",
+   "code": "9",
+   "emoji": "🌐",
+   "title": {
+    "uz": "Internet va brauzer",
+    "en": "The internet and browsers",
+    "ru": "Интернет и браузер"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Fayllar, taqdimot va internet",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Internet — butun dunyodagi kompyuterlarni bog‘lovchi ulkan tarmoq.\n• Brauzer — saytlarni ochib ko‘rsatadigan dastur: Google Chrome, Mozilla Firefox, Microsoft Edge, Opera.\n• Sayt — veb-sahifalar to‘plami. Sayt manzili brauzerning manzil satriga yoziladi. Havola bosilsa, boshqa sahifa ochiladi.\n• Qidiruv tizimi (Google, Yandex) kalit so‘zlar bo‘yicha ma’lumot topadi. Topilgan ma’lumotni bir necha manbada solishtiring.\nWi-Fi — kompyuter va telefonni internetga simsiz ulash usuli."
+   }
+  },
+  {
+   "id": "informatics_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Fayllar, taqdimot va internet",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g4.xavfsizlik",
+   "code": "10",
+   "emoji": "🔒",
+   "title": {
+    "uz": "Internetda xavfsizlik va odob",
+    "en": "Online safety and manners",
+    "ru": "Безопасность и этикет в интернете"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Xavfsizlik, algoritm va sikl",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Internetda o‘zingizni va kompyuterni himoya qiling.\n• Parol — sir. Yaxshi parol uzun bo‘ladi, unda harf va raqamlar aralash keladi. Parolni hech kimga aytmang (ota-onangizdan tashqari).\n• Shaxsiy ma’lumot — ism-familiya, manzil, telefon raqami, maktab, rasm. Uni notanishlarga bermang.\n• Notanish havola va fayllarni ochmang — ularda virus bo‘lishi mumkin. Antivirus kompyuterni viruslardan himoya qiladi.\n• Internetda ham odobli bo‘ling: haqorat qilmang, boshqalarning rasmini ruxsatsiz tarqatmang. Muammo bo‘lsa — kattalarga ayting."
+   }
+  },
+  {
+   "id": "informatics_g4.algoritm",
+   "code": "11",
+   "emoji": "🤖",
+   "title": {
+    "uz": "Algoritm va Robot ijrochi",
+    "en": "Algorithms and the Robot",
+    "ru": "Алгоритм и исполнитель Робот"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Xavfsizlik, algoritm va sikl",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm — maqsadga olib boradigan aniq buyruqlar ketma-ketligi. Buyruqlarni bajaruvchi — ijrochi.\nRobot ijrochi katakli maydonda yuradi. Buyruqlari: yuqoriga, pastga, chapga, o‘ngga — har biri 1 katak suradi.\nKatak joyi ustun va qator raqami bilan aytiladi: ustunlar chapdan o‘ngga, qatorlar pastdan yuqoriga raqamlangan.\n• “o‘ngga” — ustun raqami 1 ga oshadi, “chapga” — 1 ga kamayadi; “yuqoriga” — qator raqami 1 ga oshadi, “pastga” — kamayadi.\nMisol: Robot 1-ustun, 1-qatorda. “o‘ngga, o‘ngga, yuqoriga” → 3-ustun, 2-qator."
+   }
+  },
+  {
+   "id": "informatics_g4.sikl",
+   "code": "12",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Takrorlash (sikl)",
+    "en": "Loops",
+    "ru": "Циклы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Xavfsizlik, algoritm va sikl",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sikl (takrorlash) — bir xil buyruqlarni bir necha marta bajarish.\nYozilishi: “takrorla 4 marta: o‘ngga” — bu “o‘ngga, o‘ngga, o‘ngga, o‘ngga” bilan bir xil, lekin qisqa.\nSikl ichida bir nechta buyruq bo‘lishi mumkin: “takrorla 3 marta: o‘ngga, yuqoriga” — 6 ta buyruq bajariladi.\n• Bajarilgan buyruqlar soni = takrorlar soni · sikl ichidagi buyruqlar soni.\nKundalik hayotda ham sikl bor: har kuni tish yuvish, zinadan qadam-baqadam chiqish."
+   }
+  },
+  {
+   "id": "informatics_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Xavfsizlik, algoritm va sikl",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Xavfsizlik, algoritm va sikl",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish",
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri",
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet",
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish",
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri",
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet",
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "informatics_g4.qurilmalar",
+      "informatics_g4.axborot_turlari",
+      "informatics_g4.tez_terish",
+      "informatics_g4.matn_tahrir",
+      "informatics_g4.matn_bezash",
+      "informatics_g4.rasm_muharriri",
+      "informatics_g4.fayllar",
+      "informatics_g4.taqdimot",
+      "informatics_g4.internet",
+      "informatics_g4.xavfsizlik",
+      "informatics_g4.algoritm",
+      "informatics_g4.sikl"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

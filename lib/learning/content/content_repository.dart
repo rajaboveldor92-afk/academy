@@ -28,22 +28,9 @@ class ContentRepository {
   /// Maktab fanlari savollar banki: mavzu id → savollar (`assets/data/school/bank_*.json`).
   final Map<String, List<Map<String, dynamic>>> banks;
 
-  /// Savollar banki fayllari.
-  static const List<String> bankFiles = [
-    'school/bank_english_g3',
-    'school/bank_english_g5',
-    'school/bank_russian_g3',
-    'school/bank_russian_g5',
-    'school/bank_science_g3',
-    'school/bank_science_g5',
-    'school/bank_informatics_g3',
-    'school/bank_informatics_g5',
-    'school/bank_onatili_g3',
-    'school/bank_onatili_g5',
-    'school/bank_reading_g3',
-    'school/bank_reading_g5',
-    'school/bank_history_g5',
-  ];
+  /// Maktab fanlari fayllari ro'yxati: `assets/data/school/index.json`
+  /// (`tool/content/school/build_index.py` avtomatik yaratadi — yangi sinf yoki fan qo'shilganda Dart kodi o'zgarmaydi).
+  static const String schoolIndex = 'school/index';
 
   /// Dastur fayllari: `<fan>_<4|6>.json`.
   static const List<String> curriculumFiles = [
@@ -79,30 +66,8 @@ class ContentRepository {
     'family_6',
     'social_4',
     'social_6',
-    // Maktab dasturlari (1–8-sinf): `assets/data/school/<fan>_g<sinf>.json`.
-    ...schoolFiles,
   ];
 
-  /// Maktab fanlari dasturlari.
-  static const List<String> schoolFiles = [
-    'school/math_g3',
-    'school/math_g5',
-    'school/logic_g3',
-    'school/english_g3',
-    'school/russian_g3',
-    'school/onatili_g3',
-    'school/reading_g3',
-    'school/science_g3',
-    'school/informatics_g3',
-    'school/logic_g5',
-    'school/english_g5',
-    'school/russian_g5',
-    'school/onatili_g5',
-    'school/reading_g5',
-    'school/science_g5',
-    'school/informatics_g5',
-    'school/history_g5',
-  ];
 
   final Lexicon lexicon;
   final InstructionBank instructions;
@@ -147,8 +112,13 @@ class ContentRepository {
       final c = Curriculum.fromJson(await json(name));
       curricula['${c.subject}_${c.ageSuffix}'] = c;
     }
+    final index = await json(schoolIndex);
+    for (final name in MapUtils.asStringList(index['curricula'])) {
+      final c = Curriculum.fromJson(await json('school/$name'));
+      curricula['${c.subject}_${c.ageSuffix}'] = c;
+    }
     final banks = <String, List<Map<String, dynamic>>>{};
-    for (final name in bankFiles) {
+    for (final name in MapUtils.asStringList(index['banks']).map((n) => 'school/$n')) {
       final data = await json(name);
       for (final item in (data['items'] as List? ?? const []).map(MapUtils.asStringMap)) {
         banks.putIfAbsent(item['topic'].toString(), () => []).add(item);

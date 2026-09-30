@@ -188,5 +188,7 @@ class Course:
         if self.items:
             with open(os.path.join(base, f"bank_{name}.json"), "w", encoding="utf-8") as f:
                 json.dump({"items": self.items}, f, ensure_ascii=False, indent=1)
+        import build_index  # noqa: E402 — ro'yxatni yangilash (yangi fayl ilovaga avtomatik qo'shiladi)
+        build_index.build()
         banks = sum(1 for t in self.topics if t["generator"] == "bank")
         print(f"{name}: {len(self.topics)} mavzu ({banks} bank), {len(self.items)} savol")

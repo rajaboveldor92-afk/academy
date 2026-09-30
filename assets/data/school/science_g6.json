@@ -1,0 +1,683 @@
+{
+ "subject": "science",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Tabiiy fanlar",
+  "en": "Natural sciences",
+  "ru": "Естественные науки"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "science_g6.motion",
+   "code": "1",
+   "emoji": "🚗",
+   "title": {
+    "uz": "Mexanik harakat va tezlik",
+    "en": "Motion and speed",
+    "ru": "Механическое движение и скорость"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Harakat, massa va bosim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mexanik harakat — jism vaziyatining boshqa jismlarga nisbatan vaqt o‘tishi bilan o‘zgarishi. Jism qoldirgan chiziq — trayektoriya, uning uzunligi — yo‘l (s).\nTezlik — jismning vaqt birligida bosib o‘tgan yo‘li: v = s : t. Bundan s = v · t va t = s : v.\n• Birliklar: yo‘l — m, km; vaqt — s, soat; tezlik — m/s, km/soat. 1 km = 1000 m, 1 soat = 3600 s, shuning uchun 36 km/soat = 10 m/s.\n• Teng vaqtlarda teng yo‘l bosilsa — tekis harakat. Tezlikni spidometr ko‘rsatadi.\nMisol: 120 km ni 2 soatda o‘tgan avtobus tezligi 120 : 2 = 60 km/soat."
+   }
+  },
+  {
+   "id": "science_g6.density",
+   "code": "2",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Massa va zichlik",
+    "en": "Mass and density",
+    "ru": "Масса и плотность"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Harakat, massa va bosim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Massa (m) tarozida o‘lchanadi, birligi — kilogramm: 1 t = 1000 kg, 1 kg = 1000 g.\nZichlik (ρ) — birlik hajmdagi massa: ρ = m : V. Birliklari: g/sm³ yoki kg/m³.\n• Suv — 1 g/sm³ (1000 kg/m³), muz — 0,9 g/sm³, alyuminiy — 2,7 g/sm³, temir — 7,8 g/sm³, oltin — 19,3 g/sm³.\n• Zichligi suvnikidan kichik jism suvda suzadi (muz, yog‘och, yog‘), kattasi cho‘kadi (temir, tosh).\nMisol: 100 sm³ temirning massasi 780 g, demak ρ = 780 : 100 = 7,8 g/sm³."
+   }
+  },
+  {
+   "id": "science_g6.pressure",
+   "code": "3",
+   "emoji": "🎈",
+   "title": {
+    "uz": "Bosim",
+    "en": "Pressure",
+    "ru": "Давление"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Harakat, massa va bosim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bosim (p) — yuzaga tik ta’sir qilayotgan kuchning shu yuza kattaligiga nisbati: p = F : S. Birligi — paskal (Pa): 1 Pa = 1 N/m², 1 kPa = 1000 Pa.\n• Yuza kichraysa, bosim ortadi: o‘tkir pichoq, igna. Yuza kattalashsa, bosim kamayadi: chang‘i, traktor zanjiri.\n• Suyuqlik bosimi chuqurlik ortgan sari ortadi. Gaz va suyuqlik bosimni hamma tomonga bir xil uzatadi.\n• Atmosfera bosimini barometr o‘lchaydi; normal bosim — 760 mm simob ustuni. Balandlikka chiqqan sari atmosfera bosimi kamayadi.\nMisol: 600 N kuch 3 m² yuzaga ta’sir qilsa, p = 600 : 3 = 200 Pa."
+   }
+  },
+  {
+   "id": "science_g6.heat_transfer",
+   "code": "4",
+   "emoji": "🔥",
+   "title": {
+    "uz": "Issiqlik uzatish turlari",
+    "en": "Heat transfer",
+    "ru": "Виды теплопередачи"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Harakat, massa va bosim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Issiqlik doimo issiqroq jismdan sovuqroq jismga o‘tadi. Uch xil yo‘l bilan uzatiladi:\n• Issiqlik o‘tkazuvchanlik — jism zarralari orqali: choydagi qoshiq dastasi qiziydi. Metallar yaxshi, havo, jun, yog‘och, penoplast yomon o‘tkazadi.\n• Konveksiya — suyuqlik va gazlarda isigan qatlamlarning ko‘tarilishi, sovuqlarining tushishi: qozondagi suv, xonadagi batareya.\n• Nurlanish — bo‘shliq orqali ham o‘tadi: Quyosh issiqligi, gulxan taftini sezish. Qora sirt nurni ko‘proq yutadi, oq va yaltiroq sirt qaytaradi.\nTermos uchala yo‘lni ham kamaytiradi va issiqni uzoq saqlaydi."
+   }
+  },
+  {
+   "id": "science_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Harakat, massa va bosim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g6.light",
+   "code": "5",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yorug‘lik hodisalari",
+    "en": "Light: reflection, refraction and lenses",
+    "ru": "Световые явления"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Yorug‘lik, tovush va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bir jinsli muhitda yorug‘lik to‘g‘ri chiziq bo‘ylab tarqaladi, tezligi taxminan 300 000 km/s. Shuning uchun soya hosil bo‘ladi.\n• Qaytish: nur ko‘zgudan qaytadi, qaytish burchagi tushish burchagiga teng. Yassi ko‘zgudagi tasvir ko‘zgu ortida xuddi shuncha masofada ko‘rinadi.\n• Sinish: nur bir muhitdan boshqasiga (havodan suvga) o‘tganda yo‘nalishini o‘zgartiradi — suvdagi qoshiq “singandek” ko‘rinadi.\n• Linzalar: yig‘uvchi (qavariq, o‘rtasi qalin) nurlarni bir nuqta — fokusga yig‘adi; sochuvchi (botiq, o‘rtasi yupqa) nurlarni sochadi. Lupa — yig‘uvchi linza.\nOq yorug‘lik 7 rangdan iborat: qizil, to‘q sariq, sariq, yashil, havorang, ko‘k, binafsha."
+   }
+  },
+  {
+   "id": "science_g6.sound",
+   "code": "6",
+   "emoji": "🔊",
+   "title": {
+    "uz": "Tovush",
+    "en": "Sound",
+    "ru": "Звук"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Yorug‘lik, tovush va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tovush — jismlarning tebranishi natijasida hosil bo‘ladi va havo, suv, qattiq jism orqali tarqaladi. Havosiz bo‘shliqda (vakuumda) tovush tarqalmaydi.\n• Havoda tovush tezligi taxminan 340 m/s; suvda va qattiq jismlarda undan tezroq.\n• Chastota — 1 soniyadagi tebranishlar soni, birligi gers (Hz). Chastota katta bo‘lsa, tovush ingichka (baland ton), kichik bo‘lsa — yo‘g‘on.\n• Inson taxminan 20 Hz dan 20 000 Hz gacha eshitadi. Undan pasti — infratovush, yuqorisi — ultratovush (ko‘rshapalak, delfin eshitadi).\nTo‘siqdan qaytgan tovush — aks-sado. Shovqin balandligi desibelda (dB) o‘lchanadi."
+   }
+  },
+  {
+   "id": "science_g6.atoms",
+   "code": "7",
+   "emoji": "⚛️",
+   "title": {
+    "uz": "Atom, molekula va kimyoviy elementlar",
+    "en": "Atoms, molecules and chemical elements",
+    "ru": "Атомы, молекулы и химические элементы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Yorug‘lik, tovush va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Moddalar juda mayda zarralar — molekulalardan, molekulalar esa atomlardan tuzilgan. Atom markazida yadro, atrofida elektronlar harakatlanadi.\nKimyoviy element — bir xil turdagi atomlar. Har bir element lotin harfidan iborat belgi bilan yoziladi:\n• H — vodorod, O — kislorod, C — uglerod, N — azot, Fe — temir, Cu — mis, Na — natriy, Cl — xlor.\n• Formulada kichik raqam atomlar sonini ko‘rsatadi: H₂O — 2 ta vodorod va 1 ta kislorod atomi (jami 3 ta), CO₂ — 1 ta uglerod va 2 ta kislorod atomi.\nElementlar D. I. Mendeleyev tuzgan davriy jadvalda joylashtirilgan."
+   }
+  },
+  {
+   "id": "science_g6.substances",
+   "code": "8",
+   "emoji": "🧪",
+   "title": {
+    "uz": "Oddiy va murakkab moddalar",
+    "en": "Simple and compound substances",
+    "ru": "Простые и сложные вещества"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Yorug‘lik, tovush va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Oddiy modda — bir xil element atomlaridan tuzilgan: kislorod O₂, vodorod H₂, azot N₂, temir Fe, mis Cu, oltin Au.\n• Murakkab modda — turli element atomlaridan tuzilgan: suv H₂O, karbonat angidrid CO₂, osh tuzi NaCl, metan CH₄.\nOddiy moddalar metallar va nometallarga bo‘linadi. Metallar yaltiroq, bolg‘alanuvchan, issiqlik va elektrni yaxshi o‘tkazadi; simob — xona haroratida suyuq metall.\nNometallar: kislorod, azot, vodorod, uglerod, xlor, oltingugurt.\nHavo — aralashma: taxminan 78 % azot, 21 % kislorod, qolgani boshqa gazlar."
+   }
+  },
+  {
+   "id": "science_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Yorug‘lik, tovush va moddalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g6.classification",
+   "code": "9",
+   "emoji": "🍄",
+   "title": {
+    "uz": "Tirik organizmlarning tasnifi",
+    "en": "Classification of living things",
+    "ru": "Классификация живых организмов"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Olimlar tirik organizmlarni o‘xshash belgilariga qarab guruhlarga ajratadi — bu tasnif (sistematika). Asosiy birlik — tur.\n• Bakteriyalar — bir hujayrali, hujayrasida shakllangan yadro yo‘q. Ba’zilari foydali (qatiq, pishloq tayyorlashda), ba’zilari kasallik qo‘zg‘atadi.\n• Zamburug‘lar — xlorofilli emas, tayyor organik modda bilan oziqlanadi, sporalar bilan ko‘payadi: qo‘ziqorin, mog‘or, achitqi.\n• O‘simliklar — xlorofill yordamida fotosintez qiladi, hujayrasida qattiq devor bor.\n• Hayvonlar — tayyor oziq bilan oziqlanadi, ko‘pchiligi faol harakatlanadi. Karl Linney turlarni ikki so‘zli nomlash usulini taklif qilgan."
+   }
+  },
+  {
+   "id": "science_g6.plant_organs",
+   "code": "10",
+   "emoji": "🌿",
+   "title": {
+    "uz": "O‘simlik a’zolari va to‘qimalari",
+    "en": "Plant organs and tissues",
+    "ru": "Органы и ткани растений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gulli o‘simlik a’zolari: vegetativ — ildiz, poya, barg; generativ (ko‘payish) — gul, meva, urug‘.\n• Ildiz tizimi: o‘q ildiz (loviya, kungaboqar, g‘o‘za) va popuk ildiz (bug‘doy, makkajo‘xori, piyoz).\n• Barg tomirlanishi: to‘rsimon (olma, terak) va parallel (bug‘doy, makkajo‘xori). Barg og‘izchalari orqali gaz almashinadi va suv bug‘lanadi.\n• To‘qimalar: qoplovchi (himoya), hosil qiluvchi (bo‘linib o‘stiradi), asosiy (fotosintez, zaxira to‘plash), o‘tkazuvchi (suv va oziqni tashiydi), mexanik (tayanch).\nDaraxt tanasida har yili bitta yillik halqa hosil bo‘ladi — ular soni daraxt yoshini ko‘rsatadi."
+   }
+  },
+  {
+   "id": "science_g6.animals",
+   "code": "11",
+   "emoji": "🦎",
+   "title": {
+    "uz": "Hayvonlar tuzilishi: umurtqasiz va umurtqalilar",
+    "en": "Invertebrates and vertebrates",
+    "ru": "Беспозвоночные и позвоночные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hayvonlar ikki katta guruhga bo‘linadi.\n• Umurtqasizlar — umurtqa pog‘onasi yo‘q: chuvalchanglar, mollyuskalar (shilliqqurt, sakkizoyoq), bo‘g‘imoyoqlilar, meduza. Hasharotlar 6 oyoqli, tanasi 3 bo‘limli (bosh, ko‘krak, qorin); o‘rgimchaksimonlar 8 oyoqli.\n• Umurtqalilar — ichki skeleti va umurtqa pog‘onasi bor. 5 sinfi: baliqlar, suvda hamda quruqlikda yashovchilar, sudralib yuruvchilar, qushlar, sut emizuvchilar.\n• Baliqlar jabra bilan nafas oladi; baqa lichinkasi (itbaliq) suvda o‘sadi; sudralib yuruvchilar terisi quruq, muguz tangachali.\nQushlar (pat, tumshuq) va sut emizuvchilar (jun, bolasini sut bilan boqadi) — issiqqonli, yuragi 4 kamerali."
+   }
+  },
+  {
+   "id": "science_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Tirik organizmlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g6.earth_crust",
+   "code": "12",
+   "emoji": "🌋",
+   "title": {
+    "uz": "Yer po‘stining harakatlari: vulqon va zilzila",
+    "en": "Volcanoes and earthquakes",
+    "ru": "Движения земной коры: вулканы и землетрясения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yer po‘sti yaxlit emas: u litosfera plitalaridan iborat. Plitalar yiliga bir necha santimetr sekin siljiydi.\n• Zilzila (yer qimirlashi) — yer po‘stining silkinishi. U boshlangan joy — o‘choq, uning ustidagi yer yuzasi nuqtasi — episentr. Zilzilani seysmograf yozib oladi, kuchi ballarda baholanadi.\n• Vulqon — magma yer yuzasiga otilib chiqadigan tog‘. Qismlari: magma o‘chog‘i, bo‘g‘iz, krater. Yer yuzasiga chiqqan magma — lava.\n• Okean ostidagi kuchli zilzila ulkan to‘lqin — sunami hosil qiladi. Plitalar to‘qnashganda tog‘lar ko‘tariladi (Himolay).\nO‘zbekiston seysmik faol hududda joylashgan; Toshkentda 1966-yil 26-aprelda kuchli zilzila bo‘lgan."
+   }
+  },
+  {
+   "id": "science_g6.weather_climate",
+   "code": "13",
+   "emoji": "⛅",
+   "title": {
+    "uz": "Ob-havo va iqlim",
+    "en": "Weather and climate",
+    "ru": "Погода и климат"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ob-havo — ma’lum joyda qisqa vaqt ichidagi atmosfera holati; iqlim — shu joyning ko‘p yillik ob-havo tartibi.\n• Ob-havo elementlari va asboblari: harorat — termometr, atmosfera bosimi — barometr, shamol yo‘nalishi — flyuger, shamol tezligi — anemometr, havo namligi — gigrometr, yog‘in — yog‘in o‘lchagich.\n• Shamol — havoning yuqori bosimli joydan past bosimli joyga harakati. Balandlikka ko‘tarilgan sari harorat har 1 km da taxminan 6 °C pasayadi.\n• O‘rtacha sutkalik harorat — o‘lchangan haroratlar yig‘indisi ularning soniga bo‘linadi; amplituda — eng yuqori va eng past harorat farqi.\nIqlim mintaqalari: ekvatorial, tropik, mo‘tadil, qutbiy. O‘zbekiston iqlimi — keskin kontinental."
+   }
+  },
+  {
+   "id": "science_g6.map_coords",
+   "code": "14",
+   "emoji": "🗺️",
+   "title": {
+    "uz": "Xarita, masshtab va geografik koordinatalar",
+    "en": "Maps, scale and coordinates",
+    "ru": "Карта, масштаб и координаты"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Masshtab — xaritadagi masofa haqiqiy masofadan necha marta kichikligini ko‘rsatadi. Sonli masshtab 1 : 100 000 — xaritadagi 1 sm joyda 100 000 sm, ya’ni 1 km (nomli masshtab: “1 sm da 1 km”).\n• Parallellar — ekvatorga parallel aylanalar, meridianlar — qutbdan qutbga o‘tgan chiziqlar. Bosh meridian — Grinvich meridiani.\n• Geografik kenglik — ekvatordan shimol yoki janubga 0° dan 90° gacha; geografik uzoqlik — bosh meridiandan sharq yoki g‘arbga 0° dan 180° gacha.\n• Meridianning 1° yoyi taxminan 111 km. Toshkent taxminan 41° shimoliy kenglik va 69° sharqiy uzoqlikda.\nMutlaq balandlik dengiz sathidan, nisbiy balandlik esa tog‘ etagidan hisoblanadi."
+   }
+  },
+  {
+   "id": "science_g6.resources",
+   "code": "15",
+   "emoji": "♻️",
+   "title": {
+    "uz": "Tabiiy resurslar va ekologiya",
+    "en": "Natural resources and ecology",
+    "ru": "Природные ресурсы и экология"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiiy resurslar — inson foydalanadigan tabiat boyliklari.\n• Tugaydigan resurslar: tiklanadigan (o‘rmon, tuproq, chuchuk suv, hayvonlar) va tiklanmaydigan (neft, gaz, ko‘mir, rudalar).\n• Tugamaydigan resurslar: Quyosh va shamol energiyasi. Ulardan foydalanadigan elektr stansiyalari havoni tutun bilan ifloslamaydi.\n• Ekologik muammolar: havo va suv ifloslanishi, cho‘llanish, tuproq sho‘rlanishi, chiqindilar, karbonat angidrid ko‘payib issiqxona effekti kuchayishi.\nEkologiya — organizmlarning o‘zaro va atrof-muhit bilan munosabatini o‘rganadigan fan (atamani E. Gekkel kiritgan)."
+   }
+  },
+  {
+   "id": "science_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yer, iqlim va ekologiya",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer",
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances",
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals",
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer",
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances",
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals",
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "science_g6.motion",
+      "science_g6.density",
+      "science_g6.pressure",
+      "science_g6.heat_transfer",
+      "science_g6.light",
+      "science_g6.sound",
+      "science_g6.atoms",
+      "science_g6.substances",
+      "science_g6.classification",
+      "science_g6.plant_organs",
+      "science_g6.animals",
+      "science_g6.earth_crust",
+      "science_g6.weather_climate",
+      "science_g6.map_coords",
+      "science_g6.resources"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

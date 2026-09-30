@@ -1,0 +1,5514 @@
+{
+ "items": [
+  {
+   "topic": "science_g4.space",
+   "id": "space_1",
+   "t": "choice",
+   "q": "Osmonda o‘zidan yorug‘lik va issiqlik chiqaradigan ulkan jism nima?",
+   "a": "Yulduz",
+   "w": [
+    "Sayyora",
+    "Yo‘ldosh",
+    "Bulut"
+   ],
+   "d": 1,
+   "x": "Yulduzlar, jumladan Quyosh ham, o‘zidan yorug‘lik va issiqlik chiqaradi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_2",
+   "t": "choice",
+   "q": "Yerga eng yaqin yulduz qaysi?",
+   "a": "Quyosh",
+   "w": [
+    "Oy",
+    "Qutb yulduzi",
+    "Mars"
+   ],
+   "d": 1,
+   "x": "Quyosh — yulduz, u Yerga boshqa yulduzlardan ancha yaqin.",
+   "e": "☀️"
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_3",
+   "t": "choice",
+   "q": "Quyosh atrofida nechta sayyora aylanadi?",
+   "a": "8 ta",
+   "w": [
+    "5 ta",
+    "3 ta",
+    "12 ta"
+   ],
+   "d": 1,
+   "x": "Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran va Neptun — jami 8 ta."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_4",
+   "t": "choice",
+   "q": "Quyoshdan hisoblaganda Yer nechanchi o‘rinda turadi?",
+   "a": "3-o‘rinda",
+   "w": [
+    "1-o‘rinda",
+    "2-o‘rinda",
+    "5-o‘rinda"
+   ],
+   "d": 1,
+   "x": "Quyoshdan boshlab: Merkuriy, Venera, keyin Yer."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_5",
+   "t": "choice",
+   "q": "Yer atrofida aylanadigan osmon jismi qaysi?",
+   "a": "Oy",
+   "w": [
+    "Quyosh",
+    "Mars",
+    "Venera"
+   ],
+   "d": 1,
+   "x": "Oy — Yerning tabiiy yo‘ldoshi, u Yer atrofida aylanadi.",
+   "e": "🌙"
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_6",
+   "t": "choice",
+   "q": "Oy tunda nima uchun yorug‘ ko‘rinadi?",
+   "a": "Quyosh nurini qaytaradi",
+   "w": [
+    "O‘zi nur sochadi",
+    "Unda chiroqlar yonadi",
+    "U alanga bilan yonadi"
+   ],
+   "d": 1,
+   "x": "Oy o‘zidan nur chiqarmaydi, uning yuzasi Quyosh nurini qaytaradi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_7",
+   "t": "choice",
+   "q": "Yer o‘z o‘qi atrofida bir marta necha soatda aylanadi?",
+   "a": "24 soatda",
+   "w": [
+    "12 soatda",
+    "7 soatda",
+    "365 soatda"
+   ],
+   "d": 1,
+   "x": "Bir marta aylanish — bir sutka, ya’ni 24 soat."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_8",
+   "t": "choice",
+   "q": "Yer Quyosh atrofini necha kunda aylanib chiqadi?",
+   "a": "365 kunda",
+   "w": [
+    "30 kunda",
+    "7 kunda",
+    "100 kunda"
+   ],
+   "d": 1,
+   "x": "Bir yil — 365 kun, kabisa yilida esa 366 kun."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_9",
+   "t": "choice",
+   "q": "Hayot borligi ma’lum bo‘lgan sayyora qaysi?",
+   "a": "Yer",
+   "w": [
+    "Mars",
+    "Venera",
+    "Yupiter"
+   ],
+   "d": 1,
+   "x": "Hozircha hayot faqat Yerda borligi aniq ma’lum."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_10",
+   "t": "choice",
+   "q": "Osmon jismlarini kuzatadigan asbob qaysi?",
+   "a": "Teleskop",
+   "w": [
+    "Mikroskop",
+    "Termometr",
+    "Kompas"
+   ],
+   "d": 1,
+   "x": "Teleskop uzoqdagi osmon jismlarini yaqinlashtirib ko‘rsatadi.",
+   "e": "🔭"
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_11",
+   "t": "choice",
+   "q": "Koinotga uchadigan odam nima deb ataladi?",
+   "a": "Kosmonavt",
+   "w": [
+    "Dengizchi",
+    "Geolog",
+    "Shifokor"
+   ],
+   "d": 1,
+   "x": "Koinotga uchuvchi odam kosmonavt yoki astronavt deb ataladi.",
+   "e": "🚀"
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_12",
+   "t": "tf",
+   "q": "Quyosh — sayyora.",
+   "a": false,
+   "d": 1,
+   "x": "Quyosh — yulduz, sayyoralar esa uning atrofida aylanadi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_13",
+   "t": "tf",
+   "q": "Oy — Yerning tabiiy yo‘ldoshi.",
+   "a": true,
+   "d": 1,
+   "x": "Oy Yer atrofida aylanadi, u Yerning yagona tabiiy yo‘ldoshi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_14",
+   "t": "tf",
+   "q": "Quyosh Yerdan ancha katta.",
+   "a": true,
+   "d": 1,
+   "x": "Quyosh juda ulkan, u bizdan uzoqda bo‘lgani uchun kichik doiradek ko‘rinadi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_15",
+   "t": "tf",
+   "q": "Oyda odamlar doimiy yashaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Oyda nafas olish uchun havo yo‘q, u yerda hech kim doimiy yashamaydi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_16",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yer",
+    "Quyosh",
+    "atrofida",
+    "aylanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_17",
+   "t": "choice",
+   "q": "Koinotga birinchi bo‘lib uchgan inson kim?",
+   "a": "Yuriy Gagarin",
+   "w": [
+    "Nil Armstrong",
+    "Mirzo Ulug‘bek",
+    "Isaak Nyuton"
+   ],
+   "d": 2,
+   "x": "Yuriy Gagarin 1961-yil 12-aprelda koinotga uchgan."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_18",
+   "t": "choice",
+   "q": "Samarqandda rasadxona qurib, yulduzlarni o‘rgangan buyuk olim kim?",
+   "a": "Mirzo Ulug‘bek",
+   "w": [
+    "Alisher Navoiy",
+    "Yuriy Gagarin",
+    "Abdulla Qodiriy"
+   ],
+   "d": 2,
+   "x": "Mirzo Ulug‘bek XV asrda Samarqandda rasadxona qurdirgan va yulduzlar jadvalini tuzgan."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_19",
+   "t": "choice",
+   "q": "Oyda nima yo‘q?",
+   "a": "Havo",
+   "w": [
+    "Tog‘lar",
+    "Chuqurliklar",
+    "Tosh va chang"
+   ],
+   "d": 2,
+   "x": "Oyda havo yo‘q, shuning uchun u yerda nafas olib bo‘lmaydi va tovush eshitilmaydi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_20",
+   "t": "choice",
+   "q": "Yulduzlar kunduzi nima uchun ko‘rinmaydi?",
+   "a": "Quyosh nuri juda yorqin",
+   "w": [
+    "Ular o‘chib qoladi",
+    "Ular yerga tushadi",
+    "Ular uxlab qoladi"
+   ],
+   "d": 2,
+   "x": "Yulduzlar kunduzi ham osmonda bor, lekin Quyoshning yorqin nuri ularni ko‘rsatmaydi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_21",
+   "t": "choice",
+   "q": "Oy Yer atrofini taxminan qancha vaqtda aylanib chiqadi?",
+   "a": "Bir oyda",
+   "w": [
+    "Bir kunda",
+    "Bir soatda",
+    "Bir yilda"
+   ],
+   "d": 2,
+   "x": "Oy Yer atrofini taxminan bir oyda aylanadi, “oy” so‘zi ham shundan."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_22",
+   "t": "choice",
+   "q": "Oyning to‘liq yorug‘ doira bo‘lib ko‘rinishi nima deyiladi?",
+   "a": "To‘lin oy",
+   "w": [
+    "Yangi oy",
+    "Hilol",
+    "Oy tutilishi"
+   ],
+   "d": 2,
+   "x": "To‘lin oyda Oyning Yerga qaragan tomoni to‘liq yoritilgan bo‘ladi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_23",
+   "t": "choice",
+   "q": "Osmonda yulduzlar hosil qilgan shakllar nima deb ataladi?",
+   "a": "Yulduz turkumlari",
+   "w": [
+    "Sayyoralar",
+    "Kometalar",
+    "Kraterlar"
+   ],
+   "d": 2,
+   "x": "Masalan, Katta Ayiq turkumining yorqin yulduzlari cho‘michga o‘xshaydi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_24",
+   "t": "tf",
+   "q": "Yulduzlar faqat tunda paydo bo‘lib, ertalab yo‘qoladi.",
+   "a": false,
+   "d": 2,
+   "x": "Yulduzlar doim osmonda, kunduzi ularni Quyosh yorug‘ligi to‘sadi."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_25",
+   "t": "match",
+   "q": "Osmon jismini ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Quyosh",
+     "Yerga eng yaqin yulduz"
+    ],
+    [
+     "Yer",
+     "biz yashaydigan sayyora"
+    ],
+    [
+     "Oy",
+     "Yerning yo‘ldoshi"
+    ],
+    [
+     "Mars",
+     "qizil sayyora"
+    ],
+    [
+     "Saturn",
+     "halqali sayyora"
+    ],
+    [
+     "Somon yo‘li",
+     "bizning galaktika"
+    ]
+   ],
+   "d": 2,
+   "x": "Quyosh — yulduz, Yer, Mars va Saturn — sayyoralar, Oy — yo‘ldosh, Somon yo‘li — galaktika."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_26",
+   "t": "choice",
+   "q": "Oyga birinchi qadam qo‘ygan inson kim?",
+   "a": "Nil Armstrong",
+   "w": [
+    "Yuriy Gagarin",
+    "Mirzo Ulug‘bek",
+    "Xristofor Kolumb"
+   ],
+   "d": 3,
+   "x": "1969-yilda Nil Armstrong Oy yuzasiga birinchi bo‘lib qadam qo‘ygan."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_27",
+   "t": "choice",
+   "q": "Quyosh kiradigan ulkan yulduzlar to‘plami — galaktikamiz qanday ataladi?",
+   "a": "Somon yo‘li",
+   "w": [
+    "Katta Ayiq",
+    "Quyosh tizimi",
+    "Kamalak"
+   ],
+   "d": 3,
+   "x": "Quyosh — Somon yo‘li galaktikasidagi milliardlab yulduzlardan biri."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_28",
+   "t": "choice",
+   "q": "Oy nima uchun shaklini o‘zgartirgandek ko‘rinadi?",
+   "a": "Yoritilgan qismi turlicha ko‘rinadi",
+   "w": [
+    "Oy o‘zi kichrayadi",
+    "Oy ba’zan o‘chib qoladi",
+    "Oyni bulut yeydi"
+   ],
+   "d": 3,
+   "x": "Oy o‘z shaklini o‘zgartirmaydi: biz uning Quyosh yoritgan qismini har kuni turlicha ko‘ramiz."
+  },
+  {
+   "topic": "science_g4.space",
+   "id": "space_29",
+   "t": "choice",
+   "q": "Yerdan Quyoshgacha taxminan qancha masofa bor?",
+   "a": "150 million km",
+   "w": [
+    "150 km",
+    "1500 km",
+    "150 ming km"
+   ],
+   "d": 3,
+   "x": "Quyosh juda uzoqda — taxminan 150 million kilometr."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_1",
+   "t": "choice",
+   "q": "Yerning kichraytirilgan hajmli modeli nima?",
+   "a": "Globus",
+   "w": [
+    "Xarita",
+    "Kompas",
+    "Teleskop"
+   ],
+   "d": 1,
+   "x": "Globus Yer kabi shar shaklida, lekin undan millionlab marta kichik.",
+   "e": "🌍"
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_2",
+   "t": "choice",
+   "q": "Yer yuzasining tekis qog‘ozdagi kichraytirilgan tasviri nima?",
+   "a": "Xarita",
+   "w": [
+    "Globus",
+    "Fotoalbom",
+    "Kompas"
+   ],
+   "d": 1,
+   "x": "Xarita Yer yuzasini tekislikda, kichraytirib tasvirlaydi.",
+   "e": "🗺️"
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_3",
+   "t": "choice",
+   "q": "Yerni Shimoliy va Janubiy yarimsharlarga nima ajratadi?",
+   "a": "Ekvator",
+   "w": [
+    "Daryo",
+    "Tog‘ tizmasi",
+    "Okean"
+   ],
+   "d": 1,
+   "x": "Ekvator — globus va xaritada chiziladigan xayoliy chiziq."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_4",
+   "t": "choice",
+   "q": "Ekvator Yerni nechta yarimsharga ajratadi?",
+   "a": "2 ta",
+   "w": [
+    "3 ta",
+    "4 ta",
+    "6 ta"
+   ],
+   "d": 1,
+   "x": "Ekvatordan shimolda — Shimoliy, janubda — Janubiy yarimshar."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_5",
+   "t": "choice",
+   "q": "Xaritada ko‘k rang nimani bildiradi?",
+   "a": "Suvni",
+   "w": [
+    "Tog‘larni",
+    "Cho‘lni",
+    "O‘rmonni"
+   ],
+   "d": 1,
+   "x": "Okean, dengiz, ko‘l va daryolar ko‘k rangda tasvirlanadi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_6",
+   "t": "choice",
+   "q": "Xaritada yashil rang nimani bildiradi?",
+   "a": "Pasttekislikni",
+   "w": [
+    "Dengizni",
+    "Baland tog‘ni",
+    "Muzlikni"
+   ],
+   "d": 1,
+   "x": "Yashil rang past, tekis joylarni ko‘rsatadi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_7",
+   "t": "choice",
+   "q": "Xaritada jigarrang nimani bildiradi?",
+   "a": "Tog‘larni",
+   "w": [
+    "Daryolarni",
+    "Ko‘llarni",
+    "Pasttekisliklarni"
+   ],
+   "d": 1,
+   "x": "Joy qancha baland bo‘lsa, jigarrang shuncha quyuq bo‘ladi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_8",
+   "t": "choice",
+   "q": "Xaritaning yuqori tomoni qaysi ufq tomoni?",
+   "a": "Shimol",
+   "w": [
+    "Janub",
+    "Sharq",
+    "G‘arb"
+   ],
+   "d": 1,
+   "x": "Odatda xaritaning yuqorisi — shimol, pasti — janub."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_9",
+   "t": "choice",
+   "q": "Xaritadagi narsalarni ko‘rsatuvchi maxsus belgilar nima deyiladi?",
+   "a": "Shartli belgilar",
+   "w": [
+    "Harflar",
+    "Yo‘l belgilari",
+    "Notalar"
+   ],
+   "d": 1,
+   "x": "Shahar, daryo, tog‘ kabi joylar shartli belgilar bilan ko‘rsatiladi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_10",
+   "t": "tf",
+   "q": "Ekvator — Yer yuzasida chizilgan haqiqiy chiziq.",
+   "a": false,
+   "d": 1,
+   "x": "Ekvator xayoliy chiziq, u faqat globus va xaritada chiziladi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_11",
+   "t": "tf",
+   "q": "Globus ham Yer kabi shar shaklida.",
+   "a": true,
+   "d": 1,
+   "x": "Globus — Yerning kichik modeli, shuning uchun u ham shar shaklida."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_12",
+   "t": "tf",
+   "q": "Xaritada daryo va ko‘llar ko‘k rangda tasvirlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Ko‘k rang — suvning rangi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Globus",
+    "Yerning",
+    "kichik",
+    "modeli"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_14",
+   "t": "choice",
+   "q": "Xaritaning o‘ng tomoni qaysi ufq tomoni?",
+   "a": "Sharq",
+   "w": [
+    "G‘arb",
+    "Shimol",
+    "Janub"
+   ],
+   "d": 2,
+   "x": "Xaritada o‘ng — sharq, chap — g‘arb."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_15",
+   "t": "choice",
+   "q": "Globusda oq rang bilan ko‘pincha nima ko‘rsatiladi?",
+   "a": "Muzliklar",
+   "w": [
+    "Cho‘llar",
+    "O‘rmonlar",
+    "Shaharlar"
+   ],
+   "d": 2,
+   "x": "Antarktida va Grenlandiyadagi muzliklar oq rangda ko‘rsatiladi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_16",
+   "t": "choice",
+   "q": "Ekvatordan eng uzoqda joylashgan nuqtalar qaysilar?",
+   "a": "Qutblar",
+   "w": [
+    "Tog‘ cho‘qqilari",
+    "Okeanlar markazi",
+    "Poytaxtlar"
+   ],
+   "d": 2,
+   "x": "Shimoliy va Janubiy qutblar ekvatordan eng uzoqda."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_17",
+   "t": "choice",
+   "q": "O‘zbekiston qaysi yarimsharda joylashgan?",
+   "a": "Shimoliy yarimsharda",
+   "w": [
+    "Janubiy yarimsharda",
+    "Ekvator ustida",
+    "Janubiy qutbda"
+   ],
+   "d": 2,
+   "x": "O‘zbekiston ekvatordan shimolda joylashgan."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_18",
+   "t": "choice",
+   "q": "Globusning afzalligi nima?",
+   "a": "Yer shaklini to‘g‘ri ko‘rsatadi",
+   "w": [
+    "Cho‘ntakka sig‘adi",
+    "Ko‘chalarni ko‘rsatadi",
+    "Mayda joylarni batafsil ko‘rsatadi"
+   ],
+   "d": 2,
+   "x": "Globus Yer kabi shar shaklida, lekin undagi tasvir juda kichik."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_19",
+   "t": "tf",
+   "q": "Shimoliy qutb ekvatorda joylashgan.",
+   "a": false,
+   "d": 2,
+   "x": "Qutblar ekvatordan eng uzoqdagi nuqtalar."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_20",
+   "t": "tf",
+   "q": "Ekvator yaqinida yil bo‘yi issiq bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "Ekvator yaqinida Quyosh nurlari deyarli tik tushadi, shuning uchun u yerda issiq."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_21",
+   "t": "match",
+   "q": "Xaritadagi belgini ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "Ko‘k rang",
+     "dengiz va ko‘llar"
+    ],
+    [
+     "Yashil rang",
+     "pasttekislik"
+    ],
+    [
+     "Jigarrang",
+     "tog‘lar"
+    ],
+    [
+     "Oq rang",
+     "muzliklar"
+    ],
+    [
+     "Ko‘k ingichka chiziq",
+     "daryo"
+    ]
+   ],
+   "d": 2,
+   "x": "Xaritani o‘qish uchun ranglar va shartli belgilarni bilish kerak."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_22",
+   "t": "choice",
+   "q": "Xaritaning globusdan afzalligi nima?",
+   "a": "Batafsil va olib yurish qulay",
+   "w": [
+    "Yer shaklini aniq ko‘rsatadi",
+    "U shar shaklida",
+    "Unda ranglar bo‘lmaydi"
+   ],
+   "d": 3,
+   "x": "Xaritani buklab olib yurish mumkin, unda kichik hudud ham batafsil ko‘rsatiladi."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_23",
+   "t": "choice",
+   "q": "Maktab hovlisining yuqoridan qaraganda chizilgan batafsil tasviri nima deyiladi?",
+   "a": "Joy plani",
+   "w": [
+    "Globus",
+    "Dunyo xaritasi",
+    "Kompas"
+   ],
+   "d": 3,
+   "x": "Plan kichik joyni batafsil ko‘rsatadi, xarita esa katta hududni."
+  },
+  {
+   "topic": "science_g4.globe_map",
+   "id": "globe_map_24",
+   "t": "choice",
+   "q": "Shimoliy qutbdan qaysi tomonga yurmang, qaysi tomonga borasiz?",
+   "a": "Janubga",
+   "w": [
+    "Shimolga",
+    "Sharqqa",
+    "G‘arbga"
+   ],
+   "d": 3,
+   "x": "Shimoliy qutbda barcha yo‘nalishlar janubga qaraydi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_1",
+   "t": "choice",
+   "q": "Yer yuzida nechta materik bor?",
+   "a": "6 ta",
+   "w": [
+    "3 ta",
+    "4 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Yevrosiyo, Afrika, Shimoliy Amerika, Janubiy Amerika, Antarktida va Avstraliya."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_2",
+   "t": "choice",
+   "q": "Eng katta materik qaysi?",
+   "a": "Yevrosiyo",
+   "w": [
+    "Afrika",
+    "Avstraliya",
+    "Antarktida"
+   ],
+   "d": 1,
+   "x": "Yevrosiyo — eng katta materik, unda Yevropa va Osiyo joylashgan."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_3",
+   "t": "choice",
+   "q": "Eng kichik materik qaysi?",
+   "a": "Avstraliya",
+   "w": [
+    "Yevrosiyo",
+    "Afrika",
+    "Shimoliy Amerika"
+   ],
+   "d": 1,
+   "x": "Avstraliya — materiklarning eng kichigi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_4",
+   "t": "choice",
+   "q": "O‘zbekiston qaysi materikda joylashgan?",
+   "a": "Yevrosiyoda",
+   "w": [
+    "Afrikada",
+    "Avstraliyada",
+    "Janubiy Amerikada"
+   ],
+   "d": 1,
+   "x": "O‘zbekiston Yevrosiyo materigining Osiyo qismida joylashgan."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_5",
+   "t": "choice",
+   "q": "Eng sovuq materik qaysi?",
+   "a": "Antarktida",
+   "w": [
+    "Afrika",
+    "Avstraliya",
+    "Janubiy Amerika"
+   ],
+   "d": 1,
+   "x": "Antarktidani qalin muz qatlami qoplagan.",
+   "e": "❄️"
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_6",
+   "t": "choice",
+   "q": "Eng issiq materik qaysi?",
+   "a": "Afrika",
+   "w": [
+    "Antarktida",
+    "Yevrosiyo",
+    "Shimoliy Amerika"
+   ],
+   "d": 1,
+   "x": "Afrikaning katta qismi ekvator atrofidagi issiq mintaqada joylashgan."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_7",
+   "t": "choice",
+   "q": "Yer yuzida nechta okean bor?",
+   "a": "5 ta",
+   "w": [
+    "2 ta",
+    "8 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Tinch, Atlantika, Hind, Shimoliy Muz va Janubiy okean."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_8",
+   "t": "choice",
+   "q": "Maydoni eng katta va eng chuqur okean qaysi?",
+   "a": "Tinch okeani",
+   "w": [
+    "Atlantika okeani",
+    "Hind okeani",
+    "Shimoliy Muz okeani"
+   ],
+   "d": 1,
+   "x": "Tinch okeani barcha materiklardan ham katta maydonni egallaydi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_9",
+   "t": "choice",
+   "q": "Materik nima?",
+   "a": "Suv bilan o‘ralgan ulkan quruqlik",
+   "w": [
+    "Kichik orol",
+    "Katta ko‘l",
+    "Baland tog‘"
+   ],
+   "d": 1,
+   "x": "Materik — okeanlar bilan o‘ralgan juda katta quruqlik."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_10",
+   "t": "choice",
+   "q": "Suv bilan o‘ralgan kichikroq quruqlik nima deyiladi?",
+   "a": "Orol",
+   "w": [
+    "Materik",
+    "Okean",
+    "Daryo"
+   ],
+   "d": 1,
+   "x": "Orol har tomondan suv bilan o‘ralgan, lekin materikdan ancha kichik."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_11",
+   "t": "tf",
+   "q": "Afrika — eng kichik materik.",
+   "a": false,
+   "d": 1,
+   "x": "Eng kichik materik — Avstraliya."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_12",
+   "t": "tf",
+   "q": "Yer yuzasida quruqlik suvdan ko‘p.",
+   "a": false,
+   "d": 1,
+   "x": "Yer yuzasining taxminan 71 foizini suv egallaydi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_13",
+   "t": "tf",
+   "q": "Tinch okeani — okeanlarning eng kattasi.",
+   "a": true,
+   "d": 1,
+   "x": "Tinch okeani maydoni bo‘yicha birinchi o‘rinda."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yevrosiyo",
+    "eng",
+    "katta",
+    "materik"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_15",
+   "t": "choice",
+   "q": "Eng kichik okean qaysi?",
+   "a": "Shimoliy Muz okeani",
+   "w": [
+    "Tinch okeani",
+    "Atlantika okeani",
+    "Hind okeani"
+   ],
+   "d": 2,
+   "x": "Shimoliy Muz okeani — eng kichik va eng sovuq okean."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_16",
+   "t": "choice",
+   "q": "Yevrosiyo qaysi ikki dunyo qismidan iborat?",
+   "a": "Yevropa va Osiyo",
+   "w": [
+    "Afrika va Osiyo",
+    "Amerika va Yevropa",
+    "Avstraliya va Osiyo"
+   ],
+   "d": 2,
+   "x": "Yevrosiyo nomi ikki so‘zdan tuzilgan: Yevropa + Osiyo."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_17",
+   "t": "choice",
+   "q": "Qaysi materik davlat nomi bilan bir xil ataladi?",
+   "a": "Avstraliya",
+   "w": [
+    "Afrika",
+    "Antarktida",
+    "Yevrosiyo"
+   ],
+   "d": 2,
+   "x": "Avstraliya davlati butun bir materikni egallaydi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_18",
+   "t": "choice",
+   "q": "Qaysi materikda doimiy aholi yo‘q?",
+   "a": "Antarktida",
+   "w": [
+    "Avstraliya",
+    "Afrika",
+    "Janubiy Amerika"
+   ],
+   "d": 2,
+   "x": "Antarktidada faqat ilmiy stansiyalarda vaqtincha ishlaydigan olimlar bo‘ladi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_19",
+   "t": "choice",
+   "q": "Yevropa va Amerika orasida qaysi okean joylashgan?",
+   "a": "Atlantika okeani",
+   "w": [
+    "Hind okeani",
+    "Tinch okeani",
+    "Janubiy okean"
+   ],
+   "d": 2,
+   "x": "Atlantika okeani g‘arbda Amerikani, sharqda Yevropa va Afrikani yuvadi."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_20",
+   "t": "choice",
+   "q": "Antarktidani o‘rab turgan okean qaysi?",
+   "a": "Janubiy okean",
+   "w": [
+    "Shimoliy Muz okeani",
+    "Hind okeani",
+    "Atlantika okeani"
+   ],
+   "d": 2,
+   "x": "Janubiy okean Antarktida atrofidagi sovuq suvlardan iborat."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_21",
+   "t": "tf",
+   "q": "Yevrosiyo ikki dunyo qismidan iborat.",
+   "a": true,
+   "d": 2,
+   "x": "Yevrosiyoda Yevropa va Osiyo dunyo qismlari joylashgan."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_22",
+   "t": "match",
+   "q": "Materikni ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Yevrosiyo",
+     "eng katta materik"
+    ],
+    [
+     "Avstraliya",
+     "eng kichik materik"
+    ],
+    [
+     "Antarktida",
+     "eng sovuq materik"
+    ],
+    [
+     "Afrika",
+     "eng issiq materik"
+    ],
+    [
+     "Janubiy Amerika",
+     "Amazonka daryosi oqadi"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir materikning o‘ziga xos belgisi bor."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_23",
+   "t": "choice",
+   "q": "Dunyodagi eng baland cho‘qqi — Jomolungma qaysi materikda?",
+   "a": "Yevrosiyoda",
+   "w": [
+    "Afrikada",
+    "Avstraliyada",
+    "Antarktidada"
+   ],
+   "d": 3,
+   "x": "Jomolungma (Everest) Osiyodagi Himolay tog‘larida joylashgan."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_24",
+   "t": "choice",
+   "q": "Afrikadagi ulkan issiq cho‘l qaysi?",
+   "a": "Sahroi Kabir",
+   "w": [
+    "Qizilqum",
+    "Qoraqum",
+    "Gobi"
+   ],
+   "d": 3,
+   "x": "Sahroi Kabir Afrikaning shimolida joylashgan, Qizilqum esa O‘zbekistonda."
+  },
+  {
+   "topic": "science_g4.continents",
+   "id": "continents_25",
+   "t": "match",
+   "q": "Okeanni ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Tinch okeani",
+     "eng katta va chuqur"
+    ],
+    [
+     "Shimoliy Muz okeani",
+     "eng kichik"
+    ],
+    [
+     "Janubiy okean",
+     "Antarktidani o‘rab turadi"
+    ],
+    [
+     "Atlantika okeani",
+     "Yevropa va Amerika orasida"
+    ],
+    [
+     "Hind okeani",
+     "Afrika va Avstraliya orasida"
+    ]
+   ],
+   "d": 3,
+   "x": "Okeanlarning joylashuvini globusda kuzatib chiqing."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_1",
+   "t": "choice",
+   "q": "Nechta asosiy ufq tomoni bor?",
+   "a": "4 ta",
+   "w": [
+    "2 ta",
+    "3 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Asosiy tomonlar: shimol, janub, sharq, g‘arb."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_2",
+   "t": "choice",
+   "q": "Ufq tomonlarini aniqlaydigan asbob qaysi?",
+   "a": "Kompas",
+   "w": [
+    "Termometr",
+    "Tarozi",
+    "Soat"
+   ],
+   "d": 1,
+   "x": "Kompas mili magnitlangan, u shimolni ko‘rsatadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_3",
+   "t": "choice",
+   "q": "Kompasning magnitlangan mili qaysi yo‘nalishda turadi?",
+   "a": "Shimol–janub",
+   "w": [
+    "Sharq–g‘arb",
+    "Yuqori–past",
+    "Har safar boshqacha"
+   ],
+   "d": 1,
+   "x": "Mil bir uchi bilan shimolga, ikkinchi uchi bilan janubga qaraydi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_4",
+   "t": "choice",
+   "q": "Ufq nima?",
+   "a": "Osmon yer bilan tutashgandek chiziq",
+   "w": [
+    "Tog‘ning eng baland nuqtasi",
+    "Daryoning qirg‘og‘i",
+    "Yo‘lning chekkasi"
+   ],
+   "d": 1,
+   "x": "Ufq chizig‘iga qancha yursak ham, u uzoqlashib boraveradi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_5",
+   "t": "choice",
+   "q": "Shimol va sharq orasidagi tomon qanday ataladi?",
+   "a": "Shimoli-sharq",
+   "w": [
+    "Janubi-g‘arb",
+    "Shimoli-g‘arb",
+    "Janubi-sharq"
+   ],
+   "d": 1,
+   "x": "Oraliq tomon nomi ikki asosiy tomon nomidan tuziladi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_6",
+   "t": "choice",
+   "q": "Shimolning qarama-qarshi tomoni qaysi?",
+   "a": "Janub",
+   "w": [
+    "Sharq",
+    "G‘arb",
+    "Shimoli-sharq"
+   ],
+   "d": 1,
+   "x": "Shimol va janub — qarama-qarshi tomonlar."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_7",
+   "t": "choice",
+   "q": "Sharqning qarama-qarshi tomoni qaysi?",
+   "a": "G‘arb",
+   "w": [
+    "Janub",
+    "Shimol",
+    "Janubi-sharq"
+   ],
+   "d": 1,
+   "x": "Quyosh sharqdan chiqib, qarama-qarshi tomonga — g‘arbga botadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_8",
+   "t": "choice",
+   "q": "Ertalab Quyosh osmonning qaysi tomonida bo‘ladi?",
+   "a": "Sharqda",
+   "w": [
+    "G‘arbda",
+    "Shimolda",
+    "Janubda"
+   ],
+   "d": 1,
+   "x": "Quyosh ertalab sharq tomondan chiqadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_9",
+   "t": "choice",
+   "q": "Tunda shimolni qaysi yulduz bo‘yicha topish mumkin?",
+   "a": "Qutb yulduzi",
+   "w": [
+    "Quyosh",
+    "Oy",
+    "Mars"
+   ],
+   "d": 1,
+   "x": "Qutb yulduzi doim osmonning shimol tomonida ko‘rinadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_10",
+   "t": "tf",
+   "q": "Kompas mili magnitlangan.",
+   "a": true,
+   "d": 1,
+   "x": "Magnitlangan mil Yerning magnit maydoni ta’sirida shimol–janub bo‘ylab turadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_11",
+   "t": "tf",
+   "q": "Quyosh kechqurun sharqqa botadi.",
+   "a": false,
+   "d": 1,
+   "x": "Quyosh kechqurun g‘arbga botadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_12",
+   "t": "tf",
+   "q": "Shimoli-g‘arb — shimol va g‘arb orasidagi tomon.",
+   "a": true,
+   "d": 1,
+   "x": "Oraliq tomon ikki asosiy tomon orasida bo‘ladi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kompas",
+    "ufq",
+    "tomonlarini",
+    "aniqlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_14",
+   "t": "choice",
+   "q": "Janub va g‘arb orasidagi tomon qanday ataladi?",
+   "a": "Janubi-g‘arb",
+   "w": [
+    "Shimoli-sharq",
+    "Janubi-sharq",
+    "Shimoli-g‘arb"
+   ],
+   "d": 2,
+   "x": "Janub + g‘arb = janubi-g‘arb."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_15",
+   "t": "choice",
+   "q": "Tushda soyangiz qaysi tomonga tushadi?",
+   "a": "Shimolga",
+   "w": [
+    "Janubga",
+    "Sharqqa",
+    "G‘arbga"
+   ],
+   "d": 2,
+   "x": "Bizda tushda Quyosh janubda turadi, soya esa unga qarama-qarshi — shimolga tushadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_16",
+   "t": "choice",
+   "q": "Kompas bilan ishlaganda nimaga e’tibor berish kerak?",
+   "a": "Temir buyumlardan uzoq tutish",
+   "w": [
+    "Uni silkitib turish",
+    "Magnit yoniga qo‘yish",
+    "Suvga botirish"
+   ],
+   "d": 2,
+   "x": "Temir va magnit kompas milini og‘dirib, noto‘g‘ri ko‘rsatishiga sabab bo‘ladi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_17",
+   "t": "tf",
+   "q": "Kompasni magnit yoniga qo‘ysak, u noto‘g‘ri ko‘rsatishi mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "Magnit kompas milini o‘ziga tortib, yo‘nalishni buzadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_18",
+   "t": "match",
+   "q": "Siz shimolga qarab turibsiz. Juftlang",
+   "pairs": [
+    [
+     "Oldingizda",
+     "shimol"
+    ],
+    [
+     "Orqangizda",
+     "janub"
+    ],
+    [
+     "O‘ng qo‘lingiz tomonda",
+     "sharq"
+    ],
+    [
+     "Chap qo‘lingiz tomonda",
+     "g‘arb"
+    ],
+    [
+     "Oldinga va o‘ngga orasida",
+     "shimoli-sharq"
+    ],
+    [
+     "Orqaga va chapga orasida",
+     "janubi-g‘arb"
+    ]
+   ],
+   "d": 2,
+   "x": "Shimolga qaraganda o‘ngda sharq, chapda g‘arb, orqada janub bo‘ladi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_19",
+   "t": "choice",
+   "q": "Kechqurun soyangiz qaysi tomonga tushadi?",
+   "a": "Sharqqa",
+   "w": [
+    "G‘arbga",
+    "Janubga",
+    "Shimolga"
+   ],
+   "d": 3,
+   "x": "Kechqurun Quyosh g‘arbda bo‘ladi, soya esa unga qarama-qarshi — sharqqa tushadi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_20",
+   "t": "choice",
+   "q": "Qutb yulduzi qaysi yulduz turkumida joylashgan?",
+   "a": "Kichik Ayiq",
+   "w": [
+    "Katta Ayiq",
+    "Orion",
+    "Qo‘y"
+   ],
+   "d": 3,
+   "x": "Qutb yulduzi Kichik Ayiq turkumining eng yorqin yulduzi."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_21",
+   "t": "choice",
+   "q": "Kompas birinchi bo‘lib qaysi mamlakatda ixtiro qilingan?",
+   "a": "Xitoyda",
+   "w": [
+    "Avstraliyada",
+    "Braziliyada",
+    "Kanadada"
+   ],
+   "d": 3,
+   "x": "Magnit mil bilan yo‘nalish topishni qadimgi Xitoyda o‘ylab topishgan."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_22",
+   "t": "choice",
+   "q": "Siz shimolga qarab turibsiz. O‘ngga burilsangiz, qaysi tomonga qaraysiz?",
+   "a": "Sharqqa",
+   "w": [
+    "Shimolga",
+    "Janubga",
+    "G‘arbga"
+   ],
+   "d": 2,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: sharqqa."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_23",
+   "t": "choice",
+   "q": "Siz sharqqa qarab turibsiz. O‘ngga burilsangiz, qaysi tomonga qaraysiz?",
+   "a": "Janubga",
+   "w": [
+    "Shimolga",
+    "Sharqqa",
+    "G‘arbga"
+   ],
+   "d": 2,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: janubga."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_24",
+   "t": "choice",
+   "q": "Siz shimolga qarab turibsiz. Chapga burilsangiz, qaysi tomonga qaraysiz?",
+   "a": "G‘arbga",
+   "w": [
+    "Shimolga",
+    "Sharqqa",
+    "Janubga"
+   ],
+   "d": 2,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: g‘arbga."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_25",
+   "t": "choice",
+   "q": "Siz janubga qarab turibsiz. Chapga burilsangiz, qaysi tomonga qaraysiz?",
+   "a": "Sharqqa",
+   "w": [
+    "Shimolga",
+    "Janubga",
+    "G‘arbga"
+   ],
+   "d": 3,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: sharqqa."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_26",
+   "t": "choice",
+   "q": "Siz g‘arbga qarab turibsiz. Orqaga o‘girilsangiz, qaysi tomonga qaraysiz?",
+   "a": "Sharqqa",
+   "w": [
+    "Shimolga",
+    "Janubga",
+    "G‘arbga"
+   ],
+   "d": 2,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: sharqqa."
+  },
+  {
+   "topic": "science_g4.directions",
+   "id": "directions_27",
+   "t": "choice",
+   "q": "Siz sharqqa qarab turibsiz. Ikki marta o‘ngga burilsangiz, qaysi tomonga qaraysiz?",
+   "a": "G‘arbga",
+   "w": [
+    "Shimolga",
+    "Sharqqa",
+    "Janubga"
+   ],
+   "d": 3,
+   "x": "Soat mili bo‘yicha tartib: shimol → sharq → janub → g‘arb. O‘ngga burilish — keyingi tomon, chapga — oldingi tomon, orqaga — qarama-qarshi tomon. Javob: g‘arbga."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_1",
+   "t": "choice",
+   "q": "Qaysi tabiat zonasida yog‘in eng kam?",
+   "a": "Cho‘lda",
+   "w": [
+    "Tog‘da",
+    "Vodiyda",
+    "Adirda"
+   ],
+   "d": 1,
+   "x": "Cho‘lda yil bo‘yi juda kam yomg‘ir yog‘adi, yozda jazirama issiq bo‘ladi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_2",
+   "t": "choice",
+   "q": "Qaysi o‘simlik cho‘lda o‘sadi?",
+   "a": "Yantoq",
+   "w": [
+    "Archa",
+    "Sholi",
+    "Nilufar"
+   ],
+   "d": 1,
+   "x": "Yantoqning uzun ildizi yer ostidagi suvgacha yetib boradi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_3",
+   "t": "choice",
+   "q": "Saksovul qaysi zonada o‘sadi?",
+   "a": "Cho‘lda",
+   "w": [
+    "Baland tog‘da",
+    "Ko‘l tubida",
+    "Muzlikda"
+   ],
+   "d": 1,
+   "x": "Saksovul qumli cho‘llarda o‘sadi va qumni ushlab turadi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_4",
+   "t": "choice",
+   "q": "Qaysi hayvon cho‘lda yashaydi?",
+   "a": "Echkemar",
+   "w": [
+    "Qor qoploni",
+    "Tog‘ echkisi",
+    "Qo‘ng‘ir ayiq"
+   ],
+   "d": 1,
+   "x": "Echkemar — cho‘l issig‘iga moslashgan yirik kaltakesak."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_5",
+   "t": "choice",
+   "q": "Archa o‘rmonlari qaysi zonada uchraydi?",
+   "a": "Tog‘larda",
+   "w": [
+    "Cho‘lda",
+    "Qumliklarda",
+    "Sho‘rxoklarda"
+   ],
+   "d": 1,
+   "x": "Archa tog‘ yonbag‘irlarida o‘sadi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_6",
+   "t": "choice",
+   "q": "Bahorda lola va qizg‘aldoqqa burkanadigan tepaliklar nima deb ataladi?",
+   "a": "Adirlar",
+   "w": [
+    "Cho‘llar",
+    "Muzliklar",
+    "Vohalar"
+   ],
+   "d": 1,
+   "x": "Adirlar tog‘ etagida joylashgan, bahorda ular gilamdek gullaydi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_7",
+   "t": "choice",
+   "q": "Tog‘lar orasidagi keng tekislik nima deb ataladi?",
+   "a": "Vodiy",
+   "w": [
+    "Cho‘l",
+    "Adir",
+    "Cho‘qqi"
+   ],
+   "d": 1,
+   "x": "Masalan, Farg‘ona vodiysi tog‘lar orasida joylashgan."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_8",
+   "t": "choice",
+   "q": "Qaysi hayvon tog‘larda yashaydi?",
+   "a": "Tog‘ echkisi",
+   "w": [
+    "Jayron",
+    "Echkemar",
+    "Qumsichqon"
+   ],
+   "d": 1,
+   "x": "Tog‘ echkisi tik qoyalarda chaqqon yuradi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_9",
+   "t": "tf",
+   "q": "Cho‘lda yozda juda issiq, yog‘in kam bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Cho‘lning asosiy belgisi — issiq va quruqlik."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_10",
+   "t": "tf",
+   "q": "Farg‘ona vodiysi — cho‘l.",
+   "a": false,
+   "d": 1,
+   "x": "Farg‘ona — tog‘lar orasidagi unumdor vodiy."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_11",
+   "t": "tf",
+   "q": "Adirlar bahorda gullarga burkanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bahorda adirlar lola va qizg‘aldoqqa to‘ladi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_12",
+   "t": "tf",
+   "q": "Tog‘larda archa o‘rmonlari o‘sadi.",
+   "a": true,
+   "d": 1,
+   "x": "Archa tog‘larning salqin yonbag‘irlarida o‘sadi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Vodiylarda",
+    "tuproq",
+    "unumdor",
+    "bo‘ladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_14",
+   "t": "choice",
+   "q": "Amudaryo va Sirdaryo oralig‘idagi ulkan cho‘l qaysi?",
+   "a": "Qizilqum",
+   "w": [
+    "Qoraqum",
+    "Sahroi Kabir",
+    "Gobi"
+   ],
+   "d": 2,
+   "x": "Qizilqum — O‘zbekistondagi eng katta cho‘l, u ikki daryo oralig‘ida."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_15",
+   "t": "choice",
+   "q": "O‘zbekistondagi eng katta vodiy qaysi?",
+   "a": "Farg‘ona vodiysi",
+   "w": [
+    "Zarafshon vodiysi",
+    "Surxondaryo vodiysi",
+    "Chirchiq vodiysi"
+   ],
+   "d": 2,
+   "x": "Farg‘ona vodiysi uch tomondan tog‘lar bilan o‘ralgan."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_16",
+   "t": "choice",
+   "q": "Nima uchun vodiylarda bog‘ va dalalar ko‘p?",
+   "a": "Tuproq unumdor, suv ko‘p",
+   "w": [
+    "Yog‘in umuman yo‘q",
+    "Yil bo‘yi qor yotadi",
+    "Tuproq qumli"
+   ],
+   "d": 2,
+   "x": "Tog‘dan tushgan daryolar vodiyni sug‘oradi, tuproq esa unumdor."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_17",
+   "t": "choice",
+   "q": "O‘zbekistonning eng baland nuqtasi qaysi?",
+   "a": "Hazrati Sulton cho‘qqisi",
+   "w": [
+    "Jomolungma",
+    "Katta Chimyon",
+    "Elbrus"
+   ],
+   "d": 2,
+   "x": "Hazrati Sulton cho‘qqisi Surxondaryo viloyatidagi Hisor tizmasida joylashgan."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_18",
+   "t": "choice",
+   "q": "O‘zbekiston iqlimi qanday?",
+   "a": "Keskin kontinental",
+   "w": [
+    "Tropik va nam",
+    "Qutbiy va sovuq",
+    "Yil bo‘yi bir xil iliq"
+   ],
+   "d": 2,
+   "x": "Yozi issiq va quruq, qishi sovuq — bu keskin kontinental iqlim."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_19",
+   "t": "choice",
+   "q": "Tog‘da yuqoriga ko‘tarilgan sari havo qanday bo‘ladi?",
+   "a": "Sovuqroq",
+   "w": [
+    "Issiqroq",
+    "O‘zgarmaydi",
+    "Quruqroq va issiqroq"
+   ],
+   "d": 2,
+   "x": "Balandlik oshgan sari havo soviydi, shuning uchun cho‘qqilarda yozda ham qor bo‘ladi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_20",
+   "t": "choice",
+   "q": "Adirlarda yozda o‘tlar nima uchun sarg‘ayib quriydi?",
+   "a": "Issiq va yog‘in kam",
+   "w": [
+    "Qor ko‘p yog‘adi",
+    "Suv toshqini bo‘ladi",
+    "Qattiq sovuq bo‘ladi"
+   ],
+   "d": 2,
+   "x": "Yozda adirlarda yomg‘ir deyarli yog‘maydi, issiq esa kuchli."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_21",
+   "t": "tf",
+   "q": "Jayron baland tog‘ cho‘qqilarida yashaydi.",
+   "a": false,
+   "d": 2,
+   "x": "Jayron cho‘l va dashtlarda yashaydi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_22",
+   "t": "match",
+   "q": "Tabiat zonasini belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Cho‘l",
+     "saksovul va yantoq"
+    ],
+    [
+     "Adir",
+     "bahorda lolazor"
+    ],
+    [
+     "Tog‘",
+     "archa va qor qoploni"
+    ],
+    [
+     "Vodiy",
+     "unumdor tuproq, bog‘lar"
+    ],
+    [
+     "To‘qay",
+     "daryo bo‘yidagi chakalakzor"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir tabiat zonasining o‘z o‘simlik va hayvonlari bor."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_23",
+   "t": "choice",
+   "q": "Adirlarda qaysi dehqonchilik turi keng tarqalgan?",
+   "a": "Lalmikor dehqonchilik",
+   "w": [
+    "Sholikorlik",
+    "Baliqchilik",
+    "Choy yetishtirish"
+   ],
+   "d": 3,
+   "x": "Lalmikor yerlarda bug‘doy sug‘orilmaydi, u yomg‘ir suvi hisobiga o‘sadi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_24",
+   "t": "choice",
+   "q": "Daryo bo‘yidagi to‘qaylarda qaysi kamyob hayvon yashaydi?",
+   "a": "Buxoro bug‘usi",
+   "w": [
+    "Qor qoploni",
+    "Tog‘ echkisi",
+    "Echkemar"
+   ],
+   "d": 3,
+   "x": "Buxoro bug‘usi Amudaryo bo‘yidagi to‘qay o‘rmonlarida yashaydi."
+  },
+  {
+   "topic": "science_g4.zones",
+   "id": "zones_25",
+   "t": "choice",
+   "q": "Cho‘lda suv manbai atrofidagi yashil, obod joy nima deyiladi?",
+   "a": "Voha",
+   "w": [
+    "Adir",
+    "Cho‘qqi",
+    "Muzlik"
+   ],
+   "d": 3,
+   "x": "Masalan, Buxoro va Xorazm vohalari daryo suvi bilan obod bo‘lgan."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_1",
+   "t": "choice",
+   "q": "Amudaryo va Sirdaryo qayerga quyilgan?",
+   "a": "Orol dengiziga",
+   "w": [
+    "Kaspiy dengiziga",
+    "Qora dengizga",
+    "Hind okeaniga"
+   ],
+   "d": 1,
+   "x": "Ikkala daryo ham Orol dengiziga quyilgan."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_2",
+   "t": "choice",
+   "q": "Daryo boshlanadigan joy qanday ataladi?",
+   "a": "Manba",
+   "w": [
+    "Mansab",
+    "Irmoq",
+    "O‘zan"
+   ],
+   "d": 1,
+   "x": "Manba — daryoning boshlanishi, ko‘pincha tog‘dagi buloq yoki muzlik."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_3",
+   "t": "choice",
+   "q": "Katta daryoga qo‘shiladigan kichik daryo nima deyiladi?",
+   "a": "Irmoq",
+   "w": [
+    "Manba",
+    "Mansab",
+    "Kanal"
+   ],
+   "d": 1,
+   "x": "Irmoqlar katta daryoga qo‘shilib, uni sersuv qiladi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_4",
+   "t": "choice",
+   "q": "Tog‘ daryolari asosan nimadan to‘yinadi?",
+   "a": "Qor va muzlik suvlaridan",
+   "w": [
+    "Dengiz suvidan",
+    "Quduq suvidan",
+    "Kanal suvidan"
+   ],
+   "d": 1,
+   "x": "Tog‘dagi qor va muzliklar erib, daryolarga suv beradi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_5",
+   "t": "choice",
+   "q": "Daryo suvidan qanday foydalaniladi?",
+   "a": "Ekinlarni sug‘orishda",
+   "w": [
+    "Tosh eritishda",
+    "Temir yasashda",
+    "Qum ishlab chiqarishda"
+   ],
+   "d": 1,
+   "x": "Daryo suvi kanal va ariqlar orqali dalalarga boradi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_6",
+   "t": "choice",
+   "q": "Odamlar qazib chiqargan sun’iy suv yo‘li nima deyiladi?",
+   "a": "Kanal",
+   "w": [
+    "Daryo",
+    "Irmoq",
+    "Buloq"
+   ],
+   "d": 1,
+   "x": "Kanal daryo suvini uzoqdagi dalalarga olib boradi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_7",
+   "t": "choice",
+   "q": "Yer ostidan o‘z-o‘zidan chiqib turadigan suv nima?",
+   "a": "Buloq",
+   "w": [
+    "Kanal",
+    "Suv ombori",
+    "Dengiz"
+   ],
+   "d": 1,
+   "x": "Buloq suvi yer ostidan tabiiy ravishda chiqadi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_8",
+   "t": "choice",
+   "q": "Suv ombori nima uchun quriladi?",
+   "a": "Suvni to‘plab saqlash uchun",
+   "w": [
+    "Daryoni quritish uchun",
+    "Qum to‘plash uchun",
+    "Baliqlarni haydash uchun"
+   ],
+   "d": 1,
+   "x": "Suv omborida to‘plangan suv yozda dalalarni sug‘orishga ishlatiladi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_9",
+   "t": "tf",
+   "q": "Irmoq — daryoning boshlanish joyi.",
+   "a": false,
+   "d": 1,
+   "x": "Boshlanish joyi — manba, irmoq esa daryoga qo‘shiladigan kichik daryo."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_10",
+   "t": "tf",
+   "q": "Suv baland joydan past joyga qarab oqadi.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun daryolar tog‘dan tekislikka qarab oqadi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_11",
+   "t": "tf",
+   "q": "Ariq va daryolarga chiqindi tashlash mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Chiqindi suvni ifloslaydi, bu suvni odam va hayvonlar ichadi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Daryolar",
+    "tog‘lardan",
+    "boshlanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_13",
+   "t": "choice",
+   "q": "Daryoning boshqa daryo, ko‘l yoki dengizga quyiladigan joyi?",
+   "a": "Mansab",
+   "w": [
+    "Manba",
+    "Irmoq",
+    "Buloq"
+   ],
+   "d": 2,
+   "x": "Mansab — daryoning oxiri, u quyiladigan joy."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_14",
+   "t": "choice",
+   "q": "Daryo suvi oqadigan chuqurlik nima deyiladi?",
+   "a": "O‘zan",
+   "w": [
+    "Manba",
+    "Qirg‘oq",
+    "Irmoq"
+   ],
+   "d": 2,
+   "x": "O‘zan — daryo suvi oqadigan joy, qirg‘oq esa uning cheti."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_15",
+   "t": "choice",
+   "q": "O‘rta Osiyodagi eng sersuv daryo qaysi?",
+   "a": "Amudaryo",
+   "w": [
+    "Chirchiq",
+    "Zarafshon",
+    "Qashqadaryo"
+   ],
+   "d": 2,
+   "x": "Amudaryoda suv eng ko‘p oqadi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_16",
+   "t": "choice",
+   "q": "Chorvoq suv ombori qaysi viloyatda?",
+   "a": "Toshkent viloyatida",
+   "w": [
+    "Xorazm viloyatida",
+    "Buxoro viloyatida",
+    "Navoiy viloyatida"
+   ],
+   "d": 2,
+   "x": "Chorvoq suv ombori Toshkent viloyatining tog‘li qismida joylashgan."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_17",
+   "t": "choice",
+   "q": "Qaysi daryo Samarqand va Buxoro yerlarini sug‘oradi?",
+   "a": "Zarafshon",
+   "w": [
+    "Chirchiq",
+    "Norin",
+    "Surxondaryo"
+   ],
+   "d": 2,
+   "x": "Zarafshon — Samarqand va Buxoro vohalarining asosiy suv manbai."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_18",
+   "t": "match",
+   "q": "Daryoni o‘ziga mos ma’lumot bilan juftlang",
+   "pairs": [
+    [
+     "Amudaryo",
+     "O‘rta Osiyoning eng sersuv daryosi"
+    ],
+    [
+     "Sirdaryo",
+     "Norin va Qoradaryodan hosil bo‘ladi"
+    ],
+    [
+     "Zarafshon",
+     "Samarqand va Buxoroni sug‘oradi"
+    ],
+    [
+     "Chirchiq",
+     "Chorvoq suv omboridan boshlanadi"
+    ],
+    [
+     "Surxondaryo",
+     "Amudaryoga quyiladi"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir daryoning o‘z yo‘li va ahamiyati bor."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_19",
+   "t": "choice",
+   "q": "Sirdaryo qaysi ikki daryoning qo‘shilishidan hosil bo‘ladi?",
+   "a": "Norin va Qoradaryo",
+   "w": [
+    "Panj va Vaxsh",
+    "Chotqol va Pskom",
+    "Chirchiq va Ohangaron"
+   ],
+   "d": 3,
+   "x": "Norin va Qoradaryo Farg‘ona vodiysida qo‘shilib, Sirdaryoni hosil qiladi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_20",
+   "t": "choice",
+   "q": "Amudaryo qaysi ikki daryoning qo‘shilishidan hosil bo‘ladi?",
+   "a": "Panj va Vaxsh",
+   "w": [
+    "Norin va Qoradaryo",
+    "Chotqol va Pskom",
+    "Zarafshon va Surxondaryo"
+   ],
+   "d": 3,
+   "x": "Tog‘lardan tushgan Panj va Vaxsh daryolari qo‘shilib, Amudaryoni hosil qiladi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_21",
+   "t": "choice",
+   "q": "Tog‘ daryolari qaysi paytda eng sersuv bo‘ladi?",
+   "a": "Bahor oxiri va yozda",
+   "w": [
+    "Qish o‘rtasida",
+    "Kech kuzda",
+    "Yanvarda"
+   ],
+   "d": 3,
+   "x": "Bahor oxiri va yozda tog‘dagi qor va muzliklar tez eriydi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_22",
+   "t": "choice",
+   "q": "Farg‘ona vodiysidagi xalq hashari bilan qurilgan mashhur kanal qaysi?",
+   "a": "Katta Farg‘ona kanali",
+   "w": [
+    "Suvaysh kanali",
+    "Panama kanali",
+    "Qarshi kanali"
+   ],
+   "d": 3,
+   "x": "Katta Farg‘ona kanali 1939-yilda qurilgan."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_23",
+   "t": "choice",
+   "q": "Orol dengizi aslida nima?",
+   "a": "Katta sho‘r ko‘l",
+   "w": [
+    "Okeanning bir qismi",
+    "Tog‘ daryosi",
+    "Sun’iy kanal"
+   ],
+   "d": 3,
+   "x": "Orol hech qaysi okeanga tutashmaydi, shuning uchun u ko‘l hisoblanadi."
+  },
+  {
+   "topic": "science_g4.rivers",
+   "id": "rivers_24",
+   "t": "tf",
+   "q": "Chirchiq — Sirdaryoning irmog‘i.",
+   "a": true,
+   "d": 3,
+   "x": "Chirchiq daryosi Sirdaryoga quyiladi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_1",
+   "t": "choice",
+   "q": "Yer bag‘ridan qazib olinadigan tabiiy boyliklar nima deyiladi?",
+   "a": "Foydali qazilmalar",
+   "w": [
+    "O‘simliklar",
+    "Tuproqlar",
+    "Buloqlar"
+   ],
+   "d": 1,
+   "x": "Neft, gaz, ko‘mir, oltin, mis — foydali qazilmalar."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_2",
+   "t": "choice",
+   "q": "Foydali qazilma to‘plangan joy nima deyiladi?",
+   "a": "Kon",
+   "w": [
+    "Zavod",
+    "Bozor",
+    "Ombor"
+   ],
+   "d": 1,
+   "x": "Masalan, Muruntov — oltin koni."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_3",
+   "t": "choice",
+   "q": "Qaysi biri yonuvchi foydali qazilma?",
+   "a": "Ko‘mir",
+   "w": [
+    "Marmar",
+    "Qum",
+    "Mis"
+   ],
+   "d": 1,
+   "x": "Ko‘mir yonadi va issiqlik beradi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_4",
+   "t": "choice",
+   "q": "Qaysi biri metall?",
+   "a": "Mis",
+   "w": [
+    "Neft",
+    "Qum",
+    "Ko‘mir"
+   ],
+   "d": 1,
+   "x": "Mis — qizg‘ish rangli metall."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_5",
+   "t": "choice",
+   "q": "Elektr simlari ko‘pincha qaysi metalldan yasaladi?",
+   "a": "Misdan",
+   "w": [
+    "Oltindan",
+    "Ko‘mirdan",
+    "Tuzdan"
+   ],
+   "d": 1,
+   "x": "Mis elektr tokini yaxshi o‘tkazadi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_6",
+   "t": "choice",
+   "q": "Uylarda ovqat pishirish va isitish uchun qaysi qazilma yoqiladi?",
+   "a": "Tabiiy gaz",
+   "w": [
+    "Marmar",
+    "Mis",
+    "Qum"
+   ],
+   "d": 1,
+   "x": "Tabiiy gaz quvurlar orqali uylarga keladi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_7",
+   "t": "choice",
+   "q": "Benzin qaysi qazilmadan olinadi?",
+   "a": "Neftdan",
+   "w": [
+    "Ko‘mirdan",
+    "Misdan",
+    "Qumdan"
+   ],
+   "d": 1,
+   "x": "Neft zavodlarda qayta ishlanib, benzin va boshqa yoqilg‘ilar olinadi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_8",
+   "t": "choice",
+   "q": "Zargarlik buyumlari ko‘pincha nimadan yasaladi?",
+   "a": "Oltin va kumushdan",
+   "w": [
+    "Ko‘mir va qumdan",
+    "Neft va gazdan",
+    "Tuz va ohaktoshdan"
+   ],
+   "d": 1,
+   "x": "Oltin va kumush chiroyli yaltiraydi va zanglamaydi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_9",
+   "t": "choice",
+   "q": "Qaysi qazilma gaz holatida?",
+   "a": "Tabiiy gaz",
+   "w": [
+    "Ko‘mir",
+    "Neft",
+    "Marmar"
+   ],
+   "d": 1,
+   "x": "Nomining o‘zi aytib turibdi — tabiiy gaz."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_10",
+   "t": "tf",
+   "q": "Oltin — yonuvchi qazilma.",
+   "a": false,
+   "d": 1,
+   "x": "Oltin — qimmatbaho metall, u yonmaydi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_11",
+   "t": "tf",
+   "q": "Ko‘mir yoqilganda issiqlik ajraladi.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun ko‘mir yoqilg‘i sifatida ishlatiladi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_12",
+   "t": "tf",
+   "q": "Foydali qazilmalar tez tiklanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Ular millionlab yillar davomida hosil bo‘lgan, qayta tiklanmaydi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Muruntovda",
+    "oltin",
+    "qazib",
+    "olinadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_14",
+   "t": "choice",
+   "q": "Oyna (shisha) asosan qaysi xomashyodan tayyorlanadi?",
+   "a": "Qumdan",
+   "w": [
+    "Ko‘mirdan",
+    "Neftdan",
+    "Oltindan"
+   ],
+   "d": 2,
+   "x": "Shisha maxsus qumni juda yuqori haroratda eritib olinadi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_15",
+   "t": "choice",
+   "q": "Muruntov koni qaysi qazilma bilan mashhur?",
+   "a": "Oltin",
+   "w": [
+    "Ko‘mir",
+    "Neft",
+    "Tuz"
+   ],
+   "d": 2,
+   "x": "Muruntov — Qizilqumdagi dunyoga mashhur oltin koni."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_16",
+   "t": "choice",
+   "q": "Angren shahri yaqinida qaysi qazilma qazib olinadi?",
+   "a": "Ko‘mir",
+   "w": [
+    "Oltin",
+    "Marmar",
+    "Neft"
+   ],
+   "d": 2,
+   "x": "Angren ko‘mir koni Toshkent viloyatida joylashgan."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_17",
+   "t": "choice",
+   "q": "Gazli shahri nomi qaysi qazilma bilan bog‘liq?",
+   "a": "Tabiiy gaz",
+   "w": [
+    "Oltin",
+    "Mis",
+    "Tuz"
+   ],
+   "d": 2,
+   "x": "Buxoro viloyatidagi Gazli shahri gaz koni yonida qurilgan."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_18",
+   "t": "choice",
+   "q": "Nima uchun foydali qazilmalarni tejash kerak?",
+   "a": "Ular tiklanmaydi",
+   "w": [
+    "Ular juda yengil",
+    "Ular tez o‘sadi",
+    "Ular har yili ko‘payadi"
+   ],
+   "d": 2,
+   "x": "Tugagan qazilma qayta paydo bo‘lmaydi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_19",
+   "t": "choice",
+   "q": "Neft qanday holatdagi qazilma?",
+   "a": "Suyuq",
+   "w": [
+    "Qattiq",
+    "Gaz",
+    "Kukun"
+   ],
+   "d": 2,
+   "x": "Neft — quyuq, qora rangli suyuqlik."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_20",
+   "t": "choice",
+   "q": "Foydali qazilmalarni izlab topadigan mutaxassis kim?",
+   "a": "Geolog",
+   "w": [
+    "Shifokor",
+    "Oshpaz",
+    "Uchuvchi"
+   ],
+   "d": 2,
+   "x": "Geologlar yer qatlamlarini o‘rganib, konlarni topadi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_21",
+   "t": "match",
+   "q": "Qazilmani ishlatilishi bilan juftlang",
+   "pairs": [
+    [
+     "Neft",
+     "benzin olinadi"
+    ],
+    [
+     "Mis",
+     "elektr simlari"
+    ],
+    [
+     "Oltin",
+     "zargarlik buyumlari"
+    ],
+    [
+     "Qum",
+     "shisha tayyorlash"
+    ],
+    [
+     "Tabiiy gaz",
+     "uyni isitish"
+    ],
+    [
+     "Marmar",
+     "binolarni bezash"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir qazilma o‘z sohasida ishlatiladi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_22",
+   "t": "choice",
+   "q": "Olmaliq kon-metallurgiya kombinati asosan qaysi metallni ishlab chiqaradi?",
+   "a": "Mis",
+   "w": [
+    "Temir",
+    "Qalay",
+    "Platina"
+   ],
+   "d": 3,
+   "x": "Olmaliq — O‘zbekistonning asosiy mis ishlab chiqaruvchi korxonasi."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_23",
+   "t": "choice",
+   "q": "Sho‘rtan va Muborak konlarida nima qazib olinadi?",
+   "a": "Tabiiy gaz",
+   "w": [
+    "Oltin",
+    "Ko‘mir",
+    "Marmar"
+   ],
+   "d": 3,
+   "x": "Qashqadaryo viloyatidagi bu konlar gazi bilan mashhur."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_24",
+   "t": "choice",
+   "q": "Ko‘mir va neft nimalarning qoldiqlaridan hosil bo‘lgan?",
+   "a": "Qadimgi o‘simlik va jonivorlar",
+   "w": [
+    "Muzlagan suv",
+    "Quyosh nuri",
+    "Oddiy qum"
+   ],
+   "d": 3,
+   "x": "Ular millionlab yillar davomida yer ostida o‘zgarib hosil bo‘lgan."
+  },
+  {
+   "topic": "science_g4.minerals",
+   "id": "minerals_25",
+   "t": "match",
+   "q": "Kon yoki shaharni qazilma bilan juftlang",
+   "pairs": [
+    [
+     "Muruntov",
+     "oltin"
+    ],
+    [
+     "Angren",
+     "ko‘mir"
+    ],
+    [
+     "Olmaliq",
+     "mis"
+    ],
+    [
+     "Gazli",
+     "tabiiy gaz"
+    ],
+    [
+     "G‘ozg‘on",
+     "marmar"
+    ]
+   ],
+   "d": 3,
+   "x": "O‘zbekiston foydali qazilmalarga boy."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_1",
+   "t": "choice",
+   "q": "Qaysi so‘z jismni bildiradi?",
+   "a": "Qoshiq",
+   "w": [
+    "Temir",
+    "Kumush",
+    "Yog‘och"
+   ],
+   "d": 1,
+   "x": "Qoshiq — jism, temir, kumush va yog‘och esa moddalar."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_2",
+   "t": "choice",
+   "q": "Qaysi so‘z moddani bildiradi?",
+   "a": "Plastmassa",
+   "w": [
+    "Chelak",
+    "Tugma",
+    "Qopqoq"
+   ],
+   "d": 1,
+   "x": "Plastmassa — modda, undan chelak, tugma va qopqoq yasaladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_3",
+   "t": "choice",
+   "q": "Mix qaysi moddadan yasaladi?",
+   "a": "Temirdan",
+   "w": [
+    "Shishadan",
+    "Qog‘ozdan",
+    "Rezinadan"
+   ],
+   "d": 1,
+   "x": "Mix — temirdan yasalgan jism."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_4",
+   "t": "choice",
+   "q": "Qaysi modda qattiq holatda?",
+   "a": "Tosh",
+   "w": [
+    "Sut",
+    "Havo",
+    "Bug‘"
+   ],
+   "d": 1,
+   "x": "Toshning shakli va hajmi saqlanadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_5",
+   "t": "choice",
+   "q": "Qaysi modda suyuq holatda?",
+   "a": "Sut",
+   "w": [
+    "Muz",
+    "Qum",
+    "Havo"
+   ],
+   "d": 1,
+   "x": "Sut oqadi va idish shaklini oladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_6",
+   "t": "choice",
+   "q": "Qaysi modda gaz holatida?",
+   "a": "Havo",
+   "w": [
+    "Suv",
+    "Tuz",
+    "Temir"
+   ],
+   "d": 1,
+   "x": "Havo xonaning butun hajmini egallaydi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_7",
+   "t": "choice",
+   "q": "Sharbatni stakandan kosaga quysak, uning shakli nima bo‘ladi?",
+   "a": "Kosa shaklini oladi",
+   "w": [
+    "Stakan shaklida qoladi",
+    "Shar shakliga kiradi",
+    "Qotib qoladi"
+   ],
+   "d": 1,
+   "x": "Suyuqlik o‘zi quyilgan idish shaklini oladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_8",
+   "t": "choice",
+   "q": "Qaysi modda suvda eriydi?",
+   "a": "Shakar",
+   "w": [
+    "Qum",
+    "Bo‘r",
+    "Tosh"
+   ],
+   "d": 1,
+   "x": "Shakar suvda erib, ko‘rinmay qoladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_9",
+   "t": "choice",
+   "q": "Qaysi modda suvda erimaydi?",
+   "a": "Qum",
+   "w": [
+    "Tuz",
+    "Shakar",
+    "Soda"
+   ],
+   "d": 1,
+   "x": "Qum suvga solinsa, idish tubiga cho‘kadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_10",
+   "t": "choice",
+   "q": "Qaysi xossa qattiq jismlarga xos?",
+   "a": "Shaklini saqlaydi",
+   "w": [
+    "Oqadi",
+    "Idish shaklini oladi",
+    "Butun xonaga tarqaladi"
+   ],
+   "d": 1,
+   "x": "Qattiq jism tashqi kuch bo‘lmasa, shaklini o‘zgartirmaydi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_11",
+   "t": "tf",
+   "q": "Suyuqlik idish shaklini oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Suv stakanda stakan, kosada kosa shaklida bo‘ladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_12",
+   "t": "tf",
+   "q": "Qattiq jismning shakli o‘z-o‘zidan o‘zgarib turadi.",
+   "a": false,
+   "d": 1,
+   "x": "Qattiq jism o‘z shaklini saqlaydi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_13",
+   "t": "tf",
+   "q": "Havo — gaz holatidagi modda.",
+   "a": true,
+   "d": 1,
+   "x": "Havo gazlardan iborat, u butun hajmni egallaydi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Havo",
+    "gaz",
+    "holatida",
+    "bo‘ladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_15",
+   "t": "choice",
+   "q": "Isitilganda jismlar bilan odatda nima bo‘ladi?",
+   "a": "Kengayadi",
+   "w": [
+    "Torayadi",
+    "Yo‘qolib ketadi",
+    "Og‘irlashadi"
+   ],
+   "d": 2,
+   "x": "Qizdirilgan jism biroz kattalashadi — kengayadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_16",
+   "t": "choice",
+   "q": "Termometrdagi suyuqlik isiganda nima uchun ko‘tariladi?",
+   "a": "Kengayadi",
+   "w": [
+    "Bug‘lanadi",
+    "Qotadi",
+    "Muzlaydi"
+   ],
+   "d": 2,
+   "x": "Suyuqlik isiganda kengayib, naycha bo‘ylab ko‘tariladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_17",
+   "t": "choice",
+   "q": "Gazni qanday idishda saqlash mumkin?",
+   "a": "Yopiq idishda",
+   "w": [
+    "Ochiq likopchada",
+    "Savatda",
+    "To‘rda"
+   ],
+   "d": 2,
+   "x": "Gaz butun hajmni egallaydi va ochiq idishdan tarqalib ketadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_18",
+   "t": "choice",
+   "q": "Bir xil moddadan yasalgan jismlar guruhi qaysi?",
+   "a": "Daftar, kitob, gazeta",
+   "w": [
+    "Stol, stakan, qoshiq",
+    "Muz, bug‘, tosh",
+    "Olma, qalam, sut"
+   ],
+   "d": 2,
+   "x": "Daftar, kitob va gazeta qog‘ozdan tayyorlanadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_19",
+   "t": "choice",
+   "q": "Choyga solingan shakar ko‘rinmay qolsa, u qayerga ketadi?",
+   "a": "Suvda eriydi",
+   "w": [
+    "Yo‘qolib ketadi",
+    "Bug‘lanadi",
+    "Havoga uchadi"
+   ],
+   "d": 2,
+   "x": "Shakar erib, suv bilan aralashib ketadi — choy shirin bo‘ladi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_20",
+   "t": "tf",
+   "q": "Sovitilganda jismlar kengayadi.",
+   "a": false,
+   "d": 2,
+   "x": "Sovitilganda jismlar torayadi, isitilganda kengayadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_21",
+   "t": "tf",
+   "q": "Gazning o‘ziga xos doimiy shakli yo‘q.",
+   "a": true,
+   "d": 2,
+   "x": "Gaz qaysi idishda bo‘lsa, o‘sha idishni to‘liq egallaydi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_22",
+   "t": "match",
+   "q": "Jismni moddasi bilan juftlang",
+   "pairs": [
+    [
+     "Mix",
+     "temir"
+    ],
+    [
+     "Deraza oynasi",
+     "shisha"
+    ],
+    [
+     "Daftar",
+     "qog‘oz"
+    ],
+    [
+     "Stol",
+     "yog‘och"
+    ],
+    [
+     "Koptok",
+     "rezina"
+    ],
+    [
+     "Uzuk",
+     "oltin"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir jism biror moddadan yasalgan."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_23",
+   "t": "choice",
+   "q": "Nima uchun yozda elektr simlari salqiroq osilib turadi?",
+   "a": "Issiqda kengayib uzayadi",
+   "w": [
+    "Shamol cho‘zadi",
+    "Qushlar tortadi",
+    "Ular eriydi"
+   ],
+   "d": 3,
+   "x": "Issiqda sim kengayib biroz uzayadi, qishda esa qisqarib taranglashadi."
+  },
+  {
+   "topic": "science_g4.matter",
+   "id": "matter_24",
+   "t": "choice",
+   "q": "Temir yo‘l relslari orasida nima uchun kichik tirqish qoldiriladi?",
+   "a": "Issiqda kengayishi uchun",
+   "w": [
+    "Suv oqishi uchun",
+    "Chiroyli bo‘lishi uchun",
+    "Poyezd sekinlashishi uchun"
+   ],
+   "d": 3,
+   "x": "Yozda relslar kengayadi, tirqish bo‘lmasa, ular egilib qolishi mumkin."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_1",
+   "t": "choice",
+   "q": "Baliqlar qaysi muhitda yashaydi?",
+   "a": "Suv muhitida",
+   "w": [
+    "Tuproq muhitida",
+    "Quruqlik-havo muhitida",
+    "Qum ichida"
+   ],
+   "d": 1,
+   "x": "Baliqlar faqat suvda yashay oladi.",
+   "e": "🐟"
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_2",
+   "t": "choice",
+   "q": "Yomg‘ir chuvalchangi qaysi muhitda yashaydi?",
+   "a": "Tuproqda",
+   "w": [
+    "Suvda",
+    "Havoda",
+    "Daraxt shoxida"
+   ],
+   "d": 1,
+   "x": "Yomg‘ir chuvalchangi tuproqda yo‘l ochib yashaydi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_3",
+   "t": "choice",
+   "q": "Burgut qaysi muhitda yashaydi?",
+   "a": "Quruqlik-havo muhitida",
+   "w": [
+    "Suv muhitida",
+    "Tuproq muhitida",
+    "Muz ostida"
+   ],
+   "d": 1,
+   "x": "Burgut havoda uchadi, uyasini qoyalarda quradi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_4",
+   "t": "choice",
+   "q": "Baliq qaysi a’zo bilan nafas oladi?",
+   "a": "Jabra bilan",
+   "w": [
+    "O‘pka bilan",
+    "Qanot bilan",
+    "Dum bilan"
+   ],
+   "d": 1,
+   "x": "Jabralar suvdagi kislorodni o‘zlashtiradi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_5",
+   "t": "choice",
+   "q": "O‘rdak oyog‘idagi parda nima uchun kerak?",
+   "a": "Suzish uchun",
+   "w": [
+    "Uchish uchun",
+    "Yer kovlash uchun",
+    "Isinish uchun"
+   ],
+   "d": 1,
+   "x": "Parda eshkakdek suvni itarib, o‘rdakka suzishga yordam beradi.",
+   "e": "🦆"
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_6",
+   "t": "choice",
+   "q": "Qaysi hayvon suvda ham, quruqlikda ham yashaydi?",
+   "a": "Baqa",
+   "w": [
+    "Laqqa",
+    "Chumchuq",
+    "Tulki"
+   ],
+   "d": 1,
+   "x": "Baqa suvda tuxum qo‘yadi, katta bo‘lgach quruqlikka ham chiqadi.",
+   "e": "🐸"
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_7",
+   "t": "choice",
+   "q": "Qaysi o‘simlik suvda o‘sadi?",
+   "a": "Nilufar",
+   "w": [
+    "Saksovul",
+    "Yantoq",
+    "Archa"
+   ],
+   "d": 1,
+   "x": "Nilufarning barglari suv yuzasida suzib turadi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_8",
+   "t": "choice",
+   "q": "Ko‘rsichqonning oldingi oyoqlari nimaga moslashgan?",
+   "a": "Yer kovlashga",
+   "w": [
+    "Suzishga",
+    "Uchishga",
+    "Daraxtga chiqishga"
+   ],
+   "d": 1,
+   "x": "Ko‘rsichqonning kurakdek keng oyoqlari tuproqni kovlaydi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_9",
+   "t": "tf",
+   "q": "Baqa suvda ham, quruqlikda ham yashay oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Baqa — suvda hamda quruqlikda yashovchi hayvon."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_10",
+   "t": "tf",
+   "q": "Tuproq ichida yorug‘lik ko‘p bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Tuproq ichida qorong‘i, Quyosh nuri u yerga yetib bormaydi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_11",
+   "t": "tf",
+   "q": "Har bir organizm o‘z yashash muhitiga moslashgan.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, baliq suvga, ko‘rsichqon tuproqqa moslashgan."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Baliqlar",
+    "suvda",
+    "jabra",
+    "bilan",
+    "nafas",
+    "oladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_13",
+   "t": "choice",
+   "q": "Kit qanday nafas oladi?",
+   "a": "O‘pka bilan, havodan",
+   "w": [
+    "Jabra bilan",
+    "Teri bilan",
+    "Nafas olmaydi"
+   ],
+   "d": 2,
+   "x": "Kit — sut emizuvchi, u suv yuzasiga chiqib havo oladi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_14",
+   "t": "choice",
+   "q": "Delfin qaysi hayvonlar guruhiga kiradi?",
+   "a": "Sut emizuvchilar",
+   "w": [
+    "Baliqlar",
+    "Qushlar",
+    "Hasharotlar"
+   ],
+   "d": 2,
+   "x": "Delfin bolasini sut bilan boqadi va o‘pka bilan nafas oladi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_15",
+   "t": "choice",
+   "q": "Yomg‘ir chuvalchangi tuproqqa qanday foyda keltiradi?",
+   "a": "Tuproqni yumshatadi",
+   "w": [
+    "Tuproqni quritadi",
+    "Tuproqni zaharlaydi",
+    "Ildizlarni kemiradi"
+   ],
+   "d": 2,
+   "x": "Chuvalchang yo‘llari orqali tuproqqa havo va suv kiradi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_16",
+   "t": "choice",
+   "q": "Baliq tanasining suyri shakli nima uchun kerak?",
+   "a": "Suvda oson suzish uchun",
+   "w": [
+    "Uchish uchun",
+    "Yer kovlash uchun",
+    "Isinish uchun"
+   ],
+   "d": 2,
+   "x": "Suyri tana suvni oson yorib o‘tadi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_17",
+   "t": "choice",
+   "q": "Tuyaning o‘rkachida nima to‘planadi?",
+   "a": "Yog‘",
+   "w": [
+    "Suv",
+    "Havo",
+    "Qum"
+   ],
+   "d": 2,
+   "x": "O‘rkachdagi yog‘ zaxirasi tuyaga uzoq vaqt ovqatsiz yurishga yordam beradi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_18",
+   "t": "choice",
+   "q": "Oq ayiqni sovuqdan nima himoya qiladi?",
+   "a": "Qalin mo‘yna va yog‘ qatlami",
+   "w": [
+    "Qanotlari",
+    "Tangachalari",
+    "Uzun dumi"
+   ],
+   "d": 2,
+   "x": "Qalin mo‘yna va teri ostidagi yog‘ issiqlikni saqlaydi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_19",
+   "t": "tf",
+   "q": "Kit — baliq.",
+   "a": false,
+   "d": 2,
+   "x": "Kit — sut emizuvchi hayvon, u suvda yashasa ham baliq emas."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_20",
+   "t": "match",
+   "q": "Organizmni moslashuvi bilan juftlang",
+   "pairs": [
+    [
+     "Baliq",
+     "jabra va suzgich qanotlar"
+    ],
+    [
+     "Ko‘rsichqon",
+     "kurakdek oldingi oyoqlar"
+    ],
+    [
+     "O‘rdak",
+     "oyoqdagi suzgich parda"
+    ],
+    [
+     "Tuya",
+     "o‘rkachdagi yog‘"
+    ],
+    [
+     "Oq ayiq",
+     "qalin oq mo‘yna"
+    ],
+    [
+     "Kaktus",
+     "tikanga aylangan barglar"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir organizm o‘z muhitida yashashga moslashgan."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_21",
+   "t": "choice",
+   "q": "Nima uchun ko‘rsichqonning ko‘zlari juda kichik?",
+   "a": "Tuproq ichi qorong‘i",
+   "w": [
+    "U doim uxlaydi",
+    "U suvda yashaydi",
+    "U tunda uchadi"
+   ],
+   "d": 3,
+   "x": "Qorong‘i tuproqda ko‘rish deyarli kerak emas, ko‘rsichqon hid va sezish bilan mo‘ljal oladi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_22",
+   "t": "choice",
+   "q": "Kaktusning tikanlari aslida nima?",
+   "a": "O‘zgargan barglar",
+   "w": [
+    "Ildizlar",
+    "Gullar",
+    "Mevalar"
+   ],
+   "d": 3,
+   "x": "Barglar tikanga aylangani uchun kaktus suvni kam bug‘latadi."
+  },
+  {
+   "topic": "science_g4.habitats",
+   "id": "habitats_23",
+   "t": "choice",
+   "q": "Qaysi muhitda harorat eng tez o‘zgaradi?",
+   "a": "Quruqlik-havo muhitida",
+   "w": [
+    "Suv muhitida",
+    "Tuproq muhitida",
+    "Chuqur ko‘l tubida"
+   ],
+   "d": 3,
+   "x": "Havo tez isib, tez soviydi, suv va tuproqda esa harorat ancha barqaror."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_1",
+   "t": "choice",
+   "q": "Bug‘doy qanday ko‘paytiriladi?",
+   "a": "Urug‘ bilan",
+   "w": [
+    "Qalamcha bilan",
+    "Piyozbosh bilan",
+    "Tuganak bilan"
+   ],
+   "d": 1,
+   "x": "Dalaga bug‘doy doni — urug‘i sepiladi.",
+   "e": "🌾"
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_2",
+   "t": "choice",
+   "q": "Kartoshka odatda nima bilan ekiladi?",
+   "a": "Tuganagi bilan",
+   "w": [
+    "Guli bilan",
+    "Bargi bilan",
+    "Qalamcha bilan"
+   ],
+   "d": 1,
+   "x": "Kartoshka tuganagidagi ko‘zchalardan yangi o‘simlik o‘sadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_3",
+   "t": "choice",
+   "q": "Piyoz qanday ko‘payadi?",
+   "a": "Piyozbosh bilan",
+   "w": [
+    "Qalamcha bilan",
+    "Mo‘ylov bilan",
+    "Tuganak bilan"
+   ],
+   "d": 1,
+   "x": "Yerga ekilgan kichik piyozboshdan yangi piyoz o‘sadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_4",
+   "t": "choice",
+   "q": "Tol va terak qanday oson ko‘payadi?",
+   "a": "Qalamcha bilan",
+   "w": [
+    "Piyozbosh bilan",
+    "Tuganak bilan",
+    "Mo‘ylov bilan"
+   ],
+   "d": 1,
+   "x": "Nam yerga sanchilgan tol qalamchasi tez ildiz otadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_5",
+   "t": "choice",
+   "q": "Qalamcha nima?",
+   "a": "Kesib olingan novda bo‘lagi",
+   "w": [
+    "Guldan olingan chang",
+    "Urug‘ning po‘sti",
+    "Ildiz tukchasi"
+   ],
+   "d": 1,
+   "x": "Qalamcha — kurtaklari bor novda bo‘lagi, u ekilsa ildiz chiqaradi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_6",
+   "t": "choice",
+   "q": "Qoqio‘t urug‘ini nima tarqatadi?",
+   "a": "Shamol",
+   "w": [
+    "Suv",
+    "Baliqlar",
+    "Chuvalchang"
+   ],
+   "d": 1,
+   "x": "Qoqio‘t urug‘ining momiq “parashyuti” bor, shamol uni uzoqqa uchiradi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_7",
+   "t": "choice",
+   "q": "Gulni changlatishda kimlar yordam beradi?",
+   "a": "Hasharotlar",
+   "w": [
+    "Baliqlar",
+    "Chuvalchanglar",
+    "Ko‘rsichqonlar"
+   ],
+   "d": 1,
+   "x": "Asalari va kapalaklar gul changini bir guldan boshqasiga tashiydi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_8",
+   "t": "choice",
+   "q": "Uzum ko‘chatini qanday ko‘paytirish qulay?",
+   "a": "Qalamcha bilan",
+   "w": [
+    "Piyozbosh bilan",
+    "Tuganak bilan",
+    "Mo‘ylov bilan"
+   ],
+   "d": 1,
+   "x": "Uzum novdasidan kesilgan qalamcha ekilsa, ildiz otadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_9",
+   "t": "tf",
+   "q": "Barcha o‘simliklar faqat urug‘ bilan ko‘payadi.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘p o‘simliklar qalamcha, piyozbosh, tuganak bilan ham ko‘payadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_10",
+   "t": "tf",
+   "q": "Urug‘ tarqalishida hayvonlar ham yordam beradi.",
+   "a": true,
+   "d": 1,
+   "x": "Qushlar mevani yeb, urug‘ini boshqa joyga olib boradi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_11",
+   "t": "tf",
+   "q": "Qalamcha ekilganda ildiz chiqarmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Qalamcha nam tuproqda ildiz chiqaradi va yangi o‘simlikka aylanadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tol",
+    "qalamcha",
+    "bilan",
+    "tez",
+    "ko‘payadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_13",
+   "t": "choice",
+   "q": "Qulupnay qanday ko‘payadi?",
+   "a": "Mo‘ylovlari bilan",
+   "w": [
+    "Piyozbosh bilan",
+    "Tuganak bilan",
+    "Qalamcha bilan"
+   ],
+   "d": 2,
+   "x": "Qulupnayning yer bag‘irlab o‘sadigan mo‘ylovlari ildiz otib, yangi tup hosil qiladi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_14",
+   "t": "choice",
+   "q": "Urug‘ quruq qopda nima uchun unib chiqmaydi?",
+   "a": "Namlik yo‘q",
+   "w": [
+    "Havo juda ko‘p",
+    "Qop juda katta",
+    "Issiqlik ortiqcha"
+   ],
+   "d": 2,
+   "x": "Urug‘ unishi uchun namlik, havo va issiqlik kerak."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_15",
+   "t": "choice",
+   "q": "Olcha mevasini yegan qushlar nimaga yordam beradi?",
+   "a": "Urug‘ tarqalishiga",
+   "w": [
+    "Barg to‘kilishiga",
+    "Ildiz chirishiga",
+    "Gul so‘lishiga"
+   ],
+   "d": 2,
+   "x": "Qushlar urug‘ni uzoqqa olib borib tashlaydi, u yerda yangi daraxt unadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_16",
+   "t": "choice",
+   "q": "O‘simlikning bir qismidan yangi o‘simlik o‘stirish nima deyiladi?",
+   "a": "Vegetativ ko‘payish",
+   "w": [
+    "Urug‘dan ko‘payish",
+    "Changlanish",
+    "Gullash"
+   ],
+   "d": 2,
+   "x": "Qalamcha, piyozbosh, tuganak — vegetativ ko‘payish usullari."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_17",
+   "t": "choice",
+   "q": "Sarimsoq qanday ekiladi?",
+   "a": "Tishchalari bilan",
+   "w": [
+    "Barglari bilan",
+    "Guli bilan",
+    "Qalamcha bilan"
+   ],
+   "d": 2,
+   "x": "Sarimsoq boshidagi har bir tishchadan yangi o‘simlik o‘sadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_18",
+   "t": "tf",
+   "q": "Kartoshka tuganagida kurtaklar — ko‘zchalar bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "Ko‘zchalardan yangi novdalar o‘sib chiqadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_19",
+   "t": "match",
+   "q": "O‘simlikni ko‘payish usuli bilan juftlang",
+   "pairs": [
+    [
+     "Bug‘doy",
+     "urug‘"
+    ],
+    [
+     "Terak",
+     "qalamcha"
+    ],
+    [
+     "Lola",
+     "piyozbosh"
+    ],
+    [
+     "Kartoshka",
+     "tuganak"
+    ],
+    [
+     "Qulupnay",
+     "mo‘ylov"
+    ],
+    [
+     "Ajriq",
+     "ildizpoya"
+    ]
+   ],
+   "d": 2,
+   "x": "O‘simliklar turli yo‘llar bilan ko‘payadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_20",
+   "t": "choice",
+   "q": "Bog‘bon yovvoyi olma ko‘chatiga shirin olma novdasini ulab qo‘ydi. Bu nima?",
+   "a": "Payvand",
+   "w": [
+    "Qalamcha",
+    "Changlanish",
+    "Sug‘orish"
+   ],
+   "d": 3,
+   "x": "Payvandlangan daraxt shirin olma navining mevasini beradi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_21",
+   "t": "choice",
+   "q": "Loviya urug‘i unganda birinchi bo‘lib nima chiqadi?",
+   "a": "Ildizcha",
+   "w": [
+    "Gul",
+    "Meva",
+    "Barg"
+   ],
+   "d": 3,
+   "x": "Avval ildizcha chiqib tuproqqa kiradi, keyin poyacha yuqoriga o‘sadi."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_22",
+   "t": "choice",
+   "q": "Urug‘ ichidagi kelajakdagi kichik o‘simlik nima deyiladi?",
+   "a": "Murtak",
+   "w": [
+    "Po‘st",
+    "Meva eti",
+    "Chang"
+   ],
+   "d": 3,
+   "x": "Murtakda ildizcha, poyacha va kurtakcha bor."
+  },
+  {
+   "topic": "science_g4.plant_repro",
+   "id": "plant_repro_23",
+   "t": "choice",
+   "q": "Qaysi o‘simlik urug‘ini dengiz suvi tarqatadi?",
+   "a": "Kokos palmasi",
+   "w": [
+    "Qoqio‘t",
+    "Kungaboqar",
+    "Bug‘doy"
+   ],
+   "d": 3,
+   "x": "Kokos yong‘og‘i suvda cho‘kmaydi va boshqa qirg‘oqqa suzib boradi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_1",
+   "t": "choice",
+   "q": "Ovqat hazm qilish qayerdan boshlanadi?",
+   "a": "Og‘iz bo‘shlig‘idan",
+   "w": [
+    "Oshqozondan",
+    "Ichakdan",
+    "Jigardan"
+   ],
+   "d": 1,
+   "x": "Og‘izda ovqat maydalanib, so‘lak bilan namlanadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_2",
+   "t": "choice",
+   "q": "Ovqat oshqozonga qaysi naycha orqali o‘tadi?",
+   "a": "Qizilo‘ngach",
+   "w": [
+    "Kekirdak",
+    "Qon tomir",
+    "Bronx"
+   ],
+   "d": 1,
+   "x": "Qizilo‘ngach — halqumdan oshqozonga boradigan mushakli naycha."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_3",
+   "t": "choice",
+   "q": "Ovqat og‘izda nima bilan namlanadi?",
+   "a": "So‘lak bilan",
+   "w": [
+    "O‘t suyuqligi bilan",
+    "Qon bilan",
+    "Havo bilan"
+   ],
+   "d": 1,
+   "x": "So‘lak ovqatni namlaydi va yutishni osonlashtiradi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_4",
+   "t": "choice",
+   "q": "Oshqozonda ovqat bilan nima bo‘ladi?",
+   "a": "Me’da shirasi bilan aralashadi",
+   "w": [
+    "Havoga aylanadi",
+    "Qonni haydaydi",
+    "Tovush chiqaradi"
+   ],
+   "d": 1,
+   "x": "Oshqozon devorlari qisqarib, ovqatni me’da shirasi bilan aralashtiradi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_5",
+   "t": "choice",
+   "q": "Ovqatni nima uchun yaxshilab chaynash kerak?",
+   "a": "Oson hazm bo‘lishi uchun",
+   "w": [
+    "Tez yutish uchun",
+    "Tish og‘rishi uchun",
+    "Ko‘p yeyish uchun"
+   ],
+   "d": 1,
+   "x": "Yaxshi maydalangan ovqat oshqozon va ichakda oson hazm bo‘ladi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_6",
+   "t": "choice",
+   "q": "Ovqatdan oldin nima qilish kerak?",
+   "a": "Qo‘lni sovunlab yuvish",
+   "w": [
+    "Yugurib kelish",
+    "Uxlab olish",
+    "Shirinlik yeyish"
+   ],
+   "d": 1,
+   "x": "Iflos qo‘ldagi mikroblar ovqat bilan birga tanaga tushishi mumkin."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_7",
+   "t": "choice",
+   "q": "Yuvilmagan meva-sabzavot nima uchun xavfli?",
+   "a": "Unda mikroblar bo‘lishi mumkin",
+   "w": [
+    "U juda shirin",
+    "U tez eriydi",
+    "U juda og‘ir"
+   ],
+   "d": 1,
+   "x": "Meva va sabzavotni yeyishdan oldin toza suvda yuvish kerak."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_8",
+   "t": "choice",
+   "q": "Qaysi a’zo hazm qilish a’zolariga kiradi?",
+   "a": "Oshqozon",
+   "w": [
+    "O‘pka",
+    "Yurak",
+    "Miya"
+   ],
+   "d": 1,
+   "x": "O‘pka — nafas olish, yurak — qon aylanish, miya — asab tizimiga kiradi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_9",
+   "t": "tf",
+   "q": "Qizilo‘ngach ovqatni oshqozonga olib boradi.",
+   "a": true,
+   "d": 1,
+   "x": "Qizilo‘ngach halqumni oshqozon bilan bog‘laydi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_10",
+   "t": "tf",
+   "q": "Ovqat hazm qilish oshqozonda boshlanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Hazm qilish og‘iz bo‘shlig‘ida boshlanadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_11",
+   "t": "tf",
+   "q": "Ko‘p shirinlik yeyish tishlarga zarar.",
+   "a": true,
+   "d": 1,
+   "x": "Shirinlik qoldiqlari tishda kariesga sabab bo‘ladi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ovqatni",
+    "shoshilmay",
+    "yaxshilab",
+    "chaynang"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_13",
+   "t": "choice",
+   "q": "Oziq moddalar asosan qayerda qonga so‘riladi?",
+   "a": "Ingichka ichakda",
+   "w": [
+    "Og‘izda",
+    "Qizilo‘ngachda",
+    "Halqumda"
+   ],
+   "d": 2,
+   "x": "Ingichka ichak devorlari orqali oziq moddalar qonga o‘tadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_14",
+   "t": "choice",
+   "q": "O‘t suyuqligini qaysi a’zo ishlab chiqaradi?",
+   "a": "Jigar",
+   "w": [
+    "Yurak",
+    "O‘pka",
+    "Buyrak"
+   ],
+   "d": 2,
+   "x": "Jigar o‘t suyuqligi ishlab chiqaradi, u yog‘larni hazm qilishga yordam beradi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_15",
+   "t": "choice",
+   "q": "Ovqatni kesib, tishlab oladigan old tishlar qanday ataladi?",
+   "a": "Kurak tishlar",
+   "w": [
+    "Oziq tishlar",
+    "Qoziq tishlar",
+    "Aql tishlari"
+   ],
+   "d": 2,
+   "x": "Kurak tishlar o‘tkir va yassi, ular ovqatni kesadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_16",
+   "t": "choice",
+   "q": "Ovqatni maydalab chaynaydigan keng tishlar qaysi?",
+   "a": "Oziq tishlar",
+   "w": [
+    "Kurak tishlar",
+    "Qoziq tishlar",
+    "Tish milki"
+   ],
+   "d": 2,
+   "x": "Oziq tishlarning keng yuzasi ovqatni ezib maydalaydi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_17",
+   "t": "choice",
+   "q": "Katta odamda nechta doimiy tish bo‘ladi?",
+   "a": "32 ta",
+   "w": [
+    "20 ta",
+    "12 ta",
+    "50 ta"
+   ],
+   "d": 2,
+   "x": "Bolalarda 20 ta sut tishi bo‘ladi, keyin ular doimiy tishlarga almashadi, jami 32 ta."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_18",
+   "t": "choice",
+   "q": "Nima uchun ovqatlanayotganda gaplashmaslik kerak?",
+   "a": "Ovqat nafas yo‘liga tushishi mumkin",
+   "w": [
+    "Ovqat sovib qoladi",
+    "Tish tushib ketadi",
+    "Ishtaha yo‘qoladi"
+   ],
+   "d": 2,
+   "x": "Gapirganda ovqat bo‘lagi kekirdakka tushib, qaqqirishga sabab bo‘lishi mumkin."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_19",
+   "t": "choice",
+   "q": "Hazm bo‘lmagan qoldiqlar qayerda to‘planadi?",
+   "a": "Yo‘g‘on ichakda",
+   "w": [
+    "Oshqozonda",
+    "Og‘izda",
+    "Qizilo‘ngachda"
+   ],
+   "d": 2,
+   "x": "Yo‘g‘on ichakda suv so‘riladi, qoldiqlar esa tanadan chiqariladi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_20",
+   "t": "order",
+   "q": "Ovqat yo‘lini tartib bilan tuzing",
+   "parts": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon",
+    "Ingichka ichak",
+    "Yo‘g‘on ichak"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Ovqat og‘izdan boshlab ichaklargacha shu tartibda o‘tadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_21",
+   "t": "match",
+   "q": "A’zoni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Tishlar",
+     "ovqatni maydalaydi"
+    ],
+    [
+     "So‘lak",
+     "ovqatni namlaydi"
+    ],
+    [
+     "Qizilo‘ngach",
+     "ovqatni oshqozonga o‘tkazadi"
+    ],
+    [
+     "Oshqozon",
+     "ovqatni shira bilan aralashtiradi"
+    ],
+    [
+     "Ingichka ichak",
+     "oziq moddalarni qonga o‘tkazadi"
+    ],
+    [
+     "Jigar",
+     "o‘t suyuqligi ishlab chiqaradi"
+    ]
+   ],
+   "d": 2,
+   "x": "Hazm qilish a’zolari birgalikda ishlaydi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_22",
+   "t": "choice",
+   "q": "Bolalarning sut tishlari nechta?",
+   "a": "20 ta",
+   "w": [
+    "32 ta",
+    "10 ta",
+    "28 ta"
+   ],
+   "d": 3,
+   "x": "Sut tishlari 20 ta, ular taxminan 6 yoshdan boshlab doimiy tishlarga almashadi."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_23",
+   "t": "choice",
+   "q": "Odam tanasidagi eng qattiq modda qaysi?",
+   "a": "Tish emali",
+   "w": [
+    "Suyak",
+    "Tirnoq",
+    "Soch"
+   ],
+   "d": 3,
+   "x": "Tishni qoplab turgan emal suyakdan ham qattiq."
+  },
+  {
+   "topic": "science_g4.digestion",
+   "id": "digestion_24",
+   "t": "tf",
+   "q": "Juda issiq va juda sovuq ovqatni ketma-ket yeyish tish emaliga zarar.",
+   "a": true,
+   "d": 3,
+   "x": "Harorat keskin o‘zgarsa, emalda mayda yoriqlar paydo bo‘lishi mumkin."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_1",
+   "t": "choice",
+   "q": "Asosiy nafas olish a’zosi qaysi?",
+   "a": "O‘pka",
+   "w": [
+    "Oshqozon",
+    "Jigar",
+    "Ichak"
+   ],
+   "d": 1,
+   "x": "O‘pkada havodagi kislorod qonga o‘tadi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_2",
+   "t": "choice",
+   "q": "Organizm havodan qaysi gazni o‘zlashtiradi?",
+   "a": "Kislorod",
+   "w": [
+    "Karbonat angidrid",
+    "Is gazi",
+    "Tabiiy gaz"
+   ],
+   "d": 1,
+   "x": "Kislorod qon orqali barcha hujayralarga yetkaziladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_3",
+   "t": "choice",
+   "q": "Nafas chiqarganda organizmdan qaysi keraksiz gaz chiqariladi?",
+   "a": "Karbonat angidrid",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Tabiiy gaz"
+   ],
+   "d": 1,
+   "x": "Karbonat angidrid hujayralarda hosil bo‘lib, o‘pka orqali chiqariladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_4",
+   "t": "choice",
+   "q": "Nima uchun burun orqali nafas olish foydali?",
+   "a": "Havo isiydi va tozalanadi",
+   "w": [
+    "Ovoz chiroyli chiqadi",
+    "Tez yugurish mumkin",
+    "Ishtaha ochiladi"
+   ],
+   "d": 1,
+   "x": "Burun bo‘shlig‘ida havo isiydi, namlanadi va changdan tozalanadi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_5",
+   "t": "choice",
+   "q": "Qonni tomirlar bo‘ylab haydaydigan a’zo qaysi?",
+   "a": "Yurak",
+   "w": [
+    "O‘pka",
+    "Oshqozon",
+    "Miya"
+   ],
+   "d": 1,
+   "x": "Yurak to‘xtovsiz qisqarib, qonni tomirlarga haydaydi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_6",
+   "t": "choice",
+   "q": "Qon organizmda nimani tashiydi?",
+   "a": "Kislorod va oziq moddalar",
+   "w": [
+    "Faqat suv",
+    "Tosh va qum",
+    "Havo pufaklari"
+   ],
+   "d": 1,
+   "x": "Qon kislorod va oziqni hujayralarga yetkazadi, keraksiz moddalarni olib ketadi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_7",
+   "t": "choice",
+   "q": "Pulsni qayerda sanash qulay?",
+   "a": "Bilakda",
+   "w": [
+    "Tizzada",
+    "Tirnoqda",
+    "Tovonda"
+   ],
+   "d": 1,
+   "x": "Bilakning ichki tomonida tomir urishi yaxshi seziladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_8",
+   "t": "choice",
+   "q": "Yugurgandan keyin yurak urishi qanday o‘zgaradi?",
+   "a": "Tezlashadi",
+   "w": [
+    "Sekinlashadi",
+    "To‘xtaydi",
+    "O‘zgarmaydi"
+   ],
+   "d": 1,
+   "x": "Harakat paytida mushaklarga ko‘proq kislorod kerak, yurak tezroq uradi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_9",
+   "t": "tf",
+   "q": "Yurak kecha-yu kunduz to‘xtovsiz ishlaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Yurak uxlaganimizda ham ishlaydi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_10",
+   "t": "tf",
+   "q": "Sport yurak mushaklarini chiniqtiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Muntazam harakat yurakni baquvvat qiladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_11",
+   "t": "tf",
+   "q": "Tamaki tutuni o‘pkaga foydali.",
+   "a": false,
+   "d": 1,
+   "x": "Tutun o‘pkani zararlaydi, tutunli xonada o‘tirish ham zararli."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yurak",
+    "qonni",
+    "butun",
+    "tanaga",
+    "haydaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_13",
+   "t": "choice",
+   "q": "Yurakning kattaligi taxminan qanday?",
+   "a": "Egasining mushtidek",
+   "w": [
+    "No‘xatdek",
+    "Tarvuzdek",
+    "Ko‘krak qafasidek"
+   ],
+   "d": 2,
+   "x": "Har bir odamning yuragi taxminan o‘z mushtidek bo‘ladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_14",
+   "t": "choice",
+   "q": "Yurak nimadan tuzilgan?",
+   "a": "Mushakdan",
+   "w": [
+    "Suyakdan",
+    "Yog‘dan",
+    "Tog‘aydan"
+   ],
+   "d": 2,
+   "x": "Yurak — kuchli mushakli a’zo, u qisqarib qonni haydaydi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_15",
+   "t": "choice",
+   "q": "Qonni yurakdan olib ketadigan tomirlar qanday ataladi?",
+   "a": "Arteriyalar",
+   "w": [
+    "Venalar",
+    "Kapillyarlar",
+    "Bronxlar"
+   ],
+   "d": 2,
+   "x": "Arteriyalar qonni yurakdan a’zolarga olib boradi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_16",
+   "t": "choice",
+   "q": "Qonni yurakka olib keladigan tomirlar qanday ataladi?",
+   "a": "Venalar",
+   "w": [
+    "Arteriyalar",
+    "Kapillyarlar",
+    "Nervlar"
+   ],
+   "d": 2,
+   "x": "Venalar qonni a’zolardan yurakka qaytaradi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_17",
+   "t": "choice",
+   "q": "Kekirdak qaysi a’zolar tizimiga kiradi?",
+   "a": "Nafas olish",
+   "w": [
+    "Hazm qilish",
+    "Qon aylanish",
+    "Sezgi"
+   ],
+   "d": 2,
+   "x": "Kekirdak havoni hiqildoqdan bronxlarga o‘tkazadi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_18",
+   "t": "tf",
+   "q": "Arteriyalar qonni yurakka olib keladi.",
+   "a": false,
+   "d": 2,
+   "x": "Arteriyalar qonni yurakdan olib ketadi, venalar yurakka olib keladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_19",
+   "t": "match",
+   "q": "A’zoni vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Burun bo‘shlig‘i",
+     "havoni isitadi va tozalaydi"
+    ],
+    [
+     "Kekirdak",
+     "havoni bronxlarga o‘tkazadi"
+    ],
+    [
+     "O‘pka",
+     "havodan kislorod oladi"
+    ],
+    [
+     "Yurak",
+     "qonni haydaydi"
+    ],
+    [
+     "Arteriya",
+     "qonni yurakdan olib ketadi"
+    ],
+    [
+     "Vena",
+     "qonni yurakka olib keladi"
+    ]
+   ],
+   "d": 2,
+   "x": "Nafas olish va qon aylanish a’zolari birgalikda ishlaydi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_20",
+   "t": "choice",
+   "q": "Eng ingichka qon tomirlari qanday ataladi?",
+   "a": "Kapillyarlar",
+   "w": [
+    "Arteriyalar",
+    "Venalar",
+    "Bronxlar"
+   ],
+   "d": 3,
+   "x": "Kapillyarlar sochdan ham ingichka, ular orqali qon hujayralarga kislorod beradi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_21",
+   "t": "choice",
+   "q": "Katta odam tanasida taxminan qancha qon bor?",
+   "a": "5 litr",
+   "w": [
+    "1 litr",
+    "20 litr",
+    "50 litr"
+   ],
+   "d": 3,
+   "x": "Katta odamda taxminan 5 litr qon bo‘ladi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_22",
+   "t": "choice",
+   "q": "Mikroblarga qarshi kurashadigan qon hujayralari qaysi?",
+   "a": "Oq qon tanachalari",
+   "w": [
+    "Qizil qon tanachalari",
+    "Suyak hujayralari",
+    "Teri hujayralari"
+   ],
+   "d": 3,
+   "x": "Oq qon tanachalari organizmni mikroblardan himoya qiladi, qizillari esa kislorod tashiydi."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_23",
+   "t": "choice",
+   "q": "Ali 10 soniyada tomir urishini sanadi: 14 marta. 1 daqiqada yuragi necha marta uradi?",
+   "a": "84",
+   "w": [
+    "28",
+    "94",
+    "74",
+    "140"
+   ],
+   "d": 2,
+   "x": "1 daqiqa = 60 soniya. 60 : 10 = 6, demak 14 · 6 = 84."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_24",
+   "t": "choice",
+   "q": "Ali 15 soniyada tomir urishini sanadi: 20 marta. 1 daqiqada yuragi necha marta uradi?",
+   "a": "80",
+   "w": [
+    "40",
+    "90",
+    "70",
+    "200"
+   ],
+   "d": 2,
+   "x": "1 daqiqa = 60 soniya. 60 : 15 = 4, demak 20 · 4 = 80."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_25",
+   "t": "choice",
+   "q": "Ali 30 soniyada tomir urishini sanadi: 42 marta. 1 daqiqada yuragi necha marta uradi?",
+   "a": "84",
+   "w": [
+    "94",
+    "74",
+    "102",
+    "420"
+   ],
+   "d": 3,
+   "x": "1 daqiqa = 60 soniya. 60 : 30 = 2, demak 42 · 2 = 84."
+  },
+  {
+   "topic": "science_g4.breathing_blood",
+   "id": "breathing_blood_26",
+   "t": "choice",
+   "q": "Ali 10 soniyada tomir urishini sanadi: 16 marta. 1 daqiqada yuragi necha marta uradi?",
+   "a": "96",
+   "w": [
+    "32",
+    "106",
+    "86",
+    "76"
+   ],
+   "d": 3,
+   "x": "1 daqiqa = 60 soniya. 60 : 10 = 6, demak 16 · 6 = 96."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_1",
+   "t": "choice",
+   "q": "Kitobni ko‘zdan qancha uzoqlikda tutib o‘qish kerak?",
+   "a": "30–35 sm",
+   "w": [
+    "5 sm",
+    "1 metr",
+    "2 metr"
+   ],
+   "d": 1,
+   "x": "Kitob juda yaqin bo‘lsa, ko‘z tez charchaydi.",
+   "e": "📖"
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_2",
+   "t": "choice",
+   "q": "O‘qiganda yorug‘lik qanday bo‘lishi kerak?",
+   "a": "Yetarli va bir tekis",
+   "w": [
+    "Juda xira",
+    "Ko‘zga to‘g‘ri tushadigan",
+    "Miltillovchi"
+   ],
+   "d": 1,
+   "x": "Xira yoki miltillovchi yorug‘lik ko‘zni charchatadi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_3",
+   "t": "choice",
+   "q": "Qaysi odat ko‘z uchun zararli?",
+   "a": "Yotib kitob o‘qish",
+   "w": [
+    "Yashil daraxtlarga qarash",
+    "Ko‘zga dam berish",
+    "Yorug‘ joyda o‘qish"
+   ],
+   "d": 1,
+   "x": "Yotib o‘qiganda kitob ko‘zga notekis masofada turadi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_4",
+   "t": "choice",
+   "q": "Quloqchinda musiqani qanday tinglash kerak?",
+   "a": "Past ovozda, qisqa vaqt",
+   "w": [
+    "Eng baland ovozda",
+    "Tun bo‘yi",
+    "Kun bo‘yi"
+   ],
+   "d": 1,
+   "x": "Baland ovoz eshitish qobiliyatini susaytiradi.",
+   "e": "🎧"
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_5",
+   "t": "choice",
+   "q": "Qishda sovuqda quloqni nima himoya qiladi?",
+   "a": "Issiq shapka",
+   "w": [
+    "Ko‘zoynak",
+    "Qo‘lqop",
+    "Soyabon"
+   ],
+   "d": 1,
+   "x": "Sovuqda qolgan quloq shamollashi mumkin."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_6",
+   "t": "choice",
+   "q": "Aksirganda nima qilish kerak?",
+   "a": "Og‘izni dastro‘mol bilan yopish",
+   "w": [
+    "Boshqalarga qarab aksirish",
+    "Qo‘lni yuvmaslik",
+    "Baland kulish"
+   ],
+   "d": 1,
+   "x": "Aksirganda mikroblar atrofga tarqaladi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_7",
+   "t": "choice",
+   "q": "Juda issiq choy ichsak, qaysi a’zo zarar ko‘radi?",
+   "a": "Til",
+   "w": [
+    "Quloq",
+    "Ko‘z",
+    "Tirnoq"
+   ],
+   "d": 1,
+   "x": "Juda issiq ichimlik tilni kuydiradi va ta’m sezish buziladi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_8",
+   "t": "choice",
+   "q": "Yozda jazirama Quyoshda nima kiyish kerak?",
+   "a": "Bosh kiyim",
+   "w": [
+    "Qalin po‘stin",
+    "Qishki etik",
+    "Jun qo‘lqop"
+   ],
+   "d": 1,
+   "x": "Bosh kiyim Quyosh urishidan saqlaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_9",
+   "t": "choice",
+   "q": "Tirnoqlarni qanday parvarish qilamiz?",
+   "a": "Muntazam olib, toza tutamiz",
+   "w": [
+    "Tishlab olamiz",
+    "Hech qachon olmaymiz",
+    "Iflos qoldiramiz"
+   ],
+   "d": 1,
+   "x": "Tirnoq ostida mikroblar to‘planadi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_10",
+   "t": "tf",
+   "q": "Yurib ketayotgan avtobusda kitob o‘qish ko‘zga foydali.",
+   "a": false,
+   "d": 1,
+   "x": "Silkinishda harflar sakraydi va ko‘z tez charchaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_11",
+   "t": "tf",
+   "q": "Baland ovozli shovqin eshitish qobiliyatini susaytiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Kuchli shovqin quloqni jarohatlaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_12",
+   "t": "tf",
+   "q": "Ko‘zni iflos qo‘l bilan ishqalash mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Iflos qo‘ldan ko‘zga mikrob tushib, yallig‘lanish bo‘lishi mumkin."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kitobni",
+    "yorug‘",
+    "joyda",
+    "o‘qing"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_14",
+   "t": "choice",
+   "q": "Ko‘zni changdan nima himoya qiladi?",
+   "a": "Kiprik va qovoq",
+   "w": [
+    "Burun va lab",
+    "Tirnoq va soch",
+    "Quloq suprasi"
+   ],
+   "d": 2,
+   "x": "Kipriklar chang zarralarini ushlaydi, qovoq ko‘zni yopib himoya qiladi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_15",
+   "t": "choice",
+   "q": "Kompyuterda ishlaganda ko‘zga qanchada bir dam berish kerak?",
+   "a": "Har 20–30 daqiqada",
+   "w": [
+    "Kuniga bir marta",
+    "Hech qachon",
+    "Haftada bir marta"
+   ],
+   "d": 2,
+   "x": "Uzoqqa qarab, ko‘z mashqlarini bajarish ko‘zni dam oldiradi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_16",
+   "t": "choice",
+   "q": "Ko‘zga chang tushsa nima qilish kerak?",
+   "a": "Toza suv bilan yuvish",
+   "w": [
+    "Qattiq ishqalash",
+    "Barmoq bilan kavlash",
+    "Iflos ro‘molcha bilan artish"
+   ],
+   "d": 2,
+   "x": "Toza suv changni yuvib chiqaradi, ishqalash esa ko‘zni tirnaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_17",
+   "t": "choice",
+   "q": "Quloqni tozalashda nima xavfli?",
+   "a": "O‘tkir narsa tiqish",
+   "w": [
+    "Tashqi qismini sochiq bilan artish",
+    "Yuvinganda yuvish",
+    "Kattalardan yordam so‘rash"
+   ],
+   "d": 2,
+   "x": "O‘tkir narsa quloq pardasini teshishi mumkin."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_18",
+   "t": "choice",
+   "q": "Qo‘l kesilsa, avvalo nima qilish kerak?",
+   "a": "Yarani tozalab, kattalarga aytish",
+   "w": [
+    "Yarani yalash",
+    "Tuproq sepish",
+    "Hech kimga aytmaslik"
+   ],
+   "d": 2,
+   "x": "Toza bo‘lmagan yaraga mikrob tushib, yiringlashi mumkin."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_19",
+   "t": "choice",
+   "q": "Nima uchun Quyoshga to‘g‘ridan-to‘g‘ri qarash mumkin emas?",
+   "a": "Ko‘zni jarohatlaydi",
+   "w": [
+    "Burun bitib qoladi",
+    "Quloq og‘riydi",
+    "Soch oqaradi"
+   ],
+   "d": 2,
+   "x": "Quyoshning kuchli nuri ko‘zning nozik qismlarini shikastlaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_20",
+   "t": "tf",
+   "q": "Kiyim va ichki kiyimni muntazam almashtirish kerak.",
+   "a": true,
+   "d": 2,
+   "x": "Toza kiyim teri sog‘lig‘i uchun muhim."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_21",
+   "t": "match",
+   "q": "Sezgi a’zosini gigiyena qoidasi bilan juftlang",
+   "pairs": [
+    [
+     "Ko‘z",
+     "yorug‘ joyda o‘qish"
+    ],
+    [
+     "Quloq",
+     "baland shovqindan saqlanish"
+    ],
+    [
+     "Burun",
+     "dastro‘moldan foydalanish"
+    ],
+    [
+     "Til",
+     "juda issiq ovqat yemaslik"
+    ],
+    [
+     "Teri",
+     "har kuni yuvinish"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir sezgi a’zosini o‘z qoidasi bilan asraymiz."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_22",
+   "t": "choice",
+   "q": "Ko‘z yoshining vazifasi nima?",
+   "a": "Ko‘zni namlab, yuvib turadi",
+   "w": [
+    "Ko‘rishni susaytiradi",
+    "Ko‘zni qizdiradi",
+    "Ko‘zni quritadi"
+   ],
+   "d": 3,
+   "x": "Ko‘z yoshi ko‘z yuzasini namlaydi va chang-mikroblardan tozalaydi."
+  },
+  {
+   "topic": "science_g4.senses_hygiene",
+   "id": "senses_hygiene_23",
+   "t": "choice",
+   "q": "Teridagi mayda teshikchalardan nima ajraladi?",
+   "a": "Ter",
+   "w": [
+    "Qon",
+    "So‘lak",
+    "Ko‘z yoshi"
+   ],
+   "d": 3,
+   "x": "Ter ajralishi tanani sovitadi, shuning uchun terini toza tutish kerak."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_1",
+   "t": "choice",
+   "q": "Qaysi mahsulotda oqsil ko‘p?",
+   "a": "Tuxum",
+   "w": [
+    "Shakar",
+    "Olma",
+    "Choy"
+   ],
+   "d": 1,
+   "x": "Tuxum, go‘sht, baliq va sut — oqsilga boy.",
+   "e": "🥚"
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_2",
+   "t": "choice",
+   "q": "Qaysi mahsulot organizmga ko‘p energiya beradi?",
+   "a": "Non",
+   "w": [
+    "Suv",
+    "Tuz",
+    "Ko‘k choy"
+   ],
+   "d": 1,
+   "x": "Nondagi uglevodlar organizm uchun energiya manbai.",
+   "e": "🍞"
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_3",
+   "t": "choice",
+   "q": "Qaysi mahsulotda C vitamini ko‘p?",
+   "a": "Limon",
+   "w": [
+    "Sariyog‘",
+    "Guruch",
+    "Shakar"
+   ],
+   "d": 1,
+   "x": "Limon, na’matak va qalampir C vitaminiga boy.",
+   "e": "🍋"
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_4",
+   "t": "choice",
+   "q": "Qaysi sabzavotda A vitamini ko‘p?",
+   "a": "Sabzi",
+   "w": [
+    "Bodring",
+    "Piyoz",
+    "Turp"
+   ],
+   "d": 1,
+   "x": "Sabzi va qovoq A vitaminiga boy.",
+   "e": "🥕"
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_5",
+   "t": "choice",
+   "q": "Kalsiy qaysi mahsulotlarda ko‘p?",
+   "a": "Sut va pishloqda",
+   "w": [
+    "Konfet va shokoladda",
+    "Gazli ichimlikda",
+    "Chipsda"
+   ],
+   "d": 1,
+   "x": "Sut mahsulotlaridagi kalsiy suyak va tishlarni mustahkamlaydi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_6",
+   "t": "choice",
+   "q": "Qaysi taom sog‘lom nonushta bo‘ladi?",
+   "a": "Bo‘tqa, sut va meva",
+   "w": [
+    "Chips va gazli suv",
+    "Faqat konfet",
+    "Shirin gazak va kola"
+   ],
+   "d": 1,
+   "x": "Bo‘tqa energiya, sut kalsiy, meva vitamin beradi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_7",
+   "t": "choice",
+   "q": "Chanqaganda qaysi ichimlik eng foydali?",
+   "a": "Toza suv",
+   "w": [
+    "Gazli shirin ichimlik",
+    "Energetik ichimlik",
+    "Juda shirin sharbat"
+   ],
+   "d": 1,
+   "x": "Toza suvda shakar yo‘q, u chanqoqni yaxshi qondiradi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_8",
+   "t": "choice",
+   "q": "Oqsillar organizmga nima uchun kerak?",
+   "a": "O‘sish uchun",
+   "w": [
+    "Terini quritish uchun",
+    "Uxlamaslik uchun",
+    "Tishni yemirish uchun"
+   ],
+   "d": 1,
+   "x": "Oqsil — tana hujayralari uchun qurilish materiali."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_9",
+   "t": "tf",
+   "q": "Vitaminlar faqat dorixonada bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Vitaminlar meva, sabzavot, sut, go‘sht va boshqa mahsulotlarda bor."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_10",
+   "t": "tf",
+   "q": "Nonushta qilmay maktabga borish foydali.",
+   "a": false,
+   "d": 1,
+   "x": "Nonushta dars uchun kerakli energiya beradi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_11",
+   "t": "tf",
+   "q": "Meva va sabzavotlarda vitaminlar ko‘p.",
+   "a": true,
+   "d": 1,
+   "x": "Shuning uchun ularni har kuni yeyish kerak."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Sut",
+    "suyak",
+    "va",
+    "tishlarni",
+    "mustahkamlaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_13",
+   "t": "choice",
+   "q": "A vitamini qaysi a’zo uchun ayniqsa foydali?",
+   "a": "Ko‘z",
+   "w": [
+    "Quloq",
+    "Tirnoq",
+    "Soch"
+   ],
+   "d": 2,
+   "x": "A vitamini yaxshi ko‘rish uchun zarur."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_14",
+   "t": "choice",
+   "q": "Suyak va tishlar uchun qaysi modda muhim?",
+   "a": "Kalsiy",
+   "w": [
+    "Shakar",
+    "Tuz",
+    "Yog‘"
+   ],
+   "d": 2,
+   "x": "Kalsiy suyak va tishlarni mustahkam qiladi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_15",
+   "t": "choice",
+   "q": "D vitamini qachon terida hosil bo‘ladi?",
+   "a": "Quyosh nuri tushganda",
+   "w": [
+    "Uxlaganda",
+    "Suv ichganda",
+    "Qorong‘ida"
+   ],
+   "d": 2,
+   "x": "Quyosh nuri ta’sirida terida D vitamini hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_16",
+   "t": "choice",
+   "q": "Na’matak damlamasi nimaga boy?",
+   "a": "C vitaminiga",
+   "w": [
+    "Yog‘ga",
+    "Tuzga",
+    "Shakarga"
+   ],
+   "d": 2,
+   "x": "Na’matak mevasi C vitaminiga juda boy."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_17",
+   "t": "choice",
+   "q": "Chips va gazli ichimliklarni nima uchun kam iste’mol qilish kerak?",
+   "a": "Ularda tuz va shakar ko‘p",
+   "w": [
+    "Ularda vitamin ko‘p",
+    "Ular tishni mustahkamlaydi",
+    "Ular o‘sishga yordam beradi"
+   ],
+   "d": 2,
+   "x": "Ortiqcha tuz va shakar yurak, tish va oshqozonga zarar."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_18",
+   "t": "choice",
+   "q": "Qaysi mahsulot o‘simlik oqsiliga boy?",
+   "a": "Loviya",
+   "w": [
+    "Qand",
+    "Bodring",
+    "Tarvuz"
+   ],
+   "d": 2,
+   "x": "Loviya, no‘xat, mosh — o‘simlik oqsiliga boy dukkaklilar."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_19",
+   "t": "choice",
+   "q": "Yog‘lar organizmga nima uchun kerak?",
+   "a": "Energiya zaxirasi uchun",
+   "w": [
+    "Ko‘z rangini o‘zgartirish uchun",
+    "Suyakni eritish uchun",
+    "Terini quritish uchun"
+   ],
+   "d": 2,
+   "x": "Yog‘lar organizmda energiya zaxirasi sifatida saqlanadi."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_20",
+   "t": "match",
+   "q": "Oziq moddani mahsulot bilan juftlang",
+   "pairs": [
+    [
+     "Oqsil",
+     "go‘sht va tuxum"
+    ],
+    [
+     "Uglevod",
+     "non va guruch"
+    ],
+    [
+     "Yog‘",
+     "sariyog‘"
+    ],
+    [
+     "A vitamini",
+     "sabzi"
+    ],
+    [
+     "C vitamini",
+     "limon"
+    ],
+    [
+     "Kalsiy",
+     "sut va pishloq"
+    ]
+   ],
+   "d": 2,
+   "x": "Turli mahsulotlar turli oziq moddalarga boy."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_21",
+   "t": "choice",
+   "q": "D vitamini yetishmasa, bolalarda qanday kasallik paydo bo‘ladi?",
+   "a": "Raxit",
+   "w": [
+    "Gripp",
+    "Angina",
+    "Suvchechak"
+   ],
+   "d": 3,
+   "x": "Raxitda suyaklar yumshab, qiyshayishi mumkin."
+  },
+  {
+   "topic": "science_g4.nutrition",
+   "id": "nutrition_22",
+   "t": "choice",
+   "q": "Sabzidagi A vitamini yog‘ bilan yaxshi o‘zlashadi. Qaysi salat foydaliroq?",
+   "a": "Sabzi va o‘simlik yog‘i",
+   "w": [
+    "Sabzi va shakar",
+    "Sabzi va tuz",
+    "Sabzi va gazli suv"
+   ],
+   "d": 3,
+   "x": "A vitamini yog‘da eriydi, shuning uchun sabzi salatiga yog‘ qo‘shiladi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_1",
+   "t": "choice",
+   "q": "Yo‘lni qayerdan kesib o‘tish kerak?",
+   "a": "Piyodalar o‘tish joyidan",
+   "w": [
+    "Burilish joyidan",
+    "Avtobus oldidan",
+    "Istalgan joydan"
+   ],
+   "d": 1,
+   "x": "Piyodalar o‘tish joyida haydovchilar piyodalarni kutadi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_2",
+   "t": "choice",
+   "q": "Svetoforning qaysi chirog‘ida yo‘lni kesib o‘tish mumkin?",
+   "a": "Yashil",
+   "w": [
+    "Qizil",
+    "Sariq",
+    "Chiroq o‘chganda"
+   ],
+   "d": 1,
+   "x": "Yashil chiroq — yurish mumkin, qizil — to‘xta.",
+   "e": "🚦"
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_3",
+   "t": "choice",
+   "q": "Svetoforning sariq chirog‘i nimani bildiradi?",
+   "a": "Diqqat, tayyorlan",
+   "w": [
+    "Tez yugur",
+    "Yo‘l bo‘sh",
+    "O‘ynash mumkin"
+   ],
+   "d": 1,
+   "x": "Sariq chiroq chiroqlar almashayotganini bildiradi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_4",
+   "t": "choice",
+   "q": "Yong‘in bo‘lsa, qaysi raqamga qo‘ng‘iroq qilinadi?",
+   "a": "101",
+   "w": [
+    "103",
+    "104",
+    "100"
+   ],
+   "d": 1,
+   "x": "101 — yong‘in xavfsizligi xizmati.",
+   "e": "🔥"
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_5",
+   "t": "choice",
+   "q": "Tez tibbiy yordam raqami qaysi?",
+   "a": "103",
+   "w": [
+    "101",
+    "104",
+    "109"
+   ],
+   "d": 1,
+   "x": "Odam kasal bo‘lib qolsa yoki jarohatlansa, 103 ga qo‘ng‘iroq qilinadi.",
+   "e": "🚑"
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_6",
+   "t": "choice",
+   "q": "Qayerda cho‘milish mumkin?",
+   "a": "Maxsus joyda, kattalar bilan",
+   "w": [
+    "Kanal va ariqda",
+    "Notanish ko‘lda yolg‘iz",
+    "Ko‘prik ustidan sakrab"
+   ],
+   "d": 1,
+   "x": "Maxsus jihozlangan joyda qutqaruvchilar kuzatib turadi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_7",
+   "t": "choice",
+   "q": "Nima uchun kanallarda cho‘milish xavfli?",
+   "a": "Suv oqimi kuchli",
+   "w": [
+    "Suv juda shirin",
+    "Suv juda iliq",
+    "U yerda baliq ko‘p"
+   ],
+   "d": 1,
+   "x": "Kanal suvi tez oqadi va chuqur, qirg‘og‘i tik bo‘ladi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_8",
+   "t": "choice",
+   "q": "Ho‘l qo‘l bilan elektr asbobiga tegish nima uchun xavfli?",
+   "a": "Tok urishi mumkin",
+   "w": [
+    "Qo‘l qurib qoladi",
+    "Asbob tozalanadi",
+    "Asbob tezroq ishlaydi"
+   ],
+   "d": 1,
+   "x": "Suv elektr tokini o‘tkazadi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_9",
+   "t": "choice",
+   "q": "Qaysi harakat xavfli?",
+   "a": "Rozetkaga mix tiqish",
+   "w": [
+    "Chiroqni o‘chirish",
+    "Qo‘lni yuvish",
+    "Derazani ochish"
+   ],
+   "d": 1,
+   "x": "Rozetkaga metall narsa tiqilsa, tok uradi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_10",
+   "t": "choice",
+   "q": "Velosipedda yurganda boshni nima himoya qiladi?",
+   "a": "Dubulg‘a",
+   "w": [
+    "Qalpoq",
+    "Ko‘zoynak",
+    "Sharf"
+   ],
+   "d": 1,
+   "x": "Dubulg‘a yiqilganda boshni zarbadan saqlaydi.",
+   "e": "🚲"
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_11",
+   "t": "tf",
+   "q": "Gugurt bilan o‘ynash xavfli.",
+   "a": true,
+   "d": 1,
+   "x": "Gugurtdan yong‘in chiqishi mumkin."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_12",
+   "t": "tf",
+   "q": "Yo‘lda telefonga qarab ketish xavfli.",
+   "a": true,
+   "d": 1,
+   "x": "Telefonga qaragan odam mashinani ko‘rmay qolishi mumkin."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Yo‘lni",
+    "yashil",
+    "chiroqda",
+    "kesib",
+    "o‘ting"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_14",
+   "t": "choice",
+   "q": "Yo‘lni kesib o‘tishdan oldin avval qaysi tomonga qarash kerak?",
+   "a": "Chapga",
+   "w": [
+    "O‘ngga",
+    "Orqaga",
+    "Osmonga"
+   ],
+   "d": 2,
+   "x": "Bizda mashinalar yo‘lning o‘ng tomonidan yuradi, eng yaqin mashinalar chap tomondan keladi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_15",
+   "t": "choice",
+   "q": "Uyda gaz hidi kelsa, qaysi raqamga qo‘ng‘iroq qilinadi?",
+   "a": "104",
+   "w": [
+    "101",
+    "103",
+    "109"
+   ],
+   "d": 2,
+   "x": "104 — gaz avariya xizmati."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_16",
+   "t": "choice",
+   "q": "Uyda gaz hidi kelsa, avvalo nima qilish kerak?",
+   "a": "Derazani ochib, kattalarga aytish",
+   "w": [
+    "Gugurt yoqib ko‘rish",
+    "Chiroqni yoqish",
+    "Eshikni berkitib o‘tirish"
+   ],
+   "d": 2,
+   "x": "Gaz hidi kelganda olov yoqish va elektr tugmalarini bosish xavfli."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_17",
+   "t": "choice",
+   "q": "Xonani tutun bosganda qanday chiqish kerak?",
+   "a": "Engashib, burunni ho‘l mato bilan to‘sib",
+   "w": [
+    "Tik turib yugurib",
+    "Liftga chiqib",
+    "Shkafga yashirinib"
+   ],
+   "d": 2,
+   "x": "Tutun yuqoriga ko‘tariladi, pastda havo tozaroq bo‘ladi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_18",
+   "t": "choice",
+   "q": "Yong‘in paytida nima qilish mumkin emas?",
+   "a": "Liftdan foydalanish",
+   "w": [
+    "Zinadan tushish",
+    "101 ga qo‘ng‘iroq qilish",
+    "Kattalarga xabar berish"
+   ],
+   "d": 2,
+   "x": "Yong‘inda lift to‘xtab qolishi mumkin."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_19",
+   "t": "choice",
+   "q": "Suvda cho‘kayotgan odamni ko‘rsangiz nima qilasiz?",
+   "a": "Baland ovozda kattalarni chaqiraman",
+   "w": [
+    "O‘zim suvga sakrayman",
+    "Ketib qolaman",
+    "Rasmga olaman"
+   ],
+   "d": 2,
+   "x": "Bola o‘zi qutqarishga urinmasligi kerak, darhol kattalarni chaqiradi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_20",
+   "t": "choice",
+   "q": "Elektr uzatish simlari yaqinida nima qilish xavfli?",
+   "a": "Varrak uchirish",
+   "w": [
+    "Kitob o‘qish",
+    "Rasm chizish",
+    "Suv ichish"
+   ],
+   "d": 2,
+   "x": "Varrak ipi simga tegsa, tok urishi mumkin."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_21",
+   "t": "tf",
+   "q": "Momaqaldiroq paytida baland daraxt tagida turish xavfsiz.",
+   "a": false,
+   "d": 2,
+   "x": "Chaqmoq ko‘pincha baland daraxtlarga uriladi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_22",
+   "t": "match",
+   "q": "Vaziyatni to‘g‘ri harakat bilan juftlang",
+   "pairs": [
+    [
+     "Yong‘in chiqdi",
+     "101 ga qo‘ng‘iroq"
+    ],
+    [
+     "Odam hushidan ketdi",
+     "103 ga qo‘ng‘iroq"
+    ],
+    [
+     "Gaz hidi keldi",
+     "derazani ochish"
+    ],
+    [
+     "Svetoforda qizil chiroq",
+     "to‘xtab turish"
+    ],
+    [
+     "Uzilgan sim yotibdi",
+     "yaqinlashmaslik"
+    ],
+    [
+     "Notanish ko‘l",
+     "cho‘milmaslik"
+    ]
+   ],
+   "d": 2,
+   "x": "Xavfli vaziyatda to‘g‘ri harakat hayotni saqlaydi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_23",
+   "t": "choice",
+   "q": "Avtobusdan tushgach, yo‘lni qachon kesib o‘tish kerak?",
+   "a": "Avtobus ketgach",
+   "w": [
+    "Darhol avtobus oldidan",
+    "Darhol avtobus orqasidan",
+    "Yugurib, istalgan payt"
+   ],
+   "d": 3,
+   "x": "Turgan avtobus yo‘lni to‘sib turadi, uning ortidan kelayotgan mashina ko‘rinmaydi."
+  },
+  {
+   "topic": "science_g4.safety",
+   "id": "safety_24",
+   "t": "choice",
+   "q": "Kechqurun piyoda yurganda kiyimga nima taqish foydali?",
+   "a": "Nur qaytaruvchi belgi",
+   "w": [
+    "Qora sharf",
+    "Quloqchin",
+    "Qalin shapka"
+   ],
+   "d": 3,
+   "x": "Nur qaytaruvchi belgi mashina chiroqlarida yaltirab, piyodani uzoqdan ko‘rsatadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_1",
+   "t": "choice",
+   "q": "Tabiat qat’iy muhofaza qilinadigan, ov va daraxt kesish taqiqlangan hudud?",
+   "a": "Qo‘riqxona",
+   "w": [
+    "Istirohat bog‘i",
+    "Dala",
+    "Bozor"
+   ],
+   "d": 1,
+   "x": "Qo‘riqxonada o‘simlik va hayvonlar insondan himoyalanadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_2",
+   "t": "choice",
+   "q": "Qaysi odat suvni tejaydi?",
+   "a": "Tish yuvganda jo‘mrakni yopish",
+   "w": [
+    "Jo‘mrakni ochiq qoldirish",
+    "Hovlini shlang bilan yuvish",
+    "Suvni ariqqa oqizib qo‘yish"
+   ],
+   "d": 1,
+   "x": "Tish yuvayotganda jo‘mrakni yopsak, ko‘p suv tejaladi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_3",
+   "t": "choice",
+   "q": "Elektrni tejash uchun nima qilamiz?",
+   "a": "Xonadan chiqqanda chiroqni o‘chiramiz",
+   "w": [
+    "Chiroqni kun bo‘yi yoqamiz",
+    "Televizorni o‘chirmaymiz",
+    "Muzlatgichni ochiq qoldiramiz"
+   ],
+   "d": 1,
+   "x": "Keraksiz yonib turgan chiroq elektrni isrof qiladi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_4",
+   "t": "choice",
+   "q": "Do‘konga borganda plastik paket o‘rniga nima olgan ma’qul?",
+   "a": "Matodan tikilgan sumka",
+   "w": [
+    "Yana ko‘proq paket",
+    "Bir martalik idish",
+    "Ko‘pikli quti"
+   ],
+   "d": 1,
+   "x": "Mato sumkadan ko‘p marta foydalanish mumkin."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_5",
+   "t": "choice",
+   "q": "Nima uchun daraxtlarni kesmaslik kerak?",
+   "a": "Ular havoni tozalaydi",
+   "w": [
+    "Ular soya bermaydi",
+    "Ular shovqin qiladi",
+    "Ular suvni ifloslaydi"
+   ],
+   "d": 1,
+   "x": "Daraxtlar havoni tozalaydi, tuproqni yemirilishdan saqlaydi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_6",
+   "t": "choice",
+   "q": "Qaysi harakat tabiatga zarar?",
+   "a": "Gulxanni o‘chirmay ketish",
+   "w": [
+    "Daraxt ekish",
+    "Qushlarga uy yasash",
+    "Chiqindini yig‘ish"
+   ],
+   "d": 1,
+   "x": "O‘chirilmagan gulxandan o‘rmon va dasht yong‘ini chiqishi mumkin."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_7",
+   "t": "choice",
+   "q": "Qayta ishlash uchun plastik butilkani qaysi qutiga tashlaymiz?",
+   "a": "Plastik uchun qutiga",
+   "w": [
+    "Qog‘oz uchun qutiga",
+    "Ariqqa",
+    "Gulxanga"
+   ],
+   "d": 1,
+   "x": "Saralangan plastik zavodda qayta ishlanadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_8",
+   "t": "choice",
+   "q": "Maktab hovlisiga qushlar uchun nima osish mumkin?",
+   "a": "Qushxona",
+   "w": [
+    "Plastik paket",
+    "Tuzoq",
+    "Oyna parchasi"
+   ],
+   "d": 1,
+   "x": "Qushxona — qushlar uchun yasalgan sun’iy uya."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_9",
+   "t": "tf",
+   "q": "Qo‘riqxonada daraxt kesish taqiqlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Qo‘riqxonada tabiat o‘z holicha saqlanadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_10",
+   "t": "tf",
+   "q": "Bir kishi tabiatga hech qanday yordam bera olmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Har bir ekilgan daraxt, tejalgan suv tabiatga yordam."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_11",
+   "t": "tf",
+   "q": "Hayvonlarga ozor berish yaxshi odat.",
+   "a": false,
+   "d": 1,
+   "x": "Hayvonlarga mehribon bo‘lish kerak."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Daraxt",
+    "ekish",
+    "tabiatga",
+    "foyda",
+    "keltiradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_13",
+   "t": "choice",
+   "q": "Qaysi chiqindini qayta ishlab, yangi qog‘oz olish mumkin?",
+   "a": "Eski gazeta",
+   "w": [
+    "Oziq-ovqat qoldig‘i",
+    "Batareyka",
+    "Singan oyna"
+   ],
+   "d": 2,
+   "x": "Makulatura — eski qog‘oz, undan yangi qog‘oz tayyorlanadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_14",
+   "t": "choice",
+   "q": "Ishlatilgan batareykalarni qayerga tashlash kerak?",
+   "a": "Maxsus yig‘ish qutisiga",
+   "w": [
+    "Ariqqa",
+    "Oddiy axlatga",
+    "Tuproqqa ko‘mib"
+   ],
+   "d": 2,
+   "x": "Batareyka ichidagi moddalar tuproq va suvni zaharlaydi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_15",
+   "t": "choice",
+   "q": "Bahorda gullagan lolalarni nima uchun uzmaslik kerak?",
+   "a": "Ular kamayib ketadi",
+   "w": [
+    "Ular juda og‘ir",
+    "Ular tikanli",
+    "Ular qishda gullaydi"
+   ],
+   "d": 2,
+   "x": "Uzilgan lola urug‘ bermaydi, yovvoyi lolalar yildan-yilga kamayadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_16",
+   "t": "choice",
+   "q": "Chiqindilarni turlarga ajratib yig‘ish nima deyiladi?",
+   "a": "Saralash",
+   "w": [
+    "Yoqish",
+    "Ko‘mish",
+    "Tashlab yuborish"
+   ],
+   "d": 2,
+   "x": "Saralangan chiqindini qayta ishlash oson."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_17",
+   "t": "choice",
+   "q": "Nima uchun chiqindini yoqish zararli?",
+   "a": "Havo zaharli tutunga to‘ladi",
+   "w": [
+    "Chiqindi ko‘payadi",
+    "Tuproq unumdor bo‘ladi",
+    "Havo tozalanadi"
+   ],
+   "d": 2,
+   "x": "Plastik va boshqa chiqindilar yonganda zaharli tutun chiqadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_18",
+   "t": "tf",
+   "q": "Shisha idishni qayta ishlab, yangi shisha olish mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "Shisha eritilib, qayta ishlatiladi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_19",
+   "t": "match",
+   "q": "Chiqindini saralash qutisi bilan juftlang",
+   "pairs": [
+    [
+     "Eski gazeta",
+     "qog‘oz"
+    ],
+    [
+     "Suv butilkasi",
+     "plastik"
+    ],
+    [
+     "Shisha banka",
+     "shisha"
+    ],
+    [
+     "Konserva qutisi",
+     "metall"
+    ],
+    [
+     "Olma po‘chog‘i",
+     "oziq-ovqat qoldig‘i"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir chiqindi o‘z qutisiga tashlanadi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_20",
+   "t": "choice",
+   "q": "Chotqol qo‘riqxonasi qaysi viloyatda?",
+   "a": "Toshkent viloyatida",
+   "w": [
+    "Xorazm viloyatida",
+    "Buxoro viloyatida",
+    "Navoiy viloyatida"
+   ],
+   "d": 3,
+   "x": "Chotqol qo‘riqxonasi Toshkent viloyatining tog‘li qismida joylashgan."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_21",
+   "t": "choice",
+   "q": "Zomin qo‘riqxonasi qaysi viloyatda?",
+   "a": "Jizzax viloyatida",
+   "w": [
+    "Xorazm viloyatida",
+    "Andijon viloyatida",
+    "Qoraqalpog‘istonda"
+   ],
+   "d": 3,
+   "x": "Zomin qo‘riqxonasi Jizzax viloyatidagi Turkiston tizmasida joylashgan."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_22",
+   "t": "choice",
+   "q": "Butunjahon atrof-muhitni muhofaza qilish kuni qachon nishonlanadi?",
+   "a": "5-iyunda",
+   "w": [
+    "1-yanvarda",
+    "8-martda",
+    "1-sentabrda"
+   ],
+   "d": 3,
+   "x": "Har yili 5-iyunda butun dunyoda tabiatni asrashga chaqiruvchi tadbirlar o‘tkaziladi."
+  },
+  {
+   "topic": "science_g4.protect",
+   "id": "protect_23",
+   "t": "choice",
+   "q": "Faqat G‘arbiy Tyan-Shan tog‘larida yashaydigan kamyob hayvon qaysi?",
+   "a": "Menzbir sug‘uri",
+   "w": [
+    "Uy sichqoni",
+    "Chumchuq",
+    "Kaptar"
+   ],
+   "d": 3,
+   "x": "Menzbir sug‘uri O‘zbekiston Qizil kitobiga kiritilgan."
+  }
+ ]
+}

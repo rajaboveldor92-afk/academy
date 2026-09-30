@@ -1,0 +1,5002 @@
+{
+ "items": [
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_1",
+   "t": "choice",
+   "q": "“take” fe’lining o‘tgan zamon shakli",
+   "a": "took",
+   "w": [
+    "taked",
+    "taken",
+    "tooked"
+   ],
+   "d": 1,
+   "x": "Noto‘g‘ri fe’l: take → took.",
+   "say": "take",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_2",
+   "t": "choice",
+   "q": "“write” fe’lining o‘tgan zamon shakli",
+   "a": "wrote",
+   "w": [
+    "writed",
+    "written",
+    "wrought"
+   ],
+   "d": 1,
+   "x": "Noto‘g‘ri fe’l: write → wrote (written — 3-shakl).",
+   "say": "write",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_3",
+   "t": "choice",
+   "q": "“find” fe’lining o‘tgan zamon shakli",
+   "a": "found",
+   "w": [
+    "finded",
+    "fond",
+    "finds"
+   ],
+   "d": 1,
+   "x": "Noto‘g‘ri fe’l: find → found.",
+   "say": "find",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Last year we ... in a small village.",
+   "a": "lived",
+   "w": [
+    "live",
+    "lives",
+    "living"
+   ],
+   "d": 1,
+   "x": "last year — o‘tgan zamon: live → lived.",
+   "say": "Last year we ... in a small village.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She ... a letter to her pen friend yesterday.",
+   "a": "wrote",
+   "w": [
+    "writes",
+    "write",
+    "writed"
+   ],
+   "d": 1,
+   "x": "yesterday — o‘tgan zamon: write → wrote.",
+   "say": "She ... a letter to her pen friend yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... my keys under the sofa this morning.",
+   "a": "found",
+   "w": [
+    "find",
+    "finded",
+    "finds"
+   ],
+   "d": 1,
+   "x": "find → found.",
+   "say": "I ... my keys under the sofa this morning.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... you finish your project? — Yes, I did.",
+   "a": "Did",
+   "w": [
+    "Do",
+    "Were",
+    "Have"
+   ],
+   "d": 1,
+   "x": "Javob Yes, I did — demak savol Did bilan.",
+   "say": "... you finish your project? — Yes, I did.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kecha biz o‘yinni ko‘rmadik.",
+   "w": [
+    "Kecha biz o‘yinni ko‘rdik.",
+    "Bugun biz o‘yinni ko‘rmaymiz.",
+    "Kecha ular o‘yinni ko‘rmadi."
+   ],
+   "d": 1,
+   "x": "We didn't watch the match yesterday. — Kecha biz o‘yinni ko‘rmadik.",
+   "say": "We didn't watch the match yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_9",
+   "t": "tf",
+   "q": "“My grandfather taught maths for thirty years.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: teach → taught.",
+   "say": "My grandfather taught maths for thirty years.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_10",
+   "t": "tf",
+   "q": "“Did he found his bag?” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "Did dan keyin fe’lning oddiy shakli: Did he find his bag?",
+   "say": "Did he found his bag?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_11",
+   "t": "choice",
+   "q": "Qaysi so‘z birikmasi o‘tgan zamonni bildiradi?",
+   "a": "two days ago",
+   "w": [
+    "next week",
+    "tomorrow",
+    "every day"
+   ],
+   "d": 1,
+   "x": "two days ago — ikki kun oldin (o‘tgan zamon)."
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_12",
+   "t": "choice",
+   "q": "“bring” fe’lining o‘tgan zamon shakli",
+   "a": "brought",
+   "w": [
+    "bringed",
+    "brang",
+    "bought"
+   ],
+   "d": 2,
+   "x": "bring → brought; bought — buy fe’lining o‘tgan zamoni.",
+   "say": "bring",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_13",
+   "t": "choice",
+   "q": "“teach” fe’lining o‘tgan zamon shakli",
+   "a": "taught",
+   "w": [
+    "teached",
+    "thought",
+    "tought"
+   ],
+   "d": 2,
+   "x": "teach → taught; thought — think fe’lining o‘tgan zamoni.",
+   "say": "teach",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_14",
+   "t": "choice",
+   "q": "“study” fe’lining o‘tgan zamon shakli",
+   "a": "studied",
+   "w": [
+    "studyed",
+    "studed",
+    "studid"
+   ],
+   "d": 2,
+   "x": "Undosh + y → -ied: studied.",
+   "say": "study",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_15",
+   "t": "choice",
+   "q": "“drop” fe’lining o‘tgan zamon shakli",
+   "a": "dropped",
+   "w": [
+    "droped",
+    "dropt",
+    "drops"
+   ],
+   "d": 2,
+   "x": "Qisqa fe’lda oxirgi undosh ikkilanadi: dropped.",
+   "say": "drop",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_16",
+   "t": "choice",
+   "q": "“swim” fe’lining o‘tgan zamon shakli",
+   "a": "swam",
+   "w": [
+    "swimmed",
+    "swum",
+    "swimed"
+   ],
+   "d": 2,
+   "x": "swim → swam (swum — 3-shakl).",
+   "say": "swim",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: They didn't ... the bus.",
+   "a": "catch",
+   "w": [
+    "caught",
+    "catches",
+    "catched"
+   ],
+   "d": 2,
+   "x": "didn't dan keyin fe’lning oddiy shakli: didn't catch.",
+   "say": "They didn't ... the bus.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Where ... you go last summer?",
+   "a": "did",
+   "w": [
+    "do",
+    "were",
+    "was"
+   ],
+   "d": 2,
+   "x": "O‘tgan zamonda so‘roq so‘zi + did: Where did you go?",
+   "say": "Where ... you go last summer?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_19",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: What ... Kamila buy at the market yesterday?",
+   "a": "did",
+   "w": [
+    "does",
+    "was",
+    "is"
+   ],
+   "d": 2,
+   "x": "yesterday — o‘tgan zamon: What did Kamila buy?",
+   "say": "What ... Kamila buy at the market yesterday?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_20",
+   "t": "choice",
+   "q": "Inkor shaklini tanlang: He took the train.",
+   "a": "He didn't take the train.",
+   "w": [
+    "He didn't took the train.",
+    "He not took the train.",
+    "He doesn't took the train."
+   ],
+   "d": 2,
+   "x": "didn't + fe’lning oddiy shakli: didn't take.",
+   "say": "He took the train.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_21",
+   "t": "choice",
+   "q": "Savol shaklini tanlang: They arrived at six.",
+   "a": "Did they arrive at six?",
+   "w": [
+    "Did they arrived at six?",
+    "Do they arrived at six?",
+    "Arrived they at six?"
+   ],
+   "d": 2,
+   "x": "Did + ega + fe’lning oddiy shakli.",
+   "say": "They arrived at six.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_22",
+   "t": "match",
+   "q": "Fe’lni o‘tgan zamon shakli bilan juftlang",
+   "pairs": [
+    [
+     "take",
+     "took"
+    ],
+    [
+     "write",
+     "wrote"
+    ],
+    [
+     "find",
+     "found"
+    ],
+    [
+     "bring",
+     "brought"
+    ],
+    [
+     "teach",
+     "taught"
+    ],
+    [
+     "fly",
+     "flew"
+    ],
+    [
+     "swim",
+     "swam"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_23",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Konsert sizga yoqdimi?",
+   "w": [
+    "Konsertga borasizmi?",
+    "Konsert qachon edi?",
+    "Konsertni yoqtirasizmi?"
+   ],
+   "d": 2,
+   "x": "Did you enjoy the concert? — Konsert sizga yoqdimi?",
+   "say": "Did you enjoy the concert?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "travelled",
+    "to",
+    "Bukhara",
+    "by",
+    "train"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "We travelled to Bukhara by train. — Biz Buxoroga poyezdda bordik.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_25",
+   "t": "choice",
+   "q": "“fly” fe’lining o‘tgan zamon shakli",
+   "a": "flew",
+   "w": [
+    "flied",
+    "flown",
+    "flyed"
+   ],
+   "d": 3,
+   "x": "fly → flew (flown — 3-shakl).",
+   "say": "fly",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_26",
+   "t": "choice",
+   "q": "“think” fe’lining o‘tgan zamon shakli",
+   "a": "thought",
+   "w": [
+    "thinked",
+    "thank",
+    "taught"
+   ],
+   "d": 3,
+   "x": "think → thought.",
+   "say": "think",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_27",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Yesterday I ... my bike to school.",
+   "a": "rode",
+   "w": [
+    "rided",
+    "ridden",
+    "ride"
+   ],
+   "d": 3,
+   "x": "ride → rode (ridden — 3-shakl).",
+   "say": "Yesterday I ... my bike to school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_28",
+   "t": "choice",
+   "q": "Javobga mos savolni tanlang: I got up at six.",
+   "a": "What time did you get up?",
+   "w": [
+    "What time do you got up?",
+    "What time did you got up?",
+    "When you got up?"
+   ],
+   "d": 3,
+   "x": "What time + did + ega + fe’lning oddiy shakli.",
+   "say": "I got up at six.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.past_simple",
+   "id": "past_simple_29",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "did",
+    "you",
+    "do",
+    "at",
+    "the",
+    "weekend"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What did you do at the weekend? — Dam olish kunlari nima qilding?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_1",
+   "t": "choice",
+   "q": "“chamadon” inglizcha qanday?",
+   "a": "suitcase",
+   "w": [
+    "passport",
+    "ticket",
+    "map"
+   ],
+   "d": 1,
+   "x": "suitcase — chamadon."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_2",
+   "t": "choice",
+   "q": "“chipta” inglizcha qanday?",
+   "a": "ticket",
+   "w": [
+    "hotel",
+    "guide",
+    "suitcase"
+   ],
+   "d": 1,
+   "x": "ticket — chipta."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_3",
+   "t": "choice",
+   "q": "Boshqa davlatga uchish uchun qaysi hujjat kerak?",
+   "a": "a passport",
+   "w": [
+    "a menu",
+    "a diary",
+    "a timetable"
+   ],
+   "d": 1,
+   "x": "passport — pasport, chet elga chiqish hujjati."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_4",
+   "t": "choice",
+   "q": "Qayerda samolyotga chiqamiz?",
+   "a": "at the airport",
+   "w": [
+    "at the railway station",
+    "at the bus stop",
+    "at the port"
+   ],
+   "d": 1,
+   "x": "airport — aeroport."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We went to Samarkand ... train.",
+   "a": "by",
+   "w": [
+    "on",
+    "with",
+    "in"
+   ],
+   "d": 1,
+   "x": "Transport bilan by: by train.",
+   "say": "We went to Samarkand ... train.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Don't forget to pack your ...!",
+   "a": "suitcase",
+   "w": [
+    "ticket office",
+    "hotel",
+    "airport"
+   ],
+   "d": 1,
+   "x": "pack a suitcase — chamadon yig‘moq.",
+   "say": "Don't forget to pack your ...!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We stayed in a nice ... near the sea.",
+   "a": "hotel",
+   "w": [
+    "ticket",
+    "passport",
+    "suitcase"
+   ],
+   "d": 1,
+   "x": "stay in a hotel — mehmonxonada turmoq.",
+   "say": "We stayed in a nice ... near the sea.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_8",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "go on holiday",
+     "ta’tilga chiqmoq"
+    ],
+    [
+     "pack a suitcase",
+     "chamadon yig‘moq"
+    ],
+    [
+     "book a hotel",
+     "mehmonxona band qilmoq"
+    ],
+    [
+     "take photos",
+     "suratga olmoq"
+    ],
+    [
+     "buy a ticket",
+     "chipta sotib olmoq"
+    ],
+    [
+     "miss the train",
+     "poyezddan qolib ketmoq"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_9",
+   "t": "tf",
+   "q": "“journey” — safar, yo‘l yurish degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: journey — safar.",
+   "say": "journey",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_10",
+   "t": "choice",
+   "q": "Qaysi so‘z transport emas?",
+   "a": "suitcase",
+   "w": [
+    "train",
+    "plane",
+    "ship"
+   ],
+   "d": 1,
+   "x": "suitcase — chamadon."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "dad",
+    "bought",
+    "the",
+    "tickets",
+    "online"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "My dad bought the tickets online. — Dadam chiptalarni internetda sotib oldi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_12",
+   "t": "choice",
+   "q": "“vokzal (temir yo‘l)” britancha qanday?",
+   "a": "railway station",
+   "w": [
+    "airport",
+    "bus stop",
+    "harbour"
+   ],
+   "d": 2,
+   "x": "Britaniyada temir yo‘l vokzali — railway station."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I walk to school. I go on ...",
+   "a": "foot",
+   "w": [
+    "feet",
+    "walk",
+    "legs"
+   ],
+   "d": 2,
+   "x": "Piyoda — on foot.",
+   "say": "I walk to school. I go on ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Let's go ... in the old town.",
+   "a": "sightseeing",
+   "w": [
+    "swimming pool",
+    "sight",
+    "tourist"
+   ],
+   "d": 2,
+   "x": "go sightseeing — diqqatga sazovor joylarni ko‘rgani bormoq.",
+   "say": "Let's go ... in the old town.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The train ... at 9:15 and arrived at 11:30.",
+   "a": "left",
+   "w": [
+    "leaved",
+    "leave",
+    "lefted"
+   ],
+   "d": 2,
+   "x": "leave → left (jo‘nab ketdi).",
+   "say": "The train ... at 9:15 and arrived at 11:30.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_16",
+   "t": "match",
+   "q": "Shahar va diqqatga sazovor joyni juftlang",
+   "pairs": [
+    [
+     "Samarkand",
+     "the Registan"
+    ],
+    [
+     "Bukhara",
+     "the Ark"
+    ],
+    [
+     "Khiva",
+     "Itchan Kala"
+    ],
+    [
+     "Tashkent",
+     "the TV Tower"
+    ],
+    [
+     "Shakhrisabz",
+     "Ak-Saray Palace"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_17",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Safaringiz yaxshi o‘tsin!",
+   "w": [
+    "Xush kelibsiz!",
+    "Yaxshi dam oling!",
+    "Tezroq qayting!"
+   ],
+   "d": 2,
+   "x": "Have a good trip! — Safaringiz yaxshi o‘tsin!",
+   "say": "Have a good trip!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_18",
+   "t": "tf",
+   "q": "“by foot” — to‘g‘ri ibora.",
+   "a": false,
+   "d": 2,
+   "x": "Piyoda — on foot; by esa transport bilan: by bus, by car.",
+   "say": "by foot",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_19",
+   "t": "choice",
+   "q": "“Where did you go on holiday?” savoliga mos javobni tanlang",
+   "a": "We went to the mountains.",
+   "w": [
+    "We go to the mountains every day.",
+    "By train.",
+    "Yes, we did."
+   ],
+   "d": 2,
+   "x": "Where? — qayerga? Javobda joy: to the mountains.",
+   "say": "Where did you go on holiday?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_20",
+   "t": "choice",
+   "q": "“How did you get there?” savoliga mos javobni tanlang",
+   "a": "We went by plane.",
+   "w": [
+    "We stayed for a week.",
+    "It was great.",
+    "In July."
+   ],
+   "d": 2,
+   "x": "How? — qanday (nima bilan)? Javob: by plane.",
+   "say": "How did you get there?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "stayed",
+    "in",
+    "a",
+    "hotel",
+    "near",
+    "the",
+    "beach"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "We stayed in a hotel near the beach. — Biz sohil yaqinidagi mehmonxonada turdik.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_22",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Tirbandlik tufayli samolyotga ulgurmadik.",
+   "w": [
+    "Tirbandlik tufayli poyezdga ulgurmadik.",
+    "Samolyotga o‘z vaqtida yetib keldik.",
+    "Tirbandlik tufayli samolyot kechikdi."
+   ],
+   "d": 3,
+   "x": "We missed the plane because of the traffic. — Tirbandlik tufayli samolyotga ulgurmadik.",
+   "say": "We missed the plane because of the traffic.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_23",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Safar qancha vaqt oladi?",
+   "w": [
+    "Safar qachon boshlanadi?",
+    "Chipta qancha turadi?",
+    "Poyezd qayerdan jo‘naydi?"
+   ],
+   "d": 3,
+   "x": "How long does the journey take? — Safar qancha vaqt oladi?",
+   "say": "How long does the journey take?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_24",
+   "t": "choice",
+   "q": "Mehmonxonada xona band qilganda nima deymiz?",
+   "a": "I'd like to book a room, please.",
+   "w": [
+    "I'd like to book a ticket for a room.",
+    "Give me the room now.",
+    "Where is the room of me?"
+   ],
+   "d": 3,
+   "x": "Xushmuomala so‘rov: I'd like to book a room, please."
+  },
+  {
+   "topic": "english_g6.travel",
+   "id": "travel_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "How",
+    "did",
+    "you",
+    "travel",
+    "to",
+    "Khiva"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "How did you travel to Khiva? — Xivaga qanday bording?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_1",
+   "t": "choice",
+   "q": "“quick” sifatidan hosil bo‘lgan ravish",
+   "a": "quickly",
+   "w": [
+    "quickily",
+    "quickely",
+    "quick"
+   ],
+   "d": 1,
+   "x": "quick + -ly = quickly (tez).",
+   "say": "quick",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_2",
+   "t": "choice",
+   "q": "“slow” sifatidan hosil bo‘lgan ravish",
+   "a": "slowly",
+   "w": [
+    "slowily",
+    "slowlly",
+    "slowely"
+   ],
+   "d": 1,
+   "x": "slow + -ly = slowly (sekin).",
+   "say": "slow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_3",
+   "t": "choice",
+   "q": "“good” sifatidan hosil bo‘lgan ravish",
+   "a": "well",
+   "w": [
+    "goodly",
+    "good",
+    "better"
+   ],
+   "d": 1,
+   "x": "Maxsus shakl: good → well.",
+   "say": "good",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The tortoise walks very ...",
+   "a": "slowly",
+   "w": [
+    "slow",
+    "slowing",
+    "slows"
+   ],
+   "d": 1,
+   "x": "walks — fe’l; uni ravish tasvirlaydi: slowly.",
+   "say": "The tortoise walks very ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Please speak ... . The baby is sleeping.",
+   "a": "quietly",
+   "w": [
+    "quiet",
+    "quietness",
+    "loudly"
+   ],
+   "d": 1,
+   "x": "Chaqaloq uxlayapti — sekin (quietly) gapiramiz.",
+   "say": "Please speak ... . The baby is sleeping.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Madina sings very ...",
+   "a": "well",
+   "w": [
+    "good",
+    "goodly",
+    "nice"
+   ],
+   "d": 1,
+   "x": "sings — fe’l, shuning uchun well.",
+   "say": "Madina sings very ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_7",
+   "t": "choice",
+   "q": "Qaysi so‘z ravish?",
+   "a": "badly",
+   "w": [
+    "bad",
+    "bed",
+    "badge"
+   ],
+   "d": 1,
+   "x": "badly — yomon (ravish); bad — sifat."
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_8",
+   "t": "choice",
+   "q": "“Sekin” (ravish) inglizcha qanday?",
+   "a": "slowly",
+   "w": [
+    "slow",
+    "slower",
+    "slowness"
+   ],
+   "d": 1,
+   "x": "slowly — sekin (ravish)."
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Iltimos, ehtiyotkorlik bilan haydang.",
+   "w": [
+    "Iltimos, tezroq haydang.",
+    "U ehtiyotkor haydovchi.",
+    "Iltimos, sekin yuring."
+   ],
+   "d": 1,
+   "x": "Please drive carefully. — Iltimos, ehtiyotkorlik bilan haydang.",
+   "say": "Please drive carefully.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_10",
+   "t": "tf",
+   "q": "“He speaks English very good.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "Fe’lni ravish tasvirlaydi: He speaks English very well.",
+   "say": "He speaks English very good.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_11",
+   "t": "tf",
+   "q": "“The cat jumped quickly onto the table.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: jumped — fe’l, quickly — ravish.",
+   "say": "The cat jumped quickly onto the table.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_12",
+   "t": "choice",
+   "q": "“careful” sifatidan hosil bo‘lgan ravish",
+   "a": "carefully",
+   "w": [
+    "carefuly",
+    "carefulily",
+    "carefullly"
+   ],
+   "d": 2,
+   "x": "careful + -ly = carefully (ikkita l).",
+   "say": "careful",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_13",
+   "t": "choice",
+   "q": "“easy” sifatidan hosil bo‘lgan ravish",
+   "a": "easily",
+   "w": [
+    "easyly",
+    "easly",
+    "easilly"
+   ],
+   "d": 2,
+   "x": "-y → -ily: easily.",
+   "say": "easy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_14",
+   "t": "choice",
+   "q": "“happy” sifatidan hosil bo‘lgan ravish",
+   "a": "happily",
+   "w": [
+    "happyly",
+    "happly",
+    "happilly"
+   ],
+   "d": 2,
+   "x": "-y → -ily: happily.",
+   "say": "happy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: He answered all the questions ...",
+   "a": "correctly",
+   "w": [
+    "correct",
+    "corrects",
+    "correction"
+   ],
+   "d": 2,
+   "x": "answered — fe’l, shuning uchun ravish: correctly (to‘g‘ri).",
+   "say": "He answered all the questions ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Read the instructions ...",
+   "a": "carefully",
+   "w": [
+    "careful",
+    "care",
+    "carefulness"
+   ],
+   "d": 2,
+   "x": "Read — fe’l: carefully (diqqat bilan).",
+   "say": "Read the instructions ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_17",
+   "t": "match",
+   "q": "Sifat va ravishni juftlang",
+   "pairs": [
+    [
+     "quick",
+     "quickly"
+    ],
+    [
+     "good",
+     "well"
+    ],
+    [
+     "easy",
+     "easily"
+    ],
+    [
+     "careful",
+     "carefully"
+    ],
+    [
+     "loud",
+     "loudly"
+    ],
+    [
+     "happy",
+     "happily"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bolalar bog‘da xursand o‘ynashdi.",
+   "w": [
+    "Bolalar bog‘da jim o‘tirishdi.",
+    "Bolalar bog‘da xursand o‘ynayapti.",
+    "Bolalar bog‘da tez yugurishdi."
+   ],
+   "d": 2,
+   "x": "The children played happily in the garden. — Bolalar bog‘da xursand o‘ynashdi.",
+   "say": "The children played happily in the garden.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_19",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "The",
+    "old",
+    "man",
+    "walked",
+    "slowly",
+    "to",
+    "the",
+    "bus",
+    "stop"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "The old man walked slowly to the bus stop. — Qariya avtobus bekatiga sekin yurib bordi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Please",
+    "write",
+    "your",
+    "name",
+    "clearly"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Please write your name clearly. — Iltimos, ismingizni aniq yozing.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_21",
+   "t": "choice",
+   "q": "“fast” sifatidan hosil bo‘lgan ravish",
+   "a": "fast",
+   "w": [
+    "fastly",
+    "fastily",
+    "faster"
+   ],
+   "d": 3,
+   "x": "fast — sifat ham, ravish ham: He runs fast. (fastly degan so‘z yo‘q)",
+   "say": "fast",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_22",
+   "t": "choice",
+   "q": "“gentle” sifatidan hosil bo‘lgan ravish",
+   "a": "gently",
+   "w": [
+    "gentlely",
+    "gentely",
+    "gentlly"
+   ],
+   "d": 3,
+   "x": "-le → -ly: gently (mayin).",
+   "say": "gentle",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My brother works very ... . He is always busy.",
+   "a": "hard",
+   "w": [
+    "hardly",
+    "hardy",
+    "harden"
+   ],
+   "d": 3,
+   "x": "work hard — qattiq ishlamoq; hardly — “deyarli … emas”.",
+   "say": "My brother works very ... . He is always busy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_24",
+   "t": "choice",
+   "q": "Qaysi so‘z ravish?",
+   "a": "loudly",
+   "w": [
+    "loud",
+    "lovely",
+    "friendly"
+   ],
+   "d": 3,
+   "x": "loudly — baland ovozda (ravish). lovely va friendly -ly bilan tugasa ham sifat."
+  },
+  {
+   "topic": "english_g6.adverbs",
+   "id": "adverbs_25",
+   "t": "choice",
+   "q": "Ravish bilan qayta yozing: She is a slow reader.",
+   "a": "She reads slowly.",
+   "w": [
+    "She reads slow.",
+    "She slowly reader.",
+    "She reads slower."
+   ],
+   "d": 3,
+   "x": "slow reader (sifat + ot) → reads slowly (fe’l + ravish).",
+   "say": "She is a slow reader.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I think it ... rain tomorrow.",
+   "a": "will",
+   "w": [
+    "is",
+    "does",
+    "was"
+   ],
+   "d": 1,
+   "x": "Bashorat — will: it will rain.",
+   "say": "I think it ... rain tomorrow.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I'm cold. — Wait, I ... close the window.",
+   "a": "will",
+   "w": [
+    "am",
+    "was",
+    "do"
+   ],
+   "d": 1,
+   "x": "Shu zahoti qilingan qaror — will: I'll close the window.",
+   "say": "I'm cold. — Wait, I ... close the window.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We are ... to visit Samarkand next month.",
+   "a": "going",
+   "w": [
+    "go",
+    "goes",
+    "gone"
+   ],
+   "d": 1,
+   "x": "Reja: be going to — We are going to visit.",
+   "say": "We are ... to visit Samarkand next month.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She is going ... a new dress.",
+   "a": "to buy",
+   "w": [
+    "buy",
+    "buying",
+    "to buys"
+   ],
+   "d": 1,
+   "x": "going to + fe’l: going to buy.",
+   "say": "She is going ... a new dress.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: They ... going to watch the match tonight.",
+   "a": "are",
+   "w": [
+    "is",
+    "will",
+    "am"
+   ],
+   "d": 1,
+   "x": "they bilan are going to.",
+   "say": "They ... going to watch the match tonight.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_6",
+   "t": "choice",
+   "q": "Qaysi gap kelasi zamonda?",
+   "a": "We will fly to London.",
+   "w": [
+    "We flew to London.",
+    "We fly to London every year.",
+    "We are flying now."
+   ],
+   "d": 1,
+   "x": "will + fe’l — kelasi zamon."
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_7",
+   "t": "choice",
+   "q": "Qaysi so‘z birikmasi kelajakni bildiradi?",
+   "a": "next year",
+   "w": [
+    "last year",
+    "yesterday",
+    "two days ago"
+   ],
+   "d": 1,
+   "x": "next year — kelasi yil."
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Keyinroq senga qo‘ng‘iroq qilaman.",
+   "w": [
+    "Hozir senga qo‘ng‘iroq qilyapman.",
+    "Kecha senga qo‘ng‘iroq qildim.",
+    "Keyinroq menga qo‘ng‘iroq qil."
+   ],
+   "d": 1,
+   "x": "I'll call you later. — Keyinroq senga qo‘ng‘iroq qilaman.",
+   "say": "I'll call you later.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_9",
+   "t": "tf",
+   "q": "“She will goes to the party.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "will dan keyin fe’l o‘zgarmaydi: She will go.",
+   "say": "She will goes to the party.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_10",
+   "t": "tf",
+   "q": "“I'm going to read this book next week.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: am going to + read.",
+   "say": "I'm going to read this book next week.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_11",
+   "t": "match",
+   "q": "To‘liq va qisqa shaklni juftlang",
+   "pairs": [
+    [
+     "I will",
+     "I'll"
+    ],
+    [
+     "you will",
+     "you'll"
+    ],
+    [
+     "she will",
+     "she'll"
+    ],
+    [
+     "we will",
+     "we'll"
+    ],
+    [
+     "they will",
+     "they'll"
+    ],
+    [
+     "will not",
+     "won't"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I've got a ticket. I ... going to see the concert tonight.",
+   "a": "am",
+   "w": [
+    "will",
+    "is",
+    "do"
+   ],
+   "d": 1,
+   "x": "I bilan am going to.",
+   "say": "I've got a ticket. I ... going to see the concert tonight.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Don't worry, I ... tell anyone.",
+   "a": "won't",
+   "w": [
+    "don't",
+    "am not",
+    "wasn't"
+   ],
+   "d": 2,
+   "x": "Va’da (inkor): I won't tell anyone.",
+   "say": "Don't worry, I ... tell anyone.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Look at those black clouds! It's going to ...",
+   "a": "rain",
+   "w": [
+    "raining",
+    "rains",
+    "rained"
+   ],
+   "d": 2,
+   "x": "going to + fe’lning oddiy shakli: going to rain.",
+   "say": "Look at those black clouds! It's going to ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... you help me with my homework? — Yes, of course.",
+   "a": "Will",
+   "w": [
+    "Are",
+    "Do",
+    "Did"
+   ],
+   "d": 2,
+   "x": "Iltimos yoki taklif: Will you help me?",
+   "say": "... you help me with my homework? — Yes, of course.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_16",
+   "t": "choice",
+   "q": "Inkor shaklini tanlang: He will be at home.",
+   "a": "He won't be at home.",
+   "w": [
+    "He willn't be at home.",
+    "He will not is at home.",
+    "He doesn't will be at home."
+   ],
+   "d": 2,
+   "x": "will not = won't: He won't be at home.",
+   "say": "He will be at home.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_17",
+   "t": "choice",
+   "q": "Savol shaklini tanlang: She is going to learn French.",
+   "a": "Is she going to learn French?",
+   "w": [
+    "Does she going to learn French?",
+    "Will she going to learn French?",
+    "She is going learn French?"
+   ],
+   "d": 2,
+   "x": "is oldinga chiqadi: Is she going to …?",
+   "say": "She is going to learn French.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Shu dam olish kunlari oshxonani bo‘yamoqchimiz.",
+   "w": [
+    "O‘tgan dam olish kunlari oshxonani bo‘yadik.",
+    "Shu dam olish kunlari mehmonxonani bo‘yamoqchimiz.",
+    "Oshxonani bo‘yashni yoqtiramiz."
+   ],
+   "d": 2,
+   "x": "We're going to paint the kitchen this weekend. — Shu dam olish kunlari oshxonani bo‘yamoqchimiz.",
+   "say": "We're going to paint the kitchen this weekend.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu oson bo‘lmaydi.",
+   "w": [
+    "Bu oson bo‘ladi.",
+    "Bu oson emas edi.",
+    "Bu juda qiyin edi."
+   ],
+   "d": 2,
+   "x": "It won't be easy. — Bu oson bo‘lmaydi.",
+   "say": "It won't be easy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_20",
+   "t": "choice",
+   "q": "“Will it be sunny tomorrow?” savoliga qisqa javob",
+   "a": "Yes, it will.",
+   "w": [
+    "Yes, it is.",
+    "Yes, it does.",
+    "Yes, it wills."
+   ],
+   "d": 2,
+   "x": "Will …? savoliga qisqa javob: Yes, it will. / No, it won't.",
+   "say": "Will it be sunny tomorrow?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "will",
+    "send",
+    "you",
+    "a",
+    "message",
+    "tomorrow"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I will send you a message tomorrow. — Ertaga senga xabar yuboraman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "parents",
+    "are",
+    "going",
+    "to",
+    "buy",
+    "a",
+    "new",
+    "car"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My parents are going to buy a new car. — Ota-onam yangi mashina sotib olmoqchi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Is Nodir going to come? — No, he ...",
+   "a": "isn't",
+   "w": [
+    "doesn't",
+    "aren't",
+    "didn't"
+   ],
+   "d": 3,
+   "x": "Is …going to…? savoliga qisqa javob: No, he isn't.",
+   "say": "Is Nodir going to come? — No, he ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_24",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Next year my sister ... ten.",
+   "a": "will be",
+   "w": [
+    "is being",
+    "was",
+    "has been"
+   ],
+   "d": 3,
+   "x": "Kelasi yil — will be: My sister will be ten.",
+   "say": "Next year my sister ... ten.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_25",
+   "t": "choice",
+   "q": "Mos javobni tanlang: “The phone is ringing!”",
+   "a": "I'll answer it.",
+   "w": [
+    "I answered it.",
+    "I'm answer it.",
+    "I will answering it."
+   ],
+   "d": 3,
+   "x": "Shu zahoti qaror — will: I'll answer it.",
+   "say": "The phone is ringing!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.future",
+   "id": "future_26",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "are",
+    "you",
+    "going",
+    "to",
+    "do",
+    "this",
+    "summer"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What are you going to do this summer? — Bu yoz nima qilmoqchisan?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_1",
+   "t": "choice",
+   "q": "“Boshim og‘riyapti” inglizcha qanday?",
+   "a": "I've got a headache.",
+   "w": [
+    "I've got a cold.",
+    "My leg hurts.",
+    "I've got a sore throat."
+   ],
+   "d": 1,
+   "x": "headache — bosh og‘rig‘i."
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_2",
+   "t": "choice",
+   "q": "“Tomog‘im og‘riyapti” inglizcha qanday?",
+   "a": "I've got a sore throat.",
+   "w": [
+    "I've got a headache.",
+    "My back hurts.",
+    "I've got a cough."
+   ],
+   "d": 1,
+   "x": "sore throat — tomoq og‘rig‘i."
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_3",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "headache",
+     "bosh og‘rig‘i"
+    ],
+    [
+     "toothache",
+     "tish og‘rig‘i"
+    ],
+    [
+     "sore throat",
+     "tomoq og‘rig‘i"
+    ],
+    [
+     "cough",
+     "yo‘tal"
+    ],
+    [
+     "temperature",
+     "isitma"
+    ],
+    [
+     "stomach ache",
+     "qorin og‘rig‘i"
+    ],
+    [
+     "medicine",
+     "dori"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_4",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Nima bo‘ldi?",
+   "w": [
+    "Soat necha?",
+    "Qayerdansiz?",
+    "Nima qilyapsiz?"
+   ],
+   "d": 1,
+   "x": "What's the matter? — Nima bo‘ldi?",
+   "say": "What's the matter?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You've got a cold. You ... stay in bed.",
+   "a": "should",
+   "w": [
+    "shouldn't",
+    "mustn't",
+    "can't"
+   ],
+   "d": 1,
+   "x": "Maslahat — should: You should stay in bed.",
+   "say": "You've got a cold. You ... stay in bed.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You ... eat so many sweets. They're bad for your teeth.",
+   "a": "shouldn't",
+   "w": [
+    "should",
+    "must",
+    "have"
+   ],
+   "d": 1,
+   "x": "Yomon odatdan qaytarish — shouldn't.",
+   "say": "You ... eat so many sweets. They're bad for your teeth.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I've got toothache. I'm going to the ...",
+   "a": "dentist",
+   "w": [
+    "vet",
+    "baker",
+    "hairdresser"
+   ],
+   "d": 1,
+   "x": "Tish og‘risa — tish shifokoriga (dentist).",
+   "say": "I've got toothache. I'm going to the ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My ... hurts. I can't walk.",
+   "a": "leg",
+   "w": [
+    "ear",
+    "tooth",
+    "throat"
+   ],
+   "d": 1,
+   "x": "Yura olmayman — oyog‘im (leg) og‘riyapti.",
+   "say": "My ... hurts. I can't walk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Ko‘p suv ichishingiz kerak.",
+   "w": [
+    "Ko‘p suv ichmasligingiz kerak.",
+    "Men ko‘p suv ichaman.",
+    "Suv ichish mumkin emas."
+   ],
+   "d": 1,
+   "x": "You should drink a lot of water. — Ko‘p suv ichishingiz kerak.",
+   "say": "You should drink a lot of water.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Belim og‘riyapti.",
+   "w": [
+    "Boshim og‘riyapti.",
+    "Qornim og‘riyapti.",
+    "Qo‘lim og‘riyapti."
+   ],
+   "d": 1,
+   "x": "My back hurts. — Belim og‘riyapti.",
+   "say": "My back hurts.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_11",
+   "t": "tf",
+   "q": "“Get well soon!” — kasal odamga aytiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Get well soon! — Tezroq tuzalib keting!",
+   "say": "Get well soon!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_12",
+   "t": "choice",
+   "q": "Qaysi so‘z tana a’zosi?",
+   "a": "shoulder",
+   "w": [
+    "cough",
+    "medicine",
+    "nurse"
+   ],
+   "d": 1,
+   "x": "shoulder — yelka."
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "You",
+    "should",
+    "go",
+    "to",
+    "bed",
+    "early"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "You should go to bed early. — Erta uxlashingiz kerak.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_14",
+   "t": "choice",
+   "q": "Sog‘lom turmush uchun qaysi odat foydali?",
+   "a": "eating fruit and vegetables",
+   "w": [
+    "going to bed very late",
+    "eating crisps every day",
+    "never doing sport"
+   ],
+   "d": 1,
+   "x": "Meva va sabzavot yeyish — foydali odat."
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You can buy medicine at the ...",
+   "a": "chemist's",
+   "w": [
+    "butcher's",
+    "baker's",
+    "newsagent's"
+   ],
+   "d": 2,
+   "x": "Britaniyada dorixona — the chemist's.",
+   "say": "You can buy medicine at the ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She ... a bad cough.",
+   "a": "has got",
+   "w": [
+    "have got",
+    "is",
+    "does"
+   ],
+   "d": 2,
+   "x": "she bilan has got.",
+   "say": "She ... a bad cough.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I feel ... . I think I've got a temperature.",
+   "a": "ill",
+   "w": [
+    "well",
+    "fine",
+    "happy"
+   ],
+   "d": 2,
+   "x": "I feel ill — o‘zimni yomon his qilyapman.",
+   "say": "I feel ... . I think I've got a temperature.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_18",
+   "t": "tf",
+   "q": "“You should to see a doctor.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 2,
+   "x": "should dan keyin to qo‘yilmaydi: You should see a doctor.",
+   "say": "You should to see a doctor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bugun o‘zimni ancha yaxshi his qilyapman, rahmat.",
+   "w": [
+    "Bugun o‘zimni yomon his qilyapman.",
+    "Kecha o‘zimni yaxshi his qildim.",
+    "Bugun men kasalman, rahmat."
+   ],
+   "d": 2,
+   "x": "I feel much better today, thanks. — Bugun o‘zimni ancha yaxshi his qilyapman, rahmat.",
+   "say": "I feel much better today, thanks.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_20",
+   "t": "choice",
+   "q": "“I've got a headache.” — eng yaxshi maslahatni tanlang",
+   "a": "You should lie down and rest.",
+   "w": [
+    "You should play loud music.",
+    "You should run five kilometres.",
+    "You shouldn't sleep tonight."
+   ],
+   "d": 2,
+   "x": "Bosh og‘riganda yotib dam olish kerak.",
+   "say": "I've got a headache.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_21",
+   "t": "choice",
+   "q": "“How are you feeling today?” savoliga mos javobni tanlang",
+   "a": "Not very well. I've got a cough.",
+   "w": [
+    "I'm eleven.",
+    "I feel it on Monday.",
+    "By bus."
+   ],
+   "d": 2,
+   "x": "O‘zingizni qanday his qilyapsiz? — Unchalik yaxshi emas, yo‘talyapman.",
+   "say": "How are you feeling today?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "have",
+    "got",
+    "a",
+    "terrible",
+    "cold"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I have got a terrible cold. — Qattiq shamollaganman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_23",
+   "t": "choice",
+   "q": "“Isitmam bor” inglizcha qanday?",
+   "a": "I've got a temperature.",
+   "w": [
+    "I've got a thermometer.",
+    "I've got a cold hand.",
+    "It's a hot temperature."
+   ],
+   "d": 3,
+   "x": "Isitma — a temperature: I've got a temperature."
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_24",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: He broke his arm, so he went to ...",
+   "a": "hospital",
+   "w": [
+    "school",
+    "the cinema",
+    "the bakery"
+   ],
+   "d": 3,
+   "x": "Britaniyada: go to hospital (kasalxonaga bormoq).",
+   "say": "He broke his arm, so he went to ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.health",
+   "id": "health_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "is",
+    "wrong",
+    "with",
+    "your",
+    "arm"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What is wrong with your arm? — Qo‘lingizga nima bo‘ldi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's cold outside. You ... wear a hat.",
+   "a": "should",
+   "w": [
+    "shouldn't",
+    "mustn't",
+    "don't have to"
+   ],
+   "d": 1,
+   "x": "Maslahat — should.",
+   "say": "It's cold outside. You ... wear a hat.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You ... stay up late before a test.",
+   "a": "shouldn't",
+   "w": [
+    "should",
+    "have to",
+    "has to"
+   ],
+   "d": 1,
+   "x": "Imtihon oldidan kech yotmaslik kerak — shouldn't.",
+   "say": "You ... stay up late before a test.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My brother ... get up at six for work.",
+   "a": "has to",
+   "w": [
+    "have to",
+    "must to",
+    "should to"
+   ],
+   "d": 1,
+   "x": "he bilan has to.",
+   "say": "My brother ... get up at six for work.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We ... wear a uniform at our school.",
+   "a": "have to",
+   "w": [
+    "has to",
+    "haves to",
+    "having to"
+   ],
+   "d": 1,
+   "x": "we bilan have to.",
+   "say": "We ... wear a uniform at our school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You ... swim here. It's dangerous.",
+   "a": "mustn't",
+   "w": [
+    "must",
+    "have to",
+    "should"
+   ],
+   "d": 1,
+   "x": "Xavfli — mumkin emas: mustn't.",
+   "say": "You ... swim here. It's dangerous.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You look tired. You ... have a rest.",
+   "a": "should",
+   "w": [
+    "mustn't",
+    "shouldn't",
+    "don't have to"
+   ],
+   "d": 1,
+   "x": "Charchagan odamga maslahat — should.",
+   "say": "You look tired. You ... have a rest.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_7",
+   "t": "choice",
+   "q": "“mustn't” nimani bildiradi?",
+   "a": "taqiq (mumkin emas)",
+   "w": [
+    "maslahat",
+    "shart emas",
+    "qobiliyat"
+   ],
+   "d": 1,
+   "x": "mustn't — mumkin emas, taqiqlangan.",
+   "say": "mustn't",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "O‘quvchilarga yo‘laklarda yugurish mumkin emas.",
+   "w": [
+    "O‘quvchilar yo‘laklarda yugurishi kerak.",
+    "O‘quvchilar yo‘laklarda yugurishi shart emas.",
+    "O‘quvchilar yo‘laklarda yugura oladi."
+   ],
+   "d": 1,
+   "x": "Students mustn't run in the corridors. — O‘quvchilarga yo‘laklarda yugurish mumkin emas.",
+   "say": "Students mustn't run in the corridors.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_9",
+   "t": "tf",
+   "q": "“He have to go now.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "he bilan has to: He has to go now.",
+   "say": "He have to go now.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_10",
+   "t": "tf",
+   "q": "“You shouldn't eat too much sugar.” — to‘g‘ri maslahat.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: shakarni ko‘p yemaslik kerak.",
+   "say": "You shouldn't eat too much sugar.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "You",
+    "should",
+    "ask",
+    "your",
+    "teacher",
+    "for",
+    "help"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "You should ask your teacher for help. — O‘qituvchingizdan yordam so‘rashingiz kerak.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's Saturday! I ... get up early.",
+   "a": "don't have to",
+   "w": [
+    "mustn't",
+    "have to",
+    "has to"
+   ],
+   "d": 2,
+   "x": "Shanba — erta turish shart emas: don't have to.",
+   "say": "It's Saturday! I ... get up early.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Visitors ... touch the paintings in the museum.",
+   "a": "mustn't",
+   "w": [
+    "don't have to",
+    "have to",
+    "should"
+   ],
+   "d": 2,
+   "x": "Muzeyda rasmlarga tegish taqiqlangan — mustn't.",
+   "say": "Visitors ... touch the paintings in the museum.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... I have to bring my own lunch?",
+   "a": "Do",
+   "w": [
+    "Does",
+    "Am",
+    "Must"
+   ],
+   "d": 2,
+   "x": "I bilan savol: Do I have to …?",
+   "say": "... I have to bring my own lunch?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_15",
+   "t": "choice",
+   "q": "“don't have to” nimani bildiradi?",
+   "a": "shart emas",
+   "w": [
+    "mumkin emas",
+    "kerak",
+    "qila olmaydi"
+   ],
+   "d": 2,
+   "x": "don't have to — shart emas, majbur emas.",
+   "say": "don't have to",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_16",
+   "t": "match",
+   "q": "Modal fe’lni ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "should",
+     "maslahat"
+    ],
+    [
+     "mustn't",
+     "taqiq"
+    ],
+    [
+     "have to",
+     "majburiyat"
+    ],
+    [
+     "don't have to",
+     "shart emas"
+    ],
+    [
+     "can",
+     "qobiliyat yoki ruxsat"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_17",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Biz bilan kelishing shart emas.",
+   "w": [
+    "Biz bilan kelishing mumkin emas.",
+    "Biz bilan kelishing kerak.",
+    "Biz bilan kela olmaysan."
+   ],
+   "d": 2,
+   "x": "You don't have to come with us. — Biz bilan kelishing shart emas.",
+   "say": "You don't have to come with us.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_18",
+   "t": "choice",
+   "q": "Suzish havzasi qoidasi uchun mos gapni tanlang",
+   "a": "You have to wear a swimming cap.",
+   "w": [
+    "You mustn't wear a swimming cap.",
+    "You has to wear a swimming cap.",
+    "You should to wear a swimming cap."
+   ],
+   "d": 2,
+   "x": "Havzada shapka kiyish majburiy: You have to wear a swimming cap."
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_19",
+   "t": "choice",
+   "q": "Maslahat bering: “I'm always tired.”",
+   "a": "You should go to bed earlier.",
+   "w": [
+    "You should go to bed later.",
+    "You mustn't sleep.",
+    "You have to watch more TV."
+   ],
+   "d": 2,
+   "x": "Doim charchasangiz — ertaroq yotishingiz kerak.",
+   "say": "I'm always tired.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "don't",
+    "have",
+    "to",
+    "do",
+    "homework",
+    "today"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "We don't have to do homework today. — Bugun uy vazifasi qilishimiz shart emas.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_21",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She ... take the bus because her bike was broken.",
+   "a": "had to",
+   "w": [
+    "has to",
+    "have to",
+    "must"
+   ],
+   "d": 3,
+   "x": "O‘tgan zamon (was broken): had to.",
+   "say": "She ... take the bus because her bike was broken.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_22",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Does he have to work tomorrow? — Yes, he ...",
+   "a": "does",
+   "w": [
+    "has",
+    "have",
+    "is"
+   ],
+   "d": 3,
+   "x": "Does …? savoliga qisqa javob: Yes, he does.",
+   "say": "Does he have to work tomorrow? — Yes, he ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_23",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kecha kechqurun loyihamni tugatishim kerak edi.",
+   "w": [
+    "Bugun loyihamni tugatishim kerak.",
+    "Kecha loyihamni tugatmadim.",
+    "Loyihamni tugatishim shart emas edi."
+   ],
+   "d": 3,
+   "x": "I had to finish my project last night. — Kecha kechqurun loyihamni tugatishim kerak edi.",
+   "say": "I had to finish my project last night.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_24",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "She doesn't have to cook tonight.",
+   "w": [
+    "She don't have to cook tonight.",
+    "She doesn't has to cook tonight.",
+    "She hasn't to cooking tonight."
+   ],
+   "d": 3,
+   "x": "she bilan inkor: doesn't have to (has emas)."
+  },
+  {
+   "topic": "english_g6.modals",
+   "id": "modals_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Do",
+    "we",
+    "have",
+    "to",
+    "take",
+    "a",
+    "test",
+    "tomorrow"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Do we have to take a test tomorrow? — Ertaga test topshirishimiz shartmi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My sister is as tall ... my mum.",
+   "a": "as",
+   "w": [
+    "than",
+    "like",
+    "so"
+   ],
+   "d": 1,
+   "x": "as … as — xuddi … dek.",
+   "say": "My sister is as tall ... my mum.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: A bicycle isn't as fast ... a car.",
+   "a": "as",
+   "w": [
+    "than",
+    "that",
+    "then"
+   ],
+   "d": 1,
+   "x": "not as … as — … chalik emas.",
+   "say": "A bicycle isn't as fast ... a car.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Today is ... than yesterday.",
+   "a": "warmer",
+   "w": [
+    "warm",
+    "warmest",
+    "more warm"
+   ],
+   "d": 1,
+   "x": "than bilan -er: warmer than.",
+   "say": "Today is ... than yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Mount Everest is the ... mountain in the world.",
+   "a": "highest",
+   "w": [
+    "higher",
+    "most high",
+    "high"
+   ],
+   "d": 1,
+   "x": "Eng baland — the highest. Everest — dunyodagi eng baland tog‘.",
+   "say": "Mount Everest is the ... mountain in the world.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_5",
+   "t": "choice",
+   "q": "“heavy” sifatining qiyosiy darajasi",
+   "a": "heavier",
+   "w": [
+    "heavyer",
+    "more heavy",
+    "heavyest"
+   ],
+   "d": 1,
+   "x": "Undosh + y → -ier: heavier.",
+   "say": "heavy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_6",
+   "t": "choice",
+   "q": "“interesting” sifatining qiyosiy darajasi",
+   "a": "more interesting",
+   "w": [
+    "interestinger",
+    "most interesting",
+    "interestinger than"
+   ],
+   "d": 1,
+   "x": "Uzun sifat — more: more interesting.",
+   "say": "interesting",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_7",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri? (fakt)",
+   "a": "The Sun is bigger than the Moon.",
+   "w": [
+    "The Moon is bigger than the Sun.",
+    "The Moon is as big as the Sun.",
+    "The Earth is bigger than the Sun."
+   ],
+   "d": 1,
+   "x": "Quyosh Oydan ham, Yerdan ham ancha katta."
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_8",
+   "t": "tf",
+   "q": "“He is as clever as his sister.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: as + sifat + as.",
+   "say": "He is as clever as his sister.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_9",
+   "t": "tf",
+   "q": "“She is more taller than me.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "taller — o‘zi qiyosiy daraja, more qo‘shilmaydi: She is taller than me.",
+   "say": "She is more taller than me.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_10",
+   "t": "choice",
+   "q": "Ma’nosi mos gapni tanlang: Ali is 150 cm tall. Vali is 150 cm tall.",
+   "a": "Ali is as tall as Vali.",
+   "w": [
+    "Ali is taller than Vali.",
+    "Ali isn't as tall as Vali.",
+    "Vali is the tallest."
+   ],
+   "d": 1,
+   "x": "Bo‘ylari teng — as tall as.",
+   "say": "Ali is 150 centimetres tall. Vali is 150 centimetres tall.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Winter",
+    "is",
+    "colder",
+    "than",
+    "autumn"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Winter is colder than autumn. — Qish kuzdan sovuqroq.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The Pacific is the ... ocean on Earth.",
+   "a": "largest",
+   "w": [
+    "larger",
+    "most large",
+    "large"
+   ],
+   "d": 2,
+   "x": "Tinch okeani — Yerdagi eng katta okean: the largest.",
+   "say": "The Pacific is the ... ocean on Earth.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Maths is ... difficult than English for me.",
+   "a": "more",
+   "w": [
+    "most",
+    "much",
+    "as"
+   ],
+   "d": 2,
+   "x": "Uzun sifat: more difficult than.",
+   "say": "Maths is ... difficult than English for me.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My handwriting is ... than my brother's.",
+   "a": "worse",
+   "w": [
+    "badder",
+    "worst",
+    "more bad"
+   ],
+   "d": 2,
+   "x": "bad → worse → the worst.",
+   "say": "My handwriting is ... than my brother's.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Cheetahs are the ... animals on land.",
+   "a": "fastest",
+   "w": [
+    "faster",
+    "most fast",
+    "fast"
+   ],
+   "d": 2,
+   "x": "Gepard — quruqlikdagi eng tez hayvon: the fastest.",
+   "say": "Cheetahs are the ... animals on land.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_16",
+   "t": "choice",
+   "q": "“thin” sifatining qiyosiy darajasi",
+   "a": "thinner",
+   "w": [
+    "thiner",
+    "more thin",
+    "thinnest"
+   ],
+   "d": 2,
+   "x": "Unli + undosh: undosh ikkilanadi — thinner.",
+   "say": "thin",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_17",
+   "t": "choice",
+   "q": "“famous” sifatining orttirma darajasi",
+   "a": "the most famous",
+   "w": [
+    "the famousest",
+    "the more famous",
+    "most famous the"
+   ],
+   "d": 2,
+   "x": "Uzun sifat: the most famous.",
+   "say": "famous",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_18",
+   "t": "choice",
+   "q": "“busy” sifatining orttirma darajasi",
+   "a": "the busiest",
+   "w": [
+    "the busyest",
+    "the most busy",
+    "the busier"
+   ],
+   "d": 2,
+   "x": "Undosh + y → -iest: the busiest.",
+   "say": "busy",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_19",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri? (fakt)",
+   "a": "A blue whale is heavier than an elephant.",
+   "w": [
+    "An elephant is heavier than a blue whale.",
+    "A mouse is as heavy as an elephant.",
+    "A cat is heavier than a horse."
+   ],
+   "d": 2,
+   "x": "Ko‘k kit — dunyodagi eng og‘ir hayvon."
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_20",
+   "t": "match",
+   "q": "Sifatni orttirma darajasi bilan juftlang",
+   "pairs": [
+    [
+     "good",
+     "the best"
+    ],
+    [
+     "bad",
+     "the worst"
+    ],
+    [
+     "big",
+     "the biggest"
+    ],
+    [
+     "happy",
+     "the happiest"
+    ],
+    [
+     "beautiful",
+     "the most beautiful"
+    ],
+    [
+     "cheap",
+     "the cheapest"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu test oldingisidan osonroq edi.",
+   "w": [
+    "Bu test oldingisidan qiyinroq edi.",
+    "Bu test eng oson test edi.",
+    "Bu test oldingisidek oson edi."
+   ],
+   "d": 2,
+   "x": "This test was easier than the last one. — Bu test oldingisidan osonroq edi.",
+   "say": "This test was easier than the last one.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "This",
+    "is",
+    "the",
+    "most",
+    "expensive",
+    "phone",
+    "in",
+    "the",
+    "shop"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "This is the most expensive phone in the shop. — Bu do‘kondagi eng qimmat telefon.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: This is the ... film I've ever seen.",
+   "a": "best",
+   "w": [
+    "better",
+    "good",
+    "most good"
+   ],
+   "d": 3,
+   "x": "Eng yaxshi — the best.",
+   "say": "This is the ... film I've ever seen.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_24",
+   "t": "choice",
+   "q": "Ma’nosi mos gapni tanlang: A bus is slower than a train.",
+   "a": "A bus isn't as fast as a train.",
+   "w": [
+    "A bus is as fast as a train.",
+    "A train isn't as fast as a bus.",
+    "A bus is the fastest."
+   ],
+   "d": 3,
+   "x": "slower than = not as fast as.",
+   "say": "A bus is slower than a train.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_25",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening xonam senikichalik katta emas.",
+   "w": [
+    "Mening xonam senikidan kattaroq.",
+    "Mening xonam seniki bilan bir xil katta.",
+    "Sening xonang meniki kabi kichik."
+   ],
+   "d": 3,
+   "x": "My room isn't as big as yours. — Mening xonam senikichalik katta emas.",
+   "say": "My room isn't as big as yours.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.comparatives",
+   "id": "comparatives_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "bike",
+    "is",
+    "not",
+    "as",
+    "new",
+    "as",
+    "yours"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "My bike is not as new as yours. — Mening velosipedim senikichalik yangi emas.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: How ... is this jacket? — It's £40.",
+   "a": "much",
+   "w": [
+    "many",
+    "any",
+    "lot"
+   ],
+   "d": 1,
+   "x": "Narx so‘ralganda — How much?",
+   "say": "How ... is this jacket? — It's £40.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: How ... apples do you need? — Six, please.",
+   "a": "many",
+   "w": [
+    "much",
+    "any",
+    "lot of"
+   ],
+   "d": 1,
+   "x": "apples sanaladi — How many?",
+   "say": "How ... apples do you need? — Six, please.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I haven't got ... money left.",
+   "a": "any",
+   "w": [
+    "some",
+    "many",
+    "no"
+   ],
+   "d": 1,
+   "x": "Inkor gapda — any.",
+   "say": "I haven't got ... money left.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_4",
+   "t": "choice",
+   "q": "“Qancha turadi?” (bitta narsa) inglizcha qanday?",
+   "a": "How much is it?",
+   "w": [
+    "How many is it?",
+    "How much are it?",
+    "What costs it?"
+   ],
+   "d": 1,
+   "x": "Narx: How much is it?"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_5",
+   "t": "choice",
+   "q": "Qaysi so‘z bilan “many” ishlatiladi?",
+   "a": "bananas",
+   "w": [
+    "milk",
+    "sugar",
+    "money"
+   ],
+   "d": 1,
+   "x": "bananas — sanaladi: many bananas.",
+   "say": "many",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_6",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Sizga yordam bera olamanmi?",
+   "w": [
+    "Menga yordam bera olasizmi?",
+    "Qancha turadi?",
+    "Kiyib ko‘rsam bo‘ladimi?"
+   ],
+   "d": 1,
+   "x": "Can I help you? — Sizga yordam bera olamanmi?",
+   "say": "Can I help you?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_7",
+   "t": "tf",
+   "q": "“How many milk do you want?” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "milk sanalmaydi: How much milk do you want?",
+   "say": "How many milk do you want?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_8",
+   "t": "tf",
+   "q": "“There is no juice in the fridge.” = “There isn't any juice in the fridge.”",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: no = not any.",
+   "say": "There is no juice in the fridge. There isn't any juice in the fridge.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_9",
+   "t": "choice",
+   "q": "Sotuvchi: “That's £7, please.” Siz £10 berdingiz. Qaytimi qancha?",
+   "a": "£3",
+   "w": [
+    "£7",
+    "£17",
+    "£2"
+   ],
+   "d": 1,
+   "x": "10 − 7 = 3 funt qaytim (change).",
+   "say": "That's seven pounds, please.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "would",
+    "like",
+    "a",
+    "kilo",
+    "of",
+    "apples"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I would like a kilo of apples. — Menga bir kilo olma bering.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_11",
+   "t": "choice",
+   "q": "Qaysi so‘z sanalmaydi?",
+   "a": "money",
+   "w": [
+    "coin",
+    "pound",
+    "shop"
+   ],
+   "d": 1,
+   "x": "money — sanalmaydi (How much money?); coins, pounds — sanaladi."
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There are ... people in the market today.",
+   "a": "a lot of",
+   "w": [
+    "much",
+    "a lot",
+    "any"
+   ],
+   "d": 2,
+   "x": "Ko‘p odam — a lot of people (much — sanalmaydiganlar bilan).",
+   "say": "There are ... people in the market today.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There's ... bread. Let's buy some.",
+   "a": "no",
+   "w": [
+    "any",
+    "some",
+    "many"
+   ],
+   "d": 2,
+   "x": "Non yo‘q — There's no bread.",
+   "say": "There's ... bread. Let's buy some.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We don't have ... time. Hurry up!",
+   "a": "much",
+   "w": [
+    "many",
+    "a lot",
+    "no"
+   ],
+   "d": 2,
+   "x": "time sanalmaydi, inkorda — much.",
+   "say": "We don't have ... time. Hurry up!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Can I try it ...? — Of course. The changing room is over there.",
+   "a": "on",
+   "w": [
+    "in",
+    "at",
+    "up"
+   ],
+   "d": 2,
+   "x": "try on — kiyib ko‘rmoq.",
+   "say": "Can I try it ...? — Of course. The changing room is over there.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_16",
+   "t": "choice",
+   "q": "£2.50 qanday o‘qiladi?",
+   "a": "two pounds fifty",
+   "w": [
+    "two fifty pounds",
+    "two pound fifty",
+    "twenty-five pounds"
+   ],
+   "d": 2,
+   "x": "£2.50 — two pounds fifty (ikki funt ellik pens)."
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_17",
+   "t": "match",
+   "q": "Do‘kon va nima sotishini juftlang",
+   "pairs": [
+    [
+     "baker's",
+     "bread and cakes"
+    ],
+    [
+     "butcher's",
+     "meat"
+    ],
+    [
+     "chemist's",
+     "medicine"
+    ],
+    [
+     "greengrocer's",
+     "fruit and vegetables"
+    ],
+    [
+     "newsagent's",
+     "newspapers"
+    ],
+    [
+     "bookshop",
+     "books"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Ikki shisha suv bering, iltimos.",
+   "w": [
+    "Ikki stakan suv bering, iltimos.",
+    "Ikki shisha sharbat bering, iltimos.",
+    "Menga suv kerak emas."
+   ],
+   "d": 2,
+   "x": "I'd like two bottles of water, please. — Ikki shisha suv bering, iltimos.",
+   "say": "I'd like two bottles of water, please.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_19",
+   "t": "choice",
+   "q": "“How much are these trainers?” savoliga mos javobni tanlang",
+   "a": "They're £35.",
+   "w": [
+    "It's £35.",
+    "There are 35.",
+    "They're 35 trainers."
+   ],
+   "d": 2,
+   "x": "trainers — ko‘plik, shuning uchun They're £35.",
+   "say": "How much are these trainers?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_20",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "How",
+    "much",
+    "is",
+    "this",
+    "red",
+    "T-shirt"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "How much is this red T-shirt? — Bu qizil futbolka qancha turadi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_21",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Here's your ... . — Thank you.",
+   "a": "change",
+   "w": [
+    "changes",
+    "chance",
+    "charge"
+   ],
+   "d": 3,
+   "x": "change — qaytim (pul).",
+   "say": "Here's your ... . — Thank you.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_22",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu juda qimmat. Arzonrog‘i bormi?",
+   "w": [
+    "Bu juda arzon. Qimmatrog‘i bormi?",
+    "Bu juda qimmat. Kattarog‘i bormi?",
+    "Bu arzon. Men olaman."
+   ],
+   "d": 3,
+   "x": "It's too expensive. Have you got a cheaper one? — Bu juda qimmat. Arzonrog‘i bormi?",
+   "say": "It's too expensive. Have you got a cheaper one?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_23",
+   "t": "choice",
+   "q": "Kiyimni sotib olishdan oldin nima so‘raymiz?",
+   "a": "Can I try it on?",
+   "w": [
+    "Can I try it in?",
+    "Can I try on it?",
+    "Can I wear it off?"
+   ],
+   "d": 3,
+   "x": "try on + olmosh: try it on (try on it — xato)."
+  },
+  {
+   "topic": "english_g6.shopping",
+   "id": "shopping_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "There",
+    "are",
+    "not",
+    "many",
+    "shops",
+    "in",
+    "our",
+    "village"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "There are not many shops in our village. — Qishlog‘imizda do‘konlar ko‘p emas.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_1",
+   "t": "choice",
+   "q": "“Parol” inglizcha qanday?",
+   "a": "password",
+   "w": [
+    "passport",
+    "username",
+    "keyboard"
+   ],
+   "d": 1,
+   "x": "password — parol."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_2",
+   "t": "choice",
+   "q": "“Klaviatura” inglizcha qanday?",
+   "a": "keyboard",
+   "w": [
+    "screen",
+    "mouse",
+    "printer"
+   ],
+   "d": 1,
+   "x": "keyboard — klaviatura."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_3",
+   "t": "choice",
+   "q": "Qaysi qurilma bilan hujjatni qog‘ozga chiqaramiz?",
+   "a": "a printer",
+   "w": [
+    "a speaker",
+    "a keyboard",
+    "a webcam"
+   ],
+   "d": 1,
+   "x": "printer — hujjatni qog‘ozga chiqaradi."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_4",
+   "t": "choice",
+   "q": "Faqat o‘zimiz musiqa eshitishimiz uchun nima kerak?",
+   "a": "headphones",
+   "w": [
+    "a printer",
+    "a mouse",
+    "a keyboard"
+   ],
+   "d": 1,
+   "x": "headphones — quloqchin."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Please switch ... your phones during the lesson.",
+   "a": "off",
+   "w": [
+    "on",
+    "in",
+    "up"
+   ],
+   "d": 1,
+   "x": "Darsda telefon o‘chiriladi: switch off.",
+   "say": "Please switch ... your phones during the lesson.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My brother sent me a ... on my phone.",
+   "a": "message",
+   "w": [
+    "keyboard",
+    "screen",
+    "password"
+   ],
+   "d": 1,
+   "x": "send a message — xabar yubormoq.",
+   "say": "My brother sent me a ... on my phone.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You should never tell anyone your ...",
+   "a": "password",
+   "w": [
+    "keyboard",
+    "screen",
+    "laptop"
+   ],
+   "d": 1,
+   "x": "Parolni hech kimga aytmaymiz.",
+   "say": "You should never tell anyone your ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She is typing a letter on her ...",
+   "a": "laptop",
+   "w": [
+    "headphones",
+    "charger",
+    "speaker"
+   ],
+   "d": 1,
+   "x": "Xatni noutbukda terish mumkin: laptop.",
+   "say": "She is typing a letter on her ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_9",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "screen",
+     "ekran"
+    ],
+    [
+     "keyboard",
+     "klaviatura"
+    ],
+    [
+     "laptop",
+     "noutbuk"
+    ],
+    [
+     "headphones",
+     "quloqchin"
+    ],
+    [
+     "password",
+     "parol"
+    ],
+    [
+     "download",
+     "yuklab olmoq"
+    ],
+    [
+     "save",
+     "saqlamoq"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Menga suratlarni yubora olasanmi?",
+   "w": [
+    "Senga suratlarni yubordim.",
+    "Suratlarni o‘chira olasanmi?",
+    "Menga video yubora olasanmi?"
+   ],
+   "d": 1,
+   "x": "Can you send me the photos? — Menga suratlarni yubora olasanmi?",
+   "say": "Can you send me the photos?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_11",
+   "t": "tf",
+   "q": "Parolni do‘stlarga aytish xavfsiz.",
+   "a": false,
+   "d": 1,
+   "x": "Parol sir saqlanadi — uni hech kimga aytmang."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_12",
+   "t": "tf",
+   "q": "“switch on” — o‘chirmoq degani.",
+   "a": false,
+   "d": 1,
+   "x": "switch on — yoqmoq; switch off — o‘chirmoq.",
+   "say": "switch on",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "use",
+    "my",
+    "tablet",
+    "to",
+    "read",
+    "books"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I use my tablet to read books. — Kitob o‘qish uchun planshetimdan foydalanaman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_14",
+   "t": "choice",
+   "q": "“Yuklab olmoq” inglizcha qanday?",
+   "a": "download",
+   "w": [
+    "upload",
+    "delete",
+    "print"
+   ],
+   "d": 2,
+   "x": "download — yuklab olish; upload — joylash."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Don't forget to ... your work before you close the file.",
+   "a": "save",
+   "w": [
+    "delete",
+    "switch",
+    "send off"
+   ],
+   "d": 2,
+   "x": "Faylni yopishdan oldin saqlaymiz: save.",
+   "say": "Don't forget to ... your work before you close the file.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... the internet to find information for my project.",
+   "a": "searched",
+   "w": [
+    "looked",
+    "saw",
+    "watched"
+   ],
+   "d": 2,
+   "x": "search the internet — internetdan qidirmoq.",
+   "say": "I ... the internet to find information for my project.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_17",
+   "t": "tf",
+   "q": "“upload” — internetga (saytga) fayl joylash degani.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: upload — joylash; download — yuklab olish.",
+   "say": "upload",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_18",
+   "t": "choice",
+   "q": "Qaysi so‘z qurilma emas?",
+   "a": "website",
+   "w": [
+    "laptop",
+    "tablet",
+    "smartphone"
+   ],
+   "d": 2,
+   "x": "website — veb-sayt, u qurilma emas."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Batareya kam. Telefonimni quvvatlashim kerak.",
+   "w": [
+    "Batareya to‘la. Telefonim tayyor.",
+    "Telefonim buzildi.",
+    "Batareya kam. Yangi telefon sotib olaman."
+   ],
+   "d": 2,
+   "x": "The battery is low. I need to charge my phone. — Batareya kam. Telefonimni quvvatlashim kerak.",
+   "say": "The battery is low. I need to charge my phone.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_20",
+   "t": "choice",
+   "q": "“How often do you use a computer?” savoliga mos javobni tanlang",
+   "a": "Every day, for my homework.",
+   "w": [
+    "It's in my room.",
+    "It's a new laptop.",
+    "Yes, I do."
+   ],
+   "d": 2,
+   "x": "How often? — qanchalik tez-tez? Javob: Every day.",
+   "say": "How often do you use a computer?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Never",
+    "open",
+    "emails",
+    "from",
+    "strangers"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Never open emails from strangers. — Notanishlardan kelgan xatlarni hech qachon ochmang.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_22",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I can't hear the video. Can you turn ... the volume?",
+   "a": "up",
+   "w": [
+    "on",
+    "off",
+    "in"
+   ],
+   "d": 3,
+   "x": "turn up the volume — ovozni balandlatmoq.",
+   "say": "I can't hear the video. Can you turn ... the volume?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_23",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Shaxsiy ma’lumotlaringizni internetda ulashmang.",
+   "w": [
+    "Shaxsiy ma’lumotlaringizni internetda ulashing.",
+    "Internetdan ma’lumot izlang.",
+    "Do‘stlaringizga xat yozing."
+   ],
+   "d": 3,
+   "x": "Don't share your personal information online. — Shaxsiy ma’lumotlaringizni internetda ulashmang.",
+   "say": "Don't share your personal information online.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_24",
+   "t": "choice",
+   "q": "Internetda ma’lumot qidirish uchun nimadan foydalanamiz?",
+   "a": "a search engine",
+   "w": [
+    "a printer",
+    "a charger",
+    "a speaker"
+   ],
+   "d": 3,
+   "x": "search engine — qidiruv tizimi."
+  },
+  {
+   "topic": "english_g6.technology",
+   "id": "technology_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Can",
+    "you",
+    "help",
+    "me",
+    "with",
+    "this",
+    "program"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Can you help me with this program? — Shu dasturda menga yordam bera olasanmi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... visited the Registan three times.",
+   "a": "have",
+   "w": [
+    "has",
+    "am",
+    "did"
+   ],
+   "d": 1,
+   "x": "I bilan have + V3.",
+   "say": "I ... visited the Registan three times.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She ... just finished her homework.",
+   "a": "has",
+   "w": [
+    "have",
+    "is",
+    "did"
+   ],
+   "d": 1,
+   "x": "she bilan has + V3.",
+   "say": "She ... just finished her homework.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We have ... that film. It's great!",
+   "a": "seen",
+   "w": [
+    "saw",
+    "see",
+    "seeing"
+   ],
+   "d": 1,
+   "x": "have + V3: see → seen.",
+   "say": "We have ... that film. It's great!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_4",
+   "t": "choice",
+   "q": "“do” fe’lining 3-shakli (V3)",
+   "a": "done",
+   "w": [
+    "did",
+    "doed",
+    "does"
+   ],
+   "d": 1,
+   "x": "do → did → done.",
+   "say": "do",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_5",
+   "t": "choice",
+   "q": "“see” fe’lining 3-shakli (V3)",
+   "a": "seen",
+   "w": [
+    "saw",
+    "seed",
+    "sawn"
+   ],
+   "d": 1,
+   "x": "see → saw → seen.",
+   "say": "see",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_6",
+   "t": "tf",
+   "q": "“He has lost his keys.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: has + lost (lose → lost → lost).",
+   "say": "He has lost his keys.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_7",
+   "t": "tf",
+   "q": "“I have saw this cartoon.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "have + V3: I have seen this cartoon.",
+   "say": "I have saw this cartoon.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_8",
+   "t": "choice",
+   "q": "“just” so‘zi Present Perfect gapida nimani bildiradi?",
+   "a": "hozirgina",
+   "w": [
+    "hech qachon",
+    "hali",
+    "ertaga"
+   ],
+   "d": 1,
+   "x": "just — hozirgina: I've just arrived.",
+   "say": "I've just arrived.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "have",
+    "already",
+    "read",
+    "this",
+    "book"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I have already read this book. — Men bu kitobni allaqachon o‘qiganman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_10",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Have you ever ... to the sea?",
+   "a": "been",
+   "w": [
+    "be",
+    "was",
+    "went"
+   ],
+   "d": 2,
+   "x": "Tajriba haqida: Have you ever been to …?",
+   "say": "Have you ever ... to the sea?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_11",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I have never ... sushi.",
+   "a": "eaten",
+   "w": [
+    "ate",
+    "eat",
+    "eated"
+   ],
+   "d": 2,
+   "x": "eat → ate → eaten.",
+   "say": "I have never ... sushi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: They have ... left. You can't see them now.",
+   "a": "already",
+   "w": [
+    "yet",
+    "ever",
+    "never"
+   ],
+   "d": 2,
+   "x": "already — allaqachon.",
+   "say": "They have ... left. You can't see them now.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_13",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Has the film started ...?",
+   "a": "yet",
+   "w": [
+    "already",
+    "just",
+    "ever"
+   ],
+   "d": 2,
+   "x": "Savolda gap oxirida — yet (hali … mi?).",
+   "say": "Has the film started ...?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_14",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I'm not hungry. I've ... had lunch.",
+   "a": "just",
+   "w": [
+    "yet",
+    "ever",
+    "never"
+   ],
+   "d": 2,
+   "x": "just — hozirgina tushlik qildim.",
+   "say": "I'm not hungry. I've ... had lunch.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_15",
+   "t": "choice",
+   "q": "“write” fe’lining 3-shakli (V3)",
+   "a": "written",
+   "w": [
+    "wrote",
+    "writed",
+    "writen"
+   ],
+   "d": 2,
+   "x": "write → wrote → written (ikkita t).",
+   "say": "write",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_16",
+   "t": "choice",
+   "q": "“go” fe’lining 3-shakli (V3)",
+   "a": "gone",
+   "w": [
+    "went",
+    "goed",
+    "goes"
+   ],
+   "d": 2,
+   "x": "go → went → gone.",
+   "say": "go",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_17",
+   "t": "match",
+   "q": "Fe’lni 3-shakli bilan juftlang",
+   "pairs": [
+    [
+     "be",
+     "been"
+    ],
+    [
+     "eat",
+     "eaten"
+    ],
+    [
+     "do",
+     "done"
+    ],
+    [
+     "see",
+     "seen"
+    ],
+    [
+     "write",
+     "written"
+    ],
+    [
+     "take",
+     "taken"
+    ],
+    [
+     "speak",
+     "spoken"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_18",
+   "t": "choice",
+   "q": "“Have you ever been to Khiva?” savoliga mos javobni tanlang",
+   "a": "No, I haven't.",
+   "w": [
+    "No, I didn't.",
+    "No, I wasn't.",
+    "No, I haven't been never."
+   ],
+   "d": 2,
+   "x": "Have …? savoliga qisqa javob: Yes, I have. / No, I haven't.",
+   "say": "Have you ever been to Khiva?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_19",
+   "t": "choice",
+   "q": "Qisqa javobni tanlang: Has Madina finished her project?",
+   "a": "Yes, she has.",
+   "w": [
+    "Yes, she did.",
+    "Yes, she is.",
+    "Yes, she have."
+   ],
+   "d": 2,
+   "x": "Has …? savoliga: Yes, she has.",
+   "say": "Has Madina finished her project?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men hech qachon samolyotda uchmaganman.",
+   "w": [
+    "Men har doim samolyotda uchaman.",
+    "Men kecha samolyotda uchdim.",
+    "U hech qachon samolyotda uchmagan."
+   ],
+   "d": 2,
+   "x": "I have never flown in a plane. — Men hech qachon samolyotda uchmaganman.",
+   "say": "I have never flown in a plane.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "U xonasini allaqachon yig‘ishtirib qo‘ydi.",
+   "w": [
+    "U hali xonasini yig‘ishtirmadi.",
+    "U hozir xonasini yig‘ishtiryapti.",
+    "Men xonamni allaqachon yig‘ishtirdim."
+   ],
+   "d": 2,
+   "x": "She has already cleaned her room. — U xonasini allaqachon yig‘ishtirib qo‘ydi.",
+   "say": "She has already cleaned her room.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "parents",
+    "have",
+    "never",
+    "been",
+    "to",
+    "London"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My parents have never been to London. — Ota-onam hech qachon Londonda bo‘lishmagan.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_23",
+   "t": "choice",
+   "q": "“break” fe’lining 3-shakli (V3)",
+   "a": "broken",
+   "w": [
+    "broke",
+    "breaked",
+    "brokened"
+   ],
+   "d": 3,
+   "x": "break → broke → broken.",
+   "say": "break",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_24",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Uy vazifangni bajarib bo‘ldingmi?",
+   "w": [
+    "Uy vazifangni qachon bajarasan?",
+    "Uy vazifasi qiyinmi?",
+    "Uy vazifangni kecha bajardingmi?"
+   ],
+   "d": 3,
+   "x": "Have you done your homework yet? — Uy vazifangni bajarib bo‘ldingmi?",
+   "say": "Have you done your homework yet?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_25",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "She hasn't called me yet.",
+   "w": [
+    "She hasn't called me already.",
+    "She didn't called me yet.",
+    "She hasn't call me yet."
+   ],
+   "d": 3,
+   "x": "Inkorda gap oxirida yet: She hasn't called me yet."
+  },
+  {
+   "topic": "english_g6.present_perfect",
+   "id": "present_perfect_26",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Have",
+    "you",
+    "ever",
+    "seen",
+    "a",
+    "dolphin"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Have you ever seen a dolphin? — Hech delfin ko‘rganmisan?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_1",
+   "t": "choice",
+   "q": "“axlat” britan inglizchasida qanday?",
+   "a": "rubbish",
+   "w": [
+    "rubber",
+    "robbery",
+    "rabbit"
+   ],
+   "d": 1,
+   "x": "Britaniyada axlat — rubbish."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_2",
+   "t": "choice",
+   "q": "“qayta ishlamoq” (chiqindini) inglizcha qanday?",
+   "a": "recycle",
+   "w": [
+    "reply",
+    "repeat",
+    "return"
+   ],
+   "d": 1,
+   "x": "recycle — qayta ishlash (qog‘oz, shisha, plastik)."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_3",
+   "t": "choice",
+   "q": "Daraxtlar havoga nima chiqaradi?",
+   "a": "oxygen",
+   "w": [
+    "plastic",
+    "smoke",
+    "rubbish"
+   ],
+   "d": 1,
+   "x": "Daraxtlar kislorod (oxygen) chiqaradi."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We should ... off the lights when we leave the room.",
+   "a": "turn",
+   "w": [
+    "make",
+    "do",
+    "put"
+   ],
+   "d": 1,
+   "x": "turn off — o‘chirmoq.",
+   "say": "We should ... off the lights when we leave the room.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Let's ... some trees in the school garden.",
+   "a": "plant",
+   "w": [
+    "cut",
+    "burn",
+    "drop"
+   ],
+   "d": 1,
+   "x": "plant trees — daraxt ekmoq.",
+   "say": "Let's ... some trees in the school garden.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Close the tap. Don't ... water.",
+   "a": "waste",
+   "w": [
+    "save",
+    "drink",
+    "recycle"
+   ],
+   "d": 1,
+   "x": "waste water — suvni isrof qilmoq.",
+   "say": "Close the tap. Don't ... water.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: You can ... plastic bottles, paper and glass.",
+   "a": "recycle",
+   "w": [
+    "waste",
+    "pollute",
+    "grow"
+   ],
+   "d": 1,
+   "x": "Plastik, qog‘oz va shishani qayta ishlash mumkin: recycle.",
+   "say": "You can ... plastic bottles, paper and glass.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_8",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "pollution",
+     "ifloslanish"
+    ],
+    [
+     "rubbish",
+     "axlat"
+    ],
+    [
+     "recycle",
+     "qayta ishlamoq"
+    ],
+    [
+     "environment",
+     "atrof-muhit"
+    ],
+    [
+     "plant",
+     "ekmoq"
+    ],
+    [
+     "save",
+     "tejamoq"
+    ],
+    [
+     "bin",
+     "axlat qutisi"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kamroq plastik ishlatishimiz kerak.",
+   "w": [
+    "Ko‘proq plastik ishlatishimiz kerak.",
+    "Biz plastik ishlatmaymiz.",
+    "Plastik juda arzon."
+   ],
+   "d": 1,
+   "x": "We should use less plastic. — Kamroq plastik ishlatishimiz kerak.",
+   "say": "We should use less plastic.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_10",
+   "t": "tf",
+   "q": "“We should throw rubbish into the river.” — to‘g‘ri maslahat.",
+   "a": false,
+   "d": 1,
+   "x": "Daryoga axlat tashlash — tabiatga zarar.",
+   "say": "We should throw rubbish into the river.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_11",
+   "t": "choice",
+   "q": "Qaysi harakat tabiatga foydali?",
+   "a": "planting trees",
+   "w": [
+    "cutting down forests",
+    "dropping litter",
+    "wasting electricity"
+   ],
+   "d": 1,
+   "x": "Daraxt ekish — tabiatga foydali."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_12",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri maslahat?",
+   "a": "Take a reusable bag to the shop.",
+   "w": [
+    "Buy a new plastic bag every day.",
+    "Leave the TV on all night.",
+    "Throw batteries in the river."
+   ],
+   "d": 1,
+   "x": "reusable bag — qayta ishlatiladigan sumka."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "must",
+    "protect",
+    "wild",
+    "animals"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "We must protect wild animals. — Yovvoyi hayvonlarni himoya qilishimiz kerak.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_14",
+   "t": "choice",
+   "q": "“ifloslanish” inglizcha qanday?",
+   "a": "pollution",
+   "w": [
+    "population",
+    "solution",
+    "position"
+   ],
+   "d": 2,
+   "x": "pollution — ifloslanish; population — aholi."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Don't drop ... in the street. Put it in the bin.",
+   "a": "litter",
+   "w": [
+    "leaves",
+    "water",
+    "trees"
+   ],
+   "d": 2,
+   "x": "litter — ko‘chaga tashlangan axlat.",
+   "say": "Don't drop ... in the street. Put it in the bin.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Cars and factories ... the air.",
+   "a": "pollute",
+   "w": [
+    "clean",
+    "recycle",
+    "plant"
+   ],
+   "d": 2,
+   "x": "pollute — ifloslantirmoq.",
+   "say": "Cars and factories ... the air.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_17",
+   "t": "tf",
+   "q": "“reuse” — narsadan yana foydalanish degani.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: reuse — qayta foydalanmoq.",
+   "say": "reuse",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_18",
+   "t": "tf",
+   "q": "Orol dengizi 1960-yillardan beri ancha kichrayib ketgan.",
+   "a": true,
+   "d": 2,
+   "x": "Orol dengizi suvi kamayib, ancha kichrayib qolgan — bu katta ekologik muammo."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Zavod tufayli daryo juda iflos.",
+   "w": [
+    "Zavod tufayli daryo juda toza.",
+    "Daryo tufayli zavod juda iflos.",
+    "Daryo zavod yonida."
+   ],
+   "d": 2,
+   "x": "The river is very dirty because of the factory. — Zavod tufayli daryo juda iflos.",
+   "say": "The river is very dirty because of the factory.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Let's",
+    "pick",
+    "up",
+    "the",
+    "litter",
+    "in",
+    "the",
+    "park"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Let's pick up the litter in the park. — Keling, bog‘dagi axlatni terib olaylik.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Piyoda yoki velosipedda yurish atrof-muhit uchun mashinada yurishdan yaxshiroq.",
+   "w": [
+    "Mashinada yurish atrof-muhit uchun eng yaxshisi.",
+    "Velosiped mashinadan tezroq.",
+    "Piyoda yurish mashinada yurishdan qiyinroq."
+   ],
+   "d": 3,
+   "x": "Walking or cycling is better for the environment than driving. — Piyoda yoki velosipedda yurish atrof-muhit uchun mashinada yurishdan yaxshiroq.",
+   "say": "Walking or cycling is better for the environment than driving.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_22",
+   "t": "choice",
+   "q": "Qaysi so‘z “yovvoyi tabiat” degani?",
+   "a": "wildlife",
+   "w": [
+    "wild card",
+    "lifestyle",
+    "lifetime"
+   ],
+   "d": 3,
+   "x": "wildlife — yovvoyi hayvonlar va o‘simliklar dunyosi."
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Plastic takes hundreds of years to break ...",
+   "a": "down",
+   "w": [
+    "up",
+    "out",
+    "in"
+   ],
+   "d": 3,
+   "x": "break down — parchalanmoq. Plastik yuzlab yil parchalanmaydi.",
+   "say": "Plastic takes hundreds of years to break ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Paper",
+    "and",
+    "glass",
+    "can",
+    "be",
+    "recycled"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Paper and glass can be recycled. — Qog‘oz va shishani qayta ishlash mumkin.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.environment",
+   "id": "environment_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "How",
+    "can",
+    "we",
+    "save",
+    "energy",
+    "at",
+    "home"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "How can we save energy at home? — Uyda energiyani qanday tejash mumkin?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_1",
+   "t": "choice",
+   "q": "How long did Zarina's family stay in Samarkand?",
+   "a": "three days",
+   "w": [
+    "two days",
+    "a week",
+    "two hours"
+   ],
+   "d": 1,
+   "x": "Matnda: went to Samarkand for three days.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "How long did Zarina's family stay in Samarkand?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_2",
+   "t": "choice",
+   "q": "How did they travel?",
+   "a": "by high-speed train",
+   "w": [
+    "by plane",
+    "by car",
+    "by bus"
+   ],
+   "d": 1,
+   "x": "Matnda: They travelled by high-speed train.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "How did they travel?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_3",
+   "t": "tf",
+   "q": "They visited the Registan on the first day.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda: On the first day, they visited the Registan.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "They visited the Registan on the first day.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_4",
+   "t": "choice",
+   "q": "Why wasn't Sardor at school?",
+   "a": "He was ill.",
+   "w": [
+    "He was on holiday.",
+    "He was late.",
+    "He was at a camp."
+   ],
+   "d": 1,
+   "x": "Matnda: He had a bad cold, a sore throat and a temperature.",
+   "text": "Sardor wasn't at school on Monday. He had a bad cold, a sore throat and a temperature. His mother took him to the doctor. The doctor told him to stay in bed, drink a lot of warm drinks and take his medicine. She also said, 'You shouldn't play outside until you feel better.' Sardor was bored at home, so he read two books. By Thursday he felt much better and went back to school.",
+   "say": "Why wasn't Sardor at school?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_5",
+   "t": "choice",
+   "q": "Who took Sardor to the doctor?",
+   "a": "his mother",
+   "w": [
+    "his father",
+    "his teacher",
+    "his brother"
+   ],
+   "d": 1,
+   "x": "Matnda: His mother took him to the doctor.",
+   "text": "Sardor wasn't at school on Monday. He had a bad cold, a sore throat and a temperature. His mother took him to the doctor. The doctor told him to stay in bed, drink a lot of warm drinks and take his medicine. She also said, 'You shouldn't play outside until you feel better.' Sardor was bored at home, so he read two books. By Thursday he felt much better and went back to school.",
+   "say": "Who took Sardor to the doctor?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_6",
+   "t": "tf",
+   "q": "Sardor read two books at home.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda: so he read two books.",
+   "text": "Sardor wasn't at school on Monday. He had a bad cold, a sore throat and a temperature. His mother took him to the doctor. The doctor told him to stay in bed, drink a lot of warm drinks and take his medicine. She also said, 'You shouldn't play outside until you feel better.' Sardor was bored at home, so he read two books. By Thursday he felt much better and went back to school.",
+   "say": "Sardor read two books at home.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_7",
+   "t": "choice",
+   "q": "Where is the science camp?",
+   "a": "in the mountains",
+   "w": [
+    "by the sea",
+    "in the city",
+    "in the desert"
+   ],
+   "d": 1,
+   "x": "Matnda: a science camp in the mountains.",
+   "text": "Next summer, Nodira is going to take part in a science camp in the mountains. She's going to study plants and insects with other students. The camp will last two weeks. Nodira is a bit nervous because she has never been away from her family for so long. But her older brother says she'll love it and make a lot of new friends.",
+   "say": "Where is the science camp?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_8",
+   "t": "choice",
+   "q": "How long will the camp last?",
+   "a": "two weeks",
+   "w": [
+    "two days",
+    "one month",
+    "one week"
+   ],
+   "d": 1,
+   "x": "Matnda: The camp will last two weeks.",
+   "text": "Next summer, Nodira is going to take part in a science camp in the mountains. She's going to study plants and insects with other students. The camp will last two weeks. Nodira is a bit nervous because she has never been away from her family for so long. But her older brother says she'll love it and make a lot of new friends.",
+   "say": "How long will the camp last?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_9",
+   "t": "choice",
+   "q": "What is Class 6B doing?",
+   "a": "planting trees",
+   "w": [
+    "collecting bottles",
+    "making posters",
+    "saving water"
+   ],
+   "d": 1,
+   "x": "Matnda: Class 6B is planting trees near the sports ground.",
+   "text": "Our school has started a 'Green Week'. Every class has a job. Class 6A is collecting plastic bottles for recycling. Class 6B is planting trees near the sports ground. The younger pupils are making posters about saving water and electricity. Our teacher says that small actions can make a big difference. I think she's right: we have already collected more than five hundred bottles!",
+   "say": "What is Class 6B doing?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_10",
+   "t": "choice",
+   "q": "What does Timur's grandfather prefer?",
+   "a": "his old radio and a paper newspaper",
+   "w": [
+    "a smartphone and a laptop",
+    "video games",
+    "a new television"
+   ],
+   "d": 1,
+   "x": "Matnda: His grandfather prefers his old radio and a paper newspaper.",
+   "text": "Timur and his grandfather both love technology, but in different ways. Timur uses a smartphone and a laptop every day. His grandfather prefers his old radio and a paper newspaper. 'The news on my radio is as interesting as your internet,' he says with a smile. Last month Timur taught his grandfather how to make video calls. Now Grandad calls his friends in Andijan every Sunday.",
+   "say": "What does Timur's grandfather prefer?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_11",
+   "t": "tf",
+   "q": "Timur never uses a laptop.",
+   "a": false,
+   "d": 1,
+   "x": "Matnda: Timur uses a smartphone and a laptop every day.",
+   "text": "Timur and his grandfather both love technology, but in different ways. Timur uses a smartphone and a laptop every day. His grandfather prefers his old radio and a paper newspaper. 'The news on my radio is as interesting as your internet,' he says with a smile. Last month Timur taught his grandfather how to make video calls. Now Grandad calls his friends in Andijan every Sunday.",
+   "say": "Timur never uses a laptop.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_12",
+   "t": "choice",
+   "q": "What did Zarina buy as a souvenir?",
+   "a": "a small notebook",
+   "w": [
+    "a blue tile",
+    "a mulberry tree",
+    "a train ticket"
+   ],
+   "d": 2,
+   "x": "Matnda: Zarina bought a small notebook as a souvenir.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "What did Zarina buy as a souvenir?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_13",
+   "t": "choice",
+   "q": "What is the paper made from?",
+   "a": "the bark of mulberry trees",
+   "w": [
+    "plastic bottles",
+    "old newspapers",
+    "cotton"
+   ],
+   "d": 2,
+   "x": "Matnda: people made paper from the bark of mulberry trees.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "What is the paper made from?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_14",
+   "t": "tf",
+   "q": "The doctor said Sardor should play outside.",
+   "a": false,
+   "d": 2,
+   "x": "Matnda: You shouldn't play outside until you feel better.",
+   "text": "Sardor wasn't at school on Monday. He had a bad cold, a sore throat and a temperature. His mother took him to the doctor. The doctor told him to stay in bed, drink a lot of warm drinks and take his medicine. She also said, 'You shouldn't play outside until you feel better.' Sardor was bored at home, so he read two books. By Thursday he felt much better and went back to school.",
+   "say": "The doctor said Sardor should play outside.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_15",
+   "t": "choice",
+   "q": "When did Sardor go back to school?",
+   "a": "by Thursday",
+   "w": [
+    "on Monday",
+    "on Tuesday",
+    "next week"
+   ],
+   "d": 2,
+   "x": "Matnda: By Thursday he felt much better and went back to school.",
+   "text": "Sardor wasn't at school on Monday. He had a bad cold, a sore throat and a temperature. His mother took him to the doctor. The doctor told him to stay in bed, drink a lot of warm drinks and take his medicine. She also said, 'You shouldn't play outside until you feel better.' Sardor was bored at home, so he read two books. By Thursday he felt much better and went back to school.",
+   "say": "When did Sardor go back to school?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_16",
+   "t": "choice",
+   "q": "What is Nodira going to study?",
+   "a": "plants and insects",
+   "w": [
+    "stars and planets",
+    "rocks",
+    "birds only"
+   ],
+   "d": 2,
+   "x": "Matnda: She's going to study plants and insects.",
+   "text": "Next summer, Nodira is going to take part in a science camp in the mountains. She's going to study plants and insects with other students. The camp will last two weeks. Nodira is a bit nervous because she has never been away from her family for so long. But her older brother says she'll love it and make a lot of new friends.",
+   "say": "What is Nodira going to study?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_17",
+   "t": "choice",
+   "q": "Who thinks Nodira will love the camp?",
+   "a": "her older brother",
+   "w": [
+    "her mother",
+    "her teacher",
+    "Nodira"
+   ],
+   "d": 2,
+   "x": "Matnda: her older brother says she'll love it.",
+   "text": "Next summer, Nodira is going to take part in a science camp in the mountains. She's going to study plants and insects with other students. The camp will last two weeks. Nodira is a bit nervous because she has never been away from her family for so long. But her older brother says she'll love it and make a lot of new friends.",
+   "say": "Who thinks Nodira will love the camp?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_18",
+   "t": "choice",
+   "q": "What are the younger pupils making?",
+   "a": "posters",
+   "w": [
+    "cakes",
+    "bird houses",
+    "bottles"
+   ],
+   "d": 2,
+   "x": "Matnda: The younger pupils are making posters.",
+   "text": "Our school has started a 'Green Week'. Every class has a job. Class 6A is collecting plastic bottles for recycling. Class 6B is planting trees near the sports ground. The younger pupils are making posters about saving water and electricity. Our teacher says that small actions can make a big difference. I think she's right: we have already collected more than five hundred bottles!",
+   "say": "What are the younger pupils making?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_19",
+   "t": "tf",
+   "q": "The school has collected fewer than one hundred bottles.",
+   "a": false,
+   "d": 2,
+   "x": "Matnda: more than five hundred bottles — 500 dan ortiq.",
+   "text": "Our school has started a 'Green Week'. Every class has a job. Class 6A is collecting plastic bottles for recycling. Class 6B is planting trees near the sports ground. The younger pupils are making posters about saving water and electricity. Our teacher says that small actions can make a big difference. I think she's right: we have already collected more than five hundred bottles!",
+   "say": "The school has collected fewer than one hundred bottles.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_20",
+   "t": "choice",
+   "q": "What did Timur teach his grandfather last month?",
+   "a": "how to make video calls",
+   "w": [
+    "how to read a newspaper",
+    "how to fix a radio",
+    "how to take photos"
+   ],
+   "d": 2,
+   "x": "Matnda: Timur taught his grandfather how to make video calls.",
+   "text": "Timur and his grandfather both love technology, but in different ways. Timur uses a smartphone and a laptop every day. His grandfather prefers his old radio and a paper newspaper. 'The news on my radio is as interesting as your internet,' he says with a smile. Last month Timur taught his grandfather how to make video calls. Now Grandad calls his friends in Andijan every Sunday.",
+   "say": "What did Timur teach his grandfather last month?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_21",
+   "t": "choice",
+   "q": "Why is Nodira nervous?",
+   "a": "She has never been away from her family for so long.",
+   "w": [
+    "She doesn't like insects.",
+    "She can't find the camp.",
+    "Her brother is going too."
+   ],
+   "d": 3,
+   "x": "Matnda: she has never been away from her family for so long.",
+   "text": "Next summer, Nodira is going to take part in a science camp in the mountains. She's going to study plants and insects with other students. The camp will last two weeks. Nodira is a bit nervous because she has never been away from her family for so long. But her older brother says she'll love it and make a lot of new friends.",
+   "say": "Why is Nodira nervous?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_22",
+   "t": "choice",
+   "q": "What does the teacher think?",
+   "a": "Small actions can make a big difference.",
+   "w": [
+    "Recycling is not important.",
+    "Only adults can help nature.",
+    "Posters are boring."
+   ],
+   "d": 3,
+   "x": "Matnda: Our teacher says that small actions can make a big difference.",
+   "text": "Our school has started a 'Green Week'. Every class has a job. Class 6A is collecting plastic bottles for recycling. Class 6B is planting trees near the sports ground. The younger pupils are making posters about saving water and electricity. Our teacher says that small actions can make a big difference. I think she's right: we have already collected more than five hundred bottles!",
+   "say": "What does the teacher think?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_23",
+   "t": "tf",
+   "q": "The grandfather thinks the radio news is as interesting as the internet.",
+   "a": true,
+   "d": 3,
+   "x": "Matnda: The news on my radio is as interesting as your internet.",
+   "text": "Timur and his grandfather both love technology, but in different ways. Timur uses a smartphone and a laptop every day. His grandfather prefers his old radio and a paper newspaper. 'The news on my radio is as interesting as your internet,' he says with a smile. Last month Timur taught his grandfather how to make video calls. Now Grandad calls his friends in Andijan every Sunday.",
+   "say": "The grandfather thinks the radio news is as interesting as the internet.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_24",
+   "t": "choice",
+   "q": "When does Grandad call his friends now?",
+   "a": "every Sunday",
+   "w": [
+    "every day",
+    "on Mondays",
+    "never"
+   ],
+   "d": 3,
+   "x": "Matnda: Now Grandad calls his friends in Andijan every Sunday.",
+   "text": "Timur and his grandfather both love technology, but in different ways. Timur uses a smartphone and a laptop every day. His grandfather prefers his old radio and a paper newspaper. 'The news on my radio is as interesting as your internet,' he says with a smile. Last month Timur taught his grandfather how to make video calls. Now Grandad calls his friends in Andijan every Sunday.",
+   "say": "When does Grandad call his friends now?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g6.reading",
+   "id": "reading_25",
+   "t": "tf",
+   "q": "Zarina never wants to visit Samarkand again.",
+   "a": false,
+   "d": 3,
+   "x": "Matnda: She wants to go back one day — u yana borishni xohlaydi.",
+   "text": "Last spring, Zarina and her family went to Samarkand for three days. They travelled by high-speed train, and the journey took about two hours. On the first day, they visited the Registan. Zarina thought the blue tiles were beautiful. On the second day, they went to a paper workshop and watched how people made paper from the bark of mulberry trees. Zarina bought a small notebook as a souvenir. She wants to go back one day.",
+   "say": "Zarina never wants to visit Samarkand again.",
+   "lang": "en"
+  }
+ ]
+}

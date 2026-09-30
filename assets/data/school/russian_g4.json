@@ -1,0 +1,776 @@
+{
+ "subject": "russian",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "russian_g4.adjectives",
+   "code": "1",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Sifat: Какой? Какая? Какое? Какие?",
+    "en": "Adjectives: agreement",
+    "ru": "Прилагательные: согласование"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Sifatlar, sonlar va vaqt",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sifat narsaning belgisini bildiradi va savolga javob beradi: Какой? Какая? Какое? Какие?\n• он — какой? новый дом, белый кот, большой стол\n• она — какая? новая школа, белая кошка, большая сумка\n• оно — какое? новое платье, белое молоко, большое окно\n• они — какие? новые книги, белые облака\nSifat oxiri otning rodiga qarab o‘zgaradi: -ый / -ой → -ая → -ое → -ые."
+   }
+  },
+  {
+   "id": "russian_g4.sentences",
+   "code": "2",
+   "emoji": "🖼️",
+   "title": {
+    "uz": "Rasm va gap: rang va harakat",
+    "en": "Sentences: colours and actions",
+    "ru": "Предложения: цвет и действие"
+   },
+   "generator": "sentence",
+   "skill": "sentence",
+   "chapter": "1-chorak. Sifatlar, sonlar va vaqt",
+   "prerequisites": [
+    "russian_g4.adjectives"
+   ],
+   "levels": [
+    {
+     "types": [
+      "this",
+      "color"
+     ],
+     "modes": [
+      "read",
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "read",
+      "picture",
+      "listen"
+     ]
+    },
+    {
+     "types": [
+      "color",
+      "action"
+     ],
+     "modes": [
+      "picture",
+      "build",
+      "listen"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Rus tilida hozirgi zamonda “-dir” (bo‘lmoq) so‘zi aytilmaydi: Мяч красный. — Koptok qizil.\n• Sifat otga moslashadi: Шар синий. Машина синяя. Яблоко зелёное.\n• Kim nima qilyapti? Кошка спит. Рыба плывёт. Птица летит.\nGapni o‘qing yoki tinglang, rasmga qarang va mosini tanlang yoki so‘zlardan gap tuzing."
+   }
+  },
+  {
+   "id": "russian_g4.numbers",
+   "code": "3",
+   "emoji": "💯",
+   "title": {
+    "uz": "Sonlar 100 gacha",
+    "en": "Numbers to 100",
+    "ru": "Числа до 100"
+   },
+   "generator": "numbers",
+   "skill": "numbers",
+   "chapter": "1-chorak. Sifatlar, sonlar va vaqt",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10,
+     "max": 40,
+     "modes": [
+      "listen_digit"
+     ],
+     "options": 3
+    },
+    {
+     "min": 20,
+     "max": 100,
+     "modes": [
+      "listen_digit",
+      "match"
+     ],
+     "pairs": 4,
+     "options": 4
+    },
+    {
+     "min": 1,
+     "max": 100,
+     "modes": [
+      "listen_digit",
+      "match"
+     ],
+     "pairs": 5,
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘nliklar: двадцать (20), тридцать (30), сорок (40), пятьдесят (50),\nшестьдесят (60), семьдесят (70), восемьдесят (80), девяносто (90), сто (100).\nMurakkab son: o‘nlik + birlik — 34 = тридцать четыре, 58 = пятьдесят восемь.\n• 50, 60, 70, 80 — so‘z o‘rtasida ь yoziladi: пятьдесят, семьдесят.\nTinglang va sonni toping: восемьдесят два — 82."
+   }
+  },
+  {
+   "id": "russian_g4.time",
+   "code": "4",
+   "emoji": "🕒",
+   "title": {
+    "uz": "Который час?",
+    "en": "What time is it?",
+    "ru": "Который час?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Sifatlar, sonlar va vaqt",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Soatni so‘rash: Который час? yoki Сколько времени? — Soat necha?\n• 1:00 — час;  2:00, 3:00, 4:00 — два, три, четыре часа;  5:00 … 12:00 — пять … двенадцать часов.\n• Qachon? — в + vaqt: в восемь часов, в два часа.\n• Kun qismi: семь часов утра (ertalab), два часа дня (kunduzi), шесть часов вечера (kechqurun).\nYarim soat: 7:30 — семь тридцать."
+   }
+  },
+  {
+   "id": "russian_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Sifatlar, sonlar va vaqt",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.sentences",
+      "russian_g4.numbers",
+      "russian_g4.time"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.sentences",
+      "russian_g4.numbers",
+      "russian_g4.time"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.sentences",
+      "russian_g4.numbers",
+      "russian_g4.time"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g4.calendar",
+   "code": "5",
+   "emoji": "📅",
+   "title": {
+    "uz": "Hafta kunlari va oylar",
+    "en": "Days and months",
+    "ru": "Дни недели и месяцы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kunlar, oylar va o‘tgan zamon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari: понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.\nOylar: январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь.\n• Kun va oy nomlari kichik harf bilan yoziladi.\n• Qachon? — kun: в понедельник, в среду, в пятницу;  oy: в январе, в мае, в сентябре.\nКакой сегодня день? — Сегодня четверг. Какой сейчас месяц? — Сейчас октябрь."
+   }
+  },
+  {
+   "id": "russian_g4.past",
+   "code": "6",
+   "emoji": "⏪",
+   "title": {
+    "uz": "O‘tgan zamon: он читал, она читала",
+    "en": "Past tense: он читал, она читала",
+    "ru": "Прошедшее время: он читал, она читала"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kunlar, oylar va o‘tgan zamon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘tgan zamonda fe’l -ть o‘rniga -л oladi: читать → читал.\n• он (o‘g‘il bola, erkak) — -л: Али читал.\n• она (qiz bola, ayol) — -ла: Лола читала.\n• они (ko‘plik) — -ли: Дети читали.  (оно — -ло: Солнце светило.)\nKalit so‘zlar: вчера (kecha), утром, вечером, летом.  Вчера я рисовал (o‘g‘il bola) / рисовала (qiz bola)."
+   }
+  },
+  {
+   "id": "russian_g4.polite",
+   "code": "7",
+   "emoji": "🙏",
+   "title": {
+    "uz": "Xushmuomala iboralar",
+    "en": "Polite phrases",
+    "ru": "Вежливые фразы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kunlar, oylar va o‘tgan zamon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Iltimos qilish: Скажите, пожалуйста, где библиотека?  Дайте, пожалуйста, ручку.\nRuxsat so‘rash: Можно войти? (Kirsam maylimi?) Можно взять книгу?\nRahmat va javob: Спасибо большое! — Не за что! / Пожалуйста!\nKechirim: Извините, пожалуйста. Простите, я опоздал.\nTilaklar: Приятного аппетита! Счастливого пути! С днём рождения! Будь здоров!"
+   }
+  },
+  {
+   "id": "russian_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kunlar, oylar va o‘tgan zamon",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.time"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.time"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.time"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g4.home",
+   "code": "8",
+   "emoji": "🏠",
+   "title": {
+    "uz": "Mening uyim va kvartiram",
+    "en": "My house and flat",
+    "ru": "Мой дом и квартира"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim va shahrim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Uy va kvartira: дом (uy), квартира (kvartira), комната (xona), кухня (oshxona), спальня (yotoqxona),\nгостиная (mehmonxona), ванная (hammom), балкон, этаж (qavat), лестница (zina).\nMebel: стол, стул, диван, кровать (karavot), шкаф, полка (javon), ковёр (gilam), лампа.\nУ нас есть … — Bizda … bor: У нас есть балкон.\nЯ живу на третьем этаже. — Men uchinchi qavatda yashayman."
+   }
+  },
+  {
+   "id": "russian_g4.prepositional",
+   "code": "9",
+   "emoji": "📍",
+   "title": {
+    "uz": "Qayerda? в / на + -е",
+    "en": "Where? Prepositional case",
+    "ru": "Где? Предложный падеж"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim va shahrim",
+   "prerequisites": [
+    "russian_g4.home"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Где? (Qayerda?) savoliga javob — в yoki на + otning -е shakli:\n• в — ichida: в комнате, в коробке, в городе, в Самарканде.\n• на — ustida yoki ochiq joyda: на столе, на окне, на улице, на балконе, на кухне.\n• -ь bilan tugagan она rodidagi so‘zlar -и oladi: в тетради, на площади.\n• Yodlang: в саду, в лесу, в шкафу, на полу (-у oladi)."
+   }
+  },
+  {
+   "id": "russian_g4.where_to",
+   "code": "10",
+   "emoji": "🚶",
+   "title": {
+    "uz": "Где? va Куда?",
+    "en": "Where? and Where to?",
+    "ru": "Где? и Куда?"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Uyim va shahrim",
+   "prerequisites": [
+    "russian_g4.prepositional"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Где? — qayerda? (joy): Я в школе. Мама на рынке. Папа дома.\nКуда? — qayerga? (yo‘nalish): Я иду в школу. Мама идёт на рынок. Папа идёт домой.\n• Куда? — в / на + so‘z (-а → -у): в школу, на почту; он rodidagi so‘z o‘zgarmaydi: в парк, на стадион.\n• дома — uyda (Где?),  домой — uyga (Куда?)\n• здесь / тут — shu yerda, там — u yerda (Где?);  сюда — bu yerga, туда — u yerga (Куда?)."
+   }
+  },
+  {
+   "id": "russian_g4.city",
+   "code": "11",
+   "emoji": "🚌",
+   "title": {
+    "uz": "Shahar va transport",
+    "en": "Town and transport",
+    "ru": "Город и транспорт"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "3-chorak. Uyim va shahrim",
+   "prerequisites": [
+    "russian_g4.where_to"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "transport_city"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Transport: автобус, трамвай, метро, такси, поезд, самолёт, велосипед, машина.\nNimada? — на + -е: на автобусе, на поезде, на велосипеде; метро va такси o‘zgarmaydi: на метро, на такси.\nShahar: улица (ko‘cha), площадь (maydon), мост (ko‘prik), больница, магазин, стадион, светофор.\nKasb va joy: водитель водит автобус, врач работает в больнице."
+   }
+  },
+  {
+   "id": "russian_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Uyim va shahrim",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.city"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.city"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.city"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g4.professions",
+   "code": "12",
+   "emoji": "👷",
+   "title": {
+    "uz": "Kasblar",
+    "en": "Professions",
+    "ru": "Профессии"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kasblar: врач (shifokor), учитель (o‘qituvchi), повар (oshpaz), водитель (haydovchi), продавец (sotuvchi),\nстроитель (quruvchi), фермер, лётчик (uchuvchi), художник (rassom), почтальон (pochtachi).\nBa’zi kasblarning ayollar shakli bor: учитель — учительница, певец — певица.\nKim nima qiladi? Повар готовит еду. Строитель строит дом. Врач лечит людей.\nКто твоя мама по профессии? — Моя мама — учительница. Она работает в школе."
+   }
+  },
+  {
+   "id": "russian_g4.shop",
+   "code": "13",
+   "emoji": "🛒",
+   "title": {
+    "uz": "Do‘konda",
+    "en": "At the shop",
+    "ru": "В магазине"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [
+    "russian_g4.professions"
+   ],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mahsulotlar: хлеб, молоко, масло (sariyog‘), сахар (shakar), соль (tuz), яйца (tuxum), рыба (baliq),\nкурица (tovuq), мёд (asal), фрукты (mevalar), овощи (sabzavotlar).\nDo‘konda so‘rash: У вас есть свежий хлеб? — Да, есть. / Нет, к сожалению, нет.\nСколько стоит масло? — Двадцать тысяч сумов.  Дорого — qimmat, дёшево — arzon.\nXushmuomala bo‘ling: Дайте, пожалуйста… — Вот, пожалуйста. Спасибо! До свидания!"
+   }
+  },
+  {
+   "id": "russian_g4.food",
+   "code": "14",
+   "emoji": "🍰",
+   "title": {
+    "uz": "Taomlar",
+    "en": "Food",
+    "ru": "Еда"
+   },
+   "generator": "vocab",
+   "skill": "vocab",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [
+    "russian_g4.shop"
+   ],
+   "levels": [
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "listen",
+      "read"
+     ],
+     "options": 3
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "read",
+      "picture_word"
+     ],
+     "options": 3,
+     "sameTheme": true
+    },
+    {
+     "themes": [
+      "food"
+     ],
+     "modes": [
+      "picture_word",
+      "listen",
+      "read"
+     ],
+     "options": 4,
+     "sameTheme": true
+    }
+   ],
+   "theory": {
+    "uz": "Taomlar: хлеб, сыр, яйцо, молоко, мёд, суп, рис, торт, пирог, блины, салат, чай, мороженое.\nRodni eslang: мой суп, моя пицца, моё мороженое.\nЯ люблю … — Men … ni yaxshi ko‘raman: Я люблю блины. Я не люблю рис.\nЧто ты ешь на завтрак? — На завтрак я ем яйцо и хлеб."
+   }
+  },
+  {
+   "id": "russian_g4.reading",
+   "code": "15",
+   "emoji": "📖",
+   "title": {
+    "uz": "Qisqa matnlar",
+    "en": "Short texts",
+    "ru": "Короткие тексты"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni o‘qishdan oldin savolni o‘qing — nimani qidirish kerakligini bilasiz.\n• Кто? — kim;  Где? — qayerda;  Когда? — qachon;  Что делал? — nima qildi.\n• Notanish so‘z bo‘lsa, gapdagi boshqa so‘zlarga qarab ma’nosini taxmin qiling.\nJavobni matndan toping: Где живёт Камила? — В Намангане."
+   }
+  },
+  {
+   "id": "russian_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.food",
+      "russian_g4.reading"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.food",
+      "russian_g4.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.food",
+      "russian_g4.reading"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kasblar, do‘kon va matnlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.time",
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.reading"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.time",
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.reading"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "russian_g4.adjectives",
+      "russian_g4.time",
+      "russian_g4.calendar",
+      "russian_g4.past",
+      "russian_g4.polite",
+      "russian_g4.home",
+      "russian_g4.prepositional",
+      "russian_g4.where_to",
+      "russian_g4.professions",
+      "russian_g4.shop",
+      "russian_g4.reading"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

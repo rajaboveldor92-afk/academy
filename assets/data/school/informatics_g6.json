@@ -1,0 +1,649 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Informatika va axborot texnologiyalari",
+  "en": "Computer science and IT",
+  "ru": "Информатика и ИТ"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "informatics_g6.olchov",
+   "code": "1",
+   "emoji": "📏",
+   "title": {
+    "uz": "Axborot va uni o‘lchash",
+    "en": "Measuring information",
+    "ru": "Измерение информации"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot, sanoq sistemalari va mantiq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter axborotni ikkilik kodda — 0 va 1 bilan saqlaydi. Bitta 0 yoki 1 — 1 bit, eng kichik o‘lchov birligi.\n• 1 bayt = 8 bit; 1 KB = 1024 bayt; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB.\n• Kichik birlikdan kattasiga o‘tishda bo‘linadi, kattasidan kichigiga o‘tishda ko‘paytiriladi: 3 KB = 3 · 1024 = 3072 bayt.\n• i bit bilan 2 · 2 · … · 2 (i marta) turli kod hosil bo‘ladi: 3 bit — 8 ta, 8 bit — 256 ta kod.\nOddiy kodlashda har bir belgi 1 bayt joy egallaydi."
+   }
+  },
+  {
+   "id": "informatics_g6.ikkilik",
+   "code": "2",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ikkilik sanoq sistemasi (0–255)",
+    "en": "Binary numbers (0–255)",
+    "ru": "Двоичная система (0–255)"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot, sanoq sistemalari va mantiq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ikkilik sistemada faqat ikki raqam bor: 0 va 1. Xona qiymatlari o‘ngdan chapga: 1, 2, 4, 8, 16, 32, 64, 128.\n• Ikkilikdan o‘nlikka: 1 turgan xonalar qiymatlari qo‘shiladi: 1011 = 8 + 2 + 1 = 11.\n• O‘nlikdan ikkilikka: sonni xona qiymatlari yig‘indisiga ajratamiz: 200 = 128 + 64 + 8 → 11001000.\n• 8 bit (1 bayt) bilan 0 dan 255 gacha sonlar yoziladi: 255 = 11111111.\nIkkilikda qo‘shish: 0 + 0 = 0, 0 + 1 = 1, 1 + 1 = 10 (0 yoziladi, 1 keyingi xonaga o‘tadi)."
+   }
+  },
+  {
+   "id": "informatics_g6.sanoq",
+   "code": "3",
+   "emoji": "🔣",
+   "title": {
+    "uz": "Sakkizlik va o‘n oltilik sanoq sistemalari",
+    "en": "Octal and hexadecimal numbers",
+    "ru": "Восьмеричная и шестнадцатеричная системы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot, sanoq sistemalari va mantiq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sanoq sistemasi asosi — undagi raqamlar soni.\n• Sakkizlik sistemada 8 ta raqam: 0–7. Xona qiymatlari: 1, 8, 64. Masalan, 17 = 1 · 8 + 7 = 15.\n• O‘n oltilik sistemada 16 ta raqam: 0–9 va A = 10, B = 11, C = 12, D = 13, E = 14, F = 15. Xona qiymatlari: 1, 16, 256. Masalan, 1A = 1 · 16 + 10 = 26.\n• Ikkilik son 3 tadan guruhlansa — sakkizlik, 4 tadan guruhlansa — o‘n oltilik raqamlar hosil bo‘ladi: 1111 = F.\nVeb-sahifa ranglari o‘n oltilik kod bilan yoziladi: #FF0000 — qizil, #FFFFFF — oq, #000000 — qora."
+   }
+  },
+  {
+   "id": "informatics_g6.mantiq",
+   "code": "4",
+   "emoji": "✅",
+   "title": {
+    "uz": "Mantiqiy amallar",
+    "en": "Logical operations",
+    "ru": "Логические операции"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborot, sanoq sistemalari va mantiq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mulohaza — rost yoki yolg‘on ekanini aytish mumkin bo‘lgan darak gap. Rost — 1, yolg‘on — 0.\n• VA (konyunksiya): ikkala mulohaza rost bo‘lsagina rost.\n• YOKI (dizyunksiya): kamida bittasi rost bo‘lsa rost; ikkalasi yolg‘on bo‘lsagina yolg‘on.\n• EMAS (inkor): qiymatni teskarisiga almashtiradi: EMAS 1 = 0, EMAS 0 = 1.\nRostlik jadvali: A VA B — 0 0 → 0, 0 1 → 0, 1 0 → 0, 1 1 → 1; A YOKI B — 0 0 → 0, 0 1 → 1, 1 0 → 1, 1 1 → 1."
+   }
+  },
+  {
+   "id": "informatics_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Axborot, sanoq sistemalari va mantiq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g6.jadval",
+   "code": "5",
+   "emoji": "📊",
+   "title": {
+    "uz": "Elektron jadval asoslari",
+    "en": "Spreadsheet basics",
+    "ru": "Основы электронных таблиц"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Elektron jadval va ofis dasturlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Elektron jadval — hisob-kitob uchun dastur: Microsoft Excel, LibreOffice Calc, Google Sheets. Excel fayli .xlsx kengaytmali “kitob”, u varaqlardan iborat.\n• Ustunlar harflar (A, B, C, …, Z, AA, …), satrlar raqamlar (1, 2, 3, …) bilan belgilanadi.\n• Katak — ustun va satr kesishmasi. Katak manzili: avval ustun harfi, keyin satr raqami: A1, C5. Tanlangan katak — faol katak.\n• Diapazon — to‘g‘ri to‘rtburchak shaklidagi kataklar guruhi: A1:B3 — 2 ustun · 3 satr = 6 katak.\nKatakka son, matn yoki formula (= belgisi bilan boshlanadi) yoziladi. Ma’lumotlardan diagramma yasash mumkin."
+   }
+  },
+  {
+   "id": "informatics_g6.formula",
+   "code": "6",
+   "emoji": "📈",
+   "title": {
+    "uz": "Formulalar va funksiyalar",
+    "en": "Formulas and functions",
+    "ru": "Формулы и функции"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Elektron jadval va ofis dasturlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Formula = belgisi bilan boshlanadi va katak manzillari, sonlar hamda amallardan tuziladi: + qo‘shish, - ayirish, * ko‘paytirish, / bo‘lish.\nMisol: A1 = 5, B1 = 8 bo‘lsa, =A1+B1 natijasi 13. Qiymat o‘zgarsa, natija avtomatik qayta hisoblanadi.\nAsosiy funksiyalar (diapazon bilan):\n• =SUM(A1:A4) — yig‘indi; =AVERAGE(A1:A4) — o‘rta arifmetik; =MAX(A1:A4) — eng katta; =MIN(A1:A4) — eng kichik qiymat.\nFormula nusxalanganda nisbiy manzillar o‘zgaradi: C1 dagi =A1+B1 C2 ga ko‘chsa, =A2+B2 bo‘ladi."
+   }
+  },
+  {
+   "id": "informatics_g6.hujjat",
+   "code": "7",
+   "emoji": "📝",
+   "title": {
+    "uz": "Matn muharriri: jadval, rasm va ro‘yxat",
+    "en": "Word processor: tables, images, lists",
+    "ru": "Текстовый редактор: таблицы, рисунки, списки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Elektron jadval va ofis dasturlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matn muharririda (Word, LibreOffice Writer) hujjatga matndan tashqari jadval, rasm va ro‘yxat qo‘shiladi.\n• Jadval: “Qo‘yish” → “Jadval”, satr va ustunlar soni tanlanadi. Satr yoki ustun qo‘shish, kataklarni birlashtirish mumkin.\n• Rasm: “Qo‘yish” → “Rasm”. Rasm atrofida matn joylashuvi “Matn bilan o‘rash” orqali sozlanadi.\n• Ro‘yxat: markerli (• belgisi bilan) va raqamli (1., 2., 3.). Raqamli ro‘yxatdan band o‘chirilsa, raqamlar avtomatik yangilanadi.\nSahifa yo‘nalishi: kitob (tik) yoki albom (yotiq). Imlo xatosi qizil to‘lqinli chiziq bilan belgilanadi. Chop etish — Ctrl+P."
+   }
+  },
+  {
+   "id": "informatics_g6.taqdimot",
+   "code": "8",
+   "emoji": "🎞️",
+   "title": {
+    "uz": "Taqdimot: dizayn, animatsiya va namoyish",
+    "en": "Presentations: design, animation, slideshow",
+    "ru": "Презентации: дизайн, анимация, показ"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Elektron jadval va ofis dasturlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Taqdimot dasturlari: PowerPoint (.pptx), LibreOffice Impress, Google Slides.\n• Slayd maketi — sarlavha, matn va rasm joylashuvi; dizayn mavzusi — fon, ranglar, shriftlar to‘plami.\n• O‘tish effekti — slaydlar almashishi; animatsiya — slayd ichidagi obyektning paydo bo‘lishi, ajratib ko‘rsatilishi yoki yo‘qolishi.\n• Namoyish: F5 — boshidan, Shift+F5 — joriy slayddan, Esc — chiqish. Giperhavola (Ctrl+K) boshqa slayd yoki saytga o‘tkazadi.\nSlaydlar saralovchi rejimida barcha slaydlar kichik ko‘rinishda ko‘rinadi va tartibi o‘zgartiriladi."
+   }
+  },
+  {
+   "id": "informatics_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Elektron jadval va ofis dasturlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g6.blok_sxema",
+   "code": "9",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Algoritm turlari va blok-sxemalar",
+    "en": "Algorithm types and flowcharts",
+    "ru": "Виды алгоритмов и блок-схемы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Algoritmlar va dasturlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm turlari: chiziqli (buyruqlar ketma-ket), tarmoqlanuvchi (shartga qarab yo‘l tanlanadi), takrorlanuvchi (sikl).\nBlok-sxema shakllari:\n• oval — boshlanish va tugash; parallelogramm — kiritish va chiqarish; to‘g‘ri to‘rtburchak — amal (hisoblash);\n• romb — shart, undan “Ha” va “Yo‘q” deb belgilangan ikki yo‘l chiqadi; strelkalar bajarilish tartibini ko‘rsatadi.\nSiklda strelka rombga qaytadi: shart rost ekan, tana qayta bajariladi. Masalan, s = 0, i = 1 dan 4 gacha s = s + i → s = 10."
+   }
+  },
+  {
+   "id": "informatics_g6.scratch",
+   "code": "10",
+   "emoji": "🐱",
+   "title": {
+    "uz": "Scratch: hodisa, sikl, shart, o‘zgaruvchi",
+    "en": "Scratch: events, loops, conditions, variables",
+    "ru": "Scratch: события, циклы, условия, переменные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Algoritmlar va dasturlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Scratch’da dastur (skript) bloklardan yig‘iladi.\n• Hodisalar: “yashil bayroqcha bosilganda”, “sprayt bosilganda”, “probel tugmasi bosilganda”, “xabar olinganda” — skriptni boshlaydi.\n• Sikllar (Boshqaruv): “10 marta takrorla”, “doimo takrorla”, “… bo‘lguncha takrorla”. Shartlar: “agar … bo‘lsa”, “agar … bo‘lsa … aks holda”.\n• O‘zgaruvchi — qiymat saqlaydigan “quti” (masalan, ball). “ball ni 0 ga o‘rnat” qiymatni almashtiradi, “ball ni 1 ga o‘zgartir” qiymatga 1 qo‘shadi.\n• Sezish bloklari (“… ga tegyaptimi?”) va Operatorlar (+, >, “va”, “yoki”, tasodifiy son) shartlarda ishlatiladi."
+   }
+  },
+  {
+   "id": "informatics_g6.dastur_natija",
+   "code": "11",
+   "emoji": "💻",
+   "title": {
+    "uz": "Dastur natijasini aniqlash",
+    "en": "Tracing a program",
+    "ru": "Определение результата программы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Algoritmlar va dasturlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Dastur natijasini aniqlash uchun buyruqlarni tartib bilan “qo‘lda” bajaramiz va o‘zgaruvchilar qiymatini yozib boramiz.\n• a = 5 — a o‘zgaruvchisiga 5 beriladi (eski qiymat o‘chadi); a = a + 1 — a ning qiymati 1 ga oshadi.\n• Amallar: + qo‘shish, - ayirish, * ko‘paytirish, // butun bo‘lish, % qoldiq: 17 // 5 = 3, 17 % 5 = 2. == — tenglikni tekshirish.\n• “agar SHART bo‘lsa: …, aks holda: …” — shart rost bo‘lsa birinchi, aks holda ikkinchi buyruq bajariladi.\n• “3 marta takrorla: …”, “i = 1 dan 4 gacha takrorla: …” — sikl; “toki SHART: …” — shart rost ekan, takrorlanadi. “chiqar a” — a ni ekranga chiqaradi."
+   }
+  },
+  {
+   "id": "informatics_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Algoritmlar va dasturlash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g6.tarmoq",
+   "code": "12",
+   "emoji": "🌐",
+   "title": {
+    "uz": "Kompyuter tarmoqlari va internet",
+    "en": "Computer networks and the internet",
+    "ru": "Компьютерные сети и интернет"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tarmoq, xavfsizlik va huquq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kompyuter tarmog‘i — axborot almashish uchun o‘zaro ulangan kompyuterlar. Lokal tarmoq bir xona yoki binoda, global tarmoq — Internet — butun dunyoda.\n• Server boshqa kompyuterlarga (mijozlarga) xizmat ko‘rsatadi. Internetga ulanish xizmatini provayder beradi.\n• IP-manzil — tarmoqdagi qurilmaning raqamli manzili: nuqta bilan ajratilgan 4 ta son, har biri 0–255 (192.168.1.10).\n• Domen nomi — eslab qolish oson nom (maktab.uz); DNS uni IP-manzilga aylantiradi. Zonalar: .uz — O‘zbekiston, .com — tijorat, .org — tashkilotlar.\nURL: https://www.maktab.uz/darslar/fizika.html — protokol, domen, papka va fayl. Tezlik bit/s da o‘lchanadi."
+   }
+  },
+  {
+   "id": "informatics_g6.kiberxavfsizlik",
+   "code": "13",
+   "emoji": "🛡️",
+   "title": {
+    "uz": "Kiberxavfsizlik",
+    "en": "Cybersecurity",
+    "ru": "Кибербезопасность"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tarmoq, xavfsizlik va huquq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kiberxavfsizlik — kompyuter, telefon va ma’lumotlarni hujumlardan himoya qilish.\n• Kuchli parol: kamida 8 belgi (yaxshisi 12 va undan ko‘p), katta va kichik harflar, raqamlar, maxsus belgilar; har bir sayt uchun alohida parol. Ikki bosqichli tekshiruv (parol + SMS-kod) himoyani kuchaytiradi.\n• Fishing — soxta xat yoki sayt orqali parol va karta ma’lumotini o‘g‘irlash. Belgilari: shoshiltirish, sovg‘a va’dasi, manzilda g‘alati xatolar.\n• Zararli dasturlar: virus (o‘zidan nusxa ko‘paytiradi), troyan (foydali dastur niqobida), to‘lov talab qiluvchi dastur (fayllarni shifrlab, pul so‘raydi).\nHimoya: antivirus, tizimni yangilash, fayllarning zaxira nusxasi, SMS-kodni hech kimga aytmaslik."
+   }
+  },
+  {
+   "id": "informatics_g6.mualliflik",
+   "code": "14",
+   "emoji": "📜",
+   "title": {
+    "uz": "Mualliflik huquqi",
+    "en": "Copyright",
+    "ru": "Авторское право"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tarmoq, xavfsizlik va huquq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mualliflik huquqi — ijodkorning o‘z asariga (kitob, maqola, rasm, fotosurat, musiqa, film, kompyuter dasturi) bo‘lgan huquqi. Asar yaratilgan paytdan himoyalanadi.\n• © belgisi mualliflik huquqini bildiradi. Asardan foydalanish shartlari — litsenziya.\n• Iqtibos keltirilganda muallif va manba ko‘rsatiladi. Birovning asarini o‘ziniki qilib ko‘rsatish — plagiat.\n• Ruxsatsiz nusxalash va tarqatish — qaroqchilik. Bepul dasturlar bor, ochiq kodli dasturlarni esa o‘rganish va o‘zgartirish ham mumkin (Linux, LibreOffice).\nBa’zi mualliflar asarini ochiq litsenziya (masalan, Creative Commons) bilan erkin foydalanishga beradi."
+   }
+  },
+  {
+   "id": "informatics_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tarmoq, xavfsizlik va huquq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tarmoq, xavfsizlik va huquq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq",
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot",
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija",
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq",
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot",
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija",
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "informatics_g6.olchov",
+      "informatics_g6.ikkilik",
+      "informatics_g6.sanoq",
+      "informatics_g6.mantiq",
+      "informatics_g6.jadval",
+      "informatics_g6.formula",
+      "informatics_g6.hujjat",
+      "informatics_g6.taqdimot",
+      "informatics_g6.blok_sxema",
+      "informatics_g6.scratch",
+      "informatics_g6.dastur_natija",
+      "informatics_g6.tarmoq",
+      "informatics_g6.kiberxavfsizlik",
+      "informatics_g6.mualliflik"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

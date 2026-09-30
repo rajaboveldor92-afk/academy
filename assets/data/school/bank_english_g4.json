@@ -1,0 +1,5396 @@
+{
+ "items": [
+  {
+   "topic": "english_g4.time",
+   "id": "time_1",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 3:00",
+   "a": "It's three o'clock.",
+   "w": [
+    "It's thirteen o'clock.",
+    "It's half past three.",
+    "It's two o'clock."
+   ],
+   "d": 1,
+   "x": "3:00 — three o’clock (soat uch).",
+   "e": "🕒"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_2",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 9:00",
+   "a": "It's nine o'clock.",
+   "w": [
+    "It's nineteen o'clock.",
+    "It's half past nine.",
+    "It's five o'clock."
+   ],
+   "d": 1,
+   "x": "9:00 — nine o’clock (soat to‘qqiz).",
+   "e": "🕘"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_3",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 6:30",
+   "a": "It's half past six.",
+   "w": [
+    "It's half past seven.",
+    "It's six o'clock.",
+    "It's sixteen o'clock."
+   ],
+   "d": 1,
+   "x": "6:30 — half past six (oltidan yarim soat o‘tdi).",
+   "e": "🕡"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_4",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 11:30",
+   "a": "It's half past eleven.",
+   "w": [
+    "It's half past twelve.",
+    "It's eleven o'clock.",
+    "It's half past seven."
+   ],
+   "d": 1,
+   "x": "11:30 — half past eleven.",
+   "e": "🕦"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_5",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "2:00",
+   "w": [
+    "12:00",
+    "2:30",
+    "10:00"
+   ],
+   "d": 1,
+   "x": "two o'clock — 2:00.",
+   "say": "It's two o'clock.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_6",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "5:30",
+   "w": [
+    "5:00",
+    "6:30",
+    "4:30"
+   ],
+   "d": 1,
+   "x": "half past five — 5:30.",
+   "say": "It's half past five.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_7",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "12:00",
+   "w": [
+    "2:00",
+    "11:00",
+    "12:30"
+   ],
+   "d": 1,
+   "x": "twelve o'clock — 12:00.",
+   "say": "It's twelve o'clock.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Soat necha?",
+   "w": [
+    "Bugun qaysi kun?",
+    "Necha yoshdasan?",
+    "Qayerdasan?"
+   ],
+   "d": 1,
+   "x": "What time is it? — Soat necha?",
+   "say": "What time is it?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_9",
+   "t": "match",
+   "q": "Kun qismlarini tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "in the morning",
+     "ertalab"
+    ],
+    [
+     "in the afternoon",
+     "tushdan keyin"
+    ],
+    [
+     "in the evening",
+     "kechqurun"
+    ],
+    [
+     "at night",
+     "tunda"
+    ],
+    [
+     "at midnight",
+     "yarim tunda"
+    ],
+    [
+     "every day",
+     "har kuni"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_10",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I get up ... seven o'clock.",
+   "a": "at",
+   "w": [
+    "in",
+    "on",
+    "to"
+   ],
+   "d": 1,
+   "x": "Soat oldidan at qo‘yiladi: at seven o'clock.",
+   "say": "I get up ... seven o'clock.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_11",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I read books ... the evening.",
+   "a": "in",
+   "w": [
+    "at",
+    "on",
+    "to"
+   ],
+   "d": 1,
+   "x": "in the evening — kechqurun.",
+   "say": "I read books ... the evening.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's half ... four.",
+   "a": "past",
+   "w": [
+    "to",
+    "at",
+    "of"
+   ],
+   "d": 1,
+   "x": "4:30 — half past four.",
+   "say": "It's half ... four.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_13",
+   "t": "tf",
+   "q": "“half past one” — 1:30 degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: half past one — 1:30.",
+   "say": "half past one",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_14",
+   "t": "tf",
+   "q": "“six o'clock” — 6:30 degani.",
+   "a": false,
+   "d": 1,
+   "x": "six o'clock — 6:00; 6:30 esa — half past six.",
+   "say": "six o'clock",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_15",
+   "t": "tf",
+   "q": "“at night” — ertalab degani.",
+   "a": false,
+   "d": 2,
+   "x": "at night — tunda, kechasi; ertalab — in the morning.",
+   "say": "at night",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_16",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 12:30",
+   "a": "It's half past twelve.",
+   "w": [
+    "It's half past one.",
+    "It's twelve o'clock.",
+    "It's half past two."
+   ],
+   "d": 2,
+   "x": "12:30 — half past twelve.",
+   "e": "🕧"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_17",
+   "t": "choice",
+   "q": "Dars soat 8:00 da boshlanadi. Mos gapni tanlang",
+   "a": "School starts at eight o'clock.",
+   "w": [
+    "School starts in eight o'clock.",
+    "School starts at eighteen o'clock.",
+    "School starts on eight o'clock."
+   ],
+   "d": 2,
+   "x": "Soat oldidan at: at eight o’clock."
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We have lunch at one o'clock in the ...",
+   "a": "afternoon",
+   "w": [
+    "morning",
+    "night",
+    "midnight"
+   ],
+   "d": 2,
+   "x": "Soat birdan keyin — in the afternoon (tushdan keyin).",
+   "say": "We have lunch at one o'clock in the ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_19",
+   "t": "choice",
+   "q": "Hozir soat 4:00. Bir soatdan keyin soat necha bo‘ladi?",
+   "a": "five o'clock",
+   "w": [
+    "four o'clock",
+    "three o'clock",
+    "half past four"
+   ],
+   "d": 2,
+   "x": "4:00 + 1 soat = 5:00 — five o’clock."
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men soat 7:30 da nonushta qilaman.",
+   "w": [
+    "Men soat 7:00 da nonushta qilaman.",
+    "Men soat 7:30 da tushlik qilaman.",
+    "Men soat 6:30 da nonushta qilaman."
+   ],
+   "d": 2,
+   "x": "I have breakfast at half past seven. — Men soat 7:30 da nonushta qilaman.",
+   "say": "I have breakfast at half past seven.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven",
+    "o'clock"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I get up at seven o'clock. — Men soat yettida turaman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_22",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "time",
+    "is",
+    "it",
+    "now"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "What time is it now? — Hozir soat necha?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_23",
+   "t": "choice",
+   "q": "Soatga mos javobni tanlang: 10:30",
+   "a": "It's half past ten.",
+   "w": [
+    "It's half past eleven.",
+    "It's half to ten.",
+    "It's ten o'clock."
+   ],
+   "d": 3,
+   "x": "10:30 — half past ten (o‘ndan yarim soat o‘tdi).",
+   "e": "🕥"
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_24",
+   "t": "choice",
+   "q": "Qaysi vaqt eng erta?",
+   "a": "six o'clock",
+   "w": [
+    "half past six",
+    "seven o'clock",
+    "half past seven"
+   ],
+   "d": 3,
+   "x": "6:00 — eng erta: 6:00, 6:30, 7:00, 7:30."
+  },
+  {
+   "topic": "english_g4.time",
+   "id": "time_25",
+   "t": "choice",
+   "q": "Hozir half past eight. Yarim soatdan keyin soat necha bo‘ladi?",
+   "a": "nine o'clock",
+   "w": [
+    "eight o'clock",
+    "half past nine",
+    "ten o'clock"
+   ],
+   "d": 3,
+   "x": "8:30 + 30 daqiqa = 9:00 — nine o'clock.",
+   "say": "half past eight",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... up at seven.",
+   "a": "get",
+   "w": [
+    "gets",
+    "getting",
+    "am get"
+   ],
+   "d": 1,
+   "x": "I bilan fe’l o‘zgarmaydi: I get up.",
+   "say": "I ... up at seven.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My sister ... up at seven.",
+   "a": "gets",
+   "w": [
+    "get",
+    "getting",
+    "is get"
+   ],
+   "d": 1,
+   "x": "my sister = she, shuning uchun -s: she gets up.",
+   "say": "My sister ... up at seven.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We ... to school at eight.",
+   "a": "go",
+   "w": [
+    "goes",
+    "going",
+    "gos"
+   ],
+   "d": 1,
+   "x": "we bilan fe’l o‘zgarmaydi: we go.",
+   "say": "We ... to school at eight.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My mum ... breakfast for us.",
+   "a": "makes",
+   "w": [
+    "make",
+    "making",
+    "maked"
+   ],
+   "d": 1,
+   "x": "my mum = she → makes.",
+   "say": "My mum ... breakfast for us.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: They ... their homework after school.",
+   "a": "do",
+   "w": [
+    "does",
+    "dos",
+    "doing"
+   ],
+   "d": 1,
+   "x": "they bilan fe’l o‘zgarmaydi: they do.",
+   "say": "They ... their homework after school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_6",
+   "t": "choice",
+   "q": "“go” fe’lining he / she bilan shakli",
+   "a": "goes",
+   "w": [
+    "gos",
+    "go",
+    "goies"
+   ],
+   "d": 1,
+   "x": "-o dan keyin -es: go → goes.",
+   "say": "go",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_7",
+   "t": "choice",
+   "q": "“wash” fe’lining he / she bilan shakli",
+   "a": "washes",
+   "w": [
+    "washs",
+    "wash",
+    "washies"
+   ],
+   "d": 1,
+   "x": "-sh dan keyin -es: wash → washes.",
+   "say": "wash",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_8",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "wake up",
+     "uyg‘onmoq"
+    ],
+    [
+     "get dressed",
+     "kiyinmoq"
+    ],
+    [
+     "have a shower",
+     "dush qabul qilmoq"
+    ],
+    [
+     "have lunch",
+     "tushlik qilmoq"
+    ],
+    [
+     "have dinner",
+     "kechki ovqat yemoq"
+    ],
+    [
+     "walk the dog",
+     "itni sayrga olib chiqmoq"
+    ],
+    [
+     "wash my face",
+     "yuzimni yuvmoq"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "U kiyinadi va nonushta qiladi.",
+   "w": [
+    "Men kiyinaman va nonushta qilaman.",
+    "U uyg‘onadi va dush qabul qiladi.",
+    "U kiyinadi va tushlik qiladi."
+   ],
+   "d": 1,
+   "x": "She gets dressed and has breakfast. — U kiyinadi va nonushta qiladi.",
+   "say": "She gets dressed and has breakfast.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Akam har kuni kechqurun itni sayrga olib chiqadi.",
+   "w": [
+    "Akam har kuni ertalab itni sayrga olib chiqadi.",
+    "Men har kuni kechqurun itni sayrga olib chiqaman.",
+    "Akam har kuni kechqurun mushukni boqadi."
+   ],
+   "d": 1,
+   "x": "My brother walks the dog every evening. — Akam har kuni kechqurun itni sayrga olib chiqadi.",
+   "say": "My brother walks the dog every evening.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_11",
+   "t": "tf",
+   "q": "“He play football after school.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "he bilan fe’lga -s qo‘shiladi: He plays football.",
+   "say": "He play football after school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_12",
+   "t": "tf",
+   "q": "“Our dog sleeps in the garden.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: our dog = it → sleeps.",
+   "say": "Our dog sleeps in the garden.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_13",
+   "t": "choice",
+   "q": "“har kuni” inglizcha qanday?",
+   "a": "every day",
+   "w": [
+    "today",
+    "yesterday",
+    "now"
+   ],
+   "d": 1,
+   "x": "every day — har kuni."
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "have",
+    "a",
+    "shower",
+    "in",
+    "the",
+    "morning"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I have a shower in the morning. — Men ertalab dush qabul qilaman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: He ... his teeth every morning.",
+   "a": "brushes",
+   "w": [
+    "brush",
+    "brushs",
+    "brushing"
+   ],
+   "d": 2,
+   "x": "he bilan; -sh dan keyin -es: brushes.",
+   "say": "He ... his teeth every morning.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Anvar ... to school by bus.",
+   "a": "goes",
+   "w": [
+    "go",
+    "gos",
+    "going"
+   ],
+   "d": 2,
+   "x": "Anvar = he → goes.",
+   "say": "Anvar ... to school by bus.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Lola ... her homework in the evening.",
+   "a": "does",
+   "w": [
+    "do",
+    "dos",
+    "doing"
+   ],
+   "d": 2,
+   "x": "Lola = she; do → does.",
+   "say": "Lola ... her homework in the evening.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My dad ... the news in the evening.",
+   "a": "watches",
+   "w": [
+    "watch",
+    "watchs",
+    "watching"
+   ],
+   "d": 2,
+   "x": "my dad = he; -ch dan keyin -es: watches.",
+   "say": "My dad ... the news in the evening.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_19",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She ... lunch at one o'clock.",
+   "a": "has",
+   "w": [
+    "have",
+    "haves",
+    "having"
+   ],
+   "d": 2,
+   "x": "she bilan have → has.",
+   "say": "She ... lunch at one o'clock.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_20",
+   "t": "choice",
+   "q": "“do” fe’lining he / she bilan shakli",
+   "a": "does",
+   "w": [
+    "dos",
+    "do",
+    "dose"
+   ],
+   "d": 2,
+   "x": "do → does.",
+   "say": "do",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_21",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Madina reads a book every evening.",
+   "w": [
+    "Madina read a book every evening.",
+    "Madina reades a book every evening.",
+    "Madina reading a book every evening."
+   ],
+   "d": 2,
+   "x": "Madina = she → reads."
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "father",
+    "goes",
+    "to",
+    "work",
+    "at",
+    "eight"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My father goes to work at eight. — Otam soat sakkizda ishga boradi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... like fish.",
+   "a": "don't",
+   "w": [
+    "doesn't",
+    "not",
+    "am not"
+   ],
+   "d": 3,
+   "x": "I bilan inkor: don't — I don't like fish.",
+   "say": "I ... like fish.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_24",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My brother ... like milk.",
+   "a": "doesn't",
+   "w": [
+    "don't",
+    "not",
+    "isn't"
+   ],
+   "d": 3,
+   "x": "he bilan inkor: doesn't — My brother doesn't like milk.",
+   "say": "My brother ... like milk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_25",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Does Ali get up early? — Yes, he ...",
+   "a": "does",
+   "w": [
+    "do",
+    "is",
+    "gets"
+   ],
+   "d": 3,
+   "x": "Does …? savoliga qisqa javob: Yes, he does.",
+   "say": "Does Ali get up early? — Yes, he ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.routine",
+   "id": "routine_26",
+   "t": "choice",
+   "q": "To‘g‘ri tartibni tanlang",
+   "a": "get up — have breakfast — go to school",
+   "w": [
+    "go to school — get up — have breakfast",
+    "have breakfast — get up — go to school",
+    "go to bed — get up — have breakfast"
+   ],
+   "d": 3,
+   "x": "Avval turamiz, keyin nonushta qilamiz, so‘ng maktabga boramiz."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_1",
+   "t": "choice",
+   "q": "Yilning uchinchi oyi qaysi?",
+   "a": "March",
+   "w": [
+    "May",
+    "January",
+    "April"
+   ],
+   "d": 1,
+   "x": "January (1), February (2), March (3)."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_2",
+   "t": "choice",
+   "q": "“August” — qaysi oy?",
+   "a": "avgust",
+   "w": [
+    "aprel",
+    "oktyabr",
+    "iyun"
+   ],
+   "d": 1,
+   "x": "August — avgust.",
+   "say": "August",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_3",
+   "t": "choice",
+   "q": "“October” — qaysi oy?",
+   "a": "oktyabr",
+   "w": [
+    "avgust",
+    "dekabr",
+    "sentabr"
+   ],
+   "d": 1,
+   "x": "October — oktyabr.",
+   "say": "October",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_4",
+   "t": "choice",
+   "q": "Qaysi oy tushib qolgan? January, ..., March",
+   "a": "February",
+   "w": [
+    "December",
+    "April",
+    "November"
+   ],
+   "d": 1,
+   "x": "January, February, March.",
+   "say": "January, ..., March",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_5",
+   "t": "choice",
+   "q": "Qaysi kun tushib qolgan? Tuesday, ..., Thursday",
+   "a": "Wednesday",
+   "w": [
+    "Monday",
+    "Friday",
+    "Sunday"
+   ],
+   "d": 1,
+   "x": "Tuesday, Wednesday, Thursday.",
+   "say": "Tuesday, ..., Thursday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: School starts ... September.",
+   "a": "in",
+   "w": [
+    "on",
+    "at",
+    "to"
+   ],
+   "d": 1,
+   "x": "Oy oldidan in: in September.",
+   "say": "School starts ... September.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We have music ... Friday.",
+   "a": "on",
+   "w": [
+    "in",
+    "at",
+    "to"
+   ],
+   "d": 1,
+   "x": "Hafta kuni oldidan on: on Friday.",
+   "say": "We have music ... Friday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's cold ... winter.",
+   "a": "in",
+   "w": [
+    "on",
+    "at",
+    "of"
+   ],
+   "d": 1,
+   "x": "Fasl oldidan in: in winter.",
+   "say": "It's cold ... winter.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_9",
+   "t": "match",
+   "q": "Oyni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "January",
+     "yanvar"
+    ],
+    [
+     "March",
+     "mart"
+    ],
+    [
+     "June",
+     "iyun"
+    ],
+    [
+     "July",
+     "iyul"
+    ],
+    [
+     "September",
+     "sentabr"
+    ],
+    [
+     "November",
+     "noyabr"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_10",
+   "t": "choice",
+   "q": "Yangi yil qaysi oyda boshlanadi?",
+   "a": "January",
+   "w": [
+    "December",
+    "March",
+    "September"
+   ],
+   "d": 1,
+   "x": "Yil 1-yanvarda boshlanadi: January."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_11",
+   "t": "choice",
+   "q": "Qaysi oy yozga kiradi? (O‘zbekistonda)",
+   "a": "July",
+   "w": [
+    "January",
+    "October",
+    "March"
+   ],
+   "d": 1,
+   "x": "Yoz oylari: June, July, August.",
+   "say": "July",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_12",
+   "t": "tf",
+   "q": "“Sunday” — dam olish kuni (weekend).",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: weekend — Saturday and Sunday.",
+   "say": "Sunday",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_13",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening tug‘ilgan kunim dekabrda.",
+   "w": [
+    "Mening tug‘ilgan kunim noyabrda.",
+    "Uning tug‘ilgan kuni dekabrda.",
+    "Dekabrda havo issiq."
+   ],
+   "d": 1,
+   "x": "My birthday is in December. — Mening tug‘ilgan kunim dekabrda.",
+   "say": "My birthday is in December.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "have",
+    "art",
+    "on",
+    "Tuesday"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "We have art on Tuesday. — Seshanba kuni rasm darsimiz bor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_15",
+   "t": "choice",
+   "q": "Qaysi oyda 28 yoki 29 kun bo‘ladi?",
+   "a": "February",
+   "w": [
+    "January",
+    "March",
+    "December"
+   ],
+   "d": 2,
+   "x": "February — eng qisqa oy: 28 kun, kabisa yilida 29 kun."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_16",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "Thursday",
+   "w": [
+    "thursday",
+    "Thirsday",
+    "Thursdey"
+   ],
+   "d": 2,
+   "x": "Thursday — bosh harf bilan, u-r-s-d-a-y."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_17",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "January",
+   "w": [
+    "january",
+    "Janury",
+    "Januari"
+   ],
+   "d": 2,
+   "x": "January — oy nomi bosh harf bilan yoziladi."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_18",
+   "t": "choice",
+   "q": "Bugun — Monday. Ikki kundan keyin qaysi kun bo‘ladi?",
+   "a": "Wednesday",
+   "w": [
+    "Tuesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "d": 2,
+   "x": "Monday → Tuesday → Wednesday.",
+   "say": "Today is Monday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_19",
+   "t": "choice",
+   "q": "Qaysi oy tushib qolgan? October, ..., December",
+   "a": "November",
+   "w": [
+    "September",
+    "January",
+    "August"
+   ],
+   "d": 2,
+   "x": "October, November, December.",
+   "say": "October, ..., December",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_20",
+   "t": "match",
+   "q": "Son va tartib sonni juftlang",
+   "pairs": [
+    [
+     "1st",
+     "first"
+    ],
+    [
+     "2nd",
+     "second"
+    ],
+    [
+     "3rd",
+     "third"
+    ],
+    [
+     "4th",
+     "fourth"
+    ],
+    [
+     "5th",
+     "fifth"
+    ],
+    [
+     "10th",
+     "tenth"
+    ]
+   ],
+   "d": 2,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_21",
+   "t": "tf",
+   "q": "“the second” — ikkinchi degani.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: second — ikkinchi (2nd).",
+   "say": "the second",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_22",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Shanba kuni buvimiznikiga boramiz.",
+   "w": [
+    "Yakshanba kuni buvimiznikiga boramiz.",
+    "Shanba kuni bobomiznikiga boramiz.",
+    "Juma kuni buvimiz bizga keladi."
+   ],
+   "d": 2,
+   "x": "On Saturday we visit our granny. — Shanba kuni buvimiznikiga boramiz.",
+   "say": "On Saturday we visit our granny.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_23",
+   "t": "choice",
+   "q": "“When is your birthday?” savoliga mos javobni tanlang",
+   "a": "It's in April.",
+   "w": [
+    "It's Monday today.",
+    "I'm ten.",
+    "It's sunny."
+   ],
+   "d": 2,
+   "x": "When? — qachon? Javob: It's in April. — Aprelda.",
+   "say": "When is your birthday?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "The",
+    "first",
+    "month",
+    "is",
+    "January"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "The first month is January. — Birinchi oy — yanvar.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "When",
+    "is",
+    "your",
+    "birthday"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "When is your birthday? — Tug‘ilgan kuning qachon?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_26",
+   "t": "choice",
+   "q": "Navro‘z qaysi kuni nishonlanadi?",
+   "a": "on the 21st of March",
+   "w": [
+    "on the 1st of January",
+    "on the 1st of June",
+    "on the 21st of May"
+   ],
+   "d": 3,
+   "x": "Navro‘z — 21-mart: the twenty-first of March."
+  },
+  {
+   "topic": "english_g4.calendar",
+   "id": "calendar_27",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "We have English on Monday and Thursday.",
+   "w": [
+    "We have English in Monday and Thursday.",
+    "We have English on monday and thursday.",
+    "We have English at Monday and Thursday."
+   ],
+   "d": 3,
+   "x": "Hafta kuni oldidan on, kun nomlari bosh harf bilan."
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_1",
+   "t": "choice",
+   "q": "“rain” so‘zidan ob-havo sifati",
+   "a": "rainy",
+   "w": [
+    "rainny",
+    "raine",
+    "rained"
+   ],
+   "d": 1,
+   "x": "rain → rainy.",
+   "say": "rain",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_2",
+   "t": "choice",
+   "q": "“cloud” so‘zidan ob-havo sifati",
+   "a": "cloudy",
+   "w": [
+    "cloudly",
+    "clouddy",
+    "cloudie"
+   ],
+   "d": 1,
+   "x": "cloud → cloudy.",
+   "say": "cloud",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_3",
+   "t": "choice",
+   "q": "“wind” so‘zidan ob-havo sifati",
+   "a": "windy",
+   "w": [
+    "windly",
+    "winddy",
+    "windie"
+   ],
+   "d": 1,
+   "x": "wind → windy.",
+   "say": "wind",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_4",
+   "t": "choice",
+   "q": "Rasmga qarang: What's the weather like?",
+   "a": "It's foggy.",
+   "w": [
+    "It's sunny.",
+    "It's hot.",
+    "It's snowy."
+   ],
+   "d": 1,
+   "x": "Tuman — foggy.",
+   "e": "🌫️",
+   "say": "What's the weather like?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_5",
+   "t": "choice",
+   "q": "Rasmga qarang: What's the weather like?",
+   "a": "It's windy.",
+   "w": [
+    "It's rainy.",
+    "It's snowy.",
+    "It's hot."
+   ],
+   "d": 1,
+   "x": "Shamol — windy.",
+   "e": "🌬️",
+   "say": "What's the weather like?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_6",
+   "t": "choice",
+   "q": "Rasmga qarang: What's the weather like?",
+   "a": "It's cloudy.",
+   "w": [
+    "It's sunny.",
+    "It's snowy.",
+    "It's foggy."
+   ],
+   "d": 1,
+   "x": "Bulut — cloudy.",
+   "e": "☁️",
+   "say": "What's the weather like?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's raining. Take your ...",
+   "a": "umbrella",
+   "w": [
+    "sunglasses",
+    "T-shirt",
+    "kite"
+   ],
+   "d": 1,
+   "x": "Yomg‘irda soyabon olamiz: umbrella.",
+   "say": "It's raining. Take your ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's cold and snowy. Put on your ...",
+   "a": "coat",
+   "w": [
+    "shorts",
+    "sandals",
+    "sunglasses"
+   ],
+   "d": 1,
+   "x": "Qishda issiq palto kiyamiz: coat.",
+   "say": "It's cold and snowy. Put on your ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_9",
+   "t": "choice",
+   "q": "“iliq” inglizcha qanday?",
+   "a": "warm",
+   "w": [
+    "cold",
+    "cool",
+    "hot"
+   ],
+   "d": 1,
+   "x": "warm — iliq; hot — issiq; cool — salqin; cold — sovuq."
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_10",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "hot",
+     "issiq"
+    ],
+    [
+     "warm",
+     "iliq"
+    ],
+    [
+     "cool",
+     "salqin"
+    ],
+    [
+     "cold",
+     "sovuq"
+    ],
+    [
+     "foggy",
+     "tumanli"
+    ],
+    [
+     "stormy",
+     "bo‘ronli"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Yomg‘ir yog‘yapti va sovuq.",
+   "w": [
+    "Qor yog‘yapti va sovuq.",
+    "Quyosh charaqlayapti va issiq.",
+    "Yomg‘ir yog‘yapti va iliq."
+   ],
+   "d": 1,
+   "x": "It's raining and it's cold. — Yomg‘ir yog‘yapti va sovuq.",
+   "say": "It's raining and it's cold.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_12",
+   "t": "choice",
+   "q": "Qaysi faslda barglar sarg‘ayib to‘kiladi?",
+   "a": "autumn",
+   "w": [
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "d": 1,
+   "x": "Kuzda (autumn) barglar sarg‘ayadi va to‘kiladi."
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_13",
+   "t": "choice",
+   "q": "Qaysi gap qish haqida?",
+   "a": "It's cold and snowy.",
+   "w": [
+    "It's hot and sunny.",
+    "The flowers are opening.",
+    "We swim in the river."
+   ],
+   "d": 1,
+   "x": "Qishda sovuq va qor yog‘adi: cold and snowy."
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "It",
+    "is",
+    "windy",
+    "today"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "It is windy today. — Bugun shamol bor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_15",
+   "t": "choice",
+   "q": "“sun” so‘zidan ob-havo sifati",
+   "a": "sunny",
+   "w": [
+    "suny",
+    "sunnie",
+    "sunner"
+   ],
+   "d": 2,
+   "x": "sun → sunny (n harfi ikkilanadi).",
+   "say": "sun",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_16",
+   "t": "choice",
+   "q": "“snow” so‘zidan ob-havo sifati",
+   "a": "snowy",
+   "w": [
+    "snowly",
+    "snowwy",
+    "snowie"
+   ],
+   "d": 2,
+   "x": "snow → snowy.",
+   "say": "snow",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's hot and sunny. Let's go ...",
+   "a": "swimming",
+   "w": [
+    "skiing",
+    "skating",
+    "sledging"
+   ],
+   "d": 2,
+   "x": "Issiq kunda suzishga boramiz: go swimming.",
+   "say": "It's hot and sunny. Let's go ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: What's the weather ... today?",
+   "a": "like",
+   "w": [
+    "is",
+    "does",
+    "how"
+   ],
+   "d": 2,
+   "x": "What's the weather like? — Havo qanday?",
+   "say": "What's the weather ... today?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_19",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It's snowing. The children are making a ...",
+   "a": "snowman",
+   "w": [
+    "sandcastle",
+    "kite",
+    "boat"
+   ],
+   "d": 2,
+   "x": "Qordan odam yasashadi: a snowman.",
+   "say": "It's snowing. The children are making a ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_20",
+   "t": "tf",
+   "q": "“In summer we make a snowman.” — O‘zbekiston uchun to‘g‘ri fikr.",
+   "a": false,
+   "d": 2,
+   "x": "Qordan odam qishda yasaladi: In winter we make a snowman.",
+   "say": "In summer we make a snowman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bahorda iliq, daraxtlar yashil.",
+   "w": [
+    "Kuzda salqin, daraxtlar sariq.",
+    "Yozda issiq, daraxtlar yashil.",
+    "Bahorda sovuq, qor yog‘adi."
+   ],
+   "d": 2,
+   "x": "In spring it's warm and the trees are green. — Bahorda iliq, daraxtlar yashil.",
+   "say": "In spring it's warm and the trees are green.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_22",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "sandwich",
+   "w": [
+    "sunny",
+    "windy",
+    "cloudy"
+   ],
+   "d": 2,
+   "x": "sandwich — buterbrod; qolganlari ob-havo so‘zlari."
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "In",
+    "autumn",
+    "it",
+    "is",
+    "cool",
+    "and",
+    "rainy"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "In autumn it is cool and rainy. — Kuzda salqin va yomg‘irli.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_24",
+   "t": "choice",
+   "q": "“It's freezing!” nimani bildiradi?",
+   "a": "Juda sovuq!",
+   "w": [
+    "Juda issiq!",
+    "Yomg‘ir yog‘yapti!",
+    "Shamol yo‘q!"
+   ],
+   "d": 3,
+   "x": "freezing — muzlatadigan darajada sovuq.",
+   "say": "It's freezing!",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.weather",
+   "id": "weather_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "is",
+    "the",
+    "weather",
+    "like",
+    "in",
+    "winter"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What is the weather like in winter? — Qishda havo qanday?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_1",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men bananni yoqtiraman.",
+   "w": [
+    "Men bananni yoqtirmayman.",
+    "U bananni yoqtiradi.",
+    "Men olmani yoqtiraman."
+   ],
+   "d": 1,
+   "x": "I like bananas. — Men bananni yoqtiraman.",
+   "say": "I like bananas.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_2",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men piyozni yoqtirmayman.",
+   "w": [
+    "Men piyozni yoqtiraman.",
+    "U piyozni yoqtirmaydi.",
+    "Men sabzini yoqtirmayman."
+   ],
+   "d": 1,
+   "x": "I don't like onions. — Men piyozni yoqtirmayman.",
+   "say": "I don't like onions.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... like fish. I never eat it.",
+   "a": "don't",
+   "w": [
+    "doesn't",
+    "am not",
+    "not"
+   ],
+   "d": 1,
+   "x": "I bilan inkor: I don't like.",
+   "say": "I ... like fish. I never eat it.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My sister ... chocolate.",
+   "a": "likes",
+   "w": [
+    "like",
+    "liking",
+    "is like"
+   ],
+   "d": 1,
+   "x": "my sister = she → likes.",
+   "say": "My sister ... chocolate.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Do you like grapes? — Yes, I ...",
+   "a": "do",
+   "w": [
+    "does",
+    "am",
+    "like"
+   ],
+   "d": 1,
+   "x": "Do …? savoliga qisqa javob: Yes, I do.",
+   "say": "Do you like grapes? — Yes, I ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Do you like milk? — No, I ...",
+   "a": "don't",
+   "w": [
+    "doesn't",
+    "not",
+    "am not"
+   ],
+   "d": 1,
+   "x": "Qisqa inkor javob: No, I don't.",
+   "say": "Do you like milk? — No, I ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... you like pizza?",
+   "a": "Do",
+   "w": [
+    "Does",
+    "Are",
+    "Is"
+   ],
+   "d": 1,
+   "x": "you bilan savol: Do you like …?",
+   "say": "... you like pizza?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_8",
+   "t": "choice",
+   "q": "“Men sho‘rvani juda yaxshi ko‘raman.” inglizcha qanday?",
+   "a": "I love soup.",
+   "w": [
+    "I don't like soup.",
+    "I loves soup.",
+    "I love juice."
+   ],
+   "d": 1,
+   "x": "love — juda yaxshi ko‘rmoq; soup — sho‘rva."
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_9",
+   "t": "match",
+   "q": "Taomlarni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "bread",
+     "non"
+    ],
+    [
+     "rice",
+     "guruch"
+    ],
+    [
+     "meat",
+     "go‘sht"
+    ],
+    [
+     "fish",
+     "baliq"
+    ],
+    [
+     "cheese",
+     "pishloq"
+    ],
+    [
+     "juice",
+     "sharbat"
+    ],
+    [
+     "honey",
+     "asal"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_10",
+   "t": "choice",
+   "q": "Qaysi so‘z ichimlik?",
+   "a": "juice",
+   "w": [
+    "bread",
+    "cheese",
+    "rice"
+   ],
+   "d": 1,
+   "x": "juice — sharbat, uni ichamiz."
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_11",
+   "t": "tf",
+   "q": "“She like apples.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "she bilan -s: She likes apples.",
+   "say": "She like apples.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_12",
+   "t": "tf",
+   "q": "“We don't like cold soup.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: we bilan don't.",
+   "say": "We don't like cold soup.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_13",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "chair",
+   "w": [
+    "bread",
+    "soup",
+    "cheese"
+   ],
+   "d": 1,
+   "x": "chair — stul; qolganlari taomlar."
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "like",
+    "apples",
+    "and",
+    "pears"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I like apples and pears. — Men olma va noklarni yoqtiraman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Does your dad like tea? — Yes, he ...",
+   "a": "does",
+   "w": [
+    "do",
+    "is",
+    "likes"
+   ],
+   "d": 2,
+   "x": "Does …? savoliga qisqa javob: Yes, he does.",
+   "say": "Does your dad like tea? — Yes, he ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... she like rice?",
+   "a": "Does",
+   "w": [
+    "Do",
+    "Is",
+    "Are"
+   ],
+   "d": 2,
+   "x": "she bilan savol: Does she like …?",
+   "say": "... she like rice?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_17",
+   "t": "choice",
+   "q": "“Do you like ice cream?” savoliga mos javobni tanlang",
+   "a": "Yes, I do.",
+   "w": [
+    "Yes, I like.",
+    "Yes, I am.",
+    "Yes, I does."
+   ],
+   "d": 2,
+   "x": "Qisqa javob: Yes, I do. / No, I don't.",
+   "say": "Do you like ice cream?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_18",
+   "t": "choice",
+   "q": "“What's your favourite food?” savoliga mos javobni tanlang",
+   "a": "My favourite food is plov.",
+   "w": [
+    "I'm fine, thanks.",
+    "It's in May.",
+    "It's sunny."
+   ],
+   "d": 2,
+   "x": "favourite food — sevimli taom.",
+   "say": "What's your favourite food?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_19",
+   "t": "choice",
+   "q": "“Konfetlar (shirinliklar)” britan inglizchasida qanday?",
+   "a": "sweets",
+   "w": [
+    "sweaters",
+    "sheets",
+    "seats"
+   ],
+   "d": 2,
+   "x": "Britaniyada konfetlar — sweets."
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kamola qulupnayni juda yaxshi ko‘radi.",
+   "w": [
+    "Kamola qulupnayni yoqtirmaydi.",
+    "Kamola olchani juda yaxshi ko‘radi.",
+    "Men qulupnayni juda yaxshi ko‘raman."
+   ],
+   "d": 2,
+   "x": "Kamola loves strawberries. — Kamola qulupnayni juda yaxshi ko‘radi.",
+   "say": "Kamola loves strawberries.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "brother",
+    "doesn't",
+    "like",
+    "milk"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My brother doesn't like milk. — Akam sutni yoqtirmaydi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_22",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Do",
+    "you",
+    "like",
+    "chocolate"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Do you like chocolate? — Shokoladni yoqtirasanmi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_23",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: He doesn't ... cheese.",
+   "a": "like",
+   "w": [
+    "likes",
+    "liking",
+    "liked"
+   ],
+   "d": 3,
+   "x": "doesn't dan keyin fe’l -s siz: doesn't like.",
+   "say": "He doesn't ... cheese.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.likes",
+   "id": "likes_24",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Timur likes juice, but he doesn't like tea.",
+   "w": [
+    "Timur like juice, but he doesn't like tea.",
+    "Timur likes juice, but he don't like tea.",
+    "Timur likes juice, but he doesn't likes tea."
+   ],
+   "d": 3,
+   "x": "Timur = he: likes; inkorda doesn't + like."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I like ... football.",
+   "a": "playing",
+   "w": [
+    "play",
+    "plays",
+    "played"
+   ],
+   "d": 1,
+   "x": "like + -ing: I like playing football.",
+   "say": "I like ... football.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: She likes ... pictures.",
+   "a": "drawing",
+   "w": [
+    "draw",
+    "draws",
+    "drawed"
+   ],
+   "d": 1,
+   "x": "like + -ing: likes drawing.",
+   "say": "She likes ... pictures.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I can ... a bike.",
+   "a": "ride",
+   "w": [
+    "riding",
+    "rides",
+    "rode"
+   ],
+   "d": 1,
+   "x": "can dan keyin fe’l o‘zgarmaydi: can ride.",
+   "say": "I can ... a bike.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Can you skate? — No, I ...",
+   "a": "can't",
+   "w": [
+    "don't",
+    "am not",
+    "doesn't"
+   ],
+   "d": 1,
+   "x": "Can …? savoliga qisqa javob: No, I can't.",
+   "say": "Can you skate? — No, I ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_5",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "go swimming",
+   "w": [
+    "play swimming",
+    "ride swimming",
+    "make swimming"
+   ],
+   "d": 1,
+   "x": "go + -ing: go swimming, go skating."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_6",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "play chess",
+   "w": [
+    "go chess",
+    "ride chess",
+    "do chess"
+   ],
+   "d": 1,
+   "x": "O‘yinlar bilan play: play chess, play football."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_7",
+   "t": "choice",
+   "q": "“draw” fe’lining -ing shakli",
+   "a": "drawing",
+   "w": [
+    "drawwing",
+    "drawng",
+    "draws"
+   ],
+   "d": 1,
+   "x": "draw → drawing.",
+   "say": "draw",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_8",
+   "t": "match",
+   "q": "Mashg‘ulotni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "swimming",
+     "suzish"
+    ],
+    [
+     "skating",
+     "konkida uchish"
+    ],
+    [
+     "drawing",
+     "rasm chizish"
+    ],
+    [
+     "reading",
+     "kitob o‘qish"
+    ],
+    [
+     "dancing",
+     "raqsga tushish"
+    ],
+    [
+     "singing",
+     "qo‘shiq aytish"
+    ],
+    [
+     "cooking",
+     "ovqat pishirish"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening sevimli mashg‘ulotim — kitob o‘qish.",
+   "w": [
+    "Mening sevimli mashg‘ulotim — rasm chizish.",
+    "Uning sevimli mashg‘uloti — kitob o‘qish.",
+    "Men kitob o‘qishni yoqtirmayman."
+   ],
+   "d": 1,
+   "x": "My hobby is reading. — Mening sevimli mashg‘ulotim — kitob o‘qish.",
+   "say": "My hobby is reading.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Ular basketbol o‘ynashni yoqtiradi.",
+   "w": [
+    "Ular futbol o‘ynashni yoqtiradi.",
+    "Biz basketbol o‘ynashni yoqtiramiz.",
+    "Ular basketbol o‘ynay olmaydi."
+   ],
+   "d": 1,
+   "x": "They like playing basketball. — Ular basketbol o‘ynashni yoqtiradi.",
+   "say": "They like playing basketball.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_11",
+   "t": "tf",
+   "q": "“I like swim.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "like dan keyin -ing: I like swimming.",
+   "say": "I like swim.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_12",
+   "t": "tf",
+   "q": "“We like dancing.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: like + dancing.",
+   "say": "We like dancing.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_13",
+   "t": "choice",
+   "q": "Qaysi sport turi suvda bo‘ladi?",
+   "a": "swimming",
+   "w": [
+    "football",
+    "running",
+    "chess"
+   ],
+   "d": 1,
+   "x": "swimming — suzish, suvda bo‘ladi."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "can",
+    "play",
+    "the",
+    "piano"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "I can play the piano. — Men pianino chala olaman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My brother plays ... . He's got a racket.",
+   "a": "tennis",
+   "w": [
+    "swimming",
+    "judo",
+    "skating"
+   ],
+   "d": 2,
+   "x": "Raketka bilan tennis o‘ynaladi.",
+   "say": "My brother plays ... . He's got a racket.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_16",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "ride a horse",
+   "w": [
+    "play a horse",
+    "go a horse",
+    "do a horse"
+   ],
+   "d": 2,
+   "x": "Ot, velosiped minish — ride: ride a horse, ride a bike."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_17",
+   "t": "choice",
+   "q": "“skate” fe’lining -ing shakli",
+   "a": "skating",
+   "w": [
+    "skateing",
+    "skatting",
+    "skates"
+   ],
+   "d": 2,
+   "x": "Oxirgi e tushadi: skating.",
+   "say": "skate",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_18",
+   "t": "choice",
+   "q": "“ride” fe’lining -ing shakli",
+   "a": "riding",
+   "w": [
+    "rideing",
+    "ridding",
+    "rides"
+   ],
+   "d": 2,
+   "x": "Oxirgi e tushadi: riding.",
+   "say": "ride",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "U suza oladi, lekin sho‘ng‘iy olmaydi.",
+   "w": [
+    "U sho‘ng‘iy oladi, lekin suza olmaydi.",
+    "Men suza olaman, lekin sho‘ng‘iy olmayman.",
+    "U suzishni yoqtiradi."
+   ],
+   "d": 2,
+   "x": "He can swim, but he can't dive. — U suza oladi, lekin sho‘ng‘iy olmaydi.",
+   "say": "He can swim, but he can't dive.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_20",
+   "t": "tf",
+   "q": "“She can plays chess.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 2,
+   "x": "can dan keyin fe’l o‘zgarmaydi: She can play chess.",
+   "say": "She can plays chess.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_21",
+   "t": "choice",
+   "q": "“What's your hobby?” savoliga mos javobni tanlang",
+   "a": "I like collecting stamps.",
+   "w": [
+    "I'm ten.",
+    "It's rainy.",
+    "It's on Monday."
+   ],
+   "d": 2,
+   "x": "hobby — sevimli mashg‘ulot: I like collecting stamps (marka yig‘ish).",
+   "say": "What's your hobby?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_22",
+   "t": "choice",
+   "q": "“Men konkida ucha olmayman.” inglizcha qanday?",
+   "a": "I can't skate.",
+   "w": [
+    "I can skate.",
+    "I don't can skate.",
+    "I can't skating."
+   ],
+   "d": 2,
+   "x": "can't + fe’l: I can't skate."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_23",
+   "t": "choice",
+   "q": "Qaysi o‘yin 64 katakli taxtada o‘ynaladi?",
+   "a": "chess",
+   "w": [
+    "tennis",
+    "football",
+    "basketball"
+   ],
+   "d": 2,
+   "x": "Shaxmat (chess) taxtasida 64 ta katak bor."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "I",
+    "like",
+    "playing",
+    "chess",
+    "with",
+    "my",
+    "dad"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "I like playing chess with my dad. — Dadam bilan shaxmat o‘ynashni yoqtiraman.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Can",
+    "you",
+    "ride",
+    "a",
+    "horse"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Can you ride a horse? — Ot mina olasanmi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_26",
+   "t": "choice",
+   "q": "“jog” fe’lining -ing shakli",
+   "a": "jogging",
+   "w": [
+    "joging",
+    "jogeing",
+    "jogs"
+   ],
+   "d": 3,
+   "x": "Qisqa fe’lda oxirgi undosh ikkilanadi: jogging.",
+   "say": "jog",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_27",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "He likes running in the park.",
+   "w": [
+    "He likes runing in the park.",
+    "He like running in the park.",
+    "He likes run in the park."
+   ],
+   "d": 3,
+   "x": "he → likes; like + running (n ikkilanadi)."
+  },
+  {
+   "topic": "english_g4.hobbies",
+   "id": "hobbies_28",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I'm good ... swimming.",
+   "a": "at",
+   "w": [
+    "in",
+    "on",
+    "for"
+   ],
+   "d": 3,
+   "x": "be good at — … ni yaxshi bajarmoq: I'm good at swimming.",
+   "say": "I'm good ... swimming.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There ... a big sofa in our living room.",
+   "a": "is",
+   "w": [
+    "are",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Bitta divan — There is.",
+   "say": "There ... a big sofa in our living room.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There ... four chairs in the kitchen.",
+   "a": "are",
+   "w": [
+    "is",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "To‘rtta stul — There are.",
+   "say": "There ... four chairs in the kitchen.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There ... a lamp next to my bed.",
+   "a": "is",
+   "w": [
+    "are",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Bitta chiroq — There is.",
+   "say": "There ... a lamp next to my bed.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: There ... two windows in my bedroom.",
+   "a": "are",
+   "w": [
+    "is",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Ikkita deraza — There are.",
+   "say": "There ... two windows in my bedroom.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_5",
+   "t": "choice",
+   "q": "Qayerda ovqat pishiramiz?",
+   "a": "in the kitchen",
+   "w": [
+    "in the bedroom",
+    "in the bathroom",
+    "in the garden"
+   ],
+   "d": 1,
+   "x": "kitchen — oshxona."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_6",
+   "t": "choice",
+   "q": "Qayerda uxlaymiz?",
+   "a": "in the bedroom",
+   "w": [
+    "in the kitchen",
+    "in the hall",
+    "in the garage"
+   ],
+   "d": 1,
+   "x": "bedroom — yotoqxona."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_7",
+   "t": "match",
+   "q": "Xonalarni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "kitchen",
+     "oshxona"
+    ],
+    [
+     "bedroom",
+     "yotoqxona"
+    ],
+    [
+     "bathroom",
+     "hammom"
+    ],
+    [
+     "living room",
+     "mehmonxona"
+    ],
+    [
+     "hall",
+     "dahliz"
+    ],
+    [
+     "garden",
+     "bog‘"
+    ],
+    [
+     "garage",
+     "garaj"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Oshxonada muzlatkich bor.",
+   "w": [
+    "Oshxonada muzlatkich yo‘q.",
+    "Yotoqxonada muzlatkich bor.",
+    "Oshxonada ikkita muzlatkich bor."
+   ],
+   "d": 1,
+   "x": "There is a fridge in the kitchen. — Oshxonada muzlatkich bor.",
+   "say": "There is a fridge in the kitchen.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_9",
+   "t": "tf",
+   "q": "“There are a bed in my room.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "Bitta karavot — There is a bed.",
+   "say": "There are a bed in my room.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_10",
+   "t": "tf",
+   "q": "“There are three bedrooms in our flat.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: uchta xona — There are.",
+   "say": "There are three bedrooms in our flat.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_11",
+   "t": "choice",
+   "q": "Qaysi narsa odatda oshxonada bo‘ladi?",
+   "a": "a cooker",
+   "w": [
+    "a bed",
+    "a bath",
+    "a wardrobe"
+   ],
+   "d": 1,
+   "x": "cooker — plita (britancha), u oshxonada bo‘ladi."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_12",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "There is a carpet on the floor.",
+   "w": [
+    "There are a carpet on the floor.",
+    "There is carpet a on the floor.",
+    "There is a carpets on the floor."
+   ],
+   "d": 1,
+   "x": "Bitta gilam: There is a carpet."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "There",
+    "is",
+    "a",
+    "big",
+    "mirror",
+    "in",
+    "the",
+    "hall"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "There is a big mirror in the hall. — Dahlizda katta oyna bor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_14",
+   "t": "choice",
+   "q": "Qayerda yuvinamiz va cho‘milamiz?",
+   "a": "in the bathroom",
+   "w": [
+    "in the living room",
+    "in the kitchen",
+    "in the garden"
+   ],
+   "d": 2,
+   "x": "bathroom — hammom (vanna xonasi)."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_15",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu akamning yotoqxonasi.",
+   "w": [
+    "Bu mening yotoqxonam.",
+    "Bu opamning yotoqxonasi.",
+    "Bu akamning oshxonasi."
+   ],
+   "d": 2,
+   "x": "This is my brother's bedroom. — Bu akamning yotoqxonasi.",
+   "say": "This is my brother's bedroom.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Is there a garden? — Yes, there ...",
+   "a": "is",
+   "w": [
+    "are",
+    "has",
+    "does"
+   ],
+   "d": 2,
+   "x": "Is there …? savoliga qisqa javob: Yes, there is.",
+   "say": "Is there a garden? — Yes, there ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Are there any pictures on the wall? — No, there ...",
+   "a": "aren't",
+   "w": [
+    "isn't",
+    "don't",
+    "haven't"
+   ],
+   "d": 2,
+   "x": "Are there …? savoliga qisqa javob: No, there aren't.",
+   "say": "Are there any pictures on the wall? — No, there ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... there a TV in your room?",
+   "a": "Is",
+   "w": [
+    "Are",
+    "Do",
+    "Has"
+   ],
+   "d": 2,
+   "x": "Bitta televizor: Is there …?",
+   "say": "... there a TV in your room?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_19",
+   "t": "choice",
+   "q": "“Opamning xonasi” inglizcha qanday?",
+   "a": "my sister's room",
+   "w": [
+    "my sister room",
+    "my room's sister",
+    "my sisters room's"
+   ],
+   "d": 2,
+   "x": "Egalik 's bilan: my sister's room."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_20",
+   "t": "choice",
+   "q": "“Dadamning mashinasi” inglizcha qanday?",
+   "a": "my dad's car",
+   "w": [
+    "my dad car",
+    "my car's dad",
+    "car my dad's"
+   ],
+   "d": 2,
+   "x": "Egalik 's bilan: my dad's car."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_21",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: That is ... cat. It belongs to Sardor.",
+   "a": "Sardor's",
+   "w": [
+    "Sardor",
+    "Sardors",
+    "Sardor is"
+   ],
+   "d": 2,
+   "x": "Sardorning mushugi — Sardor's cat.",
+   "say": "That is ... cat. It belongs to Sardor.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_22",
+   "t": "choice",
+   "q": "Qaysi narsa odatda yotoqxonada bo‘ladi?",
+   "a": "a wardrobe",
+   "w": [
+    "a fridge",
+    "a cooker",
+    "a bath"
+   ],
+   "d": 2,
+   "x": "wardrobe — kiyim javoni, u yotoqxonada turadi."
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "grandma's",
+    "kitchen",
+    "is",
+    "very",
+    "clean"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My grandma's kitchen is very clean. — Buvimning oshxonasi juda toza.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_24",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Is",
+    "there",
+    "a",
+    "garden",
+    "near",
+    "your",
+    "house"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Is there a garden near your house? — Uyingiz yonida bog‘ bormi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_25",
+   "t": "choice",
+   "q": "“How many rooms are there in your flat?” savoliga mos javobni tanlang",
+   "a": "There are four rooms.",
+   "w": [
+    "There is four rooms.",
+    "It's four o'clock.",
+    "Yes, there are."
+   ],
+   "d": 3,
+   "x": "Ko‘p xona — There are four rooms.",
+   "say": "How many rooms are there in your flat?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.house",
+   "id": "house_26",
+   "t": "choice",
+   "q": "Britan inglizchasida “kvartira” qanday ataladi?",
+   "a": "flat",
+   "w": [
+    "floor",
+    "hall",
+    "roof"
+   ],
+   "d": 3,
+   "x": "Britaniyada kvartira — flat (Amerikada — apartment)."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_1",
+   "t": "choice",
+   "q": "“yonida” inglizcha qanday?",
+   "a": "next to",
+   "w": [
+    "opposite",
+    "between",
+    "behind"
+   ],
+   "d": 1,
+   "x": "next to — yonida."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_2",
+   "t": "choice",
+   "q": "“qarshisida” inglizcha qanday?",
+   "a": "opposite",
+   "w": [
+    "next to",
+    "under",
+    "between"
+   ],
+   "d": 1,
+   "x": "opposite — qarshisida (ro‘parasida)."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_3",
+   "t": "choice",
+   "q": "“orasida” inglizcha qanday?",
+   "a": "between",
+   "w": [
+    "behind",
+    "opposite",
+    "on"
+   ],
+   "d": 1,
+   "x": "between … and … — … va … orasida."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_4",
+   "t": "match",
+   "q": "So‘zni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "next to",
+     "yonida"
+    ],
+    [
+     "opposite",
+     "qarshisida"
+    ],
+    [
+     "between",
+     "orasida"
+    ],
+    [
+     "behind",
+     "orqasida"
+    ],
+    [
+     "in front of",
+     "oldida"
+    ],
+    [
+     "turn left",
+     "chapga buriling"
+    ],
+    [
+     "turn right",
+     "o‘ngga buriling"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_5",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bank parkning yonida.",
+   "w": [
+    "Bank parkning qarshisida.",
+    "Park bankning orqasida.",
+    "Bank parkning ichida."
+   ],
+   "d": 1,
+   "x": "The bank is next to the park. — Bank parkning yonida.",
+   "say": "The bank is next to the park.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_6",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kafe maktabning qarshisida.",
+   "w": [
+    "Kafe maktabning yonida.",
+    "Kafe maktabning orqasida.",
+    "Maktab kafening ichida."
+   ],
+   "d": 1,
+   "x": "The café is opposite the school. — Kafe maktabning qarshisida.",
+   "say": "The café is opposite the school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_7",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "To‘g‘riga yuring.",
+   "w": [
+    "Chapga buriling.",
+    "O‘ngga buriling.",
+    "Orqaga qayting."
+   ],
+   "d": 1,
+   "x": "Go straight on. — To‘g‘riga yuring.",
+   "say": "Go straight on.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Excuse me, ... is the library?",
+   "a": "where",
+   "w": [
+    "what",
+    "who",
+    "when"
+   ],
+   "d": 1,
+   "x": "Joy so‘ralganda — where: Where is the library?",
+   "say": "Excuse me, ... is the library?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_9",
+   "t": "choice",
+   "q": "Xat jo‘natish uchun qayerga boramiz?",
+   "a": "to the post office",
+   "w": [
+    "to the museum",
+    "to the park",
+    "to the café"
+   ],
+   "d": 1,
+   "x": "post office — pochta."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_10",
+   "t": "choice",
+   "q": "Qayerda avtobus kutamiz?",
+   "a": "at the bus stop",
+   "w": [
+    "at the museum",
+    "in the library",
+    "in the post office"
+   ],
+   "d": 1,
+   "x": "bus stop — avtobus bekati."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_11",
+   "t": "tf",
+   "q": "“opposite” — orqasida degani.",
+   "a": false,
+   "d": 1,
+   "x": "opposite — qarshisida; orqasida — behind.",
+   "say": "opposite",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_12",
+   "t": "tf",
+   "q": "“Turn right” — o‘ngga buriling degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: right — o‘ng, left — chap.",
+   "say": "Turn right",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "The",
+    "museum",
+    "is",
+    "opposite",
+    "the",
+    "park"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "The museum is opposite the park. — Muzey parkning qarshisida.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_14",
+   "t": "choice",
+   "q": "“orqasida” inglizcha qanday?",
+   "a": "behind",
+   "w": [
+    "in front of",
+    "next to",
+    "between"
+   ],
+   "d": 2,
+   "x": "behind — orqasida; in front of — oldida."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_15",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Avtobus bekatida chapga buriling.",
+   "w": [
+    "Avtobus bekatida o‘ngga buriling.",
+    "Avtobus bekatigacha to‘g‘ri yuring.",
+    "Avtobus bekatida kuting."
+   ],
+   "d": 2,
+   "x": "Turn left at the bus stop. — Avtobus bekatida chapga buriling.",
+   "say": "Turn left at the bus stop.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The shop is ... the bank and the café.",
+   "a": "between",
+   "w": [
+    "next",
+    "opposite of",
+    "behind of"
+   ],
+   "d": 2,
+   "x": "between … and … — … va … orasida.",
+   "say": "The shop is ... the bank and the café.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The car is in front ... the house.",
+   "a": "of",
+   "w": [
+    "to",
+    "at",
+    "from"
+   ],
+   "d": 2,
+   "x": "in front of — oldida.",
+   "say": "The car is in front ... the house.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My house is next ... the park.",
+   "a": "to",
+   "w": [
+    "of",
+    "at",
+    "on"
+   ],
+   "d": 2,
+   "x": "next to — yonida.",
+   "say": "My house is next ... the park.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_19",
+   "t": "choice",
+   "q": "Ko‘chada: 🏦 🌳 🏪 (bank, park, do‘kon). Park qayerda?",
+   "a": "between the bank and the shop",
+   "w": [
+    "opposite the bank",
+    "behind the shop",
+    "in the bank"
+   ],
+   "d": 2,
+   "x": "Park bank va do‘kon orasida: between the bank and the shop."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_20",
+   "t": "choice",
+   "q": "Qayerda eski buyumlar va tarixni ko‘ramiz?",
+   "a": "in a museum",
+   "w": [
+    "in a café",
+    "at a bus stop",
+    "in a bank"
+   ],
+   "d": 2,
+   "x": "museum — muzey."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_21",
+   "t": "choice",
+   "q": "“Excuse me, where is the bank?” savoliga mos javobni tanlang",
+   "a": "It's next to the café.",
+   "w": [
+    "It's half past two.",
+    "Yes, it is.",
+    "I like the bank."
+   ],
+   "d": 2,
+   "x": "Where? — qayerda? Javobda joy aytiladi: next to the café.",
+   "say": "Excuse me, where is the bank?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Go",
+    "straight",
+    "on",
+    "and",
+    "turn",
+    "left"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Go straight on and turn left. — To‘g‘riga yurib, chapga buriling.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_23",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Where",
+    "is",
+    "the",
+    "post",
+    "office"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Where is the post office? — Pochta qayerda?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_24",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "The school is behind the hospital.",
+   "w": [
+    "The school is behind of the hospital.",
+    "The school is behind to the hospital.",
+    "The school behind is the hospital."
+   ],
+   "d": 3,
+   "x": "behind dan keyin of yoki to qo‘yilmaydi: behind the hospital."
+  },
+  {
+   "topic": "english_g4.town",
+   "id": "town_25",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Excuse",
+    "me",
+    "where",
+    "is",
+    "the",
+    "nearest",
+    "café"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Excuse me, where is the nearest café? — Kechirasiz, eng yaqin kafe qayerda?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_1",
+   "t": "choice",
+   "q": "Kasal hayvonlarni kim davolaydi?",
+   "a": "a vet",
+   "w": [
+    "a pilot",
+    "a driver",
+    "a cook"
+   ],
+   "d": 1,
+   "x": "vet — veterinar, hayvonlar shifokori."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_2",
+   "t": "choice",
+   "q": "Kim samolyot boshqaradi?",
+   "a": "a pilot",
+   "w": [
+    "a farmer",
+    "a nurse",
+    "a dentist"
+   ],
+   "d": 1,
+   "x": "pilot — uchuvchi."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_3",
+   "t": "choice",
+   "q": "Kim tishlarimizni davolaydi?",
+   "a": "a dentist",
+   "w": [
+    "a teacher",
+    "a vet",
+    "a builder"
+   ],
+   "d": 1,
+   "x": "dentist — tish shifokori."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_4",
+   "t": "choice",
+   "q": "Kim restoranda ovqat pishiradi?",
+   "a": "a cook",
+   "w": [
+    "a doctor",
+    "a pilot",
+    "a farmer"
+   ],
+   "d": 1,
+   "x": "cook — oshpaz."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_5",
+   "t": "choice",
+   "q": "Kim dalada bug‘doy ekadi va sigir boqadi?",
+   "a": "a farmer",
+   "w": [
+    "a dentist",
+    "a pilot",
+    "a shop assistant"
+   ],
+   "d": 1,
+   "x": "farmer — fermer."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_6",
+   "t": "choice",
+   "q": "“teach” fe’lidan kasb nomi",
+   "a": "teacher",
+   "w": [
+    "teachor",
+    "teachist",
+    "teaching"
+   ],
+   "d": 1,
+   "x": "teach + -er = teacher (o‘qituvchi).",
+   "say": "teach",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_7",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My aunt is ... nurse.",
+   "a": "a",
+   "w": [
+    "an",
+    "is",
+    "at"
+   ],
+   "d": 1,
+   "x": "Undosh bilan boshlangan so‘z oldidan a: a nurse.",
+   "say": "My aunt is ... nurse.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_8",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: A teacher works ... a school.",
+   "a": "at",
+   "w": [
+    "on",
+    "under",
+    "of"
+   ],
+   "d": 1,
+   "x": "works at a school — maktabda ishlaydi.",
+   "say": "A teacher works ... a school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_9",
+   "t": "match",
+   "q": "Kasb va ish joyini juftlang",
+   "pairs": [
+    [
+     "doctor",
+     "hospital"
+    ],
+    [
+     "teacher",
+     "school"
+    ],
+    [
+     "pilot",
+     "plane"
+    ],
+    [
+     "farmer",
+     "farm"
+    ],
+    [
+     "shop assistant",
+     "shop"
+    ],
+    [
+     "vet",
+     "animal clinic"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_10",
+   "t": "tf",
+   "q": "“A pilot flies a plane.” — to‘g‘ri fikr.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: uchuvchi samolyotni boshqaradi.",
+   "say": "A pilot flies a plane.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_11",
+   "t": "tf",
+   "q": "“A dentist works on a farm.” — to‘g‘ri fikr.",
+   "a": false,
+   "d": 1,
+   "x": "Tish shifokori klinikada ishlaydi; fermada fermer ishlaydi.",
+   "say": "A dentist works on a farm.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_12",
+   "t": "choice",
+   "q": "Qaysi so‘z kasb emas?",
+   "a": "kitchen",
+   "w": [
+    "nurse",
+    "driver",
+    "vet"
+   ],
+   "d": 1,
+   "x": "kitchen — oshxona; qolganlari kasblar."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_13",
+   "t": "choice",
+   "q": "“Uchuvchi” inglizcha qanday?",
+   "a": "pilot",
+   "w": [
+    "driver",
+    "painter",
+    "police officer"
+   ],
+   "d": 1,
+   "x": "pilot — uchuvchi."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "uncle",
+    "is",
+    "a",
+    "bus",
+    "driver"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "My uncle is a bus driver. — Amakim avtobus haydovchisi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_15",
+   "t": "choice",
+   "q": "“drive” fe’lidan kasb nomi",
+   "a": "driver",
+   "w": [
+    "drivor",
+    "driveer",
+    "driving"
+   ],
+   "d": 2,
+   "x": "drive + -r = driver (haydovchi).",
+   "say": "drive",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_16",
+   "t": "choice",
+   "q": "“sing” fe’lidan kasb nomi",
+   "a": "singer",
+   "w": [
+    "singor",
+    "singist",
+    "singing"
+   ],
+   "d": 2,
+   "x": "sing + -er = singer (qo‘shiqchi).",
+   "say": "sing",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: He is ... artist.",
+   "a": "an",
+   "w": [
+    "a",
+    "is",
+    "at"
+   ],
+   "d": 2,
+   "x": "Unli bilan boshlangan so‘z oldidan an: an artist.",
+   "say": "He is ... artist.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: What ... your father do? — He's a driver.",
+   "a": "does",
+   "w": [
+    "do",
+    "is",
+    "are"
+   ],
+   "d": 2,
+   "x": "your father = he → What does he do?",
+   "say": "What ... your father do? — He's a driver.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Onam shifokor. U kasalxonada ishlaydi.",
+   "w": [
+    "Onam o‘qituvchi. U maktabda ishlaydi.",
+    "Opam shifokor. U kasalxonada ishlaydi.",
+    "Onam hamshira. U dorixonada ishlaydi."
+   ],
+   "d": 2,
+   "x": "My mum is a doctor. She works at a hospital. — Onam shifokor. U kasalxonada ishlaydi.",
+   "say": "My mum is a doctor. She works at a hospital.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_20",
+   "t": "choice",
+   "q": "“What do you want to be?” savoliga mos javobni tanlang",
+   "a": "I want to be a vet.",
+   "w": [
+    "I'm ten years old.",
+    "I like pizza.",
+    "It's in June."
+   ],
+   "d": 2,
+   "x": "What do you want to be? — Kim bo‘lishni xohlaysan?",
+   "say": "What do you want to be?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_21",
+   "t": "choice",
+   "q": "Topishmoq: I work in a shop. I sell things. Who am I?",
+   "a": "a shop assistant",
+   "w": [
+    "a farmer",
+    "a pilot",
+    "a nurse"
+   ],
+   "d": 2,
+   "x": "Do‘konda ishlaydi, narsa sotadi — sotuvchi (a shop assistant).",
+   "say": "I work in a shop. I sell things. Who am I?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_22",
+   "t": "choice",
+   "q": "Topishmoq: I help doctors. I work in a hospital. Who am I?",
+   "a": "a nurse",
+   "w": [
+    "a vet",
+    "a cook",
+    "a driver"
+   ],
+   "d": 2,
+   "x": "Shifokorlarga yordam beradi — hamshira (a nurse).",
+   "say": "I help doctors. I work in a hospital. Who am I?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "She",
+    "works",
+    "in",
+    "a",
+    "big",
+    "hospital"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "She works in a big hospital. — U katta kasalxonada ishlaydi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_24",
+   "t": "choice",
+   "q": "“Oshpaz” inglizcha qanday?",
+   "a": "cook",
+   "w": [
+    "cooker",
+    "cooking",
+    "cookie"
+   ],
+   "d": 3,
+   "x": "cook — oshpaz; cooker esa — plita (oshxona jihozi)."
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_25",
+   "t": "choice",
+   "q": "“act” fe’lidan kasb nomi",
+   "a": "actor",
+   "w": [
+    "acter",
+    "actist",
+    "acting"
+   ],
+   "d": 3,
+   "x": "act + -or = actor (aktyor).",
+   "say": "act",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_26",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "U o‘t o‘chiruvchi bo‘lishni xohlaydi.",
+   "w": [
+    "U politsiyachi bo‘lishni xohlaydi.",
+    "U o‘t o‘chiruvchi.",
+    "Men o‘t o‘chiruvchi bo‘lishni xohlayman."
+   ],
+   "d": 3,
+   "x": "He wants to be a firefighter. — U o‘t o‘chiruvchi bo‘lishni xohlaydi.",
+   "say": "He wants to be a firefighter.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.jobs",
+   "id": "jobs_27",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "does",
+    "your",
+    "sister",
+    "do"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What does your sister do? — Opang kim bo‘lib ishlaydi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_1",
+   "t": "choice",
+   "q": "Tuya qayerda yashaydi?",
+   "a": "in the desert",
+   "w": [
+    "in the ocean",
+    "in the Arctic",
+    "in the jungle"
+   ],
+   "d": 1,
+   "x": "Tuya (camel) cho‘lda yashaydi: in the desert.",
+   "e": "🐪"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_2",
+   "t": "choice",
+   "q": "Delfin qayerda yashaydi?",
+   "a": "in the sea",
+   "w": [
+    "in the desert",
+    "in the forest",
+    "on a farm"
+   ],
+   "d": 1,
+   "x": "Delfin (dolphin) dengizda yashaydi.",
+   "e": "🐬"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_3",
+   "t": "choice",
+   "q": "Oq ayiq qayerda yashaydi?",
+   "a": "in the Arctic",
+   "w": [
+    "in the desert",
+    "in the jungle",
+    "in the savannah"
+   ],
+   "d": 1,
+   "x": "Oq ayiq (polar bear) Arktikada yashaydi.",
+   "e": "❄️"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_4",
+   "t": "choice",
+   "q": "Where do monkeys live?",
+   "a": "in the jungle",
+   "w": [
+    "in the Arctic",
+    "in the desert",
+    "in the ocean"
+   ],
+   "d": 1,
+   "x": "Maymunlar tropik o‘rmonda yashaydi: in the jungle.",
+   "e": "🐒",
+   "say": "Where do monkeys live?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_5",
+   "t": "choice",
+   "q": "Where do foxes live?",
+   "a": "in the forest",
+   "w": [
+    "in the sea",
+    "in the desert",
+    "in the Arctic"
+   ],
+   "d": 1,
+   "x": "Tulkilar o‘rmonda yashaydi: in the forest.",
+   "e": "🦊",
+   "say": "Where do foxes live?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_6",
+   "t": "choice",
+   "q": "Kit qayerda yashaydi?",
+   "a": "in the ocean",
+   "w": [
+    "in the desert",
+    "in the forest",
+    "in the jungle"
+   ],
+   "d": 1,
+   "x": "Kit okeanda yashaydi.",
+   "e": "🐋"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_7",
+   "t": "match",
+   "q": "Hayvonni makoni bilan juftlang",
+   "pairs": [
+    [
+     "camel",
+     "desert"
+    ],
+    [
+     "polar bear",
+     "Arctic"
+    ],
+    [
+     "dolphin",
+     "sea"
+    ],
+    [
+     "monkey",
+     "jungle"
+    ],
+    [
+     "bear",
+     "forest"
+    ],
+    [
+     "zebra",
+     "savannah"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_8",
+   "t": "match",
+   "q": "Hayvonlarni tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "camel",
+     "tuya"
+    ],
+    [
+     "giraffe",
+     "jirafa"
+    ],
+    [
+     "wolf",
+     "bo‘ri"
+    ],
+    [
+     "fox",
+     "tulki"
+    ],
+    [
+     "owl",
+     "boyqush"
+    ],
+    [
+     "lizard",
+     "kaltakesak"
+    ],
+    [
+     "whale",
+     "kit"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Jirafaning bo‘yni juda uzun.",
+   "w": [
+    "Jirafaning oyoqlari juda qisqa.",
+    "Filning bo‘yni juda uzun.",
+    "Jirafaning dumi juda uzun."
+   ],
+   "d": 1,
+   "x": "A giraffe has got a very long neck. — Jirafaning bo‘yni juda uzun.",
+   "say": "A giraffe has got a very long neck.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_10",
+   "t": "tf",
+   "q": "“A whale is a very big animal.” — to‘g‘ri fikr.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: kit — juda katta hayvon.",
+   "say": "A whale is a very big animal.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_11",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: An elephant ... got a long trunk.",
+   "a": "has",
+   "w": [
+    "have",
+    "is",
+    "are"
+   ],
+   "d": 1,
+   "x": "An elephant = it → has got. trunk — xartum.",
+   "say": "An elephant ... got a long trunk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_12",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Monkeys ... climb trees very well.",
+   "a": "can",
+   "w": [
+    "can't",
+    "are",
+    "has"
+   ],
+   "d": 1,
+   "x": "Maymunlar daraxtga juda yaxshi chiqa oladi: can climb.",
+   "say": "Monkeys ... climb trees very well.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_13",
+   "t": "choice",
+   "q": "Qaysi hayvonning terisi qora-oq yo‘l-yo‘l?",
+   "a": "zebra",
+   "w": [
+    "giraffe",
+    "camel",
+    "lion"
+   ],
+   "d": 1,
+   "x": "zebra — zebra."
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_14",
+   "t": "choice",
+   "q": "Qaysi hayvon dengizda yashaydi?",
+   "a": "shark",
+   "w": [
+    "camel",
+    "fox",
+    "giraffe"
+   ],
+   "d": 1,
+   "x": "shark — akula, dengizda yashaydi."
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_15",
+   "t": "choice",
+   "q": "Qaysi hayvon ortiqcha (u uy hayvoni)?",
+   "a": "cat",
+   "w": [
+    "lion",
+    "tiger",
+    "wolf"
+   ],
+   "d": 1,
+   "x": "cat — uy hayvoni; qolganlari yovvoyi hayvonlar."
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_16",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Sherlar Afrikada yashaydi.",
+   "w": [
+    "Sherlar Arktikada yashaydi.",
+    "Yo‘lbarslar Afrikada yashaydi.",
+    "Sherlar o‘rmonda uxlaydi."
+   ],
+   "d": 2,
+   "x": "Lions live in Africa. — Sherlar Afrikada yashaydi.",
+   "say": "Lions live in Africa.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_17",
+   "t": "tf",
+   "q": "“Kangaroos live in Australia.” — to‘g‘ri fikr.",
+   "a": true,
+   "d": 2,
+   "x": "To‘g‘ri: kenguru Avstraliyada yashaydi.",
+   "say": "Kangaroos live in Australia.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_18",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Snakes ... got legs.",
+   "a": "haven't",
+   "w": [
+    "hasn't",
+    "aren't",
+    "don't"
+   ],
+   "d": 2,
+   "x": "Snakes = they → haven't got: ilonlarning oyog‘i yo‘q.",
+   "say": "Snakes ... got legs.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_19",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Owls sleep in the day and hunt at ...",
+   "a": "night",
+   "w": [
+    "noon",
+    "breakfast",
+    "lunch"
+   ],
+   "d": 2,
+   "x": "Ko‘pchilik boyqushlar kunduzi uxlab, tunda ov qiladi: at night.",
+   "say": "Owls sleep in the day and hunt at ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Polar",
+    "bears",
+    "live",
+    "in",
+    "the",
+    "Arctic"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Polar bears live in the Arctic. — Oq ayiqlar Arktikada yashaydi.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Dolphins",
+    "are",
+    "very",
+    "clever",
+    "animals"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Dolphins are very clever animals. — Delfinlar juda aqlli hayvonlar.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_22",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Where",
+    "do",
+    "lions",
+    "live"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Where do lions live? — Sherlar qayerda yashaydi?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_23",
+   "t": "choice",
+   "q": "Topishmoq: It's very big and grey. It has got big ears and a trunk.",
+   "a": "an elephant",
+   "w": [
+    "a zebra",
+    "a giraffe",
+    "a whale"
+   ],
+   "d": 2,
+   "x": "Katta, kulrang, quloqlari katta, xartumi bor — fil (an elephant).",
+   "say": "It's very big and grey. It has got big ears and a trunk.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_24",
+   "t": "tf",
+   "q": "“Penguins live in the Arctic.” — to‘g‘ri fikr.",
+   "a": false,
+   "d": 3,
+   "x": "Pingvinlar asosan Janubiy yarimsharda, masalan, Antarktidada yashaydi; Arktikada pingvin yo‘q.",
+   "say": "Penguins live in the Arctic.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.wild_animals",
+   "id": "wild_animals_25",
+   "t": "choice",
+   "q": "Topishmoq: It lives in the forest. It has got red fur and a long tail.",
+   "a": "a fox",
+   "w": [
+    "a bear",
+    "a wolf",
+    "a camel"
+   ],
+   "d": 3,
+   "x": "O‘rmonda yashaydi, yungi qizg‘ish, dumi uzun — tulki (a fox).",
+   "say": "It lives in the forest. It has got red fur and a long tail.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... writing a letter to my granny.",
+   "a": "am",
+   "w": [
+    "is",
+    "are",
+    "be"
+   ],
+   "d": 1,
+   "x": "I bilan am: I am writing.",
+   "say": "I ... writing a letter to my granny.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Look! Dad ... washing the car.",
+   "a": "is",
+   "w": [
+    "are",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "Dad = he → is washing.",
+   "say": "Look! Dad ... washing the car.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The children ... playing in the yard.",
+   "a": "are",
+   "w": [
+    "is",
+    "am",
+    "be"
+   ],
+   "d": 1,
+   "x": "children — ko‘plik: are playing.",
+   "say": "The children ... playing in the yard.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My mum is ... a cake.",
+   "a": "making",
+   "w": [
+    "make",
+    "makes",
+    "makeing"
+   ],
+   "d": 1,
+   "x": "make → making (e tushadi).",
+   "say": "My mum is ... a cake.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The birds are ... in the sky.",
+   "a": "flying",
+   "w": [
+    "fly",
+    "flies",
+    "flys"
+   ],
+   "d": 1,
+   "x": "are + flying.",
+   "say": "The birds are ... in the sky.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We are ... to music.",
+   "a": "listening",
+   "w": [
+    "listen",
+    "listens",
+    "listning"
+   ],
+   "d": 1,
+   "x": "are + listening.",
+   "say": "We are ... to music.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_7",
+   "t": "choice",
+   "q": "“make” fe’lining -ing shakli",
+   "a": "making",
+   "w": [
+    "makeing",
+    "makking",
+    "makes"
+   ],
+   "d": 1,
+   "x": "Oxirgi e tushadi: making.",
+   "say": "make",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_8",
+   "t": "choice",
+   "q": "“eat” fe’lining -ing shakli",
+   "a": "eating",
+   "w": [
+    "eatting",
+    "eatng",
+    "eats"
+   ],
+   "d": 1,
+   "x": "eat + -ing = eating.",
+   "say": "eat",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_9",
+   "t": "choice",
+   "q": "Rasmga qarang. What is he doing?",
+   "a": "He is swimming.",
+   "w": [
+    "He is running.",
+    "He is sleeping.",
+    "He swimming."
+   ],
+   "d": 1,
+   "x": "Rasmda suzayotgan odam: He is swimming.",
+   "e": "🏊",
+   "say": "What is he doing?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_10",
+   "t": "choice",
+   "q": "Rasmga qarang. What is he doing?",
+   "a": "He is riding a bike.",
+   "w": [
+    "He is riding a horse.",
+    "He is driving a car.",
+    "He is ride a bike."
+   ],
+   "d": 1,
+   "x": "Rasmda velosiped haydayotgan odam: He is riding a bike.",
+   "e": "🚴",
+   "say": "What is he doing?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_11",
+   "t": "choice",
+   "q": "Rasmga qarang. What is she doing?",
+   "a": "She is dancing.",
+   "w": [
+    "She is singing.",
+    "She is swimming.",
+    "She is dance."
+   ],
+   "d": 1,
+   "x": "Rasmda raqsga tushayotgan ayol: She is dancing.",
+   "e": "💃",
+   "say": "What is she doing?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_12",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bobom gazeta o‘qiyapti.",
+   "w": [
+    "Bobom gazeta o‘qiydi.",
+    "Buvim gazeta o‘qiyapti.",
+    "Bobom kitob o‘qiyapti."
+   ],
+   "d": 1,
+   "x": "Grandpa is reading a newspaper. — Bobom gazeta o‘qiyapti.",
+   "say": "Grandpa is reading a newspaper.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_13",
+   "t": "tf",
+   "q": "“She is drawing a horse.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: is + drawing.",
+   "say": "She is drawing a horse.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_14",
+   "t": "tf",
+   "q": "“I is eating an apple.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "I bilan am: I am eating an apple.",
+   "say": "I is eating an apple.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "The",
+    "cat",
+    "is",
+    "drinking",
+    "milk"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "The cat is drinking milk. — Mushuk sut ichyapti.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_16",
+   "t": "choice",
+   "q": "“cut” fe’lining -ing shakli",
+   "a": "cutting",
+   "w": [
+    "cuting",
+    "cuteing",
+    "cuts"
+   ],
+   "d": 2,
+   "x": "Qisqa fe’lda oxirgi undosh ikkilanadi: cutting.",
+   "say": "cut",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_17",
+   "t": "choice",
+   "q": "“smile” fe’lining -ing shakli",
+   "a": "smiling",
+   "w": [
+    "smileing",
+    "smilling",
+    "smiles"
+   ],
+   "d": 2,
+   "x": "Oxirgi e tushadi: smiling.",
+   "say": "smile",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Biz televizor ko‘rmayapmiz.",
+   "w": [
+    "Biz televizor ko‘ryapmiz.",
+    "Ular televizor ko‘rmayapti.",
+    "Biz kino ko‘rmayapmiz."
+   ],
+   "d": 2,
+   "x": "We aren't watching TV. — Biz televizor ko‘rmayapmiz.",
+   "say": "We aren't watching TV.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_19",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Is it snowing? — Yes, it ...",
+   "a": "is",
+   "w": [
+    "does",
+    "are",
+    "am"
+   ],
+   "d": 2,
+   "x": "Is …? savoliga qisqa javob: Yes, it is.",
+   "say": "Is it snowing? — Yes, it ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_20",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Are you sleeping? — No, I'm ...",
+   "a": "not",
+   "w": [
+    "isn't",
+    "don't",
+    "aren't"
+   ],
+   "d": 2,
+   "x": "Qisqa inkor javob: No, I'm not.",
+   "say": "Are you sleeping? — No, I'm ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_21",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: What ... Lola doing? — She's cooking.",
+   "a": "is",
+   "w": [
+    "are",
+    "does",
+    "do"
+   ],
+   "d": 2,
+   "x": "Lola = she → What is she doing?",
+   "say": "What ... Lola doing? — She's cooking.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_22",
+   "t": "choice",
+   "q": "Qaysi gap aynan hozir sodir bo‘layotgan ishni bildiradi?",
+   "a": "Listen! Somebody is singing.",
+   "w": [
+    "He sings every morning.",
+    "We sing at school.",
+    "They often sing."
+   ],
+   "d": 2,
+   "x": "Listen! — hozir: is singing (Present Continuous)."
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "friends",
+    "are",
+    "playing",
+    "football",
+    "now"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My friends are playing football now. — Do‘stlarim hozir futbol o‘ynayapti.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_24",
+   "t": "choice",
+   "q": "“clap” fe’lining -ing shakli",
+   "a": "clapping",
+   "w": [
+    "claping",
+    "clapeing",
+    "claps"
+   ],
+   "d": 3,
+   "x": "Oxirgi undosh ikkilanadi: clapping.",
+   "say": "clap",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_25",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "The dog is sitting under the table.",
+   "w": [
+    "The dog is siting under the table.",
+    "The dog sitting under the table.",
+    "The dog are sitting under the table."
+   ],
+   "d": 3,
+   "x": "is + sitting (t ikkilanadi)."
+  },
+  {
+   "topic": "english_g4.present_continuous",
+   "id": "present_continuous_26",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "What",
+    "are",
+    "the",
+    "children",
+    "doing"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "What are the children doing? — Bolalar nima qilyapti?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_1",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: I ... at the dentist yesterday.",
+   "a": "was",
+   "w": [
+    "were",
+    "is",
+    "be"
+   ],
+   "d": 1,
+   "x": "I bilan was: I was.",
+   "say": "I ... at the dentist yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_2",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: My friends ... at the cinema last Sunday.",
+   "a": "were",
+   "w": [
+    "was",
+    "is",
+    "be"
+   ],
+   "d": 1,
+   "x": "my friends = they → were.",
+   "say": "My friends ... at the cinema last Sunday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_3",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: The weather ... sunny yesterday.",
+   "a": "was",
+   "w": [
+    "were",
+    "are",
+    "be"
+   ],
+   "d": 1,
+   "x": "the weather = it → was.",
+   "say": "The weather ... sunny yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_4",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Bobur and Aziz ... late for school yesterday.",
+   "a": "were",
+   "w": [
+    "was",
+    "is",
+    "am"
+   ],
+   "d": 1,
+   "x": "Ikki kishi — ko‘plik: were.",
+   "say": "Bobur and Aziz ... late for school yesterday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_5",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It ... my birthday last Friday.",
+   "a": "was",
+   "w": [
+    "were",
+    "is",
+    "are"
+   ],
+   "d": 1,
+   "x": "it bilan was.",
+   "say": "It ... my birthday last Friday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_6",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We ... in Khiva last summer.",
+   "a": "were",
+   "w": [
+    "was",
+    "are",
+    "be"
+   ],
+   "d": 1,
+   "x": "we bilan were.",
+   "say": "We ... in Khiva last summer.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_7",
+   "t": "choice",
+   "q": "“kecha” inglizcha qanday?",
+   "a": "yesterday",
+   "w": [
+    "tomorrow",
+    "today",
+    "tonight"
+   ],
+   "d": 1,
+   "x": "yesterday — kecha."
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_8",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "yesterday",
+     "kecha"
+    ],
+    [
+     "last week",
+     "o‘tgan hafta"
+    ],
+    [
+     "last year",
+     "o‘tgan yili"
+    ],
+    [
+     "two days ago",
+     "ikki kun oldin"
+    ],
+    [
+     "last night",
+     "kecha kechasi"
+    ],
+    [
+     "today",
+     "bugun"
+    ]
+   ],
+   "d": 1,
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "O‘tgan hafta kasal edim.",
+   "w": [
+    "Bugun kasalman.",
+    "O‘tgan hafta u kasal edi.",
+    "O‘tgan hafta charchagan edim."
+   ],
+   "d": 1,
+   "x": "I was ill last week. — O‘tgan hafta kasal edim.",
+   "say": "I was ill last week.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_10",
+   "t": "tf",
+   "q": "“They was at the zoo.” — to‘g‘ri gap.",
+   "a": false,
+   "d": 1,
+   "x": "they bilan were: They were at the zoo.",
+   "say": "They was at the zoo.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_11",
+   "t": "tf",
+   "q": "“I was tired after the match.” — to‘g‘ri gap.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: I bilan was.",
+   "say": "I was tired after the match.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "We",
+    "were",
+    "at",
+    "the",
+    "park",
+    "yesterday"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "We were at the park yesterday. — Kecha biz parkda edik.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_13",
+   "t": "choice",
+   "q": "“o‘tgan hafta” inglizcha qanday?",
+   "a": "last week",
+   "w": [
+    "next week",
+    "this week",
+    "every week"
+   ],
+   "d": 2,
+   "x": "last week — o‘tgan hafta; next week — kelasi hafta."
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_14",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Muzey juda qiziqarli edi.",
+   "w": [
+    "Muzey juda katta edi.",
+    "Muzey juda qiziqarli.",
+    "Kino juda qiziqarli edi."
+   ],
+   "d": 2,
+   "x": "The museum was very interesting. — Muzey juda qiziqarli edi.",
+   "say": "The museum was very interesting.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_15",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: It ... cold yesterday. It was warm.",
+   "a": "wasn't",
+   "w": [
+    "weren't",
+    "isn't",
+    "aren't"
+   ],
+   "d": 2,
+   "x": "it bilan inkor: wasn't.",
+   "say": "It ... cold yesterday. It was warm.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_16",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: We ... at school on Sunday.",
+   "a": "weren't",
+   "w": [
+    "wasn't",
+    "aren't",
+    "didn't"
+   ],
+   "d": 2,
+   "x": "we bilan inkor: weren't.",
+   "say": "We ... at school on Sunday.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_17",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: ... you at the party yesterday? — Yes, I was.",
+   "a": "Were",
+   "w": [
+    "Was",
+    "Are",
+    "Did"
+   ],
+   "d": 2,
+   "x": "you bilan savol: Were you …?",
+   "say": "... you at the party yesterday? — Yes, I was.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_18",
+   "t": "choice",
+   "q": "O‘tgan zamonga o‘tkazing: She is at school.",
+   "a": "She was at school.",
+   "w": [
+    "She were at school.",
+    "She is at school yesterday.",
+    "She be at school."
+   ],
+   "d": 2,
+   "x": "is → was: She was at school.",
+   "say": "She is at school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_19",
+   "t": "choice",
+   "q": "O‘tgan zamonga o‘tkazing: They are happy.",
+   "a": "They were happy.",
+   "w": [
+    "They was happy.",
+    "They are happy yesterday.",
+    "They be happy."
+   ],
+   "d": 2,
+   "x": "are → were: They were happy.",
+   "say": "They are happy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "My",
+    "granny",
+    "was",
+    "a",
+    "teacher"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "My granny was a teacher. — Buvim o‘qituvchi bo‘lgan.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_21",
+   "t": "choice",
+   "q": "Bo‘sh joyni to‘ldiring: Was the test easy? — No, it ...",
+   "a": "wasn't",
+   "w": [
+    "weren't",
+    "isn't",
+    "didn't"
+   ],
+   "d": 3,
+   "x": "Was …? savoliga qisqa javob: No, it wasn't.",
+   "say": "Was the test easy? — No, it ...",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_22",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Last week my brother and I were in Tashkent.",
+   "w": [
+    "Last week my brother and I was in Tashkent.",
+    "Last week my brother and I are in Tashkent.",
+    "Last week my brother and me was in Tashkent."
+   ],
+   "d": 3,
+   "x": "my brother and I = we → were."
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_23",
+   "t": "choice",
+   "q": "“Where were you yesterday?” savoliga mos javobni tanlang",
+   "a": "I was at my granny's.",
+   "w": [
+    "I am at home.",
+    "I'm ten.",
+    "Yes, I was."
+   ],
+   "d": 3,
+   "x": "Where? — qayerda? O‘tgan zamon: I was at my granny's (buvimnikida edim).",
+   "say": "Where were you yesterday?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.was_were",
+   "id": "was_were_24",
+   "t": "order",
+   "q": "So‘zlardan savol tuzing",
+   "parts": [
+    "Where",
+    "were",
+    "you",
+    "last",
+    "Saturday"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Where were you last Saturday? — O‘tgan shanba qayerda eding?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_1",
+   "t": "choice",
+   "q": "How old is Diyor?",
+   "a": "ten",
+   "w": [
+    "seven",
+    "eight",
+    "nine"
+   ],
+   "d": 1,
+   "x": "Matnda: I am ten years old.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "How old is Diyor?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_2",
+   "t": "choice",
+   "q": "What time does Diyor get up?",
+   "a": "at seven o'clock",
+   "w": [
+    "at eight o'clock",
+    "at half past nine",
+    "at six o'clock"
+   ],
+   "d": 1,
+   "x": "Matnda: I get up at seven o'clock.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "What time does Diyor get up?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_3",
+   "t": "choice",
+   "q": "What is Diyor's favourite lesson?",
+   "a": "Maths",
+   "w": [
+    "English",
+    "Art",
+    "Music"
+   ],
+   "d": 1,
+   "x": "Matnda: My favourite lesson is Maths.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "What is Diyor's favourite lesson?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_4",
+   "t": "tf",
+   "q": "Diyor plays football after school.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda: After school I play football with my friends.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "Diyor plays football after school.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_5",
+   "t": "choice",
+   "q": "Where does Malika live?",
+   "a": "in Tashkent",
+   "w": [
+    "in Samarkand",
+    "in Bukhara",
+    "in Fergana"
+   ],
+   "d": 1,
+   "x": "Matnda: Malika lives in a flat in Tashkent.",
+   "text": "Malika lives in a flat in Tashkent. There are three rooms in the flat: a living room, a kitchen and a bedroom. Malika's bedroom is small but nice. There is a bed, a desk and a big wardrobe. There are a lot of books on the shelf. Her white cat, Paxta, likes sleeping on the bed.",
+   "say": "Where does Malika live?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_6",
+   "t": "choice",
+   "q": "How many rooms are there in the flat?",
+   "a": "three",
+   "w": [
+    "two",
+    "four",
+    "five"
+   ],
+   "d": 1,
+   "x": "Matnda: There are three rooms in the flat.",
+   "text": "Malika lives in a flat in Tashkent. There are three rooms in the flat: a living room, a kitchen and a bedroom. Malika's bedroom is small but nice. There is a bed, a desk and a big wardrobe. There are a lot of books on the shelf. Her white cat, Paxta, likes sleeping on the bed.",
+   "say": "How many rooms are there in the flat?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_7",
+   "t": "tf",
+   "q": "Malika's bedroom is very big.",
+   "a": false,
+   "d": 1,
+   "x": "Matnda: Malika's bedroom is small but nice.",
+   "text": "Malika lives in a flat in Tashkent. There are three rooms in the flat: a living room, a kitchen and a bedroom. Malika's bedroom is small but nice. There is a bed, a desk and a big wardrobe. There are a lot of books on the shelf. Her white cat, Paxta, likes sleeping on the bed.",
+   "say": "Malika's bedroom is very big.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_8",
+   "t": "choice",
+   "q": "What is the weather like?",
+   "a": "cool and windy",
+   "w": [
+    "hot and sunny",
+    "cold and snowy",
+    "warm and rainy"
+   ],
+   "d": 1,
+   "x": "Matnda: The weather is cool and windy.",
+   "text": "It is Saturday morning. The weather is cool and windy. Aziz and his dad are in the park. They are flying a kite. The kite is red and yellow. Aziz's little sister is riding her bike. Their mum is sitting on a bench and reading a book.",
+   "say": "What is the weather like?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_9",
+   "t": "choice",
+   "q": "What colour is the kite?",
+   "a": "red and yellow",
+   "w": [
+    "blue and green",
+    "black and white",
+    "pink"
+   ],
+   "d": 1,
+   "x": "Matnda: The kite is red and yellow.",
+   "text": "It is Saturday morning. The weather is cool and windy. Aziz and his dad are in the park. They are flying a kite. The kite is red and yellow. Aziz's little sister is riding her bike. Their mum is sitting on a bench and reading a book.",
+   "say": "What colour is the kite?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_10",
+   "t": "choice",
+   "q": "Where is the library?",
+   "a": "next to the park",
+   "w": [
+    "opposite the bank",
+    "behind the café",
+    "in the museum"
+   ],
+   "d": 1,
+   "x": "Matnda: The library is next to the park.",
+   "text": "Our town is small and green. There is a big park in the centre. The library is next to the park, and the museum is opposite the library. There is a café between the post office and the bank. I like going to the library on Fridays.",
+   "say": "Where is the library?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_11",
+   "t": "tf",
+   "q": "The weather was cold and rainy.",
+   "a": false,
+   "d": 1,
+   "x": "Matnda: The weather was warm and sunny.",
+   "text": "Last Sunday was my grandfather's birthday. We were at his house in the village. The weather was warm and sunny. All my cousins were there. The food was delicious and the cake was very big. We were very happy.",
+   "say": "The weather was cold and rainy.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_12",
+   "t": "choice",
+   "q": "What does Diyor do in the evening?",
+   "a": "He does his homework and reads a book.",
+   "w": [
+    "He plays football.",
+    "He has breakfast.",
+    "He goes to school."
+   ],
+   "d": 2,
+   "x": "Matnda: In the evening I do my homework and read a book.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "What does Diyor do in the evening?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_13",
+   "t": "tf",
+   "q": "Diyor goes to bed at nine o'clock.",
+   "a": false,
+   "d": 2,
+   "x": "Matnda: at half past nine — soat 9:30 da.",
+   "text": "My name is Diyor. I am ten years old. I get up at seven o'clock. I wash my face and have breakfast with my family. School starts at eight. My favourite lesson is Maths. After school I play football with my friends. In the evening I do my homework and read a book. I go to bed at half past nine.",
+   "say": "Diyor goes to bed at nine o'clock.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_14",
+   "t": "choice",
+   "q": "Where does Paxta like sleeping?",
+   "a": "on the bed",
+   "w": [
+    "on the desk",
+    "in the wardrobe",
+    "in the kitchen"
+   ],
+   "d": 2,
+   "x": "Matnda: Her white cat, Paxta, likes sleeping on the bed.",
+   "text": "Malika lives in a flat in Tashkent. There are three rooms in the flat: a living room, a kitchen and a bedroom. Malika's bedroom is small but nice. There is a bed, a desk and a big wardrobe. There are a lot of books on the shelf. Her white cat, Paxta, likes sleeping on the bed.",
+   "say": "Where does Paxta like sleeping?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_15",
+   "t": "choice",
+   "q": "What is Aziz's sister doing?",
+   "a": "She is riding her bike.",
+   "w": [
+    "She is flying a kite.",
+    "She is reading a book.",
+    "She is sitting on a bench."
+   ],
+   "d": 2,
+   "x": "Matnda: Aziz's little sister is riding her bike.",
+   "text": "It is Saturday morning. The weather is cool and windy. Aziz and his dad are in the park. They are flying a kite. The kite is red and yellow. Aziz's little sister is riding her bike. Their mum is sitting on a bench and reading a book.",
+   "say": "What is Aziz's sister doing?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_16",
+   "t": "choice",
+   "q": "Who is reading a book?",
+   "a": "Aziz's mum",
+   "w": [
+    "Aziz",
+    "Aziz's dad",
+    "Aziz's sister"
+   ],
+   "d": 2,
+   "x": "Matnda: Their mum is sitting on a bench and reading a book.",
+   "text": "It is Saturday morning. The weather is cool and windy. Aziz and his dad are in the park. They are flying a kite. The kite is red and yellow. Aziz's little sister is riding her bike. Their mum is sitting on a bench and reading a book.",
+   "say": "Who is reading a book?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_17",
+   "t": "choice",
+   "q": "What is opposite the library?",
+   "a": "the museum",
+   "w": [
+    "the park",
+    "the bank",
+    "the café"
+   ],
+   "d": 2,
+   "x": "Matnda: the museum is opposite the library.",
+   "text": "Our town is small and green. There is a big park in the centre. The library is next to the park, and the museum is opposite the library. There is a café between the post office and the bank. I like going to the library on Fridays.",
+   "say": "What is opposite the library?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_18",
+   "t": "tf",
+   "q": "The café is between the post office and the bank.",
+   "a": true,
+   "d": 2,
+   "x": "Matnda: There is a café between the post office and the bank.",
+   "text": "Our town is small and green. There is a big park in the centre. The library is next to the park, and the museum is opposite the library. There is a café between the post office and the bank. I like going to the library on Fridays.",
+   "say": "The café is between the post office and the bank.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_19",
+   "t": "choice",
+   "q": "Where do camels live?",
+   "a": "in the desert",
+   "w": [
+    "in the forest",
+    "in the sea",
+    "in the mountains"
+   ],
+   "d": 2,
+   "x": "Matnda: Camels live in the desert.",
+   "text": "Camels live in the desert. The desert is very hot in the day, but it can be cold at night. Camels can walk for a long time without water. They have got long legs and big feet, so they can walk on the sand. People use camels to carry things.",
+   "say": "Where do camels live?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_20",
+   "t": "tf",
+   "q": "The desert can be cold at night.",
+   "a": true,
+   "d": 2,
+   "x": "Matnda: but it can be cold at night.",
+   "text": "Camels live in the desert. The desert is very hot in the day, but it can be cold at night. Camels can walk for a long time without water. They have got long legs and big feet, so they can walk on the sand. People use camels to carry things.",
+   "say": "The desert can be cold at night.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_21",
+   "t": "choice",
+   "q": "Whose birthday was it?",
+   "a": "the grandfather's",
+   "w": [
+    "the writer's",
+    "a cousin's",
+    "the grandmother's"
+   ],
+   "d": 2,
+   "x": "Matnda: Last Sunday was my grandfather's birthday.",
+   "text": "Last Sunday was my grandfather's birthday. We were at his house in the village. The weather was warm and sunny. All my cousins were there. The food was delicious and the cake was very big. We were very happy.",
+   "say": "Whose birthday was it?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_22",
+   "t": "choice",
+   "q": "Where were they?",
+   "a": "in the village",
+   "w": [
+    "in the city",
+    "at school",
+    "in a café"
+   ],
+   "d": 2,
+   "x": "Matnda: We were at his house in the village.",
+   "text": "Last Sunday was my grandfather's birthday. We were at his house in the village. The weather was warm and sunny. All my cousins were there. The food was delicious and the cake was very big. We were very happy.",
+   "say": "Where were they?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_23",
+   "t": "choice",
+   "q": "Why can camels walk on the sand?",
+   "a": "They have got big feet.",
+   "w": [
+    "They have got short legs.",
+    "They can fly.",
+    "They drink a lot of water."
+   ],
+   "d": 3,
+   "x": "Matnda: They have got long legs and big feet, so they can walk on the sand.",
+   "text": "Camels live in the desert. The desert is very hot in the day, but it can be cold at night. Camels can walk for a long time without water. They have got long legs and big feet, so they can walk on the sand. People use camels to carry things.",
+   "say": "Why can camels walk on the sand?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_24",
+   "t": "tf",
+   "q": "Camels can't walk without water.",
+   "a": false,
+   "d": 3,
+   "x": "Matnda: Camels can walk for a long time without water.",
+   "text": "Camels live in the desert. The desert is very hot in the day, but it can be cold at night. Camels can walk for a long time without water. They have got long legs and big feet, so they can walk on the sand. People use camels to carry things.",
+   "say": "Camels can't walk without water.",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_25",
+   "t": "choice",
+   "q": "When does the writer go to the library?",
+   "a": "on Fridays",
+   "w": [
+    "on Mondays",
+    "every day",
+    "on Sundays"
+   ],
+   "d": 3,
+   "x": "Matnda: I like going to the library on Fridays.",
+   "text": "Our town is small and green. There is a big park in the centre. The library is next to the park, and the museum is opposite the library. There is a café between the post office and the bank. I like going to the library on Fridays.",
+   "say": "When does the writer go to the library?",
+   "lang": "en"
+  },
+  {
+   "topic": "english_g4.reading",
+   "id": "reading_26",
+   "t": "choice",
+   "q": "How was the cake?",
+   "a": "very big",
+   "w": [
+    "very small",
+    "not tasty",
+    "cold"
+   ],
+   "d": 3,
+   "x": "Matnda: the cake was very big.",
+   "text": "Last Sunday was my grandfather's birthday. We were at his house in the village. The weather was warm and sunny. All my cousins were there. The food was delicious and the cake was very big. We were very happy.",
+   "say": "How was the cake?",
+   "lang": "en"
+  }
+ ]
+}

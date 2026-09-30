@@ -1,0 +1,4405 @@
+{
+ "items": [
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_1",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … кот",
+   "a": "белый",
+   "w": [
+    "белая",
+    "белое",
+    "белые"
+   ],
+   "d": 1,
+   "x": "Кот — он: белый кот.",
+   "say": "... кот",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_2",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … кошка",
+   "a": "белая",
+   "w": [
+    "белый",
+    "белое",
+    "белые"
+   ],
+   "d": 1,
+   "x": "Кошка — она: белая кошка.",
+   "say": "... кошка",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_3",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … молоко",
+   "a": "белое",
+   "w": [
+    "белый",
+    "белая",
+    "белые"
+   ],
+   "d": 1,
+   "x": "Молоко — оно: белое молоко.",
+   "say": "... молоко",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_4",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … сумка",
+   "a": "новая",
+   "w": [
+    "новый",
+    "новое",
+    "новые"
+   ],
+   "d": 1,
+   "x": "Сумка — она: новая сумка.",
+   "say": "... сумка",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_5",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … стол",
+   "a": "большой",
+   "w": [
+    "большая",
+    "большое",
+    "большие"
+   ],
+   "d": 1,
+   "x": "Стол — он: большой стол.",
+   "say": "... стол",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_6",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … дом? — Высокий.",
+   "a": "Какой",
+   "w": [
+    "Какая",
+    "Какое",
+    "Какие"
+   ],
+   "d": 1,
+   "x": "Дом — он: какой дом?",
+   "say": "... дом? Высокий.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_7",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … груша? — Сладкая.",
+   "a": "Какая",
+   "w": [
+    "Какой",
+    "Какое",
+    "Какие"
+   ],
+   "d": 1,
+   "x": "Груша — она: какая груша?",
+   "say": "... груша? Сладкая.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_8",
+   "t": "choice",
+   "q": "“Yangi” ruschasi qanday?",
+   "a": "новый",
+   "w": [
+    "старый",
+    "большой",
+    "белый"
+   ],
+   "d": 1,
+   "x": "Yangi — новый; eski — старый."
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_9",
+   "t": "choice",
+   "q": "“Kichkina” ruschasi qanday?",
+   "a": "маленький",
+   "w": [
+    "большой",
+    "длинный",
+    "новый"
+   ],
+   "d": 1,
+   "x": "Kichkina — маленький."
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_10",
+   "t": "choice",
+   "q": "“Вкусный” o‘zbekchasi qanday?",
+   "a": "mazali",
+   "w": [
+    "shirin",
+    "issiq",
+    "katta"
+   ],
+   "d": 1,
+   "x": "Вкусный — mazali: вкусный суп.",
+   "say": "вкусный",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu yangi uy.",
+   "w": [
+    "Bu eski uy.",
+    "Bu katta uy.",
+    "Bu yangi maktab."
+   ],
+   "d": 1,
+   "x": "Это новый дом. — Bu yangi uy.",
+   "say": "Это новый дом.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_12",
+   "t": "tf",
+   "q": "“Белая молоко” — to‘g‘ri birikma.",
+   "a": false,
+   "d": 1,
+   "x": "Молоко — оно: белое молоко.",
+   "say": "белая молоко",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_13",
+   "t": "match",
+   "q": "Sifat va tarjimasini juftlang",
+   "pairs": [
+    [
+     "сладкий",
+     "shirin"
+    ],
+    [
+     "кислый",
+     "nordon"
+    ],
+    [
+     "тёплый",
+     "iliq"
+    ],
+    [
+     "мягкий",
+     "yumshoq"
+    ],
+    [
+     "чистый",
+     "toza"
+    ],
+    [
+     "грязный",
+     "iflos"
+    ],
+    [
+     "громкий",
+     "baland (ovoz)"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_14",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … облака",
+   "a": "белые",
+   "w": [
+    "белый",
+    "белая",
+    "белое"
+   ],
+   "d": 2,
+   "x": "Облака — ko‘plik: белые облака.",
+   "say": "... облака",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_15",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … платье",
+   "a": "новое",
+   "w": [
+    "новый",
+    "новая",
+    "новые"
+   ],
+   "d": 2,
+   "x": "Платье — оно: новое платье.",
+   "say": "... платье",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_16",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … карандаши",
+   "a": "новые",
+   "w": [
+    "новый",
+    "новая",
+    "новое"
+   ],
+   "d": 2,
+   "x": "Карандаши — ko‘plik: новые карандаши.",
+   "say": "... карандаши",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_17",
+   "t": "choice",
+   "q": "Mos sifatni tanlang: … окно",
+   "a": "большое",
+   "w": [
+    "большой",
+    "большая",
+    "большие"
+   ],
+   "d": 2,
+   "x": "Окно — оно: большое окно.",
+   "say": "... окно",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_18",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … солнце? — Яркое.",
+   "a": "Какое",
+   "w": [
+    "Какой",
+    "Какая",
+    "Какие"
+   ],
+   "d": 2,
+   "x": "Солнце — оно: какое солнце?",
+   "say": "... солнце? Яркое.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_19",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … цветы? — Красивые.",
+   "a": "Какие",
+   "w": [
+    "Какой",
+    "Какая",
+    "Какое"
+   ],
+   "d": 2,
+   "x": "Цветы — ko‘plik: какие цветы?",
+   "say": "... цветы? Красивые.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_20",
+   "t": "choice",
+   "q": "Qaysi sifat “окно” so‘ziga mos keladi?",
+   "a": "открытое",
+   "w": [
+    "открытый",
+    "открытая",
+    "открытые"
+   ],
+   "d": 2,
+   "x": "Окно — оно: открытое окно.",
+   "say": "окно",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_21",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening mushugim kulrang.",
+   "w": [
+    "Mening itim kulrang.",
+    "Mening mushugim oq.",
+    "Uning mushugi kulrang."
+   ],
+   "d": 2,
+   "x": "Моя кошка серая. — Mening mushugim kulrang.",
+   "say": "Моя кошка серая.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_22",
+   "t": "tf",
+   "q": "“Высокое дерево” — to‘g‘ri birikma.",
+   "a": true,
+   "d": 2,
+   "x": "Дерево — оно: высокое дерево.",
+   "say": "высокое дерево",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_23",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "вкусный суп",
+   "w": [
+    "вкусная суп",
+    "вкусное суп",
+    "вкусные суп"
+   ],
+   "d": 2,
+   "x": "Суп — он: вкусный суп."
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Это",
+    "мой",
+    "новый",
+    "велосипед"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Это мой новый велосипед. — Bu mening yangi velosipedim.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_25",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Сегодня",
+    "тёплый",
+    "день"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Сегодня тёплый день. — Bugun iliq kun.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.adjectives",
+   "id": "adjectives_26",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "жёлтые листья",
+   "w": [
+    "жёлтый листья",
+    "жёлтая листья",
+    "жёлтое листья"
+   ],
+   "d": 3,
+   "x": "Листья — ko‘plik: жёлтые листья."
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_1",
+   "t": "choice",
+   "q": "Soat 4:00. Который час?",
+   "a": "Четыре часа.",
+   "w": [
+    "Четыре часов.",
+    "Четырнадцать часов.",
+    "Четыре час."
+   ],
+   "d": 1,
+   "x": "2, 3, 4 dan keyin — часа: четыре часа.",
+   "e": "🕓",
+   "say": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_2",
+   "t": "choice",
+   "q": "Soat 9:00. Который час?",
+   "a": "Девять часов.",
+   "w": [
+    "Девять часа.",
+    "Девятнадцать часов.",
+    "Десять часов."
+   ],
+   "d": 1,
+   "x": "5 dan 12 gacha — часов: девять часов.",
+   "e": "🕘",
+   "say": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_3",
+   "t": "choice",
+   "q": "Soat 6:00. Который час?",
+   "a": "Шесть часов.",
+   "w": [
+    "Шесть часа.",
+    "Шестнадцать часов.",
+    "Шесть час."
+   ],
+   "d": 1,
+   "x": "Шесть часов — soat olti.",
+   "e": "🕕",
+   "say": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_4",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Папа приходит домой в шесть …",
+   "a": "часов",
+   "w": [
+    "час",
+    "часа"
+   ],
+   "d": 1,
+   "x": "6 dan keyin — часов.",
+   "say": "Папа приходит домой в шесть ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_5",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Урок кончается в два …",
+   "a": "часа",
+   "w": [
+    "час",
+    "часов"
+   ],
+   "d": 1,
+   "x": "2 dan keyin — часа.",
+   "say": "Урок кончается в два ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_6",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "7:00",
+   "w": [
+    "17:00",
+    "8:00",
+    "7:30"
+   ],
+   "d": 1,
+   "x": "Семь часов. — 7:00",
+   "say": "Семь часов.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_7",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "4:00",
+   "w": [
+    "14:00",
+    "5:00",
+    "4:30"
+   ],
+   "d": 1,
+   "x": "Четыре часа. — 4:00",
+   "say": "Четыре часа.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_8",
+   "t": "choice",
+   "q": "“Soat necha?” ruschasi qanday?",
+   "a": "Который час?",
+   "w": [
+    "Сколько тебе лет?",
+    "Какой сегодня день?",
+    "Где часы?"
+   ],
+   "d": 1,
+   "x": "Soat necha? — Который час? (yoki Сколько времени?)"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_9",
+   "t": "choice",
+   "q": "“Сколько времени?” o‘zbekchasi qanday?",
+   "a": "Soat necha?",
+   "w": [
+    "Qancha pul?",
+    "Necha yoshdasan?",
+    "Qachon?"
+   ],
+   "d": 1,
+   "x": "Сколько времени? — Soat necha?",
+   "say": "Сколько времени?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Hozir soat uch.",
+   "w": [
+    "Hozir soat to‘rt.",
+    "Soat uchda kel.",
+    "Hozir soat o‘n uch."
+   ],
+   "d": 1,
+   "x": "Сейчас три часа. — Hozir soat uch.",
+   "say": "Сейчас три часа.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_11",
+   "t": "tf",
+   "q": "“Шесть часа” — to‘g‘ri.",
+   "a": false,
+   "d": 1,
+   "x": "5 dan 12 gacha — часов: шесть часов.",
+   "say": "шесть часа",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_12",
+   "t": "tf",
+   "q": "“Четыре часа” — to‘g‘ri.",
+   "a": true,
+   "d": 1,
+   "x": "2, 3, 4 dan keyin — часа.",
+   "say": "четыре часа",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Который",
+    "час"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Который час? — Soat necha?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_14",
+   "t": "choice",
+   "q": "Soat 2:00. Который час?",
+   "a": "Два часа.",
+   "w": [
+    "Два часов.",
+    "Двенадцать часов.",
+    "Два час."
+   ],
+   "d": 2,
+   "x": "2 dan keyin — часа: два часа.",
+   "e": "🕑",
+   "say": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_15",
+   "t": "choice",
+   "q": "Soat 11:00. Который час?",
+   "a": "Одиннадцать часов.",
+   "w": [
+    "Одиннадцать часа.",
+    "Один час.",
+    "Двенадцать часов."
+   ],
+   "d": 2,
+   "x": "11 dan keyin — часов.",
+   "e": "🕚",
+   "say": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_16",
+   "t": "choice",
+   "q": "Mos sonni tanlang: Мы обедаем в … часа.",
+   "a": "три",
+   "w": [
+    "пять",
+    "семь",
+    "девять"
+   ],
+   "d": 2,
+   "x": "часа — faqat 2, 3, 4 dan keyin: в три часа.",
+   "say": "Мы обедаем в ... часа.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_17",
+   "t": "choice",
+   "q": "Mos sonni tanlang: Я ложусь спать в … часов.",
+   "a": "десять",
+   "w": [
+    "два",
+    "три",
+    "четыре"
+   ],
+   "d": 2,
+   "x": "часов — 5 va undan katta sonlar bilan: в десять часов.",
+   "say": "Я ложусь спать в ... часов.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_18",
+   "t": "choice",
+   "q": "Tinglang va vaqtni tanlang",
+   "a": "10:30",
+   "w": [
+    "10:00",
+    "11:30",
+    "3:10"
+   ],
+   "d": 2,
+   "x": "Десять тридцать. — 10:30",
+   "say": "Десять тридцать.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_19",
+   "t": "match",
+   "q": "Iborani tarjimasi bilan juftlang",
+   "pairs": [
+    [
+     "семь часов утра",
+     "ertalab soat 7"
+    ],
+    [
+     "два часа дня",
+     "kunduzi soat 2"
+    ],
+    [
+     "шесть часов вечера",
+     "kechqurun soat 6"
+    ],
+    [
+     "полдень",
+     "tush payti (12:00)"
+    ],
+    [
+     "полночь",
+     "yarim tun"
+    ],
+    [
+     "минута",
+     "daqiqa"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kino soat 5 da boshlanadi.",
+   "w": [
+    "Kino soat 5 da tugaydi.",
+    "Kino soat 6 da boshlanadi.",
+    "Dars soat 5 da boshlanadi."
+   ],
+   "d": 2,
+   "x": "Фильм начинается в пять часов. — Kino soat 5 da boshlanadi.",
+   "say": "Фильм начинается в пять часов.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_21",
+   "t": "tf",
+   "q": "“Час” — soat 1:00 degani.",
+   "a": true,
+   "d": 2,
+   "x": "1:00 — (Сейчас) час; «один» deyilmaydi.",
+   "say": "Сейчас час.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_22",
+   "t": "choice",
+   "q": "Mos predlogni tanlang: Мы идём в кино … пять часов.",
+   "a": "в",
+   "w": [
+    "на",
+    "с",
+    "у"
+   ],
+   "d": 2,
+   "x": "Qachon? — в пять часов.",
+   "say": "Мы идём в кино ... пять часов.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Сейчас",
+    "два",
+    "часа",
+    "дня"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Сейчас два часа дня. — Hozir kunduzi soat ikki.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_24",
+   "t": "choice",
+   "q": "Bir kecha-kunduzda necha soat bor?",
+   "a": "двадцать четыре",
+   "w": [
+    "двенадцать",
+    "шестьдесят",
+    "сорок"
+   ],
+   "d": 2,
+   "x": "Kecha-kunduzda 24 soat: двадцать четыре часа."
+  },
+  {
+   "topic": "russian_g4.time",
+   "id": "time_25",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Мы",
+    "ужинаем",
+    "в",
+    "семь",
+    "часов",
+    "вечера"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Мы ужинаем в семь часов вечера. — Biz kechqurun soat yettida kechki ovqat yeymiz.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_1",
+   "t": "choice",
+   "q": "“Yanvar” ruschasi qanday?",
+   "a": "январь",
+   "w": [
+    "июнь",
+    "июль",
+    "февраль"
+   ],
+   "d": 1,
+   "x": "Yanvar — январь."
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_2",
+   "t": "choice",
+   "q": "“Март” — yilning nechanchi oyi?",
+   "a": "3-oy",
+   "w": [
+    "1-oy",
+    "5-oy",
+    "8-oy"
+   ],
+   "d": 1,
+   "x": "Январь (1), февраль (2), март (3).",
+   "say": "март",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_3",
+   "t": "choice",
+   "q": "Qaysi oy “июнь” dan keyin keladi?",
+   "a": "июль",
+   "w": [
+    "май",
+    "август",
+    "сентябрь"
+   ],
+   "d": 1,
+   "x": "Июнь, июль, август — yoz oylari.",
+   "say": "июнь",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_4",
+   "t": "choice",
+   "q": "Qatorni to‘ldiring: январь, февраль, …",
+   "a": "март",
+   "w": [
+    "май",
+    "апрель",
+    "декабрь"
+   ],
+   "d": 1,
+   "x": "Январь, февраль, март.",
+   "say": "январь, февраль, ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_5",
+   "t": "choice",
+   "q": "Qatorni to‘ldiring: четверг, …, суббота",
+   "a": "пятница",
+   "w": [
+    "среда",
+    "воскресенье",
+    "понедельник"
+   ],
+   "d": 1,
+   "x": "Payshanba, juma, shanba: четверг, пятница, суббота.",
+   "say": "четверг, ..., суббота",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_6",
+   "t": "choice",
+   "q": "Yil qaysi oy bilan boshlanadi?",
+   "a": "январь",
+   "w": [
+    "декабрь",
+    "март",
+    "сентябрь"
+   ],
+   "d": 1,
+   "x": "Yil январь bilan boshlanadi."
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_7",
+   "t": "choice",
+   "q": "Yil qaysi oy bilan tugaydi?",
+   "a": "декабрь",
+   "w": [
+    "ноябрь",
+    "январь",
+    "октябрь"
+   ],
+   "d": 1,
+   "x": "Yil декабрь bilan tugaydi."
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_8",
+   "t": "choice",
+   "q": "O‘zbekistonda o‘quv yili qaysi oyda boshlanadi?",
+   "a": "сентябрь",
+   "w": [
+    "август",
+    "январь",
+    "июнь"
+   ],
+   "d": 1,
+   "x": "O‘quv yili sentabrda boshlanadi — в сентябре."
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_9",
+   "t": "choice",
+   "q": "Yil nechta oydan iborat?",
+   "a": "двенадцать",
+   "w": [
+    "десять",
+    "семь",
+    "двадцать"
+   ],
+   "d": 1,
+   "x": "Yilda 12 oy: двенадцать месяцев."
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_10",
+   "t": "match",
+   "q": "Oy va tarjimasini juftlang",
+   "pairs": [
+    [
+     "январь",
+     "yanvar"
+    ],
+    [
+     "март",
+     "mart"
+    ],
+    [
+     "май",
+     "may"
+    ],
+    [
+     "июль",
+     "iyul"
+    ],
+    [
+     "сентябрь",
+     "sentabr"
+    ],
+    [
+     "ноябрь",
+     "noyabr"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_11",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bugun seshanba.",
+   "w": [
+    "Ertaga seshanba.",
+    "Bugun chorshanba.",
+    "Bugun payshanba."
+   ],
+   "d": 1,
+   "x": "Сегодня вторник. — Bugun seshanba.",
+   "say": "Сегодня вторник.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_12",
+   "t": "tf",
+   "q": "Rus tilida oy nomlari kichik harf bilan yoziladi: май, июнь.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: oy va kun nomlari kichik harf bilan yoziladi.",
+   "say": "май, июнь",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_13",
+   "t": "tf",
+   "q": "“В январе” — “yanvarda” degani.",
+   "a": true,
+   "d": 1,
+   "x": "Qachon? — в январе (yanvarda).",
+   "say": "в январе",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Сегодня",
+    "пятница"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Сегодня пятница. — Bugun juma.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_15",
+   "t": "choice",
+   "q": "Qatorni to‘ldiring: сентябрь, …, ноябрь",
+   "a": "октябрь",
+   "w": [
+    "август",
+    "декабрь",
+    "март"
+   ],
+   "d": 2,
+   "x": "Сентябрь, октябрь, ноябрь — kuz oylari.",
+   "say": "сентябрь, ..., ноябрь",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_16",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Мой день рождения в …",
+   "a": "мае",
+   "w": [
+    "май",
+    "мая",
+    "маю"
+   ],
+   "d": 2,
+   "x": "Qachon? — в мае (в + -е).",
+   "say": "Мой день рождения в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_17",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Летом, в …, очень жарко.",
+   "a": "июле",
+   "w": [
+    "июль",
+    "июля",
+    "июлем"
+   ],
+   "d": 2,
+   "x": "Qachon? — в июле.",
+   "say": "Летом, в ..., очень жарко.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_18",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Я хожу в бассейн в …",
+   "a": "среду",
+   "w": [
+    "среда",
+    "среде",
+    "средой"
+   ],
+   "d": 2,
+   "x": "Qachon? — в среду (-а → -у).",
+   "say": "Я хожу в бассейн в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening tug‘ilgan kunim aprelda.",
+   "w": [
+    "Mening tug‘ilgan kunim avgustda.",
+    "Uning tug‘ilgan kuni aprelda.",
+    "Aprelda havo iliq."
+   ],
+   "d": 2,
+   "x": "Мой день рождения в апреле. — Mening tug‘ilgan kunim aprelda.",
+   "say": "Мой день рождения в апреле.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Shanba kuni biz parkka boramiz.",
+   "w": [
+    "Yakshanba kuni biz parkka boramiz.",
+    "Shanba kuni biz muzeyga boramiz.",
+    "Juma kuni biz parkka boramiz."
+   ],
+   "d": 2,
+   "x": "В субботу мы идём в парк. — Shanba kuni biz parkka boramiz.",
+   "say": "В субботу мы идём в парк.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_21",
+   "t": "tf",
+   "q": "Dekabrdan keyin fevral keladi.",
+   "a": false,
+   "d": 2,
+   "x": "Dekabrdan keyin yangi yil — январь keladi.",
+   "say": "декабрь, февраль",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "В",
+    "сентябре",
+    "дети",
+    "идут",
+    "в",
+    "школу"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "В сентябре дети идут в школу. — Sentabrda bolalar maktabga boradi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Какой",
+    "сейчас",
+    "месяц"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Какой сейчас месяц? — Hozir qaysi oy?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_24",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: В … мы отдыхаем.",
+   "a": "воскресенье",
+   "w": [
+    "воскресенья",
+    "воскресеньем",
+    "воскресенью"
+   ],
+   "d": 3,
+   "x": "Воскресенье — оно, в bilan o‘zgarmaydi: в воскресенье.",
+   "say": "В ... мы отдыхаем.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.calendar",
+   "id": "calendar_25",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "четверг",
+   "w": [
+    "читверг",
+    "четверк",
+    "чутверг"
+   ],
+   "d": 3,
+   "x": "To‘g‘ri yozilishi: четверг."
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_1",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Вчера Бобур … в футбол.",
+   "a": "играл",
+   "w": [
+    "играла",
+    "играли",
+    "играло"
+   ],
+   "d": 1,
+   "x": "Бобур — он: играл.",
+   "say": "Вчера Бобур ... в футбол.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_2",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Вчера Нигора … кошку.",
+   "a": "рисовала",
+   "w": [
+    "рисовал",
+    "рисовали",
+    "рисовало"
+   ],
+   "d": 1,
+   "x": "Нигора — она: рисовала.",
+   "say": "Вчера Нигора ... кошку.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_3",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Вчера дети … мультфильм.",
+   "a": "смотрели",
+   "w": [
+    "смотрел",
+    "смотрела",
+    "смотрело"
+   ],
+   "d": 1,
+   "x": "Дети — ko‘plik: смотрели.",
+   "say": "Вчера дети ... мультфильм.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_4",
+   "t": "choice",
+   "q": "“Спать” fe’lining o‘tgan zamon shakli (она)?",
+   "a": "спала",
+   "w": [
+    "спал",
+    "спит",
+    "спали"
+   ],
+   "d": 1,
+   "x": "Она — спала.",
+   "say": "спать",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_5",
+   "t": "choice",
+   "q": "“Гулять” fe’lining o‘tgan zamon shakli (они)?",
+   "a": "гуляли",
+   "w": [
+    "гулял",
+    "гуляют",
+    "гуляла"
+   ],
+   "d": 1,
+   "x": "Они — гуляли.",
+   "say": "гулять",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_6",
+   "t": "choice",
+   "q": "“Рисовать” fe’lining o‘tgan zamon shakli (он)?",
+   "a": "рисовал",
+   "w": [
+    "рисовала",
+    "рисует",
+    "рисовали"
+   ],
+   "d": 1,
+   "x": "Он — рисовал.",
+   "say": "рисовать",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_7",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kecha men parkda sayr qildim.",
+   "w": [
+    "Bugun men parkda sayr qilyapman.",
+    "Kecha men bog‘da ishladim.",
+    "Kecha biz parkda sayr qildik."
+   ],
+   "d": 1,
+   "x": "Вчера я гулял в парке. — Kecha men parkda sayr qildim.",
+   "say": "Вчера я гулял в парке.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_8",
+   "t": "tf",
+   "q": "“Лола играл” — to‘g‘ri.",
+   "a": false,
+   "d": 1,
+   "x": "Лола — qiz bola: Лола играла.",
+   "say": "Лола играл",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_9",
+   "t": "tf",
+   "q": "“Мы смотрели” — to‘g‘ri.",
+   "a": true,
+   "d": 1,
+   "x": "Мы — ko‘plik: смотрели.",
+   "say": "мы смотрели",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_10",
+   "t": "tf",
+   "q": "“Вчера” — “ertaga” degani.",
+   "a": false,
+   "d": 1,
+   "x": "Вчера — kecha; ertaga — завтра.",
+   "say": "вчера",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Вечером",
+    "папа",
+    "смотрел",
+    "футбол"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Вечером папа смотрел футбол. — Kechqurun otam futbol tomosha qildi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_12",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Бабушка … песню.",
+   "a": "пела",
+   "w": [
+    "пел",
+    "пели",
+    "пело"
+   ],
+   "d": 2,
+   "x": "Бабушка — она: пела.",
+   "say": "Бабушка ... песню.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_13",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Вчера папа … машину.",
+   "a": "мыл",
+   "w": [
+    "мыла",
+    "мыли",
+    "моет"
+   ],
+   "d": 2,
+   "x": "Папа — он, вчера — o‘tgan zamon: мыл.",
+   "say": "Вчера папа ... машину.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_14",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Утром мы … зарядку.",
+   "a": "делали",
+   "w": [
+    "делал",
+    "делала",
+    "делает"
+   ],
+   "d": 2,
+   "x": "Мы — ko‘plik: делали.",
+   "say": "Утром мы ... зарядку.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_15",
+   "t": "choice",
+   "q": "Азиз aytadi: Вчера я … письмо.",
+   "a": "писал",
+   "w": [
+    "писала",
+    "писали",
+    "писало"
+   ],
+   "d": 2,
+   "x": "Aziz — o‘g‘il bola: я писал.",
+   "say": "Вчера я ... письмо.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_16",
+   "t": "choice",
+   "q": "Мадина aytadi: Летом я … в деревне.",
+   "a": "отдыхала",
+   "w": [
+    "отдыхал",
+    "отдыхали",
+    "отдыхало"
+   ],
+   "d": 2,
+   "x": "Madina — qiz bola: я отдыхала.",
+   "say": "Летом я ... в деревне.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_17",
+   "t": "choice",
+   "q": "Qaysi fe’l qiz bola haqida (o‘tgan zamon)?",
+   "a": "играла",
+   "w": [
+    "играл",
+    "играли",
+    "играет"
+   ],
+   "d": 2,
+   "x": "Она — -ла: играла."
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_18",
+   "t": "match",
+   "q": "Hozirgi va o‘tgan zamonni juftlang",
+   "pairs": [
+    [
+     "рисует",
+     "рисовал"
+    ],
+    [
+     "гуляет",
+     "гулял"
+    ],
+    [
+     "поёт",
+     "пел"
+    ],
+    [
+     "спит",
+     "спал"
+    ],
+    [
+     "делает",
+     "делал"
+    ],
+    [
+     "пьёт",
+     "пил"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Onam kechqurun kitob o‘qidi.",
+   "w": [
+    "Onam ertalab kitob o‘qidi.",
+    "Otam kechqurun kitob o‘qidi.",
+    "Onam kechqurun gazeta o‘qidi."
+   ],
+   "d": 2,
+   "x": "Вечером мама читала книгу. — Onam kechqurun kitob o‘qidi.",
+   "say": "Вечером мама читала книгу.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "O‘g‘il bolalar futbol o‘ynashdi.",
+   "w": [
+    "O‘g‘il bolalar futbol o‘ynayapti.",
+    "Qizlar futbol o‘ynashdi.",
+    "O‘g‘il bolalar shaxmat o‘ynashdi."
+   ],
+   "d": 2,
+   "x": "Мальчики играли в футбол. — O‘g‘il bolalar futbol o‘ynashdi.",
+   "say": "Мальчики играли в футбол.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_21",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Мама готовила плов.",
+   "w": [
+    "Мама готовил плов.",
+    "Мама готовили плов.",
+    "Мама готовило плов."
+   ],
+   "d": 2,
+   "x": "Мама — она: готовила."
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_22",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Кошка спала на диване.",
+   "w": [
+    "Кошка спал на диване.",
+    "Кошка спали на диване.",
+    "Кошка спало на диване."
+   ],
+   "d": 2,
+   "x": "Кошка — она: спала."
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_23",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: … мы были в театре.",
+   "a": "Вчера",
+   "w": [
+    "Завтра",
+    "Сейчас",
+    "Через час"
+   ],
+   "d": 2,
+   "x": "Были — o‘tgan zamon, shuning uchun вчера.",
+   "say": "... мы были в театре.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_24",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Сестра",
+    "рисовала",
+    "цветы"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Сестра рисовала цветы. — Opam gullar chizdi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_25",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Утром … дождь.",
+   "a": "шёл",
+   "w": [
+    "шла",
+    "шли",
+    "шло"
+   ],
+   "d": 3,
+   "x": "Дождь — он: дождь шёл (идти → шёл — istisno shakl).",
+   "say": "Утром ... дождь.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.past",
+   "id": "past_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Летом",
+    "дети",
+    "отдыхали",
+    "на",
+    "озере"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Летом дети отдыхали на озере. — Yozda bolalar ko‘lda dam olishdi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_1",
+   "t": "choice",
+   "q": "“Можно войти?” o‘zbekchasi qanday?",
+   "a": "Kirsam maylimi?",
+   "w": [
+    "Chiqsam maylimi?",
+    "Kiring!",
+    "Qayerga kiray?"
+   ],
+   "d": 1,
+   "x": "Можно войти? — Kirsam maylimi?",
+   "say": "Можно войти?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_2",
+   "t": "choice",
+   "q": "“Не за что!” qachon aytiladi?",
+   "a": "rahmatga javoban",
+   "w": [
+    "salomlashganda",
+    "kechirim so‘raganda",
+    "ovqatdan oldin"
+   ],
+   "d": 1,
+   "x": "Не за что! — Arzimaydi! (rahmatga javob)",
+   "say": "Не за что!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_3",
+   "t": "choice",
+   "q": "Ovqatlanayotgan odamga nima deymiz?",
+   "a": "Приятного аппетита!",
+   "w": [
+    "Счастливого пути!",
+    "Спокойной ночи!",
+    "С днём рождения!"
+   ],
+   "d": 1,
+   "x": "Приятного аппетита! — Yoqimli ishtaha!"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_4",
+   "t": "choice",
+   "q": "Safarga ketayotgan odamga nima deymiz?",
+   "a": "Счастливого пути!",
+   "w": [
+    "Приятного аппетита!",
+    "Будь здоров!",
+    "Добро пожаловать!"
+   ],
+   "d": 1,
+   "x": "Счастливого пути! — Oq yo‘l!"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_5",
+   "t": "choice",
+   "q": "Do‘stingiz aksirdi. Nima deysiz?",
+   "a": "Будь здоров!",
+   "w": [
+    "Не за что!",
+    "Приятного аппетита!",
+    "Счастливого пути!"
+   ],
+   "d": 1,
+   "x": "Aksirganda: Будь здоров! (Sog‘ bo‘l!)"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_6",
+   "t": "choice",
+   "q": "Tug‘ilgan kun egasiga nima deymiz?",
+   "a": "С днём рождения!",
+   "w": [
+    "С Новым годом!",
+    "Спокойной ночи!",
+    "Извините!"
+   ],
+   "d": 1,
+   "x": "С днём рождения! — Tug‘ilgan kuning bilan!"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_7",
+   "t": "choice",
+   "q": "Yangi yil bayramida nima deymiz?",
+   "a": "С Новым годом!",
+   "w": [
+    "С днём рождения!",
+    "Приятного аппетита!",
+    "Будь здоров!"
+   ],
+   "d": 1,
+   "x": "С Новым годом! — Yangi yil bilan!"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_8",
+   "t": "match",
+   "q": "Ibora va tarjimasini juftlang",
+   "pairs": [
+    [
+     "Спасибо большое!",
+     "Katta rahmat!"
+    ],
+    [
+     "Не за что!",
+     "Arzimaydi!"
+    ],
+    [
+     "Будь здоров!",
+     "Sog‘ bo‘l!"
+    ],
+    [
+     "Добро пожаловать!",
+     "Xush kelibsiz!"
+    ],
+    [
+     "Счастливого пути!",
+     "Oq yo‘l!"
+    ],
+    [
+     "Приятного аппетита!",
+     "Yoqimli ishtaha!"
+    ],
+    [
+     "Можно?",
+     "Mumkinmi?"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Iltimos, menga ruchka bering.",
+   "w": [
+    "Iltimos, menga kitob bering.",
+    "Rahmat, ruchka kerak emas.",
+    "Ruchkangni olsam maylimi?"
+   ],
+   "d": 1,
+   "x": "Дайте мне, пожалуйста, ручку. — Iltimos, menga ruchka bering.",
+   "say": "Дайте мне, пожалуйста, ручку.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_10",
+   "t": "tf",
+   "q": "“Приятного аппетита!” — ovqat oldidan aytiladi.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: ovqatlanayotganlarga aytiladi.",
+   "say": "Приятного аппетита!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_11",
+   "t": "tf",
+   "q": "“Счастливого пути!” — uxlashdan oldin aytiladi.",
+   "a": false,
+   "d": 1,
+   "x": "Счастливого пути! — safarga ketayotganga aytiladi; uxlashdan oldin — Спокойной ночи!",
+   "say": "Счастливого пути!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Можно",
+    "взять",
+    "эту",
+    "книгу"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Можно взять эту книгу? — Bu kitobni olsam maylimi?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_13",
+   "t": "choice",
+   "q": "Mehmonni kutib olganda nima deymiz?",
+   "a": "Добро пожаловать!",
+   "w": [
+    "До свидания!",
+    "Будь здоров!",
+    "Не за что!"
+   ],
+   "d": 2,
+   "x": "Добро пожаловать! — Xush kelibsiz!"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_14",
+   "t": "choice",
+   "q": "Darsga kechikdingiz. O‘qituvchiga nima deysiz?",
+   "a": "Извините, можно войти?",
+   "w": [
+    "Привет, я здесь!",
+    "Спасибо, до свидания!",
+    "Приятного аппетита!"
+   ],
+   "d": 2,
+   "x": "Kechirim so‘rab, ruxsat olamiz: Извините, можно войти?"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_15",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: …, пожалуйста, где остановка?",
+   "a": "Скажите",
+   "w": [
+    "Спасибо",
+    "Пока",
+    "Здравствуй"
+   ],
+   "d": 2,
+   "x": "Скажите, пожалуйста… — Ayting-chi, iltimos…",
+   "say": "..., пожалуйста, где остановка?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_16",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Спасибо …!",
+   "a": "большое",
+   "w": [
+    "большой",
+    "большая",
+    "большие"
+   ],
+   "d": 2,
+   "x": "Спасибо большое! — Katta rahmat!",
+   "say": "Спасибо ...!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_17",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: … взять твою ручку?",
+   "a": "Можно",
+   "w": [
+    "Спасибо",
+    "Пожалуйста",
+    "Привет"
+   ],
+   "d": 2,
+   "x": "Ruxsat so‘rash: Можно взять…?",
+   "say": "... взять твою ручку?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kechirasiz, men kechikdim.",
+   "w": [
+    "Kechirasiz, men ketdim.",
+    "Rahmat, men keldim.",
+    "Kechirasiz, siz kechikdingiz."
+   ],
+   "d": 2,
+   "x": "Извините, я опоздал. — Kechirasiz, men kechikdim.",
+   "say": "Извините, я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_19",
+   "t": "tf",
+   "q": "“Здравствуйте” — faqat do‘stlarga aytiladi.",
+   "a": false,
+   "d": 2,
+   "x": "Здравствуйте — kattalarga va notanishlarga hurmat bilan aytiladi; do‘stga — Привет.",
+   "say": "Здравствуйте",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_20",
+   "t": "choice",
+   "q": "Kattalarga murojaat qilganda qaysi olmosh ishlatiladi?",
+   "a": "вы",
+   "w": [
+    "ты",
+    "он",
+    "они"
+   ],
+   "d": 2,
+   "x": "Kattalarga hurmat bilan «вы» deymiz: Вы можете мне помочь?"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_21",
+   "t": "choice",
+   "q": "Suhbatni to‘ldiring: — Спасибо за подарок! — …",
+   "a": "Пожалуйста!",
+   "w": [
+    "Будь здоров!",
+    "Счастливого пути!",
+    "Спокойной ночи!"
+   ],
+   "d": 2,
+   "x": "Rahmatga javob: Пожалуйста! yoki Не за что!",
+   "say": "Спасибо за подарок!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Спасибо",
+    "за",
+    "помощь"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Спасибо за помощь. — Yordamingiz uchun rahmat.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Скажите",
+    "пожалуйста",
+    "где",
+    "метро"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Скажите, пожалуйста, где метро? — Ayting-chi, iltimos, metro qayerda?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_24",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Menga yordam bera olasizmi?",
+   "w": [
+    "Sizga yordam beraymi?",
+    "Menga yordam kerak emas.",
+    "U menga yordam berdi."
+   ],
+   "d": 3,
+   "x": "Вы можете мне помочь? — Menga yordam bera olasizmi?",
+   "say": "Вы можете мне помочь?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.polite",
+   "id": "polite_25",
+   "t": "choice",
+   "q": "Qaysi ibora do‘stona (norasmiy)?",
+   "a": "Привет!",
+   "w": [
+    "Здравствуйте!",
+    "Добрый день!",
+    "Добро пожаловать!"
+   ],
+   "d": 3,
+   "x": "Привет! — do‘stlar orasida; qolganlari rasmiyroq."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_1",
+   "t": "choice",
+   "q": "“Oshxona” ruschasi qanday?",
+   "a": "кухня",
+   "w": [
+    "спальня",
+    "ванная",
+    "балкон"
+   ],
+   "d": 1,
+   "x": "Oshxona — кухня."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_2",
+   "t": "choice",
+   "q": "“Xona” ruschasi qanday?",
+   "a": "комната",
+   "w": [
+    "квартира",
+    "кухня",
+    "этаж"
+   ],
+   "d": 1,
+   "x": "Xona — комната."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_3",
+   "t": "choice",
+   "q": "“Gilam” ruschasi qanday?",
+   "a": "ковёр",
+   "w": [
+    "шкаф",
+    "стол",
+    "диван"
+   ],
+   "d": 1,
+   "x": "Gilam — ковёр."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_4",
+   "t": "choice",
+   "q": "“Спальня” o‘zbekchasi qanday?",
+   "a": "yotoqxona",
+   "w": [
+    "oshxona",
+    "hammom",
+    "dahliz"
+   ],
+   "d": 1,
+   "x": "Спальня — yotoqxona (спать — uxlamoq).",
+   "say": "спальня",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_5",
+   "t": "choice",
+   "q": "“Этаж” o‘zbekchasi qanday?",
+   "a": "qavat",
+   "w": [
+    "xona",
+    "eshik",
+    "tom"
+   ],
+   "d": 1,
+   "x": "Этаж — qavat.",
+   "say": "этаж",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_6",
+   "t": "choice",
+   "q": "Qayerda ovqat tayyorlaymiz?",
+   "a": "на кухне",
+   "w": [
+    "в спальне",
+    "в ванной",
+    "на балконе"
+   ],
+   "d": 1,
+   "x": "Oshxonada — на кухне."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_7",
+   "t": "choice",
+   "q": "Qayerda uxlaymiz?",
+   "a": "в спальне",
+   "w": [
+    "на кухне",
+    "в ванной",
+    "в прихожей"
+   ],
+   "d": 1,
+   "x": "Yotoqxonada — в спальне."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_8",
+   "t": "match",
+   "q": "So‘z va tarjimasini juftlang",
+   "pairs": [
+    [
+     "кухня",
+     "oshxona"
+    ],
+    [
+     "спальня",
+     "yotoqxona"
+    ],
+    [
+     "ванная",
+     "hammom"
+    ],
+    [
+     "гостиная",
+     "mehmonxona"
+    ],
+    [
+     "окно",
+     "deraza"
+    ],
+    [
+     "дверь",
+     "eshik"
+    ],
+    [
+     "стена",
+     "devor"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_9",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bizning kvartiramiz katta.",
+   "w": [
+    "Bizning uyimiz kichik.",
+    "Bizning kvartiramiz kichik.",
+    "Ularning kvartirasi katta."
+   ],
+   "d": 1,
+   "x": "Наша квартира большая. — Bizning kvartiramiz katta.",
+   "say": "Наша квартира большая.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_10",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: У нас есть … балкон.",
+   "a": "большой",
+   "w": [
+    "большая",
+    "большое",
+    "большие"
+   ],
+   "d": 1,
+   "x": "Балкон — он: большой балкон.",
+   "say": "У нас есть ... балкон.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_11",
+   "t": "tf",
+   "q": "“Гостиная” — mehmonxona (mehmon kutadigan xona).",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: гостиная — mehmonxona.",
+   "say": "гостиная",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_12",
+   "t": "tf",
+   "q": "“Кровать” oshxonada turadi.",
+   "a": false,
+   "d": 1,
+   "x": "Кровать — karavot, u yotoqxonada turadi.",
+   "say": "кровать",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_13",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "автобус",
+   "w": [
+    "кухня",
+    "спальня",
+    "балкон"
+   ],
+   "d": 1,
+   "x": "Автобус — transport; qolganlari uy qismlari."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "У",
+    "нас",
+    "есть",
+    "кухня",
+    "и",
+    "две",
+    "комнаты"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "У нас есть кухня и две комнаты. — Bizda oshxona va ikkita xona bor.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_15",
+   "t": "choice",
+   "q": "“Лестница” o‘zbekchasi qanday?",
+   "a": "zina",
+   "w": [
+    "deraza",
+    "eshik",
+    "devor"
+   ],
+   "d": 2,
+   "x": "Лестница — zina.",
+   "say": "лестница",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_16",
+   "t": "choice",
+   "q": "Qayerda cho‘milamiz?",
+   "a": "в ванной",
+   "w": [
+    "в гостиной",
+    "на кухне",
+    "в спальне"
+   ],
+   "d": 2,
+   "x": "Hammomda — в ванной."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_17",
+   "t": "match",
+   "q": "Mebel va narsalar: juftlang",
+   "pairs": [
+    [
+     "кровать",
+     "karavot"
+    ],
+    [
+     "полка",
+     "javon"
+    ],
+    [
+     "ковёр",
+     "gilam"
+    ],
+    [
+     "зеркало",
+     "ko‘zgu"
+    ],
+    [
+     "холодильник",
+     "muzlatkich"
+    ],
+    [
+     "часы",
+     "soat"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Mening xonamda katta deraza bor.",
+   "w": [
+    "Mening xonamda katta shkaf bor.",
+    "Oshxonada katta deraza bor.",
+    "Mening xonamda deraza yo‘q."
+   ],
+   "d": 2,
+   "x": "В моей комнате есть большое окно. — Mening xonamda katta deraza bor.",
+   "say": "В моей комнате есть большое окно.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_19",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Наша кухня очень …",
+   "a": "светлая",
+   "w": [
+    "светлый",
+    "светлое",
+    "светлые"
+   ],
+   "d": 2,
+   "x": "Кухня — она: светлая.",
+   "say": "Наша кухня очень ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_20",
+   "t": "choice",
+   "q": "Qaysi narsa oshxonada turadi?",
+   "a": "холодильник",
+   "w": [
+    "кровать",
+    "ванна",
+    "шкаф для одежды"
+   ],
+   "d": 2,
+   "x": "Холодильник — muzlatkich, u oshxonada turadi."
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_21",
+   "t": "choice",
+   "q": "“Где ты живёшь?” savoliga mos javob",
+   "a": "Я живу в доме номер пять.",
+   "w": [
+    "Мне десять лет.",
+    "Меня зовут Анвар.",
+    "Сегодня среда."
+   ],
+   "d": 2,
+   "x": "Где? — qayerda? Javob: в доме номер пять.",
+   "say": "Где ты живёшь?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Моя",
+    "комната",
+    "светлая",
+    "и",
+    "уютная"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Моя комната светлая и уютная. — Mening xonam yorug‘ va shinam.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_23",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: В квартире три …",
+   "a": "комнаты",
+   "w": [
+    "комната",
+    "комнат",
+    "комнату"
+   ],
+   "d": 3,
+   "x": "2, 3, 4 dan keyin: три комнаты.",
+   "say": "В квартире три ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_24",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Biz beshinchi qavatda yashaymiz.",
+   "w": [
+    "Biz uchinchi qavatda yashaymiz.",
+    "Ular beshinchi qavatda yashaydi.",
+    "Biz besh xonali uyda yashaymiz."
+   ],
+   "d": 3,
+   "x": "Мы живём на пятом этаже. — Biz beshinchi qavatda yashaymiz.",
+   "say": "Мы живём на пятом этаже.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.home",
+   "id": "home_25",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "На",
+    "стене",
+    "висит",
+    "картина"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "На стене висит картина. — Devorda rasm osilib turibdi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_1",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Книга лежит на …",
+   "a": "столе",
+   "w": [
+    "стол",
+    "стола",
+    "столу"
+   ],
+   "d": 1,
+   "x": "Где? — на столе.",
+   "say": "Книга лежит на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_2",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Мама на …",
+   "a": "кухне",
+   "w": [
+    "кухня",
+    "кухню",
+    "кухней"
+   ],
+   "d": 1,
+   "x": "Где? — на кухне.",
+   "say": "Мама на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_3",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Мы живём в …",
+   "a": "городе",
+   "w": [
+    "город",
+    "города",
+    "городу"
+   ],
+   "d": 1,
+   "x": "Где? — в городе.",
+   "say": "Мы живём в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_4",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Игрушки в …",
+   "a": "коробке",
+   "w": [
+    "коробка",
+    "коробку",
+    "коробкой"
+   ],
+   "d": 1,
+   "x": "Где? — в коробке.",
+   "say": "Игрушки в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_5",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Дети играют на …",
+   "a": "улице",
+   "w": [
+    "улица",
+    "улицу",
+    "улицей"
+   ],
+   "d": 1,
+   "x": "Где? — на улице.",
+   "say": "Дети играют на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_6",
+   "t": "choice",
+   "q": "Mos predlogni tanlang: Бабушка живёт … Самарканде.",
+   "a": "в",
+   "w": [
+    "на",
+    "под"
+   ],
+   "d": 1,
+   "x": "Shaharda — в: в Самарканде.",
+   "say": "Бабушка живёт ... Самарканде.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_7",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Soat devorda.",
+   "w": [
+    "Soat stolda.",
+    "Rasm devorda.",
+    "Soat derazada."
+   ],
+   "d": 1,
+   "x": "Часы на стене. — Soat devorda.",
+   "say": "Часы на стене.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_8",
+   "t": "tf",
+   "q": "“На кухне” — “oshxonada” degani.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: на кухне — oshxonada.",
+   "say": "на кухне",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ручка",
+    "лежит",
+    "в",
+    "пенале"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Ручка лежит в пенале. — Ruchka penalda yotibdi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_10",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Мы живём в Ташкенте.",
+   "w": [
+    "Мы живём в Ташкент.",
+    "Мы живём на Ташкенте.",
+    "Мы живём в Ташкенту."
+   ],
+   "d": 1,
+   "x": "Где? — в Ташкенте."
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_11",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Картина висит на стене.",
+   "w": [
+    "Картина висит на стена.",
+    "Картина висит в стене.",
+    "Картина висит на стену."
+   ],
+   "d": 1,
+   "x": "Devorda — на стене."
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_12",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Цветы стоят на …",
+   "a": "окне",
+   "w": [
+    "окно",
+    "окна",
+    "окну"
+   ],
+   "d": 2,
+   "x": "Где? — на окне.",
+   "say": "Цветы стоят на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_13",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Молоко в …",
+   "a": "холодильнике",
+   "w": [
+    "холодильник",
+    "холодильника",
+    "холодильнику"
+   ],
+   "d": 2,
+   "x": "Где? — в холодильнике.",
+   "say": "Молоко в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_14",
+   "t": "choice",
+   "q": "Mos predlogni tanlang: Лампа висит … потолке.",
+   "a": "на",
+   "w": [
+    "в",
+    "под"
+   ],
+   "d": 2,
+   "x": "Shiftda (ustida) — на потолке.",
+   "say": "Лампа висит ... потолке.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_15",
+   "t": "choice",
+   "q": "Mos predlogni tanlang: Летом мы загораем … пляже.",
+   "a": "на",
+   "w": [
+    "в",
+    "под"
+   ],
+   "d": 2,
+   "x": "Plyajda — на пляже.",
+   "say": "Летом мы загораем ... пляже.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_16",
+   "t": "choice",
+   "q": "— Где папа? — Папа … (balkonda).",
+   "a": "на балконе",
+   "w": [
+    "на балкон",
+    "в балконе",
+    "балкон"
+   ],
+   "d": 2,
+   "x": "Где? — на балконе.",
+   "say": "Где папа? Папа ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_17",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Kitoblar shkafda.",
+   "w": [
+    "Kitoblar stolda.",
+    "Kitoblar sumkada.",
+    "Daftarlar shkafda."
+   ],
+   "d": 2,
+   "x": "Книги в шкафу. — Kitoblar shkafda.",
+   "say": "Книги в шкафу.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_18",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bolalar hovlida o‘ynayapti.",
+   "w": [
+    "Bolalar sinfda o‘ynayapti.",
+    "Bolalar hovliga chiqdi.",
+    "Qizlar hovlida o‘tiribdi."
+   ],
+   "d": 2,
+   "x": "Дети играют во дворе. — Bolalar hovlida o‘ynayapti.",
+   "say": "Дети играют во дворе.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_19",
+   "t": "match",
+   "q": "Birikma va tarjimasini juftlang",
+   "pairs": [
+    [
+     "на столе",
+     "stolda"
+    ],
+    [
+     "в коробке",
+     "qutida"
+    ],
+    [
+     "на улице",
+     "ko‘chada"
+    ],
+    [
+     "в лесу",
+     "o‘rmonda"
+    ],
+    [
+     "в саду",
+     "bog‘da"
+    ],
+    [
+     "на полу",
+     "polda"
+    ],
+    [
+     "на кухне",
+     "oshxonada"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Бабушка",
+    "работает",
+    "в",
+    "саду"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Бабушка работает в саду. — Buvim bog‘da ishlayapti.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_21",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Я пишу в …",
+   "a": "тетради",
+   "w": [
+    "тетрадь",
+    "тетраде",
+    "тетрадью"
+   ],
+   "d": 3,
+   "x": "-ь bilan tugagan она rodidagi so‘z -и oladi: в тетради.",
+   "say": "Я пишу в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_22",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Яблоки растут в …",
+   "a": "саду",
+   "w": [
+    "саде",
+    "сад",
+    "сада"
+   ],
+   "d": 3,
+   "x": "Istisno: в саду.",
+   "say": "Яблоки растут в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_23",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Медведь живёт в …",
+   "a": "лесу",
+   "w": [
+    "лесе",
+    "лес",
+    "леса"
+   ],
+   "d": 3,
+   "x": "Istisno: в лесу.",
+   "say": "Медведь живёт в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_24",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Кошка спит на …",
+   "a": "полу",
+   "w": [
+    "пол",
+    "пола",
+    "полом"
+   ],
+   "d": 3,
+   "x": "Istisno: на полу (polda).",
+   "say": "Кошка спит на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_25",
+   "t": "tf",
+   "q": "“В лесе” — to‘g‘ri shakl.",
+   "a": false,
+   "d": 3,
+   "x": "Istisno: в лесу.",
+   "say": "в лесе",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.prepositional",
+   "id": "prepositional_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Кошка",
+    "спит",
+    "на",
+    "полу"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Кошка спит на полу. — Mushuk polda uxlayapti.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_1",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … ты идёшь? — В бассейн.",
+   "a": "Куда",
+   "w": [
+    "Где",
+    "Когда",
+    "Кто"
+   ],
+   "d": 1,
+   "x": "В бассейн — qayerga? Куда?",
+   "say": "... ты идёшь? В бассейн.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_2",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … мама? — На рынке.",
+   "a": "Где",
+   "w": [
+    "Куда",
+    "Когда",
+    "Чья"
+   ],
+   "d": 1,
+   "x": "На рынке — qayerda? Где?",
+   "say": "... мама? На рынке.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_3",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Уроки кончились. Я иду …",
+   "a": "домой",
+   "w": [
+    "дома",
+    "дом",
+    "домом"
+   ],
+   "d": 1,
+   "x": "Qayerga? — домой (uyga).",
+   "say": "Уроки кончились. Я иду ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_4",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Бабушка сейчас …",
+   "a": "дома",
+   "w": [
+    "домой",
+    "дому",
+    "домом"
+   ],
+   "d": 1,
+   "x": "Qayerda? — дома (uyda).",
+   "say": "Бабушка сейчас ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_5",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Мы идём в …",
+   "a": "зоопарк",
+   "w": [
+    "зоопарке",
+    "зоопарка",
+    "зоопарку"
+   ],
+   "d": 1,
+   "x": "Куда? — в зоопарк (он rodi, o‘zgarmaydi).",
+   "say": "Мы идём в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_6",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Сестра идёт на …",
+   "a": "почту",
+   "w": [
+    "почта",
+    "почте",
+    "почтой"
+   ],
+   "d": 1,
+   "x": "Куда? — на почту (-а → -у).",
+   "say": "Сестра идёт на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_7",
+   "t": "match",
+   "q": "So‘z va tarjimasini juftlang",
+   "pairs": [
+    [
+     "дома",
+     "uyda"
+    ],
+    [
+     "домой",
+     "uyga"
+    ],
+    [
+     "здесь",
+     "shu yerda"
+    ],
+    [
+     "сюда",
+     "bu yerga"
+    ],
+    [
+     "там",
+     "u yerda"
+    ],
+    [
+     "туда",
+     "u yerga"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men uyga ketyapman.",
+   "w": [
+    "Men uydaman.",
+    "Men maktabga ketyapman.",
+    "U uyga ketyapti."
+   ],
+   "d": 1,
+   "x": "Я иду домой. — Men uyga ketyapman.",
+   "say": "Я иду домой.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_9",
+   "t": "tf",
+   "q": "“Домой” — “Где?” savoliga javob.",
+   "a": false,
+   "d": 1,
+   "x": "Домой — qayerga? (Куда?). Где? savoliga — дома.",
+   "say": "домой",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_10",
+   "t": "tf",
+   "q": "“На почту” — “Куда?” savoliga javob.",
+   "a": true,
+   "d": 1,
+   "x": "На почту — qayerga? Куда?",
+   "say": "на почту",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Куда",
+    "ты",
+    "идёшь"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Куда ты идёшь? — Qayerga ketyapsan?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Мы",
+    "идём",
+    "на",
+    "стадион"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Мы идём на стадион. — Biz stadionga ketyapmiz.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_13",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … едет папа? — На вокзал.",
+   "a": "Куда",
+   "w": [
+    "Где",
+    "Кто",
+    "Что"
+   ],
+   "d": 2,
+   "x": "На вокзал — qayerga? Куда?",
+   "say": "... едет папа? На вокзал.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_14",
+   "t": "choice",
+   "q": "Mos so‘roq so‘zni tanlang: … работает врач? — В больнице.",
+   "a": "Где",
+   "w": [
+    "Куда",
+    "Кого",
+    "Чей"
+   ],
+   "d": 2,
+   "x": "В больнице — qayerda? Где?",
+   "say": "... работает врач? В больнице.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_15",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Сестра работает на …",
+   "a": "почте",
+   "w": [
+    "почта",
+    "почту",
+    "почтой"
+   ],
+   "d": 2,
+   "x": "Где? — на почте.",
+   "say": "Сестра работает на ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_16",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Вечером мы были в …",
+   "a": "цирке",
+   "w": [
+    "цирк",
+    "цирка",
+    "цирку"
+   ],
+   "d": 2,
+   "x": "Где? — в цирке.",
+   "say": "Вечером мы были в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_17",
+   "t": "choice",
+   "q": "Mos shaklni tanlang: Мама идёт в …",
+   "a": "аптеку",
+   "w": [
+    "аптека",
+    "аптеке",
+    "аптекой"
+   ],
+   "d": 2,
+   "x": "Куда? — в аптеку.",
+   "say": "Мама идёт в ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_18",
+   "t": "choice",
+   "q": "“Куда ты идёшь?” savoliga mos javob",
+   "a": "На стадион.",
+   "w": [
+    "На стадионе.",
+    "Стадион.",
+    "Дома."
+   ],
+   "d": 2,
+   "x": "Куда? — на стадион.",
+   "say": "Куда ты идёшь?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_19",
+   "t": "choice",
+   "q": "“Где ты был вчера?” savoliga mos javob",
+   "a": "В бассейне.",
+   "w": [
+    "В бассейн.",
+    "Бассейн.",
+    "Домой."
+   ],
+   "d": 2,
+   "x": "Где? — в бассейне.",
+   "say": "Где ты был вчера?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Otam vokzalda.",
+   "w": [
+    "Otam vokzalga ketyapti.",
+    "Onam vokzalda.",
+    "Otam bekatda."
+   ],
+   "d": 2,
+   "x": "Папа на вокзале. — Otam vokzalda.",
+   "say": "Папа на вокзале.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "После",
+    "школы",
+    "я",
+    "иду",
+    "домой"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "После школы я иду домой. — Maktabdan keyin men uyga boraman.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_22",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Иди …! (bu yerga)",
+   "a": "сюда",
+   "w": [
+    "здесь",
+    "тут",
+    "там"
+   ],
+   "d": 3,
+   "x": "Qayerga? — сюда (bu yerga).",
+   "say": "Иди ...!",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_23",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Мой брат … (u yerda).",
+   "a": "там",
+   "w": [
+    "туда",
+    "сюда",
+    "куда"
+   ],
+   "d": 3,
+   "x": "Qayerda? — там (u yerda).",
+   "say": "Мой брат ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_24",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Ertaga biz hayvonot bog‘iga boramiz.",
+   "w": [
+    "Kecha biz hayvonot bog‘ida edik.",
+    "Ertaga biz sirkka boramiz.",
+    "Ertaga ular hayvonot bog‘iga boradi."
+   ],
+   "d": 3,
+   "x": "Завтра мы пойдём в зоопарк. — Ertaga biz hayvonot bog‘iga boramiz.",
+   "say": "Завтра мы пойдём в зоопарк.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.where_to",
+   "id": "where_to_25",
+   "t": "choice",
+   "q": "Qaysi gap to‘g‘ri?",
+   "a": "Брат идёт на рынок.",
+   "w": [
+    "Брат идёт на рынке.",
+    "Брат идёт в рынок.",
+    "Брат идёт на рынку."
+   ],
+   "d": 3,
+   "x": "Куда? — на рынок."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_1",
+   "t": "choice",
+   "q": "“Oshpaz” ruschasi qanday?",
+   "a": "повар",
+   "w": [
+    "врач",
+    "водитель",
+    "строитель"
+   ],
+   "d": 1,
+   "x": "Oshpaz — повар."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_2",
+   "t": "choice",
+   "q": "“Haydovchi” ruschasi qanday?",
+   "a": "водитель",
+   "w": [
+    "продавец",
+    "лётчик",
+    "повар"
+   ],
+   "d": 1,
+   "x": "Haydovchi — водитель."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_3",
+   "t": "choice",
+   "q": "“Строитель” o‘zbekchasi qanday?",
+   "a": "quruvchi",
+   "w": [
+    "sotuvchi",
+    "haydovchi",
+    "rassom"
+   ],
+   "d": 1,
+   "x": "Строитель — quruvchi (строить — qurmoq).",
+   "say": "строитель",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_4",
+   "t": "choice",
+   "q": "“Продавец” o‘zbekchasi qanday?",
+   "a": "sotuvchi",
+   "w": [
+    "oshpaz",
+    "quruvchi",
+    "shifokor"
+   ],
+   "d": 1,
+   "x": "Продавец — sotuvchi (продавать — sotmoq).",
+   "say": "продавец",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_5",
+   "t": "choice",
+   "q": "Kim odamlarni davolaydi?",
+   "a": "врач",
+   "w": [
+    "повар",
+    "строитель",
+    "продавец"
+   ],
+   "d": 1,
+   "x": "Врач лечит людей."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_6",
+   "t": "choice",
+   "q": "Kim samolyotni boshqaradi?",
+   "a": "лётчик",
+   "w": [
+    "водитель",
+    "почтальон",
+    "фермер"
+   ],
+   "d": 1,
+   "x": "Лётчик — uchuvchi."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_7",
+   "t": "choice",
+   "q": "Kim rasm chizadi?",
+   "a": "художник",
+   "w": [
+    "учитель",
+    "повар",
+    "врач"
+   ],
+   "d": 1,
+   "x": "Художник — rassom."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_8",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Повар … обед.",
+   "a": "готовит",
+   "w": [
+    "лечит",
+    "строит",
+    "водит"
+   ],
+   "d": 1,
+   "x": "Повар готовит обед — oshpaz tushlik tayyorlaydi.",
+   "say": "Повар ... обед.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_9",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Строитель … дом.",
+   "a": "строит",
+   "w": [
+    "лечит",
+    "готовит",
+    "продаёт"
+   ],
+   "d": 1,
+   "x": "Строитель строит дом.",
+   "say": "Строитель ... дом.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_10",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bobom — fermer.",
+   "w": [
+    "Bobom — quruvchi.",
+    "Otam — fermer.",
+    "Bobom fermada yashaydi."
+   ],
+   "d": 1,
+   "x": "Мой дедушка — фермер. — Bobom — fermer.",
+   "say": "Мой дедушка — фермер.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_11",
+   "t": "tf",
+   "q": "“Лётчик” — samolyot uchuvchisi.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: лётчик — uchuvchi.",
+   "say": "лётчик",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_12",
+   "t": "tf",
+   "q": "“Повар” maktabda dars beradi.",
+   "a": false,
+   "d": 1,
+   "x": "Повар ovqat pishiradi; dars beradi — учитель.",
+   "say": "повар",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_13",
+   "t": "choice",
+   "q": "Qaysi so‘z kasb emas?",
+   "a": "больница",
+   "w": [
+    "врач",
+    "повар",
+    "фермер"
+   ],
+   "d": 1,
+   "x": "Больница — kasalxona (joy)."
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Моя",
+    "мама",
+    "работает",
+    "в",
+    "школе"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Моя мама работает в школе. — Onam maktabda ishlaydi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_15",
+   "t": "choice",
+   "q": "“Почтальон” o‘zbekchasi qanday?",
+   "a": "pochtachi (xat tashuvchi)",
+   "w": [
+    "politsiyachi",
+    "haydovchi",
+    "fermer"
+   ],
+   "d": 2,
+   "x": "Почтальон — xat va gazeta tashuvchi.",
+   "say": "почтальон",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_16",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Врач … детей.",
+   "a": "лечит",
+   "w": [
+    "строит",
+    "продаёт",
+    "водит"
+   ],
+   "d": 2,
+   "x": "Врач лечит — shifokor davolaydi.",
+   "say": "Врач ... детей.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_17",
+   "t": "choice",
+   "q": "Mos fe’lni tanlang: Продавец … фрукты.",
+   "a": "продаёт",
+   "w": [
+    "лечит",
+    "строит",
+    "учит"
+   ],
+   "d": 2,
+   "x": "Продавец продаёт — sotuvchi sotadi.",
+   "say": "Продавец ... фрукты.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_18",
+   "t": "choice",
+   "q": "Ayollar shaklini tanlang: учитель → …",
+   "a": "учительница",
+   "w": [
+    "учителка",
+    "учителья",
+    "учителина"
+   ],
+   "d": 2,
+   "x": "Учитель — учительница (o‘qituvchi ayol).",
+   "say": "учитель",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_19",
+   "t": "match",
+   "q": "Kasb va ish joyini juftlang",
+   "pairs": [
+    [
+     "врач",
+     "больница"
+    ],
+    [
+     "учитель",
+     "школа"
+    ],
+    [
+     "повар",
+     "кухня"
+    ],
+    [
+     "продавец",
+     "магазин"
+    ],
+    [
+     "лётчик",
+     "самолёт"
+    ],
+    [
+     "фермер",
+     "ферма"
+    ],
+    [
+     "почтальон",
+     "почта"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Opam — sotuvchi. U do‘konda ishlaydi.",
+   "w": [
+    "Opam — oshpaz. U oshxonada ishlaydi.",
+    "Akam — sotuvchi. U bozorda ishlaydi.",
+    "Opam do‘konga bordi."
+   ],
+   "d": 2,
+   "x": "Моя сестра — продавец. Она работает в магазине. — Opam — sotuvchi. U do‘konda ishlaydi.",
+   "say": "Моя сестра — продавец. Она работает в магазине.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_21",
+   "t": "choice",
+   "q": "“Кто твой папа по профессии?” savoliga mos javob",
+   "a": "Мой папа — водитель.",
+   "w": [
+    "Мой папа дома.",
+    "Моему папе сорок лет.",
+    "Это папина машина."
+   ],
+   "d": 2,
+   "x": "Kasb so‘ralgan: Мой папа — водитель.",
+   "say": "Кто твой папа по профессии?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Строитель",
+    "строит",
+    "новый",
+    "дом"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Строитель строит новый дом. — Quruvchi yangi uy quryapti.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_23",
+   "t": "choice",
+   "q": "Topishmoq: Он водит автобус. Кто это?",
+   "a": "водитель",
+   "w": [
+    "лётчик",
+    "повар",
+    "почтальон"
+   ],
+   "d": 2,
+   "x": "Avtobusni haydovchi boshqaradi — водитель.",
+   "say": "Он водит автобус. Кто это?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_24",
+   "t": "choice",
+   "q": "Ayollar shaklini tanlang: певец → …",
+   "a": "певица",
+   "w": [
+    "певка",
+    "певеца",
+    "певецка"
+   ],
+   "d": 3,
+   "x": "Певец — певица (qo‘shiqchi ayol).",
+   "say": "певец",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_25",
+   "t": "choice",
+   "q": "Topishmoq: Она лечит животных. Кто это?",
+   "a": "ветеринар",
+   "w": [
+    "учительница",
+    "продавец",
+    "художница"
+   ],
+   "d": 3,
+   "x": "Hayvonlarni veterinar davolaydi.",
+   "say": "Она лечит животных. Кто это?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.professions",
+   "id": "professions_26",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Мой",
+    "брат",
+    "хочет",
+    "быть",
+    "врачом"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Мой брат хочет быть врачом. — Akam shifokor bo‘lishni xohlaydi.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_1",
+   "t": "choice",
+   "q": "“Shakar” ruschasi qanday?",
+   "a": "сахар",
+   "w": [
+    "соль",
+    "масло",
+    "мёд"
+   ],
+   "d": 1,
+   "x": "Shakar — сахар."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_2",
+   "t": "choice",
+   "q": "“Tuz” ruschasi qanday?",
+   "a": "соль",
+   "w": [
+    "сахар",
+    "сок",
+    "суп"
+   ],
+   "d": 1,
+   "x": "Tuz — соль."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_3",
+   "t": "choice",
+   "q": "“Asal” ruschasi qanday?",
+   "a": "мёд",
+   "w": [
+    "мясо",
+    "масло",
+    "молоко"
+   ],
+   "d": 1,
+   "x": "Asal — мёд."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_4",
+   "t": "choice",
+   "q": "“Рыба” o‘zbekchasi qanday?",
+   "a": "baliq",
+   "w": [
+    "tovuq",
+    "go‘sht",
+    "non"
+   ],
+   "d": 1,
+   "x": "Рыба — baliq.",
+   "say": "рыба",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_5",
+   "t": "choice",
+   "q": "“Дорого” o‘zbekchasi qanday?",
+   "a": "qimmat",
+   "w": [
+    "arzon",
+    "mazali",
+    "yangi"
+   ],
+   "d": 1,
+   "x": "Дорого — qimmat.",
+   "say": "дорого",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_6",
+   "t": "choice",
+   "q": "Qaysi mahsulot shirin?",
+   "a": "мёд",
+   "w": [
+    "соль",
+    "рыба",
+    "хлеб"
+   ],
+   "d": 1,
+   "x": "Мёд — asal, u shirin."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_7",
+   "t": "match",
+   "q": "Mahsulot va tarjimasini juftlang",
+   "pairs": [
+    [
+     "сахар",
+     "shakar"
+    ],
+    [
+     "соль",
+     "tuz"
+    ],
+    [
+     "мёд",
+     "asal"
+    ],
+    [
+     "рыба",
+     "baliq"
+    ],
+    [
+     "курица",
+     "tovuq"
+    ],
+    [
+     "яйца",
+     "tuxumlar"
+    ],
+    [
+     "фрукты",
+     "mevalar"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_8",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Bu juda qimmat.",
+   "w": [
+    "Bu juda arzon.",
+    "Bu juda mazali.",
+    "Bu juda katta."
+   ],
+   "d": 1,
+   "x": "Это очень дорого. — Bu juda qimmat.",
+   "say": "Это очень дорого.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_9",
+   "t": "tf",
+   "q": "“Соль” — shirin.",
+   "a": false,
+   "d": 1,
+   "x": "Соль — tuz, u sho‘r; shirin — сахар.",
+   "say": "соль",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_10",
+   "t": "tf",
+   "q": "“Касса” — pul to‘lanadigan joy.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: kassada pul to‘laymiz.",
+   "say": "касса",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_11",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "тетрадь",
+   "w": [
+    "сахар",
+    "соль",
+    "мёд"
+   ],
+   "d": 1,
+   "x": "Тетрадь — daftar; qolganlari mahsulotlar."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_12",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Мама хочет … рыбу.",
+   "a": "купить",
+   "w": [
+    "продать",
+    "читать",
+    "играть"
+   ],
+   "d": 1,
+   "x": "Купить — sotib olmoq.",
+   "say": "Мама хочет ... рыбу.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_13",
+   "t": "choice",
+   "q": "“Дёшево” o‘zbekchasi qanday?",
+   "a": "arzon",
+   "w": [
+    "qimmat",
+    "shirin",
+    "issiq"
+   ],
+   "d": 2,
+   "x": "Дёшево — arzon; дорого — qimmat.",
+   "say": "дёшево",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_14",
+   "t": "choice",
+   "q": "“Масло” o‘zbekchasi qanday?",
+   "a": "sariyog‘ (yog‘)",
+   "w": [
+    "sut",
+    "go‘sht",
+    "tuxum"
+   ],
+   "d": 2,
+   "x": "Масло — sariyog‘ yoki o‘simlik yog‘i.",
+   "say": "масло",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_15",
+   "t": "choice",
+   "q": "“У вас есть молоко?” o‘zbekchasi qanday?",
+   "a": "Sizda sut bormi?",
+   "w": [
+    "Sut qancha turadi?",
+    "Menga sut bering.",
+    "Sut qayerda?"
+   ],
+   "d": 2,
+   "x": "У вас есть…? — Sizda … bormi?",
+   "say": "У вас есть молоко?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_16",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: — … стоит сахар? — Десять тысяч сумов.",
+   "a": "Сколько",
+   "w": [
+    "Где",
+    "Кто",
+    "Какой"
+   ],
+   "d": 2,
+   "x": "Narx so‘raladi: Сколько стоит?",
+   "say": "... стоит сахар? Десять тысяч сумов.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_17",
+   "t": "choice",
+   "q": "Sutdan nima tayyorlanadi?",
+   "a": "сыр",
+   "w": [
+    "хлеб",
+    "мёд",
+    "рыба"
+   ],
+   "d": 2,
+   "x": "Сыр (pishloq) sutdan tayyorlanadi."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_18",
+   "t": "choice",
+   "q": "Pul qayerda to‘lanadi?",
+   "a": "в кассе",
+   "w": [
+    "в холодильнике",
+    "на полке",
+    "в корзине"
+   ],
+   "d": 2,
+   "x": "Kassada — в кассе."
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_19",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Sizda yangi non bormi?",
+   "w": [
+    "Yangi non qancha turadi?",
+    "Menga yangi non bering.",
+    "Sizda yangi sut bormi?"
+   ],
+   "d": 2,
+   "x": "У вас есть свежий хлеб? — Sizda yangi non bormi?",
+   "say": "У вас есть свежий хлеб?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_20",
+   "t": "choice",
+   "q": "Tinglang va tarjimasini tanlang",
+   "a": "Men shakar va tuz sotib oldim.",
+   "w": [
+    "Men shakar va choy sotib oldim.",
+    "Men tuz sotib olmadim.",
+    "Onam shakar va tuz sotib oldi."
+   ],
+   "d": 2,
+   "x": "Я купил сахар и соль. — Men shakar va tuz sotib oldim.",
+   "say": "Я купил сахар и соль.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_21",
+   "t": "choice",
+   "q": "— Дайте, пожалуйста, рыбу. — …",
+   "a": "Вот, пожалуйста.",
+   "w": [
+    "Будь здоров!",
+    "Спокойной ночи!",
+    "Меня зовут Олег."
+   ],
+   "d": 2,
+   "x": "Sotuvchi beradi: Вот, пожалуйста.",
+   "say": "Дайте, пожалуйста, рыбу.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "У",
+    "вас",
+    "есть",
+    "свежая",
+    "рыба"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "У вас есть свежая рыба? — Sizda yangi baliq bormi?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Сколько",
+    "стоит",
+    "этот",
+    "торт"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Сколько стоит этот торт? — Bu tort qancha turadi?",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_24",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Хлеб стоит пять тысяч …",
+   "a": "сумов",
+   "w": [
+    "сум",
+    "сума",
+    "сумы"
+   ],
+   "d": 3,
+   "x": "5 dan keyin: пять тысяч сумов.",
+   "say": "Хлеб стоит пять тысяч ...",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.shop",
+   "id": "shop_25",
+   "t": "choice",
+   "q": "Mos so‘zni tanlang: Я … молоко и хлеб.",
+   "a": "купил",
+   "w": [
+    "лечил",
+    "строил",
+    "учил"
+   ],
+   "d": 3,
+   "x": "Купил — sotib oldim (купить → купил).",
+   "say": "Я ... молоко и хлеб.",
+   "lang": "ru"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_1",
+   "t": "choice",
+   "q": "Kamila necha yoshda?",
+   "a": "10",
+   "w": [
+    "9",
+    "11",
+    "3"
+   ],
+   "d": 1,
+   "x": "Мне десять лет — 10 yosh.",
+   "text": "Меня зовут Камила. Мне десять лет. Я живу в Намангане. Наша квартира на третьем этаже. В квартире три комнаты, кухня и балкон. Моя комната маленькая, но светлая. На окне стоят цветы.",
+   "e": "🏠"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_2",
+   "t": "choice",
+   "q": "Kamila qayerda yashaydi?",
+   "a": "в Намангане",
+   "w": [
+    "в Ташкенте",
+    "в Бухаре",
+    "в Самарканде"
+   ],
+   "d": 1,
+   "x": "Я живу в Намангане.",
+   "text": "Меня зовут Камила. Мне десять лет. Я живу в Намангане. Наша квартира на третьем этаже. В квартире три комнаты, кухня и балкон. Моя комната маленькая, но светлая. На окне стоят цветы.",
+   "e": "🏠"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_3",
+   "t": "choice",
+   "q": "Kvartira nechanchi qavatda?",
+   "a": "3-qavatda",
+   "w": [
+    "1-qavatda",
+    "5-qavatda",
+    "10-qavatda"
+   ],
+   "d": 2,
+   "x": "Наша квартира на третьем этаже.",
+   "text": "Меня зовут Камила. Мне десять лет. Я живу в Намангане. Наша квартира на третьем этаже. В квартире три комнаты, кухня и балкон. Моя комната маленькая, но светлая. На окне стоят цветы.",
+   "e": "🏠"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_4",
+   "t": "tf",
+   "q": "Kamilaning xonasi katta va qorong‘i.",
+   "a": false,
+   "d": 2,
+   "x": "Моя комната маленькая, но светлая.",
+   "text": "Меня зовут Камила. Мне десять лет. Я живу в Намангане. Наша квартира на третьем этаже. В квартире три комнаты, кухня и балкон. Моя комната маленькая, но светлая. На окне стоят цветы.",
+   "e": "🏠"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_5",
+   "t": "choice",
+   "q": "Derazada nima turibdi?",
+   "a": "цветы",
+   "w": [
+    "книги",
+    "часы",
+    "игрушки"
+   ],
+   "d": 2,
+   "x": "На окне стоят цветы.",
+   "text": "Меня зовут Камила. Мне десять лет. Я живу в Намангане. Наша квартира на третьем этаже. В квартире три комнаты, кухня и балкон. Моя комната маленькая, но светлая. На окне стоят цветы.",
+   "e": "🏠"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_6",
+   "t": "choice",
+   "q": "Jasur kim bilan bozorga bordi?",
+   "a": "с папой",
+   "w": [
+    "с мамой",
+    "с бабушкой",
+    "с другом"
+   ],
+   "d": 1,
+   "x": "Утром Жасур и папа ходили на рынок.",
+   "text": "Вчера была суббота. Утром Жасур и папа ходили на рынок. Там они купили мясо, морковь и лук. Днём мама готовила плов. Вечером к нам пришли бабушка и дедушка. Плов был очень вкусный!",
+   "e": "🍲"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_7",
+   "t": "choice",
+   "q": "Ular bozordan nima sotib olishdi?",
+   "a": "мясо, морковь и лук",
+   "w": [
+    "хлеб, молоко и сыр",
+    "рыбу и рис",
+    "яблоки и мёд"
+   ],
+   "d": 2,
+   "x": "Там они купили мясо, морковь и лук.",
+   "text": "Вчера была суббота. Утром Жасур и папа ходили на рынок. Там они купили мясо, морковь и лук. Днём мама готовила плов. Вечером к нам пришли бабушка и дедушка. Плов был очень вкусный!",
+   "e": "🍲"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_8",
+   "t": "choice",
+   "q": "Palovni kim tayyorladi?",
+   "a": "мама",
+   "w": [
+    "папа",
+    "бабушка",
+    "Жасур"
+   ],
+   "d": 1,
+   "x": "Днём мама готовила плов.",
+   "text": "Вчера была суббота. Утром Жасур и папа ходили на рынок. Там они купили мясо, морковь и лук. Днём мама готовила плов. Вечером к нам пришли бабушка и дедушка. Плов был очень вкусный!",
+   "e": "🍲"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_9",
+   "t": "tf",
+   "q": "Kechqurun buvi va bobo kelishdi.",
+   "a": true,
+   "d": 1,
+   "x": "Вечером к нам пришли бабушка и дедушка.",
+   "text": "Вчера была суббота. Утром Жасур и папа ходили на рынок. Там они купили мясо, морковь и лук. Днём мама готовила плов. Вечером к нам пришли бабушка и дедушка. Плов был очень вкусный!",
+   "e": "🍲"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_10",
+   "t": "tf",
+   "q": "Palov mazasiz edi.",
+   "a": false,
+   "d": 2,
+   "x": "Плов был очень вкусный!",
+   "text": "Вчера была суббота. Утром Жасур и папа ходили на рынок. Там они купили мясо, морковь и лук. Днём мама готовила плов. Вечером к нам пришли бабушка и дедушка. Плов был очень вкусный!",
+   "e": "🍲"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_11",
+   "t": "choice",
+   "q": "Shahar qanday?",
+   "a": "большой и зелёный",
+   "w": [
+    "маленький и старый",
+    "новый и серый",
+    "тихий и жёлтый"
+   ],
+   "d": 1,
+   "x": "Он большой и зелёный.",
+   "text": "Это наш город. Он большой и зелёный. В центре есть парк и площадь. Около парка — школа и библиотека. Я езжу в школу на автобусе. Мой друг Саид живёт рядом со школой, он ходит в школу пешком.",
+   "e": "🏙️"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_12",
+   "t": "choice",
+   "q": "Muallif maktabga nimada boradi?",
+   "a": "на автобусе",
+   "w": [
+    "на метро",
+    "на велосипеде",
+    "пешком"
+   ],
+   "d": 2,
+   "x": "Я езжу в школу на автобусе.",
+   "text": "Это наш город. Он большой и зелёный. В центре есть парк и площадь. Около парка — школа и библиотека. Я езжу в школу на автобусе. Мой друг Саид живёт рядом со школой, он ходит в школу пешком.",
+   "e": "🏙️"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_13",
+   "t": "choice",
+   "q": "Said maktabga qanday boradi?",
+   "a": "пешком",
+   "w": [
+    "на автобусе",
+    "на такси",
+    "на машине"
+   ],
+   "d": 2,
+   "x": "Он ходит в школу пешком — piyoda.",
+   "text": "Это наш город. Он большой и зелёный. В центре есть парк и площадь. Около парка — школа и библиотека. Я езжу в школу на автобусе. Мой друг Саид живёт рядом со школой, он ходит в школу пешком.",
+   "e": "🏙️"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_14",
+   "t": "tf",
+   "q": "Parkning yonida maktab va kutubxona bor.",
+   "a": true,
+   "d": 2,
+   "x": "Около парка — школа и библиотека.",
+   "text": "Это наш город. Он большой и зелёный. В центре есть парк и площадь. Около парка — школа и библиотека. Я езжу в школу на автобусе. Мой друг Саид живёт рядом со школой, он ходит в школу пешком.",
+   "e": "🏙️"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_15",
+   "t": "choice",
+   "q": "Bobosi qayerda ishlaydi?",
+   "a": "в больнице",
+   "w": [
+    "в школе",
+    "в магазине",
+    "на почте"
+   ],
+   "d": 1,
+   "x": "Он работает в больнице.",
+   "text": "Мой дедушка — врач. Он работает в больнице. Каждый день он встаёт в шесть часов. Дедушка очень добрый. Он лечит детей и взрослых. Я тоже хочу быть врачом.",
+   "e": "🏥"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_16",
+   "t": "choice",
+   "q": "Bobosi soat nechada turadi?",
+   "a": "6 da",
+   "w": [
+    "7 da",
+    "8 da",
+    "5 da"
+   ],
+   "d": 1,
+   "x": "Он встаёт в шесть часов.",
+   "text": "Мой дедушка — врач. Он работает в больнице. Каждый день он встаёт в шесть часов. Дедушка очень добрый. Он лечит детей и взрослых. Я тоже хочу быть врачом.",
+   "e": "🏥"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_17",
+   "t": "tf",
+   "q": "Muallif ham shifokor bo‘lishni xohlaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Я тоже хочу быть врачом.",
+   "text": "Мой дедушка — врач. Он работает в больнице. Каждый день он встаёт в шесть часов. Дедушка очень добрый. Он лечит детей и взрослых. Я тоже хочу быть врачом.",
+   "e": "🏥"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_18",
+   "t": "choice",
+   "q": "Bobosi kimlarni davolaydi?",
+   "a": "детей и взрослых",
+   "w": [
+    "только детей",
+    "животных",
+    "только бабушек"
+   ],
+   "d": 3,
+   "x": "Он лечит детей и взрослых — bolalar va kattalarni.",
+   "text": "Мой дедушка — врач. Он работает в больнице. Каждый день он встаёт в шесть часов. Дедушка очень добрый. Он лечит детей и взрослых. Я тоже хочу быть врачом.",
+   "e": "🏥"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_19",
+   "t": "choice",
+   "q": "Bugun qaysi kun?",
+   "a": "понедельник",
+   "w": [
+    "вторник",
+    "суббота",
+    "пятница"
+   ],
+   "d": 1,
+   "x": "Сегодня понедельник.",
+   "text": "Сегодня понедельник. Первый урок — русский язык. Он начинается в восемь часов. Учительница читает рассказ, а дети слушают. Потом они пишут в тетрадях.",
+   "e": "📚"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_20",
+   "t": "choice",
+   "q": "Birinchi dars qaysi fan?",
+   "a": "русский язык",
+   "w": [
+    "математика",
+    "английский язык",
+    "музыка"
+   ],
+   "d": 1,
+   "x": "Первый урок — русский язык.",
+   "text": "Сегодня понедельник. Первый урок — русский язык. Он начинается в восемь часов. Учительница читает рассказ, а дети слушают. Потом они пишут в тетрадях.",
+   "e": "📚"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_21",
+   "t": "choice",
+   "q": "Dars soat nechada boshlanadi?",
+   "a": "8 da",
+   "w": [
+    "9 da",
+    "7 da",
+    "10 da"
+   ],
+   "d": 2,
+   "x": "Он начинается в восемь часов.",
+   "text": "Сегодня понедельник. Первый урок — русский язык. Он начинается в восемь часов. Учительница читает рассказ, а дети слушают. Потом они пишут в тетрадях.",
+   "e": "📚"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_22",
+   "t": "tf",
+   "q": "O‘qituvchi hikoya o‘qiydi, bolalar tinglaydi.",
+   "a": true,
+   "d": 2,
+   "x": "Учительница читает рассказ, а дети слушают.",
+   "text": "Сегодня понедельник. Первый урок — русский язык. Он начинается в восемь часов. Учительница читает рассказ, а дети слушают. Потом они пишут в тетрадях.",
+   "e": "📚"
+  },
+  {
+   "topic": "russian_g4.reading",
+   "id": "reading_23",
+   "t": "choice",
+   "q": "Keyin bolalar nima qiladi?",
+   "a": "пишут в тетрадях",
+   "w": [
+    "играют в футбол",
+    "поют песни",
+    "рисуют на доске"
+   ],
+   "d": 3,
+   "x": "Потом они пишут в тетрадях.",
+   "text": "Сегодня понедельник. Первый урок — русский язык. Он начинается в восемь часов. Учительница читает рассказ, а дети слушают. Потом они пишут в тетрадях.",
+   "e": "📚"
+  }
+ ]
+}

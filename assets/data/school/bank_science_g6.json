@@ -1,0 +1,4942 @@
+{
+ "items": [
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_1",
+   "t": "choice",
+   "q": "Tezlik qaysi formula bilan topiladi?",
+   "a": "v = s : t",
+   "w": [
+    "v = s · t",
+    "v = t : s",
+    "v = s + t"
+   ],
+   "d": 1,
+   "x": "Tezlik — yo‘lning vaqtga nisbati."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_2",
+   "t": "choice",
+   "q": "Jism harakatlanganda qoldirgan chiziq nima deyiladi?",
+   "a": "Trayektoriya",
+   "w": [
+    "Tezlik",
+    "Massa",
+    "Bosim"
+   ],
+   "d": 1,
+   "x": "Masalan, samolyotning osmondagi oq izi — uning trayektoriyasi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_3",
+   "t": "choice",
+   "q": "Avtomobil tezligini qaysi asbob ko‘rsatadi?",
+   "a": "Spidometr",
+   "w": [
+    "Termometr",
+    "Barometr",
+    "Dinamometr"
+   ],
+   "d": 1,
+   "x": "Spidometr haydovchiga tezlikni km/soat da ko‘rsatadi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_4",
+   "t": "choice",
+   "q": "Xalqaro birliklar tizimida tezlik birligi qaysi?",
+   "a": "m/s",
+   "w": [
+    "kg",
+    "N",
+    "Pa"
+   ],
+   "d": 1,
+   "x": "Tezlik metr sekundda (m/s) o‘lchanadi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_5",
+   "t": "choice",
+   "q": "1 soatda necha soniya bor?",
+   "a": "3600",
+   "w": [
+    "60",
+    "360",
+    "1000"
+   ],
+   "d": 1,
+   "x": "1 soat = 60 daqiqa = 60 · 60 = 3600 soniya."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_6",
+   "t": "tf",
+   "q": "Poyezdda o‘tirgan yo‘lovchi vagonga nisbatan tinch turibdi.",
+   "a": true,
+   "d": 1,
+   "x": "Harakat nisbiy: yo‘lovchi vagonga nisbatan tinch, yerga nisbatan esa harakatda."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_7",
+   "t": "tf",
+   "q": "Tekis harakatda jism teng vaqtlarda turli yo‘l bosadi.",
+   "a": false,
+   "d": 1,
+   "x": "Tekis harakatda teng vaqtlarda teng yo‘l bosiladi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tezlik",
+    "yo‘lning",
+    "vaqtga",
+    "nisbati"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_9",
+   "t": "choice",
+   "q": "Qaysi harakat egri chiziqli?",
+   "a": "Karusel o‘rindig‘ining aylanishi",
+   "w": [
+    "Liftning ko‘tarilishi",
+    "Tushayotgan tosh",
+    "Tekis yo‘ldagi poyezd"
+   ],
+   "d": 2,
+   "x": "Karusel o‘rindig‘i aylana bo‘ylab harakatlanadi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_10",
+   "t": "choice",
+   "q": "Eng tez yuguradigan quruqlik hayvoni qaysi?",
+   "a": "Gepard",
+   "w": [
+    "Sher",
+    "Ot",
+    "Quyon"
+   ],
+   "d": 2,
+   "x": "Gepard qisqa masofada taxminan 100 km/soat tezlikka erishadi."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_11",
+   "t": "match",
+   "q": "Kattalikni formulasi bilan juftlang",
+   "pairs": [
+    [
+     "Tezlik",
+     "v = s : t"
+    ],
+    [
+     "Yo‘l",
+     "s = v · t"
+    ],
+    [
+     "Vaqt",
+     "t = s : v"
+    ],
+    [
+     "Zichlik",
+     "ρ = m : V"
+    ],
+    [
+     "Bosim",
+     "p = F : S"
+    ]
+   ],
+   "d": 2,
+   "x": "Formulalarni harf ma’nosi bilan birga eslab qoling."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_12",
+   "t": "choice",
+   "q": "Avtomobil 120 km yo‘lni 2 soatda bosib o‘tdi. Uning o‘rtacha tezligi qancha?",
+   "a": "60 km/soat",
+   "w": [
+    "240 km/soat",
+    "70 km/soat",
+    "50 km/soat",
+    "118 km/soat"
+   ],
+   "d": 1,
+   "x": "v = s : t = 120 : 2 = 60 km/soat."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_13",
+   "t": "choice",
+   "q": "Avtomobil 150 km yo‘lni 3 soatda bosib o‘tdi. Uning o‘rtacha tezligi qancha?",
+   "a": "50 km/soat",
+   "w": [
+    "450 km/soat",
+    "60 km/soat",
+    "40 km/soat",
+    "147 km/soat"
+   ],
+   "d": 1,
+   "x": "v = s : t = 150 : 3 = 50 km/soat."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_14",
+   "t": "choice",
+   "q": "Avtomobil 270 km yo‘lni 3 soatda bosib o‘tdi. Uning o‘rtacha tezligi qancha?",
+   "a": "90 km/soat",
+   "w": [
+    "810 km/soat",
+    "100 km/soat",
+    "80 km/soat",
+    "267 km/soat"
+   ],
+   "d": 2,
+   "x": "v = s : t = 270 : 3 = 90 km/soat."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_15",
+   "t": "choice",
+   "q": "Avtomobil 360 km yo‘lni 4 soatda bosib o‘tdi. Uning o‘rtacha tezligi qancha?",
+   "a": "90 km/soat",
+   "w": [
+    "1440 km/soat",
+    "100 km/soat",
+    "80 km/soat",
+    "356 km/soat"
+   ],
+   "d": 2,
+   "x": "v = s : t = 360 : 4 = 90 km/soat."
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_16",
+   "t": "choice",
+   "q": "Jism 60 km/soat tezlik bilan 3 soat harakatlandi. U qancha yo‘l bosdi?",
+   "a": "180 km",
+   "w": [
+    "63 km",
+    "240 km",
+    "120 km"
+   ],
+   "d": 1,
+   "x": "s = v · t = 60 · 3 = 180 km.",
+   "say": "Jism 60 kilometr soatiga tezlik bilan 3 soat harakatlandi. U qancha yo‘l bosdi?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_17",
+   "t": "choice",
+   "q": "Jism 80 km/soat tezlik bilan 2 soat harakatlandi. U qancha yo‘l bosdi?",
+   "a": "160 km",
+   "w": [
+    "82 km",
+    "240 km",
+    "80 km"
+   ],
+   "d": 2,
+   "x": "s = v · t = 80 · 2 = 160 km.",
+   "say": "Jism 80 kilometr soatiga tezlik bilan 2 soat harakatlandi. U qancha yo‘l bosdi?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_18",
+   "t": "choice",
+   "q": "Jism 15 km/soat tezlik bilan 4 soat harakatlandi. U qancha yo‘l bosdi?",
+   "a": "60 km",
+   "w": [
+    "19 km",
+    "75 km",
+    "45 km"
+   ],
+   "d": 2,
+   "x": "s = v · t = 15 · 4 = 60 km.",
+   "say": "Jism 15 kilometr soatiga tezlik bilan 4 soat harakatlandi. U qancha yo‘l bosdi?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_19",
+   "t": "choice",
+   "q": "Velosipedchi 5 m/s tezlik bilan 20 soniya yurdi. U necha metr yo‘l bosdi?",
+   "a": "100 m",
+   "w": [
+    "25 m",
+    "105 m",
+    "95 m",
+    "200 m"
+   ],
+   "d": 2,
+   "x": "s = v · t = 5 · 20 = 100 m.",
+   "say": "Velosipedchi 5 metr sekundiga tezlik bilan 20 soniya yurdi. U necha metr yo‘l bosdi?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_20",
+   "t": "choice",
+   "q": "Velosipedchi 12 m/s tezlik bilan 15 soniya yurdi. U necha metr yo‘l bosdi?",
+   "a": "180 m",
+   "w": [
+    "27 m",
+    "192 m",
+    "168 m",
+    "360 m"
+   ],
+   "d": 3,
+   "x": "s = v · t = 12 · 15 = 180 m.",
+   "say": "Velosipedchi 12 metr sekundiga tezlik bilan 15 soniya yurdi. U necha metr yo‘l bosdi?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_21",
+   "t": "choice",
+   "q": "300 km yo‘lni 60 km/soat tezlik bilan necha soatda bosib o‘tish mumkin?",
+   "a": "5 soat",
+   "w": [
+    "6 soat",
+    "4 soat",
+    "10 soat",
+    "240 soat"
+   ],
+   "d": 2,
+   "x": "t = s : v = 300 : 60 = 5 soat.",
+   "say": "300 km yo‘lni 60 kilometr soatiga tezlik bilan necha soatda bosib o‘tish mumkin?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_22",
+   "t": "choice",
+   "q": "180 km yo‘lni 45 km/soat tezlik bilan necha soatda bosib o‘tish mumkin?",
+   "a": "4 soat",
+   "w": [
+    "5 soat",
+    "3 soat",
+    "8 soat",
+    "135 soat"
+   ],
+   "d": 2,
+   "x": "t = s : v = 180 : 45 = 4 soat.",
+   "say": "180 km yo‘lni 45 kilometr soatiga tezlik bilan necha soatda bosib o‘tish mumkin?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_23",
+   "t": "choice",
+   "q": "400 m yo‘lni 8 m/s tezlik bilan necha soniyada bosib o‘tish mumkin?",
+   "a": "50 soniya",
+   "w": [
+    "51 soniya",
+    "49 soniya",
+    "100 soniya",
+    "392 soniya"
+   ],
+   "d": 3,
+   "x": "t = s : v = 400 : 8 = 50 soniya.",
+   "say": "400 m yo‘lni 8 metr sekundiga tezlik bilan necha soniyada bosib o‘tish mumkin?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_24",
+   "t": "choice",
+   "q": "36 km/soat necha m/s ga teng?",
+   "a": "10 m/s",
+   "w": [
+    "15 m/s",
+    "5 m/s",
+    "20 m/s",
+    "36 m/s"
+   ],
+   "d": 2,
+   "x": "1 km = 1000 m, 1 soat = 3600 s: 36 · 1000 : 3600 = 10 m/s.",
+   "say": "36 kilometr soatiga necha metr sekundga teng?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_25",
+   "t": "choice",
+   "q": "72 km/soat necha m/s ga teng?",
+   "a": "20 m/s",
+   "w": [
+    "25 m/s",
+    "15 m/s",
+    "40 m/s",
+    "72 m/s"
+   ],
+   "d": 3,
+   "x": "1 km = 1000 m, 1 soat = 3600 s: 72 · 1000 : 3600 = 20 m/s.",
+   "say": "72 kilometr soatiga necha metr sekundga teng?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_26",
+   "t": "choice",
+   "q": "54 km/soat necha m/s ga teng?",
+   "a": "15 m/s",
+   "w": [
+    "20 m/s",
+    "10 m/s",
+    "30 m/s",
+    "54 m/s"
+   ],
+   "d": 3,
+   "x": "1 km = 1000 m, 1 soat = 3600 s: 54 · 1000 : 3600 = 15 m/s.",
+   "say": "54 kilometr soatiga necha metr sekundga teng?"
+  },
+  {
+   "topic": "science_g6.motion",
+   "id": "motion_27",
+   "t": "choice",
+   "q": "Qaysi tezlik katta: 20 m/s yoki 54 km/soat?",
+   "a": "20 m/s",
+   "w": [
+    "54 km/soat",
+    "Ikkalasi teng",
+    "Taqqoslab bo‘lmaydi"
+   ],
+   "d": 3,
+   "x": "54 km/soat = 54 · 1000 : 3600 = 15 m/s, bu 20 m/s dan kichik.",
+   "say": "Qaysi tezlik katta: 20 metr sekundiga yoki 54 kilometr soatiga?"
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_1",
+   "t": "choice",
+   "q": "Massa qaysi asbob bilan o‘lchanadi?",
+   "a": "Tarozi",
+   "w": [
+    "Menzurka",
+    "Spidometr",
+    "Barometr"
+   ],
+   "d": 1,
+   "x": "Tarozida jismning massasi o‘lchanadi."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_2",
+   "t": "choice",
+   "q": "Zichlik qaysi formula bilan topiladi?",
+   "a": "ρ = m : V",
+   "w": [
+    "ρ = m · V",
+    "ρ = V : m",
+    "ρ = m + V"
+   ],
+   "d": 1,
+   "x": "Zichlik — massaning hajmga nisbati."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_3",
+   "t": "choice",
+   "q": "Toza suvning zichligi qancha?",
+   "a": "1 g/sm³",
+   "w": [
+    "10 g/sm³",
+    "0,1 g/sm³",
+    "7,8 g/sm³"
+   ],
+   "d": 1,
+   "x": "1 sm³ suvning massasi 1 g."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_4",
+   "t": "choice",
+   "q": "Qaysi jism suvda cho‘kadi?",
+   "a": "Temir mix",
+   "w": [
+    "Muz bo‘lagi",
+    "Yog‘och cho‘p",
+    "Po‘kak"
+   ],
+   "d": 1,
+   "x": "Temirning zichligi suvnikidan katta."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_5",
+   "t": "choice",
+   "q": "Muz nima uchun suvda suzadi?",
+   "a": "Zichligi suvnikidan kichik",
+   "w": [
+    "Zichligi suvnikidan katta",
+    "U juda sovuq",
+    "Unda havo yo‘q"
+   ],
+   "d": 1,
+   "x": "Muzning zichligi 0,9 g/sm³, suvniki 1 g/sm³."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_6",
+   "t": "tf",
+   "q": "1 litr suvning massasi taxminan 1 kg.",
+   "a": true,
+   "d": 1,
+   "x": "1 l = 1000 sm³, suv esa 1 g/sm³: 1000 g = 1 kg."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_7",
+   "t": "tf",
+   "q": "Bir xil hajmdagi temir va yog‘ochning massasi teng.",
+   "a": false,
+   "d": 1,
+   "x": "Temirning zichligi katta, shuning uchun uning massasi ham katta."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Zichligi",
+    "kichik",
+    "jism",
+    "suvda",
+    "suzadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_9",
+   "t": "choice",
+   "q": "Qaysi metallning zichligi eng katta?",
+   "a": "Oltin",
+   "w": [
+    "Alyuminiy",
+    "Temir",
+    "Mis"
+   ],
+   "d": 2,
+   "x": "Oltin — 19,3 g/sm³, temir — 7,8, alyuminiy — 2,7."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_10",
+   "t": "choice",
+   "q": "Suv yuzasida yog‘ nima uchun suzib yuradi?",
+   "a": "Yog‘ suvdan yengilroq",
+   "w": [
+    "Yog‘ suvdan og‘irroq",
+    "Yog‘ suvda eriydi",
+    "Yog‘ qaynayotgan bo‘ladi"
+   ],
+   "d": 2,
+   "x": "O‘simlik yog‘ining zichligi suvnikidan kichik."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_11",
+   "t": "match",
+   "q": "Moddani zichligi bilan juftlang",
+   "pairs": [
+    [
+     "Suv",
+     "1 g/sm³"
+    ],
+    [
+     "Muz",
+     "0,9 g/sm³"
+    ],
+    [
+     "Alyuminiy",
+     "2,7 g/sm³"
+    ],
+    [
+     "Temir",
+     "7,8 g/sm³"
+    ],
+    [
+     "Oltin",
+     "19,3 g/sm³"
+    ]
+   ],
+   "d": 3,
+   "x": "Zichlik jadvali moddani aniqlashga yordam beradi."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_12",
+   "t": "choice",
+   "q": "Hajmi 100 sm³ bo‘lgan temir bo‘lagining massasi 780 g. Uning zichligi qancha?",
+   "a": "7,8 g/sm³",
+   "w": [
+    "0,78 g/sm³",
+    "8,8 g/sm³",
+    "78 g/sm³",
+    "15,6 g/sm³"
+   ],
+   "d": 2,
+   "x": "ρ = m : V = 780 : 100 = 7,8 g/sm³."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_13",
+   "t": "choice",
+   "q": "Hajmi 100 sm³ bo‘lgan alyuminiy bo‘lagining massasi 270 g. Uning zichligi qancha?",
+   "a": "2,7 g/sm³",
+   "w": [
+    "0,27 g/sm³",
+    "3,7 g/sm³",
+    "27 g/sm³",
+    "5,4 g/sm³"
+   ],
+   "d": 2,
+   "x": "ρ = m : V = 270 : 100 = 2,7 g/sm³."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_14",
+   "t": "choice",
+   "q": "Hajmi 100 sm³ bo‘lgan oltin bo‘lagining massasi 1930 g. Uning zichligi qancha?",
+   "a": "19,3 g/sm³",
+   "w": [
+    "1,93 g/sm³",
+    "20,3 g/sm³",
+    "193 g/sm³",
+    "38,6 g/sm³"
+   ],
+   "d": 3,
+   "x": "ρ = m : V = 1930 : 100 = 19,3 g/sm³."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_15",
+   "t": "choice",
+   "q": "Hajmi 100 sm³ bo‘lgan muz bo‘lagining massasi 90 g. Uning zichligi qancha?",
+   "a": "0,9 g/sm³",
+   "w": [
+    "0,09 g/sm³",
+    "1,9 g/sm³",
+    "9 g/sm³",
+    "1,8 g/sm³"
+   ],
+   "d": 2,
+   "x": "ρ = m : V = 90 : 100 = 0,9 g/sm³."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_16",
+   "t": "choice",
+   "q": "Suvning zichligi 1 g/sm³. Hajmi 250 sm³ bo‘lgan suvning massasi qancha?",
+   "a": "250 g",
+   "w": [
+    "260 g",
+    "2500 g",
+    "240 g"
+   ],
+   "d": 1,
+   "x": "m = ρ · V = 1 · 250 = 250 g.",
+   "say": "Suvning zichligi 1 gramm kub santimetrga. Hajmi 250 sm³ bo‘lgan suvning massasi qancha?"
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_17",
+   "t": "choice",
+   "q": "Muzning zichligi 0,9 g/sm³. Hajmi 200 sm³ bo‘lgan muzning massasi qancha?",
+   "a": "180 g",
+   "w": [
+    "200 g",
+    "190 g",
+    "1800 g",
+    "170 g"
+   ],
+   "d": 3,
+   "x": "m = ρ · V = 0,9 · 200 = 180 g.",
+   "say": "Muzning zichligi 0,9 gramm kub santimetrga. Hajmi 200 sm³ bo‘lgan muzning massasi qancha?"
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_18",
+   "t": "choice",
+   "q": "Alyuminiyning zichligi 2,7 g/sm³. Hajmi 10 sm³ bo‘lgan alyuminiyning massasi qancha?",
+   "a": "27 g",
+   "w": [
+    "10 g",
+    "37 g",
+    "270 g",
+    "17 g"
+   ],
+   "d": 3,
+   "x": "m = ρ · V = 2,7 · 10 = 27 g.",
+   "say": "Alyuminiyning zichligi 2,7 gramm kub santimetrga. Hajmi 10 sm³ bo‘lgan alyuminiyning massasi qancha?"
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_19",
+   "t": "choice",
+   "q": "Massasi 500 g bo‘lgan suv qancha hajmni egallaydi? Suvning zichligi 1 g/sm³.",
+   "a": "500 sm³",
+   "w": [
+    "50 sm³",
+    "5000 sm³",
+    "600 sm³",
+    "400 sm³"
+   ],
+   "d": 2,
+   "x": "V = m : ρ = 500 : 1 = 500 sm³.",
+   "say": "Massasi 500 g bo‘lgan suv qancha hajmni egallaydi? Suvning zichligi 1 gramm kub santimetrga."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_20",
+   "t": "choice",
+   "q": "Massasi 1500 g bo‘lgan suv qancha hajmni egallaydi? Suvning zichligi 1 g/sm³.",
+   "a": "1500 sm³",
+   "w": [
+    "150 sm³",
+    "15 000 sm³",
+    "1600 sm³",
+    "1400 sm³"
+   ],
+   "d": 2,
+   "x": "V = m : ρ = 1500 : 1 = 1500 sm³.",
+   "say": "Massasi 1500 g bo‘lgan suv qancha hajmni egallaydi? Suvning zichligi 1 gramm kub santimetrga."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_21",
+   "t": "choice",
+   "q": "3 t necha kilogramm?",
+   "a": "3000 kg",
+   "w": [
+    "300 kg",
+    "30 kg",
+    "30000 kg"
+   ],
+   "d": 1,
+   "x": "1 t = 1000 kg, shuning uchun 3 t = 3000 kg."
+  },
+  {
+   "topic": "science_g6.density",
+   "id": "density_22",
+   "t": "choice",
+   "q": "5 t necha kilogramm?",
+   "a": "5000 kg",
+   "w": [
+    "500 kg",
+    "50 kg",
+    "50000 kg"
+   ],
+   "d": 2,
+   "x": "1 t = 1000 kg, shuning uchun 5 t = 5000 kg."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_1",
+   "t": "choice",
+   "q": "Bosim qaysi formula bilan topiladi?",
+   "a": "p = F : S",
+   "w": [
+    "p = F · S",
+    "p = S : F",
+    "p = m : V"
+   ],
+   "d": 1,
+   "x": "Bosim — kuchning yuzaga nisbati."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_2",
+   "t": "choice",
+   "q": "Bosim birligi qaysi?",
+   "a": "Paskal",
+   "w": [
+    "Nyuton",
+    "Kilogramm",
+    "Metr"
+   ],
+   "d": 1,
+   "x": "Birlik fransuz olimi Blez Paskal sharafiga nomlangan."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_3",
+   "t": "choice",
+   "q": "Atmosfera bosimini qaysi asbob o‘lchaydi?",
+   "a": "Barometr",
+   "w": [
+    "Termometr",
+    "Spidometr",
+    "Tarozi"
+   ],
+   "d": 1,
+   "x": "Barometr ob-havoni bashorat qilishda ham ishlatiladi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_4",
+   "t": "choice",
+   "q": "Pichoqni charxlaganda nima o‘zgaradi?",
+   "a": "Tig‘ yuzasi kichrayib, bosim ortadi",
+   "w": [
+    "Pichoq og‘irlashadi",
+    "Bosim kamayadi",
+    "Kuch yo‘qoladi"
+   ],
+   "d": 1,
+   "x": "Yuza kichik bo‘lsa, bir xil kuch katta bosim beradi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_5",
+   "t": "choice",
+   "q": "Qorda botib ketmaslik uchun nima kiyiladi?",
+   "a": "Chang‘i",
+   "w": [
+    "Tufli",
+    "Konki",
+    "Shippak"
+   ],
+   "d": 1,
+   "x": "Chang‘ining yuzasi katta, bosim kichik bo‘ladi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_6",
+   "t": "tf",
+   "q": "Yuza kattalashsa, bosim kamayadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bir xil kuch katta yuzaga taqsimlanadi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_7",
+   "t": "tf",
+   "q": "Tog‘ cho‘qqisida atmosfera bosimi dengiz bo‘yidagidan katta.",
+   "a": false,
+   "d": 1,
+   "x": "Balandlikka chiqqan sari atmosfera bosimi kamayadi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Chuqurlik",
+    "ortgan",
+    "sari",
+    "suv",
+    "bosimi",
+    "ortadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_9",
+   "t": "choice",
+   "q": "To‘g‘on devori nima uchun pastki qismida qalinroq quriladi?",
+   "a": "Chuqurda suv bosimi katta",
+   "w": [
+    "Pastda suv iliqroq",
+    "Pastda suv kam",
+    "Chiroyli ko‘rinishi uchun"
+   ],
+   "d": 2,
+   "x": "Suyuqlik bosimi chuqurlik bilan ortadi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_10",
+   "t": "choice",
+   "q": "Puflangan shar nima uchun yumaloq bo‘ladi?",
+   "a": "Gaz bosimni hamma tomonga uzatadi",
+   "w": [
+    "Rezina doim yumaloq",
+    "Shar ichi bo‘sh",
+    "Havo pastga tushadi"
+   ],
+   "d": 2,
+   "x": "Gaz bosimi hamma yo‘nalishda bir xil — bu Paskal qonuni."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_11",
+   "t": "choice",
+   "q": "Traktor va tankka keng zanjir nima uchun kerak?",
+   "a": "Yerga bosimni kamaytirish",
+   "w": [
+    "Tezlikni oshirish",
+    "Og‘irlikni oshirish",
+    "Shovqinni kamaytirish"
+   ],
+   "d": 2,
+   "x": "Keng zanjir og‘irlikni katta yuzaga taqsimlaydi."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_12",
+   "t": "choice",
+   "q": "Normal atmosfera bosimi necha mm simob ustuniga teng?",
+   "a": "760 mm",
+   "w": [
+    "100 mm",
+    "1000 mm",
+    "76 mm"
+   ],
+   "d": 3,
+   "x": "Dengiz sathida havo bosimi 760 mm balandlikdagi simob ustuni bosimiga teng."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_13",
+   "t": "match",
+   "q": "Misolni bosim bilan juftlang",
+   "pairs": [
+    [
+     "O‘tkir igna",
+     "katta bosim"
+    ],
+    [
+     "Keng chang‘i",
+     "kichik bosim"
+    ],
+    [
+     "Chuqur dengiz tubi",
+     "katta suv bosimi"
+    ],
+    [
+     "Baland tog‘ cho‘qqisi",
+     "past atmosfera bosimi"
+    ],
+    [
+     "Barometr",
+     "atmosfera bosimini o‘lchaydi"
+    ]
+   ],
+   "d": 2,
+   "x": "Bosim kuchga, yuzaga, chuqurlikka va balandlikka bog‘liq."
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_14",
+   "t": "choice",
+   "q": "600 N kuch 3 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?",
+   "a": "200 Pa",
+   "w": [
+    "1800 Pa",
+    "2000 Pa",
+    "20 Pa",
+    "300 Pa"
+   ],
+   "d": 1,
+   "x": "p = F : S = 600 : 3 = 200 Pa.",
+   "say": "600 nyuton kuch 3 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_15",
+   "t": "choice",
+   "q": "900 N kuch 3 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?",
+   "a": "300 Pa",
+   "w": [
+    "2700 Pa",
+    "3000 Pa",
+    "30 Pa",
+    "400 Pa"
+   ],
+   "d": 2,
+   "x": "p = F : S = 900 : 3 = 300 Pa.",
+   "say": "900 nyuton kuch 3 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_16",
+   "t": "choice",
+   "q": "1000 N kuch 0,5 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?",
+   "a": "2000 Pa",
+   "w": [
+    "500 Pa",
+    "20 000 Pa",
+    "200 Pa",
+    "2100 Pa"
+   ],
+   "d": 2,
+   "x": "p = F : S = 1000 : 0,5 = 2000 Pa.",
+   "say": "1000 nyuton kuch 0,5 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_17",
+   "t": "choice",
+   "q": "450 N kuch 0,15 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?",
+   "a": "3000 Pa",
+   "w": [
+    "67,5 Pa",
+    "30 000 Pa",
+    "300 Pa",
+    "3100 Pa"
+   ],
+   "d": 3,
+   "x": "p = F : S = 450 : 0,15 = 3000 Pa.",
+   "say": "450 nyuton kuch 0,15 m² yuzaga tik ta’sir qilmoqda. Bosim qancha?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_18",
+   "t": "choice",
+   "q": "Bosim 5000 Pa, yuza 0,2 m². Yuzaga qanday kuch ta’sir qilmoqda?",
+   "a": "1000 N",
+   "w": [
+    "10 000 N",
+    "1100 N",
+    "5000 N",
+    "500 N"
+   ],
+   "d": 3,
+   "x": "F = p · S = 5000 · 0,2 = 1000 N.",
+   "say": "Bosim 5000 paskal, yuza 0,2 m². Yuzaga qanday kuch ta’sir qilmoqda?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_19",
+   "t": "choice",
+   "q": "Bosim 2000 Pa, yuza 3 m². Yuzaga qanday kuch ta’sir qilmoqda?",
+   "a": "6000 N",
+   "w": [
+    "60 000 N",
+    "6100 N",
+    "2000 N",
+    "3000 N"
+   ],
+   "d": 2,
+   "x": "F = p · S = 2000 · 3 = 6000 N.",
+   "say": "Bosim 2000 paskal, yuza 3 m². Yuzaga qanday kuch ta’sir qilmoqda?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_20",
+   "t": "choice",
+   "q": "3 kPa necha paskalga teng?",
+   "a": "3000 Pa",
+   "w": [
+    "300 Pa",
+    "30 Pa",
+    "30000 Pa"
+   ],
+   "d": 1,
+   "x": "1 kPa = 1000 Pa, demak 3 kPa = 3000 Pa.",
+   "say": "3 kilopaskal necha paskalga teng?"
+  },
+  {
+   "topic": "science_g6.pressure",
+   "id": "pressure_21",
+   "t": "choice",
+   "q": "12 kPa necha paskalga teng?",
+   "a": "12000 Pa",
+   "w": [
+    "1200 Pa",
+    "120 Pa",
+    "120000 Pa"
+   ],
+   "d": 2,
+   "x": "1 kPa = 1000 Pa, demak 12 kPa = 12000 Pa.",
+   "say": "12 kilopaskal necha paskalga teng?"
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_1",
+   "t": "choice",
+   "q": "Issiq choyga solingan metall qoshiq dastasi qiziydi. Bu qaysi issiqlik uzatish turi?",
+   "a": "Issiqlik o‘tkazuvchanlik",
+   "w": [
+    "Konveksiya",
+    "Nurlanish",
+    "Bug‘lanish"
+   ],
+   "d": 1,
+   "x": "Issiqlik metall zarralari orqali uzatiladi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_2",
+   "t": "choice",
+   "q": "Quyosh issiqligi Yerga qaysi yo‘l bilan keladi?",
+   "a": "Nurlanish",
+   "w": [
+    "Konveksiya",
+    "Issiqlik o‘tkazuvchanlik",
+    "Diffuziya"
+   ],
+   "d": 1,
+   "x": "Koinotda havo yo‘q, issiqlik faqat nurlanish bilan keladi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_3",
+   "t": "choice",
+   "q": "Qozondagi suvning pastdan isib, yuqoriga ko‘tarilishi qanday hodisa?",
+   "a": "Konveksiya",
+   "w": [
+    "Nurlanish",
+    "Issiqlik o‘tkazuvchanlik",
+    "Kondensatsiya"
+   ],
+   "d": 1,
+   "x": "Isigan suv yengillashib ko‘tariladi, sovug‘i pastga tushadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_4",
+   "t": "choice",
+   "q": "Qaysi modda issiqlikni yaxshi o‘tkazadi?",
+   "a": "Mis",
+   "w": [
+    "Jun",
+    "Yog‘och",
+    "Penoplast"
+   ],
+   "d": 1,
+   "x": "Metallar issiqlikni yaxshi o‘tkazadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_5",
+   "t": "choice",
+   "q": "Qaysi modda issiqlikni yomon o‘tkazadi?",
+   "a": "Jun",
+   "w": [
+    "Temir",
+    "Alyuminiy",
+    "Kumush"
+   ],
+   "d": 1,
+   "x": "Jun tolalari orasida havo bor, havo issiqlikni yomon o‘tkazadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_6",
+   "t": "choice",
+   "q": "Issiqlik qaysi yo‘nalishda o‘tadi?",
+   "a": "Issiqdan sovuqqa",
+   "w": [
+    "Sovuqdan issiqqa",
+    "Faqat pastdan yuqoriga",
+    "Hech qayerga"
+   ],
+   "d": 1,
+   "x": "Issiqlik o‘z-o‘zidan issiqroq jismdan sovuqroq jismga o‘tadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_7",
+   "t": "tf",
+   "q": "Nurlanish havosiz bo‘shliqda ham bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Quyosh nurlari koinot bo‘shlig‘idan o‘tib keladi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_8",
+   "t": "tf",
+   "q": "Konveksiya qattiq jismlarda ham bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Konveksiya faqat suyuqlik va gazlarda bo‘ladi, qattiq jism zarralari joyidan siljimaydi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_9",
+   "t": "tf",
+   "q": "Qora kiyim Quyoshda oq kiyimdan ko‘proq qiziydi.",
+   "a": true,
+   "d": 1,
+   "x": "Qora sirt nurlarni ko‘proq yutadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Issiqlik",
+    "issiqroq",
+    "jismdan",
+    "sovuqroq",
+    "jismga",
+    "o‘tadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_11",
+   "t": "choice",
+   "q": "Isitish batareyasi nima uchun xonaning pastki qismiga o‘rnatiladi?",
+   "a": "Iliq havo ko‘tarilib, xonani aylanadi",
+   "w": [
+    "Pastda chiroyli turadi",
+    "Sovuq havo ko‘tariladi",
+    "Batareya og‘ir"
+   ],
+   "d": 2,
+   "x": "Iliq havo yuqoriga ko‘tariladi, sovug‘i tushadi — konveksiya xonani isitadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_12",
+   "t": "choice",
+   "q": "Konditsioner nima uchun devorning yuqorisiga o‘rnatiladi?",
+   "a": "Sovuq havo pastga tushadi",
+   "w": [
+    "Issiq havo pastda",
+    "U yengil",
+    "Bolalar tegmasin"
+   ],
+   "d": 2,
+   "x": "Sovuq havo og‘ir, u pastga tushib, xonani aralashtiradi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_13",
+   "t": "choice",
+   "q": "Qozon dastasi nima uchun plastmassa yoki yog‘ochdan qilinadi?",
+   "a": "Ular issiqlikni yomon o‘tkazadi",
+   "w": [
+    "Ular issiqlikni yaxshi o‘tkazadi",
+    "Ular og‘ir",
+    "Ular yaltiraydi"
+   ],
+   "d": 2,
+   "x": "Dasta qizimasa, qo‘l kuymaydi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_14",
+   "t": "choice",
+   "q": "Qishda qushlar nima uchun patlarini hurpaytiradi?",
+   "a": "Patlar orasida havo qatlami hosil bo‘ladi",
+   "w": [
+    "Uchish oson bo‘ladi",
+    "Rangi chiroyli ko‘rinadi",
+    "Ular isib ketadi"
+   ],
+   "d": 2,
+   "x": "Havo issiqlikni yomon o‘tkazadi va tanani sovuqdan saqlaydi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_15",
+   "t": "choice",
+   "q": "Gulxan yonida yuzimiz issiqni qaysi yo‘l bilan sezadi?",
+   "a": "Nurlanish",
+   "w": [
+    "Konveksiya",
+    "Issiqlik o‘tkazuvchanlik",
+    "Diffuziya"
+   ],
+   "d": 2,
+   "x": "Gulxandan chiqqan nur yuzga tushib, uni isitadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_16",
+   "t": "choice",
+   "q": "Shamol qanday issiqlik hodisasi natijasida paydo bo‘ladi?",
+   "a": "Konveksiya",
+   "w": [
+    "Issiqlik o‘tkazuvchanlik",
+    "Faqat nurlanish",
+    "Erish"
+   ],
+   "d": 3,
+   "x": "Quyosh yerni notekis isitadi, iliq havo ko‘tariladi, o‘rniga sovuq havo keladi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_17",
+   "t": "choice",
+   "q": "Termos ichidagi ko‘zgusimon yaltiroq devor nima uchun kerak?",
+   "a": "Nurlanishni qaytarish uchun",
+   "w": [
+    "Chiroyli ko‘rinishi uchun",
+    "Suvni tozalash uchun",
+    "Og‘irlikni oshirish uchun"
+   ],
+   "d": 3,
+   "x": "Yaltiroq sirt issiqlik nurlarini ortga qaytaradi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_18",
+   "t": "choice",
+   "q": "Qo‘sh romli derazalar orasidagi havo nimaga xizmat qiladi?",
+   "a": "Issiqni saqlaydi",
+   "w": [
+    "Yorug‘likni to‘sadi",
+    "Shovqinni oshiradi",
+    "Xonani sovitadi"
+   ],
+   "d": 3,
+   "x": "Havo qatlami issiqlikni yomon o‘tkazadi."
+  },
+  {
+   "topic": "science_g6.heat_transfer",
+   "id": "heat_transfer_19",
+   "t": "match",
+   "q": "Misolni issiqlik uzatish turi bilan juftlang",
+   "pairs": [
+    [
+     "Choydagi qoshiq qizishi",
+     "o‘tkazuvchanlik"
+    ],
+    [
+     "Qozondagi suv aylanishi",
+     "konveksiya"
+    ],
+    [
+     "Quyosh nuri isitishi",
+     "nurlanish"
+    ],
+    [
+     "Batareya xonani isitishi",
+     "havo oqimlari"
+    ],
+    [
+     "Gulxan tafti",
+     "issiqlik nurlari"
+    ]
+   ],
+   "d": 2,
+   "x": "Batareya konveksiya, gulxan nurlanish bilan isitadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_1",
+   "t": "choice",
+   "q": "Yorug‘lik bir jinsli muhitda qanday tarqaladi?",
+   "a": "To‘g‘ri chiziq bo‘ylab",
+   "w": [
+    "Aylana bo‘ylab",
+    "To‘lqinsimon egri",
+    "Faqat pastga"
+   ],
+   "d": 1,
+   "x": "Shuning uchun shaffof bo‘lmagan jism ortida soya hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_2",
+   "t": "choice",
+   "q": "Ko‘zguda nurning qaytishida qaysi qoida bajariladi?",
+   "a": "Qaytish burchagi tushish burchagiga teng",
+   "w": [
+    "Qaytish burchagi doim 90°",
+    "Nur qaytmaydi",
+    "Qaytish burchagi 2 marta katta"
+   ],
+   "d": 1,
+   "x": "Bu yorug‘likning qaytish qonuni."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_3",
+   "t": "choice",
+   "q": "Suvga solingan qoshiq nima uchun “singandek” ko‘rinadi?",
+   "a": "Yorug‘lik sinadi",
+   "w": [
+    "Yorug‘lik qaytadi",
+    "Qoshiq egiladi",
+    "Suv qoshiqni eritadi"
+   ],
+   "d": 1,
+   "x": "Nur suvdan havoga o‘tganda yo‘nalishini o‘zgartiradi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_4",
+   "t": "choice",
+   "q": "Lupa qanday linza?",
+   "a": "Yig‘uvchi linza",
+   "w": [
+    "Sochuvchi linza",
+    "Yassi oyna",
+    "Ko‘zgu"
+   ],
+   "d": 1,
+   "x": "Lupa — o‘rtasi qalin qavariq linza, u narsalarni kattalashtiradi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_5",
+   "t": "choice",
+   "q": "O‘rtasi chetlaridan qalin linza qanday ataladi?",
+   "a": "Yig‘uvchi",
+   "w": [
+    "Sochuvchi",
+    "Yassi",
+    "Botiq"
+   ],
+   "d": 1,
+   "x": "Qavariq linza nurlarni fokusga yig‘adi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_6",
+   "t": "choice",
+   "q": "Kamalak qanday hosil bo‘ladi?",
+   "a": "Quyosh nuri tomchilarda sinib, ranglarga ajraladi",
+   "w": [
+    "Bulutlar bo‘yalib qoladi",
+    "Oy nuri qaytadi",
+    "Chaqmoq yonadi"
+   ],
+   "d": 1,
+   "x": "Yomg‘ir tomchilari prizma kabi oq nurni 7 rangga ajratadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_7",
+   "t": "tf",
+   "q": "Yassi ko‘zgudagi tasvirda o‘ng va chap tomonlar almashadi.",
+   "a": true,
+   "d": 1,
+   "x": "O‘ng qo‘lingizni ko‘tarsangiz, tasvir chap qo‘lini ko‘targandek ko‘rinadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_8",
+   "t": "tf",
+   "q": "Sochuvchi linzaning o‘rtasi chetlaridan qalin.",
+   "a": false,
+   "d": 1,
+   "x": "Sochuvchi (botiq) linzaning o‘rtasi yupqa."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_9",
+   "t": "order",
+   "q": "Kamalak ranglarini tartib bilan tuzing",
+   "parts": [
+    "qizil",
+    "to‘q-sariq",
+    "sariq",
+    "yashil",
+    "havorang",
+    "ko‘k",
+    "binafsha"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Kamalak ranglari: qizil, to‘q sariq, sariq, yashil, havorang, ko‘k, binafsha."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_10",
+   "t": "choice",
+   "q": "Hovuz tubi aslidagidan qanday ko‘rinadi?",
+   "a": "Sayozroq",
+   "w": [
+    "Chuqurroq",
+    "Xuddi o‘zidek",
+    "Umuman ko‘rinmaydi"
+   ],
+   "d": 2,
+   "x": "Nurning sinishi tufayli suv tubi yaqinroq, hovuz sayozroq ko‘rinadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_11",
+   "t": "choice",
+   "q": "Oy Quyosh va Yer orasiga tushib, Quyoshni to‘sishi nima deyiladi?",
+   "a": "Quyosh tutilishi",
+   "w": [
+    "Oy tutilishi",
+    "To‘lin oy",
+    "Kamalak"
+   ],
+   "d": 2,
+   "x": "Oyning soyasi Yerga tushadi va Quyosh qorayib ko‘rinadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_12",
+   "t": "choice",
+   "q": "Yer soyasi Oyga tushishi nima deyiladi?",
+   "a": "Oy tutilishi",
+   "w": [
+    "Quyosh tutilishi",
+    "Yangi oy",
+    "Aks-sado"
+   ],
+   "d": 2,
+   "x": "Oy tutilishida Yer Quyosh va Oy orasida bo‘ladi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_13",
+   "t": "choice",
+   "q": "Uzoqdagi narsalarni yaxshi ko‘rmaydigan odamga qanday ko‘zoynak kerak?",
+   "a": "Sochuvchi linzali",
+   "w": [
+    "Yig‘uvchi linzali",
+    "Rangli oynali",
+    "Yassi oynali"
+   ],
+   "d": 3,
+   "x": "Yaqindan ko‘rarlik sochuvchi (botiq) linza bilan to‘g‘rilanadi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_14",
+   "t": "choice",
+   "q": "Ko‘z gavhari qanday linza vazifasini bajaradi?",
+   "a": "Yig‘uvchi linza",
+   "w": [
+    "Sochuvchi linza",
+    "Yassi ko‘zgu",
+    "Prizma"
+   ],
+   "d": 3,
+   "x": "Gavhar nurlarni ko‘zning to‘r pardasiga yig‘adi."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_15",
+   "t": "match",
+   "q": "Asbobni ishlash asosi bilan juftlang",
+   "pairs": [
+    [
+     "Lupa",
+     "yig‘uvchi linza"
+    ],
+    [
+     "Periskop",
+     "ko‘zgularda qaytish"
+    ],
+    [
+     "Prizma",
+     "oq nurni ranglarga ajratish"
+    ],
+    [
+     "Fara",
+     "botiq ko‘zgu nurni yo‘naltiradi"
+    ],
+    [
+     "Mikroskop",
+     "bir nechta linza"
+    ]
+   ],
+   "d": 3,
+   "x": "Optik asboblar nurning qaytishi va sinishiga asoslangan."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_16",
+   "t": "choice",
+   "q": "Nurning ko‘zguga tushish burchagi 30°. Qaytish burchagi qancha?",
+   "a": "30°",
+   "w": [
+    "60°",
+    "150°",
+    "40°"
+   ],
+   "d": 1,
+   "x": "Qaytish burchagi tushish burchagiga teng: 30°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_17",
+   "t": "choice",
+   "q": "Nurning ko‘zguga tushish burchagi 45°. Qaytish burchagi qancha?",
+   "a": "45°",
+   "w": [
+    "90°",
+    "135°",
+    "55°"
+   ],
+   "d": 2,
+   "x": "Qaytish burchagi tushish burchagiga teng: 45°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_18",
+   "t": "choice",
+   "q": "Nurning ko‘zguga tushish burchagi 60°. Qaytish burchagi qancha?",
+   "a": "60°",
+   "w": [
+    "30°",
+    "120°",
+    "70°"
+   ],
+   "d": 2,
+   "x": "Qaytish burchagi tushish burchagiga teng: 60°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_19",
+   "t": "choice",
+   "q": "Tushish burchagi 25°. Tushgan va qaytgan nurlar orasidagi burchak qancha?",
+   "a": "50°",
+   "w": [
+    "25°",
+    "65°",
+    "130°",
+    "60°"
+   ],
+   "d": 2,
+   "x": "Qaytish burchagi ham 25°, ular yig‘indisi 25 + 25 = 50°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_20",
+   "t": "choice",
+   "q": "Tushish burchagi 40°. Tushgan va qaytgan nurlar orasidagi burchak qancha?",
+   "a": "80°",
+   "w": [
+    "40°",
+    "50°",
+    "100°",
+    "90°"
+   ],
+   "d": 3,
+   "x": "Qaytish burchagi ham 40°, ular yig‘indisi 40 + 40 = 80°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_21",
+   "t": "choice",
+   "q": "Nur bilan ko‘zgu sirti orasidagi burchak 30°. Tushish burchagi qancha?",
+   "a": "60°",
+   "w": [
+    "30°",
+    "150°",
+    "120°"
+   ],
+   "d": 3,
+   "x": "Tushish burchagi nur bilan ko‘zguga o‘tkazilgan tik chiziq orasida: 90° − 30° = 60°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_22",
+   "t": "choice",
+   "q": "Nur bilan ko‘zgu sirti orasidagi burchak 70°. Tushish burchagi qancha?",
+   "a": "20°",
+   "w": [
+    "70°",
+    "140°",
+    "110°",
+    "160°"
+   ],
+   "d": 3,
+   "x": "Tushish burchagi nur bilan ko‘zguga o‘tkazilgan tik chiziq orasida: 90° − 70° = 20°."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_23",
+   "t": "choice",
+   "q": "Bola yassi ko‘zgudan 2 m uzoqlikda turibdi. Bola bilan uning tasviri orasidagi masofa qancha?",
+   "a": "4 m",
+   "w": [
+    "2 m",
+    "3 m",
+    "6 m"
+   ],
+   "d": 2,
+   "x": "Tasvir ko‘zgu ortida xuddi shuncha — 2 m masofada: 2 + 2 = 4 m."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_24",
+   "t": "choice",
+   "q": "Bola yassi ko‘zgudan 3 m uzoqlikda turibdi. Bola bilan uning tasviri orasidagi masofa qancha?",
+   "a": "6 m",
+   "w": [
+    "3 m",
+    "4 m",
+    "9 m",
+    "8 m"
+   ],
+   "d": 2,
+   "x": "Tasvir ko‘zgu ortida xuddi shuncha — 3 m masofada: 3 + 3 = 6 m."
+  },
+  {
+   "topic": "science_g6.light",
+   "id": "light_25",
+   "t": "choice",
+   "q": "Yorug‘lik tezligi taxminan 300 000 km/s. Yorug‘lik 2 soniyada qancha masofani bosib o‘tadi?",
+   "a": "600 000 km",
+   "w": [
+    "300 000 km",
+    "150 000 km",
+    "6 000 000 km",
+    "3000 km"
+   ],
+   "d": 3,
+   "x": "s = v · t = 300 000 · 2 = 600 000 km.",
+   "say": "Yorug‘lik tezligi taxminan 300 000 kilometr sekundiga. Yorug‘lik 2 soniyada qancha masofani bosib o‘tadi?"
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_1",
+   "t": "choice",
+   "q": "Tovush qanday hosil bo‘ladi?",
+   "a": "Jismlarning tebranishidan",
+   "w": [
+    "Yorug‘lik sinishidan",
+    "Jism sovishidan",
+    "Zichlik o‘zgarishidan"
+   ],
+   "d": 1,
+   "x": "Masalan, gitara tori tebranib, havoni tebratadi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_2",
+   "t": "choice",
+   "q": "Tovush qayerda tarqalmaydi?",
+   "a": "Havosiz bo‘shliqda",
+   "w": [
+    "Suvda",
+    "Temirda",
+    "Havoda"
+   ],
+   "d": 1,
+   "x": "Tovushni uzatadigan zarralar bo‘lmasa, u tarqalmaydi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_3",
+   "t": "choice",
+   "q": "Chastota birligi qaysi?",
+   "a": "Gers",
+   "w": [
+    "Paskal",
+    "Nyuton",
+    "Metr"
+   ],
+   "d": 1,
+   "x": "1 Hz — soniyasiga bitta tebranish."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_4",
+   "t": "choice",
+   "q": "Havoda tovush tezligi taxminan qancha?",
+   "a": "340 m/s",
+   "w": [
+    "3 m/s",
+    "300 000 km/s",
+    "34 000 m/s"
+   ],
+   "d": 1,
+   "x": "Tovush havoda soniyasiga taxminan 340 metr yo‘l bosadi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_5",
+   "t": "choice",
+   "q": "To‘siqdan qaytib eshitilgan tovush nima deyiladi?",
+   "a": "Aks-sado",
+   "w": [
+    "Shovqin",
+    "Ultratovush",
+    "Kamalak"
+   ],
+   "d": 1,
+   "x": "Aks-sado tog‘ va katta bo‘sh xonalarda yaxshi eshitiladi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_6",
+   "t": "choice",
+   "q": "Shovqin balandligi qaysi birlikda o‘lchanadi?",
+   "a": "Desibel",
+   "w": [
+    "Gers",
+    "Paskal",
+    "Kilogramm"
+   ],
+   "d": 1,
+   "x": "Juda baland shovqin (100 dB dan ortiq) quloqqa zarar yetkazadi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_7",
+   "t": "tf",
+   "q": "Tovush suvda havodagiga qaraganda tezroq tarqaladi.",
+   "a": true,
+   "d": 1,
+   "x": "Suvda tovush tezligi havodagidan taxminan 4 marta katta."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_8",
+   "t": "tf",
+   "q": "Inson ultratovushni yaxshi eshitadi.",
+   "a": false,
+   "d": 1,
+   "x": "Ultratovush 20 000 Hz dan yuqori, inson uni eshitmaydi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Tovush",
+    "havosiz",
+    "bo‘shliqda",
+    "tarqalmaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_10",
+   "t": "choice",
+   "q": "Pashshaning g‘ing‘illashi nima uchun ingichka eshitiladi?",
+   "a": "Qanotlari juda tez tebranadi",
+   "w": [
+    "Pashsha juda kichik",
+    "U qattiq uchadi",
+    "U havoni isitadi"
+   ],
+   "d": 2,
+   "x": "Tebranish chastotasi katta bo‘lsa, ton baland — ovoz ingichka."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_11",
+   "t": "choice",
+   "q": "Qaysi hayvon ultratovush yordamida mo‘ljal oladi?",
+   "a": "Ko‘rshapalak",
+   "w": [
+    "Mushuk",
+    "Tovuq",
+    "Sigir"
+   ],
+   "d": 2,
+   "x": "Ko‘rshapalak ultratovush chiqaradi va uning aks-sadosini eshitadi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_12",
+   "t": "choice",
+   "q": "20 Hz dan past chastotali tovush nima deyiladi?",
+   "a": "Infratovush",
+   "w": [
+    "Ultratovush",
+    "Aks-sado",
+    "Musiqa"
+   ],
+   "d": 2,
+   "x": "Infratovushni inson eshitmaydi, u zilzila va bo‘ronlarda paydo bo‘ladi.",
+   "say": "20 gers dan past chastotali tovush nima deyiladi?"
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_13",
+   "t": "choice",
+   "q": "Kosmonavtlar ochiq koinotda bir-biri bilan qanday gaplashadi?",
+   "a": "Radio orqali",
+   "w": [
+    "Baqirib",
+    "Shivirlab",
+    "Hushtak chalib"
+   ],
+   "d": 2,
+   "x": "Koinotda havo yo‘q, tovush tarqalmaydi, radioto‘lqinlar esa tarqaladi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_14",
+   "t": "choice",
+   "q": "Temir yo‘l relsiga quloq tutsak, poyezd tovushini nega oldinroq eshitamiz?",
+   "a": "Tovush temirda tezroq tarqaladi",
+   "w": [
+    "Temir tovushni kuchaytiradi",
+    "Havo tovushni to‘sadi",
+    "Poyezd relsga yaqin"
+   ],
+   "d": 3,
+   "x": "Qattiq jismlarda tovush havodagidan ancha tez tarqaladi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_15",
+   "t": "choice",
+   "q": "Kemalarda dengiz chuqurligini o‘lchaydigan ultratovush asbobi nima?",
+   "a": "Exolot",
+   "w": [
+    "Barometr",
+    "Spidometr",
+    "Termometr"
+   ],
+   "d": 3,
+   "x": "Exolot ultratovush yuboradi va dengiz tubidan qaytgan aks-sado vaqtini o‘lchaydi."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_16",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Chastota",
+     "1 soniyadagi tebranishlar soni"
+    ],
+    [
+     "Aks-sado",
+     "qaytgan tovush"
+    ],
+    [
+     "Ultratovush",
+     "20 000 Hz dan yuqori"
+    ],
+    [
+     "Infratovush",
+     "20 Hz dan past"
+    ],
+    [
+     "Desibel",
+     "shovqin birligi"
+    ],
+    [
+     "Vakuum",
+     "tovush tarqalmaydigan bo‘shliq"
+    ]
+   ],
+   "d": 2,
+   "x": "Tovush haqidagi asosiy tushunchalar."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_17",
+   "t": "choice",
+   "q": "Chaqmoq chaqqandan 3 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 m/s.",
+   "a": "1020 m",
+   "w": [
+    "340 m",
+    "1360 m",
+    "510 m",
+    "680 m"
+   ],
+   "d": 2,
+   "x": "s = v · t = 340 · 3 = 1020 m.",
+   "say": "Chaqmoq chaqqandan 3 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 metr sekundiga."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_18",
+   "t": "choice",
+   "q": "Chaqmoq chaqqandan 5 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 m/s.",
+   "a": "1700 m",
+   "w": [
+    "340 m",
+    "2040 m",
+    "850 m",
+    "1360 m"
+   ],
+   "d": 2,
+   "x": "s = v · t = 340 · 5 = 1700 m.",
+   "say": "Chaqmoq chaqqandan 5 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 metr sekundiga."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_19",
+   "t": "choice",
+   "q": "Chaqmoq chaqqandan 2 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 m/s.",
+   "a": "680 m",
+   "w": [
+    "340 m",
+    "1020 m",
+    "1360 m"
+   ],
+   "d": 1,
+   "x": "s = v · t = 340 · 2 = 680 m.",
+   "say": "Chaqmoq chaqqandan 2 soniya keyin momaqaldiroq eshitildi. Chaqmoq qancha uzoqda? Tovush tezligi 340 metr sekundiga."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_20",
+   "t": "choice",
+   "q": "Qoya tomon baqirgan bola aks-sadoni 2 soniyadan keyin eshitdi. Qoyagacha masofa qancha? Tovush tezligi 340 m/s.",
+   "a": "340 m",
+   "w": [
+    "680 m",
+    "170 m",
+    "1020 m",
+    "440 m"
+   ],
+   "d": 3,
+   "x": "Tovush qoyagacha borib qaytdi: 340 · 2 = 680 m, yarmi 340 m.",
+   "say": "Qoya tomon baqirgan bola aks-sadoni 2 soniyadan keyin eshitdi. Qoyagacha masofa qancha? Tovush tezligi 340 metr sekundiga."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_21",
+   "t": "choice",
+   "q": "Qoya tomon baqirgan bola aks-sadoni 4 soniyadan keyin eshitdi. Qoyagacha masofa qancha? Tovush tezligi 340 m/s.",
+   "a": "680 m",
+   "w": [
+    "1360 m",
+    "1020 m",
+    "340 m",
+    "2040 m"
+   ],
+   "d": 3,
+   "x": "Tovush qoyagacha borib qaytdi: 340 · 4 = 1360 m, yarmi 680 m.",
+   "say": "Qoya tomon baqirgan bola aks-sadoni 4 soniyadan keyin eshitdi. Qoyagacha masofa qancha? Tovush tezligi 340 metr sekundiga."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_22",
+   "t": "choice",
+   "q": "Tor 2 soniyada 200 marta tebrandi. Tebranish chastotasi qancha?",
+   "a": "100 Hz",
+   "w": [
+    "400 Hz",
+    "200 Hz",
+    "150 Hz",
+    "300 Hz"
+   ],
+   "d": 2,
+   "x": "Chastota — 1 soniyadagi tebranishlar soni: 200 : 2 = 100 Hz."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_23",
+   "t": "choice",
+   "q": "Tor 3 soniyada 1320 marta tebrandi. Tebranish chastotasi qancha?",
+   "a": "440 Hz",
+   "w": [
+    "3960 Hz",
+    "1320 Hz",
+    "540 Hz",
+    "880 Hz"
+   ],
+   "d": 3,
+   "x": "Chastota — 1 soniyadagi tebranishlar soni: 1320 : 3 = 440 Hz."
+  },
+  {
+   "topic": "science_g6.sound",
+   "id": "sound_24",
+   "t": "choice",
+   "q": "Tor 1 soniyada 50 marta tebrandi. Tebranish chastotasi qancha?",
+   "a": "50 Hz",
+   "w": [
+    "150 Hz",
+    "100 Hz",
+    "60 Hz",
+    "40 Hz"
+   ],
+   "d": 1,
+   "x": "Chastota — 1 soniyadagi tebranishlar soni: 50 : 1 = 50 Hz."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_1",
+   "t": "choice",
+   "q": "Molekulalar qanday zarralardan tuzilgan?",
+   "a": "Atomlardan",
+   "w": [
+    "Hujayralardan",
+    "Kristallardan",
+    "Tomchilardan"
+   ],
+   "d": 1,
+   "x": "Molekula — bir nechta atomning birikmasi."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_2",
+   "t": "choice",
+   "q": "“O” belgisi qaysi elementni bildiradi?",
+   "a": "Kislorod",
+   "w": [
+    "Oltin",
+    "Azot",
+    "Uglerod"
+   ],
+   "d": 1,
+   "x": "O — kislorod (Oxygenium)."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_3",
+   "t": "choice",
+   "q": "“H” belgisi qaysi elementni bildiradi?",
+   "a": "Vodorod",
+   "w": [
+    "Geliy",
+    "Temir",
+    "Xlor"
+   ],
+   "d": 1,
+   "x": "H — vodorod (Hydrogenium)."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_4",
+   "t": "choice",
+   "q": "Temirning kimyoviy belgisi qaysi?",
+   "a": "Fe",
+   "w": [
+    "T",
+    "Te",
+    "F"
+   ],
+   "d": 1,
+   "x": "Fe — lotincha Ferrum so‘zidan."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_5",
+   "t": "choice",
+   "q": "Misning kimyoviy belgisi qaysi?",
+   "a": "Cu",
+   "w": [
+    "M",
+    "Ms",
+    "Mi"
+   ],
+   "d": 1,
+   "x": "Cu — lotincha Cuprum so‘zidan."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_6",
+   "t": "choice",
+   "q": "Suvning formulasi qaysi?",
+   "a": "H₂O",
+   "w": [
+    "CO₂",
+    "O₂",
+    "NaCl"
+   ],
+   "d": 1,
+   "x": "Suv molekulasi 2 ta vodorod va 1 ta kislorod atomidan iborat."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_7",
+   "t": "choice",
+   "q": "Kimyoviy elementlar jadvalini kim tuzgan?",
+   "a": "D. I. Mendeleyev",
+   "w": [
+    "I. Nyuton",
+    "Ibn Sino",
+    "Mirzo Ulug‘bek"
+   ],
+   "d": 1,
+   "x": "Mendeleyev 1869-yilda elementlarning davriy jadvalini tuzgan."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_8",
+   "t": "tf",
+   "q": "Bir xil turdagi atomlar kimyoviy element deyiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, barcha kislorod atomlari — kislorod elementi."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_9",
+   "t": "tf",
+   "q": "Molekulalarni oddiy ko‘z bilan ko‘rish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Molekulalar juda mayda, ular hatto oddiy mikroskopda ham ko‘rinmaydi."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Molekulalar",
+    "atomlardan",
+    "tuzilgan"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_11",
+   "t": "choice",
+   "q": "“N” belgisi qaysi elementni bildiradi?",
+   "a": "Azot",
+   "w": [
+    "Natriy",
+    "Neon",
+    "Nikel"
+   ],
+   "d": 2,
+   "x": "N — azot (Nitrogenium), natriy esa Na."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_12",
+   "t": "choice",
+   "q": "“C” belgisi qaysi elementni bildiradi?",
+   "a": "Uglerod",
+   "w": [
+    "Mis",
+    "Kalsiy",
+    "Xlor"
+   ],
+   "d": 2,
+   "x": "C — uglerod (Carboneum). Olmos va grafit ham ugleroddan iborat."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_13",
+   "t": "choice",
+   "q": "Osh tuzining formulasi qaysi?",
+   "a": "NaCl",
+   "w": [
+    "H₂O",
+    "CO₂",
+    "CH₄"
+   ],
+   "d": 2,
+   "x": "Osh tuzi natriy (Na) va xlor (Cl) elementlaridan tuzilgan."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_14",
+   "t": "choice",
+   "q": "Atomning markazidagi qismi nima deyiladi?",
+   "a": "Yadro",
+   "w": [
+    "Elektron",
+    "Molekula",
+    "Hujayra"
+   ],
+   "d": 3,
+   "x": "Atom yadrosi atrofida elektronlar harakatlanadi."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_15",
+   "t": "match",
+   "q": "Belgini element nomi bilan juftlang",
+   "pairs": [
+    [
+     "H",
+     "vodorod"
+    ],
+    [
+     "O",
+     "kislorod"
+    ],
+    [
+     "C",
+     "uglerod"
+    ],
+    [
+     "N",
+     "azot"
+    ],
+    [
+     "Fe",
+     "temir"
+    ],
+    [
+     "Cu",
+     "mis"
+    ],
+    [
+     "Na",
+     "natriy"
+    ],
+    [
+     "Cl",
+     "xlor"
+    ]
+   ],
+   "d": 2,
+   "x": "Kimyoviy belgilar lotincha nomlardan olingan."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_16",
+   "t": "choice",
+   "q": "H₂O molekulasida jami nechta atom bor?",
+   "a": "3",
+   "w": [
+    "2",
+    "4",
+    "5"
+   ],
+   "d": 1,
+   "x": "2 vodorod + 1 kislorod = 3 ta atom."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_17",
+   "t": "choice",
+   "q": "CO₂ molekulasida jami nechta atom bor?",
+   "a": "3",
+   "w": [
+    "2",
+    "4",
+    "5"
+   ],
+   "d": 1,
+   "x": "1 uglerod + 2 kislorod = 3 ta atom."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_18",
+   "t": "choice",
+   "q": "NH₃ molekulasida jami nechta atom bor?",
+   "a": "4",
+   "w": [
+    "3",
+    "5",
+    "2",
+    "6"
+   ],
+   "d": 2,
+   "x": "1 azot + 3 vodorod = 4 ta atom."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_19",
+   "t": "choice",
+   "q": "CH₄ molekulasida jami nechta atom bor?",
+   "a": "5",
+   "w": [
+    "4",
+    "6",
+    "2",
+    "7"
+   ],
+   "d": 2,
+   "x": "1 uglerod + 4 vodorod = 5 ta atom."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_20",
+   "t": "choice",
+   "q": "CO₂ molekulasida nechta kislorod atomi bor?",
+   "a": "2",
+   "w": [
+    "3",
+    "1",
+    "4"
+   ],
+   "d": 1,
+   "x": "O belgisidan keyingi kichik raqam atomlar sonini ko‘rsatadi: 2 ta."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_21",
+   "t": "choice",
+   "q": "CH₄ molekulasida nechta vodorod atomi bor?",
+   "a": "4",
+   "w": [
+    "5",
+    "3",
+    "6"
+   ],
+   "d": 2,
+   "x": "H belgisidan keyingi kichik raqam atomlar sonini ko‘rsatadi: 4 ta."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_22",
+   "t": "choice",
+   "q": "NH₃ molekulasida nechta vodorod atomi bor?",
+   "a": "3",
+   "w": [
+    "4",
+    "2",
+    "5"
+   ],
+   "d": 2,
+   "x": "H belgisidan keyingi kichik raqam atomlar sonini ko‘rsatadi: 3 ta."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_23",
+   "t": "choice",
+   "q": "2 ta H₂O molekulasida jami nechta atom bor?",
+   "a": "6",
+   "w": [
+    "3",
+    "8",
+    "4",
+    "5"
+   ],
+   "d": 2,
+   "x": "Bitta molekulada 3 ta atom: 2 · 3 = 6."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_24",
+   "t": "choice",
+   "q": "3 ta CO₂ molekulasida jami nechta atom bor?",
+   "a": "9",
+   "w": [
+    "3",
+    "12",
+    "6"
+   ],
+   "d": 3,
+   "x": "Bitta molekulada 3 ta atom: 3 · 3 = 9."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_25",
+   "t": "choice",
+   "q": "4 ta O₂ molekulasida jami nechta atom bor?",
+   "a": "8",
+   "w": [
+    "2",
+    "12",
+    "4",
+    "6"
+   ],
+   "d": 3,
+   "x": "Bitta molekulada 2 ta atom: 4 · 2 = 8."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_26",
+   "t": "choice",
+   "q": "NaCl moddasi nechta kimyoviy elementdan tashkil topgan?",
+   "a": "2",
+   "w": [
+    "3",
+    "4",
+    "1"
+   ],
+   "d": 2,
+   "x": "Tarkibida 2 ta element: natriy, xlor."
+  },
+  {
+   "topic": "science_g6.atoms",
+   "id": "atoms_27",
+   "t": "choice",
+   "q": "CH₄ moddasi nechta kimyoviy elementdan tashkil topgan?",
+   "a": "2",
+   "w": [
+    "3",
+    "5",
+    "4",
+    "1"
+   ],
+   "d": 3,
+   "x": "Tarkibida 2 ta element: uglerod, vodorod."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_1",
+   "t": "choice",
+   "q": "Qaysi modda oddiy modda?",
+   "a": "Kislorod",
+   "w": [
+    "Suv",
+    "Osh tuzi",
+    "Karbonat angidrid"
+   ],
+   "d": 1,
+   "x": "Kislorod molekulasi faqat kislorod atomlaridan iborat."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_2",
+   "t": "choice",
+   "q": "Qaysi modda murakkab modda?",
+   "a": "Suv",
+   "w": [
+    "Temir",
+    "Azot",
+    "Mis"
+   ],
+   "d": 1,
+   "x": "Suv vodorod va kislorod atomlaridan tuzilgan."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_3",
+   "t": "choice",
+   "q": "Qaysi biri metall?",
+   "a": "Alyuminiy",
+   "w": [
+    "Oltingugurt",
+    "Azot",
+    "Kislorod"
+   ],
+   "d": 1,
+   "x": "Alyuminiy — yengil, yaltiroq metall."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_4",
+   "t": "choice",
+   "q": "Qaysi biri nometall?",
+   "a": "Oltingugurt",
+   "w": [
+    "Temir",
+    "Mis",
+    "Kumush"
+   ],
+   "d": 1,
+   "x": "Oltingugurt — sariq rangli mo‘rt nometall."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_5",
+   "t": "choice",
+   "q": "Xona haroratida suyuq bo‘ladigan metall qaysi?",
+   "a": "Simob",
+   "w": [
+    "Temir",
+    "Oltin",
+    "Mis"
+   ],
+   "d": 1,
+   "x": "Simob — yagona xona haroratida suyuq metall."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_6",
+   "t": "choice",
+   "q": "Havoning asosiy qismini qaysi gaz tashkil etadi?",
+   "a": "Azot",
+   "w": [
+    "Kislorod",
+    "Karbonat angidrid",
+    "Vodorod"
+   ],
+   "d": 1,
+   "x": "Havoning taxminan 78 foizi azot."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_7",
+   "t": "choice",
+   "q": "Metallarning umumiy xossasi qaysi?",
+   "a": "Elektrni yaxshi o‘tkazadi",
+   "w": [
+    "Suvda eriydi",
+    "Mo‘rt, tez sinadi",
+    "Yaltiramaydi"
+   ],
+   "d": 1,
+   "x": "Metallar yaltiroq, bolg‘alanuvchan va tokni yaxshi o‘tkazadi."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_8",
+   "t": "tf",
+   "q": "Murakkab modda turli element atomlaridan tuzilgan.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, CO₂ uglerod va kislorod atomlaridan tuzilgan."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_9",
+   "t": "tf",
+   "q": "Temir — murakkab modda.",
+   "a": false,
+   "d": 1,
+   "x": "Temir faqat temir atomlaridan iborat, u oddiy modda."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Suv",
+    "murakkab",
+    "modda",
+    "hisoblanadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_11",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat oddiy moddalar bor?",
+   "a": "Temir, mis, kislorod",
+   "w": [
+    "Suv, tuz, temir",
+    "Shakar, suv, azot",
+    "Osh tuzi, CO₂, mis"
+   ],
+   "d": 2,
+   "x": "Temir, mis va kislorod — bir xil atomlardan tuzilgan."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_12",
+   "t": "choice",
+   "q": "Qaysi guruhda faqat murakkab moddalar bor?",
+   "a": "Suv, osh tuzi, CO₂",
+   "w": [
+    "Temir, suv, azot",
+    "Mis, oltin, kislorod",
+    "Vodorod, tuz, oltin"
+   ],
+   "d": 2,
+   "x": "Suv, osh tuzi va karbonat angidrid turli elementlardan tuzilgan."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_13",
+   "t": "choice",
+   "q": "Olmos va grafit qaysi elementdan tuzilgan?",
+   "a": "Uglerod",
+   "w": [
+    "Kremniy",
+    "Temir",
+    "Kislorod"
+   ],
+   "d": 3,
+   "x": "Olmos va grafit — ikkalasi ham uglerod, faqat atomlari turlicha joylashgan."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_14",
+   "t": "choice",
+   "q": "Tabiiy gazning asosiy qismi qaysi modda?",
+   "a": "Metan",
+   "w": [
+    "Kislorod",
+    "Azot",
+    "Suv bug‘i"
+   ],
+   "d": 3,
+   "x": "Metan — CH₄, uglerod va vodoroddan tuzilgan murakkab modda."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_15",
+   "t": "match",
+   "q": "Moddani turi bilan juftlang",
+   "pairs": [
+    [
+     "O₂",
+     "oddiy modda, nometall"
+    ],
+    [
+     "Fe",
+     "oddiy modda, metall"
+    ],
+    [
+     "H₂O",
+     "murakkab modda"
+    ],
+    [
+     "Havo",
+     "aralashma"
+    ],
+    [
+     "Simob",
+     "suyuq metall"
+    ]
+   ],
+   "d": 2,
+   "x": "Moddalar tarkibiga qarab turlarga ajratiladi."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_16",
+   "t": "match",
+   "q": "Moddani formulasi bilan juftlang",
+   "pairs": [
+    [
+     "Suv",
+     "H₂O"
+    ],
+    [
+     "Karbonat angidrid",
+     "CO₂"
+    ],
+    [
+     "Osh tuzi",
+     "NaCl"
+    ],
+    [
+     "Metan",
+     "CH₄"
+    ],
+    [
+     "Kislorod",
+     "O₂"
+    ],
+    [
+     "Azot",
+     "N₂"
+    ]
+   ],
+   "d": 3,
+   "x": "Formula moddaning tarkibini ko‘rsatadi."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_17",
+   "t": "choice",
+   "q": "100 litr havoda taxminan necha litr kislorod bor? Havoning 21 foizi kislorod.",
+   "a": "21 l",
+   "w": [
+    "78 l",
+    "79 l",
+    "42 l",
+    "50 l"
+   ],
+   "d": 2,
+   "x": "100 · 21 : 100 = 21 l."
+  },
+  {
+   "topic": "science_g6.substances",
+   "id": "substances_18",
+   "t": "choice",
+   "q": "500 litr havoda taxminan necha litr kislorod bor? Havoning 21 foizi kislorod.",
+   "a": "105 l",
+   "w": [
+    "390 l",
+    "395 l",
+    "210 l",
+    "250 l"
+   ],
+   "d": 3,
+   "x": "500 · 21 : 100 = 105 l."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_1",
+   "t": "choice",
+   "q": "Hujayrasida shakllangan yadrosi bo‘lmagan organizmlar qaysilar?",
+   "a": "Bakteriyalar",
+   "w": [
+    "Zamburug‘lar",
+    "O‘simliklar",
+    "Hayvonlar"
+   ],
+   "d": 1,
+   "x": "Bakteriyalarning irsiy moddasi hujayrada erkin joylashgan."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_2",
+   "t": "choice",
+   "q": "Fotosintez qila oladigan organizmlar qaysilar?",
+   "a": "O‘simliklar",
+   "w": [
+    "Zamburug‘lar",
+    "Hayvonlar",
+    "Viruslar"
+   ],
+   "d": 1,
+   "x": "O‘simliklarda xlorofill bor, ular Quyosh nurida oziq tayyorlaydi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_3",
+   "t": "choice",
+   "q": "Qo‘ziqorin qaysi guruhga kiradi?",
+   "a": "Zamburug‘lar",
+   "w": [
+    "O‘simliklar",
+    "Hayvonlar",
+    "Bakteriyalar"
+   ],
+   "d": 1,
+   "x": "Qo‘ziqorinda xlorofill yo‘q, u sporalar bilan ko‘payadi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_4",
+   "t": "choice",
+   "q": "Non xamirini ko‘pchitadigan organizm qaysi?",
+   "a": "Achitqi zamburug‘i",
+   "w": [
+    "Mog‘or",
+    "Yomg‘ir chuvalchangi",
+    "Suvo‘t"
+   ],
+   "d": 1,
+   "x": "Achitqi karbonat angidrid gazini chiqaradi, xamir ko‘pchiydi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_5",
+   "t": "choice",
+   "q": "Qatiq va pishloq tayyorlashda qaysi organizmlar ishtirok etadi?",
+   "a": "Sut achituvchi bakteriyalar",
+   "w": [
+    "Mog‘or zamburug‘lari",
+    "Suvo‘tlar",
+    "Hasharotlar"
+   ],
+   "d": 1,
+   "x": "Sut achituvchi bakteriyalar sutni qatiqqa aylantiradi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_6",
+   "t": "choice",
+   "q": "Zamburug‘lar qanday ko‘payadi?",
+   "a": "Sporalar bilan",
+   "w": [
+    "Urug‘ bilan",
+    "Tuxum bilan",
+    "Piyozbosh bilan"
+   ],
+   "d": 1,
+   "x": "Spora — juda mayda ko‘payish hujayrasi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_7",
+   "t": "choice",
+   "q": "Tasnifning asosiy birligi qaysi?",
+   "a": "Tur",
+   "w": [
+    "Oila",
+    "Sinf",
+    "Dunyo"
+   ],
+   "d": 1,
+   "x": "Tur — o‘xshash, o‘zaro chatishib nasl beradigan organizmlar guruhi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_8",
+   "t": "tf",
+   "q": "Zamburug‘lar fotosintez qiladi.",
+   "a": false,
+   "d": 1,
+   "x": "Zamburug‘larda xlorofill yo‘q, ular tayyor organik modda bilan oziqlanadi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_9",
+   "t": "tf",
+   "q": "Barcha bakteriyalar zararli.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘p bakteriyalar foydali: qatiq, pishloq tayyorlashda, tuproqda chirindi hosil qilishda."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_10",
+   "t": "tf",
+   "q": "O‘simlik hujayrasida qattiq hujayra devori bor.",
+   "a": true,
+   "d": 1,
+   "x": "Hujayra devori o‘simlikka tayanch bo‘ladi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Qo‘ziqorin",
+    "zamburug‘lar",
+    "guruhiga",
+    "kiradi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_12",
+   "t": "choice",
+   "q": "Nonda paydo bo‘ladigan ko‘kimtir g‘ubor nima?",
+   "a": "Mog‘or zamburug‘i",
+   "w": [
+    "Bakteriya",
+    "Suvo‘t",
+    "Chang"
+   ],
+   "d": 2,
+   "x": "Mog‘or — zamburug‘, mog‘orlagan nonni yeyish mumkin emas."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_13",
+   "t": "choice",
+   "q": "Penitsillin dorisi qaysi organizmdan olingan?",
+   "a": "Mog‘or zamburug‘idan",
+   "w": [
+    "Suvo‘tdan",
+    "Qo‘ziqorindan",
+    "Bakteriyadan"
+   ],
+   "d": 2,
+   "x": "Aleksandr Fleming 1928-yilda penitsill mog‘oridan dori olish mumkinligini aniqlagan."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_14",
+   "t": "choice",
+   "q": "Turlarni ikki so‘zli nomlash usulini kim taklif qilgan?",
+   "a": "Karl Linney",
+   "w": [
+    "Charlz Darvin",
+    "Isaak Nyuton",
+    "Ibn Sino"
+   ],
+   "d": 2,
+   "x": "Linney har bir turga avlod va tur nomidan iborat ikki so‘zli nom bergan."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_15",
+   "t": "choice",
+   "q": "Archa va qarag‘ay o‘simliklarning qaysi guruhiga kiradi?",
+   "a": "Ochiq urug‘lilar",
+   "w": [
+    "Yopiq urug‘lilar",
+    "Yo‘sinlar",
+    "Suvo‘tlar"
+   ],
+   "d": 3,
+   "x": "Ularning urug‘i meva ichida yetilmaydi, qubbalarda hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_16",
+   "t": "choice",
+   "q": "Lishayniklar qanday organizmlar?",
+   "a": "Zamburug‘ va suvo‘t birgalikda",
+   "w": [
+    "Faqat bakteriyalar",
+    "Mayda hasharotlar",
+    "Yosh daraxtlar"
+   ],
+   "d": 3,
+   "x": "Lishaynikda zamburug‘ suv beradi, suvo‘t esa fotosintez bilan oziq tayyorlaydi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_17",
+   "t": "choice",
+   "q": "Qaysi organizmlar hujayrali tuzilishga ega emas?",
+   "a": "Viruslar",
+   "w": [
+    "Bakteriyalar",
+    "Zamburug‘lar",
+    "Suvo‘tlar"
+   ],
+   "d": 3,
+   "x": "Viruslar faqat boshqa organizm hujayrasi ichida ko‘payadi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_18",
+   "t": "match",
+   "q": "Organizmni guruhi bilan juftlang",
+   "pairs": [
+    [
+     "Achitqi",
+     "zamburug‘"
+    ],
+    [
+     "Sut achituvchi bakteriya",
+     "bakteriya"
+    ],
+    [
+     "Qarag‘ay",
+     "o‘simlik"
+    ],
+    [
+     "Chayon",
+     "hayvon"
+    ],
+    [
+     "Mog‘or",
+     "mikroskopik zamburug‘"
+    ],
+    [
+     "Suvo‘t",
+     "suvda o‘suvchi o‘simlik"
+    ]
+   ],
+   "d": 2,
+   "x": "Guruh oziqlanish va hujayra tuzilishiga qarab aniqlanadi."
+  },
+  {
+   "topic": "science_g6.classification",
+   "id": "classification_19",
+   "t": "match",
+   "q": "Guruhni belgisi bilan juftlang",
+   "pairs": [
+    [
+     "Bakteriyalar",
+     "shakllangan yadrosi yo‘q"
+    ],
+    [
+     "Zamburug‘lar",
+     "sporalar bilan ko‘payadi"
+    ],
+    [
+     "O‘simliklar",
+     "fotosintez qiladi"
+    ],
+    [
+     "Hayvonlar",
+     "tayyor oziq yeydi, faol harakatlanadi"
+    ],
+    [
+     "Viruslar",
+     "hujayrasi yo‘q"
+    ]
+   ],
+   "d": 3,
+   "x": "Har bir guruhning o‘ziga xos belgilari bor."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_1",
+   "t": "choice",
+   "q": "Qaysi biri o‘simlikning vegetativ a’zosi?",
+   "a": "Barg",
+   "w": [
+    "Gul",
+    "Meva",
+    "Urug‘"
+   ],
+   "d": 1,
+   "x": "Vegetativ a’zolar — ildiz, poya, barg."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_2",
+   "t": "choice",
+   "q": "Qaysi biri generativ (ko‘payish) a’zosi?",
+   "a": "Gul",
+   "w": [
+    "Ildiz",
+    "Poya",
+    "Barg"
+   ],
+   "d": 1,
+   "x": "Gul, meva va urug‘ ko‘payishga xizmat qiladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_3",
+   "t": "choice",
+   "q": "Bug‘doyning ildiz tizimi qanday?",
+   "a": "Popuk ildiz",
+   "w": [
+    "O‘q ildiz",
+    "Ildizmeva",
+    "Havo ildiz"
+   ],
+   "d": 1,
+   "x": "Bug‘doyda bir xil ingichka ildizlar popuk hosil qiladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_4",
+   "t": "choice",
+   "q": "Loviyaning ildiz tizimi qanday?",
+   "a": "O‘q ildiz",
+   "w": [
+    "Popuk ildiz",
+    "Ildizpoya",
+    "Tuganak"
+   ],
+   "d": 1,
+   "x": "O‘q ildizda bitta asosiy yo‘g‘on ildiz yaxshi rivojlangan."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_5",
+   "t": "choice",
+   "q": "Barg og‘izchalari nima uchun kerak?",
+   "a": "Gaz almashinuvi va suv bug‘lanishi",
+   "w": [
+    "Hasharot tutish",
+    "Urug‘ saqlash",
+    "Tuproqqa yopishish"
+   ],
+   "d": 1,
+   "x": "Og‘izchalar orqali havo kiradi-chiqadi va suv bug‘lanadi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_6",
+   "t": "choice",
+   "q": "O‘simlikni tashqi ta’sirdan himoya qiladigan to‘qima qaysi?",
+   "a": "Qoplovchi to‘qima",
+   "w": [
+    "O‘tkazuvchi to‘qima",
+    "Asosiy to‘qima",
+    "Hosil qiluvchi to‘qima"
+   ],
+   "d": 1,
+   "x": "Barg po‘sti va daraxt po‘kagi — qoplovchi to‘qima."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_7",
+   "t": "choice",
+   "q": "Ildizdan barglarga suv qaysi to‘qima orqali boradi?",
+   "a": "O‘tkazuvchi to‘qima",
+   "w": [
+    "Qoplovchi to‘qima",
+    "Mexanik to‘qima",
+    "Hosil qiluvchi to‘qima"
+   ],
+   "d": 1,
+   "x": "O‘tkazuvchi to‘qimaning naylari suv va oziqni tashiydi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_8",
+   "t": "tf",
+   "q": "Makkajo‘xori bargi parallel tomirlangan.",
+   "a": true,
+   "d": 1,
+   "x": "Bir urug‘pallali o‘simliklarda barg tomirlari parallel joylashadi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_9",
+   "t": "tf",
+   "q": "Hosil qiluvchi to‘qima hujayralari bo‘linmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Aksincha, ular tez bo‘linib, o‘simlikni o‘stiradi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ildiz",
+    "poya",
+    "va",
+    "barg",
+    "vegetativ",
+    "a’zolar"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_11",
+   "t": "choice",
+   "q": "Ildiz va poya uchidagi o‘sishni qaysi to‘qima ta’minlaydi?",
+   "a": "Hosil qiluvchi to‘qima",
+   "w": [
+    "Qoplovchi to‘qima",
+    "Mexanik to‘qima",
+    "O‘tkazuvchi to‘qima"
+   ],
+   "d": 2,
+   "x": "Hosil qiluvchi to‘qima hujayralari bo‘linib, yangi hujayralar beradi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_12",
+   "t": "choice",
+   "q": "Kartoshka tuganagida kraxmal qaysi to‘qimada to‘planadi?",
+   "a": "Asosiy (zaxira) to‘qimada",
+   "w": [
+    "Qoplovchi to‘qimada",
+    "Mexanik to‘qimada",
+    "O‘tkazuvchi to‘qimada"
+   ],
+   "d": 2,
+   "x": "Asosiy to‘qimaning g‘amlovchi hujayralari zaxira modda to‘playdi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_13",
+   "t": "choice",
+   "q": "Poyaga mustahkamlik beradigan to‘qima qaysi?",
+   "a": "Mexanik to‘qima",
+   "w": [
+    "Asosiy to‘qima",
+    "Qoplovchi to‘qima",
+    "Hosil qiluvchi to‘qima"
+   ],
+   "d": 2,
+   "x": "Mexanik to‘qima tolalari o‘simlikka tayanch bo‘ladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_14",
+   "t": "choice",
+   "q": "Olma bargining tomirlanishi qanday?",
+   "a": "To‘rsimon",
+   "w": [
+    "Parallel",
+    "Yoysimon",
+    "Tomirsiz"
+   ],
+   "d": 2,
+   "x": "Ikki urug‘pallali o‘simliklar bargi to‘rsimon tomirlangan."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_15",
+   "t": "choice",
+   "q": "Barglarda hosil bo‘lgan organik moddalar poya bo‘ylab qayerga tashiladi?",
+   "a": "Pastga, ildizlarga",
+   "w": [
+    "Faqat gulga",
+    "Havoga",
+    "Tuproqqa to‘kiladi"
+   ],
+   "d": 3,
+   "x": "Lub qismidagi elaksimon naylar orqali organik moddalar pastga, ildizga boradi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_16",
+   "t": "choice",
+   "q": "Daraxt tanasida yillik halqalarni qaysi qatlam hosil qiladi?",
+   "a": "Kambiy",
+   "w": [
+    "Po‘kak",
+    "O‘zak",
+    "Barg po‘sti"
+   ],
+   "d": 3,
+   "x": "Kambiy hujayralari bo‘linib, har yili yangi yog‘ochlik qatlamini hosil qiladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_17",
+   "t": "match",
+   "q": "To‘qimani vazifasi bilan juftlang",
+   "pairs": [
+    [
+     "Qoplovchi",
+     "himoya qiladi"
+    ],
+    [
+     "Hosil qiluvchi",
+     "bo‘linib o‘stiradi"
+    ],
+    [
+     "Asosiy",
+     "fotosintez va zaxira"
+    ],
+    [
+     "O‘tkazuvchi",
+     "suv va oziqni tashiydi"
+    ],
+    [
+     "Mexanik",
+     "tayanch bo‘ladi"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir to‘qima o‘z vazifasini bajaradi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_18",
+   "t": "match",
+   "q": "O‘simlikni ildiz tizimi yoki barg tomirlanishi bilan juftlang",
+   "pairs": [
+    [
+     "Bug‘doy",
+     "popuk ildiz"
+    ],
+    [
+     "Kungaboqar",
+     "o‘q ildiz"
+    ],
+    [
+     "Makkajo‘xori bargi",
+     "parallel tomirlanish"
+    ],
+    [
+     "Olma bargi",
+     "to‘rsimon tomirlanish"
+    ],
+    [
+     "Piyoz",
+     "popuk ildiz, parallel tomirlar"
+    ]
+   ],
+   "d": 3,
+   "x": "Bir urug‘pallalilarda popuk ildiz va parallel tomirlar, ikki urug‘pallalilarda o‘q ildiz va to‘rsimon tomirlar."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_19",
+   "t": "choice",
+   "q": "Kesilgan daraxt tanasida 25 ta yillik halqa sanaldi. Daraxt necha yoshda bo‘lgan?",
+   "a": "25 yosh",
+   "w": [
+    "50 yosh",
+    "12 yosh",
+    "35 yosh",
+    "20 yosh"
+   ],
+   "d": 1,
+   "x": "Har yili bitta yillik halqa hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_20",
+   "t": "choice",
+   "q": "Kesilgan daraxt tanasida 40 ta yillik halqa sanaldi. Daraxt necha yoshda bo‘lgan?",
+   "a": "40 yosh",
+   "w": [
+    "80 yosh",
+    "20 yosh",
+    "50 yosh",
+    "35 yosh"
+   ],
+   "d": 1,
+   "x": "Har yili bitta yillik halqa hosil bo‘ladi."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_21",
+   "t": "choice",
+   "q": "Daraxt 2010-yilda ekilib, 2024-yilda kesildi. Tanasida taxminan nechta yillik halqa bor?",
+   "a": "14",
+   "w": [
+    "15",
+    "13",
+    "24",
+    "28"
+   ],
+   "d": 2,
+   "x": "2024 − 2010 = 14: har yili bitta halqa."
+  },
+  {
+   "topic": "science_g6.plant_organs",
+   "id": "plant_organs_22",
+   "t": "choice",
+   "q": "Daraxt 1998-yilda ekilib, 2025-yilda kesildi. Tanasida taxminan nechta yillik halqa bor?",
+   "a": "27",
+   "w": [
+    "28",
+    "26",
+    "37",
+    "54"
+   ],
+   "d": 3,
+   "x": "2025 − 1998 = 27: har yili bitta halqa."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_1",
+   "t": "choice",
+   "q": "Hasharotlarning nechta oyog‘i bor?",
+   "a": "6 ta",
+   "w": [
+    "4 ta",
+    "8 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "Hasharotlarning 3 juft, ya’ni 6 ta oyog‘i bor."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_2",
+   "t": "choice",
+   "q": "O‘rgimchakning nechta oyog‘i bor?",
+   "a": "8 ta",
+   "w": [
+    "6 ta",
+    "4 ta",
+    "10 ta"
+   ],
+   "d": 1,
+   "x": "O‘rgimchaksimonlarning 4 juft oyog‘i bor, ular hasharot emas."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_3",
+   "t": "choice",
+   "q": "Qaysi hayvon umurtqasiz?",
+   "a": "Yomg‘ir chuvalchangi",
+   "w": [
+    "Baqa",
+    "Ilon",
+    "Chumchuq"
+   ],
+   "d": 1,
+   "x": "Chuvalchangda umurtqa pog‘onasi yo‘q."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_4",
+   "t": "choice",
+   "q": "Qaysi hayvon umurtqali?",
+   "a": "Kaltakesak",
+   "w": [
+    "O‘rgimchak",
+    "Shilliqqurt",
+    "Meduza"
+   ],
+   "d": 1,
+   "x": "Kaltakesak — sudralib yuruvchi umurtqali hayvon."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_5",
+   "t": "choice",
+   "q": "Kit qaysi sinfga kiradi?",
+   "a": "Sut emizuvchilar",
+   "w": [
+    "Baliqlar",
+    "Sudralib yuruvchilar",
+    "Qushlar"
+   ],
+   "d": 1,
+   "x": "Kit o‘pka bilan nafas oladi va bolasini sut bilan boqadi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_6",
+   "t": "choice",
+   "q": "Qaysi hayvonlarning tanasi pat bilan qoplangan?",
+   "a": "Qushlar",
+   "w": [
+    "Baliqlar",
+    "Sut emizuvchilar",
+    "Hasharotlar"
+   ],
+   "d": 1,
+   "x": "Pat faqat qushlarga xos."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_7",
+   "t": "choice",
+   "q": "Baliqlar qanday nafas oladi?",
+   "a": "Jabra bilan",
+   "w": [
+    "O‘pka bilan",
+    "Traxeya bilan",
+    "Faqat teri bilan"
+   ],
+   "d": 1,
+   "x": "Jabralar suvda erigan kislorodni o‘zlashtiradi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_8",
+   "t": "choice",
+   "q": "Hasharot tanasi nechta bo‘limdan iborat?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "6 ta"
+   ],
+   "d": 1,
+   "x": "Bosh, ko‘krak va qorin."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_9",
+   "t": "tf",
+   "q": "Ko‘rshapalak — qush.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘rshapalak — uchadigan sut emizuvchi, bolasini sut bilan boqadi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_10",
+   "t": "tf",
+   "q": "Pingvin uchmasa ham qush hisoblanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Pingvinning pati, tumshug‘i bor va tuxum qo‘yadi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_11",
+   "t": "tf",
+   "q": "O‘rgimchak — hasharot.",
+   "a": false,
+   "d": 1,
+   "x": "O‘rgimchakning 8 oyog‘i bor, u o‘rgimchaksimonlarga kiradi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Qushlar",
+    "va",
+    "sut",
+    "emizuvchilar",
+    "issiqqonli"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_13",
+   "t": "choice",
+   "q": "Ilon qaysi sinfga kiradi?",
+   "a": "Sudralib yuruvchilar",
+   "w": [
+    "Suvda hamda quruqlikda yashovchilar",
+    "Baliqlar",
+    "Sut emizuvchilar"
+   ],
+   "d": 2,
+   "x": "Ilonning terisi quruq, muguz tangachalar bilan qoplangan."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_14",
+   "t": "choice",
+   "q": "Baqa qaysi sinfga kiradi?",
+   "a": "Suvda hamda quruqlikda yashovchilar",
+   "w": [
+    "Sudralib yuruvchilar",
+    "Baliqlar",
+    "Qushlar"
+   ],
+   "d": 2,
+   "x": "Baqa lichinkasi suvda jabra bilan, voyaga yetgani o‘pka va teri bilan nafas oladi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_15",
+   "t": "choice",
+   "q": "Sakkizoyoq qaysi guruhga kiradi?",
+   "a": "Mollyuskalar",
+   "w": [
+    "Baliqlar",
+    "Hasharotlar",
+    "Sut emizuvchilar"
+   ],
+   "d": 2,
+   "x": "Sakkizoyoq — yumshoq tanali mollyuska."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_16",
+   "t": "choice",
+   "q": "Bo‘g‘imoyoqlilar tanasini tashqaridan nima qoplab turadi?",
+   "a": "Qattiq xitin qoplam",
+   "w": [
+    "Pat",
+    "Jun",
+    "Shilimshiq teri"
+   ],
+   "d": 2,
+   "x": "Xitin qoplam — tashqi skelet, o‘sish uchun hayvon uni tullab tashlaydi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_17",
+   "t": "choice",
+   "q": "Qaysi hayvonlarning yuragi 2 kamerali?",
+   "a": "Baliqlar",
+   "w": [
+    "Qushlar",
+    "Sut emizuvchilar",
+    "Odam"
+   ],
+   "d": 3,
+   "x": "Baliq yuragida bitta bo‘lmacha va bitta qorincha bor."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_18",
+   "t": "choice",
+   "q": "Qaysi hayvonlar issiqqonli?",
+   "a": "Qushlar va sut emizuvchilar",
+   "w": [
+    "Baliqlar va baqalar",
+    "Ilon va toshbaqalar",
+    "Hasharotlar"
+   ],
+   "d": 2,
+   "x": "Ularning tana harorati atrof-muhitga bog‘liq bo‘lmay, doimiy saqlanadi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_19",
+   "t": "match",
+   "q": "Hayvonni sinfi yoki guruhi bilan juftlang",
+   "pairs": [
+    [
+     "Akula",
+     "baliqlar"
+    ],
+    [
+     "Baqa",
+     "suvda-quruqlikda yashovchilar"
+    ],
+    [
+     "Toshbaqa",
+     "sudralib yuruvchilar"
+    ],
+    [
+     "Tuyaqush",
+     "qushlar"
+    ],
+    [
+     "Delfin",
+     "sut emizuvchilar"
+    ],
+    [
+     "Chayon",
+     "o‘rgimchaksimonlar"
+    ]
+   ],
+   "d": 2,
+   "x": "Tashqi ko‘rinish aldashi mumkin: delfin baliqqa o‘xshasa ham sut emizuvchi."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_20",
+   "t": "choice",
+   "q": "2 ta o‘rgimchak va 3 ta chumolining jami nechta oyog‘i bor?",
+   "a": "34",
+   "w": [
+    "30",
+    "40",
+    "36",
+    "32"
+   ],
+   "d": 2,
+   "x": "O‘rgimchak — 8 oyoqli, chumoli — 6 oyoqli: 2 · 8 + 3 · 6 = 34."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_21",
+   "t": "choice",
+   "q": "1 ta chayon va 4 ta qo‘ng‘izning jami nechta oyog‘i bor?",
+   "a": "32",
+   "w": [
+    "30",
+    "40",
+    "34"
+   ],
+   "d": 3,
+   "x": "Chayon — 8 oyoqli, qo‘ng‘iz — 6 oyoqli: 1 · 8 + 4 · 6 = 32."
+  },
+  {
+   "topic": "science_g6.animals",
+   "id": "animals_22",
+   "t": "choice",
+   "q": "5 ta kapalak va 1 ta o‘rgimchakning jami nechta oyog‘i bor?",
+   "a": "38",
+   "w": [
+    "36",
+    "48",
+    "40"
+   ],
+   "d": 3,
+   "x": "Kapalak — 6 oyoqli, o‘rgimchak — 8 oyoqli: 5 · 6 + 1 · 8 = 38."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_1",
+   "t": "choice",
+   "q": "Yer po‘stining silkinishi nima deyiladi?",
+   "a": "Zilzila",
+   "w": [
+    "Sunami",
+    "Vulqon",
+    "Ko‘chki"
+   ],
+   "d": 1,
+   "x": "Zilzila — yer qimirlashi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_2",
+   "t": "choice",
+   "q": "Zilzilani yozib oladigan asbob qaysi?",
+   "a": "Seysmograf",
+   "w": [
+    "Barometr",
+    "Termometr",
+    "Kompas"
+   ],
+   "d": 1,
+   "x": "Seysmograf yer tebranishlarini qog‘oz yoki ekranda chizib beradi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_3",
+   "t": "choice",
+   "q": "Vulqondan yer yuzasiga oqib chiqqan qaynoq tog‘ jinsi nima deyiladi?",
+   "a": "Lava",
+   "w": [
+    "Qum",
+    "Muz",
+    "Loy"
+   ],
+   "d": 1,
+   "x": "Yer ichidagi magma yer yuzasiga chiqqach lava deyiladi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_4",
+   "t": "choice",
+   "q": "Vulqon cho‘qqisidagi voronkasimon chuqurlik nima deyiladi?",
+   "a": "Krater",
+   "w": [
+    "Episentr",
+    "Plita",
+    "Daryo o‘zani"
+   ],
+   "d": 1,
+   "x": "Krater orqali lava, gaz va kul otilib chiqadi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_5",
+   "t": "choice",
+   "q": "Zilzila o‘chog‘i ustidagi yer yuzasi nuqtasi nima deyiladi?",
+   "a": "Episentr",
+   "w": [
+    "Krater",
+    "Kon",
+    "Qutb"
+   ],
+   "d": 1,
+   "x": "Episentrda silkinish eng kuchli seziladi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_6",
+   "t": "choice",
+   "q": "Okean tubidagi kuchli zilziladan hosil bo‘lgan ulkan to‘lqin nima?",
+   "a": "Sunami",
+   "w": [
+    "Briz",
+    "Geyzer",
+    "Kamalak"
+   ],
+   "d": 1,
+   "x": "Sunami qirg‘oqqa yetganda juda katta vayronagarchilik keltiradi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_7",
+   "t": "choice",
+   "q": "Zilzila paytida xonada bo‘lsangiz, qayerda panalash xavfsizroq?",
+   "a": "Mustahkam stol tagida",
+   "w": [
+    "Deraza yonida",
+    "Liftda",
+    "Shkaf ustida"
+   ],
+   "d": 1,
+   "x": "Mustahkam stol tushayotgan buyumlardan himoya qiladi, derazalardan uzoq turish kerak."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_8",
+   "t": "tf",
+   "q": "O‘zbekiston seysmik faol hududda joylashgan.",
+   "a": true,
+   "d": 1,
+   "x": "O‘zbekistonda vaqti-vaqti bilan zilzilalar bo‘lib turadi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_9",
+   "t": "tf",
+   "q": "Litosfera plitalari umuman harakatlanmaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Plitalar yiliga bir necha santimetr siljiydi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_10",
+   "t": "tf",
+   "q": "Zilzila paytida liftdan foydalanish mumkin.",
+   "a": false,
+   "d": 1,
+   "x": "Lift to‘xtab qolishi yoki shikastlanishi mumkin."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Seysmograf",
+    "zilzilani",
+    "yozib",
+    "oladi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_12",
+   "t": "choice",
+   "q": "Toshkentdagi kuchli zilzila qaysi yilda bo‘lgan?",
+   "a": "1966-yilda",
+   "w": [
+    "1920-yilda",
+    "1991-yilda",
+    "2000-yilda"
+   ],
+   "d": 2,
+   "x": "1966-yil 26-aprelda Toshkentda kuchli zilzila bo‘lib, shahar qayta qurilgan."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_13",
+   "t": "choice",
+   "q": "Vaqti-vaqti bilan otilib chiqadigan issiq suv favvorasi nima?",
+   "a": "Geyzer",
+   "w": [
+    "Buloq",
+    "Sharshara",
+    "Sunami"
+   ],
+   "d": 2,
+   "x": "Geyzerlar Islandiya va Kamchatkada ko‘p."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_14",
+   "t": "choice",
+   "q": "Italiyadagi mashhur vulqon qaysi?",
+   "a": "Vezuviy",
+   "w": [
+    "Jomolungma",
+    "Elbrus",
+    "Hazrati Sulton"
+   ],
+   "d": 2,
+   "x": "Vezuviy otilishi qadimgi Pompey shahrini kul ostida qoldirgan."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_15",
+   "t": "choice",
+   "q": "Himolay tog‘lari qanday hosil bo‘lgan?",
+   "a": "Litosfera plitalari to‘qnashuvidan",
+   "w": [
+    "Vulqon kulidan",
+    "Daryo yotqiziqlaridan",
+    "Muzlik erishidan"
+   ],
+   "d": 2,
+   "x": "Plitalar bir-biriga siqilib, yer po‘sti burmalanib ko‘tarilgan."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_16",
+   "t": "choice",
+   "q": "Tog‘ jinslarining harorat, suv va shamol ta’sirida yemirilishi nima deyiladi?",
+   "a": "Nurash",
+   "w": [
+    "Zilzila",
+    "Vulqon otilishi",
+    "Konveksiya"
+   ],
+   "d": 3,
+   "x": "Nurash natijasida qoyalar sekin-asta qum va tuproqqa aylanadi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_17",
+   "t": "choice",
+   "q": "Yer ichidagi erigan qaynoq tog‘ jinsi nima deyiladi?",
+   "a": "Magma",
+   "w": [
+    "Lava",
+    "Kul",
+    "Bazalt"
+   ],
+   "d": 3,
+   "x": "Magma yer yuzasiga chiqqach, lava deb ataladi."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_18",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "O‘choq",
+     "zilzila boshlangan joy"
+    ],
+    [
+     "Episentr",
+     "o‘choq ustidagi yer yuzasi nuqtasi"
+    ],
+    [
+     "Krater",
+     "vulqon cho‘qqisidagi chuqurlik"
+    ],
+    [
+     "Lava",
+     "yer yuzasiga chiqqan magma"
+    ],
+    [
+     "Sunami",
+     "zilziladan hosil bo‘lgan ulkan to‘lqin"
+    ],
+    [
+     "Seysmograf",
+     "tebranishni yozuvchi asbob"
+    ]
+   ],
+   "d": 2,
+   "x": "Yer po‘sti harakatlariga oid asosiy tushunchalar."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_19",
+   "t": "choice",
+   "q": "Litosfera plitasi yiliga 5 sm siljiydi. 100 yilda qancha siljiydi?",
+   "a": "500 sm",
+   "w": [
+    "105 sm",
+    "50 sm",
+    "5000 sm",
+    "1000 sm"
+   ],
+   "d": 2,
+   "x": "5 · 100 = 500 sm."
+  },
+  {
+   "topic": "science_g6.earth_crust",
+   "id": "earth_crust_20",
+   "t": "choice",
+   "q": "Litosfera plitasi yiliga 3 sm siljiydi. 1000 yilda qancha siljiydi?",
+   "a": "30 m",
+   "w": [
+    "3 m",
+    "300 m",
+    "60 m",
+    "15 m"
+   ],
+   "d": 3,
+   "x": "3 · 1000 = 3000 sm = 30 m."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_1",
+   "t": "choice",
+   "q": "Ma’lum joydagi ko‘p yillik ob-havo tartibi nima deyiladi?",
+   "a": "Iqlim",
+   "w": [
+    "Ob-havo",
+    "Shamol",
+    "Yog‘in"
+   ],
+   "d": 1,
+   "x": "Ob-havo tez o‘zgaradi, iqlim esa ko‘p yillar davomida saqlanadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_2",
+   "t": "choice",
+   "q": "Shamol yo‘nalishini qaysi asbob ko‘rsatadi?",
+   "a": "Flyuger",
+   "w": [
+    "Barometr",
+    "Termometr",
+    "Gigrometr"
+   ],
+   "d": 1,
+   "x": "Flyuger shamolga qarab buriladi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_3",
+   "t": "choice",
+   "q": "Shamol tezligini qaysi asbob o‘lchaydi?",
+   "a": "Anemometr",
+   "w": [
+    "Flyuger",
+    "Barometr",
+    "Termometr"
+   ],
+   "d": 1,
+   "x": "Anemometr parraklari shamolda aylanib, tezlikni ko‘rsatadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_4",
+   "t": "choice",
+   "q": "Havo namligini qaysi asbob o‘lchaydi?",
+   "a": "Gigrometr",
+   "w": [
+    "Barometr",
+    "Spidometr",
+    "Anemometr"
+   ],
+   "d": 1,
+   "x": "Gigrometr havodagi suv bug‘i miqdorini ko‘rsatadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_5",
+   "t": "choice",
+   "q": "Shamol qayerdan qayerga esadi?",
+   "a": "Yuqori bosimdan past bosimga",
+   "w": [
+    "Past bosimdan yuqori bosimga",
+    "Faqat shimoldan janubga",
+    "Faqat tog‘dan cho‘lga"
+   ],
+   "d": 1,
+   "x": "Havo bosim farqi tufayli harakatlanadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_6",
+   "t": "choice",
+   "q": "Ob-havoni bashorat qiluvchi mutaxassis kim?",
+   "a": "Sinoptik",
+   "w": [
+    "Geolog",
+    "Astronom",
+    "Seysmolog"
+   ],
+   "d": 1,
+   "x": "Sinoptiklar meteostansiya ma’lumotlari asosida ob-havoni oldindan aytadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_7",
+   "t": "choice",
+   "q": "O‘zbekiston iqlimi qanday?",
+   "a": "Keskin kontinental",
+   "w": [
+    "Ekvatorial",
+    "Qutbiy",
+    "Musson"
+   ],
+   "d": 1,
+   "x": "Yozi issiq va quruq, qishi sovuq, yog‘in kam."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_8",
+   "t": "tf",
+   "q": "Ob-havo bir kun ichida ham o‘zgarishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Ertalab quyoshli bo‘lsa, kechqurun yomg‘ir yog‘ishi mumkin."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_9",
+   "t": "tf",
+   "q": "Tog‘ga ko‘tarilgan sari havo isiydi.",
+   "a": false,
+   "d": 1,
+   "x": "Balandlikda havo siyrak va sovuq bo‘ladi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Barometr",
+    "atmosfera",
+    "bosimini",
+    "o‘lchaydi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_11",
+   "t": "choice",
+   "q": "Qaysi iqlim mintaqasida yil bo‘yi issiq va nam?",
+   "a": "Ekvatorial",
+   "w": [
+    "Qutbiy",
+    "Mo‘tadil",
+    "Keskin kontinental"
+   ],
+   "d": 2,
+   "x": "Ekvator yaqinida Quyosh tik tushadi va yomg‘ir ko‘p yog‘adi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_12",
+   "t": "choice",
+   "q": "Qaysi iqlim mintaqasida yil bo‘yi sovuq?",
+   "a": "Qutbiy",
+   "w": [
+    "Tropik",
+    "Ekvatorial",
+    "Subtropik"
+   ],
+   "d": 2,
+   "x": "Qutblar yaqinida Quyosh nurlari juda qiya tushadi."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_13",
+   "t": "choice",
+   "q": "Qaysi biri yog‘in turi?",
+   "a": "Do‘l",
+   "w": [
+    "Shamol",
+    "Bosim",
+    "Harorat"
+   ],
+   "d": 2,
+   "x": "Yomg‘ir, qor va do‘l — yog‘in turlari."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_14",
+   "t": "choice",
+   "q": "Dengiz bo‘yida kunduzi shamol qayerdan esadi?",
+   "a": "Dengizdan quruqlikka",
+   "w": [
+    "Quruqlikdan dengizga",
+    "Tog‘dan tog‘ga",
+    "Faqat yuqoridan"
+   ],
+   "d": 3,
+   "x": "Kunduzi quruqlik tez isiydi, uning ustida bosim pasayadi va dengizdan salqin havo keladi — bu briz."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_15",
+   "t": "match",
+   "q": "Asbobni o‘lchaydigan kattaligi bilan juftlang",
+   "pairs": [
+    [
+     "Termometr",
+     "harorat"
+    ],
+    [
+     "Barometr",
+     "atmosfera bosimi"
+    ],
+    [
+     "Flyuger",
+     "shamol yo‘nalishi"
+    ],
+    [
+     "Anemometr",
+     "shamol tezligi"
+    ],
+    [
+     "Gigrometr",
+     "havo namligi"
+    ],
+    [
+     "Yog‘in o‘lchagich",
+     "yog‘in miqdori"
+    ]
+   ],
+   "d": 2,
+   "x": "Meteostansiyada bu asboblarning hammasi bor."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_16",
+   "t": "choice",
+   "q": "Sutka davomida harorat o‘lchandi: 2 °C, 8 °C, 14 °C, 8 °C. O‘rtacha sutkalik harorat qancha?",
+   "a": "8 °C",
+   "w": [
+    "32 °C",
+    "14 °C",
+    "2 °C",
+    "10 °C"
+   ],
+   "d": 2,
+   "x": "(2 + 8 + 14 + 8) : 4 = 8 °C.",
+   "say": "Sutka davomida harorat o‘lchandi: 2 °C, 8 °C, 14 °C, 8 °C. O‘rtacha sutkalik harorat qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_17",
+   "t": "choice",
+   "q": "Sutka davomida harorat o‘lchandi: −4 °C, 0 °C, 6 °C, 2 °C. O‘rtacha sutkalik harorat qancha?",
+   "a": "1 °C",
+   "w": [
+    "4 °C",
+    "6 °C",
+    "−4 °C",
+    "3 °C"
+   ],
+   "d": 3,
+   "x": "(−4 + 0 + 6 + 2) : 4 = 1 °C.",
+   "say": "Sutka davomida harorat o‘lchandi: minus 4 °C, 0 °C, 6 °C, 2 °C. O‘rtacha sutkalik harorat qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_18",
+   "t": "choice",
+   "q": "Sutka davomida harorat o‘lchandi: 12 °C, 18 °C, 26 °C, 20 °C. O‘rtacha sutkalik harorat qancha?",
+   "a": "19 °C",
+   "w": [
+    "76 °C",
+    "26 °C",
+    "12 °C",
+    "21 °C"
+   ],
+   "d": 2,
+   "x": "(12 + 18 + 26 + 20) : 4 = 19 °C.",
+   "say": "Sutka davomida harorat o‘lchandi: 12 °C, 18 °C, 26 °C, 20 °C. O‘rtacha sutkalik harorat qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_19",
+   "t": "choice",
+   "q": "Kun davomida eng past harorat 3 °C, eng yuqori 15 °C bo‘ldi. Harorat amplitudasi qancha?",
+   "a": "12 °C",
+   "w": [
+    "18 °C",
+    "15 °C",
+    "3 °C",
+    "14 °C"
+   ],
+   "d": 2,
+   "x": "Amplituda — eng yuqori va eng past harorat farqi: 15 − 3 = 12 °C.",
+   "say": "Kun davomida eng past harorat 3 °C, eng yuqori 15 °C bo‘ldi. Harorat amplitudasi qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_20",
+   "t": "choice",
+   "q": "Kun davomida eng past harorat −6 °C, eng yuqori 9 °C bo‘ldi. Harorat amplitudasi qancha?",
+   "a": "15 °C",
+   "w": [
+    "3 °C",
+    "9 °C",
+    "6 °C",
+    "17 °C"
+   ],
+   "d": 3,
+   "x": "Amplituda — eng yuqori va eng past harorat farqi: 9 − (−6) = 15 °C.",
+   "say": "Kun davomida eng past harorat minus 6 °C, eng yuqori 9 °C bo‘ldi. Harorat amplitudasi qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_21",
+   "t": "choice",
+   "q": "Kun davomida eng past harorat 18 °C, eng yuqori 34 °C bo‘ldi. Harorat amplitudasi qancha?",
+   "a": "16 °C",
+   "w": [
+    "52 °C",
+    "34 °C",
+    "18 °C"
+   ],
+   "d": 2,
+   "x": "Amplituda — eng yuqori va eng past harorat farqi: 34 − 18 = 16 °C.",
+   "say": "Kun davomida eng past harorat 18 °C, eng yuqori 34 °C bo‘ldi. Harorat amplitudasi qancha?"
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_22",
+   "t": "choice",
+   "q": "Tog‘ etagida harorat 24 °C. Har 1 km balandlikda harorat taxminan 6 °C pasayadi. 3 km balandlikda harorat qancha?",
+   "a": "6 °C",
+   "w": [
+    "42 °C",
+    "21 °C",
+    "18 °C",
+    "0 °C"
+   ],
+   "d": 3,
+   "x": "24 − 6 · 3 = 6 °C."
+  },
+  {
+   "topic": "science_g6.weather_climate",
+   "id": "weather_climate_23",
+   "t": "choice",
+   "q": "Tog‘ etagida harorat 20 °C. Har 1 km balandlikda harorat taxminan 6 °C pasayadi. 2 km balandlikda harorat qancha?",
+   "a": "8 °C",
+   "w": [
+    "32 °C",
+    "18 °C",
+    "14 °C",
+    "2 °C"
+   ],
+   "d": 2,
+   "x": "20 − 6 · 2 = 8 °C."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_1",
+   "t": "choice",
+   "q": "Ekvatorning geografik kengligi qancha?",
+   "a": "0°",
+   "w": [
+    "90°",
+    "45°",
+    "180°"
+   ],
+   "d": 1,
+   "x": "Kenglik ekvatordan boshlab hisoblanadi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_2",
+   "t": "choice",
+   "q": "Shimoliy qutbning geografik kengligi qancha?",
+   "a": "90° shimoliy",
+   "w": [
+    "0°",
+    "180°",
+    "45° shimoliy"
+   ],
+   "d": 1,
+   "x": "Kenglik qutbda eng katta — 90°."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_3",
+   "t": "choice",
+   "q": "Geografik uzoqlik qaysi chiziqdan hisoblanadi?",
+   "a": "Bosh (Grinvich) meridiandan",
+   "w": [
+    "Ekvatordan",
+    "Qutb doirasidan",
+    "Tropikdan"
+   ],
+   "d": 1,
+   "x": "Bosh meridian London yaqinidagi Grinvich rasadxonasidan o‘tadi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_4",
+   "t": "choice",
+   "q": "Qutbdan qutbga o‘tgan chiziqlar nima deyiladi?",
+   "a": "Meridianlar",
+   "w": [
+    "Parallellar",
+    "Gorizontallar",
+    "Ekvatorlar"
+   ],
+   "d": 1,
+   "x": "Barcha meridianlar Shimoliy va Janubiy qutbda tutashadi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_5",
+   "t": "choice",
+   "q": "Ekvatorga parallel o‘tkazilgan aylanalar nima deyiladi?",
+   "a": "Parallellar",
+   "w": [
+    "Meridianlar",
+    "Masshtablar",
+    "Azimutlar"
+   ],
+   "d": 1,
+   "x": "Parallellar kenglikni aniqlashga yordam beradi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_6",
+   "t": "tf",
+   "q": "Eng uzun parallel — ekvator.",
+   "a": true,
+   "d": 1,
+   "x": "Qutbga yaqinlashgan sari parallellar qisqarib boradi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_7",
+   "t": "tf",
+   "q": "Geografik kenglik 0° dan 180° gacha bo‘ladi.",
+   "a": false,
+   "d": 1,
+   "x": "Kenglik 0° dan 90° gacha, uzoqlik esa 0° dan 180° gacha."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_8",
+   "t": "tf",
+   "q": "O‘zbekiston shimoliy kenglik va sharqiy uzoqlikda joylashgan.",
+   "a": true,
+   "d": 1,
+   "x": "Toshkent — taxminan 41° shimoliy kenglik, 69° sharqiy uzoqlik."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Meridianlar",
+    "qutbdan",
+    "qutbga",
+    "o‘tadi"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_10",
+   "t": "choice",
+   "q": "Qaysi masshtab kichik joyni batafsilroq ko‘rsatadi?",
+   "a": "1 : 10 000",
+   "w": [
+    "1 : 1 000 000",
+    "1 : 5 000 000",
+    "1 : 100 000"
+   ],
+   "d": 2,
+   "x": "Ikkinchi son qancha kichik bo‘lsa, masshtab shuncha yirik va batafsil."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_11",
+   "t": "choice",
+   "q": "Bir xil balandlikdagi nuqtalarni tutashtiruvchi chiziqlar nima deyiladi?",
+   "a": "Gorizontallar",
+   "w": [
+    "Parallellar",
+    "Meridianlar",
+    "Masshtablar"
+   ],
+   "d": 3,
+   "x": "Gorizontallar xaritada relyefni ko‘rsatadi."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_12",
+   "t": "match",
+   "q": "Tushunchani ta’rifi bilan juftlang",
+   "pairs": [
+    [
+     "Kenglik",
+     "ekvatordan uzoqlik, 0°–90°"
+    ],
+    [
+     "Uzoqlik",
+     "bosh meridiandan uzoqlik, 0°–180°"
+    ],
+    [
+     "Parallel",
+     "ekvatorga parallel aylana"
+    ],
+    [
+     "Meridian",
+     "qutbdan qutbga chiziq"
+    ],
+    [
+     "Masshtab",
+     "kichraytirish darajasi"
+    ],
+    [
+     "Gorizontal",
+     "teng balandliklar chizig‘i"
+    ]
+   ],
+   "d": 2,
+   "x": "Xarita bilan ishlash uchun bu tushunchalarni bilish kerak."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_13",
+   "t": "choice",
+   "q": "Xarita masshtabi 1 : 100 000. Xaritada ikki shahar orasi 4 sm. Haqiqiy masofa qancha?",
+   "a": "4 km",
+   "w": [
+    "40 km",
+    "0,4 km",
+    "8 km"
+   ],
+   "d": 1,
+   "x": "1 sm da 1 km: 4 · 1 = 4 km.",
+   "say": "Xarita masshtabi birga 100 000. Xaritada ikki shahar orasi 4 sm. Haqiqiy masofa qancha?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_14",
+   "t": "choice",
+   "q": "Xarita masshtabi 1 : 50 000. Xaritada ikki shahar orasi 6 sm. Haqiqiy masofa qancha?",
+   "a": "3 km",
+   "w": [
+    "30 km",
+    "0,3 km",
+    "6 km",
+    "9 km"
+   ],
+   "d": 2,
+   "x": "1 sm da 0,5 km: 6 · 0,5 = 3 km.",
+   "say": "Xarita masshtabi birga 50 000. Xaritada ikki shahar orasi 6 sm. Haqiqiy masofa qancha?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_15",
+   "t": "choice",
+   "q": "Xarita masshtabi 1 : 1 000 000. Xaritada ikki shahar orasi 3 sm. Haqiqiy masofa qancha?",
+   "a": "30 km",
+   "w": [
+    "300 km",
+    "3 km",
+    "33 km"
+   ],
+   "d": 2,
+   "x": "1 sm da 10 km: 3 · 10 = 30 km.",
+   "say": "Xarita masshtabi birga 1 000 000. Xaritada ikki shahar orasi 3 sm. Haqiqiy masofa qancha?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_16",
+   "t": "choice",
+   "q": "Xarita masshtabi 1 : 200 000. Xaritada ikki shahar orasi 5 sm. Haqiqiy masofa qancha?",
+   "a": "10 km",
+   "w": [
+    "100 km",
+    "1 km",
+    "5 km",
+    "15 km"
+   ],
+   "d": 2,
+   "x": "1 sm da 2 km: 5 · 2 = 10 km.",
+   "say": "Xarita masshtabi birga 200 000. Xaritada ikki shahar orasi 5 sm. Haqiqiy masofa qancha?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_17",
+   "t": "choice",
+   "q": "Masshtab 1 : 200 000. Haqiqiy masofa 12 km. Xaritada bu masofa necha santimetr bo‘ladi?",
+   "a": "6 sm",
+   "w": [
+    "12 sm",
+    "60 sm",
+    "8 sm"
+   ],
+   "d": 3,
+   "x": "1 sm da 2 km: 12 : 2 = 6 sm.",
+   "say": "Masshtab birga 200 000. Haqiqiy masofa 12 km. Xaritada bu masofa necha santimetr bo‘ladi?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_18",
+   "t": "choice",
+   "q": "Masshtab 1 : 500 000. Haqiqiy masofa 20 km. Xaritada bu masofa necha santimetr bo‘ladi?",
+   "a": "4 sm",
+   "w": [
+    "20 sm",
+    "40 sm",
+    "6 sm",
+    "2 sm"
+   ],
+   "d": 3,
+   "x": "1 sm da 5 km: 20 : 5 = 4 sm.",
+   "say": "Masshtab birga 500 000. Haqiqiy masofa 20 km. Xaritada bu masofa necha santimetr bo‘ladi?"
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_19",
+   "t": "choice",
+   "q": "1 : 500 000 sonli masshtabni nomli masshtabga aylantiring.",
+   "a": "1 sm da 5 km",
+   "w": [
+    "1 sm da 500 000 km",
+    "1 sm da 500 km",
+    "1 sm da 50 000 m"
+   ],
+   "d": 2,
+   "x": "500 000 sm = 5000 m = 5 km.",
+   "say": "birga 500 000 sonli masshtabni nomli masshtabga aylantiring."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_20",
+   "t": "choice",
+   "q": "1 : 10 000 sonli masshtabni nomli masshtabga aylantiring.",
+   "a": "1 sm da 100 m",
+   "w": [
+    "1 sm da 10 000 km",
+    "1 sm da 10 km",
+    "1 sm da 1000 m"
+   ],
+   "d": 3,
+   "x": "10 000 sm = 100 m.",
+   "say": "birga 10 000 sonli masshtabni nomli masshtabga aylantiring."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_21",
+   "t": "choice",
+   "q": "Ikki nuqta bir meridianda: biri 40°, ikkinchisi 45° shimoliy kenglikda. Ular orasi taxminan necha km? Meridianning 1° yoyi taxminan 111 km.",
+   "a": "555 km",
+   "w": [
+    "500 km",
+    "5 km",
+    "666 km",
+    "943 km"
+   ],
+   "d": 2,
+   "x": "Kengliklar farqi 45° − 40° = 5°, 5 · 111 = 555 km."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_22",
+   "t": "choice",
+   "q": "Ikki nuqta bir meridianda: biri 38°, ikkinchisi 44° shimoliy kenglikda. Ular orasi taxminan necha km? Meridianning 1° yoyi taxminan 111 km.",
+   "a": "666 km",
+   "w": [
+    "600 km",
+    "6 km",
+    "777 km",
+    "910 km"
+   ],
+   "d": 3,
+   "x": "Kengliklar farqi 44° − 38° = 6°, 6 · 111 = 666 km."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_23",
+   "t": "choice",
+   "q": "Cho‘qqining mutlaq balandligi 1200 m, tog‘ etagi 700 m balandlikda. Cho‘qqining nisbiy balandligi qancha?",
+   "a": "500 m",
+   "w": [
+    "1900 m",
+    "1200 m",
+    "700 m",
+    "600 m"
+   ],
+   "d": 2,
+   "x": "Nisbiy balandlik — etakdan cho‘qqigacha: 1200 − 700 = 500 m."
+  },
+  {
+   "topic": "science_g6.map_coords",
+   "id": "map_coords_24",
+   "t": "choice",
+   "q": "Cho‘qqining mutlaq balandligi 3309 m, tog‘ etagi 1500 m balandlikda. Cho‘qqining nisbiy balandligi qancha?",
+   "a": "1809 m",
+   "w": [
+    "4809 m",
+    "3309 m",
+    "1500 m",
+    "1909 m"
+   ],
+   "d": 3,
+   "x": "Nisbiy balandlik — etakdan cho‘qqigacha: 3309 − 1500 = 1809 m."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_1",
+   "t": "choice",
+   "q": "Qaysi resurs tiklanmaydi?",
+   "a": "Neft",
+   "w": [
+    "O‘rmon",
+    "Quyosh nuri",
+    "Shamol"
+   ],
+   "d": 1,
+   "x": "Neft millionlab yillarda hosil bo‘lgan, qazib olingani qayta tiklanmaydi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_2",
+   "t": "choice",
+   "q": "Qaysi resurs tugamaydigan hisoblanadi?",
+   "a": "Quyosh energiyasi",
+   "w": [
+    "Ko‘mir",
+    "Tabiiy gaz",
+    "Temir rudasi"
+   ],
+   "d": 1,
+   "x": "Quyosh milliardlab yillar davomida nur sochadi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_3",
+   "t": "choice",
+   "q": "Qaysi elektr stansiyasi havoni tutun bilan ifloslamaydi?",
+   "a": "Quyosh elektr stansiyasi",
+   "w": [
+    "Ko‘mirli issiqlik elektr stansiyasi",
+    "Mazutli qozonxona",
+    "Dizel generator"
+   ],
+   "d": 1,
+   "x": "Quyosh panellari yoqilg‘i yoqmaydi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_4",
+   "t": "choice",
+   "q": "Havoni asosan nima ifloslaydi?",
+   "a": "Transport va zavod chiqindilari",
+   "w": [
+    "Daraxtlar",
+    "Yomg‘ir",
+    "Qushlar"
+   ],
+   "d": 1,
+   "x": "Avtomobil va zavod mo‘rilaridan zararli gazlar chiqadi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_5",
+   "t": "choice",
+   "q": "Ekologiya fani nimani o‘rganadi?",
+   "a": "Organizmlar va muhit munosabatini",
+   "w": [
+    "Faqat tog‘ jinslarini",
+    "Faqat yulduzlarni",
+    "Faqat raqamlarni"
+   ],
+   "d": 1,
+   "x": "Ekologiya tirik organizmlarning bir-biri va atrof-muhit bilan aloqasini o‘rganadi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_6",
+   "t": "choice",
+   "q": "Qaysi resurs tiklanadigan?",
+   "a": "O‘rmon",
+   "w": [
+    "Ko‘mir",
+    "Neft",
+    "Oltin"
+   ],
+   "d": 1,
+   "x": "Kesilgan o‘rmon o‘rniga yangi daraxt ekish mumkin."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_7",
+   "t": "tf",
+   "q": "To‘g‘ri foydalanilsa, o‘rmon qayta tiklanishi mumkin.",
+   "a": true,
+   "d": 1,
+   "x": "Buning uchun kesilgan o‘rniga yangi daraxtlar ekiladi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_8",
+   "t": "tf",
+   "q": "Chiqindilarni qayta ishlash tabiiy resurslarni tejaydi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, makulaturadan qog‘oz olinsa, kamroq daraxt kesiladi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_9",
+   "t": "tf",
+   "q": "Shamol energiyasi tugaydigan resurs.",
+   "a": false,
+   "d": 1,
+   "x": "Shamol doim esadi, u tugamaydigan resurs."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quyosh",
+    "energiyasi",
+    "tugamaydigan",
+    "resurs"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_11",
+   "t": "choice",
+   "q": "Havoda karbonat angidrid ko‘payishi qanday hodisani kuchaytiradi?",
+   "a": "Issiqxona effekti",
+   "w": [
+    "Zilzila",
+    "Sunami",
+    "Oy tutilishi"
+   ],
+   "d": 2,
+   "x": "Karbonat angidrid issiqlikni ushlab qolib, sayyorani isitadi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_12",
+   "t": "choice",
+   "q": "Noto‘g‘ri sug‘orish natijasida tuproqda tuz to‘planishi nima deyiladi?",
+   "a": "Sho‘rlanish",
+   "w": [
+    "Eroziya",
+    "Nurash",
+    "Changlanish"
+   ],
+   "d": 2,
+   "x": "Sho‘rlangan tuproqda ekinlar yomon o‘sadi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_13",
+   "t": "choice",
+   "q": "Unumdor yerlarning cho‘lga aylanishi nima deyiladi?",
+   "a": "Cho‘llanish",
+   "w": [
+    "Sho‘rlanish",
+    "Konveksiya",
+    "Kondensatsiya"
+   ],
+   "d": 2,
+   "x": "Daraxt kesish va ortiqcha mol boqish cho‘llanishni tezlashtiradi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_14",
+   "t": "choice",
+   "q": "Tuproqning suv va shamol ta’sirida yuvilib-uchib ketishi nima?",
+   "a": "Eroziya",
+   "w": [
+    "Sho‘rlanish",
+    "Fotosintez",
+    "Diffuziya"
+   ],
+   "d": 3,
+   "x": "Daraxtzorlar va o‘t qoplami tuproqni eroziyadan saqlaydi."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_15",
+   "t": "choice",
+   "q": "“Ekologiya” atamasini fanga kim kiritgan?",
+   "a": "Ernst Gekkel",
+   "w": [
+    "Karl Linney",
+    "Charlz Darvin",
+    "D. I. Mendeleyev"
+   ],
+   "d": 3,
+   "x": "Nemis olimi Ernst Gekkel 1866-yilda bu atamani taklif qilgan."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_16",
+   "t": "match",
+   "q": "Resursni turi bilan juftlang",
+   "pairs": [
+    [
+     "Ko‘mir",
+     "tiklanmaydigan"
+    ],
+    [
+     "O‘rmon",
+     "tiklanadigan"
+    ],
+    [
+     "Quyosh nuri",
+     "tugamaydigan"
+    ],
+    [
+     "Temir rudasi",
+     "qazilma boylik"
+    ],
+    [
+     "Chuchuk suv",
+     "cheklangan, tejash kerak"
+    ]
+   ],
+   "d": 2,
+   "x": "Resurslardan oqilona foydalanish kelajak avlodlar uchun muhim."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_17",
+   "t": "choice",
+   "q": "Ochiq jo‘mrakdan daqiqasiga 6 l suv oqadi. 3 daqiqa tish yuvganda jo‘mrakni yopsak necha litr suv tejaladi?",
+   "a": "18 l",
+   "w": [
+    "9 l",
+    "36 l",
+    "24 l",
+    "12 l"
+   ],
+   "d": 2,
+   "x": "6 · 3 = 18 l."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_18",
+   "t": "choice",
+   "q": "Ochiq jo‘mrakdan daqiqasiga 6 l suv oqadi. 2 daqiqa tish yuvganda jo‘mrakni yopsak, 30 kunda necha litr suv tejaladi?",
+   "a": "360 l",
+   "w": [
+    "8 l",
+    "180 l",
+    "720 l",
+    "12 l"
+   ],
+   "d": 3,
+   "x": "6 · 2 · 30 = 360 l."
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_19",
+   "t": "choice",
+   "q": "Oila oyiga 300 kVt·soat elektr ishlatadi. Agar 10 % tejasa, oyiga qancha elektr tejaladi?",
+   "a": "30 kVt·soat",
+   "w": [
+    "10 kVt·soat",
+    "270 kVt·soat",
+    "60 kVt·soat"
+   ],
+   "d": 2,
+   "x": "300 · 10 : 100 = 30 kVt·soat.",
+   "say": "Oila oyiga 300 kilovatt soat elektr ishlatadi. Agar 10 % tejasa, oyiga qancha elektr tejaladi?"
+  },
+  {
+   "topic": "science_g6.resources",
+   "id": "resources_20",
+   "t": "choice",
+   "q": "Oila oyiga 250 kVt·soat elektr ishlatadi. Agar 20 % tejasa, oyiga qancha elektr tejaladi?",
+   "a": "50 kVt·soat",
+   "w": [
+    "20 kVt·soat",
+    "200 kVt·soat",
+    "100 kVt·soat",
+    "12 kVt·soat"
+   ],
+   "d": 3,
+   "x": "250 · 20 : 100 = 50 kVt·soat.",
+   "say": "Oila oyiga 250 kilovatt soat elektr ishlatadi. Agar 20 % tejasa, oyiga qancha elektr tejaladi?"
+  }
+ ]
+}

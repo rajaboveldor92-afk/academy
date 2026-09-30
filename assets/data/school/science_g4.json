@@ -1,0 +1,717 @@
+{
+ "subject": "science",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Tabiiy fan",
+  "en": "Science",
+  "ru": "Естествознание"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "science_g4.space",
+   "code": "1",
+   "emoji": "🔭",
+   "title": {
+    "uz": "Yer va koinot",
+    "en": "The Earth and space",
+    "ru": "Земля и космос"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Yer, koinot va xarita",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Koinot — cheksiz fazo: unda yulduzlar, sayyoralar, yo‘ldoshlar va boshqa osmon jismlari bor.\n• Quyosh — Yerga eng yaqin yulduz. U o‘zidan yorug‘lik va issiqlik chiqaradi.\n• Quyosh atrofida 8 ta sayyora aylanadi. Yer — Quyoshdan hisoblaganda 3-sayyora, unda hayot bor.\n• Oy — Yerning tabiiy yo‘ldoshi. U Yer atrofini taxminan bir oyda aylanib chiqadi va Quyosh nurini qaytarib yorug‘ ko‘rinadi.\nYer o‘z o‘qi atrofida 24 soatda aylanadi — kecha va kunduz almashadi; Quyosh atrofini 1 yilda aylanib chiqadi."
+   }
+  },
+  {
+   "id": "science_g4.globe_map",
+   "code": "2",
+   "emoji": "🗺️",
+   "title": {
+    "uz": "Globus va xarita",
+    "en": "Globe and map",
+    "ru": "Глобус и карта"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Yer, koinot va xarita",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Globus — Yerning kichraytirilgan hajmli modeli. U ham Yer kabi shar shaklida.\n• Ekvator — Yerni Shimoliy va Janubiy yarimsharlarga ajratuvchi xayoliy chiziq. Shimoliy va Janubiy qutblar ekvatordan eng uzoq nuqtalar.\n• Xarita — Yer yuzasining tekislikdagi kichraytirilgan tasviri. Undagi maxsus belgilar shartli belgilar deyiladi.\n• Ranglar: ko‘k — suv, yashil — pasttekislik, sariq va jigarrang — tepalik va tog‘lar, oq — muzliklar.\nXaritada yuqori tomon — shimol, pastki — janub, o‘ng — sharq, chap — g‘arb."
+   }
+  },
+  {
+   "id": "science_g4.continents",
+   "code": "3",
+   "emoji": "🌏",
+   "title": {
+    "uz": "Materiklar va okeanlar",
+    "en": "Continents and oceans",
+    "ru": "Материки и океаны"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Yer, koinot va xarita",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yer yuzasining katta qismini okean va dengizlar egallaydi, qolgan qismi — quruqlik.\n• 6 ta materik bor: Yevrosiyo, Afrika, Shimoliy Amerika, Janubiy Amerika, Antarktida, Avstraliya.\n• Eng katta materik — Yevrosiyo (O‘zbekiston shu materikda), eng kichigi — Avstraliya, eng sovug‘i — Antarktida, eng issig‘i — Afrika.\n• 5 ta okean bor: Tinch, Atlantika, Hind, Shimoliy Muz va Janubiy okean. Eng katta va eng chuquri — Tinch okeani, eng kichigi — Shimoliy Muz okeani.\nMaterik — okean suvlari bilan o‘ralgan ulkan quruqlik, orol — suv bilan o‘ralgan kichikroq quruqlik."
+   }
+  },
+  {
+   "id": "science_g4.directions",
+   "code": "4",
+   "emoji": "🧭",
+   "title": {
+    "uz": "Ufq tomonlari va kompas",
+    "en": "Cardinal directions and the compass",
+    "ru": "Стороны горизонта и компас"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Yer, koinot va xarita",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ufq — osmon yer bilan tutashgandek ko‘rinadigan chiziq. Asosiy ufq tomonlari: shimol, janub, sharq, g‘arb.\nOraliq tomonlar: shimoli-sharq, shimoli-g‘arb, janubi-sharq, janubi-g‘arb.\n• Kompasning magnitlangan mili doim shimol–janub yo‘nalishida turadi. Kompasni tekis tuting va temir buyumlardan uzoqlashtiring.\n• Quyosh bo‘yicha: ertalab Quyosh sharq tomonda, tushda (bizda) janubda, kechqurun g‘arbda bo‘ladi. Tunda shimolni Qutb yulduzi ko‘rsatadi.\nShimolga qarab tursangiz: orqangizda — janub, o‘ngda — sharq, chapda — g‘arb."
+   }
+  },
+  {
+   "id": "science_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Yer, koinot va xarita",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g4.zones",
+   "code": "5",
+   "emoji": "🏜️",
+   "title": {
+    "uz": "O‘zbekiston tabiat zonalari",
+    "en": "Natural zones of Uzbekistan",
+    "ru": "Природные зоны Узбекистана"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘zbekiston tabiati va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘zbekistonning katta qismini tekislik va cho‘llar, sharq va janubi-sharqini tog‘lar egallaydi. Iqlimi keskin kontinental: yozi issiq va quruq, qishi sovuq.\n• Cho‘l: yog‘in juda kam, yozda jazirama. O‘simliklari — saksovul, yantoq, qandim; hayvonlari — jayron, echkemar, toshbaqa. Eng katta cho‘l — Qizilqum.\n• Adir (dasht): tog‘ etagidagi tepaliklar; bahorda lola va qizg‘aldoqqa burkanadi, yozda o‘tlar quriydi.\n• Tog‘: salqin, yog‘in ko‘proq; archa, yong‘oq, pista o‘sadi; qor qoploni, tog‘ echkisi, ayiq yashaydi. Eng baland nuqta — Hazrati Sulton cho‘qqisi.\n• Vodiy: tog‘lar orasidagi tekislik, tuprog‘i unumdor, suvi ko‘p — bog‘ va dalalar ko‘p. Eng kattasi — Farg‘ona vodiysi."
+   }
+  },
+  {
+   "id": "science_g4.rivers",
+   "code": "6",
+   "emoji": "🏞️",
+   "title": {
+    "uz": "O‘zbekiston daryolari va ko‘llari",
+    "en": "Rivers and lakes of Uzbekistan",
+    "ru": "Реки и озёра Узбекистана"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘zbekiston tabiati va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Daryolar tog‘lardagi qor va muzliklarning erishidan, buloq va yomg‘ir suvlaridan to‘yinadi.\n• Daryo boshlanadigan joy — manba, quyiladigan joy — mansab. Unga qo‘shiladigan kichik daryolar — irmoqlar, suv oqadigan chuqurlik — o‘zan.\n• Eng katta daryolar — Amudaryo va Sirdaryo, ular Orol dengiziga quyilgan. Amudaryo — O‘rta Osiyodagi eng sersuv daryo.\n• Sirdaryo Farg‘ona vodiysida Norin va Qoradaryoning qo‘shilishidan hosil bo‘ladi. Boshqa daryolar: Zarafshon, Chirchiq, Qashqadaryo, Surxondaryo.\nKo‘l va suv omborlari: Orol, Aydarko‘l, Chorvoq. Daryo suvi ekinlarni sug‘orishga va elektr olishga ishlatiladi."
+   }
+  },
+  {
+   "id": "science_g4.minerals",
+   "code": "7",
+   "emoji": "⛏️",
+   "title": {
+    "uz": "Foydali qazilmalar",
+    "en": "Mineral resources",
+    "ru": "Полезные ископаемые"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘zbekiston tabiati va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Foydali qazilmalar — yer bag‘ridan qazib olinadigan va inson foydalanadigan tabiiy boyliklar. Ular to‘plangan joy — kon.\n• Yonuvchi qazilmalar: neft, tabiiy gaz, ko‘mir — yoqilg‘i va energiya manbai.\n• Metall rudalari: oltin, mis, temir, kumush. Misdan elektr simlari, oltindan zargarlik buyumlari yasaladi.\n• Qurilish va boshqa qazilmalar: qum, shag‘al, marmar, ohaktosh, osh tuzi.\nO‘zbekistonda: oltin — Muruntov (Qizilqum), mis — Olmaliq, ko‘mir — Angren, gaz — Buxoro va Qashqadaryo viloyatlari. Qazilmalar tiklanmaydi, ularni tejash kerak."
+   }
+  },
+  {
+   "id": "science_g4.matter",
+   "code": "8",
+   "emoji": "💧",
+   "title": {
+    "uz": "Jismlar va moddalar",
+    "en": "Objects and substances",
+    "ru": "Тела и вещества"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘zbekiston tabiati va moddalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Jism — atrofimizdagi har bir narsa: qalam, tosh, tomchi. Modda — jism nimadan yasalgan bo‘lsa, o‘sha: yog‘och, temir, shisha, suv.\nModdalar uch holatda bo‘ladi:\n• qattiq — shakli va hajmi saqlanadi (muz, tosh, temir);\n• suyuq — oqadi, idish shaklini oladi, hajmi saqlanadi (suv, sut, yog‘);\n• gaz — o‘ziga berilgan butun joyni egallaydi (havo, bug‘, tabiiy gaz).\nIsitilganda ko‘pchilik jismlar kengayadi, sovitilganda torayadi. Tuz va shakar suvda eriydi, qum va bo‘r erimaydi."
+   }
+  },
+  {
+   "id": "science_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. O‘zbekiston tabiati va moddalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g4.habitats",
+   "code": "9",
+   "emoji": "🐟",
+   "title": {
+    "uz": "Tirik organizmlar va yashash muhiti",
+    "en": "Living things and their habitats",
+    "ru": "Живые организмы и среды обитания"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar va inson organizmi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Yashash muhiti — organizm yashaydigan, undan oziq, suv va boshpana oladigan joy.\n• Suv muhiti: baliqlar, delfin, kit, suvo‘tlar. Baliqlar jabra bilan nafas oladi, tanasi suyri, suzgich qanotlari bor.\n• Quruqlik-havo muhiti: ko‘pchilik hayvonlar, qushlar va o‘simliklar. Havoda kislorod ko‘p, lekin harorat tez o‘zgaradi.\n• Tuproq muhiti: yomg‘ir chuvalchangi, ko‘rsichqon, qo‘ng‘iz lichinkalari. Tuproqda qorong‘i va zich.\nOrganizmlar muhitga moslashgan: tuyaning o‘rkachida yog‘ zaxirasi bor, o‘rdak oyog‘ida suzgich parda bor."
+   }
+  },
+  {
+   "id": "science_g4.plant_repro",
+   "code": "10",
+   "emoji": "🌷",
+   "title": {
+    "uz": "O‘simliklarning ko‘payishi",
+    "en": "How plants reproduce",
+    "ru": "Размножение растений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar va inson organizmi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘simliklar ikki xil yo‘l bilan ko‘payadi.\n• Urug‘ bilan: bug‘doy, g‘o‘za, loviya, qovun, kungaboqar. Urug‘ unishi uchun namlik, havo va issiqlik kerak.\n• Vegetativ yo‘l bilan — o‘simlik qismlaridan: qalamcha (tol, terak, uzum), piyozbosh (piyoz, lola, sarimsoq), tuganak (kartoshka), ildizpoya (ajriq), mo‘ylov (qulupnay).\nUrug‘larni shamol (qoqio‘t), suv, hayvon va qushlar tarqatadi.\nBog‘bonlar mevali daraxtlarni payvand qilib ham ko‘paytiradi."
+   }
+  },
+  {
+   "id": "science_g4.digestion",
+   "code": "11",
+   "emoji": "🍽️",
+   "title": {
+    "uz": "Ovqat hazm qilish",
+    "en": "Digestion",
+    "ru": "Пищеварение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar va inson organizmi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ovqat hazm qilish — ovqatning organizm o‘zlashtira oladigan mayda moddalarga aylanishi.\nYo‘li: og‘iz bo‘shlig‘i → halqum → qizilo‘ngach → oshqozon → ingichka ichak → yo‘g‘on ichak.\n• Og‘izda tishlar ovqatni maydalaydi, so‘lak uni namlaydi. Oshqozonda ovqat me’da shirasi bilan aralashadi.\n• Ingichka ichakda oziq moddalar qonga so‘riladi. Jigar o‘t suyuqligi ishlab chiqaradi.\nQoidalar: ovqatni yaxshilab chaynang, ovqatdan oldin qo‘l yuving, bir vaqtda ovqatlaning, ovqat paytida gaplashmang."
+   }
+  },
+  {
+   "id": "science_g4.breathing_blood",
+   "code": "12",
+   "emoji": "❤️",
+   "title": {
+    "uz": "Nafas olish va qon aylanishi",
+    "en": "Breathing and blood circulation",
+    "ru": "Дыхание и кровообращение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tirik organizmlar va inson organizmi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Nafas olish a’zolari: burun bo‘shlig‘i → hiqildoq → kekirdak → bronxlar → o‘pka.\n• Burunda havo isiydi, namlanadi va changdan tozalanadi. Organizm havodan kislorodni oladi, karbonat angidridni chiqaradi.\n• Yurak — qonni tomirlar bo‘ylab haydovchi mushakli “nasos”. U ko‘krak qafasida, biroz chaproqda joylashgan, kattaligi mushtdek.\n• Qon tomirlari: arteriyalar qonni yurakdan olib ketadi, venalar yurakka olib keladi, kapillyarlar — eng ingichka tomirlar.\nQon kislorod va oziq moddalarni butun tanaga yetkazadi. Tomir urishini (pulsni) bilakda sanash mumkin."
+   }
+  },
+  {
+   "id": "science_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Tirik organizmlar va inson organizmi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g4.senses_hygiene",
+   "code": "13",
+   "emoji": "👀",
+   "title": {
+    "uz": "Sezgi a’zolari gigiyenasi",
+    "en": "Caring for the sense organs",
+    "ru": "Гигиена органов чувств"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sezgi a’zolari: ko‘z, quloq, burun, til va teri. Ularni asrash uchun gigiyena qoidalariga amal qilamiz.\n• Ko‘z: kitobni 30–35 sm uzoqlikda, yorug‘ joyda o‘qing; yotib va yurib ketayotgan transportda o‘qimang; ekrandan har 20–30 daqiqada ko‘zga dam bering.\n• Quloq: o‘tkir narsa bilan tozalamang, baland ovozli musiqa tinglamang, sovuqda qulog‘ingizni yoping.\n• Burun: dastro‘moldan foydalaning. Til: juda issiq ovqat tilni kuydiradi.\n• Teri: har kuni yuvining, jazirama Quyoshda uzoq qolmang, jarohatni tozalab, kattalarga ayting."
+   }
+  },
+  {
+   "id": "science_g4.nutrition",
+   "code": "14",
+   "emoji": "🥕",
+   "title": {
+    "uz": "Sog‘lom ovqatlanish va vitaminlar",
+    "en": "Healthy eating and vitamins",
+    "ru": "Здоровое питание и витамины"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ovqatda organizmga kerakli oziq moddalar bor:\n• Oqsillar — o‘sish uchun “qurilish materiali”: go‘sht, baliq, tuxum, sut, loviya, no‘xat.\n• Uglevodlar — energiya manbai: non, guruch, kartoshka, meva. Yog‘lar — energiya zaxirasi: sariyog‘, o‘simlik yog‘i, yong‘oq.\n• Vitaminlar: A — sabzi, qovoq (ko‘rish uchun); C — limon, na’matak, qalampir (kasalliklarga qarshi); D — Quyosh nurida terida hosil bo‘ladi, baliq yog‘ida bor (suyaklar uchun).\nKalsiy (sut, qatiq, pishloq) suyak va tishlarni mustahkamlaydi. Vaqtida ovqatlaning; chips va gazli ichimliklarni kam iste’mol qiling."
+   }
+  },
+  {
+   "id": "science_g4.safety",
+   "code": "15",
+   "emoji": "🚦",
+   "title": {
+    "uz": "Xavfsizlik qoidalari",
+    "en": "Safety rules",
+    "ru": "Правила безопасности"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Xavfsizlik qoidalari hayotimizni asraydi.\n• Yo‘lda: yo‘lni faqat piyodalar o‘tish joyidan va svetoforning yashil chirog‘ida kesib o‘ting; avval chapga, yo‘l o‘rtasida o‘ngga qarang.\n• Suvda: kattalarsiz va notanish joyda cho‘milmang, ariq va kanallarda suzmang.\n• Olovda: gugurt va zajigalka bilan o‘ynamang. Yong‘in — 101, tez yordam — 103, gaz xizmati — 104.\n• Elektrda: ho‘l qo‘l bilan elektr asboblariga tegmang, rozetkaga narsa tiqmang, uzilgan simga yaqinlashmang."
+   }
+  },
+  {
+   "id": "science_g4.protect",
+   "code": "16",
+   "emoji": "🌳",
+   "title": {
+    "uz": "Tabiatni muhofaza qilish",
+    "en": "Protecting nature",
+    "ru": "Охрана природы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiatni muhofaza qilish — havo, suv, tuproq, o‘simlik va hayvonlarni asrash.\n• Qo‘riqxona — tabiat qat’iy muhofaza qilinadigan hudud. O‘zbekistonda Chotqol, Zomin, Hisor, Zarafshon qo‘riqxonalari bor.\n• Qizil kitobga kamyob va yo‘qolib borayotgan o‘simlik va hayvonlar kiritiladi.\n• Chiqindilarni saralash (qog‘oz, plastik, shisha alohida) ularni qayta ishlashga yordam beradi.\nHar kim tabiatga yordam bera oladi: daraxt ekish, suv va elektrni tejash, gullarni uzmaslik, qushlarga yem berish."
+   }
+  },
+  {
+   "id": "science_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Salomatlik, xavfsizlik va tabiatni asrash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions",
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter",
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood",
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions",
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter",
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood",
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "science_g4.space",
+      "science_g4.globe_map",
+      "science_g4.continents",
+      "science_g4.directions",
+      "science_g4.zones",
+      "science_g4.rivers",
+      "science_g4.minerals",
+      "science_g4.matter",
+      "science_g4.habitats",
+      "science_g4.plant_repro",
+      "science_g4.digestion",
+      "science_g4.breathing_blood",
+      "science_g4.senses_hygiene",
+      "science_g4.nutrition",
+      "science_g4.safety",
+      "science_g4.protect"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
