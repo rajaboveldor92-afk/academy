@@ -18,3 +18,4 @@ android/key.properties
 !tool/signing/family-release.jks
 tool/voice/out/
 __pycache__/
+.claude/worktrees/
