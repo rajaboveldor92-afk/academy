@@ -1,0 +1,6562 @@
+{
+ "items": [
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_1",
+   "t": "choice",
+   "q": "“qovun” so‘zida nechta tovush bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 1,
+   "x": "q-o-v-u-n — 5 ta tovush."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_2",
+   "t": "choice",
+   "q": "“bulbul” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 1,
+   "x": "b-u-l-b-u-l — 6 ta tovush."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_3",
+   "t": "choice",
+   "q": "“yulduz” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 1,
+   "x": "y-u-l-d-u-z — 6 ta tovush."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_4",
+   "t": "choice",
+   "q": "“qishloq” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 1,
+   "x": "q-i-sh-l-o-q — 6 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_5",
+   "t": "choice",
+   "q": "“chiroq” so‘zida nechta tovush bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 1,
+   "x": "ch-i-r-o-q — 5 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_6",
+   "t": "choice",
+   "q": "“g‘isht” so‘zida nechta tovush bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 2,
+   "x": "g‘-i-sh-t — 4 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_7",
+   "t": "choice",
+   "q": "“o‘quvchi” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 2,
+   "x": "o‘-q-u-v-ch-i — 6 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_8",
+   "t": "choice",
+   "q": "“shaftoli” so‘zida nechta tovush bor?",
+   "a": "7 ta",
+   "w": [
+    "6 ta",
+    "8 ta",
+    "9 ta"
+   ],
+   "d": 2,
+   "x": "sh-a-f-t-o-l-i — 7 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_9",
+   "t": "choice",
+   "q": "“bodring” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 2,
+   "x": "b-o-d-r-i-ng — 6 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_10",
+   "t": "choice",
+   "q": "“ming” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "m-i-ng — 3 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_11",
+   "t": "choice",
+   "q": "“sichqon” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 2,
+   "x": "s-i-ch-q-o-n — 6 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_12",
+   "t": "choice",
+   "q": "“qo‘shiq” so‘zida nechta tovush bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 2,
+   "x": "q-o‘-sh-i-q — 5 ta tovush (sh, ch, ng, o‘, g‘ — bitta tovush)."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_13",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "anor",
+   "w": [
+    "gilos",
+    "tarvuz",
+    "nok"
+   ],
+   "d": 1,
+   "x": "“anor” so‘zi “a” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_14",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "ilon",
+   "w": [
+    "sabzi",
+    "gilos",
+    "behi"
+   ],
+   "d": 1,
+   "x": "“ilon” so‘zi “i” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_15",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "uzum",
+   "w": [
+    "behi",
+    "nok",
+    "sabzi"
+   ],
+   "d": 1,
+   "x": "“uzum” so‘zi “u” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_16",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "echki",
+   "w": [
+    "sabzi",
+    "shaftoli",
+    "tarvuz"
+   ],
+   "d": 1,
+   "x": "“echki” so‘zi “e” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_17",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "o‘rik",
+   "w": [
+    "nok",
+    "behi",
+    "shaftoli"
+   ],
+   "d": 1,
+   "x": "“o‘rik” so‘zi “o‘” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_18",
+   "t": "choice",
+   "q": "Qaysi so‘z unli tovush bilan boshlanadi?",
+   "a": "olcha",
+   "w": [
+    "chumoli",
+    "tarvuz",
+    "behi"
+   ],
+   "d": 1,
+   "x": "“olcha” so‘zi “o” unlisi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_19",
+   "t": "choice",
+   "q": "Qaysi so‘z undosh tovush bilan boshlanadi?",
+   "a": "nok",
+   "w": [
+    "anor",
+    "uzum",
+    "ilon"
+   ],
+   "d": 1,
+   "x": "“nok” so‘zi “n” undoshi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_20",
+   "t": "choice",
+   "q": "Qaysi so‘z undosh tovush bilan boshlanadi?",
+   "a": "behi",
+   "w": [
+    "anor",
+    "uzum",
+    "o‘rik"
+   ],
+   "d": 1,
+   "x": "“behi” so‘zi “b” undoshi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_21",
+   "t": "choice",
+   "q": "Qaysi so‘z undosh tovush bilan boshlanadi?",
+   "a": "tarvuz",
+   "w": [
+    "ilon",
+    "olcha",
+    "uzum"
+   ],
+   "d": 1,
+   "x": "“tarvuz” so‘zi “t” undoshi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_22",
+   "t": "choice",
+   "q": "Qaysi so‘z undosh tovush bilan boshlanadi?",
+   "a": "gilos",
+   "w": [
+    "uzum",
+    "olcha",
+    "anor"
+   ],
+   "d": 1,
+   "x": "“gilos” so‘zi “g” undoshi bilan boshlanadi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_23",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "va’da",
+   "w": [
+    "vada",
+    "vaada",
+    "vadaa"
+   ],
+   "d": 2,
+   "x": "“va’da” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_24",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "in’om",
+   "w": [
+    "inom",
+    "inoom",
+    "inoma"
+   ],
+   "d": 2,
+   "x": "“in’om” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_25",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "mas’ul",
+   "w": [
+    "masul",
+    "masuul",
+    "masula"
+   ],
+   "d": 2,
+   "x": "“mas’ul” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_26",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "a’zo",
+   "w": [
+    "azo",
+    "aazo",
+    "azoa"
+   ],
+   "d": 2,
+   "x": "“a’zo” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_27",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "ta’mir",
+   "w": [
+    "tamir",
+    "taamir",
+    "tamira"
+   ],
+   "d": 2,
+   "x": "“ta’mir” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_28",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "ma’rifat",
+   "w": [
+    "marifat",
+    "maarifat",
+    "marifata"
+   ],
+   "d": 2,
+   "x": "“ma’rifat” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_29",
+   "t": "choice",
+   "q": "Qaysi harf birikmalari bitta tovushni bildiradi?",
+   "a": "sh, ch, ng",
+   "w": [
+    "st, sk, nt",
+    "rt, lm, nd",
+    "ts, kh, ph"
+   ],
+   "d": 1,
+   "x": "sh, ch, ng ikki belgi bilan yoziladi, lekin bitta tovushni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_30",
+   "t": "choice",
+   "q": "“Poyezd katta … bilan yurdi.” Nuqtalar o‘rniga qaysi so‘z mos?",
+   "a": "sur’at",
+   "w": [
+    "surat",
+    "sura’t",
+    "suvrat"
+   ],
+   "d": 3,
+   "x": "sur’at — tezlik, surat — rasm: tutuq belgisi ma’noni farqlaydi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_31",
+   "t": "choice",
+   "q": "“Devorga chiroyli … ilindi.” Nuqtalar o‘rniga qaysi so‘z mos?",
+   "a": "surat",
+   "w": [
+    "sur’at",
+    "sura’t",
+    "su’rat"
+   ],
+   "d": 3,
+   "x": "surat — rasm, sur’at — tezlik."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_32",
+   "t": "tf",
+   "q": "“ch” ikki belgi bilan yozilsa ham, bitta tovushni bildiradi.",
+   "a": true,
+   "d": 1,
+   "x": "choy: ch-o-y — 3 ta tovush."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_33",
+   "t": "tf",
+   "q": "“qishloq” so‘zida 7 ta tovush bor.",
+   "a": false,
+   "d": 1,
+   "x": "q-i-sh-l-o-q — 6 ta tovush, chunki sh bitta tovush."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_34",
+   "t": "tf",
+   "q": "O‘zbek tilida undosh tovushlar unlilardan ko‘p.",
+   "a": true,
+   "d": 2,
+   "x": "Unlilar atigi 6 ta, qolgan tovushlarning hammasi undosh."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_35",
+   "t": "tf",
+   "q": "Har bir bo‘g‘inning markazida unli tovush turadi.",
+   "a": true,
+   "d": 2,
+   "x": "Unli bo‘lmasa, bo‘g‘in ham bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.sounds_letters",
+   "id": "sounds_letters_36",
+   "t": "match",
+   "q": "So‘zni undagi tovushlar soni bilan juftlang",
+   "pairs": [
+    [
+     "ming",
+     "3 ta"
+    ],
+    [
+     "g‘isht",
+     "4 ta"
+    ],
+    [
+     "chiroq",
+     "5 ta"
+    ],
+    [
+     "qishloq",
+     "6 ta"
+    ],
+    [
+     "shaftoli",
+     "7 ta"
+    ]
+   ],
+   "d": 2,
+   "x": "sh, ch, ng, o‘, g‘ — bitta tovush."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_1",
+   "t": "choice",
+   "q": "“sabzavot” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "sab-zavot",
+   "w": [
+    "sa-bzavot",
+    "sabz-avot"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘inlar: sab-za-vot. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_2",
+   "t": "choice",
+   "q": "“tuxum” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "tu-xum",
+   "w": [
+    "t-uxum",
+    "tux-um"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: tu-xum. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_3",
+   "t": "choice",
+   "q": "“qovoq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "qo-voq",
+   "w": [
+    "q-ovoq",
+    "qov-oq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: qo-voq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_4",
+   "t": "choice",
+   "q": "“qishloq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "qish-loq",
+   "w": [
+    "qi-shloq",
+    "qishl-oq",
+    "qis-hloq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: qish-loq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_5",
+   "t": "choice",
+   "q": "“sichqon” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "sich-qon",
+   "w": [
+    "si-chqon",
+    "sichq-on",
+    "sic-hqon"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: sich-qon. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_6",
+   "t": "choice",
+   "q": "“qaldirg‘och” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "qaldir-g‘och",
+   "w": [
+    "qaldi-rg‘och",
+    "qaldirg‘-och"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘inlar: qal-dir-g‘och. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_7",
+   "t": "choice",
+   "q": "“sandiq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "san-diq",
+   "w": [
+    "sa-ndiq",
+    "sand-iq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: san-diq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_8",
+   "t": "choice",
+   "q": "“yostiq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "yos-tiq",
+   "w": [
+    "yo-stiq",
+    "yost-iq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: yos-tiq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_9",
+   "t": "choice",
+   "q": "“ko‘ylak” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "ko‘y-lak",
+   "w": [
+    "ko‘-ylak",
+    "ko‘yl-ak"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: ko‘y-lak. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_10",
+   "t": "choice",
+   "q": "“darslik” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "dars-lik",
+   "w": [
+    "dar-slik",
+    "darsl-ik"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: dars-lik. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_11",
+   "t": "choice",
+   "q": "“qo‘shiq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "qo‘-shiq",
+   "w": [
+    "q-o‘shiq",
+    "qo‘sh-iq",
+    "qo‘s-hiq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: qo‘-shiq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_12",
+   "t": "choice",
+   "q": "“lochin” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "lo-chin",
+   "w": [
+    "l-ochin",
+    "loch-in",
+    "loc-hin"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: lo-chin. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_13",
+   "t": "choice",
+   "q": "“bedana” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "be-dana",
+   "w": [
+    "b-edana",
+    "bed-ana"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘inlar: be-da-na. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_14",
+   "t": "choice",
+   "q": "“musiqa” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "musi-qa",
+   "w": [
+    "mus-iqa",
+    "musiq-a"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘inlar: mu-si-qa. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_15",
+   "t": "choice",
+   "q": "“dasturxon” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "das-turxon",
+   "w": [
+    "da-sturxon",
+    "dast-urxon"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘inlar: das-tur-xon. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_16",
+   "t": "choice",
+   "q": "“bayroq” so‘zi qaysi qatorda to‘g‘ri ko‘chirilgan?",
+   "a": "bay-roq",
+   "w": [
+    "ba-yroq",
+    "bayr-oq"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘inlar: bay-roq. So‘z bo‘g‘in chegarasidan ko‘chiriladi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_17",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "uzum",
+   "w": [
+    "maktab",
+    "gilam",
+    "chiroq"
+   ],
+   "d": 2,
+   "x": "u-zum: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_18",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "ayiq",
+   "w": [
+    "sandiq",
+    "bola",
+    "qalam"
+   ],
+   "d": 2,
+   "x": "a-yiq: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_19",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "ilon",
+   "w": [
+    "bola",
+    "hovli",
+    "tuxum"
+   ],
+   "d": 2,
+   "x": "i-lon: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_20",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "ariq",
+   "w": [
+    "daftar",
+    "sandiq",
+    "tuxum"
+   ],
+   "d": 2,
+   "x": "a-riq: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_21",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "o‘rik",
+   "w": [
+    "kitob",
+    "tuxum",
+    "sandiq"
+   ],
+   "d": 2,
+   "x": "o‘-rik: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_22",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "uka",
+   "w": [
+    "sandiq",
+    "bola",
+    "chiroq"
+   ],
+   "d": 2,
+   "x": "u-ka: birinchi bo‘g‘in bitta harfdan iborat, uni qatorda qoldirib bo‘lmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_23",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "tosh",
+   "w": [
+    "chiroq",
+    "tuxum",
+    "maktab"
+   ],
+   "d": 1,
+   "x": "Bir bo‘g‘inli so‘z bo‘linmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_24",
+   "t": "choice",
+   "q": "Qaysi so‘zni bo‘g‘inga bo‘lib ko‘chirib bo‘lmaydi?",
+   "a": "qo‘l",
+   "w": [
+    "hovli",
+    "qalam",
+    "bola"
+   ],
+   "d": 1,
+   "x": "Bir bo‘g‘inli so‘z bo‘linmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_25",
+   "t": "choice",
+   "q": "“sabzavot” so‘zida nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "sab-za-vot — 3 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_26",
+   "t": "choice",
+   "q": "“bedana” so‘zida nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "be-da-na — 3 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_27",
+   "t": "choice",
+   "q": "“dasturxon” so‘zida nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "das-tur-xon — 3 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_28",
+   "t": "choice",
+   "q": "“musiqa” so‘zida nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "mu-si-qa — 3 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_29",
+   "t": "choice",
+   "q": "“tuxum” so‘zida nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "tu-xum — 2 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_30",
+   "t": "choice",
+   "q": "“yostiq” so‘zida nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "yos-tiq — 2 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_31",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z tuzing",
+   "parts": [
+    "be",
+    "da",
+    "na"
+   ],
+   "sep": "-",
+   "d": 1,
+   "x": "bedana: be-da-na."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_32",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z tuzing",
+   "parts": [
+    "po",
+    "mi",
+    "dor"
+   ],
+   "sep": "-",
+   "d": 1,
+   "x": "pomidor: po-mi-dor."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_33",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z tuzing",
+   "parts": [
+    "das",
+    "tur",
+    "xon"
+   ],
+   "sep": "-",
+   "d": 2,
+   "x": "dasturxon: das-tur-xon."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_34",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z tuzing",
+   "parts": [
+    "kar",
+    "tosh",
+    "ka"
+   ],
+   "sep": "-",
+   "d": 2,
+   "x": "kartoshka: kar-tosh-ka."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_35",
+   "t": "choice",
+   "q": "“ta’lim” so‘zi qanday ko‘chiriladi?",
+   "a": "ta’-lim",
+   "w": [
+    "ta-’lim",
+    "t-a’lim",
+    "ta’l-im"
+   ],
+   "d": 3,
+   "x": "Tutuq belgisi o‘zidan oldingi harf bilan birga qoladi: ta’-lim."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_36",
+   "t": "tf",
+   "q": "sh va ch harf birikmalari ko‘chirishda bo‘linmaydi.",
+   "a": true,
+   "d": 1,
+   "x": "qish-loq, lo-chin."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_37",
+   "t": "tf",
+   "q": "“uzum” so‘zini “u-zum” tarzida ko‘chirish mumkin.",
+   "a": false,
+   "d": 2,
+   "x": "Bitta harfli bo‘g‘in qatorda qoldirilmaydi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_38",
+   "t": "tf",
+   "q": "Bir bo‘g‘inli so‘zni bo‘lib ko‘chirib bo‘lmaydi.",
+   "a": true,
+   "d": 1,
+   "x": "tosh, non, qo‘l — butunligicha yangi qatorga o‘tadi."
+  },
+  {
+   "topic": "onatili_g4.hyphenation",
+   "id": "hyphenation_39",
+   "t": "tf",
+   "q": "So‘z qatordan qatorga bo‘g‘in bo‘yicha ko‘chiriladi.",
+   "a": true,
+   "d": 1,
+   "x": "san-diq, yos-tiq."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_1",
+   "t": "choice",
+   "q": "“baliqchi” so‘zida o‘zak qaysi?",
+   "a": "baliq",
+   "w": [
+    "baliqchi",
+    "-chi",
+    "siyoh"
+   ],
+   "d": 1,
+   "x": "baliqchi = baliq (o‘zak) + chi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_2",
+   "t": "choice",
+   "q": "“o‘yinchi” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-chi",
+   "w": [
+    "-lik",
+    "-zor",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "o‘yin + chi = o‘yinchi: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_3",
+   "t": "choice",
+   "q": "“paxtazor” so‘zida o‘zak qaysi?",
+   "a": "paxta",
+   "w": [
+    "paxtazor",
+    "-zor",
+    "o‘yin"
+   ],
+   "d": 1,
+   "x": "paxtazor = paxta (o‘zak) + zor."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_4",
+   "t": "choice",
+   "q": "“tokzor” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-zor",
+   "w": [
+    "-chi",
+    "-gi",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "tok + zor = tokzor: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_5",
+   "t": "choice",
+   "q": "“guldon” so‘zida o‘zak qaysi?",
+   "a": "gul",
+   "w": [
+    "guldon",
+    "-don",
+    "ish"
+   ],
+   "d": 1,
+   "x": "guldon = gul (o‘zak) + don."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_6",
+   "t": "choice",
+   "q": "“siyohdon” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-don",
+   "w": [
+    "-lik",
+    "-gi",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "siyoh + don = siyohdon: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_7",
+   "t": "choice",
+   "q": "“toshloq” so‘zida o‘zak qaysi?",
+   "a": "tosh",
+   "w": [
+    "toshloq",
+    "-loq",
+    "ov"
+   ],
+   "d": 1,
+   "x": "toshloq = tosh (o‘zak) + loq."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_8",
+   "t": "choice",
+   "q": "“o‘tloq” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-loq",
+   "w": [
+    "-chan",
+    "-don",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "o‘t + loq = o‘tloq: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_9",
+   "t": "choice",
+   "q": "“odobli” so‘zida o‘zak qaysi?",
+   "a": "odob",
+   "w": [
+    "odobli",
+    "-li",
+    "ish"
+   ],
+   "d": 1,
+   "x": "odobli = odob (o‘zak) + li."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_10",
+   "t": "choice",
+   "q": "“tinchlik” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-lik",
+   "w": [
+    "-loq",
+    "-zor",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "tinch + lik = tinchlik: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_11",
+   "t": "choice",
+   "q": "“bolalik” so‘zida o‘zak qaysi?",
+   "a": "bola",
+   "w": [
+    "bolalik",
+    "-lik",
+    "tosh"
+   ],
+   "d": 1,
+   "x": "bolalik = bola (o‘zak) + lik."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_12",
+   "t": "choice",
+   "q": "“ishchan” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-chan",
+   "w": [
+    "-loq",
+    "-gi",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "ish + chan = ishchan: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_13",
+   "t": "choice",
+   "q": "“ovla” so‘zida o‘zak qaysi?",
+   "a": "ov",
+   "w": [
+    "ovla",
+    "-la",
+    "gul"
+   ],
+   "d": 1,
+   "x": "ovla = ov (o‘zak) + la."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_14",
+   "t": "choice",
+   "q": "“tishla” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-la",
+   "w": [
+    "-don",
+    "-lik",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "tish + la = tishla: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_15",
+   "t": "choice",
+   "q": "“kuzgi” so‘zida o‘zak qaysi?",
+   "a": "kuz",
+   "w": [
+    "kuzgi",
+    "-gi",
+    "tosh"
+   ],
+   "d": 1,
+   "x": "kuzgi = kuz (o‘zak) + gi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_16",
+   "t": "choice",
+   "q": "“uyqusiz” so‘zini qaysi so‘z yasovchi qo‘shimcha hosil qilgan?",
+   "a": "-siz",
+   "w": [
+    "-lik",
+    "-loq",
+    "-lar"
+   ],
+   "d": 2,
+   "x": "uyqu + siz = uyqusiz: yangi ma’noli so‘z."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_17",
+   "t": "choice",
+   "q": "Qaysi so‘zda shakl yasovchi qo‘shimcha bor?",
+   "a": "gullar",
+   "w": [
+    "guldon",
+    "gulchi",
+    "gulla"
+   ],
+   "d": 1,
+   "x": "-lar yangi so‘z yasamaydi, faqat ko‘plik shaklini beradi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_18",
+   "t": "choice",
+   "q": "Qaysi so‘zda shakl yasovchi qo‘shimcha bor?",
+   "a": "ishimiz",
+   "w": [
+    "ishchi",
+    "ishchan",
+    "ishla"
+   ],
+   "d": 2,
+   "x": "-imiz — egalik qo‘shimchasi, u so‘z shaklini o‘zgartiradi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_19",
+   "t": "choice",
+   "q": "Qaysi so‘zda so‘z yasovchi qo‘shimcha bor?",
+   "a": "baliqchi",
+   "w": [
+    "baliqlar",
+    "baliqni",
+    "baliqning"
+   ],
+   "d": 1,
+   "x": "baliq + chi — yangi so‘z (kasb egasi)."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_20",
+   "t": "choice",
+   "q": "Qaysi so‘zda so‘z yasovchi qo‘shimcha bor?",
+   "a": "tokzor",
+   "w": [
+    "toklar",
+    "tokda",
+    "tokni"
+   ],
+   "d": 2,
+   "x": "tok + zor — yangi so‘z (joy)."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_21",
+   "t": "choice",
+   "q": "“-lar” qanday qo‘shimcha?",
+   "a": "Shakl yasovchi",
+   "w": [
+    "So‘z yasovchi",
+    "O‘zak",
+    "Bog‘lovchi"
+   ],
+   "d": 1,
+   "x": "-lar ko‘plik shaklini beradi, yangi so‘z yasamaydi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_22",
+   "t": "choice",
+   "q": "“-chi” qanday qo‘shimcha?",
+   "a": "So‘z yasovchi",
+   "w": [
+    "Shakl yasovchi",
+    "O‘zak",
+    "Kelishik qo‘shimchasi"
+   ],
+   "d": 1,
+   "x": "-chi yangi so‘z yasaydi: baliq — baliqchi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_23",
+   "t": "choice",
+   "q": "Qaysi qatorda o‘zakdosh so‘zlar berilgan?",
+   "a": "ish, ishchi, ishla",
+   "w": [
+    "ish, ilon, iz",
+    "gul, gilam, gilos",
+    "tosh, tog‘, tovuq"
+   ],
+   "d": 2,
+   "x": "Uchala so‘zda bir xil o‘zak bor: ish."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_24",
+   "t": "choice",
+   "q": "Qaysi so‘z “tosh” so‘zi bilan o‘zakdosh?",
+   "a": "toshloq",
+   "w": [
+    "tovush",
+    "to‘shak",
+    "tog‘li"
+   ],
+   "d": 1,
+   "x": "tosh + loq = toshloq: o‘zagi tosh."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_25",
+   "t": "choice",
+   "q": "“baliqchilarimiz” so‘zi qanday tuzilgan?",
+   "a": "baliq + chi + lar + imiz",
+   "w": [
+    "baliqchi + larim + iz",
+    "bali + qchi + lar + imiz",
+    "baliq + chilar + imiz"
+   ],
+   "d": 3,
+   "x": "O‘zak (baliq), so‘z yasovchi (-chi), shakl yasovchilar (-lar, -imiz)."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_26",
+   "t": "tf",
+   "q": "“baliq” va “baliqchi” — ma’nosi har xil so‘zlar.",
+   "a": true,
+   "d": 1,
+   "x": "baliq — suv jonivori, baliqchi — baliq tutuvchi kishi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_27",
+   "t": "tf",
+   "q": "Shakl yasovchi qo‘shimcha yangi so‘z yasamaydi.",
+   "a": true,
+   "d": 1,
+   "x": "kitob — kitoblar: so‘z o‘sha, faqat shakli o‘zgardi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_28",
+   "t": "tf",
+   "q": "“guldon” so‘zidagi “-don” — shakl yasovchi qo‘shimcha.",
+   "a": false,
+   "d": 2,
+   "x": "-don yangi so‘z (idish nomi) yasaydi."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_29",
+   "t": "tf",
+   "q": "So‘zga avval so‘z yasovchi, keyin shakl yasovchi qo‘shimcha qo‘shiladi.",
+   "a": true,
+   "d": 2,
+   "x": "baliq-chi-lar: -chi, keyin -lar."
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_30",
+   "t": "match",
+   "q": "Yasama so‘zni o‘zagi bilan juftlang",
+   "pairs": [
+    [
+     "baliqchi",
+     "baliq"
+    ],
+    [
+     "paxtazor",
+     "paxta"
+    ],
+    [
+     "guldon",
+     "gul"
+    ],
+    [
+     "toshloq",
+     "tosh"
+    ],
+    [
+     "ishchan",
+     "ish"
+    ],
+    [
+     "tishla",
+     "tish"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.word_structure",
+   "id": "word_structure_31",
+   "t": "match",
+   "q": "Qo‘shimchani ma’nosi bilan juftlang",
+   "pairs": [
+    [
+     "-chi",
+     "kasb egasi"
+    ],
+    [
+     "-zor",
+     "ko‘p o‘sadigan joy"
+    ],
+    [
+     "-don",
+     "idish"
+    ],
+    [
+     "-lar",
+     "ko‘plik"
+    ],
+    [
+     "-siz",
+     "belgining yo‘qligi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_1",
+   "t": "choice",
+   "q": "Qaysi so‘z atoqli ot?",
+   "a": "Jizzax",
+   "w": [
+    "shahar",
+    "viloyat",
+    "tuman"
+   ],
+   "d": 1,
+   "x": "Jizzax — shahar nomi, atoqli ot."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_2",
+   "t": "choice",
+   "q": "Qaysi so‘z atoqli ot?",
+   "a": "Nodira",
+   "w": [
+    "qiz",
+    "o‘quvchi",
+    "opa"
+   ],
+   "d": 1,
+   "x": "Nodira — kishi ismi, atoqli ot."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_3",
+   "t": "choice",
+   "q": "Qaysi so‘z atoqli ot?",
+   "a": "Aydarko‘l",
+   "w": [
+    "ko‘l",
+    "dengiz",
+    "daryo"
+   ],
+   "d": 1,
+   "x": "Aydarko‘l — ko‘l nomi, atoqli ot."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_4",
+   "t": "choice",
+   "q": "Qaysi so‘z turdosh ot?",
+   "a": "mamlakat",
+   "w": [
+    "Qozog‘iston",
+    "Guliston",
+    "Jahongir"
+   ],
+   "d": 1,
+   "x": "mamlakat — umumiy nom, turdosh ot."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_5",
+   "t": "choice",
+   "q": "Qaysi so‘z turdosh ot?",
+   "a": "kuchukcha",
+   "w": [
+    "Olapar",
+    "Oydin",
+    "Urganch"
+   ],
+   "d": 1,
+   "x": "kuchukcha — bir turdagi hayvonlarning umumiy nomi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_6",
+   "t": "choice",
+   "q": "Qaysi so‘z shahar nomi?",
+   "a": "Guliston",
+   "w": [
+    "Olapar",
+    "Aydarko‘l",
+    "Oydin"
+   ],
+   "d": 2,
+   "x": "Guliston — shahar."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_7",
+   "t": "choice",
+   "q": "Qaysi so‘z ko‘l nomi?",
+   "a": "Aydarko‘l",
+   "w": [
+    "Qarshi",
+    "Nodira",
+    "Olapar"
+   ],
+   "d": 2,
+   "x": "Aydarko‘l — ko‘l."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_8",
+   "t": "choice",
+   "q": "Qaysi so‘z mamlakat nomi?",
+   "a": "Qozog‘iston",
+   "w": [
+    "Jizzax",
+    "Aydarko‘l",
+    "Jahongir"
+   ],
+   "d": 2,
+   "x": "Qozog‘iston — mamlakat."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_9",
+   "t": "choice",
+   "q": "“Olapar hovlini qo‘riqlaydi.” gapidagi “Olapar” so‘zi qanday ot?",
+   "a": "Atoqli ot",
+   "w": [
+    "Turdosh ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_10",
+   "t": "choice",
+   "q": "“Bizning itimiz hovlini qo‘riqlaydi.” gapidagi “itimiz” so‘zi qanday ot?",
+   "a": "Turdosh ot",
+   "w": [
+    "Atoqli ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_11",
+   "t": "choice",
+   "q": "“Yozda Aydarko‘lga bordik.” gapidagi “Aydarko‘lga” so‘zi qanday ot?",
+   "a": "Atoqli ot",
+   "w": [
+    "Turdosh ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_12",
+   "t": "choice",
+   "q": "“Yozda ko‘lga bordik.” gapidagi “ko‘lga” so‘zi qanday ot?",
+   "a": "Turdosh ot",
+   "w": [
+    "Atoqli ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_13",
+   "t": "choice",
+   "q": "“Jahongir maktabga shoshildi.” gapidagi “Jahongir” so‘zi qanday ot?",
+   "a": "Atoqli ot",
+   "w": [
+    "Turdosh ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_14",
+   "t": "choice",
+   "q": "“Bola maktabga shoshildi.” gapidagi “Bola” so‘zi qanday ot?",
+   "a": "Turdosh ot",
+   "w": [
+    "Atoqli ot",
+    "Sifat",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Atoqli ot — yakka nom (bosh harf bilan), turdosh ot — umumiy nom."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_15",
+   "t": "choice",
+   "q": "Qaysi so‘z ko‘plik shaklida?",
+   "a": "qushlar",
+   "w": [
+    "qushcha",
+    "qushni",
+    "qushga"
+   ],
+   "d": 1,
+   "x": "qushlar: -lar qo‘shimchasi ko‘plikni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_16",
+   "t": "choice",
+   "q": "Qaysi so‘z ko‘plik shaklida?",
+   "a": "tovuqlar",
+   "w": [
+    "tovuqni",
+    "tovuqqa",
+    "tovuqda"
+   ],
+   "d": 1,
+   "x": "tovuqlar: -lar qo‘shimchasi ko‘plikni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_17",
+   "t": "choice",
+   "q": "Qaysi so‘z ko‘plik shaklida?",
+   "a": "ko‘chalar",
+   "w": [
+    "ko‘chada",
+    "ko‘chaga",
+    "ko‘chani"
+   ],
+   "d": 1,
+   "x": "ko‘chalar: -lar qo‘shimchasi ko‘plikni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_18",
+   "t": "choice",
+   "q": "Qaysi so‘z ko‘plik shaklida?",
+   "a": "mevalar",
+   "w": [
+    "mevali",
+    "mevazor",
+    "mevani"
+   ],
+   "d": 1,
+   "x": "mevalar: -lar qo‘shimchasi ko‘plikni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_19",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "beshta olma",
+   "w": [
+    "beshta olmalar",
+    "besh olmalar"
+   ],
+   "d": 2,
+   "x": "Sondan keyin ot birlikda keladi: beshta olma."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_20",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "uchta daftar",
+   "w": [
+    "uchta daftarlar",
+    "uch daftarlar"
+   ],
+   "d": 2,
+   "x": "Sondan keyin ot birlikda keladi: uchta daftar."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_21",
+   "t": "choice",
+   "q": "Qaysi birikma to‘g‘ri?",
+   "a": "o‘nta qush",
+   "w": [
+    "o‘nta qushlar",
+    "o‘n qushlar"
+   ],
+   "d": 2,
+   "x": "Sondan keyin ot birlikda keladi: o‘nta qush."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_22",
+   "t": "choice",
+   "q": "Qaysi gapda atoqli ot to‘g‘ri yozilgan?",
+   "a": "Biz Jizzaxga bordik.",
+   "w": [
+    "Biz jizzaxga bordik.",
+    "biz jizzaxga bordik.",
+    "Biz jizzaxga Bordik."
+   ],
+   "d": 1,
+   "x": "Joy nomi gapning o‘rtasida ham bosh harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_23",
+   "t": "choice",
+   "q": "“Bobom keldilar.” gapida “-lar” qanday ma’noni bildiradi?",
+   "a": "Hurmat",
+   "w": [
+    "Ko‘plik",
+    "Egalik",
+    "Kelishik"
+   ],
+   "d": 3,
+   "x": "Bobom — bitta kishi; -lar bu yerda hurmat ma’nosida."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_24",
+   "t": "choice",
+   "q": "Kitob, gazeta va jurnal nomlari qanday yoziladi?",
+   "a": "Qo‘shtirnoqda, bosh harf bilan",
+   "w": [
+    "Kichik harf bilan",
+    "Qavs ichida",
+    "Chiziqcha bilan"
+   ],
+   "d": 3,
+   "x": "Masalan: “Gulxan” jurnali."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_25",
+   "t": "tf",
+   "q": "Atoqli otlar gapning o‘rtasida ham bosh harf bilan yoziladi.",
+   "a": true,
+   "d": 1,
+   "x": "Biz Guliston shahriga bordik."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_26",
+   "t": "tf",
+   "q": "Hayvonlarga qo‘yilgan nomlar ham atoqli ot hisoblanadi.",
+   "a": true,
+   "d": 2,
+   "x": "Olapar — itning nomi, atoqli ot."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_27",
+   "t": "tf",
+   "q": "Sondan keyin kelgan ot odatda birlik shaklida bo‘ladi.",
+   "a": true,
+   "d": 2,
+   "x": "uchta kitob, o‘nta qush."
+  },
+  {
+   "topic": "onatili_g4.nouns",
+   "id": "nouns_28",
+   "t": "match",
+   "q": "Turdosh otni atoqli ot bilan juftlang",
+   "pairs": [
+    [
+     "shahar",
+     "Guliston"
+    ],
+    [
+     "ko‘l",
+     "Aydarko‘l"
+    ],
+    [
+     "mamlakat",
+     "Qozog‘iston"
+    ],
+    [
+     "it",
+     "Olapar"
+    ],
+    [
+     "qiz",
+     "Nodira"
+    ],
+    [
+     "o‘g‘il bola",
+     "Jahongir"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_1",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: bizning … (“oila”)",
+   "a": "oilamiz",
+   "w": [
+    "oilaimiz",
+    "oilasi",
+    "oilam"
+   ],
+   "d": 2,
+   "x": "bizning oilamiz: unli bilan tugagan so‘zga -miz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_2",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: mening … (“oila”)",
+   "a": "oilam",
+   "w": [
+    "oilaim",
+    "oilang",
+    "oilamiz"
+   ],
+   "d": 1,
+   "x": "mening oilam: unli bilan tugagan so‘zga -m."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_3",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: uning … (“mahalla”)",
+   "a": "mahallasi",
+   "w": [
+    "mahallai",
+    "mahallang",
+    "mahallangiz"
+   ],
+   "d": 1,
+   "x": "uning mahallasi: unli bilan tugagan so‘zga -si."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_4",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: bizning … (“mahalla”)",
+   "a": "mahallamiz",
+   "w": [
+    "mahallaimiz",
+    "mahallang",
+    "mahallam"
+   ],
+   "d": 2,
+   "x": "bizning mahallamiz: unli bilan tugagan so‘zga -miz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_5",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: sening … (“ko‘cha”)",
+   "a": "ko‘chang",
+   "w": [
+    "ko‘chaing",
+    "ko‘chamiz",
+    "ko‘cham"
+   ],
+   "d": 1,
+   "x": "sening ko‘chang: unli bilan tugagan so‘zga -ng."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_6",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: sizning … (“ko‘cha”)",
+   "a": "ko‘changiz",
+   "w": [
+    "ko‘chaingiz",
+    "ko‘chasi",
+    "ko‘chang"
+   ],
+   "d": 2,
+   "x": "sizning ko‘changiz: unli bilan tugagan so‘zga -ngiz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_7",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: uning … (“ruchka”)",
+   "a": "ruchkasi",
+   "w": [
+    "ruchkai",
+    "ruchkam",
+    "ruchkangiz"
+   ],
+   "d": 1,
+   "x": "uning ruchkasi: unli bilan tugagan so‘zga -si."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_8",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: mening … (“ruchka”)",
+   "a": "ruchkam",
+   "w": [
+    "ruchkaim",
+    "ruchkamiz",
+    "ruchkangiz"
+   ],
+   "d": 1,
+   "x": "mening ruchkam: unli bilan tugagan so‘zga -m."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_9",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: bizning … (“sinf”)",
+   "a": "sinfimiz",
+   "w": [
+    "sinfmiz",
+    "sinfim",
+    "sinfing"
+   ],
+   "d": 2,
+   "x": "bizning sinfimiz: undosh bilan tugagan so‘zga -imiz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_10",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: sening … (“sinf”)",
+   "a": "sinfing",
+   "w": [
+    "sinfng",
+    "sinfimiz",
+    "sinfim"
+   ],
+   "d": 1,
+   "x": "sening sinfing: undosh bilan tugagan so‘zga -ing."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_11",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: mening … (“do‘st”)",
+   "a": "do‘stim",
+   "w": [
+    "do‘stm",
+    "do‘stimiz",
+    "do‘sti"
+   ],
+   "d": 1,
+   "x": "mening do‘stim: undosh bilan tugagan so‘zga -im."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_12",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: uning … (“do‘st”)",
+   "a": "do‘sti",
+   "w": [
+    "do‘stsi",
+    "do‘stimiz",
+    "do‘stim"
+   ],
+   "d": 1,
+   "x": "uning do‘sti: undosh bilan tugagan so‘zga -i."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_13",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: bizning … (“maktab”)",
+   "a": "maktabimiz",
+   "w": [
+    "maktabmiz",
+    "maktabingiz",
+    "maktabi"
+   ],
+   "d": 2,
+   "x": "bizning maktabimiz: undosh bilan tugagan so‘zga -imiz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_14",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: sizning … (“maktab”)",
+   "a": "maktabingiz",
+   "w": [
+    "maktabngiz",
+    "maktabim",
+    "maktabing"
+   ],
+   "d": 2,
+   "x": "sizning maktabingiz: undosh bilan tugagan so‘zga -ingiz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_15",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: sening … (“bog‘”)",
+   "a": "bog‘ing",
+   "w": [
+    "bog‘ng",
+    "bog‘i",
+    "bog‘ingiz"
+   ],
+   "d": 1,
+   "x": "sening bog‘ing: undosh bilan tugagan so‘zga -ing."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_16",
+   "t": "choice",
+   "q": "To‘g‘ri shaklni tanlang: uning … (“bog‘”)",
+   "a": "bog‘i",
+   "w": [
+    "bog‘si",
+    "bog‘imiz",
+    "bog‘im"
+   ],
+   "d": 1,
+   "x": "uning bog‘i: undosh bilan tugagan so‘zga -i."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_17",
+   "t": "choice",
+   "q": "“yurak” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "yuragim",
+   "w": [
+    "yurakim",
+    "yurakkim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi k undoshi g ga aylanadi: yuragim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_18",
+   "t": "choice",
+   "q": "“qishloq” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "qishlog‘im",
+   "w": [
+    "qishloqim",
+    "qishlogim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi q undoshi g‘ ga aylanadi: qishlog‘im."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_19",
+   "t": "choice",
+   "q": "“o‘rtoq” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "o‘rtog‘im",
+   "w": [
+    "o‘rtoqim",
+    "o‘rtogim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi q undoshi g‘ ga aylanadi: o‘rtog‘im."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_20",
+   "t": "choice",
+   "q": "“eshik” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "eshigim",
+   "w": [
+    "eshikim",
+    "eshikkim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi k undoshi g ga aylanadi: eshigim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_21",
+   "t": "choice",
+   "q": "“tayoq” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "tayog‘im",
+   "w": [
+    "tayoqim",
+    "tayoqqim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi q undoshi g‘ ga aylanadi: tayog‘im."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_22",
+   "t": "choice",
+   "q": "“chelak” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "chelagim",
+   "w": [
+    "chelakim",
+    "chelakkim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi k undoshi g ga aylanadi: chelagim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_23",
+   "t": "choice",
+   "q": "“qoshiq” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "qoshig‘im",
+   "w": [
+    "qoshiqim",
+    "qoshigim"
+   ],
+   "d": 2,
+   "x": "Ko‘p bo‘g‘inli so‘z oxiridagi q undoshi g‘ ga aylanadi: qoshig‘im."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_24",
+   "t": "choice",
+   "q": "“og‘iz” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "og‘zim",
+   "w": [
+    "og‘izim",
+    "og‘izm"
+   ],
+   "d": 3,
+   "x": "Bu so‘zda ikkinchi bo‘g‘indagi unli tushib qoladi: og‘iz — og‘zim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_25",
+   "t": "choice",
+   "q": "“burun” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "burnim",
+   "w": [
+    "burunim",
+    "burunm"
+   ],
+   "d": 3,
+   "x": "Bu so‘zda ikkinchi bo‘g‘indagi unli tushib qoladi: burun — burnim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_26",
+   "t": "choice",
+   "q": "“o‘g‘il” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "o‘g‘lim",
+   "w": [
+    "o‘g‘ilim",
+    "o‘g‘ilm"
+   ],
+   "d": 3,
+   "x": "Bu so‘zda ikkinchi bo‘g‘indagi unli tushib qoladi: o‘g‘il — o‘g‘lim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_27",
+   "t": "choice",
+   "q": "“singil” so‘ziga “-im” qo‘shilganda qanday yoziladi?",
+   "a": "singlim",
+   "w": [
+    "singilim",
+    "singilm"
+   ],
+   "d": 3,
+   "x": "Bu so‘zda ikkinchi bo‘g‘indagi unli tushib qoladi: singil — singlim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_28",
+   "t": "choice",
+   "q": "Egalik qo‘shimchasi nimani bildiradi?",
+   "a": "Narsa kimga qarashli ekanini",
+   "w": [
+    "Narsaning sonini",
+    "Harakat vaqtini",
+    "Narsaning rangini"
+   ],
+   "d": 1,
+   "x": "kitobim — mening kitobim."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_29",
+   "t": "choice",
+   "q": "“daftarimiz” so‘zi kimga qarashli narsani bildiradi?",
+   "a": "bizga",
+   "w": [
+    "menga",
+    "senga",
+    "sizga"
+   ],
+   "d": 2,
+   "x": "bizning daftarimiz: -imiz."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_30",
+   "t": "tf",
+   "q": "Unli bilan tugagan so‘zga III shaxs egalik qo‘shimchasi -si shaklida qo‘shiladi.",
+   "a": true,
+   "d": 1,
+   "x": "oila — oilasi, ko‘cha — ko‘chasi."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_31",
+   "t": "tf",
+   "q": "“yurak” so‘ziga -im qo‘shilsa, “yurakim” deb yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "To‘g‘ri: yuragim (k — g ga aylanadi)."
+  },
+  {
+   "topic": "onatili_g4.possessive",
+   "id": "possessive_32",
+   "t": "match",
+   "q": "Olmoshni egalik shakli bilan juftlang",
+   "pairs": [
+    [
+     "mening",
+     "sinfim"
+    ],
+    [
+     "sening",
+     "sinfing"
+    ],
+    [
+     "uning",
+     "sinfi"
+    ],
+    [
+     "bizning",
+     "sinfimiz"
+    ],
+    [
+     "sizning",
+     "sinfingiz"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_1",
+   "t": "choice",
+   "q": "“Quyosh charaqlab chiqdi.” gapidagi “Quyosh” so‘zi qaysi kelishikda?",
+   "a": "Bosh kelishik",
+   "w": [
+    "Jo‘nalish kelishigi",
+    "O‘rin-payt kelishigi",
+    "Chiqish kelishigi"
+   ],
+   "d": 1,
+   "x": "“Quyosh” — kim? nima? so‘rog‘iga javob beradi: bosh kelishik."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_2",
+   "t": "choice",
+   "q": "“Ukamning velosipedi yangi.” gapidagi “Ukamning” so‘zi qaysi kelishikda?",
+   "a": "Qaratqich kelishigi",
+   "w": [
+    "Tushum kelishigi",
+    "Jo‘nalish kelishigi",
+    "O‘rin-payt kelishigi"
+   ],
+   "d": 1,
+   "x": "“Ukamning” — kimning? nimaning? so‘rog‘iga javob beradi: qaratqich kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_3",
+   "t": "choice",
+   "q": "“Opam gullarni sug‘ordi.” gapidagi “gullarni” so‘zi qaysi kelishikda?",
+   "a": "Tushum kelishigi",
+   "w": [
+    "Bosh kelishik",
+    "Jo‘nalish kelishigi",
+    "Chiqish kelishigi"
+   ],
+   "d": 1,
+   "x": "“gullarni” — kimni? nimani? so‘rog‘iga javob beradi: tushum kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_4",
+   "t": "choice",
+   "q": "“Biz daryoga bordik.” gapidagi “daryoga” so‘zi qaysi kelishikda?",
+   "a": "Jo‘nalish kelishigi",
+   "w": [
+    "O‘rin-payt kelishigi",
+    "Qaratqich kelishigi",
+    "Chiqish kelishigi"
+   ],
+   "d": 1,
+   "x": "“daryoga” — kimga? qayerga? so‘rog‘iga javob beradi: jo‘nalish kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_5",
+   "t": "choice",
+   "q": "“Qushlar daraxtda sayrayapti.” gapidagi “daraxtda” so‘zi qaysi kelishikda?",
+   "a": "O‘rin-payt kelishigi",
+   "w": [
+    "Tushum kelishigi",
+    "Chiqish kelishigi",
+    "Jo‘nalish kelishigi"
+   ],
+   "d": 1,
+   "x": "“daraxtda” — kimda? qayerda? so‘rog‘iga javob beradi: o‘rin-payt kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_6",
+   "t": "choice",
+   "q": "“Dadam ishdan qaytdi.” gapidagi “ishdan” so‘zi qaysi kelishikda?",
+   "a": "Chiqish kelishigi",
+   "w": [
+    "Bosh kelishik",
+    "Jo‘nalish kelishigi",
+    "O‘rin-payt kelishigi"
+   ],
+   "d": 1,
+   "x": "“ishdan” — kimdan? qayerdan? so‘rog‘iga javob beradi: chiqish kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_7",
+   "t": "choice",
+   "q": "“Bolalar hovlida o‘ynashdi.” gapidagi “Bolalar” so‘zi qaysi kelishikda?",
+   "a": "Bosh kelishik",
+   "w": [
+    "O‘rin-payt kelishigi",
+    "Tushum kelishigi",
+    "Qaratqich kelishigi"
+   ],
+   "d": 2,
+   "x": "“Bolalar” — kim? nima? so‘rog‘iga javob beradi: bosh kelishik."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_8",
+   "t": "choice",
+   "q": "“Daraxtning barglari sarg‘aydi.” gapidagi “Daraxtning” so‘zi qaysi kelishikda?",
+   "a": "Qaratqich kelishigi",
+   "w": [
+    "Bosh kelishik",
+    "Chiqish kelishigi",
+    "O‘rin-payt kelishigi"
+   ],
+   "d": 2,
+   "x": "“Daraxtning” — kimning? nimaning? so‘rog‘iga javob beradi: qaratqich kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_9",
+   "t": "choice",
+   "q": "“Men xatni pochtaga olib bordim.” gapidagi “xatni” so‘zi qaysi kelishikda?",
+   "a": "Tushum kelishigi",
+   "w": [
+    "Qaratqich kelishigi",
+    "Chiqish kelishigi",
+    "Jo‘nalish kelishigi"
+   ],
+   "d": 2,
+   "x": "“xatni” — kimni? nimani? so‘rog‘iga javob beradi: tushum kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_10",
+   "t": "choice",
+   "q": "“Dadam ukamga to‘p olib berdi.” gapidagi “ukamga” so‘zi qaysi kelishikda?",
+   "a": "Jo‘nalish kelishigi",
+   "w": [
+    "Bosh kelishik",
+    "O‘rin-payt kelishigi",
+    "Tushum kelishigi"
+   ],
+   "d": 2,
+   "x": "“ukamga” — kimga? qayerga? so‘rog‘iga javob beradi: jo‘nalish kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_11",
+   "t": "choice",
+   "q": "“Kitoblar javonda turibdi.” gapidagi “javonda” so‘zi qaysi kelishikda?",
+   "a": "O‘rin-payt kelishigi",
+   "w": [
+    "Qaratqich kelishigi",
+    "Tushum kelishigi",
+    "Bosh kelishik"
+   ],
+   "d": 2,
+   "x": "“javonda” — kimda? qayerda? so‘rog‘iga javob beradi: o‘rin-payt kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_12",
+   "t": "choice",
+   "q": "“Daryodan salqin shabada esdi.” gapidagi “Daryodan” so‘zi qaysi kelishikda?",
+   "a": "Chiqish kelishigi",
+   "w": [
+    "Bosh kelishik",
+    "Tushum kelishigi",
+    "Qaratqich kelishigi"
+   ],
+   "d": 2,
+   "x": "“Daryodan” — kimdan? qayerdan? so‘rog‘iga javob beradi: chiqish kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_13",
+   "t": "choice",
+   "q": "Bosh kelishik qaysi so‘roqlarga javob beradi?",
+   "a": "kim? nima?",
+   "w": [
+    "kimni? nimani?",
+    "kimda? qayerda?",
+    "kimning? nimaning?"
+   ],
+   "d": 1,
+   "x": "Bosh kelishik: kim? nima?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_14",
+   "t": "choice",
+   "q": "Qaratqich kelishigi qaysi so‘roqlarga javob beradi?",
+   "a": "kimning? nimaning?",
+   "w": [
+    "kimni? nimani?",
+    "kimda? qayerda?",
+    "kimdan? qayerdan?"
+   ],
+   "d": 2,
+   "x": "Qaratqich kelishigi: kimning? nimaning?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_15",
+   "t": "choice",
+   "q": "Tushum kelishigi qaysi so‘roqlarga javob beradi?",
+   "a": "kimni? nimani?",
+   "w": [
+    "kimda? qayerda?",
+    "kim? nima?",
+    "kimdan? qayerdan?"
+   ],
+   "d": 1,
+   "x": "Tushum kelishigi: kimni? nimani?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_16",
+   "t": "choice",
+   "q": "Jo‘nalish kelishigi qaysi so‘roqlarga javob beradi?",
+   "a": "kimga? qayerga?",
+   "w": [
+    "kimda? qayerda?",
+    "kimdan? qayerdan?",
+    "kim? nima?"
+   ],
+   "d": 2,
+   "x": "Jo‘nalish kelishigi: kimga? qayerga?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_17",
+   "t": "choice",
+   "q": "O‘rin-payt kelishigi qaysi so‘roqlarga javob beradi?",
+   "a": "kimda? qayerda?",
+   "w": [
+    "kimga? qayerga?",
+    "kimning? nimaning?",
+    "kimdan? qayerdan?"
+   ],
+   "d": 1,
+   "x": "O‘rin-payt kelishigi: kimda? qayerda?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_18",
+   "t": "choice",
+   "q": "Chiqish kelishigi qaysi so‘roqlarga javob beradi?",
+   "a": "kimdan? qayerdan?",
+   "w": [
+    "kimning? nimaning?",
+    "kim? nima?",
+    "kimga? qayerga?"
+   ],
+   "d": 2,
+   "x": "Chiqish kelishigi: kimdan? qayerdan?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_19",
+   "t": "choice",
+   "q": "“-ning” qaysi kelishik qo‘shimchasi?",
+   "a": "Qaratqich kelishigi",
+   "w": [
+    "Jo‘nalish kelishigi",
+    "Chiqish kelishigi",
+    "Bosh kelishik"
+   ],
+   "d": 1,
+   "x": "-ning — qaratqich kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_20",
+   "t": "choice",
+   "q": "“-ni” qaysi kelishik qo‘shimchasi?",
+   "a": "Tushum kelishigi",
+   "w": [
+    "Chiqish kelishigi",
+    "Qaratqich kelishigi",
+    "Bosh kelishik"
+   ],
+   "d": 1,
+   "x": "-ni — tushum kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_21",
+   "t": "choice",
+   "q": "“-da” qaysi kelishik qo‘shimchasi?",
+   "a": "O‘rin-payt kelishigi",
+   "w": [
+    "Jo‘nalish kelishigi",
+    "Tushum kelishigi",
+    "Bosh kelishik"
+   ],
+   "d": 1,
+   "x": "-da — o‘rin-payt kelishigi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_22",
+   "t": "choice",
+   "q": "Qaysi kelishikning maxsus qo‘shimchasi yo‘q?",
+   "a": "Bosh kelishik",
+   "w": [
+    "Qaratqich kelishigi",
+    "Tushum kelishigi",
+    "Jo‘nalish kelishigi"
+   ],
+   "d": 1,
+   "x": "Bosh kelishikdagi so‘z qo‘shimchasiz keladi: Quyosh chiqdi."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_23",
+   "t": "choice",
+   "q": "“Men … kitob oldim.” Nuqtalar o‘rniga mos so‘zni tanlang.",
+   "a": "kutubxonadan",
+   "w": [
+    "kutubxonaning",
+    "kutubxonani",
+    "kutubxona"
+   ],
+   "d": 2,
+   "x": "qayerdan oldim? — kutubxonadan (chiqish kelishigi)."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_24",
+   "t": "choice",
+   "q": "“Men … kitobini o‘qidim.” Nuqtalar o‘rniga mos so‘zni tanlang.",
+   "a": "akamning",
+   "w": [
+    "akamni",
+    "akamga",
+    "akamdan"
+   ],
+   "d": 2,
+   "x": "kimning kitobini? — akamning (qaratqich kelishigi)."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_25",
+   "t": "choice",
+   "q": "“Ali … yordam berdi.” Nuqtalar o‘rniga mos so‘zni tanlang.",
+   "a": "onasiga",
+   "w": [
+    "onasini",
+    "onasining",
+    "onasidan"
+   ],
+   "d": 2,
+   "x": "kimga yordam berdi? — onasiga (jo‘nalish kelishigi)."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_26",
+   "t": "tf",
+   "q": "O‘rin-payt kelishigi “qayerdan?” so‘rog‘iga javob beradi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘rin-payt — qayerda?, chiqish — qayerdan?"
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_27",
+   "t": "tf",
+   "q": "Qaratqich kelishigining qo‘shimchasi — -ning.",
+   "a": true,
+   "d": 1,
+   "x": "ukamning, daraxtning."
+  },
+  {
+   "topic": "onatili_g4.cases",
+   "id": "cases_28",
+   "t": "match",
+   "q": "Kelishikni so‘rog‘i bilan juftlang",
+   "pairs": [
+    [
+     "Bosh kelishik",
+     "kim? nima?"
+    ],
+    [
+     "Qaratqich kelishigi",
+     "kimning? nimaning?"
+    ],
+    [
+     "Tushum kelishigi",
+     "kimni? nimani?"
+    ],
+    [
+     "Jo‘nalish kelishigi",
+     "kimga? qayerga?"
+    ],
+    [
+     "O‘rin-payt kelishigi",
+     "kimda? qayerda?"
+    ],
+    [
+     "Chiqish kelishigi",
+     "kimdan? qayerdan?"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_1",
+   "t": "choice",
+   "q": "“eshik” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "eshikka",
+   "w": [
+    "eshikga",
+    "eshikqa"
+   ],
+   "d": 1,
+   "x": "k bilan tugagan so‘zga -ka: eshikka."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_2",
+   "t": "choice",
+   "q": "“chelak” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "chelakka",
+   "w": [
+    "chelakga",
+    "chelakqa"
+   ],
+   "d": 1,
+   "x": "k bilan tugagan so‘zga -ka: chelakka."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_3",
+   "t": "choice",
+   "q": "“bilak” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "bilakka",
+   "w": [
+    "bilakga",
+    "bilakqa"
+   ],
+   "d": 1,
+   "x": "k bilan tugagan so‘zga -ka: bilakka."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_4",
+   "t": "choice",
+   "q": "“ko‘prik” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "ko‘prikka",
+   "w": [
+    "ko‘prikga",
+    "ko‘prikqa"
+   ],
+   "d": 1,
+   "x": "k bilan tugagan so‘zga -ka: ko‘prikka."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_5",
+   "t": "choice",
+   "q": "“qoshiq” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "qoshiqqa",
+   "w": [
+    "qoshiqga",
+    "qoshiqka"
+   ],
+   "d": 1,
+   "x": "q bilan tugagan so‘zga -qa: qoshiqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_6",
+   "t": "choice",
+   "q": "“quloq” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "quloqqa",
+   "w": [
+    "quloqga",
+    "quloqka"
+   ],
+   "d": 1,
+   "x": "q bilan tugagan so‘zga -qa: quloqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_7",
+   "t": "choice",
+   "q": "“tayoq” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "tayoqqa",
+   "w": [
+    "tayoqga",
+    "tayoqka"
+   ],
+   "d": 1,
+   "x": "q bilan tugagan so‘zga -qa: tayoqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_8",
+   "t": "choice",
+   "q": "“bayroq” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "bayroqqa",
+   "w": [
+    "bayroqga",
+    "bayroqka"
+   ],
+   "d": 1,
+   "x": "q bilan tugagan so‘zga -qa: bayroqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_9",
+   "t": "choice",
+   "q": "“tuproq” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "tuproqqa",
+   "w": [
+    "tuproqga",
+    "tuproqka"
+   ],
+   "d": 2,
+   "x": "q bilan tugagan so‘zga -qa: tuproqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_10",
+   "t": "choice",
+   "q": "“barg” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "bargga",
+   "w": [
+    "bargka",
+    "bargqa"
+   ],
+   "d": 2,
+   "x": "k, q dan boshqa tovush bilan tugagan so‘zga -ga: bargga."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_11",
+   "t": "choice",
+   "q": "“bulut” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "bulutga",
+   "w": [
+    "bulutka",
+    "bulutqa"
+   ],
+   "d": 2,
+   "x": "k, q dan boshqa tovush bilan tugagan so‘zga -ga: bulutga."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_12",
+   "t": "choice",
+   "q": "“daryo” + jo‘nalish kelishigi — qaysi yozuv to‘g‘ri?",
+   "a": "daryoga",
+   "w": [
+    "daryoka",
+    "daryoqa"
+   ],
+   "d": 2,
+   "x": "k, q dan boshqa tovush bilan tugagan so‘zga -ga: daryoga."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_13",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "kuzgi",
+   "w": [
+    "kuzki",
+    "kuzqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: kuzgi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_14",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "yozgi",
+   "w": [
+    "yozki",
+    "yozqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: yozgi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_15",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "bahorgi",
+   "w": [
+    "bahorki",
+    "bahorqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: bahorgi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_16",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "qishki",
+   "w": [
+    "qishgi",
+    "qishqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: qishki."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_17",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "kechki",
+   "w": [
+    "kechgi",
+    "kechqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: kechki."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_18",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "ichki",
+   "w": [
+    "ichgi",
+    "ichqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: ichki."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_19",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "tashqi",
+   "w": [
+    "tashki",
+    "tashgi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: tashqi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_20",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "tungi",
+   "w": [
+    "tunki",
+    "tunqi"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: tungi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_21",
+   "t": "choice",
+   "q": "“ek” fe’liga “-gan” qo‘shilsa, qanday yoziladi?",
+   "a": "ekkan",
+   "w": [
+    "ekgan",
+    "ekqan"
+   ],
+   "d": 3,
+   "x": "k bilan tugagan so‘zga -kan qo‘shiladi: ekkan."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_22",
+   "t": "choice",
+   "q": "“tik” fe’liga “-gan” qo‘shilsa, qanday yoziladi?",
+   "a": "tikkan",
+   "w": [
+    "tikgan",
+    "tikqan"
+   ],
+   "d": 3,
+   "x": "k bilan tugagan so‘zga -kan qo‘shiladi: tikkan."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_23",
+   "t": "choice",
+   "q": "“chiq” fe’liga “-gan” qo‘shilsa, qanday yoziladi?",
+   "a": "chiqqan",
+   "w": [
+    "chiqgan",
+    "chiqkan"
+   ],
+   "d": 3,
+   "x": "q bilan tugagan so‘zga -qan qo‘shiladi: chiqqan."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_24",
+   "t": "choice",
+   "q": "“yoq” fe’liga “-gan” qo‘shilsa, qanday yoziladi?",
+   "a": "yoqqan",
+   "w": [
+    "yoqgan",
+    "yoqkan"
+   ],
+   "d": 3,
+   "x": "q bilan tugagan so‘zga -qan qo‘shiladi: yoqqan."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_25",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "eshikda",
+   "w": [
+    "eshikta",
+    "eshigda"
+   ],
+   "d": 1,
+   "x": "-da, -dan, -lar qo‘shimchalari o‘zgarmaydi va o‘zak ham o‘zgarmaydi: eshikda."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_26",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "kitobdan",
+   "w": [
+    "kitobtan",
+    "kitopdan"
+   ],
+   "d": 2,
+   "x": "-da, -dan, -lar qo‘shimchalari o‘zgarmaydi va o‘zak ham o‘zgarmaydi: kitobdan."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_27",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "qishloqda",
+   "w": [
+    "qishloqta",
+    "qishlog‘da"
+   ],
+   "d": 2,
+   "x": "-da, -dan, -lar qo‘shimchalari o‘zgarmaydi va o‘zak ham o‘zgarmaydi: qishloqda."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_28",
+   "t": "choice",
+   "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+   "a": "tayoqlar",
+   "w": [
+    "tayog‘lar",
+    "tayoqqlar"
+   ],
+   "d": 2,
+   "x": "-da, -dan, -lar qo‘shimchalari o‘zgarmaydi va o‘zak ham o‘zgarmaydi: tayoqlar."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_29",
+   "t": "tf",
+   "q": "k bilan tugagan so‘zga jo‘nalish kelishigi -ka shaklida qo‘shiladi.",
+   "a": true,
+   "d": 1,
+   "x": "eshik — eshikka, chelak — chelakka."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_30",
+   "t": "tf",
+   "q": "q bilan tugagan so‘zga jo‘nalish kelishigi -qa shaklida qo‘shiladi.",
+   "a": true,
+   "d": 1,
+   "x": "quloq — quloqqa, tayoq — tayoqqa."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_31",
+   "t": "tf",
+   "q": "Adabiy tilda “eshikta” emas, “eshikda” deb yoziladi.",
+   "a": true,
+   "d": 1,
+   "x": "-da qo‘shimchasi o‘zgarmaydi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_32",
+   "t": "tf",
+   "q": "“qishki” so‘zi “qishgi” deb yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "To‘g‘ri: qishki."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_33",
+   "t": "tf",
+   "q": "“bulut” so‘ziga jo‘nalish kelishigi -ga shaklida qo‘shiladi.",
+   "a": true,
+   "d": 2,
+   "x": "bulutga: faqat k va q dan keyin -ka, -qa bo‘ladi."
+  },
+  {
+   "topic": "onatili_g4.suffix_spelling",
+   "id": "suffix_spelling_34",
+   "t": "match",
+   "q": "So‘zni to‘g‘ri shakli bilan juftlang",
+   "pairs": [
+    [
+     "quloq",
+     "quloqqa"
+    ],
+    [
+     "chelak",
+     "chelakka"
+    ],
+    [
+     "barg",
+     "bargga"
+    ],
+    [
+     "bulut",
+     "bulutga"
+    ],
+    [
+     "tayoq",
+     "tayoqqa"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_1",
+   "t": "choice",
+   "q": "“keng” sifati qaysi darajada?",
+   "a": "Oddiy daraja",
+   "w": [
+    "Qiyosiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi oddiy holda — oddiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_2",
+   "t": "choice",
+   "q": "“shirinroq” sifati qaysi darajada?",
+   "a": "Qiyosiy daraja",
+   "w": [
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "-roq qo‘shimchasi — qiyosiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_3",
+   "t": "choice",
+   "q": "“eng baland” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_4",
+   "t": "choice",
+   "q": "“issiq” sifati qaysi darajada?",
+   "a": "Oddiy daraja",
+   "w": [
+    "Qiyosiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi oddiy holda — oddiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_5",
+   "t": "choice",
+   "q": "“yumshoqroq” sifati qaysi darajada?",
+   "a": "Qiyosiy daraja",
+   "w": [
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "-roq qo‘shimchasi — qiyosiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_6",
+   "t": "choice",
+   "q": "“juda chiroyli” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_7",
+   "t": "choice",
+   "q": "“yorug‘” sifati qaysi darajada?",
+   "a": "Oddiy daraja",
+   "w": [
+    "Qiyosiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi oddiy holda — oddiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_8",
+   "t": "choice",
+   "q": "“tezroq” sifati qaysi darajada?",
+   "a": "Qiyosiy daraja",
+   "w": [
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "-roq qo‘shimchasi — qiyosiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_9",
+   "t": "choice",
+   "q": "“eng toza” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 1,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_10",
+   "t": "choice",
+   "q": "“kichikroq” sifati qaysi darajada?",
+   "a": "Qiyosiy daraja",
+   "w": [
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 2,
+   "x": "-roq qo‘shimchasi — qiyosiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_11",
+   "t": "choice",
+   "q": "“qip-qizil” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 2,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_12",
+   "t": "choice",
+   "q": "“oppoq” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 2,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_13",
+   "t": "choice",
+   "q": "“nihoyatda katta” sifati qaysi darajada?",
+   "a": "Orttirma daraja",
+   "w": [
+    "Oddiy daraja",
+    "Qiyosiy daraja",
+    "Sifat emas"
+   ],
+   "d": 2,
+   "x": "Belgi juda kuchli — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_14",
+   "t": "choice",
+   "q": "“sovuqroq” sifati qaysi darajada?",
+   "a": "Qiyosiy daraja",
+   "w": [
+    "Oddiy daraja",
+    "Orttirma daraja",
+    "Sifat emas"
+   ],
+   "d": 2,
+   "x": "-roq qo‘shimchasi — qiyosiy daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_15",
+   "t": "choice",
+   "q": "Qaysi sifat qiyosiy darajada?",
+   "a": "balandroq",
+   "w": [
+    "baland",
+    "eng baland",
+    "juda baland"
+   ],
+   "d": 1,
+   "x": "baland + roq = balandroq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_16",
+   "t": "choice",
+   "q": "Qaysi sifat qiyosiy darajada?",
+   "a": "shirinroq",
+   "w": [
+    "shirin",
+    "eng shirin",
+    "juda shirin"
+   ],
+   "d": 1,
+   "x": "shirin + roq = shirinroq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_17",
+   "t": "choice",
+   "q": "Qaysi sifat qiyosiy darajada?",
+   "a": "kengroq",
+   "w": [
+    "keng",
+    "eng keng",
+    "juda keng"
+   ],
+   "d": 1,
+   "x": "keng + roq = kengroq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_18",
+   "t": "choice",
+   "q": "Qaysi sifat qiyosiy darajada?",
+   "a": "yumshoqroq",
+   "w": [
+    "yumshoq",
+    "eng yumshoq",
+    "juda yumshoq"
+   ],
+   "d": 1,
+   "x": "yumshoq + roq = yumshoqroq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_19",
+   "t": "choice",
+   "q": "Qaysi sifat orttirma darajada?",
+   "a": "eng chiroyli",
+   "w": [
+    "chiroyli",
+    "chiroyliroq",
+    "chiroylicha"
+   ],
+   "d": 1,
+   "x": "eng chiroyli — belgi juda kuchli."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_20",
+   "t": "choice",
+   "q": "Qaysi sifat orttirma darajada?",
+   "a": "juda issiq",
+   "w": [
+    "issiq",
+    "issiqroq",
+    "iliqroq"
+   ],
+   "d": 2,
+   "x": "juda issiq — belgi juda kuchli."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_21",
+   "t": "choice",
+   "q": "Qaysi sifat orttirma darajada?",
+   "a": "qop-qora",
+   "w": [
+    "qora",
+    "qoraroq",
+    "qoramtir"
+   ],
+   "d": 2,
+   "x": "qop-qora — belgi juda kuchli."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_22",
+   "t": "choice",
+   "q": "“oq” sifatining orttirma darajasi qaysi?",
+   "a": "oppoq",
+   "w": [
+    "oqroq",
+    "op-oq",
+    "oq-oq"
+   ],
+   "d": 3,
+   "x": "oppoq qo‘shib yoziladi."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_23",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri?",
+   "a": "kattaroq",
+   "w": [
+    "katta roq",
+    "katta-roq"
+   ],
+   "d": 2,
+   "x": "-roq qo‘shimchasi qo‘shib yoziladi."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_24",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri?",
+   "a": "eng baland",
+   "w": [
+    "engbaland",
+    "eng-baland"
+   ],
+   "d": 2,
+   "x": "“eng” so‘zi sifatdan ajratib yoziladi."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_25",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri?",
+   "a": "qip-qizil",
+   "w": [
+    "qipqizil",
+    "qip qizil"
+   ],
+   "d": 2,
+   "x": "Takrorlangan bo‘g‘in chiziqcha bilan yoziladi: qip-qizil, yam-yashil."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_26",
+   "t": "choice",
+   "q": "Sifat qaysi so‘roqlarga javob beradi?",
+   "a": "qanday? qanaqa?",
+   "w": [
+    "kim? nima?",
+    "nima qildi?",
+    "nechta?"
+   ],
+   "d": 1,
+   "x": "qanday olma? — qizil olma."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_27",
+   "t": "tf",
+   "q": "-roq qo‘shimchasi sifatning qiyosiy darajasini hosil qiladi.",
+   "a": true,
+   "d": 1,
+   "x": "shirin — shirinroq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_28",
+   "t": "tf",
+   "q": "“eng” so‘zi sifatdan ajratib yoziladi.",
+   "a": true,
+   "d": 1,
+   "x": "eng katta, eng a’lo."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_29",
+   "t": "tf",
+   "q": "“qip-qizil” — oddiy darajadagi sifat.",
+   "a": false,
+   "d": 2,
+   "x": "qip-qizil — orttirma daraja."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_30",
+   "t": "tf",
+   "q": "Orttirma daraja belgining juda kuchli ekanini bildiradi.",
+   "a": true,
+   "d": 2,
+   "x": "eng baland, juda shirin, oppoq."
+  },
+  {
+   "topic": "onatili_g4.adjectives",
+   "id": "adjectives_31",
+   "t": "match",
+   "q": "Sifatni u bildirgan belgi bilan juftlang",
+   "pairs": [
+    [
+     "sariq",
+     "rang"
+    ],
+    [
+     "nordon",
+     "maza"
+    ],
+    [
+     "dumaloq",
+     "shakl"
+    ],
+    [
+     "ulkan",
+     "hajm"
+    ],
+    [
+     "kamtar",
+     "xarakter"
+    ],
+    [
+     "xushbo‘y",
+     "hid"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_1",
+   "t": "choice",
+   "q": "“bir” sonidan tartib son yasang.",
+   "a": "birinchi",
+   "w": [
+    "birnchi",
+    "birta",
+    "birchi"
+   ],
+   "d": 1,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: birinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_2",
+   "t": "choice",
+   "q": "“ikki” sonidan tartib son yasang.",
+   "a": "ikkinchi",
+   "w": [
+    "ikkiinchi",
+    "ikkita",
+    "ikkichi"
+   ],
+   "d": 1,
+   "x": "Unli bilan tugagan songa -nchi qo‘shiladi: ikkinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_3",
+   "t": "choice",
+   "q": "“uch” sonidan tartib son yasang.",
+   "a": "uchinchi",
+   "w": [
+    "uchnchi",
+    "uchta",
+    "uchchi"
+   ],
+   "d": 1,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: uchinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_4",
+   "t": "choice",
+   "q": "“olti” sonidan tartib son yasang.",
+   "a": "oltinchi",
+   "w": [
+    "oltiinchi",
+    "oltita",
+    "oltichi"
+   ],
+   "d": 1,
+   "x": "Unli bilan tugagan songa -nchi qo‘shiladi: oltinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_5",
+   "t": "choice",
+   "q": "“besh” sonidan tartib son yasang.",
+   "a": "beshinchi",
+   "w": [
+    "beshnchi",
+    "beshta",
+    "beshchi"
+   ],
+   "d": 1,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: beshinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_6",
+   "t": "choice",
+   "q": "“yetti” sonidan tartib son yasang.",
+   "a": "yettinchi",
+   "w": [
+    "yettiinchi",
+    "yettita",
+    "yettichi"
+   ],
+   "d": 1,
+   "x": "Unli bilan tugagan songa -nchi qo‘shiladi: yettinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_7",
+   "t": "choice",
+   "q": "“to‘rt” sonidan tartib son yasang.",
+   "a": "to‘rtinchi",
+   "w": [
+    "to‘rtnchi",
+    "to‘rtta",
+    "to‘rtchi"
+   ],
+   "d": 2,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: to‘rtinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_8",
+   "t": "choice",
+   "q": "“sakkiz” sonidan tartib son yasang.",
+   "a": "sakkizinchi",
+   "w": [
+    "sakkiznchi",
+    "sakkizta",
+    "sakkizchi"
+   ],
+   "d": 2,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: sakkizinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_9",
+   "t": "choice",
+   "q": "“to‘qqiz” sonidan tartib son yasang.",
+   "a": "to‘qqizinchi",
+   "w": [
+    "to‘qqiznchi",
+    "to‘qqizta",
+    "to‘qqizchi"
+   ],
+   "d": 2,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: to‘qqizinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_10",
+   "t": "choice",
+   "q": "“o‘n” sonidan tartib son yasang.",
+   "a": "o‘ninchi",
+   "w": [
+    "o‘nnchi",
+    "o‘nta",
+    "o‘nchi"
+   ],
+   "d": 2,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: o‘ninchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_11",
+   "t": "choice",
+   "q": "“yigirma” sonidan tartib son yasang.",
+   "a": "yigirmanchi",
+   "w": [
+    "yigirmainchi",
+    "yigirmata",
+    "yigirmachi"
+   ],
+   "d": 2,
+   "x": "Unli bilan tugagan songa -nchi qo‘shiladi: yigirmanchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_12",
+   "t": "choice",
+   "q": "“qirq” sonidan tartib son yasang.",
+   "a": "qirqinchi",
+   "w": [
+    "qirqnchi",
+    "qirqta",
+    "qirqchi"
+   ],
+   "d": 2,
+   "x": "Undosh bilan tugagan songa -inchi qo‘shiladi: qirqinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_13",
+   "t": "choice",
+   "q": "“yettinchi” qanday son?",
+   "a": "Tartib son",
+   "w": [
+    "Sanoq son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Tartib son — nechanchi? (-inchi, -nchi)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_14",
+   "t": "choice",
+   "q": "“o‘n ikki” qanday son?",
+   "a": "Sanoq son",
+   "w": [
+    "Tartib son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Sanoq son — necha? qancha?"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_15",
+   "t": "choice",
+   "q": "“beshta” qanday son?",
+   "a": "Dona son",
+   "w": [
+    "Sanoq son",
+    "Tartib son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Dona son — nechta? (-ta)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_16",
+   "t": "choice",
+   "q": "“uchinchi” qanday son?",
+   "a": "Tartib son",
+   "w": [
+    "Sanoq son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Tartib son — nechanchi? (-inchi, -nchi)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_17",
+   "t": "choice",
+   "q": "“to‘qqiz” qanday son?",
+   "a": "Sanoq son",
+   "w": [
+    "Tartib son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Sanoq son — necha? qancha?"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_18",
+   "t": "choice",
+   "q": "“yigirmata” qanday son?",
+   "a": "Dona son",
+   "w": [
+    "Sanoq son",
+    "Tartib son",
+    "Sifat"
+   ],
+   "d": 1,
+   "x": "Dona son — nechta? (-ta)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_19",
+   "t": "choice",
+   "q": "“birinchi” qanday son?",
+   "a": "Tartib son",
+   "w": [
+    "Sanoq son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 2,
+   "x": "Tartib son — nechanchi? (-inchi, -nchi)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_20",
+   "t": "choice",
+   "q": "“qirq” qanday son?",
+   "a": "Sanoq son",
+   "w": [
+    "Tartib son",
+    "Dona son",
+    "Sifat"
+   ],
+   "d": 2,
+   "x": "Sanoq son — necha? qancha?"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_21",
+   "t": "choice",
+   "q": "“o‘nta” qanday son?",
+   "a": "Dona son",
+   "w": [
+    "Sanoq son",
+    "Tartib son",
+    "Sifat"
+   ],
+   "d": 2,
+   "x": "Dona son — nechta? (-ta)"
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_22",
+   "t": "choice",
+   "q": "Tartib son qaysi so‘roqqa javob beradi?",
+   "a": "nechanchi?",
+   "w": [
+    "nechta?",
+    "qanday?",
+    "kim?"
+   ],
+   "d": 1,
+   "x": "nechanchi sinf? — to‘rtinchi sinf."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_23",
+   "t": "choice",
+   "q": "Dona son qaysi so‘roqqa javob beradi?",
+   "a": "nechta?",
+   "w": [
+    "nechanchi?",
+    "qanday?",
+    "qayerda?"
+   ],
+   "d": 1,
+   "x": "nechta olma? — beshta olma."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_24",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri?",
+   "a": "4-sinf",
+   "w": [
+    "4 sinf",
+    "4-chi sinf",
+    "4-inchi sinf"
+   ],
+   "d": 1,
+   "x": "Raqam bilan yozilgan tartib sondan keyin chiziqcha qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_25",
+   "t": "choice",
+   "q": "Qaysi yozuv to‘g‘ri?",
+   "a": "1-sentabr",
+   "w": [
+    "1 sentabr",
+    "1-chi sentabr",
+    "1-inchi sentabr"
+   ],
+   "d": 2,
+   "x": "Sana ham tartib son: 1-sentabr."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_26",
+   "t": "choice",
+   "q": "Qaysi son to‘g‘ri yozilgan?",
+   "a": "o‘n besh",
+   "w": [
+    "o‘nbesh",
+    "o‘n-besh"
+   ],
+   "d": 2,
+   "x": "Qo‘shma sonlar ajratib yoziladi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_27",
+   "t": "choice",
+   "q": "Qaysi son to‘g‘ri yozilgan?",
+   "a": "yigirma uch",
+   "w": [
+    "yigirmauch",
+    "yigirma-uch"
+   ],
+   "d": 2,
+   "x": "Qo‘shma sonlar ajratib yoziladi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_28",
+   "t": "choice",
+   "q": "“Men 4-sinfda o‘qiyman.” gapidagi “4-” qanday o‘qiladi?",
+   "a": "to‘rtinchi",
+   "w": [
+    "to‘rt",
+    "to‘rtta",
+    "to‘rtov"
+   ],
+   "d": 2,
+   "x": "Chiziqcha tartib sonni bildiradi: to‘rtinchi sinf."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_29",
+   "t": "tf",
+   "q": "Tartib son -inchi yoki -nchi qo‘shimchasi bilan yasaladi.",
+   "a": true,
+   "d": 1,
+   "x": "uch — uchinchi, ikki — ikkinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_30",
+   "t": "tf",
+   "q": "“olti” so‘ziga -inchi qo‘shilib, “oltiinchi” deb yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "Unli bilan tugagani uchun -nchi: oltinchi."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_31",
+   "t": "tf",
+   "q": "“o‘n besh” soni qo‘shib yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "Qo‘shma sonlar ajratib yoziladi: o‘n besh."
+  },
+  {
+   "topic": "onatili_g4.numerals",
+   "id": "numerals_32",
+   "t": "match",
+   "q": "Raqamli yozuvni so‘z bilan juftlang",
+   "pairs": [
+    [
+     "2-qavat",
+     "ikkinchi qavat"
+    ],
+    [
+     "5-uy",
+     "beshinchi uy"
+    ],
+    [
+     "8-mart",
+     "sakkizinchi mart"
+    ],
+    [
+     "1-o‘rin",
+     "birinchi o‘rin"
+    ],
+    [
+     "10-bet",
+     "o‘ninchi bet"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_1",
+   "t": "choice",
+   "q": "Qaysi so‘z kishilik olmoshi?",
+   "a": "men",
+   "w": [
+    "daraxt",
+    "bola",
+    "yaxshi"
+   ],
+   "d": 1,
+   "x": "“men” — kishilik olmoshi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_2",
+   "t": "choice",
+   "q": "Qaysi so‘z kishilik olmoshi?",
+   "a": "sen",
+   "w": [
+    "kitob",
+    "ona",
+    "keldi"
+   ],
+   "d": 1,
+   "x": "“sen” — kishilik olmoshi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_3",
+   "t": "choice",
+   "q": "Qaysi so‘z kishilik olmoshi?",
+   "a": "biz",
+   "w": [
+    "bola",
+    "keldi",
+    "uch"
+   ],
+   "d": 1,
+   "x": "“biz” — kishilik olmoshi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_4",
+   "t": "choice",
+   "q": "Qaysi so‘z kishilik olmoshi?",
+   "a": "siz",
+   "w": [
+    "kitob",
+    "keldi",
+    "tez"
+   ],
+   "d": 1,
+   "x": "“siz” — kishilik olmoshi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_5",
+   "t": "choice",
+   "q": "Qaysi so‘z kishilik olmoshi?",
+   "a": "ular",
+   "w": [
+    "yaxshi",
+    "tez",
+    "uch"
+   ],
+   "d": 1,
+   "x": "“ular” — kishilik olmoshi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_6",
+   "t": "choice",
+   "q": "“men” olmoshining ko‘plik shakli qaysi?",
+   "a": "biz",
+   "w": [
+    "siz",
+    "ular",
+    "menlar"
+   ],
+   "d": 1,
+   "x": "men — biz."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_7",
+   "t": "choice",
+   "q": "“sen” olmoshining ko‘plik shakli qaysi?",
+   "a": "siz",
+   "w": [
+    "biz",
+    "ular",
+    "senlar"
+   ],
+   "d": 1,
+   "x": "sen — siz."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_8",
+   "t": "choice",
+   "q": "“u” olmoshining ko‘plik shakli qaysi?",
+   "a": "ular",
+   "w": [
+    "biz",
+    "siz",
+    "ulas"
+   ],
+   "d": 1,
+   "x": "u — ular."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_9",
+   "t": "choice",
+   "q": "“biz” olmoshi qaysi shaxs va sonni bildiradi?",
+   "a": "I shaxs ko‘plik",
+   "w": [
+    "III shaxs birlik",
+    "II shaxs ko‘plik",
+    "II shaxs birlik"
+   ],
+   "d": 2,
+   "x": "biz — I shaxs ko‘plik."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_10",
+   "t": "choice",
+   "q": "“sen” olmoshi qaysi shaxs va sonni bildiradi?",
+   "a": "II shaxs birlik",
+   "w": [
+    "III shaxs ko‘plik",
+    "I shaxs ko‘plik",
+    "II shaxs ko‘plik"
+   ],
+   "d": 2,
+   "x": "sen — II shaxs birlik."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_11",
+   "t": "choice",
+   "q": "“ular” olmoshi qaysi shaxs va sonni bildiradi?",
+   "a": "III shaxs ko‘plik",
+   "w": [
+    "II shaxs birlik",
+    "III shaxs birlik",
+    "I shaxs ko‘plik"
+   ],
+   "d": 2,
+   "x": "ular — III shaxs ko‘plik."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_12",
+   "t": "choice",
+   "q": "“men” olmoshi qaysi shaxs va sonni bildiradi?",
+   "a": "I shaxs birlik",
+   "w": [
+    "III shaxs birlik",
+    "I shaxs ko‘plik",
+    "II shaxs birlik"
+   ],
+   "d": 2,
+   "x": "men — I shaxs birlik."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_13",
+   "t": "choice",
+   "q": "“men” olmoshiga “-ga” qo‘shilsa, qanday yoziladi?",
+   "a": "menga",
+   "w": [
+    "meniga",
+    "menka",
+    "mega"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: menga."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_14",
+   "t": "choice",
+   "q": "“men” olmoshiga “-ni” qo‘shilsa, qanday yoziladi?",
+   "a": "meni",
+   "w": [
+    "menni",
+    "menini",
+    "mni"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: meni."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_15",
+   "t": "choice",
+   "q": "“sen” olmoshiga “-ga” qo‘shilsa, qanday yoziladi?",
+   "a": "senga",
+   "w": [
+    "seniga",
+    "senka",
+    "sega"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: senga."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_16",
+   "t": "choice",
+   "q": "“u” olmoshiga “-ga” qo‘shilsa, qanday yoziladi?",
+   "a": "unga",
+   "w": [
+    "uga",
+    "uniga",
+    "unka"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: unga."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_17",
+   "t": "choice",
+   "q": "“u” olmoshiga “-ning” qo‘shilsa, qanday yoziladi?",
+   "a": "uning",
+   "w": [
+    "uni",
+    "unning",
+    "uing"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: uning."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_18",
+   "t": "choice",
+   "q": "“u” olmoshiga “-da” qo‘shilsa, qanday yoziladi?",
+   "a": "unda",
+   "w": [
+    "uda",
+    "unida",
+    "u-da"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: unda."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_19",
+   "t": "choice",
+   "q": "“u” olmoshiga “-dan” qo‘shilsa, qanday yoziladi?",
+   "a": "undan",
+   "w": [
+    "udan",
+    "unidan",
+    "u-dan"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: undan."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_20",
+   "t": "choice",
+   "q": "Ikkinchi gapdagi “U” olmoshi kimni bildiradi?",
+   "a": "Sardor",
+   "w": [
+    "futbol",
+    "mashq",
+    "har kuni"
+   ],
+   "d": 2,
+   "x": "Olmosh takrorlanmasligi uchun “Sardor” o‘rnida kelgan.",
+   "e": "👥",
+   "text": "Sardor futbolni yaxshi ko‘radi. U har kuni mashq qiladi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_21",
+   "t": "choice",
+   "q": "Ikkinchi gapdagi “Ular” olmoshi kimni bildiradi?",
+   "a": "Zarina va Laylo",
+   "w": [
+    "bog‘",
+    "gullar",
+    "Laylo"
+   ],
+   "d": 2,
+   "x": "Olmosh takrorlanmasligi uchun “Zarina va Laylo” o‘rnida kelgan.",
+   "e": "👥",
+   "text": "Zarina va Laylo bog‘ga borishdi. Ular gul terishdi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_22",
+   "t": "choice",
+   "q": "Ikkinchi gapdagi “ular” olmoshi kimni bildiradi?",
+   "a": "bolalar",
+   "w": [
+    "hovli",
+    "uy",
+    "o‘yin"
+   ],
+   "d": 2,
+   "x": "Olmosh takrorlanmasligi uchun “bolalar” o‘rnida kelgan.",
+   "e": "👥",
+   "text": "Bolalar hovlida o‘ynashdi. Keyin ular uyga kirishdi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_23",
+   "t": "choice",
+   "q": "“Biz ertaga muzeyga …” — mos so‘zni tanlang.",
+   "a": "boramiz",
+   "w": [
+    "boraman",
+    "borasan",
+    "borasiz"
+   ],
+   "d": 1,
+   "x": "Fe’l olmosh bilan shaxs va sonda moslashadi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_24",
+   "t": "choice",
+   "q": "“Men har kuni erta …” — mos so‘zni tanlang.",
+   "a": "turaman",
+   "w": [
+    "turasan",
+    "turamiz",
+    "turasiz"
+   ],
+   "d": 1,
+   "x": "Fe’l olmosh bilan shaxs va sonda moslashadi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_25",
+   "t": "choice",
+   "q": "“Sen uy vazifasini …?” — mos so‘zni tanlang.",
+   "a": "bajardingmi",
+   "w": [
+    "bajardimmi",
+    "bajardikmi",
+    "bajardimi"
+   ],
+   "d": 2,
+   "x": "Fe’l olmosh bilan shaxs va sonda moslashadi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_26",
+   "t": "choice",
+   "q": "“Ular kutubxonaga …” — mos so‘zni tanlang.",
+   "a": "borishdi",
+   "w": [
+    "bordim",
+    "bording",
+    "bordik"
+   ],
+   "d": 2,
+   "x": "Fe’l olmosh bilan shaxs va sonda moslashadi."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_27",
+   "t": "choice",
+   "q": "Kishilik olmoshlari qaysi so‘z turkumi o‘rnida qo‘llanadi?",
+   "a": "Ot",
+   "w": [
+    "Sifat",
+    "Son",
+    "Fe’l"
+   ],
+   "d": 2,
+   "x": "Sardor keldi — U keldi: olmosh ot o‘rnida."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_28",
+   "t": "tf",
+   "q": "“Siz” olmoshi bir kishiga hurmat bilan murojaat qilganda ham ishlatiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ustoz, siz bizga yordam berdingiz."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_29",
+   "t": "tf",
+   "q": "Kishilik olmoshlari oltita: men, sen, u, biz, siz, ular.",
+   "a": true,
+   "d": 1,
+   "x": "Uchta birlikda, uchta ko‘plikda."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_30",
+   "t": "tf",
+   "q": "“ular” — birlikdagi olmosh.",
+   "a": false,
+   "d": 1,
+   "x": "ular — III shaxs ko‘plik."
+  },
+  {
+   "topic": "onatili_g4.pronouns",
+   "id": "pronouns_31",
+   "t": "match",
+   "q": "Olmoshni fe’l bilan juftlang",
+   "pairs": [
+    [
+     "men",
+     "o‘qidim"
+    ],
+    [
+     "sen",
+     "o‘qiding"
+    ],
+    [
+     "biz",
+     "o‘qidik"
+    ],
+    [
+     "siz",
+     "o‘qidingiz"
+    ],
+    [
+     "ular",
+     "o‘qishdi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_1",
+   "t": "choice",
+   "q": "“Kecha biz hayvonot bog‘iga bordik.” gapidagi “bordik” fe’li qaysi zamonda?",
+   "a": "O‘tgan zamon",
+   "w": [
+    "Hozirgi zamon",
+    "Kelasi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat bo‘lib o‘tgan: o‘tgan zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_2",
+   "t": "choice",
+   "q": "“Hozir onam non yopyapti.” gapidagi “yopyapti” fe’li qaysi zamonda?",
+   "a": "Hozirgi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Kelasi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat hozir bo‘lyapti: hozirgi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_3",
+   "t": "choice",
+   "q": "“Ertaga biz sayohatga boramiz.” gapidagi “boramiz” fe’li qaysi zamonda?",
+   "a": "Kelasi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat hali bo‘ladi: kelasi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_4",
+   "t": "choice",
+   "q": "“Ukam kecha chiroyli rasm chizdi.” gapidagi “chizdi” fe’li qaysi zamonda?",
+   "a": "O‘tgan zamon",
+   "w": [
+    "Hozirgi zamon",
+    "Kelasi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat bo‘lib o‘tgan: o‘tgan zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_5",
+   "t": "choice",
+   "q": "“Men hozir kitob o‘qiyapman.” gapidagi “o‘qiyapman” fe’li qaysi zamonda?",
+   "a": "Hozirgi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Kelasi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat hozir bo‘lyapti: hozirgi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_6",
+   "t": "choice",
+   "q": "“Keyingi yil men beshinchi sinfga o‘taman.” gapidagi “o‘taman” fe’li qaysi zamonda?",
+   "a": "Kelasi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 1,
+   "x": "Harakat hali bo‘ladi: kelasi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_7",
+   "t": "choice",
+   "q": "“Bugun ertalab qor yog‘di.” gapidagi “yog‘di” fe’li qaysi zamonda?",
+   "a": "O‘tgan zamon",
+   "w": [
+    "Hozirgi zamon",
+    "Kelasi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat bo‘lib o‘tgan: o‘tgan zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_8",
+   "t": "choice",
+   "q": "“Qarang, bolalar hovlida o‘ynayapti.” gapidagi “o‘ynayapti” fe’li qaysi zamonda?",
+   "a": "Hozirgi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Kelasi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat hozir bo‘lyapti: hozirgi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_9",
+   "t": "choice",
+   "q": "“Ertaga dars soat sakkizda boshlanadi.” gapidagi “boshlanadi” fe’li qaysi zamonda?",
+   "a": "Kelasi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat hali bo‘ladi: kelasi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_10",
+   "t": "choice",
+   "q": "“O‘tgan yozda biz tog‘ga chiqdik.” gapidagi “chiqdik” fe’li qaysi zamonda?",
+   "a": "O‘tgan zamon",
+   "w": [
+    "Hozirgi zamon",
+    "Kelasi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat bo‘lib o‘tgan: o‘tgan zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_11",
+   "t": "choice",
+   "q": "“Ayni paytda dadam mashinani tuzatmoqda.” gapidagi “tuzatmoqda” fe’li qaysi zamonda?",
+   "a": "Hozirgi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Kelasi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat hozir bo‘lyapti: hozirgi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_12",
+   "t": "choice",
+   "q": "“Kelasi yozda men suzishni o‘rganaman.” gapidagi “o‘rganaman” fe’li qaysi zamonda?",
+   "a": "Kelasi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 2,
+   "x": "Harakat hali bo‘ladi: kelasi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_13",
+   "t": "choice",
+   "q": "“keldi” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "kelmadi",
+   "w": [
+    "kelmaydi",
+    "keldimi",
+    "kelmas"
+   ],
+   "d": 1,
+   "x": "-ma qo‘shimchasi: keldi — kelmadi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_14",
+   "t": "choice",
+   "q": "“yozadi” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "yozmaydi",
+   "w": [
+    "yozmadi",
+    "yozadimi",
+    "yozmayapti"
+   ],
+   "d": 1,
+   "x": "-ma qo‘shimchasi: yozadi — yozmaydi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_15",
+   "t": "choice",
+   "q": "“chizdi” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "chizmadi",
+   "w": [
+    "chizmaydi",
+    "chizdimi",
+    "chizmayapti"
+   ],
+   "d": 1,
+   "x": "-ma qo‘shimchasi: chizdi — chizmadi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_16",
+   "t": "choice",
+   "q": "“bordik” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "bormadik",
+   "w": [
+    "bormaymiz",
+    "bordikmi",
+    "bormadim"
+   ],
+   "d": 1,
+   "x": "-ma qo‘shimchasi: bordik — bormadik."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_17",
+   "t": "choice",
+   "q": "“o‘qiyapti” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "o‘qimayapti",
+   "w": [
+    "o‘qimadi",
+    "o‘qiyaptimi",
+    "o‘qimaydi"
+   ],
+   "d": 2,
+   "x": "-ma qo‘shimchasi: o‘qiyapti — o‘qimayapti."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_18",
+   "t": "choice",
+   "q": "“ishlayapti” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "ishlamayapti",
+   "w": [
+    "ishlamadi",
+    "ishlamaydi",
+    "ishlayaptimi"
+   ],
+   "d": 2,
+   "x": "-ma qo‘shimchasi: ishlayapti — ishlamayapti."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_19",
+   "t": "choice",
+   "q": "“o‘ynaydi” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "o‘ynamaydi",
+   "w": [
+    "o‘ynamadi",
+    "o‘ynaydimi",
+    "o‘ynamayapti"
+   ],
+   "d": 2,
+   "x": "-ma qo‘shimchasi: o‘ynaydi — o‘ynamaydi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_20",
+   "t": "choice",
+   "q": "“kuldi” fe’lining bo‘lishsiz shaklini toping.",
+   "a": "kulmadi",
+   "w": [
+    "kulmaydi",
+    "kuldimi",
+    "kulmayapti"
+   ],
+   "d": 2,
+   "x": "-ma qo‘shimchasi: kuldi — kulmadi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_21",
+   "t": "choice",
+   "q": "Qaysi fe’l o‘tgan zamonda?",
+   "a": "o‘qidi",
+   "w": [
+    "o‘qiyapti",
+    "o‘qimoqda",
+    "o‘qimoqchi"
+   ],
+   "d": 1,
+   "x": "o‘qidi — nima qildi?: o‘tgan zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_22",
+   "t": "choice",
+   "q": "Qaysi fe’l hozirgi zamonda?",
+   "a": "yozyapti",
+   "w": [
+    "yozdi",
+    "yozdik",
+    "yozmoqchi"
+   ],
+   "d": 1,
+   "x": "yozyapti — nima qilyapti?: hozirgi zamon."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_23",
+   "t": "choice",
+   "q": "Qaysi fe’l bo‘lishsiz?",
+   "a": "kelmadi",
+   "w": [
+    "keldi",
+    "keladi",
+    "kelyapti"
+   ],
+   "d": 1,
+   "x": "-ma qo‘shimchasi harakat bajarilmaganini bildiradi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_24",
+   "t": "choice",
+   "q": "Qaysi fe’l bo‘lishsiz?",
+   "a": "o‘qimayapti",
+   "w": [
+    "o‘qiyapti",
+    "o‘qidi",
+    "o‘qiydi"
+   ],
+   "d": 2,
+   "x": "o‘qi-ma-yapti: -ma bor."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_25",
+   "t": "choice",
+   "q": "Bo‘lishsiz fe’l qaysi qo‘shimcha bilan yasaladi?",
+   "a": "-ma",
+   "w": [
+    "-mi",
+    "-lar",
+    "-da"
+   ],
+   "d": 1,
+   "x": "kel — kelma, yoz — yozma."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_26",
+   "t": "choice",
+   "q": "O‘tgan zamon fe’li qaysi so‘roqqa javob beradi?",
+   "a": "nima qildi?",
+   "w": [
+    "nima qilyapti?",
+    "qanday?",
+    "kim?"
+   ],
+   "d": 1,
+   "x": "keldi, yozdi — nima qildi?"
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_27",
+   "t": "choice",
+   "q": "Hozirgi zamon fe’li qaysi so‘roqqa javob beradi?",
+   "a": "nima qilyapti?",
+   "w": [
+    "nima qildi?",
+    "qanday?",
+    "nechta?"
+   ],
+   "d": 2,
+   "x": "yozyapti — nima qilyapti?"
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_28",
+   "t": "choice",
+   "q": "Kelasi zamon fe’li qaysi so‘roqqa javob beradi?",
+   "a": "nima qiladi?",
+   "w": [
+    "nima qildi?",
+    "nima qilyapti?",
+    "qanday?"
+   ],
+   "d": 2,
+   "x": "Ertaga boradi — nima qiladi?"
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_29",
+   "t": "choice",
+   "q": "“Men shifokor bo‘lmoqchiman.” gapidagi fe’l qaysi zamonda?",
+   "a": "Kelasi zamon",
+   "w": [
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 3,
+   "x": "-moqchi niyatni, kelajakdagi harakatni bildiradi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_30",
+   "t": "tf",
+   "q": "“-di” qo‘shimchasi o‘tgan zamonni bildiradi.",
+   "a": true,
+   "d": 1,
+   "x": "yozdi, keldi, o‘qidi."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_31",
+   "t": "tf",
+   "q": "“-yap” qo‘shimchasi kelasi zamonni bildiradi.",
+   "a": false,
+   "d": 1,
+   "x": "-yap hozirgi zamonni bildiradi: yozyapti."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_32",
+   "t": "tf",
+   "q": "“bormadim” — bo‘lishsiz fe’l.",
+   "a": true,
+   "d": 1,
+   "x": "bor-ma-dim: -ma bor."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_33",
+   "t": "tf",
+   "q": "“yozyapti” — bo‘lishsiz fe’l.",
+   "a": false,
+   "d": 1,
+   "x": "yozyapti — bo‘lishli; bo‘lishsizi — yozmayapti."
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_34",
+   "t": "match",
+   "q": "Fe’lni bo‘lishsiz shakli bilan juftlang",
+   "pairs": [
+    [
+     "yurdi",
+     "yurmadi"
+    ],
+    [
+     "sakradi",
+     "sakramadi"
+    ],
+    [
+     "uxlayapti",
+     "uxlamayapti"
+    ],
+    [
+     "tinglaydi",
+     "tinglamaydi"
+    ],
+    [
+     "aytdi",
+     "aytmadi"
+    ],
+    [
+     "yuvyapti",
+     "yuvmayapti"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_35",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ertaga",
+    "biz",
+    "bog‘da",
+    "daraxt",
+    "ekamiz"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_36",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kecha",
+    "men",
+    "buvimga",
+    "xat",
+    "yozdim"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.verbs",
+   "id": "verbs_37",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Hozir",
+    "ukam",
+    "multfilm",
+    "ko‘ryapti"
+   ],
+   "sep": " ",
+   "d": 1
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_1",
+   "t": "choice",
+   "q": "“Mushuk sichqonni tutdi.” gapining egasini toping.",
+   "a": "Mushuk",
+   "w": [
+    "tutdi",
+    "sichqonni"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — Mushuk."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_2",
+   "t": "choice",
+   "q": "“Mushuk sichqonni tutdi.” gapining kesimini toping.",
+   "a": "tutdi",
+   "w": [
+    "Mushuk",
+    "sichqonni"
+   ],
+   "d": 1,
+   "x": "Ega haqida nima deyilgan? — tutdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_3",
+   "t": "choice",
+   "q": "“Zarina gullarga suv quydi.” gapining egasini toping.",
+   "a": "Zarina",
+   "w": [
+    "quydi",
+    "gullarga"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — Zarina."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_4",
+   "t": "choice",
+   "q": "“Zarina gullarga suv quydi.” gapining kesimini toping.",
+   "a": "quydi",
+   "w": [
+    "Zarina",
+    "gullarga"
+   ],
+   "d": 1,
+   "x": "Ega haqida nima deyilgan? — quydi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_5",
+   "t": "choice",
+   "q": "“Zarina gullarga suv quydi.” gapidagi qaysi so‘z ikkinchi darajali bo‘lak?",
+   "a": "gullarga",
+   "w": [
+    "Zarina",
+    "quydi"
+   ],
+   "d": 2,
+   "x": "“gullarga” bosh bo‘laklarni izohlaydi; Zarina — ega, quydi — kesim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_6",
+   "t": "choice",
+   "q": "“Buvim bizga ertak aytdi.” gapining egasini toping.",
+   "a": "Buvim",
+   "w": [
+    "aytdi",
+    "ertak"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — Buvim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_7",
+   "t": "choice",
+   "q": "“Buvim bizga ertak aytdi.” gapining kesimini toping.",
+   "a": "aytdi",
+   "w": [
+    "Buvim",
+    "ertak"
+   ],
+   "d": 1,
+   "x": "Ega haqida nima deyilgan? — aytdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_8",
+   "t": "choice",
+   "q": "“Sinfimizga yangi o‘quvchi keldi.” gapining egasini toping.",
+   "a": "o‘quvchi",
+   "w": [
+    "keldi",
+    "yangi"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — o‘quvchi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_9",
+   "t": "choice",
+   "q": "“Sinfimizga yangi o‘quvchi keldi.” gapining kesimini toping.",
+   "a": "keldi",
+   "w": [
+    "o‘quvchi",
+    "yangi"
+   ],
+   "d": 1,
+   "x": "Ega haqida nima deyilgan? — keldi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_10",
+   "t": "choice",
+   "q": "“Sinfimizga yangi o‘quvchi keldi.” gapidagi qaysi so‘z ikkinchi darajali bo‘lak?",
+   "a": "yangi",
+   "w": [
+    "o‘quvchi",
+    "keldi"
+   ],
+   "d": 2,
+   "x": "“yangi” bosh bo‘laklarni izohlaydi; o‘quvchi — ega, keldi — kesim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_11",
+   "t": "choice",
+   "q": "“Ukam har kuni erta uyg‘onadi.” gapining egasini toping.",
+   "a": "Ukam",
+   "w": [
+    "uyg‘onadi",
+    "erta"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — Ukam."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_12",
+   "t": "choice",
+   "q": "“Ukam har kuni erta uyg‘onadi.” gapining kesimini toping.",
+   "a": "uyg‘onadi",
+   "w": [
+    "Ukam",
+    "erta"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — uyg‘onadi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_13",
+   "t": "choice",
+   "q": "“Tog‘dan sovuq shamol esdi.” gapining egasini toping.",
+   "a": "shamol",
+   "w": [
+    "esdi",
+    "sovuq"
+   ],
+   "d": 1,
+   "x": "Kim? nima? — shamol."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_14",
+   "t": "choice",
+   "q": "“Tog‘dan sovuq shamol esdi.” gapining kesimini toping.",
+   "a": "esdi",
+   "w": [
+    "shamol",
+    "sovuq"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — esdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_15",
+   "t": "choice",
+   "q": "“Tog‘dan sovuq shamol esdi.” gapidagi qaysi so‘z ikkinchi darajali bo‘lak?",
+   "a": "sovuq",
+   "w": [
+    "shamol",
+    "esdi"
+   ],
+   "d": 2,
+   "x": "“sovuq” bosh bo‘laklarni izohlaydi; shamol — ega, esdi — kesim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_16",
+   "t": "choice",
+   "q": "“Dadam bog‘da olma ko‘chati ekdi.” gapining egasini toping.",
+   "a": "Dadam",
+   "w": [
+    "ekdi",
+    "bog‘da"
+   ],
+   "d": 2,
+   "x": "Kim? nima? — Dadam."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_17",
+   "t": "choice",
+   "q": "“Dadam bog‘da olma ko‘chati ekdi.” gapining kesimini toping.",
+   "a": "ekdi",
+   "w": [
+    "Dadam",
+    "bog‘da"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — ekdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_18",
+   "t": "choice",
+   "q": "“Osmonda yorqin yulduzlar charaqladi.” gapining egasini toping.",
+   "a": "yulduzlar",
+   "w": [
+    "charaqladi",
+    "yorqin"
+   ],
+   "d": 2,
+   "x": "Kim? nima? — yulduzlar."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_19",
+   "t": "choice",
+   "q": "“Osmonda yorqin yulduzlar charaqladi.” gapining kesimini toping.",
+   "a": "charaqladi",
+   "w": [
+    "yulduzlar",
+    "yorqin"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — charaqladi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_20",
+   "t": "choice",
+   "q": "“Osmonda yorqin yulduzlar charaqladi.” gapidagi qaysi so‘z ikkinchi darajali bo‘lak?",
+   "a": "yorqin",
+   "w": [
+    "yulduzlar",
+    "charaqladi"
+   ],
+   "d": 2,
+   "x": "“yorqin” bosh bo‘laklarni izohlaydi; yulduzlar — ega, charaqladi — kesim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_21",
+   "t": "choice",
+   "q": "“Bobur chiroyli rasm chizdi.” gapining egasini toping.",
+   "a": "Bobur",
+   "w": [
+    "chizdi",
+    "chiroyli"
+   ],
+   "d": 2,
+   "x": "Kim? nima? — Bobur."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_22",
+   "t": "choice",
+   "q": "“Bobur chiroyli rasm chizdi.” gapining kesimini toping.",
+   "a": "chizdi",
+   "w": [
+    "Bobur",
+    "chiroyli"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — chizdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_23",
+   "t": "choice",
+   "q": "“Ertalab quyosh chiqdi.” gapining egasini toping.",
+   "a": "quyosh",
+   "w": [
+    "chiqdi",
+    "Ertalab"
+   ],
+   "d": 2,
+   "x": "Kim? nima? — quyosh."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_24",
+   "t": "choice",
+   "q": "“Ertalab quyosh chiqdi.” gapining kesimini toping.",
+   "a": "chiqdi",
+   "w": [
+    "quyosh",
+    "Ertalab"
+   ],
+   "d": 2,
+   "x": "Ega haqida nima deyilgan? — chiqdi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_25",
+   "t": "choice",
+   "q": "“Ertalab quyosh chiqdi.” gapidagi qaysi so‘z ikkinchi darajali bo‘lak?",
+   "a": "Ertalab",
+   "w": [
+    "quyosh",
+    "chiqdi"
+   ],
+   "d": 2,
+   "x": "“Ertalab” bosh bo‘laklarni izohlaydi; quyosh — ega, chiqdi — kesim."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_26",
+   "t": "choice",
+   "q": "“Olmalar shirin.” gapining kesimi qaysi?",
+   "a": "shirin",
+   "w": [
+    "Olmalar",
+    "gapda kesim yo‘q"
+   ],
+   "d": 3,
+   "x": "Olmalar qanday? — shirin: kesim sifat bilan ifodalangan."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_27",
+   "t": "choice",
+   "q": "“Bu daftar yangi.” gapining egasi qaysi?",
+   "a": "daftar",
+   "w": [
+    "Bu",
+    "yangi"
+   ],
+   "d": 3,
+   "x": "Nima yangi? — daftar."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_28",
+   "t": "choice",
+   "q": "Gapning bosh bo‘laklari qaysilar?",
+   "a": "Ega va kesim",
+   "w": [
+    "Ega va hol",
+    "Kesim va aniqlovchi",
+    "To‘ldiruvchi va hol"
+   ],
+   "d": 1,
+   "x": "Ega va kesim — gapning asosi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_29",
+   "t": "choice",
+   "q": "Ega qaysi so‘roqlarga javob beradi?",
+   "a": "kim? nima?",
+   "w": [
+    "nima qildi?",
+    "qanday?",
+    "qayerda?"
+   ],
+   "d": 1,
+   "x": "Mushuk sichqonni tutdi: nima? — mushuk."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_30",
+   "t": "choice",
+   "q": "Kesim qaysi so‘roqlarga javob beradi?",
+   "a": "nima qildi? nima qilyapti?",
+   "w": [
+    "kim? nima?",
+    "qayerda? qachon?",
+    "kimning? nimaning?"
+   ],
+   "d": 1,
+   "x": "tutdi — nima qildi?"
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_31",
+   "t": "choice",
+   "q": "Ikkinchi darajali bo‘laklar qaysilar?",
+   "a": "To‘ldiruvchi, aniqlovchi, hol",
+   "w": [
+    "Ega, kesim, hol",
+    "Ega, aniqlovchi, undalma",
+    "Kesim, to‘ldiruvchi, undalma"
+   ],
+   "d": 2,
+   "x": "Ikkinchi darajali bo‘laklar uchta: to‘ldiruvchi, aniqlovchi, hol."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_32",
+   "t": "tf",
+   "q": "Ikkinchi darajali bo‘laklar bosh bo‘laklarni izohlab keladi.",
+   "a": true,
+   "d": 2,
+   "x": "Kichkina qiz gul terdi: kichkina — qiz so‘zini izohlaydi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_33",
+   "t": "tf",
+   "q": "Kesim ko‘pincha gapning boshida keladi.",
+   "a": false,
+   "d": 1,
+   "x": "O‘zbek tilida kesim ko‘pincha gap oxirida bo‘ladi."
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_34",
+   "t": "match",
+   "q": "Gapni egasi bilan juftlang",
+   "pairs": [
+    [
+     "Mushuk sichqonni tutdi",
+     "mushuk"
+    ],
+    [
+     "Buvim ertak aytdi",
+     "buvim"
+    ],
+    [
+     "Tog‘dan shamol esdi",
+     "shamol"
+    ],
+    [
+     "Bobur rasm chizdi",
+     "Bobur"
+    ],
+    [
+     "Ertalab quyosh chiqdi",
+     "quyosh"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_35",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kichkina",
+    "qiz",
+    "bog‘dan",
+    "gul",
+    "terdi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.sentence_parts",
+   "id": "sentence_parts_36",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Opam",
+    "menga",
+    "kitob",
+    "sovg‘a",
+    "qildi"
+   ],
+   "sep": " ",
+   "d": 2
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_1",
+   "t": "choice",
+   "q": "“Hovlida tovuqlar, o‘rdaklar va g‘ozlar yuribdi.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "tovuqlar, o‘rdaklar, g‘ozlar",
+   "w": [
+    "hovlida, yuribdi",
+    "tovuqlar, yuribdi",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 1,
+   "x": "tovuqlar, o‘rdaklar, g‘ozlar — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_2",
+   "t": "choice",
+   "q": "“Hovlida Sardor, Jasur va Bobur futbol o‘ynashdi.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "Sardor, Jasur, Bobur",
+   "w": [
+    "hovlida, futbol",
+    "Bobur, o‘ynashdi",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 1,
+   "x": "Sardor, Jasur, Bobur — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_3",
+   "t": "choice",
+   "q": "“Men bahorni, yozni va kuzni yaxshi ko‘raman.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "bahorni, yozni, kuzni",
+   "w": [
+    "men, yaxshi",
+    "kuzni, ko‘raman",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 1,
+   "x": "bahorni, yozni, kuzni — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_4",
+   "t": "choice",
+   "q": "“Savatda qizil, sariq, yashil olmalar bor.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "qizil, sariq, yashil",
+   "w": [
+    "savatda, bor",
+    "olmalar, bor",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 1,
+   "x": "qizil, sariq, yashil — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_5",
+   "t": "choice",
+   "q": "“Opam kir yuvdi, dazmolladi va taxladi.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "yuvdi, dazmolladi, taxladi",
+   "w": [
+    "opam, kir",
+    "kir, taxladi",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 2,
+   "x": "yuvdi, dazmolladi, taxladi — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_6",
+   "t": "choice",
+   "q": "“Bayramga buvim, bobom va amakim keldi.” gapidagi uyushiq bo‘laklarni toping.",
+   "a": "buvim, bobom, amakim",
+   "w": [
+    "bayramga, keldi",
+    "amakim, keldi",
+    "uyushiq bo‘lak yo‘q"
+   ],
+   "d": 2,
+   "x": "buvim, bobom, amakim — bir xil so‘roqqa javob beradi va bir so‘zga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_7",
+   "t": "choice",
+   "q": "“Sardor, darsga kechikma.” gapida undalma qaysi?",
+   "a": "Sardor",
+   "w": [
+    "darsga",
+    "kechikma"
+   ],
+   "d": 1,
+   "x": "Sardor — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_8",
+   "t": "choice",
+   "q": "“Ustoz, savol bersam maylimi?” gapida undalma qaysi?",
+   "a": "Ustoz",
+   "w": [
+    "bersam",
+    "savol",
+    "maylimi"
+   ],
+   "d": 1,
+   "x": "Ustoz — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_9",
+   "t": "choice",
+   "q": "“Qadrli do‘stlar, sizni bayram bilan tabriklayman!” gapida undalma qaysi?",
+   "a": "Qadrli do‘stlar",
+   "w": [
+    "sizni",
+    "tabriklayman",
+    "bayram"
+   ],
+   "d": 1,
+   "x": "Qadrli do‘stlar — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_10",
+   "t": "choice",
+   "q": "“Buvijon, sizga gul olib keldim.” gapida undalma qaysi?",
+   "a": "Buvijon",
+   "w": [
+    "keldim",
+    "olib",
+    "gul"
+   ],
+   "d": 1,
+   "x": "Buvijon — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_11",
+   "t": "choice",
+   "q": "“Sen, Laylo, ertaga navbatchisan.” gapida undalma qaysi?",
+   "a": "Laylo",
+   "w": [
+    "ertaga",
+    "Sen",
+    "navbatchisan"
+   ],
+   "d": 1,
+   "x": "Laylo — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_12",
+   "t": "choice",
+   "q": "“Rahmat sizga, dadajon.” gapida undalma qaysi?",
+   "a": "dadajon",
+   "w": [
+    "Rahmat",
+    "sizga"
+   ],
+   "d": 2,
+   "x": "dadajon — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_13",
+   "t": "choice",
+   "q": "“Quyosh, bizni isit!” gapida undalma qaysi?",
+   "a": "Quyosh",
+   "w": [
+    "bizni",
+    "isit"
+   ],
+   "d": 2,
+   "x": "Quyosh — nutq qaratilgan narsa, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_14",
+   "t": "choice",
+   "q": "“Aziz o‘quvchilar, ta’til boshlandi.” gapida undalma qaysi?",
+   "a": "Aziz o‘quvchilar",
+   "w": [
+    "ta’til",
+    "boshlandi"
+   ],
+   "d": 2,
+   "x": "Aziz o‘quvchilar — nutq qaratilgan shaxs, vergul bilan ajratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_15",
+   "t": "choice",
+   "q": "Qaysi gapda vergul to‘g‘ri qo‘yilgan?",
+   "a": "Qalam, daftar va chizg‘ich oldim.",
+   "w": [
+    "Qalam daftar, va chizg‘ich oldim.",
+    "Qalam, daftar, va chizg‘ich oldim.",
+    "Qalam daftar va chizg‘ich, oldim."
+   ],
+   "d": 1,
+   "x": "Uyushiq bo‘laklar orasiga vergul qo‘yiladi, “va” oldidan qo‘yilmaydi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_16",
+   "t": "choice",
+   "q": "Qaysi gapda vergul to‘g‘ri qo‘yilgan?",
+   "a": "Uyimiz kichik, lekin shinam.",
+   "w": [
+    "Uyimiz kichik lekin, shinam.",
+    "Uyimiz, kichik lekin shinam.",
+    "Uyimiz kichik lekin shinam,"
+   ],
+   "d": 2,
+   "x": "“lekin” oldidan vergul qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_17",
+   "t": "choice",
+   "q": "Qaysi gapda undalma to‘g‘ri ajratilgan?",
+   "a": "Bugun, bolalar, ekskursiyaga boramiz.",
+   "w": [
+    "Bugun bolalar, ekskursiyaga boramiz.",
+    "Bugun, bolalar ekskursiyaga boramiz.",
+    "Bugun bolalar ekskursiyaga, boramiz."
+   ],
+   "d": 3,
+   "x": "Gap o‘rtasidagi undalma ikki tomondan vergul bilan ajratiladi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_18",
+   "t": "choice",
+   "q": "Qaysi gapda undalma to‘g‘ri ajratilgan?",
+   "a": "Rahmat sizga, onajon.",
+   "w": [
+    "Rahmat, sizga onajon.",
+    "Rahmat sizga onajon,",
+    "Rahmat, sizga, onajon."
+   ],
+   "d": 2,
+   "x": "Gap oxiridagi undalmadan oldin vergul qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_19",
+   "t": "choice",
+   "q": "Qaysi gapda undalma to‘g‘ri ajratilgan?",
+   "a": "Jasur, oynani och.",
+   "w": [
+    "Jasur oynani, och.",
+    "Jasur, oynani, och.",
+    "Jasur oynani och"
+   ],
+   "d": 1,
+   "x": "Gap boshidagi undalmadan keyin vergul qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_20",
+   "t": "choice",
+   "q": "Uyushiq bo‘laklar orasida qaysi bog‘lovchi kelsa, vergul qo‘yilmaydi?",
+   "a": "va",
+   "w": [
+    "lekin",
+    "ammo",
+    "biroq"
+   ],
+   "d": 2,
+   "x": "Olma va nok — vergulsiz."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_21",
+   "t": "choice",
+   "q": "Undalma nimani bildiradi?",
+   "a": "Nutq qaratilgan shaxs yoki narsani",
+   "w": [
+    "Harakatning vaqtini",
+    "Narsaning belgisini",
+    "Gapning egasini"
+   ],
+   "d": 1,
+   "x": "Sardor, darsga kechikma: nutq Sardorga qaratilgan."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_22",
+   "t": "tf",
+   "q": "Uyushiq bo‘laklar bir xil so‘roqqa javob beradi.",
+   "a": true,
+   "d": 1,
+   "x": "nimalar? — tovuqlar, o‘rdaklar, g‘ozlar."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_23",
+   "t": "tf",
+   "q": "“lekin”, “ammo” bog‘lovchilaridan oldin vergul qo‘yiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Uy kichik, lekin shinam."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_24",
+   "t": "tf",
+   "q": "Undalma faqat gapning boshida keladi.",
+   "a": false,
+   "d": 1,
+   "x": "Undalma gap o‘rtasida va oxirida ham keladi."
+  },
+  {
+   "topic": "onatili_g4.homogeneous_vocative",
+   "id": "homogeneous_vocative_25",
+   "t": "tf",
+   "q": "Gap o‘rtasidagi undalma ikki tomondan vergul bilan ajratiladi.",
+   "a": true,
+   "d": 2,
+   "x": "Sen, Laylo, ertaga navbatchisan."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_1",
+   "t": "choice",
+   "q": "Bu qanday gap: “Kuzda barglar sarg‘ayadi.”",
+   "a": "Darak gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_2",
+   "t": "choice",
+   "q": "Bu qanday gap: “Siz qaysi sinfda o‘qiysiz?”",
+   "a": "So‘roq gap",
+   "w": [
+    "Darak gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_3",
+   "t": "choice",
+   "q": "Bu qanday gap: “Kitobni ehtiyot qiling.”",
+   "a": "Buyruq gap",
+   "w": [
+    "Darak gap",
+    "So‘roq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Buyruq gap buyruq yoki iltimos bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_4",
+   "t": "choice",
+   "q": "Bu qanday gap: “Voy, qanday katta tarvuz!”",
+   "a": "His-hayajon gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap"
+   ],
+   "d": 1,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_5",
+   "t": "choice",
+   "q": "Bu qanday gap: “Buvim bizga palov damladi.”",
+   "a": "Darak gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_6",
+   "t": "choice",
+   "q": "Bu qanday gap: “Bu gullarni kim ekdi?”",
+   "a": "So‘roq gap",
+   "w": [
+    "Darak gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_7",
+   "t": "choice",
+   "q": "Bu qanday gap: “Derazani ochib qo‘y.”",
+   "a": "Buyruq gap",
+   "w": [
+    "Darak gap",
+    "So‘roq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Buyruq gap buyruq yoki iltimos bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_8",
+   "t": "choice",
+   "q": "Bu qanday gap: “Ura, ta’til boshlandi!”",
+   "a": "His-hayajon gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap"
+   ],
+   "d": 1,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_9",
+   "t": "choice",
+   "q": "Bu qanday gap: “Kecha kutubxonadan kitob oldim.”",
+   "a": "Darak gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_10",
+   "t": "choice",
+   "q": "Bu qanday gap: “Kutubxona soat nechada ochiladi?”",
+   "a": "So‘roq gap",
+   "w": [
+    "Darak gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_11",
+   "t": "choice",
+   "q": "Bu qanday gap: “Iltimos, sekinroq gapiring.”",
+   "a": "Buyruq gap",
+   "w": [
+    "Darak gap",
+    "So‘roq gap",
+    "His-hayajon gap"
+   ],
+   "d": 1,
+   "x": "Buyruq gap buyruq yoki iltimos bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_12",
+   "t": "choice",
+   "q": "Bu qanday gap: “Qanday go‘zal kun!”",
+   "a": "His-hayajon gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap"
+   ],
+   "d": 1,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_13",
+   "t": "choice",
+   "q": "Bu qanday gap: “Men rasm chizishni yaxshi ko‘raman.”",
+   "a": "Darak gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_14",
+   "t": "choice",
+   "q": "Bu qanday gap: “Uy vazifasini bajardingmi?”",
+   "a": "So‘roq gap",
+   "w": [
+    "Darak gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_15",
+   "t": "choice",
+   "q": "Bu qanday gap: “Ukangga yordam ber.”",
+   "a": "Buyruq gap",
+   "w": [
+    "Darak gap",
+    "So‘roq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "Buyruq gap buyruq yoki iltimos bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_16",
+   "t": "choice",
+   "q": "Bu qanday gap: “Oh, bu gullar qanchalar xushbo‘y!”",
+   "a": "His-hayajon gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap"
+   ],
+   "d": 2,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_17",
+   "t": "choice",
+   "q": "Bu qanday gap: “Bizning sinfda o‘ttiz nafar o‘quvchi bor.”",
+   "a": "Darak gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_18",
+   "t": "choice",
+   "q": "Bu qanday gap: “Ertaga havo qanday bo‘ladi?”",
+   "a": "So‘roq gap",
+   "w": [
+    "Darak gap",
+    "Buyruq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_19",
+   "t": "choice",
+   "q": "Bu qanday gap: “Stolni artib qo‘ying.”",
+   "a": "Buyruq gap",
+   "w": [
+    "Darak gap",
+    "So‘roq gap",
+    "His-hayajon gap"
+   ],
+   "d": 2,
+   "x": "Buyruq gap buyruq yoki iltimos bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_20",
+   "t": "choice",
+   "q": "Bu qanday gap: “Qoyil, zo‘r javob berding!”",
+   "a": "His-hayajon gap",
+   "w": [
+    "So‘roq gap",
+    "Buyruq gap"
+   ],
+   "d": 2,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_21",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Kuzda barglar sarg‘ayadi…”",
+   "a": ".",
+   "w": [
+    "?",
+    "!",
+    ","
+   ],
+   "d": 2,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_22",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Siz qaysi sinfda o‘qiysiz…”",
+   "a": "?",
+   "w": [
+    ".",
+    "!",
+    ","
+   ],
+   "d": 2,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_23",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Voy, qanday katta tarvuz…”",
+   "a": "!",
+   "w": [
+    ".",
+    "?",
+    ","
+   ],
+   "d": 2,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_24",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Buvim bizga palov damladi…”",
+   "a": ".",
+   "w": [
+    "?",
+    "!",
+    ","
+   ],
+   "d": 2,
+   "x": "Darak gap xabar beradi, oxirida nuqta."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_25",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Bu gullarni kim ekdi…”",
+   "a": "?",
+   "w": [
+    ".",
+    "!",
+    ","
+   ],
+   "d": 2,
+   "x": "So‘roq gap savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_26",
+   "t": "choice",
+   "q": "Gap oxiriga qaysi belgi qo‘yiladi: “Ura, ta’til boshlandi…”",
+   "a": "!",
+   "w": [
+    ".",
+    "?",
+    ","
+   ],
+   "d": 2,
+   "x": "Kuchli his bilan aytilgan, oxirida undov belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_27",
+   "t": "choice",
+   "q": "Qaysi gap so‘roq gap?",
+   "a": "Siz qachon qaytasiz?",
+   "w": [
+    "Biz uyga qaytdik.",
+    "Tezroq qayting.",
+    "Voy, qanday yaxshi!"
+   ],
+   "d": 1,
+   "x": "Savol bildiradi, oxirida so‘roq belgisi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_28",
+   "t": "choice",
+   "q": "Qaysi gap buyruq gap?",
+   "a": "Chiroqni o‘chir.",
+   "w": [
+    "Chiroq yondi.",
+    "Chiroq yoniqmi?",
+    "Voh, qanday yorug‘!"
+   ],
+   "d": 1,
+   "x": "Buyruq bildiradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_29",
+   "t": "choice",
+   "q": "Qaysi gap his-hayajon gap?",
+   "a": "Voh, qanday chiroyli qor!",
+   "w": [
+    "Qor yog‘di.",
+    "Qor yog‘yaptimi?",
+    "Yo‘lakdagi qorni tozalang."
+   ],
+   "d": 1,
+   "x": "Kuchli his bilan aytilgan."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_30",
+   "t": "choice",
+   "q": "Qaysi gap darak gap?",
+   "a": "Qishda kunlar qisqa bo‘ladi.",
+   "w": [
+    "Qishda kunlar qisqami?",
+    "Issiq kiyining.",
+    "Voy, qanday sovuq!"
+   ],
+   "d": 1,
+   "x": "Xabar beradi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_31",
+   "t": "choice",
+   "q": "Qaysi yuklama gapga so‘roq ma’nosini beradi?",
+   "a": "-mi",
+   "w": [
+    "-lar",
+    "-ni",
+    "-da"
+   ],
+   "d": 1,
+   "x": "Bajardingmi? Kelasanmi?"
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_32",
+   "t": "tf",
+   "q": "His-hayajon gap oxiriga undov belgisi qo‘yiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ura, ta’til boshlandi!"
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_33",
+   "t": "tf",
+   "q": "So‘roq gap nuqta bilan tugaydi.",
+   "a": false,
+   "d": 1,
+   "x": "So‘roq gap so‘roq belgisi bilan tugaydi."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_34",
+   "t": "tf",
+   "q": "Buyruq gap iltimosni ham bildirishi mumkin.",
+   "a": true,
+   "d": 2,
+   "x": "Iltimos, sekinroq gapiring."
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_35",
+   "t": "order",
+   "q": "So‘zlardan so‘roq gap tuzing",
+   "parts": [
+    "Sen",
+    "qaysi",
+    "kitobni",
+    "o‘qiyapsan"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Sen qaysi kitobni o‘qiyapsan?"
+  },
+  {
+   "topic": "onatili_g4.sentence_types",
+   "id": "sentence_types_36",
+   "t": "order",
+   "q": "So‘zlardan so‘roq gap tuzing",
+   "parts": [
+    "Kutubxona",
+    "qachon",
+    "ochiladi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Kutubxona qachon ochiladi?"
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_1",
+   "t": "choice",
+   "q": "Matnga mos sarlavhani tanlang.",
+   "a": "Oltin kuz",
+   "w": [
+    "Qishki o‘yinlar",
+    "Bahor bayrami",
+    "Mening mushugim"
+   ],
+   "d": 1,
+   "x": "Matnda kuz fasli haqida gap boradi.",
+   "e": "🍂",
+   "text": "Kuz keldi. Daraxtlarning barglari sarg‘ayib, to‘kila boshladi. Bog‘larda olma va anorlar pishdi. Dalada paxta terimi boshlandi. Qushlar issiq o‘lkalarga uchib ketmoqda."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_2",
+   "t": "choice",
+   "q": "Matnning mavzusi nima?",
+   "a": "Kuz fasli",
+   "w": [
+    "Qish fasli",
+    "Maktab hayoti",
+    "Uy hayvonlari"
+   ],
+   "d": 1,
+   "x": "Hamma gaplar kuz haqida.",
+   "e": "🍂",
+   "text": "Kuz keldi. Daraxtlarning barglari sarg‘ayib, to‘kila boshladi. Bog‘larda olma va anorlar pishdi. Dalada paxta terimi boshlandi. Qushlar issiq o‘lkalarga uchib ketmoqda."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_3",
+   "t": "choice",
+   "q": "Matnda nechta gap bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "3 ta"
+   ],
+   "d": 2,
+   "x": "Har bir gap nuqta bilan tugagan: 5 ta.",
+   "e": "🍂",
+   "text": "Kuz keldi. Daraxtlarning barglari sarg‘ayib, to‘kila boshladi. Bog‘larda olma va anorlar pishdi. Dalada paxta terimi boshlandi. Qushlar issiq o‘lkalarga uchib ketmoqda."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_4",
+   "t": "choice",
+   "q": "Qaysi gap matnga aloqador emas?",
+   "a": "Samarqand — qadimiy shahar.",
+   "w": [
+    "Kuchukcha och va sovqotgan edi.",
+    "Biz unga sut berdik va issiq joy tayyorladik.",
+    "Endi kuchukcha bizning eng yaqin do‘stimiz."
+   ],
+   "d": 1,
+   "x": "Matn kuchukcha haqida; shahar haqidagi gap mavzuga aloqasiz.",
+   "e": "🐶",
+   "text": "Bir kuni ukam Sardor ko‘chadan kichkina kuchukcha topib keldi. Kuchukcha och va sovqotgan edi. Biz unga sut berdik va issiq joy tayyorladik. Samarqand — qadimiy shahar. Endi kuchukcha bizning eng yaqin do‘stimiz."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_5",
+   "t": "choice",
+   "q": "Matnga mos sarlavhani tanlang.",
+   "a": "Kichkina do‘st",
+   "w": [
+    "Qadimiy shahar",
+    "Yozgi ta’til",
+    "Bizning maktab"
+   ],
+   "d": 1,
+   "x": "Matn topib olingan kuchukcha haqida.",
+   "e": "🐶",
+   "text": "Bir kuni ukam Sardor ko‘chadan kichkina kuchukcha topib keldi. Kuchukcha och va sovqotgan edi. Biz unga sut berdik va issiq joy tayyorladik. Samarqand — qadimiy shahar. Endi kuchukcha bizning eng yaqin do‘stimiz."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_6",
+   "t": "choice",
+   "q": "Matnning asosiy fikri qaysi?",
+   "a": "Hayvonlarga mehribon bo‘lish kerak",
+   "w": [
+    "Kuchukchalar sut ichmaydi",
+    "Ko‘chada o‘ynash kerak",
+    "Shaharlar qadimiy bo‘ladi"
+   ],
+   "d": 2,
+   "x": "Bolalar och kuchukchaga g‘amxo‘rlik qilishdi.",
+   "e": "🐶",
+   "text": "Bir kuni ukam Sardor ko‘chadan kichkina kuchukcha topib keldi. Kuchukcha och va sovqotgan edi. Biz unga sut berdik va issiq joy tayyorladik. Samarqand — qadimiy shahar. Endi kuchukcha bizning eng yaqin do‘stimiz."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_7",
+   "t": "choice",
+   "q": "Matn rejasining to‘g‘ri tartibini toping.",
+   "a": "Uyg‘onish → Nonushta → Maktabga yo‘l → Dars",
+   "w": [
+    "Nonushta → Uyg‘onish → Dars → Maktabga yo‘l",
+    "Dars → Maktabga yo‘l → Nonushta → Uyg‘onish",
+    "Uyg‘onish → Dars → Nonushta → Maktabga yo‘l"
+   ],
+   "d": 2,
+   "x": "Reja bandlari matndagi voqealar tartibida bo‘ladi.",
+   "e": "⏰",
+   "text": "Ertalab soat yettida uyg‘ondim. Yuz-qo‘limni yuvib, nonushta qildim. Keyin sumkamni olib, maktabga yo‘l oldim. Darsda yangi mavzuni o‘rgandik."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_8",
+   "t": "choice",
+   "q": "Matnda voqealar qanday tartibda berilgan?",
+   "a": "Bo‘lib o‘tgan vaqt tartibida",
+   "w": [
+    "Tartibsiz",
+    "Oxiridan boshiga",
+    "Faqat bitta voqea bor"
+   ],
+   "d": 2,
+   "x": "Avval uyg‘ondi, keyin nonushta qildi, so‘ng maktabga bordi.",
+   "e": "⏰",
+   "text": "Ertalab soat yettida uyg‘ondim. Yuz-qo‘limni yuvib, nonushta qildim. Keyin sumkamni olib, maktabga yo‘l oldim. Darsda yangi mavzuni o‘rgandik."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_9",
+   "t": "choice",
+   "q": "Matnga mos sarlavhani tanlang.",
+   "a": "Bizning sinfxonamiz",
+   "w": [
+    "Yozgi ta’til",
+    "Mening do‘stim",
+    "Oltin kuz"
+   ],
+   "d": 1,
+   "x": "Matnda sinfxona tasvirlangan.",
+   "e": "🏫",
+   "text": "Bizning sinfxonamiz keng va yorug‘. Uning derazalari katta, ulardan quyosh nuri tushib turadi. Devorlarda rasmlar va xaritalar osilgan. Partalar tartib bilan terilgan."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_10",
+   "t": "choice",
+   "q": "Bu matnda nima tasvirlangan?",
+   "a": "Sinfxonaning ko‘rinishi",
+   "w": [
+    "Sayohat voqeasi",
+    "Dars jadvali",
+    "O‘yin qoidalari"
+   ],
+   "d": 1,
+   "x": "Matn sinfxona qanday ekanini ko‘rsatadi.",
+   "e": "🏫",
+   "text": "Bizning sinfxonamiz keng va yorug‘. Uning derazalari katta, ulardan quyosh nuri tushib turadi. Devorlarda rasmlar va xaritalar osilgan. Partalar tartib bilan terilgan."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_11",
+   "t": "choice",
+   "q": "Bu matn qaysi turga kiradi?",
+   "a": "Tasviriy matn",
+   "w": [
+    "Hikoya matn",
+    "Muhokama matn"
+   ],
+   "d": 3,
+   "x": "Matnda voqea emas, narsaning qanday ekani tasvirlangan.",
+   "e": "🏫",
+   "text": "Bizning sinfxonamiz keng va yorug‘. Uning derazalari katta, ulardan quyosh nuri tushib turadi. Devorlarda rasmlar va xaritalar osilgan. Partalar tartib bilan terilgan."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_12",
+   "t": "choice",
+   "q": "Matnning asosiy fikri qaysi?",
+   "a": "Har kuni kitob o‘qish kerak",
+   "w": [
+    "Kitoblar qimmat turadi",
+    "Kitobni faqat maktabda o‘qish mumkin",
+    "Kitob o‘qish zerikarli"
+   ],
+   "d": 1,
+   "x": "Xulosa gapda asosiy fikr aytilgan.",
+   "e": "📚",
+   "text": "Kitob o‘qish juda foydali. Chunki kitob bizga yangi bilimlar beradi. U nutqimizni boyitadi va xayolimizni o‘stiradi. Shuning uchun har kuni kitob o‘qish kerak."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_13",
+   "t": "choice",
+   "q": "Qaysi gap matnning xulosasi?",
+   "a": "Shuning uchun har kuni kitob o‘qish kerak.",
+   "w": [
+    "Kitob o‘qish juda foydali.",
+    "Chunki kitob bizga yangi bilimlar beradi.",
+    "U nutqimizni boyitadi va xayolimizni o‘stiradi."
+   ],
+   "d": 2,
+   "x": "Xulosa matn oxirida keladi va fikrni yakunlaydi.",
+   "e": "📚",
+   "text": "Kitob o‘qish juda foydali. Chunki kitob bizga yangi bilimlar beradi. U nutqimizni boyitadi va xayolimizni o‘stiradi. Shuning uchun har kuni kitob o‘qish kerak."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_14",
+   "t": "choice",
+   "q": "Bu matn qaysi turga kiradi?",
+   "a": "Muhokama matn",
+   "w": [
+    "Hikoya matn",
+    "Tasviriy matn"
+   ],
+   "d": 3,
+   "x": "Matnda fikr aytilib, “chunki” bilan isbotlangan va xulosa chiqarilgan.",
+   "e": "📚",
+   "text": "Kitob o‘qish juda foydali. Chunki kitob bizga yangi bilimlar beradi. U nutqimizni boyitadi va xayolimizni o‘stiradi. Shuning uchun har kuni kitob o‘qish kerak."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_15",
+   "t": "choice",
+   "q": "Matn nima?",
+   "a": "Mazmunan bog‘langan gaplar",
+   "w": [
+    "Bir-biriga aloqasiz gaplar",
+    "Alohida so‘zlar ro‘yxati",
+    "Faqat bitta so‘z"
+   ],
+   "d": 1,
+   "x": "Matndagi gaplar bir mavzuga bog‘langan bo‘ladi."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_16",
+   "t": "choice",
+   "q": "Reja nima uchun tuziladi?",
+   "a": "Fikrni tartib bilan bayon qilish uchun",
+   "w": [
+    "Harflarni o‘rganish uchun",
+    "So‘zlarni sanash uchun",
+    "Matnni qisqartirmaslik uchun"
+   ],
+   "d": 1,
+   "x": "Reja matn qismlarining tartibini ko‘rsatadi."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_17",
+   "t": "choice",
+   "q": "Matn odatda qanday qismlardan iborat bo‘ladi?",
+   "a": "Kirish, asosiy qism, xulosa",
+   "w": [
+    "Ega, kesim, hol",
+    "O‘zak va qo‘shimcha",
+    "Unli va undosh"
+   ],
+   "d": 1,
+   "x": "Kirish — boshlanish, asosiy qism — voqea yoki fikr, xulosa — yakun."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_18",
+   "t": "choice",
+   "q": "Sarlavha nimani ko‘rsatadi?",
+   "a": "Matnning mavzusi yoki asosiy fikrini",
+   "w": [
+    "Matndagi gaplar sonini",
+    "Muallifning yoshini",
+    "Matndagi eng uzun so‘zni"
+   ],
+   "d": 1,
+   "x": "Sarlavhani o‘qib, matn nima haqida ekanini bilish mumkin."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_19",
+   "t": "tf",
+   "q": "Matndagi gaplar bir mavzuga bog‘langan bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "Aloqasiz gap matnni buzadi."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_20",
+   "t": "tf",
+   "q": "Matnning har bir gapi boshqa-boshqa mavzuda bo‘lishi kerak.",
+   "a": false,
+   "d": 1,
+   "x": "Matndagi gaplar bir mavzuga bog‘lanadi."
+  },
+  {
+   "topic": "onatili_g4.text_plan",
+   "id": "text_plan_21",
+   "t": "tf",
+   "q": "Xulosa qismi matnning oxirida keladi.",
+   "a": true,
+   "d": 1,
+   "x": "Xulosa fikrni yakunlaydi."
+  }
+ ]
+}

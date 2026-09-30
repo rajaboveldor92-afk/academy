@@ -1,0 +1,615 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g6",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "onatili_g6.word_meaning",
+   "code": "1",
+   "emoji": "📘",
+   "title": {
+    "uz": "So‘zning lug‘aviy ma’nosi. Bir va ko‘p ma’noli so‘zlar",
+    "en": "Word meaning. Polysemy",
+    "ru": "Лексическое значение. Многозначность"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Leksikologiya: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "So‘zning lug‘aviy ma’nosi — uning asosiy, atash ma’nosi. Qo‘shimchalar grammatik ma’no beradi: kitob-lar (ko‘plik).\n• Bir ma’noli so‘zlar faqat bitta ma’noga ega; atamalar odatda bir ma’noli: kislorod, perimetr.\n• Ko‘p ma’noli so‘zlarning ma’nolari o‘zaro bog‘liq: qushning qanoti — samolyotning qanoti.\n• Asosiy ma’no — o‘z ma’no; o‘xshatish asosida paydo bo‘lgan ma’no — ko‘chma ma’no: stolning oyog‘i.\nSo‘zlarning ma’nolari izohli lug‘atda beriladi."
+   }
+  },
+  {
+   "id": "onatili_g6.syn_ant",
+   "code": "2",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Ma’nodosh va qarama-qarshi ma’noli so‘zlar",
+    "en": "Synonyms and antonyms",
+    "ru": "Синонимы и антонимы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Leksikologiya: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Ma’nodosh (sinonim) so‘zlar — ma’nosi bir xil yoki yaqin so‘zlar: yordam — ko‘mak, sovg‘a — tuhfa.\n  Sinonimik qatorda ma’noni betaraf ifodalaydigan bosh so‘z bo‘ladi: yuz — bet — chehra — aft (bosh so‘z: yuz).\n• Qarama-qarshi ma’noli (antonim) so‘zlar: ko‘p — oz, chuqur — sayoz, yoqmoq — o‘chirmoq.\n  Antonimlar bir so‘z turkumiga mansub bo‘ladi.\nSinonim va antonimlar nutqni boy va ta’sirli qiladi."
+   }
+  },
+  {
+   "id": "onatili_g6.homonyms",
+   "code": "3",
+   "emoji": "🎭",
+   "title": {
+    "uz": "Shakldosh so‘zlar (omonimlar)",
+    "en": "Homonyms",
+    "ru": "Омонимы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Leksikologiya: so‘z va ma’no",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Shakldosh (omonim) so‘zlar — aytilishi va yozilishi bir xil, ma’nolari bir-biriga bog‘liq bo‘lmagan so‘zlar:\n• bog‘ (meva daraxtlari o‘sadigan joy) — bog‘ (arqonni bog‘);\n• chang (tuproq zarrasi) — chang (cholg‘u asbobi); yosh (kam yashagan) — yosh (ko‘z yoshi).\nKo‘p ma’noli so‘zdan farqi: ko‘p ma’noli so‘zning ma’nolari bog‘liq (qushning qanoti — samolyotning qanoti),\nomonimlarning ma’nolari esa bog‘liq emas."
+   }
+  },
+  {
+   "id": "onatili_g6.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Leksikologiya: so‘z va ma’no",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g6.vocab_layers",
+   "code": "4",
+   "emoji": "🏺",
+   "title": {
+    "uz": "Eskirgan so‘zlar, neologizmlar va atamalar",
+    "en": "Archaic words, neologisms, terms",
+    "ru": "Устаревшие слова, неологизмы, термины"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Lug‘at boyligi va so‘z yasalishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Eskirgan so‘zlar — hozir kam ishlatiladigan, tarixiy asarlarda uchraydigan so‘zlar: mudarris, munshiy, karvonsaroy, misqol.\n• Neologizmlar — yangi narsa va tushunchalar bilan birga paydo bo‘lgan so‘zlar: dron, bloger, onlayn.\n  Vaqt o‘tib ular hammaga tanish oddiy so‘zga aylanadi.\n• Atamalar — fan, texnika va kasbga oid so‘zlar: perimetr (matematika), ekvator (geografiya), undalma (ona tili)."
+   }
+  },
+  {
+   "id": "onatili_g6.idioms",
+   "code": "5",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Iboralar (frazeologizmlar)",
+    "en": "Idioms",
+    "ru": "Фразеологизмы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Lug‘at boyligi va so‘z yasalishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ibora (frazeologizm) — ikki yoki undan ortiq so‘zdan tuzilgan, bir butun ko‘chma ma’no bildiradigan turg‘un birikma.\n• Iboradagi so‘zlarni boshqasiga almashtirib bo‘lmaydi: ter to‘kmoq — qattiq mehnat qilmoq.\n• Ko‘p iboralarni bitta so‘z bilan almashtirish mumkin: kapalagi uchib ketmoq — qo‘rqmoq.\nMisollar: qo‘li gul — mohir; tilidan bol tomadi — shirinso‘z; yer bilan osmoncha farq — juda katta farq."
+   }
+  },
+  {
+   "id": "onatili_g6.compound_words",
+   "code": "6",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Qo‘shma so‘zlar va ularning imlosi",
+    "en": "Compound words",
+    "ru": "Сложные слова"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Lug‘at boyligi va so‘z yasalishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qo‘shma so‘z — ikki yoki undan ortiq o‘zakdan tuzilgan, bitta yangi ma’no bildiradigan so‘z:\ntosh + baqa = toshbaqa (hayvon), osh + qozon = oshqozon (a’zo), kungaboqar (o‘simlik).\n• Qo‘shma otlar qo‘shib yoziladi: belbog‘, qo‘ziqorin, tog‘olcha.\n• Qo‘shma fe’llar ajratib yoziladi: sotib olmoq, olib kelmoq, yordam bermoq.\n• Qo‘shma sonlar ham ajratib yoziladi: o‘n besh, yuz yigirma."
+   }
+  },
+  {
+   "id": "onatili_g6.pair_words",
+   "code": "7",
+   "emoji": "👯",
+   "title": {
+    "uz": "Juft va takroriy so‘zlar",
+    "en": "Paired and repeated words",
+    "ru": "Парные и повторные слова"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Lug‘at boyligi va so‘z yasalishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Juft so‘zlar ikki xil so‘zning juftlashuvidan hosil bo‘ladi va chiziqcha bilan yoziladi: ota-ona, kecha-kunduz, baxt-saodat.\n  Qismlari ma’nodosh (o‘y-xayol), zid ma’noli (yaxshi-yomon) yoki ma’nosi yaqin (qozon-tovoq) bo‘ladi;\n  ba’zan bir qismi alohida ishlatilmaydi: kiyim-kechak.\n• Takroriy so‘zlar bir so‘zning takrorlanishidan hosil bo‘ladi va ular ham chiziqcha bilan yoziladi:\n  katta-katta, sekin-sekin, qator-qator."
+   }
+  },
+  {
+   "id": "onatili_g6.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Lug‘at boyligi va so‘z yasalishi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g6.noun_meaning",
+   "code": "8",
+   "emoji": "📦",
+   "title": {
+    "uz": "Otning ma’noviy turlari",
+    "en": "Types of nouns by meaning",
+    "ru": "Разряды существительных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ot va sifat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Otlar ma’nosiga ko‘ra turlarga bo‘linadi:\n• Aniq otlar — ko‘rish, ushlash mumkin bo‘lgan narsalar: kitob, daraxt, tosh.\n• Mavhum otlar — his-tuyg‘u va tushuncha nomlari: baxt, do‘stlik, bilim, orzu.\n• Yakka otlar — bitta narsani bildiradi: qo‘y, qush, o‘yinchi.\n• Jamlovchi otlar — bir turdagi narsalar to‘plamini bildiradi: suruv, gala, jamoa, xalq."
+   }
+  },
+  {
+   "id": "onatili_g6.adj_types",
+   "code": "9",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Asliy va nisbiy sifatlar",
+    "en": "Qualitative and relative adjectives",
+    "ru": "Качественные и относительные прилагательные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ot va sifat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sifatlar ma’nosiga ko‘ra ikki turga bo‘linadi:\n• Asliy sifatlar belgini bevosita bildiradi: oq, shirin, katta, keng. Ular darajalanadi: oqroq, eng shirin.\n• Nisbiy sifatlar belgini boshqa narsaga (vaqt, o‘rin, tushuncha) nisbatan bildiradi: kuzgi (kuz), tashqi, tarixiy (tarix).\n  Ular odatda ot yoki ravishdan yasaladi va daraja qo‘shimchasini olmaydi: “kuzgiroq” deyilmaydi."
+   }
+  },
+  {
+   "id": "onatili_g6.adj_suffixes",
+   "code": "10",
+   "emoji": "🏷️",
+   "title": {
+    "uz": "Sifat yasovchi qo‘shimchalar",
+    "en": "Adjective-forming suffixes",
+    "ru": "Суффиксы прилагательных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ot va sifat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sifat yasovchi qo‘shimchalar:\n• -li — belgi borligi: bilimli, mazali;  • -siz — belgining yo‘qligi: tinimsiz, hidsiz;\n• -chan — biror xususiyatga moyillik: talabchan, uyatchan;  • -dor — narsaga ega: mevador, vafodor;\n• -gi (-ki, -qi) — vaqt yoki o‘ringa oidlik: bahorgi, tungi, qishki.\nOld qo‘shimchalar ham sifat yasaydi: ser- (serhosil), be- (beodob), no- (notinch)."
+   }
+  },
+  {
+   "id": "onatili_g6.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ot va sifat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g6.numeral_types",
+   "code": "11",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Son turlari",
+    "en": "Types of numerals",
+    "ru": "Разряды числительных"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Son, olmosh va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sonlar ma’nosiga ko‘ra miqdor va tartib sonlarga bo‘linadi. Miqdor sonlar:\n• Sanoq: besh, o‘n yetti.  • Jamlovchi (-ov, -ala): ikkov, uchov, ikkala, uchala.\n• Taqsim (-tadan): beshtadan.  • Chama (-tacha, -lab, -larcha): o‘ntacha, yuzlab, o‘nlarcha.\n• Kasr: beshdan ikki (2/5), to‘rtdan uch (3/4).\nTartib son -(i)nchi bilan yasaladi: oltinchi. Rim raqamidan keyin chiziqcha qo‘yilmaydi: XXI asr."
+   }
+  },
+  {
+   "id": "onatili_g6.pronoun_types",
+   "code": "12",
+   "emoji": "👥",
+   "title": {
+    "uz": "Olmosh turlari",
+    "en": "Types of pronouns",
+    "ru": "Разряды местоимений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Son, olmosh va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Olmoshlar ma’nosiga ko‘ra 7 turga bo‘linadi:\n• Kishilik: men, sen, u, biz, siz, ular.  • Ko‘rsatish: bu, shu, o‘sha, ushbu.\n• So‘roq: kim, nima, qaysi, qancha.  • O‘zlik: o‘z (o‘zim, o‘zing, o‘zi).\n• Belgilash: hamma, barcha, har bir, har kim.  • Bo‘lishsizlik: hech kim, hech nima, hech qaysi.\n• Gumon: allakim, allanima, kimdir, nimadir. Imlo: hech kim, har bir — ajratib; allakim, kimdir — qo‘shib."
+   }
+  },
+  {
+   "id": "onatili_g6.spelling_punct",
+   "code": "13",
+   "emoji": "✍️",
+   "title": {
+    "uz": "Imlo va tinish belgilari",
+    "en": "Spelling and punctuation",
+    "ru": "Орфография и пунктуация"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Son, olmosh va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• h va x ni farqlang: hayvon, hunar, hikoya — xabar, xizmat, xalq. Ma’no farqlanadi: shox (daraxt shoxi) — shoh (podshoh).\n• -mi, -chi yuklamalari qo‘shib yoziladi: Keldingmi? Senchi?\n• Ega va kesim ot bilan ifodalansa, orasiga tire qo‘yiladi: Toshkent — O‘zbekiston poytaxti.\n• Umumlashtiruvchi so‘zdan keyin uyushiq bo‘laklar oldidan ikki nuqta qo‘yiladi: Meva oldik: olma, nok, uzum.\n• Kirish so‘zlar vergul bilan ajratiladi: Albatta, boraman. Kitob nomlari qo‘shtirnoqqa olinadi."
+   }
+  },
+  {
+   "id": "onatili_g6.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Son, olmosh va imlo",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g6.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Son, olmosh va imlo",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms",
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words",
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes",
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms",
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words",
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes",
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "onatili_g6.word_meaning",
+      "onatili_g6.syn_ant",
+      "onatili_g6.homonyms",
+      "onatili_g6.vocab_layers",
+      "onatili_g6.idioms",
+      "onatili_g6.compound_words",
+      "onatili_g6.pair_words",
+      "onatili_g6.noun_meaning",
+      "onatili_g6.adj_types",
+      "onatili_g6.adj_suffixes",
+      "onatili_g6.numeral_types",
+      "onatili_g6.pronoun_types",
+      "onatili_g6.spelling_punct"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
