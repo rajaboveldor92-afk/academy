@@ -164,7 +164,12 @@ class ExerciseValidator {
         return a != null && a.steps.isNotEmpty && a.title.trim().isNotEmpty;
       case ExerciseKind.input:
         final t = e.input;
-        return t != null && t.answer.trim().isNotEmpty && t.isCorrect(t.answer);
+        if (t == null || t.answer.trim().isEmpty || !t.isCorrect(t.answer)) return false;
+        if (t.isAbacus) {
+          final n = int.tryParse(t.answer);
+          return n != null && n > 0 && t.rods >= 1 && t.answer.length <= t.rods;
+        }
+        return true;
     }
   }
 }

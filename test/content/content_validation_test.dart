@@ -61,6 +61,7 @@ void main() {
       e.spot?.describe() ?? '',
       e.jigsaw?.describe() ?? '',
       e.activity?.describe() ?? '',
+      e.input?.describe() ?? '',
     ].join('#');
   }
 

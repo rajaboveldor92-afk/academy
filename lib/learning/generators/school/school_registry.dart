@@ -7,6 +7,7 @@ import '../foreign_language.dart';
 import '../logic_senior.dart';
 import 'bank_gen.dart';
 import 'math_school.dart';
+import 'mental_gen.dart';
 import 'school_practice.dart';
 
 /// Maktab fanlari generatorlari: kalit `school.<fan>.<nom>` yoki umumiy `school.<nom>`.
@@ -18,6 +19,7 @@ class SchoolGenerators {
         for (final subject in ['english', 'russian'])
           for (final e in ForeignLanguage.generators.entries) 'school.$subject.${e.key}': e.value,
         for (final e in LogicSenior.generators.entries) 'school.logic.${e.key}': e.value,
+        for (final e in MentalGen.generators.entries) 'school.mental.${e.key}': e.value,
         'school.bank': BankGen.bank,
         'school.logic.rule_sequence': SchoolPractice.sequence,
         'school.logic.ordering': SchoolPractice.ordering,

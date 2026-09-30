@@ -1,0 +1,516 @@
+{
+ "subject": "mental",
+ "ageGroup": "g5",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mental arifmetika",
+  "en": "Mental arithmetic",
+  "ru": "Ментальная арифметика"
+ },
+ "model": "QOIDA → ABAKUS → XAYOLAN → NAZORAT",
+ "topics": [
+  {
+   "id": "mental_g5.review",
+   "code": "1",
+   "emoji": "🎯",
+   "title": {
+    "uz": "Tez usullar: takrorlash",
+    "en": "Quick methods: review",
+    "ru": "Быстрые приёмы: повторение"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "1-chorak. Takrorlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x11c",
+      "x25",
+      "x2d1d"
+     ]
+    },
+    {
+     "kinds": [
+      "x11c",
+      "x25",
+      "x2d1d",
+      "x9"
+     ]
+    },
+    {
+     "kinds": [
+      "x11c",
+      "x25",
+      "x3d1d",
+      "x8"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "11 ga ko‘paytirish (ikki xonali son): raqamlarni ajratib, o‘rtasiga ularning yig‘indisini yozamiz.\n• 36 × 11: 3 _ 6, o‘rtaga 3 + 6 = 9 → 396.\n• 58 × 11: 5 + 8 = 13 — o‘rtaga 3, chapdagi 5 ga 1 qo‘shiladi → 638."
+   }
+  },
+  {
+   "id": "mental_g5.chain3d",
+   "code": "2",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Uch xonali zanjir",
+    "en": "Three-digit chains",
+    "ru": "Цепочки трёхзначных"
+   },
+   "generator": "chain",
+   "skill": "chain",
+   "chapter": "1-chorak. Takrorlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 3,
+     "digits": 3
+    },
+    {
+     "n": 4,
+     "digits": 3
+    },
+    {
+     "n": 4,
+     "digits": 3,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Zanjirli hisob: sonlarni chapdan o‘ngga ketma-ket qo‘shib-ayirib boramiz.\nMisol: 12 + 7 − 5 + 20: 12 + 7 = 19, 19 − 5 = 14, 14 + 20 = 34.\nOraliq natijani abakusdagidek xayolda saqlang."
+   }
+  },
+  {
+   "id": "mental_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Takrorlash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g5.sq5",
+   "code": "3",
+   "emoji": "⭐",
+   "title": {
+    "uz": "5 bilan tugaydigan son kvadrati",
+    "en": "Squares ending in 5",
+    "ru": "Квадраты чисел на 5"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "2-chorak. Kvadratlar va 99",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "sq5",
+      "x5"
+     ]
+    },
+    {
+     "kinds": [
+      "sq5",
+      "x25"
+     ]
+    },
+    {
+     "kinds": [
+      "sq5",
+      "x25",
+      "x11c"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "5 bilan tugaydigan sonning kvadrati: o‘nliklar sonini keyingi songa ko‘paytiramiz va oxiriga 25 yozamiz.\n• 35 × 35: 3 × 4 = 12 → 1225.\n• 75 × 75: 7 × 8 = 56 → 5625."
+   }
+  },
+  {
+   "id": "mental_g5.x99",
+   "code": "4",
+   "emoji": "💯",
+   "title": {
+    "uz": "99, 15 va 11–19 ga ko‘paytirish",
+    "en": "×99, ×15, ×11–19",
+    "ru": "×99, ×15, ×11–19"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "2-chorak. Kvadratlar va 99",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x99",
+      "x15"
+     ]
+    },
+    {
+     "kinds": [
+      "x99",
+      "x15",
+      "x2d2d"
+     ]
+    },
+    {
+     "kinds": [
+      "x99",
+      "x15",
+      "x2d2d"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "99 ga ko‘paytirish: 100 ga ko‘paytirib, sonning o‘zini ayiramiz: 37 × 99 = 3700 − 37 = 3663.\n15 ga ko‘paytirish: 10 ga ko‘paytiramiz va uning yarmini qo‘shamiz: 24 × 15 = 240 + 120 = 360.\n11–19 ga ko‘paytirish: 23 × 14 = 230 + 23 × 4 = 230 + 92 = 322."
+   }
+  },
+  {
+   "id": "mental_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kvadratlar va 99",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g5.sq5",
+      "mental_g5.x99"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g5.sq5",
+      "mental_g5.x99"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g5.sq5",
+      "mental_g5.x99"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g5.percent",
+   "code": "5",
+   "emoji": "💯",
+   "title": {
+    "uz": "Foizlarni xayolan topish",
+    "en": "Percentages in your head",
+    "ru": "Проценты в уме"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "3-chorak. Foizlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "pct_easy"
+     ]
+    },
+    {
+     "kinds": [
+      "pct_easy",
+      "pct"
+     ]
+    },
+    {
+     "kinds": [
+      "pct"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Foizlarni xayolan topish:\n• 10% — sonni 10 ga bo‘lamiz: 340 ning 10% i = 34.\n• 50% — yarmi, 25% — to‘rtdan biri, 20% — beshdan biri.\nMisol: 80 ning 25% i = 80 : 4 = 20."
+   }
+  },
+  {
+   "id": "mental_g5.split3",
+   "code": "6",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Uch xonali sonni ko‘paytirish",
+    "en": "Multiplying three-digit numbers",
+    "ru": "Умножение трёхзначных"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "3-chorak. Foizlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x3d1d"
+     ]
+    },
+    {
+     "kinds": [
+      "x3d1d",
+      "x2d2d"
+     ]
+    },
+    {
+     "kinds": [
+      "x3d1d",
+      "x2d2d"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Sonni xonalarga ajratib ko‘paytirish: 47 × 6 = 40 × 6 + 7 × 6 = 240 + 42 = 282.\nUch xonali son: 213 × 4 = 200 × 4 + 13 × 4 = 800 + 52 = 852.\nAvval kattasini, keyin kichigini hisoblab, qo‘shing."
+   }
+  },
+  {
+   "id": "mental_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Foizlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g5.percent",
+      "mental_g5.split3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g5.percent",
+      "mental_g5.split3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g5.percent",
+      "mental_g5.split3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g5.flash2d",
+   "code": "7",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Flesh-anzan: ikki xonali tez",
+    "en": "Flash cards: two-digit fast",
+    "ru": "Флеш-анзан: двузначные быстро"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "4-chorak. Flesh-anzan",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 4,
+     "digits": 2,
+     "ms": 1300
+    },
+    {
+     "n": 5,
+     "digits": 2,
+     "ms": 1100
+    },
+    {
+     "n": 6,
+     "digits": 2,
+     "ms": 1000
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g5.flash3d",
+   "code": "8",
+   "emoji": "🚀",
+   "title": {
+    "uz": "Flesh-anzan: uch xonali",
+    "en": "Flash cards: three-digit",
+    "ru": "Флеш-анзан: трёхзначные"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "4-chorak. Flesh-anzan",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 2,
+     "digits": 3,
+     "ms": 2200
+    },
+    {
+     "n": 3,
+     "digits": 3,
+     "ms": 1900
+    },
+    {
+     "n": 3,
+     "digits": 3,
+     "ms": 1600
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Flesh-anzan",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Flesh-anzan",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d",
+      "mental_g5.sq5",
+      "mental_g5.x99",
+      "mental_g5.percent",
+      "mental_g5.split3",
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d",
+      "mental_g5.sq5",
+      "mental_g5.x99",
+      "mental_g5.percent",
+      "mental_g5.split3",
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "mental_g5.review",
+      "mental_g5.chain3d",
+      "mental_g5.sq5",
+      "mental_g5.x99",
+      "mental_g5.percent",
+      "mental_g5.split3",
+      "mental_g5.flash2d",
+      "mental_g5.flash3d"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

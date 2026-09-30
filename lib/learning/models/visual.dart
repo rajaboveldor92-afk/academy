@@ -190,6 +190,25 @@ class ClockVisual extends ExerciseVisual {
   String describe() => 'clock[$hour:$minute]';
 }
 
+/// Abakus (soroban): har ustunda 1 ta yuqori munchoq (5) va 4 ta pastki munchoq (har biri 1).
+class AbacusVisual extends ExerciseVisual {
+  const AbacusVisual(this.value, {this.rods = 1});
+
+  final int value;
+  final int rods;
+
+  /// Ustunlardagi raqamlar (chapdan o'ngga).
+  List<int> get digits => digitsOf(value, rods);
+
+  static List<int> digitsOf(int value, int rods) {
+    final s = value.abs().toString().padLeft(rods, '0');
+    return [for (final c in s.substring(s.length - rods).split('')) int.parse(c)];
+  }
+
+  @override
+  String describe() => 'abacus[$value/$rods]';
+}
+
 /// Katakli jadval (2×2 / 3×3 matritsa, kodlash maydoni, koordinatali sahna).
 /// `null` katak — "?" (yetishmayotgan element).
 class GridVisual extends ExerciseVisual {

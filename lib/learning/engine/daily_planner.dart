@@ -49,8 +49,8 @@ class DailyPlanner {
 
   /// Maktab o'quvchilari: fanlar navbati (matematika va ona tili ko'proq).
   static const List<String> schoolOrder = [
-    'math', 'logic', 'onatili', 'english', 'reading', 'russian', 'science', 'math', 'informatics', 'history', 'onatili',
-    'geography', 'biology', 'physics', 'chemistry',
+    'math', 'logic', 'onatili', 'english', 'mental', 'reading', 'russian', 'science', 'math', 'informatics', 'history',
+    'onatili', 'geography', 'biology', 'physics', 'chemistry',
   ];
 
   static int sizeFor(int age, {int grade = 0}) => grade > 0 ? 10 : (age <= 5 ? 6 : 10);

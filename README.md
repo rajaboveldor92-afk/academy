@@ -101,6 +101,14 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
   skript savollar sonini, takrorni, javob noto‘g‘rilar ichida emasligini va o‘/g‘ belgisini tekshiradi.
   Chet tilidagi gaplar (`say`) ingliz/rus ovozida aytiladi; ovozda raqam, kasr, soat, tartib son (“3-sinf” → “uchinchi sinf”)
   va o‘lchov birliklari so‘z bilan o‘qiladi.
+* **4 va 6-sinf (1.6.0):** Ingliz tili, Rus tili, Tabiiy fan, Informatika — har biri 4 chorak (~2 580 ta savol).
+* **Mental arifmetika, 1–8-sinf (1.6.0):** 🧮 alohida fan. Ekranda chiziladigan **abakus (soroban)**: son o‘qish,
+  munchoqlarni bosib son qo‘yish (klaviatura o‘rniga abakus), kichik do‘stlar (+4 = +5 − 1), katta do‘stlar (+7 = +10 − 3),
+  aralash formula (+6 = +1 − 5 + 10), zanjirli hisob, **flesh-anzan** (sonlar ekranda birin-ketin tez ko‘rinadi, tezlik
+  sinfga qarab 2 soniyadan 0,7 soniyagacha) va tez hisoblash usullari (×5, ×9, ×11, ×25, ×99, ×125, 5 bilan tugaydigan
+  son kvadrati, 100 ga yaqin sonlar, foizlar, darajalar, ildiz, Gauss usuli, bo‘linish belgilari). Har sinfda 8 mavzu,
+  4 ta nazorat ishi va yillik takrorlash. Dastur: `tool/content/school/mental_curricula.py`, generatorlar —
+  `lib/learning/generators/school/mental_gen.dart`, tekshiruv — `test/content/mental_test.dart`.
 
 ## Ilova tillari
 

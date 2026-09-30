@@ -1,0 +1,501 @@
+{
+ "subject": "mental",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mental arifmetika",
+  "en": "Mental arithmetic",
+  "ru": "Ментальная арифметика"
+ },
+ "model": "QOIDA → ABAKUS → XAYOLAN → NAZORAT",
+ "topics": [
+  {
+   "id": "mental_g4.abacus4",
+   "code": "1",
+   "emoji": "🧮",
+   "title": {
+    "uz": "To‘rt xonali son abakusda",
+    "en": "Four-digit numbers",
+    "ru": "Четырёхзначные числа"
+   },
+   "generator": "abacus_read",
+   "skill": "abacus_read",
+   "chapter": "1-chorak. Katta sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rods": 4,
+     "options": 3
+    },
+    {
+     "rods": 4,
+     "options": 4
+    },
+    {
+     "rods": 4,
+     "options": 4,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘p xonali son: har bir ustun — bitta xona. O‘ngdagi ustun — birlar, chapdagisi — o‘nliklar, undan keyin — yuzliklar.\nTo‘sindagi nuqta birlar ustunini ko‘rsatadi.\nMisol: o‘nliklarda 3, birlarda 7 — bu 37."
+   }
+  },
+  {
+   "id": "mental_g4.chain2d",
+   "code": "2",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Ikki xonali zanjir",
+    "en": "Two-digit chains",
+    "ru": "Цепочки двузначных"
+   },
+   "generator": "chain",
+   "skill": "chain",
+   "chapter": "1-chorak. Katta sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 3,
+     "digits": 2
+    },
+    {
+     "n": 4,
+     "digits": 2
+    },
+    {
+     "n": 5,
+     "digits": 2,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Zanjirli hisob: sonlarni chapdan o‘ngga ketma-ket qo‘shib-ayirib boramiz.\nMisol: 12 + 7 − 5 + 20: 12 + 7 = 19, 19 − 5 = 14, 14 + 20 = 34.\nOraliq natijani abakusdagidek xayolda saqlang."
+   }
+  },
+  {
+   "id": "mental_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Katta sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g4.x11",
+   "code": "3",
+   "emoji": "🎯",
+   "title": {
+    "uz": "11 ga ko‘paytirish",
+    "en": "Multiplying by 11",
+    "ru": "Умножение на 11"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "2-chorak. 11 va 25 ga ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x11"
+     ]
+    },
+    {
+     "kinds": [
+      "x11",
+      "x11c"
+     ]
+    },
+    {
+     "kinds": [
+      "x11c"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "11 ga ko‘paytirish (ikki xonali son): raqamlarni ajratib, o‘rtasiga ularning yig‘indisini yozamiz.\n• 36 × 11: 3 _ 6, o‘rtaga 3 + 6 = 9 → 396.\n• 58 × 11: 5 + 8 = 13 — o‘rtaga 3, chapdagi 5 ga 1 qo‘shiladi → 638."
+   }
+  },
+  {
+   "id": "mental_g4.x25",
+   "code": "4",
+   "emoji": "💯",
+   "title": {
+    "uz": "25 ga ko‘paytirish, 99 bilan hisob",
+    "en": "×25 and ±99",
+    "ru": "×25 и ±99"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "2-chorak. 11 va 25 ga ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x25",
+      "plus99"
+     ]
+    },
+    {
+     "kinds": [
+      "x25",
+      "plus99",
+      "minus99"
+     ]
+    },
+    {
+     "kinds": [
+      "x25",
+      "plus99",
+      "minus99",
+      "x8"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "25 ga ko‘paytirish: 100 ga ko‘paytirib, 4 ga bo‘lamiz: 36 × 25 = 3600 : 4 = 900.\nYaxlit songa yaqin sonlar: 346 + 99 = 346 + 100 − 1 = 445; 520 − 98 = 520 − 100 + 2 = 422.\nYaxlit songacha to‘ldirib, keyin farqni tuzatamiz."
+   }
+  },
+  {
+   "id": "mental_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. 11 va 25 ga ko‘paytirish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g4.x11",
+      "mental_g4.x25"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g4.x11",
+      "mental_g4.x25"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g4.x11",
+      "mental_g4.x25"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g4.split",
+   "code": "5",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Xonalarga ajratib ko‘paytirish",
+    "en": "Splitting to multiply",
+    "ru": "Умножение по разрядам"
+   },
+   "generator": "tricks",
+   "skill": "tricks",
+   "chapter": "3-chorak. Xayolan ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "x2d1d",
+      "double"
+     ]
+    },
+    {
+     "kinds": [
+      "x2d1d",
+      "half",
+      "double"
+     ]
+    },
+    {
+     "kinds": [
+      "x2d1d",
+      "x3d1d"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Sonni xonalarga ajratib ko‘paytirish: 47 × 6 = 40 × 6 + 7 × 6 = 240 + 42 = 282.\nUch xonali son: 213 × 4 = 200 × 4 + 13 × 4 = 800 + 52 = 852.\nAvval kattasini, keyin kichigini hisoblab, qo‘shing."
+   }
+  },
+  {
+   "id": "mental_g4.flash2d",
+   "code": "6",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Flesh-anzan: ikki xonali",
+    "en": "Flash cards: two-digit",
+    "ru": "Флеш-анзан: двузначные"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "3-chorak. Xayolan ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 3,
+     "digits": 2,
+     "ms": 1600
+    },
+    {
+     "n": 4,
+     "digits": 2,
+     "ms": 1400
+    },
+    {
+     "n": 5,
+     "digits": 2,
+     "ms": 1200
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Xayolan ko‘paytirish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g4.split",
+      "mental_g4.flash2d"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g4.split",
+      "mental_g4.flash2d"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g4.split",
+      "mental_g4.flash2d"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g4.chain3d",
+   "code": "7",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Uch xonali zanjir",
+    "en": "Three-digit chains",
+    "ru": "Цепочки трёхзначных"
+   },
+   "generator": "chain",
+   "skill": "chain",
+   "chapter": "4-chorak. Tezlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 2,
+     "digits": 3
+    },
+    {
+     "n": 3,
+     "digits": 3
+    },
+    {
+     "n": 3,
+     "digits": 3,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Zanjirli hisob: sonlarni chapdan o‘ngga ketma-ket qo‘shib-ayirib boramiz.\nMisol: 12 + 7 − 5 + 20: 12 + 7 = 19, 19 − 5 = 14, 14 + 20 = 34.\nOraliq natijani abakusdagidek xayolda saqlang."
+   }
+  },
+  {
+   "id": "mental_g4.flash_fast",
+   "code": "8",
+   "emoji": "🚀",
+   "title": {
+    "uz": "Flesh-anzan: tezkor",
+    "en": "Flash cards: speed",
+    "ru": "Флеш-анзан: скорость"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "4-chorak. Tezlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 6,
+     "rule": "ten",
+     "ms": 900
+    },
+    {
+     "n": 7,
+     "rule": "ten",
+     "ms": 800
+    },
+    {
+     "n": 8,
+     "rule": "ten",
+     "ms": 700
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tezlik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tezlik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d",
+      "mental_g4.x11",
+      "mental_g4.x25",
+      "mental_g4.split",
+      "mental_g4.flash2d",
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d",
+      "mental_g4.x11",
+      "mental_g4.x25",
+      "mental_g4.split",
+      "mental_g4.flash2d",
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "mental_g4.abacus4",
+      "mental_g4.chain2d",
+      "mental_g4.x11",
+      "mental_g4.x25",
+      "mental_g4.split",
+      "mental_g4.flash2d",
+      "mental_g4.chain3d",
+      "mental_g4.flash_fast"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

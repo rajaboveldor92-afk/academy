@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../l10n/tr.dart';
 import '../../theme/app_colors.dart';
 import '../models/visual.dart';
+import 'abacus_view.dart';
 
 /// Har qanday [ExerciseVisual] ni chizadi.
 class VisualView extends StatelessWidget {
@@ -58,6 +59,8 @@ class VisualView extends StatelessWidget {
       child = AspectRatio(aspectRatio: 1, child: CustomPaint(painter: ClockPainter(v.hour, v.minute)));
     } else if (v is GridVisual) {
       child = ExerciseGridView(grid: v);
+    } else if (v is AbacusVisual) {
+      child = Center(child: AbacusView(digits: v.digits));
     } else {
       child = const SizedBox.shrink();
     }

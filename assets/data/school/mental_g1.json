@@ -1,0 +1,503 @@
+{
+ "subject": "mental",
+ "ageGroup": "g1",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mental arifmetika",
+  "en": "Mental arithmetic",
+  "ru": "Ментальная арифметика"
+ },
+ "model": "QOIDA → ABAKUS → XAYOLAN → NAZORAT",
+ "topics": [
+  {
+   "id": "mental_g1.abacus",
+   "code": "1",
+   "emoji": "🧮",
+   "title": {
+    "uz": "Abakus: sonni o‘qish",
+    "en": "The abacus: reading numbers",
+    "ru": "Абакус: читаем числа"
+   },
+   "generator": "abacus_read",
+   "skill": "abacus_read",
+   "chapter": "1-chorak. Abakus bilan tanishuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rods": 1,
+     "options": 3
+    },
+    {
+     "rods": 1,
+     "options": 4
+    },
+    {
+     "rods": 1,
+     "options": 4,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Abakus (soroban) — sanash taxtachasi. Har bir ustunda 5 ta munchoq bor:\n• to‘sindan yuqoridagi 1 ta munchoq — 5 ga teng;\n• pastdagi 4 ta munchoq — har biri 1 ga teng.\nFaqat to‘singa surilgan munchoqlar sanaladi. Misol: yuqori munchoq va 2 ta pastki munchoq = 7."
+   }
+  },
+  {
+   "id": "mental_g1.set",
+   "code": "2",
+   "emoji": "✋",
+   "title": {
+    "uz": "Sonni abakusga qo‘yish",
+    "en": "Setting numbers",
+    "ru": "Ставим числа"
+   },
+   "generator": "abacus_set",
+   "skill": "abacus_set",
+   "chapter": "1-chorak. Abakus bilan tanishuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rods": 1,
+     "expr": 35
+    },
+    {
+     "rods": 1,
+     "expr": 50
+    },
+    {
+     "rods": 1,
+     "expr": 70
+    }
+   ],
+   "theory": {
+    "uz": "Sonni abakusga qo‘yish:\n• 1–4: pastki munchoqlarni to‘singa ko‘taramiz;\n• 5: yuqori munchoqni to‘singa tushiramiz;\n• 6–9: yuqori munchoq va kerakli pastki munchoqlar.\nMunchoqni bosing — u to‘singa suriladi, yana bosing — joyiga qaytadi."
+   }
+  },
+  {
+   "id": "mental_g1.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Abakus bilan tanishuv",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g1.simple",
+   "code": "3",
+   "emoji": "➕",
+   "title": {
+    "uz": "Oddiy qo‘shish va ayirish",
+    "en": "Simple adding and subtracting",
+    "ru": "Простое сложение и вычитание"
+   },
+   "generator": "chain",
+   "skill": "chain",
+   "chapter": "2-chorak. Oddiy hisob",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 2,
+     "rule": "simple",
+     "mode": "choice"
+    },
+    {
+     "n": 3,
+     "rule": "simple"
+    },
+    {
+     "n": 4,
+     "rule": "simple",
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Oddiy qo‘shish va ayirish: kerakli munchoqlar bo‘sh bo‘lsa, ularni to‘g‘ridan-to‘g‘ri suramiz.\n• 2 + 2: yana 2 ta pastki munchoqni ko‘taramiz = 4.\n• 7 − 2: 2 ta pastki munchoqni tushiramiz = 5.\nAvval abakusda, keyin ko‘z oldingizda (xayolan) bajaring."
+   }
+  },
+  {
+   "id": "mental_g1.flash_simple",
+   "code": "4",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Flesh-anzan: oddiy",
+    "en": "Flash cards: simple",
+    "ru": "Флеш-анзан: просто"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "2-chorak. Oddiy hisob",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 2,
+     "rule": "simple",
+     "ms": 2000
+    },
+    {
+     "n": 3,
+     "rule": "simple",
+     "ms": 1800
+    },
+    {
+     "n": 3,
+     "rule": "simple",
+     "ms": 1500
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g1.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Oddiy hisob",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g1.simple",
+      "mental_g1.flash_simple"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g1.simple",
+      "mental_g1.flash_simple"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g1.simple",
+      "mental_g1.flash_simple"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g1.friends5",
+   "code": "5",
+   "emoji": "🤝",
+   "title": {
+    "uz": "Kichik do‘stlar: qo‘shish",
+    "en": "Little friends: adding",
+    "ru": "Маленькие друзья: сложение"
+   },
+   "generator": "friends5",
+   "skill": "friends5",
+   "chapter": "3-chorak. Kichik do‘stlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "types": [
+      "pair",
+      "how",
+      "calc"
+     ],
+     "plus": true,
+     "options": 3
+    },
+    {
+     "types": [
+      "how",
+      "calc"
+     ],
+     "plus": true
+    },
+    {
+     "types": [
+      "calc",
+      "chain"
+     ],
+     "plus": true,
+     "n": 3,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Kichik do‘stlar — yig‘indisi 5 bo‘lgan juftlar: 1 va 4, 2 va 3.\nPastda munchoq yetmasa, 5 dan foydalanamiz:\n• +4 = +5 − 1   • +3 = +5 − 2   • +2 = +5 − 3   • +1 = +5 − 4\nMisol: 3 + 4 — yuqori munchoqni tushiramiz (+5) va 1 ta pastki munchoqni olamiz (−1) = 7."
+   }
+  },
+  {
+   "id": "mental_g1.friends5_sub",
+   "code": "6",
+   "emoji": "🖐️",
+   "title": {
+    "uz": "Kichik do‘stlar: ayirish",
+    "en": "Little friends: subtracting",
+    "ru": "Маленькие друзья: вычитание"
+   },
+   "generator": "friends5",
+   "skill": "friends5",
+   "chapter": "3-chorak. Kichik do‘stlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "types": [
+      "how",
+      "calc"
+     ],
+     "options": 3
+    },
+    {
+     "types": [
+      "how",
+      "calc",
+      "chain"
+     ],
+     "n": 3
+    },
+    {
+     "types": [
+      "calc",
+      "chain"
+     ],
+     "n": 4,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Kichik do‘st bilan ayirish: pastda kerakli munchoqlar bo‘lmasa, 5 ni olib, ortiqchasini qaytaramiz.\n• −4 = −5 + 1   • −3 = −5 + 2   • −2 = −5 + 3   • −1 = −5 + 4\nMisol: 6 − 3 — yuqori munchoqni ko‘taramiz (−5) va 2 ta pastki munchoqni qo‘shamiz (+2) = 3."
+   }
+  },
+  {
+   "id": "mental_g1.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kichik do‘stlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g1.abacus2",
+   "code": "7",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ikki xonali son abakusda",
+    "en": "Two-digit numbers",
+    "ru": "Двузначные числа"
+   },
+   "generator": "abacus_read",
+   "skill": "abacus_read",
+   "chapter": "4-chorak. Tez ko‘rish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rods": 2,
+     "options": 3
+    },
+    {
+     "rods": 2,
+     "options": 4
+    },
+    {
+     "rods": 2,
+     "options": 4,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘p xonali son: har bir ustun — bitta xona. O‘ngdagi ustun — birlar, chapdagisi — o‘nliklar, undan keyin — yuzliklar.\nTo‘sindagi nuqta birlar ustunini ko‘rsatadi.\nMisol: o‘nliklarda 3, birlarda 7 — bu 37."
+   }
+  },
+  {
+   "id": "mental_g1.flash5",
+   "code": "8",
+   "emoji": "⚡",
+   "title": {
+    "uz": "Flesh-anzan: kichik do‘stlar",
+    "en": "Flash cards: little friends",
+    "ru": "Флеш-анзан: маленькие друзья"
+   },
+   "generator": "flash",
+   "skill": "flash",
+   "chapter": "4-chorak. Tez ko‘rish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "n": 3,
+     "rule": "five",
+     "ms": 1800
+    },
+    {
+     "n": 3,
+     "rule": "five",
+     "ms": 1500
+    },
+    {
+     "n": 4,
+     "rule": "five",
+     "ms": 1300
+    }
+   ],
+   "theory": {
+    "uz": "Flesh-anzan — sonlar ekranda birin-ketin tez ko‘rinadi. Har bir sonni ko‘z oldingizdagi abakusga qo‘shib boring.\n• “Boshlash” tugmasini bosing va diqqat bilan kuzating.\n• Oxirida natijani yozing.\nXato qilsangiz, sonlarni yana bir bor ko‘rish mumkin."
+   }
+  },
+  {
+   "id": "mental_g1.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tez ko‘rish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mental_g1.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tez ko‘rish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set",
+      "mental_g1.simple",
+      "mental_g1.flash_simple",
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub",
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set",
+      "mental_g1.simple",
+      "mental_g1.flash_simple",
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub",
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "mental_g1.abacus",
+      "mental_g1.set",
+      "mental_g1.simple",
+      "mental_g1.flash_simple",
+      "mental_g1.friends5",
+      "mental_g1.friends5_sub",
+      "mental_g1.abacus2",
+      "mental_g1.flash5"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

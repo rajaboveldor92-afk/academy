@@ -215,6 +215,8 @@ class Tr {
 
   // ------------------------------------------------------------ Maktab darsi
   String get check => p('Tekshirish', 'Check', 'Проверить');
+  String get flashStart => p('Boshlash', 'Start', 'Начать');
+  String get flashReplay => p('Yana bir bor', 'Show again', 'Ещё раз');
   String correctAnswerIs(String a) => p('To‘g‘ri javob: $a', 'Correct answer: $a', 'Правильный ответ: $a');
   String get theory => p('Qisqacha qoida', 'Quick rule', 'Коротко о главном');
   String get startPractice => p('Mashqni boshlash', 'Start practice', 'Начать упражнения');

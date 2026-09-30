@@ -216,6 +216,16 @@ enum Subject {
     phase: 6,
     preschool: false,
     grades: [7, 8],
+  ),
+  mental(
+    id: 'mental',
+    title: 'Mental arifmetika',
+    emoji: '🧮',
+    spokenName: 'Mental arifmetika',
+    color: Color(0xFFFF7043),
+    phase: 6,
+    preschool: false,
+    grades: [1, 2, 3, 4, 5, 6, 7, 8],
   );
 
   const Subject({
@@ -316,6 +326,7 @@ enum Subject {
     'biology': ('Biology', 'Биология'),
     'physics': ('Physics', 'Физика'),
     'chemistry': ('Chemistry', 'Химия'),
+    'mental': ('Mental arithmetic', 'Ментальная арифметика'),
   };
 
   static Subject? fromId(String id) {

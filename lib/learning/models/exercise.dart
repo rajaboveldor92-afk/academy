@@ -338,7 +338,15 @@ class ActivityTask {
 
 /// Javobni yozish: ekrandagi klaviatura bilan son, kasr (`3/4`) yoki o'nli kasr (`2,5`).
 class InputTask {
-  const InputTask({required this.answer, this.accept = const [], this.keys = 'digits', this.unit = ''});
+  const InputTask({
+    required this.answer,
+    this.accept = const [],
+    this.keys = 'digits',
+    this.unit = '',
+    this.flash = const [],
+    this.flashMs = 1500,
+    this.rods = 0,
+  });
 
   /// To'g'ri javob (ekranda ko'rsatiladigan ko'rinishi).
   final String answer;
@@ -346,8 +354,20 @@ class InputTask {
   /// Qabul qilinadigan boshqa yozuvlar (masalan `0,5` va `,5`).
   final List<String> accept;
 
-  /// Klaviatura: `digits`, `fraction` (+ `/`), `decimal` (+ `,`), `signed` (+ `−`).
+  /// Klaviatura: `digits`, `fraction` (+ `/`), `decimal` (+ `,`), `signed` (+ `−`);
+  /// `abacus` — klaviatura o'rniga abakus (soroban): bola munchoqlarni surib sonni qo'yadi.
   final String keys;
+
+  /// Flesh-anzan: sonlar ekranda birin-ketin ko'rsatiladi (`7`, `+5`, `−3`), keyin javob yoziladi.
+  final List<String> flash;
+
+  /// Har bir son ekranda necha millisekund turadi.
+  final int flashMs;
+
+  /// Abakus ustunlari soni (`keys == 'abacus'`).
+  final int rods;
+
+  bool get isAbacus => keys == 'abacus';
 
   /// Javob yonidagi birlik (`sm`, `kg`, `so‘m`) — faqat ko'rsatish uchun.
   final String unit;
@@ -362,7 +382,7 @@ class InputTask {
     return accept.any((a) => normalize(a) == v);
   }
 
-  String describe() => 'input:$answer';
+  String describe() => 'input:$answer${flash.isEmpty ? '' : ':flash:${flash.join(',')}@$flashMs'}${isAbacus ? ':abacus$rods' : ''}';
 }
 
 /// Shaxmat topshirig'i. Katak raqami: `qator * size + ustun` (0-qator — yuqorida).
