@@ -1,0 +1,546 @@
+{
+ "subject": "math",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g7.powers",
+   "code": "1",
+   "emoji": "🚀",
+   "title": {
+    "uz": "Natural ko‘rsatkichli daraja",
+    "en": "Powers",
+    "ru": "Степени"
+   },
+   "generator": "powers",
+   "skill": "powers",
+   "chapter": "1-chorak. Darajalar va ifodalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "value",
+      "pow10"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "value",
+      "neg_base",
+      "mul_rule"
+     ]
+    },
+    {
+     "modes": [
+      "neg_base",
+      "mul_rule",
+      "div_rule"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "aⁿ — a sonini o‘ziga n marta ko‘paytirish: 2⁵ = 2 · 2 · 2 · 2 · 2 = 32.\nXossalar: aᵐ · aⁿ = aᵐ⁺ⁿ, aᵐ : aⁿ = aᵐ⁻ⁿ.\nManfiy son juft darajada musbat, toq darajada manfiy: (−2)³ = −8, (−2)⁴ = 16."
+   }
+  },
+  {
+   "id": "math_g7.expressions",
+   "code": "2",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Algebraik ifodalar",
+    "en": "Algebraic expressions",
+    "ru": "Алгебраические выражения"
+   },
+   "generator": "expr",
+   "skill": "expr",
+   "chapter": "1-chorak. Darajalar va ifodalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "eval"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "eval",
+      "like_terms"
+     ]
+    },
+    {
+     "modes": [
+      "eval",
+      "like_terms",
+      "expand"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Harfli ifodaning qiymati: harflar o‘rniga sonlar qo‘yiladi. a = −2 bo‘lsa, 3a + 1 = 3 · (−2) + 1 = −5.\nO‘xshash hadlar — harfiy qismi bir xil hadlar: 5x + 3x − 2x = 6x.\nQavsni ochish: 4(x − 3) = 4x − 12."
+   }
+  },
+  {
+   "id": "math_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Darajalar va ifodalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g7.equations",
+   "code": "3",
+   "emoji": "❓",
+   "title": {
+    "uz": "Chiziqli tenglamalar",
+    "en": "Linear equations",
+    "ru": "Линейные уравнения"
+   },
+   "generator": "linear_eq",
+   "skill": "linear_eq",
+   "chapter": "2-chorak. Tenglama va qisqa ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "one",
+      "paren"
+     ],
+     "neg": true
+    },
+    {
+     "modes": [
+      "paren",
+      "both"
+     ],
+     "neg": true
+    },
+    {
+     "modes": [
+      "both",
+      "paren"
+     ],
+     "neg": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "ax + b = c ko‘rinishidagi tenglama chiziqli tenglama deyiladi.\nYechish: 5x + 7 = 2x − 8 → 5x − 2x = −8 − 7 → 3x = −15 → x = −5.\nTekshirish: topilgan sonni tenglamaga qo‘ying."
+   }
+  },
+  {
+   "id": "math_g7.abridged",
+   "code": "4",
+   "emoji": "✨",
+   "title": {
+    "uz": "Qisqa ko‘paytirish formulalari",
+    "en": "Special products",
+    "ru": "Формулы сокращённого умножения"
+   },
+   "generator": "abridged",
+   "skill": "abridged",
+   "chapter": "2-chorak. Tenglama va qisqa ko‘paytirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "square_sum",
+      "factor"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "square_sum",
+      "factor",
+      "diff_num"
+     ]
+    },
+    {
+     "modes": [
+      "square_num",
+      "diff_num",
+      "square_sum"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "(a + b)² = a² + 2ab + b²,  (a − b)² = a² − 2ab + b²,  a² − b² = (a − b)(a + b).\nMisol: (x + 4)² = x² + 8x + 16;  51² − 49² = 2 · 100 = 200.\nFormulalar hisoblashni ancha tezlashtiradi."
+   }
+  },
+  {
+   "id": "math_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Tenglama va qisqa ko‘paytirish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g7.equations",
+      "math_g7.abridged"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g7.equations",
+      "math_g7.abridged"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g7.equations",
+      "math_g7.abridged"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g7.functions",
+   "code": "5",
+   "emoji": "📈",
+   "title": {
+    "uz": "Chiziqli funksiya",
+    "en": "Linear function",
+    "ru": "Линейная функция"
+   },
+   "generator": "linear_func",
+   "skill": "linear_func",
+   "chapter": "3-chorak. Funksiya va sistemalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "value",
+      "intercept"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "value",
+      "root",
+      "intercept"
+     ]
+    },
+    {
+     "modes": [
+      "root",
+      "slope",
+      "value"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "y = kx + b — chiziqli funksiya, grafigi to‘g‘ri chiziq.\n• k — burchak koeffitsiyenti, b — grafikning OY o‘qi bilan kesishish nuqtasi.\n• OX o‘qi bilan kesishish: y = 0 → kx + b = 0.\nMisol: y = 2x − 6 → x = 3 da y = 0."
+   }
+  },
+  {
+   "id": "math_g7.systems",
+   "code": "6",
+   "emoji": "🔗",
+   "title": {
+    "uz": "Tenglamalar sistemasi",
+    "en": "Systems of equations",
+    "ru": "Системы уравнений"
+   },
+   "generator": "system",
+   "skill": "system",
+   "chapter": "3-chorak. Funksiya va sistemalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "sumdiff",
+      "word"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "sumdiff",
+      "elim",
+      "word"
+     ]
+    },
+    {
+     "modes": [
+      "elim",
+      "word",
+      "sumdiff"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ikki noma’lumli ikki tenglama — sistema. Qo‘shish usuli: tenglamalarni qo‘shib yoki ayirib, bitta noma’lumni yo‘qotamiz.\nx + y = 10, x − y = 4 → 2x = 14 → x = 7, y = 3.\nTopilgan qiymatlarni ikkala tenglamaga qo‘yib tekshiring."
+   }
+  },
+  {
+   "id": "math_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Funksiya va sistemalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g7.functions",
+      "math_g7.systems"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g7.functions",
+      "math_g7.systems"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g7.functions",
+      "math_g7.systems"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g7.angles",
+   "code": "7",
+   "emoji": "📐",
+   "title": {
+    "uz": "Uchburchak va ko‘pburchak burchaklari",
+    "en": "Angles of polygons",
+    "ru": "Углы многоугольников"
+   },
+   "generator": "polygon_angles",
+   "skill": "polygon_angles",
+   "chapter": "4-chorak. Geometriya va statistika",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "triangle"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "triangle",
+      "sum"
+     ]
+    },
+    {
+     "modes": [
+      "triangle",
+      "sum",
+      "regular"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Uchburchak burchaklari yig‘indisi 180°.\nn burchakli qavariq ko‘pburchak ichki burchaklari yig‘indisi (n − 2) · 180°.\nMuntazam ko‘pburchakning hamma burchaklari teng: oltiburchakda (6 − 2) · 180° : 6 = 120°."
+   }
+  },
+  {
+   "id": "math_g7.statistics",
+   "code": "8",
+   "emoji": "📊",
+   "title": {
+    "uz": "Statistika",
+    "en": "Statistics",
+    "ru": "Статистика"
+   },
+   "generator": "stats",
+   "skill": "stats",
+   "chapter": "4-chorak. Geometriya va statistika",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "mean",
+      "range"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "mean",
+      "median",
+      "mode"
+     ]
+    },
+    {
+     "modes": [
+      "mean",
+      "median",
+      "mode",
+      "range"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘rta arifmetik — sonlar yig‘indisini ularning soniga bo‘lish.\nMediana — tartiblangan qatorning o‘rtasidagi son. Moda — eng ko‘p uchraydigan son.\nKenglik — eng katta va eng kichik son ayirmasi."
+   }
+  },
+  {
+   "id": "math_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Geometriya va statistika",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Geometriya va statistika",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions",
+      "math_g7.equations",
+      "math_g7.abridged",
+      "math_g7.functions",
+      "math_g7.systems",
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions",
+      "math_g7.equations",
+      "math_g7.abridged",
+      "math_g7.functions",
+      "math_g7.systems",
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "math_g7.powers",
+      "math_g7.expressions",
+      "math_g7.equations",
+      "math_g7.abridged",
+      "math_g7.functions",
+      "math_g7.systems",
+      "math_g7.angles",
+      "math_g7.statistics"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,555 @@
+{
+ "subject": "math",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g2.numbers100",
+   "code": "1",
+   "emoji": "💯",
+   "title": {
+    "uz": "100 ichida sonlar",
+    "en": "Numbers to 100",
+    "ru": "Числа до 100"
+   },
+   "generator": "place_value",
+   "skill": "place_value",
+   "chapter": "1-chorak. 100 ichida sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "place",
+      "expanded"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "place",
+      "expanded",
+      "write"
+     ]
+    },
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "expanded",
+      "write"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Har qanday ikki xonali son — o‘nliklar va birliklar yig‘indisi: 74 = 70 + 4.\n100 — bu 10 ta o‘nlik, birinchi uch xonali son.\nSonni so‘z bilan aytganda avval o‘nliklar, keyin birliklar aytiladi: 74 — yetmish to‘rt."
+   }
+  },
+  {
+   "id": "math_g2.compare",
+   "code": "2",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Taqqoslash",
+    "en": "Comparing",
+    "ru": "Сравнение"
+   },
+   "generator": "compare",
+   "skill": "compare",
+   "chapter": "1-chorak. 100 ichida sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10,
+     "max": 99
+    },
+    {
+     "min": 10,
+     "max": 99
+    },
+    {
+     "min": 10,
+     "max": 100
+    }
+   ],
+   "theory": {
+    "uz": "Avval o‘nliklarni, ular teng bo‘lsa — birliklarni solishtiring.\n• 81 > 79: 8 o‘nlik 7 o‘nlikdan ko‘p.\n• 45 < 49: o‘nliklar teng, 5 birlik 9 birlikdan kam."
+   }
+  },
+  {
+   "id": "math_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. 100 ichida sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g2.add",
+   "code": "3",
+   "emoji": "➕",
+   "title": {
+    "uz": "Ikki xonali sonlarni qo‘shish",
+    "en": "Adding two-digit numbers",
+    "ru": "Сложение двузначных чисел"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "2-chorak. 100 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10,
+     "max": 40,
+     "ops": [
+      "+"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 10,
+     "max": 50,
+     "ops": [
+      "+"
+     ]
+    },
+    {
+     "min": 15,
+     "max": 50,
+     "ops": [
+      "+"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘nliklarni o‘nliklarga, birliklarni birliklarga qo‘shamiz:\n34 + 25 = (30 + 20) + (4 + 5) = 50 + 9 = 59.\nBirliklar 10 dan oshsa, bitta o‘nlik hosil bo‘ladi: 38 + 45 = 70 + 13 = 83."
+   }
+  },
+  {
+   "id": "math_g2.sub",
+   "code": "4",
+   "emoji": "➖",
+   "title": {
+    "uz": "Ikki xonali sonlarni ayirish",
+    "en": "Subtracting two-digit numbers",
+    "ru": "Вычитание двузначных чисел"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "2-chorak. 100 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 20,
+     "max": 60,
+     "ops": [
+      "-"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 20,
+     "max": 99,
+     "ops": [
+      "-"
+     ]
+    },
+    {
+     "min": 30,
+     "max": 99,
+     "ops": [
+      "-"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘nliklardan o‘nliklarni, birliklardan birliklarni ayiramiz: 68 − 25 = 43.\nBirliklar yetmasa, bitta o‘nlikni 10 ta birlikka aylantiramiz: 52 − 17 = 35.\nTekshirish: 35 + 17 = 52."
+   }
+  },
+  {
+   "id": "math_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. 100 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g2.add",
+      "math_g2.sub"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g2.add",
+      "math_g2.sub"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g2.add",
+      "math_g2.sub"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g2.table",
+   "code": "5",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Ko‘paytirish jadvali (2–5)",
+    "en": "Times tables 2–5",
+    "ru": "Таблица умножения 2–5"
+   },
+   "generator": "mul_table",
+   "skill": "mul_table",
+   "chapter": "3-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 2,
+     "max": 3,
+     "division": false,
+     "mode": "choice"
+    },
+    {
+     "min": 2,
+     "max": 5,
+     "division": false
+    },
+    {
+     "min": 2,
+     "max": 5,
+     "division": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘paytirish — bir xil sonlarni qo‘shishning qisqa yozuvi: 3 · 4 = 3 + 3 + 3 + 3 = 12.\nKo‘paytuvchilar o‘rnini almashtirsa, natija o‘zgarmaydi: 3 · 4 = 4 · 3.\nBo‘lish — teng bo‘laklarga ajratish: 12 : 4 = 3, chunki 3 · 4 = 12."
+   }
+  },
+  {
+   "id": "math_g2.unknown",
+   "code": "6",
+   "emoji": "❓",
+   "title": {
+    "uz": "Noma’lum sonni topish",
+    "en": "Find the unknown",
+    "ru": "Найди неизвестное"
+   },
+   "generator": "equation",
+   "skill": "equation",
+   "chapter": "3-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 30,
+     "forms": [
+      "x+a",
+      "x-a"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 50,
+     "forms": [
+      "x+a",
+      "x-a",
+      "a-x"
+     ]
+    },
+    {
+     "max": 99,
+     "forms": [
+      "x+a",
+      "x-a",
+      "a-x"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Tenglama — noma’lum son qatnashgan tenglik.\n• x + 15 = 40 → x = 40 − 15 = 25.\n• 50 − x = 20 → x = 50 − 20 = 30.\nJavobni tenglamaga qo‘yib tekshiring."
+   }
+  },
+  {
+   "id": "math_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g2.table",
+      "math_g2.unknown"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g2.table",
+      "math_g2.unknown"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g2.table",
+      "math_g2.unknown"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g2.length",
+   "code": "7",
+   "emoji": "📏",
+   "title": {
+    "uz": "Uzunlik va vaqt birliklari",
+    "en": "Length and time units",
+    "ru": "Единицы длины и времени"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "4-chorak. Kattaliklar va masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "length"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 5,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "length",
+      "time"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 9
+    },
+    {
+     "kinds": [
+      "length",
+      "time"
+     ],
+     "modes": [
+      "simple",
+      "reverse"
+     ],
+     "max": 9,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Uzunlik birliklari: 1 dm = 10 sm, 1 m = 10 dm = 100 sm.\nVaqt birliklari: 1 soat = 60 minut, 1 sutka = 24 soat.\nKatta birlikdan kichigiga o‘tganda son ko‘payadi: 3 dm = 30 sm."
+   }
+  },
+  {
+   "id": "math_g2.problems",
+   "code": "8",
+   "emoji": "📖",
+   "title": {
+    "uz": "Masalalar",
+    "en": "Word problems",
+    "ru": "Задачи"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Kattaliklar va masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 50,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 99
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 99,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Masalani yechish tartibi:\n1) shartni o‘qing va nima ma’lumligini ayting;\n2) savolni toping — nima topilishi kerak;\n3) amalni tanlang: “jami” — qo‘shish, “qoldi” — ayirish;\n4) javobni yozing va tekshiring."
+   }
+  },
+  {
+   "id": "math_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kattaliklar va masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kattaliklar va masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare",
+      "math_g2.add",
+      "math_g2.sub",
+      "math_g2.table",
+      "math_g2.unknown",
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare",
+      "math_g2.add",
+      "math_g2.sub",
+      "math_g2.table",
+      "math_g2.unknown",
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "math_g2.numbers100",
+      "math_g2.compare",
+      "math_g2.add",
+      "math_g2.sub",
+      "math_g2.table",
+      "math_g2.unknown",
+      "math_g2.length",
+      "math_g2.problems"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

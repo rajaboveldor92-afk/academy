@@ -153,11 +153,24 @@ String schoolSpeech(String text) {
     };
     return '${m[1]} butun $place ${int.parse(frac)}';
   });
+  // "3x" → "3 x" (son va o'zgaruvchi alohida o'qiladi).
+  s = s.replaceAllMapped(RegExp(r'(\d)([a-z])(?![a-z‘’])'), (m) => '${m[1]} ${m[2]}');
   // O'lchov birliklari to'liq nomi bilan.
   s = s.replaceAllMapped(_unitPattern, (m) => _unitWords[m[1]]!);
+  // Daraja: "x²" → "x kvadrat", "2⁵" → "2 ning beshinchi darajasi".
+  s = s.replaceAllMapped(RegExp('[⁰¹²³⁴⁵⁶⁷⁸⁹]+'), (m) {
+    final n = int.parse(m[0]!.split('').map((c) => '⁰¹²³⁴⁵⁶⁷⁸⁹'.indexOf(c)).join());
+    return switch (n) { 2 => ' kvadrat ', 3 => ' kub ', _ => ' ning ${UzNumbers.ordinal(n)} darajasi ' };
+  });
   // "25% ini" → "yigirma besh foizini".
   s = s.replaceAllMapped(RegExp(r'% (i|ini|iga|idan)(?![\p{L}‘’])', unicode: true), (m) => ' foiz${m[1]}');
+  // Manfiy son: "−7" (minusdan keyin bo'sh joy yo'q) → "minus yetti"; ayirish belgisi doim bo'sh joy bilan yoziladi.
+  s = s.replaceAllMapped(RegExp(r'−(?=[\d\p{L}])', unicode: true), (_) => 'minus ');
   s = s
+      .replaceAll('√', ' kvadrat ildiz ')
+      .replaceAll('≤', ' kichik yoki teng ')
+      .replaceAll('≥', ' katta yoki teng ')
+      .replaceAll('π', ' pi ')
       .replaceAll('·', ' ko‘paytiruv ')
       .replaceAll('×', ' ko‘paytiruv ')
       .replaceAll(' : ', ' bo‘luv ')

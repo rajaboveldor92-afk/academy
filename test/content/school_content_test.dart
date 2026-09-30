@@ -166,6 +166,11 @@ void main() {
     expect(schoolSpeech('200 ning 25% ini toping'), 'ikki yuzning yigirma besh foizini toping');
     expect(schoolSpeech('Soatiga 5 km/soat'), contains('besh kilometr soatiga'));
     expect(schoolSpeech('17 // 5 = ?'), 'o‘n yetti butun bo‘luv besh teng ?');
+    expect(schoolSpeech('−7 + 12 − 3 = ?'), 'minus yetti qo‘shuv o‘n ikki ayiruv uch teng ?');
+    expect(schoolSpeech('x² − 9 = 0'), 'x kvadrat ayiruv to‘qqiz teng nol');
+    expect(schoolSpeech('√49 = ?'), 'kvadrat ildiz qirq to‘qqiz teng ?');
+    expect(schoolSpeech('3x − 5 ≤ 16'), 'uch x ayiruv besh kichik yoki teng o‘n olti');
+    expect(schoolSpeech('2⁵ = ?'), 'ikkining beshinchi darajasi teng ?');
     expect(schoolSpeech('17 % 5 = ?'), 'o‘n yetti qoldiqli bo‘luv besh teng ?');
 
     // Barcha maktab mashqlarida ovozda raqam qolmaydi (xatolar birdaniga ko'rsatiladi).

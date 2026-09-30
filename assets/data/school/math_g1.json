@@ -1,0 +1,535 @@
+{
+ "subject": "math",
+ "ageGroup": "g1",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g1.compare10",
+   "code": "1",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Sonlarni taqqoslash",
+    "en": "Comparing numbers",
+    "ru": "Сравнение чисел"
+   },
+   "generator": "compare",
+   "skill": "compare",
+   "chapter": "1-chorak. 10 ichida sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 9
+    },
+    {
+     "min": 1,
+     "max": 10
+    },
+    {
+     "min": 1,
+     "max": 10
+    }
+   ],
+   "theory": {
+    "uz": "Ikki sonni taqqoslaymiz: katta, kichik yoki teng.\n• 7 > 5 — yetti beshdan katta (“og‘iz” katta songa qaragan).\n• 3 < 8 — uch sakkizdan kichik.\n• 4 = 4 — sonlar teng. Sanoqda keyin keladigan son katta."
+   }
+  },
+  {
+   "id": "math_g1.add10",
+   "code": "2",
+   "emoji": "➕",
+   "title": {
+    "uz": "10 ichida qo‘shish va ayirish",
+    "en": "Adding and subtracting within 10",
+    "ru": "Сложение и вычитание в пределах 10"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "1-chorak. 10 ichida sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 1,
+     "max": 5,
+     "ops": [
+      "+"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 1,
+     "max": 5,
+     "ops": [
+      "+"
+     ]
+    },
+    {
+     "min": 2,
+     "max": 10,
+     "ops": [
+      "-"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Qo‘shish — narsalar ko‘payadi: 3 ta olmaga 2 ta qo‘shsak, 5 ta bo‘ladi: 3 + 2 = 5.\nAyirish — narsalar kamayadi: 5 ta olmadan 2 tasini yesak, 3 ta qoladi: 5 − 2 = 3.\nBarmoqlar yoki sanoq tayoqchalari bilan tekshirib ko‘ring."
+   }
+  },
+  {
+   "id": "math_g1.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. 10 ichida sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g1.add20",
+   "code": "3",
+   "emoji": "🔟",
+   "title": {
+    "uz": "O‘nlikdan o‘tib qo‘shish",
+    "en": "Adding across ten",
+    "ru": "Сложение с переходом через десяток"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "2-chorak. 20 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 3,
+     "max": 9,
+     "ops": [
+      "+"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 4,
+     "max": 10,
+     "ops": [
+      "+"
+     ]
+    },
+    {
+     "min": 5,
+     "max": 10,
+     "ops": [
+      "+"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘nlikdan o‘tib qo‘shish: avval 10 gacha to‘ldiramiz, keyin qolganini qo‘shamiz.\n8 + 5: 8 + 2 = 10, yana 3 qoldi → 10 + 3 = 13.\n10 ni tashkil qiluvchi juftlarni eslang: 1 va 9, 2 va 8, 3 va 7, 4 va 6, 5 va 5."
+   }
+  },
+  {
+   "id": "math_g1.sub20",
+   "code": "4",
+   "emoji": "➖",
+   "title": {
+    "uz": "20 ichida ayirish",
+    "en": "Subtracting within 20",
+    "ru": "Вычитание в пределах 20"
+   },
+   "generator": "add_sub",
+   "skill": "add_sub",
+   "chapter": "2-chorak. 20 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 6,
+     "max": 12,
+     "ops": [
+      "-"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 8,
+     "max": 18,
+     "ops": [
+      "-"
+     ]
+    },
+    {
+     "min": 10,
+     "max": 20,
+     "ops": [
+      "-"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘nlikdan o‘tib ayirish: avval 10 gacha ayiramiz, keyin qolganini.\n14 − 6: 14 − 4 = 10, yana 2 ni ayiramiz → 10 − 2 = 8.\nTekshirish: 8 + 6 = 14 — javob to‘g‘ri."
+   }
+  },
+  {
+   "id": "math_g1.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. 20 ichida qo‘shish va ayirish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g1.add20",
+      "math_g1.sub20"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g1.add20",
+      "math_g1.sub20"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g1.add20",
+      "math_g1.sub20"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g1.tens",
+   "code": "5",
+   "emoji": "🔢",
+   "title": {
+    "uz": "O‘nliklar va birliklar",
+    "en": "Tens and ones",
+    "ru": "Десятки и единицы"
+   },
+   "generator": "place_value",
+   "skill": "place_value",
+   "chapter": "3-chorak. Ikki xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "place"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "place",
+      "expanded"
+     ]
+    },
+    {
+     "min": 11,
+     "max": 99,
+     "modes": [
+      "expanded",
+      "write"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ikki xonali son o‘nliklar va birliklardan iborat.\n• 36 = 3 ta o‘nlik va 6 ta birlik = 30 + 6.\n• Chapdagi raqam — o‘nliklar, o‘ngdagisi — birliklar.\n“Qirq besh” deb aytilsa, 45 deb yoziladi."
+   }
+  },
+  {
+   "id": "math_g1.compare100",
+   "code": "6",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "100 gacha sonlarni taqqoslash",
+    "en": "Comparing numbers to 100",
+    "ru": "Сравнение чисел до 100"
+   },
+   "generator": "compare",
+   "skill": "compare",
+   "chapter": "3-chorak. Ikki xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10,
+     "max": 50
+    },
+    {
+     "min": 10,
+     "max": 99
+    },
+    {
+     "min": 10,
+     "max": 99
+    }
+   ],
+   "theory": {
+    "uz": "Ikki xonali sonlarni taqqoslashda avval o‘nliklarni solishtiramiz: 52 > 48, chunki 5 o‘nlik 4 o‘nlikdan ko‘p.\nO‘nliklar teng bo‘lsa, birliklarni solishtiramiz: 63 < 67."
+   }
+  },
+  {
+   "id": "math_g1.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ikki xonali sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g1.tens",
+      "math_g1.compare100"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g1.tens",
+      "math_g1.compare100"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g1.tens",
+      "math_g1.compare100"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g1.problems",
+   "code": "7",
+   "emoji": "📖",
+   "title": {
+    "uz": "Sodda masalalar",
+    "en": "Simple word problems",
+    "ru": "Простые задачи"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Masalalar va tenglamalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "sum"
+     ],
+     "max": 10,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 15
+    },
+    {
+     "kinds": [
+      "sum",
+      "diff"
+     ],
+     "max": 20,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Masalani o‘qing va savolini toping.\n• “Hammasi bo‘lib”, “jami” — qo‘shamiz.\n• “Qoldi”, “nechta kam” — ayiramiz.\nJavobni yozishdan oldin masalani qayta o‘qib, tekshirib ko‘ring."
+   }
+  },
+  {
+   "id": "math_g1.unknown",
+   "code": "8",
+   "emoji": "❓",
+   "title": {
+    "uz": "Noma’lum sonni topish",
+    "en": "Find the missing number",
+    "ru": "Найди неизвестное"
+   },
+   "generator": "equation",
+   "skill": "equation",
+   "chapter": "4-chorak. Masalalar va tenglamalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 10,
+     "forms": [
+      "x+a"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 15,
+     "forms": [
+      "x+a",
+      "x-a"
+     ]
+    },
+    {
+     "max": 20,
+     "forms": [
+      "x+a",
+      "x-a",
+      "a-x"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Noma’lum qo‘shiluvchini topish uchun yig‘indidan ma’lum qo‘shiluvchini ayiramiz:\nx + 3 = 8 → x = 8 − 3 = 5.\nNoma’lum kamayuvchini topish uchun ayirmaga ayriluvchini qo‘shamiz: x − 4 = 6 → x = 10."
+   }
+  },
+  {
+   "id": "math_g1.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar va tenglamalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g1.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar va tenglamalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10",
+      "math_g1.add20",
+      "math_g1.sub20",
+      "math_g1.tens",
+      "math_g1.compare100",
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10",
+      "math_g1.add20",
+      "math_g1.sub20",
+      "math_g1.tens",
+      "math_g1.compare100",
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g1.compare10",
+      "math_g1.add10",
+      "math_g1.add20",
+      "math_g1.sub20",
+      "math_g1.tens",
+      "math_g1.compare100",
+      "math_g1.problems",
+      "math_g1.unknown"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

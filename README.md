@@ -116,6 +116,14 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
   (VA, YOKI, EMAS), ehtimollik. Har bir jumboq generator bilan tuziladi va javobi yagonaligi tekshiriladi
   (`lib/learning/generators/school/logic_school.dart`, `test/content/logic_school_test.dart`); dastur —
   `tool/content/school/logic_curricula.py` (3 va 5-sinfdagi eski mavzu kalitlari saqlangan).
+* **Matematika, 1–8-sinf (1.6.0):** 1, 2, 4-sinf — mavjud generatorlar bilan (10/20/100 ichida hisob, o‘nliklar,
+  ko‘paytirish jadvali, ko‘p xonali sonlar, kasrlar, perimetr, masalalar). 6–8-sinf uchun yangi generatorlar
+  (`lib/learning/generators/school/math_upper.dart`): butun sonlar, EKUB/EKUK, o‘nli kasrlar, proporsiya, koordinatalar,
+  aylana (π ≈ 3,14), darajalar, algebraik ifodalar, chiziqli tenglama va funksiya, sistemalar, qisqa ko‘paytirish
+  formulalari, kvadrat ildiz, kvadrat tenglama va Viyet teoremasi, tengsizliklar, Pifagor teoremasi, yuzalar,
+  ko‘pburchak burchaklari, statistika. Dastur — `tool/content/school/math_grades.py`, tekshiruv —
+  `test/content/math_upper_test.dart` (har bir javob mustaqil hisoblanadi). Ovozda manfiy son (“−7” → “minus yetti”),
+  daraja (“x²”, “2⁵”), ildiz va tengsizlik belgilari so‘z bilan o‘qiladi.
 
 ## Ilova tillari
 

@@ -8,6 +8,7 @@ import '../logic_senior.dart';
 import 'bank_gen.dart';
 import 'logic_school.dart';
 import 'math_school.dart';
+import 'math_upper.dart';
 import 'mental_gen.dart';
 import 'school_practice.dart';
 
@@ -17,6 +18,7 @@ class SchoolGenerators {
 
   static Map<String, ExerciseGenerator> get all => {
         for (final e in MathSchool.generators.entries) 'school.math.${e.key}': e.value,
+        for (final e in MathUpper.generators.entries) 'school.math.${e.key}': e.value,
         for (final subject in ['english', 'russian'])
           for (final e in ForeignLanguage.generators.entries) 'school.$subject.${e.key}': e.value,
         for (final e in LogicSenior.generators.entries) 'school.logic.${e.key}': e.value,

@@ -1,0 +1,544 @@
+{
+ "subject": "math",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g8.roots",
+   "code": "1",
+   "emoji": "🔍",
+   "title": {
+    "uz": "Kvadrat ildiz",
+    "en": "Square roots",
+    "ru": "Квадратный корень"
+   },
+   "generator": "roots",
+   "skill": "roots",
+   "chapter": "1-chorak. Kvadrat ildiz",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "sqrt",
+      "estimate"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "sqrt",
+      "estimate",
+      "product"
+     ]
+    },
+    {
+     "modes": [
+      "simplify",
+      "product",
+      "estimate"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "√a — kvadrati a ga teng bo‘lgan manfiy bo‘lmagan son: √81 = 9.\nXossalar: √(a · b) = √a · √b;  √(k² · a) = k√a: √50 = 5√2.\n√50 — 7 va 8 orasida, chunki 49 < 50 < 64."
+   }
+  },
+  {
+   "id": "math_g8.quadratic",
+   "code": "2",
+   "emoji": "🎯",
+   "title": {
+    "uz": "Kvadrat tenglamalar",
+    "en": "Quadratic equations",
+    "ru": "Квадратные уравнения"
+   },
+   "generator": "quadratic",
+   "skill": "quadratic",
+   "chapter": "1-chorak. Kvadrat ildiz",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "incomplete"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "incomplete",
+      "roots"
+     ]
+    },
+    {
+     "modes": [
+      "roots",
+      "disc"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "ax² + bx + c = 0 — kvadrat tenglama. Diskriminant D = b² − 4ac.\nD > 0 — ikki ildiz, D = 0 — bitta ildiz, D < 0 — haqiqiy ildiz yo‘q.\nChala tenglamalar: x² − 25 = 0 → x = ±5;  x² − 7x = 0 → x = 0 yoki x = 7."
+   }
+  },
+  {
+   "id": "math_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Kvadrat ildiz",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g8.vieta",
+   "code": "3",
+   "emoji": "🔑",
+   "title": {
+    "uz": "Viyet teoremasi",
+    "en": "Vieta’s theorem",
+    "ru": "Теорема Виета"
+   },
+   "generator": "quadratic",
+   "skill": "quadratic",
+   "chapter": "2-chorak. Viyet teoremasi va tengsizliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "vieta_sum",
+      "vieta_prod"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "vieta_sum",
+      "vieta_prod",
+      "roots"
+     ]
+    },
+    {
+     "modes": [
+      "roots",
+      "vieta_sum",
+      "disc"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "x² + px + q = 0 keltirilgan tenglamada: x₁ + x₂ = −p, x₁ · x₂ = q.\nMisol: x² − 7x + 12 = 0 → yig‘indisi 7, ko‘paytmasi 12 → ildizlar 3 va 4.\nButun ildizlarni tanlash uchun ko‘paytmaning bo‘luvchilarini ko‘rib chiqing."
+   }
+  },
+  {
+   "id": "math_g8.inequalities",
+   "code": "4",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Chiziqli tengsizliklar",
+    "en": "Linear inequalities",
+    "ru": "Линейные неравенства"
+   },
+   "generator": "inequality",
+   "skill": "inequality",
+   "chapter": "2-chorak. Viyet teoremasi va tengsizliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "min_int",
+      "max_int"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "min_int",
+      "max_int",
+      "count"
+     ]
+    },
+    {
+     "modes": [
+      "count",
+      "min_int",
+      "max_int"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Tengsizlik tenglamadek yechiladi. Manfiy songa ko‘paytirish yoki bo‘lishda belgi teskarisiga o‘zgaradi.\n2x − 3 > 7 → 2x > 10 → x > 5; eng kichik butun yechim — 6.\n“≥”, “≤” belgilarida chegara ham yechimga kiradi."
+   }
+  },
+  {
+   "id": "math_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Viyet teoremasi va tengsizliklar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g8.vieta",
+      "math_g8.inequalities"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g8.vieta",
+      "math_g8.inequalities"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g8.vieta",
+      "math_g8.inequalities"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g8.pythagoras",
+   "code": "5",
+   "emoji": "📐",
+   "title": {
+    "uz": "Pifagor teoremasi",
+    "en": "Pythagorean theorem",
+    "ru": "Теорема Пифагора"
+   },
+   "generator": "pythagoras",
+   "skill": "pythagoras",
+   "chapter": "3-chorak. To‘rtburchaklar va Pifagor teoremasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "hyp"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "hyp",
+      "leg"
+     ]
+    },
+    {
+     "modes": [
+      "hyp",
+      "leg",
+      "check"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "To‘g‘ri burchakli uchburchakda gipotenuza kvadrati katetlar kvadratlari yig‘indisiga teng: c² = a² + b².\nMisol: katetlar 6 va 8 → c² = 36 + 64 = 100 → c = 10.\nMashhur uchliklar: 3, 4, 5;  5, 12, 13;  8, 15, 17."
+   }
+  },
+  {
+   "id": "math_g8.areas",
+   "code": "6",
+   "emoji": "🟦",
+   "title": {
+    "uz": "To‘rtburchaklar yuzasi",
+    "en": "Areas of quadrilaterals",
+    "ru": "Площади четырёхугольников"
+   },
+   "generator": "polygon_area",
+   "skill": "polygon_area",
+   "chapter": "3-chorak. To‘rtburchaklar va Pifagor teoremasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "parallelogram",
+      "rhombus"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "parallelogram",
+      "trapezoid",
+      "rhombus"
+     ]
+    },
+    {
+     "modes": [
+      "trapezoid",
+      "rhombus",
+      "parallelogram"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Parallelogramm: S = a · h. Romb: S = d₁ · d₂ : 2.\nTrapetsiya: S = (a + b) : 2 · h — asoslar yig‘indisining yarmi balandlikka ko‘paytiriladi.\nMisol: asoslari 7 va 5, balandligi 4 → S = 24."
+   }
+  },
+  {
+   "id": "math_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. To‘rtburchaklar va Pifagor teoremasi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g8.pythagoras",
+      "math_g8.areas"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g8.pythagoras",
+      "math_g8.areas"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g8.pythagoras",
+      "math_g8.areas"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g8.polygons",
+   "code": "7",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Ko‘pburchak burchaklari",
+    "en": "Polygon angles",
+    "ru": "Углы многоугольников"
+   },
+   "generator": "polygon_angles",
+   "skill": "polygon_angles",
+   "chapter": "4-chorak. Takrorlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "sum",
+      "regular"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "regular",
+      "exterior",
+      "sum"
+     ]
+    },
+    {
+     "modes": [
+      "regular",
+      "exterior",
+      "triangle"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ichki burchaklar yig‘indisi (n − 2) · 180°, tashqi burchaklar yig‘indisi har doim 360°.\nMuntazam n burchakli ko‘pburchakning tashqi burchagi 360° : n.\nMasalan, muntazam o‘nburchakda tashqi burchak 36°, ichki burchak 144°."
+   }
+  },
+  {
+   "id": "math_g8.review",
+   "code": "8",
+   "emoji": "🧠",
+   "title": {
+    "uz": "Algebra: takrorlash",
+    "en": "Algebra review",
+    "ru": "Алгебра: повторение"
+   },
+   "generator": "linear_func",
+   "skill": "linear_func",
+   "chapter": "4-chorak. Takrorlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "value",
+      "root"
+     ],
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "root",
+      "slope",
+      "intercept"
+     ]
+    },
+    {
+     "modes": [
+      "slope",
+      "root",
+      "value"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Chiziqli funksiya y = kx + b: k > 0 bo‘lsa funksiya o‘suvchi, k < 0 bo‘lsa kamayuvchi.\nIkki nuqtadan o‘tuvchi to‘g‘ri chiziq: k = (y₂ − y₁) : (x₂ − x₁).\nGrafik OY o‘qini (0; b) nuqtada kesib o‘tadi."
+   }
+  },
+  {
+   "id": "math_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Takrorlash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Takrorlash",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic",
+      "math_g8.vieta",
+      "math_g8.inequalities",
+      "math_g8.pythagoras",
+      "math_g8.areas",
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic",
+      "math_g8.vieta",
+      "math_g8.inequalities",
+      "math_g8.pythagoras",
+      "math_g8.areas",
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "math_g8.roots",
+      "math_g8.quadratic",
+      "math_g8.vieta",
+      "math_g8.inequalities",
+      "math_g8.pythagoras",
+      "math_g8.areas",
+      "math_g8.polygons",
+      "math_g8.review"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

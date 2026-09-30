@@ -1,0 +1,712 @@
+{
+ "subject": "math",
+ "ageGroup": "g4",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Matematika",
+  "en": "Maths",
+  "ru": "Математика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "math_g4.multi",
+   "code": "1",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Ko‘p xonali sonlar",
+    "en": "Multi-digit numbers",
+    "ru": "Многозначные числа"
+   },
+   "generator": "place_value",
+   "skill": "place_value",
+   "chapter": "1-chorak. Ko‘p xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "min": 10000,
+     "max": 999999,
+     "modes": [
+      "place",
+      "expanded"
+     ],
+     "mode": "choice"
+    },
+    {
+     "min": 10000,
+     "max": 999999,
+     "modes": [
+      "place",
+      "expanded",
+      "write",
+      "count"
+     ]
+    },
+    {
+     "min": 100000,
+     "max": 999999,
+     "modes": [
+      "write",
+      "expanded",
+      "count"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ko‘p xonali son sinflarga ajratiladi: birlar sinfi (birlar, o‘nlar, yuzlar) va minglar sinfi.\n345 207 — uch yuz qirq besh ming ikki yuz yetti.\nSinflar orasida bo‘sh joy qoldirib yoziladi, bo‘sh xonaga 0 qo‘yiladi."
+   }
+  },
+  {
+   "id": "math_g4.round",
+   "code": "2",
+   "emoji": "🎯",
+   "title": {
+    "uz": "Yaxlitlash",
+    "en": "Rounding",
+    "ru": "Округление"
+   },
+   "generator": "round",
+   "skill": "round",
+   "chapter": "1-chorak. Ko‘p xonali sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 9999,
+     "places": [
+      "10",
+      "100"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 99999,
+     "places": [
+      "10",
+      "100",
+      "1000"
+     ]
+    },
+    {
+     "max": 999999,
+     "places": [
+      "100",
+      "1000"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Yaxlitlashda keyingi xonadagi raqamga qaraymiz:\n• 0, 1, 2, 3, 4 bo‘lsa — raqam o‘zgarmaydi: 4 328 ≈ 4 300.\n• 5, 6, 7, 8, 9 bo‘lsa — 1 qo‘shiladi: 4 378 ≈ 4 400.\nKeyingi xonalar nolga aylanadi."
+   }
+  },
+  {
+   "id": "math_g4.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Ko‘p xonali sonlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g4.mul",
+   "code": "3",
+   "emoji": "✖️",
+   "title": {
+    "uz": "Ko‘p xonali sonni ko‘paytirish",
+    "en": "Long multiplication",
+    "ru": "Умножение многозначных чисел"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "aMin": 100,
+     "aMax": 999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "mul"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 100,
+     "aMax": 9999,
+     "bMin": 11,
+     "bMax": 30,
+     "modes": [
+      "mul"
+     ]
+    },
+    {
+     "aMin": 100,
+     "aMax": 9999,
+     "bMin": 11,
+     "bMax": 99,
+     "modes": [
+      "mul"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Ikki xonali songa ko‘paytirish: 234 · 26 = 234 · 20 + 234 · 6 = 4 680 + 1 404 = 6 084.\nUstun usulida: avval birlarga, keyin o‘nlarga ko‘paytiring va natijalarni qo‘shing."
+   }
+  },
+  {
+   "id": "math_g4.div",
+   "code": "4",
+   "emoji": "➗",
+   "title": {
+    "uz": "Bo‘lish va qoldiq",
+    "en": "Division with remainder",
+    "ru": "Деление с остатком"
+   },
+   "generator": "mul_div",
+   "skill": "mul_div",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "aMin": 100,
+     "aMax": 999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "div"
+     ],
+     "mode": "choice"
+    },
+    {
+     "aMin": 1000,
+     "aMax": 9999,
+     "bMin": 2,
+     "bMax": 9,
+     "modes": [
+      "div",
+      "remainder"
+     ]
+    },
+    {
+     "aMin": 1000,
+     "aMax": 99999,
+     "bMin": 11,
+     "bMax": 50,
+     "modes": [
+      "div",
+      "remainder"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Burchak usulida bo‘lish: bo‘linuvchining boshidan bo‘luvchiga yetadigan qismini ajratamiz.\nQoldiq har doim bo‘luvchidan kichik: 47 : 5 = 9 (qoldiq 2), chunki 9 · 5 + 2 = 47."
+   }
+  },
+  {
+   "id": "math_g4.order",
+   "code": "5",
+   "emoji": "🧮",
+   "title": {
+    "uz": "Amallar tartibi",
+    "en": "Order of operations",
+    "ru": "Порядок действий"
+   },
+   "generator": "order_ops",
+   "skill": "order_ops",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 20,
+     "parens": false,
+     "mode": "choice"
+    },
+    {
+     "max": 50,
+     "parens": true
+    },
+    {
+     "max": 99,
+     "parens": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Amallar tartibi:\n1) qavs ichidagi amallar;\n2) ko‘paytirish va bo‘lish (chapdan o‘ngga);\n3) qo‘shish va ayirish (chapdan o‘ngga).\nMisol: 20 − 3 · 4 = 20 − 12 = 8."
+   }
+  },
+  {
+   "id": "math_g4.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ko‘paytirish va bo‘lish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g4.fractions",
+   "code": "6",
+   "emoji": "🍕",
+   "title": {
+    "uz": "Kasrlar",
+    "en": "Fractions",
+    "ru": "Дроби"
+   },
+   "generator": "fraction_ops",
+   "skill": "fraction_ops",
+   "chapter": "3-chorak. Kasrlar va kattaliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "compare"
+     ],
+     "maxDen": 10,
+     "mode": "choice"
+    },
+    {
+     "modes": [
+      "compare",
+      "add",
+      "sub"
+     ],
+     "maxDen": 12
+    },
+    {
+     "modes": [
+      "add",
+      "sub"
+     ],
+     "maxDen": 12,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Kasr — butunning teng bo‘laklari: 3/8 — butun 8 bo‘lakka bo‘lingan, 3 tasi olingan.\nMaxrajlari bir xil kasrlarni qo‘shishda suratlar qo‘shiladi: 2/7 + 3/7 = 5/7.\nMaxrajlari bir xil bo‘lsa, surati katta kasr katta."
+   }
+  },
+  {
+   "id": "math_g4.frac_part",
+   "code": "7",
+   "emoji": "🥧",
+   "title": {
+    "uz": "Sonning qismini topish",
+    "en": "Fraction of a number",
+    "ru": "Часть числа"
+   },
+   "generator": "fraction_part",
+   "skill": "fraction_part",
+   "chapter": "3-chorak. Kasrlar va kattaliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "dens": [
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "max": 10,
+     "mode": "choice"
+    },
+    {
+     "max": 15
+    },
+    {
+     "max": 20,
+     "inverse": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Sonning qismini topish: songa maxrajga bo‘lib, suratga ko‘paytiramiz.\n24 ning 3/4 qismi: 24 : 4 = 6, 6 · 3 = 18.\nQismiga ko‘ra sonni topish: qismni suratga bo‘lib, maxrajga ko‘paytiramiz."
+   }
+  },
+  {
+   "id": "math_g4.units",
+   "code": "8",
+   "emoji": "⚖️",
+   "title": {
+    "uz": "Kattaliklar",
+    "en": "Quantities",
+    "ru": "Величины"
+   },
+   "generator": "units",
+   "skill": "units",
+   "chapter": "3-chorak. Kasrlar va kattaliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "length",
+      "mass"
+     ],
+     "modes": [
+      "simple"
+     ],
+     "max": 20,
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "length",
+      "mass",
+      "time",
+      "area"
+     ],
+     "modes": [
+      "simple",
+      "compound"
+     ],
+     "max": 20
+    },
+    {
+     "kinds": [
+      "length",
+      "mass",
+      "time",
+      "area"
+     ],
+     "modes": [
+      "simple",
+      "compound",
+      "reverse"
+     ],
+     "max": 50,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Asosiy birliklar: 1 km = 1 000 m, 1 m = 100 sm, 1 t = 1 000 kg, 1 kg = 1 000 g, 1 soat = 60 minut, 1 m² = 100 dm².\nKatta birlikdan kichigiga o‘tishda ko‘paytiramiz, kichigidan kattasiga o‘tishda bo‘lamiz."
+   }
+  },
+  {
+   "id": "math_g4.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kasrlar va kattaliklar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g4.perimeter",
+   "code": "9",
+   "emoji": "📐",
+   "title": {
+    "uz": "Perimetr va yuza",
+    "en": "Perimeter and area",
+    "ru": "Периметр и площадь"
+   },
+   "generator": "perimeter_area",
+   "skill": "perimeter_area",
+   "chapter": "4-chorak. Geometriya va masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 15,
+     "modes": [
+      "perimeter",
+      "area"
+     ],
+     "mode": "choice"
+    },
+    {
+     "max": 25,
+     "modes": [
+      "perimeter",
+      "area",
+      "square"
+     ]
+    },
+    {
+     "max": 30,
+     "modes": [
+      "perimeter",
+      "area",
+      "square",
+      "inverse"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "To‘g‘ri to‘rtburchak perimetri P = (a + b) · 2, yuzi S = a · b.\nKvadrat: P = a · 4, S = a · a.\nMisol: tomonlari 6 sm va 4 sm → P = 20 sm, S = 24 sm²."
+   }
+  },
+  {
+   "id": "math_g4.motion",
+   "code": "10",
+   "emoji": "🚗",
+   "title": {
+    "uz": "Harakatga doir masalalar",
+    "en": "Motion problems",
+    "ru": "Задачи на движение"
+   },
+   "generator": "word_problem",
+   "skill": "word_problem",
+   "chapter": "4-chorak. Geometriya va masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "speed"
+     ],
+     "mode": "choice"
+    },
+    {
+     "kinds": [
+      "speed",
+      "price"
+     ]
+    },
+    {
+     "kinds": [
+      "speed",
+      "work",
+      "price"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Masofa = tezlik · vaqt: S = v · t.\nTezlik = masofa : vaqt; vaqt = masofa : tezlik.\nMisol: avtomobil soatiga 60 km tezlik bilan 3 soat yursa, 180 km yo‘l bosadi."
+   }
+  },
+  {
+   "id": "math_g4.equation",
+   "code": "11",
+   "emoji": "❓",
+   "title": {
+    "uz": "Tenglamalar",
+    "en": "Equations",
+    "ru": "Уравнения"
+   },
+   "generator": "equation",
+   "skill": "equation",
+   "chapter": "4-chorak. Geometriya va masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "max": 200,
+     "mode": "choice"
+    },
+    {
+     "max": 500
+    },
+    {
+     "max": 1000,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Noma’lum ko‘paytuvchi = ko‘paytma : ma’lum ko‘paytuvchi: x · 7 = 63 → x = 9.\nNoma’lum bo‘linuvchi = bo‘linma · bo‘luvchi: x : 4 = 25 → x = 100.\nNoma’lum bo‘luvchi = bo‘linuvchi : bo‘linma: 72 : x = 8 → x = 9."
+   }
+  },
+  {
+   "id": "math_g4.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Geometriya va masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "math_g4.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Geometriya va masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round",
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order",
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units",
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round",
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order",
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units",
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "math_g4.multi",
+      "math_g4.round",
+      "math_g4.mul",
+      "math_g4.div",
+      "math_g4.order",
+      "math_g4.fractions",
+      "math_g4.frac_part",
+      "math_g4.units",
+      "math_g4.perimeter",
+      "math_g4.motion",
+      "math_g4.equation"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
