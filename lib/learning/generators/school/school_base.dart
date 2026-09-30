@@ -123,6 +123,8 @@ extension SchoolGen on GenContext {
 /// "·" → "ko‘paytiruv", " : " → "bo‘luv", "sm²" → "kvadrat santimetr", "%" → "foiz", "°" → "gradus".
 String schoolSpeech(String text) {
   var s = text;
+  // Dasturlash (Python): "17 // 5" → butun bo'luv, "17 % 5" → qoldiqli bo'luv.
+  s = s.replaceAll(' // ', ' butun bo‘luv ').replaceAll(RegExp(r'(?<=[\w)]) % (?=[\w(])'), ' qoldiqli bo‘luv ');
   // Xonalarga ajratilgan son bitta son bo'lib o'qiladi.
   s = s.replaceAll(RegExp(r'(?<=\d) (?=\d{3}(?!\d))'), '');
   // Soat: "8:00 da" → "soat sakkizda", "8:05 da" → "soat sakkizdan besh minut o‘tganda".

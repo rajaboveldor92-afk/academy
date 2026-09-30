@@ -22,7 +22,7 @@ class NumberWords {
     '', '', 'двадцать', 'тридцать', 'сорок', 'пятьдесят', 'шестьдесят', 'семьдесят', 'восемьдесят', 'девяносто',
   ];
 
-  /// 0..100 (o'zbekcha — 0..1000).
+  /// 0..999 999 (o'zbekcha — milliardgacha).
   static String word(int n, String lang) {
     switch (lang) {
       case 'en':
@@ -41,9 +41,20 @@ class NumberWords {
       final o = n % 10;
       return o == 0 ? _enTens[n ~/ 10] : '${_enTens[n ~/ 10]}-${_enOnes[o]}';
     }
-    if (n == 100) return 'one hundred';
+    if (n < 1000) {
+      final r = n % 100;
+      return '${_enOnes[n ~/ 100]} hundred${r == 0 ? '' : ' and ${_en(r)}'}';
+    }
+    if (n < 1000000) {
+      final r = n % 1000;
+      return '${_en(n ~/ 1000)} thousand${r == 0 ? '' : r < 100 ? ' and ${_en(r)}' : ' ${_en(r)}'}';
+    }
     return '$n';
   }
+
+  static const List<String> _ruHundreds = [
+    '', 'сто', 'двести', 'триста', 'четыреста', 'пятьсот', 'шестьсот', 'семьсот', 'восемьсот', 'девятьсот',
+  ];
 
   static String _ru(int n) {
     if (n < 0) return 'минус ${_ru(-n)}';
@@ -52,7 +63,23 @@ class NumberWords {
       final o = n % 10;
       return o == 0 ? _ruTens[n ~/ 10] : '${_ruTens[n ~/ 10]} ${_ruOnes[o]}';
     }
-    if (n == 100) return 'сто';
+    if (n < 1000) {
+      final r = n % 100;
+      return r == 0 ? _ruHundreds[n ~/ 100] : '${_ruHundreds[n ~/ 100]} ${_ru(r)}';
+    }
+    if (n < 1000000) {
+      final k = n ~/ 1000, r = n % 1000;
+      // "тысяча" — ayol jinsi: одна тысяча, две тысячи, пять тысяч.
+      final words = _ru(k).replaceAll(RegExp(r'один$'), 'одна').replaceAll(RegExp(r'два$'), 'две');
+      final form = (k % 100 >= 11 && k % 100 <= 14)
+          ? 'тысяч'
+          : switch (k % 10) {
+              1 => 'тысяча',
+              2 || 3 || 4 => 'тысячи',
+              _ => 'тысяч',
+            };
+      return '$words $form${r == 0 ? '' : ' ${_ru(r)}'}';
+    }
     return '$n';
   }
 

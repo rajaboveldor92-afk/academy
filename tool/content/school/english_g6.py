@@ -511,7 +511,7 @@ T.topic("comparatives", "📏", L("Taqqoslash: -er, the most, as … as", "Compa
                 x="taller — o‘zi qiyosiy daraja, more qo‘shilmaydi: She is taller than me."),
             EN("Ma’nosi mos gapni tanlang: Ali is 150 cm tall. Vali is 150 cm tall.", "Ali is as tall as Vali.",
                ["Ali is taller than Vali.", "Ali isn't as tall as Vali.", "Vali is the tallest."],
-               say="Ali is 150 centimetres tall. Vali is 150 centimetres tall.",
+               say="Ali is one hundred and fifty centimetres tall. Vali is one hundred and fifty centimetres tall.",
                x="Bo‘ylari teng — as tall as."),
             SENT("Winter is colder than autumn", x="Winter is colder than autumn. — Qish kuzdan sovuqroq."),
             GAP("The Pacific is the ... ocean on Earth.", "largest", ["larger", "most large", "large"], d=2,

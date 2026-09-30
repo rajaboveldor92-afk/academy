@@ -165,6 +165,8 @@ void main() {
     expect(schoolSpeech('Yuzi necha sm²?'), 'Yuzi necha kvadrat santimetr?');
     expect(schoolSpeech('200 ning 25% ini toping'), 'ikki yuzning yigirma besh foizini toping');
     expect(schoolSpeech('Soatiga 5 km/soat'), contains('besh kilometr soatiga'));
+    expect(schoolSpeech('17 // 5 = ?'), 'o‘n yetti butun bo‘luv besh teng ?');
+    expect(schoolSpeech('17 % 5 = ?'), 'o‘n yetti qoldiqli bo‘luv besh teng ?');
 
     // Barcha maktab mashqlarida ovozda raqam qolmaydi (xatolar birdaniga ko'rsatiladi).
     final bad = <String>{};

@@ -113,6 +113,13 @@ void main() {
     expect(NumberWords.word(14, 'ru'), 'четырнадцать');
     expect(NumberWords.word(20, 'ru'), 'двадцать');
     expect(NumberWords.spellDigits('Find 3', 'en'), 'Find three');
+    expect(NumberWords.word(150, 'en'), 'one hundred and fifty');
+    expect(NumberWords.word(2026, 'en'), 'two thousand and twenty-six');
+    expect(NumberWords.word(300000, 'en'), 'three hundred thousand');
+    expect(NumberWords.word(245, 'ru'), 'двести сорок пять');
+    expect(NumberWords.word(2021, 'ru'), 'две тысячи двадцать один');
+    expect(NumberWords.word(1000, 'ru'), 'одна тысяча');
+    expect(NumberWords.word(11500, 'ru'), 'одиннадцать тысяч пятьсот');
   });
 
   test('harakatlar, sifatlar, iboralar: uch tilda to‘liq', () {
