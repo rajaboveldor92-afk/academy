@@ -19,7 +19,7 @@ enum Subject {
     title: 'Mantiq',
     emoji: '🧩',
     spokenName: 'Mantiq',
-    grades: [3, 5],
+    grades: [1, 2, 3, 4, 5, 6, 7, 8],
     color: Color(0xFF9B6BFF),
     phase: 2,
   ),

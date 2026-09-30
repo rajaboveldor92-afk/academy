@@ -1,0 +1,511 @@
+{
+ "subject": "logic",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "logic_g8.logic_ops",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Mantiqiy amallar: VA, YOKI, EMAS",
+    "en": "Logical operations",
+    "ru": "Логические операции"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Mantiq algebrasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mulohazalarni bog‘lovchi mantiqiy amallar:\n• VA — ikkala mulohaza rost bo‘lsagina rost;\n• YOKI — kamida bittasi rost bo‘lsa rost;\n• EMAS — rostni yolg‘onga, yolg‘onni rostga aylantiradi.\nMisol: “2 juft VA 3 toq” — rost; “2 toq YOKI 3 juft” — yolg‘on."
+   }
+  },
+  {
+   "id": "logic_g8.knights",
+   "code": "2",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Rostgo‘ylar oroli",
+    "en": "Island of knights",
+    "ru": "Остров рыцарей"
+   },
+   "generator": "knights",
+   "skill": "knights",
+   "chapter": "1-chorak. Mantiq algebrasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "people": 3
+    },
+    {
+     "people": 3
+    },
+    {
+     "people": 3
+    }
+   ],
+   "theory": {
+    "uz": "Rostgo‘ylar har doim rost, yolg‘onchilar har doim yolg‘on gapiradi.\nUsul: birinchi odamni rostgo‘y deb faraz qiling va uning gapidan kelib chiqib, qolganlarini tekshiring.\nQarama-qarshilik chiqsa — faraz noto‘g‘ri, u yolg‘onchi.\nMisol: A: «Ikkalamiz ham yolg‘onchimiz». Rostgo‘y bunday demaydi → A yolg‘onchi, demak B rostgo‘y."
+   }
+  },
+  {
+   "id": "logic_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Mantiq algebrasi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g8.combin",
+   "code": "3",
+   "emoji": "🔀",
+   "title": {
+    "uz": "Kombinatorika",
+    "en": "Combinatorics",
+    "ru": "Комбинаторика"
+   },
+   "generator": "combin",
+   "skill": "combin",
+   "chapter": "2-chorak. Kombinatorika va ehtimollik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "paths",
+      "queue",
+      "choose2"
+     ]
+    },
+    {
+     "kinds": [
+      "paths",
+      "digits",
+      "tournament"
+     ],
+     "repeat": true,
+     "twice": true
+    },
+    {
+     "kinds": [
+      "paths",
+      "queue",
+      "digits",
+      "choose2"
+     ],
+     "repeat": true
+    }
+   ],
+   "theory": {
+    "uz": "Kombinatorika — variantlarni sanash.\n• Ko‘paytirish qoidasi: 3 ta ko‘ylak va 4 ta shim → 3 × 4 = 12 xil kiyinish.\n• Qo‘l berishish: har kim qolganlar bilan bir marta — n × (n − 1) : 2.\nVariantlarni tartib bilan yozib chiqsangiz, birortasi ham tushib qolmaydi."
+   }
+  },
+  {
+   "id": "logic_g8.chance",
+   "code": "4",
+   "emoji": "🎲",
+   "title": {
+    "uz": "Ehtimollik",
+    "en": "Probability",
+    "ru": "Вероятность"
+   },
+   "generator": "combin",
+   "skill": "combin",
+   "chapter": "2-chorak. Kombinatorika va ehtimollik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "chance"
+     ]
+    },
+    {
+     "kinds": [
+      "chance"
+     ]
+    },
+    {
+     "kinds": [
+      "chance"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Ehtimollik = qulay holatlar soni : barcha holatlar soni.\nMisol: o‘yin kubigida 6 ta yon bor, juft sonlar — 2, 4, 6 (3 ta). Ehtimol = 3/6 = 1/2.\nJavobni qisqartirilgan kasr ko‘rinishida yozing."
+   }
+  },
+  {
+   "id": "logic_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kombinatorika va ehtimollik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g8.combin",
+      "logic_g8.chance"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g8.combin",
+      "logic_g8.chance"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g8.combin",
+      "logic_g8.chance"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g8.patterns",
+   "code": "5",
+   "emoji": "🔣",
+   "title": {
+    "uz": "Murakkab qonuniyatlar",
+    "en": "Harder patterns",
+    "ru": "Сложные закономерности"
+   },
+   "generator": "seq",
+   "skill": "seq",
+   "chapter": "3-chorak. Qonuniyat va kvadrat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "primes",
+      "cubes",
+      "fib"
+     ],
+     "inside": true
+    },
+    {
+     "kinds": [
+      "mult_inc",
+      "tri",
+      "two",
+      "cubes"
+     ],
+     "inside": true
+    },
+    {
+     "kinds": [
+      "primes",
+      "cubes",
+      "fib",
+      "mult_inc",
+      "two",
+      "tri"
+     ],
+     "inside": true,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Murakkab qonuniyatlar:\n• navbatlashuvchi amallar: +5, −2, +5, −2 …;\n• farqlar o‘sib boradi: +1, +2, +3 …;\n• har bir son oldingi ikkitasining yig‘indisi: 1, 1, 2, 3, 5, 8 …;\n• kvadratlar va kublar: 1, 4, 9, 16 … va 1, 8, 27 …"
+   }
+  },
+  {
+   "id": "logic_g8.magic",
+   "code": "6",
+   "emoji": "✨",
+   "title": {
+    "uz": "Sehrli kvadrat",
+    "en": "Magic squares",
+    "ru": "Магические квадраты"
+   },
+   "generator": "magic",
+   "skill": "magic",
+   "chapter": "3-chorak. Qonuniyat va kvadrat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "sum": false,
+     "scale": 3,
+     "shift": 20
+    },
+    {
+     "sum": false,
+     "scale": 3,
+     "shift": 30,
+     "blanks": 2
+    },
+    {
+     "sum": false,
+     "scale": 5,
+     "shift": 50,
+     "blanks": 2,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Sehrli kvadrat: har bir qator, ustun va ikkala diagonal yig‘indisi bir xil.\n• Avval to‘liq qator yoki ustun yig‘indisini toping.\n• “?” turgan qatordagi ma’lum sonlarni shu yig‘indidan ayiring.\nMisol: yig‘indi 15, qatorda 4 va 3 → ? = 15 − 4 − 3 = 8."
+   }
+  },
+  {
+   "id": "logic_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Qonuniyat va kvadrat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g8.patterns",
+      "logic_g8.magic"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g8.patterns",
+      "logic_g8.magic"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g8.patterns",
+      "logic_g8.magic"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g8.ages",
+   "code": "7",
+   "emoji": "🎂",
+   "title": {
+    "uz": "Yosh masalalari",
+    "en": "Age problems",
+    "ru": "Задачи на возраст"
+   },
+   "generator": "ages",
+   "skill": "ages",
+   "chapter": "4-chorak. Masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "times_future",
+      "times_past"
+     ]
+    },
+    {
+     "kinds": [
+      "times_future",
+      "times_past",
+      "sum_diff"
+     ]
+    },
+    {
+     "kinds": [
+      "times_future",
+      "times_past"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Yosh masalalari: yillar o‘tgan sari hammaning yoshi bir xil ortadi, shuning uchun yoshlar farqi o‘zgarmaydi.\nMisol: aka 12, uka 7 yoshda — farq 5. Uka 10 yoshga to‘lganda aka 15 yoshda bo‘ladi.\n“Necha marta katta” savolida farqdan foydalaning."
+   }
+  },
+  {
+   "id": "logic_g8.think",
+   "code": "8",
+   "emoji": "💭",
+   "title": {
+    "uz": "O‘ylangan son",
+    "en": "Guess my number",
+    "ru": "Задуманное число"
+   },
+   "generator": "number_think",
+   "skill": "number_think",
+   "chapter": "4-chorak. Masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "ops": 3,
+     "max": 30
+    },
+    {
+     "ops": 3,
+     "max": 40
+    },
+    {
+     "ops": 4,
+     "max": 40,
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "O‘ylangan sonni topish: amallarni oxiridan boshlab teskarisiga bajaramiz.\n• Qo‘shilgan bo‘lsa — ayiramiz, ayirilgan bo‘lsa — qo‘shamiz.\n• Ko‘paytirilgan bo‘lsa — bo‘lamiz, bo‘lingan bo‘lsa — ko‘paytiramiz.\nMisol: +7, keyin × 3 → 45. Teskari: 45 : 3 = 15, 15 − 7 = 8."
+   }
+  },
+  {
+   "id": "logic_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights",
+      "logic_g8.combin",
+      "logic_g8.chance",
+      "logic_g8.patterns",
+      "logic_g8.magic",
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights",
+      "logic_g8.combin",
+      "logic_g8.chance",
+      "logic_g8.patterns",
+      "logic_g8.magic",
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "logic_g8.logic_ops",
+      "logic_g8.knights",
+      "logic_g8.combin",
+      "logic_g8.chance",
+      "logic_g8.patterns",
+      "logic_g8.magic",
+      "logic_g8.ages",
+      "logic_g8.think"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

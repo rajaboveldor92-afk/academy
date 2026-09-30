@@ -6,6 +6,7 @@ import '../registry.dart';
 import '../foreign_language.dart';
 import '../logic_senior.dart';
 import 'bank_gen.dart';
+import 'logic_school.dart';
 import 'math_school.dart';
 import 'mental_gen.dart';
 import 'school_practice.dart';
@@ -20,6 +21,7 @@ class SchoolGenerators {
           for (final e in ForeignLanguage.generators.entries) 'school.$subject.${e.key}': e.value,
         for (final e in LogicSenior.generators.entries) 'school.logic.${e.key}': e.value,
         for (final e in MentalGen.generators.entries) 'school.mental.${e.key}': e.value,
+        for (final e in LogicSchool.generators.entries) 'school.logic.${e.key}': e.value,
         'school.bank': BankGen.bank,
         'school.logic.rule_sequence': SchoolPractice.sequence,
         'school.logic.ordering': SchoolPractice.ordering,

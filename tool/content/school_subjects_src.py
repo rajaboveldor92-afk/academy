@@ -22,7 +22,7 @@ CURRICULA = {}
 BANKS = {3: [], 5: []}
 # Bu fanlar batafsil dasturga ko'chirildi: tool/content/school/<fan>_g<N>.py (schoolkit).
 # Bu yerda ular yaratilmaydi, aks holda o'sha fayllar ustidan yozilib ketadi.
-MOVED = {'english', 'russian', 'science', 'informatics', 'onatili', 'reading', 'history'}
+MOVED = {'english', 'russian', 'science', 'informatics', 'onatili', 'reading', 'history', 'logic'}
 
 def topic(subject, grade, key, title, generator, theory, levels=None):
  if subject in MOVED:

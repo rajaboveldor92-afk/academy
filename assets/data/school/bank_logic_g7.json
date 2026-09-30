@@ -1,0 +1,234 @@
+{
+ "items": [
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_1",
+   "t": "choice",
+   "q": "Qaysi gap mulohaza?",
+   "a": "Toshkent — O‘zbekiston poytaxti.",
+   "w": [
+    "Soat necha bo‘ldi?",
+    "Eshikni yoping!",
+    "Qanday chiroyli!"
+   ],
+   "d": 1,
+   "x": "Darak gap: uni rost yoki yolg‘on deyish mumkin."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_2",
+   "t": "tf",
+   "q": "“Kvadratning to‘rtta tomoni bor” — rost mulohaza.",
+   "a": true,
+   "d": 1,
+   "x": "Kvadratning 4 ta teng tomoni bor."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_3",
+   "t": "tf",
+   "q": "“12 soni toq” — rost mulohaza.",
+   "a": false,
+   "d": 1,
+   "x": "12 juft son, shuning uchun bu mulohaza yolg‘on."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_4",
+   "t": "tf",
+   "q": "“Bugun qaysi dars bor?” — mulohaza.",
+   "a": false,
+   "d": 1,
+   "x": "Savol gap mulohaza emas: uni rost yoki yolg‘on deb bo‘lmaydi."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_5",
+   "t": "choice",
+   "q": "“Mushuk — qush” mulohazasining inkori qaysi?",
+   "a": "Mushuk qush emas.",
+   "w": [
+    "Mushuk — hayvon.",
+    "Qush — mushuk.",
+    "Mushuk — baliq."
+   ],
+   "d": 1,
+   "x": "Inkor — mulohazaga “emas” qo‘shish."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_6",
+   "t": "choice",
+   "q": "Rost mulohazaning inkori qanday bo‘ladi?",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Ba’zan rost",
+    "Mulohaza bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_7",
+   "t": "tf",
+   "q": "Yolg‘on mulohazaning inkori — rost mulohaza.",
+   "a": true,
+   "d": 1
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_8",
+   "t": "choice",
+   "q": "Qaysi mulohaza yolg‘on?",
+   "a": "Uchburchakning to‘rtta burchagi bor.",
+   "w": [
+    "Bir haftada 7 kun bor.",
+    "Yil 12 oydan iborat.",
+    "Kvadratning hamma tomoni teng."
+   ],
+   "d": 1,
+   "x": "Uchburchakning 3 ta burchagi bor."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_9",
+   "t": "tf",
+   "q": "“Ba’zi sonlar juft” — rost mulohaza.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan, 2, 4, 6 juft sonlar."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_10",
+   "t": "tf",
+   "q": "“Hech bir qush ucha olmaydi” — rost mulohaza.",
+   "a": false,
+   "d": 1,
+   "x": "Ko‘p qushlar ucha oladi, demak mulohaza yolg‘on."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_11",
+   "t": "choice",
+   "q": "Qaysi gap mulohaza emas?",
+   "a": "Kitobni menga ber.",
+   "w": [
+    "Olma — meva.",
+    "3 + 4 = 8.",
+    "Oy — Yerning yo‘ldoshi."
+   ],
+   "d": 1,
+   "x": "Buyruq gap rost ham, yolg‘on ham bo‘lmaydi. “3 + 4 = 8” — yolg‘on, lekin baribir mulohaza."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_12",
+   "t": "choice",
+   "q": "“Hamma mushuklar mo‘ylovli” — rost. Momiq — mushuk. Qaysi xulosa to‘g‘ri?",
+   "a": "Momiq mo‘ylovli.",
+   "w": [
+    "Momiq mo‘ylovsiz.",
+    "Momiq — it.",
+    "Xulosa chiqarib bo‘lmaydi."
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_13",
+   "t": "choice",
+   "q": "Qaysi mulohaza rost?",
+   "a": "Eng kichik tub son — 2.",
+   "w": [
+    "Eng kichik tub son — 1.",
+    "9 — tub son.",
+    "Hamma tub sonlar toq."
+   ],
+   "d": 2,
+   "x": "2 — yagona juft tub son; 1 tub son hisoblanmaydi."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_14",
+   "t": "choice",
+   "q": "“Hamma o‘quvchilar a’lochi” mulohazasining inkori qaysi?",
+   "a": "Ba’zi o‘quvchilar a’lochi emas.",
+   "w": [
+    "Hech bir o‘quvchi a’lochi emas.",
+    "Ba’zi o‘quvchilar a’lochi.",
+    "Hamma o‘quvchilar yomon o‘qiydi."
+   ],
+   "d": 2,
+   "x": "“Hamma”ning inkori — “kamida bittasi … emas”, ya’ni “ba’zilari … emas”."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_15",
+   "t": "choice",
+   "q": "“x + 2 = 5” gapi qachon rost mulohaza bo‘ladi?",
+   "a": "x = 3 bo‘lganda",
+   "w": [
+    "x = 5 bo‘lganda",
+    "x = 7 bo‘lganda",
+    "Hech qachon"
+   ],
+   "d": 2
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_16",
+   "t": "tf",
+   "q": "“5 soni 10 dan kichik” mulohazasining inkori: “5 soni 10 dan katta yoki unga teng”.",
+   "a": true,
+   "d": 2
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_17",
+   "t": "tf",
+   "q": "“Ali sinfdagi eng baland bola” mulohazasining inkori: “Ali sinfdagi eng past bola”.",
+   "a": false,
+   "d": 2,
+   "x": "Inkor: “Ali sinfdagi eng baland bola emas”. Eng baland bo‘lmasa, eng past bo‘lishi shart emas."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_18",
+   "t": "tf",
+   "q": "“3 + 4 = 8” — mulohaza emas, chunki u noto‘g‘ri.",
+   "a": false,
+   "d": 2,
+   "x": "Yolg‘on bo‘lsa ham, u mulohaza: rost-yolg‘onligini aniqlash mumkin."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_19",
+   "t": "choice",
+   "q": "“Ba’zi mevalar nordon” mulohazasining inkori qaysi?",
+   "a": "Hech bir meva nordon emas.",
+   "w": [
+    "Ba’zi mevalar nordon emas.",
+    "Hamma mevalar nordon.",
+    "Mevalar shirin."
+   ],
+   "d": 3,
+   "x": "“Ba’zilari … bor”ning inkori — “hech biri … emas”."
+  },
+  {
+   "topic": "logic_g7.statements",
+   "id": "statements_20",
+   "t": "choice",
+   "q": "“Hamma baliqlar suvda yashaydi” — rost. Delfin suvda yashaydi. Qaysi xulosa to‘g‘ri?",
+   "a": "Delfinning baliq ekani bundan kelib chiqmaydi.",
+   "w": [
+    "Delfin — baliq.",
+    "Delfin quruqlikda yashaydi.",
+    "Hamma suv hayvonlari baliq."
+   ],
+   "d": 3,
+   "x": "Suvda yashaydiganlarning hammasi ham baliq emas. Aslida delfin — sutemizuvchi."
+  }
+ ]
+}

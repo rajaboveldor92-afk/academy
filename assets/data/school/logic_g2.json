@@ -1,0 +1,507 @@
+{
+ "subject": "logic",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "logic_g2.sequence",
+   "code": "1",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sonli qonuniyatlar",
+    "en": "Number patterns",
+    "ru": "Числовые закономерности"
+   },
+   "generator": "rule_sequence",
+   "skill": "rule_sequence",
+   "chapter": "1-chorak. Qonuniyatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "maxStart": 20,
+     "maxStep": 3,
+     "multiply": false,
+     "mode": "choice"
+    },
+    {
+     "maxStart": 30,
+     "maxStep": 4,
+     "multiply": false,
+     "mode": "mixed"
+    },
+    {
+     "maxStart": 40,
+     "maxStep": 5,
+     "multiply": false,
+     "mode": "mixed"
+    }
+   ],
+   "theory": {
+    "uz": "Ketma-ketlikda sonlar qanday o‘zgarayotganini aniqlang: bir xil son qo‘shilyaptimi yoki bir xil songa ko‘paytirilyaptimi?\nQoidani har bir qo‘shni juftlikka qo‘llab tekshiring.\nMisol: 3, 6, 12, 24 — har safar 2 ga ko‘paytiriladi."
+   }
+  },
+  {
+   "id": "logic_g2.pattern",
+   "code": "2",
+   "emoji": "🔷",
+   "title": {
+    "uz": "Shakllar qatori",
+    "en": "Shape patterns",
+    "ru": "Ряды фигур"
+   },
+   "generator": "pattern6",
+   "skill": "pattern6",
+   "chapter": "1-chorak. Qonuniyatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "attr"
+     ]
+    },
+    {
+     "modes": [
+      "rotate",
+      "attr"
+     ]
+    },
+    {
+     "modes": [
+      "rotate"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Shakllar qatori: har qadamda shakl nimasi bilan o‘zgaradi — rangi, soni yoki burilishi?\nBitta belgini kuzating, keyin ikkinchisini.\nO‘zgarish qoidasini topgach, keyingi shaklni tanlang."
+   }
+  },
+  {
+   "id": "logic_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Qonuniyatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g2.matrix2",
+   "code": "3",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Matritsa",
+    "en": "Matrices",
+    "ru": "Матрицы"
+   },
+   "generator": "matrix",
+   "skill": "matrix",
+   "chapter": "2-chorak. Shakllar mantiqi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "size": 2,
+     "drag": true
+    },
+    {
+     "size": 2
+    },
+    {
+     "size": 2,
+     "rules": [
+      "shape_color",
+      "count"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Matritsa: satr va ustunlarda shakl, rang yoki miqdor qanday o‘zgarayotganini tekshiring.\nYetishmagan katak ham shu qoidaga mos kelishi kerak.\nAvval satr bo‘yicha, keyin ustun bo‘yicha solishtiring."
+   }
+  },
+  {
+   "id": "logic_g2.rotation",
+   "code": "4",
+   "emoji": "🔄",
+   "title": {
+    "uz": "Aylantirish",
+    "en": "Rotation",
+    "ru": "Повороты"
+   },
+   "generator": "rotation",
+   "skill": "rotation",
+   "chapter": "2-chorak. Shakllar mantiqi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 2
+    },
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Aylantirish: shakl burilganda uning qismlari joyi o‘zgaradi, lekin shaklning o‘zi o‘zgarmaydi.\nBitta belgili qismni (nuqta, burchak) kuzating — u qayerga ketdi?\nChorak burilish — soat mili bo‘yicha 3 dan 6 ga o‘tganday."
+   }
+  },
+  {
+   "id": "logic_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Shakllar mantiqi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g2.matrix2",
+      "logic_g2.rotation"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g2.matrix2",
+      "logic_g2.rotation"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g2.matrix2",
+      "logic_g2.rotation"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g2.problems",
+   "code": "5",
+   "emoji": "🤔",
+   "title": {
+    "uz": "Mantiqiy masalalar",
+    "en": "Logic problems",
+    "ru": "Логические задачи"
+   },
+   "generator": "logic_problem",
+   "skill": "logic_problem",
+   "chapter": "3-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "types": [
+      "where",
+      "taller"
+     ]
+    },
+    {
+     "types": [
+      "taller",
+      "order",
+      "where"
+     ]
+    },
+    {
+     "types": [
+      "order",
+      "syllogism",
+      "taller"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Mantiqiy masala: shartdagi har bir gapni alohida yozib oling.\n• “Ali Validan baland, Vali Zarinadan baland” → Ali > Vali > Zarina.\n• “Ustida ham emas, ostida ham emas” → qolgan joy — yonida.\nXulosani faqat berilgan ma’lumotdan chiqaring."
+   }
+  },
+  {
+   "id": "logic_g2.emoji",
+   "code": "6",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Rasmli tenglamalar",
+    "en": "Picture equations",
+    "ru": "Уравнения с картинками"
+   },
+   "generator": "emoji_eq",
+   "skill": "emoji_eq",
+   "chapter": "3-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "depth": 1,
+     "mode": "choice"
+    },
+    {
+     "depth": 1
+    },
+    {
+     "depth": 2
+    }
+   ],
+   "theory": {
+    "uz": "Rasmli tenglama: bir xil rasm — bir xil son.\nAvval bitta rasm qatnashgan qatorni yeching: 🍎 + 🍎 = 8 → 🍎 = 4.\nKeyin topilgan sonni keyingi qatorga qo‘ying: 🍎 + 🍌 = 10 → 🍌 = 6."
+   }
+  },
+  {
+   "id": "logic_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g2.problems",
+      "logic_g2.emoji"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g2.problems",
+      "logic_g2.emoji"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g2.problems",
+      "logic_g2.emoji"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g2.calendar",
+   "code": "7",
+   "emoji": "📅",
+   "title": {
+    "uz": "Hafta kunlari va vaqt",
+    "en": "Days and time",
+    "ru": "Дни недели и время"
+   },
+   "generator": "calendar",
+   "skill": "calendar",
+   "chapter": "4-chorak. Kun, vaqt va sudoku",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "weekday",
+      "yesterday"
+     ],
+     "days": 7
+    },
+    {
+     "kinds": [
+      "weekday",
+      "yesterday"
+     ],
+     "days": 14
+    },
+    {
+     "kinds": [
+      "weekday",
+      "time_add"
+     ],
+     "days": 20
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari har 7 kunda takrorlanadi: dushanba, seshanba, chorshanba, payshanba, juma, shanba, yakshanba.\nMisol: bugun dushanba, 10 kundan keyin: 10 = 7 + 3 → payshanba.\nVaqt: 1 soat = 60 minut. 8:40 + 30 minut = 9:10."
+   }
+  },
+  {
+   "id": "logic_g2.sudoku",
+   "code": "8",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Sudoku",
+    "en": "Sudoku",
+    "ru": "Судоку"
+   },
+   "generator": "sudoku",
+   "skill": "sudoku",
+   "chapter": "4-chorak. Kun, vaqt va sudoku",
+   "prerequisites": [],
+   "levels": [
+    {
+     "size": 4,
+     "minBlanks": 3,
+     "maxBlanks": 4,
+     "symbols": [
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 8,
+     "maxBlanks": 10,
+     "symbols": [
+      "numbers",
+      "emoji"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Sudoku: har bir qatorda va har bir ustunda har bir belgi faqat bir martadan uchraydi.\nBo‘sh katak uchun: shu qator va ustunda qaysi belgilar bor — ularni chiqarib tashlang.\nQolgan yagona belgi — javob."
+   }
+  },
+  {
+   "id": "logic_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kun, vaqt va sudoku",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kun, vaqt va sudoku",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern",
+      "logic_g2.matrix2",
+      "logic_g2.rotation",
+      "logic_g2.problems",
+      "logic_g2.emoji",
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern",
+      "logic_g2.matrix2",
+      "logic_g2.rotation",
+      "logic_g2.problems",
+      "logic_g2.emoji",
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "logic_g2.sequence",
+      "logic_g2.pattern",
+      "logic_g2.matrix2",
+      "logic_g2.rotation",
+      "logic_g2.problems",
+      "logic_g2.emoji",
+      "logic_g2.calendar",
+      "logic_g2.sudoku"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

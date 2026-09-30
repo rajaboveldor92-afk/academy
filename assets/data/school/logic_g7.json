@@ -1,0 +1,513 @@
+{
+ "subject": "logic",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "logic_g7.patterns",
+   "code": "1",
+   "emoji": "🔣",
+   "title": {
+    "uz": "Murakkab qonuniyatlar",
+    "en": "Harder patterns",
+    "ru": "Сложные закономерности"
+   },
+   "generator": "seq",
+   "skill": "seq",
+   "chapter": "1-chorak. Qonuniyat va mulohaza",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "tri",
+      "cubes",
+      "primes"
+     ]
+    },
+    {
+     "kinds": [
+      "tri",
+      "cubes",
+      "primes",
+      "two"
+     ],
+     "inside": true
+    },
+    {
+     "kinds": [
+      "cubes",
+      "primes",
+      "fib",
+      "mult_inc",
+      "two"
+     ],
+     "inside": true
+    }
+   ],
+   "theory": {
+    "uz": "Murakkab qonuniyatlar:\n• navbatlashuvchi amallar: +5, −2, +5, −2 …;\n• farqlar o‘sib boradi: +1, +2, +3 …;\n• har bir son oldingi ikkitasining yig‘indisi: 1, 1, 2, 3, 5, 8 …;\n• kvadratlar va kublar: 1, 4, 9, 16 … va 1, 8, 27 …"
+   }
+  },
+  {
+   "id": "logic_g7.statements",
+   "code": "2",
+   "emoji": "💬",
+   "title": {
+    "uz": "Mulohaza va inkor",
+    "en": "Statements and negation",
+    "ru": "Высказывания и отрицание"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Qonuniyat va mulohaza",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Mulohaza — rost yoki yolg‘onligini aniqlash mumkin bo‘lgan darak gap.\n“7 — tub son” — rost mulohaza; “5 > 9” — yolg‘on mulohaza. Savol va buyruq gaplar mulohaza emas.\nInkor — mulohazaga “emas” qo‘shish: rost mulohazaning inkori yolg‘on, yolg‘onining inkori rost.\n“Hamma”ning inkori — “ba’zilari … emas”, “ba’zi”ning inkori — “hech biri … emas”."
+   }
+  },
+  {
+   "id": "logic_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Qonuniyat va mulohaza",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g7.knights",
+   "code": "3",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Rostgo‘ylar oroli",
+    "en": "Island of knights",
+    "ru": "Остров рыцарей"
+   },
+   "generator": "knights",
+   "skill": "knights",
+   "chapter": "2-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "people": 3
+    },
+    {
+     "people": 3
+    },
+    {
+     "people": 3
+    }
+   ],
+   "theory": {
+    "uz": "Rostgo‘ylar har doim rost, yolg‘onchilar har doim yolg‘on gapiradi.\nUsul: birinchi odamni rostgo‘y deb faraz qiling va uning gapidan kelib chiqib, qolganlarini tekshiring.\nQarama-qarshilik chiqsa — faraz noto‘g‘ri, u yolg‘onchi.\nMisol: A: «Ikkalamiz ham yolg‘onchimiz». Rostgo‘y bunday demaydi → A yolg‘onchi, demak B rostgo‘y."
+   }
+  },
+  {
+   "id": "logic_g7.table",
+   "code": "4",
+   "emoji": "📋",
+   "title": {
+    "uz": "Kim nima? (jadval)",
+    "en": "Who has what?",
+    "ru": "Кто что?"
+   },
+   "generator": "table_logic",
+   "skill": "table_logic",
+   "chapter": "2-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "people": 4
+    },
+    {
+     "people": 4
+    },
+    {
+     "people": 4
+    }
+   ],
+   "theory": {
+    "uz": "“Kim nima?” masalasi: jadval chizing — qatorlarga odamlar, ustunlarga narsalar.\n• “Alining iti yo‘q” → Ali va it kesishgan katakka ✗.\n• Qatorda bitta bo‘sh katak qolsa — o‘sha javob (✓), uning ustunidagi boshqa kataklar ✗.\nHar kimda faqat bitta narsa, har bir narsa faqat bitta odamda."
+   }
+  },
+  {
+   "id": "logic_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Mantiqiy masalalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g7.knights",
+      "logic_g7.table"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g7.knights",
+      "logic_g7.table"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g7.knights",
+      "logic_g7.table"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g7.combin",
+   "code": "5",
+   "emoji": "🔀",
+   "title": {
+    "uz": "Kombinatorika",
+    "en": "Combinatorics",
+    "ru": "Комбинаторика"
+   },
+   "generator": "combin",
+   "skill": "combin",
+   "chapter": "3-chorak. Kombinatorika",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "paths",
+      "choose2",
+      "digits"
+     ],
+     "repeat": true
+    },
+    {
+     "kinds": [
+      "paths",
+      "tournament",
+      "queue"
+     ],
+     "twice": true
+    },
+    {
+     "kinds": [
+      "paths",
+      "tournament",
+      "digits",
+      "routes"
+     ],
+     "twice": true,
+     "repeat": true,
+     "direct": true
+    }
+   ],
+   "theory": {
+    "uz": "Kombinatorika — variantlarni sanash.\n• Ko‘paytirish qoidasi: 3 ta ko‘ylak va 4 ta shim → 3 × 4 = 12 xil kiyinish.\n• Qo‘l berishish: har kim qolganlar bilan bir marta — n × (n − 1) : 2.\nVariantlarni tartib bilan yozib chiqsangiz, birortasi ham tushib qolmaydi."
+   }
+  },
+  {
+   "id": "logic_g7.pigeonhole",
+   "code": "6",
+   "emoji": "🧦",
+   "title": {
+    "uz": "Dirixle prinsipi",
+    "en": "Pigeonhole principle",
+    "ru": "Принцип Дирихле"
+   },
+   "generator": "pigeonhole",
+   "skill": "pigeonhole",
+   "chapter": "3-chorak. Kombinatorika",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "one_color",
+      "two_color"
+     ]
+    },
+    {
+     "kinds": [
+      "three_same",
+      "months"
+     ]
+    },
+    {
+     "kinds": [
+      "three_same",
+      "months",
+      "two_color"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Dirixle prinsipi: 3 ta quyonni 2 ta katakka joylasak, qaysidir katakda kamida 2 ta quyon bo‘ladi.\n“Albatta” degan savolda eng omadsiz holatni tasavvur qiling.\nMisol: 2 rangdagi paypoqlardan albatta bir juft chiqishi uchun 3 ta olish yetarli: 2 + 1."
+   }
+  },
+  {
+   "id": "logic_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kombinatorika",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g7.combin",
+      "logic_g7.pigeonhole"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g7.combin",
+      "logic_g7.pigeonhole"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g7.combin",
+      "logic_g7.pigeonhole"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g7.ages",
+   "code": "7",
+   "emoji": "🎂",
+   "title": {
+    "uz": "Yosh masalalari",
+    "en": "Age problems",
+    "ru": "Задачи на возраст"
+   },
+   "generator": "ages",
+   "skill": "ages",
+   "chapter": "4-chorak. Yosh va vaqt",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "sum_diff",
+      "times_future"
+     ]
+    },
+    {
+     "kinds": [
+      "times_future",
+      "times_past"
+     ]
+    },
+    {
+     "kinds": [
+      "times_future",
+      "times_past"
+     ],
+     "mode": "input"
+    }
+   ],
+   "theory": {
+    "uz": "Yosh masalalari: yillar o‘tgan sari hammaning yoshi bir xil ortadi, shuning uchun yoshlar farqi o‘zgarmaydi.\nMisol: aka 12, uka 7 yoshda — farq 5. Uka 10 yoshga to‘lganda aka 15 yoshda bo‘ladi.\n“Necha marta katta” savolida farqdan foydalaning."
+   }
+  },
+  {
+   "id": "logic_g7.calendar",
+   "code": "8",
+   "emoji": "📅",
+   "title": {
+    "uz": "Kalendar va vaqt",
+    "en": "Calendar and time",
+    "ru": "Календарь и время"
+   },
+   "generator": "calendar",
+   "skill": "calendar",
+   "chapter": "4-chorak. Yosh va vaqt",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "weekday",
+      "weekday_back"
+     ],
+     "days": 100
+    },
+    {
+     "kinds": [
+      "weekday_back",
+      "duration"
+     ],
+     "days": 200
+    },
+    {
+     "kinds": [
+      "weekday",
+      "weekday_back",
+      "duration"
+     ],
+     "days": 365
+    }
+   ],
+   "theory": {
+    "uz": "Hafta kunlari har 7 kunda takrorlanadi: dushanba, seshanba, chorshanba, payshanba, juma, shanba, yakshanba.\nMisol: bugun dushanba, 10 kundan keyin: 10 = 7 + 3 → payshanba.\nVaqt: 1 soat = 60 minut. 8:40 + 30 minut = 9:10."
+   }
+  },
+  {
+   "id": "logic_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yosh va vaqt",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yosh va vaqt",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements",
+      "logic_g7.knights",
+      "logic_g7.table",
+      "logic_g7.combin",
+      "logic_g7.pigeonhole",
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements",
+      "logic_g7.knights",
+      "logic_g7.table",
+      "logic_g7.combin",
+      "logic_g7.pigeonhole",
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "logic_g7.patterns",
+      "logic_g7.statements",
+      "logic_g7.knights",
+      "logic_g7.table",
+      "logic_g7.combin",
+      "logic_g7.pigeonhole",
+      "logic_g7.ages",
+      "logic_g7.calendar"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

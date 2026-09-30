@@ -1,0 +1,266 @@
+{
+ "items": [
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_1",
+   "t": "tf",
+   "q": "“2 — juft son VA 5 — toq son” — rost.",
+   "a": true,
+   "d": 1,
+   "x": "Ikkala qismi ham rost."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_2",
+   "t": "tf",
+   "q": "“4 — toq son VA 7 — toq son” — rost.",
+   "a": false,
+   "d": 1,
+   "x": "Birinchi qismi yolg‘on, VA uchun ikkalasi rost bo‘lishi kerak."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_3",
+   "t": "tf",
+   "q": "“4 — toq son YOKI 7 — toq son” — rost.",
+   "a": true,
+   "d": 1,
+   "x": "Ikkinchi qismi rost, YOKI uchun bittasi yetarli."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_4",
+   "t": "tf",
+   "q": "“3 > 5 YOKI 2 > 6” — rost.",
+   "a": false,
+   "d": 1,
+   "x": "Ikkala qismi ham yolg‘on."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_5",
+   "t": "choice",
+   "q": "A — rost, B — yolg‘on. “A VA B” qanday?",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_6",
+   "t": "choice",
+   "q": "A — rost, B — yolg‘on. “A YOKI B” qanday?",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_7",
+   "t": "choice",
+   "q": "A — yolg‘on. “EMAS A” qanday?",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_8",
+   "t": "choice",
+   "q": "A — yolg‘on, B — yolg‘on. “A YOKI B” qanday?",
+   "a": "Yolg‘on",
+   "w": [
+    "Rost",
+    "Aniqlab bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_9",
+   "t": "choice",
+   "q": "A — rost, B — rost. “A VA B” qanday?",
+   "a": "Rost",
+   "w": [
+    "Yolg‘on",
+    "Aniqlab bo‘lmaydi"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_10",
+   "t": "choice",
+   "q": "Qaysi holda “A VA B” rost bo‘ladi?",
+   "a": "A rost, B rost",
+   "w": [
+    "A rost, B yolg‘on",
+    "A yolg‘on, B rost",
+    "A yolg‘on, B yolg‘on"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_11",
+   "t": "choice",
+   "q": "Qaysi holda “A YOKI B” yolg‘on bo‘ladi?",
+   "a": "A yolg‘on, B yolg‘on",
+   "w": [
+    "A rost, B yolg‘on",
+    "A yolg‘on, B rost",
+    "A rost, B rost"
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_12",
+   "t": "match",
+   "q": "Amal va uning ma’nosini juftlang",
+   "pairs": [
+    [
+     "VA",
+     "ikkalasi ham rost"
+    ],
+    [
+     "YOKI",
+     "kamida bittasi rost"
+    ],
+    [
+     "EMAS",
+     "teskarisi"
+    ]
+   ],
+   "d": 1
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_13",
+   "t": "choice",
+   "q": "x = 4 bo‘lsa, qaysi mulohaza rost?",
+   "a": "x > 3 VA x < 5",
+   "w": [
+    "x > 5 VA x < 10",
+    "x < 3 YOKI x > 6",
+    "x — toq son"
+   ],
+   "d": 2
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_14",
+   "t": "choice",
+   "q": "Qaysi son uchun “x juft VA x > 10” rost?",
+   "a": "12",
+   "w": [
+    "8",
+    "11",
+    "15"
+   ],
+   "d": 2
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_15",
+   "t": "choice",
+   "q": "Qaysi son uchun “x < 3 YOKI x > 8” yolg‘on?",
+   "a": "5",
+   "w": [
+    "1",
+    "9",
+    "12"
+   ],
+   "d": 2
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_16",
+   "t": "tf",
+   "q": "Agar A rost bo‘lsa, “A YOKI B” har doim rost.",
+   "a": true,
+   "d": 2
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_17",
+   "t": "tf",
+   "q": "Agar A yolg‘on bo‘lsa, “A VA B” har doim yolg‘on.",
+   "a": true,
+   "d": 2
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_18",
+   "t": "tf",
+   "q": "Agar A rost bo‘lsa, “A VA B” har doim rost.",
+   "a": false,
+   "d": 2,
+   "x": "B yolg‘on bo‘lsa, “A VA B” yolg‘on bo‘ladi."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_19",
+   "t": "choice",
+   "q": "Ikki mulohaza uchun rostlik jadvalida nechta qator bo‘ladi?",
+   "a": "4",
+   "w": [
+    "2",
+    "3",
+    "8"
+   ],
+   "d": 2,
+   "x": "Har biri rost yoki yolg‘on: 2 × 2 = 4 holat."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_20",
+   "t": "choice",
+   "q": "Uch mulohaza uchun rostlik jadvalida nechta qator bo‘ladi?",
+   "a": "8",
+   "w": [
+    "6",
+    "4",
+    "9"
+   ],
+   "d": 3,
+   "x": "2 × 2 × 2 = 8 holat."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_21",
+   "t": "choice",
+   "q": "“A VA B” yolg‘on ekanini bilsak, qaysi fikr albatta to‘g‘ri?",
+   "a": "Kamida bittasi yolg‘on",
+   "w": [
+    "Ikkalasi ham yolg‘on",
+    "Ikkalasi ham rost",
+    "A rost"
+   ],
+   "d": 3,
+   "x": "VA yolg‘on bo‘lishi uchun bitta yolg‘on qism yetarli."
+  },
+  {
+   "topic": "logic_g8.logic_ops",
+   "id": "logic_ops_22",
+   "t": "choice",
+   "q": "“A YOKI B” rost ekanini bilsak, qaysi fikr albatta to‘g‘ri?",
+   "a": "Kamida bittasi rost",
+   "w": [
+    "Ikkalasi ham rost",
+    "A rost",
+    "B yolg‘on"
+   ],
+   "d": 3
+  }
+ ]
+}

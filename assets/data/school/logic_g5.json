@@ -1,30 +1,27 @@
 {
  "subject": "logic",
  "ageGroup": "g5",
- "lessonSize": 6,
+ "lessonSize": 8,
  "title": {
   "uz": "Mantiq",
   "en": "Logic",
   "ru": "Логика"
  },
- "model": "QOIDA → MASHQ → IZOH → TAKRORLASH",
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
  "topics": [
   {
    "id": "logic_g5.sequence",
    "code": "1",
-   "emoji": "🧩",
+   "emoji": "🔢",
    "title": {
     "uz": "Sonli qonuniyatlar",
-    "en": "Sonli qonuniyatlar",
-    "ru": "Sonli qonuniyatlar"
+    "en": "Number patterns",
+    "ru": "Числовые закономерности"
    },
    "generator": "rule_sequence",
-   "skill": "sequence",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "rule_sequence",
+   "chapter": "1-chorak. Qonuniyatlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Ketma-ketlikda sonlar qanday o‘zgarayotganini aniqlang. Bir xil son qo‘shilishi yoki bir xil songa ko‘paytirish qoidasini tekshiring. Qoidani har bir qo‘shni juftlikka qo‘llang."
-   },
    "levels": [
     {
      "maxStart": 20,
@@ -44,24 +41,66 @@
      "multiply": true,
      "mode": "mixed"
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Ketma-ketlikda sonlar qanday o‘zgarayotganini aniqlang: bir xil son qo‘shilyaptimi yoki bir xil songa ko‘paytirilyaptimi?\nQoidani har bir qo‘shni juftlikka qo‘llab tekshiring.\nMisol: 3, 6, 12, 24 — har safar 2 ga ko‘paytiriladi."
+   }
+  },
+  {
+   "id": "logic_g5.patterns",
+   "code": "2",
+   "emoji": "🔣",
+   "title": {
+    "uz": "Murakkab qonuniyatlar",
+    "en": "Harder patterns",
+    "ru": "Сложные закономерности"
+   },
+   "generator": "seq",
+   "skill": "seq",
+   "chapter": "1-chorak. Qonuniyatlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "geom",
+      "alt",
+      "diff"
+     ]
+    },
+    {
+     "kinds": [
+      "alt_op",
+      "fib",
+      "squares"
+     ]
+    },
+    {
+     "kinds": [
+      "alt_op",
+      "fib",
+      "squares",
+      "two"
+     ],
+     "inside": true
+    }
+   ],
+   "theory": {
+    "uz": "Murakkab qonuniyatlar:\n• navbatlashuvchi amallar: +5, −2, +5, −2 …;\n• farqlar o‘sib boradi: +1, +2, +3 …;\n• har bir son oldingi ikkitasining yig‘indisi: 1, 1, 2, 3, 5, 8 …;\n• kvadratlar va kublar: 1, 4, 9, 16 … va 1, 8, 27 …"
+   }
   },
   {
    "id": "logic_g5.ordering",
-   "code": "2",
-   "emoji": "🧩",
+   "code": "3",
+   "emoji": "📏",
    "title": {
     "uz": "Taqqoslashdan xulosa",
-    "en": "Taqqoslashdan xulosa",
-    "ru": "Taqqoslashdan xulosa"
+    "en": "Conclusions from comparisons",
+    "ru": "Выводы из сравнений"
    },
    "generator": "ordering",
    "skill": "ordering",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "chapter": "1-chorak. Qonuniyatlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "A B dan baland, B esa C dan baland bo‘lsa, tartib A → B → C bo‘ladi. Demak A eng baland, C eng past. Xulosani faqat berilgan ma’lumotdan chiqaring."
-   },
    "levels": [
     {
      "options": 2
@@ -72,24 +111,65 @@
     {
      "options": 4
     }
+   ],
+   "theory": {
+    "uz": "Taqqoslashdan xulosa: A B dan baland, B esa C dan baland bo‘lsa, tartib A → B → C bo‘ladi.\nDemak A eng baland, C eng past.\nChiziq chizib, har bir odamni o‘z joyiga qo‘yib chiqing."
+   }
+  },
+  {
+   "id": "logic_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Qonuniyatlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.patterns",
+      "logic_g5.ordering"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.patterns",
+      "logic_g5.ordering"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.patterns",
+      "logic_g5.ordering"
+     ],
+     "level": 3
+    }
    ]
   },
   {
    "id": "logic_g5.sets",
-   "code": "3",
-   "emoji": "🧩",
+   "code": "4",
+   "emoji": "⭕",
    "title": {
     "uz": "Kesishuvchi guruhlar",
-    "en": "Kesishuvchi guruhlar",
-    "ru": "Kesishuvchi guruhlar"
+    "en": "Overlapping groups",
+    "ru": "Пересекающиеся группы"
    },
    "generator": "set_count",
-   "skill": "sets",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "set_count",
+   "chapter": "2-chorak. To‘plam va mantiq",
    "prerequisites": [],
-   "theory": {
-    "uz": "Ikki guruhdagi odamlarni qo‘shganda ikkala guruhga kiradiganlar ikki marta sanaladi. Umumiy son = birinchi guruh + ikkinchi guruh − ikkala guruhdagilar. Misol: 8 + 7 − 3 = 12."
-   },
    "levels": [
     {
      "mode": "choice"
@@ -100,24 +180,52 @@
     {
      "mode": "input"
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Ikki guruhdagi odamlarni qo‘shganda ikkala guruhga kiradiganlar ikki marta sanaladi.\nUmumiy son = birinchi guruh + ikkinchi guruh − ikkala guruhdagilar.\nMisol: 8 + 7 − 3 = 12. Doiralar (Eyler–Venn diagrammasi) chizish yordam beradi."
+   }
+  },
+  {
+   "id": "logic_g5.knights",
+   "code": "5",
+   "emoji": "🗣️",
+   "title": {
+    "uz": "Rostgo‘y va yolg‘onchi",
+    "en": "Knights and knaves",
+    "ru": "Рыцари и лжецы"
+   },
+   "generator": "knights",
+   "skill": "knights",
+   "chapter": "2-chorak. To‘plam va mantiq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "people": 2
+    },
+    {
+     "people": 2
+    },
+    {
+     "people": 3
+    }
+   ],
+   "theory": {
+    "uz": "Rostgo‘ylar har doim rost, yolg‘onchilar har doim yolg‘on gapiradi.\nUsul: birinchi odamni rostgo‘y deb faraz qiling va uning gapidan kelib chiqib, qolganlarini tekshiring.\nQarama-qarshilik chiqsa — faraz noto‘g‘ri, u yolg‘onchi.\nMisol: A: «Ikkalamiz ham yolg‘onchimiz». Rostgo‘y bunday demaydi → A yolg‘onchi, demak B rostgo‘y."
+   }
   },
   {
    "id": "logic_g5.matrix3",
-   "code": "4",
+   "code": "6",
    "emoji": "🧩",
    "title": {
-    "uz": "3×3 matritsa",
-    "en": "3×3 matrix",
-    "ru": "Матрица 3×3"
+    "uz": "3 × 3 matritsa",
+    "en": "3 × 3 matrices",
+    "ru": "Матрицы 3 × 3"
    },
    "generator": "matrix",
-   "skill": "matrix3",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "matrix",
+   "chapter": "2-chorak. To‘plam va mantiq",
    "prerequisites": [],
-   "theory": {
-    "uz": "Satr va ustunlarda shakl, rang yoki miqdor qanday o‘zgarayotganini tekshiring. Yetishmagan katak ham shu qoidaga mos kelishi kerak. Ikkala yo‘nalishni solishtiring."
-   },
    "levels": [
     {
      "size": 3,
@@ -140,66 +248,183 @@
       "shape_color"
      ]
     }
+   ],
+   "theory": {
+    "uz": "Matritsa: satr va ustunlarda shakl, rang yoki miqdor qanday o‘zgarayotganini tekshiring.\nYetishmagan katak ham shu qoidaga mos kelishi kerak.\nAvval satr bo‘yicha, keyin ustun bo‘yicha solishtiring."
+   }
+  },
+  {
+   "id": "logic_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. To‘plam va mantiq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g5.sets",
+      "logic_g5.knights",
+      "logic_g5.matrix3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g5.sets",
+      "logic_g5.knights",
+      "logic_g5.matrix3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g5.sets",
+      "logic_g5.knights",
+      "logic_g5.matrix3"
+     ],
+     "level": 3
+    }
    ]
   },
   {
-   "id": "logic_g5.coding",
-   "code": "5",
-   "emoji": "🧩",
+   "id": "logic_g5.combin",
+   "code": "7",
+   "emoji": "👕",
    "title": {
-    "uz": "Kodlash",
-    "en": "Coding",
-    "ru": "Программирование"
+    "uz": "Kombinatorika",
+    "en": "Combinatorics",
+    "ru": "Комбинаторика"
    },
-   "generator": "coding",
-   "skill": "coding",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "generator": "combin",
+   "skill": "combin",
+   "chapter": "3-chorak. Kombinatorika va yoshlar",
    "prerequisites": [],
-   "theory": {
-    "uz": "Buyruqlarni qahramon turgan katakdan boshlab bajaring. Har bir o‘q bitta katakka yurishni bildiradi. Chegaradan yoki to‘siqdan o‘tmasdan maqsadga olib boradigan yo‘lni tanlang."
-   },
    "levels": [
     {
-     "rows": 4,
-     "cols": 4,
-     "obstacles": 2,
-     "minSteps": 3,
-     "maxSteps": 5
+     "kinds": [
+      "outfit",
+      "handshake",
+      "routes"
+     ],
+     "three": true
     },
     {
-     "rows": 4,
-     "cols": 4,
-     "obstacles": 3,
-     "minSteps": 3,
-     "maxSteps": 6,
-     "build": true
+     "kinds": [
+      "tournament",
+      "digits",
+      "queue"
+     ]
     },
     {
-     "rows": 4,
-     "cols": 4,
-     "obstacles": 3,
-     "minSteps": 3,
-     "maxSteps": 6,
-     "build": true
+     "kinds": [
+      "tournament",
+      "digits",
+      "queue",
+      "routes"
+     ],
+     "direct": true
+    }
+   ],
+   "theory": {
+    "uz": "Kombinatorika — variantlarni sanash.\n• Ko‘paytirish qoidasi: 3 ta ko‘ylak va 4 ta shim → 3 × 4 = 12 xil kiyinish.\n• Qo‘l berishish: har kim qolganlar bilan bir marta — n × (n − 1) : 2.\nVariantlarni tartib bilan yozib chiqsangiz, birortasi ham tushib qolmaydi."
+   }
+  },
+  {
+   "id": "logic_g5.ages",
+   "code": "8",
+   "emoji": "🎂",
+   "title": {
+    "uz": "Yosh masalalari",
+    "en": "Age problems",
+    "ru": "Задачи на возраст"
+   },
+   "generator": "ages",
+   "skill": "ages",
+   "chapter": "3-chorak. Kombinatorika va yoshlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "kinds": [
+      "simple",
+      "later"
+     ]
+    },
+    {
+     "kinds": [
+      "later",
+      "sum_diff"
+     ]
+    },
+    {
+     "kinds": [
+      "sum_diff",
+      "times_future"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Yosh masalalari: yillar o‘tgan sari hammaning yoshi bir xil ortadi, shuning uchun yoshlar farqi o‘zgarmaydi.\nMisol: aka 12, uka 7 yoshda — farq 5. Uka 10 yoshga to‘lganda aka 15 yoshda bo‘ladi.\n“Necha marta katta” savolida farqdan foydalaning."
+   }
+  },
+  {
+   "id": "logic_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kombinatorika va yoshlar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g5.combin",
+      "logic_g5.ages"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g5.combin",
+      "logic_g5.ages"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g5.combin",
+      "logic_g5.ages"
+     ],
+     "level": 3
     }
    ]
   },
   {
    "id": "logic_g5.sudoku",
-   "code": "6",
-   "emoji": "🧩",
+   "code": "9",
+   "emoji": "🔢",
    "title": {
-    "uz": "Mini-sudoku",
-    "en": "Mini sudoku",
-    "ru": "Мини-судоку"
+    "uz": "Sudoku",
+    "en": "Sudoku",
+    "ru": "Судоку"
    },
    "generator": "sudoku",
    "skill": "sudoku",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "chapter": "4-chorak. Sudoku, kodlash, jadval",
    "prerequisites": [],
-   "theory": {
-    "uz": "Har bir satr, ustun va belgilangan kichik kataklar guruhida har bir belgi bir martadan bo‘lsin. Bo‘sh katak uchun boshqa kataklardagi belgilarni chiqarib tashlab, qolganini toping."
-   },
    "levels": [
     {
      "size": 4,
@@ -228,55 +453,182 @@
       "emoji"
      ]
     }
-   ]
+   ],
+   "theory": {
+    "uz": "Sudoku: har bir qatorda va har bir ustunda har bir belgi faqat bir martadan uchraydi.\nBo‘sh katak uchun: shu qator va ustunda qaysi belgilar bor — ularni chiqarib tashlang.\nQolgan yagona belgi — javob."
+   }
   },
   {
-   "id": "logic_g5.review",
-   "code": "7",
-   "emoji": "🧩",
+   "id": "logic_g5.coding",
+   "code": "10",
+   "emoji": "🤖",
    "title": {
-    "uz": "Bo‘limni takrorlash",
-    "en": "Bo‘limni takrorlash",
-    "ru": "Bo‘limni takrorlash"
+    "uz": "Kodlash",
+    "en": "Coding",
+    "ru": "Программирование"
+   },
+   "generator": "coding",
+   "skill": "coding",
+   "chapter": "4-chorak. Sudoku, kodlash, jadval",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 2,
+     "minSteps": 3,
+     "maxSteps": 5
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 3,
+     "minSteps": 3,
+     "maxSteps": 6,
+     "build": true
+    },
+    {
+     "rows": 4,
+     "cols": 4,
+     "obstacles": 3,
+     "minSteps": 3,
+     "maxSteps": 6,
+     "build": true
+    }
+   ],
+   "theory": {
+    "uz": "Buyruqlarni qahramon turgan katakdan boshlab bajaring. Har bir o‘q bitta katakka yurishni bildiradi.\nChegaradan yoki to‘siqdan o‘tmasdan maqsadga olib boradigan yo‘lni tanlang.\nBuyruqlarni bittadan bajarib, barmog‘ingiz bilan kuzatib boring."
+   }
+  },
+  {
+   "id": "logic_g5.table",
+   "code": "11",
+   "emoji": "📋",
+   "title": {
+    "uz": "Kim nima? (jadval)",
+    "en": "Who has what?",
+    "ru": "Кто что?"
+   },
+   "generator": "table_logic",
+   "skill": "table_logic",
+   "chapter": "4-chorak. Sudoku, kodlash, jadval",
+   "prerequisites": [],
+   "levels": [
+    {
+     "people": 3
+    },
+    {
+     "people": 4
+    },
+    {
+     "people": 4
+    }
+   ],
+   "theory": {
+    "uz": "“Kim nima?” masalasi: jadval chizing — qatorlarga odamlar, ustunlarga narsalar.\n• “Alining iti yo‘q” → Ali va it kesishgan katakka ✗.\n• Qatorda bitta bo‘sh katak qolsa — o‘sha javob (✓), uning ustunidagi boshqa kataklar ✗.\nHar kimda faqat bitta narsa, har bir narsa faqat bitta odamda."
+   }
+  },
+  {
+   "id": "logic_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
    },
    "generator": "test",
-   "skill": "review",
-   "chapter": "Mustahkamlash va yangi ko‘nikmalar",
+   "skill": "test",
+   "chapter": "4-chorak. Sudoku, kodlash, jadval",
    "prerequisites": [],
-   "theory": {
-    "uz": "Bu mashg‘ulot oldingi mavzularni aralashtirib tekshiradi. Har bir savol shartini o‘qing. Yakunda xatolarni ko‘rib, shu mavzuning qoidasiga qayting."
-   },
+   "lessonSize": 10,
    "levels": [
     {
      "topics": [
-      "logic_g5.sequence",
-      "logic_g5.ordering",
-      "logic_g5.sets",
-      "logic_g5.matrix3",
+      "logic_g5.sudoku",
       "logic_g5.coding",
-      "logic_g5.sudoku"
+      "logic_g5.table"
      ],
      "level": 1
     },
     {
      "topics": [
+      "logic_g5.sudoku",
+      "logic_g5.coding",
+      "logic_g5.table"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g5.sudoku",
+      "logic_g5.coding",
+      "logic_g5.table"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Sudoku, kodlash, jadval",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
       "logic_g5.sequence",
+      "logic_g5.patterns",
       "logic_g5.ordering",
       "logic_g5.sets",
+      "logic_g5.knights",
       "logic_g5.matrix3",
+      "logic_g5.combin",
+      "logic_g5.ages",
+      "logic_g5.sudoku",
       "logic_g5.coding",
-      "logic_g5.sudoku"
+      "logic_g5.table"
      ],
      "level": 2
     },
     {
      "topics": [
       "logic_g5.sequence",
+      "logic_g5.patterns",
       "logic_g5.ordering",
       "logic_g5.sets",
+      "logic_g5.knights",
       "logic_g5.matrix3",
+      "logic_g5.combin",
+      "logic_g5.ages",
+      "logic_g5.sudoku",
       "logic_g5.coding",
-      "logic_g5.sudoku"
+      "logic_g5.table"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "logic_g5.sequence",
+      "logic_g5.patterns",
+      "logic_g5.ordering",
+      "logic_g5.sets",
+      "logic_g5.knights",
+      "logic_g5.matrix3",
+      "logic_g5.combin",
+      "logic_g5.ages",
+      "logic_g5.sudoku",
+      "logic_g5.coding",
+      "logic_g5.table"
      ],
      "level": 3
     }

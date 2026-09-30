@@ -1,0 +1,546 @@
+{
+ "subject": "logic",
+ "ageGroup": "g1",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Mantiq",
+  "en": "Logic",
+  "ru": "Логика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "logic_g1.pattern",
+   "code": "1",
+   "emoji": "🔁",
+   "title": {
+    "uz": "Naqshni davom ettir",
+    "en": "Continue the pattern",
+    "ru": "Продолжи узор"
+   },
+   "generator": "picture_sequence",
+   "skill": "picture_sequence",
+   "chapter": "1-chorak. Naqsh va farq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "patterns": [
+      "ABC",
+      "AAB"
+     ],
+     "kinds": [
+      "emoji",
+      "shape"
+     ],
+     "shown": 5
+    },
+    {
+     "patterns": [
+      "AABB",
+      "ABB",
+      "ABC"
+     ],
+     "kinds": [
+      "emoji",
+      "shape",
+      "color"
+     ],
+     "shown": 6,
+     "growth": true
+    },
+    {
+     "patterns": [
+      "AABB",
+      "ABBC",
+      "ABCB"
+     ],
+     "kinds": [
+      "shape",
+      "color"
+     ],
+     "shown": 6,
+     "growth": true
+    }
+   ],
+   "theory": {
+    "uz": "Naqsh — takrorlanib turadigan tartib. Avval qaysi rasmlar navbat bilan kelayotganini toping:\n• 🍎🍌🍎🍌 — ikki rasm navbatma-navbat (AB);\n• 🔴🔴🔵🔴🔴🔵 — ikki qizil, bir ko‘k (AAB).\nTartibni topgach, keyingi rasmni ayting."
+   }
+  },
+  {
+   "id": "logic_g1.odd",
+   "code": "2",
+   "emoji": "🔍",
+   "title": {
+    "uz": "Ortiqchasini top",
+    "en": "Find the odd one out",
+    "ru": "Найди лишнее"
+   },
+   "generator": "odd_attribute",
+   "skill": "odd_attribute",
+   "chapter": "1-chorak. Naqsh va farq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "items": 4
+    },
+    {
+     "items": 4
+    },
+    {
+     "items": 5
+    }
+   ],
+   "theory": {
+    "uz": "Ortiqchasini topish: hamma narsalarda umumiy belgini qidiring — rang, shakl, o‘lcham yoki guruh.\nBitta narsada shu belgi bo‘lmasa — u ortiqcha.\nMisol: olma, nok, banan, sabzi — sabzi meva emas."
+   }
+  },
+  {
+   "id": "logic_g1.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Naqsh va farq",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g1.classify",
+   "code": "3",
+   "emoji": "🧺",
+   "title": {
+    "uz": "Guruhlarga ajrat",
+    "en": "Sort into groups",
+    "ru": "Разложи по группам"
+   },
+   "generator": "classify",
+   "skill": "classify",
+   "chapter": "2-chorak. Guruhlash va o‘xshatish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "bins": 2,
+     "items": 6
+    },
+    {
+     "bins": 2,
+     "items": 8
+    },
+    {
+     "bins": 3,
+     "items": 9
+    }
+   ],
+   "theory": {
+    "uz": "Guruhlash — narsalarni umumiy belgisi bo‘yicha ajratish: mevalar va sabzavotlar, hayvonlar va qushlar.\nHar bir narsani olib, “u qaysi guruhga kiradi?” deb so‘rang.\nBitta narsa faqat bitta guruhga tushadi."
+   }
+  },
+  {
+   "id": "logic_g1.analogy",
+   "code": "4",
+   "emoji": "🔗",
+   "title": {
+    "uz": "O‘xshatish",
+    "en": "Analogies",
+    "ru": "Аналогии"
+   },
+   "generator": "analogy6",
+   "skill": "analogy6",
+   "chapter": "2-chorak. Guruhlash va o‘xshatish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "relations": [
+      "eats",
+      "gives",
+      "goes_with"
+     ],
+     "options": 3
+    },
+    {
+     "relations": [
+      "lives",
+      "uses",
+      "weather"
+     ],
+     "options": 4
+    },
+    {
+     "relations": [
+      "eats",
+      "gives",
+      "lives",
+      "uses",
+      "weather",
+      "goes_with"
+     ],
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘xshatish (analogiya): birinchi juftlikdagi bog‘lanishni toping va ikkinchisiga qo‘llang.\nMisol: mushuk — sut, quyon — ? . Mushuk sut ichadi, quyon sabzi yeydi → sabzi.\nAvval juftlikdagi bog‘lanishni so‘z bilan ayting."
+   }
+  },
+  {
+   "id": "logic_g1.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Guruhlash va o‘xshatish",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g1.classify",
+      "logic_g1.analogy"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g1.classify",
+      "logic_g1.analogy"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g1.classify",
+      "logic_g1.analogy"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g1.maze",
+   "code": "5",
+   "emoji": "🌀",
+   "title": {
+    "uz": "Labirint",
+    "en": "Mazes",
+    "ru": "Лабиринты"
+   },
+   "generator": "maze6",
+   "skill": "maze6",
+   "chapter": "3-chorak. Yo‘l va joy",
+   "prerequisites": [],
+   "levels": [
+    {
+     "rows": 5,
+     "cols": 5,
+     "extraOpenings": 1
+    },
+    {
+     "rows": 6,
+     "cols": 6
+    },
+    {
+     "rows": 7,
+     "cols": 7
+    }
+   ],
+   "theory": {
+    "uz": "Labirintdan chiqish: yo‘lni oxiridan boshlab ham izlash mumkin.\n• Devorlardan o‘tib bo‘lmaydi.\n• Berk ko‘chaga kirsangiz, oxirgi burilishga qayting.\nBarmog‘ingiz bilan yo‘lni chizib, maqsadga yetib boring."
+   }
+  },
+  {
+   "id": "logic_g1.grid",
+   "code": "6",
+   "emoji": "📍",
+   "title": {
+    "uz": "Qayerda turibdi?",
+    "en": "Where is it?",
+    "ru": "Где находится?"
+   },
+   "generator": "grid_position",
+   "skill": "grid_position",
+   "chapter": "3-chorak. Yo‘l va joy",
+   "prerequisites": [],
+   "levels": [
+    {
+     "modes": [
+      "ordinal"
+     ],
+     "items": 5
+    },
+    {
+     "modes": [
+      "grid"
+     ]
+    },
+    {
+     "modes": [
+      "grid",
+      "ordinal"
+     ],
+     "items": 7
+    }
+   ],
+   "theory": {
+    "uz": "Joylashuv: chap — o‘ng, yuqori — past, oldin — keyin.\nTartib son: birinchi, ikkinchi, uchinchi …\nKatakli maydonda avval qatorni, keyin ustunni toping."
+   }
+  },
+  {
+   "id": "logic_g1.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Yo‘l va joy",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g1.maze",
+      "logic_g1.grid"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g1.maze",
+      "logic_g1.grid"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g1.maze",
+      "logic_g1.grid"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g1.sudoku",
+   "code": "7",
+   "emoji": "🔢",
+   "title": {
+    "uz": "Kichik sudoku",
+    "en": "Mini sudoku",
+    "ru": "Мини-судоку"
+   },
+   "generator": "sudoku",
+   "skill": "sudoku",
+   "chapter": "4-chorak. Boshqotirmalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "size": 4,
+     "minBlanks": 2,
+     "maxBlanks": 3,
+     "symbols": [
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 3,
+     "maxBlanks": 5,
+     "symbols": [
+      "emoji"
+     ]
+    },
+    {
+     "size": 4,
+     "minBlanks": 5,
+     "maxBlanks": 7,
+     "symbols": [
+      "emoji",
+      "colors"
+     ]
+    }
+   ],
+   "theory": {
+    "uz": "Sudoku: har bir qatorda va har bir ustunda har bir belgi faqat bir martadan uchraydi.\nBo‘sh katak uchun: shu qator va ustunda qaysi belgilar bor — ularni chiqarib tashlang.\nQolgan yagona belgi — javob."
+   }
+  },
+  {
+   "id": "logic_g1.numbers",
+   "code": "8",
+   "emoji": "➕",
+   "title": {
+    "uz": "Sonli qator",
+    "en": "Number rows",
+    "ru": "Числовые ряды"
+   },
+   "generator": "number_sequence",
+   "skill": "number_sequence",
+   "chapter": "4-chorak. Boshqotirmalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "steps": [
+      "1",
+      "2"
+     ],
+     "max": 20,
+     "length": 4
+    },
+    {
+     "steps": [
+      "2",
+      "3",
+      "-1",
+      "-2"
+     ],
+     "max": 30,
+     "length": 4,
+     "missingInside": true
+    },
+    {
+     "steps": [
+      "3",
+      "4",
+      "5",
+      "-3",
+      "10"
+     ],
+     "max": 60,
+     "length": 4,
+     "missingInside": true
+    }
+   ],
+   "theory": {
+    "uz": "Sonli qator: har bir son oldingisidan qanday hosil bo‘lganini toping.\nMisol: 2, 4, 6, 8 — har safar 2 qo‘shiladi, keyingisi 10.\nKamayib borsa — ayirilmoqda: 20, 17, 14 → 11."
+   }
+  },
+  {
+   "id": "logic_g1.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Boshqotirmalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "logic_g1.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Boshqotirmalar",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd",
+      "logic_g1.classify",
+      "logic_g1.analogy",
+      "logic_g1.maze",
+      "logic_g1.grid",
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd",
+      "logic_g1.classify",
+      "logic_g1.analogy",
+      "logic_g1.maze",
+      "logic_g1.grid",
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "logic_g1.pattern",
+      "logic_g1.odd",
+      "logic_g1.classify",
+      "logic_g1.analogy",
+      "logic_g1.maze",
+      "logic_g1.grid",
+      "logic_g1.sudoku",
+      "logic_g1.numbers"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

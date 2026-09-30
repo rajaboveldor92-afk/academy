@@ -109,6 +109,13 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
   son kvadrati, 100 ga yaqin sonlar, foizlar, darajalar, ildiz, Gauss usuli, bo‘linish belgilari). Har sinfda 8 mavzu,
   4 ta nazorat ishi va yillik takrorlash. Dastur: `tool/content/school/mental_curricula.py`, generatorlar —
   `lib/learning/generators/school/mental_gen.dart`, tekshiruv — `test/content/mental_test.dart`.
+* **Mantiq, 1–8-sinf (1.6.0):** har sinfda 4 chorak, 8–11 mavzu. 1–2-sinf: naqsh, ortiqchasini topish, guruhlash,
+  o‘xshatish, labirint, sudoku, matritsa, aylantirish, rasmli tenglamalar, hafta kunlari. 3–8-sinf: o‘ylangan son,
+  “kim nima?” jadvali, sehrli kvadrat, rostgo‘y va yolg‘onchilar, Dirixle prinsipi, kombinatorika, yosh masalalari,
+  murakkab qonuniyatlar (Fibonachchi, kvadratlar, tub sonlar), 7–8-sinfda mulohaza, inkor va mantiqiy amallar
+  (VA, YOKI, EMAS), ehtimollik. Har bir jumboq generator bilan tuziladi va javobi yagonaligi tekshiriladi
+  (`lib/learning/generators/school/logic_school.dart`, `test/content/logic_school_test.dart`); dastur —
+  `tool/content/school/logic_curricula.py` (3 va 5-sinfdagi eski mavzu kalitlari saqlangan).
 
 ## Ilova tillari
 
