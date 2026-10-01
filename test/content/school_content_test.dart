@@ -194,10 +194,11 @@ void main() {
     expect(jasmina.grade, 3);
     expect(akramjon.grade, 5);
     final subjects = Subject.forProfile(jasmina).map((s) => s.id).toList();
-    expect(subjects, containsAll(['math', 'onatili', 'english', 'russian', 'science']));
+    expect(subjects, containsAll(['math', 'onatili', 'english', 'russian', 'science', 'technology']));
     expect(subjects, isNot(contains('trilingual')));
     expect(subjects, isNot(contains('history')));
-    expect(Subject.forProfile(akramjon).map((s) => s.id), contains('history'));
+    expect(Subject.forProfile(akramjon).map((s) => s.id), contains('technology'));
+    expect(Subject.forProfile(akramjon).map((s) => s.id), isNot(contains('history')));
     expect(Subject.math.suffixFor(jasmina), 'g3');
     expect(Subject.chess.suffixFor(jasmina), '6');
     expect(Subject.reading.titleForGrade('uz', 5), 'Adabiyot');
