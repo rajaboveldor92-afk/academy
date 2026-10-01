@@ -175,7 +175,7 @@ enum Subject {
     color: Color(0xFF8D6E63),
     phase: 6,
     preschool: false,
-    grades: [1, 2, 3, 4, 5, 6, 7, 8],
+    grades: [3, 5],
   ),
   informatics(
     id: 'informatics',
