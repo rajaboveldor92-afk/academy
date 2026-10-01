@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'core/app_edition.dart';
-import 'core/constants/app_constants.dart';
 import 'features/session/session_lifecycle.dart';
 import 'l10n/lang_providers.dart';
 import 'l10n/tr.dart';
