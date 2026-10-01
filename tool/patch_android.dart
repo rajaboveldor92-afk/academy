@@ -81,6 +81,10 @@ const String _signingKts = '''
 ''';
 
 const String _flavorsKts = '''
+    buildFeatures {
+        resValues = true
+    }
+
     flavorDimensions += "edition"
     productFlavors {
         create("kids") {
