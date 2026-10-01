@@ -56,7 +56,9 @@
   "science_g3",
   "science_g4",
   "science_g5",
-  "science_g6"
+  "science_g6",
+  "technology_g3",
+  "technology_g5"
  ],
  "banks": [
   "bank_english_g1",
@@ -93,6 +95,8 @@
   "bank_science_g3",
   "bank_science_g4",
   "bank_science_g5",
-  "bank_science_g6"
+  "bank_science_g6",
+  "bank_technology_g3",
+  "bank_technology_g5"
  ]
 }

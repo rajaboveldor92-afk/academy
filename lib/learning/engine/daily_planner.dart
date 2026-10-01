@@ -49,7 +49,7 @@ class DailyPlanner {
 
   /// Maktab o'quvchilari: fanlar navbati (matematika va ona tili ko'proq).
   static const List<String> schoolOrder = [
-    'math', 'logic', 'onatili', 'english', 'mental', 'reading', 'russian', 'science', 'math', 'informatics', 'history',
+    'math', 'logic', 'onatili', 'english', 'mental', 'reading', 'russian', 'science', 'math', 'informatics', 'technology',
     'onatili', 'geography', 'biology', 'physics', 'chemistry',
   ];
 

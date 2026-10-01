@@ -1,0 +1,309 @@
+{
+ "subject": "technology",
+ "ageGroup": "g5",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Texnologiya",
+  "en": "Technology",
+  "ru": "Технология"
+ },
+ "model": "REJA → YASASH → SINASH → YAXSHILASH",
+ "topics": [
+  {
+   "id": "technology_g5.design",
+   "code": "1",
+   "emoji": "📐",
+   "title": {
+    "uz": "Dizayn jarayoni va xavfsizlik",
+    "en": "Dizayn jarayoni va xavfsizlik",
+    "ru": "Dizayn jarayoni va xavfsizlik"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Texnologik loyiha muammoni aniqlashdan boshlanadi. Talablar belgilanadi, g‘oyalar eskizda ko‘rsatiladi, o‘lchamlar yoziladi. Mahsulot sinovdan o‘tkazilib, natijaga ko‘ra takomillashtiriladi."
+   }
+  },
+  {
+   "id": "technology_g5.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.design"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.design"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.design"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g5.materials",
+   "code": "2",
+   "emoji": "🪵",
+   "title": {
+    "uz": "Materiallar xossalari va asboblar",
+    "en": "Materiallar xossalari va asboblar",
+    "ru": "Materiallar xossalari va asboblar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qog‘oz, karton, yog‘och, mato, plastmassa va metallning xossalari turlicha. Material vazifaga ko‘ra tanlanadi; mustahkamlik, egiluvchanlik, og‘irlik va namlikka chidamlilik hisobga olinadi."
+   }
+  },
+  {
+   "id": "technology_g5.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.materials"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.materials"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.materials"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g5.mechanisms",
+   "code": "3",
+   "emoji": "⚙️",
+   "title": {
+    "uz": "Oddiy mexanizmlar va elektr zanjiri",
+    "en": "Oddiy mexanizmlar va elektr zanjiri",
+    "ru": "Oddiy mexanizmlar va elektr zanjiri"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi."
+   }
+  },
+  {
+   "id": "technology_g5.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.mechanisms"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.mechanisms"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.mechanisms"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g5.prototype",
+   "code": "4",
+   "emoji": "🧩",
+   "title": {
+    "uz": "Prototip, algoritm va taqdimot",
+    "en": "Prototip, algoritm va taqdimot",
+    "ru": "Prototip, algoritm va taqdimot"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm — aniq qadamlar ketma-ketligi. Prototip g‘oyani erta sinashga yordam beradi. Loyiha hujjatida maqsad, eskiz, material, ketma-ketlik, sinov natijasi va yaxshilashlar qayd etiladi."
+   }
+  },
+  {
+   "id": "technology_g5.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.prototype"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.prototype"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.prototype"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g5.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.mechanisms",
+      "technology_g5.prototype"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.mechanisms",
+      "technology_g5.prototype"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.mechanisms",
+      "technology_g5.prototype"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

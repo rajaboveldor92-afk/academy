@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/app_edition.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/providers.dart';
 import '../../models/child_profile.dart';
@@ -23,7 +24,11 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
   final Random _random = Random();
 
   @override
-  List<ChildProfile> build() => ref.read(databaseProvider).getProfiles();
+  List<ChildProfile> build() => ref
+      .read(databaseProvider)
+      .getProfiles()
+      .where(AppEditionConfig.acceptsProfile)
+      .toList();
 
   /// Ism va yoshni tekshiradi; muammo bo'lsa [ProfileValidationException].
   static void validate({required String name, required int age, String fullName = ''}) {
@@ -56,7 +61,9 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
     String language = 'uz',
     int grade = 0,
   }) async {
-    validate(name: name, age: age, fullName: fullName);
+    final safeAge = AppEditionConfig.normalizeAge(age);
+    final safeGrade = AppEditionConfig.normalizeGrade(grade);
+    validate(name: name, age: safeAge, fullName: fullName);
     final profile = ChildProfile.create(
       id: _newId(),
       name: name,
@@ -64,8 +71,8 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       greeting: greeting,
       photoPath: photoPath,
       language: language,
-      grade: grade,
-      age: age,
+      grade: safeGrade,
+      age: safeAge,
       avatar: avatar,
       colorIndex: colorIndex ?? state.length,
       now: ref.read(clockProvider)(),
@@ -76,10 +83,14 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
   }
 
   Future<void> updateProfile(ChildProfile profile) async {
-    validate(name: profile.name, age: profile.age, fullName: profile.fullName);
-    await ref.read(databaseProvider).saveProfile(profile);
+    final normalized = profile.copyWith(
+      age: AppEditionConfig.normalizeAge(profile.age),
+      grade: AppEditionConfig.normalizeGrade(profile.grade),
+    );
+    validate(name: normalized.name, age: normalized.age, fullName: normalized.fullName);
+    await ref.read(databaseProvider).saveProfile(normalized);
     state = [
-      for (final p in state) p.id == profile.id ? profile : p,
+      for (final p in state) p.id == normalized.id ? normalized : p,
     ];
   }
 
@@ -95,7 +106,11 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
   }
 
   /// Backup import qilingandan keyin bazadan qayta o'qish.
-  void reload() => state = ref.read(databaseProvider).getProfiles();
+  void reload() => state = ref
+      .read(databaseProvider)
+      .getProfiles()
+      .where(AppEditionConfig.acceptsProfile)
+      .toList();
 }
 
 final profilesProvider =

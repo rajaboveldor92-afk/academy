@@ -1,3 +1,4 @@
+import '../core/app_edition.dart';
 import '../models/child_profile.dart';
 import 'local_database.dart';
 
@@ -74,6 +75,7 @@ class SeedData {
       );
 
   static Future<void> _addSchoolChildren(LocalDatabase db, DateTime base) async {
+    if (AppEditionConfig.isKids) return;
     if (db.getProfile(jasminaId) == null) await db.saveProfile(jasmina(base.add(const Duration(milliseconds: 2))));
     if (db.getProfile(akramjonId) == null) await db.saveProfile(akramjon(base.add(const Duration(milliseconds: 3))));
   }
@@ -84,8 +86,10 @@ class SeedData {
 
     if (!settings.seeded) {
       if (db.getProfiles().isEmpty) {
-        await db.saveProfile(azamjon(base));
-        await db.saveProfile(muhammadjon(base.add(const Duration(milliseconds: 1))));
+        if (!AppEditionConfig.isSchool) {
+          await db.saveProfile(azamjon(base));
+          await db.saveProfile(muhammadjon(base.add(const Duration(milliseconds: 1))));
+        }
         await _addSchoolChildren(db, base);
       }
       settings = settings.copyWith(seeded: true, dataVersion: currentDataVersion);

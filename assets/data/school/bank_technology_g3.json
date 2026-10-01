@@ -1,0 +1,844 @@
+{
+ "items": [
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_1",
+   "t": "choice",
+   "q": "Ishni boshlashdan oldin nima qilish kerak?",
+   "a": "Ish joyini tayyorlash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_2",
+   "t": "choice",
+   "q": "Qaychini qanday uzatish xavfsiz?",
+   "a": "Yopiq holda dastasini oldinga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_3",
+   "t": "choice",
+   "q": "O‘lchash uchun nima ishlatiladi?",
+   "a": "Chizg‘ich",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_4",
+   "t": "choice",
+   "q": "Materialni kesishdan avval nima foydali?",
+   "a": "Belgilash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_5",
+   "t": "choice",
+   "q": "Ish tugagach nima qilinadi?",
+   "a": "Ish joyi yig‘ishtiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_6",
+   "t": "choice",
+   "q": "Materialni tejash nimaga yordam beradi?",
+   "a": "Chiqindini kamaytirishga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_7",
+   "t": "choice",
+   "q": "Andoza nima uchun kerak?",
+   "a": "Shaklni aniq ko‘chirish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_8",
+   "t": "choice",
+   "q": "Karton qog‘ozdan qanday farq qiladi?",
+   "a": "Odatda qalinroq",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_9",
+   "t": "choice",
+   "q": "Loyiha nimadan boshlanadi?",
+   "a": "Maqsadni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_10",
+   "t": "choice",
+   "q": "Eskiz nima?",
+   "a": "G‘oyaning dastlabki chizmasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_11",
+   "t": "choice",
+   "q": "Tayyor buyum bilan nima qilinadi?",
+   "a": "Tekshiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_12",
+   "t": "choice",
+   "q": "Xato topilsa nima qilinadi?",
+   "a": "Yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_13",
+   "t": "choice",
+   "q": "Qayta ishlatishning foydasi nima?",
+   "a": "Resursni tejash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_14",
+   "t": "choice",
+   "q": "Elim qanday ishlatiladi?",
+   "a": "Kerakli miqdorda",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_15",
+   "t": "choice",
+   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
+   "a": "O‘qituvchidan so‘raysiz",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_1",
+   "t": "choice",
+   "q": "Ishni boshlashdan oldin nima qilish kerak?",
+   "a": "Ish joyini tayyorlash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_2",
+   "t": "choice",
+   "q": "Qaychini qanday uzatish xavfsiz?",
+   "a": "Yopiq holda dastasini oldinga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_3",
+   "t": "choice",
+   "q": "O‘lchash uchun nima ishlatiladi?",
+   "a": "Chizg‘ich",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_4",
+   "t": "choice",
+   "q": "Materialni kesishdan avval nima foydali?",
+   "a": "Belgilash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_5",
+   "t": "choice",
+   "q": "Ish tugagach nima qilinadi?",
+   "a": "Ish joyi yig‘ishtiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_6",
+   "t": "choice",
+   "q": "Materialni tejash nimaga yordam beradi?",
+   "a": "Chiqindini kamaytirishga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_7",
+   "t": "choice",
+   "q": "Andoza nima uchun kerak?",
+   "a": "Shaklni aniq ko‘chirish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_8",
+   "t": "choice",
+   "q": "Karton qog‘ozdan qanday farq qiladi?",
+   "a": "Odatda qalinroq",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_9",
+   "t": "choice",
+   "q": "Loyiha nimadan boshlanadi?",
+   "a": "Maqsadni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_10",
+   "t": "choice",
+   "q": "Eskiz nima?",
+   "a": "G‘oyaning dastlabki chizmasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_11",
+   "t": "choice",
+   "q": "Tayyor buyum bilan nima qilinadi?",
+   "a": "Tekshiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_12",
+   "t": "choice",
+   "q": "Xato topilsa nima qilinadi?",
+   "a": "Yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_13",
+   "t": "choice",
+   "q": "Qayta ishlatishning foydasi nima?",
+   "a": "Resursni tejash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_14",
+   "t": "choice",
+   "q": "Elim qanday ishlatiladi?",
+   "a": "Kerakli miqdorda",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_15",
+   "t": "choice",
+   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
+   "a": "O‘qituvchidan so‘raysiz",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_1",
+   "t": "choice",
+   "q": "Ishni boshlashdan oldin nima qilish kerak?",
+   "a": "Ish joyini tayyorlash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_2",
+   "t": "choice",
+   "q": "Qaychini qanday uzatish xavfsiz?",
+   "a": "Yopiq holda dastasini oldinga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_3",
+   "t": "choice",
+   "q": "O‘lchash uchun nima ishlatiladi?",
+   "a": "Chizg‘ich",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_4",
+   "t": "choice",
+   "q": "Materialni kesishdan avval nima foydali?",
+   "a": "Belgilash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_5",
+   "t": "choice",
+   "q": "Ish tugagach nima qilinadi?",
+   "a": "Ish joyi yig‘ishtiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_6",
+   "t": "choice",
+   "q": "Materialni tejash nimaga yordam beradi?",
+   "a": "Chiqindini kamaytirishga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_7",
+   "t": "choice",
+   "q": "Andoza nima uchun kerak?",
+   "a": "Shaklni aniq ko‘chirish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_8",
+   "t": "choice",
+   "q": "Karton qog‘ozdan qanday farq qiladi?",
+   "a": "Odatda qalinroq",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_9",
+   "t": "choice",
+   "q": "Loyiha nimadan boshlanadi?",
+   "a": "Maqsadni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_10",
+   "t": "choice",
+   "q": "Eskiz nima?",
+   "a": "G‘oyaning dastlabki chizmasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_11",
+   "t": "choice",
+   "q": "Tayyor buyum bilan nima qilinadi?",
+   "a": "Tekshiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_12",
+   "t": "choice",
+   "q": "Xato topilsa nima qilinadi?",
+   "a": "Yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_13",
+   "t": "choice",
+   "q": "Qayta ishlatishning foydasi nima?",
+   "a": "Resursni tejash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_14",
+   "t": "choice",
+   "q": "Elim qanday ishlatiladi?",
+   "a": "Kerakli miqdorda",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.reuse",
+   "id": "reuse_15",
+   "t": "choice",
+   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
+   "a": "O‘qituvchidan so‘raysiz",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_1",
+   "t": "choice",
+   "q": "Ishni boshlashdan oldin nima qilish kerak?",
+   "a": "Ish joyini tayyorlash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_2",
+   "t": "choice",
+   "q": "Qaychini qanday uzatish xavfsiz?",
+   "a": "Yopiq holda dastasini oldinga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_3",
+   "t": "choice",
+   "q": "O‘lchash uchun nima ishlatiladi?",
+   "a": "Chizg‘ich",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_4",
+   "t": "choice",
+   "q": "Materialni kesishdan avval nima foydali?",
+   "a": "Belgilash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_5",
+   "t": "choice",
+   "q": "Ish tugagach nima qilinadi?",
+   "a": "Ish joyi yig‘ishtiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_6",
+   "t": "choice",
+   "q": "Materialni tejash nimaga yordam beradi?",
+   "a": "Chiqindini kamaytirishga",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_7",
+   "t": "choice",
+   "q": "Andoza nima uchun kerak?",
+   "a": "Shaklni aniq ko‘chirish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_8",
+   "t": "choice",
+   "q": "Karton qog‘ozdan qanday farq qiladi?",
+   "a": "Odatda qalinroq",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_9",
+   "t": "choice",
+   "q": "Loyiha nimadan boshlanadi?",
+   "a": "Maqsadni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_10",
+   "t": "choice",
+   "q": "Eskiz nima?",
+   "a": "G‘oyaning dastlabki chizmasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_11",
+   "t": "choice",
+   "q": "Tayyor buyum bilan nima qilinadi?",
+   "a": "Tekshiriladi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_12",
+   "t": "choice",
+   "q": "Xato topilsa nima qilinadi?",
+   "a": "Yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_13",
+   "t": "choice",
+   "q": "Qayta ishlatishning foydasi nima?",
+   "a": "Resursni tejash",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_14",
+   "t": "choice",
+   "q": "Elim qanday ishlatiladi?",
+   "a": "Kerakli miqdorda",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_15",
+   "t": "choice",
+   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
+   "a": "O‘qituvchidan so‘raysiz",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  }
+ ]
+}

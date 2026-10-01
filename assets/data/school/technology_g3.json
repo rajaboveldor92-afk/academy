@@ -1,0 +1,309 @@
+{
+ "subject": "technology",
+ "ageGroup": "g3",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Texnologiya",
+  "en": "Technology",
+  "ru": "Технология"
+ },
+ "model": "REJA → YASASH → SINASH → YAXSHILASH",
+ "topics": [
+  {
+   "id": "technology_g3.safety",
+   "code": "1",
+   "emoji": "✂️",
+   "title": {
+    "uz": "Asboblar va xavfsizlik",
+    "en": "Asboblar va xavfsizlik",
+    "ru": "Asboblar va xavfsizlik"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ish joyini tartibli saqlang. Qaychini yopiq holda dastasi oldinga qaratib uzating. Chizg‘ich o‘lchash va to‘g‘ri chiziq chizish uchun, elim esa qismlarni biriktirish uchun ishlatiladi."
+   }
+  },
+  {
+   "id": "technology_g3.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.safety"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.safety"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.safety"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g3.paper",
+   "code": "2",
+   "emoji": "📄",
+   "title": {
+    "uz": "Qog‘oz va karton",
+    "en": "Qog‘oz va karton",
+    "ru": "Qog‘oz va karton"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qog‘oz yupqa va oson bukiladi, karton esa qalinroq va mustahkamroq. Avval o‘lchang va belgilang, keyin kesing, buklang yoki yelimlang. Andoza bir xil shakllarni aniq ko‘chirishga yordam beradi."
+   }
+  },
+  {
+   "id": "technology_g3.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.paper"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.paper"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.paper"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g3.reuse",
+   "code": "3",
+   "emoji": "♻️",
+   "title": {
+    "uz": "Tabiiy va qayta ishlatiladigan materiallar",
+    "en": "Tabiiy va qayta ishlatiladigan materiallar",
+    "ru": "Tabiiy va qayta ishlatiladigan materiallar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Quruq barg, urug‘ va novda tabiiy materiallardir. Toza quti, karton va qopqoqlarni qayta ishlatish mumkin. Materialni tejash va chiqindini saralash tabiatni asrashga yordam beradi."
+   }
+  },
+  {
+   "id": "technology_g3.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.reuse"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.reuse"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.reuse"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g3.project",
+   "code": "4",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Oddiy loyiha va maket",
+    "en": "Oddiy loyiha va maket",
+    "ru": "Oddiy loyiha va maket"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Loyiha maqsadni aniqlashdan boshlanadi. G‘oya eskizda ko‘rsatiladi, material tanlanadi, buyum ketma-ket tayyorlanadi, sinovdan o‘tkaziladi va kamchiliklari yaxshilanadi."
+   }
+  },
+  {
+   "id": "technology_g3.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.project"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.project"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.project"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "technology_g3.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.project"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.project"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.project"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

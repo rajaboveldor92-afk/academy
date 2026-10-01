@@ -1,8 +1,8 @@
 name: academy
-description: "Azamjon & Muhammadjon Academy — 4–7 yoshli bolalar uchun offline ta'limiy o'yin platformasi."
+description: "Academy Kids (3–8 yosh) va Academy Maktab — offline ta'lim platformasi."
 publish_to: 'none'
 
-version: 1.6.0+18
+version: 1.7.0+19
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
