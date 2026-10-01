@@ -98,7 +98,7 @@ const String _flavorsKts = '''
 
 String _patchSigningKts(String text) {
   if (text.contains('academyKeyProps')) return text;
-  final android = RegExp(r'^android\s*\{\s*$', multiLine: true).firstMatch(text);
+  final android = RegExp(r'^android\s*\{', multiLine: true).firstMatch(text);
   if (android == null) return text;
   text = text.replaceRange(android.end, android.end, '\n$_signingKts');
   text = text.replaceRange(android.start, android.start, _propsKts);
@@ -117,7 +117,7 @@ String _patchSigningKts(String text) {
 
 String _patchFlavorsKts(String text) {
   if (text.contains('flavorDimensions += "edition"')) return text;
-  final android = RegExp(r'^android\s*\{\s*$', multiLine: true).firstMatch(text);
+  final android = RegExp(r'^android\s*\{', multiLine: true).firstMatch(text);
   if (android == null) return text;
   text = text.replaceRange(android.end, android.end, '\n$_flavorsKts');
   print('build.gradle.kts: kids va school flavorlari qo‘shildi.');
