@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'core/app_edition.dart';
 import 'core/constants/app_constants.dart';
 import 'features/session/session_lifecycle.dart';
 import 'l10n/lang_providers.dart';
@@ -17,7 +18,7 @@ class AcademyApp extends ConsumerWidget {
     final lang = ref.watch(appLangProvider);
     return SessionLifecycle(
       child: MaterialApp(
-        title: AppConstants.appName,
+        title: AppEditionConfig.appName,
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light(),
         initialRoute: AppRoutes.splash,
