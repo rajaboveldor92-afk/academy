@@ -12,7 +12,7 @@
 // ignore_for_file: avoid_print
 import 'dart:io';
 
-const String appLabel = 'A&amp;M Academy';
+const String appLabel = '@string/app_name';
 const String ttsQuery = '''
         <intent>
             <action android:name="android.intent.action.TTS_SERVICE" />
@@ -75,11 +75,84 @@ void main() {
     // 5. Release imzosi.
     if (path.endsWith('.kts')) {
       text = _patchSigningKts(text);
+      text = _patchFlavorsKts(text);
     } else if (!text.contains('key.properties')) {
       print('$path: Groovy build fayli — release imzosi uchun key.properties qo‘lda ulanadi (README).');
     }
     gradle.writeAsStringSync(text);
   }
+}
+
+
+const String _flavorsKts = '''
+    flavorDimensions += "edition"
+    productFlavors {
+        create("kids") {
+            dimension = "edition"
+            applicationIdSuffix = ".kids"
+            resValue("string", "app_name", "Academy Kids")
+        }
+        create("school") {
+            dimension = "edition"
+            applicationIdSuffix = ".school"
+            resValue("string", "app_name", "Academy Maktab")
+        }
+    }
+''';
+
+String _patchFlavorsKts(String text) {
+  if (text.contains('flavorDimensions += "edition"')) return text;
+  final android = RegExp(r'^android\s*\{\s*\
+// A&M Academy: android/key.properties bo'lsa — barqaror release imzosi.
+val academyKeyProps = Properties().apply {
+    val f = rootProject.file("key.properties")
+    if (f.exists()) f.inputStream().use { stream -> load(stream) }
+}
+
+''';
+
+const String _signingKts = '''
+    signingConfigs {
+        if (academyKeyProps.getProperty("storeFile") != null) {
+            create("academy") {
+                storeFile = file(academyKeyProps.getProperty("storeFile"))
+                storePassword = academyKeyProps.getProperty("storePassword")
+                keyAlias = academyKeyProps.getProperty("keyAlias")
+                keyPassword = academyKeyProps.getProperty("keyPassword")
+            }
+        }
+    }
+''';
+
+String _patchSigningKts(String text) {
+  if (text.contains('academyKeyProps')) return text;
+  final android = RegExp(r'^android\s*\{\s*$', multiLine: true).firstMatch(text);
+  if (android == null) {
+    print('build.gradle.kts: "android {" bloki topilmadi — imzo sozlanmadi.');
+    return text;
+  }
+  // android { ... } ichida `java` — Gradle kengaytmasi, shuning uchun Properties import qilinadi
+  // va kalit fayli blokdan tashqarida o'qiladi.
+  text = text.replaceRange(android.end, android.end, '\n$_signingKts');
+  text = text.replaceRange(android.start, android.start, _propsKts);
+  if (!text.contains('import java.util.Properties')) text = 'import java.util.Properties\n\n$text';
+  const debugLine = 'signingConfig = signingConfigs.getByName("debug")';
+  if (text.contains(debugLine)) {
+    text = text.replaceFirst(
+      debugLine,
+      'signingConfig = signingConfigs.findByName("academy") ?: signingConfigs.getByName("debug")',
+    );
+    print('build.gradle.kts: release imzosi key.properties orqali.');
+  } else {
+    print('build.gradle.kts: release signingConfig qatori topilmadi — imzo sozlanmadi.');
+  }
+  return text;
+}
+, multiLine: true).firstMatch(text);
+  if (android == null) return text;
+  text = text.replaceRange(android.end, android.end, '\n\$_flavorsKts');
+  print('build.gradle.kts: kids va school flavorlari qo‘shildi.');
+  return text;
 }
 
 const String _propsKts = '''
