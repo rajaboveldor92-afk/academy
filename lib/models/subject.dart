@@ -165,7 +165,7 @@ enum Subject {
     color: Color(0xFF8D6E63),
     phase: 6,
     preschool: false,
-    grades: const [],
+    grades: [],
   ),
   technology(
     id: 'technology',
