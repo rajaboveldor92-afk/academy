@@ -1,0 +1,844 @@
+{
+ "items": [
+  {
+   "topic": "technology_g5.design",
+   "id": "design_1",
+   "t": "choice",
+   "q": "Dizayn jarayoni nimadan boshlanadi?",
+   "a": "Muammoni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_2",
+   "t": "choice",
+   "q": "Talablar nima uchun kerak?",
+   "a": "Yechimni baholash uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_3",
+   "t": "choice",
+   "q": "Eskiz nima uchun kerak?",
+   "a": "G‘oyani ko‘rsatish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_4",
+   "t": "choice",
+   "q": "Prototip nima?",
+   "a": "G‘oyani sinash namunasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_5",
+   "t": "choice",
+   "q": "Sinovdan keyin nima qilinadi?",
+   "a": "Natijaga ko‘ra yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_6",
+   "t": "choice",
+   "q": "Material qanday tanlanadi?",
+   "a": "Vazifasi va xossasiga ko‘ra",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_7",
+   "t": "choice",
+   "q": "Mustahkamlik nimani bildiradi?",
+   "a": "Yukka bardosh berishni",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_8",
+   "t": "choice",
+   "q": "Richag nima qiladi?",
+   "a": "Kuchni qulay uzatadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_9",
+   "t": "choice",
+   "q": "Tishli uzatma nima uzatadi?",
+   "a": "Aylanish harakatini",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_10",
+   "t": "choice",
+   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
+   "a": "Batareya",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_11",
+   "t": "choice",
+   "q": "Kalitning vazifasi nima?",
+   "a": "Zanjirni ochib-yopish",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_12",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Aniq qadamlar ketma-ketligi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_13",
+   "t": "choice",
+   "q": "Loyiha hujjati nima uchun kerak?",
+   "a": "Jarayonni qayd etish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_14",
+   "t": "choice",
+   "q": "Taqdimotda nima tushuntiriladi?",
+   "a": "Muammo, yechim va natija",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.design",
+   "id": "design_15",
+   "t": "choice",
+   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
+   "a": "Yo‘q, xavfli",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_1",
+   "t": "choice",
+   "q": "Dizayn jarayoni nimadan boshlanadi?",
+   "a": "Muammoni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_2",
+   "t": "choice",
+   "q": "Talablar nima uchun kerak?",
+   "a": "Yechimni baholash uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_3",
+   "t": "choice",
+   "q": "Eskiz nima uchun kerak?",
+   "a": "G‘oyani ko‘rsatish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_4",
+   "t": "choice",
+   "q": "Prototip nima?",
+   "a": "G‘oyani sinash namunasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_5",
+   "t": "choice",
+   "q": "Sinovdan keyin nima qilinadi?",
+   "a": "Natijaga ko‘ra yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_6",
+   "t": "choice",
+   "q": "Material qanday tanlanadi?",
+   "a": "Vazifasi va xossasiga ko‘ra",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_7",
+   "t": "choice",
+   "q": "Mustahkamlik nimani bildiradi?",
+   "a": "Yukka bardosh berishni",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_8",
+   "t": "choice",
+   "q": "Richag nima qiladi?",
+   "a": "Kuchni qulay uzatadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_9",
+   "t": "choice",
+   "q": "Tishli uzatma nima uzatadi?",
+   "a": "Aylanish harakatini",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_10",
+   "t": "choice",
+   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
+   "a": "Batareya",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_11",
+   "t": "choice",
+   "q": "Kalitning vazifasi nima?",
+   "a": "Zanjirni ochib-yopish",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_12",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Aniq qadamlar ketma-ketligi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_13",
+   "t": "choice",
+   "q": "Loyiha hujjati nima uchun kerak?",
+   "a": "Jarayonni qayd etish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_14",
+   "t": "choice",
+   "q": "Taqdimotda nima tushuntiriladi?",
+   "a": "Muammo, yechim va natija",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_15",
+   "t": "choice",
+   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
+   "a": "Yo‘q, xavfli",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_1",
+   "t": "choice",
+   "q": "Dizayn jarayoni nimadan boshlanadi?",
+   "a": "Muammoni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_2",
+   "t": "choice",
+   "q": "Talablar nima uchun kerak?",
+   "a": "Yechimni baholash uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_3",
+   "t": "choice",
+   "q": "Eskiz nima uchun kerak?",
+   "a": "G‘oyani ko‘rsatish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_4",
+   "t": "choice",
+   "q": "Prototip nima?",
+   "a": "G‘oyani sinash namunasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_5",
+   "t": "choice",
+   "q": "Sinovdan keyin nima qilinadi?",
+   "a": "Natijaga ko‘ra yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_6",
+   "t": "choice",
+   "q": "Material qanday tanlanadi?",
+   "a": "Vazifasi va xossasiga ko‘ra",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_7",
+   "t": "choice",
+   "q": "Mustahkamlik nimani bildiradi?",
+   "a": "Yukka bardosh berishni",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_8",
+   "t": "choice",
+   "q": "Richag nima qiladi?",
+   "a": "Kuchni qulay uzatadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_9",
+   "t": "choice",
+   "q": "Tishli uzatma nima uzatadi?",
+   "a": "Aylanish harakatini",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_10",
+   "t": "choice",
+   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
+   "a": "Batareya",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_11",
+   "t": "choice",
+   "q": "Kalitning vazifasi nima?",
+   "a": "Zanjirni ochib-yopish",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_12",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Aniq qadamlar ketma-ketligi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_13",
+   "t": "choice",
+   "q": "Loyiha hujjati nima uchun kerak?",
+   "a": "Jarayonni qayd etish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_14",
+   "t": "choice",
+   "q": "Taqdimotda nima tushuntiriladi?",
+   "a": "Muammo, yechim va natija",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_15",
+   "t": "choice",
+   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
+   "a": "Yo‘q, xavfli",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_1",
+   "t": "choice",
+   "q": "Dizayn jarayoni nimadan boshlanadi?",
+   "a": "Muammoni aniqlashdan",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_2",
+   "t": "choice",
+   "q": "Talablar nima uchun kerak?",
+   "a": "Yechimni baholash uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_3",
+   "t": "choice",
+   "q": "Eskiz nima uchun kerak?",
+   "a": "G‘oyani ko‘rsatish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_4",
+   "t": "choice",
+   "q": "Prototip nima?",
+   "a": "G‘oyani sinash namunasi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_5",
+   "t": "choice",
+   "q": "Sinovdan keyin nima qilinadi?",
+   "a": "Natijaga ko‘ra yaxshilanadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_6",
+   "t": "choice",
+   "q": "Material qanday tanlanadi?",
+   "a": "Vazifasi va xossasiga ko‘ra",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_7",
+   "t": "choice",
+   "q": "Mustahkamlik nimani bildiradi?",
+   "a": "Yukka bardosh berishni",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_8",
+   "t": "choice",
+   "q": "Richag nima qiladi?",
+   "a": "Kuchni qulay uzatadi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 1,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_9",
+   "t": "choice",
+   "q": "Tishli uzatma nima uzatadi?",
+   "a": "Aylanish harakatini",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_10",
+   "t": "choice",
+   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
+   "a": "Batareya",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_11",
+   "t": "choice",
+   "q": "Kalitning vazifasi nima?",
+   "a": "Zanjirni ochib-yopish",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_12",
+   "t": "choice",
+   "q": "Algoritm nima?",
+   "a": "Aniq qadamlar ketma-ketligi",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_13",
+   "t": "choice",
+   "q": "Loyiha hujjati nima uchun kerak?",
+   "a": "Jarayonni qayd etish uchun",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_14",
+   "t": "choice",
+   "q": "Taqdimotda nima tushuntiriladi?",
+   "a": "Muammo, yechim va natija",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_15",
+   "t": "choice",
+   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
+   "a": "Yo‘q, xavfli",
+   "w": [
+    "Qalam",
+    "Elim",
+    "Tasodifiy javob"
+   ],
+   "d": 2,
+   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+  }
+ ]
+}
