@@ -1,0 +1,4874 @@
+{
+ "items": [
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_1",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "N",
+   "w": [
+    "M",
+    "L",
+    "B"
+   ],
+   "d": 1,
+   "x": "Bu — non. “non” so‘zi “n” tovushi bilan boshlanadi.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_2",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "K",
+   "w": [
+    "Q",
+    "T",
+    "G"
+   ],
+   "d": 1,
+   "x": "Bu — kitob. “kitob” so‘zi “k” tovushi bilan boshlanadi.",
+   "e": "📖"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_3",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "L",
+   "w": [
+    "N",
+    "R",
+    "O"
+   ],
+   "d": 1,
+   "x": "Bu — lola. “lola” so‘zi “l” tovushi bilan boshlanadi.",
+   "e": "🌷"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_4",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "T",
+   "w": [
+    "D",
+    "K",
+    "F"
+   ],
+   "d": 1,
+   "x": "Bu — tarvuz. “tarvuz” so‘zi “t” tovushi bilan boshlanadi.",
+   "e": "🍉"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_5",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "U",
+   "w": [
+    "O",
+    "I",
+    "Y"
+   ],
+   "d": 1,
+   "x": "Bu — uy. “uy” so‘zi “u” tovushi bilan boshlanadi.",
+   "e": "🏠"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_6",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "D",
+   "w": [
+    "T",
+    "B",
+    "R"
+   ],
+   "d": 1,
+   "x": "Bu — daraxt. “daraxt” so‘zi “d” tovushi bilan boshlanadi.",
+   "e": "🌳"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_7",
+   "t": "choice",
+   "q": "“mushuk” so‘zi qaysi harf bilan tugaydi?",
+   "a": "k",
+   "w": [
+    "q",
+    "g",
+    "sh"
+   ],
+   "d": 1,
+   "x": "mushuk: oxirgi tovush — “k”.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_8",
+   "t": "choice",
+   "q": "“gul” so‘zi qaysi harf bilan tugaydi?",
+   "a": "l",
+   "w": [
+    "n",
+    "r",
+    "g"
+   ],
+   "d": 1,
+   "x": "gul: oxirgi tovush — “l”.",
+   "e": "🌸"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_9",
+   "t": "choice",
+   "q": "“baliq” so‘zi qaysi harf bilan tugaydi?",
+   "a": "q",
+   "w": [
+    "k",
+    "g",
+    "x"
+   ],
+   "d": 1,
+   "x": "baliq: oxirgi tovush — “q”.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_10",
+   "t": "choice",
+   "q": "“limon” so‘zi qaysi harf bilan tugaydi?",
+   "a": "n",
+   "w": [
+    "m",
+    "l",
+    "o"
+   ],
+   "d": 2,
+   "x": "limon: oxirgi tovush — “n”.",
+   "e": "🍋"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_11",
+   "t": "choice",
+   "q": "“ot” so‘zida nechta tovush bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "o-t — 2 ta tovush.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_12",
+   "t": "choice",
+   "q": "“non” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "n-o-n — 3 ta tovush.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_13",
+   "t": "choice",
+   "q": "“gul” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "g-u-l — 3 ta tovush.",
+   "e": "🌸"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_14",
+   "t": "choice",
+   "q": "“olma” so‘zida nechta tovush bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 1,
+   "x": "o-l-m-a — 4 ta tovush.",
+   "e": "🍎"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_15",
+   "t": "choice",
+   "q": "“qalam” so‘zida nechta tovush bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 2,
+   "x": "q-a-l-a-m — 5 ta tovush.",
+   "e": "✏️"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_16",
+   "t": "choice",
+   "q": "“tarvuz” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 2,
+   "x": "t-a-r-v-u-z — 6 ta tovush.",
+   "e": "🍉"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_17",
+   "t": "choice",
+   "q": "“ot” so‘zidagi birinchi tovush qaysi?",
+   "a": "o",
+   "w": [
+    "t",
+    "u",
+    "a"
+   ],
+   "d": 1,
+   "x": "o-t: birinchi tovush — o.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_18",
+   "t": "choice",
+   "q": "Tovushni nima qilamiz?",
+   "a": "Eshitamiz va aytamiz",
+   "w": [
+    "Ko‘ramiz va yozamiz",
+    "Bo‘yaymiz",
+    "Hidlaymiz"
+   ],
+   "d": 1,
+   "x": "Tovushni eshitamiz va aytamiz, harfni esa ko‘ramiz va yozamiz."
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_19",
+   "t": "choice",
+   "q": "Harfni nima qilamiz?",
+   "a": "Ko‘ramiz va yozamiz",
+   "w": [
+    "Faqat eshitamiz",
+    "Hidlaymiz",
+    "Tatib ko‘ramiz"
+   ],
+   "d": 2,
+   "x": "Harf — tovushning yozuvdagi belgisi: uni ko‘ramiz va yozamiz."
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_20",
+   "t": "tf",
+   "q": "Harfni ko‘ramiz va yozamiz.",
+   "a": true,
+   "d": 1,
+   "x": "Tovushni esa eshitamiz va aytamiz."
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_21",
+   "t": "tf",
+   "q": "“non” so‘zida 4 ta tovush bor.",
+   "a": false,
+   "d": 1,
+   "x": "n-o-n — 3 ta tovush."
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_22",
+   "t": "tf",
+   "q": "“olma” so‘zi “o” tovushi bilan boshlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "o-l-m-a: birinchi tovush — o.",
+   "e": "🍎"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_23",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "o",
+    "t"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "o + t = ot.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_24",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "n",
+    "o",
+    "n"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "n + o + n = non.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_25",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "g",
+    "u",
+    "l"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "g + u + l = gul.",
+   "e": "🌸"
+  },
+  {
+   "topic": "onatili_g1.sound_letter",
+   "id": "sound_letter_26",
+   "t": "match",
+   "q": "Katta harfni kichik harfi bilan juftlang",
+   "pairs": [
+    [
+     "A",
+     "a"
+    ],
+    [
+     "B",
+     "b"
+    ],
+    [
+     "D",
+     "d"
+    ],
+    [
+     "M",
+     "m"
+    ],
+    [
+     "Q",
+     "q"
+    ],
+    [
+     "R",
+     "r"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir harfning katta va kichik shakli bor."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_1",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "O",
+   "w": [
+    "U",
+    "A",
+    "O‘"
+   ],
+   "d": 1,
+   "x": "Bu — olma. “olma” so‘zi “o” unlisi bilan boshlanadi.",
+   "e": "🍎"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_2",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "U",
+   "w": [
+    "A",
+    "I",
+    "O"
+   ],
+   "d": 1,
+   "x": "Bu — uzum. “uzum” so‘zi “u” unlisi bilan boshlanadi.",
+   "e": "🍇"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_3",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "I",
+   "w": [
+    "E",
+    "O‘",
+    "A"
+   ],
+   "d": 1,
+   "x": "Bu — ilon. “ilon” so‘zi “i” unlisi bilan boshlanadi.",
+   "e": "🐍"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_4",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "E",
+   "w": [
+    "A",
+    "I",
+    "O‘"
+   ],
+   "d": 1,
+   "x": "Bu — echki. “echki” so‘zi “e” unlisi bilan boshlanadi.",
+   "e": "🐐"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_5",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "A",
+   "w": [
+    "I",
+    "O‘",
+    "E"
+   ],
+   "d": 1,
+   "x": "Bu — ari. “ari” so‘zi “a” unlisi bilan boshlanadi.",
+   "e": "🐝"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_6",
+   "t": "choice",
+   "q": "Rasmdagi so‘z qaysi unli bilan boshlanadi?",
+   "a": "O‘",
+   "w": [
+    "O",
+    "U",
+    "A"
+   ],
+   "d": 2,
+   "x": "Bu — o‘rdak. “o‘rdak” so‘zi “o‘” unlisi bilan boshlanadi.",
+   "e": "🦆"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_7",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “a” tovushi bilan boshlanadi?",
+   "a": "🐻",
+   "w": [
+    "🐟",
+    "🍇",
+    "🐶"
+   ],
+   "d": 1,
+   "x": "🐻 — ayiq: birinchi tovush “a”."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_8",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “u” tovushi bilan boshlanadi?",
+   "a": "🏠",
+   "w": [
+    "🐴",
+    "🐍",
+    "🌙"
+   ],
+   "d": 1,
+   "x": "🏠 — uy: birinchi tovush “u”."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_9",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “e” tovushi bilan boshlanadi?",
+   "a": "🚪",
+   "w": [
+    "🐝",
+    "🐴",
+    "🍇"
+   ],
+   "d": 1,
+   "x": "🚪 — eshik: birinchi tovush “e”."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_10",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “o” tovushi bilan boshlanadi?",
+   "a": "🐴",
+   "w": [
+    "🐝",
+    "🏠",
+    "🐍"
+   ],
+   "d": 1,
+   "x": "🐴 — ot: birinchi tovush “o”."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_11",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “o‘” tovushi bilan boshlanadi?",
+   "a": "🦆",
+   "w": [
+    "🐴",
+    "🍇",
+    "🐝"
+   ],
+   "d": 2,
+   "x": "🦆 — o‘rdak: birinchi tovush “o‘”."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_12",
+   "t": "choice",
+   "q": "“gul” so‘zidagi unli qaysi?",
+   "a": "u",
+   "w": [
+    "a",
+    "o",
+    "e"
+   ],
+   "d": 1,
+   "x": "gul: unli — “u”, qolganlari undosh.",
+   "e": "🌸"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_13",
+   "t": "choice",
+   "q": "“non” so‘zidagi unli qaysi?",
+   "a": "o",
+   "w": [
+    "a",
+    "u",
+    "e"
+   ],
+   "d": 1,
+   "x": "non: unli — “o”, qolganlari undosh.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_14",
+   "t": "choice",
+   "q": "“fil” so‘zidagi unli qaysi?",
+   "a": "i",
+   "w": [
+    "a",
+    "o",
+    "u"
+   ],
+   "d": 1,
+   "x": "fil: unli — “i”, qolganlari undosh.",
+   "e": "🐘"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_15",
+   "t": "choice",
+   "q": "“sham” so‘zidagi unli qaysi?",
+   "a": "a",
+   "w": [
+    "o",
+    "u",
+    "e"
+   ],
+   "d": 1,
+   "x": "sham: unli — “a”, qolganlari undosh.",
+   "e": "🕯️"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_16",
+   "t": "choice",
+   "q": "“qo‘l” so‘zidagi unli qaysi?",
+   "a": "o‘",
+   "w": [
+    "o",
+    "u",
+    "a"
+   ],
+   "d": 2,
+   "x": "qo‘l: unli — “o‘”, qolganlari undosh.",
+   "e": "✋"
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_17",
+   "t": "choice",
+   "q": "“ona” so‘zida nechta unli bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "ona: o, a — 2 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_18",
+   "t": "choice",
+   "q": "“ari” so‘zida nechta unli bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "ari: a, i — 2 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_19",
+   "t": "choice",
+   "q": "“lola” so‘zida nechta unli bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "lola: o, a — 2 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_20",
+   "t": "choice",
+   "q": "“qurbaqa” so‘zida nechta unli bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "qurbaqa: u, a, a — 3 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_21",
+   "t": "choice",
+   "q": "“pomidor” so‘zida nechta unli bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "pomidor: o, i, o — 3 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_22",
+   "t": "choice",
+   "q": "“velosiped” so‘zida nechta unli bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 3,
+   "x": "velosiped: e, o, i, e — 4 ta unli."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_23",
+   "t": "choice",
+   "q": "Unli harfni toping.",
+   "a": "a",
+   "w": [
+    "b",
+    "t",
+    "m"
+   ],
+   "d": 1,
+   "x": "“a” — unli. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_24",
+   "t": "choice",
+   "q": "Unli harfni toping.",
+   "a": "e",
+   "w": [
+    "l",
+    "g",
+    "p"
+   ],
+   "d": 1,
+   "x": "“e” — unli. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_25",
+   "t": "choice",
+   "q": "Unli harfni toping.",
+   "a": "i",
+   "w": [
+    "b",
+    "z",
+    "y"
+   ],
+   "d": 1,
+   "x": "“i” — unli. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_26",
+   "t": "choice",
+   "q": "Unli harfni toping.",
+   "a": "u",
+   "w": [
+    "y",
+    "b",
+    "r"
+   ],
+   "d": 1,
+   "x": "“u” — unli. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_27",
+   "t": "choice",
+   "q": "Nechta unli tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "4 ta",
+    "8 ta"
+   ],
+   "d": 1,
+   "x": "Unlilar: a, o, u, e, i, o‘ — 6 ta."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_28",
+   "t": "tf",
+   "q": "“o‘” — unli tovush.",
+   "a": true,
+   "d": 1,
+   "x": "o‘ — oltita unlidan biri: o‘rdak, qo‘l."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_29",
+   "t": "tf",
+   "q": "“b” — unli tovush.",
+   "a": false,
+   "d": 1,
+   "x": "b — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_30",
+   "t": "tf",
+   "q": "Unli tovushni cho‘zib aytish mumkin: a-a-a, o-o-o.",
+   "a": true,
+   "d": 1,
+   "x": "Unli aytilganda havo erkin chiqadi."
+  },
+  {
+   "topic": "onatili_g1.vowels",
+   "id": "vowels_31",
+   "t": "match",
+   "q": "Rasmni birinchi unlisi bilan juftlang",
+   "pairs": [
+    [
+     "🍎",
+     "o"
+    ],
+    [
+     "🍇",
+     "u"
+    ],
+    [
+     "🐍",
+     "i"
+    ],
+    [
+     "🐐",
+     "e"
+    ],
+    [
+     "🐝",
+     "a"
+    ],
+    [
+     "🦆",
+     "o‘"
+    ]
+   ],
+   "d": 2,
+   "x": "olma — o, uzum — u, ilon — i, echki — e, ari — a, o‘rdak — o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_1",
+   "t": "choice",
+   "q": "Undosh harfni toping.",
+   "a": "m",
+   "w": [
+    "o‘",
+    "o",
+    "e"
+   ],
+   "d": 1,
+   "x": "“m” — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_2",
+   "t": "choice",
+   "q": "Undosh harfni toping.",
+   "a": "b",
+   "w": [
+    "o‘",
+    "a",
+    "o"
+   ],
+   "d": 1,
+   "x": "“b” — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_3",
+   "t": "choice",
+   "q": "Undosh harfni toping.",
+   "a": "s",
+   "w": [
+    "e",
+    "o‘",
+    "o"
+   ],
+   "d": 1,
+   "x": "“s” — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_4",
+   "t": "choice",
+   "q": "Undosh harfni toping.",
+   "a": "t",
+   "w": [
+    "u",
+    "o",
+    "i"
+   ],
+   "d": 1,
+   "x": "“t” — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_5",
+   "t": "choice",
+   "q": "Undosh harfni toping.",
+   "a": "q",
+   "w": [
+    "e",
+    "u",
+    "a"
+   ],
+   "d": 1,
+   "x": "“q” — undosh. Unlilar: a, o, u, e, i, o‘."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_6",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "M",
+   "w": [
+    "N",
+    "B",
+    "P"
+   ],
+   "d": 1,
+   "x": "Bu — mushuk. “mushuk” so‘zi “m” undoshi bilan boshlanadi.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_7",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "B",
+   "w": [
+    "P",
+    "D",
+    "V"
+   ],
+   "d": 1,
+   "x": "Bu — baliq. “baliq” so‘zi “b” undoshi bilan boshlanadi.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_8",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "F",
+   "w": [
+    "V",
+    "P",
+    "X"
+   ],
+   "d": 1,
+   "x": "Bu — fil. “fil” so‘zi “f” undoshi bilan boshlanadi.",
+   "e": "🐘"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_9",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "Z",
+   "w": [
+    "S",
+    "J",
+    "D"
+   ],
+   "d": 1,
+   "x": "Bu — zebra. “zebra” so‘zi “z” undoshi bilan boshlanadi.",
+   "e": "🦓"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_10",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "P",
+   "w": [
+    "B",
+    "F",
+    "T"
+   ],
+   "d": 1,
+   "x": "Bu — pomidor. “pomidor” so‘zi “p” undoshi bilan boshlanadi.",
+   "e": "🍅"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_11",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "R",
+   "w": [
+    "L",
+    "N",
+    "D"
+   ],
+   "d": 1,
+   "x": "Bu — raketa. “raketa” so‘zi “r” undoshi bilan boshlanadi.",
+   "e": "🚀"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_12",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "X",
+   "w": [
+    "H",
+    "Q",
+    "K"
+   ],
+   "d": 2,
+   "x": "Bu — xat. “xat” so‘zi “x” undoshi bilan boshlanadi.",
+   "e": "✉️"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_13",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi undosh bilan boshlanadi?",
+   "a": "Q",
+   "w": [
+    "K",
+    "G",
+    "X"
+   ],
+   "d": 2,
+   "x": "Bu — qurbaqa. “qurbaqa” so‘zi “q” undoshi bilan boshlanadi.",
+   "e": "🐸"
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_14",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “m” tovushi bilan boshlanadi?",
+   "a": "🐱",
+   "w": [
+    "🐟",
+    "🍎",
+    "🐔"
+   ],
+   "d": 1,
+   "x": "🐱 — mushuk: birinchi tovush “m”."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_15",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “s” tovushi bilan boshlanadi?",
+   "a": "🥕",
+   "w": [
+    "🍅",
+    "🐱",
+    "🍇"
+   ],
+   "d": 1,
+   "x": "🥕 — sabzi: birinchi tovush “s”."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_16",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “t” tovushi bilan boshlanadi?",
+   "a": "🐔",
+   "w": [
+    "🦆",
+    "🐟",
+    "🍎"
+   ],
+   "d": 1,
+   "x": "🐔 — tovuq: birinchi tovush “t”."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_17",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “b” tovushi bilan boshlanadi?",
+   "a": "🐺",
+   "w": [
+    "🐑",
+    "🍇",
+    "🐍"
+   ],
+   "d": 1,
+   "x": "🐺 — bo‘ri: birinchi tovush “b”."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_18",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z “k” tovushi bilan boshlanadi?",
+   "a": "🔑",
+   "w": [
+    "🐸",
+    "🍎",
+    "🐟"
+   ],
+   "d": 2,
+   "x": "🔑 — kalit: birinchi tovush “k”."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_19",
+   "t": "choice",
+   "q": "“non” so‘zida nechta undosh bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "non: n, n — 2 ta undosh."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_20",
+   "t": "choice",
+   "q": "“olma” so‘zida nechta undosh bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "olma: l, m — 2 ta undosh."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_21",
+   "t": "choice",
+   "q": "“ot” so‘zida nechta undosh bor?",
+   "a": "1 ta",
+   "w": [
+    "2 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "ot: t — 1 ta undosh."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_22",
+   "t": "choice",
+   "q": "“kitob” so‘zida nechta undosh bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "kitob: k, t, b — 3 ta undosh."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_23",
+   "t": "choice",
+   "q": "“tarvuz” so‘zida nechta undosh bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 2,
+   "x": "tarvuz: t, r, v, z — 4 ta undosh."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_24",
+   "t": "tf",
+   "q": "“m” — undosh tovush.",
+   "a": true,
+   "d": 1,
+   "x": "m — undosh: mushuk, non."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_25",
+   "t": "tf",
+   "q": "“e” — undosh tovush.",
+   "a": false,
+   "d": 1,
+   "x": "e — unli tovush."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_26",
+   "t": "tf",
+   "q": "“non” so‘zi undosh bilan boshlanib, undosh bilan tugaydi.",
+   "a": true,
+   "d": 2,
+   "x": "n-o-n: boshida ham, oxirida ham n."
+  },
+  {
+   "topic": "onatili_g1.consonants",
+   "id": "consonants_27",
+   "t": "match",
+   "q": "Rasmni birinchi harfi bilan juftlang",
+   "pairs": [
+    [
+     "🐱",
+     "M"
+    ],
+    [
+     "🐟",
+     "B"
+    ],
+    [
+     "🍞",
+     "N"
+    ],
+    [
+     "🐔",
+     "T"
+    ],
+    [
+     "🥕",
+     "S"
+    ],
+    [
+     "🐘",
+     "F"
+    ]
+   ],
+   "d": 2,
+   "x": "mushuk — M, baliq — B, non — N, tovuq — T, sabzi — S, fil — F."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_1",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "Sh",
+   "w": [
+    "S",
+    "Ch",
+    "X"
+   ],
+   "d": 1,
+   "x": "Bu — sher. “sher” so‘zi “sh” bilan boshlanadi.",
+   "e": "🦁"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_2",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "Ch",
+   "w": [
+    "Sh",
+    "J",
+    "S"
+   ],
+   "d": 1,
+   "x": "Bu — choy. “choy” so‘zi “ch” bilan boshlanadi.",
+   "e": "🍵"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_3",
+   "t": "choice",
+   "q": "“sham” so‘zi qaysi harf bilan boshlanadi?",
+   "a": "Sh",
+   "w": [
+    "S",
+    "Ch",
+    "X"
+   ],
+   "d": 1,
+   "x": "sham: “sh” — ikki harf bilan yoziladigan bitta tovush.",
+   "e": "🕯️"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_4",
+   "t": "choice",
+   "q": "“chana” so‘zi qaysi harf bilan boshlanadi?",
+   "a": "Ch",
+   "w": [
+    "Sh",
+    "J",
+    "S"
+   ],
+   "d": 1,
+   "x": "chana: “ch” — ikki harf bilan yoziladigan bitta tovush.",
+   "e": "🛷"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_5",
+   "t": "choice",
+   "q": "“shim” so‘zi qaysi harf bilan boshlanadi?",
+   "a": "Sh",
+   "w": [
+    "Ch",
+    "S",
+    "J"
+   ],
+   "d": 1,
+   "x": "shim: “sh” — ikki harf bilan yoziladigan bitta tovush.",
+   "e": "👖"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_6",
+   "t": "choice",
+   "q": "“chumoli” so‘zi qaysi harf bilan boshlanadi?",
+   "a": "Ch",
+   "w": [
+    "Sh",
+    "S",
+    "J"
+   ],
+   "d": 2,
+   "x": "chumoli: “ch” — ikki harf bilan yoziladigan bitta tovush.",
+   "e": "🐜"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_7",
+   "t": "choice",
+   "q": "“qush” so‘zi qaysi harf bilan tugaydi?",
+   "a": "sh",
+   "w": [
+    "s",
+    "ch",
+    "x"
+   ],
+   "d": 1,
+   "x": "qush: oxirgi tovush — “sh”.",
+   "e": "🐦"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_8",
+   "t": "choice",
+   "q": "“tong” so‘zi qaysi harf bilan tugaydi?",
+   "a": "ng",
+   "w": [
+    "n",
+    "g",
+    "k"
+   ],
+   "d": 1,
+   "x": "tong: oxirgi tovush — “ng”.",
+   "e": "🌅"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_9",
+   "t": "choice",
+   "q": "“quyosh” so‘zi qaysi harf bilan tugaydi?",
+   "a": "sh",
+   "w": [
+    "s",
+    "ch",
+    "j"
+   ],
+   "d": 1,
+   "x": "quyosh: oxirgi tovush — “sh”.",
+   "e": "☀️"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_10",
+   "t": "choice",
+   "q": "“ming” so‘zi qaysi harf bilan tugaydi?",
+   "a": "ng",
+   "w": [
+    "n",
+    "g",
+    "m"
+   ],
+   "d": 2,
+   "x": "ming: oxirgi tovush — “ng”."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_11",
+   "t": "choice",
+   "q": "“bodring” so‘zi qaysi harf bilan tugaydi?",
+   "a": "ng",
+   "w": [
+    "n",
+    "g",
+    "k"
+   ],
+   "d": 2,
+   "x": "bodring: oxirgi tovush — “ng”.",
+   "e": "🥒"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_12",
+   "t": "choice",
+   "q": "“shar” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "sh-a-r — 3 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_13",
+   "t": "choice",
+   "q": "“choy” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "ch-o-y — 3 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_14",
+   "t": "choice",
+   "q": "“qush” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "q-u-sh — 3 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_15",
+   "t": "choice",
+   "q": "“tong” so‘zida nechta tovush bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "t-o-ng — 3 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_16",
+   "t": "choice",
+   "q": "“chana” so‘zida nechta tovush bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 2,
+   "x": "ch-a-n-a — 4 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_17",
+   "t": "choice",
+   "q": "“quyosh” so‘zida nechta tovush bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 2,
+   "x": "q-u-y-o-sh — 5 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_18",
+   "t": "choice",
+   "q": "“bodring” so‘zida nechta tovush bor?",
+   "a": "6 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "8 ta"
+   ],
+   "d": 3,
+   "x": "b-o-d-r-i-ng — 6 ta tovush. sh, ch, ng — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_19",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘zda “sh” tovushi bor?",
+   "a": "🦁",
+   "w": [
+    "🐟",
+    "🍇",
+    "🐘"
+   ],
+   "d": 1,
+   "x": "🦁 — sher: sh-e-r."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_20",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘zda “ch” tovushi bor?",
+   "a": "🐜",
+   "w": [
+    "🍎",
+    "🐟",
+    "🌷"
+   ],
+   "d": 1,
+   "x": "🐜 — chumoli: ch-u-m-o-l-i."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_21",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘zda “ng” tovushi bor?",
+   "a": "🥒",
+   "w": [
+    "🍋",
+    "🐟",
+    "🍎"
+   ],
+   "d": 2,
+   "x": "🥒 — bodring: oxirida ng. Limon so‘zida esa faqat n bor."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_22",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "sh",
+    "a",
+    "m"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "sh + a + m = sham.",
+   "e": "🕯️"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_23",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "ch",
+    "o",
+    "y"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ch + o + y = choy.",
+   "e": "🍵"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_24",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "q",
+    "u",
+    "sh"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "q + u + sh = qush.",
+   "e": "🐦"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_25",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "t",
+    "o",
+    "ng"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "t + o + ng = tong.",
+   "e": "🌅"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_26",
+   "t": "tf",
+   "q": "“ng” — bitta tovush.",
+   "a": true,
+   "d": 1,
+   "x": "ng ikki harf bilan yoziladi, lekin bitta tovush: tong, ming."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_27",
+   "t": "tf",
+   "q": "“shar” so‘zida 4 ta tovush bor.",
+   "a": false,
+   "d": 1,
+   "x": "sh-a-r — 3 ta tovush, chunki sh — bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_28",
+   "t": "tf",
+   "q": "“chana” so‘zi “ch” tovushi bilan boshlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "ch-a-n-a.",
+   "e": "🛷"
+  },
+  {
+   "topic": "onatili_g1.digraphs",
+   "id": "digraphs_29",
+   "t": "match",
+   "q": "Rasmni so‘z bilan juftlang",
+   "pairs": [
+    [
+     "🦁",
+     "sher"
+    ],
+    [
+     "🍵",
+     "choy"
+    ],
+    [
+     "🌅",
+     "tong"
+    ],
+    [
+     "🐜",
+     "chumoli"
+    ],
+    [
+     "🕯️",
+     "sham"
+    ],
+    [
+     "🛷",
+     "chana"
+    ]
+   ],
+   "d": 2,
+   "x": "sh, ch, ng — ikki harf bilan yoziladigan bitta tovush."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_1",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "O‘",
+   "w": [
+    "O",
+    "U",
+    "G‘"
+   ],
+   "d": 1,
+   "x": "Bu — o‘rdak. “o‘rdak” so‘zi “o‘” bilan boshlanadi.",
+   "e": "🦆"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_2",
+   "t": "choice",
+   "q": "Rasmdagi narsa qaysi harf bilan boshlanadi?",
+   "a": "G‘",
+   "w": [
+    "G",
+    "Q",
+    "O‘"
+   ],
+   "d": 1,
+   "x": "Bu — g‘isht. “g‘isht” so‘zi “g‘” bilan boshlanadi.",
+   "e": "🧱"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_3",
+   "t": "choice",
+   "q": "Rasmdagi hayvon nomida qaysi unli bor?",
+   "a": "o",
+   "w": [
+    "o‘",
+    "u"
+   ],
+   "d": 1,
+   "x": "Bu — ot: o-t. Unli — o.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_4",
+   "t": "choice",
+   "q": "Rasmdagi hayvon nomida qaysi unli bor?",
+   "a": "o‘",
+   "w": [
+    "o",
+    "u"
+   ],
+   "d": 1,
+   "x": "Bu — qo‘y: q-o‘-y. Unli — o‘.",
+   "e": "🐑"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_5",
+   "t": "choice",
+   "q": "Rasmdagi narsa nomida qaysi unli bor?",
+   "a": "o",
+   "w": [
+    "o‘",
+    "u"
+   ],
+   "d": 1,
+   "x": "Bu — non: n-o-n. Unli — o.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_6",
+   "t": "choice",
+   "q": "Rasmdagi narsa nomida qaysi unli bor?",
+   "a": "o‘",
+   "w": [
+    "o",
+    "u"
+   ],
+   "d": 2,
+   "x": "Bu — to‘p: t-o‘-p. Unli — o‘.",
+   "e": "⚽"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_7",
+   "t": "choice",
+   "q": "Rasmdagi narsa nomi qaysi harf bilan tugaydi?",
+   "a": "g‘",
+   "w": [
+    "g",
+    "q"
+   ],
+   "d": 2,
+   "x": "Bu — tog‘: oxirida g‘.",
+   "e": "⛰️"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_8",
+   "t": "choice",
+   "q": "Rasmdagi narsa nomi qaysi harf bilan tugaydi?",
+   "a": "g",
+   "w": [
+    "g‘",
+    "k"
+   ],
+   "d": 2,
+   "x": "Bu — barg: oxirida g.",
+   "e": "🍁"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_9",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "ot",
+   "w": [
+    "o‘t",
+    "ut"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: ot.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_10",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "qo‘l",
+   "w": [
+    "qol",
+    "qul"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: qo‘l. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "✋"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_11",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "tog‘",
+   "w": [
+    "tog",
+    "toq"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: tog‘. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "⛰️"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_12",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "ko‘z",
+   "w": [
+    "koz",
+    "kuz"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: ko‘z. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "👁️"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_13",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "qo‘y",
+   "w": [
+    "qoy",
+    "quy"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri yozilishi: qo‘y. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "🐑"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_14",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "to‘p",
+   "w": [
+    "top",
+    "tup"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: to‘p. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "⚽"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_15",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni tanlang.",
+   "a": "sovg‘a",
+   "w": [
+    "sovga",
+    "sovqa"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri yozilishi: sovg‘a. o‘ va g‘ belgisi (‘) tushib qolsa, so‘z buziladi.",
+   "e": "🎁"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_16",
+   "t": "choice",
+   "q": "“o‘” — unli yoki undosh?",
+   "a": "Unli",
+   "w": [
+    "Undosh",
+    "Harf birikmasi"
+   ],
+   "d": 1,
+   "x": "o‘ — oltita unlidan biri."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_17",
+   "t": "choice",
+   "q": "“g‘” — unli yoki undosh?",
+   "a": "Undosh",
+   "w": [
+    "Unli",
+    "Harf birikmasi"
+   ],
+   "d": 1,
+   "x": "g‘ — undosh: g‘isht, tog‘."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_18",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "q",
+    "o‘",
+    "y"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "q + o‘ + y = qo‘y.",
+   "e": "🐑"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_19",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "t",
+    "o",
+    "g‘"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "t + o + g‘ = tog‘.",
+   "e": "⛰️"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_20",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "k",
+    "o‘",
+    "z"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "k + o‘ + z = ko‘z.",
+   "e": "👁️"
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_21",
+   "t": "tf",
+   "q": "“ot” va “o‘t” — har xil so‘zlar.",
+   "a": true,
+   "d": 1,
+   "x": "ot — hayvon, o‘t — o‘simlik yoki olov."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_22",
+   "t": "tf",
+   "q": "“tog‘” so‘zi “g” harfi bilan tugaydi.",
+   "a": false,
+   "d": 1,
+   "x": "tog‘ so‘zi g‘ harfi bilan tugaydi."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_23",
+   "t": "tf",
+   "q": "O‘ va G‘ — alifbodagi alohida harflar.",
+   "a": true,
+   "d": 1,
+   "x": "Ular o va g harfiga ‘ belgisi qo‘shib yoziladi."
+  },
+  {
+   "topic": "onatili_g1.og_letters",
+   "id": "og_letters_24",
+   "t": "match",
+   "q": "Rasmni so‘z bilan juftlang",
+   "pairs": [
+    [
+     "🦆",
+     "o‘rdak"
+    ],
+    [
+     "⛰️",
+     "tog‘"
+    ],
+    [
+     "👁️",
+     "ko‘z"
+    ],
+    [
+     "🐑",
+     "qo‘y"
+    ],
+    [
+     "🎁",
+     "sovg‘a"
+    ],
+    [
+     "🔨",
+     "bolg‘a"
+    ]
+   ],
+   "d": 2,
+   "x": "o‘ va g‘ — alohida harflar."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_1",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "she’r",
+   "w": [
+    "sher",
+    "shar",
+    "sham"
+   ],
+   "d": 1,
+   "x": "“she’r” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_2",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "ma’no",
+   "w": [
+    "mana",
+    "mato",
+    "maysa"
+   ],
+   "d": 1,
+   "x": "“ma’no” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_3",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "sa’va",
+   "w": [
+    "savat",
+    "sabzi",
+    "sariq"
+   ],
+   "d": 1,
+   "x": "“sa’va” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_4",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "a’lo",
+   "w": [
+    "ari",
+    "ana",
+    "ota"
+   ],
+   "d": 1,
+   "x": "“a’lo” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_5",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "ta’til",
+   "w": [
+    "tartib",
+    "tayoq",
+    "tulki"
+   ],
+   "d": 1,
+   "x": "“ta’til” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_6",
+   "t": "choice",
+   "q": "Qaysi so‘zda tutuq belgisi bor?",
+   "a": "e’lon",
+   "w": [
+    "eshik",
+    "echki",
+    "etik"
+   ],
+   "d": 1,
+   "x": "“e’lon” so‘zi tutuq belgisi (’) bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_7",
+   "t": "choice",
+   "q": "“Men … yod oldim.” Qaysi so‘z mos?",
+   "a": "she’r",
+   "w": [
+    "sher",
+    "shar",
+    "sham"
+   ],
+   "d": 1,
+   "x": "Men she’r yod oldim. sher — hayvon."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_8",
+   "t": "choice",
+   "q": "“… — hayvonlar shohi.” Qaysi so‘z mos?",
+   "a": "Sher",
+   "w": [
+    "She’r",
+    "Shar",
+    "Sham"
+   ],
+   "d": 1,
+   "x": "Sher — hayvon, uning nomida tutuq belgisi yo‘q.",
+   "e": "🦁"
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_9",
+   "t": "choice",
+   "q": "“Yozgi … boshlandi.” Qaysi so‘z mos?",
+   "a": "ta’til",
+   "w": [
+    "tatil",
+    "tartib",
+    "tayoq"
+   ],
+   "d": 2,
+   "x": "Yozgi ta’til — tutuq belgisi bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_10",
+   "t": "choice",
+   "q": "“Ukam … baho oldi.” Qaysi so‘z mos?",
+   "a": "a’lo",
+   "w": [
+    "alo",
+    "ari",
+    "ana"
+   ],
+   "d": 2,
+   "x": "a’lo — juda yaxshi; tutuq belgisi bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_11",
+   "t": "choice",
+   "q": "Tutuq belgisi — harfmi yoki belgimi?",
+   "a": "Belgi",
+   "w": [
+    "Unli harf",
+    "Undosh harf"
+   ],
+   "d": 1,
+   "x": "Tutuq belgisi (’) harf emas, yozuvdagi belgi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_12",
+   "t": "choice",
+   "q": "Rasmdagi hayvon nomi qanday yoziladi?",
+   "a": "sher",
+   "w": [
+    "she’r",
+    "shir",
+    "sheer"
+   ],
+   "d": 2,
+   "x": "Hayvon nomi — sher. she’r esa yod olinadigan asar.",
+   "e": "🦁"
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_13",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ma’",
+    "no"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ma’ + no = ma’no."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_14",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ta’",
+    "til"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ta’ + til = ta’til."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_15",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "sa’",
+    "va"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "sa’ + va = sa’va."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_16",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "a’",
+    "lo"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "a’ + lo = a’lo."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_17",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "e’",
+    "lon"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "e’ + lon = e’lon."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_18",
+   "t": "tf",
+   "q": "“she’r” va “sher” — har xil so‘zlar.",
+   "a": true,
+   "d": 1,
+   "x": "she’r — yod olinadigan asar, sher — hayvon."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_19",
+   "t": "tf",
+   "q": "“ma’no” so‘zida tutuq belgisi bor.",
+   "a": true,
+   "d": 1,
+   "x": "ma’no — a harfidan keyin tutuq belgisi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_20",
+   "t": "tf",
+   "q": "“eshik” so‘zida tutuq belgisi bor.",
+   "a": false,
+   "d": 1,
+   "x": "eshik — tutuq belgisiz yoziladi."
+  },
+  {
+   "topic": "onatili_g1.tutuq",
+   "id": "tutuq_21",
+   "t": "match",
+   "q": "Bo‘g‘inlarni juftlab so‘z yasang",
+   "pairs": [
+    [
+     "ma’",
+     "no"
+    ],
+    [
+     "ta’",
+     "til"
+    ],
+    [
+     "sa’",
+     "va"
+    ],
+    [
+     "e’",
+     "lon"
+    ],
+    [
+     "a’",
+     "lo"
+    ]
+   ],
+   "d": 2,
+   "x": "ma’no, ta’til, sa’va, e’lon, a’lo."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_1",
+   "t": "choice",
+   "q": "“fil” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "1 ta",
+   "w": [
+    "2 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "fil — 1 ta bo‘g‘in, chunki 1 ta unli bor.",
+   "e": "🐘"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_2",
+   "t": "choice",
+   "q": "“ari” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "a-ri — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🐝"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_3",
+   "t": "choice",
+   "q": "“baliq” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "ba-liq — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_4",
+   "t": "choice",
+   "q": "“echki” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "ech-ki — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🐐"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_5",
+   "t": "choice",
+   "q": "“ilon” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "i-lon — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🐍"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_6",
+   "t": "choice",
+   "q": "“gilos” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "gi-los — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🍒"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_7",
+   "t": "choice",
+   "q": "“limon” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "li-mon — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🍋"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_8",
+   "t": "choice",
+   "q": "“mushuk” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "mu-shuk — 2 ta bo‘g‘in, chunki 2 ta unli bor.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_9",
+   "t": "choice",
+   "q": "“qurbaqa” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "qur-ba-qa — 3 ta bo‘g‘in, chunki 3 ta unli bor.",
+   "e": "🐸"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_10",
+   "t": "choice",
+   "q": "“pomidor” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "po-mi-dor — 3 ta bo‘g‘in, chunki 3 ta unli bor.",
+   "e": "🍅"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_11",
+   "t": "choice",
+   "q": "“baraban” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "ba-ra-ban — 3 ta bo‘g‘in, chunki 3 ta unli bor.",
+   "e": "🥁"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_12",
+   "t": "choice",
+   "q": "“samolyot” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 2,
+   "x": "sa-mol-yot — 3 ta bo‘g‘in, chunki 3 ta unli bor.",
+   "e": "✈️"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_13",
+   "t": "choice",
+   "q": "“velosiped” so‘zini bo‘g‘inlab ayting. Nechta bo‘g‘in bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 3,
+   "x": "ve-lo-si-ped — 4 ta bo‘g‘in, chunki 4 ta unli bor.",
+   "e": "🚲"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_14",
+   "t": "choice",
+   "q": "Qaysi so‘zda bitta bo‘g‘in bor?",
+   "a": "fil",
+   "w": [
+    "ari",
+    "baliq",
+    "ilon"
+   ],
+   "d": 1,
+   "x": "fil — bitta unli, bitta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_15",
+   "t": "choice",
+   "q": "Qaysi so‘zda bitta bo‘g‘in bor?",
+   "a": "qo‘y",
+   "w": [
+    "qo‘zi",
+    "tovuq",
+    "echki"
+   ],
+   "d": 1,
+   "x": "qo‘y — bitta unli (o‘), bitta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_16",
+   "t": "choice",
+   "q": "Qaysi so‘zda uchta bo‘g‘in bor?",
+   "a": "qurbaqa",
+   "w": [
+    "baliq",
+    "limon",
+    "sham"
+   ],
+   "d": 2,
+   "x": "qur-ba-qa — 3 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_17",
+   "t": "choice",
+   "q": "Bo‘g‘inlar sonini qanday bilamiz?",
+   "a": "Unlilarni sanab",
+   "w": [
+    "Undoshlarni sanab",
+    "So‘zlarni sanab"
+   ],
+   "d": 2,
+   "x": "So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_18",
+   "t": "choice",
+   "q": "“baliq” so‘zining birinchi bo‘g‘ini qaysi?",
+   "a": "ba",
+   "w": [
+    "bal",
+    "liq",
+    "b"
+   ],
+   "d": 1,
+   "x": "ba-liq: birinchi bo‘g‘in — ba.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_19",
+   "t": "choice",
+   "q": "“limon” so‘zining oxirgi bo‘g‘ini qaysi?",
+   "a": "mon",
+   "w": [
+    "li",
+    "on",
+    "lim"
+   ],
+   "d": 1,
+   "x": "li-mon: oxirgi bo‘g‘in — mon.",
+   "e": "🍋"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_20",
+   "t": "choice",
+   "q": "“qurbaqa” so‘zining o‘rtadagi bo‘g‘ini qaysi?",
+   "a": "ba",
+   "w": [
+    "qur",
+    "qa",
+    "rba"
+   ],
+   "d": 2,
+   "x": "qur-ba-qa: o‘rtadagi bo‘g‘in — ba.",
+   "e": "🐸"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_21",
+   "t": "tf",
+   "q": "“fil” so‘zi bitta bo‘g‘indan iborat.",
+   "a": true,
+   "d": 1,
+   "x": "fil — bitta unli (i).",
+   "e": "🐘"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_22",
+   "t": "tf",
+   "q": "“ari” so‘zida 3 ta bo‘g‘in bor.",
+   "a": false,
+   "d": 1,
+   "x": "a-ri: 2 ta unli — 2 ta bo‘g‘in.",
+   "e": "🐝"
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_23",
+   "t": "tf",
+   "q": "So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "o-na: 2 ta unli — 2 ta bo‘g‘in."
+  },
+  {
+   "topic": "onatili_g1.syllable_count",
+   "id": "syllable_count_24",
+   "t": "match",
+   "q": "So‘zni bo‘g‘inlari bilan juftlang",
+   "pairs": [
+    [
+     "baliq",
+     "ba-liq"
+    ],
+    [
+     "ilon",
+     "i-lon"
+    ],
+    [
+     "echki",
+     "ech-ki"
+    ],
+    [
+     "limon",
+     "li-mon"
+    ],
+    [
+     "gilos",
+     "gi-los"
+    ],
+    [
+     "tuya",
+     "tu-ya"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir bo‘g‘inda bitta unli bor."
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_1",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "mu",
+    "shuk"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "mu + shuk = mushuk.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_2",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ba",
+    "liq"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ba + liq = baliq.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_3",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "a",
+    "yiq"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "a + yiq = ayiq.",
+   "e": "🐻"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_4",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "bo‘",
+    "ri"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "bo‘ + ri = bo‘ri.",
+   "e": "🐺"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_5",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "qay",
+    "chi"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "qay + chi = qaychi.",
+   "e": "✂️"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_6",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ka",
+    "lit"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ka + lit = kalit.",
+   "e": "🔑"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_7",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "bu",
+    "lut"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "bu + lut = bulut.",
+   "e": "☁️"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_8",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ar",
+    "cha"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "ar + cha = archa.",
+   "e": "🌲"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_9",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "qur",
+    "ba",
+    "qa"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "qur + ba + qa = qurbaqa.",
+   "e": "🐸"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_10",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ra",
+    "ke",
+    "ta"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "ra + ke + ta = raketa.",
+   "e": "🚀"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_11",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "gi",
+    "ta",
+    "ra"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "gi + ta + ra = gitara.",
+   "e": "🎸"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_12",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "te",
+    "le",
+    "fon"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "te + le + fon = telefon.",
+   "e": "📱"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_13",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ji",
+    "ra",
+    "fa"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "ji + ra + fa = jirafa.",
+   "e": "🦒"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_14",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ka",
+    "ma",
+    "lak"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "ka + ma + lak = kamalak.",
+   "e": "🌈"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_15",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "sa",
+    "mol",
+    "yot"
+   ],
+   "extra": [
+    "mo"
+   ],
+   "sep": "",
+   "d": 3,
+   "x": "sa + mol + yot = samolyot.",
+   "e": "✈️"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_16",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "av",
+    "to",
+    "bus"
+   ],
+   "extra": [
+    "ta"
+   ],
+   "sep": "",
+   "d": 3,
+   "x": "av + to + bus = avtobus.",
+   "e": "🚌"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_17",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ve",
+    "lo",
+    "si",
+    "ped"
+   ],
+   "sep": "",
+   "d": 3,
+   "x": "ve + lo + si + ped = velosiped.",
+   "e": "🚲"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_18",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "shuk",
+   "w": [
+    "shik",
+    "chuk",
+    "suk"
+   ],
+   "d": 1,
+   "x": "mu-shuk = mushuk.",
+   "e": "🐱",
+   "text": "mu …"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_19",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "a",
+   "w": [
+    "o",
+    "u",
+    "i"
+   ],
+   "d": 1,
+   "x": "a-ri = ari.",
+   "e": "🐝",
+   "text": "… ri"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_20",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "mon",
+   "w": [
+    "mun",
+    "non",
+    "mo"
+   ],
+   "d": 1,
+   "x": "li-mon = limon.",
+   "e": "🍋",
+   "text": "li …"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_21",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "ra",
+   "w": [
+    "ro",
+    "la",
+    "ri"
+   ],
+   "d": 2,
+   "x": "ji-ra-fa = jirafa.",
+   "e": "🦒",
+   "text": "ji … fa"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_22",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "lak",
+   "w": [
+    "lik",
+    "nak",
+    "laq"
+   ],
+   "d": 2,
+   "x": "ka-ma-lak = kamalak.",
+   "e": "🌈",
+   "text": "ka ma …"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_23",
+   "t": "choice",
+   "q": "Tushib qolgan bo‘g‘inni toping.",
+   "a": "le",
+   "w": [
+    "la",
+    "li",
+    "ne"
+   ],
+   "d": 2,
+   "x": "te-le-fon = telefon.",
+   "e": "📱",
+   "text": "te … fon"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_24",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "f",
+    "i",
+    "l"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "f + i + l = fil.",
+   "e": "🐘"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_25",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "u",
+    "y"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "u + y = uy.",
+   "e": "🏠"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_26",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "i",
+    "t"
+   ],
+   "sep": "",
+   "d": 1,
+   "x": "i + t = it.",
+   "e": "🐶"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_27",
+   "t": "order",
+   "q": "Harflardan so‘z yasang",
+   "parts": [
+    "sh",
+    "e",
+    "r"
+   ],
+   "sep": "",
+   "d": 2,
+   "x": "sh + e + r = sher.",
+   "e": "🦁"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_28",
+   "t": "tf",
+   "q": "“ka” va “lit” bo‘g‘inlaridan “kalit” so‘zi hosil bo‘ladi.",
+   "a": true,
+   "d": 1,
+   "x": "ka + lit = kalit.",
+   "e": "🔑"
+  },
+  {
+   "topic": "onatili_g1.syllable_build",
+   "id": "syllable_build_29",
+   "t": "tf",
+   "q": "“lit” va “ka” bo‘g‘inlarini shu tartibda qo‘shsak, “kalit” bo‘ladi.",
+   "a": false,
+   "d": 2,
+   "x": "Bo‘g‘inlar tartibi muhim: ka-lit. lit-ka — so‘z emas."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_1",
+   "t": "choice",
+   "q": "Alifboning birinchi harfi qaysi?",
+   "a": "A",
+   "w": [
+    "B",
+    "O",
+    "Y"
+   ],
+   "d": 1,
+   "x": "Alifbo A harfi bilan boshlanadi: A, B, D, E …"
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_2",
+   "t": "choice",
+   "q": "Alifboda “K” dan keyingi harf qaysi?",
+   "a": "L",
+   "w": [
+    "J",
+    "M",
+    "Q"
+   ],
+   "d": 1,
+   "x": "Alifboda K dan keyin L keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_3",
+   "t": "choice",
+   "q": "Alifboda “S” dan keyingi harf qaysi?",
+   "a": "T",
+   "w": [
+    "R",
+    "U",
+    "Z"
+   ],
+   "d": 1,
+   "x": "Alifboda S dan keyin T keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_4",
+   "t": "choice",
+   "q": "Alifboda “M” dan keyingi harf qaysi?",
+   "a": "N",
+   "w": [
+    "L",
+    "O",
+    "H"
+   ],
+   "d": 1,
+   "x": "Alifboda M dan keyin N keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_5",
+   "t": "choice",
+   "q": "Alifboda “U” dan keyingi harf qaysi?",
+   "a": "V",
+   "w": [
+    "W",
+    "F",
+    "T"
+   ],
+   "d": 2,
+   "x": "Alifboda U dan keyin V keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_6",
+   "t": "choice",
+   "q": "Alifboda “X” dan keyingi harf qaysi?",
+   "a": "Y",
+   "w": [
+    "Z",
+    "H",
+    "W"
+   ],
+   "d": 2,
+   "x": "Alifboda X dan keyin Y keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_7",
+   "t": "choice",
+   "q": "Alifboda “Z” dan keyingi harf qaysi?",
+   "a": "O‘",
+   "w": [
+    "A",
+    "G‘",
+    "Y"
+   ],
+   "d": 2,
+   "x": "Alifboda Z dan keyin O‘ keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_8",
+   "t": "choice",
+   "q": "Alifboda “D” dan oldingi harf qaysi?",
+   "a": "B",
+   "w": [
+    "C",
+    "E",
+    "A"
+   ],
+   "d": 1,
+   "x": "Alifboda B dan keyin D keladi. O‘zbek alifbosida C harfi yo‘q."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_9",
+   "t": "choice",
+   "q": "Alifboda “F” dan oldingi harf qaysi?",
+   "a": "E",
+   "w": [
+    "G",
+    "D",
+    "H"
+   ],
+   "d": 1,
+   "x": "Alifboda E dan keyin F keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_10",
+   "t": "choice",
+   "q": "Alifboda “Q” dan oldingi harf qaysi?",
+   "a": "P",
+   "w": [
+    "R",
+    "O",
+    "K"
+   ],
+   "d": 2,
+   "x": "Alifboda P dan keyin Q keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_11",
+   "t": "choice",
+   "q": "Alifboda “I” dan oldingi harf qaysi?",
+   "a": "H",
+   "w": [
+    "J",
+    "G",
+    "K"
+   ],
+   "d": 2,
+   "x": "Alifboda H dan keyin I keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_12",
+   "t": "choice",
+   "q": "Qaysi harf alifboda oldin keladi?",
+   "a": "D",
+   "w": [
+    "K",
+    "R"
+   ],
+   "d": 1,
+   "x": "Alifbo tartibi: A B D E F G H I J K L M N …"
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_13",
+   "t": "choice",
+   "q": "Qaysi harf alifboda oldin keladi?",
+   "a": "G",
+   "w": [
+    "N",
+    "U"
+   ],
+   "d": 1,
+   "x": "Alifbo tartibi: A B D E F G H I J K L M N …"
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_14",
+   "t": "choice",
+   "q": "Qaysi harf alifboda oldin keladi?",
+   "a": "E",
+   "w": [
+    "M",
+    "Z"
+   ],
+   "d": 1,
+   "x": "Alifbo tartibi: A B D E F G H I J K L M N …"
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_15",
+   "t": "order",
+   "q": "Harflarni alifbo tartibida joylang",
+   "parts": [
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "D, E, F, G."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_16",
+   "t": "order",
+   "q": "Harflarni alifbo tartibida joylang",
+   "parts": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "P, Q, R, S."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_17",
+   "t": "order",
+   "q": "Harflarni alifbo tartibida joylang",
+   "parts": [
+    "T",
+    "U",
+    "V",
+    "X"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "T, U, V, X — alifboda W harfi yo‘q."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_18",
+   "t": "order",
+   "q": "Harflarni alifbo tartibida joylang",
+   "parts": [
+    "O‘",
+    "G‘",
+    "Sh",
+    "Ch"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Alifbo oxiri: O‘, G‘, Sh, Ch, Ng."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_19",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z alifboda birinchi turadi?",
+   "a": "🐟",
+   "w": [
+    "🍎",
+    "🐱"
+   ],
+   "d": 2,
+   "x": "baliq (B), mushuk (M), olma (O): B oldin keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_20",
+   "t": "choice",
+   "q": "Qaysi rasmdagi so‘z alifboda birinchi turadi?",
+   "a": "🐝",
+   "w": [
+    "🐟",
+    "🐴"
+   ],
+   "d": 2,
+   "x": "ari (A), baliq (B), ot (O): A birinchi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_21",
+   "t": "tf",
+   "q": "Alifboda “L” harfi “M” dan oldin keladi.",
+   "a": true,
+   "d": 1,
+   "x": "K, L, M, N."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_22",
+   "t": "tf",
+   "q": "Alifboda “R” harfi “P” dan oldin keladi.",
+   "a": false,
+   "d": 1,
+   "x": "P, Q, R: P oldin keladi."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_23",
+   "t": "tf",
+   "q": "“O‘” harfi alifboda “Z” dan keyin keladi.",
+   "a": true,
+   "d": 2,
+   "x": "… X, Y, Z, O‘, G‘, Sh, Ch, Ng."
+  },
+  {
+   "topic": "onatili_g1.alphabet",
+   "id": "alphabet_24",
+   "t": "match",
+   "q": "Harfni keyingi harf bilan juftlang",
+   "pairs": [
+    [
+     "A",
+     "B"
+    ],
+    [
+     "D",
+     "E"
+    ],
+    [
+     "K",
+     "L"
+    ],
+    [
+     "M",
+     "N"
+    ],
+    [
+     "S",
+     "T"
+    ],
+    [
+     "X",
+     "Y"
+    ]
+   ],
+   "d": 2,
+   "x": "Alifbo tartibi: A B D E F G H I J K L M N O P Q R S T U V X Y Z O‘ G‘ Sh Ch Ng."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_1",
+   "t": "choice",
+   "q": "Katta harfni toping.",
+   "a": "R",
+   "w": [
+    "r",
+    "n",
+    "m"
+   ],
+   "d": 1,
+   "x": "“R” — katta harf, “r” — kichik harf."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_2",
+   "t": "choice",
+   "q": "Katta harfni toping.",
+   "a": "G",
+   "w": [
+    "g",
+    "q",
+    "d"
+   ],
+   "d": 1,
+   "x": "“G” — katta harf, “g” — kichik harf."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_3",
+   "t": "choice",
+   "q": "Katta harfni toping.",
+   "a": "E",
+   "w": [
+    "e",
+    "a",
+    "o"
+   ],
+   "d": 1,
+   "x": "“E” — katta harf, “e” — kichik harf."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_4",
+   "t": "choice",
+   "q": "Kichik harfni toping.",
+   "a": "b",
+   "w": [
+    "B",
+    "D",
+    "P"
+   ],
+   "d": 1,
+   "x": "“b” — kichik harf, uning katta shakli — “B”."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_5",
+   "t": "choice",
+   "q": "Kichik harfni toping.",
+   "a": "h",
+   "w": [
+    "H",
+    "N",
+    "K"
+   ],
+   "d": 1,
+   "x": "“h” — kichik harf, uning katta shakli — “H”."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_6",
+   "t": "choice",
+   "q": "Kichik harfni toping.",
+   "a": "sh",
+   "w": [
+    "Sh",
+    "Ch",
+    "S"
+   ],
+   "d": 1,
+   "x": "“sh” — kichik harf, uning katta shakli — “Sh”."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_7",
+   "t": "choice",
+   "q": "“d” harfining katta shakli qaysi?",
+   "a": "D",
+   "w": [
+    "B",
+    "P",
+    "Q"
+   ],
+   "d": 1,
+   "x": "D — d."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_8",
+   "t": "choice",
+   "q": "“q” harfining katta shakli qaysi?",
+   "a": "Q",
+   "w": [
+    "G",
+    "O",
+    "P"
+   ],
+   "d": 1,
+   "x": "Q — q."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_9",
+   "t": "choice",
+   "q": "“o‘” harfining katta shakli qaysi?",
+   "a": "O‘",
+   "w": [
+    "O",
+    "G‘",
+    "U"
+   ],
+   "d": 2,
+   "x": "O‘ — o‘."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_10",
+   "t": "choice",
+   "q": "“ch” harfining katta shakli qaysi?",
+   "a": "Ch",
+   "w": [
+    "Sh",
+    "C",
+    "Ng"
+   ],
+   "d": 2,
+   "x": "Ch — ch."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_11",
+   "t": "choice",
+   "q": "Qaysi so‘zni katta harf bilan yozamiz?",
+   "a": "laylo",
+   "w": [
+    "qiz",
+    "sumka",
+    "non"
+   ],
+   "d": 1,
+   "x": "Laylo — qizning ismi. Ism va shahar nomlari katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_12",
+   "t": "choice",
+   "q": "Qaysi so‘zni katta harf bilan yozamiz?",
+   "a": "jasur",
+   "w": [
+    "bola",
+    "to‘p",
+    "uy"
+   ],
+   "d": 1,
+   "x": "Jasur — bolaning ismi. Ism va shahar nomlari katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_13",
+   "t": "choice",
+   "q": "Qaysi so‘zni katta harf bilan yozamiz?",
+   "a": "navoiy",
+   "w": [
+    "shahar",
+    "ko‘cha",
+    "bog‘"
+   ],
+   "d": 1,
+   "x": "Navoiy — shahar nomi. Ism va shahar nomlari katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_14",
+   "t": "choice",
+   "q": "Qaysi so‘zni katta harf bilan yozamiz?",
+   "a": "aziza",
+   "w": [
+    "opa",
+    "olma",
+    "kitob"
+   ],
+   "d": 1,
+   "x": "Aziza — qizning ismi. Ism va shahar nomlari katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_15",
+   "t": "choice",
+   "q": "Qaysi so‘zni katta harf bilan yozamiz?",
+   "a": "qo‘qon",
+   "w": [
+    "shahar",
+    "daryo",
+    "tog‘"
+   ],
+   "d": 2,
+   "x": "Qo‘qon — shahar nomi. Ism va shahar nomlari katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_16",
+   "t": "choice",
+   "q": "To‘g‘ri yozilgan gapni toping.",
+   "a": "Ali maktabga bordi.",
+   "w": [
+    "ali maktabga bordi.",
+    "Ali Maktabga bordi.",
+    "ali Maktabga bordi."
+   ],
+   "d": 2,
+   "x": "Gap va ism katta harf bilan boshlanadi; “maktabga” — kichik harf bilan."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_17",
+   "t": "choice",
+   "q": "To‘g‘ri yozilgan gapni toping.",
+   "a": "Biz Navoiyda yashaymiz.",
+   "w": [
+    "biz Navoiyda yashaymiz.",
+    "Biz navoiyda yashaymiz.",
+    "biz navoiyda yashaymiz."
+   ],
+   "d": 2,
+   "x": "Gap boshi va shahar nomi katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_18",
+   "t": "choice",
+   "q": "To‘g‘ri yozilgan gapni toping.",
+   "a": "Kamola rasm chizdi.",
+   "w": [
+    "kamola rasm chizdi.",
+    "Kamola Rasm chizdi.",
+    "kamola Rasm chizdi."
+   ],
+   "d": 2,
+   "x": "Kamola — ism, gap boshida ham. “rasm” — kichik harf bilan."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_19",
+   "t": "tf",
+   "q": "“jasur” ismini kichik harf bilan boshlash kerak.",
+   "a": false,
+   "d": 1,
+   "x": "Ismlar katta harf bilan yoziladi: Jasur."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_20",
+   "t": "tf",
+   "q": "Gapning birinchi so‘zi katta harf bilan boshlanadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bugun havo iliq."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_21",
+   "t": "tf",
+   "q": "Shahar nomi katta harf bilan yoziladi: Qarshi.",
+   "a": true,
+   "d": 1,
+   "x": "Qarshi — shahar nomi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_22",
+   "t": "tf",
+   "q": "“mushuk” so‘zi gap o‘rtasida ham katta harf bilan yoziladi.",
+   "a": false,
+   "d": 2,
+   "x": "mushuk — ism emas; u gap boshida kelsagina katta harf bilan yoziladi."
+  },
+  {
+   "topic": "onatili_g1.capital",
+   "id": "capital_23",
+   "t": "match",
+   "q": "Katta harfni kichik harfi bilan juftlang",
+   "pairs": [
+    [
+     "E",
+     "e"
+    ],
+    [
+     "G",
+     "g"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "T",
+     "t"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "Sh",
+     "sh"
+    ],
+    [
+     "O‘",
+     "o‘"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir harfning katta va kichik shakli bor."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_1",
+   "t": "choice",
+   "q": "“ona” so‘zi qaysi savolga javob beradi?",
+   "a": "kim?",
+   "w": [
+    "nima?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“ona” odamni bildiradi — kim? savoliga javob beradi.",
+   "e": "👩"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_2",
+   "t": "choice",
+   "q": "“o‘qituvchi” so‘zi qaysi savolga javob beradi?",
+   "a": "kim?",
+   "w": [
+    "nima?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“o‘qituvchi” odamni bildiradi — kim? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_3",
+   "t": "choice",
+   "q": "“buvi” so‘zi qaysi savolga javob beradi?",
+   "a": "kim?",
+   "w": [
+    "nima?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“buvi” odamni bildiradi — kim? savoliga javob beradi.",
+   "e": "👵"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_4",
+   "t": "choice",
+   "q": "“shifokor” so‘zi qaysi savolga javob beradi?",
+   "a": "kim?",
+   "w": [
+    "nima?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“shifokor” odamni bildiradi — kim? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_5",
+   "t": "choice",
+   "q": "“olma” so‘zi qaysi savolga javob beradi?",
+   "a": "nima?",
+   "w": [
+    "kim?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“olma” narsa yoki hayvonni bildiradi — nima? savoliga javob beradi.",
+   "e": "🍎"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_6",
+   "t": "choice",
+   "q": "“kitob” so‘zi qaysi savolga javob beradi?",
+   "a": "nima?",
+   "w": [
+    "kim?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“kitob” narsa yoki hayvonni bildiradi — nima? savoliga javob beradi.",
+   "e": "📖"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_7",
+   "t": "choice",
+   "q": "“quyosh” so‘zi qaysi savolga javob beradi?",
+   "a": "nima?",
+   "w": [
+    "kim?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“quyosh” narsa yoki hayvonni bildiradi — nima? savoliga javob beradi.",
+   "e": "☀️"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_8",
+   "t": "choice",
+   "q": "“mushuk” so‘zi qaysi savolga javob beradi?",
+   "a": "nima?",
+   "w": [
+    "kim?",
+    "qanday?",
+    "nima qildi?"
+   ],
+   "d": 2,
+   "x": "“mushuk” narsa yoki hayvonni bildiradi — nima? savoliga javob beradi.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_9",
+   "t": "choice",
+   "q": "“sariq” so‘zi qaysi savolga javob beradi?",
+   "a": "qanday?",
+   "w": [
+    "kim?",
+    "nima?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“sariq” belgini bildiradi — qanday? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_10",
+   "t": "choice",
+   "q": "“kichkina” so‘zi qaysi savolga javob beradi?",
+   "a": "qanday?",
+   "w": [
+    "kim?",
+    "nima?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“kichkina” belgini bildiradi — qanday? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_11",
+   "t": "choice",
+   "q": "“issiq” so‘zi qaysi savolga javob beradi?",
+   "a": "qanday?",
+   "w": [
+    "kim?",
+    "nima?",
+    "nima qildi?"
+   ],
+   "d": 1,
+   "x": "“issiq” belgini bildiradi — qanday? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_12",
+   "t": "choice",
+   "q": "“mazali” so‘zi qaysi savolga javob beradi?",
+   "a": "qanday?",
+   "w": [
+    "kim?",
+    "nima?",
+    "nima qildi?"
+   ],
+   "d": 2,
+   "x": "“mazali” belgini bildiradi — qanday? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_13",
+   "t": "choice",
+   "q": "“o‘ynadi” so‘zi qaysi savolga javob beradi?",
+   "a": "nima qildi?",
+   "w": [
+    "kim?",
+    "nima?",
+    "qanday?"
+   ],
+   "d": 1,
+   "x": "“o‘ynadi” harakatni bildiradi — nima qildi? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_14",
+   "t": "choice",
+   "q": "“uchdi” so‘zi qaysi savolga javob beradi?",
+   "a": "nima qildi?",
+   "w": [
+    "kim?",
+    "nima?",
+    "qanday?"
+   ],
+   "d": 1,
+   "x": "“uchdi” harakatni bildiradi — nima qildi? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_15",
+   "t": "choice",
+   "q": "“suzdi” so‘zi qaysi savolga javob beradi?",
+   "a": "nima qildi?",
+   "w": [
+    "kim?",
+    "nima?",
+    "qanday?"
+   ],
+   "d": 1,
+   "x": "“suzdi” harakatni bildiradi — nima qildi? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_16",
+   "t": "choice",
+   "q": "“ichdi” so‘zi qaysi savolga javob beradi?",
+   "a": "nima qildi?",
+   "w": [
+    "kim?",
+    "nima?",
+    "qanday?"
+   ],
+   "d": 2,
+   "x": "“ichdi” harakatni bildiradi — nima qildi? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_17",
+   "t": "choice",
+   "q": "Qaysi so‘z “kim?” savoliga javob beradi?",
+   "a": "bobo",
+   "w": [
+    "olma",
+    "mushuk",
+    "stol"
+   ],
+   "d": 2,
+   "x": "bobo — odam. Mushuk — hayvon, u nima? savoliga javob beradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_18",
+   "t": "choice",
+   "q": "Qaysi so‘z “qanday?” savoliga javob beradi?",
+   "a": "yumshoq",
+   "w": [
+    "yostiq",
+    "ota",
+    "yotdi"
+   ],
+   "d": 1,
+   "x": "yumshoq — belgi: qanday yostiq? yumshoq."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_19",
+   "t": "choice",
+   "q": "Qaysi so‘z “nima qildi?” savoliga javob beradi?",
+   "a": "yugurdi",
+   "w": [
+    "yo‘l",
+    "bola",
+    "katta"
+   ],
+   "d": 1,
+   "x": "yugurdi — harakat."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_20",
+   "t": "choice",
+   "q": "It nima qiladi?",
+   "a": "vovullaydi",
+   "w": [
+    "miyovlaydi",
+    "kishnaydi",
+    "sayraydi"
+   ],
+   "d": 1,
+   "x": "It vovullaydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐶"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_21",
+   "t": "choice",
+   "q": "Mushuk nima qiladi?",
+   "a": "miyovlaydi",
+   "w": [
+    "vovullaydi",
+    "mo‘raydi",
+    "qaqillaydi"
+   ],
+   "d": 1,
+   "x": "Mushuk miyovlaydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_22",
+   "t": "choice",
+   "q": "Ot nima qiladi?",
+   "a": "kishnaydi",
+   "w": [
+    "miyovlaydi",
+    "vovullaydi",
+    "vaqillaydi"
+   ],
+   "d": 1,
+   "x": "Ot kishnaydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐴"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_23",
+   "t": "choice",
+   "q": "Sigir nima qiladi?",
+   "a": "mo‘raydi",
+   "w": [
+    "kishnaydi",
+    "sayraydi",
+    "miyovlaydi"
+   ],
+   "d": 2,
+   "x": "Sigir mo‘raydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐮"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_24",
+   "t": "choice",
+   "q": "Qurbaqa nima qiladi?",
+   "a": "vaqillaydi",
+   "w": [
+    "kishnaydi",
+    "mo‘raydi",
+    "vovullaydi"
+   ],
+   "d": 2,
+   "x": "Qurbaqa vaqillaydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐸"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_25",
+   "t": "choice",
+   "q": "Tovuq nima qiladi?",
+   "a": "qaqillaydi",
+   "w": [
+    "vovullaydi",
+    "mo‘raydi",
+    "kishnaydi"
+   ],
+   "d": 2,
+   "x": "Tovuq qaqillaydi. Bu so‘z harakatni bildiradi.",
+   "e": "🐔"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_26",
+   "t": "tf",
+   "q": "“mushuk” so‘zi “kim?” savoliga javob beradi.",
+   "a": false,
+   "d": 1,
+   "x": "Hayvon nomlari nima? savoliga javob beradi.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_27",
+   "t": "tf",
+   "q": "“shirin” so‘zi belgini bildiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Qanday olma? — shirin olma."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_28",
+   "t": "tf",
+   "q": "“sakradi” so‘zi harakatni bildiradi.",
+   "a": true,
+   "d": 1,
+   "x": "Nima qildi? — sakradi."
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_29",
+   "t": "match",
+   "q": "So‘zni savoli bilan juftlang",
+   "pairs": [
+    [
+     "buvi",
+     "kim?"
+    ],
+    [
+     "olma",
+     "nima?"
+    ],
+    [
+     "qizil",
+     "qanday?"
+    ],
+    [
+     "sakradi",
+     "nima qildi?"
+    ]
+   ],
+   "d": 2,
+   "x": "buvi — kim?, olma — nima?, qizil — qanday?, sakradi — nima qildi?"
+  },
+  {
+   "topic": "onatili_g1.word_kinds",
+   "id": "word_kinds_30",
+   "t": "match",
+   "q": "Hayvonni ovozi bilan juftlang",
+   "pairs": [
+    [
+     "it",
+     "vovullaydi"
+    ],
+    [
+     "mushuk",
+     "miyovlaydi"
+    ],
+    [
+     "ot",
+     "kishnaydi"
+    ],
+    [
+     "sigir",
+     "mo‘raydi"
+    ],
+    [
+     "tovuq",
+     "qaqillaydi"
+    ],
+    [
+     "qurbaqa",
+     "vaqillaydi"
+    ]
+   ],
+   "d": 2
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_1",
+   "t": "choice",
+   "q": "“Quyosh chiqdi.” Bu gapda nechta so‘z bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "Quyosh | chiqdi — 2 ta so‘z.",
+   "e": "☀️"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_2",
+   "t": "choice",
+   "q": "“Qor yog‘di.” Bu gapda nechta so‘z bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "Qor | yog‘di — 2 ta so‘z.",
+   "e": "❄️"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_3",
+   "t": "choice",
+   "q": "“Mushuk sut ichdi.” Bu gapda nechta so‘z bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "Mushuk | sut | ichdi — 3 ta so‘z.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_4",
+   "t": "choice",
+   "q": "“Onam non yopdi.” Bu gapda nechta so‘z bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "Onam | non | yopdi — 3 ta so‘z.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_5",
+   "t": "choice",
+   "q": "“Qushlar daraxtda sayrayapti.” Bu gapda nechta so‘z bor?",
+   "a": "3 ta",
+   "w": [
+    "2 ta",
+    "4 ta",
+    "5 ta"
+   ],
+   "d": 1,
+   "x": "Qushlar | daraxtda | sayrayapti — 3 ta so‘z.",
+   "e": "🐦"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_6",
+   "t": "choice",
+   "q": "“Ukam chiroyli rasm chizdi.” Bu gapda nechta so‘z bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 2,
+   "x": "Ukam | chiroyli | rasm | chizdi — 4 ta so‘z.",
+   "e": "🎨"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_7",
+   "t": "choice",
+   "q": "“Biz hovlida to‘p o‘ynadik.” Bu gapda nechta so‘z bor?",
+   "a": "4 ta",
+   "w": [
+    "3 ta",
+    "5 ta",
+    "6 ta"
+   ],
+   "d": 2,
+   "x": "Biz | hovlida | to‘p | o‘ynadik — 4 ta so‘z.",
+   "e": "⚽"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_8",
+   "t": "choice",
+   "q": "“Dadam menga velosiped olib keldi.” Bu gapda nechta so‘z bor?",
+   "a": "5 ta",
+   "w": [
+    "4 ta",
+    "6 ta",
+    "7 ta"
+   ],
+   "d": 3,
+   "x": "Dadam | menga | velosiped | olib | keldi — 5 ta so‘z.",
+   "e": "🚲"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_9",
+   "t": "choice",
+   "q": "“Ertaga yakshanba” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": ".",
+   "w": [
+    "?",
+    "!"
+   ],
+   "d": 1,
+   "x": "Ertaga yakshanba. Xabar beradigan gap oxiriga nuqta qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_10",
+   "t": "choice",
+   "q": "“Olmalar qizardi” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": ".",
+   "w": [
+    "?",
+    "!"
+   ],
+   "d": 1,
+   "x": "Olmalar qizardi. Xabar beradigan gap oxiriga nuqta qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_11",
+   "t": "choice",
+   "q": "“Sening isming nima” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "?",
+   "w": [
+    ".",
+    "!"
+   ],
+   "d": 1,
+   "x": "Sening isming nima? Savol beradigan gap oxiriga so‘roq belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_12",
+   "t": "choice",
+   "q": "“Soat necha bo‘ldi” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "?",
+   "w": [
+    ".",
+    "!"
+   ],
+   "d": 1,
+   "x": "Soat necha bo‘ldi? Savol beradigan gap oxiriga so‘roq belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_13",
+   "t": "choice",
+   "q": "“Bu kimning sumkasi” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "?",
+   "w": [
+    ".",
+    "!"
+   ],
+   "d": 1,
+   "x": "Bu kimning sumkasi? Savol beradigan gap oxiriga so‘roq belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_14",
+   "t": "choice",
+   "q": "“Biz parkka bordik” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": ".",
+   "w": [
+    "?",
+    "!"
+   ],
+   "d": 1,
+   "x": "Biz parkka bordik. Xabar beradigan gap oxiriga nuqta qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_15",
+   "t": "choice",
+   "q": "“Qanday go‘zal kapalak” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "!",
+   "w": [
+    ".",
+    "?"
+   ],
+   "d": 2,
+   "x": "Qanday go‘zal kapalak! Kuchli his bilan aytilgan gap oxiriga undov belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_16",
+   "t": "choice",
+   "q": "“Voy, qor yog‘yapti” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "!",
+   "w": [
+    ".",
+    "?"
+   ],
+   "d": 2,
+   "x": "Voy, qor yog‘yapti! Kuchli his bilan aytilgan gap oxiriga undov belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_17",
+   "t": "choice",
+   "q": "“Ura, dadam keldi” — bu gapning oxirida qaysi belgi bo‘ladi?",
+   "a": "!",
+   "w": [
+    ".",
+    "?"
+   ],
+   "d": 2,
+   "x": "Ura, dadam keldi! Kuchli his bilan aytilgan gap oxiriga undov belgisi qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_18",
+   "t": "choice",
+   "q": "Qaysi belgi — so‘roq belgisi?",
+   "a": "?",
+   "w": [
+    ".",
+    "!",
+    ","
+   ],
+   "d": 1,
+   "x": "So‘roq belgisi: ?"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_19",
+   "t": "choice",
+   "q": "Qaysi belgi — undov belgisi?",
+   "a": "!",
+   "w": [
+    "?",
+    ".",
+    ","
+   ],
+   "d": 1,
+   "x": "Undov belgisi: !"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_20",
+   "t": "choice",
+   "q": "Qaysi belgi — nuqta?",
+   "a": ".",
+   "w": [
+    "?",
+    "!",
+    ","
+   ],
+   "d": 1,
+   "x": "Nuqta: ."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_21",
+   "t": "choice",
+   "q": "Qaysi qatorda gap yozilgan?",
+   "a": "Qushlar uchdi.",
+   "w": [
+    "qushlar",
+    "kichkina qush",
+    "qush va"
+   ],
+   "d": 2,
+   "x": "Gap tugal fikr bildiradi: Qushlar uchdi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_22",
+   "t": "choice",
+   "q": "Qaysi qatorda gap yozilgan?",
+   "a": "Gullar ochildi.",
+   "w": [
+    "gullar",
+    "qizil gul",
+    "gul va"
+   ],
+   "d": 2,
+   "x": "Gap tugal fikr bildiradi: Gullar ochildi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_23",
+   "t": "choice",
+   "q": "“Onam non yopdi.” gapidagi oxirgi so‘z qaysi?",
+   "a": "yopdi",
+   "w": [
+    "Onam",
+    "non"
+   ],
+   "d": 1,
+   "x": "Onam | non | yopdi — oxirgi so‘z: yopdi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_24",
+   "t": "choice",
+   "q": "“Quyon sabzi yedi.” gapidagi birinchi so‘z qaysi?",
+   "a": "Quyon",
+   "w": [
+    "sabzi",
+    "yedi"
+   ],
+   "d": 1,
+   "x": "Quyon | sabzi | yedi — birinchi so‘z: Quyon.",
+   "e": "🐰"
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_25",
+   "t": "tf",
+   "q": "“quyosh chiqdi.” gapi to‘g‘ri yozilgan.",
+   "a": false,
+   "d": 1,
+   "x": "Gap katta harf bilan boshlanadi: Quyosh chiqdi."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_26",
+   "t": "tf",
+   "q": "Gapdagi so‘zlar alohida yoziladi.",
+   "a": true,
+   "d": 1,
+   "x": "Mushuk | sut | ichdi — so‘zlar orasida bo‘sh joy bor."
+  },
+  {
+   "topic": "onatili_g1.word_sentence",
+   "id": "word_sentence_27",
+   "t": "tf",
+   "q": "So‘roq gap oxiriga nuqta qo‘yiladi.",
+   "a": false,
+   "d": 1,
+   "x": "So‘roq gap oxiriga so‘roq belgisi (?) qo‘yiladi."
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_1",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Mushuk",
+    "uxladi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Mushuk uxladi.",
+   "e": "🐱"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_2",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kaptarlar",
+    "uchdi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Kaptarlar uchdi.",
+   "e": "🕊️"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_3",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Gullar",
+    "ochildi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Gullar ochildi.",
+   "e": "🌷"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_4",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Quyon",
+    "sabzi",
+    "yedi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Quyon sabzi yedi.",
+   "e": "🐰"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_5",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Baliq",
+    "suvda",
+    "suzadi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Baliq suvda suzadi.",
+   "e": "🐟"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_6",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ali",
+    "to‘p",
+    "o‘ynadi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Ali to‘p o‘ynadi.",
+   "e": "⚽"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_7",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Sigir",
+    "sut",
+    "beradi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Sigir sut beradi.",
+   "e": "🐮"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_8",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "It",
+    "suyak",
+    "kemirdi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "It suyak kemirdi.",
+   "e": "🐶"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_9",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Laylo",
+    "rasm",
+    "chizdi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Laylo rasm chizdi.",
+   "e": "🎨"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_10",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Biz",
+    "bog‘da",
+    "o‘ynadik"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Biz bog‘da o‘ynadik.",
+   "e": "🌳"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_11",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Bobom",
+    "bog‘da",
+    "olma",
+    "terdi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Bobom bog‘da olma terdi.",
+   "e": "👴"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_12",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Men",
+    "maktabga",
+    "yugurib",
+    "bordim"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Men maktabga yugurib bordim.",
+   "e": "🏫"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_13",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ukam",
+    "kichkina",
+    "jo‘jani",
+    "ushladi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Ukam kichkina jo‘jani ushladi.",
+   "e": "🐤"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_14",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Onam",
+    "bozordan",
+    "non",
+    "oldi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Onam bozordan non oldi.",
+   "e": "🍞"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_15",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Kichkina",
+    "qiz",
+    "qo‘shiq",
+    "aytdi"
+   ],
+   "extra": [
+    "aytdim"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Kichkina qiz qo‘shiq aytdi. (qiz … aytdi)"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_16",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Bolalar",
+    "qor",
+    "o‘ynashdi"
+   ],
+   "extra": [
+    "o‘ynadim"
+   ],
+   "sep": " ",
+   "d": 3,
+   "x": "Bolalar qor o‘ynashdi. (bolalar … o‘ynashdi)",
+   "e": "❄️"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_17",
+   "t": "choice",
+   "q": "Gapni to‘ldiring: “Qushlar osmonda …”",
+   "a": "uchadi",
+   "w": [
+    "suzadi",
+    "o‘qiydi",
+    "yig‘laydi"
+   ],
+   "d": 1,
+   "x": "Qushlar osmonda uchadi.",
+   "e": "🐦"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_18",
+   "t": "choice",
+   "q": "Gapni to‘ldiring: “Men har kuni tishimni …”",
+   "a": "yuvaman",
+   "w": [
+    "ichaman",
+    "o‘qiyman",
+    "uchaman"
+   ],
+   "d": 1,
+   "x": "Men har kuni tishimni yuvaman.",
+   "e": "🦷"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_19",
+   "t": "choice",
+   "q": "Gapni to‘ldiring: “Onam bozordan olma …”",
+   "a": "oldi",
+   "w": [
+    "uchdi",
+    "suzdi",
+    "sayradi"
+   ],
+   "d": 1,
+   "x": "Onam bozordan olma oldi.",
+   "e": "🍎"
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_20",
+   "t": "tf",
+   "q": "“qizil va” — gap.",
+   "a": false,
+   "d": 1,
+   "x": "Bu so‘zlar tugal fikr bildirmaydi. Gap: Olma qizil."
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_21",
+   "t": "tf",
+   "q": "Gap tuzganda so‘zlarni to‘g‘ri tartibda qo‘yish kerak.",
+   "a": true,
+   "d": 1,
+   "x": "Mushuk uxladi — to‘g‘ri; Uxladi mushuk — noto‘g‘ri tartib."
+  },
+  {
+   "topic": "onatili_g1.build_sentence",
+   "id": "build_sentence_22",
+   "t": "tf",
+   "q": "“Kaptarlar uchdi.” — gap.",
+   "a": true,
+   "d": 1,
+   "x": "Tugal fikr bor: kim? — kaptarlar, nima qildi? — uchdi.",
+   "e": "🕊️"
+  }
+ ]
+}

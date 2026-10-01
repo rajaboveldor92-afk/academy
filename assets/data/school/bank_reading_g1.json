@@ -1,0 +1,4420 @@
+{
+ "items": [
+  {
+   "topic": "reading_g1.words",
+   "id": "words_1",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🍎",
+   "w": [
+    "🍐",
+    "🍇",
+    "🍌"
+   ],
+   "d": 1,
+   "x": "“olma” — 🍎",
+   "text": "olma"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_2",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🍐",
+   "w": [
+    "🍎",
+    "🍋",
+    "🍇"
+   ],
+   "d": 1,
+   "x": "“nok” — 🍐",
+   "text": "nok"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_3",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🍇",
+   "w": [
+    "🍉",
+    "🍓",
+    "🍐"
+   ],
+   "d": 1,
+   "x": "“uzum” — 🍇",
+   "text": "uzum"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_4",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🍉",
+   "w": [
+    "🍈",
+    "🍅",
+    "🍎"
+   ],
+   "d": 1,
+   "x": "“tarvuz” — 🍉",
+   "text": "tarvuz"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_5",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🐟",
+   "w": [
+    "🐸",
+    "🐦",
+    "🐢"
+   ],
+   "d": 1,
+   "x": "“baliq” — 🐟",
+   "text": "baliq"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_6",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🐱",
+   "w": [
+    "🐶",
+    "🐭",
+    "🐰"
+   ],
+   "d": 1,
+   "x": "“mushuk” — 🐱",
+   "text": "mushuk"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_7",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🐶",
+   "w": [
+    "🐱",
+    "🐎",
+    "🐑"
+   ],
+   "d": 1,
+   "x": "“it” — 🐶",
+   "text": "it"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_8",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🐎",
+   "w": [
+    "🐶",
+    "🐄",
+    "🐑"
+   ],
+   "d": 1,
+   "x": "“ot” — 🐎",
+   "text": "ot"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_9",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🌙",
+   "w": [
+    "🏠",
+    "☀️",
+    "⭐"
+   ],
+   "d": 1,
+   "x": "“oy” — 🌙",
+   "text": "oy"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_10",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🏠",
+   "w": [
+    "🌙",
+    "🏫",
+    "🚗"
+   ],
+   "d": 1,
+   "x": "“uy” — 🏠",
+   "text": "uy"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_11",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🐰",
+   "w": [
+    "🐱",
+    "🐻",
+    "🦊"
+   ],
+   "d": 1,
+   "x": "“quyon” — 🐰",
+   "text": "quyon"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_12",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "📖",
+   "w": [
+    "✏️",
+    "🎒",
+    "⏰"
+   ],
+   "d": 1,
+   "x": "“kitob” — 📖",
+   "text": "kitob"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_13",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🥛",
+   "w": [
+    "🍞",
+    "🥚",
+    "🍯"
+   ],
+   "d": 1,
+   "x": "“sut” — 🥛",
+   "text": "sut"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_14",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🥚",
+   "w": [
+    "🍞",
+    "🥛",
+    "🍋"
+   ],
+   "d": 2,
+   "x": "“tuxum” — 🥚",
+   "text": "tuxum"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_15",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🦋",
+   "w": [
+    "🐝",
+    "🐞",
+    "🐦"
+   ],
+   "d": 2,
+   "x": "“kapalak” — 🦋",
+   "text": "kapalak"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_16",
+   "t": "choice",
+   "q": "So‘zni o‘qing va rasmini toping",
+   "a": "🌳",
+   "w": [
+    "🌷",
+    "🌵",
+    "🍄"
+   ],
+   "d": 2,
+   "x": "“daraxt” — 🌳",
+   "text": "daraxt"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_17",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "oy",
+   "w": [
+    "uy",
+    "ot",
+    "oq"
+   ],
+   "d": 1,
+   "x": "🌙 — “oy”. Har bir harfga qarang.",
+   "e": "🌙"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_18",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "ot",
+   "w": [
+    "it",
+    "o‘t",
+    "ol"
+   ],
+   "d": 2,
+   "x": "🐎 — “ot”. Har bir harfga qarang.",
+   "e": "🐎"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_19",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "quyosh",
+   "w": [
+    "quyon",
+    "qoshiq",
+    "qovoq"
+   ],
+   "d": 2,
+   "x": "☀️ — “quyosh”. Har bir harfga qarang.",
+   "e": "☀️"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_20",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "quyon",
+   "w": [
+    "quyosh",
+    "qovun",
+    "qo‘y"
+   ],
+   "d": 2,
+   "x": "🐰 — “quyon”. Har bir harfga qarang.",
+   "e": "🐰"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_21",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "mushuk",
+   "w": [
+    "kuchuk",
+    "mushak",
+    "musiqa"
+   ],
+   "d": 2,
+   "x": "🐱 — “mushuk”. Har bir harfga qarang.",
+   "e": "🐱"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_22",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "qalam",
+   "w": [
+    "qadam",
+    "qalpoq",
+    "qanot"
+   ],
+   "d": 2,
+   "x": "✏️ — “qalam”. Har bir harfga qarang.",
+   "e": "✏️"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_23",
+   "t": "choice",
+   "q": "Rasmga mos so‘zni toping",
+   "a": "qor",
+   "w": [
+    "qo‘y",
+    "qop",
+    "qosh"
+   ],
+   "d": 3,
+   "x": "❄️ — “qor”. Har bir harfga qarang.",
+   "e": "❄️"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_24",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "mushuk",
+   "w": [
+    "olma",
+    "nok",
+    "uzum"
+   ],
+   "d": 2,
+   "x": "Olma, nok, uzum — mevalar. Mushuk esa hayvon.",
+   "text": "olma   nok   mushuk   uzum"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_25",
+   "t": "choice",
+   "q": "Qaysi so‘z ortiqcha?",
+   "a": "qalam",
+   "w": [
+    "sigir",
+    "ot",
+    "qo‘y"
+   ],
+   "d": 2,
+   "x": "Sigir, ot, qo‘y — hayvonlar. Qalam esa o‘quv quroli.",
+   "text": "sigir   ot   qalam   qo‘y"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_26",
+   "t": "tf",
+   "q": "So‘z rasmga mos keladi.",
+   "a": true,
+   "d": 1,
+   "x": "To‘g‘ri: “baliq” — 🐟.",
+   "e": "🐟",
+   "text": "baliq"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_27",
+   "t": "tf",
+   "q": "So‘z rasmga mos keladi.",
+   "a": false,
+   "d": 1,
+   "x": "Rasmda — mushuk 🐱. “quyon” esa — 🐰.",
+   "e": "🐱",
+   "text": "quyon"
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_28",
+   "t": "match",
+   "q": "Meva nomini rasmga moslang",
+   "pairs": [
+    [
+     "olma",
+     "🍎"
+    ],
+    [
+     "nok",
+     "🍐"
+    ],
+    [
+     "uzum",
+     "🍇"
+    ],
+    [
+     "tarvuz",
+     "🍉"
+    ],
+    [
+     "limon",
+     "🍋"
+    ],
+    [
+     "gilos",
+     "🍒"
+    ]
+   ],
+   "d": 1,
+   "x": "Har bir so‘zni bo‘g‘inlab o‘qing va uning rasmini toping."
+  },
+  {
+   "topic": "reading_g1.words",
+   "id": "words_29",
+   "t": "match",
+   "q": "Hayvon nomini rasmga moslang",
+   "pairs": [
+    [
+     "mushuk",
+     "🐱"
+    ],
+    [
+     "it",
+     "🐶"
+    ],
+    [
+     "sigir",
+     "🐄"
+    ],
+    [
+     "ot",
+     "🐎"
+    ],
+    [
+     "quyon",
+     "🐰"
+    ],
+    [
+     "baliq",
+     "🐟"
+    ]
+   ],
+   "d": 2,
+   "x": "“it” va “ot” so‘zlari bitta harf bilan farq qiladi — diqqat qiling."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_1",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "1 ta",
+   "w": [
+    "2 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "non — 1 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "non"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_2",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "ol-ma — 2 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "olma"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_3",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "ki-tob — 2 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "kitob"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_4",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "1 ta",
+   "w": [
+    "2 ta",
+    "3 ta"
+   ],
+   "d": 1,
+   "x": "uy — 1 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "uy"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_5",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 1,
+   "x": "bo-la — 2 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "bola"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_6",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "1 ta",
+    "2 ta",
+    "4 ta"
+   ],
+   "d": 2,
+   "x": "ka-pa-lak — 3 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "kapalak"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_7",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "3 ta",
+   "w": [
+    "1 ta",
+    "2 ta",
+    "4 ta"
+   ],
+   "d": 2,
+   "x": "chu-mo-li — 3 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "chumoli"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_8",
+   "t": "choice",
+   "q": "Bu so‘zda nechta bo‘g‘in bor?",
+   "a": "4 ta",
+   "w": [
+    "2 ta",
+    "3 ta",
+    "5 ta"
+   ],
+   "d": 3,
+   "x": "o‘-qi-tuv-chi — 4 ta bo‘g‘in. So‘zda nechta unli bo‘lsa, shuncha bo‘g‘in bo‘ladi.",
+   "text": "o‘qituvchi"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_9",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "ma",
+   "w": [
+    "mo",
+    "na",
+    "ta"
+   ],
+   "d": 1,
+   "x": "ol + ma = olma 🍎",
+   "e": "🍎",
+   "text": "ol…"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_10",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "tob",
+   "w": [
+    "top",
+    "tub",
+    "bot"
+   ],
+   "d": 1,
+   "x": "ki + tob = kitob 📖",
+   "e": "📖",
+   "text": "ki…"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_11",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "qa",
+   "w": [
+    "ka",
+    "qo",
+    "ga"
+   ],
+   "d": 1,
+   "x": "qa + lam = qalam ✏️",
+   "e": "✏️",
+   "text": "…lam"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_12",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "liq",
+   "w": [
+    "loq",
+    "lik",
+    "lish"
+   ],
+   "d": 1,
+   "x": "ba + liq = baliq 🐟",
+   "e": "🐟",
+   "text": "ba…"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_13",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "yon",
+   "w": [
+    "yosh",
+    "yun",
+    "von"
+   ],
+   "d": 2,
+   "x": "qu + yon = quyon 🐰",
+   "e": "🐰",
+   "text": "qu…"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_14",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "yosh",
+   "w": [
+    "yon",
+    "yoz",
+    "yol"
+   ],
+   "d": 2,
+   "x": "qu + yosh = quyosh ☀️",
+   "e": "☀️",
+   "text": "qu…"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_15",
+   "t": "choice",
+   "q": "Qaysi bo‘g‘in yetishmayapti?",
+   "a": "tar",
+   "w": [
+    "tor",
+    "ter",
+    "dar"
+   ],
+   "d": 2,
+   "x": "tar + vuz = tarvuz 🍉",
+   "e": "🍉",
+   "text": "…vuz"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_16",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "da",
+    "raxt"
+   ],
+   "sep": "-",
+   "d": 1,
+   "x": "da + raxt = daraxt 🌳"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_17",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ka",
+    "pa",
+    "lak"
+   ],
+   "sep": "-",
+   "d": 1,
+   "x": "ka + pa + lak = kapalak 🦋"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_18",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "ma",
+    "shi",
+    "na"
+   ],
+   "sep": "-",
+   "d": 2,
+   "x": "ma + shi + na = mashina 🚗"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_19",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "po",
+    "mi",
+    "dor"
+   ],
+   "sep": "-",
+   "d": 2,
+   "x": "po + mi + dor = pomidor 🍅"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_20",
+   "t": "order",
+   "q": "Bo‘g‘inlardan so‘z yasang",
+   "parts": [
+    "o‘",
+    "yin",
+    "choq"
+   ],
+   "sep": "-",
+   "d": 3,
+   "x": "o‘ + yin + choq = o‘yinchoq"
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_21",
+   "t": "choice",
+   "q": "Qaysi so‘z bir bo‘g‘inli?",
+   "a": "gul",
+   "w": [
+    "olma",
+    "kitob",
+    "bola"
+   ],
+   "d": 1,
+   "x": "gul — bitta bo‘g‘in: unda bitta unli (u) bor."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_22",
+   "t": "choice",
+   "q": "Qaysi so‘z uch bo‘g‘inli?",
+   "a": "pomidor",
+   "w": [
+    "non",
+    "olma",
+    "uzum"
+   ],
+   "d": 2,
+   "x": "po-mi-dor — uchta bo‘g‘in."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_23",
+   "t": "choice",
+   "q": "Qaysi harf unli?",
+   "a": "a",
+   "w": [
+    "b",
+    "k",
+    "m"
+   ],
+   "d": 1,
+   "x": "Unlilar: a, o, u, e, i, o‘. Bo‘g‘in unli harf atrofida yasaladi."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_24",
+   "t": "choice",
+   "q": "“qalam” so‘zi qanday bo‘g‘inlanadi?",
+   "a": "qa-lam",
+   "w": [
+    "q-alam",
+    "qala-m",
+    "qal-a-m"
+   ],
+   "d": 2,
+   "x": "qa-lam: har bir bo‘g‘inda bitta unli bor."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_25",
+   "t": "tf",
+   "q": "“ona” so‘zida 2 ta bo‘g‘in bor.",
+   "a": true,
+   "d": 1,
+   "x": "o-na — 2 ta bo‘g‘in."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_26",
+   "t": "tf",
+   "q": "“tog‘” so‘zida 2 ta bo‘g‘in bor.",
+   "a": false,
+   "d": 1,
+   "x": "tog‘ — bitta bo‘g‘in: unda bitta unli (o) bor."
+  },
+  {
+   "topic": "reading_g1.syllables",
+   "id": "syllables_27",
+   "t": "match",
+   "q": "So‘zni bo‘g‘inlari bilan juftlang",
+   "pairs": [
+    [
+     "olma",
+     "ol-ma"
+    ],
+    [
+     "kitob",
+     "ki-tob"
+    ],
+    [
+     "bola",
+     "bo-la"
+    ],
+    [
+     "daftar",
+     "daf-tar"
+    ],
+    [
+     "quyosh",
+     "qu-yosh"
+    ],
+    [
+     "kapalak",
+     "ka-pa-lak"
+    ]
+   ],
+   "d": 1,
+   "x": "So‘z bo‘g‘inlarga ajratilganda chiziqcha qo‘yiladi: ol-ma."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_1",
+   "t": "choice",
+   "q": "Ali qayerga bordi?",
+   "a": "Maktabga",
+   "w": [
+    "Bozorga",
+    "Bog‘ga",
+    "Do‘konga"
+   ],
+   "d": 1,
+   "x": "“Ali birinchi marta maktabga bordi.”",
+   "text": "Bugun Ali birinchi marta maktabga bordi. Uning sumkasi yangi. Ustoz bolalarni jilmayib kutib oldi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_2",
+   "t": "choice",
+   "q": "Alining nimasi yangi?",
+   "a": "Sumkasi",
+   "w": [
+    "Kitobi",
+    "Qalami",
+    "Velosipedi"
+   ],
+   "d": 1,
+   "x": "“Uning sumkasi yangi.”",
+   "text": "Bugun Ali birinchi marta maktabga bordi. Uning sumkasi yangi. Ustoz bolalarni jilmayib kutib oldi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_3",
+   "t": "choice",
+   "q": "Bolalarni kim kutib oldi?",
+   "a": "Ustoz",
+   "w": [
+    "Onasi",
+    "Bobosi",
+    "Oshpaz"
+   ],
+   "d": 1,
+   "x": "Ustoz bolalarni jilmayib kutib oldi.",
+   "text": "Bugun Ali birinchi marta maktabga bordi. Uning sumkasi yangi. Ustoz bolalarni jilmayib kutib oldi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_4",
+   "t": "tf",
+   "q": "Ali maktabga birinchi marta bordi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Bugun Ali birinchi marta maktabga bordi. Uning sumkasi yangi. Ustoz bolalarni jilmayib kutib oldi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_5",
+   "t": "choice",
+   "q": "Zarina daftariga nima yozdi?",
+   "a": "Harflar",
+   "w": [
+    "Sonlar",
+    "She’r",
+    "Ismini"
+   ],
+   "d": 1,
+   "x": "“Zarina daftariga harflar yozdi.”",
+   "text": "Zarina daftariga harflar yozdi. Harflar chiroyli chiqdi. Ustoz uni maqtadi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_6",
+   "t": "choice",
+   "q": "Zarinani kim maqtadi?",
+   "a": "Ustoz",
+   "w": [
+    "Dugonasi",
+    "Buvisi",
+    "Akasi"
+   ],
+   "d": 1,
+   "x": "Harflar chiroyli chiqqani uchun ustoz uni maqtadi.",
+   "text": "Zarina daftariga harflar yozdi. Harflar chiroyli chiqdi. Ustoz uni maqtadi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_7",
+   "t": "tf",
+   "q": "Zarinaning harflari xunuk chiqdi.",
+   "a": false,
+   "d": 1,
+   "x": "Harflar chiroyli chiqdi.",
+   "text": "Zarina daftariga harflar yozdi. Harflar chiroyli chiqdi. Ustoz uni maqtadi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_8",
+   "t": "choice",
+   "q": "Qo‘ng‘iroq chalingach, nima boshlandi?",
+   "a": "Tanaffus",
+   "w": [
+    "Dars",
+    "Bayram",
+    "Konsert"
+   ],
+   "d": 1,
+   "x": "“Qo‘ng‘iroq chalindi. Tanaffus boshlandi.”",
+   "text": "Qo‘ng‘iroq chalindi. Tanaffus boshlandi. Bolalar hovlida o‘ynashdi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_9",
+   "t": "choice",
+   "q": "Bolalar qayerda o‘ynashdi?",
+   "a": "Hovlida",
+   "w": [
+    "Sinfda",
+    "Uyda",
+    "Bog‘chada"
+   ],
+   "d": 1,
+   "x": "“Bolalar hovlida o‘ynashdi.”",
+   "text": "Qo‘ng‘iroq chalindi. Tanaffus boshlandi. Bolalar hovlida o‘ynashdi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_10",
+   "t": "choice",
+   "q": "Bobur nimani uyda qoldirdi?",
+   "a": "Qalamini",
+   "w": [
+    "Kitobini",
+    "Sumkasini",
+    "Daftarini"
+   ],
+   "d": 1,
+   "x": "Bobur qalamini uyda unutib qoldirdi.",
+   "text": "Bobur qalamini uyda unutib qoldirdi. Sardor unga o‘z qalamini berdi. Bobur: “Rahmat!” — dedi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_11",
+   "t": "choice",
+   "q": "Boburga kim yordam berdi?",
+   "a": "Sardor",
+   "w": [
+    "Ustoz",
+    "Zarina",
+    "Onasi"
+   ],
+   "d": 1,
+   "x": "Sardor unga o‘z qalamini berdi.",
+   "text": "Bobur qalamini uyda unutib qoldirdi. Sardor unga o‘z qalamini berdi. Bobur: “Rahmat!” — dedi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_12",
+   "t": "choice",
+   "q": "Bobur Sardorga nima dedi?",
+   "a": "Rahmat!",
+   "w": [
+    "Salom!",
+    "Xayr!",
+    "Kechirasiz!"
+   ],
+   "d": 1,
+   "x": "Yordam olganda “Rahmat!” deymiz.",
+   "text": "Bobur qalamini uyda unutib qoldirdi. Sardor unga o‘z qalamini berdi. Bobur: “Rahmat!” — dedi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_13",
+   "t": "choice",
+   "q": "Sardor qanday bola?",
+   "a": "Mehribon",
+   "w": [
+    "Dangasa",
+    "Maqtanchoq",
+    "Qo‘pol"
+   ],
+   "d": 2,
+   "x": "U do‘stiga o‘z qalamini berib, yordam qildi.",
+   "text": "Bobur qalamini uyda unutib qoldirdi. Sardor unga o‘z qalamini berdi. Bobur: “Rahmat!” — dedi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_14",
+   "t": "choice",
+   "q": "Derazada nima bor?",
+   "a": "Gullar",
+   "w": [
+    "Kitoblar",
+    "Mushuk",
+    "Soat"
+   ],
+   "d": 1,
+   "x": "“Derazada gullar bor.”",
+   "text": "Sinfimiz katta va yorug‘. Derazada gullar bor. Biz ularga navbat bilan suv quyamiz."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_15",
+   "t": "choice",
+   "q": "Bolalar gullarga nima qilishadi?",
+   "a": "Suv quyishadi",
+   "w": [
+    "Uzishadi",
+    "Sotishadi",
+    "Bo‘yashadi"
+   ],
+   "d": 2,
+   "x": "“Biz ularga navbat bilan suv quyamiz.”",
+   "text": "Sinfimiz katta va yorug‘. Derazada gullar bor. Biz ularga navbat bilan suv quyamiz."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_16",
+   "t": "tf",
+   "q": "Sinf kichik va qorong‘i.",
+   "a": false,
+   "d": 1,
+   "x": "Sinf katta va yorug‘.",
+   "text": "Sinfimiz katta va yorug‘. Derazada gullar bor. Biz ularga navbat bilan suv quyamiz."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_17",
+   "t": "choice",
+   "q": "Hikoyaga mos sarlavhani tanlang.",
+   "a": "Maktabdagi birinchi kun",
+   "w": [
+    "Qishki o‘yin",
+    "Bog‘dagi mushuk",
+    "Bozorda"
+   ],
+   "d": 2,
+   "x": "Hikoya Alining maktabdagi birinchi kuni haqida.",
+   "text": "Bugun Ali birinchi marta maktabga bordi. Uning sumkasi yangi. Ustoz bolalarni jilmayib kutib oldi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_18",
+   "t": "choice",
+   "q": "Maktabda bizga kim dars beradi?",
+   "a": "O‘qituvchi",
+   "w": [
+    "Shifokor",
+    "Haydovchi",
+    "Sotuvchi"
+   ],
+   "d": 1,
+   "x": "O‘qituvchi — ustoz bizga dars beradi.",
+   "e": "🏫"
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_19",
+   "t": "choice",
+   "q": "Qaysi biri o‘quv quroli?",
+   "a": "Qalam",
+   "w": [
+    "Qoshiq",
+    "Choynak",
+    "Yostiq"
+   ],
+   "d": 1,
+   "x": "Qalam bilan yozamiz — u o‘quv quroli.",
+   "e": "🎒"
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Men",
+    "maktabga",
+    "boraman"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Gap katta harf bilan boshlanadi: Men maktabga boraman."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Ustoz",
+    "bizga",
+    "ertak",
+    "o‘qib",
+    "berdi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Kim? — Ustoz. Nima qildi? — ertak o‘qib berdi."
+  },
+  {
+   "topic": "reading_g1.school",
+   "id": "school_22",
+   "t": "match",
+   "q": "O‘quv qurolini rasmga moslang",
+   "pairs": [
+    [
+     "kitob",
+     "📖"
+    ],
+    [
+     "qalam",
+     "✏️"
+    ],
+    [
+     "daftar",
+     "📓"
+    ],
+    [
+     "sumka",
+     "🎒"
+    ],
+    [
+     "qaychi",
+     "✂️"
+    ],
+    [
+     "chizg‘ich",
+     "📏"
+    ]
+   ],
+   "d": 1,
+   "x": "Bular — maktabda kerak bo‘ladigan o‘quv qurollari."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_1",
+   "t": "choice",
+   "q": "Matn kimning oilasi haqida?",
+   "a": "Madinaning",
+   "w": [
+    "Alining",
+    "Zarinaning",
+    "Ustozning"
+   ],
+   "d": 1,
+   "x": "“Bu — Madinaning oilasi.”",
+   "text": "Bu — Madinaning oilasi. Uning dadasi, onasi, akasi va ukasi bor. Ular kechqurun birga choy ichishadi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_2",
+   "t": "choice",
+   "q": "Oila kechqurun nima qiladi?",
+   "a": "Birga choy ichadi",
+   "w": [
+    "Futbol o‘ynaydi",
+    "Bozorga boradi",
+    "Kino ko‘radi"
+   ],
+   "d": 1,
+   "x": "“Ular kechqurun birga choy ichishadi.”",
+   "text": "Bu — Madinaning oilasi. Uning dadasi, onasi, akasi va ukasi bor. Ular kechqurun birga choy ichishadi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_3",
+   "t": "tf",
+   "q": "Madinaning ukasi bor.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda: “Uning dadasi, onasi, akasi va ukasi bor.”",
+   "text": "Bu — Madinaning oilasi. Uning dadasi, onasi, akasi va ukasi bor. Ular kechqurun birga choy ichishadi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_4",
+   "t": "choice",
+   "q": "Oilada nechta bola bor?",
+   "a": "3 ta",
+   "w": [
+    "1 ta",
+    "2 ta",
+    "4 ta"
+   ],
+   "d": 3,
+   "x": "Madina, uning akasi va ukasi — 3 ta bola.",
+   "text": "Bu — Madinaning oilasi. Uning dadasi, onasi, akasi va ukasi bor. Ular kechqurun birga choy ichishadi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_5",
+   "t": "choice",
+   "q": "Buvi nima yopdi?",
+   "a": "Non",
+   "w": [
+    "Somsa",
+    "Palov",
+    "Chuchvara"
+   ],
+   "d": 1,
+   "x": "“Buvim tandirda non yopdi.”",
+   "text": "Buvim tandirda non yopdi. Non issiq va mazali. Men buvimga rahmat aytdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_6",
+   "t": "choice",
+   "q": "Non qanday ekan?",
+   "a": "Issiq va mazali",
+   "w": [
+    "Sovuq va qattiq",
+    "Kuygan",
+    "Sho‘r"
+   ],
+   "d": 1,
+   "x": "“Non issiq va mazali.”",
+   "text": "Buvim tandirda non yopdi. Non issiq va mazali. Men buvimga rahmat aytdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_7",
+   "t": "choice",
+   "q": "Bola buvisiga nima dedi?",
+   "a": "Rahmat",
+   "w": [
+    "Xayr",
+    "Kechirasiz",
+    "Salom"
+   ],
+   "d": 1,
+   "x": "“Men buvimga rahmat aytdim.”",
+   "text": "Buvim tandirda non yopdi. Non issiq va mazali. Men buvimga rahmat aytdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_8",
+   "t": "choice",
+   "q": "Dada qayerdan keldi?",
+   "a": "Ishdan",
+   "w": [
+    "Bozordan",
+    "Maktabdan",
+    "Bog‘dan"
+   ],
+   "d": 1,
+   "x": "“Dadam ishdan charchab keldi.”",
+   "text": "Dadam ishdan charchab keldi. Men unga shippagini olib keldim. Dadam meni quchoqladi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_9",
+   "t": "choice",
+   "q": "Bola dadasiga nima olib keldi?",
+   "a": "Shippagini",
+   "w": [
+    "Choyini",
+    "Gazetasini",
+    "Kitobini"
+   ],
+   "d": 1,
+   "x": "Bola dadasiga shippagini olib keldi.",
+   "text": "Dadam ishdan charchab keldi. Men unga shippagini olib keldim. Dadam meni quchoqladi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_10",
+   "t": "choice",
+   "q": "Dada bolani nima qildi?",
+   "a": "Quchoqladi",
+   "w": [
+    "Urishdi",
+    "Uxlatdi",
+    "Chaqirdi"
+   ],
+   "d": 1,
+   "x": "“Dadam meni quchoqladi.”",
+   "text": "Dadam ishdan charchab keldi. Men unga shippagini olib keldim. Dadam meni quchoqladi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_11",
+   "t": "choice",
+   "q": "Bola qanday ekan?",
+   "a": "G‘amxo‘r",
+   "w": [
+    "Dangasa",
+    "Injiq",
+    "Qo‘pol"
+   ],
+   "d": 2,
+   "x": "U charchagan dadasiga g‘amxo‘rlik qildi.",
+   "text": "Dadam ishdan charchab keldi. Men unga shippagini olib keldim. Dadam meni quchoqladi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_12",
+   "t": "choice",
+   "q": "Ular qayerga borishdi?",
+   "a": "Bozorga",
+   "w": [
+    "Maktabga",
+    "Bog‘ga",
+    "Mehmonga"
+   ],
+   "d": 1,
+   "x": "“Onam bilan bozorga bordik.”",
+   "text": "Onam bilan bozorga bordik. Biz olma va sabzi oldik. Men sumkani ko‘tarishga yordam berdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_13",
+   "t": "choice",
+   "q": "Ular nima olishdi?",
+   "a": "Olma va sabzi",
+   "w": [
+    "Non va sut",
+    "Nok va uzum",
+    "Guruch va go‘sht"
+   ],
+   "d": 1,
+   "x": "“Biz olma va sabzi oldik.”",
+   "text": "Onam bilan bozorga bordik. Biz olma va sabzi oldik. Men sumkani ko‘tarishga yordam berdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_14",
+   "t": "choice",
+   "q": "Bola onasiga qanday yordam berdi?",
+   "a": "Sumkani ko‘tardi",
+   "w": [
+    "Pul sanadi",
+    "Ovqat pishirdi",
+    "Idish yuvdi"
+   ],
+   "d": 1,
+   "x": "“Men sumkani ko‘tarishga yordam berdim.”",
+   "text": "Onam bilan bozorga bordik. Biz olma va sabzi oldik. Men sumkani ko‘tarishga yordam berdim."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_15",
+   "t": "choice",
+   "q": "Bobo qayerda ishlayotgan edi?",
+   "a": "Bog‘da",
+   "w": [
+    "Dalada",
+    "Do‘konda",
+    "Maktabda"
+   ],
+   "d": 1,
+   "x": "“Bobom bog‘da ishlayotgan edi.”",
+   "text": "Bobom bog‘da ishlayotgan edi. Men unga suv olib bordim. Bobom menga eng katta olmani uzib berdi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_16",
+   "t": "choice",
+   "q": "Bola bobosiga nima olib bordi?",
+   "a": "Suv",
+   "w": [
+    "Non",
+    "Choy",
+    "Olma"
+   ],
+   "d": 1,
+   "x": "“Men unga suv olib bordim.”",
+   "text": "Bobom bog‘da ishlayotgan edi. Men unga suv olib bordim. Bobom menga eng katta olmani uzib berdi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_17",
+   "t": "tf",
+   "q": "Bobo nevarasiga eng kichik olmani berdi.",
+   "a": false,
+   "d": 1,
+   "x": "Bobo eng katta olmani uzib berdi.",
+   "text": "Bobom bog‘da ishlayotgan edi. Men unga suv olib bordim. Bobom menga eng katta olmani uzib berdi."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_18",
+   "t": "choice",
+   "q": "Dadamning otasi kim bo‘ladi?",
+   "a": "Bobom",
+   "w": [
+    "Amakim",
+    "Tog‘am",
+    "Akam"
+   ],
+   "d": 2,
+   "x": "Dadamning otasi — bobom."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_19",
+   "t": "choice",
+   "q": "Onamning singlisi kim bo‘ladi?",
+   "a": "Xolam",
+   "w": [
+    "Ammam",
+    "Buvim",
+    "Opam"
+   ],
+   "d": 2,
+   "x": "Onaning opa-singlisi — xola, otaning opa-singlisi — amma."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_20",
+   "t": "match",
+   "q": "Kim kim bo‘ladi? Juftlang",
+   "pairs": [
+    [
+     "dadamning otasi",
+     "bobom"
+    ],
+    [
+     "onamning onasi",
+     "buvim"
+    ],
+    [
+     "dadamning akasi",
+     "amakim"
+    ],
+    [
+     "onamning akasi",
+     "tog‘am"
+    ],
+    [
+     "onamning opasi",
+     "xolam"
+    ],
+    [
+     "dadamning opasi",
+     "ammam"
+    ]
+   ],
+   "d": 3,
+   "x": "Otaning aka-ukasi — amaki, onaning aka-ukasi — tog‘a."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Men",
+    "oilamni",
+    "yaxshi",
+    "ko‘raman"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Oila — eng yaqin odamlarimiz."
+  },
+  {
+   "topic": "reading_g1.family",
+   "id": "family_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Dadam",
+    "bilan",
+    "bog‘da",
+    "ishladik"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Kim bilan? — dadam bilan. Qayerda? — bog‘da."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_1",
+   "t": "choice",
+   "q": "Lola va Nigora kim?",
+   "a": "Dugonalar",
+   "w": [
+    "Opa-singil",
+    "Ona va qiz",
+    "Ustoz va o‘quvchi"
+   ],
+   "d": 1,
+   "x": "“Lola va Nigora — dugona.”",
+   "text": "Lola va Nigora — dugona. Ular birga rasm chizishadi. Lola Nigoraga qizil qalam berdi, Nigora esa Lolaga ko‘k qalam."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_2",
+   "t": "choice",
+   "q": "Qizlar birga nima qilishadi?",
+   "a": "Rasm chizishadi",
+   "w": [
+    "Qo‘shiq aytishadi",
+    "Yugurishadi",
+    "Ovqat pishirishadi"
+   ],
+   "d": 1,
+   "x": "“Ular birga rasm chizishadi.”",
+   "text": "Lola va Nigora — dugona. Ular birga rasm chizishadi. Lola Nigoraga qizil qalam berdi, Nigora esa Lolaga ko‘k qalam."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_3",
+   "t": "choice",
+   "q": "Nigora Lolaga qanday qalam berdi?",
+   "a": "Ko‘k",
+   "w": [
+    "Qizil",
+    "Sariq",
+    "Yashil"
+   ],
+   "d": 2,
+   "x": "Lola qizil, Nigora esa ko‘k qalam berdi.",
+   "text": "Lola va Nigora — dugona. Ular birga rasm chizishadi. Lola Nigoraga qizil qalam berdi, Nigora esa Lolaga ko‘k qalam."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_4",
+   "t": "choice",
+   "q": "Olimning nimasi daraxtga ilinib qoldi?",
+   "a": "To‘pi",
+   "w": [
+    "Varragi",
+    "Kitobi",
+    "Qalpog‘i"
+   ],
+   "d": 1,
+   "x": "“Olimning to‘pi daraxtga ilinib qoldi.”",
+   "text": "Olimning to‘pi daraxtga ilinib qoldi. Umid uzun tayoq olib keldi. Ikkovi to‘pni birga tushirishdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_5",
+   "t": "choice",
+   "q": "Umid nima olib keldi?",
+   "a": "Uzun tayoq",
+   "w": [
+    "Narvon",
+    "Arqon",
+    "Stul"
+   ],
+   "d": 1,
+   "x": "“Umid uzun tayoq olib keldi.”",
+   "text": "Olimning to‘pi daraxtga ilinib qoldi. Umid uzun tayoq olib keldi. Ikkovi to‘pni birga tushirishdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_6",
+   "t": "choice",
+   "q": "To‘pni kim tushirdi?",
+   "a": "Olim va Umid birga",
+   "w": [
+    "Faqat Olim",
+    "Faqat Umid",
+    "Kattalar"
+   ],
+   "d": 2,
+   "x": "“Ikkovi to‘pni birga tushirishdi.”",
+   "text": "Olimning to‘pi daraxtga ilinib qoldi. Umid uzun tayoq olib keldi. Ikkovi to‘pni birga tushirishdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_7",
+   "t": "choice",
+   "q": "Kim yiqildi?",
+   "a": "Kamola",
+   "w": [
+    "Iroda",
+    "Ustoz",
+    "Lola"
+   ],
+   "d": 1,
+   "x": "“Kamola yiqilib, tizzasini og‘ritdi.”",
+   "text": "Kamola yiqilib, tizzasini og‘ritdi. Iroda uni o‘rnidan turg‘izdi. Keyin bu haqda ustozga aytdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_8",
+   "t": "choice",
+   "q": "Iroda nima qildi?",
+   "a": "Kamolani turg‘izdi",
+   "w": [
+    "Kulib yubordi",
+    "Uyga ketdi",
+    "Yig‘ladi"
+   ],
+   "d": 1,
+   "x": "“Iroda uni o‘rnidan turg‘izdi.”",
+   "text": "Kamola yiqilib, tizzasini og‘ritdi. Iroda uni o‘rnidan turg‘izdi. Keyin bu haqda ustozga aytdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_9",
+   "t": "choice",
+   "q": "Keyin Iroda kimga aytdi?",
+   "a": "Ustozga",
+   "w": [
+    "Onasiga",
+    "Shifokorga",
+    "Dugonasiga"
+   ],
+   "d": 1,
+   "x": "“Keyin bu haqda ustozga aytdi.”",
+   "text": "Kamola yiqilib, tizzasini og‘ritdi. Iroda uni o‘rnidan turg‘izdi. Keyin bu haqda ustozga aytdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_10",
+   "t": "choice",
+   "q": "Jasurda nima bor edi?",
+   "a": "Olma",
+   "w": [
+    "Nok",
+    "Konfet",
+    "Non"
+   ],
+   "d": 1,
+   "x": "“Jasurning olmasi bor edi.”",
+   "text": "Jasurning olmasi bor edi. U olmani ikkiga bo‘lib, yarmini do‘stiga berdi. Ikkalasi ham xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_11",
+   "t": "choice",
+   "q": "Jasur olmani nima qildi?",
+   "a": "Do‘sti bilan bo‘lishdi",
+   "w": [
+    "O‘zi yedi",
+    "Tashlab yubordi",
+    "Yashirib qo‘ydi"
+   ],
+   "d": 1,
+   "x": "U olmaning yarmini do‘stiga berdi.",
+   "text": "Jasurning olmasi bor edi. U olmani ikkiga bo‘lib, yarmini do‘stiga berdi. Ikkalasi ham xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_12",
+   "t": "choice",
+   "q": "Jasur qanday bola?",
+   "a": "Saxiy",
+   "w": [
+    "Xasis",
+    "Dangasa",
+    "Qo‘rqoq"
+   ],
+   "d": 2,
+   "x": "Borini do‘sti bilan bo‘lishgan bola — saxiy.",
+   "text": "Jasurning olmasi bor edi. U olmani ikkiga bo‘lib, yarmini do‘stiga berdi. Ikkalasi ham xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_13",
+   "t": "choice",
+   "q": "Temur nima qildi?",
+   "a": "Qalamni sindirib qo‘ydi",
+   "w": [
+    "Qalamni yo‘qotdi",
+    "Qalam sotib oldi",
+    "Qalamni yashirdi"
+   ],
+   "d": 1,
+   "x": "“Temur Anvarning qalamini sindirib qo‘ydi.”",
+   "text": "Temur Anvarning qalamini sindirib qo‘ydi. U darhol: “Uzr, bilmay qoldim”, — dedi. Anvar uni kechirdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_14",
+   "t": "choice",
+   "q": "Temur qanday so‘z aytdi?",
+   "a": "Uzr",
+   "w": [
+    "Rahmat",
+    "Xayr",
+    "Salom"
+   ],
+   "d": 1,
+   "x": "Xato qilganda “Uzr” deymiz.",
+   "text": "Temur Anvarning qalamini sindirib qo‘ydi. U darhol: “Uzr, bilmay qoldim”, — dedi. Anvar uni kechirdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_15",
+   "t": "tf",
+   "q": "Anvar Temurni kechirdi.",
+   "a": true,
+   "d": 1,
+   "x": "“Anvar uni kechirdi.”",
+   "text": "Temur Anvarning qalamini sindirib qo‘ydi. U darhol: “Uzr, bilmay qoldim”, — dedi. Anvar uni kechirdi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_16",
+   "t": "choice",
+   "q": "Yaxshi do‘st nima qiladi?",
+   "a": "Yordam beradi",
+   "w": [
+    "Masxara qiladi",
+    "Urishadi",
+    "Aldaydi"
+   ],
+   "d": 1,
+   "x": "Yaxshi do‘st qiyin paytda yordam beradi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_17",
+   "t": "choice",
+   "q": "Do‘stingiz xafa bo‘lib o‘tiribdi. Nima qilasiz?",
+   "a": "Yoniga borib, ko‘nglini ko‘taraman",
+   "w": [
+    "E’tibor bermayman",
+    "Ustidan kulaman",
+    "Uzoqlashib ketaman"
+   ],
+   "d": 2,
+   "x": "Do‘st xafa bo‘lsa, uning yonida bo‘lamiz."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_18",
+   "t": "tf",
+   "q": "Yaxshi do‘st o‘yinchog‘ini bo‘lishadi.",
+   "a": true,
+   "d": 1,
+   "x": "Bo‘lishish do‘stlikni mustahkamlaydi."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_19",
+   "t": "tf",
+   "q": "Do‘st uzr so‘rasa, uni kechirmaslik kerak.",
+   "a": false,
+   "d": 1,
+   "x": "Do‘st uzr so‘rasa, uni kechiramiz."
+  },
+  {
+   "topic": "reading_g1.friends",
+   "id": "friends_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Biz",
+    "do‘stlar",
+    "bilan",
+    "birga",
+    "o‘ynaymiz"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Kim? — biz. Nima qilamiz? — o‘ynaymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_1",
+   "t": "choice",
+   "q": "Ertalab ustozni ko‘rdingiz. Nima deysiz?",
+   "a": "Assalomu alaykum!",
+   "w": [
+    "Xayr!",
+    "Rahmat!",
+    "Kechirasiz!"
+   ],
+   "d": 1,
+   "x": "Uchrashganda salom beramiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_2",
+   "t": "choice",
+   "q": "Sizga sovg‘a berishdi. Nima deysiz?",
+   "a": "Rahmat!",
+   "w": [
+    "Salom!",
+    "Xayr!",
+    "Uzr!"
+   ],
+   "d": 1,
+   "x": "Sovg‘a olganda “Rahmat!” deymiz.",
+   "e": "🎁"
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_3",
+   "t": "choice",
+   "q": "Bilmasdan birovni turtib yubordingiz. Nima deysiz?",
+   "a": "Kechirasiz!",
+   "w": [
+    "Rahmat!",
+    "Salom!",
+    "Xayrli tun!"
+   ],
+   "d": 1,
+   "x": "Xato qilganda “Kechirasiz!” deymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_4",
+   "t": "choice",
+   "q": "Onangizdan suv so‘ramoqchisiz. Qaysi so‘zni qo‘shasiz?",
+   "a": "Iltimos",
+   "w": [
+    "Tezroq",
+    "Bo‘ldi",
+    "Xayr"
+   ],
+   "d": 1,
+   "x": "Biror narsa so‘raganda “iltimos” deymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_5",
+   "t": "choice",
+   "q": "Uxlashdan oldin oilangizga nima deysiz?",
+   "a": "Xayrli tun!",
+   "w": [
+    "Xayrli tong!",
+    "Salom!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "Kechasi, uxlashdan oldin “Xayrli tun!” deymiz.",
+   "e": "🌙"
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_6",
+   "t": "choice",
+   "q": "Ertalab uyg‘onganda nima deysiz?",
+   "a": "Xayrli tong!",
+   "w": [
+    "Xayrli tun!",
+    "Xayr!",
+    "Uzr!"
+   ],
+   "d": 1,
+   "x": "Ertalab “Xayrli tong!” deymiz.",
+   "e": "🌅"
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_7",
+   "t": "choice",
+   "q": "Mehmonlar ketayotganda nima deysiz?",
+   "a": "Xayr, yana keling!",
+   "w": [
+    "Salom!",
+    "Kechirasiz!",
+    "Iltimos"
+   ],
+   "d": 1,
+   "x": "Xayrlashganda “Xayr!” deymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_8",
+   "t": "choice",
+   "q": "Qaysi so‘z — sehrli so‘z?",
+   "a": "Rahmat",
+   "w": [
+    "Ket",
+    "Jim",
+    "Ber"
+   ],
+   "d": 1,
+   "x": "Sehrli so‘zlar: rahmat, iltimos, kechirasiz, salom."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_9",
+   "t": "choice",
+   "q": "Avtobusda buvi tik turibdi. Nima qilasiz?",
+   "a": "Joy beraman",
+   "w": [
+    "O‘tiraveraman",
+    "Uxlayman",
+    "Derazaga qarayman"
+   ],
+   "d": 2,
+   "x": "Kattalarga joy berish — odob."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_10",
+   "t": "choice",
+   "q": "Kattalar gapirayotganda nima qilamiz?",
+   "a": "Gapini bo‘lmaymiz",
+   "w": [
+    "Baqiramiz",
+    "Gapini bo‘lamiz",
+    "Qochib ketamiz"
+   ],
+   "d": 2,
+   "x": "Kattalar gapini oxirigacha tinglaymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_11",
+   "t": "choice",
+   "q": "Ovqat pishirgan onangizga nima deysiz?",
+   "a": "Rahmat, juda mazali!",
+   "w": [
+    "Tezroq bering!",
+    "Yoqmadi!",
+    "Bu nima?"
+   ],
+   "d": 2,
+   "x": "Mehnati uchun minnatdorchilik bildiramiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_12",
+   "t": "choice",
+   "q": "Nodira sotuvchiga avval nima qildi?",
+   "a": "Salom berdi",
+   "w": [
+    "Pul berdi",
+    "Kuldi",
+    "Baqirdi"
+   ],
+   "d": 1,
+   "x": "“U sotuvchiga salom berdi.”",
+   "text": "Nodira do‘konga kirdi. U sotuvchiga salom berdi. “Iltimos, bitta non bering”, — dedi. Keyin “Rahmat!” deb chiqdi."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_13",
+   "t": "choice",
+   "q": "Nodira nima so‘radi?",
+   "a": "Non",
+   "w": [
+    "Sut",
+    "Olma",
+    "Konfet"
+   ],
+   "d": 1,
+   "x": "“Iltimos, bitta non bering.”",
+   "text": "Nodira do‘konga kirdi. U sotuvchiga salom berdi. “Iltimos, bitta non bering”, — dedi. Keyin “Rahmat!” deb chiqdi."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_14",
+   "t": "choice",
+   "q": "Nodira qanday qiz?",
+   "a": "Odobli",
+   "w": [
+    "Qo‘pol",
+    "Dangasa",
+    "Injiq"
+   ],
+   "d": 2,
+   "x": "U salom berdi, “iltimos” va “rahmat” dedi.",
+   "text": "Nodira do‘konga kirdi. U sotuvchiga salom berdi. “Iltimos, bitta non bering”, — dedi. Keyin “Rahmat!” deb chiqdi."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_15",
+   "t": "choice",
+   "q": "Nodira do‘konda nechta sehrli so‘z ishlatdi?",
+   "a": "3 ta",
+   "w": [
+    "1 ta",
+    "2 ta",
+    "5 ta"
+   ],
+   "d": 3,
+   "x": "Salom, iltimos, rahmat — 3 ta.",
+   "text": "Nodira do‘konga kirdi. U sotuvchiga salom berdi. “Iltimos, bitta non bering”, — dedi. Keyin “Rahmat!” deb chiqdi."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_16",
+   "t": "tf",
+   "q": "Kattalarga salom berish — odob.",
+   "a": true,
+   "d": 1,
+   "x": "Kichiklar kattalarga birinchi bo‘lib salom beradi."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_17",
+   "t": "tf",
+   "q": "Biror narsa so‘raganda “iltimos” deyish shart emas.",
+   "a": false,
+   "d": 1,
+   "x": "So‘raganda doim “iltimos” deymiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_18",
+   "t": "tf",
+   "q": "Yordam olganda “rahmat” deymiz.",
+   "a": true,
+   "d": 1,
+   "x": "Yordam uchun minnatdorchilik bildiramiz."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_19",
+   "t": "match",
+   "q": "Vaziyatni so‘z bilan juftlang",
+   "pairs": [
+    [
+     "uchrashganda",
+     "Salom!"
+    ],
+    [
+     "xayrlashganda",
+     "Xayr!"
+    ],
+    [
+     "sovg‘a olganda",
+     "Rahmat!"
+    ],
+    [
+     "xato qilganda",
+     "Kechirasiz!"
+    ],
+    [
+     "so‘raganda",
+     "Iltimos"
+    ],
+    [
+     "uxlashdan oldin",
+     "Xayrli tun!"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir vaziyatning o‘z odobli so‘zi bor."
+  },
+  {
+   "topic": "reading_g1.polite",
+   "id": "polite_20",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Men",
+    "ustozga",
+    "salom",
+    "berdim"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Ustozni ko‘rganda salom beramiz."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_1",
+   "t": "choice",
+   "q": "Uyda qanday hayvon bor?",
+   "a": "Mushuk",
+   "w": [
+    "Kuchuk",
+    "Quyon",
+    "To‘tiqush"
+   ],
+   "d": 1,
+   "x": "“Bizning uyda mushuk bor.”",
+   "text": "Bizning uyda mushuk bor. Uning nomi Momiq. Momiq sut ichishni yaxshi ko‘radi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_2",
+   "t": "choice",
+   "q": "Mushukning nomi nima?",
+   "a": "Momiq",
+   "w": [
+    "Bo‘ribosar",
+    "Oqtosh",
+    "Paxmoq"
+   ],
+   "d": 1,
+   "x": "“Uning nomi Momiq.”",
+   "text": "Bizning uyda mushuk bor. Uning nomi Momiq. Momiq sut ichishni yaxshi ko‘radi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_3",
+   "t": "choice",
+   "q": "Momiq nimani yaxshi ko‘radi?",
+   "a": "Sut",
+   "w": [
+    "Non",
+    "Olma",
+    "Sabzi"
+   ],
+   "d": 1,
+   "x": "Momiq sut ichishni yaxshi ko‘radi.",
+   "text": "Bizning uyda mushuk bor. Uning nomi Momiq. Momiq sut ichishni yaxshi ko‘radi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_4",
+   "t": "choice",
+   "q": "Tovuq hovlida nima qiladi?",
+   "a": "Don cho‘qiydi",
+   "w": [
+    "Suzadi",
+    "Uxlaydi",
+    "Vovullaydi"
+   ],
+   "d": 1,
+   "x": "“Tovuq hovlida don cho‘qiydi.”",
+   "text": "Tovuq hovlida don cho‘qiydi. Uning sariq jo‘jalari bor. Jo‘jalar “chiy-chiy” deydi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_5",
+   "t": "choice",
+   "q": "Jo‘jalar qanday rangda?",
+   "a": "Sariq",
+   "w": [
+    "Qora",
+    "Ko‘k",
+    "Qizil"
+   ],
+   "d": 1,
+   "x": "“Uning sariq jo‘jalari bor.”",
+   "text": "Tovuq hovlida don cho‘qiydi. Uning sariq jo‘jalari bor. Jo‘jalar “chiy-chiy” deydi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_6",
+   "t": "choice",
+   "q": "Sigir nima beradi?",
+   "a": "Sut",
+   "w": [
+    "Tuxum",
+    "Jun",
+    "Asal"
+   ],
+   "d": 1,
+   "x": "“U har kuni sut beradi.”",
+   "text": "Bizning sigirimiz bor. U har kuni sut beradi. Buvim sutdan qatiq ivitadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_7",
+   "t": "choice",
+   "q": "Buvi sutdan nima tayyorlaydi?",
+   "a": "Qatiq",
+   "w": [
+    "Non",
+    "Choy",
+    "Murabbo"
+   ],
+   "d": 1,
+   "x": "“Buvim sutdan qatiq ivitadi.”",
+   "text": "Bizning sigirimiz bor. U har kuni sut beradi. Buvim sutdan qatiq ivitadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_8",
+   "t": "choice",
+   "q": "Olmaxon qayerda yashaydi?",
+   "a": "Daraxtda",
+   "w": [
+    "Suvda",
+    "Qumda",
+    "Uyda"
+   ],
+   "d": 1,
+   "x": "“Olmaxon daraxtda yashaydi.”",
+   "text": "Olmaxon daraxtda yashaydi. U kuzda yong‘oq yig‘adi. Qishda o‘sha yong‘oqlarni yeydi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_9",
+   "t": "choice",
+   "q": "Olmaxon nima uchun yong‘oq yig‘adi?",
+   "a": "Qishda yeyish uchun",
+   "w": [
+    "O‘ynash uchun",
+    "Sotish uchun",
+    "Uya qurish uchun"
+   ],
+   "d": 2,
+   "x": "U kuzda yig‘gan yong‘oqlarni qishda yeydi.",
+   "text": "Olmaxon daraxtda yashaydi. U kuzda yong‘oq yig‘adi. Qishda o‘sha yong‘oqlarni yeydi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_10",
+   "t": "choice",
+   "q": "Kuchukning nomi nima?",
+   "a": "Bo‘ribosar",
+   "w": [
+    "Momiq",
+    "Olapar",
+    "Oqtosh"
+   ],
+   "d": 1,
+   "x": "“Kuchugim Bo‘ribosar…”",
+   "text": "Kuchugim Bo‘ribosar hovlini qo‘riqlaydi. Begona odamni ko‘rsa, vovullaydi. Bizni ko‘rsa, dumini likillatadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_11",
+   "t": "choice",
+   "q": "Kuchuk begonani ko‘rsa, nima qiladi?",
+   "a": "Vovullaydi",
+   "w": [
+    "Miyovlaydi",
+    "Uxlaydi",
+    "Qochadi"
+   ],
+   "d": 1,
+   "x": "Begona odamni ko‘rsa, vovullaydi.",
+   "text": "Kuchugim Bo‘ribosar hovlini qo‘riqlaydi. Begona odamni ko‘rsa, vovullaydi. Bizni ko‘rsa, dumini likillatadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_12",
+   "t": "choice",
+   "q": "Kuchuk egalarini ko‘rsa, nima qiladi?",
+   "a": "Dumini likillatadi",
+   "w": [
+    "Vovullaydi",
+    "Tishlaydi",
+    "Yashirinadi"
+   ],
+   "d": 2,
+   "x": "Egalarini ko‘rsa, xursand bo‘lib dumini likillatadi.",
+   "text": "Kuchugim Bo‘ribosar hovlini qo‘riqlaydi. Begona odamni ko‘rsa, vovullaydi. Bizni ko‘rsa, dumini likillatadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_13",
+   "t": "choice",
+   "q": "Ayiq qayerda yashaydi?",
+   "a": "O‘rmonda",
+   "w": [
+    "Dengizda",
+    "Cho‘lda",
+    "Hovlida"
+   ],
+   "d": 1,
+   "x": "“Ayiq o‘rmonda yashaydi.”",
+   "text": "Ayiq o‘rmonda yashaydi. U asalni yaxshi ko‘radi. Qishda ayiq uyquga ketadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_14",
+   "t": "choice",
+   "q": "Ayiq nimani yaxshi ko‘radi?",
+   "a": "Asalni",
+   "w": [
+    "Sabzini",
+    "Qatiqni",
+    "Nonni"
+   ],
+   "d": 1,
+   "x": "“U asalni yaxshi ko‘radi.”",
+   "text": "Ayiq o‘rmonda yashaydi. U asalni yaxshi ko‘radi. Qishda ayiq uyquga ketadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_15",
+   "t": "tf",
+   "q": "Ayiq qishda uyquga ketadi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Ayiq o‘rmonda yashaydi. U asalni yaxshi ko‘radi. Qishda ayiq uyquga ketadi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_16",
+   "t": "choice",
+   "q": "Qaysi hayvon tuxum qo‘yadi?",
+   "a": "Tovuq",
+   "w": [
+    "Sigir",
+    "Mushuk",
+    "It"
+   ],
+   "d": 1,
+   "x": "Tovuq tuxum qo‘yadi, tuxumdan jo‘ja chiqadi.",
+   "e": "🥚"
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_17",
+   "t": "choice",
+   "q": "Qaysi hayvon suvda yashaydi?",
+   "a": "Baliq",
+   "w": [
+    "Ot",
+    "Quyon",
+    "Qo‘y"
+   ],
+   "d": 1,
+   "x": "Baliq suvda yashaydi va suzadi.",
+   "e": "🌊"
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_18",
+   "t": "choice",
+   "q": "Qo‘y bizga nima beradi?",
+   "a": "Jun",
+   "w": [
+    "Asal",
+    "Tuxum",
+    "Yong‘oq"
+   ],
+   "d": 2,
+   "x": "Qo‘yning junidan ip yigiriladi, paypoq to‘qiladi.",
+   "e": "🐑"
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_19",
+   "t": "choice",
+   "q": "Asalari nima beradi?",
+   "a": "Asal",
+   "w": [
+    "Sut",
+    "Jun",
+    "Tuxum"
+   ],
+   "d": 1,
+   "x": "Asalari gul shirasidan asal tayyorlaydi.",
+   "e": "🐝"
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_20",
+   "t": "choice",
+   "q": "Ot qanday ovoz chiqaradi?",
+   "a": "Kishnaydi",
+   "w": [
+    "Miyovlaydi",
+    "Vovullaydi",
+    "Sayraydi"
+   ],
+   "d": 2,
+   "x": "Ot kishnaydi.",
+   "e": "🐎"
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_21",
+   "t": "tf",
+   "q": "Baliq daraxtda yashaydi.",
+   "a": false,
+   "d": 1,
+   "x": "Baliq suvda yashaydi."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_22",
+   "t": "match",
+   "q": "Hayvonni ovozi bilan juftlang",
+   "pairs": [
+    [
+     "mushuk",
+     "miyovlaydi"
+    ],
+    [
+     "it",
+     "vovullaydi"
+    ],
+    [
+     "sigir",
+     "mo‘raydi"
+    ],
+    [
+     "ot",
+     "kishnaydi"
+    ],
+    [
+     "qo‘y",
+     "ma’raydi"
+    ],
+    [
+     "xo‘roz",
+     "qichqiradi"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir hayvonning o‘z ovozi bor."
+  },
+  {
+   "topic": "reading_g1.animals",
+   "id": "animals_23",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Mushuk",
+    "sut",
+    "ichdi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Kim? — mushuk. Nima qildi? — sut ichdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_1",
+   "t": "choice",
+   "q": "Matn qaysi fasl haqida?",
+   "a": "Qish",
+   "w": [
+    "Bahor",
+    "Yoz",
+    "Kuz"
+   ],
+   "d": 1,
+   "x": "“Qish keldi.”",
+   "text": "Qish keldi. Hamma yoq oppoq qor. Bolalar qordan odam yasashdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_2",
+   "t": "choice",
+   "q": "Hamma yoq qanday?",
+   "a": "Oppoq",
+   "w": [
+    "Yashil",
+    "Sariq",
+    "Qizil"
+   ],
+   "d": 1,
+   "x": "“Hamma yoq oppoq qor.”",
+   "text": "Qish keldi. Hamma yoq oppoq qor. Bolalar qordan odam yasashdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_3",
+   "t": "choice",
+   "q": "Bolalar nima yasashdi?",
+   "a": "Qordan odam",
+   "w": [
+    "Qum qasr",
+    "Varrak",
+    "Qog‘oz qayiq"
+   ],
+   "d": 1,
+   "x": "“Bolalar qordan odam yasashdi.”",
+   "text": "Qish keldi. Hamma yoq oppoq qor. Bolalar qordan odam yasashdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_4",
+   "t": "choice",
+   "q": "Matn qaysi fasl haqida?",
+   "a": "Bahor",
+   "w": [
+    "Qish",
+    "Yoz",
+    "Kuz"
+   ],
+   "d": 1,
+   "x": "“Bahor keldi.”",
+   "text": "Bahor keldi. Qaldirg‘ochlar uchib keldi. Daraxtlar gulladi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_5",
+   "t": "choice",
+   "q": "Qanday qushlar uchib keldi?",
+   "a": "Qaldirg‘ochlar",
+   "w": [
+    "Qarg‘alar",
+    "Chumchuqlar",
+    "Kaptarlar"
+   ],
+   "d": 1,
+   "x": "Bahorda qaldirg‘ochlar qaytib keladi.",
+   "text": "Bahor keldi. Qaldirg‘ochlar uchib keldi. Daraxtlar gulladi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_6",
+   "t": "choice",
+   "q": "Bahorda daraxtlar nima qildi?",
+   "a": "Gulladi",
+   "w": [
+    "Qurib qoldi",
+    "Barg to‘kdi",
+    "Qorga burkandi"
+   ],
+   "d": 1,
+   "x": "“Daraxtlar gulladi.”",
+   "text": "Bahor keldi. Qaldirg‘ochlar uchib keldi. Daraxtlar gulladi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_7",
+   "t": "choice",
+   "q": "Yozda kunlar qanday?",
+   "a": "Issiq",
+   "w": [
+    "Sovuq",
+    "Qorli",
+    "Salqin"
+   ],
+   "d": 1,
+   "x": "“Yozda kunlar issiq.”",
+   "text": "Yozda kunlar issiq. Bolalar hovuzda suzishadi. Bog‘da o‘rik va gilos pishdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_8",
+   "t": "choice",
+   "q": "Bog‘da nimalar pishdi?",
+   "a": "O‘rik va gilos",
+   "w": [
+    "Olma va behi",
+    "Anor va xurmo",
+    "Limon va apelsin"
+   ],
+   "d": 1,
+   "x": "“Bog‘da o‘rik va gilos pishdi.”",
+   "text": "Yozda kunlar issiq. Bolalar hovuzda suzishadi. Bog‘da o‘rik va gilos pishdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_9",
+   "t": "choice",
+   "q": "Kuzda barglar qanday bo‘ldi?",
+   "a": "Sariq",
+   "w": [
+    "Yashil",
+    "Oq",
+    "Ko‘k"
+   ],
+   "d": 1,
+   "x": "“Barglar sarg‘aydi.”",
+   "text": "Kuz keldi. Barglar sarg‘aydi. Bog‘da olma va uzum pishdi. Bolalar maktabga borishdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_10",
+   "t": "choice",
+   "q": "Kuzda bolalar qayerga borishdi?",
+   "a": "Maktabga",
+   "w": [
+    "Dengizga",
+    "Tog‘ga",
+    "Hovuzga"
+   ],
+   "d": 1,
+   "x": "“Bolalar maktabga borishdi.”",
+   "text": "Kuz keldi. Barglar sarg‘aydi. Bog‘da olma va uzum pishdi. Bolalar maktabga borishdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_11",
+   "t": "tf",
+   "q": "Kuzda bog‘da olma va uzum pishdi.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Kuz keldi. Barglar sarg‘aydi. Bog‘da olma va uzum pishdi. Bolalar maktabga borishdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_12",
+   "t": "choice",
+   "q": "Aziz nima oldi?",
+   "a": "Soyabon",
+   "w": [
+    "To‘p",
+    "Kitob",
+    "Chana"
+   ],
+   "d": 1,
+   "x": "Yomg‘ir yog‘gani uchun Aziz soyabon oldi.",
+   "text": "Yomg‘ir yog‘di. Aziz soyabon oldi. Yomg‘irdan keyin osmonda kamalak chiqdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_13",
+   "t": "choice",
+   "q": "Yomg‘irdan keyin osmonda nima chiqdi?",
+   "a": "Kamalak",
+   "w": [
+    "Oy",
+    "Qor",
+    "Yulduz"
+   ],
+   "d": 1,
+   "x": "“Yomg‘irdan keyin osmonda kamalak chiqdi.”",
+   "text": "Yomg‘ir yog‘di. Aziz soyabon oldi. Yomg‘irdan keyin osmonda kamalak chiqdi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_14",
+   "t": "choice",
+   "q": "Qaysi faslda eng ko‘p qor yog‘adi?",
+   "a": "Qishda",
+   "w": [
+    "Yozda",
+    "Kuzda",
+    "Bahorda"
+   ],
+   "d": 1,
+   "x": "Qish — eng sovuq fasl, qor ko‘p yog‘adi.",
+   "e": "❄️"
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_15",
+   "t": "choice",
+   "q": "Bir yilda nechta fasl bor?",
+   "a": "4 ta",
+   "w": [
+    "2 ta",
+    "3 ta",
+    "12 ta"
+   ],
+   "d": 1,
+   "x": "Qish, bahor, yoz, kuz — 4 ta fasl."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_16",
+   "t": "choice",
+   "q": "Qishdan keyin qaysi fasl keladi?",
+   "a": "Bahor",
+   "w": [
+    "Yoz",
+    "Kuz"
+   ],
+   "d": 1,
+   "x": "Qish → bahor → yoz → kuz."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_17",
+   "t": "choice",
+   "q": "Yozdan keyin qaysi fasl keladi?",
+   "a": "Kuz",
+   "w": [
+    "Qish",
+    "Bahor"
+   ],
+   "d": 2,
+   "x": "Yoz → kuz → qish → bahor."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_18",
+   "t": "choice",
+   "q": "Qaysi faslda daraxtlarning barglari to‘kiladi?",
+   "a": "Kuzda",
+   "w": [
+    "Bahorda",
+    "Yozda"
+   ],
+   "d": 2,
+   "x": "Kuzda barglar sarg‘ayib, to‘kiladi.",
+   "e": "🍂"
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_19",
+   "t": "choice",
+   "q": "Qaysi faslda qaldirg‘ochlar issiq o‘lkalarga uchib ketadi?",
+   "a": "Kuzda",
+   "w": [
+    "Bahorda",
+    "Yozning boshida"
+   ],
+   "d": 2,
+   "x": "Kuzda sovuq tushadi, qushlar issiq o‘lkalarga uchib ketadi."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_20",
+   "t": "tf",
+   "q": "Yozda daraxtlar qor bilan qoplanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Qor qishda yog‘adi, yozda havo issiq."
+  },
+  {
+   "topic": "reading_g1.seasons",
+   "id": "seasons_21",
+   "t": "order",
+   "q": "Bahordan boshlab fasllarni tartib bilan tering",
+   "parts": [
+    "bahor",
+    "yoz",
+    "kuz",
+    "qish"
+   ],
+   "sep": " → ",
+   "d": 2,
+   "x": "Bahordan keyin yoz, keyin kuz, keyin qish keladi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_1",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Dumi kalta, qulog‘i uzun, sakrab-sakrab yuradi.”",
+   "a": "🐰",
+   "w": [
+    "🐱",
+    "🐻",
+    "🐭"
+   ],
+   "d": 1,
+   "x": "Javob: quyon 🐰."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_2",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Boshida qizil toji bor, tongda qichqirib, hammani uyg‘otadi.”",
+   "a": "🐓",
+   "w": [
+    "🐱",
+    "🐶",
+    "🦆"
+   ],
+   "d": 1,
+   "x": "Javob: xo‘roz 🐓."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_3",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Qip-qizil, dumaloq, daraxtda pishadi, tishlasang, “qirs” etadi.”",
+   "a": "🍎",
+   "w": [
+    "🍅",
+    "🍋",
+    "🍇"
+   ],
+   "d": 1,
+   "x": "Javob: olma 🍎."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_4",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Sap-sariq, uzunchoq, po‘stini archib yeysan.”",
+   "a": "🍌",
+   "w": [
+    "🍎",
+    "🍇",
+    "🍒"
+   ],
+   "d": 1,
+   "x": "Javob: banan 🍌."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_5",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Kechasi osmonda miltillaydi, shunchalik ko‘pki, sanab bo‘lmaydi.”",
+   "a": "⭐",
+   "w": [
+    "☀️",
+    "☁️",
+    "🌈"
+   ],
+   "d": 1,
+   "x": "Javob: yulduz ⭐."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_6",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Qishda yerga oq ko‘rpa yopadi, bahorda erib, ariqqa oqadi.”",
+   "a": "❄️",
+   "w": [
+    "🌧️",
+    "☁️",
+    "🌈"
+   ],
+   "d": 1,
+   "x": "Javob: qor ❄️."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_7",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Ko‘lmak bo‘yida “vaq-vaq” qiladi, uzun tili bilan pashsha tutadi.”",
+   "a": "🐸",
+   "w": [
+    "🐟",
+    "🦆",
+    "🐢"
+   ],
+   "d": 1,
+   "x": "Javob: qurbaqa 🐸."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_8",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Burni juda uzun — xartum, qulog‘i yelpig‘ichday katta.”",
+   "a": "🐘",
+   "w": [
+    "🦒",
+    "🐫",
+    "🐻"
+   ],
+   "d": 1,
+   "x": "Javob: fil 🐘."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_9",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Qanoti bor, lekin qush emas; ichida odamlar o‘tirib, osmonda uchadi.”",
+   "a": "✈️",
+   "w": [
+    "🚌",
+    "🚂",
+    "🚲"
+   ],
+   "d": 1,
+   "x": "Javob: samolyot ✈️."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_10",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Ko‘chada yuradi, ko‘p odam tashiydi, har bekatda to‘xtaydi.”",
+   "a": "🚌",
+   "w": [
+    "✈️",
+    "🚲",
+    "⛵"
+   ],
+   "d": 1,
+   "x": "Javob: avtobus 🚌."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_11",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Ertalab chiqadi, kechqurun botadi, hammaga nur sochadi.”",
+   "a": "☀️",
+   "w": [
+    "🌙",
+    "⭐",
+    "☁️"
+   ],
+   "d": 1,
+   "x": "Javob: quyosh ☀️."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_12",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Mo‘ynasi qizg‘ish, dumi paxmoq, ayyor deb nom olgan.”",
+   "a": "🦊",
+   "w": [
+    "🐺",
+    "🐻",
+    "🐿️"
+   ],
+   "d": 2,
+   "x": "Javob: tulki 🦊."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_13",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Ikki oyog‘i — ikki tig‘, ochilib-yopilib qog‘oz kesadi.”",
+   "a": "✂️",
+   "w": [
+    "📏",
+    "✏️",
+    "📖"
+   ],
+   "d": 2,
+   "x": "Javob: qaychi ✂️."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_14",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Unga harf va raqam yozamiz, har kuni sumkamizda yuradi.”",
+   "a": "📓",
+   "w": [
+    "✏️",
+    "📏",
+    "⏰"
+   ],
+   "d": 2,
+   "x": "Javob: daftar 📓."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_15",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Oq-qora yo‘l-yo‘l to‘n kiygan, otga o‘xshaydi.”",
+   "a": "🦓",
+   "w": [
+    "🐎",
+    "🐄",
+    "🦒"
+   ],
+   "d": 2,
+   "x": "Javob: zebra 🦓."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_16",
+   "t": "choice",
+   "q": "Topishmoqni toping: “O‘tloqda o‘t yeydi, shoxi bor, har kuni sut beradi.”",
+   "a": "🐄",
+   "w": [
+    "🐑",
+    "🐎",
+    "🐫"
+   ],
+   "d": 2,
+   "x": "Javob: sigir 🐄."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_17",
+   "t": "choice",
+   "q": "Topishmoqni toping: “Yumshoq juni bor, ma’raydi, junidan paypoq to‘qiladi.”",
+   "a": "🐑",
+   "w": [
+    "🐄",
+    "🐶",
+    "🐰"
+   ],
+   "d": 2,
+   "x": "Javob: qo‘y 🐑."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_18",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "s",
+   "w": [
+    "q",
+    "b",
+    "t"
+   ],
+   "d": 1,
+   "x": "Bu tez aytishda “s” tovushi qayta-qayta keladi.",
+   "text": "Sariq sichqon sakkiz somsa sanadi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_19",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "b",
+   "w": [
+    "d",
+    "s",
+    "q"
+   ],
+   "d": 1,
+   "x": "Bu tez aytishda “b” tovushi qayta-qayta keladi.",
+   "text": "Bobur bobosiga bodom berdi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_20",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "q",
+   "w": [
+    "k",
+    "s",
+    "b"
+   ],
+   "d": 1,
+   "x": "Bu tez aytishda “q” tovushi qayta-qayta keladi.",
+   "text": "Qora qo‘y qorda qoldi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_21",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "t",
+   "w": [
+    "d",
+    "ch",
+    "q"
+   ],
+   "d": 1,
+   "x": "Bu tez aytishda “t” tovushi qayta-qayta keladi.",
+   "text": "To‘rtta toychoq toqqa tomon talpindi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_22",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "k",
+   "w": [
+    "q",
+    "t",
+    "g"
+   ],
+   "d": 2,
+   "x": "Bu tez aytishda “k” tovushi qayta-qayta keladi.",
+   "text": "Katta kaptar ko‘kka ko‘tarildi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_23",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "sh",
+   "w": [
+    "s",
+    "ch",
+    "t"
+   ],
+   "d": 2,
+   "x": "Bu tez aytishda “sh” tovushi qayta-qayta keladi.",
+   "text": "Shirin shaftolini shamol shoxdan tushirdi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_24",
+   "t": "choice",
+   "q": "Bu tez aytishda qaysi tovush ko‘p eshitiladi?",
+   "a": "ch",
+   "w": [
+    "sh",
+    "j",
+    "s"
+   ],
+   "d": 2,
+   "x": "Bu tez aytishda “ch” tovushi qayta-qayta keladi.",
+   "text": "Chumoli chuqurchadan chiqdi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_25",
+   "t": "choice",
+   "q": "Topishmoqda nima aytilmaydi?",
+   "a": "Narsaning nomi",
+   "w": [
+    "Narsaning rangi",
+    "Narsaning ishi"
+   ],
+   "d": 2,
+   "x": "Topishmoqda narsaning nomi yashiriladi, faqat belgilari aytiladi."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_26",
+   "t": "tf",
+   "q": "Tez aytishni avval sekin, keyin tez aytamiz.",
+   "a": true,
+   "d": 1,
+   "x": "Avval har bir tovushni aniq aytib olamiz."
+  },
+  {
+   "topic": "reading_g1.riddles",
+   "id": "riddles_27",
+   "t": "order",
+   "q": "So‘zlardan tez aytish tuzing",
+   "parts": [
+    "Qora",
+    "qo‘y",
+    "qorda",
+    "qoldi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Bu tez aytishda hamma so‘z “q” bilan boshlanadi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_1",
+   "t": "choice",
+   "q": "Qaysi so‘z “mushuk” so‘ziga qofiyadosh?",
+   "a": "kuchuk",
+   "w": [
+    "sigir",
+    "quyon",
+    "baliq"
+   ],
+   "d": 1,
+   "x": "mushuk — kuchuk: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_2",
+   "t": "choice",
+   "q": "Qaysi so‘z “bola” so‘ziga qofiyadosh?",
+   "a": "lola",
+   "w": [
+    "gul",
+    "qiz",
+    "o‘yin"
+   ],
+   "d": 1,
+   "x": "bola — lola: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_3",
+   "t": "choice",
+   "q": "Qaysi so‘z “kuz” so‘ziga qofiyadosh?",
+   "a": "muz",
+   "w": [
+    "barg",
+    "qish",
+    "yomg‘ir"
+   ],
+   "d": 1,
+   "x": "kuz — muz: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_4",
+   "t": "choice",
+   "q": "Qaysi so‘z “qish” so‘ziga qofiyadosh?",
+   "a": "tish",
+   "w": [
+    "qor",
+    "sovuq",
+    "chana"
+   ],
+   "d": 1,
+   "x": "qish — tish: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_5",
+   "t": "choice",
+   "q": "Qaysi so‘z “ot” so‘ziga qofiyadosh?",
+   "a": "qanot",
+   "w": [
+    "eshak",
+    "dala",
+    "yol"
+   ],
+   "d": 1,
+   "x": "ot — qanot: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_6",
+   "t": "choice",
+   "q": "Qaysi so‘z “non” so‘ziga qofiyadosh?",
+   "a": "jon",
+   "w": [
+    "sut",
+    "choy",
+    "tandir"
+   ],
+   "d": 1,
+   "x": "non — jon: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_7",
+   "t": "choice",
+   "q": "Qaysi so‘z “quyosh” so‘ziga qofiyadosh?",
+   "a": "tosh",
+   "w": [
+    "oy",
+    "nur",
+    "osmon"
+   ],
+   "d": 2,
+   "x": "quyosh — tosh: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_8",
+   "t": "choice",
+   "q": "Qaysi so‘z “qush” so‘ziga qofiyadosh?",
+   "a": "kumush",
+   "w": [
+    "uya",
+    "pat",
+    "tuxum"
+   ],
+   "d": 2,
+   "x": "qush — kumush: so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_9",
+   "t": "choice",
+   "q": "She’r qaysi fasl haqida?",
+   "a": "Bahor",
+   "w": [
+    "Qish",
+    "Yoz",
+    "Kuz"
+   ],
+   "d": 1,
+   "x": "“Bahor keldi, gul ochildi.”",
+   "text": "Bahor keldi, gul ochildi,\nBog‘ga iliq nur sochildi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_10",
+   "t": "choice",
+   "q": "She’rdagi qofiyadosh so‘zlarni toping.",
+   "a": "ochildi — sochildi",
+   "w": [
+    "bahor — gul",
+    "keldi — bog‘ga",
+    "iliq — nur"
+   ],
+   "d": 2,
+   "x": "ochildi — sochildi: oxiri bir xil eshitiladi.",
+   "text": "Bahor keldi, gul ochildi,\nBog‘ga iliq nur sochildi."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_11",
+   "t": "choice",
+   "q": "Mushukning do‘sti kim?",
+   "a": "Oq kuchuk",
+   "w": [
+    "Sariq jo‘ja",
+    "Kulrang sichqon",
+    "Qora qo‘y"
+   ],
+   "d": 1,
+   "x": "“Uning do‘sti — oq kuchuk.”",
+   "text": "Bizning uyda bor bir mushuk,\nUning do‘sti — oq kuchuk."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_12",
+   "t": "choice",
+   "q": "She’r nechta misradan iborat?",
+   "a": "2 ta",
+   "w": [
+    "1 ta",
+    "3 ta",
+    "4 ta"
+   ],
+   "d": 2,
+   "x": "She’rda 2 ta qator — 2 ta misra bor.",
+   "text": "Bizning uyda bor bir mushuk,\nUning do‘sti — oq kuchuk."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_13",
+   "t": "choice",
+   "q": "Ko‘lda kim suzadi?",
+   "a": "Oppoq g‘oz",
+   "w": [
+    "Qora o‘rdak",
+    "Kichik baliq",
+    "Yashil qurbaqa"
+   ],
+   "d": 1,
+   "x": "“Ko‘lda suzar oppoq g‘oz.”",
+   "text": "Yoz keldi, havo soz,\nKo‘lda suzar oppoq g‘oz."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_14",
+   "t": "choice",
+   "q": "“soz” so‘ziga she’rdagi qaysi so‘z qofiyadosh?",
+   "a": "g‘oz",
+   "w": [
+    "ko‘l",
+    "oppoq",
+    "keldi"
+   ],
+   "d": 2,
+   "x": "soz — g‘oz: oxiri “-oz”.",
+   "text": "Yoz keldi, havo soz,\nKo‘lda suzar oppoq g‘oz."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_15",
+   "t": "choice",
+   "q": "“qor” so‘ziga she’rdagi qaysi so‘z qofiyadosh?",
+   "a": "bor",
+   "w": [
+    "oppoq",
+    "quvnoq",
+    "bolalar"
+   ],
+   "d": 2,
+   "x": "qor — bor: oxiri “-or”.",
+   "text": "Oppoq-oppoq yog‘di qor,\nQuvnoq-quvnoq bolalar bor."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_16",
+   "t": "choice",
+   "q": "She’rda bola nimani minadi?",
+   "a": "Oq otini",
+   "w": [
+    "Velosipedini",
+    "Eshagini",
+    "Chanasini"
+   ],
+   "d": 1,
+   "x": "“Bola minar oq otini.”",
+   "text": "Qushcha qoqar qanotini,\nBola minar oq otini."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_17",
+   "t": "choice",
+   "q": "She’rni kim yozadi?",
+   "a": "Shoir",
+   "w": [
+    "Sotuvchi",
+    "Shifokor",
+    "Oshpaz"
+   ],
+   "d": 1,
+   "x": "She’r yozadigan ijodkor — shoir."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_18",
+   "t": "choice",
+   "q": "She’rning har bir qatori nima deyiladi?",
+   "a": "Misra",
+   "w": [
+    "Qofiya",
+    "Sarlavha",
+    "Harf"
+   ],
+   "d": 2,
+   "x": "She’rning bir qatori — misra."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_19",
+   "t": "tf",
+   "q": "Qofiyadosh so‘zlarning oxiri bir xil eshitiladi.",
+   "a": true,
+   "d": 1,
+   "x": "Masalan: mushuk — kuchuk."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_20",
+   "t": "tf",
+   "q": "“qish” va “yoz” — qofiyadosh so‘zlar.",
+   "a": false,
+   "d": 1,
+   "x": "qish — yoz: oxiri har xil. “qish” so‘ziga “tish” qofiyadosh."
+  },
+  {
+   "topic": "reading_g1.rhymes",
+   "id": "rhymes_21",
+   "t": "match",
+   "q": "Qofiyadosh so‘zlarni juftlang",
+   "pairs": [
+    [
+     "mushuk",
+     "kuchuk"
+    ],
+    [
+     "bola",
+     "lola"
+    ],
+    [
+     "kuz",
+     "muz"
+    ],
+    [
+     "ot",
+     "qanot"
+    ],
+    [
+     "non",
+     "jon"
+    ],
+    [
+     "quyosh",
+     "tosh"
+    ]
+   ],
+   "d": 2,
+   "x": "Qofiyadosh so‘zlarning oxiri bir xil eshitiladi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_1",
+   "t": "choice",
+   "q": "Ertak kim haqida?",
+   "a": "Quyoncha",
+   "w": [
+    "Tulki",
+    "Ayiqcha",
+    "Bo‘ri"
+   ],
+   "d": 1,
+   "x": "“Bir quyoncha bor ekan.”",
+   "text": "Bor ekan-u, yo‘q ekan, bir quyoncha bor ekan. U sabzisini do‘stlari bilan bo‘lishibdi. Hamma quyonchani yaxshi ko‘rib qolibdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_2",
+   "t": "choice",
+   "q": "Quyoncha sabzisini nima qildi?",
+   "a": "Do‘stlari bilan bo‘lishdi",
+   "w": [
+    "Yolg‘iz yedi",
+    "Yashirib qo‘ydi",
+    "Tashlab yubordi"
+   ],
+   "d": 1,
+   "x": "“U sabzisini do‘stlari bilan bo‘lishibdi.”",
+   "text": "Bor ekan-u, yo‘q ekan, bir quyoncha bor ekan. U sabzisini do‘stlari bilan bo‘lishibdi. Hamma quyonchani yaxshi ko‘rib qolibdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_3",
+   "t": "choice",
+   "q": "Ertak qanday so‘zlar bilan boshlandi?",
+   "a": "Bor ekan-u, yo‘q ekan",
+   "w": [
+    "Bir kuni ertalab",
+    "Salom, bolalar",
+    "Qish kelibdi"
+   ],
+   "d": 1,
+   "x": "Ertaklar ko‘pincha “Bor ekan-u, yo‘q ekan” deb boshlanadi.",
+   "text": "Bor ekan-u, yo‘q ekan, bir quyoncha bor ekan. U sabzisini do‘stlari bilan bo‘lishibdi. Hamma quyonchani yaxshi ko‘rib qolibdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_4",
+   "t": "choice",
+   "q": "Chumoli yozda nima qildi?",
+   "a": "Don tashidi",
+   "w": [
+    "Uxladi",
+    "Qo‘shiq aytdi",
+    "O‘ynadi"
+   ],
+   "d": 1,
+   "x": "“U yozda tinmay don tashibdi.”",
+   "text": "Bor ekan-u, yo‘q ekan, bir chumoli bor ekan. U yozda tinmay don tashibdi. Qishda uning uyi to‘q va issiq bo‘libdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_5",
+   "t": "choice",
+   "q": "Qishda chumolining uyi qanday bo‘ldi?",
+   "a": "To‘q va issiq",
+   "w": [
+    "Bo‘sh va sovuq",
+    "Qorga ko‘milgan",
+    "Buzilgan"
+   ],
+   "d": 1,
+   "x": "Yozda mehnat qilgani uchun qishda uyi to‘q bo‘ldi.",
+   "text": "Bor ekan-u, yo‘q ekan, bir chumoli bor ekan. U yozda tinmay don tashibdi. Qishda uning uyi to‘q va issiq bo‘libdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_6",
+   "t": "choice",
+   "q": "Ertakdan qanday saboq olamiz?",
+   "a": "Mehnat qilgan to‘q bo‘ladi",
+   "w": [
+    "Yozda uxlash kerak",
+    "Qish yomon fasl",
+    "Don tashish shart emas"
+   ],
+   "d": 2,
+   "x": "Chumoli yozda mehnat qilib, qishda to‘q yashadi.",
+   "text": "Bor ekan-u, yo‘q ekan, bir chumoli bor ekan. U yozda tinmay don tashibdi. Qishda uning uyi to‘q va issiq bo‘libdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_7",
+   "t": "choice",
+   "q": "Jo‘ja kimdan adashib qoldi?",
+   "a": "Onasidan",
+   "w": [
+    "Do‘stidan",
+    "Akasidan",
+    "O‘rdakdan"
+   ],
+   "d": 1,
+   "x": "“Kichkina jo‘ja onasidan adashib qolibdi.”",
+   "text": "Kichkina jo‘ja onasidan adashib qolibdi. U “chiy-chiy” deb yig‘labdi. O‘rdak uni tovuqning oldiga olib boribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_8",
+   "t": "choice",
+   "q": "Jo‘jaga kim yordam berdi?",
+   "a": "O‘rdak",
+   "w": [
+    "Mushuk",
+    "Tulki",
+    "Qarg‘a"
+   ],
+   "d": 1,
+   "x": "O‘rdak uni tovuqning oldiga olib boribdi.",
+   "text": "Kichkina jo‘ja onasidan adashib qolibdi. U “chiy-chiy” deb yig‘labdi. O‘rdak uni tovuqning oldiga olib boribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_9",
+   "t": "choice",
+   "q": "O‘rdak qanday ekan?",
+   "a": "Mehribon",
+   "w": [
+    "Ayyor",
+    "Dangasa",
+    "Qo‘rqoq"
+   ],
+   "d": 2,
+   "x": "U adashgan jo‘jaga yordam berdi.",
+   "text": "Kichkina jo‘ja onasidan adashib qolibdi. U “chiy-chiy” deb yig‘labdi. O‘rdak uni tovuqning oldiga olib boribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_10",
+   "t": "choice",
+   "q": "Olmaxon nima topib oldi?",
+   "a": "Yong‘oq",
+   "w": [
+    "Olma",
+    "Qo‘ziqorin",
+    "Tanga"
+   ],
+   "d": 1,
+   "x": "“Olmaxon yerdan bitta yong‘oq topib olibdi.”",
+   "text": "Olmaxon yerdan bitta yong‘oq topib olibdi. Bu yong‘oq tipratikanniki ekan. Olmaxon uni egasiga qaytarib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_11",
+   "t": "choice",
+   "q": "Yong‘oq kimniki ekan?",
+   "a": "Tipratikanniki",
+   "w": [
+    "Quyonniki",
+    "Ayiqniki",
+    "Olmaxonniki"
+   ],
+   "d": 1,
+   "x": "“Bu yong‘oq tipratikanniki ekan.”",
+   "text": "Olmaxon yerdan bitta yong‘oq topib olibdi. Bu yong‘oq tipratikanniki ekan. Olmaxon uni egasiga qaytarib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_12",
+   "t": "choice",
+   "q": "Olmaxonning qaysi fazilati ko‘rindi?",
+   "a": "Halolligi",
+   "w": [
+    "Ochko‘zligi",
+    "Dangasaligi",
+    "Qo‘rqoqligi"
+   ],
+   "d": 2,
+   "x": "U topib olgan narsani egasiga qaytardi — bu halollik.",
+   "text": "Olmaxon yerdan bitta yong‘oq topib olibdi. Bu yong‘oq tipratikanniki ekan. Olmaxon uni egasiga qaytarib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_13",
+   "t": "choice",
+   "q": "Bolaning qanday qalami bor ekan?",
+   "a": "Sehrli",
+   "w": [
+    "Qizil",
+    "Singan",
+    "Uzun"
+   ],
+   "d": 1,
+   "x": "“Bir bolaning sehrli qalami bor ekan.”",
+   "text": "Bor ekan-u, yo‘q ekan, bir bolaning sehrli qalami bor ekan. U nima chizsa, hammasi haqiqiy bo‘lib qolar ekan. Bola buvisiga issiq ro‘mol chizib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_14",
+   "t": "choice",
+   "q": "Bola buvisiga nima chizib berdi?",
+   "a": "Issiq ro‘mol",
+   "w": [
+    "Katta uy",
+    "Qizil olma",
+    "Shirin tort"
+   ],
+   "d": 1,
+   "x": "“Bola buvisiga issiq ro‘mol chizib beribdi.”",
+   "text": "Bor ekan-u, yo‘q ekan, bir bolaning sehrli qalami bor ekan. U nima chizsa, hammasi haqiqiy bo‘lib qolar ekan. Bola buvisiga issiq ro‘mol chizib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_15",
+   "t": "tf",
+   "q": "Bolaning chizganlari haqiqiy bo‘lib qolardi.",
+   "a": true,
+   "d": 1,
+   "x": "Chunki qalam sehrli edi.",
+   "text": "Bor ekan-u, yo‘q ekan, bir bolaning sehrli qalami bor ekan. U nima chizsa, hammasi haqiqiy bo‘lib qolar ekan. Bola buvisiga issiq ro‘mol chizib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_16",
+   "t": "choice",
+   "q": "Bu qanday ertak?",
+   "a": "Sehrli ertak",
+   "w": [
+    "Hayvonlar haqida ertak",
+    "Topishmoq",
+    "She’r"
+   ],
+   "d": 3,
+   "x": "Ertakda sehrli qalam bor — bu sehrli ertak.",
+   "text": "Bor ekan-u, yo‘q ekan, bir bolaning sehrli qalami bor ekan. U nima chizsa, hammasi haqiqiy bo‘lib qolar ekan. Bola buvisiga issiq ro‘mol chizib beribdi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_17",
+   "t": "choice",
+   "q": "Ertaklarda kim g‘alaba qiladi?",
+   "a": "Yaxshi qahramon",
+   "w": [
+    "Yolg‘onchi",
+    "Ochko‘z",
+    "Dangasa"
+   ],
+   "d": 1,
+   "x": "Ertaklarda yaxshilik doim yutadi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_18",
+   "t": "tf",
+   "q": "Ertakda tulki ham, quyon ham gapira oladi.",
+   "a": true,
+   "d": 1,
+   "x": "Ertakda hayvonlar odamlarday gapiradi."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_19",
+   "t": "choice",
+   "q": "Bu nima?",
+   "a": "Ertak",
+   "w": [
+    "She’r",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "“Bor ekan-u, yo‘q ekan” — ertak boshlanishi.",
+   "text": "Bor ekan-u, yo‘q ekan, bir mitti sichqon bor ekan."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_20",
+   "t": "choice",
+   "q": "Bu nima?",
+   "a": "She’r",
+   "w": [
+    "Ertak",
+    "Topishmoq"
+   ],
+   "d": 1,
+   "x": "Qatorlarga bo‘lingan, ohangdor — bu she’r.",
+   "text": "Quyosh chiqdi charaqlab,\nGullar ochildi yayrab."
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_21",
+   "t": "choice",
+   "q": "Bu nima?",
+   "a": "Topishmoq",
+   "w": [
+    "Ertak",
+    "She’r"
+   ],
+   "d": 2,
+   "x": "Narsaning nomi aytilmagan, belgisi aytilgan — bu topishmoq.",
+   "text": "Kechasi osmonda yarqiraydi, kunduzi ko‘rinmaydi. Bu nima?"
+  },
+  {
+   "topic": "reading_g1.tales",
+   "id": "tales_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Buvim",
+    "menga",
+    "ertak",
+    "aytib",
+    "berdi"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Kim? — buvim. Nima qildi? — ertak aytib berdi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_1",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Harakatda — …”",
+   "a": "barakat",
+   "w": [
+    "uyqu",
+    "o‘yin",
+    "kulgi"
+   ],
+   "d": 1,
+   "x": "Harakatda — barakat. Ya’ni mehnat qilgan kishi yutadi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_2",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Oz bo‘lsa ham, … bo‘lsin.”",
+   "a": "soz",
+   "w": [
+    "ko‘p",
+    "katta",
+    "tez"
+   ],
+   "d": 1,
+   "x": "Oz bo‘lsa ham, soz bo‘lsin. Ya’ni narsaning ko‘pi emas, yaxshisi qadrli."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_3",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Hovli olma, … ol.”",
+   "a": "qo‘shni",
+   "w": [
+    "mashina",
+    "gilam",
+    "sigir"
+   ],
+   "d": 1,
+   "x": "Hovli olma, qo‘shni ol. Ya’ni yaxshi qo‘shni juda qadrli."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_4",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Bir qo‘ldan … chiqmas.”",
+   "a": "qarsak",
+   "w": [
+    "suv",
+    "qalam",
+    "non"
+   ],
+   "d": 1,
+   "x": "Bir qo‘ldan qarsak chiqmas. Ya’ni ishni birgalikda qilish kerak."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_5",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Nima eksang, shuni …”",
+   "a": "o‘rasan",
+   "w": [
+    "sotasan",
+    "tashlaysan",
+    "unutasan"
+   ],
+   "d": 1,
+   "x": "Nima eksang, shuni o‘rasan. Ya’ni qanday ish qilsang, shunday natija olasan."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_6",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Ilm — aql …”",
+   "a": "chirog‘i",
+   "w": [
+    "qulfi",
+    "sumkasi",
+    "uyqusi"
+   ],
+   "d": 1,
+   "x": "Ilm — aql chirog‘i. Ya’ni bilim odamni dono qiladi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_7",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Sog‘ tanda — sog‘ …”",
+   "a": "aql",
+   "w": [
+    "qo‘l",
+    "ko‘ylak",
+    "uy"
+   ],
+   "d": 1,
+   "x": "Sog‘ tanda — sog‘ aql. Ya’ni sog‘lom odamning fikri ham tiniq bo‘ladi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_8",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Qo‘shning tinch — … tinch.”",
+   "a": "sen",
+   "w": [
+    "ko‘cha",
+    "shahar",
+    "mushuk"
+   ],
+   "d": 1,
+   "x": "Qo‘shning tinch — sen tinch. Ya’ni qo‘shnilar bilan ahil yashash kerak."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_9",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Yaxshi niyat — yarim …”",
+   "a": "davlat",
+   "w": [
+    "non",
+    "olma",
+    "yo‘l"
+   ],
+   "d": 2,
+   "x": "Yaxshi niyat — yarim davlat. Ya’ni yaxshi niyat baxt keltiradi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_10",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Yolg‘onning umri …”",
+   "a": "qisqa",
+   "w": [
+    "uzun",
+    "shirin",
+    "katta"
+   ],
+   "d": 2,
+   "x": "Yolg‘onning umri qisqa. Ya’ni yolg‘on tez ochilib qoladi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_11",
+   "t": "choice",
+   "q": "Maqoldagi tushib qolgan so‘zni toping: “Yuz so‘ming bo‘lmasin, yuz … bo‘lsin.”",
+   "a": "do‘sting",
+   "w": [
+    "mushuging",
+    "qalaming",
+    "kitobing"
+   ],
+   "d": 2,
+   "x": "Yuz so‘ming bo‘lmasin, yuz do‘sting bo‘lsin. Ya’ni do‘st puldan qimmat."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_12",
+   "t": "choice",
+   "q": "“Yolg‘onning umri qisqa” maqoli nimaga o‘rgatadi?",
+   "a": "Rost gapirishga",
+   "w": [
+    "Tez yugurishga",
+    "Ko‘p uxlashga",
+    "Yolg‘on gapirishga"
+   ],
+   "d": 2,
+   "x": "Yolg‘on tez ochilib qoladi, shuning uchun rost gapirish kerak."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_13",
+   "t": "choice",
+   "q": "“Yuz so‘ming bo‘lmasin, yuz do‘sting bo‘lsin” maqoli nima haqida?",
+   "a": "Do‘stlik haqida",
+   "w": [
+    "Pul yig‘ish haqida",
+    "Ovqat haqida",
+    "Ob-havo haqida"
+   ],
+   "d": 2,
+   "x": "Maqol do‘st puldan qimmatroq ekanini aytadi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_14",
+   "t": "choice",
+   "q": "“Harakatda — barakat” maqoli nima haqida?",
+   "a": "Mehnat haqida",
+   "w": [
+    "Uyqu haqida",
+    "Ob-havo haqida",
+    "Hayvonlar haqida"
+   ],
+   "d": 2,
+   "x": "Harakat qilgan, mehnat qilgan kishi natijaga erishadi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_15",
+   "t": "choice",
+   "q": "“Hovli olma, qo‘shni ol” maqoli nima haqida?",
+   "a": "Yaxshi qo‘shni haqida",
+   "w": [
+    "Uy sotish haqida",
+    "Bog‘ haqida",
+    "Maktab haqida"
+   ],
+   "d": 2,
+   "x": "Yaxshi qo‘shni uydan ham qadrliroq."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_16",
+   "t": "choice",
+   "q": "“Bir qo‘ldan qarsak chiqmas” maqoli nimaga o‘rgatadi?",
+   "a": "Birga ishlashga",
+   "w": [
+    "Qarsak chalishga",
+    "Yolg‘iz o‘ynashga",
+    "Qo‘l yuvishga"
+   ],
+   "d": 2,
+   "x": "Ko‘p ishni bir kishi emas, hamma birga qiladi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_17",
+   "t": "choice",
+   "q": "“Sog‘ tanda — sog‘ aql” maqoli nima haqida?",
+   "a": "Sog‘liq haqida",
+   "w": [
+    "Do‘stlik haqida",
+    "Pul haqida",
+    "Fasllar haqida"
+   ],
+   "d": 2,
+   "x": "Tani sog‘ odamning fikri ham tiniq bo‘ladi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_18",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni toping.",
+   "a": "Bir qo‘ldan qarsak chiqmas.",
+   "w": [
+    "Yaxshi niyat — yarim davlat.",
+    "Yolg‘onning umri qisqa.",
+    "Yuz so‘ming bo‘lmasin, yuz do‘sting bo‘lsin."
+   ],
+   "d": 3,
+   "x": "Ish birgalikda qilingani uchun tez bitdi.",
+   "text": "Zarina, Malika va Lola sinfni birga tozalashdi. Ish tez tugadi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_19",
+   "t": "choice",
+   "q": "Vaziyatga mos maqolni toping.",
+   "a": "Yolg‘onning umri qisqa.",
+   "w": [
+    "Qo‘shning tinch — sen tinch.",
+    "Yaxshi niyat — yarim davlat.",
+    "Bir qo‘ldan qarsak chiqmas."
+   ],
+   "d": 3,
+   "x": "Yolg‘on tez ochilib qoldi.",
+   "text": "Ali “uy vazifasini qildim” deb aldadi. Ertasi kuni ustoz hammasini bilib qoldi."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_20",
+   "t": "tf",
+   "q": "Maqolni xalq yaratgan.",
+   "a": true,
+   "d": 1,
+   "x": "Maqollar xalqdan-xalqqa, avloddan-avlodga o‘tib kelgan."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_21",
+   "t": "tf",
+   "q": "Maqol — uzun ertak.",
+   "a": false,
+   "d": 1,
+   "x": "Maqol — qisqa, ibratli gap."
+  },
+  {
+   "topic": "reading_g1.proverbs",
+   "id": "proverbs_22",
+   "t": "match",
+   "q": "Maqolning boshini oxiri bilan juftlang",
+   "pairs": [
+    [
+     "Harakatda —",
+     "barakat"
+    ],
+    [
+     "Hovli olma,",
+     "qo‘shni ol"
+    ],
+    [
+     "Yolg‘onning",
+     "umri qisqa"
+    ],
+    [
+     "Oz bo‘lsa ham,",
+     "soz bo‘lsin"
+    ],
+    [
+     "Ilm —",
+     "aql chirog‘i"
+    ],
+    [
+     "Qo‘shning tinch —",
+     "sen tinch"
+    ]
+   ],
+   "d": 2,
+   "x": "Maqolni to‘liq aytib ko‘ring."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_1",
+   "t": "choice",
+   "q": "Matn qaysi bayram haqida?",
+   "a": "Navro‘z",
+   "w": [
+    "Yangi yil",
+    "Mustaqillik kuni",
+    "Tug‘ilgan kun"
+   ],
+   "d": 1,
+   "x": "“Navro‘z bayrami boshlandi.”",
+   "text": "Bahor keldi. Navro‘z bayrami boshlandi. Buvim sumalak pishirdi. Hamma qo‘shnilar yig‘ildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_2",
+   "t": "choice",
+   "q": "Buvi nima pishirdi?",
+   "a": "Sumalak",
+   "w": [
+    "Palov",
+    "Somsa",
+    "Chuchvara"
+   ],
+   "d": 1,
+   "x": "“Buvim sumalak pishirdi.”",
+   "text": "Bahor keldi. Navro‘z bayrami boshlandi. Buvim sumalak pishirdi. Hamma qo‘shnilar yig‘ildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_3",
+   "t": "choice",
+   "q": "Navro‘z qaysi faslda keladi?",
+   "a": "Bahorda",
+   "w": [
+    "Qishda",
+    "Yozda",
+    "Kuzda"
+   ],
+   "d": 1,
+   "x": "“Bahor keldi. Navro‘z bayrami boshlandi.”",
+   "text": "Bahor keldi. Navro‘z bayrami boshlandi. Buvim sumalak pishirdi. Hamma qo‘shnilar yig‘ildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_4",
+   "t": "choice",
+   "q": "Navro‘zda kimlar yig‘ildi?",
+   "a": "Qo‘shnilar",
+   "w": [
+    "Sinfdoshlar",
+    "Sportchilar",
+    "Sayyohlar"
+   ],
+   "d": 1,
+   "x": "“Hamma qo‘shnilar yig‘ildi.”",
+   "text": "Bahor keldi. Navro‘z bayrami boshlandi. Buvim sumalak pishirdi. Hamma qo‘shnilar yig‘ildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_5",
+   "t": "choice",
+   "q": "Mustaqillik kuni qachon nishonlanadi?",
+   "a": "1-sentabrda",
+   "w": [
+    "21-martda",
+    "1-yanvarda",
+    "1-iyunda"
+   ],
+   "d": 1,
+   "x": "“1-sentabr — Mustaqillik kuni.”",
+   "text": "1-sentabr — Mustaqillik kuni. Ko‘chalar bayroqlar bilan bezandi. Kechqurun osmonda rang-barang mushaklar otildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_6",
+   "t": "choice",
+   "q": "Ko‘chalar nima bilan bezandi?",
+   "a": "Bayroqlar bilan",
+   "w": [
+    "Qor bilan",
+    "Barglar bilan",
+    "Archalar bilan"
+   ],
+   "d": 1,
+   "x": "“Ko‘chalar bayroqlar bilan bezandi.”",
+   "text": "1-sentabr — Mustaqillik kuni. Ko‘chalar bayroqlar bilan bezandi. Kechqurun osmonda rang-barang mushaklar otildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_7",
+   "t": "choice",
+   "q": "Kechqurun osmonda nima bo‘ldi?",
+   "a": "Mushaklar otildi",
+   "w": [
+    "Qor yog‘di",
+    "Kamalak chiqdi",
+    "Yomg‘ir yog‘di"
+   ],
+   "d": 1,
+   "x": "Bayram kechasi osmonda mushaklar otildi.",
+   "text": "1-sentabr — Mustaqillik kuni. Ko‘chalar bayroqlar bilan bezandi. Kechqurun osmonda rang-barang mushaklar otildi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_8",
+   "t": "choice",
+   "q": "Poytaxtimiz qaysi shahar?",
+   "a": "Toshkent",
+   "w": [
+    "Samarqand",
+    "Buxoro",
+    "Xiva"
+   ],
+   "d": 1,
+   "x": "“Poytaxtimiz — Toshkent.”",
+   "text": "Bizning Vatanimiz — O‘zbekiston. Poytaxtimiz — Toshkent. Men Vatanimni sevaman."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_9",
+   "t": "tf",
+   "q": "Bizning Vatanimiz — O‘zbekiston.",
+   "a": true,
+   "d": 1,
+   "x": "Matnda shunday yozilgan.",
+   "text": "Bizning Vatanimiz — O‘zbekiston. Poytaxtimiz — Toshkent. Men Vatanimni sevaman."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_10",
+   "t": "choice",
+   "q": "Matndagi bola nimani sevadi?",
+   "a": "Vatanini",
+   "w": [
+    "Qishni",
+    "Konfetni",
+    "Televizorni"
+   ],
+   "d": 1,
+   "x": "“Men Vatanimni sevaman.”",
+   "text": "Bizning Vatanimiz — O‘zbekiston. Poytaxtimiz — Toshkent. Men Vatanimni sevaman."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_11",
+   "t": "choice",
+   "q": "Yangi yil kechasi nima bezatildi?",
+   "a": "Archa",
+   "w": [
+    "Deraza",
+    "Mashina",
+    "Maktab"
+   ],
+   "d": 1,
+   "x": "“Yangi yil kechasi archani bezadik.”",
+   "text": "Yangi yil kechasi archani bezadik. Archaga rangli o‘yinchoqlar osdik. Hamma bir-biriga yaxshi tilaklar tiladi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_12",
+   "t": "choice",
+   "q": "Archaga nima osildi?",
+   "a": "Rangli o‘yinchoqlar",
+   "w": [
+    "Olma va nok",
+    "Kitoblar",
+    "Paypoqlar"
+   ],
+   "d": 1,
+   "x": "“Archaga rangli o‘yinchoqlar osdik.”",
+   "text": "Yangi yil kechasi archani bezadik. Archaga rangli o‘yinchoqlar osdik. Hamma bir-biriga yaxshi tilaklar tiladi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_13",
+   "t": "choice",
+   "q": "Navro‘zda qaysi taom pishiriladi?",
+   "a": "Sumalak",
+   "w": [
+    "Muzqaymoq",
+    "Tort",
+    "Shokolad"
+   ],
+   "d": 1,
+   "x": "Navro‘zda bug‘doy maysasidan sumalak pishiriladi.",
+   "e": "🌷"
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_14",
+   "t": "choice",
+   "q": "Navro‘z qaysi kuni nishonlanadi?",
+   "a": "21-martda",
+   "w": [
+    "1-sentabrda",
+    "1-yanvarda",
+    "1-iyunda"
+   ],
+   "d": 2,
+   "x": "Navro‘z — 21-mart, bahor bayrami."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_15",
+   "t": "choice",
+   "q": "Yangi yil qaysi kuni boshlanadi?",
+   "a": "1-yanvarda",
+   "w": [
+    "21-martda",
+    "1-sentabrda",
+    "1-iyunda"
+   ],
+   "d": 2,
+   "x": "Yangi yil 1-yanvarda boshlanadi.",
+   "e": "🎄"
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_16",
+   "t": "choice",
+   "q": "O‘zbekiston bayrog‘ida qaysi ranglar bor?",
+   "a": "Ko‘k, oq, yashil va qizil",
+   "w": [
+    "Qora va sariq",
+    "Faqat qizil",
+    "Pushti va jigarrang"
+   ],
+   "d": 2,
+   "x": "Bayrog‘imiz ko‘k, oq, yashil rangli, ular orasida ingichka qizil chiziqlar bor."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_17",
+   "t": "choice",
+   "q": "Bayrog‘imizda nechta yulduz bor?",
+   "a": "12 ta",
+   "w": [
+    "5 ta",
+    "7 ta",
+    "10 ta"
+   ],
+   "d": 3,
+   "x": "Bayrog‘imizda yangi oy va 12 ta yulduz bor."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_18",
+   "t": "tf",
+   "q": "Navro‘z — bahor bayrami.",
+   "a": true,
+   "d": 1,
+   "x": "Navro‘z 21-martda, bahorda nishonlanadi."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_19",
+   "t": "tf",
+   "q": "Mustaqillik kuni qishda nishonlanadi.",
+   "a": false,
+   "d": 1,
+   "x": "Mustaqillik kuni — 1-sentabr, kuzning birinchi kuni."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_20",
+   "t": "match",
+   "q": "Bayramni rasm bilan juftlang",
+   "pairs": [
+    [
+     "Yangi yil",
+     "🎄"
+    ],
+    [
+     "Tug‘ilgan kun",
+     "🎂"
+    ],
+    [
+     "Navro‘z",
+     "🌷"
+    ],
+    [
+     "Mustaqillik kuni",
+     "🇺🇿"
+    ],
+    [
+     "Birinchi qo‘ng‘iroq",
+     "🔔"
+    ]
+   ],
+   "d": 2,
+   "x": "Har bir bayramning o‘z belgisi bor."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_21",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Men",
+    "Vatanimni",
+    "sevaman"
+   ],
+   "sep": " ",
+   "d": 1,
+   "x": "Vatan — biz tug‘ilib o‘sgan yurt."
+  },
+  {
+   "topic": "reading_g1.holidays",
+   "id": "holidays_22",
+   "t": "order",
+   "q": "So‘zlardan gap tuzing",
+   "parts": [
+    "Navro‘zda",
+    "buvim",
+    "sumalak",
+    "pishirdi"
+   ],
+   "sep": " ",
+   "d": 2,
+   "x": "Qachon? — Navro‘zda. Kim? — buvim. Nima qildi? — sumalak pishirdi."
+  }
+ ]
+}
