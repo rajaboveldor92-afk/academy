@@ -1,0 +1,649 @@
+{
+ "subject": "science",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Tabiiy fan",
+  "en": "Science",
+  "ru": "Естествознание"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "science_g2.phenomena",
+   "code": "1",
+   "emoji": "🌈",
+   "title": {
+    "uz": "Tabiat hodisalari",
+    "en": "Weather phenomena",
+    "ru": "Явления природы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiat hodisalari, suv va havo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiatda bo‘ladigan o‘zgarishlar — tabiat hodisalari.\n• Yomg‘ir — bulutdan tushadigan suv tomchilari. Qor — sovuqda bulutdan tushadigan oppoq uchqunlar.\n• Do‘l — muz donachalari. U ko‘pincha bahor va yozda, momaqaldiroq bilan yog‘adi.\n• Kamalak yomg‘irdan keyin Quyosh chiqqanda ko‘rinadi, unda 7 ta rang bor.\n• Shamol — harakatlanayotgan havo. Yengil shamol — shabada, juda kuchli shamol — bo‘ron.\nMomaqaldiroqda avval chaqmoq ko‘rinadi, keyin gumburlagan ovoz eshitiladi."
+   }
+  },
+  {
+   "id": "science_g2.water",
+   "code": "2",
+   "emoji": "💧",
+   "title": {
+    "uz": "Suv va uning holatlari",
+    "en": "Water and its states",
+    "ru": "Вода и её состояния"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiat hodisalari, suv va havo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Suv uch holatda bo‘ladi:\n• qattiq — muz va qor; • suyuq — oddiy suv; • gaz — bug‘.\nSovuqda suv muzlaydi, muz isisa eriydi va yana suvga aylanadi.\nSuv qizdirilsa qaynaydi va bug‘ga aylanadi. Bug‘ sovuq narsaga tegsa, yana tomchiga aylanadi.\nToza suv rangsiz, hidsiz, shaffof va oquvchan. Muz suvdan yengil, shuning uchun suv yuzida suzib yuradi."
+   }
+  },
+  {
+   "id": "science_g2.air",
+   "code": "3",
+   "emoji": "🎈",
+   "title": {
+    "uz": "Havo va uning ahamiyati",
+    "en": "Air and why it matters",
+    "ru": "Воздух и его значение"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiat hodisalari, suv va havo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Havo bizni har tomondan o‘rab turadi.\n• Havo ko‘rinmaydi, rangi va hidi yo‘q, lekin uni sezamiz: shamol esganda yoki shar puflaganda.\n• Odamlar, hayvonlar va o‘simliklar havo bilan nafas oladi.\n• Havo bo‘lmasa, olov yonmaydi. Isigan havo yuqoriga ko‘tariladi.\nDaraxtlar havoni tozalaydi, zavod va mashina tutuni esa havoni ifloslaydi."
+   }
+  },
+  {
+   "id": "science_g2.soil",
+   "code": "4",
+   "emoji": "🌾",
+   "title": {
+    "uz": "Tuproq",
+    "en": "Soil",
+    "ru": "Почва"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tabiat hodisalari, suv va havo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tuproq — yerning o‘simliklar o‘sadigan ustki yumshoq qatlami.\n• Tuproqda qum, loy, suv, havo va chirindi bor.\n• Chirindi chirigan barg va o‘simliklardan hosil bo‘ladi. Chirindi ko‘p tuproq qoramtir va unumdor bo‘ladi.\n• Tuproqda chuvalchang va chumolilar yashaydi. Chuvalchang tuproqni yumshatadi.\nTuproq juda ko‘p yillar davomida sekin hosil bo‘ladi, shuning uchun uni asraymiz."
+   }
+  },
+  {
+   "id": "science_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Tabiat hodisalari, suv va havo",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g2.plant_needs",
+   "code": "5",
+   "emoji": "🌻",
+   "title": {
+    "uz": "O‘simlik o‘sishi uchun nima kerak",
+    "en": "What plants need",
+    "ru": "Что нужно растениям"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘simliklar dunyosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘simlik o‘sishi uchun:\n• yorug‘lik — barglar Quyosh nurida oziq tayyorlaydi;\n• suv — ildiz tuproqdan suv shimib oladi;\n• issiqlik — sovuqda o‘simlik o‘smaydi;\n• havo va unumdor tuproq ham kerak.\nUrug‘ unishi uchun namlik va issiqlik kerak. O‘simliklar yorug‘lik tomonga qarab o‘sadi."
+   }
+  },
+  {
+   "id": "science_g2.plant_forms",
+   "code": "6",
+   "emoji": "🌳",
+   "title": {
+    "uz": "Daraxt, buta va o‘t",
+    "en": "Trees, shrubs and herbs",
+    "ru": "Деревья, кустарники и травы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘simliklar dunyosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘simliklar uch xil ko‘rinishda bo‘ladi:\n• daraxt — bitta yo‘g‘on, baland yog‘och tanasi bor: terak, chinor, tol, yong‘oq, o‘rik;\n• buta — yerdan bir nechta ingichka yog‘och poya o‘sib chiqadi: atirgul, na’matak, qorag‘at;\n• o‘t — poyasi yumshoq va yashil: rayhon, yalpiz, beda, lola, bug‘doy.\nDaraxt va butalar ko‘p yil yashaydi. Archa — ignabargli daraxt, u qishda ham yashil."
+   }
+  },
+  {
+   "id": "science_g2.crops_wild",
+   "code": "7",
+   "emoji": "🌾",
+   "title": {
+    "uz": "Madaniy va yovvoyi o‘simliklar",
+    "en": "Cultivated and wild plants",
+    "ru": "Культурные и дикорастущие растения"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. O‘simliklar dunyosi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Madaniy o‘simliklarni odamlar ekadi, sug‘oradi va parvarish qiladi: bug‘doy, g‘o‘za, sholi, kartoshka, olma.\n• Yovvoyi o‘simliklar tabiatda o‘z-o‘zidan o‘sadi: qoqio‘t, yantoq, qamish, shuvoq.\nMadaniy o‘simliklar guruhlari: don ekinlari (bug‘doy, sholi, makkajo‘xori), sabzavotlar, mevali daraxtlar, poliz ekinlari (qovun, tarvuz, qovoq).\nEkin orasida o‘sadigan keraksiz o‘tlar — begona o‘tlar."
+   }
+  },
+  {
+   "id": "science_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. O‘simliklar dunyosi",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g2.animal_food",
+   "code": "8",
+   "emoji": "🐰",
+   "title": {
+    "uz": "Hayvonlar nima yeydi",
+    "en": "What animals eat",
+    "ru": "Чем питаются животные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Hayvonlar va Vatanimiz tabiati",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Hayvonlar nima yeyishiga qarab uch guruhga bo‘linadi:\n• O‘txo‘rlar o‘simlik yeydi: quyon, sigir, qo‘y, ot, echki, fil.\n• Yirtqichlar boshqa hayvonlarni ovlaydi: bo‘ri, tulki, sher, yo‘lbars, lochin.\n• Hammaxo‘rlar ham o‘simlik, ham hayvon bilan oziqlanadi: ayiq, qarg‘a.\nYirtqichlarning tishlari va tirnoqlari o‘tkir, o‘txo‘rlarning tishlari o‘t chaynashga moslashgan."
+   }
+  },
+  {
+   "id": "science_g2.animal_winter",
+   "code": "9",
+   "emoji": "🐻",
+   "title": {
+    "uz": "Hayvonlar qishga tayyorlanadi",
+    "en": "How animals get ready for winter",
+    "ru": "Как животные готовятся к зиме"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Hayvonlar va Vatanimiz tabiati",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kuzda hayvonlar qishga tayyorlanadi:\n• Ayiq, tipratikan, sug‘ur, toshbaqa, baqa qishki uyquga ketadi.\n• Olmaxon yong‘oq g‘amlaydi, ko‘p hayvonlarning juni qalin va issiq bo‘ladi.\n• Laylak, qaldirg‘och, turna issiq o‘lkalarga uchib ketadi — ular ko‘chmanchi qushlar.\n• Chumchuq, qarg‘a, kaptar, musicha qishda ham shu yerda qoladi — ular qishlovchi qushlar.\nQishda hasharotlar yo‘qoladi, shuning uchun ular bilan oziqlanadigan qushlar uchib ketadi."
+   }
+  },
+  {
+   "id": "science_g2.uzbekistan",
+   "code": "10",
+   "emoji": "🏔️",
+   "title": {
+    "uz": "O‘zbekiston tabiati",
+    "en": "Nature of Uzbekistan",
+    "ru": "Природа Узбекистана"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Hayvonlar va Vatanimiz tabiati",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘zbekiston — quyoshli o‘lka. Yozi uzun va issiq.\n• Eng katta daryolarimiz — Amudaryo va Sirdaryo. Zarafshon va Chirchiq daryolari ham bor.\n• Sharqida va janubida tog‘lar, g‘arbida keng tekisliklar va Qizilqum cho‘li bor.\n• Tog‘larda archa o‘sadi, qor qoploni yashaydi; cho‘lda saksovul o‘sadi, jayron yashaydi.\nPoytaxtimiz — Toshkent shahri."
+   }
+  },
+  {
+   "id": "science_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Hayvonlar va Vatanimiz tabiati",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g2.directions",
+   "code": "11",
+   "emoji": "🗺️",
+   "title": {
+    "uz": "Olam tomonlari va kompas",
+    "en": "Cardinal directions and the compass",
+    "ru": "Стороны света и компас"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Olam tomonlari to‘rtta: shimol, janub, sharq, g‘arb.\n• Quyosh ertalab sharqdan chiqadi, kechqurun g‘arbga botadi.\n• Tushda Quyosh janub tomonda bo‘ladi, soyamiz esa shimolga tushadi.\n• Shimolga qarab tursak: o‘ngimizda — sharq, chapimizda — g‘arb, orqamizda — janub.\nKompas — tomonlarni aniqlaydigan asbob, uning strelkasi shimolni ko‘rsatadi. Xaritaning tepasi — shimol."
+   }
+  },
+  {
+   "id": "science_g2.time",
+   "code": "12",
+   "emoji": "⏰",
+   "title": {
+    "uz": "Vaqt: sutka, hafta, yil",
+    "en": "Time: day, week, year",
+    "ru": "Время: сутки, неделя, год"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Sutka — 24 soat: kunduz va tun. 1 soat — 60 daqiqa.\n• Hafta — 7 kun: dushanba, seshanba, chorshanba, payshanba, juma, shanba, yakshanba.\n• Yil — 12 oy va 4 fasl, har faslda 3 oy.\n• Qish: dekabr, yanvar, fevral. Bahor: mart, aprel, may.\n• Yoz: iyun, iyul, avgust. Kuz: sentyabr, oktyabr, noyabr.\nYer o‘z o‘qi atrofida bir marta aylanganda bir sutka o‘tadi."
+   }
+  },
+  {
+   "id": "science_g2.health",
+   "code": "13",
+   "emoji": "💪",
+   "title": {
+    "uz": "Salomatlik",
+    "en": "Health",
+    "ru": "Здоровье"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Sog‘lom bo‘lish uchun:\n• To‘g‘ri ovqatlanamiz: meva, sabzavot, sut, non, go‘sht, baliq yeymiz. Shirinlik va gazli ichimliklar — kam.\n• Har kuni harakat qilamiz: badantarbiya, yugurish, suzish, futbol.\n• Vaqtida uxlaymiz, toza havoda sayr qilamiz.\n• Ovqatni shoshilmay, yaxshilab chaynab yeymiz.\nKasal bo‘lsak, shifokorga boramiz."
+   }
+  },
+  {
+   "id": "science_g2.protect",
+   "code": "14",
+   "emoji": "🌍",
+   "title": {
+    "uz": "Tabiatni muhofaza qilish",
+    "en": "Protecting nature",
+    "ru": "Охрана природы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tabiatni muhofaza qilish — uni asrash va ifloslantirmaslik.\n• Kamyob hayvon va o‘simliklar “Qizil kitob”ga yoziladi va muhofaza qilinadi.\n• Qo‘riqxonalarda tabiat qo‘riqlanadi: u yerda ov qilish, daraxt kesish mumkin emas.\n• Chiqindini saralaymiz: qog‘oz, plastik, shisha alohida yig‘iladi va qayta ishlanadi.\n• Suvni, elektrni tejaymiz, daraxt ekamiz. Har birimiz tabiatga yordam bera olamiz."
+   }
+  },
+  {
+   "id": "science_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "science_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yo‘nalish, vaqt va salomatlik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil",
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild",
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan",
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil",
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild",
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan",
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "science_g2.phenomena",
+      "science_g2.water",
+      "science_g2.air",
+      "science_g2.soil",
+      "science_g2.plant_needs",
+      "science_g2.plant_forms",
+      "science_g2.crops_wild",
+      "science_g2.animal_food",
+      "science_g2.animal_winter",
+      "science_g2.uzbekistan",
+      "science_g2.directions",
+      "science_g2.time",
+      "science_g2.health",
+      "science_g2.protect"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

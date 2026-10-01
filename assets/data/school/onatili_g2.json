@@ -1,0 +1,649 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "onatili_g2.alphabet_order",
+   "code": "1",
+   "emoji": "🔤",
+   "title": {
+    "uz": "Alifbo tartibi",
+    "en": "Alphabetical order",
+    "ru": "Алфавитный порядок"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va alifbo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘zbek alifbosi: A B D E F G H I J K L M N O P Q R S T U V X Y Z O‘ G‘ Sh Ch Ng.\n• Lug‘atda so‘zlar alifbo tartibida turadi.\n• Avval birinchi harflarni solishtiramiz: asal, bulut, gilos.\n• Birinchi harflar bir xil bo‘lsa, ikkinchi harfga qaraymiz: qalam, qor, qush.\n• O‘, G‘, Sh, Ch alifbo oxirida: “zebra” dan keyin “o‘rdak”, undan keyin “sher” keladi."
+   }
+  },
+  {
+   "id": "onatili_g2.sounds",
+   "code": "2",
+   "emoji": "🅰️",
+   "title": {
+    "uz": "Unli va undosh tovushlar",
+    "en": "Vowels and consonants",
+    "ru": "Гласные и согласные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va alifbo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Tovushlar ikki xil bo‘ladi: unli va undosh.\n• Unlilar 6 ta: a, o, u, e, i, o‘. Ularni cho‘zib aytish mumkin.\n• Qolgan tovushlar — undoshlar: b, d, k, l, m, q, y, sh, ch …\n• Har bir so‘zda kamida bitta unli bor.\nMisol: “bulut” so‘zida u, u — unli; b, l, t — undosh."
+   }
+  },
+  {
+   "id": "onatili_g2.voiced",
+   "code": "3",
+   "emoji": "🔔",
+   "title": {
+    "uz": "Jarangli va jarangsiz undoshlar",
+    "en": "Voiced and voiceless consonants",
+    "ru": "Звонкие и глухие согласные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Tovush, harf va alifbo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Undoshlar jarangli va jarangsiz bo‘ladi.\n• Jarangli undosh ovoz bilan aytiladi, tomoq titraydi: b, d, g, z, v, j.\n• Jarangsiz undosh ovozsiz, faqat shovqin bilan aytiladi: p, t, k, s, f, ch.\n• Ular juft bo‘ladi: b–p, d–t, g–k, z–s, v–f, j–ch.\nSinab ko‘ring: kaftingizni tomog‘ingizga qo‘yib “z” va “s” ni ayting."
+   }
+  },
+  {
+   "id": "onatili_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Tovush, harf va alifbo",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g2.syllables",
+   "code": "4",
+   "emoji": "✂️",
+   "title": {
+    "uz": "Bo‘g‘in va so‘zni ko‘chirish",
+    "en": "Syllables and hyphenation",
+    "ru": "Слог и перенос слов"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Bo‘g‘in va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Har bir bo‘g‘inda bitta unli bor: mak-tab, ki-tob.\n• Qatorga sig‘masa, so‘z bo‘g‘inlab ko‘chiriladi: mak- (keyingi qatorda) tab.\n• Bitta harfni qatorda qoldirib ham, keyingi qatorga o‘tkazib ham bo‘lmaydi: “ona”, “uka” ko‘chirilmaydi.\n• Bir bo‘g‘inli so‘z ko‘chirilmaydi: non, go‘sht.\n• sh, ch, ng bo‘linmaydi: qish-loq, ko‘-cha, tong-da."
+   }
+  },
+  {
+   "id": "onatili_g2.og_tutuq",
+   "code": "5",
+   "emoji": "✏️",
+   "title": {
+    "uz": "O‘, G‘ va tutuq belgisi",
+    "en": "O‘, G‘ and the apostrophe",
+    "ru": "O‘, G‘ и знак тутук"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Bo‘g‘in va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "O‘ va G‘ harflari o va g ga ‘ belgisi qo‘shib yoziladi: o‘rmon, qog‘oz, qo‘ng‘iz.\n• Belgi tushib qolsa, so‘z o‘zgaradi: bosh — bo‘sh, tor — to‘r.\n• Tutuq belgisi (’) ba’zi so‘zlarda yoziladi: a’lochi, ta’m, va’da, Ra’no.\n• Tutuq belgisi ham so‘zni farqlaydi: sher — she’r."
+   }
+  },
+  {
+   "id": "onatili_g2.double_cons",
+   "code": "6",
+   "emoji": "✍️",
+   "title": {
+    "uz": "Qo‘sh undoshli so‘zlar",
+    "en": "Double consonants",
+    "ru": "Удвоенные согласные"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Bo‘g‘in va imlo",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Ba’zi so‘zlarda bir xil undosh ikki marta yoziladi: katta, ikki, tikka, issiq, achchiq.\n• Bunday so‘zda undosh cho‘ziqroq eshitiladi: kat-ta.\n• Ko‘chirganda qo‘sh undosh ikkiga bo‘linadi: kat-ta, ik-ki.\n• -lar qo‘shilganda ham qo‘sh undosh paydo bo‘lishi mumkin: gul + lar = gullar.\n• Bitta undoshli so‘zga ortiqcha harf qo‘shmang: kitob, olti."
+   }
+  },
+  {
+   "id": "onatili_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Bo‘g‘in va imlo",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g2.word_meaning",
+   "code": "7",
+   "emoji": "↔️",
+   "title": {
+    "uz": "Ma’nodosh va qarama-qarshi ma’noli so‘zlar",
+    "en": "Synonyms and antonyms",
+    "ru": "Синонимы и антонимы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z ma’nosi va narsa nomlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "• Ma’nodosh (sinonim) so‘zlar — yozilishi har xil, ma’nosi bir xil yoki yaqin so‘zlar:\n  qo‘shiq — ashula, shifokor — doktor, sekin — asta.\n• Qarama-qarshi ma’noli (antonim) so‘zlar — ma’nosi bir-biriga zid so‘zlar:\n  yaqin — uzoq, qalin — yupqa, ochiq — yopiq.\nMisol: Fil katta, sichqon esa kichik."
+   }
+  },
+  {
+   "id": "onatili_g2.who_what",
+   "code": "8",
+   "emoji": "❓",
+   "title": {
+    "uz": "Kim? Nima? Narsa nomini bildirgan so‘zlar",
+    "en": "Who? What? Naming words",
+    "ru": "Кто? Что? Слова-предметы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z ma’nosi va narsa nomlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Shaxs va narsa nomini bildirgan so‘zlar kim? yoki nima? so‘rog‘iga javob beradi.\n• kim? — odamlar: dadam, opa, quruvchi, Zarina.\n• nima? — narsa, hayvon, o‘simlik: daftar, qo‘zichoq, chinor.\n• Ko‘p bo‘lsa: kimlar? — o‘quvchilar; nimalar? — qushlar."
+   }
+  },
+  {
+   "id": "onatili_g2.plural",
+   "code": "9",
+   "emoji": "🍎",
+   "title": {
+    "uz": "Birlik va ko‘plik",
+    "en": "Singular and plural",
+    "ru": "Единственное и множественное число"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z ma’nosi va narsa nomlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bitta narsani bildirgan so‘z birlikda bo‘ladi: qalam, qush.\nKo‘p narsani bildirgan so‘z ko‘plikda bo‘ladi. Ko‘plik -lar qo‘shimchasi bilan yasaladi: qalamlar, qushlar.\n• -lar doim bir xil yoziladi: uy — uylar, gul — gullar.\n• Son bilan kelganda -lar qo‘shilmaydi: uchta qalam, beshta qush."
+   }
+  },
+  {
+   "id": "onatili_g2.proper_names",
+   "code": "10",
+   "emoji": "🏙️",
+   "title": {
+    "uz": "Ism va joy nomlari bosh harf bilan",
+    "en": "Capitalizing names",
+    "ru": "Имена собственные с заглавной буквы"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. So‘z ma’nosi va narsa nomlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Kishilarning ismi va familiyasi, shahar, qishloq va daryo nomlari bosh harf bilan yoziladi:\nAli Karimov, Jizzax, Chirchiq.\n• Hayvonlarga qo‘yilgan nomlar ham bosh harf bilan yoziladi: Olapar.\n• “shahar”, “daryo” so‘zlari kichik harf bilan yoziladi: Urganch shahri, Norin daryosi."
+   }
+  },
+  {
+   "id": "onatili_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. So‘z ma’nosi va narsa nomlari",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g2.sign_words",
+   "code": "11",
+   "emoji": "🎨",
+   "title": {
+    "uz": "Belgini bildirgan so‘zlar",
+    "en": "Describing words",
+    "ru": "Слова-признаки"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Belgini bildirgan so‘zlar qanday? qanaqa? so‘rog‘iga javob beradi. Ular narsaning:\n• rangini bildiradi: qizil, sariq, yashil;\n• ta’mini bildiradi: shirin, nordon, sho‘r;\n• kattaligi va shaklini bildiradi: katta, mitti, uzun, dumaloq.\nMisol: Qanday olma? — Shirin olma."
+   }
+  },
+  {
+   "id": "onatili_g2.action_words",
+   "code": "12",
+   "emoji": "🏃",
+   "title": {
+    "uz": "Harakatni bildirgan so‘zlar",
+    "en": "Action words",
+    "ru": "Слова-действия"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Harakatni bildirgan so‘zlar nima qildi? nima qilyapti? nima qiladi? so‘roqlariga javob beradi.\n• nima qildi? — bo‘lib o‘tgan harakat: yozdi, o‘qidi.\n• nima qilyapti? — hozir bo‘layotgan harakat: yozyapti, o‘qiyapti.\n• nima qiladi? — odatda yoki keyin bo‘ladigan harakat: yozadi, o‘qiydi."
+   }
+  },
+  {
+   "id": "onatili_g2.sentence_types",
+   "code": "13",
+   "emoji": "💬",
+   "title": {
+    "uz": "Gap turlari va gap oxiridagi belgilar",
+    "en": "Types of sentences and end marks",
+    "ru": "Виды предложений и знаки в конце"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gap tugal fikr bildiradi va bosh harf bilan boshlanadi.\n• Darak gap xabar beradi, oxirida nuqta (.): Akam maktabdan qaytdi.\n• So‘roq gap savol bildiradi, oxirida so‘roq belgisi (?): Sen qaysi sinfda o‘qiysan?\n• Undov gap kuchli his bilan aytiladi, oxirida undov belgisi (!): Voy, qanday katta tarvuz!"
+   }
+  },
+  {
+   "id": "onatili_g2.build_sentence",
+   "code": "14",
+   "emoji": "🧩",
+   "title": {
+    "uz": "So‘zlardan gap tuzish",
+    "en": "Building sentences",
+    "ru": "Составление предложений"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Gap tuzish uchun so‘zlarni ma’nosiga qarab tartib bilan qo‘yamiz.\n• Avval kim? yoki nima? haqida gap borishini aytamiz: Ukam …\n• Harakatni bildirgan so‘z ko‘pincha gap oxirida keladi: Ukam yangi to‘p oldi.\n• Belgini bildirgan so‘z narsa nomidan oldin turadi: yangi to‘p, shirin sabzi.\n• Gapni bosh harf bilan boshlab, oxiriga belgi qo‘yamiz."
+   }
+  },
+  {
+   "id": "onatili_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yillik takrorlash",
+    "en": "End-of-year review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Belgi, harakat va gap",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced",
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons",
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names",
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced",
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons",
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names",
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 3
+    },
+    {
+     "topics": [
+      "onatili_g2.alphabet_order",
+      "onatili_g2.sounds",
+      "onatili_g2.voiced",
+      "onatili_g2.syllables",
+      "onatili_g2.og_tutuq",
+      "onatili_g2.double_cons",
+      "onatili_g2.word_meaning",
+      "onatili_g2.who_what",
+      "onatili_g2.plural",
+      "onatili_g2.proper_names",
+      "onatili_g2.sign_words",
+      "onatili_g2.action_words",
+      "onatili_g2.sentence_types",
+      "onatili_g2.build_sentence"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
