@@ -127,7 +127,7 @@ void main() {
   test('lamp requires both wires and a closed switch for all eight states', () {
     for (var state = 0; state < 8; state++) {
       expect(
-        CircuitTask.lampLit(state & 1 != 0, state & 2 != 0, state & 4 != 0),
+        CircuitTask.lampLit((state & 1) != 0, (state & 2) != 0, (state & 4) != 0),
         state == 7,
       );
     }
