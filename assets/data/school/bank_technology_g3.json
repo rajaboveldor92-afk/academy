@@ -4,841 +4,1373 @@
    "topic": "technology_g3.safety",
    "id": "safety_1",
    "t": "choice",
-   "q": "Ishni boshlashdan oldin nima qilish kerak?",
-   "a": "Ish joyini tayyorlash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Chizg‘ich» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chizg‘ich — uzunlikni o‘lchash.",
+   "h": "Chizg‘ich — uzunlikni o‘lchash.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Uzunlikni o‘lchash",
+   "w": [
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish",
+    "Qog‘oz qismlarini biriktirish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_2",
    "t": "choice",
-   "q": "Qaychini qanday uzatish xavfsiz?",
-   "a": "Yopiq holda dastasini oldinga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Qalam» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qalam — kesishdan oldin belgi qo‘yish.",
+   "h": "Qalam — kesishdan oldin belgi qo‘yish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Kesishdan oldin belgi qo‘yish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Qog‘ozni belgilangan chiziqda kesish",
+    "Qog‘oz qismlarini biriktirish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_3",
    "t": "choice",
-   "q": "O‘lchash uchun nima ishlatiladi?",
-   "a": "Chizg‘ich",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Qaychi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qaychi — qog‘ozni belgilangan chiziqda kesish.",
+   "h": "Qaychi — qog‘ozni belgilangan chiziqda kesish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qog‘ozni belgilangan chiziqda kesish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘oz qismlarini biriktirish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_4",
    "t": "choice",
-   "q": "Materialni kesishdan avval nima foydali?",
-   "a": "Belgilash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Elim» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Elim — qog‘oz qismlarini biriktirish.",
+   "h": "Elim — qog‘oz qismlarini biriktirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qog‘oz qismlarini biriktirish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_5",
    "t": "choice",
-   "q": "Ish tugagach nima qilinadi?",
-   "a": "Ish joyi yig‘ishtiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Andoza» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Andoza — bir xil shaklni ko‘chirish.",
+   "h": "Andoza — bir xil shaklni ko‘chirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Bir xil shaklni ko‘chirish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_6",
    "t": "choice",
-   "q": "Materialni tejash nimaga yordam beradi?",
-   "a": "Chiqindini kamaytirishga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Taglik» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Taglik — ish stoli yuzasini himoyalash.",
+   "h": "Taglik — ish stoli yuzasini himoyalash.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Ish stoli yuzasini himoyalash",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_7",
    "t": "choice",
-   "q": "Andoza nima uchun kerak?",
-   "a": "Shaklni aniq ko‘chirish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Chiqindi qutisi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chiqindi qutisi — qog‘oz qoldiqlarini yig‘ish.",
+   "h": "Chiqindi qutisi — qog‘oz qoldiqlarini yig‘ish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qog‘oz qoldiqlarini yig‘ish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_8",
    "t": "choice",
-   "q": "Karton qog‘ozdan qanday farq qiladi?",
-   "a": "Odatda qalinroq",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Yopiq qaychi dastasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yopiq qaychi dastasi — qaychini xavfsiz uzatish.",
+   "h": "Yopiq qaychi dastasi — qaychini xavfsiz uzatish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qaychini xavfsiz uzatish",
+   "w": [
+    "Uzunlikni o‘lchash",
+    "Kesishdan oldin belgi qo‘yish",
+    "Qog‘ozni belgilangan chiziqda kesish"
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_9",
-   "t": "choice",
-   "q": "Loyiha nimadan boshlanadi?",
-   "a": "Maqsadni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Ish stolini tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Keraksiz buyumlarni olib qo‘yish → Stolga taglik qo‘yish → Kerakli materiallarni joylash → Ishni boshlash.",
+   "h": "Keraksiz buyumlarni olib qo‘yish → Stolga taglik qo‘yish → Kerakli materiallarni joylash → Ishni boshlash.",
+   "d": 1,
+   "parts": [
+    "Keraksiz buyumlarni olib qo‘yish",
+    "Stolga taglik qo‘yish",
+    "Kerakli materiallarni joylash",
+    "Ishni boshlash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_10",
-   "t": "choice",
-   "q": "Eskiz nima?",
-   "a": "G‘oyaning dastlabki chizmasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Qaychini boshqa kishiga uzatish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Kesishni to‘xtatish → Qaychi tig‘larini yopish → Dastasini oluvchiga qaratish → Qaychini ehtiyotkorlik bilan uzatish.",
+   "h": "Kesishni to‘xtatish → Qaychi tig‘larini yopish → Dastasini oluvchiga qaratish → Qaychini ehtiyotkorlik bilan uzatish.",
+   "d": 1,
+   "parts": [
+    "Kesishni to‘xtatish",
+    "Qaychi tig‘larini yopish",
+    "Dastasini oluvchiga qaratish",
+    "Qaychini ehtiyotkorlik bilan uzatish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_11",
-   "t": "choice",
-   "q": "Tayyor buyum bilan nima qilinadi?",
-   "a": "Tekshiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Dars oxirida ish joyini yig‘ish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Asboblarni ishlatishni to‘xtatish → Qaychini yopib joyiga qo‘yish → Qog‘oz qoldiqlarini yig‘ish → Stolni tartibga keltirish.",
+   "h": "Asboblarni ishlatishni to‘xtatish → Qaychini yopib joyiga qo‘yish → Qog‘oz qoldiqlarini yig‘ish → Stolni tartibga keltirish.",
+   "d": 1,
+   "parts": [
+    "Asboblarni ishlatishni to‘xtatish",
+    "Qaychini yopib joyiga qo‘yish",
+    "Qog‘oz qoldiqlarini yig‘ish",
+    "Stolni tartibga keltirish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_12",
-   "t": "choice",
-   "q": "Xato topilsa nima qilinadi?",
-   "a": "Yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Asboblar va xavfsizlik: asosiy juftliklarni moslang.",
+   "x": "Chizg‘ich — Uzunlikni o‘lchash; Qalam — Kesishdan oldin belgi qo‘yish; Qaychi — Qog‘ozni belgilangan chiziqda kesish; Elim — Qog‘oz qismlarini biriktirish.",
+   "h": "Chizg‘ich — Uzunlikni o‘lchash; Qalam — Kesishdan oldin belgi qo‘yish; Qaychi — Qog‘ozni belgilangan chiziqda kesish; Elim — Qog‘oz qismlarini biriktirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Chizg‘ich",
+     "Uzunlikni o‘lchash"
+    ],
+    [
+     "Qalam",
+     "Kesishdan oldin belgi qo‘yish"
+    ],
+    [
+     "Qaychi",
+     "Qog‘ozni belgilangan chiziqda kesish"
+    ],
+    [
+     "Elim",
+     "Qog‘oz qismlarini biriktirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_13",
-   "t": "choice",
-   "q": "Qayta ishlatishning foydasi nima?",
-   "a": "Resursni tejash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Asboblar va xavfsizlik: amaliy juftliklarni moslang.",
+   "x": "Andoza — Bir xil shaklni ko‘chirish; Taglik — Ish stoli yuzasini himoyalash; Chiqindi qutisi — Qog‘oz qoldiqlarini yig‘ish; Yopiq qaychi dastasi — Qaychini xavfsiz uzatish.",
+   "h": "Andoza — Bir xil shaklni ko‘chirish; Taglik — Ish stoli yuzasini himoyalash; Chiqindi qutisi — Qog‘oz qoldiqlarini yig‘ish; Yopiq qaychi dastasi — Qaychini xavfsiz uzatish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Andoza",
+     "Bir xil shaklni ko‘chirish"
+    ],
+    [
+     "Taglik",
+     "Ish stoli yuzasini himoyalash"
+    ],
+    [
+     "Chiqindi qutisi",
+     "Qog‘oz qoldiqlarini yig‘ish"
+    ],
+    [
+     "Yopiq qaychi dastasi",
+     "Qaychini xavfsiz uzatish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_14",
-   "t": "choice",
-   "q": "Elim qanday ishlatiladi?",
-   "a": "Kerakli miqdorda",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Asboblar va xavfsizlik: mavzuni mustahkamlashni moslang.",
+   "x": "Chizg‘ich — Uzunlikni o‘lchash; Qalam — Kesishdan oldin belgi qo‘yish; Qaychi — Qog‘ozni belgilangan chiziqda kesish; Elim — Qog‘oz qismlarini biriktirish; Andoza — Bir xil shaklni ko‘chirish; Taglik — Ish stoli yuzasini himoyalash; Chiqindi qutisi — Qog‘oz qoldiqlarini yig‘ish; Yopiq qaychi dastasi — Qaychini xavfsiz uzatish.",
+   "h": "Chizg‘ich — Uzunlikni o‘lchash; Qalam — Kesishdan oldin belgi qo‘yish; Qaychi — Qog‘ozni belgilangan chiziqda kesish; Elim — Qog‘oz qismlarini biriktirish; Andoza — Bir xil shaklni ko‘chirish; Taglik — Ish stoli yuzasini himoyalash; Chiqindi qutisi — Qog‘oz qoldiqlarini yig‘ish; Yopiq qaychi dastasi — Qaychini xavfsiz uzatish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Chizg‘ich",
+     "Uzunlikni o‘lchash"
+    ],
+    [
+     "Qalam",
+     "Kesishdan oldin belgi qo‘yish"
+    ],
+    [
+     "Qaychi",
+     "Qog‘ozni belgilangan chiziqda kesish"
+    ],
+    [
+     "Elim",
+     "Qog‘oz qismlarini biriktirish"
+    ],
+    [
+     "Andoza",
+     "Bir xil shaklni ko‘chirish"
+    ],
+    [
+     "Taglik",
+     "Ish stoli yuzasini himoyalash"
+    ],
+    [
+     "Chiqindi qutisi",
+     "Qog‘oz qoldiqlarini yig‘ish"
+    ],
+    [
+     "Yopiq qaychi dastasi",
+     "Qaychini xavfsiz uzatish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.safety",
    "id": "safety_15",
-   "t": "choice",
-   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
-   "a": "O‘qituvchidan so‘raysiz",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "sort",
+   "q": "Harakatlarni xavfsiz va xavfli guruhga ajrating.",
+   "x": "Xavfsiz: Qaychini yopib uzatish, Taglikda ishlash, Asbobni joyiga qo‘yish; Xavfli: Ochiq qaychi bilan yugurish, Qaychi tig‘ini odamga qaratish, Asbobni stol chetida qoldirish.",
+   "h": "Xavfsiz: Qaychini yopib uzatish, Taglikda ishlash, Asbobni joyiga qo‘yish; Xavfli: Ochiq qaychi bilan yugurish, Qaychi tig‘ini odamga qaratish, Asbobni stol chetida qoldirish.",
+   "d": 1,
+   "bins": [
+    "Xavfsiz",
+    "Xavfli"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "items": [
+    [
+     "Qaychini yopib uzatish",
+     0
+    ],
+    [
+     "Taglikda ishlash",
+     0
+    ],
+    [
+     "Asbobni joyiga qo‘yish",
+     0
+    ],
+    [
+     "Ochiq qaychi bilan yugurish",
+     1
+    ],
+    [
+     "Qaychi tig‘ini odamga qaratish",
+     1
+    ],
+    [
+     "Asbobni stol chetida qoldirish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.safety",
+   "id": "safety_16",
+   "t": "sort",
+   "q": "Buyumlarni o‘lchash-belgilash va biriktirish guruhiga ajrating.",
+   "x": "O‘lchash / belgilash: Chizg‘ich, Qalam, Andoza; Biriktirish: Qog‘oz elimi, Yelim tayoqchasi, Yopishqoq lenta.",
+   "h": "O‘lchash / belgilash: Chizg‘ich, Qalam, Andoza; Biriktirish: Qog‘oz elimi, Yelim tayoqchasi, Yopishqoq lenta.",
+   "d": 1,
+   "bins": [
+    "O‘lchash / belgilash",
+    "Biriktirish"
+   ],
+   "items": [
+    [
+     "Chizg‘ich",
+     0
+    ],
+    [
+     "Qalam",
+     0
+    ],
+    [
+     "Andoza",
+     0
+    ],
+    [
+     "Qog‘oz elimi",
+     1
+    ],
+    [
+     "Yelim tayoqchasi",
+     1
+    ],
+    [
+     "Yopishqoq lenta",
+     1
+    ]
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_1",
+   "id": "paper_17",
    "t": "choice",
-   "q": "Ishni boshlashdan oldin nima qilish kerak?",
-   "a": "Ish joyini tayyorlash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Yupqa qog‘oz» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yupqa qog‘oz — oson buklanadigan material.",
+   "h": "Yupqa qog‘oz — oson buklanadigan material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Oson buklanadigan material",
+   "w": [
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi",
+    "Qaychi yuradigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_2",
+   "id": "paper_18",
    "t": "choice",
-   "q": "Qaychini qanday uzatish xavfsiz?",
-   "a": "Yopiq holda dastasini oldinga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Karton» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Karton — qog‘ozdan qalinroq maket materiali.",
+   "h": "Karton — qog‘ozdan qalinroq maket materiali.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qog‘ozdan qalinroq maket materiali",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘oz buklanadigan belgi",
+    "Qaychi yuradigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_3",
+   "id": "paper_19",
    "t": "choice",
-   "q": "O‘lchash uchun nima ishlatiladi?",
-   "a": "Chizg‘ich",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Buklash chizig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Buklash chizig‘i — qog‘oz buklanadigan belgi.",
+   "h": "Buklash chizig‘i — qog‘oz buklanadigan belgi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qog‘oz buklanadigan belgi",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qaychi yuradigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_4",
+   "id": "paper_20",
    "t": "choice",
-   "q": "Materialni kesishdan avval nima foydali?",
-   "a": "Belgilash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Kesish chizig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Kesish chizig‘i — qaychi yuradigan belgi.",
+   "h": "Kesish chizig‘i — qaychi yuradigan belgi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qaychi yuradigan belgi",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_5",
+   "id": "paper_21",
    "t": "choice",
-   "q": "Ish tugagach nima qilinadi?",
-   "a": "Ish joyi yig‘ishtiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Andoza» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Andoza — shaklni nusxalash namunasi.",
+   "h": "Andoza — shaklni nusxalash namunasi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Shaklni nusxalash namunasi",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_6",
+   "id": "paper_22",
    "t": "choice",
-   "q": "Materialni tejash nimaga yordam beradi?",
-   "a": "Chiqindini kamaytirishga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Yelim qopqog‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yelim qopqog‘i — biriktirish uchun qoldirilgan chet.",
+   "h": "Yelim qopqog‘i — biriktirish uchun qoldirilgan chet.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Biriktirish uchun qoldirilgan chet",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_7",
+   "id": "paper_23",
    "t": "choice",
-   "q": "Andoza nima uchun kerak?",
-   "a": "Shaklni aniq ko‘chirish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Chizg‘ich» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chizg‘ich — tekis chiziq chizish vositasi.",
+   "h": "Chizg‘ich — tekis chiziq chizish vositasi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Tekis chiziq chizish vositasi",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_8",
+   "id": "paper_24",
    "t": "choice",
-   "q": "Karton qog‘ozdan qanday farq qiladi?",
-   "a": "Odatda qalinroq",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Simmetrik buklash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Simmetrik buklash — ikki chetni ustma-ust keltirish.",
+   "h": "Simmetrik buklash — ikki chetni ustma-ust keltirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Ikki chetni ustma-ust keltirish",
+   "w": [
+    "Oson buklanadigan material",
+    "Qog‘ozdan qalinroq maket materiali",
+    "Qog‘oz buklanadigan belgi"
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_9",
-   "t": "choice",
-   "q": "Loyiha nimadan boshlanadi?",
-   "a": "Maqsadni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "paper_25",
+   "t": "order",
+   "q": "Tabrik kartochkasini tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Qog‘ozning ikki chetini tenglashtirish → Qog‘ozni o‘rtasidan buklash → Old tomoniga naqsh chizish → Ichiga tabrik yozish.",
+   "h": "Qog‘ozning ikki chetini tenglashtirish → Qog‘ozni o‘rtasidan buklash → Old tomoniga naqsh chizish → Ichiga tabrik yozish.",
+   "d": 1,
+   "parts": [
+    "Qog‘ozning ikki chetini tenglashtirish",
+    "Qog‘ozni o‘rtasidan buklash",
+    "Old tomoniga naqsh chizish",
+    "Ichiga tabrik yozish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_10",
-   "t": "choice",
-   "q": "Eskiz nima?",
-   "a": "G‘oyaning dastlabki chizmasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "paper_26",
+   "t": "order",
+   "q": "Andozadan karton shakl yasash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Andozani karton ustiga qo‘yish → Shakl chetini qalam bilan chizish → Belgilangan chiziq bo‘ylab kesish → Shaklni andoza bilan solishtirish.",
+   "h": "Andozani karton ustiga qo‘yish → Shakl chetini qalam bilan chizish → Belgilangan chiziq bo‘ylab kesish → Shaklni andoza bilan solishtirish.",
+   "d": 1,
+   "parts": [
+    "Andozani karton ustiga qo‘yish",
+    "Shakl chetini qalam bilan chizish",
+    "Belgilangan chiziq bo‘ylab kesish",
+    "Shaklni andoza bilan solishtirish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_11",
-   "t": "choice",
-   "q": "Tayyor buyum bilan nima qilinadi?",
-   "a": "Tekshiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "paper_27",
+   "t": "order",
+   "q": "Qog‘oz halqa tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Qog‘oz tasma uzunligini belgilash → Tasmani belgi bo‘ylab kesish → Ikki uchini ustma-ust qo‘yish → Uchlarini elim bilan biriktirish.",
+   "h": "Qog‘oz tasma uzunligini belgilash → Tasmani belgi bo‘ylab kesish → Ikki uchini ustma-ust qo‘yish → Uchlarini elim bilan biriktirish.",
+   "d": 1,
+   "parts": [
+    "Qog‘oz tasma uzunligini belgilash",
+    "Tasmani belgi bo‘ylab kesish",
+    "Ikki uchini ustma-ust qo‘yish",
+    "Uchlarini elim bilan biriktirish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_12",
-   "t": "choice",
-   "q": "Xato topilsa nima qilinadi?",
-   "a": "Yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "paper_28",
+   "t": "match",
+   "q": "Qog‘oz va karton: asosiy juftliklarni moslang.",
+   "x": "Yupqa qog‘oz — Oson buklanadigan material; Karton — Qog‘ozdan qalinroq maket materiali; Buklash chizig‘i — Qog‘oz buklanadigan belgi; Kesish chizig‘i — Qaychi yuradigan belgi.",
+   "h": "Yupqa qog‘oz — Oson buklanadigan material; Karton — Qog‘ozdan qalinroq maket materiali; Buklash chizig‘i — Qog‘oz buklanadigan belgi; Kesish chizig‘i — Qaychi yuradigan belgi.",
+   "d": 1,
+   "pairs": [
+    [
+     "Yupqa qog‘oz",
+     "Oson buklanadigan material"
+    ],
+    [
+     "Karton",
+     "Qog‘ozdan qalinroq maket materiali"
+    ],
+    [
+     "Buklash chizig‘i",
+     "Qog‘oz buklanadigan belgi"
+    ],
+    [
+     "Kesish chizig‘i",
+     "Qaychi yuradigan belgi"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_13",
-   "t": "choice",
-   "q": "Qayta ishlatishning foydasi nima?",
-   "a": "Resursni tejash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "paper_29",
+   "t": "match",
+   "q": "Qog‘oz va karton: amaliy juftliklarni moslang.",
+   "x": "Andoza — Shaklni nusxalash namunasi; Yelim qopqog‘i — Biriktirish uchun qoldirilgan chet; Chizg‘ich — Tekis chiziq chizish vositasi; Simmetrik buklash — Ikki chetni ustma-ust keltirish.",
+   "h": "Andoza — Shaklni nusxalash namunasi; Yelim qopqog‘i — Biriktirish uchun qoldirilgan chet; Chizg‘ich — Tekis chiziq chizish vositasi; Simmetrik buklash — Ikki chetni ustma-ust keltirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Andoza",
+     "Shaklni nusxalash namunasi"
+    ],
+    [
+     "Yelim qopqog‘i",
+     "Biriktirish uchun qoldirilgan chet"
+    ],
+    [
+     "Chizg‘ich",
+     "Tekis chiziq chizish vositasi"
+    ],
+    [
+     "Simmetrik buklash",
+     "Ikki chetni ustma-ust keltirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_14",
-   "t": "choice",
-   "q": "Elim qanday ishlatiladi?",
-   "a": "Kerakli miqdorda",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "paper_30",
+   "t": "match",
+   "q": "Qog‘oz va karton: mavzuni mustahkamlashni moslang.",
+   "x": "Yupqa qog‘oz — Oson buklanadigan material; Karton — Qog‘ozdan qalinroq maket materiali; Buklash chizig‘i — Qog‘oz buklanadigan belgi; Kesish chizig‘i — Qaychi yuradigan belgi; Andoza — Shaklni nusxalash namunasi; Yelim qopqog‘i — Biriktirish uchun qoldirilgan chet; Chizg‘ich — Tekis chiziq chizish vositasi; Simmetrik buklash — Ikki chetni ustma-ust keltirish.",
+   "h": "Yupqa qog‘oz — Oson buklanadigan material; Karton — Qog‘ozdan qalinroq maket materiali; Buklash chizig‘i — Qog‘oz buklanadigan belgi; Kesish chizig‘i — Qaychi yuradigan belgi; Andoza — Shaklni nusxalash namunasi; Yelim qopqog‘i — Biriktirish uchun qoldirilgan chet; Chizg‘ich — Tekis chiziq chizish vositasi; Simmetrik buklash — Ikki chetni ustma-ust keltirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Yupqa qog‘oz",
+     "Oson buklanadigan material"
+    ],
+    [
+     "Karton",
+     "Qog‘ozdan qalinroq maket materiali"
+    ],
+    [
+     "Buklash chizig‘i",
+     "Qog‘oz buklanadigan belgi"
+    ],
+    [
+     "Kesish chizig‘i",
+     "Qaychi yuradigan belgi"
+    ],
+    [
+     "Andoza",
+     "Shaklni nusxalash namunasi"
+    ],
+    [
+     "Yelim qopqog‘i",
+     "Biriktirish uchun qoldirilgan chet"
+    ],
+    [
+     "Chizg‘ich",
+     "Tekis chiziq chizish vositasi"
+    ],
+    [
+     "Simmetrik buklash",
+     "Ikki chetni ustma-ust keltirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.paper",
-   "id": "paper_15",
-   "t": "choice",
-   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
-   "a": "O‘qituvchidan so‘raysiz",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "paper_31",
+   "t": "sort",
+   "q": "Buklash va kesish ishlarini ajrating.",
+   "x": "Buklash: Qog‘ozni teng ikkiga qayirish, Chetlarni ustma-ust keltirish, Buklangan joyni bosib tekislash; Kesish: Qaychi bilan tasma ajratish, Andoza konturini qaychida ajratish, Qog‘ozdan doira qirqish.",
+   "h": "Buklash: Qog‘ozni teng ikkiga qayirish, Chetlarni ustma-ust keltirish, Buklangan joyni bosib tekislash; Kesish: Qaychi bilan tasma ajratish, Andoza konturini qaychida ajratish, Qog‘ozdan doira qirqish.",
+   "d": 1,
+   "bins": [
+    "Buklash",
+    "Kesish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "items": [
+    [
+     "Qog‘ozni teng ikkiga qayirish",
+     0
+    ],
+    [
+     "Chetlarni ustma-ust keltirish",
+     0
+    ],
+    [
+     "Buklangan joyni bosib tekislash",
+     0
+    ],
+    [
+     "Qaychi bilan tasma ajratish",
+     1
+    ],
+    [
+     "Andoza konturini qaychida ajratish",
+     1
+    ],
+    [
+     "Qog‘ozdan doira qirqish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.paper",
+   "id": "paper_32",
+   "t": "sort",
+   "q": "Ushbu quruq maketlar uchun yupqa qog‘oz yoki kartonni tanlang.",
+   "x": "Yupqa qog‘oz: Oddiy buklama, Qog‘oz zanjir halqasi, Yengil bezak tasmasi; Karton: Maket tagligi, Mustahkam quti devori, Qalamdon asos qismi.",
+   "h": "Yupqa qog‘oz: Oddiy buklama, Qog‘oz zanjir halqasi, Yengil bezak tasmasi; Karton: Maket tagligi, Mustahkam quti devori, Qalamdon asos qismi.",
+   "d": 1,
+   "bins": [
+    "Yupqa qog‘oz",
+    "Karton"
+   ],
+   "items": [
+    [
+     "Oddiy buklama",
+     0
+    ],
+    [
+     "Qog‘oz zanjir halqasi",
+     0
+    ],
+    [
+     "Yengil bezak tasmasi",
+     0
+    ],
+    [
+     "Maket tagligi",
+     1
+    ],
+    [
+     "Mustahkam quti devori",
+     1
+    ],
+    [
+     "Qalamdon asos qismi",
+     1
+    ]
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_1",
+   "id": "reuse_33",
    "t": "choice",
-   "q": "Ishni boshlashdan oldin nima qilish kerak?",
-   "a": "Ish joyini tayyorlash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Quruq barg» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Quruq barg — tabiiy bezak materiali.",
+   "h": "Quruq barg — tabiiy bezak materiali.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Tabiiy bezak materiali",
+   "w": [
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material",
+    "Qayta ishlatish mumkin bo‘lgan idish"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_2",
+   "id": "reuse_34",
    "t": "choice",
-   "q": "Qaychini qanday uzatish xavfsiz?",
-   "a": "Yopiq holda dastasini oldinga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Urug‘» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Urug‘ — o‘simlikdan olinadigan tabiiy material.",
+   "h": "Urug‘ — o‘simlikdan olinadigan tabiiy material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "O‘simlikdan olinadigan tabiiy material",
+   "w": [
+    "Tabiiy bezak materiali",
+    "Daraxtdan olinadigan tabiiy material",
+    "Qayta ishlatish mumkin bo‘lgan idish"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_3",
+   "id": "reuse_35",
    "t": "choice",
-   "q": "O‘lchash uchun nima ishlatiladi?",
-   "a": "Chizg‘ich",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Quruq novda» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Quruq novda — daraxtdan olinadigan tabiiy material.",
+   "h": "Quruq novda — daraxtdan olinadigan tabiiy material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Daraxtdan olinadigan tabiiy material",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Qayta ishlatish mumkin bo‘lgan idish"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_4",
+   "id": "reuse_36",
    "t": "choice",
-   "q": "Materialni kesishdan avval nima foydali?",
-   "a": "Belgilash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Toza karton quti» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Toza karton quti — qayta ishlatish mumkin bo‘lgan idish.",
+   "h": "Toza karton quti — qayta ishlatish mumkin bo‘lgan idish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Qayta ishlatish mumkin bo‘lgan idish",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_5",
+   "id": "reuse_37",
    "t": "choice",
-   "q": "Ish tugagach nima qilinadi?",
-   "a": "Ish joyi yig‘ishtiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Toza plastik qopqoq» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Toza plastik qopqoq — mozaika uchun qayta ishlatiladigan detal.",
+   "h": "Toza plastik qopqoq — mozaika uchun qayta ishlatiladigan detal.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Mozaika uchun qayta ishlatiladigan detal",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_6",
+   "id": "reuse_38",
    "t": "choice",
-   "q": "Materialni tejash nimaga yordam beradi?",
-   "a": "Chiqindini kamaytirishga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Qog‘oz qoldig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qog‘oz qoldig‘i — mayda bezak uchun tejaladigan material.",
+   "h": "Qog‘oz qoldig‘i — mayda bezak uchun tejaladigan material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Mayda bezak uchun tejaladigan material",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_7",
+   "id": "reuse_39",
    "t": "choice",
-   "q": "Andoza nima uchun kerak?",
-   "a": "Shaklni aniq ko‘chirish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Saralash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Saralash — turli chiqindilarni alohida yig‘ish.",
+   "h": "Saralash — turli chiqindilarni alohida yig‘ish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Turli chiqindilarni alohida yig‘ish",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_8",
+   "id": "reuse_40",
    "t": "choice",
-   "q": "Karton qog‘ozdan qanday farq qiladi?",
-   "a": "Odatda qalinroq",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Qayta foydalanish» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qayta foydalanish — buyumga yangi vazifa berish.",
+   "h": "Qayta foydalanish — buyumga yangi vazifa berish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Buyumga yangi vazifa berish",
+   "w": [
+    "Tabiiy bezak materiali",
+    "O‘simlikdan olinadigan tabiiy material",
+    "Daraxtdan olinadigan tabiiy material"
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_9",
-   "t": "choice",
-   "q": "Loyiha nimadan boshlanadi?",
-   "a": "Maqsadni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "reuse_41",
+   "t": "order",
+   "q": "Barglardan bezak tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Quruq toza barglarni tanlash → Ularni kartonga yelimsiz joylab ko‘rish → Barglarni oz elim bilan yopishtirish → Bezakni quritish.",
+   "h": "Quruq toza barglarni tanlash → Ularni kartonga yelimsiz joylab ko‘rish → Barglarni oz elim bilan yopishtirish → Bezakni quritish.",
+   "d": 1,
+   "parts": [
+    "Quruq toza barglarni tanlash",
+    "Ularni kartonga yelimsiz joylab ko‘rish",
+    "Barglarni oz elim bilan yopishtirish",
+    "Bezakni quritish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_10",
-   "t": "choice",
-   "q": "Eskiz nima?",
-   "a": "G‘oyaning dastlabki chizmasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "reuse_42",
+   "t": "order",
+   "q": "Eski qutidan tartiblagich yasash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Toza va butun qutini tanlash → Ichiga karton bo‘luvchilarni joylab ko‘rish → Bo‘luvchilarni lenta bilan mahkamlash → Qalamlarni tartib bilan joylash.",
+   "h": "Toza va butun qutini tanlash → Ichiga karton bo‘luvchilarni joylab ko‘rish → Bo‘luvchilarni lenta bilan mahkamlash → Qalamlarni tartib bilan joylash.",
+   "d": 1,
+   "parts": [
+    "Toza va butun qutini tanlash",
+    "Ichiga karton bo‘luvchilarni joylab ko‘rish",
+    "Bo‘luvchilarni lenta bilan mahkamlash",
+    "Qalamlarni tartib bilan joylash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_11",
-   "t": "choice",
-   "q": "Tayyor buyum bilan nima qilinadi?",
-   "a": "Tekshiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "reuse_43",
+   "t": "order",
+   "q": "Materialni tejamli ishlatish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Kerakli shakllarni rejalash → Shakllarni kartonga yaqin joylashtirib chizish → Shakllarni chiziq bo‘ylab kesish → Yaroqli qoldiqlarni keyingi ishga saqlash.",
+   "h": "Kerakli shakllarni rejalash → Shakllarni kartonga yaqin joylashtirib chizish → Shakllarni chiziq bo‘ylab kesish → Yaroqli qoldiqlarni keyingi ishga saqlash.",
+   "d": 1,
+   "parts": [
+    "Kerakli shakllarni rejalash",
+    "Shakllarni kartonga yaqin joylashtirib chizish",
+    "Shakllarni chiziq bo‘ylab kesish",
+    "Yaroqli qoldiqlarni keyingi ishga saqlash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_12",
-   "t": "choice",
-   "q": "Xato topilsa nima qilinadi?",
-   "a": "Yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "reuse_44",
+   "t": "match",
+   "q": "Tabiiy va qayta ishlatiladigan materiallar: asosiy juftliklarni moslang.",
+   "x": "Quruq barg — Tabiiy bezak materiali; Urug‘ — O‘simlikdan olinadigan tabiiy material; Quruq novda — Daraxtdan olinadigan tabiiy material; Toza karton quti — Qayta ishlatish mumkin bo‘lgan idish.",
+   "h": "Quruq barg — Tabiiy bezak materiali; Urug‘ — O‘simlikdan olinadigan tabiiy material; Quruq novda — Daraxtdan olinadigan tabiiy material; Toza karton quti — Qayta ishlatish mumkin bo‘lgan idish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Quruq barg",
+     "Tabiiy bezak materiali"
+    ],
+    [
+     "Urug‘",
+     "O‘simlikdan olinadigan tabiiy material"
+    ],
+    [
+     "Quruq novda",
+     "Daraxtdan olinadigan tabiiy material"
+    ],
+    [
+     "Toza karton quti",
+     "Qayta ishlatish mumkin bo‘lgan idish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_13",
-   "t": "choice",
-   "q": "Qayta ishlatishning foydasi nima?",
-   "a": "Resursni tejash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "reuse_45",
+   "t": "match",
+   "q": "Tabiiy va qayta ishlatiladigan materiallar: amaliy juftliklarni moslang.",
+   "x": "Toza plastik qopqoq — Mozaika uchun qayta ishlatiladigan detal; Qog‘oz qoldig‘i — Mayda bezak uchun tejaladigan material; Saralash — Turli chiqindilarni alohida yig‘ish; Qayta foydalanish — Buyumga yangi vazifa berish.",
+   "h": "Toza plastik qopqoq — Mozaika uchun qayta ishlatiladigan detal; Qog‘oz qoldig‘i — Mayda bezak uchun tejaladigan material; Saralash — Turli chiqindilarni alohida yig‘ish; Qayta foydalanish — Buyumga yangi vazifa berish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Toza plastik qopqoq",
+     "Mozaika uchun qayta ishlatiladigan detal"
+    ],
+    [
+     "Qog‘oz qoldig‘i",
+     "Mayda bezak uchun tejaladigan material"
+    ],
+    [
+     "Saralash",
+     "Turli chiqindilarni alohida yig‘ish"
+    ],
+    [
+     "Qayta foydalanish",
+     "Buyumga yangi vazifa berish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_14",
-   "t": "choice",
-   "q": "Elim qanday ishlatiladi?",
-   "a": "Kerakli miqdorda",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "reuse_46",
+   "t": "match",
+   "q": "Tabiiy va qayta ishlatiladigan materiallar: mavzuni mustahkamlashni moslang.",
+   "x": "Quruq barg — Tabiiy bezak materiali; Urug‘ — O‘simlikdan olinadigan tabiiy material; Quruq novda — Daraxtdan olinadigan tabiiy material; Toza karton quti — Qayta ishlatish mumkin bo‘lgan idish; Toza plastik qopqoq — Mozaika uchun qayta ishlatiladigan detal; Qog‘oz qoldig‘i — Mayda bezak uchun tejaladigan material; Saralash — Turli chiqindilarni alohida yig‘ish; Qayta foydalanish — Buyumga yangi vazifa berish.",
+   "h": "Quruq barg — Tabiiy bezak materiali; Urug‘ — O‘simlikdan olinadigan tabiiy material; Quruq novda — Daraxtdan olinadigan tabiiy material; Toza karton quti — Qayta ishlatish mumkin bo‘lgan idish; Toza plastik qopqoq — Mozaika uchun qayta ishlatiladigan detal; Qog‘oz qoldig‘i — Mayda bezak uchun tejaladigan material; Saralash — Turli chiqindilarni alohida yig‘ish; Qayta foydalanish — Buyumga yangi vazifa berish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Quruq barg",
+     "Tabiiy bezak materiali"
+    ],
+    [
+     "Urug‘",
+     "O‘simlikdan olinadigan tabiiy material"
+    ],
+    [
+     "Quruq novda",
+     "Daraxtdan olinadigan tabiiy material"
+    ],
+    [
+     "Toza karton quti",
+     "Qayta ishlatish mumkin bo‘lgan idish"
+    ],
+    [
+     "Toza plastik qopqoq",
+     "Mozaika uchun qayta ishlatiladigan detal"
+    ],
+    [
+     "Qog‘oz qoldig‘i",
+     "Mayda bezak uchun tejaladigan material"
+    ],
+    [
+     "Saralash",
+     "Turli chiqindilarni alohida yig‘ish"
+    ],
+    [
+     "Qayta foydalanish",
+     "Buyumga yangi vazifa berish"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.reuse",
-   "id": "reuse_15",
-   "t": "choice",
-   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
-   "a": "O‘qituvchidan so‘raysiz",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g3.project",
-   "id": "project_1",
-   "t": "choice",
-   "q": "Ishni boshlashdan oldin nima qilish kerak?",
-   "a": "Ish joyini tayyorlash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "id": "reuse_47",
+   "t": "sort",
+   "q": "Materiallarni kelib chiqishi bo‘yicha ajrating.",
+   "x": "Tabiiy: Barg, Urug‘, Novda; Odam tayyorlagan: Karton quti, Plastik qopqoq, Yopishqoq lenta.",
+   "h": "Tabiiy: Barg, Urug‘, Novda; Odam tayyorlagan: Karton quti, Plastik qopqoq, Yopishqoq lenta.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "bins": [
+    "Tabiiy",
+    "Odam tayyorlagan"
+   ],
+   "items": [
+    [
+     "Barg",
+     0
+    ],
+    [
+     "Urug‘",
+     0
+    ],
+    [
+     "Novda",
+     0
+    ],
+    [
+     "Karton quti",
+     1
+    ],
+    [
+     "Plastik qopqoq",
+     1
+    ],
+    [
+     "Yopishqoq lenta",
+     1
+    ]
+   ]
   },
   {
-   "topic": "technology_g3.project",
-   "id": "project_2",
-   "t": "choice",
-   "q": "Qaychini qanday uzatish xavfsiz?",
-   "a": "Yopiq holda dastasini oldinga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "topic": "technology_g3.reuse",
+   "id": "reuse_48",
+   "t": "sort",
+   "q": "Qayta foydalanish uchun yaroqli buyumlarni ajrating.",
+   "x": "Toza va butun: Toza karton quti, Yuvilgan butun qopqoq, Toza qog‘oz qoldig‘i; Yaroqsiz / kattaga berish: Singan shisha, Mog‘orlagan quti, O‘tkir zanglagan detal.",
+   "h": "Toza va butun: Toza karton quti, Yuvilgan butun qopqoq, Toza qog‘oz qoldig‘i; Yaroqsiz / kattaga berish: Singan shisha, Mog‘orlagan quti, O‘tkir zanglagan detal.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "bins": [
+    "Toza va butun",
+    "Yaroqsiz / kattaga berish"
+   ],
+   "items": [
+    [
+     "Toza karton quti",
+     0
+    ],
+    [
+     "Yuvilgan butun qopqoq",
+     0
+    ],
+    [
+     "Toza qog‘oz qoldig‘i",
+     0
+    ],
+    [
+     "Singan shisha",
+     1
+    ],
+    [
+     "Mog‘orlagan quti",
+     1
+    ],
+    [
+     "O‘tkir zanglagan detal",
+     1
+    ]
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_3",
+   "id": "project_49",
    "t": "choice",
-   "q": "O‘lchash uchun nima ishlatiladi?",
-   "a": "Chizg‘ich",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Maqsad» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Maqsad — buyum nima uchun kerakligini aniqlash.",
+   "h": "Maqsad — buyum nima uchun kerakligini aniqlash.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Buyum nima uchun kerakligini aniqlash",
+   "w": [
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish",
+    "Buyumning uzunlik va kenglik qiymati"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_4",
+   "id": "project_50",
    "t": "choice",
-   "q": "Materialni kesishdan avval nima foydali?",
-   "a": "Belgilash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Eskiz» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Eskiz — g‘oyaning oddiy chizmasi.",
+   "h": "Eskiz — g‘oyaning oddiy chizmasi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "G‘oyaning oddiy chizmasi",
+   "w": [
+    "Buyum nima uchun kerakligini aniqlash",
+    "Kerakli narsalarni oldindan yozish",
+    "Buyumning uzunlik va kenglik qiymati"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_5",
+   "id": "project_51",
    "t": "choice",
-   "q": "Ish tugagach nima qilinadi?",
-   "a": "Ish joyi yig‘ishtiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Material ro‘yxati» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Material ro‘yxati — kerakli narsalarni oldindan yozish.",
+   "h": "Material ro‘yxati — kerakli narsalarni oldindan yozish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Kerakli narsalarni oldindan yozish",
+   "w": [
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Buyumning uzunlik va kenglik qiymati"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_6",
+   "id": "project_52",
    "t": "choice",
-   "q": "Materialni tejash nimaga yordam beradi?",
-   "a": "Chiqindini kamaytirishga",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«O‘lcham» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "O‘lcham — buyumning uzunlik va kenglik qiymati.",
+   "h": "O‘lcham — buyumning uzunlik va kenglik qiymati.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Buyumning uzunlik va kenglik qiymati",
+   "w": [
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_7",
+   "id": "project_53",
    "t": "choice",
-   "q": "Andoza nima uchun kerak?",
-   "a": "Shaklni aniq ko‘chirish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Maket» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Maket — g‘oyani kichik modelda ko‘rsatish.",
+   "h": "Maket — g‘oyani kichik modelda ko‘rsatish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "G‘oyani kichik modelda ko‘rsatish",
+   "w": [
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_8",
+   "id": "project_54",
    "t": "choice",
-   "q": "Karton qog‘ozdan qanday farq qiladi?",
-   "a": "Odatda qalinroq",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Sinov» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sinov — buyum vazifasini bajarishini tekshirish.",
+   "h": "Sinov — buyum vazifasini bajarishini tekshirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Buyum vazifasini bajarishini tekshirish",
+   "w": [
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_9",
+   "id": "project_55",
    "t": "choice",
-   "q": "Loyiha nimadan boshlanadi?",
-   "a": "Maqsadni aniqlashdan",
+   "q": "«Yaxshilash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yaxshilash — topilgan kamchilikni tuzatish.",
+   "h": "Yaxshilash — topilgan kamchilikni tuzatish.",
+   "d": 1,
+   "a": "Topilgan kamchilikni tuzatish",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_10",
+   "id": "project_56",
    "t": "choice",
-   "q": "Eskiz nima?",
-   "a": "G‘oyaning dastlabki chizmasi",
+   "q": "«Taqdimot» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Taqdimot — tayyor ishni boshqalarga tushuntirish.",
+   "h": "Taqdimot — tayyor ishni boshqalarga tushuntirish.",
+   "d": 1,
+   "a": "Tayyor ishni boshqalarga tushuntirish",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "Buyum nima uchun kerakligini aniqlash",
+    "G‘oyaning oddiy chizmasi",
+    "Kerakli narsalarni oldindan yozish"
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_11",
-   "t": "choice",
-   "q": "Tayyor buyum bilan nima qilinadi?",
-   "a": "Tekshiriladi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "project_57",
+   "t": "order",
+   "q": "Qalamdon loyihasini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Nechta qalam sig‘ishini belgilash → Qalamdon eskizini chizish → Material va o‘lchamlarni tanlash → Yasash rejasini yozish.",
+   "h": "Nechta qalam sig‘ishini belgilash → Qalamdon eskizini chizish → Material va o‘lchamlarni tanlash → Yasash rejasini yozish.",
+   "d": 1,
+   "parts": [
+    "Nechta qalam sig‘ishini belgilash",
+    "Qalamdon eskizini chizish",
+    "Material va o‘lchamlarni tanlash",
+    "Yasash rejasini yozish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_12",
-   "t": "choice",
-   "q": "Xato topilsa nima qilinadi?",
-   "a": "Yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "project_58",
+   "t": "order",
+   "q": "Tayyor qalamdonni sinash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Qalamdonni tekis stolga qo‘yish → Unga rejalangan qalamlarni joylash → Ag‘darilish yoki egilishni kuzatish → Natijani yozib yaxshilash rejasini tuzish.",
+   "h": "Qalamdonni tekis stolga qo‘yish → Unga rejalangan qalamlarni joylash → Ag‘darilish yoki egilishni kuzatish → Natijani yozib yaxshilash rejasini tuzish.",
+   "d": 1,
+   "parts": [
+    "Qalamdonni tekis stolga qo‘yish",
+    "Unga rejalangan qalamlarni joylash",
+    "Ag‘darilish yoki egilishni kuzatish",
+    "Natijani yozib yaxshilash rejasini tuzish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_13",
-   "t": "choice",
-   "q": "Qayta ishlatishning foydasi nima?",
-   "a": "Resursni tejash",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "project_59",
+   "t": "order",
+   "q": "Qalamdon tagligini yaxshilash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Taglik egilganini aniqlash → Qalinroq karton tanlash → Yangi taglikni mahkamlash → Qalamlar bilan qayta sinash.",
+   "h": "Taglik egilganini aniqlash → Qalinroq karton tanlash → Yangi taglikni mahkamlash → Qalamlar bilan qayta sinash.",
+   "d": 1,
+   "parts": [
+    "Taglik egilganini aniqlash",
+    "Qalinroq karton tanlash",
+    "Yangi taglikni mahkamlash",
+    "Qalamlar bilan qayta sinash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_14",
-   "t": "choice",
-   "q": "Elim qanday ishlatiladi?",
-   "a": "Kerakli miqdorda",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "project_60",
+   "t": "match",
+   "q": "Oddiy loyiha va maket: asosiy juftliklarni moslang.",
+   "x": "Maqsad — Buyum nima uchun kerakligini aniqlash; Eskiz — G‘oyaning oddiy chizmasi; Material ro‘yxati — Kerakli narsalarni oldindan yozish; O‘lcham — Buyumning uzunlik va kenglik qiymati.",
+   "h": "Maqsad — Buyum nima uchun kerakligini aniqlash; Eskiz — G‘oyaning oddiy chizmasi; Material ro‘yxati — Kerakli narsalarni oldindan yozish; O‘lcham — Buyumning uzunlik va kenglik qiymati.",
+   "d": 1,
+   "pairs": [
+    [
+     "Maqsad",
+     "Buyum nima uchun kerakligini aniqlash"
+    ],
+    [
+     "Eskiz",
+     "G‘oyaning oddiy chizmasi"
+    ],
+    [
+     "Material ro‘yxati",
+     "Kerakli narsalarni oldindan yozish"
+    ],
+    [
+     "O‘lcham",
+     "Buyumning uzunlik va kenglik qiymati"
+    ]
+   ]
   },
   {
    "topic": "technology_g3.project",
-   "id": "project_15",
-   "t": "choice",
-   "q": "Xavfsizlik qoidasini bilmasangiz nima qilasiz?",
-   "a": "O‘qituvchidan so‘raysiz",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "project_61",
+   "t": "match",
+   "q": "Oddiy loyiha va maket: amaliy juftliklarni moslang.",
+   "x": "Maket — G‘oyani kichik modelda ko‘rsatish; Sinov — Buyum vazifasini bajarishini tekshirish; Yaxshilash — Topilgan kamchilikni tuzatish; Taqdimot — Tayyor ishni boshqalarga tushuntirish.",
+   "h": "Maket — G‘oyani kichik modelda ko‘rsatish; Sinov — Buyum vazifasini bajarishini tekshirish; Yaxshilash — Topilgan kamchilikni tuzatish; Taqdimot — Tayyor ishni boshqalarga tushuntirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Maket",
+     "G‘oyani kichik modelda ko‘rsatish"
+    ],
+    [
+     "Sinov",
+     "Buyum vazifasini bajarishini tekshirish"
+    ],
+    [
+     "Yaxshilash",
+     "Topilgan kamchilikni tuzatish"
+    ],
+    [
+     "Taqdimot",
+     "Tayyor ishni boshqalarga tushuntirish"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_62",
+   "t": "match",
+   "q": "Oddiy loyiha va maket: mavzuni mustahkamlashni moslang.",
+   "x": "Maqsad — Buyum nima uchun kerakligini aniqlash; Eskiz — G‘oyaning oddiy chizmasi; Material ro‘yxati — Kerakli narsalarni oldindan yozish; O‘lcham — Buyumning uzunlik va kenglik qiymati; Maket — G‘oyani kichik modelda ko‘rsatish; Sinov — Buyum vazifasini bajarishini tekshirish; Yaxshilash — Topilgan kamchilikni tuzatish; Taqdimot — Tayyor ishni boshqalarga tushuntirish.",
+   "h": "Maqsad — Buyum nima uchun kerakligini aniqlash; Eskiz — G‘oyaning oddiy chizmasi; Material ro‘yxati — Kerakli narsalarni oldindan yozish; O‘lcham — Buyumning uzunlik va kenglik qiymati; Maket — G‘oyani kichik modelda ko‘rsatish; Sinov — Buyum vazifasini bajarishini tekshirish; Yaxshilash — Topilgan kamchilikni tuzatish; Taqdimot — Tayyor ishni boshqalarga tushuntirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Maqsad",
+     "Buyum nima uchun kerakligini aniqlash"
+    ],
+    [
+     "Eskiz",
+     "G‘oyaning oddiy chizmasi"
+    ],
+    [
+     "Material ro‘yxati",
+     "Kerakli narsalarni oldindan yozish"
+    ],
+    [
+     "O‘lcham",
+     "Buyumning uzunlik va kenglik qiymati"
+    ],
+    [
+     "Maket",
+     "G‘oyani kichik modelda ko‘rsatish"
+    ],
+    [
+     "Sinov",
+     "Buyum vazifasini bajarishini tekshirish"
+    ],
+    [
+     "Yaxshilash",
+     "Topilgan kamchilikni tuzatish"
+    ],
+    [
+     "Taqdimot",
+     "Tayyor ishni boshqalarga tushuntirish"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_63",
+   "t": "sort",
+   "q": "Loyiha ishlarini yasashdan oldin va keyin bajarilishiga qarab ajrating.",
+   "x": "Yasashdan oldin: Maqsadni belgilash, Eskiz chizish, Materialni tanlash; Yasashdan keyin: Tayyor buyumni sinash, Sinov natijasini yozish, Tayyor ishni taqdim qilish.",
+   "h": "Yasashdan oldin: Maqsadni belgilash, Eskiz chizish, Materialni tanlash; Yasashdan keyin: Tayyor buyumni sinash, Sinov natijasini yozish, Tayyor ishni taqdim qilish.",
+   "d": 1,
+   "bins": [
+    "Yasashdan oldin",
+    "Yasashdan keyin"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "items": [
+    [
+     "Maqsadni belgilash",
+     0
+    ],
+    [
+     "Eskiz chizish",
+     0
+    ],
+    [
+     "Materialni tanlash",
+     0
+    ],
+    [
+     "Tayyor buyumni sinash",
+     1
+    ],
+    [
+     "Sinov natijasini yozish",
+     1
+    ],
+    [
+     "Tayyor ishni taqdim qilish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.project",
+   "id": "project_64",
+   "t": "sort",
+   "q": "Qalamdon sinovi natijalarini ajrating.",
+   "x": "Vazifaga mos: Qalamlar sig‘di, Stolda barqaror turdi, Biriktirilgan joylar ochilmadi; Yaxshilash kerak: Qalamlar sig‘madi, Taglik ag‘darildi, Elimlangan joy ajraldi.",
+   "h": "Vazifaga mos: Qalamlar sig‘di, Stolda barqaror turdi, Biriktirilgan joylar ochilmadi; Yaxshilash kerak: Qalamlar sig‘madi, Taglik ag‘darildi, Elimlangan joy ajraldi.",
+   "d": 1,
+   "bins": [
+    "Vazifaga mos",
+    "Yaxshilash kerak"
+   ],
+   "items": [
+    [
+     "Qalamlar sig‘di",
+     0
+    ],
+    [
+     "Stolda barqaror turdi",
+     0
+    ],
+    [
+     "Biriktirilgan joylar ochilmadi",
+     0
+    ],
+    [
+     "Qalamlar sig‘madi",
+     1
+    ],
+    [
+     "Taglik ag‘darildi",
+     1
+    ],
+    [
+     "Elimlangan joy ajraldi",
+     1
+    ]
+   ]
   }
  ]
 }

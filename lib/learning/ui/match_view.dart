@@ -97,6 +97,7 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
       state: color != null ? OptionState.done : (selected ? OptionState.selected : (wrong ? OptionState.wrong : OptionState.idle)),
       onTap: onTap,
       compact: true,
+      wrapText: widget.exercise.subject == 'technology',
     );
     return Padding(
       padding: const EdgeInsets.all(5),
@@ -118,7 +119,7 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
   @override
   Widget build(BuildContext context) {
     final n = pairs.length;
-    return Row(
+    final row = Row(
       children: [
         Expanded(
           child: Column(
@@ -163,5 +164,8 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
         ),
       ],
     );
+    return widget.exercise.subject == 'technology'
+      ? SingleChildScrollView(child: SizedBox(height: n * 130.0, child: row))
+      : row;
   }
 }

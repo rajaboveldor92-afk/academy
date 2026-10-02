@@ -15,8 +15,8 @@
    "emoji": "📐",
    "title": {
     "uz": "Dizayn jarayoni va xavfsizlik",
-    "en": "Dizayn jarayoni va xavfsizlik",
-    "ru": "Dizayn jarayoni va xavfsizlik"
+    "en": "Design process and safety",
+    "ru": "Проектирование и безопасность"
    },
    "generator": "bank",
    "skill": "bank",
@@ -36,6 +36,38 @@
    "theory": {
     "uz": "Texnologik loyiha muammoni aniqlashdan boshlanadi. Talablar belgilanadi, g‘oyalar eskizda ko‘rsatiladi, o‘lchamlar yoziladi. Mahsulot sinovdan o‘tkazilib, natijaga ko‘ra takomillashtiriladi."
    }
+  },
+  {
+   "id": "technology_g5.design_workshop",
+   "code": "1A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Dizayn jarayoni va xavfsizlik",
+    "en": "Workshop: Design process and safety",
+    "ru": "Практикум: Проектирование и безопасность"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.design",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.design",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.design",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Texnologik loyiha muammoni aniqlashdan boshlanadi. Talablar belgilanadi, g‘oyalar eskizda ko‘rsatiladi, o‘lchamlar yoziladi. Mahsulot sinovdan o‘tkazilib, natijaga ko‘ra takomillashtiriladi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g5.test1",
@@ -78,8 +110,8 @@
    "emoji": "🪵",
    "title": {
     "uz": "Materiallar xossalari va asboblar",
-    "en": "Materiallar xossalari va asboblar",
-    "ru": "Materiallar xossalari va asboblar"
+    "en": "Material properties and tools",
+    "ru": "Свойства материалов и инструменты"
    },
    "generator": "bank",
    "skill": "bank",
@@ -99,6 +131,38 @@
    "theory": {
     "uz": "Qog‘oz, karton, yog‘och, mato, plastmassa va metallning xossalari turlicha. Material vazifaga ko‘ra tanlanadi; mustahkamlik, egiluvchanlik, og‘irlik va namlikka chidamlilik hisobga olinadi."
    }
+  },
+  {
+   "id": "technology_g5.materials_workshop",
+   "code": "2A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Materiallar xossalari va asboblar",
+    "en": "Workshop: Material properties and tools",
+    "ru": "Практикум: Свойства материалов и инструменты"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.materials",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.materials",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.materials",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Qog‘oz, karton, yog‘och, mato, plastmassa va metallning xossalari turlicha. Material vazifaga ko‘ra tanlanadi; mustahkamlik, egiluvchanlik, og‘irlik va namlikka chidamlilik hisobga olinadi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g5.test2",
@@ -141,8 +205,8 @@
    "emoji": "⚙️",
    "title": {
     "uz": "Oddiy mexanizmlar va elektr zanjiri",
-    "en": "Oddiy mexanizmlar va elektr zanjiri",
-    "ru": "Oddiy mexanizmlar va elektr zanjiri"
+    "en": "Simple mechanisms and electric circuits",
+    "ru": "Простые механизмы и электрические цепи"
    },
    "generator": "bank",
    "skill": "bank",
@@ -160,8 +224,40 @@
     }
    ],
    "theory": {
-    "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi."
+    "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi. Ilovadagi tajriba virtual: lampochka faqat ikkala sim ulangan va kalit yopiq bo‘lganda yonadi."
    }
+  },
+  {
+   "id": "technology_g5.mechanisms_workshop",
+   "code": "3A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Oddiy mexanizmlar va elektr zanjiri",
+    "en": "Workshop: Simple mechanisms and electric circuits",
+    "ru": "Практикум: Простые механизмы и электрические цепи"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.mechanisms",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.mechanisms",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.mechanisms",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi. Ilovadagi tajriba virtual: lampochka faqat ikkala sim ulangan va kalit yopiq bo‘lganda yonadi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g5.test3",
@@ -204,8 +300,8 @@
    "emoji": "🧩",
    "title": {
     "uz": "Prototip, algoritm va taqdimot",
-    "en": "Prototip, algoritm va taqdimot",
-    "ru": "Prototip, algoritm va taqdimot"
+    "en": "Prototypes, algorithms and presentations",
+    "ru": "Прототипы, алгоритмы и презентации"
    },
    "generator": "bank",
    "skill": "bank",
@@ -225,6 +321,38 @@
    "theory": {
     "uz": "Algoritm — aniq qadamlar ketma-ketligi. Prototip g‘oyani erta sinashga yordam beradi. Loyiha hujjatida maqsad, eskiz, material, ketma-ketlik, sinov natijasi va yaxshilashlar qayd etiladi."
    }
+  },
+  {
+   "id": "technology_g5.prototype_workshop",
+   "code": "4A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Prototip, algoritm va taqdimot",
+    "en": "Workshop: Prototypes, algorithms and presentations",
+    "ru": "Практикум: Прототипы, алгоритмы и презентации"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.prototype",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.prototype",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.prototype",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Algoritm — aniq qadamlar ketma-ketligi. Prototip g‘oyani erta sinashga yordam beradi. Loyiha hujjatida maqsad, eskiz, material, ketma-ketlik, sinov natijasi va yaxshilashlar qayd etiladi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g5.test4",

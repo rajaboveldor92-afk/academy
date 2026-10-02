@@ -25,6 +25,7 @@ class SchoolGenerators {
         for (final e in MentalGen.generators.entries) 'school.mental.${e.key}': e.value,
         for (final e in LogicSchool.generators.entries) 'school.logic.${e.key}': e.value,
         'school.bank': BankGen.bank,
+        'school.technology.workshop': BankGen.workshop,
         'school.logic.rule_sequence': SchoolPractice.sequence,
         'school.logic.ordering': SchoolPractice.ordering,
         'school.logic.set_count': SchoolPractice.sets,
