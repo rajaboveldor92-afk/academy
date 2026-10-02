@@ -36,11 +36,30 @@ class BankGen {
     final all = g.content.banks[g.topic.id] ?? const <Map<String, dynamic>>[];
     if (all.isEmpty) throw StateError('${g.topic.id}: savollar banki bo‘sh');
     final item = g.pick(poolFor(all, g.level));
+    return fromItem(g, item);
+  }
+
+  /// A dedicated workshop never randomly falls back to a multiple-choice quiz.
+  static Exercise workshop(GenContext g) {
+    final source = g.ps('source', '');
+    final items = g.content.banks[source] ?? const <Map<String, dynamic>>[];
+    final pool = items
+        .where(
+          (i) => const ['order', 'match', 'sort', 'circuit'].contains(i['t']),
+        )
+        .toList();
+    if (pool.isEmpty) throw StateError('$source: amaliy mashqlar yo‘q');
+    return fromItem(g, g.pick(poolFor(pool, g.level)));
+  }
+
+  static Exercise fromItem(GenContext g, Map<String, dynamic> item) {
     if (item.containsKey('question')) return SchoolPractice.bankItem(g, item);
     return switch (item['t']?.toString() ?? 'choice') {
       'tf' => _trueFalse(g, item),
       'order' => _order(g, item),
       'match' => _match(g, item),
+      'sort' => _sort(g, item),
+      'circuit' => _circuit(g, item),
       _ => _choice(g, item),
     };
   }
@@ -156,4 +175,39 @@ class BankGen {
       meta: {'pairs': chosen.map((p) => '${p.$1}=${p.$2}').join(','), 'bankId': '${item['id']}'},
     );
   }
+  static Exercise _sort(GenContext g, Map<String, dynamic> item) {
+    final bins = _list(item, 'bins');
+    final rows = g.sample(
+      (item['items'] as List).cast<List>(),
+      g.level <= 1 ? 4 : 6,
+    );
+    return g.custom(
+      say: _say(g, item, _s(item, 'q')!),
+      kind: ExerciseKind.sort,
+      concept: _concept(g, item),
+      sort: SortTask(
+        bins: bins.map(Opt.text).toList(),
+        items: [for (final row in rows) Opt.text(row[0].toString())],
+        itemBins: [for (final row in rows) (row[1] as num).toInt()],
+      ),
+      hint: _s(item, 'h'),
+      explanation: _s(item, 'x'),
+      meta: {'bankId': '${item['id']}'},
+    );
+  }
+
+  static Exercise _circuit(GenContext g, Map<String, dynamic> item) => g.custom(
+    say: _say(g, item, _s(item, 'q')!),
+    kind: ExerciseKind.circuit,
+    concept: _concept(g, item),
+    circuit: CircuitTask(
+      targetLit: item['targetLit'] == true,
+      wireA: item['wireA'] == true,
+      wireB: item['wireB'] == true,
+      switchClosed: item['switchClosed'] == true,
+    ),
+    hint: _s(item, 'h'),
+    explanation: _s(item, 'x'),
+    meta: {'bankId': '${item['id']}'},
+  );
 }

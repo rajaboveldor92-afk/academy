@@ -4,841 +4,1438 @@
    "topic": "technology_g5.design",
    "id": "design_1",
    "t": "choice",
-   "q": "Dizayn jarayoni nimadan boshlanadi?",
-   "a": "Muammoni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Muammo» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Muammo — yechilishi kerak bo‘lgan ehtiyoj.",
+   "h": "Muammo — yechilishi kerak bo‘lgan ehtiyoj.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Yechilishi kerak bo‘lgan ehtiyoj",
+   "w": [
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi",
+    "Detallar kattaligini ko‘rsatish"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_2",
    "t": "choice",
-   "q": "Talablar nima uchun kerak?",
-   "a": "Yechimni baholash uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Talab» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Talab — mahsulot bajarishi kerak bo‘lgan shart.",
+   "h": "Talab — mahsulot bajarishi kerak bo‘lgan shart.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Mahsulot bajarishi kerak bo‘lgan shart",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "G‘oya va shaklning chizmasi",
+    "Detallar kattaligini ko‘rsatish"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_3",
    "t": "choice",
-   "q": "Eskiz nima uchun kerak?",
-   "a": "G‘oyani ko‘rsatish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Eskiz» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Eskiz — g‘oya va shaklning chizmasi.",
+   "h": "Eskiz — g‘oya va shaklning chizmasi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "G‘oya va shaklning chizmasi",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "Detallar kattaligini ko‘rsatish"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_4",
    "t": "choice",
-   "q": "Prototip nima?",
-   "a": "G‘oyani sinash namunasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«O‘lcham yozuvi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "O‘lcham yozuvi — detallar kattaligini ko‘rsatish.",
+   "h": "O‘lcham yozuvi — detallar kattaligini ko‘rsatish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Detallar kattaligini ko‘rsatish",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_5",
    "t": "choice",
-   "q": "Sinovdan keyin nima qilinadi?",
-   "a": "Natijaga ko‘ra yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Prototip» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Prototip — g‘oyani sinash uchun dastlabki model.",
+   "h": "Prototip — g‘oyani sinash uchun dastlabki model.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "G‘oyani sinash uchun dastlabki model",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_6",
    "t": "choice",
-   "q": "Material qanday tanlanadi?",
-   "a": "Vazifasi va xossasiga ko‘ra",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Sinov mezoni» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sinov mezoni — natijani baholash uchun oldindan belgilangan o‘lchov.",
+   "h": "Sinov mezoni — natijani baholash uchun oldindan belgilangan o‘lchov.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Natijani baholash uchun oldindan belgilangan o‘lchov",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_7",
    "t": "choice",
-   "q": "Mustahkamlik nimani bildiradi?",
-   "a": "Yukka bardosh berishni",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Takomillashtirish» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Takomillashtirish — sinovga ko‘ra loyihani tuzatish.",
+   "h": "Takomillashtirish — sinovga ko‘ra loyihani tuzatish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Sinovga ko‘ra loyihani tuzatish",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_8",
    "t": "choice",
-   "q": "Richag nima qiladi?",
-   "a": "Kuchni qulay uzatadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Xavfsizlik rejasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Xavfsizlik rejasi — ishdagi xavflarni oldindan kamaytirish.",
+   "h": "Xavfsizlik rejasi — ishdagi xavflarni oldindan kamaytirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Ishdagi xavflarni oldindan kamaytirish",
+   "w": [
+    "Yechilishi kerak bo‘lgan ehtiyoj",
+    "Mahsulot bajarishi kerak bo‘lgan shart",
+    "G‘oya va shaklning chizmasi"
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_9",
-   "t": "choice",
-   "q": "Tishli uzatma nima uzatadi?",
-   "a": "Aylanish harakatini",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Telefon tagligi dizaynini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Ehtiyojni aniqlash → Barqarorlik va o‘lcham talablarini yozish → Bir nechta eskiz chizish → Talabga mos g‘oyani tanlash.",
+   "h": "Ehtiyojni aniqlash → Barqarorlik va o‘lcham talablarini yozish → Bir nechta eskiz chizish → Talabga mos g‘oyani tanlash.",
+   "d": 1,
+   "parts": [
+    "Ehtiyojni aniqlash",
+    "Barqarorlik va o‘lcham talablarini yozish",
+    "Bir nechta eskiz chizish",
+    "Talabga mos g‘oyani tanlash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g5.design",
    "id": "design_10",
-   "t": "choice",
-   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
-   "a": "Batareya",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Taglik prototipini tekshirish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Barqarorlik mezonini belgilash → Karton prototipni yasash → Telefon o‘lchamidagi yengil maket bilan sinash → Natijani mezon bilan solishtirish.",
+   "h": "Barqarorlik mezonini belgilash → Karton prototipni yasash → Telefon o‘lchamidagi yengil maket bilan sinash → Natijani mezon bilan solishtirish.",
+   "d": 1,
+   "parts": [
+    "Barqarorlik mezonini belgilash",
+    "Karton prototipni yasash",
+    "Telefon o‘lchamidagi yengil maket bilan sinash",
+    "Natijani mezon bilan solishtirish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g5.design",
    "id": "design_11",
-   "t": "choice",
-   "q": "Kalitning vazifasi nima?",
-   "a": "Zanjirni ochib-yopish",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "t": "order",
+   "q": "Dizaynni yaxshilash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Sinovdagi kamchilikni yozish → Kamchilik sababini aniqlash → Eskiz va prototipni o‘zgartirish → Bir xil sharoitda qayta sinash.",
+   "h": "Sinovdagi kamchilikni yozish → Kamchilik sababini aniqlash → Eskiz va prototipni o‘zgartirish → Bir xil sharoitda qayta sinash.",
+   "d": 1,
+   "parts": [
+    "Sinovdagi kamchilikni yozish",
+    "Kamchilik sababini aniqlash",
+    "Eskiz va prototipni o‘zgartirish",
+    "Bir xil sharoitda qayta sinash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g5.design",
    "id": "design_12",
-   "t": "choice",
-   "q": "Algoritm nima?",
-   "a": "Aniq qadamlar ketma-ketligi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Dizayn jarayoni va xavfsizlik: asosiy juftliklarni moslang.",
+   "x": "Muammo — Yechilishi kerak bo‘lgan ehtiyoj; Talab — Mahsulot bajarishi kerak bo‘lgan shart; Eskiz — G‘oya va shaklning chizmasi; O‘lcham yozuvi — Detallar kattaligini ko‘rsatish.",
+   "h": "Muammo — Yechilishi kerak bo‘lgan ehtiyoj; Talab — Mahsulot bajarishi kerak bo‘lgan shart; Eskiz — G‘oya va shaklning chizmasi; O‘lcham yozuvi — Detallar kattaligini ko‘rsatish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Muammo",
+     "Yechilishi kerak bo‘lgan ehtiyoj"
+    ],
+    [
+     "Talab",
+     "Mahsulot bajarishi kerak bo‘lgan shart"
+    ],
+    [
+     "Eskiz",
+     "G‘oya va shaklning chizmasi"
+    ],
+    [
+     "O‘lcham yozuvi",
+     "Detallar kattaligini ko‘rsatish"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_13",
-   "t": "choice",
-   "q": "Loyiha hujjati nima uchun kerak?",
-   "a": "Jarayonni qayd etish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Dizayn jarayoni va xavfsizlik: amaliy juftliklarni moslang.",
+   "x": "Prototip — G‘oyani sinash uchun dastlabki model; Sinov mezoni — Natijani baholash uchun oldindan belgilangan o‘lchov; Takomillashtirish — Sinovga ko‘ra loyihani tuzatish; Xavfsizlik rejasi — Ishdagi xavflarni oldindan kamaytirish.",
+   "h": "Prototip — G‘oyani sinash uchun dastlabki model; Sinov mezoni — Natijani baholash uchun oldindan belgilangan o‘lchov; Takomillashtirish — Sinovga ko‘ra loyihani tuzatish; Xavfsizlik rejasi — Ishdagi xavflarni oldindan kamaytirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Prototip",
+     "G‘oyani sinash uchun dastlabki model"
+    ],
+    [
+     "Sinov mezoni",
+     "Natijani baholash uchun oldindan belgilangan o‘lchov"
+    ],
+    [
+     "Takomillashtirish",
+     "Sinovga ko‘ra loyihani tuzatish"
+    ],
+    [
+     "Xavfsizlik rejasi",
+     "Ishdagi xavflarni oldindan kamaytirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_14",
-   "t": "choice",
-   "q": "Taqdimotda nima tushuntiriladi?",
-   "a": "Muammo, yechim va natija",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "t": "match",
+   "q": "Dizayn jarayoni va xavfsizlik: mavzuni mustahkamlashni moslang.",
+   "x": "Muammo — Yechilishi kerak bo‘lgan ehtiyoj; Talab — Mahsulot bajarishi kerak bo‘lgan shart; Eskiz — G‘oya va shaklning chizmasi; O‘lcham yozuvi — Detallar kattaligini ko‘rsatish; Prototip — G‘oyani sinash uchun dastlabki model; Sinov mezoni — Natijani baholash uchun oldindan belgilangan o‘lchov; Takomillashtirish — Sinovga ko‘ra loyihani tuzatish; Xavfsizlik rejasi — Ishdagi xavflarni oldindan kamaytirish.",
+   "h": "Muammo — Yechilishi kerak bo‘lgan ehtiyoj; Talab — Mahsulot bajarishi kerak bo‘lgan shart; Eskiz — G‘oya va shaklning chizmasi; O‘lcham yozuvi — Detallar kattaligini ko‘rsatish; Prototip — G‘oyani sinash uchun dastlabki model; Sinov mezoni — Natijani baholash uchun oldindan belgilangan o‘lchov; Takomillashtirish — Sinovga ko‘ra loyihani tuzatish; Xavfsizlik rejasi — Ishdagi xavflarni oldindan kamaytirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Muammo",
+     "Yechilishi kerak bo‘lgan ehtiyoj"
+    ],
+    [
+     "Talab",
+     "Mahsulot bajarishi kerak bo‘lgan shart"
+    ],
+    [
+     "Eskiz",
+     "G‘oya va shaklning chizmasi"
+    ],
+    [
+     "O‘lcham yozuvi",
+     "Detallar kattaligini ko‘rsatish"
+    ],
+    [
+     "Prototip",
+     "G‘oyani sinash uchun dastlabki model"
+    ],
+    [
+     "Sinov mezoni",
+     "Natijani baholash uchun oldindan belgilangan o‘lchov"
+    ],
+    [
+     "Takomillashtirish",
+     "Sinovga ko‘ra loyihani tuzatish"
+    ],
+    [
+     "Xavfsizlik rejasi",
+     "Ishdagi xavflarni oldindan kamaytirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.design",
    "id": "design_15",
-   "t": "choice",
-   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
-   "a": "Yo‘q, xavfli",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.materials",
-   "id": "materials_1",
-   "t": "choice",
-   "q": "Dizayn jarayoni nimadan boshlanadi?",
-   "a": "Muammoni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "t": "sort",
+   "q": "Talab va yechimni ajrating.",
+   "x": "Talab: Stolda ag‘darilmasin, Qalamlar sig‘sin, Qayta ishlatilgan material bo‘lsin; Yechim: Taglikni kengaytirish, Ichiga bo‘luvchi qo‘yish, Toza eski qutidan yasash.",
+   "h": "Talab: Stolda ag‘darilmasin, Qalamlar sig‘sin, Qayta ishlatilgan material bo‘lsin; Yechim: Taglikni kengaytirish, Ichiga bo‘luvchi qo‘yish, Toza eski qutidan yasash.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "bins": [
+    "Talab",
+    "Yechim"
+   ],
+   "items": [
+    [
+     "Stolda ag‘darilmasin",
+     0
+    ],
+    [
+     "Qalamlar sig‘sin",
+     0
+    ],
+    [
+     "Qayta ishlatilgan material bo‘lsin",
+     0
+    ],
+    [
+     "Taglikni kengaytirish",
+     1
+    ],
+    [
+     "Ichiga bo‘luvchi qo‘yish",
+     1
+    ],
+    [
+     "Toza eski qutidan yasash",
+     1
+    ]
+   ]
   },
   {
-   "topic": "technology_g5.materials",
-   "id": "materials_2",
-   "t": "choice",
-   "q": "Talablar nima uchun kerak?",
-   "a": "Yechimni baholash uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "topic": "technology_g5.design",
+   "id": "design_16",
+   "t": "sort",
+   "q": "Ishlarni rejalash va sinov bosqichiga ajrating.",
+   "x": "Rejalash: Talablarni yozish, Eskiz chizish, Material ro‘yxatini tuzish; Sinov: Prototip barqarorligini tekshirish, Natijani qayd qilish, Natijani talab bilan solishtirish.",
+   "h": "Rejalash: Talablarni yozish, Eskiz chizish, Material ro‘yxatini tuzish; Sinov: Prototip barqarorligini tekshirish, Natijani qayd qilish, Natijani talab bilan solishtirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "bins": [
+    "Rejalash",
+    "Sinov"
+   ],
+   "items": [
+    [
+     "Talablarni yozish",
+     0
+    ],
+    [
+     "Eskiz chizish",
+     0
+    ],
+    [
+     "Material ro‘yxatini tuzish",
+     0
+    ],
+    [
+     "Prototip barqarorligini tekshirish",
+     1
+    ],
+    [
+     "Natijani qayd qilish",
+     1
+    ],
+    [
+     "Natijani talab bilan solishtirish",
+     1
+    ]
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_3",
+   "id": "materials_17",
    "t": "choice",
-   "q": "Eskiz nima uchun kerak?",
-   "a": "G‘oyani ko‘rsatish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Karton» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Karton — yengil va oson kesiladigan quruq maket materiali.",
+   "h": "Karton — yengil va oson kesiladigan quruq maket materiali.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Yengil va oson kesiladigan quruq maket materiali",
+   "w": [
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material",
+    "Ko‘p turlari suvni shimimaydigan material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_4",
+   "id": "materials_18",
    "t": "choice",
-   "q": "Prototip nima?",
-   "a": "G‘oyani sinash namunasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Mato» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Mato — egiluvchan va tikiladigan material.",
+   "h": "Mato — egiluvchan va tikiladigan material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Egiluvchan va tikiladigan material",
+   "w": [
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Tolali tuzilishga ega qattiq material",
+    "Ko‘p turlari suvni shimimaydigan material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_5",
+   "id": "materials_19",
    "t": "choice",
-   "q": "Sinovdan keyin nima qilinadi?",
-   "a": "Natijaga ko‘ra yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Yog‘och» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yog‘och — tolali tuzilishga ega qattiq material.",
+   "h": "Yog‘och — tolali tuzilishga ega qattiq material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Tolali tuzilishga ega qattiq material",
+   "w": [
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Ko‘p turlari suvni shimimaydigan material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_6",
+   "id": "materials_20",
    "t": "choice",
-   "q": "Material qanday tanlanadi?",
-   "a": "Vazifasi va xossasiga ko‘ra",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Plastmassa» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Plastmassa — ko‘p turlari suvni shimimaydigan material.",
+   "h": "Plastmassa — ko‘p turlari suvni shimimaydigan material.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Ko‘p turlari suvni shimimaydigan material",
+   "w": [
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_7",
+   "id": "materials_21",
    "t": "choice",
-   "q": "Mustahkamlik nimani bildiradi?",
-   "a": "Yukka bardosh berishni",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Po‘lat» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Po‘lat — mustahkam, temir asosli metall qotishma.",
+   "h": "Po‘lat — mustahkam, temir asosli metall qotishma.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Mustahkam, temir asosli metall qotishma",
+   "w": [
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_8",
+   "id": "materials_22",
    "t": "choice",
-   "q": "Richag nima qiladi?",
-   "a": "Kuchni qulay uzatadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Chizg‘ich» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chizg‘ich — uzunlikni o‘lchash asbobi.",
+   "h": "Chizg‘ich — uzunlikni o‘lchash asbobi.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.materials",
-   "id": "materials_9",
-   "t": "choice",
-   "q": "Tishli uzatma nima uzatadi?",
-   "a": "Aylanish harakatini",
+   "a": "Uzunlikni o‘lchash asbobi",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_10",
+   "id": "materials_23",
    "t": "choice",
-   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
-   "a": "Batareya",
+   "q": "«Qaychi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qaychi — qog‘oz yoki matoni kesish asbobi.",
+   "h": "Qaychi — qog‘oz yoki matoni kesish asbobi.",
+   "d": 1,
+   "a": "Qog‘oz yoki matoni kesish asbobi",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_11",
+   "id": "materials_24",
    "t": "choice",
-   "q": "Kalitning vazifasi nima?",
-   "a": "Zanjirni ochib-yopish",
+   "q": "«Jilvir qog‘oz» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Jilvir qog‘oz — yuzani silliqlash materiali.",
+   "h": "Jilvir qog‘oz — yuzani silliqlash materiali.",
+   "d": 1,
+   "a": "Yuzani silliqlash materiali",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "Yengil va oson kesiladigan quruq maket materiali",
+    "Egiluvchan va tikiladigan material",
+    "Tolali tuzilishga ega qattiq material"
+   ]
   },
   {
    "topic": "technology_g5.materials",
-   "id": "materials_12",
+   "id": "materials_25",
+   "t": "order",
+   "q": "Quruq maket uchun material tanlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Maket vazifasini aniqlash → Kerakli material xossalarini yozish → Mavjud materiallarni solishtirish → Mos materialni tanlash.",
+   "h": "Maket vazifasini aniqlash → Kerakli material xossalarini yozish → Mavjud materiallarni solishtirish → Mos materialni tanlash.",
+   "d": 1,
+   "parts": [
+    "Maket vazifasini aniqlash",
+    "Kerakli material xossalarini yozish",
+    "Mavjud materiallarni solishtirish",
+    "Mos materialni tanlash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_26",
+   "t": "order",
+   "q": "Karton detalni aniq tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Detal o‘lchamini o‘qish → Chizg‘ich bilan kartonga belgilash → Belgi bo‘ylab ehtiyotkor kesish → Detal o‘lchamini qayta tekshirish.",
+   "h": "Detal o‘lchamini o‘qish → Chizg‘ich bilan kartonga belgilash → Belgi bo‘ylab ehtiyotkor kesish → Detal o‘lchamini qayta tekshirish.",
+   "d": 1,
+   "parts": [
+    "Detal o‘lchamini o‘qish",
+    "Chizg‘ich bilan kartonga belgilash",
+    "Belgi bo‘ylab ehtiyotkor kesish",
+    "Detal o‘lchamini qayta tekshirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_27",
+   "t": "order",
+   "q": "Materiallarni bir xil sharoitda solishtirish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Bir xil o‘lchamli namunalar tayyorlash → Har namunaga bir xil kichik yuk qo‘yish → Egilishni kuzatib yozish → Natijaga mos materialni tanlash.",
+   "h": "Bir xil o‘lchamli namunalar tayyorlash → Har namunaga bir xil kichik yuk qo‘yish → Egilishni kuzatib yozish → Natijaga mos materialni tanlash.",
+   "d": 1,
+   "parts": [
+    "Bir xil o‘lchamli namunalar tayyorlash",
+    "Har namunaga bir xil kichik yuk qo‘yish",
+    "Egilishni kuzatib yozish",
+    "Natijaga mos materialni tanlash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_28",
+   "t": "match",
+   "q": "Materiallar xossalari va asboblar: asosiy juftliklarni moslang.",
+   "x": "Karton — Yengil va oson kesiladigan quruq maket materiali; Mato — Egiluvchan va tikiladigan material; Yog‘och — Tolali tuzilishga ega qattiq material; Plastmassa — Ko‘p turlari suvni shimimaydigan material.",
+   "h": "Karton — Yengil va oson kesiladigan quruq maket materiali; Mato — Egiluvchan va tikiladigan material; Yog‘och — Tolali tuzilishga ega qattiq material; Plastmassa — Ko‘p turlari suvni shimimaydigan material.",
+   "d": 1,
+   "pairs": [
+    [
+     "Karton",
+     "Yengil va oson kesiladigan quruq maket materiali"
+    ],
+    [
+     "Mato",
+     "Egiluvchan va tikiladigan material"
+    ],
+    [
+     "Yog‘och",
+     "Tolali tuzilishga ega qattiq material"
+    ],
+    [
+     "Plastmassa",
+     "Ko‘p turlari suvni shimimaydigan material"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_29",
+   "t": "match",
+   "q": "Materiallar xossalari va asboblar: amaliy juftliklarni moslang.",
+   "x": "Po‘lat — Mustahkam, temir asosli metall qotishma; Chizg‘ich — Uzunlikni o‘lchash asbobi; Qaychi — Qog‘oz yoki matoni kesish asbobi; Jilvir qog‘oz — Yuzani silliqlash materiali.",
+   "h": "Po‘lat — Mustahkam, temir asosli metall qotishma; Chizg‘ich — Uzunlikni o‘lchash asbobi; Qaychi — Qog‘oz yoki matoni kesish asbobi; Jilvir qog‘oz — Yuzani silliqlash materiali.",
+   "d": 1,
+   "pairs": [
+    [
+     "Po‘lat",
+     "Mustahkam, temir asosli metall qotishma"
+    ],
+    [
+     "Chizg‘ich",
+     "Uzunlikni o‘lchash asbobi"
+    ],
+    [
+     "Qaychi",
+     "Qog‘oz yoki matoni kesish asbobi"
+    ],
+    [
+     "Jilvir qog‘oz",
+     "Yuzani silliqlash materiali"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_30",
+   "t": "match",
+   "q": "Materiallar xossalari va asboblar: mavzuni mustahkamlashni moslang.",
+   "x": "Karton — Yengil va oson kesiladigan quruq maket materiali; Mato — Egiluvchan va tikiladigan material; Yog‘och — Tolali tuzilishga ega qattiq material; Plastmassa — Ko‘p turlari suvni shimimaydigan material; Po‘lat — Mustahkam, temir asosli metall qotishma; Chizg‘ich — Uzunlikni o‘lchash asbobi; Qaychi — Qog‘oz yoki matoni kesish asbobi; Jilvir qog‘oz — Yuzani silliqlash materiali.",
+   "h": "Karton — Yengil va oson kesiladigan quruq maket materiali; Mato — Egiluvchan va tikiladigan material; Yog‘och — Tolali tuzilishga ega qattiq material; Plastmassa — Ko‘p turlari suvni shimimaydigan material; Po‘lat — Mustahkam, temir asosli metall qotishma; Chizg‘ich — Uzunlikni o‘lchash asbobi; Qaychi — Qog‘oz yoki matoni kesish asbobi; Jilvir qog‘oz — Yuzani silliqlash materiali.",
+   "d": 1,
+   "pairs": [
+    [
+     "Karton",
+     "Yengil va oson kesiladigan quruq maket materiali"
+    ],
+    [
+     "Mato",
+     "Egiluvchan va tikiladigan material"
+    ],
+    [
+     "Yog‘och",
+     "Tolali tuzilishga ega qattiq material"
+    ],
+    [
+     "Plastmassa",
+     "Ko‘p turlari suvni shimimaydigan material"
+    ],
+    [
+     "Po‘lat",
+     "Mustahkam, temir asosli metall qotishma"
+    ],
+    [
+     "Chizg‘ich",
+     "Uzunlikni o‘lchash asbobi"
+    ],
+    [
+     "Qaychi",
+     "Qog‘oz yoki matoni kesish asbobi"
+    ],
+    [
+     "Jilvir qog‘oz",
+     "Yuzani silliqlash materiali"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_31",
+   "t": "sort",
+   "q": "Material va asboblarni ajrating.",
+   "x": "Material: Karton, Mato, Yog‘och; Asbob: Chizg‘ich, Qaychi, Qalam.",
+   "h": "Material: Karton, Mato, Yog‘och; Asbob: Chizg‘ich, Qaychi, Qalam.",
+   "d": 1,
+   "bins": [
+    "Material",
+    "Asbob"
+   ],
+   "items": [
+    [
+     "Karton",
+     0
+    ],
+    [
+     "Mato",
+     0
+    ],
+    [
+     "Yog‘och",
+     0
+    ],
+    [
+     "Chizg‘ich",
+     1
+    ],
+    [
+     "Qaychi",
+     1
+    ],
+    [
+     "Qalam",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.materials",
+   "id": "materials_32",
+   "t": "sort",
+   "q": "Egiluvchan mato va qattiq yog‘ochga mos ishlarni ajrating.",
+   "x": "Mato: Tikiladigan kichik xalta, Buklanadigan mato bezak, Yumshoq mato g‘ilof; Yog‘och: Qattiq maket tayanchi, Yog‘och detal, Qattiq yog‘och ramka.",
+   "h": "Mato: Tikiladigan kichik xalta, Buklanadigan mato bezak, Yumshoq mato g‘ilof; Yog‘och: Qattiq maket tayanchi, Yog‘och detal, Qattiq yog‘och ramka.",
+   "d": 1,
+   "bins": [
+    "Mato",
+    "Yog‘och"
+   ],
+   "items": [
+    [
+     "Tikiladigan kichik xalta",
+     0
+    ],
+    [
+     "Buklanadigan mato bezak",
+     0
+    ],
+    [
+     "Yumshoq mato g‘ilof",
+     0
+    ],
+    [
+     "Qattiq maket tayanchi",
+     1
+    ],
+    [
+     "Yog‘och detal",
+     1
+    ],
+    [
+     "Qattiq yog‘och ramka",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_33",
    "t": "choice",
-   "q": "Algoritm nima?",
+   "q": "«Batareya» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Batareya — elektr energiyasi manbai.",
+   "h": "Batareya — elektr energiyasi manbai.",
+   "d": 1,
+   "a": "Elektr energiyasi manbai",
+   "w": [
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish",
+    "Elektr energiyasini yorug‘likka aylantirish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_34",
+   "t": "choice",
+   "q": "«Sim» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sim — zanjir qismlarini elektr jihatdan bog‘lash.",
+   "h": "Sim — zanjir qismlarini elektr jihatdan bog‘lash.",
+   "d": 1,
+   "a": "Zanjir qismlarini elektr jihatdan bog‘lash",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjirni ochish yoki yopish",
+    "Elektr energiyasini yorug‘likka aylantirish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_35",
+   "t": "choice",
+   "q": "«Kalit» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Kalit — zanjirni ochish yoki yopish.",
+   "h": "Kalit — zanjirni ochish yoki yopish.",
+   "d": 1,
+   "a": "Zanjirni ochish yoki yopish",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Elektr energiyasini yorug‘likka aylantirish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_36",
+   "t": "choice",
+   "q": "«Lampochka» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Lampochka — elektr energiyasini yorug‘likka aylantirish.",
+   "h": "Lampochka — elektr energiyasini yorug‘likka aylantirish.",
+   "d": 1,
+   "a": "Elektr energiyasini yorug‘likka aylantirish",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_37",
+   "t": "choice",
+   "q": "«Yopiq zanjir» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yopiq zanjir — tok uchun uzluksiz yo‘l.",
+   "h": "Yopiq zanjir — tok uchun uzluksiz yo‘l.",
+   "d": 1,
+   "a": "Tok uchun uzluksiz yo‘l",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_38",
+   "t": "choice",
+   "q": "«Ochiq zanjir» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Ochiq zanjir — tok yo‘li uzilgan holat.",
+   "h": "Ochiq zanjir — tok yo‘li uzilgan holat.",
+   "d": 1,
+   "a": "Tok yo‘li uzilgan holat",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_39",
+   "t": "choice",
+   "q": "«Richag» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Richag — tayanch atrofida aylanadigan qattiq tayoq.",
+   "h": "Richag — tayanch atrofida aylanadigan qattiq tayoq.",
+   "d": 1,
+   "a": "Tayanch atrofida aylanadigan qattiq tayoq",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_40",
+   "t": "choice",
+   "q": "«Shkiv» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Shkiv — arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "h": "Shkiv — arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "d": 1,
+   "a": "Arqon yo‘nalishini o‘zgartiradigan g‘ildirak",
+   "w": [
+    "Elektr energiyasi manbai",
+    "Zanjir qismlarini elektr jihatdan bog‘lash",
+    "Zanjirni ochish yoki yopish"
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_41",
+   "t": "order",
+   "q": "Virtual lampochka zanjirini tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Batareya, sim, lampochka va kalitni tanlash → Kalit ochiq holatda simlarni ulash → Ulanishlarda uzilish yo‘qligini tekshirish → Kalitni yopib lampochkani kuzatish.",
+   "h": "Batareya, sim, lampochka va kalitni tanlash → Kalit ochiq holatda simlarni ulash → Ulanishlarda uzilish yo‘qligini tekshirish → Kalitni yopib lampochkani kuzatish.",
+   "d": 1,
+   "parts": [
+    "Batareya, sim, lampochka va kalitni tanlash",
+    "Kalit ochiq holatda simlarni ulash",
+    "Ulanishlarda uzilish yo‘qligini tekshirish",
+    "Kalitni yopib lampochkani kuzatish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_42",
+   "t": "order",
+   "q": "Virtual zanjirda uzilishni topish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Lampochka yonmayotganini kuzatish → Kalit yopilganini tekshirish → Ikkala sim ulanishini tekshirish → Uzilgan simni ulab qayta sinash.",
+   "h": "Lampochka yonmayotganini kuzatish → Kalit yopilganini tekshirish → Ikkala sim ulanishini tekshirish → Uzilgan simni ulab qayta sinash.",
+   "d": 1,
+   "parts": [
+    "Lampochka yonmayotganini kuzatish",
+    "Kalit yopilganini tekshirish",
+    "Ikkala sim ulanishini tekshirish",
+    "Uzilgan simni ulab qayta sinash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_43",
+   "t": "order",
+   "q": "Richag modelini tekshirish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Tayanchni taglikka joylash → Qattiq tayoqni tayanch ustiga qo‘yish → Bir uchiga kichik yuk qo‘yish → Ikkinchi uchiga yengil kuch berib kuzatish.",
+   "h": "Tayanchni taglikka joylash → Qattiq tayoqni tayanch ustiga qo‘yish → Bir uchiga kichik yuk qo‘yish → Ikkinchi uchiga yengil kuch berib kuzatish.",
+   "d": 1,
+   "parts": [
+    "Tayanchni taglikka joylash",
+    "Qattiq tayoqni tayanch ustiga qo‘yish",
+    "Bir uchiga kichik yuk qo‘yish",
+    "Ikkinchi uchiga yengil kuch berib kuzatish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_44",
+   "t": "match",
+   "q": "Oddiy mexanizmlar va elektr zanjiri: asosiy juftliklarni moslang.",
+   "x": "Batareya — Elektr energiyasi manbai; Sim — Zanjir qismlarini elektr jihatdan bog‘lash; Kalit — Zanjirni ochish yoki yopish; Lampochka — Elektr energiyasini yorug‘likka aylantirish.",
+   "h": "Batareya — Elektr energiyasi manbai; Sim — Zanjir qismlarini elektr jihatdan bog‘lash; Kalit — Zanjirni ochish yoki yopish; Lampochka — Elektr energiyasini yorug‘likka aylantirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Batareya",
+     "Elektr energiyasi manbai"
+    ],
+    [
+     "Sim",
+     "Zanjir qismlarini elektr jihatdan bog‘lash"
+    ],
+    [
+     "Kalit",
+     "Zanjirni ochish yoki yopish"
+    ],
+    [
+     "Lampochka",
+     "Elektr energiyasini yorug‘likka aylantirish"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_45",
+   "t": "match",
+   "q": "Oddiy mexanizmlar va elektr zanjiri: amaliy juftliklarni moslang.",
+   "x": "Yopiq zanjir — Tok uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Richag — Tayanch atrofida aylanadigan qattiq tayoq; Shkiv — Arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "h": "Yopiq zanjir — Tok uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Richag — Tayanch atrofida aylanadigan qattiq tayoq; Shkiv — Arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "d": 1,
+   "pairs": [
+    [
+     "Yopiq zanjir",
+     "Tok uchun uzluksiz yo‘l"
+    ],
+    [
+     "Ochiq zanjir",
+     "Tok yo‘li uzilgan holat"
+    ],
+    [
+     "Richag",
+     "Tayanch atrofida aylanadigan qattiq tayoq"
+    ],
+    [
+     "Shkiv",
+     "Arqon yo‘nalishini o‘zgartiradigan g‘ildirak"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_46",
+   "t": "match",
+   "q": "Oddiy mexanizmlar va elektr zanjiri: mavzuni mustahkamlashni moslang.",
+   "x": "Batareya — Elektr energiyasi manbai; Sim — Zanjir qismlarini elektr jihatdan bog‘lash; Kalit — Zanjirni ochish yoki yopish; Lampochka — Elektr energiyasini yorug‘likka aylantirish; Yopiq zanjir — Tok uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Richag — Tayanch atrofida aylanadigan qattiq tayoq; Shkiv — Arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "h": "Batareya — Elektr energiyasi manbai; Sim — Zanjir qismlarini elektr jihatdan bog‘lash; Kalit — Zanjirni ochish yoki yopish; Lampochka — Elektr energiyasini yorug‘likka aylantirish; Yopiq zanjir — Tok uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Richag — Tayanch atrofida aylanadigan qattiq tayoq; Shkiv — Arqon yo‘nalishini o‘zgartiradigan g‘ildirak.",
+   "d": 1,
+   "pairs": [
+    [
+     "Batareya",
+     "Elektr energiyasi manbai"
+    ],
+    [
+     "Sim",
+     "Zanjir qismlarini elektr jihatdan bog‘lash"
+    ],
+    [
+     "Kalit",
+     "Zanjirni ochish yoki yopish"
+    ],
+    [
+     "Lampochka",
+     "Elektr energiyasini yorug‘likka aylantirish"
+    ],
+    [
+     "Yopiq zanjir",
+     "Tok uchun uzluksiz yo‘l"
+    ],
+    [
+     "Ochiq zanjir",
+     "Tok yo‘li uzilgan holat"
+    ],
+    [
+     "Richag",
+     "Tayanch atrofida aylanadigan qattiq tayoq"
+    ],
+    [
+     "Shkiv",
+     "Arqon yo‘nalishini o‘zgartiradigan g‘ildirak"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_47",
+   "t": "sort",
+   "q": "Elektr zanjiri qismlari va mexanizmlarni ajrating.",
+   "x": "Elektr qismi: Batareya, Lampochka, Kalit; Mexanizm: Richag, Shkiv, G‘ildirak va o‘q.",
+   "h": "Elektr qismi: Batareya, Lampochka, Kalit; Mexanizm: Richag, Shkiv, G‘ildirak va o‘q.",
+   "d": 1,
+   "bins": [
+    "Elektr qismi",
+    "Mexanizm"
+   ],
+   "items": [
+    [
+     "Batareya",
+     0
+    ],
+    [
+     "Lampochka",
+     0
+    ],
+    [
+     "Kalit",
+     0
+    ],
+    [
+     "Richag",
+     1
+    ],
+    [
+     "Shkiv",
+     1
+    ],
+    [
+     "G‘ildirak va o‘q",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_48",
+   "t": "sort",
+   "q": "Ideal virtual zanjirda lampochka holatini aniqlang.",
+   "x": "Yonadi: Simlar ulangan, kalit yopiq, Uzluksiz yo‘l, batareya soz, Lampochka soz, zanjir yopiq; Yonmaydi: Bir sim uzilgan, Kalit ochiq, Batareya ulanmagan.",
+   "h": "Yonadi: Simlar ulangan, kalit yopiq, Uzluksiz yo‘l, batareya soz, Lampochka soz, zanjir yopiq; Yonmaydi: Bir sim uzilgan, Kalit ochiq, Batareya ulanmagan.",
+   "d": 1,
+   "bins": [
+    "Yonadi",
+    "Yonmaydi"
+   ],
+   "items": [
+    [
+     "Simlar ulangan, kalit yopiq",
+     0
+    ],
+    [
+     "Uzluksiz yo‘l, batareya soz",
+     0
+    ],
+    [
+     "Lampochka soz, zanjir yopiq",
+     0
+    ],
+    [
+     "Bir sim uzilgan",
+     1
+    ],
+    [
+     "Kalit ochiq",
+     1
+    ],
+    [
+     "Batareya ulanmagan",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_49",
+   "t": "circuit",
+   "q": "Ikkala simni ulang va kalit yordamida lampochkani yoqing.",
+   "x": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "h": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "d": 1,
+   "targetLit": true,
+   "wireA": false,
+   "wireB": false,
+   "switchClosed": false
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_50",
+   "t": "circuit",
+   "q": "Ikkala simni ulang va kalit yordamida lampochkani yoqing.",
+   "x": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "h": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "d": 1,
+   "targetLit": true,
+   "wireA": true,
+   "wireB": false,
+   "switchClosed": true
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_51",
+   "t": "circuit",
+   "q": "Ikkala simni ulang va kalit yordamida lampochkani yoqing.",
+   "x": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "h": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "d": 1,
+   "targetLit": true,
+   "wireA": false,
+   "wireB": true,
+   "switchClosed": true
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_52",
+   "t": "circuit",
+   "q": "Ikkala simni ulang va kalit yordamida lampochkani yoqing.",
+   "x": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "h": "Ikkala sim ulangan va kalit yopiq bo‘lsa, ideal zanjirda lampochka yonadi.",
+   "d": 1,
+   "targetLit": true,
+   "wireA": true,
+   "wireB": true,
+   "switchClosed": false
+  },
+  {
+   "topic": "technology_g5.mechanisms",
+   "id": "mechanisms_53",
+   "t": "circuit",
+   "q": "Simlarni uzmasdan, kalit yordamida lampochkani o‘chiring.",
+   "x": "Kalit ochilganda tok yo‘li uziladi va lampochka o‘chadi. Simlar ulangan holda qoladi.",
+   "h": "Kalit ochilganda tok yo‘li uziladi va lampochka o‘chadi. Simlar ulangan holda qoladi.",
+   "d": 1,
+   "targetLit": false,
+   "wireA": true,
+   "wireB": true,
+   "switchClosed": true
+  },
+  {
+   "topic": "technology_g5.prototype",
+   "id": "prototype_54",
+   "t": "choice",
+   "q": "«Algoritm» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Algoritm — aniq qadamlar ketma-ketligi.",
+   "h": "Algoritm — aniq qadamlar ketma-ketligi.",
+   "d": 1,
    "a": "Aniq qadamlar ketma-ketligi",
    "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.materials",
-   "id": "materials_13",
-   "t": "choice",
-   "q": "Loyiha hujjati nima uchun kerak?",
-   "a": "Jarayonni qayd etish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.materials",
-   "id": "materials_14",
-   "t": "choice",
-   "q": "Taqdimotda nima tushuntiriladi?",
-   "a": "Muammo, yechim va natija",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.materials",
-   "id": "materials_15",
-   "t": "choice",
-   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
-   "a": "Yo‘q, xavfli",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_1",
-   "t": "choice",
-   "q": "Dizayn jarayoni nimadan boshlanadi?",
-   "a": "Muammoni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_2",
-   "t": "choice",
-   "q": "Talablar nima uchun kerak?",
-   "a": "Yechimni baholash uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_3",
-   "t": "choice",
-   "q": "Eskiz nima uchun kerak?",
-   "a": "G‘oyani ko‘rsatish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_4",
-   "t": "choice",
-   "q": "Prototip nima?",
-   "a": "G‘oyani sinash namunasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_5",
-   "t": "choice",
-   "q": "Sinovdan keyin nima qilinadi?",
-   "a": "Natijaga ko‘ra yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_6",
-   "t": "choice",
-   "q": "Material qanday tanlanadi?",
-   "a": "Vazifasi va xossasiga ko‘ra",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_7",
-   "t": "choice",
-   "q": "Mustahkamlik nimani bildiradi?",
-   "a": "Yukka bardosh berishni",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_8",
-   "t": "choice",
-   "q": "Richag nima qiladi?",
-   "a": "Kuchni qulay uzatadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_9",
-   "t": "choice",
-   "q": "Tishli uzatma nima uzatadi?",
-   "a": "Aylanish harakatini",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_10",
-   "t": "choice",
-   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
-   "a": "Batareya",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_11",
-   "t": "choice",
-   "q": "Kalitning vazifasi nima?",
-   "a": "Zanjirni ochib-yopish",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_12",
-   "t": "choice",
-   "q": "Algoritm nima?",
-   "a": "Aniq qadamlar ketma-ketligi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_13",
-   "t": "choice",
-   "q": "Loyiha hujjati nima uchun kerak?",
-   "a": "Jarayonni qayd etish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_14",
-   "t": "choice",
-   "q": "Taqdimotda nima tushuntiriladi?",
-   "a": "Muammo, yechim va natija",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
-  },
-  {
-   "topic": "technology_g5.mechanisms",
-   "id": "mechanisms_15",
-   "t": "choice",
-   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
-   "a": "Yo‘q, xavfli",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot",
+    "Rost yoki yolg‘onligi tekshiriladigan fikr"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_1",
+   "id": "prototype_55",
    "t": "choice",
-   "q": "Dizayn jarayoni nimadan boshlanadi?",
-   "a": "Muammoni aniqlashdan",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Prototip» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Prototip — g‘oyani erta sinash modeli.",
+   "h": "Prototip — g‘oyani erta sinash modeli.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "G‘oyani erta sinash modeli",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "Ishni boshlash uchun kerakli ma’lumot",
+    "Rost yoki yolg‘onligi tekshiriladigan fikr"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_2",
+   "id": "prototype_56",
    "t": "choice",
-   "q": "Talablar nima uchun kerak?",
-   "a": "Yechimni baholash uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Boshlang‘ich ma’lumot» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Boshlang‘ich ma’lumot — ishni boshlash uchun kerakli ma’lumot.",
+   "h": "Boshlang‘ich ma’lumot — ishni boshlash uchun kerakli ma’lumot.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Ishni boshlash uchun kerakli ma’lumot",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Rost yoki yolg‘onligi tekshiriladigan fikr"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_3",
+   "id": "prototype_57",
    "t": "choice",
-   "q": "Eskiz nima uchun kerak?",
-   "a": "G‘oyani ko‘rsatish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Shart» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Shart — rost yoki yolg‘onligi tekshiriladigan fikr.",
+   "h": "Shart — rost yoki yolg‘onligi tekshiriladigan fikr.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Rost yoki yolg‘onligi tekshiriladigan fikr",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_4",
+   "id": "prototype_58",
    "t": "choice",
-   "q": "Prototip nima?",
-   "a": "G‘oyani sinash namunasi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Takrorlash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Takrorlash — bir qadamni bir necha marta bajarish.",
+   "h": "Takrorlash — bir qadamni bir necha marta bajarish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Bir qadamni bir necha marta bajarish",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_5",
+   "id": "prototype_59",
    "t": "choice",
-   "q": "Sinovdan keyin nima qilinadi?",
-   "a": "Natijaga ko‘ra yaxshilanadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Sinov qaydi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sinov qaydi — tekshirish natijasini yozib saqlash.",
+   "h": "Sinov qaydi — tekshirish natijasini yozib saqlash.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Tekshirish natijasini yozib saqlash",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_6",
+   "id": "prototype_60",
    "t": "choice",
-   "q": "Material qanday tanlanadi?",
-   "a": "Vazifasi va xossasiga ko‘ra",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Xatoni tuzatish» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Xatoni tuzatish — nuqson sababini bartaraf etish.",
+   "h": "Xatoni tuzatish — nuqson sababini bartaraf etish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Nuqson sababini bartaraf etish",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_7",
+   "id": "prototype_61",
    "t": "choice",
-   "q": "Mustahkamlik nimani bildiradi?",
-   "a": "Yukka bardosh berishni",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "q": "«Loyiha taqdimoti» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Loyiha taqdimoti — maqsad, jarayon va natijani tushuntirish.",
+   "h": "Loyiha taqdimoti — maqsad, jarayon va natijani tushuntirish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "a": "Maqsad, jarayon va natijani tushuntirish",
+   "w": [
+    "Aniq qadamlar ketma-ketligi",
+    "G‘oyani erta sinash modeli",
+    "Ishni boshlash uchun kerakli ma’lumot"
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_8",
-   "t": "choice",
-   "q": "Richag nima qiladi?",
-   "a": "Kuchni qulay uzatadi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
+   "id": "prototype_62",
+   "t": "order",
+   "q": "Karton ko‘prik prototipini sinash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Bir xil masofadagi tayanchlarni qo‘yish → Karton ko‘prikni tayanchlarga joylash → Kichik yukni o‘rtasiga ehtiyotkor qo‘yish → Egilish natijasini yozish.",
+   "h": "Bir xil masofadagi tayanchlarni qo‘yish → Karton ko‘prikni tayanchlarga joylash → Kichik yukni o‘rtasiga ehtiyotkor qo‘yish → Egilish natijasini yozish.",
    "d": 1,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "parts": [
+    "Bir xil masofadagi tayanchlarni qo‘yish",
+    "Karton ko‘prikni tayanchlarga joylash",
+    "Kichik yukni o‘rtasiga ehtiyotkor qo‘yish",
+    "Egilish natijasini yozish"
+   ],
+   "sep": " → "
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_9",
-   "t": "choice",
-   "q": "Tishli uzatma nima uzatadi?",
-   "a": "Aylanish harakatini",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "prototype_63",
+   "t": "order",
+   "q": "Egilgan ko‘prikni yaxshilash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Ko‘prik egilish sababini aniqlash → Karton ostiga qo‘shimcha qovurg‘a rejalash → Qovurg‘ani prototipga biriktirish → Oldingi yuk bilan qayta sinash.",
+   "h": "Ko‘prik egilish sababini aniqlash → Karton ostiga qo‘shimcha qovurg‘a rejalash → Qovurg‘ani prototipga biriktirish → Oldingi yuk bilan qayta sinash.",
+   "d": 1,
+   "parts": [
+    "Ko‘prik egilish sababini aniqlash",
+    "Karton ostiga qo‘shimcha qovurg‘a rejalash",
+    "Qovurg‘ani prototipga biriktirish",
+    "Oldingi yuk bilan qayta sinash"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_10",
-   "t": "choice",
-   "q": "Oddiy zanjir manbai nima bo‘lishi mumkin?",
-   "a": "Batareya",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "prototype_64",
+   "t": "order",
+   "q": "Loyihani taqdim qilish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Maqsad va talablarni aytish → Eskiz va materiallarni ko‘rsatish → Yasash jarayonini tushuntirish → Sinov va yaxshilash natijasini aytish.",
+   "h": "Maqsad va talablarni aytish → Eskiz va materiallarni ko‘rsatish → Yasash jarayonini tushuntirish → Sinov va yaxshilash natijasini aytish.",
+   "d": 1,
+   "parts": [
+    "Maqsad va talablarni aytish",
+    "Eskiz va materiallarni ko‘rsatish",
+    "Yasash jarayonini tushuntirish",
+    "Sinov va yaxshilash natijasini aytish"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "sep": " → "
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_11",
-   "t": "choice",
-   "q": "Kalitning vazifasi nima?",
-   "a": "Zanjirni ochib-yopish",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "prototype_65",
+   "t": "match",
+   "q": "Prototip, algoritm va taqdimot: asosiy juftliklarni moslang.",
+   "x": "Algoritm — Aniq qadamlar ketma-ketligi; Prototip — G‘oyani erta sinash modeli; Boshlang‘ich ma’lumot — Ishni boshlash uchun kerakli ma’lumot; Shart — Rost yoki yolg‘onligi tekshiriladigan fikr.",
+   "h": "Algoritm — Aniq qadamlar ketma-ketligi; Prototip — G‘oyani erta sinash modeli; Boshlang‘ich ma’lumot — Ishni boshlash uchun kerakli ma’lumot; Shart — Rost yoki yolg‘onligi tekshiriladigan fikr.",
+   "d": 1,
+   "pairs": [
+    [
+     "Algoritm",
+     "Aniq qadamlar ketma-ketligi"
+    ],
+    [
+     "Prototip",
+     "G‘oyani erta sinash modeli"
+    ],
+    [
+     "Boshlang‘ich ma’lumot",
+     "Ishni boshlash uchun kerakli ma’lumot"
+    ],
+    [
+     "Shart",
+     "Rost yoki yolg‘onligi tekshiriladigan fikr"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_12",
-   "t": "choice",
-   "q": "Algoritm nima?",
-   "a": "Aniq qadamlar ketma-ketligi",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "prototype_66",
+   "t": "match",
+   "q": "Prototip, algoritm va taqdimot: amaliy juftliklarni moslang.",
+   "x": "Takrorlash — Bir qadamni bir necha marta bajarish; Sinov qaydi — Tekshirish natijasini yozib saqlash; Xatoni tuzatish — Nuqson sababini bartaraf etish; Loyiha taqdimoti — Maqsad, jarayon va natijani tushuntirish.",
+   "h": "Takrorlash — Bir qadamni bir necha marta bajarish; Sinov qaydi — Tekshirish natijasini yozib saqlash; Xatoni tuzatish — Nuqson sababini bartaraf etish; Loyiha taqdimoti — Maqsad, jarayon va natijani tushuntirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Takrorlash",
+     "Bir qadamni bir necha marta bajarish"
+    ],
+    [
+     "Sinov qaydi",
+     "Tekshirish natijasini yozib saqlash"
+    ],
+    [
+     "Xatoni tuzatish",
+     "Nuqson sababini bartaraf etish"
+    ],
+    [
+     "Loyiha taqdimoti",
+     "Maqsad, jarayon va natijani tushuntirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_13",
-   "t": "choice",
-   "q": "Loyiha hujjati nima uchun kerak?",
-   "a": "Jarayonni qayd etish uchun",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
-   ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "id": "prototype_67",
+   "t": "match",
+   "q": "Prototip, algoritm va taqdimot: mavzuni mustahkamlashni moslang.",
+   "x": "Algoritm — Aniq qadamlar ketma-ketligi; Prototip — G‘oyani erta sinash modeli; Boshlang‘ich ma’lumot — Ishni boshlash uchun kerakli ma’lumot; Shart — Rost yoki yolg‘onligi tekshiriladigan fikr; Takrorlash — Bir qadamni bir necha marta bajarish; Sinov qaydi — Tekshirish natijasini yozib saqlash; Xatoni tuzatish — Nuqson sababini bartaraf etish; Loyiha taqdimoti — Maqsad, jarayon va natijani tushuntirish.",
+   "h": "Algoritm — Aniq qadamlar ketma-ketligi; Prototip — G‘oyani erta sinash modeli; Boshlang‘ich ma’lumot — Ishni boshlash uchun kerakli ma’lumot; Shart — Rost yoki yolg‘onligi tekshiriladigan fikr; Takrorlash — Bir qadamni bir necha marta bajarish; Sinov qaydi — Tekshirish natijasini yozib saqlash; Xatoni tuzatish — Nuqson sababini bartaraf etish; Loyiha taqdimoti — Maqsad, jarayon va natijani tushuntirish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Algoritm",
+     "Aniq qadamlar ketma-ketligi"
+    ],
+    [
+     "Prototip",
+     "G‘oyani erta sinash modeli"
+    ],
+    [
+     "Boshlang‘ich ma’lumot",
+     "Ishni boshlash uchun kerakli ma’lumot"
+    ],
+    [
+     "Shart",
+     "Rost yoki yolg‘onligi tekshiriladigan fikr"
+    ],
+    [
+     "Takrorlash",
+     "Bir qadamni bir necha marta bajarish"
+    ],
+    [
+     "Sinov qaydi",
+     "Tekshirish natijasini yozib saqlash"
+    ],
+    [
+     "Xatoni tuzatish",
+     "Nuqson sababini bartaraf etish"
+    ],
+    [
+     "Loyiha taqdimoti",
+     "Maqsad, jarayon va natijani tushuntirish"
+    ]
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_14",
-   "t": "choice",
-   "q": "Taqdimotda nima tushuntiriladi?",
-   "a": "Muammo, yechim va natija",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "prototype_68",
+   "t": "sort",
+   "q": "Algoritmdagi ko‘rsatma va natijani ajrating.",
+   "x": "Ko‘rsatma: Detalni belgilash, Tasmani buklash, Buyumni sinash; Natija: Belgi qo‘yilgan detal, Buklangan tasma, Yozilgan sinov qaydi.",
+   "h": "Ko‘rsatma: Detalni belgilash, Tasmani buklash, Buyumni sinash; Natija: Belgi qo‘yilgan detal, Buklangan tasma, Yozilgan sinov qaydi.",
+   "d": 1,
+   "bins": [
+    "Ko‘rsatma",
+    "Natija"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "items": [
+    [
+     "Detalni belgilash",
+     0
+    ],
+    [
+     "Tasmani buklash",
+     0
+    ],
+    [
+     "Buyumni sinash",
+     0
+    ],
+    [
+     "Belgi qo‘yilgan detal",
+     1
+    ],
+    [
+     "Buklangan tasma",
+     1
+    ],
+    [
+     "Yozilgan sinov qaydi",
+     1
+    ]
+   ]
   },
   {
    "topic": "technology_g5.prototype",
-   "id": "prototype_15",
-   "t": "choice",
-   "q": "Uy rozetkasini tajribada o‘zicha ishlatish mumkinmi?",
-   "a": "Yo‘q, xavfli",
-   "w": [
-    "Qalam",
-    "Elim",
-    "Tasodifiy javob"
+   "id": "prototype_69",
+   "t": "sort",
+   "q": "Sinovda adolatli solishtirish shartlarini ajrating.",
+   "x": "Solishtirishga mos: Bir xil yuk bilan sinash, Bir xil tayanch oralig‘i, Bir xil o‘lchamli namunalar; Solishtirishga mos emas: Har safar boshqa yuk, Tayanch oralig‘ini tasodifan o‘zgartirish, Natijani yozmasdan taxmin qilish.",
+   "h": "Solishtirishga mos: Bir xil yuk bilan sinash, Bir xil tayanch oralig‘i, Bir xil o‘lchamli namunalar; Solishtirishga mos emas: Har safar boshqa yuk, Tayanch oralig‘ini tasodifan o‘zgartirish, Natijani yozmasdan taxmin qilish.",
+   "d": 1,
+   "bins": [
+    "Solishtirishga mos",
+    "Solishtirishga mos emas"
    ],
-   "d": 2,
-   "x": "Texnologiya darsida reja, xavfsizlik, aniq ishlash va sinov muhim."
+   "items": [
+    [
+     "Bir xil yuk bilan sinash",
+     0
+    ],
+    [
+     "Bir xil tayanch oralig‘i",
+     0
+    ],
+    [
+     "Bir xil o‘lchamli namunalar",
+     0
+    ],
+    [
+     "Har safar boshqa yuk",
+     1
+    ],
+    [
+     "Tayanch oralig‘ini tasodifan o‘zgartirish",
+     1
+    ],
+    [
+     "Natijani yozmasdan taxmin qilish",
+     1
+    ]
+   ]
   }
  ]
 }

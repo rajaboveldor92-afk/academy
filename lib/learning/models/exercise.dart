@@ -40,6 +40,9 @@ class Localized {
 
 /// Mashq turi — qaysi o'yin mexanikasi ishlatiladi.
 enum ExerciseKind {
+  /// Virtual battery–switch–lamp loop (Technology).
+  circuit,
+
   /// Variantlardan birini tanlash (yoki [Exercise.dragToTarget] bo'lsa sudrab qo'yish).
   choice,
 
@@ -116,6 +119,18 @@ class SortTask {
 
   /// Har bir narsa qaysi savatga tegishli (indeks).
   final List<int> itemBins;
+}
+
+/// Ideal low-voltage series circuit: both wires and switch must be closed.
+class CircuitTask {
+  const CircuitTask({required this.targetLit, this.wireA = false, this.wireB = false, this.switchClosed = false});
+  final bool targetLit;
+  final bool wireA;
+  final bool wireB;
+  final bool switchClosed;
+  static bool lampLit(bool wireA, bool wireB, bool switchClosed) => wireA && wireB && switchClosed;
+  bool get initiallyLit => lampLit(wireA, wireB, switchClosed);
+  String describe() => 'circuit:$targetLit:$wireA:$wireB:$switchClosed';
 }
 
 /// Labirint: [walls] — har bir katak uchun devorlar bitmaskasi
@@ -713,6 +728,7 @@ class Exercise {
     this.dragToTarget = false,
     this.pairs = const [],
     this.sort,
+    this.circuit,
     this.maze,
     this.sudoku,
     this.coding,
@@ -770,6 +786,7 @@ class Exercise {
   final bool dragToTarget;
   final List<MatchPair> pairs;
   final SortTask? sort;
+  final CircuitTask? circuit;
   final MazeTask? maze;
   final SudokuTask? sudoku;
   final CodingTask? coding;
@@ -819,6 +836,7 @@ class Exercise {
     if (maze != null) b.write('|${maze!.describe()}');
     if (sudoku != null) b.write('|${sudoku!.describe()}');
     if (coding != null) b.write('|${coding!.describe()}');
+    if (circuit != null) b.write('|${circuit!.describe()}');
     if (assemble != null) b.write('|${assemble!.describe()}');
     if (trace != null) b.write('|${trace!.describe()}');
     if (chess != null) b.write('|${chess!.describe()}');

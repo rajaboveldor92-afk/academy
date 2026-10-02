@@ -53,6 +53,7 @@ void main() {
       e.maze?.describe() ?? '',
       e.sudoku?.describe() ?? '',
       e.coding?.describe() ?? '',
+      e.circuit?.describe() ?? '',
       e.previewVisual?.describe() ?? '',
       e.assemble?.describe() ?? '',
       e.trace?.describe() ?? '',

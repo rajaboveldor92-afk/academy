@@ -107,6 +107,9 @@ class ExerciseValidator {
   static bool isPlayable(Exercise e) {
     if (e.instruction.uz.trim().isEmpty || e.speech.trim().isEmpty) return false;
     switch (e.kind) {
+      case ExerciseKind.circuit:
+        final task = e.circuit;
+        return task != null && task.initiallyLit != task.targetLit;
       case ExerciseKind.choice:
       case ExerciseKind.memory:
         if (e.options.length < 2) return false;

@@ -43,6 +43,9 @@ jobs:
           set -o pipefail
           flutter analyze --no-fatal-infos 2>&1 | tee analyze.log
 
+      - name: Technology content checks
+        run: python3 tool/validate_technology.py
+
       - name: Testlar
         run: |
           set -o pipefail

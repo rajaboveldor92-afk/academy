@@ -95,7 +95,7 @@ void main() {
       expect(BankGen.poolFor(items, 1).length, greaterThanOrEqualTo(8), reason: entry.key);
       for (final i in items) {
         final t = i['t'];
-        expect(['choice', 'tf', 'order', 'match'], contains(t), reason: '${entry.key} ${i['id']}');
+        expect(['choice', 'tf', 'order', 'match', 'sort', 'circuit'], contains(t), reason: '${entry.key} ${i['id']}');
         if (t == 'choice') expect((i['w'] as List).contains(i['a']), isFalse, reason: '${entry.key} ${i['id']}');
       }
     }

@@ -15,8 +15,8 @@
    "emoji": "✂️",
    "title": {
     "uz": "Asboblar va xavfsizlik",
-    "en": "Asboblar va xavfsizlik",
-    "ru": "Asboblar va xavfsizlik"
+    "en": "Tools and safety",
+    "ru": "Инструменты и безопасность"
    },
    "generator": "bank",
    "skill": "bank",
@@ -36,6 +36,38 @@
    "theory": {
     "uz": "Ish joyini tartibli saqlang. Qaychini yopiq holda dastasi oldinga qaratib uzating. Chizg‘ich o‘lchash va to‘g‘ri chiziq chizish uchun, elim esa qismlarni biriktirish uchun ishlatiladi."
    }
+  },
+  {
+   "id": "technology_g3.safety_workshop",
+   "code": "1A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Asboblar va xavfsizlik",
+    "en": "Workshop: Tools and safety",
+    "ru": "Практикум: Инструменты и безопасность"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "1-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.safety",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.safety",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.safety",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Ish joyini tartibli saqlang. Qaychini yopiq holda dastasi oldinga qaratib uzating. Chizg‘ich o‘lchash va to‘g‘ri chiziq chizish uchun, elim esa qismlarni biriktirish uchun ishlatiladi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g3.test1",
@@ -78,8 +110,8 @@
    "emoji": "📄",
    "title": {
     "uz": "Qog‘oz va karton",
-    "en": "Qog‘oz va karton",
-    "ru": "Qog‘oz va karton"
+    "en": "Paper and cardboard",
+    "ru": "Бумага и картон"
    },
    "generator": "bank",
    "skill": "bank",
@@ -99,6 +131,38 @@
    "theory": {
     "uz": "Qog‘oz yupqa va oson bukiladi, karton esa qalinroq va mustahkamroq. Avval o‘lchang va belgilang, keyin kesing, buklang yoki yelimlang. Andoza bir xil shakllarni aniq ko‘chirishga yordam beradi."
    }
+  },
+  {
+   "id": "technology_g3.paper_workshop",
+   "code": "2A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Qog‘oz va karton",
+    "en": "Workshop: Paper and cardboard",
+    "ru": "Практикум: Бумага и картон"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "2-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.paper",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.paper",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.paper",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Qog‘oz yupqa va oson bukiladi, karton esa qalinroq va mustahkamroq. Avval o‘lchang va belgilang, keyin kesing, buklang yoki yelimlang. Andoza bir xil shakllarni aniq ko‘chirishga yordam beradi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g3.test2",
@@ -141,8 +205,8 @@
    "emoji": "♻️",
    "title": {
     "uz": "Tabiiy va qayta ishlatiladigan materiallar",
-    "en": "Tabiiy va qayta ishlatiladigan materiallar",
-    "ru": "Tabiiy va qayta ishlatiladigan materiallar"
+    "en": "Natural and reusable materials",
+    "ru": "Природные материалы и повторное использование"
    },
    "generator": "bank",
    "skill": "bank",
@@ -162,6 +226,38 @@
    "theory": {
     "uz": "Quruq barg, urug‘ va novda tabiiy materiallardir. Toza quti, karton va qopqoqlarni qayta ishlatish mumkin. Materialni tejash va chiqindini saralash tabiatni asrashga yordam beradi."
    }
+  },
+  {
+   "id": "technology_g3.reuse_workshop",
+   "code": "3A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Tabiiy va qayta ishlatiladigan materiallar",
+    "en": "Workshop: Natural and reusable materials",
+    "ru": "Практикум: Природные материалы и повторное использование"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "3-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.reuse",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.reuse",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.reuse",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Quruq barg, urug‘ va novda tabiiy materiallardir. Toza quti, karton va qopqoqlarni qayta ishlatish mumkin. Materialni tejash va chiqindini saralash tabiatni asrashga yordam beradi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g3.test3",
@@ -204,8 +300,8 @@
    "emoji": "🧰",
    "title": {
     "uz": "Oddiy loyiha va maket",
-    "en": "Oddiy loyiha va maket",
-    "ru": "Oddiy loyiha va maket"
+    "en": "Simple projects and models",
+    "ru": "Простые проекты и макеты"
    },
    "generator": "bank",
    "skill": "bank",
@@ -225,6 +321,38 @@
    "theory": {
     "uz": "Loyiha maqsadni aniqlashdan boshlanadi. G‘oya eskizda ko‘rsatiladi, material tanlanadi, buyum ketma-ket tayyorlanadi, sinovdan o‘tkaziladi va kamchiliklari yaxshilanadi."
    }
+  },
+  {
+   "id": "technology_g3.project_workshop",
+   "code": "4A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Oddiy loyiha va maket",
+    "en": "Workshop: Simple projects and models",
+    "ru": "Практикум: Простые проекты и макеты"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "4-chorak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.project",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.project",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.project",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Loyiha maqsadni aniqlashdan boshlanadi. G‘oya eskizda ko‘rsatiladi, material tanlanadi, buyum ketma-ket tayyorlanadi, sinovdan o‘tkaziladi va kamchiliklari yaxshilanadi."
+   },
+   "lessonSize": 6
   },
   {
    "id": "technology_g3.test4",

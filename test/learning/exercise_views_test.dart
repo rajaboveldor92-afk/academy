@@ -13,6 +13,7 @@ import 'package:academy/learning/ui/assemble_view.dart';
 import 'package:academy/learning/ui/cards_view.dart';
 import 'package:academy/learning/ui/chess_view.dart';
 import 'package:academy/learning/ui/choice_view.dart';
+import 'package:academy/learning/ui/circuit_view.dart';
 import 'package:academy/learning/ui/coding_view.dart';
 import 'package:academy/learning/ui/jigsaw_view.dart';
 import 'package:academy/learning/ui/match_view.dart';
@@ -649,6 +650,7 @@ void main() {
         final Widget view = switch (e.kind) {
           ExerciseKind.match => MatchExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.sort => SortExerciseView(exercise: e, callbacks: cb),
+          ExerciseKind.circuit => CircuitExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.maze => MazeExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.sudoku => SudokuExerciseView(exercise: e, callbacks: cb),
           ExerciseKind.coding => CodingExerciseView(exercise: e, callbacks: cb),

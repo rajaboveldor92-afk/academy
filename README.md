@@ -84,7 +84,7 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
   shu sinf dasturidan olinadi, kichiklar esa yoshiga qarab (4 / 6 yosh dasturi) o‘ynaydi. Bir ilovada 4 bola:
   Azamjon (6 yosh), Muhammadjon (4 yosh), Jasmina (3-sinf), Akramjon (5-sinf).
 * Fanlar (O‘zbekiston tayanch o‘quv rejasi bo‘yicha): Matematika, Ona tili, O‘qish / Adabiyot, Ingliz tili,
-  Rus tili (2-sinfdan), Tabiiy fan (1–6), Tarix (5-sinfdan), Informatika, Geografiya, Biologiya, Fizika, Kimyo (7–8).
+  Rus tili (2-sinfdan), Tabiiy fan (1–6), Texnologiya (3 va 5), Informatika, Geografiya, Biologiya, Fizika, Kimyo (7–8).
   Dasturi tayyor bo‘lgan fanlargina bosh sahifada ko‘rinadi.
 * Dars formati: **qisqa qoida va misollar** (📘, dars davomida ham ochiladi) → **mashqlar** (tanlash yoki javobni
   ekrandagi klaviaturada yozish: son, kasr `3/4`, o‘nli kasr `0,75`) → har chorak oxirida **nazorat ishi**
@@ -124,6 +124,15 @@ tartibsiz chizish va tushib qolgan chiziq o‘tmasligi.
   ko‘pburchak burchaklari, statistika. Dastur — `tool/content/school/math_grades.py`, tekshiruv —
   `test/content/math_upper_test.dart` (har bir javob mustaqil hisoblanadi). Ovozda manfiy son (“−7” → “minus yetti”),
   daraja (“x²”, “2⁵”), ildiz va tengsizlik belgilari so‘z bilan o‘qiladi.
+
+## Texnologiya: interaktiv ustaxonalar
+
+Texnologiya interaktiv ustaxonalari: har biri mavzuga mos saralash, juftlash va ish qadamlarini tartiblashni beradi.
+5-sinf mexanizmlar mavzusida virtual batareya–kalit–lampochka zanjiri mavjud; sim/kalit holati lampochkani darhol o‘zgartiradi.
+3- va 5-sinfda jami 8 ustaxona, 128 original mashq va 5 zanjir topshirig‘i mavjud.
+Kontentni qayta yaratish: `python3 tool/content/school/technology.py`.
+Joriy sinf–fan qamrovi va hali yetishmayotgan fayllar: [qamrov auditi](docs/school-content-audit.md).
+Bu qo‘shimcha mashqlar barcha sinflarning to‘liq rasmiy yillik o‘quv dasturi sifatida belgilangan emas.
 
 ## Ilova tillari
 

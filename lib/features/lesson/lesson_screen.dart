@@ -21,6 +21,9 @@ import '../../learning/ui/cards_view.dart';
 import '../../learning/ui/input_view.dart';
 import '../../learning/ui/chess_view.dart';
 import '../../learning/ui/choice_view.dart';
+import '../../learning/ui/circuit_view.dart';
+import '../../learning/ui/workshop_order_view.dart';
+import '../../learning/ui/workshop_sort_view.dart';
 import '../../learning/ui/coding_view.dart';
 import '../../learning/ui/match_view.dart';
 import '../../learning/ui/maze_view.dart';
@@ -629,12 +632,17 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
     );
     final key = ValueKey('ex_$_index');
     final Widget body = switch (ex.kind) {
+      ExerciseKind.circuit => CircuitExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.match => MatchExerciseView(key: key, exercise: ex, callbacks: callbacks),
-      ExerciseKind.sort => SortExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.sort => ex.subject == 'technology'
+        ? WorkshopSortExerciseView(key: key, exercise: ex, callbacks: callbacks)
+        : SortExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.maze => MazeExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.sudoku => SudokuExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.coding => CodingExerciseView(key: key, exercise: ex, callbacks: callbacks),
-      ExerciseKind.assemble => AssembleExerciseView(key: key, exercise: ex, callbacks: callbacks),
+      ExerciseKind.assemble => ex.subject == 'technology'
+        ? WorkshopOrderExerciseView(key: key, exercise: ex, callbacks: callbacks)
+        : AssembleExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.trace => TraceExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.chess => ChessExerciseView(key: key, exercise: ex, callbacks: callbacks),
       ExerciseKind.cards => CardsExerciseView(key: key, exercise: ex, callbacks: callbacks),

@@ -34,12 +34,14 @@ class OptionCard extends StatelessWidget {
     this.state = OptionState.idle,
     this.onTap,
     this.compact = false,
+    this.wrapText = false,
   });
 
   final ExerciseOption option;
   final OptionState state;
   final VoidCallback? onTap;
   final bool compact;
+  final bool wrapText;
 
   Color get _border => switch (state) {
         OptionState.correct || OptionState.done => AppColors.success,
@@ -82,6 +84,10 @@ class OptionCard extends StatelessWidget {
           ],
         ),
       );
+    } else if (wrapText) {
+      content = Center(child: Padding(padding: const EdgeInsets.all(8),
+        child: Text(text ?? '', textAlign: TextAlign.center,
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700))));
     } else {
       content = Center(
         child: Padding(
