@@ -34,6 +34,10 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
 
   List<MatchPair> get pairs => widget.exercise.pairs;
 
+  bool get _wrapText => widget.exercise.subject == 'technology' ||
+      (widget.exercise.topicId.contains('_g') && pairs.any((p) =>
+        (p.left.text ?? '').length > 24 || (p.right.text ?? '').length > 24));
+
   @override
   void initState() {
     super.initState();
@@ -97,7 +101,7 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
       state: color != null ? OptionState.done : (selected ? OptionState.selected : (wrong ? OptionState.wrong : OptionState.idle)),
       onTap: onTap,
       compact: true,
-      wrapText: widget.exercise.subject == 'technology',
+      wrapText: _wrapText,
     );
     return Padding(
       padding: const EdgeInsets.all(5),
@@ -164,8 +168,21 @@ class _MatchExerciseViewState extends State<MatchExerciseView> {
         ),
       ],
     );
-    return widget.exercise.subject == 'technology'
-      ? SingleChildScrollView(child: SizedBox(height: n * 130.0, child: row))
-      : row;
+    if (!_wrapText) return row;
+    return LayoutBuilder(builder: (context, constraints) {
+      final cellWidth = ((constraints.maxWidth - 28) / 2 - 40).clamp(40.0, double.infinity).toDouble();
+      var rowHeight = 130.0;
+      for (final pair in pairs) {
+        for (final option in [pair.left, pair.right]) {
+          final painter = TextPainter(
+            text: TextSpan(text: option.text ?? '', style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+            textDirection: Directionality.of(context), textScaler: MediaQuery.textScalerOf(context),
+          )..layout(maxWidth: cellWidth);
+          if (painter.height + 42 > rowHeight) rowHeight = painter.height + 42;
+          painter.dispose();
+        }
+      }
+      return SingleChildScrollView(child: SizedBox(height: n * rowHeight, child: row));
+    });
   }
 }

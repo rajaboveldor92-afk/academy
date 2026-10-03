@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Сложное предложение» uchun mos ma’noni tanlang.",
+   "a": "Ikki yoki undan ortiq grammatik asosli gap",
+   "w": [
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati",
+    "Ergash qismga nisbatan bosh gap qismi"
+   ],
+   "d": 1,
+   "x": "Сложное предложение — Ikki yoki undan ortiq grammatik asosli gap. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Сложное предложение — Ikki yoki undan ortiq grammatik asosli gap. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Ikki yoki undan ortiq grammatik asosli gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "Сложное предложение",
+   "w": [
+    "Сочинительная связь",
+    "Подчинительная связь",
+    "Главная часть"
+   ],
+   "d": 2,
+   "x": "Сложное предложение — Ikki yoki undan ortiq grammatik asosli gap. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Сложное предложение — Ikki yoki undan ortiq grammatik asosli gap. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Сочинительная связь» uchun mos ma’noni tanlang.",
+   "a": "Teng qismlarni bog‘lash munosabati",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Bir qismni boshqasiga tobelantirish munosabati",
+    "Ergash qismga nisbatan bosh gap qismi"
+   ],
+   "d": 1,
+   "x": "Сочинительная связь — Teng qismlarni bog‘lash munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Сочинительная связь — Teng qismlarni bog‘lash munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Teng qismlarni bog‘lash munosabati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Сочинительная связь",
+   "w": [
+    "Сложное предложение",
+    "Подчинительная связь",
+    "Главная часть"
+   ],
+   "d": 2,
+   "x": "Сочинительная связь — Teng qismlarni bog‘lash munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Сочинительная связь — Teng qismlarni bog‘lash munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Подчинительная связь» uchun mos ma’noni tanlang.",
+   "a": "Bir qismni boshqasiga tobelantirish munosabati",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Ergash qismga nisbatan bosh gap qismi"
+   ],
+   "d": 1,
+   "x": "Подчинительная связь — Bir qismni boshqasiga tobelantirish munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Подчинительная связь — Bir qismni boshqasiga tobelantirish munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Bir qismni boshqasiga tobelantirish munosabati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Подчинительная связь",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Главная часть"
+   ],
+   "d": 2,
+   "x": "Подчинительная связь — Bir qismni boshqasiga tobelantirish munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Подчинительная связь — Bir qismni boshqasiga tobelantirish munosabati. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Главная часть» uchun mos ma’noni tanlang.",
+   "a": "Ergash qismga nisbatan bosh gap qismi",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati"
+   ],
+   "d": 1,
+   "x": "Главная часть — Ergash qismga nisbatan bosh gap qismi. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Главная часть — Ergash qismga nisbatan bosh gap qismi. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Ergash qismga nisbatan bosh gap qismi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Главная часть",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Подчинительная связь"
+   ],
+   "d": 2,
+   "x": "Главная часть — Ergash qismga nisbatan bosh gap qismi. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Главная часть — Ergash qismga nisbatan bosh gap qismi. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Придаточная часть» uchun mos ma’noni tanlang.",
+   "a": "Bosh qismni izohlab keladigan ergash qism",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati"
+   ],
+   "d": 1,
+   "x": "Придаточная часть — Bosh qismni izohlab keladigan ergash qism. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Придаточная часть — Bosh qismni izohlab keladigan ergash qism. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Bosh qismni izohlab keladigan ergash qism» qaysi tushuncha yoki iboraga mos?",
+   "a": "Придаточная часть",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Подчинительная связь"
+   ],
+   "d": 2,
+   "x": "Придаточная часть — Bosh qismni izohlab keladigan ergash qism. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Придаточная часть — Bosh qismni izohlab keladigan ergash qism. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Союз потому что» uchun mos ma’noni tanlang.",
+   "a": "Sababni bog‘laydigan birikma",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati"
+   ],
+   "d": 1,
+   "x": "Союз потому что — Sababni bog‘laydigan birikma. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз потому что — Sababni bog‘laydigan birikma. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Sababni bog‘laydigan birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Союз потому что",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Подчинительная связь"
+   ],
+   "d": 2,
+   "x": "Союз потому что — Sababni bog‘laydigan birikma. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз потому что — Sababni bog‘laydigan birikma. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Союз если» uchun mos ma’noni tanlang.",
+   "a": "Shartni bog‘laydigan so‘z",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati"
+   ],
+   "d": 1,
+   "x": "Союз если — Shartni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз если — Shartni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Shartni bog‘laydigan so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Союз если",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Подчинительная связь"
+   ],
+   "d": 2,
+   "x": "Союз если — Shartni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз если — Shartni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Союз хотя» uchun mos ma’noni tanlang.",
+   "a": "To‘siqsizlikni bog‘laydigan so‘z",
+   "w": [
+    "Ikki yoki undan ortiq grammatik asosli gap",
+    "Teng qismlarni bog‘lash munosabati",
+    "Bir qismni boshqasiga tobelantirish munosabati"
+   ],
+   "d": 1,
+   "x": "Союз хотя — To‘siqsizlikni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз хотя — To‘siqsizlikni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«To‘siqsizlikni bog‘laydigan so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Союз хотя",
+   "w": [
+    "Сложное предложение",
+    "Сочинительная связь",
+    "Подчинительная связь"
+   ],
+   "d": 2,
+   "x": "Союз хотя — To‘siqsizlikni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan.",
+   "h": "Союз хотя — To‘siqsizlikni bog‘laydigan so‘z. Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Qo‘shma gap va bog‘lanish: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Сложное предложение",
+     "Ikki yoki undan ortiq grammatik asosli gap"
+    ],
+    [
+     "Сочинительная связь",
+     "Teng qismlarni bog‘lash munosabati"
+    ],
+    [
+     "Подчинительная связь",
+     "Bir qismni boshqasiga tobelantirish munosabati"
+    ],
+    [
+     "Главная часть",
+     "Ergash qismga nisbatan bosh gap qismi"
+    ]
+   ],
+   "d": 1,
+   "x": "Сложное предложение — Ikki yoki undan ortiq grammatik asosli gap; Сочинительная связь — Teng qismlarni bog‘lash munosabati; Подчинительная связь — Bir qismni boshqasiga tobelantirish munosabati; Главная часть — Ergash qismga nisbatan bosh gap qismi",
+   "h": "Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Qo‘shma gap va bog‘lanish: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Придаточная часть",
+     "Bosh qismni izohlab keladigan ergash qism"
+    ],
+    [
+     "Союз потому что",
+     "Sababni bog‘laydigan birikma"
+    ],
+    [
+     "Союз если",
+     "Shartni bog‘laydigan so‘z"
+    ],
+    [
+     "Союз хотя",
+     "To‘siqsizlikni bog‘laydigan so‘z"
+    ]
+   ],
+   "d": 1,
+   "x": "Придаточная часть — Bosh qismni izohlab keladigan ergash qism; Союз потому что — Sababni bog‘laydigan birikma; Союз если — Shartni bog‘laydigan so‘z; Союз хотя — To‘siqsizlikni bog‘laydigan so‘z",
+   "h": "Misol: Я остался дома, потому что шёл дождь. Ikki asos: я остался va дождь шёл. Sabab ergash qism bilan ifodalangan."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Причастие» uchun mos ma’noni tanlang.",
+   "a": "Harakat orqali predmet belgisini bildirgan shakl",
+   "w": [
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi",
+    "o‘qib chiqilgan kitob"
+   ],
+   "d": 1,
+   "x": "Причастие — Harakat orqali predmet belgisini bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Причастие — Harakat orqali predmet belgisini bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Harakat orqali predmet belgisini bildirgan shakl» qaysi tushuncha yoki iboraga mos?",
+   "a": "Причастие",
+   "w": [
+    "Деепричастие",
+    "читающий ученик",
+    "прочитанная книга"
+   ],
+   "d": 2,
+   "x": "Причастие — Harakat orqali predmet belgisini bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Причастие — Harakat orqali predmet belgisini bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Деепричастие» uchun mos ma’noni tanlang.",
+   "a": "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "o‘qiyotgan o‘quvchi",
+    "o‘qib chiqilgan kitob"
+   ],
+   "d": 1,
+   "x": "Деепричастие — Asosiy harakatga qo‘shimcha harakatni bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Деепричастие — Asosiy harakatga qo‘shimcha harakatni bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Asosiy harakatga qo‘shimcha harakatni bildirgan shakl» qaysi tushuncha yoki iboraga mos?",
+   "a": "Деепричастие",
+   "w": [
+    "Причастие",
+    "читающий ученик",
+    "прочитанная книга"
+   ],
+   "d": 2,
+   "x": "Деепричастие — Asosiy harakatga qo‘shimcha harakatni bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Деепричастие — Asosiy harakatga qo‘shimcha harakatni bildirgan shakl. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«читающий ученик» uchun mos ma’noni tanlang.",
+   "a": "o‘qiyotgan o‘quvchi",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qib chiqilgan kitob"
+   ],
+   "d": 1,
+   "x": "читающий ученик — o‘qiyotgan o‘quvchi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "читающий ученик — o‘qiyotgan o‘quvchi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«o‘qiyotgan o‘quvchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "читающий ученик",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "прочитанная книга"
+   ],
+   "d": 2,
+   "x": "читающий ученик — o‘qiyotgan o‘quvchi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "читающий ученик — o‘qiyotgan o‘quvchi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«прочитанная книга» uchun mos ma’noni tanlang.",
+   "a": "o‘qib chiqilgan kitob",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi"
+   ],
+   "d": 1,
+   "x": "прочитанная книга — o‘qib chiqilgan kitob. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "прочитанная книга — o‘qib chiqilgan kitob. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«o‘qib chiqilgan kitob» qaysi tushuncha yoki iboraga mos?",
+   "a": "прочитанная книга",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "читающий ученик"
+   ],
+   "d": 2,
+   "x": "прочитанная книга — o‘qib chiqilgan kitob. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "прочитанная книга — o‘qib chiqilgan kitob. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«улыбаясь» uchun mos ma’noni tanlang.",
+   "a": "jilmayib",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi"
+   ],
+   "d": 1,
+   "x": "улыбаясь — jilmayib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "улыбаясь — jilmayib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«jilmayib» qaysi tushuncha yoki iboraga mos?",
+   "a": "улыбаясь",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "читающий ученик"
+   ],
+   "d": 2,
+   "x": "улыбаясь — jilmayib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "улыбаясь — jilmayib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«закончив работу» uchun mos ma’noni tanlang.",
+   "a": "ishni tugatib",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi"
+   ],
+   "d": 1,
+   "x": "закончив работу — ishni tugatib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "закончив работу — ishni tugatib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«ishni tugatib» qaysi tushuncha yoki iboraga mos?",
+   "a": "закончив работу",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "читающий ученик"
+   ],
+   "d": 2,
+   "x": "закончив работу — ishni tugatib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "закончив работу — ishni tugatib. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Действительное причастие» uchun mos ma’noni tanlang.",
+   "a": "Harakatni o‘zi bajaradigan predmet belgisi",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi"
+   ],
+   "d": 1,
+   "x": "Действительное причастие — Harakatni o‘zi bajaradigan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Действительное причастие — Harakatni o‘zi bajaradigan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Harakatni o‘zi bajaradigan predmet belgisi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Действительное причастие",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "читающий ученик"
+   ],
+   "d": 2,
+   "x": "Действительное причастие — Harakatni o‘zi bajaradigan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Действительное причастие — Harakatni o‘zi bajaradigan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Страдательное причастие» uchun mos ma’noni tanlang.",
+   "a": "Harakat ta’sirini olgan predmet belgisi",
+   "w": [
+    "Harakat orqali predmet belgisini bildirgan shakl",
+    "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl",
+    "o‘qiyotgan o‘quvchi"
+   ],
+   "d": 1,
+   "x": "Страдательное причастие — Harakat ta’sirini olgan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Страдательное причастие — Harakat ta’sirini olgan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Harakat ta’sirini olgan predmet belgisi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Страдательное причастие",
+   "w": [
+    "Причастие",
+    "Деепричастие",
+    "читающий ученик"
+   ],
+   "d": 2,
+   "x": "Страдательное причастие — Harakat ta’sirini olgan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi.",
+   "h": "Страдательное причастие — Harakat ta’sirini olgan predmet belgisi. Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Sifatdosh va ravishdosh: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Причастие",
+     "Harakat orqali predmet belgisini bildirgan shakl"
+    ],
+    [
+     "Деепричастие",
+     "Asosiy harakatga qo‘shimcha harakatni bildirgan shakl"
+    ],
+    [
+     "читающий ученик",
+     "o‘qiyotgan o‘quvchi"
+    ],
+    [
+     "прочитанная книга",
+     "o‘qib chiqilgan kitob"
+    ]
+   ],
+   "d": 1,
+   "x": "Причастие — Harakat orqali predmet belgisini bildirgan shakl; Деепричастие — Asosiy harakatga qo‘shimcha harakatni bildirgan shakl; читающий ученик — o‘qiyotgan o‘quvchi; прочитанная книга — o‘qib chiqilgan kitob",
+   "h": "Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Sifatdosh va ravishdosh: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "улыбаясь",
+     "jilmayib"
+    ],
+    [
+     "закончив работу",
+     "ishni tugatib"
+    ],
+    [
+     "Действительное причастие",
+     "Harakatni o‘zi bajaradigan predmet belgisi"
+    ],
+    [
+     "Страдательное причастие",
+     "Harakat ta’sirini olgan predmet belgisi"
+    ]
+   ],
+   "d": 1,
+   "x": "улыбаясь — jilmayib; закончив работу — ishni tugatib; Действительное причастие — Harakatni o‘zi bajaradigan predmet belgisi; Страдательное причастие — Harakat ta’sirini olgan predmet belgisi",
+   "h": "Misol: Закончив работу, ученик отдохнул. Ikkala harakatni bir o‘quvchi bajaryapti. Деепричастный оборот odatda vergul bilan ajratiladi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Прямая речь» uchun mos ma’noni tanlang.",
+   "a": "Birovning so‘zini o‘zgartirmay berish",
+   "w": [
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism",
+    "Ikki yoki undan ortiq kishining suhbati"
+   ],
+   "d": 1,
+   "x": "Прямая речь — Birovning so‘zini o‘zgartirmay berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Прямая речь — Birovning so‘zini o‘zgartirmay berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Birovning so‘zini o‘zgartirmay berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Прямая речь",
+   "w": [
+    "Косвенная речь",
+    "Слова автора",
+    "Диалог"
+   ],
+   "d": 2,
+   "x": "Прямая речь — Birovning so‘zini o‘zgartirmay berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Прямая речь — Birovning so‘zini o‘zgartirmay berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Косвенная речь» uchun mos ma’noni tanlang.",
+   "a": "Birovning fikrini muallif gapi tarkibida berish",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Kim gapirganini tushuntiruvchi qism",
+    "Ikki yoki undan ortiq kishining suhbati"
+   ],
+   "d": 1,
+   "x": "Косвенная речь — Birovning fikrini muallif gapi tarkibida berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Косвенная речь — Birovning fikrini muallif gapi tarkibida berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Birovning fikrini muallif gapi tarkibida berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Косвенная речь",
+   "w": [
+    "Прямая речь",
+    "Слова автора",
+    "Диалог"
+   ],
+   "d": 2,
+   "x": "Косвенная речь — Birovning fikrini muallif gapi tarkibida berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Косвенная речь — Birovning fikrini muallif gapi tarkibida berish. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Слова автора» uchun mos ma’noni tanlang.",
+   "a": "Kim gapirganini tushuntiruvchi qism",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Ikki yoki undan ortiq kishining suhbati"
+   ],
+   "d": 1,
+   "x": "Слова автора — Kim gapirganini tushuntiruvchi qism. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Слова автора — Kim gapirganini tushuntiruvchi qism. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Kim gapirganini tushuntiruvchi qism» qaysi tushuncha yoki iboraga mos?",
+   "a": "Слова автора",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Диалог"
+   ],
+   "d": 2,
+   "x": "Слова автора — Kim gapirganini tushuntiruvchi qism. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Слова автора — Kim gapirganini tushuntiruvchi qism. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Диалог» uchun mos ma’noni tanlang.",
+   "a": "Ikki yoki undan ortiq kishining suhbati",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism"
+   ],
+   "d": 1,
+   "x": "Диалог — Ikki yoki undan ortiq kishining suhbati. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Диалог — Ikki yoki undan ortiq kishining suhbati. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Ikki yoki undan ortiq kishining suhbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Диалог",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Слова автора"
+   ],
+   "d": 2,
+   "x": "Диалог — Ikki yoki undan ortiq kishining suhbati. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Диалог — Ikki yoki undan ortiq kishining suhbati. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Реплика» uchun mos ma’noni tanlang.",
+   "a": "Suhbatdagi bir kishining navbatdagi gapi",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism"
+   ],
+   "d": 1,
+   "x": "Реплика — Suhbatdagi bir kishining navbatdagi gapi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Реплика — Suhbatdagi bir kishining navbatdagi gapi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Suhbatdagi bir kishining navbatdagi gapi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Реплика",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Слова автора"
+   ],
+   "d": 2,
+   "x": "Реплика — Suhbatdagi bir kishining navbatdagi gapi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Реплика — Suhbatdagi bir kishining navbatdagi gapi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Кавычки» uchun mos ma’noni tanlang.",
+   "a": "Ko‘chirma so‘zni chegaralovchi belgilar",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism"
+   ],
+   "d": 1,
+   "x": "Кавычки — Ko‘chirma so‘zni chegaralovchi belgilar. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Кавычки — Ko‘chirma so‘zni chegaralovchi belgilar. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Ko‘chirma so‘zni chegaralovchi belgilar» qaysi tushuncha yoki iboraga mos?",
+   "a": "Кавычки",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Слова автора"
+   ],
+   "d": 2,
+   "x": "Кавычки — Ko‘chirma so‘zni chegaralovchi belgilar. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Кавычки — Ko‘chirma so‘zni chegaralovchi belgilar. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Двоеточие» uchun mos ma’noni tanlang.",
+   "a": "Muallif gapidan keyingi ko‘chirma gap oldi belgisi",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism"
+   ],
+   "d": 1,
+   "x": "Двоеточие — Muallif gapidan keyingi ko‘chirma gap oldi belgisi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Двоеточие — Muallif gapidan keyingi ko‘chirma gap oldi belgisi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Muallif gapidan keyingi ko‘chirma gap oldi belgisi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Двоеточие",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Слова автора"
+   ],
+   "d": 2,
+   "x": "Двоеточие — Muallif gapidan keyingi ko‘chirma gap oldi belgisi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Двоеточие — Muallif gapidan keyingi ko‘chirma gap oldi belgisi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Тире» uchun mos ma’noni tanlang.",
+   "a": "Dialogdagi replika boshini ko‘rsatadigan belgi",
+   "w": [
+    "Birovning so‘zini o‘zgartirmay berish",
+    "Birovning fikrini muallif gapi tarkibida berish",
+    "Kim gapirganini tushuntiruvchi qism"
+   ],
+   "d": 1,
+   "x": "Тире — Dialogdagi replika boshini ko‘rsatadigan belgi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Тире — Dialogdagi replika boshini ko‘rsatadigan belgi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Dialogdagi replika boshini ko‘rsatadigan belgi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Тире",
+   "w": [
+    "Прямая речь",
+    "Косвенная речь",
+    "Слова автора"
+   ],
+   "d": 2,
+   "x": "Тире — Dialogdagi replika boshini ko‘rsatadigan belgi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi.",
+   "h": "Тире — Dialogdagi replika boshini ko‘rsatadigan belgi. Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Ko‘chirma gap va muloqot: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Прямая речь",
+     "Birovning so‘zini o‘zgartirmay berish"
+    ],
+    [
+     "Косвенная речь",
+     "Birovning fikrini muallif gapi tarkibida berish"
+    ],
+    [
+     "Слова автора",
+     "Kim gapirganini tushuntiruvchi qism"
+    ],
+    [
+     "Диалог",
+     "Ikki yoki undan ortiq kishining suhbati"
+    ]
+   ],
+   "d": 1,
+   "x": "Прямая речь — Birovning so‘zini o‘zgartirmay berish; Косвенная речь — Birovning fikrini muallif gapi tarkibida berish; Слова автора — Kim gapirganini tushuntiruvchi qism; Диалог — Ikki yoki undan ortiq kishining suhbati",
+   "h": "Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Ko‘chirma gap va muloqot: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Реплика",
+     "Suhbatdagi bir kishining navbatdagi gapi"
+    ],
+    [
+     "Кавычки",
+     "Ko‘chirma so‘zni chegaralovchi belgilar"
+    ],
+    [
+     "Двоеточие",
+     "Muallif gapidan keyingi ko‘chirma gap oldi belgisi"
+    ],
+    [
+     "Тире",
+     "Dialogdagi replika boshini ko‘rsatadigan belgi"
+    ]
+   ],
+   "d": 1,
+   "x": "Реплика — Suhbatdagi bir kishining navbatdagi gapi; Кавычки — Ko‘chirma so‘zni chegaralovchi belgilar; Двоеточие — Muallif gapidan keyingi ko‘chirma gap oldi belgisi; Тире — Dialogdagi replika boshini ko‘rsatadigan belgi",
+   "h": "Misol: Учитель сказал: «Читайте внимательно». Bilvosita: Учитель сказал, чтобы мы читали внимательно. So‘z shakli va tinish belgisi tuzilishga qarab o‘zgaradi."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Тема» uchun mos ma’noni tanlang.",
+   "a": "Matn nima haqida ekanligi",
+   "w": [
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr",
+    "Fikrni asoslaydigan dalil"
+   ],
+   "d": 1,
+   "x": "Тема — Matn nima haqida ekanligi. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Тема — Matn nima haqida ekanligi. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Matn nima haqida ekanligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Тема",
+   "w": [
+    "Основная мысль",
+    "Тезис",
+    "Аргумент"
+   ],
+   "d": 2,
+   "x": "Тема — Matn nima haqida ekanligi. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Тема — Matn nima haqida ekanligi. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Основная мысль» uchun mos ma’noni tanlang.",
+   "a": "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Isbotlanishi kerak bo‘lgan fikr",
+    "Fikrni asoslaydigan dalil"
+   ],
+   "d": 1,
+   "x": "Основная мысль — Muallif yetkazmoqchi bo‘lgan asosiy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Основная мысль — Muallif yetkazmoqchi bo‘lgan asosiy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Muallif yetkazmoqchi bo‘lgan asosiy fikr» qaysi tushuncha yoki iboraga mos?",
+   "a": "Основная мысль",
+   "w": [
+    "Тема",
+    "Тезис",
+    "Аргумент"
+   ],
+   "d": 2,
+   "x": "Основная мысль — Muallif yetkazmoqchi bo‘lgan asosiy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Основная мысль — Muallif yetkazmoqchi bo‘lgan asosiy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Тезис» uchun mos ma’noni tanlang.",
+   "a": "Isbotlanishi kerak bo‘lgan fikr",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Fikrni asoslaydigan dalil"
+   ],
+   "d": 1,
+   "x": "Тезис — Isbotlanishi kerak bo‘lgan fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Тезис — Isbotlanishi kerak bo‘lgan fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Isbotlanishi kerak bo‘lgan fikr» qaysi tushuncha yoki iboraga mos?",
+   "a": "Тезис",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Аргумент"
+   ],
+   "d": 2,
+   "x": "Тезис — Isbotlanishi kerak bo‘lgan fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Тезис — Isbotlanishi kerak bo‘lgan fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Аргумент» uchun mos ma’noni tanlang.",
+   "a": "Fikrni asoslaydigan dalil",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr"
+   ],
+   "d": 1,
+   "x": "Аргумент — Fikrni asoslaydigan dalil. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Аргумент — Fikrni asoslaydigan dalil. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Fikrni asoslaydigan dalil» qaysi tushuncha yoki iboraga mos?",
+   "a": "Аргумент",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Тезис"
+   ],
+   "d": 2,
+   "x": "Аргумент — Fikrni asoslaydigan dalil. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Аргумент — Fikrni asoslaydigan dalil. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Пример» uchun mos ma’noni tanlang.",
+   "a": "Dalilni ko‘rsatadigan aniq holat",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr"
+   ],
+   "d": 1,
+   "x": "Пример — Dalilni ko‘rsatadigan aniq holat. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Пример — Dalilni ko‘rsatadigan aniq holat. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Dalilni ko‘rsatadigan aniq holat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Пример",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Тезис"
+   ],
+   "d": 2,
+   "x": "Пример — Dalilni ko‘rsatadigan aniq holat. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Пример — Dalilni ko‘rsatadigan aniq holat. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Вывод» uchun mos ma’noni tanlang.",
+   "a": "Tahlildan kelib chiqqan yakuniy fikr",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr"
+   ],
+   "d": 1,
+   "x": "Вывод — Tahlildan kelib chiqqan yakuniy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Вывод — Tahlildan kelib chiqqan yakuniy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Tahlildan kelib chiqqan yakuniy fikr» qaysi tushuncha yoki iboraga mos?",
+   "a": "Вывод",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Тезис"
+   ],
+   "d": 2,
+   "x": "Вывод — Tahlildan kelib chiqqan yakuniy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Вывод — Tahlildan kelib chiqqan yakuniy fikr. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Научный стиль» uchun mos ma’noni tanlang.",
+   "a": "Aniqlik va atamalarga tayangan bayon",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr"
+   ],
+   "d": 1,
+   "x": "Научный стиль — Aniqlik va atamalarga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Научный стиль — Aniqlik va atamalarga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Aniqlik va atamalarga tayangan bayon» qaysi tushuncha yoki iboraga mos?",
+   "a": "Научный стиль",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Тезис"
+   ],
+   "d": 2,
+   "x": "Научный стиль — Aniqlik va atamalarga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Научный стиль — Aniqlik va atamalarga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Художественный стиль» uchun mos ma’noni tanlang.",
+   "a": "Obraz va tasvirga tayangan bayon",
+   "w": [
+    "Matn nima haqida ekanligi",
+    "Muallif yetkazmoqchi bo‘lgan asosiy fikr",
+    "Isbotlanishi kerak bo‘lgan fikr"
+   ],
+   "d": 1,
+   "x": "Художественный стиль — Obraz va tasvirga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Художественный стиль — Obraz va tasvirga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Obraz va tasvirga tayangan bayon» qaysi tushuncha yoki iboraga mos?",
+   "a": "Художественный стиль",
+   "w": [
+    "Тема",
+    "Основная мысль",
+    "Тезис"
+   ],
+   "d": 2,
+   "x": "Художественный стиль — Obraz va tasvirga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz.",
+   "h": "Художественный стиль — Obraz va tasvirga tayangan bayon. Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Matn, uslub va dalil: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Тема",
+     "Matn nima haqida ekanligi"
+    ],
+    [
+     "Основная мысль",
+     "Muallif yetkazmoqchi bo‘lgan asosiy fikr"
+    ],
+    [
+     "Тезис",
+     "Isbotlanishi kerak bo‘lgan fikr"
+    ],
+    [
+     "Аргумент",
+     "Fikrni asoslaydigan dalil"
+    ]
+   ],
+   "d": 1,
+   "x": "Тема — Matn nima haqida ekanligi; Основная мысль — Muallif yetkazmoqchi bo‘lgan asosiy fikr; Тезис — Isbotlanishi kerak bo‘lgan fikr; Аргумент — Fikrni asoslaydigan dalil",
+   "h": "Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  },
+  {
+   "topic": "russian_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Matn, uslub va dalil: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Пример",
+     "Dalilni ko‘rsatadigan aniq holat"
+    ],
+    [
+     "Вывод",
+     "Tahlildan kelib chiqqan yakuniy fikr"
+    ],
+    [
+     "Научный стиль",
+     "Aniqlik va atamalarga tayangan bayon"
+    ],
+    [
+     "Художественный стиль",
+     "Obraz va tasvirga tayangan bayon"
+    ]
+   ],
+   "d": 1,
+   "x": "Пример — Dalilni ko‘rsatadigan aniq holat; Вывод — Tahlildan kelib chiqqan yakuniy fikr; Научный стиль — Aniqlik va atamalarga tayangan bayon; Художественный стиль — Obraz va tasvirga tayangan bayon",
+   "h": "Misol: “Чтение полезно” — tezis. O‘qish lug‘atni kengaytirishi haqidagi dalil va aniq misol bilan fikrni asoslaymiz. Mavzu bilan asosiy fikrni farqlaymiz."
+  }
+ ]
+}

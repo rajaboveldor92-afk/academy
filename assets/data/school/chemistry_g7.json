@@ -1,0 +1,309 @@
+{
+ "subject": "chemistry",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Kimyo",
+  "en": "Chemistry",
+  "ru": "Химия"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "chemistry_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Modda va aralashmalar",
+    "en": "Modda va aralashmalar",
+    "ru": "Modda va aralashmalar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Modda va aralashmalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Modda — Jismlarni tashkil etadigan material; Sof modda — Tarkibi muayyan bitta modda; Aralashma — Bir necha moddaning birgalikdagi to‘plami; Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma; Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma; Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish; Bug‘latish — Erituvchini bug‘ga aylantirib ajratish; Distillash — Bug‘lanish va kondensatsiya orqali ajratish.\n\nMisol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Modda va aralashmalar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Atom, element va formula",
+    "en": "Atom, element va formula",
+    "ru": "Atom, element va formula"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Atom, element va formula",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Atom — Kimyoviy element xossalarini saqlovchi kichik zarra; Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi; Molekula — Bog‘langan atomlardan tashkil topgan zarra; Kimyoviy belgi — Elementning qisqa harfli yozuvi; Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish; Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam; Oddiy modda — Bitta element atomlaridan tashkil topgan modda; Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda.\n\nMisol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Atom, element va formula",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Kimyoviy hodisa va tenglama",
+    "en": "Kimyoviy hodisa va tenglama",
+    "ru": "Kimyoviy hodisa va tenglama"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Kimyoviy hodisa va tenglama",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish; Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish; Reagent — Reaksiyaga kirishadigan modda; Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda; Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam; Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi; Tenglashtirish — Har element atom sonini ikki tomonda teng qilish; Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili.\n\nMisol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Kimyoviy hodisa va tenglama",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Kislorod, vodorod va suv",
+    "en": "Kislorod, vodorod va suv",
+    "ru": "Kislorod, vodorod va suv"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kislorod, vodorod va suv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz; Vodorod — Eng yengil elementning H₂ oddiy moddasi; Suv — H₂O formulali murakkab modda; Oksid — Ikki elementdan biri kislorod bo‘lgan birikma; Erituvchi — Boshqa modda eriydigan muhit; Erigan modda — Erituvchida tarqalgan modda; Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi; Massa ulushi — Komponent massasining jami massaga nisbati.\n\nMisol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kislorod, vodorod va suv",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g7.unit1",
+      "chemistry_g7.unit2",
+      "chemistry_g7.unit3",
+      "chemistry_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit1",
+      "chemistry_g7.unit2",
+      "chemistry_g7.unit3",
+      "chemistry_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g7.unit1",
+      "chemistry_g7.unit2",
+      "chemistry_g7.unit3",
+      "chemistry_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

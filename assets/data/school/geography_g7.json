@@ -1,0 +1,309 @@
+{
+ "subject": "geography",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Geografiya",
+  "en": "Geography",
+  "ru": "География"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "geography_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Xarita va geografik koordinatalar",
+    "en": "Xarita va geografik koordinatalar",
+    "ru": "Xarita va geografik koordinatalar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Xarita va geografik koordinatalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq; Parallel — Ekvatorga parallel aylana; Meridian — Qutblarni tutashtiradigan yarim aylana; Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi; Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi; Masshtab — Xaritadagi va joydagi masofalar nisbati; Legenda — Xarita shartli belgilarining izohi; Mutlaq balandlik — Dengiz sathiga nisbatan balandlik.\n\nMisol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Xarita va geografik koordinatalar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yer qobiqlari va relyef",
+    "en": "Yer qobiqlari va relyef",
+    "ru": "Yer qobiqlari va relyef"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Yer qobiqlari va relyef",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Litosfera — Yerning qattiq tashqi qobig‘i; Gidrosfera — Yer suvlarining majmui; Atmosfera — Yerni o‘ragan gaz qobig‘i; Biosfera — Hayot mavjud bo‘lgan sohalar majmui; Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi; Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef; Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi; Eroziya — Suv yoki shamolning jinslarni yemirishi.\n\nMisol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Yer qobiqlari va relyef",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yevrosiyo tabiati",
+    "en": "Yevrosiyo tabiati",
+    "ru": "Yevrosiyo tabiati"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Yevrosiyo tabiati",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik; Himolay — Yevrosiyodagi eng baland tog‘ tizimi; Baykal — Dunyodagi eng chuqur ko‘l; Kaspiy — Yuzasi bo‘yicha eng katta ko‘l; Tayga — Ignabargli o‘rmonlar tabiiy zonasi; Dasht — O‘tlar ustun bo‘lgan tabiiy zona; Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol; Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim.\n\nMisol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Yevrosiyo tabiati",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Tabiiy resurs va muhit",
+    "en": "Tabiiy resurs va muhit",
+    "ru": "Tabiiy resurs va muhit"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tabiiy resurs va muhit",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba; Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba; Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi; Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud; Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi; Ifloslanish — Muhitga zararli moddalar kirishi; Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish; Monitoring — Muhit holatini muntazam kuzatish.\n\nMisol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tabiiy resurs va muhit",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "geography_g7.unit1",
+      "geography_g7.unit2",
+      "geography_g7.unit3",
+      "geography_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g7.unit1",
+      "geography_g7.unit2",
+      "geography_g7.unit3",
+      "geography_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g7.unit1",
+      "geography_g7.unit2",
+      "geography_g7.unit3",
+      "geography_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

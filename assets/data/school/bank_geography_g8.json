@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«O‘zbekiston» uchun mos ma’noni tanlang.",
+   "a": "Markaziy Osiyoda joylashgan davlat",
+   "w": [
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l",
+    "Sharqda tog‘lar orasidagi keng vodiy"
+   ],
+   "d": 1,
+   "x": "O‘zbekiston — Markaziy Osiyoda joylashgan davlat. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "O‘zbekiston — Markaziy Osiyoda joylashgan davlat. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Markaziy Osiyoda joylashgan davlat» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘zbekiston",
+   "w": [
+    "Toshkent",
+    "Qizilqum",
+    "Farg‘ona vodiysi"
+   ],
+   "d": 2,
+   "x": "O‘zbekiston — Markaziy Osiyoda joylashgan davlat. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "O‘zbekiston — Markaziy Osiyoda joylashgan davlat. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Toshkent» uchun mos ma’noni tanlang.",
+   "a": "O‘zbekiston poytaxti",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "Mamlakatdagi yirik cho‘l",
+    "Sharqda tog‘lar orasidagi keng vodiy"
+   ],
+   "d": 1,
+   "x": "Toshkent — O‘zbekiston poytaxti. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Toshkent — O‘zbekiston poytaxti. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«O‘zbekiston poytaxti» qaysi tushuncha yoki iboraga mos?",
+   "a": "Toshkent",
+   "w": [
+    "O‘zbekiston",
+    "Qizilqum",
+    "Farg‘ona vodiysi"
+   ],
+   "d": 2,
+   "x": "Toshkent — O‘zbekiston poytaxti. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Toshkent — O‘zbekiston poytaxti. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Qizilqum» uchun mos ma’noni tanlang.",
+   "a": "Mamlakatdagi yirik cho‘l",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Sharqda tog‘lar orasidagi keng vodiy"
+   ],
+   "d": 1,
+   "x": "Qizilqum — Mamlakatdagi yirik cho‘l. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Qizilqum — Mamlakatdagi yirik cho‘l. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Mamlakatdagi yirik cho‘l» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qizilqum",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Farg‘ona vodiysi"
+   ],
+   "d": 2,
+   "x": "Qizilqum — Mamlakatdagi yirik cho‘l. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Qizilqum — Mamlakatdagi yirik cho‘l. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Farg‘ona vodiysi» uchun mos ma’noni tanlang.",
+   "a": "Sharqda tog‘lar orasidagi keng vodiy",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l"
+   ],
+   "d": 1,
+   "x": "Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Sharqda tog‘lar orasidagi keng vodiy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Farg‘ona vodiysi",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Qizilqum"
+   ],
+   "d": 2,
+   "x": "Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Tyan-Shan» uchun mos ma’noni tanlang.",
+   "a": "Sharq va shimoli-sharqqa tutash tog‘ tizimi",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l"
+   ],
+   "d": 1,
+   "x": "Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Sharq va shimoli-sharqqa tutash tog‘ tizimi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tyan-Shan",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Qizilqum"
+   ],
+   "d": 2,
+   "x": "Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Hisor tizmasi» uchun mos ma’noni tanlang.",
+   "a": "Janubdagi baland tog‘ tizmalaridan biri",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l"
+   ],
+   "d": 1,
+   "x": "Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Janubdagi baland tog‘ tizmalaridan biri» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hisor tizmasi",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Qizilqum"
+   ],
+   "d": 2,
+   "x": "Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Amudaryo» uchun mos ma’noni tanlang.",
+   "a": "Orol havzasining yirik daryosi",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l"
+   ],
+   "d": 1,
+   "x": "Amudaryo — Orol havzasining yirik daryosi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Amudaryo — Orol havzasining yirik daryosi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Orol havzasining yirik daryosi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Amudaryo",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Qizilqum"
+   ],
+   "d": 2,
+   "x": "Amudaryo — Orol havzasining yirik daryosi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Amudaryo — Orol havzasining yirik daryosi. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Sirdaryo» uchun mos ma’noni tanlang.",
+   "a": "Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo",
+   "w": [
+    "Markaziy Osiyoda joylashgan davlat",
+    "O‘zbekiston poytaxti",
+    "Mamlakatdagi yirik cho‘l"
+   ],
+   "d": 1,
+   "x": "Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sirdaryo",
+   "w": [
+    "O‘zbekiston",
+    "Toshkent",
+    "Qizilqum"
+   ],
+   "d": 2,
+   "x": "Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.",
+   "h": "Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo. Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "O‘zbekistonning joylashuvi va relyefi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "O‘zbekiston",
+     "Markaziy Osiyoda joylashgan davlat"
+    ],
+    [
+     "Toshkent",
+     "O‘zbekiston poytaxti"
+    ],
+    [
+     "Qizilqum",
+     "Mamlakatdagi yirik cho‘l"
+    ],
+    [
+     "Farg‘ona vodiysi",
+     "Sharqda tog‘lar orasidagi keng vodiy"
+    ]
+   ],
+   "d": 1,
+   "x": "O‘zbekiston — Markaziy Osiyoda joylashgan davlat; Toshkent — O‘zbekiston poytaxti; Qizilqum — Mamlakatdagi yirik cho‘l; Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy",
+   "h": "Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "O‘zbekistonning joylashuvi va relyefi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Tyan-Shan",
+     "Sharq va shimoli-sharqqa tutash tog‘ tizimi"
+    ],
+    [
+     "Hisor tizmasi",
+     "Janubdagi baland tog‘ tizmalaridan biri"
+    ],
+    [
+     "Amudaryo",
+     "Orol havzasining yirik daryosi"
+    ],
+    [
+     "Sirdaryo",
+     "Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo"
+    ]
+   ],
+   "d": 1,
+   "x": "Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi; Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri; Amudaryo — Orol havzasining yirik daryosi; Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo",
+   "h": "Misol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Keskin kontinental iqlim» uchun mos ma’noni tanlang.",
+   "a": "Yoz va qish harorati farqi katta iqlim",
+   "w": [
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan",
+    "Suvni yig‘ib tartibga soluvchi havza"
+   ],
+   "d": 1,
+   "x": "Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Yoz va qish harorati farqi katta iqlim» qaysi tushuncha yoki iboraga mos?",
+   "a": "Keskin kontinental iqlim",
+   "w": [
+    "Sug‘orish",
+    "Kanal",
+    "Suv ombori"
+   ],
+   "d": 2,
+   "x": "Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Sug‘orish» uchun mos ma’noni tanlang.",
+   "a": "Ekin maydoniga sun’iy suv yetkazish",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan",
+    "Suvni yig‘ib tartibga soluvchi havza"
+   ],
+   "d": 1,
+   "x": "Sug‘orish — Ekin maydoniga sun’iy suv yetkazish. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Sug‘orish — Ekin maydoniga sun’iy suv yetkazish. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Ekin maydoniga sun’iy suv yetkazish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sug‘orish",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Kanal",
+    "Suv ombori"
+   ],
+   "d": 2,
+   "x": "Sug‘orish — Ekin maydoniga sun’iy suv yetkazish. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Sug‘orish — Ekin maydoniga sun’iy suv yetkazish. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Kanal» uchun mos ma’noni tanlang.",
+   "a": "Suvni yo‘naltirish uchun qurilgan o‘zan",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yig‘ib tartibga soluvchi havza"
+   ],
+   "d": 1,
+   "x": "Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Suvni yo‘naltirish uchun qurilgan o‘zan» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kanal",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Suv ombori"
+   ],
+   "d": 2,
+   "x": "Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Suv ombori» uchun mos ma’noni tanlang.",
+   "a": "Suvni yig‘ib tartibga soluvchi havza",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan"
+   ],
+   "d": 1,
+   "x": "Suv ombori — Suvni yig‘ib tartibga soluvchi havza. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Suv ombori — Suvni yig‘ib tartibga soluvchi havza. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Suvni yig‘ib tartibga soluvchi havza» qaysi tushuncha yoki iboraga mos?",
+   "a": "Suv ombori",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Kanal"
+   ],
+   "d": 2,
+   "x": "Suv ombori — Suvni yig‘ib tartibga soluvchi havza. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Suv ombori — Suvni yig‘ib tartibga soluvchi havza. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Sho‘rlanish» uchun mos ma’noni tanlang.",
+   "a": "Tuproqda eruvchan tuzlar to‘planishi",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan"
+   ],
+   "d": 1,
+   "x": "Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Tuproqda eruvchan tuzlar to‘planishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sho‘rlanish",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Kanal"
+   ],
+   "d": 2,
+   "x": "Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Bo‘z tuproq» uchun mos ma’noni tanlang.",
+   "a": "Quruq subtropik tog‘oldi hududlariga xos tuproq",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan"
+   ],
+   "d": 1,
+   "x": "Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Quruq subtropik tog‘oldi hududlariga xos tuproq» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bo‘z tuproq",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Kanal"
+   ],
+   "d": 2,
+   "x": "Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Drenaj» uchun mos ma’noni tanlang.",
+   "a": "Ortiqcha yerosti suvini chiqarish tizimi",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan"
+   ],
+   "d": 1,
+   "x": "Drenaj — Ortiqcha yerosti suvini chiqarish tizimi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Drenaj — Ortiqcha yerosti suvini chiqarish tizimi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Ortiqcha yerosti suvini chiqarish tizimi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Drenaj",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Kanal"
+   ],
+   "d": 2,
+   "x": "Drenaj — Ortiqcha yerosti suvini chiqarish tizimi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Drenaj — Ortiqcha yerosti suvini chiqarish tizimi. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Suvni tejovchi usul» uchun mos ma’noni tanlang.",
+   "a": "Ekin suv sarfini kamaytiradigan sug‘orish yo‘li",
+   "w": [
+    "Yoz va qish harorati farqi katta iqlim",
+    "Ekin maydoniga sun’iy suv yetkazish",
+    "Suvni yo‘naltirish uchun qurilgan o‘zan"
+   ],
+   "d": 1,
+   "x": "Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Ekin suv sarfini kamaytiradigan sug‘orish yo‘li» qaysi tushuncha yoki iboraga mos?",
+   "a": "Suvni tejovchi usul",
+   "w": [
+    "Keskin kontinental iqlim",
+    "Sug‘orish",
+    "Kanal"
+   ],
+   "d": 2,
+   "x": "Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.",
+   "h": "Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li. Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Iqlim, suv va tuproq: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Keskin kontinental iqlim",
+     "Yoz va qish harorati farqi katta iqlim"
+    ],
+    [
+     "Sug‘orish",
+     "Ekin maydoniga sun’iy suv yetkazish"
+    ],
+    [
+     "Kanal",
+     "Suvni yo‘naltirish uchun qurilgan o‘zan"
+    ],
+    [
+     "Suv ombori",
+     "Suvni yig‘ib tartibga soluvchi havza"
+    ]
+   ],
+   "d": 1,
+   "x": "Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim; Sug‘orish — Ekin maydoniga sun’iy suv yetkazish; Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan; Suv ombori — Suvni yig‘ib tartibga soluvchi havza",
+   "h": "Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Iqlim, suv va tuproq: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Sho‘rlanish",
+     "Tuproqda eruvchan tuzlar to‘planishi"
+    ],
+    [
+     "Bo‘z tuproq",
+     "Quruq subtropik tog‘oldi hududlariga xos tuproq"
+    ],
+    [
+     "Drenaj",
+     "Ortiqcha yerosti suvini chiqarish tizimi"
+    ],
+    [
+     "Suvni tejovchi usul",
+     "Ekin suv sarfini kamaytiradigan sug‘orish yo‘li"
+    ]
+   ],
+   "d": 1,
+   "x": "Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi; Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq; Drenaj — Ortiqcha yerosti suvini chiqarish tizimi; Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li",
+   "h": "Misol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Aholi zichligi» uchun mos ma’noni tanlang.",
+   "a": "Hudud birligiga to‘g‘ri keladigan aholi soni",
+   "w": [
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi",
+    "Mehnat qilish imkoniyatiga ega aholi"
+   ],
+   "d": 1,
+   "x": "Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Hudud birligiga to‘g‘ri keladigan aholi soni» qaysi tushuncha yoki iboraga mos?",
+   "a": "Aholi zichligi",
+   "w": [
+    "Urbanizatsiya",
+    "Migratsiya",
+    "Mehnat resursi"
+   ],
+   "d": 2,
+   "x": "Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Urbanizatsiya» uchun mos ma’noni tanlang.",
+   "a": "Shaharlar va shahar aholi ulushining o‘sishi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Aholining yashash joyini o‘zgartirishi",
+    "Mehnat qilish imkoniyatiga ega aholi"
+   ],
+   "d": 1,
+   "x": "Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Shaharlar va shahar aholi ulushining o‘sishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Urbanizatsiya",
+   "w": [
+    "Aholi zichligi",
+    "Migratsiya",
+    "Mehnat resursi"
+   ],
+   "d": 2,
+   "x": "Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Migratsiya» uchun mos ma’noni tanlang.",
+   "a": "Aholining yashash joyini o‘zgartirishi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Mehnat qilish imkoniyatiga ega aholi"
+   ],
+   "d": 1,
+   "x": "Migratsiya — Aholining yashash joyini o‘zgartirishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Migratsiya — Aholining yashash joyini o‘zgartirishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Aholining yashash joyini o‘zgartirishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Migratsiya",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Mehnat resursi"
+   ],
+   "d": 2,
+   "x": "Migratsiya — Aholining yashash joyini o‘zgartirishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Migratsiya — Aholining yashash joyini o‘zgartirishi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Mehnat resursi» uchun mos ma’noni tanlang.",
+   "a": "Mehnat qilish imkoniyatiga ega aholi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi"
+   ],
+   "d": 1,
+   "x": "Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Mehnat qilish imkoniyatiga ega aholi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mehnat resursi",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Migratsiya"
+   ],
+   "d": 2,
+   "x": "Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Sanoat» uchun mos ma’noni tanlang.",
+   "a": "Xomashyoni qayta ishlash va mahsulot yaratish sohasi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi"
+   ],
+   "d": 1,
+   "x": "Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Xomashyoni qayta ishlash va mahsulot yaratish sohasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sanoat",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Migratsiya"
+   ],
+   "d": 2,
+   "x": "Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Qishloq xo‘jaligi» uchun mos ma’noni tanlang.",
+   "a": "Dehqonchilik va chorvachilik sohasi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi"
+   ],
+   "d": 1,
+   "x": "Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Dehqonchilik va chorvachilik sohasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qishloq xo‘jaligi",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Migratsiya"
+   ],
+   "d": 2,
+   "x": "Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Xizmat ko‘rsatish» uchun mos ma’noni tanlang.",
+   "a": "Aholi ehtiyojiga xizmat taqdim etish sohasi",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi"
+   ],
+   "d": 1,
+   "x": "Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Aholi ehtiyojiga xizmat taqdim etish sohasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Xizmat ko‘rsatish",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Migratsiya"
+   ],
+   "d": 2,
+   "x": "Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Transport tuguni» uchun mos ma’noni tanlang.",
+   "a": "Bir necha transport yo‘li tutashgan joy",
+   "w": [
+    "Hudud birligiga to‘g‘ri keladigan aholi soni",
+    "Shaharlar va shahar aholi ulushining o‘sishi",
+    "Aholining yashash joyini o‘zgartirishi"
+   ],
+   "d": 1,
+   "x": "Transport tuguni — Bir necha transport yo‘li tutashgan joy. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Transport tuguni — Bir necha transport yo‘li tutashgan joy. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Bir necha transport yo‘li tutashgan joy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Transport tuguni",
+   "w": [
+    "Aholi zichligi",
+    "Urbanizatsiya",
+    "Migratsiya"
+   ],
+   "d": 2,
+   "x": "Transport tuguni — Bir necha transport yo‘li tutashgan joy. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.",
+   "h": "Transport tuguni — Bir necha transport yo‘li tutashgan joy. Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Aholi va xo‘jalik joylashuvi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Aholi zichligi",
+     "Hudud birligiga to‘g‘ri keladigan aholi soni"
+    ],
+    [
+     "Urbanizatsiya",
+     "Shaharlar va shahar aholi ulushining o‘sishi"
+    ],
+    [
+     "Migratsiya",
+     "Aholining yashash joyini o‘zgartirishi"
+    ],
+    [
+     "Mehnat resursi",
+     "Mehnat qilish imkoniyatiga ega aholi"
+    ]
+   ],
+   "d": 1,
+   "x": "Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni; Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi; Migratsiya — Aholining yashash joyini o‘zgartirishi; Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi",
+   "h": "Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Aholi va xo‘jalik joylashuvi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Sanoat",
+     "Xomashyoni qayta ishlash va mahsulot yaratish sohasi"
+    ],
+    [
+     "Qishloq xo‘jaligi",
+     "Dehqonchilik va chorvachilik sohasi"
+    ],
+    [
+     "Xizmat ko‘rsatish",
+     "Aholi ehtiyojiga xizmat taqdim etish sohasi"
+    ],
+    [
+     "Transport tuguni",
+     "Bir necha transport yo‘li tutashgan joy"
+    ]
+   ],
+   "d": 1,
+   "x": "Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi; Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi; Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi; Transport tuguni — Bir necha transport yo‘li tutashgan joy",
+   "h": "Misol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Xomashyo omili» uchun mos ma’noni tanlang.",
+   "a": "Korxonani material manbasiga yaqin joylashtirish sababi",
+   "w": [
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi",
+    "Yuk oqimini rejalash va tashkil etish"
+   ],
+   "d": 1,
+   "x": "Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Korxonani material manbasiga yaqin joylashtirish sababi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Xomashyo omili",
+   "w": [
+    "Energiya omili",
+    "Iste’molchi omili",
+    "Logistika"
+   ],
+   "d": 2,
+   "x": "Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Energiya omili» uchun mos ma’noni tanlang.",
+   "a": "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi",
+    "Yuk oqimini rejalash va tashkil etish"
+   ],
+   "d": 1,
+   "x": "Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili» qaysi tushuncha yoki iboraga mos?",
+   "a": "Energiya omili",
+   "w": [
+    "Xomashyo omili",
+    "Iste’molchi omili",
+    "Logistika"
+   ],
+   "d": 2,
+   "x": "Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Iste’molchi omili» uchun mos ma’noni tanlang.",
+   "a": "Mahsulot xaridoriga yaqin bo‘lish sababi",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Yuk oqimini rejalash va tashkil etish"
+   ],
+   "d": 1,
+   "x": "Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Mahsulot xaridoriga yaqin bo‘lish sababi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Iste’molchi omili",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Logistika"
+   ],
+   "d": 2,
+   "x": "Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Logistika» uchun mos ma’noni tanlang.",
+   "a": "Yuk oqimini rejalash va tashkil etish",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi"
+   ],
+   "d": 1,
+   "x": "Logistika — Yuk oqimini rejalash va tashkil etish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Logistika — Yuk oqimini rejalash va tashkil etish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Yuk oqimini rejalash va tashkil etish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Logistika",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Iste’molchi omili"
+   ],
+   "d": 2,
+   "x": "Logistika — Yuk oqimini rejalash va tashkil etish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Logistika — Yuk oqimini rejalash va tashkil etish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Ixtisoslashuv» uchun mos ma’noni tanlang.",
+   "a": "Hududning ayrim mahsulot yoki xizmatga yo‘nalishi",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi"
+   ],
+   "d": 1,
+   "x": "Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Hududning ayrim mahsulot yoki xizmatga yo‘nalishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ixtisoslashuv",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Iste’molchi omili"
+   ],
+   "d": 2,
+   "x": "Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Kooperatsiya» uchun mos ma’noni tanlang.",
+   "a": "Korxonalarning ishlab chiqarishda hamkorligi",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi"
+   ],
+   "d": 1,
+   "x": "Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Korxonalarning ishlab chiqarishda hamkorligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kooperatsiya",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Iste’molchi omili"
+   ],
+   "d": 2,
+   "x": "Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Qayta ishlash» uchun mos ma’noni tanlang.",
+   "a": "Chiqindidan yangi material olish",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi"
+   ],
+   "d": 1,
+   "x": "Qayta ishlash — Chiqindidan yangi material olish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Qayta ishlash — Chiqindidan yangi material olish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Chiqindidan yangi material olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qayta ishlash",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Iste’molchi omili"
+   ],
+   "d": 2,
+   "x": "Qayta ishlash — Chiqindidan yangi material olish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Qayta ishlash — Chiqindidan yangi material olish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Ekologik baholash» uchun mos ma’noni tanlang.",
+   "a": "Loyihaning muhitga ta’sirini oldindan tahlil qilish",
+   "w": [
+    "Korxonani material manbasiga yaqin joylashtirish sababi",
+    "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili",
+    "Mahsulot xaridoriga yaqin bo‘lish sababi"
+   ],
+   "d": 1,
+   "x": "Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Loyihaning muhitga ta’sirini oldindan tahlil qilish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ekologik baholash",
+   "w": [
+    "Xomashyo omili",
+    "Energiya omili",
+    "Iste’molchi omili"
+   ],
+   "d": 2,
+   "x": "Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.",
+   "h": "Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish. Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Hududiy iqtisodiyot va ekologiya: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Xomashyo omili",
+     "Korxonani material manbasiga yaqin joylashtirish sababi"
+    ],
+    [
+     "Energiya omili",
+     "Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili"
+    ],
+    [
+     "Iste’molchi omili",
+     "Mahsulot xaridoriga yaqin bo‘lish sababi"
+    ],
+    [
+     "Logistika",
+     "Yuk oqimini rejalash va tashkil etish"
+    ]
+   ],
+   "d": 1,
+   "x": "Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi; Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili; Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi; Logistika — Yuk oqimini rejalash va tashkil etish",
+   "h": "Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  },
+  {
+   "topic": "geography_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Hududiy iqtisodiyot va ekologiya: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Ixtisoslashuv",
+     "Hududning ayrim mahsulot yoki xizmatga yo‘nalishi"
+    ],
+    [
+     "Kooperatsiya",
+     "Korxonalarning ishlab chiqarishda hamkorligi"
+    ],
+    [
+     "Qayta ishlash",
+     "Chiqindidan yangi material olish"
+    ],
+    [
+     "Ekologik baholash",
+     "Loyihaning muhitga ta’sirini oldindan tahlil qilish"
+    ]
+   ],
+   "d": 1,
+   "x": "Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi; Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi; Qayta ishlash — Chiqindidan yangi material olish; Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish",
+   "h": "Misol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi."
+  }
+ ]
+}

@@ -38,8 +38,11 @@ Fayl mavjudligi darslik yoki davlat o‘quv dasturi 100% qamralganini anglatmayd
 '''+ '\n'.join(rows)+f'''\n
 Hali kontent fayli bo‘lmagan sinf–fan juftliklari: **{len(missing)}**.
 
-Texnologiya: 3- va 5-sinfda har biri 4 asosiy mavzu + 4 amaliy ustaxona + 5 nazorat/takrorlash mavzusi.
-Asosiy mavzulardagi eski takroriy banklar mavzuga mos 128 ta original mashq va 5 ta virtual zanjir topshirig‘i bilan almashtirildi.
+Texnologiya: 3-sinfda 6 asosiy mavzu + 6 ustaxona + 8 nazorat; 5-sinfda 7 asosiy mavzu + 7 ustaxona + 9 nazorat.
+Mavzuga mos 208 ta original mashq va 5 ta virtual zanjir topshirig‘i bor.
+Profil bo‘yicha tavsiya: qiz — servis/hunarmandchilik, o‘g‘il — texnik loyihalash. Ota-ona istalgan yo‘nalishni yoki ikkalasini tanlaydi.
+Umumiy mavzular ikkala yo‘nalishda qoladi; yo‘nalish nazoratlari faqat tegishli mavzularni so‘raydi.
+Avval yetishmagan 22 dasturga 88 asosiy mavzu, 110 nazorat/takrorlash va 1560 bank topshirig‘i qo‘shildi.
 Ustaxona har safar 6 ta interaktiv mashq beradi; tanlash testi bu mashg‘ulotga kirmaydi.
 Saralash va ketma-ketlik kartalari telefonda o‘qiladigan matn bilan ko‘rsatiladi.
 Virtual zanjir ideal batareya–kalit–lampochka modelidir: qarshilik yoki tok miqdori hisoblanmaydi.
@@ -51,7 +54,9 @@ Qamrovdagi qolgan bo‘shliqlar quyidagicha:
 '''+ '\n'.join(f'- {subject}: {", ".join(str(g) for s,g in missing if s==subject)}-sinf' for subject in dict.fromkeys(s for s,_ in missing))+ '\n'
     target = ROOT/'docs/school-content-audit.md'
     target.parent.mkdir(exist_ok=True)
-    target.write_text(text)
+    if not missing:
+        text = text.replace('Qamrovdagi qolgan bo‘shliqlar quyidagicha:', 'E’lon qilingan sinf–fan juftliklarida kontent fayli bo‘shlig‘i qolmadi.')
+    target.write_text(text.rstrip()+'\n')
     print(f'Audit: {len(rows)} subjects, {len(missing)} missing declared grade/subject files')
     return missing
 

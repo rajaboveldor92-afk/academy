@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Proton» uchun mos ma’noni tanlang.",
+   "a": "Yadrodagi musbat zaryadli zarra",
+   "w": [
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra",
+    "Yadrodagi protonlar soni"
+   ],
+   "d": 1,
+   "x": "Proton — Yadrodagi musbat zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Proton — Yadrodagi musbat zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Yadrodagi musbat zaryadli zarra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Proton",
+   "w": [
+    "Neytron",
+    "Elektron",
+    "Atom raqami"
+   ],
+   "d": 2,
+   "x": "Proton — Yadrodagi musbat zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Proton — Yadrodagi musbat zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Neytron» uchun mos ma’noni tanlang.",
+   "a": "Yadrodagi elektr neytral zarra",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Manfiy zaryadli zarra",
+    "Yadrodagi protonlar soni"
+   ],
+   "d": 1,
+   "x": "Neytron — Yadrodagi elektr neytral zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Neytron — Yadrodagi elektr neytral zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Yadrodagi elektr neytral zarra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Neytron",
+   "w": [
+    "Proton",
+    "Elektron",
+    "Atom raqami"
+   ],
+   "d": 2,
+   "x": "Neytron — Yadrodagi elektr neytral zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Neytron — Yadrodagi elektr neytral zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Elektron» uchun mos ma’noni tanlang.",
+   "a": "Manfiy zaryadli zarra",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Yadrodagi protonlar soni"
+   ],
+   "d": 1,
+   "x": "Elektron — Manfiy zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Elektron — Manfiy zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Manfiy zaryadli zarra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektron",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Atom raqami"
+   ],
+   "d": 2,
+   "x": "Elektron — Manfiy zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Elektron — Manfiy zaryadli zarra. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Atom raqami» uchun mos ma’noni tanlang.",
+   "a": "Yadrodagi protonlar soni",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra"
+   ],
+   "d": 1,
+   "x": "Atom raqami — Yadrodagi protonlar soni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Atom raqami — Yadrodagi protonlar soni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Yadrodagi protonlar soni» qaysi tushuncha yoki iboraga mos?",
+   "a": "Atom raqami",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Elektron"
+   ],
+   "d": 2,
+   "x": "Atom raqami — Yadrodagi protonlar soni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Atom raqami — Yadrodagi protonlar soni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Massa soni» uchun mos ma’noni tanlang.",
+   "a": "Proton va neytronlar soni yig‘indisi",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra"
+   ],
+   "d": 1,
+   "x": "Massa soni — Proton va neytronlar soni yig‘indisi. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Massa soni — Proton va neytronlar soni yig‘indisi. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Proton va neytronlar soni yig‘indisi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Massa soni",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Elektron"
+   ],
+   "d": 2,
+   "x": "Massa soni — Proton va neytronlar soni yig‘indisi. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Massa soni — Proton va neytronlar soni yig‘indisi. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Izotop» uchun mos ma’noni tanlang.",
+   "a": "Proton soni bir xil, neytron soni turlicha atom",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra"
+   ],
+   "d": 1,
+   "x": "Izotop — Proton soni bir xil, neytron soni turlicha atom. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Izotop — Proton soni bir xil, neytron soni turlicha atom. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Proton soni bir xil, neytron soni turlicha atom» qaysi tushuncha yoki iboraga mos?",
+   "a": "Izotop",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Elektron"
+   ],
+   "d": 2,
+   "x": "Izotop — Proton soni bir xil, neytron soni turlicha atom. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Izotop — Proton soni bir xil, neytron soni turlicha atom. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Davr» uchun mos ma’noni tanlang.",
+   "a": "Davriy jadvalning gorizontal qatori",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra"
+   ],
+   "d": 1,
+   "x": "Davr — Davriy jadvalning gorizontal qatori. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Davr — Davriy jadvalning gorizontal qatori. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Davriy jadvalning gorizontal qatori» qaysi tushuncha yoki iboraga mos?",
+   "a": "Davr",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Elektron"
+   ],
+   "d": 2,
+   "x": "Davr — Davriy jadvalning gorizontal qatori. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Davr — Davriy jadvalning gorizontal qatori. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Guruh» uchun mos ma’noni tanlang.",
+   "a": "Davriy jadvalning vertikal ustuni",
+   "w": [
+    "Yadrodagi musbat zaryadli zarra",
+    "Yadrodagi elektr neytral zarra",
+    "Manfiy zaryadli zarra"
+   ],
+   "d": 1,
+   "x": "Guruh — Davriy jadvalning vertikal ustuni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Guruh — Davriy jadvalning vertikal ustuni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Davriy jadvalning vertikal ustuni» qaysi tushuncha yoki iboraga mos?",
+   "a": "Guruh",
+   "w": [
+    "Proton",
+    "Neytron",
+    "Elektron"
+   ],
+   "d": 2,
+   "x": "Guruh — Davriy jadvalning vertikal ustuni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.",
+   "h": "Guruh — Davriy jadvalning vertikal ustuni. Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Atom tuzilishi va davriy jadval: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Proton",
+     "Yadrodagi musbat zaryadli zarra"
+    ],
+    [
+     "Neytron",
+     "Yadrodagi elektr neytral zarra"
+    ],
+    [
+     "Elektron",
+     "Manfiy zaryadli zarra"
+    ],
+    [
+     "Atom raqami",
+     "Yadrodagi protonlar soni"
+    ]
+   ],
+   "d": 1,
+   "x": "Proton — Yadrodagi musbat zaryadli zarra; Neytron — Yadrodagi elektr neytral zarra; Elektron — Manfiy zaryadli zarra; Atom raqami — Yadrodagi protonlar soni",
+   "h": "Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Atom tuzilishi va davriy jadval: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Massa soni",
+     "Proton va neytronlar soni yig‘indisi"
+    ],
+    [
+     "Izotop",
+     "Proton soni bir xil, neytron soni turlicha atom"
+    ],
+    [
+     "Davr",
+     "Davriy jadvalning gorizontal qatori"
+    ],
+    [
+     "Guruh",
+     "Davriy jadvalning vertikal ustuni"
+    ]
+   ],
+   "d": 1,
+   "x": "Massa soni — Proton va neytronlar soni yig‘indisi; Izotop — Proton soni bir xil, neytron soni turlicha atom; Davr — Davriy jadvalning gorizontal qatori; Guruh — Davriy jadvalning vertikal ustuni",
+   "h": "Misol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Kation» uchun mos ma’noni tanlang.",
+   "a": "Musbat zaryadli ion",
+   "w": [
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi",
+    "Umumiy elektron jufti orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "Kation — Musbat zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kation — Musbat zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Musbat zaryadli ion» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kation",
+   "w": [
+    "Anion",
+    "Ion bog‘lanish",
+    "Kovalent bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Kation — Musbat zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kation — Musbat zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Anion» uchun mos ma’noni tanlang.",
+   "a": "Manfiy zaryadli ion",
+   "w": [
+    "Musbat zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi",
+    "Umumiy elektron jufti orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "Anion — Manfiy zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Anion — Manfiy zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Manfiy zaryadli ion» qaysi tushuncha yoki iboraga mos?",
+   "a": "Anion",
+   "w": [
+    "Kation",
+    "Ion bog‘lanish",
+    "Kovalent bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Anion — Manfiy zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Anion — Manfiy zaryadli ion. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Ion bog‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Qarama-qarshi zaryadli ionlarning tortishuvi",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Umumiy elektron jufti orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Qarama-qarshi zaryadli ionlarning tortishuvi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ion bog‘lanish",
+   "w": [
+    "Kation",
+    "Anion",
+    "Kovalent bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Kovalent bog‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Umumiy elektron jufti orqali bog‘lanish",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi"
+   ],
+   "d": 1,
+   "x": "Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Umumiy elektron jufti orqali bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kovalent bog‘lanish",
+   "w": [
+    "Kation",
+    "Anion",
+    "Ion bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Qutbsiz bog‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Umumiy elektronlar teng taqsimlanadigan bog‘lanish",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi"
+   ],
+   "d": 1,
+   "x": "Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Umumiy elektronlar teng taqsimlanadigan bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qutbsiz bog‘lanish",
+   "w": [
+    "Kation",
+    "Anion",
+    "Ion bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Qutbli bog‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Umumiy elektronlar noteng taqsimlanadigan bog‘lanish",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi"
+   ],
+   "d": 1,
+   "x": "Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Umumiy elektronlar noteng taqsimlanadigan bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qutbli bog‘lanish",
+   "w": [
+    "Kation",
+    "Anion",
+    "Ion bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Elektrmanfiylik» uchun mos ma’noni tanlang.",
+   "a": "Atomning bog‘ elektronlarini tortish qobiliyati",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi"
+   ],
+   "d": 1,
+   "x": "Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Atomning bog‘ elektronlarini tortish qobiliyati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektrmanfiylik",
+   "w": [
+    "Kation",
+    "Anion",
+    "Ion bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Kristall panjara» uchun mos ma’noni tanlang.",
+   "a": "Zarralarning qattiq moddadagi tartibli joylashuvi",
+   "w": [
+    "Musbat zaryadli ion",
+    "Manfiy zaryadli ion",
+    "Qarama-qarshi zaryadli ionlarning tortishuvi"
+   ],
+   "d": 1,
+   "x": "Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Zarralarning qattiq moddadagi tartibli joylashuvi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kristall panjara",
+   "w": [
+    "Kation",
+    "Anion",
+    "Ion bog‘lanish"
+   ],
+   "d": 2,
+   "x": "Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.",
+   "h": "Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi. Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Kimyoviy bog‘lanish va ion: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Kation",
+     "Musbat zaryadli ion"
+    ],
+    [
+     "Anion",
+     "Manfiy zaryadli ion"
+    ],
+    [
+     "Ion bog‘lanish",
+     "Qarama-qarshi zaryadli ionlarning tortishuvi"
+    ],
+    [
+     "Kovalent bog‘lanish",
+     "Umumiy elektron jufti orqali bog‘lanish"
+    ]
+   ],
+   "d": 1,
+   "x": "Kation — Musbat zaryadli ion; Anion — Manfiy zaryadli ion; Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi; Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish",
+   "h": "Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Kimyoviy bog‘lanish va ion: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Qutbsiz bog‘lanish",
+     "Umumiy elektronlar teng taqsimlanadigan bog‘lanish"
+    ],
+    [
+     "Qutbli bog‘lanish",
+     "Umumiy elektronlar noteng taqsimlanadigan bog‘lanish"
+    ],
+    [
+     "Elektrmanfiylik",
+     "Atomning bog‘ elektronlarini tortish qobiliyati"
+    ],
+    [
+     "Kristall panjara",
+     "Zarralarning qattiq moddadagi tartibli joylashuvi"
+    ]
+   ],
+   "d": 1,
+   "x": "Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish; Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish; Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati; Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi",
+   "h": "Misol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Asosli oksid» uchun mos ma’noni tanlang.",
+   "a": "Asosga mos keladigan metall oksidi",
+   "w": [
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma",
+    "Suvda eriydigan asos"
+   ],
+   "d": 1,
+   "x": "Asosli oksid — Asosga mos keladigan metall oksidi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Asosli oksid — Asosga mos keladigan metall oksidi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Asosga mos keladigan metall oksidi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Asosli oksid",
+   "w": [
+    "Kislotali oksid",
+    "Asos",
+    "Ishqor"
+   ],
+   "d": 2,
+   "x": "Asosli oksid — Asosga mos keladigan metall oksidi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Asosli oksid — Asosga mos keladigan metall oksidi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Kislotali oksid» uchun mos ma’noni tanlang.",
+   "a": "Kislotaga mos keladigan oksid",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Metall kationi va gidroksid guruhli birikma",
+    "Suvda eriydigan asos"
+   ],
+   "d": 1,
+   "x": "Kislotali oksid — Kislotaga mos keladigan oksid. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Kislotali oksid — Kislotaga mos keladigan oksid. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Kislotaga mos keladigan oksid» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kislotali oksid",
+   "w": [
+    "Asosli oksid",
+    "Asos",
+    "Ishqor"
+   ],
+   "d": 2,
+   "x": "Kislotali oksid — Kislotaga mos keladigan oksid. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Kislotali oksid — Kislotaga mos keladigan oksid. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Asos» uchun mos ma’noni tanlang.",
+   "a": "Metall kationi va gidroksid guruhli birikma",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Suvda eriydigan asos"
+   ],
+   "d": 1,
+   "x": "Asos — Metall kationi va gidroksid guruhli birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Asos — Metall kationi va gidroksid guruhli birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Metall kationi va gidroksid guruhli birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Asos",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Ishqor"
+   ],
+   "d": 2,
+   "x": "Asos — Metall kationi va gidroksid guruhli birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Asos — Metall kationi va gidroksid guruhli birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Ishqor» uchun mos ma’noni tanlang.",
+   "a": "Suvda eriydigan asos",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma"
+   ],
+   "d": 1,
+   "x": "Ishqor — Suvda eriydigan asos. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Ishqor — Suvda eriydigan asos. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Suvda eriydigan asos» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ishqor",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Asos"
+   ],
+   "d": 2,
+   "x": "Ishqor — Suvda eriydigan asos. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Ishqor — Suvda eriydigan asos. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Kislota» uchun mos ma’noni tanlang.",
+   "a": "Eritmada vodorod ionini bera oladigan modda",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma"
+   ],
+   "d": 1,
+   "x": "Kislota — Eritmada vodorod ionini bera oladigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Kislota — Eritmada vodorod ionini bera oladigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Eritmada vodorod ionini bera oladigan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kislota",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Asos"
+   ],
+   "d": 2,
+   "x": "Kislota — Eritmada vodorod ionini bera oladigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Kislota — Eritmada vodorod ionini bera oladigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Tuz» uchun mos ma’noni tanlang.",
+   "a": "Kation va kislota qoldig‘i anionidan tuzilgan birikma",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma"
+   ],
+   "d": 1,
+   "x": "Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Kation va kislota qoldig‘i anionidan tuzilgan birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tuz",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Asos"
+   ],
+   "d": 2,
+   "x": "Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Neytrallanish» uchun mos ma’noni tanlang.",
+   "a": "Kislota va asosdan tuz hamda suv hosil bo‘lishi",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma"
+   ],
+   "d": 1,
+   "x": "Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Kislota va asosdan tuz hamda suv hosil bo‘lishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Neytrallanish",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Asos"
+   ],
+   "d": 2,
+   "x": "Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Indikator» uchun mos ma’noni tanlang.",
+   "a": "Muhitga qarab rangini o‘zgartiradigan modda",
+   "w": [
+    "Asosga mos keladigan metall oksidi",
+    "Kislotaga mos keladigan oksid",
+    "Metall kationi va gidroksid guruhli birikma"
+   ],
+   "d": 1,
+   "x": "Indikator — Muhitga qarab rangini o‘zgartiradigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Indikator — Muhitga qarab rangini o‘zgartiradigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Muhitga qarab rangini o‘zgartiradigan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Indikator",
+   "w": [
+    "Asosli oksid",
+    "Kislotali oksid",
+    "Asos"
+   ],
+   "d": 2,
+   "x": "Indikator — Muhitga qarab rangini o‘zgartiradigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.",
+   "h": "Indikator — Muhitga qarab rangini o‘zgartiradigan modda. Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Anorganik moddalar sinflari: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Asosli oksid",
+     "Asosga mos keladigan metall oksidi"
+    ],
+    [
+     "Kislotali oksid",
+     "Kislotaga mos keladigan oksid"
+    ],
+    [
+     "Asos",
+     "Metall kationi va gidroksid guruhli birikma"
+    ],
+    [
+     "Ishqor",
+     "Suvda eriydigan asos"
+    ]
+   ],
+   "d": 1,
+   "x": "Asosli oksid — Asosga mos keladigan metall oksidi; Kislotali oksid — Kislotaga mos keladigan oksid; Asos — Metall kationi va gidroksid guruhli birikma; Ishqor — Suvda eriydigan asos",
+   "h": "Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Anorganik moddalar sinflari: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Kislota",
+     "Eritmada vodorod ionini bera oladigan modda"
+    ],
+    [
+     "Tuz",
+     "Kation va kislota qoldig‘i anionidan tuzilgan birikma"
+    ],
+    [
+     "Neytrallanish",
+     "Kislota va asosdan tuz hamda suv hosil bo‘lishi"
+    ],
+    [
+     "Indikator",
+     "Muhitga qarab rangini o‘zgartiradigan modda"
+    ]
+   ],
+   "d": 1,
+   "x": "Kislota — Eritmada vodorod ionini bera oladigan modda; Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma; Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi; Indikator — Muhitga qarab rangini o‘zgartiradigan modda",
+   "h": "Misol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Mol» uchun mos ma’noni tanlang.",
+   "a": "Modda miqdorining SI birligi",
+   "w": [
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash",
+    "Bir moldagi zarralar sonini ifodalovchi doimiy"
+   ],
+   "d": 1,
+   "x": "Mol — Modda miqdorining SI birligi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Mol — Modda miqdorining SI birligi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Modda miqdorining SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mol",
+   "w": [
+    "Molyar massa",
+    "Modda miqdori",
+    "Avogadro doimiysi"
+   ],
+   "d": 2,
+   "x": "Mol — Modda miqdorining SI birligi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Mol — Modda miqdorining SI birligi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Molyar massa» uchun mos ma’noni tanlang.",
+   "a": "Bir mol moddaning massasi",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Zarralar miqdorini mol bilan ifodalash",
+    "Bir moldagi zarralar sonini ifodalovchi doimiy"
+   ],
+   "d": 1,
+   "x": "Molyar massa — Bir mol moddaning massasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Molyar massa — Bir mol moddaning massasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Bir mol moddaning massasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Molyar massa",
+   "w": [
+    "Mol",
+    "Modda miqdori",
+    "Avogadro doimiysi"
+   ],
+   "d": 2,
+   "x": "Molyar massa — Bir mol moddaning massasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Molyar massa — Bir mol moddaning massasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Modda miqdori» uchun mos ma’noni tanlang.",
+   "a": "Zarralar miqdorini mol bilan ifodalash",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Bir moldagi zarralar sonini ifodalovchi doimiy"
+   ],
+   "d": 1,
+   "x": "Modda miqdori — Zarralar miqdorini mol bilan ifodalash. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Modda miqdori — Zarralar miqdorini mol bilan ifodalash. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Zarralar miqdorini mol bilan ifodalash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Modda miqdori",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Avogadro doimiysi"
+   ],
+   "d": 2,
+   "x": "Modda miqdori — Zarralar miqdorini mol bilan ifodalash. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Modda miqdori — Zarralar miqdorini mol bilan ifodalash. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Avogadro doimiysi» uchun mos ma’noni tanlang.",
+   "a": "Bir moldagi zarralar sonini ifodalovchi doimiy",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Bir moldagi zarralar sonini ifodalovchi doimiy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Avogadro doimiysi",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Modda miqdori"
+   ],
+   "d": 2,
+   "x": "Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Stexiometrik nisbat» uchun mos ma’noni tanlang.",
+   "a": "Tenglama koeffitsiyentlari bildiradigan mol nisbati",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Tenglama koeffitsiyentlari bildiradigan mol nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Stexiometrik nisbat",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Modda miqdori"
+   ],
+   "d": 2,
+   "x": "Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Cheklovchi reagent» uchun mos ma’noni tanlang.",
+   "a": "Avval tugab reaksiya miqdorini belgilaydigan modda",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Avval tugab reaksiya miqdorini belgilaydigan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Cheklovchi reagent",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Modda miqdori"
+   ],
+   "d": 2,
+   "x": "Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Konsentratsiya» uchun mos ma’noni tanlang.",
+   "a": "Eritmada modda miqdorining ifodasi",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Konsentratsiya — Eritmada modda miqdorining ifodasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Konsentratsiya — Eritmada modda miqdorining ifodasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Eritmada modda miqdorining ifodasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Konsentratsiya",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Modda miqdori"
+   ],
+   "d": 2,
+   "x": "Konsentratsiya — Eritmada modda miqdorining ifodasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Konsentratsiya — Eritmada modda miqdorining ifodasi. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Molyar konsentratsiya» uchun mos ma’noni tanlang.",
+   "a": "Erigan modda molining eritma litriga nisbati",
+   "w": [
+    "Modda miqdorining SI birligi",
+    "Bir mol moddaning massasi",
+    "Zarralar miqdorini mol bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Erigan modda molining eritma litriga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Molyar konsentratsiya",
+   "w": [
+    "Mol",
+    "Molyar massa",
+    "Modda miqdori"
+   ],
+   "d": 2,
+   "x": "Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.",
+   "h": "Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati. Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Mol va miqdoriy hisob: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Mol",
+     "Modda miqdorining SI birligi"
+    ],
+    [
+     "Molyar massa",
+     "Bir mol moddaning massasi"
+    ],
+    [
+     "Modda miqdori",
+     "Zarralar miqdorini mol bilan ifodalash"
+    ],
+    [
+     "Avogadro doimiysi",
+     "Bir moldagi zarralar sonini ifodalovchi doimiy"
+    ]
+   ],
+   "d": 1,
+   "x": "Mol — Modda miqdorining SI birligi; Molyar massa — Bir mol moddaning massasi; Modda miqdori — Zarralar miqdorini mol bilan ifodalash; Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy",
+   "h": "Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  },
+  {
+   "topic": "chemistry_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Mol va miqdoriy hisob: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Stexiometrik nisbat",
+     "Tenglama koeffitsiyentlari bildiradigan mol nisbati"
+    ],
+    [
+     "Cheklovchi reagent",
+     "Avval tugab reaksiya miqdorini belgilaydigan modda"
+    ],
+    [
+     "Konsentratsiya",
+     "Eritmada modda miqdorining ifodasi"
+    ],
+    [
+     "Molyar konsentratsiya",
+     "Erigan modda molining eritma litriga nisbati"
+    ]
+   ],
+   "d": 1,
+   "x": "Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati; Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda; Konsentratsiya — Eritmada modda miqdorining ifodasi; Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati",
+   "h": "Misol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz."
+  }
+ ]
+}

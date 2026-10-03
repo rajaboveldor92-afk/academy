@@ -1,0 +1,309 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "onatili_g8.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "So‘z birikmasi va gap",
+    "en": "So‘z birikmasi va gap",
+    "ru": "So‘z birikmasi va gap"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. So‘z birikmasi va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi; Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z; Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z; Moslashuv — Qaratqich va egalik orqali bog‘lanish; Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish; Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish; Gap — Tugallangan fikrni bildirgan sintaktik birlik; Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi.\n\nMisol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. So‘z birikmasi va gap",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g8.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Gap bo‘laklari",
+    "en": "Gap bo‘laklari",
+    "ru": "Gap bo‘laklari"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Gap bo‘laklari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Ega — Kesim bildirgan harakat yoki holat egasi; Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak; To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak; Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak; Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak; Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi; Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi; Payt holi — Harakat vaqtini bildirgan hol.\n\nMisol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Gap bo‘laklari",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g8.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Sodda gapning tuzilishi",
+    "en": "Sodda gapning tuzilishi",
+    "ru": "Sodda gapning tuzilishi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Sodda gapning tuzilishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap; Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap; Darak gap — Xabar bildirgan gap; So‘roq gap — Savol bildirgan gap; Buyruq gap — Undash yoki buyurishni bildirgan gap; His-hayajon gap — Kuchli hissiyot bilan aytilgan gap; Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak; Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z.\n\nMisol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Sodda gapning tuzilishi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g8.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Kirish, undalma va tahrir",
+    "en": "Kirish, undalma va tahrir",
+    "ru": "Kirish, undalma va tahrir"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kirish, undalma va tahrir",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Undalma — Nutq qaratilgan shaxs yoki narsaning nomi; Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik; Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak; Ko‘chirma gap — Birovning aynan keltirilgan so‘zi; Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism; Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi; Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi; Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi.\n\nMisol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kirish, undalma va tahrir",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g8.unit1",
+      "onatili_g8.unit2",
+      "onatili_g8.unit3",
+      "onatili_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g8.unit1",
+      "onatili_g8.unit2",
+      "onatili_g8.unit3",
+      "onatili_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g8.unit1",
+      "onatili_g8.unit2",
+      "onatili_g8.unit3",
+      "onatili_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

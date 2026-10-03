@@ -1,0 +1,309 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g1",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computing",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "informatics_g1.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Qurilmalar va ularning vazifasi",
+    "en": "Qurilmalar va ularning vazifasi",
+    "ru": "Qurilmalar va ularning vazifasi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Qurilmalar va ularning vazifasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Kompyuter — Ma’lumot bilan ishlaydigan qurilma; Monitor — Rasm va yozuvni ko‘rsatadigan ekran; Klaviatura — Harf va raqam kiritish vositasi; Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi; Printer — Ma’lumotni qog‘ozga chiqarish vositasi; Karnay — Ovozni eshittirish vositasi; Mikrofon — Ovozni kiritish vositasi; Kamera — Tasvirni kiritish vositasi.\n\nMisol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g1.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Qurilmalar va ularning vazifasi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g1.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g1.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g1.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g1.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Axborot va sezgi",
+    "en": "Axborot va sezgi",
+    "ru": "Axborot va sezgi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Axborot va sezgi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Ko‘rish — Rang va shakl haqida ma’lumot olish; Eshitish — Ovoz haqida ma’lumot olish; Hid bilish — Hid haqida ma’lumot olish; Ta’m bilish — Ta’m haqida ma’lumot olish; Teginish — Sirtning silliq yoki g‘adir-budurligini bilish; Rasm — Tasvir orqali berilgan axborot; Yozuv — Harflar orqali berilgan axborot; Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish.\n\nMisol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g1.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Axborot va sezgi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g1.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g1.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g1.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g1.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Tartib va oddiy algoritm",
+    "en": "Tartib va oddiy algoritm",
+    "ru": "Tartib va oddiy algoritm"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Tartib va oddiy algoritm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Algoritm — Vazifani bajarish qadamlari; Boshlash — Birinchi qadamga o‘tish; Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish; Oldinga — Ko‘rsatkich qaragan tomonga yurish; Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish; O‘ngga — O‘ng tomon yo‘nalishi; Chapga — Chap tomon yo‘nalishi; Tugatish — Vazifa bajarilgach to‘xtash.\n\nMisol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g1.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Tartib va oddiy algoritm",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g1.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g1.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g1.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g1.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Qurilmadan ehtiyotkor foydalanish",
+    "en": "Qurilmadan ehtiyotkor foydalanish",
+    "ru": "Qurilmadan ehtiyotkor foydalanish"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Qurilmadan ehtiyotkor foydalanish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash; Tanaffus — Ekrandan uzoqlashib dam olish; Quruq qo‘l — Qurilmaga namlik olib kelmaslik; Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash; Kattadan yordam — Notanish tugma yoki holatni so‘rash; Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash; Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot; Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l.\n\nMisol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g1.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Qurilmadan ehtiyotkor foydalanish",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g1.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g1.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g1.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g1.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g1.unit1",
+      "informatics_g1.unit2",
+      "informatics_g1.unit3",
+      "informatics_g1.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g1.unit1",
+      "informatics_g1.unit2",
+      "informatics_g1.unit3",
+      "informatics_g1.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g1.unit1",
+      "informatics_g1.unit2",
+      "informatics_g1.unit3",
+      "informatics_g1.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

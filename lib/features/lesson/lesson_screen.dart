@@ -139,6 +139,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           difficultyBias: profile.difficultyBias,
           lang: profile.language,
           grade: profile.grade,
+          technologyTrack: profile.effectiveTechnologyTrack,
         );
       } else {
         topic = content.topic(widget.topicId!);

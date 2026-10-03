@@ -382,7 +382,7 @@ class _CupsCard extends ConsumerWidget {
                   children: [
                     for (final s in Subject.forProfile(profile))
                       if (profile.isSubjectEnabled(s.id) && content.curriculum(s.id, s.suffixFor(profile)) != null)
-                        _CupChip(subject: s, tier: Rewards.cup(progress, content, s.id, s.suffixFor(profile))),
+                        _CupChip(subject: s, tier: Rewards.cup(progress, content, s.id, s.suffixFor(profile), technologyTrack: profile.effectiveTechnologyTrack)),
                   ],
                 ),
               ],

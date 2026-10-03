@@ -1,0 +1,309 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computing",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "informatics_g2.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Fayl va papkalar",
+    "en": "Fayl va papkalar",
+    "ru": "Fayl va papkalar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Fayl va papkalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Fayl — Saqlangan ma’lumot birligi; Papka — Fayllarni guruhlash joyi; Fayl nomi — Saqlangan ishni ajratadigan yozuv; Saqlash — Ishni keyin ochish uchun yozib qo‘yish; Ochish — Saqlangan ishni ko‘rish; Nusxa — Asl faylning ikkinchi ko‘rinishi; O‘chirish — Keraksiz faylni olib tashlash; Qidirish — Nom bo‘yicha kerakli faylni topish.\n\nMisol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Fayl va papkalar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g2.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g2.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g2.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g2.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Matn va rasm bilan ishlash",
+    "en": "Matn va rasm bilan ishlash",
+    "ru": "Matn va rasm bilan ishlash"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Matn va rasm bilan ishlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish; Enter — Yangi satrga o‘tish; Backspace — Kursordan oldingi belgini o‘chirish; Kursor — Matn kiritiladigan joyni ko‘rsatish; Qalam vositasi — Erkin chiziq chizish; Rang tanlash — Chiziq yoki shakl rangini belgilash; Shakl vositasi — Doira yoki to‘rtburchak chizish; Bekor qilish — Oxirgi amalni ortga qaytarish.\n\nMisol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Matn va rasm bilan ishlash",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g2.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g2.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g2.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g2.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Shart va takrorlash",
+    "en": "Shart va takrorlash",
+    "ru": "Shart va takrorlash"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Shart va takrorlash",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Shart — Rost yoki yolg‘onligi tekshiriladigan fikr; Rost — Shart bajarilgan holat; Yolg‘on — Shart bajarilmagan holat; Takrorlash — Bir amalni yana bajarish; Hisoblagich — Bajarilgan takrorlar sonini sanash; Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma; Natija — Buyruqlar bajarilgach hosil bo‘lgan holat; Xatoni topish — Noto‘g‘ri qadamni aniqlash.\n\nMisol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Shart va takrorlash",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g2.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g2.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g2.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g2.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Raqamli odob va xavfsizlik",
+    "en": "Raqamli odob va xavfsizlik",
+    "ru": "Raqamli odob va xavfsizlik"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Raqamli odob va xavfsizlik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv; Muallif — Rasm yoki matnni yaratgan kishi; Manba — Axborot olingan joy; Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot; Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi; Ruxsat — Birovning ishini ishlatishga rozilik; Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi; Tekshirish — Axborotni boshqa manba bilan solishtirish.\n\nMisol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Raqamli odob va xavfsizlik",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g2.unit1",
+      "informatics_g2.unit2",
+      "informatics_g2.unit3",
+      "informatics_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g2.unit1",
+      "informatics_g2.unit2",
+      "informatics_g2.unit3",
+      "informatics_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g2.unit1",
+      "informatics_g2.unit2",
+      "informatics_g2.unit3",
+      "informatics_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

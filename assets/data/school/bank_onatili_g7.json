@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Ot» uchun mos ma’noni tanlang.",
+   "a": "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+   "w": [
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi",
+    "Ot, sifat yoki son o‘rnida keladigan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Shaxs yoki narsa nomini bildirgan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ot",
+   "w": [
+    "Sifat",
+    "Son",
+    "Olmosh"
+   ],
+   "d": 2,
+   "x": "Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Sifat» uchun mos ma’noni tanlang.",
+   "a": "Narsaning belgisini bildirgan so‘z turkumi",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi",
+    "Ot, sifat yoki son o‘rnida keladigan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Sifat — Narsaning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Sifat — Narsaning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Narsaning belgisini bildirgan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sifat",
+   "w": [
+    "Ot",
+    "Son",
+    "Olmosh"
+   ],
+   "d": 2,
+   "x": "Sifat — Narsaning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Sifat — Narsaning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Son» uchun mos ma’noni tanlang.",
+   "a": "Miqdor yoki tartibni bildirgan so‘z turkumi",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Ot, sifat yoki son o‘rnida keladigan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Son — Miqdor yoki tartibni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Son — Miqdor yoki tartibni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Miqdor yoki tartibni bildirgan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Son",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Olmosh"
+   ],
+   "d": 2,
+   "x": "Son — Miqdor yoki tartibni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Son — Miqdor yoki tartibni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Olmosh» uchun mos ma’noni tanlang.",
+   "a": "Ot, sifat yoki son o‘rnida keladigan so‘z turkumi",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Ot, sifat yoki son o‘rnida keladigan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Olmosh",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "d": 2,
+   "x": "Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Fe’l» uchun mos ma’noni tanlang.",
+   "a": "Harakat yoki holatni bildirgan so‘z turkumi",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Fe’l — Harakat yoki holatni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Fe’l — Harakat yoki holatni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Harakat yoki holatni bildirgan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Fe’l",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "d": 2,
+   "x": "Fe’l — Harakat yoki holatni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Fe’l — Harakat yoki holatni bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Ravish» uchun mos ma’noni tanlang.",
+   "a": "Harakatning belgisini bildirgan so‘z turkumi",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Ravish — Harakatning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Ravish — Harakatning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Harakatning belgisini bildirgan so‘z turkumi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ravish",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "d": 2,
+   "x": "Ravish — Harakatning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Ravish — Harakatning belgisini bildirgan so‘z turkumi. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Egalik qo‘shimchasi» uchun mos ma’noni tanlang.",
+   "a": "Narsaning kimga qarashliligini bildirgan qo‘shimcha",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Narsaning kimga qarashliligini bildirgan qo‘shimcha» qaysi tushuncha yoki iboraga mos?",
+   "a": "Egalik qo‘shimchasi",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "d": 2,
+   "x": "Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Kelishik qo‘shimchasi» uchun mos ma’noni tanlang.",
+   "a": "Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha",
+   "w": [
+    "Shaxs yoki narsa nomini bildirgan so‘z turkumi",
+    "Narsaning belgisini bildirgan so‘z turkumi",
+    "Miqdor yoki tartibni bildirgan so‘z turkumi"
+   ],
+   "d": 1,
+   "x": "Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kelishik qo‘shimchasi",
+   "w": [
+    "Ot",
+    "Sifat",
+    "Son"
+   ],
+   "d": 2,
+   "x": "Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.",
+   "h": "Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha. Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Mustaqil so‘z turkumlari: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Ot",
+     "Shaxs yoki narsa nomini bildirgan so‘z turkumi"
+    ],
+    [
+     "Sifat",
+     "Narsaning belgisini bildirgan so‘z turkumi"
+    ],
+    [
+     "Son",
+     "Miqdor yoki tartibni bildirgan so‘z turkumi"
+    ],
+    [
+     "Olmosh",
+     "Ot, sifat yoki son o‘rnida keladigan so‘z turkumi"
+    ]
+   ],
+   "d": 1,
+   "x": "Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi; Sifat — Narsaning belgisini bildirgan so‘z turkumi; Son — Miqdor yoki tartibni bildirgan so‘z turkumi; Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi",
+   "h": "Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Mustaqil so‘z turkumlari: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Fe’l",
+     "Harakat yoki holatni bildirgan so‘z turkumi"
+    ],
+    [
+     "Ravish",
+     "Harakatning belgisini bildirgan so‘z turkumi"
+    ],
+    [
+     "Egalik qo‘shimchasi",
+     "Narsaning kimga qarashliligini bildirgan qo‘shimcha"
+    ],
+    [
+     "Kelishik qo‘shimchasi",
+     "Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha"
+    ]
+   ],
+   "d": 1,
+   "x": "Fe’l — Harakat yoki holatni bildirgan so‘z turkumi; Ravish — Harakatning belgisini bildirgan so‘z turkumi; Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha; Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha",
+   "h": "Misol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Bo‘lishli fe’l» uchun mos ma’noni tanlang.",
+   "a": "Harakat bajarilishini bildirgan shakl",
+   "w": [
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti",
+    "Nutq paytidagi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Harakat bajarilishini bildirgan shakl» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bo‘lishli fe’l",
+   "w": [
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 2,
+   "x": "Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Bo‘lishsiz fe’l» uchun mos ma’noni tanlang.",
+   "a": "Harakat inkorini bildirgan shakl",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti",
+    "Nutq paytidagi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Harakat inkorini bildirgan shakl» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bo‘lishsiz fe’l",
+   "w": [
+    "Bo‘lishli fe’l",
+    "O‘tgan zamon",
+    "Hozirgi zamon"
+   ],
+   "d": 2,
+   "x": "Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«O‘tgan zamon» uchun mos ma’noni tanlang.",
+   "a": "Nutqdan oldingi harakat vaqti",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutq paytidagi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "O‘tgan zamon — Nutqdan oldingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "O‘tgan zamon — Nutqdan oldingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Nutqdan oldingi harakat vaqti» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘tgan zamon",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "Hozirgi zamon"
+   ],
+   "d": 2,
+   "x": "O‘tgan zamon — Nutqdan oldingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "O‘tgan zamon — Nutqdan oldingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Hozirgi zamon» uchun mos ma’noni tanlang.",
+   "a": "Nutq paytidagi harakat vaqti",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Hozirgi zamon — Nutq paytidagi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Hozirgi zamon — Nutq paytidagi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Nutq paytidagi harakat vaqti» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hozirgi zamon",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon"
+   ],
+   "d": 2,
+   "x": "Hozirgi zamon — Nutq paytidagi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Hozirgi zamon — Nutq paytidagi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Kelasi zamon» uchun mos ma’noni tanlang.",
+   "a": "Nutqdan keyingi harakat vaqti",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Kelasi zamon — Nutqdan keyingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Kelasi zamon — Nutqdan keyingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Nutqdan keyingi harakat vaqti» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kelasi zamon",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon"
+   ],
+   "d": 2,
+   "x": "Kelasi zamon — Nutqdan keyingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Kelasi zamon — Nutqdan keyingi harakat vaqti. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Sifatdosh» uchun mos ma’noni tanlang.",
+   "a": "Fe’lning sifatga xos vazifada keladigan shakli",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Fe’lning sifatga xos vazifada keladigan shakli» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sifatdosh",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon"
+   ],
+   "d": 2,
+   "x": "Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Ravishdosh» uchun mos ma’noni tanlang.",
+   "a": "Fe’lning qo‘shimcha harakatni bildirgan shakli",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Fe’lning qo‘shimcha harakatni bildirgan shakli» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ravishdosh",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon"
+   ],
+   "d": 2,
+   "x": "Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Harakat nomi» uchun mos ma’noni tanlang.",
+   "a": "Harakatni nom sifatida bildirgan shakl",
+   "w": [
+    "Harakat bajarilishini bildirgan shakl",
+    "Harakat inkorini bildirgan shakl",
+    "Nutqdan oldingi harakat vaqti"
+   ],
+   "d": 1,
+   "x": "Harakat nomi — Harakatni nom sifatida bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Harakat nomi — Harakatni nom sifatida bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Harakatni nom sifatida bildirgan shakl» qaysi tushuncha yoki iboraga mos?",
+   "a": "Harakat nomi",
+   "w": [
+    "Bo‘lishli fe’l",
+    "Bo‘lishsiz fe’l",
+    "O‘tgan zamon"
+   ],
+   "d": 2,
+   "x": "Harakat nomi — Harakatni nom sifatida bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.",
+   "h": "Harakat nomi — Harakatni nom sifatida bildirgan shakl. Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Fe’l shakllari: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Bo‘lishli fe’l",
+     "Harakat bajarilishini bildirgan shakl"
+    ],
+    [
+     "Bo‘lishsiz fe’l",
+     "Harakat inkorini bildirgan shakl"
+    ],
+    [
+     "O‘tgan zamon",
+     "Nutqdan oldingi harakat vaqti"
+    ],
+    [
+     "Hozirgi zamon",
+     "Nutq paytidagi harakat vaqti"
+    ]
+   ],
+   "d": 1,
+   "x": "Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl; Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl; O‘tgan zamon — Nutqdan oldingi harakat vaqti; Hozirgi zamon — Nutq paytidagi harakat vaqti",
+   "h": "Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Fe’l shakllari: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Kelasi zamon",
+     "Nutqdan keyingi harakat vaqti"
+    ],
+    [
+     "Sifatdosh",
+     "Fe’lning sifatga xos vazifada keladigan shakli"
+    ],
+    [
+     "Ravishdosh",
+     "Fe’lning qo‘shimcha harakatni bildirgan shakli"
+    ],
+    [
+     "Harakat nomi",
+     "Harakatni nom sifatida bildirgan shakl"
+    ]
+   ],
+   "d": 1,
+   "x": "Kelasi zamon — Nutqdan keyingi harakat vaqti; Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli; Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli; Harakat nomi — Harakatni nom sifatida bildirgan shakl",
+   "h": "Misol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Ko‘makchi» uchun mos ma’noni tanlang.",
+   "a": "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+   "w": [
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi",
+    "Teng qismlarni biriktiruvchi bog‘lovchi"
+   ],
+   "d": 1,
+   "x": "Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ko‘makchi",
+   "w": [
+    "Bog‘lovchi",
+    "Yuklama",
+    "Va"
+   ],
+   "d": 2,
+   "x": "Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Bog‘lovchi» uchun mos ma’noni tanlang.",
+   "a": "So‘z yoki gaplarni bog‘laydigan yordamchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi",
+    "Teng qismlarni biriktiruvchi bog‘lovchi"
+   ],
+   "d": 1,
+   "x": "Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«So‘z yoki gaplarni bog‘laydigan yordamchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bog‘lovchi",
+   "w": [
+    "Ko‘makchi",
+    "Yuklama",
+    "Va"
+   ],
+   "d": 2,
+   "x": "Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Yuklama» uchun mos ma’noni tanlang.",
+   "a": "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "Teng qismlarni biriktiruvchi bog‘lovchi"
+   ],
+   "d": 1,
+   "x": "Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yuklama",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Va"
+   ],
+   "d": 2,
+   "x": "Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Va» uchun mos ma’noni tanlang.",
+   "a": "Teng qismlarni biriktiruvchi bog‘lovchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+   ],
+   "d": 1,
+   "x": "Va — Teng qismlarni biriktiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Va — Teng qismlarni biriktiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Teng qismlarni biriktiruvchi bog‘lovchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Va",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Yuklama"
+   ],
+   "d": 2,
+   "x": "Va — Teng qismlarni biriktiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Va — Teng qismlarni biriktiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Ammo» uchun mos ma’noni tanlang.",
+   "a": "Qarama-qarshi fikrni bog‘lovchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+   ],
+   "d": 1,
+   "x": "Ammo — Qarama-qarshi fikrni bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Ammo — Qarama-qarshi fikrni bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Qarama-qarshi fikrni bog‘lovchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ammo",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Yuklama"
+   ],
+   "d": 2,
+   "x": "Ammo — Qarama-qarshi fikrni bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Ammo — Qarama-qarshi fikrni bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Chunki» uchun mos ma’noni tanlang.",
+   "a": "Sabab munosabatini bildiruvchi bog‘lovchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+   ],
+   "d": 1,
+   "x": "Chunki — Sabab munosabatini bildiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Chunki — Sabab munosabatini bildiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Sabab munosabatini bildiruvchi bog‘lovchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Chunki",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Yuklama"
+   ],
+   "d": 2,
+   "x": "Chunki — Sabab munosabatini bildiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Chunki — Sabab munosabatini bildiruvchi bog‘lovchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Uchun» uchun mos ma’noni tanlang.",
+   "a": "Maqsad yoki sabab munosabatidagi ko‘makchi",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+   ],
+   "d": 1,
+   "x": "Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Maqsad yoki sabab munosabatidagi ko‘makchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Uchun",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Yuklama"
+   ],
+   "d": 2,
+   "x": "Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Faqat» uchun mos ma’noni tanlang.",
+   "a": "Cheklash ma’nosidagi yuklama",
+   "w": [
+    "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi",
+    "So‘z yoki gaplarni bog‘laydigan yordamchi",
+    "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+   ],
+   "d": 1,
+   "x": "Faqat — Cheklash ma’nosidagi yuklama. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Faqat — Cheklash ma’nosidagi yuklama. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Cheklash ma’nosidagi yuklama» qaysi tushuncha yoki iboraga mos?",
+   "a": "Faqat",
+   "w": [
+    "Ko‘makchi",
+    "Bog‘lovchi",
+    "Yuklama"
+   ],
+   "d": 2,
+   "x": "Faqat — Cheklash ma’nosidagi yuklama. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.",
+   "h": "Faqat — Cheklash ma’nosidagi yuklama. Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Yordamchi so‘zlar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Ko‘makchi",
+     "So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi"
+    ],
+    [
+     "Bog‘lovchi",
+     "So‘z yoki gaplarni bog‘laydigan yordamchi"
+    ],
+    [
+     "Yuklama",
+     "So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi"
+    ],
+    [
+     "Va",
+     "Teng qismlarni biriktiruvchi bog‘lovchi"
+    ]
+   ],
+   "d": 1,
+   "x": "Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi; Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi; Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi; Va — Teng qismlarni biriktiruvchi bog‘lovchi",
+   "h": "Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Yordamchi so‘zlar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Ammo",
+     "Qarama-qarshi fikrni bog‘lovchi"
+    ],
+    [
+     "Chunki",
+     "Sabab munosabatini bildiruvchi bog‘lovchi"
+    ],
+    [
+     "Uchun",
+     "Maqsad yoki sabab munosabatidagi ko‘makchi"
+    ],
+    [
+     "Faqat",
+     "Cheklash ma’nosidagi yuklama"
+    ]
+   ],
+   "d": 1,
+   "x": "Ammo — Qarama-qarshi fikrni bog‘lovchi; Chunki — Sabab munosabatini bildiruvchi bog‘lovchi; Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi; Faqat — Cheklash ma’nosidagi yuklama",
+   "h": "Misol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Sinonim» uchun mos ma’noni tanlang.",
+   "a": "Ma’nosi yaqin so‘z",
+   "w": [
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z",
+    "So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi"
+   ],
+   "d": 1,
+   "x": "Sinonim — Ma’nosi yaqin so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Sinonim — Ma’nosi yaqin so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Ma’nosi yaqin so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sinonim",
+   "w": [
+    "Antonim",
+    "Omonim",
+    "Ko‘chma ma’no"
+   ],
+   "d": 2,
+   "x": "Sinonim — Ma’nosi yaqin so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Sinonim — Ma’nosi yaqin so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Antonim» uchun mos ma’noni tanlang.",
+   "a": "Ma’nosi qarama-qarshi so‘z",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z",
+    "So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi"
+   ],
+   "d": 1,
+   "x": "Antonim — Ma’nosi qarama-qarshi so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Antonim — Ma’nosi qarama-qarshi so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Ma’nosi qarama-qarshi so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Antonim",
+   "w": [
+    "Sinonim",
+    "Omonim",
+    "Ko‘chma ma’no"
+   ],
+   "d": 2,
+   "x": "Antonim — Ma’nosi qarama-qarshi so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Antonim — Ma’nosi qarama-qarshi so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Omonim» uchun mos ma’noni tanlang.",
+   "a": "Shakli bir xil, ma’nosi boshqa so‘z",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi"
+   ],
+   "d": 1,
+   "x": "Omonim — Shakli bir xil, ma’nosi boshqa so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Omonim — Shakli bir xil, ma’nosi boshqa so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Shakli bir xil, ma’nosi boshqa so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Omonim",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Ko‘chma ma’no"
+   ],
+   "d": 2,
+   "x": "Omonim — Shakli bir xil, ma’nosi boshqa so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Omonim — Shakli bir xil, ma’nosi boshqa so‘z. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Ko‘chma ma’no» uchun mos ma’noni tanlang.",
+   "a": "So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z"
+   ],
+   "d": 1,
+   "x": "Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ko‘chma ma’no",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Omonim"
+   ],
+   "d": 2,
+   "x": "Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Atama» uchun mos ma’noni tanlang.",
+   "a": "Bir sohaga oid aniq tushuncha nomi",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z"
+   ],
+   "d": 1,
+   "x": "Atama — Bir sohaga oid aniq tushuncha nomi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Atama — Bir sohaga oid aniq tushuncha nomi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Bir sohaga oid aniq tushuncha nomi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Atama",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Omonim"
+   ],
+   "d": 2,
+   "x": "Atama — Bir sohaga oid aniq tushuncha nomi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Atama — Bir sohaga oid aniq tushuncha nomi. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Ibora» uchun mos ma’noni tanlang.",
+   "a": "Yaxlit ko‘chma ma’noli turg‘un birikma",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z"
+   ],
+   "d": 1,
+   "x": "Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Yaxlit ko‘chma ma’noli turg‘un birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ibora",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Omonim"
+   ],
+   "d": 2,
+   "x": "Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Uslub» uchun mos ma’noni tanlang.",
+   "a": "Nutqning vaziyatga mos ifoda usuli",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z"
+   ],
+   "d": 1,
+   "x": "Uslub — Nutqning vaziyatga mos ifoda usuli. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Uslub — Nutqning vaziyatga mos ifoda usuli. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Nutqning vaziyatga mos ifoda usuli» qaysi tushuncha yoki iboraga mos?",
+   "a": "Uslub",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Omonim"
+   ],
+   "d": 2,
+   "x": "Uslub — Nutqning vaziyatga mos ifoda usuli. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Uslub — Nutqning vaziyatga mos ifoda usuli. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Tahrir» uchun mos ma’noni tanlang.",
+   "a": "Matn xatolarini tuzatish va aniqlashtirish",
+   "w": [
+    "Ma’nosi yaqin so‘z",
+    "Ma’nosi qarama-qarshi so‘z",
+    "Shakli bir xil, ma’nosi boshqa so‘z"
+   ],
+   "d": 1,
+   "x": "Tahrir — Matn xatolarini tuzatish va aniqlashtirish. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Tahrir — Matn xatolarini tuzatish va aniqlashtirish. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Matn xatolarini tuzatish va aniqlashtirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tahrir",
+   "w": [
+    "Sinonim",
+    "Antonim",
+    "Omonim"
+   ],
+   "d": 2,
+   "x": "Tahrir — Matn xatolarini tuzatish va aniqlashtirish. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.",
+   "h": "Tahrir — Matn xatolarini tuzatish va aniqlashtirish. Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "So‘z ma’nosi va nutq aniqligi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Sinonim",
+     "Ma’nosi yaqin so‘z"
+    ],
+    [
+     "Antonim",
+     "Ma’nosi qarama-qarshi so‘z"
+    ],
+    [
+     "Omonim",
+     "Shakli bir xil, ma’nosi boshqa so‘z"
+    ],
+    [
+     "Ko‘chma ma’no",
+     "So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi"
+    ]
+   ],
+   "d": 1,
+   "x": "Sinonim — Ma’nosi yaqin so‘z; Antonim — Ma’nosi qarama-qarshi so‘z; Omonim — Shakli bir xil, ma’nosi boshqa so‘z; Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi",
+   "h": "Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  },
+  {
+   "topic": "onatili_g7.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "So‘z ma’nosi va nutq aniqligi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Atama",
+     "Bir sohaga oid aniq tushuncha nomi"
+    ],
+    [
+     "Ibora",
+     "Yaxlit ko‘chma ma’noli turg‘un birikma"
+    ],
+    [
+     "Uslub",
+     "Nutqning vaziyatga mos ifoda usuli"
+    ],
+    [
+     "Tahrir",
+     "Matn xatolarini tuzatish va aniqlashtirish"
+    ]
+   ],
+   "d": 1,
+   "x": "Atama — Bir sohaga oid aniq tushuncha nomi; Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma; Uslub — Nutqning vaziyatga mos ifoda usuli; Tahrir — Matn xatolarini tuzatish va aniqlashtirish",
+   "h": "Misol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz."
+  }
+ ]
+}

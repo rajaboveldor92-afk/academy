@@ -1,0 +1,868 @@
+{
+ "items": [
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "Tajribaning o‘zgartirilgan omili nima?",
+   "a": "Yorug‘lik sharoiti",
+   "w": [
+    "Suv miqdori",
+    "Har uch kunda",
+    "Yashil va baquvvat"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yorug‘lik sharoiti.",
+   "h": "Matnda berilgan javob: Yorug‘lik sharoiti.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Tajribaning o‘zgartirilgan omili nima?» savolining javobi «Yorug‘lik sharoiti».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yorug‘lik sharoiti.",
+   "h": "Matnda berilgan javob: Yorug‘lik sharoiti.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "Qaysi shart bir xil saqlandi?",
+   "a": "Suv miqdori",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Har uch kunda",
+    "Yashil va baquvvat"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Suv miqdori.",
+   "h": "Matnda berilgan javob: Suv miqdori.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qaysi shart bir xil saqlandi?» savolining javobi «Har uch kunda».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Suv miqdori.",
+   "h": "Matnda berilgan javob: Suv miqdori.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "O‘lchov qachon qilindi?",
+   "a": "Har uch kunda",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Yashil va baquvvat"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Har uch kunda.",
+   "h": "Matnda berilgan javob: Har uch kunda.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «O‘lchov qachon qilindi?» savolining javobi «Har uch kunda».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Har uch kunda.",
+   "h": "Matnda berilgan javob: Har uch kunda.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "Yorug‘ joydagi nihol qanday edi?",
+   "a": "Yashil va baquvvat",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Har uch kunda"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yashil va baquvvat.",
+   "h": "Matnda berilgan javob: Yashil va baquvvat.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Yorug‘ joydagi nihol qanday edi?» savolining javobi «Rangpar va cho‘zilgan».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yashil va baquvvat.",
+   "h": "Matnda berilgan javob: Yashil va baquvvat.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "Ikkinchi nihol qanday edi?",
+   "a": "Rangpar va cho‘zilgan",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Har uch kunda"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Rangpar va cho‘zilgan.",
+   "h": "Matnda berilgan javob: Rangpar va cho‘zilgan.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ikkinchi nihol qanday edi?» savolining javobi «Rangpar va cho‘zilgan».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Rangpar va cho‘zilgan.",
+   "h": "Matnda berilgan javob: Rangpar va cho‘zilgan.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "Dastlabki taxmin qanday edi?",
+   "a": "Balandroq nihol sog‘lomroq",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Har uch kunda"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Balandroq nihol sog‘lomroq.",
+   "h": "Matnda berilgan javob: Balandroq nihol sog‘lomroq.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Dastlabki taxmin qanday edi?» savolining javobi «Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Balandroq nihol sog‘lomroq.",
+   "h": "Matnda berilgan javob: Balandroq nihol sog‘lomroq.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "Natija qanday xulosaga olib keldi?",
+   "a": "Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Har uch kunda"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi.",
+   "h": "Matnda berilgan javob: Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Natija qanday xulosaga olib keldi?» savolining javobi «Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi.",
+   "h": "Matnda berilgan javob: Bo‘yning o‘zi sog‘lomlikni ko‘rsatmaydi.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "Nima uchun boshqa urug‘ bilan sinash taklif qilindi?",
+   "a": "Xulosani qayta tekshirish uchun",
+   "w": [
+    "Yorug‘lik sharoiti",
+    "Suv miqdori",
+    "Har uch kunda"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Xulosani qayta tekshirish uchun.",
+   "h": "Matnda berilgan javob: Xulosani qayta tekshirish uchun.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit1",
+   "id": "unit1_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nima uchun boshqa urug‘ bilan sinash taklif qilindi?» savolining javobi «Yorug‘lik sharoiti».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Xulosani qayta tekshirish uchun.",
+   "h": "Matnda berilgan javob: Xulosani qayta tekshirish uchun.",
+   "text": "Maktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "Dilshod nimani topdi?",
+   "a": "Eski xaritani",
+   "w": [
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida",
+    "Yilni"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Eski xaritani.",
+   "h": "Matnda berilgan javob: Eski xaritani.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Dilshod nimani topdi?» savolining javobi «Eski xaritani».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Eski xaritani.",
+   "h": "Matnda berilgan javob: Eski xaritani.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "Eski xaritada nima yo‘q edi?",
+   "a": "Hozirgi ko‘prik",
+   "w": [
+    "Eski xaritani",
+    "Daryo bo‘yida",
+    "Yilni"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Hozirgi ko‘prik.",
+   "h": "Matnda berilgan javob: Hozirgi ko‘prik.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Eski xaritada nima yo‘q edi?» savolining javobi «Daryo bo‘yida».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Hozirgi ko‘prik.",
+   "h": "Matnda berilgan javob: Hozirgi ko‘prik.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "Bozor qayerda ko‘rsatilgan?",
+   "a": "Daryo bo‘yida",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Yilni"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Daryo bo‘yida.",
+   "h": "Matnda berilgan javob: Daryo bo‘yida.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Bozor qayerda ko‘rsatilgan?» savolining javobi «Daryo bo‘yida».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Daryo bo‘yida.",
+   "h": "Matnda berilgan javob: Daryo bo‘yida.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "Bobosi nimani aniq eslay olmadi?",
+   "a": "Yilni",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yilni.",
+   "h": "Matnda berilgan javob: Yilni.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Bobosi nimani aniq eslay olmadi?» savolining javobi «Sana yozilgan arxiv surati».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yilni.",
+   "h": "Matnda berilgan javob: Yilni.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "Xotira qaysi manba bilan tekshirildi?",
+   "a": "Sana yozilgan arxiv surati",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Sana yozilgan arxiv surati.",
+   "h": "Matnda berilgan javob: Sana yozilgan arxiv surati.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Xotira qaysi manba bilan tekshirildi?» savolining javobi «Sana yozilgan arxiv surati».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Sana yozilgan arxiv surati.",
+   "h": "Matnda berilgan javob: Sana yozilgan arxiv surati.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "Surat nimaga mos tushdi?",
+   "a": "Xaritadagi bozor belgisiga",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Xaritadagi bozor belgisiga.",
+   "h": "Matnda berilgan javob: Xaritadagi bozor belgisiga.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Surat nimaga mos tushdi?» savolining javobi «Alohida ko‘rsatildi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Xaritadagi bozor belgisiga.",
+   "h": "Matnda berilgan javob: Xaritadagi bozor belgisiga.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "Taxmin va sana qanday berildi?",
+   "a": "Alohida ko‘rsatildi",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Alohida ko‘rsatildi.",
+   "h": "Matnda berilgan javob: Alohida ko‘rsatildi.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Taxmin va sana qanday berildi?» savolining javobi «Alohida ko‘rsatildi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Alohida ko‘rsatildi.",
+   "h": "Matnda berilgan javob: Alohida ko‘rsatildi.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "Matnning asosiy fikri nima?",
+   "a": "Manbalarni solishtirib xulosa qilish",
+   "w": [
+    "Eski xaritani",
+    "Hozirgi ko‘prik",
+    "Daryo bo‘yida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Manbalarni solishtirib xulosa qilish.",
+   "h": "Matnda berilgan javob: Manbalarni solishtirib xulosa qilish.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit2",
+   "id": "unit2_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Matnning asosiy fikri nima?» savolining javobi «Eski xaritani».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Manbalarni solishtirib xulosa qilish.",
+   "h": "Matnda berilgan javob: Manbalarni solishtirib xulosa qilish.",
+   "text": "Dilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "Qisqa yo‘l qayerdan o‘tardi?",
+   "a": "Katta ko‘chadan",
+   "w": [
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi",
+    "Shoshilgani uchun"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Katta ko‘chadan.",
+   "h": "Matnda berilgan javob: Katta ko‘chadan.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qisqa yo‘l qayerdan o‘tardi?» savolining javobi «Katta ko‘chadan».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Katta ko‘chadan.",
+   "h": "Matnda berilgan javob: Katta ko‘chadan.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "Qisqa yo‘ldagi muammo nima edi?",
+   "a": "Mashinalar ko‘pligi",
+   "w": [
+    "Katta ko‘chadan",
+    "Piyodalar yo‘lagi borligi",
+    "Shoshilgani uchun"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Mashinalar ko‘pligi.",
+   "h": "Matnda berilgan javob: Mashinalar ko‘pligi.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qisqa yo‘ldagi muammo nima edi?» savolining javobi «Piyodalar yo‘lagi borligi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Mashinalar ko‘pligi.",
+   "h": "Matnda berilgan javob: Mashinalar ko‘pligi.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "Bog‘ yo‘lining afzalligi nima edi?",
+   "a": "Piyodalar yo‘lagi borligi",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Shoshilgani uchun"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Piyodalar yo‘lagi borligi.",
+   "h": "Matnda berilgan javob: Piyodalar yo‘lagi borligi.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Bog‘ yo‘lining afzalligi nima edi?» savolining javobi «Piyodalar yo‘lagi borligi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Piyodalar yo‘lagi borligi.",
+   "h": "Matnda berilgan javob: Piyodalar yo‘lagi borligi.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "Zilola nega qisqa yo‘lni tanlamoqchi bo‘ldi?",
+   "a": "Shoshilgani uchun",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Shoshilgani uchun.",
+   "h": "Matnda berilgan javob: Shoshilgani uchun.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Zilola nega qisqa yo‘lni tanlamoqchi bo‘ldi?» savolining javobi «Xavfsiz o‘tish joyigacha aylanishni».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Shoshilgani uchun.",
+   "h": "Matnda berilgan javob: Shoshilgani uchun.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "Madina nimani eslatdi?",
+   "a": "Xavfsiz o‘tish joyigacha aylanishni",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Xavfsiz o‘tish joyigacha aylanishni.",
+   "h": "Matnda berilgan javob: Xavfsiz o‘tish joyigacha aylanishni.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Madina nimani eslatdi?» savolining javobi «Xavfsiz o‘tish joyigacha aylanishni».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Xavfsiz o‘tish joyigacha aylanishni.",
+   "h": "Matnda berilgan javob: Xavfsiz o‘tish joyigacha aylanishni.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "Vaqt farqi qancha edi?",
+   "a": "Ikki daqiqa",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ikki daqiqa.",
+   "h": "Matnda berilgan javob: Ikki daqiqa.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Vaqt farqi qancha edi?» savolining javobi «Oldinroq chiqish».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ikki daqiqa.",
+   "h": "Matnda berilgan javob: Ikki daqiqa.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "Ular qanday reja tuzdilar?",
+   "a": "Oldinroq chiqish",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Oldinroq chiqish.",
+   "h": "Matnda berilgan javob: Oldinroq chiqish.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ular qanday reja tuzdilar?» savolining javobi «Oldinroq chiqish».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Oldinroq chiqish.",
+   "h": "Matnda berilgan javob: Oldinroq chiqish.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "Matndan qanday xulosa chiqadi?",
+   "a": "Masofa bilan qulaylik har doim teng emas",
+   "w": [
+    "Katta ko‘chadan",
+    "Mashinalar ko‘pligi",
+    "Piyodalar yo‘lagi borligi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Masofa bilan qulaylik har doim teng emas.",
+   "h": "Matnda berilgan javob: Masofa bilan qulaylik har doim teng emas.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit3",
+   "id": "unit3_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Matndan qanday xulosa chiqadi?» savolining javobi «Katta ko‘chadan».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Masofa bilan qulaylik har doim teng emas.",
+   "h": "Matnda berilgan javob: Masofa bilan qulaylik har doim teng emas.",
+   "text": "Zilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "Suhbatdagi kelishmovchilik nima haqida edi?",
+   "a": "Safar sababi",
+   "w": [
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash",
+    "Do‘stiga yordam berish"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Safar sababi.",
+   "h": "Matnda berilgan javob: Safar sababi.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Suhbatdagi kelishmovchilik nima haqida edi?» savolining javobi «Safar sababi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Safar sababi.",
+   "h": "Matnda berilgan javob: Safar sababi.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "Ular bahsni qanday hal qildilar?",
+   "a": "Matnga qaytdilar",
+   "w": [
+    "Safar sababi",
+    "Yo‘qolgan daftarni izlash",
+    "Do‘stiga yordam berish"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Matnga qaytdilar.",
+   "h": "Matnda berilgan javob: Matnga qaytdilar.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ular bahsni qanday hal qildilar?» savolining javobi «Yo‘qolgan daftarni izlash».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Matnga qaytdilar.",
+   "h": "Matnda berilgan javob: Matnga qaytdilar.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "Boshlang‘ich maqsad nima edi?",
+   "a": "Yo‘qolgan daftarni izlash",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Do‘stiga yordam berish"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yo‘qolgan daftarni izlash.",
+   "h": "Matnda berilgan javob: Yo‘qolgan daftarni izlash.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Boshlang‘ich maqsad nima edi?» savolining javobi «Yo‘qolgan daftarni izlash».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yo‘qolgan daftarni izlash.",
+   "h": "Matnda berilgan javob: Yo‘qolgan daftarni izlash.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "Keyingi qarorga nima ta’sir qildi?",
+   "a": "Do‘stiga yordam berish",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Do‘stiga yordam berish.",
+   "h": "Matnda berilgan javob: Do‘stiga yordam berish.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Keyingi qarorga nima ta’sir qildi?» savolining javobi «Maqsad va keyingi qarorni».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Do‘stiga yordam berish.",
+   "h": "Matnda berilgan javob: Do‘stiga yordam berish.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "Sardor nimani aralashtirdi?",
+   "a": "Maqsad va keyingi qarorni",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Maqsad va keyingi qarorni.",
+   "h": "Matnda berilgan javob: Maqsad va keyingi qarorni.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Sardor nimani aralashtirdi?» savolining javobi «Maqsad va keyingi qarorni».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Maqsad va keyingi qarorni.",
+   "h": "Matnda berilgan javob: Maqsad va keyingi qarorni.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "Qayd qanday tuzildi?",
+   "a": "Voqea bosqichlari bo‘yicha",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Voqea bosqichlari bo‘yicha.",
+   "h": "Matnda berilgan javob: Voqea bosqichlari bo‘yicha.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qayd qanday tuzildi?» savolining javobi «Matndan dalil».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Voqea bosqichlari bo‘yicha.",
+   "h": "Matnda berilgan javob: Voqea bosqichlari bo‘yicha.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "Keyingi suhbatda nima keltirildi?",
+   "a": "Matndan dalil",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Matndan dalil.",
+   "h": "Matnda berilgan javob: Matndan dalil.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Keyingi suhbatda nima keltirildi?» savolining javobi «Matndan dalil».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Matndan dalil.",
+   "h": "Matnda berilgan javob: Matndan dalil.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "Qaydning foydasi nima?",
+   "a": "Voqealar va sabablarni ajratish",
+   "w": [
+    "Safar sababi",
+    "Matnga qaytdilar",
+    "Yo‘qolgan daftarni izlash"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Voqealar va sabablarni ajratish.",
+   "h": "Matnda berilgan javob: Voqealar va sabablarni ajratish.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  },
+  {
+   "topic": "reading_g7.unit4",
+   "id": "unit4_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qaydning foydasi nima?» savolining javobi «Safar sababi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Voqealar va sabablarni ajratish.",
+   "h": "Matnda berilgan javob: Voqealar va sabablarni ajratish.",
+   "text": "Sardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+  }
+ ]
+}

@@ -1,6 +1,7 @@
 import '../../core/utils/date_keys.dart';
 import '../../l10n/tr.dart';
 import '../../learning/content/content_repository.dart';
+import '../../learning/content/technology_tracks.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/engine/rewards.dart';
 import '../../learning/engine/spaced_repetition.dart';
@@ -140,7 +141,8 @@ class ChildReport {
     for (final s in Subject.forProfile(profile)) {
       if (!profile.isSubjectEnabled(s.id)) continue;
       final suffix = s.suffixFor(profile);
-      final c = content.curriculum(s.id, suffix);
+      final raw = content.curriculum(s.id, suffix);
+      final c = raw == null ? null : TechnologyTracks.forProfile(raw, profile);
       if (c == null || c.topics.isEmpty) continue;
       final score = progress.scoreOf(s.id);
       subjects.add(SubjectReport(
@@ -148,12 +150,18 @@ class ChildReport {
         topics: [for (final t in c.topics) TopicReport(topic: t, stat: progress.skillOf(t.id))],
         correct: score.correct,
         total: score.total,
-        cup: Rewards.cup(progress, content, s.id, suffix),
+        cup: Rewards.cup(progress, content, s.id, suffix, technologyTrack: profile.effectiveTechnologyTrack),
       ));
     }
 
-    final due = SpacedRepetition.due(progress.reviews, now).length;
-    final week = progress.reviews.values.where((r) {
+    final reviews = {
+      for (final entry in progress.reviews.entries)
+        if (content.topic(entry.value.topicId) == null || TechnologyTracks.includes(
+          content.topic(entry.value.topicId)!, profile.effectiveTechnologyTrack))
+          entry.key: entry.value,
+    };
+    final due = SpacedRepetition.due(reviews, now).length;
+    final week = reviews.values.where((r) {
       final d = DateKeys.daysBetween(now, r.due);
       return d >= 1 && d <= 7;
     }).length;
@@ -169,7 +177,7 @@ class ChildReport {
       subjects: subjects,
       reviewsDue: due,
       reviewsWeek: week,
-      reviewsTotal: progress.reviews.length,
+      reviewsTotal: reviews.length,
       todayMinutes: progress.minutesOn(now),
       weekMinutes: weekly.fold<int>(0, (a, b) => a + b),
       weekDaysActive: activeDays,

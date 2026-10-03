@@ -57,12 +57,12 @@ void main() {
   }
 
   test(
-    'each of eight workshops builds six interactive exercises at every level',
+    'each of thirteen workshops builds six interactive exercises at every level',
     () {
       final workshops = content.allTopics
           .where((t) => t.subject == 'technology' && t.generator == 'workshop')
           .toList();
-      expect(workshops.length, 8);
+      expect(workshops.length, 13);
       for (final t in workshops) {
         for (var level = 1; level <= 3; level++) {
           for (var seed = 0; seed < 10; seed++) {
@@ -234,6 +234,23 @@ void main() {
       expect(tester.takeException(), isNull);
     },
   );
+  testWidgets('long school grammar pairs wrap and remain tappable on a narrow phone', (tester) async {
+    final e = item('english_g8.unit2', 'match');
+    final solved = <int>[];
+    await host(tester, MatchExerciseView(exercise: e,
+      callbacks: ExerciseCallbacks(onMistake: (_) {}, onSolved: solved.add)));
+    expect(tester.widgetList<OptionCard>(find.byType(OptionCard)).every((w) => w.wrapText), isTrue);
+    for (final pair in e.pairs) {
+      for (final text in [pair.left.text, pair.right.text]) {
+        final card = find.byWidgetPredicate((w) => w is OptionCard && w.option.text == text);
+        await tester.ensureVisible(card);
+        await tester.tap(card);
+        await tester.pumpAndSettle();
+      }
+    }
+    expect(solved, [0]);
+    expect(tester.takeException(), isNull);
+  });
   testWidgets('long Technology match cards fit a narrow phone', (tester) async {
     final e = item('technology_g5.materials', 'match');
     await host(

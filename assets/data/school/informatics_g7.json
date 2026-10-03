@@ -1,0 +1,309 @@
+{
+ "subject": "informatics",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Informatika",
+  "en": "Computing",
+  "ru": "Информатика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "informatics_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Axborotni kodlash va birliklar",
+    "en": "Axborotni kodlash va birliklar",
+    "ru": "Axborotni kodlash va birliklar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Axborotni kodlash va birliklar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Bit — Ikkita qiymatdan birini ifodalovchi birlik; Bayt — Sakkiz bitdan tashkil topgan birlik; Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim; Kodlash — Axborotni kelishilgan belgilar bilan ifodalash; Dekodlash — Kodlangan axborotni qayta talqin qilish; Piksel — Raqamli tasvirning kichik elementi; Unicode — Matn belgilarini raqamlar bilan ifodalash standarti; Siqish — Ma’lumotni kamroq joyda saqlash usuli.\n\nMisol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Axborotni kodlash va birliklar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Elektron jadval va formulalar",
+    "en": "Elektron jadval va formulalar",
+    "ru": "Elektron jadval va formulalar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Elektron jadval va formulalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Katak — Satr va ustun kesishgan joy; Satr — Jadvalning gorizontal qatori; Ustun — Jadvalning vertikal qatori; A1 — A ustun va birinchi satr manzili; Formula — Hisoblashni ko‘rsatadigan ifoda; SUM — Sonlarni yig‘ish funksiyasi; Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola; Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola.\n\nMisol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Elektron jadval va formulalar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Algoritm, shart va sikl",
+    "en": "Algoritm, shart va sikl",
+    "ru": "Algoritm, shart va sikl"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Algoritm, shart va sikl",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: O‘zgaruvchi — Qiymatni nom bilan saqlash joyi; Tayinlash — O‘zgaruvchiga qiymat berish; Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish; Tarmoqlanish — Shartga qarab yo‘l tanlash; Sikl — Buyruqlarni takrorlash tuzilmasi; Kiritish — Dasturga boshlang‘ich ma’lumot berish; Chiqarish — Dastur natijasini ko‘rsatish; Test holati — Dastur uchun ma’lum kirish va kutilgan natija.\n\nMisol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Algoritm, shart va sikl",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Tarmoq va manbani tekshirish",
+    "en": "Tarmoq va manbani tekshirish",
+    "ru": "Tarmoq va manbani tekshirish"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tarmoq va manbani tekshirish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Internet — O‘zaro bog‘langan tarmoqlar majmui; Brauzer — Veb sahifalarni ko‘rish dasturi; URL — Internet resursi manzili; HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol; Fishing — Aldov bilan maxfiy ma’lumot olishga urinish; Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa; Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv; Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot.\n\nMisol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "informatics_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tarmoq va manbani tekshirish",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "informatics_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "informatics_g7.unit1",
+      "informatics_g7.unit2",
+      "informatics_g7.unit3",
+      "informatics_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "informatics_g7.unit1",
+      "informatics_g7.unit2",
+      "informatics_g7.unit3",
+      "informatics_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "informatics_g7.unit1",
+      "informatics_g7.unit2",
+      "informatics_g7.unit3",
+      "informatics_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«So‘z birikmasi» uchun mos ma’noni tanlang.",
+   "a": "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+   "w": [
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z",
+    "Qaratqich va egalik orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Tobe-hokim munosabatdagi mustaqil so‘zlar birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "So‘z birikmasi",
+   "w": [
+    "Hokim so‘z",
+    "Tobe so‘z",
+    "Moslashuv"
+   ],
+   "d": 2,
+   "x": "So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Hokim so‘z» uchun mos ma’noni tanlang.",
+   "a": "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z",
+    "Qaratqich va egalik orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Birikmada tobe so‘z bog‘langan asosiy so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hokim so‘z",
+   "w": [
+    "So‘z birikmasi",
+    "Tobe so‘z",
+    "Moslashuv"
+   ],
+   "d": 2,
+   "x": "Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Tobe so‘z» uchun mos ma’noni tanlang.",
+   "a": "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Qaratqich va egalik orqali bog‘lanish"
+   ],
+   "d": 1,
+   "x": "Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Hokim so‘zni aniqlab yoki izohlab kelgan so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tobe so‘z",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Moslashuv"
+   ],
+   "d": 2,
+   "x": "Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Moslashuv» uchun mos ma’noni tanlang.",
+   "a": "Qaratqich va egalik orqali bog‘lanish",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+   ],
+   "d": 1,
+   "x": "Moslashuv — Qaratqich va egalik orqali bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Moslashuv — Qaratqich va egalik orqali bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Qaratqich va egalik orqali bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Moslashuv",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Tobe so‘z"
+   ],
+   "d": 2,
+   "x": "Moslashuv — Qaratqich va egalik orqali bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Moslashuv — Qaratqich va egalik orqali bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Boshqaruv» uchun mos ma’noni tanlang.",
+   "a": "Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+   ],
+   "d": 1,
+   "x": "Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Boshqaruv",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Tobe so‘z"
+   ],
+   "d": 2,
+   "x": "Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Bitishuv» uchun mos ma’noni tanlang.",
+   "a": "Qo‘shimchasiz ma’no va tartib bilan bog‘lanish",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+   ],
+   "d": 1,
+   "x": "Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Qo‘shimchasiz ma’no va tartib bilan bog‘lanish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bitishuv",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Tobe so‘z"
+   ],
+   "d": 2,
+   "x": "Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Gap» uchun mos ma’noni tanlang.",
+   "a": "Tugallangan fikrni bildirgan sintaktik birlik",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+   ],
+   "d": 1,
+   "x": "Gap — Tugallangan fikrni bildirgan sintaktik birlik. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Gap — Tugallangan fikrni bildirgan sintaktik birlik. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Tugallangan fikrni bildirgan sintaktik birlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Gap",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Tobe so‘z"
+   ],
+   "d": 2,
+   "x": "Gap — Tugallangan fikrni bildirgan sintaktik birlik. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Gap — Tugallangan fikrni bildirgan sintaktik birlik. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Grammatik asos» uchun mos ma’noni tanlang.",
+   "a": "Gapning ega va kesimdan yoki kesimdan iborat markazi",
+   "w": [
+    "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi",
+    "Birikmada tobe so‘z bog‘langan asosiy so‘z",
+    "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+   ],
+   "d": 1,
+   "x": "Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Gapning ega va kesimdan yoki kesimdan iborat markazi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Grammatik asos",
+   "w": [
+    "So‘z birikmasi",
+    "Hokim so‘z",
+    "Tobe so‘z"
+   ],
+   "d": 2,
+   "x": "Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir.",
+   "h": "Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi. Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "So‘z birikmasi va gap: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "So‘z birikmasi",
+     "Tobe-hokim munosabatdagi mustaqil so‘zlar birligi"
+    ],
+    [
+     "Hokim so‘z",
+     "Birikmada tobe so‘z bog‘langan asosiy so‘z"
+    ],
+    [
+     "Tobe so‘z",
+     "Hokim so‘zni aniqlab yoki izohlab kelgan so‘z"
+    ],
+    [
+     "Moslashuv",
+     "Qaratqich va egalik orqali bog‘lanish"
+    ]
+   ],
+   "d": 1,
+   "x": "So‘z birikmasi — Tobe-hokim munosabatdagi mustaqil so‘zlar birligi; Hokim so‘z — Birikmada tobe so‘z bog‘langan asosiy so‘z; Tobe so‘z — Hokim so‘zni aniqlab yoki izohlab kelgan so‘z; Moslashuv — Qaratqich va egalik orqali bog‘lanish",
+   "h": "Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "So‘z birikmasi va gap: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Boshqaruv",
+     "Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish"
+    ],
+    [
+     "Bitishuv",
+     "Qo‘shimchasiz ma’no va tartib bilan bog‘lanish"
+    ],
+    [
+     "Gap",
+     "Tugallangan fikrni bildirgan sintaktik birlik"
+    ],
+    [
+     "Grammatik asos",
+     "Gapning ega va kesimdan yoki kesimdan iborat markazi"
+    ]
+   ],
+   "d": 1,
+   "x": "Boshqaruv — Hokim so‘z talabiga ko‘ra kelishik yoki ko‘makchi bilan bog‘lanish; Bitishuv — Qo‘shimchasiz ma’no va tartib bilan bog‘lanish; Gap — Tugallangan fikrni bildirgan sintaktik birlik; Grammatik asos — Gapning ega va kesimdan yoki kesimdan iborat markazi",
+   "h": "Misol: “bolaning kitobi” — moslashuv; “kitobni o‘qimoq” — boshqaruv; “yaxshi kitob” — bitishuv. “Bola o‘qidi” tugallangan fikrli gapdir."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Ega» uchun mos ma’noni tanlang.",
+   "a": "Kesim bildirgan harakat yoki holat egasi",
+   "w": [
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak",
+    "Narsa belgisi yoki qarashliligini bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Ega — Kesim bildirgan harakat yoki holat egasi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Ega — Kesim bildirgan harakat yoki holat egasi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Kesim bildirgan harakat yoki holat egasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ega",
+   "w": [
+    "Kesim",
+    "To‘ldiruvchi",
+    "Aniqlovchi"
+   ],
+   "d": 2,
+   "x": "Ega — Kesim bildirgan harakat yoki holat egasi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Ega — Kesim bildirgan harakat yoki holat egasi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Kesim» uchun mos ma’noni tanlang.",
+   "a": "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak",
+    "Narsa belgisi yoki qarashliligini bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Ega haqidagi hukmni bildirgan bosh bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kesim",
+   "w": [
+    "Ega",
+    "To‘ldiruvchi",
+    "Aniqlovchi"
+   ],
+   "d": 2,
+   "x": "Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«To‘ldiruvchi» uchun mos ma’noni tanlang.",
+   "a": "Harakat bilan bog‘liq obyektni bildirgan bo‘lak",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Narsa belgisi yoki qarashliligini bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Harakat bilan bog‘liq obyektni bildirgan bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "To‘ldiruvchi",
+   "w": [
+    "Ega",
+    "Kesim",
+    "Aniqlovchi"
+   ],
+   "d": 2,
+   "x": "To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Aniqlovchi» uchun mos ma’noni tanlang.",
+   "a": "Narsa belgisi yoki qarashliligini bildirgan bo‘lak",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Narsa belgisi yoki qarashliligini bildirgan bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Aniqlovchi",
+   "w": [
+    "Ega",
+    "Kesim",
+    "To‘ldiruvchi"
+   ],
+   "d": 2,
+   "x": "Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Hol» uchun mos ma’noni tanlang.",
+   "a": "Harakatning joy, vaqt yoki usulini bildirgan bo‘lak",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Harakatning joy, vaqt yoki usulini bildirgan bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hol",
+   "w": [
+    "Ega",
+    "Kesim",
+    "To‘ldiruvchi"
+   ],
+   "d": 2,
+   "x": "Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Sifatlovchi aniqlovchi» uchun mos ma’noni tanlang.",
+   "a": "Narsaning qandayligini bildirgan aniqlovchi",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Narsaning qandayligini bildirgan aniqlovchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sifatlovchi aniqlovchi",
+   "w": [
+    "Ega",
+    "Kesim",
+    "To‘ldiruvchi"
+   ],
+   "d": 2,
+   "x": "Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Qaratqich aniqlovchi» uchun mos ma’noni tanlang.",
+   "a": "Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qaratqich aniqlovchi",
+   "w": [
+    "Ega",
+    "Kesim",
+    "To‘ldiruvchi"
+   ],
+   "d": 2,
+   "x": "Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Payt holi» uchun mos ma’noni tanlang.",
+   "a": "Harakat vaqtini bildirgan hol",
+   "w": [
+    "Kesim bildirgan harakat yoki holat egasi",
+    "Ega haqidagi hukmni bildirgan bosh bo‘lak",
+    "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Payt holi — Harakat vaqtini bildirgan hol. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Payt holi — Harakat vaqtini bildirgan hol. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Harakat vaqtini bildirgan hol» qaysi tushuncha yoki iboraga mos?",
+   "a": "Payt holi",
+   "w": [
+    "Ega",
+    "Kesim",
+    "To‘ldiruvchi"
+   ],
+   "d": 2,
+   "x": "Payt holi — Harakat vaqtini bildirgan hol. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi.",
+   "h": "Payt holi — Harakat vaqtini bildirgan hol. Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Gap bo‘laklari: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Ega",
+     "Kesim bildirgan harakat yoki holat egasi"
+    ],
+    [
+     "Kesim",
+     "Ega haqidagi hukmni bildirgan bosh bo‘lak"
+    ],
+    [
+     "To‘ldiruvchi",
+     "Harakat bilan bog‘liq obyektni bildirgan bo‘lak"
+    ],
+    [
+     "Aniqlovchi",
+     "Narsa belgisi yoki qarashliligini bildirgan bo‘lak"
+    ]
+   ],
+   "d": 1,
+   "x": "Ega — Kesim bildirgan harakat yoki holat egasi; Kesim — Ega haqidagi hukmni bildirgan bosh bo‘lak; To‘ldiruvchi — Harakat bilan bog‘liq obyektni bildirgan bo‘lak; Aniqlovchi — Narsa belgisi yoki qarashliligini bildirgan bo‘lak",
+   "h": "Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Gap bo‘laklari: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Hol",
+     "Harakatning joy, vaqt yoki usulini bildirgan bo‘lak"
+    ],
+    [
+     "Sifatlovchi aniqlovchi",
+     "Narsaning qandayligini bildirgan aniqlovchi"
+    ],
+    [
+     "Qaratqich aniqlovchi",
+     "Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi"
+    ],
+    [
+     "Payt holi",
+     "Harakat vaqtini bildirgan hol"
+    ]
+   ],
+   "d": 1,
+   "x": "Hol — Harakatning joy, vaqt yoki usulini bildirgan bo‘lak; Sifatlovchi aniqlovchi — Narsaning qandayligini bildirgan aniqlovchi; Qaratqich aniqlovchi — Narsaning kimga yoki nimaga qarashliligini bildirgan aniqlovchi; Payt holi — Harakat vaqtini bildirgan hol",
+   "h": "Misol: “Ziyrak bola ertalab kitobni o‘qidi”. Bola — ega, o‘qidi — kesim, ziyrak — aniqlovchi, ertalab — hol, kitobni — to‘ldiruvchi."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Yig‘iq gap» uchun mos ma’noni tanlang.",
+   "a": "Faqat bosh bo‘laklardan tuzilgan gap",
+   "w": [
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap",
+    "Savol bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Faqat bosh bo‘laklardan tuzilgan gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yig‘iq gap",
+   "w": [
+    "Yoyiq gap",
+    "Darak gap",
+    "So‘roq gap"
+   ],
+   "d": 2,
+   "x": "Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Yoyiq gap» uchun mos ma’noni tanlang.",
+   "a": "Ikkinchi darajali bo‘laklari ham bor gap",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Xabar bildirgan gap",
+    "Savol bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Ikkinchi darajali bo‘laklari ham bor gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yoyiq gap",
+   "w": [
+    "Yig‘iq gap",
+    "Darak gap",
+    "So‘roq gap"
+   ],
+   "d": 2,
+   "x": "Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Darak gap» uchun mos ma’noni tanlang.",
+   "a": "Xabar bildirgan gap",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Savol bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Darak gap — Xabar bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Darak gap — Xabar bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Xabar bildirgan gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "Darak gap",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "So‘roq gap"
+   ],
+   "d": 2,
+   "x": "Darak gap — Xabar bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Darak gap — Xabar bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«So‘roq gap» uchun mos ma’noni tanlang.",
+   "a": "Savol bildirgan gap",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap"
+   ],
+   "d": 1,
+   "x": "So‘roq gap — Savol bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "So‘roq gap — Savol bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Savol bildirgan gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "So‘roq gap",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "Darak gap"
+   ],
+   "d": 2,
+   "x": "So‘roq gap — Savol bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "So‘roq gap — Savol bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Buyruq gap» uchun mos ma’noni tanlang.",
+   "a": "Undash yoki buyurishni bildirgan gap",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Buyruq gap — Undash yoki buyurishni bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Buyruq gap — Undash yoki buyurishni bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Undash yoki buyurishni bildirgan gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "Buyruq gap",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "Darak gap"
+   ],
+   "d": 2,
+   "x": "Buyruq gap — Undash yoki buyurishni bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Buyruq gap — Undash yoki buyurishni bildirgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«His-hayajon gap» uchun mos ma’noni tanlang.",
+   "a": "Kuchli hissiyot bilan aytilgan gap",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap"
+   ],
+   "d": 1,
+   "x": "His-hayajon gap — Kuchli hissiyot bilan aytilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "His-hayajon gap — Kuchli hissiyot bilan aytilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Kuchli hissiyot bilan aytilgan gap» qaysi tushuncha yoki iboraga mos?",
+   "a": "His-hayajon gap",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "Darak gap"
+   ],
+   "d": 2,
+   "x": "His-hayajon gap — Kuchli hissiyot bilan aytilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "His-hayajon gap — Kuchli hissiyot bilan aytilgan gap. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Uyushiq bo‘lak» uchun mos ma’noni tanlang.",
+   "a": "Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Uyushiq bo‘lak",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "Darak gap"
+   ],
+   "d": 2,
+   "x": "Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Umumlashtiruvchi so‘z» uchun mos ma’noni tanlang.",
+   "a": "Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z",
+   "w": [
+    "Faqat bosh bo‘laklardan tuzilgan gap",
+    "Ikkinchi darajali bo‘laklari ham bor gap",
+    "Xabar bildirgan gap"
+   ],
+   "d": 1,
+   "x": "Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z» qaysi tushuncha yoki iboraga mos?",
+   "a": "Umumlashtiruvchi so‘z",
+   "w": [
+    "Yig‘iq gap",
+    "Yoyiq gap",
+    "Darak gap"
+   ],
+   "d": 2,
+   "x": "Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega.",
+   "h": "Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z. Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Sodda gapning tuzilishi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Yig‘iq gap",
+     "Faqat bosh bo‘laklardan tuzilgan gap"
+    ],
+    [
+     "Yoyiq gap",
+     "Ikkinchi darajali bo‘laklari ham bor gap"
+    ],
+    [
+     "Darak gap",
+     "Xabar bildirgan gap"
+    ],
+    [
+     "So‘roq gap",
+     "Savol bildirgan gap"
+    ]
+   ],
+   "d": 1,
+   "x": "Yig‘iq gap — Faqat bosh bo‘laklardan tuzilgan gap; Yoyiq gap — Ikkinchi darajali bo‘laklari ham bor gap; Darak gap — Xabar bildirgan gap; So‘roq gap — Savol bildirgan gap",
+   "h": "Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Sodda gapning tuzilishi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Buyruq gap",
+     "Undash yoki buyurishni bildirgan gap"
+    ],
+    [
+     "His-hayajon gap",
+     "Kuchli hissiyot bilan aytilgan gap"
+    ],
+    [
+     "Uyushiq bo‘lak",
+     "Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak"
+    ],
+    [
+     "Umumlashtiruvchi so‘z",
+     "Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z"
+    ]
+   ],
+   "d": 1,
+   "x": "Buyruq gap — Undash yoki buyurishni bildirgan gap; His-hayajon gap — Kuchli hissiyot bilan aytilgan gap; Uyushiq bo‘lak — Bir so‘roqqa javob berib bir vazifada kelgan teng bo‘lak; Umumlashtiruvchi so‘z — Uyushiq bo‘laklarni umumiy nom bilan bildirgan so‘z",
+   "h": "Misol: “Bahor keldi” yig‘iq; “Bugun yurtimizga bahor keldi” yoyiq. “Olma, nok va uzum pishdi” gapida meva nomlari uyushiq ega."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Undalma» uchun mos ma’noni tanlang.",
+   "a": "Nutq qaratilgan shaxs yoki narsaning nomi",
+   "w": [
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak",
+    "Birovning aynan keltirilgan so‘zi"
+   ],
+   "d": 1,
+   "x": "Undalma — Nutq qaratilgan shaxs yoki narsaning nomi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Undalma — Nutq qaratilgan shaxs yoki narsaning nomi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Nutq qaratilgan shaxs yoki narsaning nomi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Undalma",
+   "w": [
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak",
+    "Ko‘chirma gap"
+   ],
+   "d": 2,
+   "x": "Undalma — Nutq qaratilgan shaxs yoki narsaning nomi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Undalma — Nutq qaratilgan shaxs yoki narsaning nomi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Kirish so‘z» uchun mos ma’noni tanlang.",
+   "a": "So‘zlovchining fikrga munosabatini bildirgan birlik",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak",
+    "Birovning aynan keltirilgan so‘zi"
+   ],
+   "d": 1,
+   "x": "Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«So‘zlovchining fikrga munosabatini bildirgan birlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kirish so‘z",
+   "w": [
+    "Undalma",
+    "Ajratilgan bo‘lak",
+    "Ko‘chirma gap"
+   ],
+   "d": 2,
+   "x": "Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Ajratilgan bo‘lak» uchun mos ma’noni tanlang.",
+   "a": "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Birovning aynan keltirilgan so‘zi"
+   ],
+   "d": 1,
+   "x": "Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ajratilgan bo‘lak",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ko‘chirma gap"
+   ],
+   "d": 2,
+   "x": "Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Ko‘chirma gap» uchun mos ma’noni tanlang.",
+   "a": "Birovning aynan keltirilgan so‘zi",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Ko‘chirma gap — Birovning aynan keltirilgan so‘zi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ko‘chirma gap — Birovning aynan keltirilgan so‘zi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Birovning aynan keltirilgan so‘zi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ko‘chirma gap",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak"
+   ],
+   "d": 2,
+   "x": "Ko‘chirma gap — Birovning aynan keltirilgan so‘zi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ko‘chirma gap — Birovning aynan keltirilgan so‘zi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Muallif gapi» uchun mos ma’noni tanlang.",
+   "a": "Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism» qaysi tushuncha yoki iboraga mos?",
+   "a": "Muallif gapi",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak"
+   ],
+   "d": 2,
+   "x": "Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Vergul» uchun mos ma’noni tanlang.",
+   "a": "Ajratish yoki sanashda ishlatiladigan tinish belgisi",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Ajratish yoki sanashda ishlatiladigan tinish belgisi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Vergul",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak"
+   ],
+   "d": 2,
+   "x": "Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Ikki nuqta» uchun mos ma’noni tanlang.",
+   "a": "Izoh yoki ko‘chirma oldidan ishlatiladigan belgi",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Izoh yoki ko‘chirma oldidan ishlatiladigan belgi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ikki nuqta",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak"
+   ],
+   "d": 2,
+   "x": "Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Mantiqiy izchillik» uchun mos ma’noni tanlang.",
+   "a": "Fikrlar bir-biriga tushunarli bog‘lanishi",
+   "w": [
+    "Nutq qaratilgan shaxs yoki narsaning nomi",
+    "So‘zlovchining fikrga munosabatini bildirgan birlik",
+    "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+   ],
+   "d": 1,
+   "x": "Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Fikrlar bir-biriga tushunarli bog‘lanishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mantiqiy izchillik",
+   "w": [
+    "Undalma",
+    "Kirish so‘z",
+    "Ajratilgan bo‘lak"
+   ],
+   "d": 2,
+   "x": "Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz.",
+   "h": "Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi. Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Kirish, undalma va tahrir: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Undalma",
+     "Nutq qaratilgan shaxs yoki narsaning nomi"
+    ],
+    [
+     "Kirish so‘z",
+     "So‘zlovchining fikrga munosabatini bildirgan birlik"
+    ],
+    [
+     "Ajratilgan bo‘lak",
+     "Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak"
+    ],
+    [
+     "Ko‘chirma gap",
+     "Birovning aynan keltirilgan so‘zi"
+    ]
+   ],
+   "d": 1,
+   "x": "Undalma — Nutq qaratilgan shaxs yoki narsaning nomi; Kirish so‘z — So‘zlovchining fikrga munosabatini bildirgan birlik; Ajratilgan bo‘lak — Ma’nosi ta’kidlanib alohida ohang bilan berilgan bo‘lak; Ko‘chirma gap — Birovning aynan keltirilgan so‘zi",
+   "h": "Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  },
+  {
+   "topic": "onatili_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Kirish, undalma va tahrir: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Muallif gapi",
+     "Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism"
+    ],
+    [
+     "Vergul",
+     "Ajratish yoki sanashda ishlatiladigan tinish belgisi"
+    ],
+    [
+     "Ikki nuqta",
+     "Izoh yoki ko‘chirma oldidan ishlatiladigan belgi"
+    ],
+    [
+     "Mantiqiy izchillik",
+     "Fikrlar bir-biriga tushunarli bog‘lanishi"
+    ]
+   ],
+   "d": 1,
+   "x": "Muallif gapi — Ko‘chirma so‘z egasini yoki vaziyatini tushuntirgan qism; Vergul — Ajratish yoki sanashda ishlatiladigan tinish belgisi; Ikki nuqta — Izoh yoki ko‘chirma oldidan ishlatiladigan belgi; Mantiqiy izchillik — Fikrlar bir-biriga tushunarli bog‘lanishi",
+   "h": "Misol: “Aziz do‘stim, tingla” — undalma; “Menimcha, bu yechim to‘g‘ri” — kirish. Tahrirda gap bo‘laklarini topamiz, tinish belgilarini tuzilishga mos tekshiramiz."
+  }
+ ]
+}

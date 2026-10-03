@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Butun son» uchun mos ma’noni tanlang.",
+   "a": "Kasrsiz son turi",
+   "w": [
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi",
+    "Rost yoki yolg‘on turi"
+   ],
+   "d": 1,
+   "x": "Butun son — Kasrsiz son turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Butun son — Kasrsiz son turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Kasrsiz son turi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Butun son",
+   "w": [
+    "Haqiqiy son",
+    "Satr",
+    "Mantiqiy qiymat"
+   ],
+   "d": 2,
+   "x": "Butun son — Kasrsiz son turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Butun son — Kasrsiz son turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Haqiqiy son» uchun mos ma’noni tanlang.",
+   "a": "Kasrli sonlarni ifodalash turi",
+   "w": [
+    "Kasrsiz son turi",
+    "Belgilar ketma-ketligi turi",
+    "Rost yoki yolg‘on turi"
+   ],
+   "d": 1,
+   "x": "Haqiqiy son — Kasrli sonlarni ifodalash turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Haqiqiy son — Kasrli sonlarni ifodalash turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Kasrli sonlarni ifodalash turi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Haqiqiy son",
+   "w": [
+    "Butun son",
+    "Satr",
+    "Mantiqiy qiymat"
+   ],
+   "d": 2,
+   "x": "Haqiqiy son — Kasrli sonlarni ifodalash turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Haqiqiy son — Kasrli sonlarni ifodalash turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Satr» uchun mos ma’noni tanlang.",
+   "a": "Belgilar ketma-ketligi turi",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Rost yoki yolg‘on turi"
+   ],
+   "d": 1,
+   "x": "Satr — Belgilar ketma-ketligi turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Satr — Belgilar ketma-ketligi turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Belgilar ketma-ketligi turi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Satr",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Mantiqiy qiymat"
+   ],
+   "d": 2,
+   "x": "Satr — Belgilar ketma-ketligi turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Satr — Belgilar ketma-ketligi turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Mantiqiy qiymat» uchun mos ma’noni tanlang.",
+   "a": "Rost yoki yolg‘on turi",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi"
+   ],
+   "d": 1,
+   "x": "Mantiqiy qiymat — Rost yoki yolg‘on turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Mantiqiy qiymat — Rost yoki yolg‘on turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Rost yoki yolg‘on turi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mantiqiy qiymat",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Satr"
+   ],
+   "d": 2,
+   "x": "Mantiqiy qiymat — Rost yoki yolg‘on turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Mantiqiy qiymat — Rost yoki yolg‘on turi. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Ro‘yxat» uchun mos ma’noni tanlang.",
+   "a": "Bir nechta elementni tartib bilan saqlash",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi"
+   ],
+   "d": 1,
+   "x": "Ro‘yxat — Bir nechta elementni tartib bilan saqlash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Ro‘yxat — Bir nechta elementni tartib bilan saqlash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Bir nechta elementni tartib bilan saqlash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ro‘yxat",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Satr"
+   ],
+   "d": 2,
+   "x": "Ro‘yxat — Bir nechta elementni tartib bilan saqlash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Ro‘yxat — Bir nechta elementni tartib bilan saqlash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Indeks» uchun mos ma’noni tanlang.",
+   "a": "Elementning ketma-ketlikdagi o‘rnini belgilash",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi"
+   ],
+   "d": 1,
+   "x": "Indeks — Elementning ketma-ketlikdagi o‘rnini belgilash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Indeks — Elementning ketma-ketlikdagi o‘rnini belgilash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Elementning ketma-ketlikdagi o‘rnini belgilash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Indeks",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Satr"
+   ],
+   "d": 2,
+   "x": "Indeks — Elementning ketma-ketlikdagi o‘rnini belgilash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Indeks — Elementning ketma-ketlikdagi o‘rnini belgilash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Turga o‘tkazish» uchun mos ma’noni tanlang.",
+   "a": "Qiymatni boshqa turda ifodalash",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi"
+   ],
+   "d": 1,
+   "x": "Turga o‘tkazish — Qiymatni boshqa turda ifodalash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Turga o‘tkazish — Qiymatni boshqa turda ifodalash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Qiymatni boshqa turda ifodalash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Turga o‘tkazish",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Satr"
+   ],
+   "d": 2,
+   "x": "Turga o‘tkazish — Qiymatni boshqa turda ifodalash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Turga o‘tkazish — Qiymatni boshqa turda ifodalash. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Ifoda» uchun mos ma’noni tanlang.",
+   "a": "Qiymat hosil qiladigan amal yoki birikma",
+   "w": [
+    "Kasrsiz son turi",
+    "Kasrli sonlarni ifodalash turi",
+    "Belgilar ketma-ketligi turi"
+   ],
+   "d": 1,
+   "x": "Ifoda — Qiymat hosil qiladigan amal yoki birikma. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Ifoda — Qiymat hosil qiladigan amal yoki birikma. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Qiymat hosil qiladigan amal yoki birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ifoda",
+   "w": [
+    "Butun son",
+    "Haqiqiy son",
+    "Satr"
+   ],
+   "d": 2,
+   "x": "Ifoda — Qiymat hosil qiladigan amal yoki birikma. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi.",
+   "h": "Ifoda — Qiymat hosil qiladigan amal yoki birikma. Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Dasturlashdagi ma’lumot turlari: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Butun son",
+     "Kasrsiz son turi"
+    ],
+    [
+     "Haqiqiy son",
+     "Kasrli sonlarni ifodalash turi"
+    ],
+    [
+     "Satr",
+     "Belgilar ketma-ketligi turi"
+    ],
+    [
+     "Mantiqiy qiymat",
+     "Rost yoki yolg‘on turi"
+    ]
+   ],
+   "d": 1,
+   "x": "Butun son — Kasrsiz son turi; Haqiqiy son — Kasrli sonlarni ifodalash turi; Satr — Belgilar ketma-ketligi turi; Mantiqiy qiymat — Rost yoki yolg‘on turi",
+   "h": "Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Dasturlashdagi ma’lumot turlari: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Ro‘yxat",
+     "Bir nechta elementni tartib bilan saqlash"
+    ],
+    [
+     "Indeks",
+     "Elementning ketma-ketlikdagi o‘rnini belgilash"
+    ],
+    [
+     "Turga o‘tkazish",
+     "Qiymatni boshqa turda ifodalash"
+    ],
+    [
+     "Ifoda",
+     "Qiymat hosil qiladigan amal yoki birikma"
+    ]
+   ],
+   "d": 1,
+   "x": "Ro‘yxat — Bir nechta elementni tartib bilan saqlash; Indeks — Elementning ketma-ketlikdagi o‘rnini belgilash; Turga o‘tkazish — Qiymatni boshqa turda ifodalash; Ifoda — Qiymat hosil qiladigan amal yoki birikma",
+   "h": "Misol: Python tilida \"12\" — satr, 12 — butun son; int(\"12\") butun son beradi. Ro‘yxat indekslari noldan boshlanadi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Funksiya» uchun mos ma’noni tanlang.",
+   "a": "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+   "w": [
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat",
+    "Funksiya natijasini chaqiruvchiga berish"
+   ],
+   "d": 1,
+   "x": "Funksiya — Nomlangan qayta ishlatiladigan kod bo‘lagi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Funksiya — Nomlangan qayta ishlatiladigan kod bo‘lagi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Nomlangan qayta ishlatiladigan kod bo‘lagi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Funksiya",
+   "w": [
+    "Parametr",
+    "Argument",
+    "Qaytarish"
+   ],
+   "d": 2,
+   "x": "Funksiya — Nomlangan qayta ishlatiladigan kod bo‘lagi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Funksiya — Nomlangan qayta ishlatiladigan kod bo‘lagi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Parametr» uchun mos ma’noni tanlang.",
+   "a": "Funksiya ta’rifidagi kirish nomi",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya chaqirilganda berilgan qiymat",
+    "Funksiya natijasini chaqiruvchiga berish"
+   ],
+   "d": 1,
+   "x": "Parametr — Funksiya ta’rifidagi kirish nomi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Parametr — Funksiya ta’rifidagi kirish nomi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Funksiya ta’rifidagi kirish nomi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Parametr",
+   "w": [
+    "Funksiya",
+    "Argument",
+    "Qaytarish"
+   ],
+   "d": 2,
+   "x": "Parametr — Funksiya ta’rifidagi kirish nomi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Parametr — Funksiya ta’rifidagi kirish nomi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Argument» uchun mos ma’noni tanlang.",
+   "a": "Funksiya chaqirilganda berilgan qiymat",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya natijasini chaqiruvchiga berish"
+   ],
+   "d": 1,
+   "x": "Argument — Funksiya chaqirilganda berilgan qiymat. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Argument — Funksiya chaqirilganda berilgan qiymat. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Funksiya chaqirilganda berilgan qiymat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Argument",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Qaytarish"
+   ],
+   "d": 2,
+   "x": "Argument — Funksiya chaqirilganda berilgan qiymat. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Argument — Funksiya chaqirilganda berilgan qiymat. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Qaytarish» uchun mos ma’noni tanlang.",
+   "a": "Funksiya natijasini chaqiruvchiga berish",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat"
+   ],
+   "d": 1,
+   "x": "Qaytarish — Funksiya natijasini chaqiruvchiga berish. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Qaytarish — Funksiya natijasini chaqiruvchiga berish. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Funksiya natijasini chaqiruvchiga berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qaytarish",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Argument"
+   ],
+   "d": 2,
+   "x": "Qaytarish — Funksiya natijasini chaqiruvchiga berish. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Qaytarish — Funksiya natijasini chaqiruvchiga berish. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Mahalliy o‘zgaruvchi» uchun mos ma’noni tanlang.",
+   "a": "Funksiya ichidagi o‘zgaruvchi",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat"
+   ],
+   "d": 1,
+   "x": "Mahalliy o‘zgaruvchi — Funksiya ichidagi o‘zgaruvchi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Mahalliy o‘zgaruvchi — Funksiya ichidagi o‘zgaruvchi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Funksiya ichidagi o‘zgaruvchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mahalliy o‘zgaruvchi",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Argument"
+   ],
+   "d": 2,
+   "x": "Mahalliy o‘zgaruvchi — Funksiya ichidagi o‘zgaruvchi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Mahalliy o‘zgaruvchi — Funksiya ichidagi o‘zgaruvchi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Sintaksis xatosi» uchun mos ma’noni tanlang.",
+   "a": "Til qoidasi buzilgan yozuv",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat"
+   ],
+   "d": 1,
+   "x": "Sintaksis xatosi — Til qoidasi buzilgan yozuv. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Sintaksis xatosi — Til qoidasi buzilgan yozuv. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Til qoidasi buzilgan yozuv» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sintaksis xatosi",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Argument"
+   ],
+   "d": 2,
+   "x": "Sintaksis xatosi — Til qoidasi buzilgan yozuv. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Sintaksis xatosi — Til qoidasi buzilgan yozuv. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Mantiqiy xato» uchun mos ma’noni tanlang.",
+   "a": "Ishlaydigan kodning noto‘g‘ri natija berishi",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat"
+   ],
+   "d": 1,
+   "x": "Mantiqiy xato — Ishlaydigan kodning noto‘g‘ri natija berishi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Mantiqiy xato — Ishlaydigan kodning noto‘g‘ri natija berishi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Ishlaydigan kodning noto‘g‘ri natija berishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mantiqiy xato",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Argument"
+   ],
+   "d": 2,
+   "x": "Mantiqiy xato — Ishlaydigan kodning noto‘g‘ri natija berishi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Mantiqiy xato — Ishlaydigan kodning noto‘g‘ri natija berishi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Chegaraviy test» uchun mos ma’noni tanlang.",
+   "a": "Eng kichik yoki o‘tish chegarasidagi holat sinovi",
+   "w": [
+    "Nomlangan qayta ishlatiladigan kod bo‘lagi",
+    "Funksiya ta’rifidagi kirish nomi",
+    "Funksiya chaqirilganda berilgan qiymat"
+   ],
+   "d": 1,
+   "x": "Chegaraviy test — Eng kichik yoki o‘tish chegarasidagi holat sinovi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Chegaraviy test — Eng kichik yoki o‘tish chegarasidagi holat sinovi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Eng kichik yoki o‘tish chegarasidagi holat sinovi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Chegaraviy test",
+   "w": [
+    "Funksiya",
+    "Parametr",
+    "Argument"
+   ],
+   "d": 2,
+   "x": "Chegaraviy test — Eng kichik yoki o‘tish chegarasidagi holat sinovi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi.",
+   "h": "Chegaraviy test — Eng kichik yoki o‘tish chegarasidagi holat sinovi. Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Funksiya va dastur sinovi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Funksiya",
+     "Nomlangan qayta ishlatiladigan kod bo‘lagi"
+    ],
+    [
+     "Parametr",
+     "Funksiya ta’rifidagi kirish nomi"
+    ],
+    [
+     "Argument",
+     "Funksiya chaqirilganda berilgan qiymat"
+    ],
+    [
+     "Qaytarish",
+     "Funksiya natijasini chaqiruvchiga berish"
+    ]
+   ],
+   "d": 1,
+   "x": "Funksiya — Nomlangan qayta ishlatiladigan kod bo‘lagi; Parametr — Funksiya ta’rifidagi kirish nomi; Argument — Funksiya chaqirilganda berilgan qiymat; Qaytarish — Funksiya natijasini chaqiruvchiga berish",
+   "h": "Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Funksiya va dastur sinovi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Mahalliy o‘zgaruvchi",
+     "Funksiya ichidagi o‘zgaruvchi"
+    ],
+    [
+     "Sintaksis xatosi",
+     "Til qoidasi buzilgan yozuv"
+    ],
+    [
+     "Mantiqiy xato",
+     "Ishlaydigan kodning noto‘g‘ri natija berishi"
+    ],
+    [
+     "Chegaraviy test",
+     "Eng kichik yoki o‘tish chegarasidagi holat sinovi"
+    ]
+   ],
+   "d": 1,
+   "x": "Mahalliy o‘zgaruvchi — Funksiya ichidagi o‘zgaruvchi; Sintaksis xatosi — Til qoidasi buzilgan yozuv; Mantiqiy xato — Ishlaydigan kodning noto‘g‘ri natija berishi; Chegaraviy test — Eng kichik yoki o‘tish chegarasidagi holat sinovi",
+   "h": "Misol: ikki son yig‘indisini qaytaradigan funksiya uchun (2,3), (0,0), (-2,2) holatlarini tekshiramiz. Natijalar mos ravishda 5, 0, 0 bo‘ladi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Jadval» uchun mos ma’noni tanlang.",
+   "a": "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+   "w": [
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun",
+    "Har yozuvni noyob ajratadigan qiymat"
+   ],
+   "d": 1,
+   "x": "Jadval — Satrlar va ustunlardagi ma’lumotlar to‘plami. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Jadval — Satrlar va ustunlardagi ma’lumotlar to‘plami. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Satrlar va ustunlardagi ma’lumotlar to‘plami» qaysi tushuncha yoki iboraga mos?",
+   "a": "Jadval",
+   "w": [
+    "Yozuv",
+    "Maydon",
+    "Birlamchi kalit"
+   ],
+   "d": 2,
+   "x": "Jadval — Satrlar va ustunlardagi ma’lumotlar to‘plami. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Jadval — Satrlar va ustunlardagi ma’lumotlar to‘plami. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Yozuv» uchun mos ma’noni tanlang.",
+   "a": "Bitta obyekt haqidagi satr",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bir xossa uchun ustun",
+    "Har yozuvni noyob ajratadigan qiymat"
+   ],
+   "d": 1,
+   "x": "Yozuv — Bitta obyekt haqidagi satr. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Yozuv — Bitta obyekt haqidagi satr. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Bitta obyekt haqidagi satr» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yozuv",
+   "w": [
+    "Jadval",
+    "Maydon",
+    "Birlamchi kalit"
+   ],
+   "d": 2,
+   "x": "Yozuv — Bitta obyekt haqidagi satr. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Yozuv — Bitta obyekt haqidagi satr. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Maydon» uchun mos ma’noni tanlang.",
+   "a": "Bir xossa uchun ustun",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Har yozuvni noyob ajratadigan qiymat"
+   ],
+   "d": 1,
+   "x": "Maydon — Bir xossa uchun ustun. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Maydon — Bir xossa uchun ustun. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Bir xossa uchun ustun» qaysi tushuncha yoki iboraga mos?",
+   "a": "Maydon",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Birlamchi kalit"
+   ],
+   "d": 2,
+   "x": "Maydon — Bir xossa uchun ustun. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Maydon — Bir xossa uchun ustun. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Birlamchi kalit» uchun mos ma’noni tanlang.",
+   "a": "Har yozuvni noyob ajratadigan qiymat",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun"
+   ],
+   "d": 1,
+   "x": "Birlamchi kalit — Har yozuvni noyob ajratadigan qiymat. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Birlamchi kalit — Har yozuvni noyob ajratadigan qiymat. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Har yozuvni noyob ajratadigan qiymat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Birlamchi kalit",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Maydon"
+   ],
+   "d": 2,
+   "x": "Birlamchi kalit — Har yozuvni noyob ajratadigan qiymat. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Birlamchi kalit — Har yozuvni noyob ajratadigan qiymat. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«So‘rov» uchun mos ma’noni tanlang.",
+   "a": "Kerakli yozuvlarni olish ko‘rsatmasi",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun"
+   ],
+   "d": 1,
+   "x": "So‘rov — Kerakli yozuvlarni olish ko‘rsatmasi. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "So‘rov — Kerakli yozuvlarni olish ko‘rsatmasi. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Kerakli yozuvlarni olish ko‘rsatmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "So‘rov",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Maydon"
+   ],
+   "d": 2,
+   "x": "So‘rov — Kerakli yozuvlarni olish ko‘rsatmasi. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "So‘rov — Kerakli yozuvlarni olish ko‘rsatmasi. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Filtr» uchun mos ma’noni tanlang.",
+   "a": "Shartga mos yozuvlarni ajratish",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun"
+   ],
+   "d": 1,
+   "x": "Filtr — Shartga mos yozuvlarni ajratish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Filtr — Shartga mos yozuvlarni ajratish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Shartga mos yozuvlarni ajratish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Filtr",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Maydon"
+   ],
+   "d": 2,
+   "x": "Filtr — Shartga mos yozuvlarni ajratish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Filtr — Shartga mos yozuvlarni ajratish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Saralash» uchun mos ma’noni tanlang.",
+   "a": "Yozuvlarni belgilangan tartibga keltirish",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun"
+   ],
+   "d": 1,
+   "x": "Saralash — Yozuvlarni belgilangan tartibga keltirish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Saralash — Yozuvlarni belgilangan tartibga keltirish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Yozuvlarni belgilangan tartibga keltirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Saralash",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Maydon"
+   ],
+   "d": 2,
+   "x": "Saralash — Yozuvlarni belgilangan tartibga keltirish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Saralash — Yozuvlarni belgilangan tartibga keltirish. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Bog‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Jadvallar orasidagi mos kalitlar munosabati",
+   "w": [
+    "Satrlar va ustunlardagi ma’lumotlar to‘plami",
+    "Bitta obyekt haqidagi satr",
+    "Bir xossa uchun ustun"
+   ],
+   "d": 1,
+   "x": "Bog‘lanish — Jadvallar orasidagi mos kalitlar munosabati. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Bog‘lanish — Jadvallar orasidagi mos kalitlar munosabati. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Jadvallar orasidagi mos kalitlar munosabati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bog‘lanish",
+   "w": [
+    "Jadval",
+    "Yozuv",
+    "Maydon"
+   ],
+   "d": 2,
+   "x": "Bog‘lanish — Jadvallar orasidagi mos kalitlar munosabati. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi.",
+   "h": "Bog‘lanish — Jadvallar orasidagi mos kalitlar munosabati. Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Ma’lumotlar bazasi va qidiruv: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Jadval",
+     "Satrlar va ustunlardagi ma’lumotlar to‘plami"
+    ],
+    [
+     "Yozuv",
+     "Bitta obyekt haqidagi satr"
+    ],
+    [
+     "Maydon",
+     "Bir xossa uchun ustun"
+    ],
+    [
+     "Birlamchi kalit",
+     "Har yozuvni noyob ajratadigan qiymat"
+    ]
+   ],
+   "d": 1,
+   "x": "Jadval — Satrlar va ustunlardagi ma’lumotlar to‘plami; Yozuv — Bitta obyekt haqidagi satr; Maydon — Bir xossa uchun ustun; Birlamchi kalit — Har yozuvni noyob ajratadigan qiymat",
+   "h": "Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Ma’lumotlar bazasi va qidiruv: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "So‘rov",
+     "Kerakli yozuvlarni olish ko‘rsatmasi"
+    ],
+    [
+     "Filtr",
+     "Shartga mos yozuvlarni ajratish"
+    ],
+    [
+     "Saralash",
+     "Yozuvlarni belgilangan tartibga keltirish"
+    ],
+    [
+     "Bog‘lanish",
+     "Jadvallar orasidagi mos kalitlar munosabati"
+    ]
+   ],
+   "d": 1,
+   "x": "So‘rov — Kerakli yozuvlarni olish ko‘rsatmasi; Filtr — Shartga mos yozuvlarni ajratish; Saralash — Yozuvlarni belgilangan tartibga keltirish; Bog‘lanish — Jadvallar orasidagi mos kalitlar munosabati",
+   "h": "Misol: kitob jadvalida ID birlamchi kalit, nom va muallif maydon bo‘ladi. Muallif bo‘yicha filtr qidiruvni qisqartiradi; nom bo‘yicha saralash tartibni o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«HTML» uchun mos ma’noni tanlang.",
+   "a": "Sahifa tuzilishini belgilash tili",
+   "w": [
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi",
+    "Boshqa resursga o‘tish elementi"
+   ],
+   "d": 1,
+   "x": "HTML — Sahifa tuzilishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "HTML — Sahifa tuzilishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Sahifa tuzilishini belgilash tili» qaysi tushuncha yoki iboraga mos?",
+   "a": "HTML",
+   "w": [
+    "CSS",
+    "Sarlavha",
+    "Havola"
+   ],
+   "d": 2,
+   "x": "HTML — Sahifa tuzilishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "HTML — Sahifa tuzilishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«CSS» uchun mos ma’noni tanlang.",
+   "a": "Sahifa ko‘rinishini belgilash tili",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifadagi bo‘lim nomi",
+    "Boshqa resursga o‘tish elementi"
+   ],
+   "d": 1,
+   "x": "CSS — Sahifa ko‘rinishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "CSS — Sahifa ko‘rinishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Sahifa ko‘rinishini belgilash tili» qaysi tushuncha yoki iboraga mos?",
+   "a": "CSS",
+   "w": [
+    "HTML",
+    "Sarlavha",
+    "Havola"
+   ],
+   "d": 2,
+   "x": "CSS — Sahifa ko‘rinishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "CSS — Sahifa ko‘rinishini belgilash tili. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Sarlavha» uchun mos ma’noni tanlang.",
+   "a": "Sahifadagi bo‘lim nomi",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Boshqa resursga o‘tish elementi"
+   ],
+   "d": 1,
+   "x": "Sarlavha — Sahifadagi bo‘lim nomi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Sarlavha — Sahifadagi bo‘lim nomi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Sahifadagi bo‘lim nomi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sarlavha",
+   "w": [
+    "HTML",
+    "CSS",
+    "Havola"
+   ],
+   "d": 2,
+   "x": "Sarlavha — Sahifadagi bo‘lim nomi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Sarlavha — Sahifadagi bo‘lim nomi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Havola» uchun mos ma’noni tanlang.",
+   "a": "Boshqa resursga o‘tish elementi",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi"
+   ],
+   "d": 1,
+   "x": "Havola — Boshqa resursga o‘tish elementi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Havola — Boshqa resursga o‘tish elementi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Boshqa resursga o‘tish elementi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Havola",
+   "w": [
+    "HTML",
+    "CSS",
+    "Sarlavha"
+   ],
+   "d": 2,
+   "x": "Havola — Boshqa resursga o‘tish elementi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Havola — Boshqa resursga o‘tish elementi. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Muqobil matn» uchun mos ma’noni tanlang.",
+   "a": "Rasm mazmunini matn bilan tushuntirish",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi"
+   ],
+   "d": 1,
+   "x": "Muqobil matn — Rasm mazmunini matn bilan tushuntirish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Muqobil matn — Rasm mazmunini matn bilan tushuntirish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Rasm mazmunini matn bilan tushuntirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Muqobil matn",
+   "w": [
+    "HTML",
+    "CSS",
+    "Sarlavha"
+   ],
+   "d": 2,
+   "x": "Muqobil matn — Rasm mazmunini matn bilan tushuntirish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Muqobil matn — Rasm mazmunini matn bilan tushuntirish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Talab» uchun mos ma’noni tanlang.",
+   "a": "Loyiha bajarishi kerak bo‘lgan shart",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi"
+   ],
+   "d": 1,
+   "x": "Talab — Loyiha bajarishi kerak bo‘lgan shart. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Talab — Loyiha bajarishi kerak bo‘lgan shart. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Loyiha bajarishi kerak bo‘lgan shart» qaysi tushuncha yoki iboraga mos?",
+   "a": "Talab",
+   "w": [
+    "HTML",
+    "CSS",
+    "Sarlavha"
+   ],
+   "d": 2,
+   "x": "Talab — Loyiha bajarishi kerak bo‘lgan shart. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Talab — Loyiha bajarishi kerak bo‘lgan shart. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Versiya» uchun mos ma’noni tanlang.",
+   "a": "Ishning ma’lum o‘zgarishlar holati",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi"
+   ],
+   "d": 1,
+   "x": "Versiya — Ishning ma’lum o‘zgarishlar holati. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Versiya — Ishning ma’lum o‘zgarishlar holati. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Ishning ma’lum o‘zgarishlar holati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Versiya",
+   "w": [
+    "HTML",
+    "CSS",
+    "Sarlavha"
+   ],
+   "d": 2,
+   "x": "Versiya — Ishning ma’lum o‘zgarishlar holati. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Versiya — Ishning ma’lum o‘zgarishlar holati. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Foydalanuvchi sinovi» uchun mos ma’noni tanlang.",
+   "a": "Odam vazifani bajara olishini kuzatish",
+   "w": [
+    "Sahifa tuzilishini belgilash tili",
+    "Sahifa ko‘rinishini belgilash tili",
+    "Sahifadagi bo‘lim nomi"
+   ],
+   "d": 1,
+   "x": "Foydalanuvchi sinovi — Odam vazifani bajara olishini kuzatish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Foydalanuvchi sinovi — Odam vazifani bajara olishini kuzatish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Odam vazifani bajara olishini kuzatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Foydalanuvchi sinovi",
+   "w": [
+    "HTML",
+    "CSS",
+    "Sarlavha"
+   ],
+   "d": 2,
+   "x": "Foydalanuvchi sinovi — Odam vazifani bajara olishini kuzatish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz.",
+   "h": "Foydalanuvchi sinovi — Odam vazifani bajara olishini kuzatish. Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Veb tuzilma va raqamli loyiha: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "HTML",
+     "Sahifa tuzilishini belgilash tili"
+    ],
+    [
+     "CSS",
+     "Sahifa ko‘rinishini belgilash tili"
+    ],
+    [
+     "Sarlavha",
+     "Sahifadagi bo‘lim nomi"
+    ],
+    [
+     "Havola",
+     "Boshqa resursga o‘tish elementi"
+    ]
+   ],
+   "d": 1,
+   "x": "HTML — Sahifa tuzilishini belgilash tili; CSS — Sahifa ko‘rinishini belgilash tili; Sarlavha — Sahifadagi bo‘lim nomi; Havola — Boshqa resursga o‘tish elementi",
+   "h": "Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  },
+  {
+   "topic": "informatics_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Veb tuzilma va raqamli loyiha: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Muqobil matn",
+     "Rasm mazmunini matn bilan tushuntirish"
+    ],
+    [
+     "Talab",
+     "Loyiha bajarishi kerak bo‘lgan shart"
+    ],
+    [
+     "Versiya",
+     "Ishning ma’lum o‘zgarishlar holati"
+    ],
+    [
+     "Foydalanuvchi sinovi",
+     "Odam vazifani bajara olishini kuzatish"
+    ]
+   ],
+   "d": 1,
+   "x": "Muqobil matn — Rasm mazmunini matn bilan tushuntirish; Talab — Loyiha bajarishi kerak bo‘lgan shart; Versiya — Ishning ma’lum o‘zgarishlar holati; Foydalanuvchi sinovi — Odam vazifani bajara olishini kuzatish",
+   "h": "Misol: kutubxona sahifasida kitob nomlari, qidiruv va tushunarli havolalar bo‘lishi kerak. Rasmga muqobil matn yozamiz va telefonda o‘qilishini sinaymiz."
+  }
+ ]
+}

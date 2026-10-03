@@ -35,7 +35,8 @@
    ],
    "theory": {
     "uz": "Ish joyini tartibli saqlang. Qaychini yopiq holda dastasi oldinga qaratib uzating. Chizg‘ich o‘lchash va to‘g‘ri chiziq chizish uchun, elim esa qismlarni biriktirish uchun ishlatiladi."
-   }
+   },
+   "tags": []
   },
   {
    "id": "technology_g3.safety_workshop",
@@ -67,6 +68,7 @@
    "theory": {
     "uz": "Ish joyini tartibli saqlang. Qaychini yopiq holda dastasi oldinga qaratib uzating. Chizg‘ich o‘lchash va to‘g‘ri chiziq chizish uchun, elim esa qismlarni biriktirish uchun ishlatiladi."
    },
+   "tags": [],
    "lessonSize": 6
   },
   {
@@ -102,7 +104,8 @@
      ],
      "level": 3
     }
-   ]
+   ],
+   "tags": []
   },
   {
    "id": "technology_g3.paper",
@@ -130,7 +133,8 @@
    ],
    "theory": {
     "uz": "Qog‘oz yupqa va oson bukiladi, karton esa qalinroq va mustahkamroq. Avval o‘lchang va belgilang, keyin kesing, buklang yoki yelimlang. Andoza bir xil shakllarni aniq ko‘chirishga yordam beradi."
-   }
+   },
+   "tags": []
   },
   {
    "id": "technology_g3.paper_workshop",
@@ -162,6 +166,7 @@
    "theory": {
     "uz": "Qog‘oz yupqa va oson bukiladi, karton esa qalinroq va mustahkamroq. Avval o‘lchang va belgilang, keyin kesing, buklang yoki yelimlang. Andoza bir xil shakllarni aniq ko‘chirishga yordam beradi."
    },
+   "tags": [],
    "lessonSize": 6
   },
   {
@@ -197,7 +202,8 @@
      ],
      "level": 3
     }
-   ]
+   ],
+   "tags": []
   },
   {
    "id": "technology_g3.reuse",
@@ -225,7 +231,8 @@
    ],
    "theory": {
     "uz": "Quruq barg, urug‘ va novda tabiiy materiallardir. Toza quti, karton va qopqoqlarni qayta ishlatish mumkin. Materialni tejash va chiqindini saralash tabiatni asrashga yordam beradi."
-   }
+   },
+   "tags": []
   },
   {
    "id": "technology_g3.reuse_workshop",
@@ -257,6 +264,7 @@
    "theory": {
     "uz": "Quruq barg, urug‘ va novda tabiiy materiallardir. Toza quti, karton va qopqoqlarni qayta ishlatish mumkin. Materialni tejash va chiqindini saralash tabiatni asrashga yordam beradi."
    },
+   "tags": [],
    "lessonSize": 6
   },
   {
@@ -292,7 +300,8 @@
      ],
      "level": 3
     }
-   ]
+   ],
+   "tags": []
   },
   {
    "id": "technology_g3.project",
@@ -320,7 +329,10 @@
    ],
    "theory": {
     "uz": "Loyiha maqsadni aniqlashdan boshlanadi. G‘oya eskizda ko‘rsatiladi, material tanlanadi, buyum ketma-ket tayyorlanadi, sinovdan o‘tkaziladi va kamchiliklari yaxshilanadi."
-   }
+   },
+   "tags": [
+    "track:technical"
+   ]
   },
   {
    "id": "technology_g3.project_workshop",
@@ -352,6 +364,9 @@
    "theory": {
     "uz": "Loyiha maqsadni aniqlashdan boshlanadi. G‘oya eskizda ko‘rsatiladi, material tanlanadi, buyum ketma-ket tayyorlanadi, sinovdan o‘tkaziladi va kamchiliklari yaxshilanadi."
    },
+   "tags": [
+    "track:technical"
+   ],
    "lessonSize": 6
   },
   {
@@ -387,6 +402,9 @@
      ],
      "level": 3
     }
+   ],
+   "tags": [
+    "track:technical"
    ]
   },
   {
@@ -431,6 +449,267 @@
      ],
      "level": 3
     }
+   ],
+   "tags": [
+    "track:technical"
+   ]
+  },
+  {
+   "id": "technology_g3.service_textile",
+   "code": "S1",
+   "emoji": "🧵",
+   "title": {
+    "uz": "Mato, naqsh va andoza",
+    "en": "Fabric, patterns and templates",
+    "ru": "Ткань, узоры и шаблоны"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Mato — tolalardan tayyorlangan egiluvchan material; Ip — tolalarni birlashtirish yoki bezash materiali; Andoza — bir xil shaklni takrorlash namunasi; Naqsh — shakl va ranglarning tartibli bezagi; Takroriy naqsh — bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — matoga o‘tishdan oldin sinash shakli. Misol: Qog‘ozda mato bezagini rejalash: Buyum shaklini tanlash → Shaklni qog‘ozga chizish → Naqsh ranglarini belgilash → Naqshning takrorlanishini tekshirish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g3.service_textile_workshop",
+   "code": "S1A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Mato, naqsh va andoza",
+    "en": "Workshop: Fabric, patterns and templates",
+    "ru": "Практикум: Ткань, узоры и шаблоны"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.service_textile",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.service_textile",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.service_textile",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Mato — tolalardan tayyorlangan egiluvchan material; Ip — tolalarni birlashtirish yoki bezash materiali; Andoza — bir xil shaklni takrorlash namunasi; Naqsh — shakl va ranglarning tartibli bezagi; Takroriy naqsh — bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — matoga o‘tishdan oldin sinash shakli. Misol: Qog‘ozda mato bezagini rejalash: Buyum shaklini tanlash → Shaklni qog‘ozga chizish → Naqsh ranglarini belgilash → Naqshning takrorlanishini tekshirish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ],
+   "lessonSize": 6
+  },
+  {
+   "id": "technology_g3.service_table",
+   "code": "S2",
+   "emoji": "🏡",
+   "title": {
+    "uz": "Dasturxon va buyumlarni tartiblash",
+    "en": "Table setting and organization",
+    "ru": "Сервировка и порядок"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Likopcha — taom solinadigan yassi idish; Piyola — ichimlik quyiladigan kichik idish; Qoshiq — suyuq taom yeyish vositasi; Salfetka — qo‘l va og‘izni artish vositasi; Taglik — stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — ovqatlanishdan oldingi gigiyena odati; Tartiblagich — mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — buyumlar qayerda turishini ko‘rsatadigan chizma. Misol: Dasturxonni tayyorlash: Qo‘llarni yuvish → Toza stol va taglikni tayyorlash → Butun toza idishlarni joylash → Salfetkalarni qo‘yish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g3.service_table_workshop",
+   "code": "S2A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Dasturxon va buyumlarni tartiblash",
+    "en": "Workshop: Table setting and organization",
+    "ru": "Практикум: Сервировка и порядок"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g3.service_table",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g3.service_table",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g3.service_table",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Likopcha — taom solinadigan yassi idish; Piyola — ichimlik quyiladigan kichik idish; Qoshiq — suyuq taom yeyish vositasi; Salfetka — qo‘l va og‘izni artish vositasi; Taglik — stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — ovqatlanishdan oldingi gigiyena odati; Tartiblagich — mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — buyumlar qayerda turishini ko‘rsatadigan chizma. Misol: Dasturxonni tayyorlash: Qo‘llarni yuvish → Toza stol va taglikni tayyorlash → Butun toza idishlarni joylash → Salfetkalarni qo‘yish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ],
+   "lessonSize": 6
+  },
+  {
+   "id": "technology_g3.service_test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: 1-nazorat",
+    "en": "Service test 1",
+    "ru": "Сервис: контроль 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.service_textile"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.service_textile"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.service_textile"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g3.service_test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: 2-nazorat",
+    "en": "Service test 2",
+    "ru": "Сервис: контроль 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.service_table"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.service_table"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.service_table"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g3.service_final",
+   "code": "SY",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: yakuniy nazorat",
+    "en": "Service final test",
+    "ru": "Сервис: итоговая работа"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy nazorat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.service_textile",
+      "technology_g3.service_table"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.service_textile",
+      "technology_g3.service_table"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g3.safety",
+      "technology_g3.paper",
+      "technology_g3.reuse",
+      "technology_g3.service_textile",
+      "technology_g3.service_table"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
    ]
   }
  ]

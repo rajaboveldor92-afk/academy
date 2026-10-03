@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Modda» uchun mos ma’noni tanlang.",
+   "a": "Jismlarni tashkil etadigan material",
+   "w": [
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami",
+    "Tarkibi ko‘zga bir xil ko‘rinadigan aralashma"
+   ],
+   "d": 1,
+   "x": "Modda — Jismlarni tashkil etadigan material. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Modda — Jismlarni tashkil etadigan material. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Jismlarni tashkil etadigan material» qaysi tushuncha yoki iboraga mos?",
+   "a": "Modda",
+   "w": [
+    "Sof modda",
+    "Aralashma",
+    "Bir jinsli aralashma"
+   ],
+   "d": 2,
+   "x": "Modda — Jismlarni tashkil etadigan material. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Modda — Jismlarni tashkil etadigan material. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Sof modda» uchun mos ma’noni tanlang.",
+   "a": "Tarkibi muayyan bitta modda",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Bir necha moddaning birgalikdagi to‘plami",
+    "Tarkibi ko‘zga bir xil ko‘rinadigan aralashma"
+   ],
+   "d": 1,
+   "x": "Sof modda — Tarkibi muayyan bitta modda. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Sof modda — Tarkibi muayyan bitta modda. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Tarkibi muayyan bitta modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sof modda",
+   "w": [
+    "Modda",
+    "Aralashma",
+    "Bir jinsli aralashma"
+   ],
+   "d": 2,
+   "x": "Sof modda — Tarkibi muayyan bitta modda. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Sof modda — Tarkibi muayyan bitta modda. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Aralashma» uchun mos ma’noni tanlang.",
+   "a": "Bir necha moddaning birgalikdagi to‘plami",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Tarkibi ko‘zga bir xil ko‘rinadigan aralashma"
+   ],
+   "d": 1,
+   "x": "Aralashma — Bir necha moddaning birgalikdagi to‘plami. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Aralashma — Bir necha moddaning birgalikdagi to‘plami. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Bir necha moddaning birgalikdagi to‘plami» qaysi tushuncha yoki iboraga mos?",
+   "a": "Aralashma",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Bir jinsli aralashma"
+   ],
+   "d": 2,
+   "x": "Aralashma — Bir necha moddaning birgalikdagi to‘plami. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Aralashma — Bir necha moddaning birgalikdagi to‘plami. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Bir jinsli aralashma» uchun mos ma’noni tanlang.",
+   "a": "Tarkibi ko‘zga bir xil ko‘rinadigan aralashma",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami"
+   ],
+   "d": 1,
+   "x": "Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Tarkibi ko‘zga bir xil ko‘rinadigan aralashma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bir jinsli aralashma",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Aralashma"
+   ],
+   "d": 2,
+   "x": "Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Turli jinsli aralashma» uchun mos ma’noni tanlang.",
+   "a": "Qismlari ajralib ko‘rinadigan aralashma",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami"
+   ],
+   "d": 1,
+   "x": "Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Qismlari ajralib ko‘rinadigan aralashma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Turli jinsli aralashma",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Aralashma"
+   ],
+   "d": 2,
+   "x": "Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Filtrlash» uchun mos ma’noni tanlang.",
+   "a": "Erimaydigan qattiq zarrachani suyuqlikdan ajratish",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami"
+   ],
+   "d": 1,
+   "x": "Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Erimaydigan qattiq zarrachani suyuqlikdan ajratish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Filtrlash",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Aralashma"
+   ],
+   "d": 2,
+   "x": "Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Bug‘latish» uchun mos ma’noni tanlang.",
+   "a": "Erituvchini bug‘ga aylantirib ajratish",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami"
+   ],
+   "d": 1,
+   "x": "Bug‘latish — Erituvchini bug‘ga aylantirib ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Bug‘latish — Erituvchini bug‘ga aylantirib ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Erituvchini bug‘ga aylantirib ajratish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bug‘latish",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Aralashma"
+   ],
+   "d": 2,
+   "x": "Bug‘latish — Erituvchini bug‘ga aylantirib ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Bug‘latish — Erituvchini bug‘ga aylantirib ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Distillash» uchun mos ma’noni tanlang.",
+   "a": "Bug‘lanish va kondensatsiya orqali ajratish",
+   "w": [
+    "Jismlarni tashkil etadigan material",
+    "Tarkibi muayyan bitta modda",
+    "Bir necha moddaning birgalikdagi to‘plami"
+   ],
+   "d": 1,
+   "x": "Distillash — Bug‘lanish va kondensatsiya orqali ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Distillash — Bug‘lanish va kondensatsiya orqali ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Bug‘lanish va kondensatsiya orqali ajratish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Distillash",
+   "w": [
+    "Modda",
+    "Sof modda",
+    "Aralashma"
+   ],
+   "d": 2,
+   "x": "Distillash — Bug‘lanish va kondensatsiya orqali ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz.",
+   "h": "Distillash — Bug‘lanish va kondensatsiya orqali ajratish. Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Modda va aralashmalar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Modda",
+     "Jismlarni tashkil etadigan material"
+    ],
+    [
+     "Sof modda",
+     "Tarkibi muayyan bitta modda"
+    ],
+    [
+     "Aralashma",
+     "Bir necha moddaning birgalikdagi to‘plami"
+    ],
+    [
+     "Bir jinsli aralashma",
+     "Tarkibi ko‘zga bir xil ko‘rinadigan aralashma"
+    ]
+   ],
+   "d": 1,
+   "x": "Modda — Jismlarni tashkil etadigan material; Sof modda — Tarkibi muayyan bitta modda; Aralashma — Bir necha moddaning birgalikdagi to‘plami; Bir jinsli aralashma — Tarkibi ko‘zga bir xil ko‘rinadigan aralashma",
+   "h": "Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Modda va aralashmalar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Turli jinsli aralashma",
+     "Qismlari ajralib ko‘rinadigan aralashma"
+    ],
+    [
+     "Filtrlash",
+     "Erimaydigan qattiq zarrachani suyuqlikdan ajratish"
+    ],
+    [
+     "Bug‘latish",
+     "Erituvchini bug‘ga aylantirib ajratish"
+    ],
+    [
+     "Distillash",
+     "Bug‘lanish va kondensatsiya orqali ajratish"
+    ]
+   ],
+   "d": 1,
+   "x": "Turli jinsli aralashma — Qismlari ajralib ko‘rinadigan aralashma; Filtrlash — Erimaydigan qattiq zarrachani suyuqlikdan ajratish; Bug‘latish — Erituvchini bug‘ga aylantirib ajratish; Distillash — Bug‘lanish va kondensatsiya orqali ajratish",
+   "h": "Misol: qumli suvni filtrlash mumkin; erigan tuzni oddiy filtr ushlab qolmaydi. Ajratish usulini modda xossasiga qarab tanlaymiz."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Atom» uchun mos ma’noni tanlang.",
+   "a": "Kimyoviy element xossalarini saqlovchi kichik zarra",
+   "w": [
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra",
+    "Elementning qisqa harfli yozuvi"
+   ],
+   "d": 1,
+   "x": "Atom — Kimyoviy element xossalarini saqlovchi kichik zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Atom — Kimyoviy element xossalarini saqlovchi kichik zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Kimyoviy element xossalarini saqlovchi kichik zarra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Atom",
+   "w": [
+    "Kimyoviy element",
+    "Molekula",
+    "Kimyoviy belgi"
+   ],
+   "d": 2,
+   "x": "Atom — Kimyoviy element xossalarini saqlovchi kichik zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Atom — Kimyoviy element xossalarini saqlovchi kichik zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Kimyoviy element» uchun mos ma’noni tanlang.",
+   "a": "Yadrodagi proton soni bir xil atomlar turi",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Bog‘langan atomlardan tashkil topgan zarra",
+    "Elementning qisqa harfli yozuvi"
+   ],
+   "d": 1,
+   "x": "Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Yadrodagi proton soni bir xil atomlar turi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kimyoviy element",
+   "w": [
+    "Atom",
+    "Molekula",
+    "Kimyoviy belgi"
+   ],
+   "d": 2,
+   "x": "Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Molekula» uchun mos ma’noni tanlang.",
+   "a": "Bog‘langan atomlardan tashkil topgan zarra",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Elementning qisqa harfli yozuvi"
+   ],
+   "d": 1,
+   "x": "Molekula — Bog‘langan atomlardan tashkil topgan zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Molekula — Bog‘langan atomlardan tashkil topgan zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Bog‘langan atomlardan tashkil topgan zarra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Molekula",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Kimyoviy belgi"
+   ],
+   "d": 2,
+   "x": "Molekula — Bog‘langan atomlardan tashkil topgan zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Molekula — Bog‘langan atomlardan tashkil topgan zarra. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Kimyoviy belgi» uchun mos ma’noni tanlang.",
+   "a": "Elementning qisqa harfli yozuvi",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra"
+   ],
+   "d": 1,
+   "x": "Kimyoviy belgi — Elementning qisqa harfli yozuvi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Kimyoviy belgi — Elementning qisqa harfli yozuvi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Elementning qisqa harfli yozuvi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kimyoviy belgi",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Molekula"
+   ],
+   "d": 2,
+   "x": "Kimyoviy belgi — Elementning qisqa harfli yozuvi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Kimyoviy belgi — Elementning qisqa harfli yozuvi. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Formula» uchun mos ma’noni tanlang.",
+   "a": "Modda tarkibini belgilar va indekslar bilan ko‘rsatish",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra"
+   ],
+   "d": 1,
+   "x": "Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Modda tarkibini belgilar va indekslar bilan ko‘rsatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Formula",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Molekula"
+   ],
+   "d": 2,
+   "x": "Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Indeks» uchun mos ma’noni tanlang.",
+   "a": "Formulada atomlar sonini ko‘rsatadigan pastki raqam",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra"
+   ],
+   "d": 1,
+   "x": "Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Formulada atomlar sonini ko‘rsatadigan pastki raqam» qaysi tushuncha yoki iboraga mos?",
+   "a": "Indeks",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Molekula"
+   ],
+   "d": 2,
+   "x": "Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Oddiy modda» uchun mos ma’noni tanlang.",
+   "a": "Bitta element atomlaridan tashkil topgan modda",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra"
+   ],
+   "d": 1,
+   "x": "Oddiy modda — Bitta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Oddiy modda — Bitta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Bitta element atomlaridan tashkil topgan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Oddiy modda",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Molekula"
+   ],
+   "d": 2,
+   "x": "Oddiy modda — Bitta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Oddiy modda — Bitta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Murakkab modda» uchun mos ma’noni tanlang.",
+   "a": "Bir nechta element atomlaridan tashkil topgan modda",
+   "w": [
+    "Kimyoviy element xossalarini saqlovchi kichik zarra",
+    "Yadrodagi proton soni bir xil atomlar turi",
+    "Bog‘langan atomlardan tashkil topgan zarra"
+   ],
+   "d": 1,
+   "x": "Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Bir nechta element atomlaridan tashkil topgan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Murakkab modda",
+   "w": [
+    "Atom",
+    "Kimyoviy element",
+    "Molekula"
+   ],
+   "d": 2,
+   "x": "Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi.",
+   "h": "Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda. Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Atom, element va formula: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Atom",
+     "Kimyoviy element xossalarini saqlovchi kichik zarra"
+    ],
+    [
+     "Kimyoviy element",
+     "Yadrodagi proton soni bir xil atomlar turi"
+    ],
+    [
+     "Molekula",
+     "Bog‘langan atomlardan tashkil topgan zarra"
+    ],
+    [
+     "Kimyoviy belgi",
+     "Elementning qisqa harfli yozuvi"
+    ]
+   ],
+   "d": 1,
+   "x": "Atom — Kimyoviy element xossalarini saqlovchi kichik zarra; Kimyoviy element — Yadrodagi proton soni bir xil atomlar turi; Molekula — Bog‘langan atomlardan tashkil topgan zarra; Kimyoviy belgi — Elementning qisqa harfli yozuvi",
+   "h": "Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Atom, element va formula: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Formula",
+     "Modda tarkibini belgilar va indekslar bilan ko‘rsatish"
+    ],
+    [
+     "Indeks",
+     "Formulada atomlar sonini ko‘rsatadigan pastki raqam"
+    ],
+    [
+     "Oddiy modda",
+     "Bitta element atomlaridan tashkil topgan modda"
+    ],
+    [
+     "Murakkab modda",
+     "Bir nechta element atomlaridan tashkil topgan modda"
+    ]
+   ],
+   "d": 1,
+   "x": "Formula — Modda tarkibini belgilar va indekslar bilan ko‘rsatish; Indeks — Formulada atomlar sonini ko‘rsatadigan pastki raqam; Oddiy modda — Bitta element atomlaridan tashkil topgan modda; Murakkab modda — Bir nechta element atomlaridan tashkil topgan modda",
+   "h": "Misol: H₂O da ikki vodorod va bir kislorod atomi bor; O₂ oddiy modda, H₂O murakkab modda. Formula modda tarkibini bildiradi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Fizik hodisa» uchun mos ma’noni tanlang.",
+   "a": "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+   "w": [
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda",
+    "Reaksiya natijasida hosil bo‘ladigan modda"
+   ],
+   "d": 1,
+   "x": "Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Yangi modda hosil bo‘lmaydigan o‘zgarish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Fizik hodisa",
+   "w": [
+    "Kimyoviy hodisa",
+    "Reagent",
+    "Mahsulot"
+   ],
+   "d": 2,
+   "x": "Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Kimyoviy hodisa» uchun mos ma’noni tanlang.",
+   "a": "Yangi modda hosil bo‘ladigan o‘zgarish",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda",
+    "Reaksiya natijasida hosil bo‘ladigan modda"
+   ],
+   "d": 1,
+   "x": "Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Yangi modda hosil bo‘ladigan o‘zgarish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kimyoviy hodisa",
+   "w": [
+    "Fizik hodisa",
+    "Reagent",
+    "Mahsulot"
+   ],
+   "d": 2,
+   "x": "Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Reagent» uchun mos ma’noni tanlang.",
+   "a": "Reaksiyaga kirishadigan modda",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiya natijasida hosil bo‘ladigan modda"
+   ],
+   "d": 1,
+   "x": "Reagent — Reaksiyaga kirishadigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Reagent — Reaksiyaga kirishadigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Reaksiyaga kirishadigan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Reagent",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Mahsulot"
+   ],
+   "d": 2,
+   "x": "Reagent — Reaksiyaga kirishadigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Reagent — Reaksiyaga kirishadigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Mahsulot» uchun mos ma’noni tanlang.",
+   "a": "Reaksiya natijasida hosil bo‘ladigan modda",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda"
+   ],
+   "d": 1,
+   "x": "Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Reaksiya natijasida hosil bo‘ladigan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mahsulot",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Reagent"
+   ],
+   "d": 2,
+   "x": "Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Koeffitsiyent» uchun mos ma’noni tanlang.",
+   "a": "Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda"
+   ],
+   "d": 1,
+   "x": "Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam» qaysi tushuncha yoki iboraga mos?",
+   "a": "Koeffitsiyent",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Reagent"
+   ],
+   "d": 2,
+   "x": "Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Massa saqlanishi» uchun mos ma’noni tanlang.",
+   "a": "Yopiq tizimda reaksiya oldi va keyingi massa tengligi",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda"
+   ],
+   "d": 1,
+   "x": "Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Yopiq tizimda reaksiya oldi va keyingi massa tengligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Massa saqlanishi",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Reagent"
+   ],
+   "d": 2,
+   "x": "Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Tenglashtirish» uchun mos ma’noni tanlang.",
+   "a": "Har element atom sonini ikki tomonda teng qilish",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda"
+   ],
+   "d": 1,
+   "x": "Tenglashtirish — Har element atom sonini ikki tomonda teng qilish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Tenglashtirish — Har element atom sonini ikki tomonda teng qilish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Har element atom sonini ikki tomonda teng qilish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tenglashtirish",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Reagent"
+   ],
+   "d": 2,
+   "x": "Tenglashtirish — Har element atom sonini ikki tomonda teng qilish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Tenglashtirish — Har element atom sonini ikki tomonda teng qilish. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Reaksiya belgisi» uchun mos ma’noni tanlang.",
+   "a": "Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili",
+   "w": [
+    "Yangi modda hosil bo‘lmaydigan o‘zgarish",
+    "Yangi modda hosil bo‘ladigan o‘zgarish",
+    "Reaksiyaga kirishadigan modda"
+   ],
+   "d": 1,
+   "x": "Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili» qaysi tushuncha yoki iboraga mos?",
+   "a": "Reaksiya belgisi",
+   "w": [
+    "Fizik hodisa",
+    "Kimyoviy hodisa",
+    "Reagent"
+   ],
+   "d": 2,
+   "x": "Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi.",
+   "h": "Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili. Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Kimyoviy hodisa va tenglama: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Fizik hodisa",
+     "Yangi modda hosil bo‘lmaydigan o‘zgarish"
+    ],
+    [
+     "Kimyoviy hodisa",
+     "Yangi modda hosil bo‘ladigan o‘zgarish"
+    ],
+    [
+     "Reagent",
+     "Reaksiyaga kirishadigan modda"
+    ],
+    [
+     "Mahsulot",
+     "Reaksiya natijasida hosil bo‘ladigan modda"
+    ]
+   ],
+   "d": 1,
+   "x": "Fizik hodisa — Yangi modda hosil bo‘lmaydigan o‘zgarish; Kimyoviy hodisa — Yangi modda hosil bo‘ladigan o‘zgarish; Reagent — Reaksiyaga kirishadigan modda; Mahsulot — Reaksiya natijasida hosil bo‘ladigan modda",
+   "h": "Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Kimyoviy hodisa va tenglama: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Koeffitsiyent",
+     "Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam"
+    ],
+    [
+     "Massa saqlanishi",
+     "Yopiq tizimda reaksiya oldi va keyingi massa tengligi"
+    ],
+    [
+     "Tenglashtirish",
+     "Har element atom sonini ikki tomonda teng qilish"
+    ],
+    [
+     "Reaksiya belgisi",
+     "Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili"
+    ]
+   ],
+   "d": 1,
+   "x": "Koeffitsiyent — Tenglamada zarrachalar nisbatini ko‘rsatadigan old raqam; Massa saqlanishi — Yopiq tizimda reaksiya oldi va keyingi massa tengligi; Tenglashtirish — Har element atom sonini ikki tomonda teng qilish; Reaksiya belgisi — Gaz yoki cho‘kma kabi kimyoviy o‘zgarish dalili",
+   "h": "Misol: 2H₂ + O₂ → 2H₂O tenglamasida har tomonda to‘rt vodorod va ikki kislorod atomi bor. Tenglashtirishda indeks emas, koeffitsiyent o‘zgartiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Kislorod» uchun mos ma’noni tanlang.",
+   "a": "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+   "w": [
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda",
+    "Ikki elementdan biri kislorod bo‘lgan birikma"
+   ],
+   "d": 1,
+   "x": "Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Yonishni qo‘llab-quvvatlovchi O₂ gaz» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kislorod",
+   "w": [
+    "Vodorod",
+    "Suv",
+    "Oksid"
+   ],
+   "d": 2,
+   "x": "Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Vodorod» uchun mos ma’noni tanlang.",
+   "a": "Eng yengil elementning H₂ oddiy moddasi",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "H₂O formulali murakkab modda",
+    "Ikki elementdan biri kislorod bo‘lgan birikma"
+   ],
+   "d": 1,
+   "x": "Vodorod — Eng yengil elementning H₂ oddiy moddasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Vodorod — Eng yengil elementning H₂ oddiy moddasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Eng yengil elementning H₂ oddiy moddasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Vodorod",
+   "w": [
+    "Kislorod",
+    "Suv",
+    "Oksid"
+   ],
+   "d": 2,
+   "x": "Vodorod — Eng yengil elementning H₂ oddiy moddasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Vodorod — Eng yengil elementning H₂ oddiy moddasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Suv» uchun mos ma’noni tanlang.",
+   "a": "H₂O formulali murakkab modda",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "Ikki elementdan biri kislorod bo‘lgan birikma"
+   ],
+   "d": 1,
+   "x": "Suv — H₂O formulali murakkab modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Suv — H₂O formulali murakkab modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«H₂O formulali murakkab modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Suv",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Oksid"
+   ],
+   "d": 2,
+   "x": "Suv — H₂O formulali murakkab modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Suv — H₂O formulali murakkab modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Oksid» uchun mos ma’noni tanlang.",
+   "a": "Ikki elementdan biri kislorod bo‘lgan birikma",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda"
+   ],
+   "d": 1,
+   "x": "Oksid — Ikki elementdan biri kislorod bo‘lgan birikma. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Oksid — Ikki elementdan biri kislorod bo‘lgan birikma. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Ikki elementdan biri kislorod bo‘lgan birikma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Oksid",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Suv"
+   ],
+   "d": 2,
+   "x": "Oksid — Ikki elementdan biri kislorod bo‘lgan birikma. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Oksid — Ikki elementdan biri kislorod bo‘lgan birikma. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Erituvchi» uchun mos ma’noni tanlang.",
+   "a": "Boshqa modda eriydigan muhit",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda"
+   ],
+   "d": 1,
+   "x": "Erituvchi — Boshqa modda eriydigan muhit. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Erituvchi — Boshqa modda eriydigan muhit. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Boshqa modda eriydigan muhit» qaysi tushuncha yoki iboraga mos?",
+   "a": "Erituvchi",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Suv"
+   ],
+   "d": 2,
+   "x": "Erituvchi — Boshqa modda eriydigan muhit. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Erituvchi — Boshqa modda eriydigan muhit. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Erigan modda» uchun mos ma’noni tanlang.",
+   "a": "Erituvchida tarqalgan modda",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda"
+   ],
+   "d": 1,
+   "x": "Erigan modda — Erituvchida tarqalgan modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Erigan modda — Erituvchida tarqalgan modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Erituvchida tarqalgan modda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Erigan modda",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Suv"
+   ],
+   "d": 2,
+   "x": "Erigan modda — Erituvchida tarqalgan modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Erigan modda — Erituvchida tarqalgan modda. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Eritma» uchun mos ma’noni tanlang.",
+   "a": "Erituvchi va erigan moddaning bir jinsli aralashmasi",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda"
+   ],
+   "d": 1,
+   "x": "Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Erituvchi va erigan moddaning bir jinsli aralashmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Eritma",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Suv"
+   ],
+   "d": 2,
+   "x": "Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Massa ulushi» uchun mos ma’noni tanlang.",
+   "a": "Komponent massasining jami massaga nisbati",
+   "w": [
+    "Yonishni qo‘llab-quvvatlovchi O₂ gaz",
+    "Eng yengil elementning H₂ oddiy moddasi",
+    "H₂O formulali murakkab modda"
+   ],
+   "d": 1,
+   "x": "Massa ulushi — Komponent massasining jami massaga nisbati. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Massa ulushi — Komponent massasining jami massaga nisbati. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Komponent massasining jami massaga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Massa ulushi",
+   "w": [
+    "Kislorod",
+    "Vodorod",
+    "Suv"
+   ],
+   "d": 2,
+   "x": "Massa ulushi — Komponent massasining jami massaga nisbati. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi.",
+   "h": "Massa ulushi — Komponent massasining jami massaga nisbati. Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Kislorod, vodorod va suv: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Kislorod",
+     "Yonishni qo‘llab-quvvatlovchi O₂ gaz"
+    ],
+    [
+     "Vodorod",
+     "Eng yengil elementning H₂ oddiy moddasi"
+    ],
+    [
+     "Suv",
+     "H₂O formulali murakkab modda"
+    ],
+    [
+     "Oksid",
+     "Ikki elementdan biri kislorod bo‘lgan birikma"
+    ]
+   ],
+   "d": 1,
+   "x": "Kislorod — Yonishni qo‘llab-quvvatlovchi O₂ gaz; Vodorod — Eng yengil elementning H₂ oddiy moddasi; Suv — H₂O formulali murakkab modda; Oksid — Ikki elementdan biri kislorod bo‘lgan birikma",
+   "h": "Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  },
+  {
+   "topic": "chemistry_g7.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Kislorod, vodorod va suv: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Erituvchi",
+     "Boshqa modda eriydigan muhit"
+    ],
+    [
+     "Erigan modda",
+     "Erituvchida tarqalgan modda"
+    ],
+    [
+     "Eritma",
+     "Erituvchi va erigan moddaning bir jinsli aralashmasi"
+    ],
+    [
+     "Massa ulushi",
+     "Komponent massasining jami massaga nisbati"
+    ]
+   ],
+   "d": 1,
+   "x": "Erituvchi — Boshqa modda eriydigan muhit; Erigan modda — Erituvchida tarqalgan modda; Eritma — Erituvchi va erigan moddaning bir jinsli aralashmasi; Massa ulushi — Komponent massasining jami massaga nisbati",
+   "h": "Misol: 10 g tuz va 90 g suv eritmasi 100 g bo‘ladi; tuz massa ulushi 10%. Gazlarni yoqish tajribasi bu kursda virtual tushuntiriladi."
+  }
+ ]
+}

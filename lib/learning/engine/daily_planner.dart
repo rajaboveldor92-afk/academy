@@ -2,6 +2,7 @@ import 'dart:math';
 
 import '../../models/child_progress.dart';
 import '../content/content_repository.dart';
+import '../content/technology_tracks.dart';
 import '../models/exercise.dart';
 import '../models/topic.dart';
 import 'lesson_builder.dart';
@@ -65,6 +66,7 @@ class DailyPlanner {
     int difficultyBias = 0,
     String lang = 'uz',
     int grade = 0,
+    String technologyTrack = 'both',
   }) {
     final random = rng ?? Random();
     // Maktab o'quvchisi — sinf dasturi (`g3`), shaxmat — 6 yosh dasturi.
@@ -80,7 +82,7 @@ class DailyPlanner {
     for (final r in SpacedRepetition.due(progress.reviews, now)) {
       if (reviews.length >= total ~/ 3) break;
       final t = content.topic(r.topicId);
-      if (t == null || t.ageSuffix != suffixOf(t.subject) || !isEnabled(t.subject) || skipGenerators.contains(t.generator)) {
+      if (t == null || !TechnologyTracks.includes(t, technologyTrack) || t.ageSuffix != suffixOf(t.subject) || !isEnabled(t.subject) || skipGenerators.contains(t.generator)) {
         continue;
       }
       if (usedTopics.contains(t.id)) continue;
@@ -109,7 +111,7 @@ class DailyPlanner {
       if (!isEnabled(subject)) continue;
       final c = content.curriculum(subject, suffixOf(subject));
       if (c == null) continue;
-      final t = nextTopic(c.topics, progress, random, exclude: usedTopics);
+      final t = nextTopic(c.topics.where((t) => TechnologyTracks.includes(t, technologyTrack)).toList(), progress, random, exclude: usedTopics);
       if (t == null) continue;
       final ex = LessonBuilder.similar(
         content: content,

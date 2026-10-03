@@ -1,0 +1,868 @@
+{
+ "items": [
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "So‘rov kimlardan olingan?",
+   "a": "Sport to‘garagi a’zolaridan",
+   "w": [
+    "Yigirma",
+    "O‘n to‘rt",
+    "Guruh natijasi hammaga yoyilgan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Sport to‘garagi a’zolaridan.",
+   "h": "Matnda berilgan javob: Sport to‘garagi a’zolaridan.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «So‘rov kimlardan olingan?» savolining javobi «Sport to‘garagi a’zolaridan».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Sport to‘garagi a’zolaridan.",
+   "h": "Matnda berilgan javob: Sport to‘garagi a’zolaridan.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "Nechta ishtirokchi so‘ralgan?",
+   "a": "Yigirma",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "O‘n to‘rt",
+    "Guruh natijasi hammaga yoyilgan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yigirma.",
+   "h": "Matnda berilgan javob: Yigirma.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nechta ishtirokchi so‘ralgan?» savolining javobi «O‘n to‘rt».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yigirma.",
+   "h": "Matnda berilgan javob: Yigirma.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "Nechtasi velosipedni tanlagan?",
+   "a": "O‘n to‘rt",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "Guruh natijasi hammaga yoyilgan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: O‘n to‘rt.",
+   "h": "Matnda berilgan javob: O‘n to‘rt.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nechtasi velosipedni tanlagan?» savolining javobi «O‘n to‘rt».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: O‘n to‘rt.",
+   "h": "Matnda berilgan javob: O‘n to‘rt.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "Dastlabki sarlavhadagi muammo nima?",
+   "a": "Guruh natijasi hammaga yoyilgan",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "O‘n to‘rt"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Guruh natijasi hammaga yoyilgan.",
+   "h": "Matnda berilgan javob: Guruh natijasi hammaga yoyilgan.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Dastlabki sarlavhadagi muammo nima?» savolining javobi «Nargiza».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Guruh natijasi hammaga yoyilgan.",
+   "h": "Matnda berilgan javob: Guruh natijasi hammaga yoyilgan.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "Kim chegarani ko‘rsatdi?",
+   "a": "Nargiza",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "O‘n to‘rt"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Nargiza.",
+   "h": "Matnda berilgan javob: Nargiza.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim chegarani ko‘rsatdi?» savolining javobi «Nargiza».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Nargiza.",
+   "h": "Matnda berilgan javob: Nargiza.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "Kimlar so‘ralmagan?",
+   "a": "Boshqa sinflar va uzoqda yashovchilar",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "O‘n to‘rt"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Boshqa sinflar va uzoqda yashovchilar.",
+   "h": "Matnda berilgan javob: Boshqa sinflar va uzoqda yashovchilar.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kimlar so‘ralmagan?» savolining javobi «So‘ralgan guruh aniq aytildi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Boshqa sinflar va uzoqda yashovchilar.",
+   "h": "Matnda berilgan javob: Boshqa sinflar va uzoqda yashovchilar.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "Sarlavha qanday tuzatildi?",
+   "a": "So‘ralgan guruh aniq aytildi",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "O‘n to‘rt"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: So‘ralgan guruh aniq aytildi.",
+   "h": "Matnda berilgan javob: So‘ralgan guruh aniq aytildi.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Sarlavha qanday tuzatildi?» savolining javobi «So‘ralgan guruh aniq aytildi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: So‘ralgan guruh aniq aytildi.",
+   "h": "Matnda berilgan javob: So‘ralgan guruh aniq aytildi.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "Asosiy xulosa nima?",
+   "a": "Raqamning qamrovini ham tekshirish kerak",
+   "w": [
+    "Sport to‘garagi a’zolaridan",
+    "Yigirma",
+    "O‘n to‘rt"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Raqamning qamrovini ham tekshirish kerak.",
+   "h": "Matnda berilgan javob: Raqamning qamrovini ham tekshirish kerak.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit1",
+   "id": "unit1_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Asosiy xulosa nima?» savolining javobi «Sport to‘garagi a’zolaridan».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Raqamning qamrovini ham tekshirish kerak.",
+   "h": "Matnda berilgan javob: Raqamning qamrovini ham tekshirish kerak.",
+   "text": "Maktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "Naqsh qaysi buyumda edi?",
+   "a": "Eski sandiqda",
+   "w": [
+    "Qalamdonni",
+    "Takrorlanish sababini",
+    "Markaz va chetlar muvozanati"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Eski sandiqda.",
+   "h": "Matnda berilgan javob: Eski sandiqda.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Naqsh qaysi buyumda edi?» savolining javobi «Eski sandiqda».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Eski sandiqda.",
+   "h": "Matnda berilgan javob: Eski sandiqda.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "Nabira nimani bezamoqchi edi?",
+   "a": "Qalamdonni",
+   "w": [
+    "Eski sandiqda",
+    "Takrorlanish sababini",
+    "Markaz va chetlar muvozanati"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Qalamdonni.",
+   "h": "Matnda berilgan javob: Qalamdonni.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nabira nimani bezamoqchi edi?» savolining javobi «Takrorlanish sababini».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Qalamdonni.",
+   "h": "Matnda berilgan javob: Qalamdonni.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "Buva avval nimani tushunishni so‘radi?",
+   "a": "Takrorlanish sababini",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Markaz va chetlar muvozanati"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Takrorlanish sababini.",
+   "h": "Matnda berilgan javob: Takrorlanish sababini.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Buva avval nimani tushunishni so‘radi?» savolining javobi «Takrorlanish sababini».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Takrorlanish sababini.",
+   "h": "Matnda berilgan javob: Takrorlanish sababini.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "Qaysi tamoyil ko‘rsatildi?",
+   "a": "Markaz va chetlar muvozanati",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Takrorlanish sababini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Markaz va chetlar muvozanati.",
+   "h": "Matnda berilgan javob: Markaz va chetlar muvozanati.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qaysi tamoyil ko‘rsatildi?» savolining javobi «Tamoyilni yangi buyumga moslashtirdi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Markaz va chetlar muvozanati.",
+   "h": "Matnda berilgan javob: Markaz va chetlar muvozanati.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "Nabira qanday ishladi?",
+   "a": "Tamoyilni yangi buyumga moslashtirdi",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Takrorlanish sababini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Tamoyilni yangi buyumga moslashtirdi.",
+   "h": "Matnda berilgan javob: Tamoyilni yangi buyumga moslashtirdi.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nabira qanday ishladi?» savolining javobi «Tamoyilni yangi buyumga moslashtirdi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Tamoyilni yangi buyumga moslashtirdi.",
+   "h": "Matnda berilgan javob: Tamoyilni yangi buyumga moslashtirdi.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "Taqdimotda nima aytildi?",
+   "a": "Manba va o‘z o‘zgarishi",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Takrorlanish sababini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Manba va o‘z o‘zgarishi.",
+   "h": "Matnda berilgan javob: Manba va o‘z o‘zgarishi.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Taqdimotda nima aytildi?» savolining javobi «Naqsh tarixi eslatilgani uchun».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Manba va o‘z o‘zgarishi.",
+   "h": "Matnda berilgan javob: Manba va o‘z o‘zgarishi.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "Buva nega mamnun bo‘ldi?",
+   "a": "Naqsh tarixi eslatilgani uchun",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Takrorlanish sababini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Naqsh tarixi eslatilgani uchun.",
+   "h": "Matnda berilgan javob: Naqsh tarixi eslatilgani uchun.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Buva nega mamnun bo‘ldi?» savolining javobi «Naqsh tarixi eslatilgani uchun».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Naqsh tarixi eslatilgani uchun.",
+   "h": "Matnda berilgan javob: Naqsh tarixi eslatilgani uchun.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "Matnning asosiy fikri nima?",
+   "a": "Merosni tushunib ijodiy davom ettirish",
+   "w": [
+    "Eski sandiqda",
+    "Qalamdonni",
+    "Takrorlanish sababini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Merosni tushunib ijodiy davom ettirish.",
+   "h": "Matnda berilgan javob: Merosni tushunib ijodiy davom ettirish.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit2",
+   "id": "unit2_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Matnning asosiy fikri nima?» savolining javobi «Eski sandiqda».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Merosni tushunib ijodiy davom ettirish.",
+   "h": "Matnda berilgan javob: Merosni tushunib ijodiy davom ettirish.",
+   "text": "Hunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "Birinchi xatdagi muammo nima?",
+   "a": "Yomg‘irdagi loy yo‘l",
+   "w": [
+    "Keksalar",
+    "Ildizlar shikastlanishi",
+    "Mutaxassis"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yomg‘irdagi loy yo‘l.",
+   "h": "Matnda berilgan javob: Yomg‘irdagi loy yo‘l.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Birinchi xatdagi muammo nima?» savolining javobi «Yomg‘irdagi loy yo‘l».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yomg‘irdagi loy yo‘l.",
+   "h": "Matnda berilgan javob: Yomg‘irdagi loy yo‘l.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "Kimlar qiynalayotgani aytildi?",
+   "a": "Keksalar",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Ildizlar shikastlanishi",
+    "Mutaxassis"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Keksalar.",
+   "h": "Matnda berilgan javob: Keksalar.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kimlar qiynalayotgani aytildi?» savolining javobi «Ildizlar shikastlanishi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Keksalar.",
+   "h": "Matnda berilgan javob: Keksalar.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "Ikkinchi xatda qanday xavf aytildi?",
+   "a": "Ildizlar shikastlanishi",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Mutaxassis"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ildizlar shikastlanishi.",
+   "h": "Matnda berilgan javob: Ildizlar shikastlanishi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ikkinchi xatda qanday xavf aytildi?» savolining javobi «Ildizlar shikastlanishi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ildizlar shikastlanishi.",
+   "h": "Matnda berilgan javob: Ildizlar shikastlanishi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "Kim muqobil yechim berdi?",
+   "a": "Mutaxassis",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Ildizlar shikastlanishi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Mutaxassis.",
+   "h": "Matnda berilgan javob: Mutaxassis.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim muqobil yechim berdi?» savolining javobi «Ildizlardan uzoqroq».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Mutaxassis.",
+   "h": "Matnda berilgan javob: Mutaxassis.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "Yo‘nalish qanday tanlandi?",
+   "a": "Ildizlardan uzoqroq",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Ildizlar shikastlanishi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ildizlardan uzoqroq.",
+   "h": "Matnda berilgan javob: Ildizlardan uzoqroq.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Yo‘nalish qanday tanlandi?» savolining javobi «Ildizlardan uzoqroq».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ildizlardan uzoqroq.",
+   "h": "Matnda berilgan javob: Ildizlardan uzoqroq.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "Qanday qoplama taklif qilindi?",
+   "a": "Suvni o‘tkazadigan",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Ildizlar shikastlanishi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Suvni o‘tkazadigan.",
+   "h": "Matnda berilgan javob: Suvni o‘tkazadigan.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qanday qoplama taklif qilindi?» savolining javobi «Daraxt holati va yurish qulayligi ham hisobga olinadi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Suvni o‘tkazadigan.",
+   "h": "Matnda berilgan javob: Suvni o‘tkazadigan.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "Reja nimaga qarab baholanadi?",
+   "a": "Daraxt holati va yurish qulayligi ham hisobga olinadi",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Ildizlar shikastlanishi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Daraxt holati va yurish qulayligi ham hisobga olinadi.",
+   "h": "Matnda berilgan javob: Daraxt holati va yurish qulayligi ham hisobga olinadi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Reja nimaga qarab baholanadi?» savolining javobi «Daraxt holati va yurish qulayligi ham hisobga olinadi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Daraxt holati va yurish qulayligi ham hisobga olinadi.",
+   "h": "Matnda berilgan javob: Daraxt holati va yurish qulayligi ham hisobga olinadi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "Ikki xatni nima birlashtiradi?",
+   "a": "Bog‘dan yaxshi foydalanish istagi",
+   "w": [
+    "Yomg‘irdagi loy yo‘l",
+    "Keksalar",
+    "Ildizlar shikastlanishi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Bog‘dan yaxshi foydalanish istagi.",
+   "h": "Matnda berilgan javob: Bog‘dan yaxshi foydalanish istagi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit3",
+   "id": "unit3_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ikki xatni nima birlashtiradi?» savolining javobi «Yomg‘irdagi loy yo‘l».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Bog‘dan yaxshi foydalanish istagi.",
+   "h": "Matnda berilgan javob: Bog‘dan yaxshi foydalanish istagi.",
+   "text": "Mahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "Nima sinovdan o‘tkazildi?",
+   "a": "Ikki qog‘oz ko‘prik shakli",
+   "w": [
+    "Birinchi model",
+    "Har doim eng mustahkam",
+    "Qog‘oz qalinligi farqini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ikki qog‘oz ko‘prik shakli.",
+   "h": "Matnda berilgan javob: Ikki qog‘oz ko‘prik shakli.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nima sinovdan o‘tkazildi?» savolining javobi «Ikki qog‘oz ko‘prik shakli».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ikki qog‘oz ko‘prik shakli.",
+   "h": "Matnda berilgan javob: Ikki qog‘oz ko‘prik shakli.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "Dastlab qaysi model ko‘proq yuk ko‘tardi?",
+   "a": "Birinchi model",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Har doim eng mustahkam",
+    "Qog‘oz qalinligi farqini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Birinchi model.",
+   "h": "Matnda berilgan javob: Birinchi model.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Dastlab qaysi model ko‘proq yuk ko‘tardi?» savolining javobi «Har doim eng mustahkam».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Birinchi model.",
+   "h": "Matnda berilgan javob: Birinchi model.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "Dastlabki da’vo qanday edi?",
+   "a": "Har doim eng mustahkam",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Qog‘oz qalinligi farqini"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Har doim eng mustahkam.",
+   "h": "Matnda berilgan javob: Har doim eng mustahkam.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Dastlabki da’vo qanday edi?» savolining javobi «Har doim eng mustahkam».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Har doim eng mustahkam.",
+   "h": "Matnda berilgan javob: Har doim eng mustahkam.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "Kamol qanday farqni payqadi?",
+   "a": "Qog‘oz qalinligi farqini",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Har doim eng mustahkam"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Qog‘oz qalinligi farqini.",
+   "h": "Matnda berilgan javob: Qog‘oz qalinligi farqini.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kamol qanday farqni payqadi?» savolining javobi «Shakl va material birga o‘zgargan».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Qog‘oz qalinligi farqini.",
+   "h": "Matnda berilgan javob: Qog‘oz qalinligi farqini.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "Sinovdagi muammo nima?",
+   "a": "Shakl va material birga o‘zgargan",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Har doim eng mustahkam"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Shakl va material birga o‘zgargan.",
+   "h": "Matnda berilgan javob: Shakl va material birga o‘zgargan.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Sinovdagi muammo nima?» savolining javobi «Shakl va material birga o‘zgargan».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Shakl va material birga o‘zgargan.",
+   "h": "Matnda berilgan javob: Shakl va material birga o‘zgargan.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "Qayta sinovda nimalar tenglashtirildi?",
+   "a": "Qog‘oz va tayanch oralig‘i",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Har doim eng mustahkam"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Qog‘oz va tayanch oralig‘i.",
+   "h": "Matnda berilgan javob: Qog‘oz va tayanch oralig‘i.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qayta sinovda nimalar tenglashtirildi?» savolining javobi «Jadvalga».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Qog‘oz va tayanch oralig‘i.",
+   "h": "Matnda berilgan javob: Qog‘oz va tayanch oralig‘i.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "Natijalar qayerga kiritildi?",
+   "a": "Jadvalga",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Har doim eng mustahkam"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Jadvalga.",
+   "h": "Matnda berilgan javob: Jadvalga.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Natijalar qayerga kiritildi?» savolining javobi «Jadvalga».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Jadvalga.",
+   "h": "Matnda berilgan javob: Jadvalga.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "Kamchilikni yozishning foydasi nima?",
+   "a": "Hisobotni tekshirishga yordam beradi",
+   "w": [
+    "Ikki qog‘oz ko‘prik shakli",
+    "Birinchi model",
+    "Har doim eng mustahkam"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Hisobotni tekshirishga yordam beradi.",
+   "h": "Matnda berilgan javob: Hisobotni tekshirishga yordam beradi.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  },
+  {
+   "topic": "reading_g8.unit4",
+   "id": "unit4_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kamchilikni yozishning foydasi nima?» savolining javobi «Ikki qog‘oz ko‘prik shakli».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Hisobotni tekshirishga yordam beradi.",
+   "h": "Matnda berilgan javob: Hisobotni tekshirishga yordam beradi.",
+   "text": "O‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+  }
+ ]
+}

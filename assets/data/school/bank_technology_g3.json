@@ -1371,6 +1371,692 @@
      1
     ]
    ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_65",
+   "t": "choice",
+   "q": "«Mato» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Mato — tolalardan tayyorlangan egiluvchan material.",
+   "h": "Mato — tolalardan tayyorlangan egiluvchan material.",
+   "d": 1,
+   "a": "Tolalardan tayyorlangan egiluvchan material",
+   "w": [
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi",
+    "Shakl va ranglarning tartibli bezagi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_66",
+   "t": "choice",
+   "q": "«Ip» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Ip — tolalarni birlashtirish yoki bezash materiali.",
+   "h": "Ip — tolalarni birlashtirish yoki bezash materiali.",
+   "d": 1,
+   "a": "Tolalarni birlashtirish yoki bezash materiali",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Bir xil shaklni takrorlash namunasi",
+    "Shakl va ranglarning tartibli bezagi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_67",
+   "t": "choice",
+   "q": "«Andoza» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Andoza — bir xil shaklni takrorlash namunasi.",
+   "h": "Andoza — bir xil shaklni takrorlash namunasi.",
+   "d": 1,
+   "a": "Bir xil shaklni takrorlash namunasi",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Shakl va ranglarning tartibli bezagi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_68",
+   "t": "choice",
+   "q": "«Naqsh» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Naqsh — shakl va ranglarning tartibli bezagi.",
+   "h": "Naqsh — shakl va ranglarning tartibli bezagi.",
+   "d": 1,
+   "a": "Shakl va ranglarning tartibli bezagi",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_69",
+   "t": "choice",
+   "q": "«Takroriy naqsh» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Takroriy naqsh — bir belgi ketma-ket qaytariladigan bezak.",
+   "h": "Takroriy naqsh — bir belgi ketma-ket qaytariladigan bezak.",
+   "d": 1,
+   "a": "Bir belgi ketma-ket qaytariladigan bezak",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_70",
+   "t": "choice",
+   "q": "«Simmetrik bezak» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Simmetrik bezak — ikki tomoni bir-biriga mos bezak.",
+   "h": "Simmetrik bezak — ikki tomoni bir-biriga mos bezak.",
+   "d": 1,
+   "a": "Ikki tomoni bir-biriga mos bezak",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_71",
+   "t": "choice",
+   "q": "«Mato qoldig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Mato qoldig‘i — mayda bezak uchun saqlanadigan bo‘lak.",
+   "h": "Mato qoldig‘i — mayda bezak uchun saqlanadigan bo‘lak.",
+   "d": 1,
+   "a": "Mayda bezak uchun saqlanadigan bo‘lak",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_72",
+   "t": "choice",
+   "q": "«Qog‘oz namunasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qog‘oz namunasi — matoga o‘tishdan oldin sinash shakli.",
+   "h": "Qog‘oz namunasi — matoga o‘tishdan oldin sinash shakli.",
+   "d": 1,
+   "a": "Matoga o‘tishdan oldin sinash shakli",
+   "w": [
+    "Tolalardan tayyorlangan egiluvchan material",
+    "Tolalarni birlashtirish yoki bezash materiali",
+    "Bir xil shaklni takrorlash namunasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_73",
+   "t": "order",
+   "q": "Qog‘ozda mato bezagini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyum shaklini tanlash → Shaklni qog‘ozga chizish → Naqsh ranglarini belgilash → Naqshning takrorlanishini tekshirish.",
+   "h": "Buyum shaklini tanlash → Shaklni qog‘ozga chizish → Naqsh ranglarini belgilash → Naqshning takrorlanishini tekshirish.",
+   "d": 1,
+   "parts": [
+    "Buyum shaklini tanlash",
+    "Shaklni qog‘ozga chizish",
+    "Naqsh ranglarini belgilash",
+    "Naqshning takrorlanishini tekshirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_74",
+   "t": "order",
+   "q": "Matodan yopishtirma bezak rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Toza mato qoldiqlarini tanlash → Qog‘oz andozalarni ustiga joylash → Kesish chiziqlarini belgilash → Qismlarni kartonda joylab ko‘rish.",
+   "h": "Toza mato qoldiqlarini tanlash → Qog‘oz andozalarni ustiga joylash → Kesish chiziqlarini belgilash → Qismlarni kartonda joylab ko‘rish.",
+   "d": 1,
+   "parts": [
+    "Toza mato qoldiqlarini tanlash",
+    "Qog‘oz andozalarni ustiga joylash",
+    "Kesish chiziqlarini belgilash",
+    "Qismlarni kartonda joylab ko‘rish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_75",
+   "t": "order",
+   "q": "Simmetrik qog‘oz andoza tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Qog‘ozni teng ikkiga buklash → Buklangan chetga yarim shakl chizish → Chiziq bo‘ylab ehtiyotkor kesish → Qog‘ozni ochib ikki tomonini tekshirish.",
+   "h": "Qog‘ozni teng ikkiga buklash → Buklangan chetga yarim shakl chizish → Chiziq bo‘ylab ehtiyotkor kesish → Qog‘ozni ochib ikki tomonini tekshirish.",
+   "d": 1,
+   "parts": [
+    "Qog‘ozni teng ikkiga buklash",
+    "Buklangan chetga yarim shakl chizish",
+    "Chiziq bo‘ylab ehtiyotkor kesish",
+    "Qog‘ozni ochib ikki tomonini tekshirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_76",
+   "t": "match",
+   "q": "Mato, naqsh va andoza: asosiy juftliklarni moslang.",
+   "x": "Mato — Tolalardan tayyorlangan egiluvchan material; Ip — Tolalarni birlashtirish yoki bezash materiali; Andoza — Bir xil shaklni takrorlash namunasi; Naqsh — Shakl va ranglarning tartibli bezagi.",
+   "h": "Mato — Tolalardan tayyorlangan egiluvchan material; Ip — Tolalarni birlashtirish yoki bezash materiali; Andoza — Bir xil shaklni takrorlash namunasi; Naqsh — Shakl va ranglarning tartibli bezagi.",
+   "d": 1,
+   "pairs": [
+    [
+     "Mato",
+     "Tolalardan tayyorlangan egiluvchan material"
+    ],
+    [
+     "Ip",
+     "Tolalarni birlashtirish yoki bezash materiali"
+    ],
+    [
+     "Andoza",
+     "Bir xil shaklni takrorlash namunasi"
+    ],
+    [
+     "Naqsh",
+     "Shakl va ranglarning tartibli bezagi"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_77",
+   "t": "match",
+   "q": "Mato, naqsh va andoza: amaliy juftliklarni moslang.",
+   "x": "Takroriy naqsh — Bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — Ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — Mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — Matoga o‘tishdan oldin sinash shakli.",
+   "h": "Takroriy naqsh — Bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — Ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — Mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — Matoga o‘tishdan oldin sinash shakli.",
+   "d": 1,
+   "pairs": [
+    [
+     "Takroriy naqsh",
+     "Bir belgi ketma-ket qaytariladigan bezak"
+    ],
+    [
+     "Simmetrik bezak",
+     "Ikki tomoni bir-biriga mos bezak"
+    ],
+    [
+     "Mato qoldig‘i",
+     "Mayda bezak uchun saqlanadigan bo‘lak"
+    ],
+    [
+     "Qog‘oz namunasi",
+     "Matoga o‘tishdan oldin sinash shakli"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_78",
+   "t": "match",
+   "q": "Mato, naqsh va andoza: mavzuni mustahkamlashni moslang.",
+   "x": "Mato — Tolalardan tayyorlangan egiluvchan material; Ip — Tolalarni birlashtirish yoki bezash materiali; Andoza — Bir xil shaklni takrorlash namunasi; Naqsh — Shakl va ranglarning tartibli bezagi; Takroriy naqsh — Bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — Ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — Mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — Matoga o‘tishdan oldin sinash shakli.",
+   "h": "Mato — Tolalardan tayyorlangan egiluvchan material; Ip — Tolalarni birlashtirish yoki bezash materiali; Andoza — Bir xil shaklni takrorlash namunasi; Naqsh — Shakl va ranglarning tartibli bezagi; Takroriy naqsh — Bir belgi ketma-ket qaytariladigan bezak; Simmetrik bezak — Ikki tomoni bir-biriga mos bezak; Mato qoldig‘i — Mayda bezak uchun saqlanadigan bo‘lak; Qog‘oz namunasi — Matoga o‘tishdan oldin sinash shakli.",
+   "d": 1,
+   "pairs": [
+    [
+     "Mato",
+     "Tolalardan tayyorlangan egiluvchan material"
+    ],
+    [
+     "Ip",
+     "Tolalarni birlashtirish yoki bezash materiali"
+    ],
+    [
+     "Andoza",
+     "Bir xil shaklni takrorlash namunasi"
+    ],
+    [
+     "Naqsh",
+     "Shakl va ranglarning tartibli bezagi"
+    ],
+    [
+     "Takroriy naqsh",
+     "Bir belgi ketma-ket qaytariladigan bezak"
+    ],
+    [
+     "Simmetrik bezak",
+     "Ikki tomoni bir-biriga mos bezak"
+    ],
+    [
+     "Mato qoldig‘i",
+     "Mayda bezak uchun saqlanadigan bo‘lak"
+    ],
+    [
+     "Qog‘oz namunasi",
+     "Matoga o‘tishdan oldin sinash shakli"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_79",
+   "t": "sort",
+   "q": "Material va naqsh rejasini ajrating.",
+   "x": "Material: Mato bo‘lagi, Ip bo‘lagi, Mato qoldig‘i; Reja / namuna: Qog‘oz andoza, Ranglar eskizi, Naqsh chizmasi.",
+   "h": "Material: Mato bo‘lagi, Ip bo‘lagi, Mato qoldig‘i; Reja / namuna: Qog‘oz andoza, Ranglar eskizi, Naqsh chizmasi.",
+   "d": 1,
+   "bins": [
+    "Material",
+    "Reja / namuna"
+   ],
+   "items": [
+    [
+     "Mato bo‘lagi",
+     0
+    ],
+    [
+     "Ip bo‘lagi",
+     0
+    ],
+    [
+     "Mato qoldig‘i",
+     0
+    ],
+    [
+     "Qog‘oz andoza",
+     1
+    ],
+    [
+     "Ranglar eskizi",
+     1
+    ],
+    [
+     "Naqsh chizmasi",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_textile",
+   "id": "service_textile_80",
+   "t": "sort",
+   "q": "Materialni tejash va isrof qilishni ajrating.",
+   "x": "Tejash: Andozalarni yaqin joylash, Toza qoldiqni saqlash, Avval qog‘ozda sinash; Isrof: Keragidan ortiq kesish, Yaroqli bo‘lakni tashlash, O‘lchamasdan kesish.",
+   "h": "Tejash: Andozalarni yaqin joylash, Toza qoldiqni saqlash, Avval qog‘ozda sinash; Isrof: Keragidan ortiq kesish, Yaroqli bo‘lakni tashlash, O‘lchamasdan kesish.",
+   "d": 1,
+   "bins": [
+    "Tejash",
+    "Isrof"
+   ],
+   "items": [
+    [
+     "Andozalarni yaqin joylash",
+     0
+    ],
+    [
+     "Toza qoldiqni saqlash",
+     0
+    ],
+    [
+     "Avval qog‘ozda sinash",
+     0
+    ],
+    [
+     "Keragidan ortiq kesish",
+     1
+    ],
+    [
+     "Yaroqli bo‘lakni tashlash",
+     1
+    ],
+    [
+     "O‘lchamasdan kesish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_81",
+   "t": "choice",
+   "q": "«Likopcha» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Likopcha — taom solinadigan yassi idish.",
+   "h": "Likopcha — taom solinadigan yassi idish.",
+   "d": 1,
+   "a": "Taom solinadigan yassi idish",
+   "w": [
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi",
+    "Qo‘l va og‘izni artish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_82",
+   "t": "choice",
+   "q": "«Piyola» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Piyola — ichimlik quyiladigan kichik idish.",
+   "h": "Piyola — ichimlik quyiladigan kichik idish.",
+   "d": 1,
+   "a": "Ichimlik quyiladigan kichik idish",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Suyuq taom yeyish vositasi",
+    "Qo‘l va og‘izni artish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_83",
+   "t": "choice",
+   "q": "«Qoshiq» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qoshiq — suyuq taom yeyish vositasi.",
+   "h": "Qoshiq — suyuq taom yeyish vositasi.",
+   "d": 1,
+   "a": "Suyuq taom yeyish vositasi",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Qo‘l va og‘izni artish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_84",
+   "t": "choice",
+   "q": "«Salfetka» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Salfetka — qo‘l va og‘izni artish vositasi.",
+   "h": "Salfetka — qo‘l va og‘izni artish vositasi.",
+   "d": 1,
+   "a": "Qo‘l va og‘izni artish vositasi",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_85",
+   "t": "choice",
+   "q": "«Taglik» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Taglik — stol yuzasini himoya qiladigan buyum.",
+   "h": "Taglik — stol yuzasini himoya qiladigan buyum.",
+   "d": 1,
+   "a": "Stol yuzasini himoya qiladigan buyum",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_86",
+   "t": "choice",
+   "q": "«Qo‘l yuvish» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qo‘l yuvish — ovqatlanishdan oldingi gigiyena odati.",
+   "h": "Qo‘l yuvish — ovqatlanishdan oldingi gigiyena odati.",
+   "d": 1,
+   "a": "Ovqatlanishdan oldingi gigiyena odati",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_87",
+   "t": "choice",
+   "q": "«Tartiblagich» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Tartiblagich — mayda buyumlarni ajratib saqlash qutisi.",
+   "h": "Tartiblagich — mayda buyumlarni ajratib saqlash qutisi.",
+   "d": 1,
+   "a": "Mayda buyumlarni ajratib saqlash qutisi",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_88",
+   "t": "choice",
+   "q": "«Joy rejasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Joy rejasi — buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "h": "Joy rejasi — buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "d": 1,
+   "a": "Buyumlar qayerda turishini ko‘rsatadigan chizma",
+   "w": [
+    "Taom solinadigan yassi idish",
+    "Ichimlik quyiladigan kichik idish",
+    "Suyuq taom yeyish vositasi"
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_89",
+   "t": "order",
+   "q": "Dasturxonni tayyorlash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Qo‘llarni yuvish → Toza stol va taglikni tayyorlash → Butun toza idishlarni joylash → Salfetkalarni qo‘yish.",
+   "h": "Qo‘llarni yuvish → Toza stol va taglikni tayyorlash → Butun toza idishlarni joylash → Salfetkalarni qo‘yish.",
+   "d": 1,
+   "parts": [
+    "Qo‘llarni yuvish",
+    "Toza stol va taglikni tayyorlash",
+    "Butun toza idishlarni joylash",
+    "Salfetkalarni qo‘yish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_90",
+   "t": "order",
+   "q": "Shaxsiy buyumlarni tartiblash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyumlarni stolga yig‘ish → Vazifasiga qarab guruhlash → Har guruh uchun joy belgilash → Buyumlarni belgilangan joyga qo‘yish.",
+   "h": "Buyumlarni stolga yig‘ish → Vazifasiga qarab guruhlash → Har guruh uchun joy belgilash → Buyumlarni belgilangan joyga qo‘yish.",
+   "d": 1,
+   "parts": [
+    "Buyumlarni stolga yig‘ish",
+    "Vazifasiga qarab guruhlash",
+    "Har guruh uchun joy belgilash",
+    "Buyumlarni belgilangan joyga qo‘yish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_91",
+   "t": "order",
+   "q": "Idishning yaroqliligini tekshirish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Idishni kattalar bilan ko‘zdan kechirish → Yoriq va siniq yo‘qligini tekshirish → Tozaligini tekshirish → Yaroqli idishni dasturxonga qo‘yish.",
+   "h": "Idishni kattalar bilan ko‘zdan kechirish → Yoriq va siniq yo‘qligini tekshirish → Tozaligini tekshirish → Yaroqli idishni dasturxonga qo‘yish.",
+   "d": 1,
+   "parts": [
+    "Idishni kattalar bilan ko‘zdan kechirish",
+    "Yoriq va siniq yo‘qligini tekshirish",
+    "Tozaligini tekshirish",
+    "Yaroqli idishni dasturxonga qo‘yish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_92",
+   "t": "match",
+   "q": "Dasturxon va buyumlarni tartiblash: asosiy juftliklarni moslang.",
+   "x": "Likopcha — Taom solinadigan yassi idish; Piyola — Ichimlik quyiladigan kichik idish; Qoshiq — Suyuq taom yeyish vositasi; Salfetka — Qo‘l va og‘izni artish vositasi.",
+   "h": "Likopcha — Taom solinadigan yassi idish; Piyola — Ichimlik quyiladigan kichik idish; Qoshiq — Suyuq taom yeyish vositasi; Salfetka — Qo‘l va og‘izni artish vositasi.",
+   "d": 1,
+   "pairs": [
+    [
+     "Likopcha",
+     "Taom solinadigan yassi idish"
+    ],
+    [
+     "Piyola",
+     "Ichimlik quyiladigan kichik idish"
+    ],
+    [
+     "Qoshiq",
+     "Suyuq taom yeyish vositasi"
+    ],
+    [
+     "Salfetka",
+     "Qo‘l va og‘izni artish vositasi"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_93",
+   "t": "match",
+   "q": "Dasturxon va buyumlarni tartiblash: amaliy juftliklarni moslang.",
+   "x": "Taglik — Stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — Ovqatlanishdan oldingi gigiyena odati; Tartiblagich — Mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — Buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "h": "Taglik — Stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — Ovqatlanishdan oldingi gigiyena odati; Tartiblagich — Mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — Buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "d": 1,
+   "pairs": [
+    [
+     "Taglik",
+     "Stol yuzasini himoya qiladigan buyum"
+    ],
+    [
+     "Qo‘l yuvish",
+     "Ovqatlanishdan oldingi gigiyena odati"
+    ],
+    [
+     "Tartiblagich",
+     "Mayda buyumlarni ajratib saqlash qutisi"
+    ],
+    [
+     "Joy rejasi",
+     "Buyumlar qayerda turishini ko‘rsatadigan chizma"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_94",
+   "t": "match",
+   "q": "Dasturxon va buyumlarni tartiblash: mavzuni mustahkamlashni moslang.",
+   "x": "Likopcha — Taom solinadigan yassi idish; Piyola — Ichimlik quyiladigan kichik idish; Qoshiq — Suyuq taom yeyish vositasi; Salfetka — Qo‘l va og‘izni artish vositasi; Taglik — Stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — Ovqatlanishdan oldingi gigiyena odati; Tartiblagich — Mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — Buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "h": "Likopcha — Taom solinadigan yassi idish; Piyola — Ichimlik quyiladigan kichik idish; Qoshiq — Suyuq taom yeyish vositasi; Salfetka — Qo‘l va og‘izni artish vositasi; Taglik — Stol yuzasini himoya qiladigan buyum; Qo‘l yuvish — Ovqatlanishdan oldingi gigiyena odati; Tartiblagich — Mayda buyumlarni ajratib saqlash qutisi; Joy rejasi — Buyumlar qayerda turishini ko‘rsatadigan chizma.",
+   "d": 1,
+   "pairs": [
+    [
+     "Likopcha",
+     "Taom solinadigan yassi idish"
+    ],
+    [
+     "Piyola",
+     "Ichimlik quyiladigan kichik idish"
+    ],
+    [
+     "Qoshiq",
+     "Suyuq taom yeyish vositasi"
+    ],
+    [
+     "Salfetka",
+     "Qo‘l va og‘izni artish vositasi"
+    ],
+    [
+     "Taglik",
+     "Stol yuzasini himoya qiladigan buyum"
+    ],
+    [
+     "Qo‘l yuvish",
+     "Ovqatlanishdan oldingi gigiyena odati"
+    ],
+    [
+     "Tartiblagich",
+     "Mayda buyumlarni ajratib saqlash qutisi"
+    ],
+    [
+     "Joy rejasi",
+     "Buyumlar qayerda turishini ko‘rsatadigan chizma"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_95",
+   "t": "sort",
+   "q": "Dasturxon buyumlari va o‘quv qurollarini ajrating.",
+   "x": "Dasturxon: Likopcha, Piyola, Salfetka; O‘qish: Daftar, Qalam, Chizg‘ich.",
+   "h": "Dasturxon: Likopcha, Piyola, Salfetka; O‘qish: Daftar, Qalam, Chizg‘ich.",
+   "d": 1,
+   "bins": [
+    "Dasturxon",
+    "O‘qish"
+   ],
+   "items": [
+    [
+     "Likopcha",
+     0
+    ],
+    [
+     "Piyola",
+     0
+    ],
+    [
+     "Salfetka",
+     0
+    ],
+    [
+     "Daftar",
+     1
+    ],
+    [
+     "Qalam",
+     1
+    ],
+    [
+     "Chizg‘ich",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g3.service_table",
+   "id": "service_table_96",
+   "t": "sort",
+   "q": "Dasturxon uchun yaroqli va yaroqsiz buyumlarni ajrating.",
+   "x": "Yaroqli: Toza likopcha, Butun piyola, Toza salfetka; Kattaga berish: Yoriq piyola, Singan likopcha, Iflos qoshiq.",
+   "h": "Yaroqli: Toza likopcha, Butun piyola, Toza salfetka; Kattaga berish: Yoriq piyola, Singan likopcha, Iflos qoshiq.",
+   "d": 1,
+   "bins": [
+    "Yaroqli",
+    "Kattaga berish"
+   ],
+   "items": [
+    [
+     "Toza likopcha",
+     0
+    ],
+    [
+     "Butun piyola",
+     0
+    ],
+    [
+     "Toza salfetka",
+     0
+    ],
+    [
+     "Yoriq piyola",
+     1
+    ],
+    [
+     "Singan likopcha",
+     1
+    ],
+    [
+     "Iflos qoshiq",
+     1
+    ]
+   ]
   }
  ]
 }

@@ -60,6 +60,8 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
     String? photoPath,
     String language = 'uz',
     int grade = 0,
+    String gender = 'unspecified',
+    String technologyTrack = 'auto',
   }) async {
     final safeAge = AppEditionConfig.normalizeAge(age);
     final safeGrade = AppEditionConfig.normalizeGrade(grade);
@@ -72,6 +74,8 @@ class ProfilesNotifier extends Notifier<List<ChildProfile>> {
       photoPath: photoPath,
       language: language,
       grade: safeGrade,
+      gender: gender,
+      technologyTrack: technologyTrack,
       age: safeAge,
       avatar: avatar,
       colorIndex: colorIndex ?? state.length,

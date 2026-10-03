@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Bit» uchun mos ma’noni tanlang.",
+   "a": "Ikkita qiymatdan birini ifodalovchi birlik",
+   "w": [
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim",
+    "Axborotni kelishilgan belgilar bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Bit — Ikkita qiymatdan birini ifodalovchi birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Bit — Ikkita qiymatdan birini ifodalovchi birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Ikkita qiymatdan birini ifodalovchi birlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bit",
+   "w": [
+    "Bayt",
+    "Ikkilik sanoq",
+    "Kodlash"
+   ],
+   "d": 2,
+   "x": "Bit — Ikkita qiymatdan birini ifodalovchi birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Bit — Ikkita qiymatdan birini ifodalovchi birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Bayt» uchun mos ma’noni tanlang.",
+   "a": "Sakkiz bitdan tashkil topgan birlik",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Nol va bir raqamlariga asoslangan tizim",
+    "Axborotni kelishilgan belgilar bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Bayt — Sakkiz bitdan tashkil topgan birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Bayt — Sakkiz bitdan tashkil topgan birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Sakkiz bitdan tashkil topgan birlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bayt",
+   "w": [
+    "Bit",
+    "Ikkilik sanoq",
+    "Kodlash"
+   ],
+   "d": 2,
+   "x": "Bayt — Sakkiz bitdan tashkil topgan birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Bayt — Sakkiz bitdan tashkil topgan birlik. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Ikkilik sanoq» uchun mos ma’noni tanlang.",
+   "a": "Nol va bir raqamlariga asoslangan tizim",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Axborotni kelishilgan belgilar bilan ifodalash"
+   ],
+   "d": 1,
+   "x": "Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Nol va bir raqamlariga asoslangan tizim» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ikkilik sanoq",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Kodlash"
+   ],
+   "d": 2,
+   "x": "Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Kodlash» uchun mos ma’noni tanlang.",
+   "a": "Axborotni kelishilgan belgilar bilan ifodalash",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim"
+   ],
+   "d": 1,
+   "x": "Kodlash — Axborotni kelishilgan belgilar bilan ifodalash. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Kodlash — Axborotni kelishilgan belgilar bilan ifodalash. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Axborotni kelishilgan belgilar bilan ifodalash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kodlash",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Ikkilik sanoq"
+   ],
+   "d": 2,
+   "x": "Kodlash — Axborotni kelishilgan belgilar bilan ifodalash. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Kodlash — Axborotni kelishilgan belgilar bilan ifodalash. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Dekodlash» uchun mos ma’noni tanlang.",
+   "a": "Kodlangan axborotni qayta talqin qilish",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim"
+   ],
+   "d": 1,
+   "x": "Dekodlash — Kodlangan axborotni qayta talqin qilish. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Dekodlash — Kodlangan axborotni qayta talqin qilish. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Kodlangan axborotni qayta talqin qilish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Dekodlash",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Ikkilik sanoq"
+   ],
+   "d": 2,
+   "x": "Dekodlash — Kodlangan axborotni qayta talqin qilish. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Dekodlash — Kodlangan axborotni qayta talqin qilish. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Piksel» uchun mos ma’noni tanlang.",
+   "a": "Raqamli tasvirning kichik elementi",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim"
+   ],
+   "d": 1,
+   "x": "Piksel — Raqamli tasvirning kichik elementi. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Piksel — Raqamli tasvirning kichik elementi. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Raqamli tasvirning kichik elementi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Piksel",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Ikkilik sanoq"
+   ],
+   "d": 2,
+   "x": "Piksel — Raqamli tasvirning kichik elementi. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Piksel — Raqamli tasvirning kichik elementi. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Unicode» uchun mos ma’noni tanlang.",
+   "a": "Matn belgilarini raqamlar bilan ifodalash standarti",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim"
+   ],
+   "d": 1,
+   "x": "Unicode — Matn belgilarini raqamlar bilan ifodalash standarti. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Unicode — Matn belgilarini raqamlar bilan ifodalash standarti. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Matn belgilarini raqamlar bilan ifodalash standarti» qaysi tushuncha yoki iboraga mos?",
+   "a": "Unicode",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Ikkilik sanoq"
+   ],
+   "d": 2,
+   "x": "Unicode — Matn belgilarini raqamlar bilan ifodalash standarti. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Unicode — Matn belgilarini raqamlar bilan ifodalash standarti. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Siqish» uchun mos ma’noni tanlang.",
+   "a": "Ma’lumotni kamroq joyda saqlash usuli",
+   "w": [
+    "Ikkita qiymatdan birini ifodalovchi birlik",
+    "Sakkiz bitdan tashkil topgan birlik",
+    "Nol va bir raqamlariga asoslangan tizim"
+   ],
+   "d": 1,
+   "x": "Siqish — Ma’lumotni kamroq joyda saqlash usuli. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Siqish — Ma’lumotni kamroq joyda saqlash usuli. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Ma’lumotni kamroq joyda saqlash usuli» qaysi tushuncha yoki iboraga mos?",
+   "a": "Siqish",
+   "w": [
+    "Bit",
+    "Bayt",
+    "Ikkilik sanoq"
+   ],
+   "d": 2,
+   "x": "Siqish — Ma’lumotni kamroq joyda saqlash usuli. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi.",
+   "h": "Siqish — Ma’lumotni kamroq joyda saqlash usuli. Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Axborotni kodlash va birliklar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Bit",
+     "Ikkita qiymatdan birini ifodalovchi birlik"
+    ],
+    [
+     "Bayt",
+     "Sakkiz bitdan tashkil topgan birlik"
+    ],
+    [
+     "Ikkilik sanoq",
+     "Nol va bir raqamlariga asoslangan tizim"
+    ],
+    [
+     "Kodlash",
+     "Axborotni kelishilgan belgilar bilan ifodalash"
+    ]
+   ],
+   "d": 1,
+   "x": "Bit — Ikkita qiymatdan birini ifodalovchi birlik; Bayt — Sakkiz bitdan tashkil topgan birlik; Ikkilik sanoq — Nol va bir raqamlariga asoslangan tizim; Kodlash — Axborotni kelishilgan belgilar bilan ifodalash",
+   "h": "Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Axborotni kodlash va birliklar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Dekodlash",
+     "Kodlangan axborotni qayta talqin qilish"
+    ],
+    [
+     "Piksel",
+     "Raqamli tasvirning kichik elementi"
+    ],
+    [
+     "Unicode",
+     "Matn belgilarini raqamlar bilan ifodalash standarti"
+    ],
+    [
+     "Siqish",
+     "Ma’lumotni kamroq joyda saqlash usuli"
+    ]
+   ],
+   "d": 1,
+   "x": "Dekodlash — Kodlangan axborotni qayta talqin qilish; Piksel — Raqamli tasvirning kichik elementi; Unicode — Matn belgilarini raqamlar bilan ifodalash standarti; Siqish — Ma’lumotni kamroq joyda saqlash usuli",
+   "h": "Misol: 101₂ = 1×4 + 0×2 + 1×1 = 5. Matn, rasm va tovush kompyuterda kodlangan ma’lumot sifatida saqlanadi."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Katak» uchun mos ma’noni tanlang.",
+   "a": "Satr va ustun kesishgan joy",
+   "w": [
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori",
+    "A ustun va birinchi satr manzili"
+   ],
+   "d": 1,
+   "x": "Katak — Satr va ustun kesishgan joy. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Katak — Satr va ustun kesishgan joy. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Satr va ustun kesishgan joy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Katak",
+   "w": [
+    "Satr",
+    "Ustun",
+    "A1"
+   ],
+   "d": 2,
+   "x": "Katak — Satr va ustun kesishgan joy. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Katak — Satr va ustun kesishgan joy. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Satr» uchun mos ma’noni tanlang.",
+   "a": "Jadvalning gorizontal qatori",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning vertikal qatori",
+    "A ustun va birinchi satr manzili"
+   ],
+   "d": 1,
+   "x": "Satr — Jadvalning gorizontal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Satr — Jadvalning gorizontal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Jadvalning gorizontal qatori» qaysi tushuncha yoki iboraga mos?",
+   "a": "Satr",
+   "w": [
+    "Katak",
+    "Ustun",
+    "A1"
+   ],
+   "d": 2,
+   "x": "Satr — Jadvalning gorizontal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Satr — Jadvalning gorizontal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Ustun» uchun mos ma’noni tanlang.",
+   "a": "Jadvalning vertikal qatori",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "A ustun va birinchi satr manzili"
+   ],
+   "d": 1,
+   "x": "Ustun — Jadvalning vertikal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Ustun — Jadvalning vertikal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Jadvalning vertikal qatori» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ustun",
+   "w": [
+    "Katak",
+    "Satr",
+    "A1"
+   ],
+   "d": 2,
+   "x": "Ustun — Jadvalning vertikal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Ustun — Jadvalning vertikal qatori. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«A1» uchun mos ma’noni tanlang.",
+   "a": "A ustun va birinchi satr manzili",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori"
+   ],
+   "d": 1,
+   "x": "A1 — A ustun va birinchi satr manzili. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "A1 — A ustun va birinchi satr manzili. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«A ustun va birinchi satr manzili» qaysi tushuncha yoki iboraga mos?",
+   "a": "A1",
+   "w": [
+    "Katak",
+    "Satr",
+    "Ustun"
+   ],
+   "d": 2,
+   "x": "A1 — A ustun va birinchi satr manzili. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "A1 — A ustun va birinchi satr manzili. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Formula» uchun mos ma’noni tanlang.",
+   "a": "Hisoblashni ko‘rsatadigan ifoda",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori"
+   ],
+   "d": 1,
+   "x": "Formula — Hisoblashni ko‘rsatadigan ifoda. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Formula — Hisoblashni ko‘rsatadigan ifoda. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Hisoblashni ko‘rsatadigan ifoda» qaysi tushuncha yoki iboraga mos?",
+   "a": "Formula",
+   "w": [
+    "Katak",
+    "Satr",
+    "Ustun"
+   ],
+   "d": 2,
+   "x": "Formula — Hisoblashni ko‘rsatadigan ifoda. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Formula — Hisoblashni ko‘rsatadigan ifoda. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«SUM» uchun mos ma’noni tanlang.",
+   "a": "Sonlarni yig‘ish funksiyasi",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori"
+   ],
+   "d": 1,
+   "x": "SUM — Sonlarni yig‘ish funksiyasi. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "SUM — Sonlarni yig‘ish funksiyasi. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Sonlarni yig‘ish funksiyasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "SUM",
+   "w": [
+    "Katak",
+    "Satr",
+    "Ustun"
+   ],
+   "d": 2,
+   "x": "SUM — Sonlarni yig‘ish funksiyasi. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "SUM — Sonlarni yig‘ish funksiyasi. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Nisbiy manzil» uchun mos ma’noni tanlang.",
+   "a": "Ko‘chirilganda joyiga qarab o‘zgaradigan havola",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori"
+   ],
+   "d": 1,
+   "x": "Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Ko‘chirilganda joyiga qarab o‘zgaradigan havola» qaysi tushuncha yoki iboraga mos?",
+   "a": "Nisbiy manzil",
+   "w": [
+    "Katak",
+    "Satr",
+    "Ustun"
+   ],
+   "d": 2,
+   "x": "Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Mutlaq manzil» uchun mos ma’noni tanlang.",
+   "a": "Ko‘chirilganda dollar belgisi bilan mahkamlangan havola",
+   "w": [
+    "Satr va ustun kesishgan joy",
+    "Jadvalning gorizontal qatori",
+    "Jadvalning vertikal qatori"
+   ],
+   "d": 1,
+   "x": "Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Ko‘chirilganda dollar belgisi bilan mahkamlangan havola» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mutlaq manzil",
+   "w": [
+    "Katak",
+    "Satr",
+    "Ustun"
+   ],
+   "d": 2,
+   "x": "Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan.",
+   "h": "Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola. Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Elektron jadval va formulalar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Katak",
+     "Satr va ustun kesishgan joy"
+    ],
+    [
+     "Satr",
+     "Jadvalning gorizontal qatori"
+    ],
+    [
+     "Ustun",
+     "Jadvalning vertikal qatori"
+    ],
+    [
+     "A1",
+     "A ustun va birinchi satr manzili"
+    ]
+   ],
+   "d": 1,
+   "x": "Katak — Satr va ustun kesishgan joy; Satr — Jadvalning gorizontal qatori; Ustun — Jadvalning vertikal qatori; A1 — A ustun va birinchi satr manzili",
+   "h": "Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Elektron jadval va formulalar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Formula",
+     "Hisoblashni ko‘rsatadigan ifoda"
+    ],
+    [
+     "SUM",
+     "Sonlarni yig‘ish funksiyasi"
+    ],
+    [
+     "Nisbiy manzil",
+     "Ko‘chirilganda joyiga qarab o‘zgaradigan havola"
+    ],
+    [
+     "Mutlaq manzil",
+     "Ko‘chirilganda dollar belgisi bilan mahkamlangan havola"
+    ]
+   ],
+   "d": 1,
+   "x": "Formula — Hisoblashni ko‘rsatadigan ifoda; SUM — Sonlarni yig‘ish funksiyasi; Nisbiy manzil — Ko‘chirilganda joyiga qarab o‘zgaradigan havola; Mutlaq manzil — Ko‘chirilganda dollar belgisi bilan mahkamlangan havola",
+   "h": "Misol: =SUM(A1:A3) uch katakdagi sonlarni qo‘shadi. =A1*2 ko‘chirilganda A1 o‘zgarishi mumkin; =$A$1*2 da manzil mahkamlangan."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«O‘zgaruvchi» uchun mos ma’noni tanlang.",
+   "a": "Qiymatni nom bilan saqlash joyi",
+   "w": [
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish",
+    "Shartga qarab yo‘l tanlash"
+   ],
+   "d": 1,
+   "x": "O‘zgaruvchi — Qiymatni nom bilan saqlash joyi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "O‘zgaruvchi — Qiymatni nom bilan saqlash joyi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Qiymatni nom bilan saqlash joyi» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘zgaruvchi",
+   "w": [
+    "Tayinlash",
+    "Taqqoslash",
+    "Tarmoqlanish"
+   ],
+   "d": 2,
+   "x": "O‘zgaruvchi — Qiymatni nom bilan saqlash joyi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "O‘zgaruvchi — Qiymatni nom bilan saqlash joyi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Tayinlash» uchun mos ma’noni tanlang.",
+   "a": "O‘zgaruvchiga qiymat berish",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "Ikki qiymat orasidagi munosabatni tekshirish",
+    "Shartga qarab yo‘l tanlash"
+   ],
+   "d": 1,
+   "x": "Tayinlash — O‘zgaruvchiga qiymat berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Tayinlash — O‘zgaruvchiga qiymat berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«O‘zgaruvchiga qiymat berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tayinlash",
+   "w": [
+    "O‘zgaruvchi",
+    "Taqqoslash",
+    "Tarmoqlanish"
+   ],
+   "d": 2,
+   "x": "Tayinlash — O‘zgaruvchiga qiymat berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Tayinlash — O‘zgaruvchiga qiymat berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Taqqoslash» uchun mos ma’noni tanlang.",
+   "a": "Ikki qiymat orasidagi munosabatni tekshirish",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Shartga qarab yo‘l tanlash"
+   ],
+   "d": 1,
+   "x": "Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Ikki qiymat orasidagi munosabatni tekshirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Taqqoslash",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Tarmoqlanish"
+   ],
+   "d": 2,
+   "x": "Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Tarmoqlanish» uchun mos ma’noni tanlang.",
+   "a": "Shartga qarab yo‘l tanlash",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish"
+   ],
+   "d": 1,
+   "x": "Tarmoqlanish — Shartga qarab yo‘l tanlash. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Tarmoqlanish — Shartga qarab yo‘l tanlash. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Shartga qarab yo‘l tanlash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tarmoqlanish",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Taqqoslash"
+   ],
+   "d": 2,
+   "x": "Tarmoqlanish — Shartga qarab yo‘l tanlash. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Tarmoqlanish — Shartga qarab yo‘l tanlash. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Sikl» uchun mos ma’noni tanlang.",
+   "a": "Buyruqlarni takrorlash tuzilmasi",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish"
+   ],
+   "d": 1,
+   "x": "Sikl — Buyruqlarni takrorlash tuzilmasi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Sikl — Buyruqlarni takrorlash tuzilmasi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Buyruqlarni takrorlash tuzilmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sikl",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Taqqoslash"
+   ],
+   "d": 2,
+   "x": "Sikl — Buyruqlarni takrorlash tuzilmasi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Sikl — Buyruqlarni takrorlash tuzilmasi. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Kiritish» uchun mos ma’noni tanlang.",
+   "a": "Dasturga boshlang‘ich ma’lumot berish",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish"
+   ],
+   "d": 1,
+   "x": "Kiritish — Dasturga boshlang‘ich ma’lumot berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Kiritish — Dasturga boshlang‘ich ma’lumot berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Dasturga boshlang‘ich ma’lumot berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kiritish",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Taqqoslash"
+   ],
+   "d": 2,
+   "x": "Kiritish — Dasturga boshlang‘ich ma’lumot berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Kiritish — Dasturga boshlang‘ich ma’lumot berish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Chiqarish» uchun mos ma’noni tanlang.",
+   "a": "Dastur natijasini ko‘rsatish",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish"
+   ],
+   "d": 1,
+   "x": "Chiqarish — Dastur natijasini ko‘rsatish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Chiqarish — Dastur natijasini ko‘rsatish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Dastur natijasini ko‘rsatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Chiqarish",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Taqqoslash"
+   ],
+   "d": 2,
+   "x": "Chiqarish — Dastur natijasini ko‘rsatish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Chiqarish — Dastur natijasini ko‘rsatish. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Test holati» uchun mos ma’noni tanlang.",
+   "a": "Dastur uchun ma’lum kirish va kutilgan natija",
+   "w": [
+    "Qiymatni nom bilan saqlash joyi",
+    "O‘zgaruvchiga qiymat berish",
+    "Ikki qiymat orasidagi munosabatni tekshirish"
+   ],
+   "d": 1,
+   "x": "Test holati — Dastur uchun ma’lum kirish va kutilgan natija. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Test holati — Dastur uchun ma’lum kirish va kutilgan natija. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Dastur uchun ma’lum kirish va kutilgan natija» qaysi tushuncha yoki iboraga mos?",
+   "a": "Test holati",
+   "w": [
+    "O‘zgaruvchi",
+    "Tayinlash",
+    "Taqqoslash"
+   ],
+   "d": 2,
+   "x": "Test holati — Dastur uchun ma’lum kirish va kutilgan natija. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz.",
+   "h": "Test holati — Dastur uchun ma’lum kirish va kutilgan natija. Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Algoritm, shart va sikl: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "O‘zgaruvchi",
+     "Qiymatni nom bilan saqlash joyi"
+    ],
+    [
+     "Tayinlash",
+     "O‘zgaruvchiga qiymat berish"
+    ],
+    [
+     "Taqqoslash",
+     "Ikki qiymat orasidagi munosabatni tekshirish"
+    ],
+    [
+     "Tarmoqlanish",
+     "Shartga qarab yo‘l tanlash"
+    ]
+   ],
+   "d": 1,
+   "x": "O‘zgaruvchi — Qiymatni nom bilan saqlash joyi; Tayinlash — O‘zgaruvchiga qiymat berish; Taqqoslash — Ikki qiymat orasidagi munosabatni tekshirish; Tarmoqlanish — Shartga qarab yo‘l tanlash",
+   "h": "Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Algoritm, shart va sikl: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Sikl",
+     "Buyruqlarni takrorlash tuzilmasi"
+    ],
+    [
+     "Kiritish",
+     "Dasturga boshlang‘ich ma’lumot berish"
+    ],
+    [
+     "Chiqarish",
+     "Dastur natijasini ko‘rsatish"
+    ],
+    [
+     "Test holati",
+     "Dastur uchun ma’lum kirish va kutilgan natija"
+    ]
+   ],
+   "d": 1,
+   "x": "Sikl — Buyruqlarni takrorlash tuzilmasi; Kiritish — Dasturga boshlang‘ich ma’lumot berish; Chiqarish — Dastur natijasini ko‘rsatish; Test holati — Dastur uchun ma’lum kirish va kutilgan natija",
+   "h": "Misol: agar ball 60 yoki undan katta bo‘lsa “O‘tdi”, aks holda “Takrorla” chiqadi. Chegaradagi 59 va 60 qiymatlarini alohida sinaymiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Internet» uchun mos ma’noni tanlang.",
+   "a": "O‘zaro bog‘langan tarmoqlar majmui",
+   "w": [
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili",
+    "Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol"
+   ],
+   "d": 1,
+   "x": "Internet — O‘zaro bog‘langan tarmoqlar majmui. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Internet — O‘zaro bog‘langan tarmoqlar majmui. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«O‘zaro bog‘langan tarmoqlar majmui» qaysi tushuncha yoki iboraga mos?",
+   "a": "Internet",
+   "w": [
+    "Brauzer",
+    "URL",
+    "HTTPS"
+   ],
+   "d": 2,
+   "x": "Internet — O‘zaro bog‘langan tarmoqlar majmui. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Internet — O‘zaro bog‘langan tarmoqlar majmui. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Brauzer» uchun mos ma’noni tanlang.",
+   "a": "Veb sahifalarni ko‘rish dasturi",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Internet resursi manzili",
+    "Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol"
+   ],
+   "d": 1,
+   "x": "Brauzer — Veb sahifalarni ko‘rish dasturi. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Brauzer — Veb sahifalarni ko‘rish dasturi. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Veb sahifalarni ko‘rish dasturi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Brauzer",
+   "w": [
+    "Internet",
+    "URL",
+    "HTTPS"
+   ],
+   "d": 2,
+   "x": "Brauzer — Veb sahifalarni ko‘rish dasturi. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Brauzer — Veb sahifalarni ko‘rish dasturi. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«URL» uchun mos ma’noni tanlang.",
+   "a": "Internet resursi manzili",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol"
+   ],
+   "d": 1,
+   "x": "URL — Internet resursi manzili. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "URL — Internet resursi manzili. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Internet resursi manzili» qaysi tushuncha yoki iboraga mos?",
+   "a": "URL",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "HTTPS"
+   ],
+   "d": 2,
+   "x": "URL — Internet resursi manzili. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "URL — Internet resursi manzili. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«HTTPS» uchun mos ma’noni tanlang.",
+   "a": "Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili"
+   ],
+   "d": 1,
+   "x": "HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol» qaysi tushuncha yoki iboraga mos?",
+   "a": "HTTPS",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "URL"
+   ],
+   "d": 2,
+   "x": "HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Fishing» uchun mos ma’noni tanlang.",
+   "a": "Aldov bilan maxfiy ma’lumot olishga urinish",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili"
+   ],
+   "d": 1,
+   "x": "Fishing — Aldov bilan maxfiy ma’lumot olishga urinish. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Fishing — Aldov bilan maxfiy ma’lumot olishga urinish. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Aldov bilan maxfiy ma’lumot olishga urinish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Fishing",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "URL"
+   ],
+   "d": 2,
+   "x": "Fishing — Aldov bilan maxfiy ma’lumot olishga urinish. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Fishing — Aldov bilan maxfiy ma’lumot olishga urinish. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Zaxira nusxa» uchun mos ma’noni tanlang.",
+   "a": "Yo‘qolgan faylni tiklash uchun alohida nusxa",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili"
+   ],
+   "d": 1,
+   "x": "Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Yo‘qolgan faylni tiklash uchun alohida nusxa» qaysi tushuncha yoki iboraga mos?",
+   "a": "Zaxira nusxa",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "URL"
+   ],
+   "d": 2,
+   "x": "Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Ikki bosqichli tasdiq» uchun mos ma’noni tanlang.",
+   "a": "Kirishda paroldan tashqari qo‘shimcha tekshiruv",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili"
+   ],
+   "d": 1,
+   "x": "Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Kirishda paroldan tashqari qo‘shimcha tekshiruv» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ikki bosqichli tasdiq",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "URL"
+   ],
+   "d": 2,
+   "x": "Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Dalil» uchun mos ma’noni tanlang.",
+   "a": "Da’voni asoslaydigan tekshiriladigan ma’lumot",
+   "w": [
+    "O‘zaro bog‘langan tarmoqlar majmui",
+    "Veb sahifalarni ko‘rish dasturi",
+    "Internet resursi manzili"
+   ],
+   "d": 1,
+   "x": "Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Da’voni asoslaydigan tekshiriladigan ma’lumot» qaysi tushuncha yoki iboraga mos?",
+   "a": "Dalil",
+   "w": [
+    "Internet",
+    "Brauzer",
+    "URL"
+   ],
+   "d": 2,
+   "x": "Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz.",
+   "h": "Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot. Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Tarmoq va manbani tekshirish: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Internet",
+     "O‘zaro bog‘langan tarmoqlar majmui"
+    ],
+    [
+     "Brauzer",
+     "Veb sahifalarni ko‘rish dasturi"
+    ],
+    [
+     "URL",
+     "Internet resursi manzili"
+    ],
+    [
+     "HTTPS",
+     "Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol"
+    ]
+   ],
+   "d": 1,
+   "x": "Internet — O‘zaro bog‘langan tarmoqlar majmui; Brauzer — Veb sahifalarni ko‘rish dasturi; URL — Internet resursi manzili; HTTPS — Ulanishda ma’lumotni shifrlashni qo‘llaydigan protokol",
+   "h": "Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  },
+  {
+   "topic": "informatics_g7.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Tarmoq va manbani tekshirish: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Fishing",
+     "Aldov bilan maxfiy ma’lumot olishga urinish"
+    ],
+    [
+     "Zaxira nusxa",
+     "Yo‘qolgan faylni tiklash uchun alohida nusxa"
+    ],
+    [
+     "Ikki bosqichli tasdiq",
+     "Kirishda paroldan tashqari qo‘shimcha tekshiruv"
+    ],
+    [
+     "Dalil",
+     "Da’voni asoslaydigan tekshiriladigan ma’lumot"
+    ]
+   ],
+   "d": 1,
+   "x": "Fishing — Aldov bilan maxfiy ma’lumot olishga urinish; Zaxira nusxa — Yo‘qolgan faylni tiklash uchun alohida nusxa; Ikki bosqichli tasdiq — Kirishda paroldan tashqari qo‘shimcha tekshiruv; Dalil — Da’voni asoslaydigan tekshiriladigan ma’lumot",
+   "h": "Misol: HTTPS belgisi saytning barcha da’volari to‘g‘ri ekanini kafolatlamaydi. Muallif, sana va mustaqil manbalarni ham solishtiramiz."
+  }
+ ]
+}

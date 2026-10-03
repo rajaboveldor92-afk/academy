@@ -1,0 +1,309 @@
+{
+ "subject": "onatili",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ona tili",
+  "en": "Native language",
+  "ru": "Родной язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "onatili_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Mustaqil so‘z turkumlari",
+    "en": "Mustaqil so‘z turkumlari",
+    "ru": "Mustaqil so‘z turkumlari"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Mustaqil so‘z turkumlari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Ot — Shaxs yoki narsa nomini bildirgan so‘z turkumi; Sifat — Narsaning belgisini bildirgan so‘z turkumi; Son — Miqdor yoki tartibni bildirgan so‘z turkumi; Olmosh — Ot, sifat yoki son o‘rnida keladigan so‘z turkumi; Fe’l — Harakat yoki holatni bildirgan so‘z turkumi; Ravish — Harakatning belgisini bildirgan so‘z turkumi; Egalik qo‘shimchasi — Narsaning kimga qarashliligini bildirgan qo‘shimcha; Kelishik qo‘shimchasi — Otning boshqa so‘zga munosabatini bildirgan qo‘shimcha.\n\nMisol: “Mening ikki yaxshi do‘stim tez keldi”. Do‘st — ot, ikki — son, yaxshi — sifat, tez — ravish, keldi — fe’l. So‘zning gapdagi ma’nosiga qaraymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Mustaqil so‘z turkumlari",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Fe’l shakllari",
+    "en": "Fe’l shakllari",
+    "ru": "Fe’l shakllari"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Fe’l shakllari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Bo‘lishli fe’l — Harakat bajarilishini bildirgan shakl; Bo‘lishsiz fe’l — Harakat inkorini bildirgan shakl; O‘tgan zamon — Nutqdan oldingi harakat vaqti; Hozirgi zamon — Nutq paytidagi harakat vaqti; Kelasi zamon — Nutqdan keyingi harakat vaqti; Sifatdosh — Fe’lning sifatga xos vazifada keladigan shakli; Ravishdosh — Fe’lning qo‘shimcha harakatni bildirgan shakli; Harakat nomi — Harakatni nom sifatida bildirgan shakl.\n\nMisol: o‘qidi, o‘qiyapti, o‘qiydi — zamon; o‘qimadi — inkor. O‘qigan bola — sifatdosh, kulib gapirdi — ravishdosh, o‘qish foydali — harakat nomi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Fe’l shakllari",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yordamchi so‘zlar",
+    "en": "Yordamchi so‘zlar",
+    "ru": "Yordamchi so‘zlar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Yordamchi so‘zlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Ko‘makchi — So‘zlar orasidagi tobe munosabatni ifodalovchi yordamchi; Bog‘lovchi — So‘z yoki gaplarni bog‘laydigan yordamchi; Yuklama — So‘z yoki gapga qo‘shimcha ma’no beradigan yordamchi; Va — Teng qismlarni biriktiruvchi bog‘lovchi; Ammo — Qarama-qarshi fikrni bog‘lovchi; Chunki — Sabab munosabatini bildiruvchi bog‘lovchi; Uchun — Maqsad yoki sabab munosabatidagi ko‘makchi; Faqat — Cheklash ma’nosidagi yuklama.\n\nMisol: “Men va sen”, “keldim, ammo topmadim”, “bilim olish uchun”. Yordamchi so‘zning ma’nosi va bog‘lagan qismlarini tekshiramiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Yordamchi so‘zlar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "So‘z ma’nosi va nutq aniqligi",
+    "en": "So‘z ma’nosi va nutq aniqligi",
+    "ru": "So‘z ma’nosi va nutq aniqligi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. So‘z ma’nosi va nutq aniqligi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Sinonim — Ma’nosi yaqin so‘z; Antonim — Ma’nosi qarama-qarshi so‘z; Omonim — Shakli bir xil, ma’nosi boshqa so‘z; Ko‘chma ma’no — So‘zning o‘xshashlik yoki bog‘lanish asosidagi ma’nosi; Atama — Bir sohaga oid aniq tushuncha nomi; Ibora — Yaxlit ko‘chma ma’noli turg‘un birikma; Uslub — Nutqning vaziyatga mos ifoda usuli; Tahrir — Matn xatolarini tuzatish va aniqlashtirish.\n\nMisol: katta — ulkan sinonim; katta — kichik antonim. “Oltin kuz” ko‘chma tasvir. Matnni tahrirda ortiqcha takror va noaniq so‘zni almashtiramiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "onatili_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. So‘z ma’nosi va nutq aniqligi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "onatili_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "onatili_g7.unit1",
+      "onatili_g7.unit2",
+      "onatili_g7.unit3",
+      "onatili_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "onatili_g7.unit1",
+      "onatili_g7.unit2",
+      "onatili_g7.unit3",
+      "onatili_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "onatili_g7.unit1",
+      "onatili_g7.unit2",
+      "onatili_g7.unit3",
+      "onatili_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

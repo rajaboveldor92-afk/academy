@@ -1,0 +1,309 @@
+{
+ "subject": "english",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "english_g8.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Present perfect va tajriba",
+    "en": "Present perfect va tajriba",
+    "ru": "Present perfect va tajriba"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Present perfect va tajriba",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: I have visited Samarkand. — Men Samarqandga borib ko‘rganman.; She has just finished her work. — U ishini hozirgina tugatdi.; We have lived here for two years. — Biz bu yerda ikki yildan beri yashaymiz.; He has lived here since Monday. — U dushanbadan beri bu yerda yashaydi.; Have you ever seen a whale? — Hech kitni ko‘rganmisan?; They have not arrived yet. — Ular hali yetib kelishmadi.; I have already read this book. — Men bu kitobni allaqachon o‘qiganman.; She has never flown on a plane. — U hech qachon samolyotda uchmagan..\n\nPresent perfect: have/has + past participle. For davomiylik, since boshlanish vaqtini bildiradi. Aniq tugagan o‘tgan vaqt bilan odatda past simple ishlatiladi: I visited it last year.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Present perfect va tajriba",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g8.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Shartli gaplar",
+    "en": "Shartli gaplar",
+    "ru": "Shartli gaplar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Shartli gaplar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: If you heat ice, it melts. — Muzni qizdirsangiz, u eriydi.; If it rains, we will stay inside. — Yomg‘ir yog‘sa, ichkarida qolamiz.; If I study, I will pass the test. — O‘qisam, testdan o‘taman.; If she calls, I will answer. — U qo‘ng‘iroq qilsa, javob beraman.; If I had wings, I would fly. — Qanotlarim bo‘lsa edi, uchardim.; If I were you, I would ask for help. — O‘rningda bo‘lsam, yordam so‘rardim.; If we had more time, we would read. — Vaqtimiz ko‘proq bo‘lsa edi, o‘qirdik.; If he practised, he would improve. — U mashq qilsa edi, yaxshilanardi..\n\nZero conditional umumiy hodisa: if + present, present. First conditional mumkin kelajak: if + present, will. Second conditional faraz: if + past, would. Farazdagi past har doim o‘tgan vaqt degani emas.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Shartli gaplar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g8.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Majhul nisbat va jarayon",
+    "en": "Majhul nisbat va jarayon",
+    "ru": "Majhul nisbat va jarayon"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Majhul nisbat va jarayon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Paper is made from wood. — Qog‘oz yog‘ochdan tayyorlanadi.; The room is cleaned every day. — Xona har kuni tozalanadi.; English is spoken in many countries. — Ingliz tilida ko‘plab mamlakatlarda gaplashiladi.; The letter was sent yesterday. — Xat kecha yuborildi.; The bridge was built last year. — Ko‘prik o‘tgan yili qurildi.; These books were written in Uzbek. — Bu kitoblar o‘zbek tilida yozilgan.; The door was opened by the teacher. — Eshik o‘qituvchi tomonidan ochildi.; The results will be announced tomorrow. — Natijalar ertaga e’lon qilinadi..\n\nPassive: be + past participle. Present: is/are made; past: was/were made; future: will be made. Diqqat bajaruvchidan harakat ta’sir qilgan narsaga ko‘chadi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Majhul nisbat va jarayon",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g8.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Bog‘lovchilar va dalilli fikr",
+    "en": "Bog‘lovchilar va dalilli fikr",
+    "ru": "Bog‘lovchilar va dalilli fikr"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Bog‘lovchilar va dalilli fikr",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: I stayed home because I was ill. — Kasal bo‘lganim uchun uyda qoldim.; Although it was cold, we walked. — Sovuq bo‘lsa ham sayr qildik.; I was tired, so I rested. — Charchagan edim, shuning uchun dam oldim.; I like reading, but he likes drawing. — Men o‘qishni yoqtiraman, lekin u rasm chizishni yoqtiradi.; First, collect the information. — Avval ma’lumotni to‘plang.; Then compare the sources. — Keyin manbalarni solishtiring.; For example, buses carry many people. — Masalan, avtobuslar ko‘p odam tashiydi.; In conclusion, we should save water. — Xulosa qilib, suvni tejashimiz kerak..\n\nBecause sababni, so natijani, although qarama-qarshi holatni bog‘laydi. Fikr bayonida dalil va misol qo‘shamiz; manbasiz taxminni fakt deb atamaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Bog‘lovchilar va dalilli fikr",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "english_g8.unit1",
+      "english_g8.unit2",
+      "english_g8.unit3",
+      "english_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g8.unit1",
+      "english_g8.unit2",
+      "english_g8.unit3",
+      "english_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g8.unit1",
+      "english_g8.unit2",
+      "english_g8.unit3",
+      "english_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

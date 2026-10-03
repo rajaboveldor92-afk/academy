@@ -10,7 +10,7 @@ def validate():
     for grade in (3, 5):
         curriculum = json.loads((BASE/f'technology_g{grade}.json').read_text())
         topics = {t['id']: t for t in curriculum['topics']}
-        assert len(topics) == len(curriculum['topics']) == 13
+        assert len(topics) == len(curriculum['topics']) == (20 if grade == 3 else 23)
         banks = defaultdict(list)
         ids = set()
         for item in json.loads((BASE/f'bank_technology_g{grade}.json').read_text())['items']:
@@ -41,6 +41,9 @@ def validate():
             if t['generator'] == 'test':
                 for level in t['levels']:
                     assert all(ref in topics and topics[ref]['generator'] != 'test' for ref in level['topics'])
+                    for tag in t.get('tags', []):
+                        if tag.startswith('track:'):
+                            assert all(not topics[ref].get('tags') or tag in topics[ref]['tags'] for ref in level['topics'])
             elif t['generator'] == 'workshop':
                 workshops += 1
                 for level in t['levels']:
@@ -49,7 +52,7 @@ def validate():
             else:
                 assert len(banks[t['id']]) >= 16
                 assert len({i['q'] for i in banks[t['id']] if i['t'] != 'circuit'}) == sum(i['t'] != 'circuit' for i in banks[t['id']])
-    assert workshops == 8 and total == 133
+    assert workshops == 13 and total == 213
     print(f'PASS: {workshops} workshops, {total} items; answers, group targets, steps, pairs and circuit states validated')
 
 if __name__ == '__main__':
