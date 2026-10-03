@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:academy/learning/content/content_repository.dart';
 import 'package:academy/learning/engine/lesson_builder.dart';
-import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/models/child_profile.dart';
 import 'package:academy/models/subject.dart';
 import 'package:flutter_test/flutter_test.dart';

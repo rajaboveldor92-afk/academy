@@ -8,7 +8,6 @@ import 'package:academy/learning/engine/lesson_builder.dart';
 import 'package:academy/learning/engine/mastery.dart';
 import 'package:academy/learning/engine/rewards.dart';
 import 'package:academy/learning/engine/spaced_repetition.dart';
-import 'package:academy/learning/models/exercise.dart';
 import 'package:academy/models/child_profile.dart';
 import 'package:academy/models/child_progress.dart';
 import 'package:flutter_test/flutter_test.dart';
