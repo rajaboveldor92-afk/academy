@@ -1,0 +1,309 @@
+{
+ "subject": "russian",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "russian_g2.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Salomlashish va maktab",
+    "en": "Salomlashish va maktab",
+    "ru": "Salomlashish va maktab"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Salomlashish va maktab",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Здравствуйте! — Assalomu alaykum!; Доброе утро! — Xayrli tong!; До свидания! — Xayr!; Спасибо! — Rahmat!; Пожалуйста! — Marhamat!; учитель — o‘qituvchi; ученик — o‘quvchi; школа — maktab.\n\nSalomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Salomlashish va maktab",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g2.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g2.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g2.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g2.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Oila va uy",
+    "en": "Oila va uy",
+    "ru": "Oila va uy"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Oila va uy",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: мама — ona; папа — ota; брат — aka yoki uka; сестра — opa yoki singil; бабушка — buvi; дедушка — bobo; дом — uy; комната — xona.\n\nMisol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Oila va uy",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g2.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g2.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g2.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g2.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Ranglar va sonlar",
+    "en": "Ranglar va sonlar",
+    "ru": "Ranglar va sonlar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ranglar va sonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: красный — qizil; синий — ko‘k; зелёный — yashil; жёлтый — sariq; один — bir; два — ikki; три — uch; четыре — to‘rt.\n\nMisol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ranglar va sonlar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g2.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g2.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g2.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g2.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Oddiy harakatlar va gap",
+    "en": "Oddiy harakatlar va gap",
+    "ru": "Oddiy harakatlar va gap"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Oddiy harakatlar va gap",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Я читаю. — Men o‘qiyman.; Я пишу. — Men yozaman.; Я рисую. — Men rasm chizaman.; Я играю. — Men o‘ynayman.; Я иду в школу. — Men maktabga ketyapman.; Я люблю книги. — Men kitoblarni yaxshi ko‘raman.; Это мой стол. — Bu mening stolim.; Это моя книга. — Bu mening kitobim..\n\nЯ — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Oddiy harakatlar va gap",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "russian_g2.unit1",
+      "russian_g2.unit2",
+      "russian_g2.unit3",
+      "russian_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g2.unit1",
+      "russian_g2.unit2",
+      "russian_g2.unit3",
+      "russian_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g2.unit1",
+      "russian_g2.unit2",
+      "russian_g2.unit3",
+      "russian_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

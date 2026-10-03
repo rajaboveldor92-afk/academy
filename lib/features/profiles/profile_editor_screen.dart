@@ -6,6 +6,7 @@ import '../../core/providers.dart';
 import '../../l10n/lang_providers.dart';
 import '../../l10n/tr.dart';
 import '../../models/child_profile.dart';
+import '../../learning/content/technology_tracks.dart';
 import '../../services/profile_photo_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/profile_themes.dart';
@@ -32,6 +33,8 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
   late final TextEditingController _greeting;
   late int _age;
   late int _grade;
+  late String _gender;
+  late String _technologyTrack;
   late String _avatar;
   late int _themeIndex;
   late String _language;
@@ -55,6 +58,8 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
     _greeting = TextEditingController(text: p?.greeting ?? '');
     _age = p?.age ?? 5;
     _grade = p?.grade ?? 0;
+    _gender = p?.gender ?? 'unspecified';
+    _technologyTrack = p?.technologyTrack ?? 'auto';
     _avatar = p?.avatar ?? AppConstants.avatars.first;
     _themeIndex = (p?.colorIndex ?? ref.read(profilesProvider).length) % ProfileThemes.all.length;
     _photoPath = p?.photoPath;
@@ -88,6 +93,8 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
         colorIndex: _themeIndex,
         language: _language,
         grade: _grade,
+        gender: _gender,
+        technologyTrack: _technologyTrack,
         dailyLimitMinutes: 0,
         createdAt: DateTime.fromMillisecondsSinceEpoch(0),
       );
@@ -170,6 +177,8 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           photoPath: _photoPath,
           language: _language,
           grade: _grade,
+          gender: _gender,
+          technologyTrack: _technologyTrack,
         );
       } else {
         await notifier.updateProfile(initial.copyWith(
@@ -183,6 +192,8 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
           clearPhoto: _photoPath == null,
           language: _language,
           grade: _grade,
+          gender: _gender,
+          technologyTrack: _technologyTrack,
         ));
       }
       _saved = true;
@@ -317,6 +328,26 @@ class _ProfileEditorScreenState extends ConsumerState<ProfileEditorScreen> {
                   ),
               ],
             ),
+            const SizedBox(height: 20),
+            Text(_language == 'ru' ? 'Профиль ребёнка' : _language == 'en' ? 'Child profile' : 'Bola profili', style: textTheme.titleMedium),
+            Wrap(spacing: 8, children: [
+              for (final g in ChildProfile.genders) ChoiceChip(key: Key('gender_$g'),
+                label: Text(g == 'girl' ? (_language == 'ru' ? 'Девочка' : _language == 'en' ? 'Girl' : 'Qiz')
+                  : g == 'boy' ? (_language == 'ru' ? 'Мальчик' : _language == 'en' ? 'Boy' : 'O‘g‘il')
+                  : (_language == 'ru' ? 'Не указано' : _language == 'en' ? 'Unspecified' : 'Belgilanmagan')),
+                selected: _gender == g, onSelected: (_) => setState(() => _gender = g)),
+            ]),
+            if (_grade == 3 || _grade == 5) ...[
+              const SizedBox(height: 12),
+              Text(_language == 'ru' ? 'Направление технологии' : _language == 'en' ? 'Technology track' : 'Texnologiya yo‘nalishi', style: textTheme.titleMedium),
+              Wrap(spacing: 8, runSpacing: 6, children: [
+                for (final track in ChildProfile.technologyTracks) ChoiceChip(key: Key('technology_track_$track'),
+                  label: Text(track == 'auto' ? (_language == 'ru' ? 'По профилю' : _language == 'en' ? 'From profile' : 'Profil bo‘yicha') : TechnologyTracks.title(track, _language)),
+                  selected: _technologyTrack == track, onSelected: (_) => setState(() => _technologyTrack = track)),
+              ]),
+              Text(TechnologyTracks.title(_preview.effectiveTechnologyTrack, _language),
+                key: const Key('technology_track_preview'), style: textTheme.bodyMedium),
+            ],
             const SizedBox(height: 20),
             Text(t.appLanguageForChild, style: textTheme.titleMedium),
             const SizedBox(height: 8),

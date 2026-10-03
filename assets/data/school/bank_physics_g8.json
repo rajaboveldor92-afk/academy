@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Elektr zaryad» uchun mos ma’noni tanlang.",
+   "a": "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+   "w": [
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati",
+    "Tok kuchining SI birligi"
+   ],
+   "d": 1,
+   "x": "Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Elektr o‘zaro ta’sirni belgilovchi kattalik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektr zaryad",
+   "w": [
+    "Kulon",
+    "Elektr toki",
+    "Amper"
+   ],
+   "d": 2,
+   "x": "Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Kulon» uchun mos ma’noni tanlang.",
+   "a": "Zaryadning SI birligi",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadlarning tartibli harakati",
+    "Tok kuchining SI birligi"
+   ],
+   "d": 1,
+   "x": "Kulon — Zaryadning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Kulon — Zaryadning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Zaryadning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kulon",
+   "w": [
+    "Elektr zaryad",
+    "Elektr toki",
+    "Amper"
+   ],
+   "d": 2,
+   "x": "Kulon — Zaryadning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Kulon — Zaryadning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Elektr toki» uchun mos ma’noni tanlang.",
+   "a": "Zaryadlarning tartibli harakati",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Tok kuchining SI birligi"
+   ],
+   "d": 1,
+   "x": "Elektr toki — Zaryadlarning tartibli harakati. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Elektr toki — Zaryadlarning tartibli harakati. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Zaryadlarning tartibli harakati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektr toki",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Amper"
+   ],
+   "d": 2,
+   "x": "Elektr toki — Zaryadlarning tartibli harakati. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Elektr toki — Zaryadlarning tartibli harakati. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Amper» uchun mos ma’noni tanlang.",
+   "a": "Tok kuchining SI birligi",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati"
+   ],
+   "d": 1,
+   "x": "Amper — Tok kuchining SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Amper — Tok kuchining SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Tok kuchining SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Amper",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Elektr toki"
+   ],
+   "d": 2,
+   "x": "Amper — Tok kuchining SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Amper — Tok kuchining SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Kuchlanish» uchun mos ma’noni tanlang.",
+   "a": "Birlik zaryadga to‘g‘ri keladigan elektr ish",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati"
+   ],
+   "d": 1,
+   "x": "Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Birlik zaryadga to‘g‘ri keladigan elektr ish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kuchlanish",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Elektr toki"
+   ],
+   "d": 2,
+   "x": "Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Volt» uchun mos ma’noni tanlang.",
+   "a": "Kuchlanishning SI birligi",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati"
+   ],
+   "d": 1,
+   "x": "Volt — Kuchlanishning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Volt — Kuchlanishning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Kuchlanishning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Volt",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Elektr toki"
+   ],
+   "d": 2,
+   "x": "Volt — Kuchlanishning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Volt — Kuchlanishning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Qarshilik» uchun mos ma’noni tanlang.",
+   "a": "O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati"
+   ],
+   "d": 1,
+   "x": "Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qarshilik",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Elektr toki"
+   ],
+   "d": 2,
+   "x": "Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Om» uchun mos ma’noni tanlang.",
+   "a": "Elektr qarshilikning SI birligi",
+   "w": [
+    "Elektr o‘zaro ta’sirni belgilovchi kattalik",
+    "Zaryadning SI birligi",
+    "Zaryadlarning tartibli harakati"
+   ],
+   "d": 1,
+   "x": "Om — Elektr qarshilikning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Om — Elektr qarshilikning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Elektr qarshilikning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Om",
+   "w": [
+    "Elektr zaryad",
+    "Kulon",
+    "Elektr toki"
+   ],
+   "d": 2,
+   "x": "Om — Elektr qarshilikning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.",
+   "h": "Om — Elektr qarshilikning SI birligi. Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Elektr zaryad va tok: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Elektr zaryad",
+     "Elektr o‘zaro ta’sirni belgilovchi kattalik"
+    ],
+    [
+     "Kulon",
+     "Zaryadning SI birligi"
+    ],
+    [
+     "Elektr toki",
+     "Zaryadlarning tartibli harakati"
+    ],
+    [
+     "Amper",
+     "Tok kuchining SI birligi"
+    ]
+   ],
+   "d": 1,
+   "x": "Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik; Kulon — Zaryadning SI birligi; Elektr toki — Zaryadlarning tartibli harakati; Amper — Tok kuchining SI birligi",
+   "h": "Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Elektr zaryad va tok: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Kuchlanish",
+     "Birlik zaryadga to‘g‘ri keladigan elektr ish"
+    ],
+    [
+     "Volt",
+     "Kuchlanishning SI birligi"
+    ],
+    [
+     "Qarshilik",
+     "O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi"
+    ],
+    [
+     "Om",
+     "Elektr qarshilikning SI birligi"
+    ]
+   ],
+   "d": 1,
+   "x": "Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish; Volt — Kuchlanishning SI birligi; Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi; Om — Elektr qarshilikning SI birligi",
+   "h": "Misol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Om qonuni» uchun mos ma’noni tanlang.",
+   "a": "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+   "w": [
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi",
+    "Tokni o‘lchash uchun ketma-ket ulanadigan asbob"
+   ],
+   "d": 1,
+   "x": "Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Tok kuchi kuchlanishning qarshilikka nisbatiga teng» qaysi tushuncha yoki iboraga mos?",
+   "a": "Om qonuni",
+   "w": [
+    "Ketma-ket ulanish",
+    "Parallel ulanish",
+    "Ampermetr"
+   ],
+   "d": 2,
+   "x": "Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Ketma-ket ulanish» uchun mos ma’noni tanlang.",
+   "a": "Elementlar bir yo‘lda navbat bilan ulanishi",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar umumiy ikki tugun orasida ulanishi",
+    "Tokni o‘lchash uchun ketma-ket ulanadigan asbob"
+   ],
+   "d": 1,
+   "x": "Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Elementlar bir yo‘lda navbat bilan ulanishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ketma-ket ulanish",
+   "w": [
+    "Om qonuni",
+    "Parallel ulanish",
+    "Ampermetr"
+   ],
+   "d": 2,
+   "x": "Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Parallel ulanish» uchun mos ma’noni tanlang.",
+   "a": "Elementlar umumiy ikki tugun orasida ulanishi",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Tokni o‘lchash uchun ketma-ket ulanadigan asbob"
+   ],
+   "d": 1,
+   "x": "Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Elementlar umumiy ikki tugun orasida ulanishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Parallel ulanish",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Ampermetr"
+   ],
+   "d": 2,
+   "x": "Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Ampermetr» uchun mos ma’noni tanlang.",
+   "a": "Tokni o‘lchash uchun ketma-ket ulanadigan asbob",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi"
+   ],
+   "d": 1,
+   "x": "Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Tokni o‘lchash uchun ketma-ket ulanadigan asbob» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ampermetr",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Parallel ulanish"
+   ],
+   "d": 2,
+   "x": "Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Voltmetr» uchun mos ma’noni tanlang.",
+   "a": "Kuchlanishni o‘lchash uchun parallel ulanadigan asbob",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi"
+   ],
+   "d": 1,
+   "x": "Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Kuchlanishni o‘lchash uchun parallel ulanadigan asbob» qaysi tushuncha yoki iboraga mos?",
+   "a": "Voltmetr",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Parallel ulanish"
+   ],
+   "d": 2,
+   "x": "Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Yopiq zanjir» uchun mos ma’noni tanlang.",
+   "a": "Tok o‘tishi uchun uzluksiz yo‘l",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi"
+   ],
+   "d": 1,
+   "x": "Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Tok o‘tishi uchun uzluksiz yo‘l» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yopiq zanjir",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Parallel ulanish"
+   ],
+   "d": 2,
+   "x": "Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Ochiq zanjir» uchun mos ma’noni tanlang.",
+   "a": "Tok yo‘li uzilgan holat",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi"
+   ],
+   "d": 1,
+   "x": "Ochiq zanjir — Tok yo‘li uzilgan holat. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ochiq zanjir — Tok yo‘li uzilgan holat. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Tok yo‘li uzilgan holat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ochiq zanjir",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Parallel ulanish"
+   ],
+   "d": 2,
+   "x": "Ochiq zanjir — Tok yo‘li uzilgan holat. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Ochiq zanjir — Tok yo‘li uzilgan holat. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Qisqa tutashuv» uchun mos ma’noni tanlang.",
+   "a": "Juda kichik qarshilikli ortiqcha tok yo‘li",
+   "w": [
+    "Tok kuchi kuchlanishning qarshilikka nisbatiga teng",
+    "Elementlar bir yo‘lda navbat bilan ulanishi",
+    "Elementlar umumiy ikki tugun orasida ulanishi"
+   ],
+   "d": 1,
+   "x": "Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Juda kichik qarshilikli ortiqcha tok yo‘li» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qisqa tutashuv",
+   "w": [
+    "Om qonuni",
+    "Ketma-ket ulanish",
+    "Parallel ulanish"
+   ],
+   "d": 2,
+   "x": "Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.",
+   "h": "Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li. Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Om qonuni va zanjirlar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Om qonuni",
+     "Tok kuchi kuchlanishning qarshilikka nisbatiga teng"
+    ],
+    [
+     "Ketma-ket ulanish",
+     "Elementlar bir yo‘lda navbat bilan ulanishi"
+    ],
+    [
+     "Parallel ulanish",
+     "Elementlar umumiy ikki tugun orasida ulanishi"
+    ],
+    [
+     "Ampermetr",
+     "Tokni o‘lchash uchun ketma-ket ulanadigan asbob"
+    ]
+   ],
+   "d": 1,
+   "x": "Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng; Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi; Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi; Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob",
+   "h": "Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Om qonuni va zanjirlar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Voltmetr",
+     "Kuchlanishni o‘lchash uchun parallel ulanadigan asbob"
+    ],
+    [
+     "Yopiq zanjir",
+     "Tok o‘tishi uchun uzluksiz yo‘l"
+    ],
+    [
+     "Ochiq zanjir",
+     "Tok yo‘li uzilgan holat"
+    ],
+    [
+     "Qisqa tutashuv",
+     "Juda kichik qarshilikli ortiqcha tok yo‘li"
+    ]
+   ],
+   "d": 1,
+   "x": "Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob; Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li",
+   "h": "Misol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Elektr quvvat» uchun mos ma’noni tanlang.",
+   "a": "Kuchlanish va tok kuchi ko‘paytmasi",
+   "w": [
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik",
+    "Magnit va tok ta’siri namoyon bo‘ladigan soha"
+   ],
+   "d": 1,
+   "x": "Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Kuchlanish va tok kuchi ko‘paytmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektr quvvat",
+   "w": [
+    "Elektr ish",
+    "Kilovatt-soat",
+    "Magnit maydon"
+   ],
+   "d": 2,
+   "x": "Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Elektr ish» uchun mos ma’noni tanlang.",
+   "a": "Quvvat va vaqt ko‘paytmasi",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik",
+    "Magnit va tok ta’siri namoyon bo‘ladigan soha"
+   ],
+   "d": 1,
+   "x": "Elektr ish — Quvvat va vaqt ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr ish — Quvvat va vaqt ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Quvvat va vaqt ko‘paytmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektr ish",
+   "w": [
+    "Elektr quvvat",
+    "Kilovatt-soat",
+    "Magnit maydon"
+   ],
+   "d": 2,
+   "x": "Elektr ish — Quvvat va vaqt ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr ish — Quvvat va vaqt ko‘paytmasi. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Kilovatt-soat» uchun mos ma’noni tanlang.",
+   "a": "Energiya hisobida ishlatiladigan birlik",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Magnit va tok ta’siri namoyon bo‘ladigan soha"
+   ],
+   "d": 1,
+   "x": "Kilovatt-soat — Energiya hisobida ishlatiladigan birlik. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Kilovatt-soat — Energiya hisobida ishlatiladigan birlik. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Energiya hisobida ishlatiladigan birlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kilovatt-soat",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Magnit maydon"
+   ],
+   "d": 2,
+   "x": "Kilovatt-soat — Energiya hisobida ishlatiladigan birlik. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Kilovatt-soat — Energiya hisobida ishlatiladigan birlik. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Magnit maydon» uchun mos ma’noni tanlang.",
+   "a": "Magnit va tok ta’siri namoyon bo‘ladigan soha",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik"
+   ],
+   "d": 1,
+   "x": "Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Magnit va tok ta’siri namoyon bo‘ladigan soha» qaysi tushuncha yoki iboraga mos?",
+   "a": "Magnit maydon",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Kilovatt-soat"
+   ],
+   "d": 2,
+   "x": "Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Elektromagnit» uchun mos ma’noni tanlang.",
+   "a": "Tokli g‘altak bilan hosil qilingan magnit",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik"
+   ],
+   "d": 1,
+   "x": "Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Tokli g‘altak bilan hosil qilingan magnit» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektromagnit",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Kilovatt-soat"
+   ],
+   "d": 2,
+   "x": "Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Kompas» uchun mos ma’noni tanlang.",
+   "a": "Magnit maydon yo‘nalishini ko‘rsatadigan asbob",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik"
+   ],
+   "d": 1,
+   "x": "Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Magnit maydon yo‘nalishini ko‘rsatadigan asbob» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kompas",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Kilovatt-soat"
+   ],
+   "d": 2,
+   "x": "Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Elektr dvigatel» uchun mos ma’noni tanlang.",
+   "a": "Elektr energiyasini mexanik harakatga aylantiruvchi qurilma",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik"
+   ],
+   "d": 1,
+   "x": "Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Elektr energiyasini mexanik harakatga aylantiruvchi qurilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elektr dvigatel",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Kilovatt-soat"
+   ],
+   "d": 2,
+   "x": "Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Generator» uchun mos ma’noni tanlang.",
+   "a": "Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma",
+   "w": [
+    "Kuchlanish va tok kuchi ko‘paytmasi",
+    "Quvvat va vaqt ko‘paytmasi",
+    "Energiya hisobida ishlatiladigan birlik"
+   ],
+   "d": 1,
+   "x": "Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Generator",
+   "w": [
+    "Elektr quvvat",
+    "Elektr ish",
+    "Kilovatt-soat"
+   ],
+   "d": 2,
+   "x": "Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.",
+   "h": "Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma. Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Elektr energiya va magnit maydon: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Elektr quvvat",
+     "Kuchlanish va tok kuchi ko‘paytmasi"
+    ],
+    [
+     "Elektr ish",
+     "Quvvat va vaqt ko‘paytmasi"
+    ],
+    [
+     "Kilovatt-soat",
+     "Energiya hisobida ishlatiladigan birlik"
+    ],
+    [
+     "Magnit maydon",
+     "Magnit va tok ta’siri namoyon bo‘ladigan soha"
+    ]
+   ],
+   "d": 1,
+   "x": "Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi; Elektr ish — Quvvat va vaqt ko‘paytmasi; Kilovatt-soat — Energiya hisobida ishlatiladigan birlik; Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha",
+   "h": "Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Elektr energiya va magnit maydon: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Elektromagnit",
+     "Tokli g‘altak bilan hosil qilingan magnit"
+    ],
+    [
+     "Kompas",
+     "Magnit maydon yo‘nalishini ko‘rsatadigan asbob"
+    ],
+    [
+     "Elektr dvigatel",
+     "Elektr energiyasini mexanik harakatga aylantiruvchi qurilma"
+    ],
+    [
+     "Generator",
+     "Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma"
+    ]
+   ],
+   "d": 1,
+   "x": "Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit; Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob; Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma; Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma",
+   "h": "Misol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Qaytish» uchun mos ma’noni tanlang.",
+   "a": "Yorug‘likning sirtdan orqaga tarqalishi",
+   "w": [
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq",
+    "Tushayotgan nur bilan normal orasidagi burchak"
+   ],
+   "d": 1,
+   "x": "Qaytish — Yorug‘likning sirtdan orqaga tarqalishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Qaytish — Yorug‘likning sirtdan orqaga tarqalishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Yorug‘likning sirtdan orqaga tarqalishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qaytish",
+   "w": [
+    "Sinish",
+    "Normal",
+    "Tushish burchagi"
+   ],
+   "d": 2,
+   "x": "Qaytish — Yorug‘likning sirtdan orqaga tarqalishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Qaytish — Yorug‘likning sirtdan orqaga tarqalishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Sinish» uchun mos ma’noni tanlang.",
+   "a": "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq",
+    "Tushayotgan nur bilan normal orasidagi burchak"
+   ],
+   "d": 1,
+   "x": "Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sinish",
+   "w": [
+    "Qaytish",
+    "Normal",
+    "Tushish burchagi"
+   ],
+   "d": 2,
+   "x": "Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Normal» uchun mos ma’noni tanlang.",
+   "a": "Sirtga tik o‘tkazilgan yordamchi chiziq",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Tushayotgan nur bilan normal orasidagi burchak"
+   ],
+   "d": 1,
+   "x": "Normal — Sirtga tik o‘tkazilgan yordamchi chiziq. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Normal — Sirtga tik o‘tkazilgan yordamchi chiziq. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Sirtga tik o‘tkazilgan yordamchi chiziq» qaysi tushuncha yoki iboraga mos?",
+   "a": "Normal",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Tushish burchagi"
+   ],
+   "d": 2,
+   "x": "Normal — Sirtga tik o‘tkazilgan yordamchi chiziq. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Normal — Sirtga tik o‘tkazilgan yordamchi chiziq. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Tushish burchagi» uchun mos ma’noni tanlang.",
+   "a": "Tushayotgan nur bilan normal orasidagi burchak",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq"
+   ],
+   "d": 1,
+   "x": "Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Tushayotgan nur bilan normal orasidagi burchak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tushish burchagi",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Normal"
+   ],
+   "d": 2,
+   "x": "Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Qaytish burchagi» uchun mos ma’noni tanlang.",
+   "a": "Qaytgan nur bilan normal orasidagi burchak",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq"
+   ],
+   "d": 1,
+   "x": "Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Qaytgan nur bilan normal orasidagi burchak» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qaytish burchagi",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Normal"
+   ],
+   "d": 2,
+   "x": "Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Yig‘uvchi linza» uchun mos ma’noni tanlang.",
+   "a": "Parallel nurlarni fokusga yaqinlashtiradigan linza",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq"
+   ],
+   "d": 1,
+   "x": "Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Parallel nurlarni fokusga yaqinlashtiradigan linza» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yig‘uvchi linza",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Normal"
+   ],
+   "d": 2,
+   "x": "Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Sochuvchi linza» uchun mos ma’noni tanlang.",
+   "a": "Parallel nurlarni tarqatadigan linza",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq"
+   ],
+   "d": 1,
+   "x": "Sochuvchi linza — Parallel nurlarni tarqatadigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Sochuvchi linza — Parallel nurlarni tarqatadigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Parallel nurlarni tarqatadigan linza» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sochuvchi linza",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Normal"
+   ],
+   "d": 2,
+   "x": "Sochuvchi linza — Parallel nurlarni tarqatadigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Sochuvchi linza — Parallel nurlarni tarqatadigan linza. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Spektr» uchun mos ma’noni tanlang.",
+   "a": "Yorug‘likning ranglar bo‘yicha tarkibi",
+   "w": [
+    "Yorug‘likning sirtdan orqaga tarqalishi",
+    "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi",
+    "Sirtga tik o‘tkazilgan yordamchi chiziq"
+   ],
+   "d": 1,
+   "x": "Spektr — Yorug‘likning ranglar bo‘yicha tarkibi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Spektr — Yorug‘likning ranglar bo‘yicha tarkibi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Yorug‘likning ranglar bo‘yicha tarkibi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Spektr",
+   "w": [
+    "Qaytish",
+    "Sinish",
+    "Normal"
+   ],
+   "d": 2,
+   "x": "Spektr — Yorug‘likning ranglar bo‘yicha tarkibi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.",
+   "h": "Spektr — Yorug‘likning ranglar bo‘yicha tarkibi. Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Yorug‘lik va optik hodisalar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Qaytish",
+     "Yorug‘likning sirtdan orqaga tarqalishi"
+    ],
+    [
+     "Sinish",
+     "Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi"
+    ],
+    [
+     "Normal",
+     "Sirtga tik o‘tkazilgan yordamchi chiziq"
+    ],
+    [
+     "Tushish burchagi",
+     "Tushayotgan nur bilan normal orasidagi burchak"
+    ]
+   ],
+   "d": 1,
+   "x": "Qaytish — Yorug‘likning sirtdan orqaga tarqalishi; Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi; Normal — Sirtga tik o‘tkazilgan yordamchi chiziq; Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak",
+   "h": "Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  },
+  {
+   "topic": "physics_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Yorug‘lik va optik hodisalar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Qaytish burchagi",
+     "Qaytgan nur bilan normal orasidagi burchak"
+    ],
+    [
+     "Yig‘uvchi linza",
+     "Parallel nurlarni fokusga yaqinlashtiradigan linza"
+    ],
+    [
+     "Sochuvchi linza",
+     "Parallel nurlarni tarqatadigan linza"
+    ],
+    [
+     "Spektr",
+     "Yorug‘likning ranglar bo‘yicha tarkibi"
+    ]
+   ],
+   "d": 1,
+   "x": "Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak; Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza; Sochuvchi linza — Parallel nurlarni tarqatadigan linza; Spektr — Yorug‘likning ranglar bo‘yicha tarkibi",
+   "h": "Misol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi."
+  }
+ ]
+}

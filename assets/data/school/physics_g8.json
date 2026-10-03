@@ -1,0 +1,309 @@
+{
+ "subject": "physics",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Fizika",
+  "en": "Physics",
+  "ru": "Физика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "physics_g8.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Elektr zaryad va tok",
+    "en": "Elektr zaryad va tok",
+    "ru": "Elektr zaryad va tok"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Elektr zaryad va tok",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Elektr zaryad — Elektr o‘zaro ta’sirni belgilovchi kattalik; Kulon — Zaryadning SI birligi; Elektr toki — Zaryadlarning tartibli harakati; Amper — Tok kuchining SI birligi; Kuchlanish — Birlik zaryadga to‘g‘ri keladigan elektr ish; Volt — Kuchlanishning SI birligi; Qarshilik — O‘tkazgichning tokka qarshilik ko‘rsatish kattaligi; Om — Elektr qarshilikning SI birligi.\n\nMisol: tok uchun yopiq yo‘l va energiya manbai kerak. Tajribalar ilovada virtual bajariladi; maishiy elektr tarmog‘i bilan tajriba qilinmaydi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Elektr zaryad va tok",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g8.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Om qonuni va zanjirlar",
+    "en": "Om qonuni va zanjirlar",
+    "ru": "Om qonuni va zanjirlar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Om qonuni va zanjirlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Om qonuni — Tok kuchi kuchlanishning qarshilikka nisbatiga teng; Ketma-ket ulanish — Elementlar bir yo‘lda navbat bilan ulanishi; Parallel ulanish — Elementlar umumiy ikki tugun orasida ulanishi; Ampermetr — Tokni o‘lchash uchun ketma-ket ulanadigan asbob; Voltmetr — Kuchlanishni o‘lchash uchun parallel ulanadigan asbob; Yopiq zanjir — Tok o‘tishi uchun uzluksiz yo‘l; Ochiq zanjir — Tok yo‘li uzilgan holat; Qisqa tutashuv — Juda kichik qarshilikli ortiqcha tok yo‘li.\n\nMisol: U=12 V, R=4 Ω bo‘lsa I=U/R=3 A. Ketma-ket ulanishda tok bir xil, parallel shoxlarda kuchlanish bir xil bo‘ladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Om qonuni va zanjirlar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g8.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Elektr energiya va magnit maydon",
+    "en": "Elektr energiya va magnit maydon",
+    "ru": "Elektr energiya va magnit maydon"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Elektr energiya va magnit maydon",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Elektr quvvat — Kuchlanish va tok kuchi ko‘paytmasi; Elektr ish — Quvvat va vaqt ko‘paytmasi; Kilovatt-soat — Energiya hisobida ishlatiladigan birlik; Magnit maydon — Magnit va tok ta’siri namoyon bo‘ladigan soha; Elektromagnit — Tokli g‘altak bilan hosil qilingan magnit; Kompas — Magnit maydon yo‘nalishini ko‘rsatadigan asbob; Elektr dvigatel — Elektr energiyasini mexanik harakatga aylantiruvchi qurilma; Generator — Mexanik energiyani elektr energiyasiga aylantiruvchi qurilma.\n\nMisol: 100 W qurilma 2 soat ishlasa 0.2 kWh energiya sarflaydi. P=UI; A=Pt. Hisobdagi vaqt birligini quvvat birligiga moslaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Elektr energiya va magnit maydon",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g8.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Yorug‘lik va optik hodisalar",
+    "en": "Yorug‘lik va optik hodisalar",
+    "ru": "Yorug‘lik va optik hodisalar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Yorug‘lik va optik hodisalar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Qaytish — Yorug‘likning sirtdan orqaga tarqalishi; Sinish — Muhit chegarasida yorug‘lik yo‘nalishining o‘zgarishi; Normal — Sirtga tik o‘tkazilgan yordamchi chiziq; Tushish burchagi — Tushayotgan nur bilan normal orasidagi burchak; Qaytish burchagi — Qaytgan nur bilan normal orasidagi burchak; Yig‘uvchi linza — Parallel nurlarni fokusga yaqinlashtiradigan linza; Sochuvchi linza — Parallel nurlarni tarqatadigan linza; Spektr — Yorug‘likning ranglar bo‘yicha tarkibi.\n\nMisol: qaytishda tushish va qaytish burchaklari teng; ular sirtga emas, normalga nisbatan o‘lchanadi. Linza nurlar yo‘lini o‘zgartiradi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Yorug‘lik va optik hodisalar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "physics_g8.unit1",
+      "physics_g8.unit2",
+      "physics_g8.unit3",
+      "physics_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g8.unit1",
+      "physics_g8.unit2",
+      "physics_g8.unit3",
+      "physics_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g8.unit1",
+      "physics_g8.unit2",
+      "physics_g8.unit3",
+      "physics_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

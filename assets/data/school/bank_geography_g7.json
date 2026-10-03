@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Ekvator» uchun mos ma’noni tanlang.",
+   "a": "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+   "w": [
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana",
+    "Ekvatordan shimol yoki janubdagi burchak masofasi"
+   ],
+   "d": 1,
+   "x": "Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ekvator",
+   "w": [
+    "Parallel",
+    "Meridian",
+    "Geografik kenglik"
+   ],
+   "d": 2,
+   "x": "Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Parallel» uchun mos ma’noni tanlang.",
+   "a": "Ekvatorga parallel aylana",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Qutblarni tutashtiradigan yarim aylana",
+    "Ekvatordan shimol yoki janubdagi burchak masofasi"
+   ],
+   "d": 1,
+   "x": "Parallel — Ekvatorga parallel aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Parallel — Ekvatorga parallel aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Ekvatorga parallel aylana» qaysi tushuncha yoki iboraga mos?",
+   "a": "Parallel",
+   "w": [
+    "Ekvator",
+    "Meridian",
+    "Geografik kenglik"
+   ],
+   "d": 2,
+   "x": "Parallel — Ekvatorga parallel aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Parallel — Ekvatorga parallel aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Meridian» uchun mos ma’noni tanlang.",
+   "a": "Qutblarni tutashtiradigan yarim aylana",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Ekvatordan shimol yoki janubdagi burchak masofasi"
+   ],
+   "d": 1,
+   "x": "Meridian — Qutblarni tutashtiradigan yarim aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Meridian — Qutblarni tutashtiradigan yarim aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Qutblarni tutashtiradigan yarim aylana» qaysi tushuncha yoki iboraga mos?",
+   "a": "Meridian",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Geografik kenglik"
+   ],
+   "d": 2,
+   "x": "Meridian — Qutblarni tutashtiradigan yarim aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Meridian — Qutblarni tutashtiradigan yarim aylana. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Geografik kenglik» uchun mos ma’noni tanlang.",
+   "a": "Ekvatordan shimol yoki janubdagi burchak masofasi",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana"
+   ],
+   "d": 1,
+   "x": "Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Ekvatordan shimol yoki janubdagi burchak masofasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Geografik kenglik",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Meridian"
+   ],
+   "d": 2,
+   "x": "Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Geografik uzunlik» uchun mos ma’noni tanlang.",
+   "a": "Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana"
+   ],
+   "d": 1,
+   "x": "Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Geografik uzunlik",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Meridian"
+   ],
+   "d": 2,
+   "x": "Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Masshtab» uchun mos ma’noni tanlang.",
+   "a": "Xaritadagi va joydagi masofalar nisbati",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana"
+   ],
+   "d": 1,
+   "x": "Masshtab — Xaritadagi va joydagi masofalar nisbati. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Masshtab — Xaritadagi va joydagi masofalar nisbati. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Xaritadagi va joydagi masofalar nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Masshtab",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Meridian"
+   ],
+   "d": 2,
+   "x": "Masshtab — Xaritadagi va joydagi masofalar nisbati. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Masshtab — Xaritadagi va joydagi masofalar nisbati. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Legenda» uchun mos ma’noni tanlang.",
+   "a": "Xarita shartli belgilarining izohi",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana"
+   ],
+   "d": 1,
+   "x": "Legenda — Xarita shartli belgilarining izohi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Legenda — Xarita shartli belgilarining izohi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Xarita shartli belgilarining izohi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Legenda",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Meridian"
+   ],
+   "d": 2,
+   "x": "Legenda — Xarita shartli belgilarining izohi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Legenda — Xarita shartli belgilarining izohi. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Mutlaq balandlik» uchun mos ma’noni tanlang.",
+   "a": "Dengiz sathiga nisbatan balandlik",
+   "w": [
+    "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq",
+    "Ekvatorga parallel aylana",
+    "Qutblarni tutashtiradigan yarim aylana"
+   ],
+   "d": 1,
+   "x": "Mutlaq balandlik — Dengiz sathiga nisbatan balandlik. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Mutlaq balandlik — Dengiz sathiga nisbatan balandlik. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Dengiz sathiga nisbatan balandlik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mutlaq balandlik",
+   "w": [
+    "Ekvator",
+    "Parallel",
+    "Meridian"
+   ],
+   "d": 2,
+   "x": "Mutlaq balandlik — Dengiz sathiga nisbatan balandlik. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi.",
+   "h": "Mutlaq balandlik — Dengiz sathiga nisbatan balandlik. Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Xarita va geografik koordinatalar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Ekvator",
+     "Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq"
+    ],
+    [
+     "Parallel",
+     "Ekvatorga parallel aylana"
+    ],
+    [
+     "Meridian",
+     "Qutblarni tutashtiradigan yarim aylana"
+    ],
+    [
+     "Geografik kenglik",
+     "Ekvatordan shimol yoki janubdagi burchak masofasi"
+    ]
+   ],
+   "d": 1,
+   "x": "Ekvator — Yerning shimoliy va janubiy yarimsharlarini ajratadigan chiziq; Parallel — Ekvatorga parallel aylana; Meridian — Qutblarni tutashtiradigan yarim aylana; Geografik kenglik — Ekvatordan shimol yoki janubdagi burchak masofasi",
+   "h": "Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Xarita va geografik koordinatalar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Geografik uzunlik",
+     "Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi"
+    ],
+    [
+     "Masshtab",
+     "Xaritadagi va joydagi masofalar nisbati"
+    ],
+    [
+     "Legenda",
+     "Xarita shartli belgilarining izohi"
+    ],
+    [
+     "Mutlaq balandlik",
+     "Dengiz sathiga nisbatan balandlik"
+    ]
+   ],
+   "d": 1,
+   "x": "Geografik uzunlik — Boshlang‘ich meridiandan sharq yoki g‘arbdagi burchak masofasi; Masshtab — Xaritadagi va joydagi masofalar nisbati; Legenda — Xarita shartli belgilarining izohi; Mutlaq balandlik — Dengiz sathiga nisbatan balandlik",
+   "h": "Misol: 1:100000 masshtabda xaritadagi 1 cm joydagi 1 km ga mos. Kenglik N/S, uzunlik E/W bilan belgilanadi."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Litosfera» uchun mos ma’noni tanlang.",
+   "a": "Yerning qattiq tashqi qobig‘i",
+   "w": [
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i",
+    "Hayot mavjud bo‘lgan sohalar majmui"
+   ],
+   "d": 1,
+   "x": "Litosfera — Yerning qattiq tashqi qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Litosfera — Yerning qattiq tashqi qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Yerning qattiq tashqi qobig‘i» qaysi tushuncha yoki iboraga mos?",
+   "a": "Litosfera",
+   "w": [
+    "Gidrosfera",
+    "Atmosfera",
+    "Biosfera"
+   ],
+   "d": 2,
+   "x": "Litosfera — Yerning qattiq tashqi qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Litosfera — Yerning qattiq tashqi qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Gidrosfera» uchun mos ma’noni tanlang.",
+   "a": "Yer suvlarining majmui",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yerni o‘ragan gaz qobig‘i",
+    "Hayot mavjud bo‘lgan sohalar majmui"
+   ],
+   "d": 1,
+   "x": "Gidrosfera — Yer suvlarining majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Gidrosfera — Yer suvlarining majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Yer suvlarining majmui» qaysi tushuncha yoki iboraga mos?",
+   "a": "Gidrosfera",
+   "w": [
+    "Litosfera",
+    "Atmosfera",
+    "Biosfera"
+   ],
+   "d": 2,
+   "x": "Gidrosfera — Yer suvlarining majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Gidrosfera — Yer suvlarining majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Atmosfera» uchun mos ma’noni tanlang.",
+   "a": "Yerni o‘ragan gaz qobig‘i",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Hayot mavjud bo‘lgan sohalar majmui"
+   ],
+   "d": 1,
+   "x": "Atmosfera — Yerni o‘ragan gaz qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Atmosfera — Yerni o‘ragan gaz qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Yerni o‘ragan gaz qobig‘i» qaysi tushuncha yoki iboraga mos?",
+   "a": "Atmosfera",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Biosfera"
+   ],
+   "d": 2,
+   "x": "Atmosfera — Yerni o‘ragan gaz qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Atmosfera — Yerni o‘ragan gaz qobig‘i. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Biosfera» uchun mos ma’noni tanlang.",
+   "a": "Hayot mavjud bo‘lgan sohalar majmui",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i"
+   ],
+   "d": 1,
+   "x": "Biosfera — Hayot mavjud bo‘lgan sohalar majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Biosfera — Hayot mavjud bo‘lgan sohalar majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Hayot mavjud bo‘lgan sohalar majmui» qaysi tushuncha yoki iboraga mos?",
+   "a": "Biosfera",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Atmosfera"
+   ],
+   "d": 2,
+   "x": "Biosfera — Hayot mavjud bo‘lgan sohalar majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Biosfera — Hayot mavjud bo‘lgan sohalar majmui. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Tektonik plita» uchun mos ma’noni tanlang.",
+   "a": "Litosferaning harakatlanadigan yirik bo‘lagi",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i"
+   ],
+   "d": 1,
+   "x": "Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Litosferaning harakatlanadigan yirik bo‘lagi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tektonik plita",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Atmosfera"
+   ],
+   "d": 2,
+   "x": "Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Tog‘» uchun mos ma’noni tanlang.",
+   "a": "Atrofga nisbatan baland ko‘tarilgan relyef",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i"
+   ],
+   "d": 1,
+   "x": "Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Atrofga nisbatan baland ko‘tarilgan relyef» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tog‘",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Atmosfera"
+   ],
+   "d": 2,
+   "x": "Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Tekislik» uchun mos ma’noni tanlang.",
+   "a": "Nisbatan kam balandlik farqli keng yer yuzasi",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i"
+   ],
+   "d": 1,
+   "x": "Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Nisbatan kam balandlik farqli keng yer yuzasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tekislik",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Atmosfera"
+   ],
+   "d": 2,
+   "x": "Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Eroziya» uchun mos ma’noni tanlang.",
+   "a": "Suv yoki shamolning jinslarni yemirishi",
+   "w": [
+    "Yerning qattiq tashqi qobig‘i",
+    "Yer suvlarining majmui",
+    "Yerni o‘ragan gaz qobig‘i"
+   ],
+   "d": 1,
+   "x": "Eroziya — Suv yoki shamolning jinslarni yemirishi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Eroziya — Suv yoki shamolning jinslarni yemirishi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Suv yoki shamolning jinslarni yemirishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Eroziya",
+   "w": [
+    "Litosfera",
+    "Gidrosfera",
+    "Atmosfera"
+   ],
+   "d": 2,
+   "x": "Eroziya — Suv yoki shamolning jinslarni yemirishi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz.",
+   "h": "Eroziya — Suv yoki shamolning jinslarni yemirishi. Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Yer qobiqlari va relyef: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Litosfera",
+     "Yerning qattiq tashqi qobig‘i"
+    ],
+    [
+     "Gidrosfera",
+     "Yer suvlarining majmui"
+    ],
+    [
+     "Atmosfera",
+     "Yerni o‘ragan gaz qobig‘i"
+    ],
+    [
+     "Biosfera",
+     "Hayot mavjud bo‘lgan sohalar majmui"
+    ]
+   ],
+   "d": 1,
+   "x": "Litosfera — Yerning qattiq tashqi qobig‘i; Gidrosfera — Yer suvlarining majmui; Atmosfera — Yerni o‘ragan gaz qobig‘i; Biosfera — Hayot mavjud bo‘lgan sohalar majmui",
+   "h": "Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Yer qobiqlari va relyef: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Tektonik plita",
+     "Litosferaning harakatlanadigan yirik bo‘lagi"
+    ],
+    [
+     "Tog‘",
+     "Atrofga nisbatan baland ko‘tarilgan relyef"
+    ],
+    [
+     "Tekislik",
+     "Nisbatan kam balandlik farqli keng yer yuzasi"
+    ],
+    [
+     "Eroziya",
+     "Suv yoki shamolning jinslarni yemirishi"
+    ]
+   ],
+   "d": 1,
+   "x": "Tektonik plita — Litosferaning harakatlanadigan yirik bo‘lagi; Tog‘ — Atrofga nisbatan baland ko‘tarilgan relyef; Tekislik — Nisbatan kam balandlik farqli keng yer yuzasi; Eroziya — Suv yoki shamolning jinslarni yemirishi",
+   "h": "Misol: daryo vodiysi suvning uzoq davom etgan yemirish faoliyati bilan shakllanishi mumkin. Relyef va qobiq tushunchalarini ajratamiz."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Yevrosiyo» uchun mos ma’noni tanlang.",
+   "a": "Yevropa va Osiyoni birlashtirgan materik",
+   "w": [
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l",
+    "Yuzasi bo‘yicha eng katta ko‘l"
+   ],
+   "d": 1,
+   "x": "Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Yevropa va Osiyoni birlashtirgan materik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yevrosiyo",
+   "w": [
+    "Himolay",
+    "Baykal",
+    "Kaspiy"
+   ],
+   "d": 2,
+   "x": "Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Himolay» uchun mos ma’noni tanlang.",
+   "a": "Yevrosiyodagi eng baland tog‘ tizimi",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Dunyodagi eng chuqur ko‘l",
+    "Yuzasi bo‘yicha eng katta ko‘l"
+   ],
+   "d": 1,
+   "x": "Himolay — Yevrosiyodagi eng baland tog‘ tizimi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Himolay — Yevrosiyodagi eng baland tog‘ tizimi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Yevrosiyodagi eng baland tog‘ tizimi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Himolay",
+   "w": [
+    "Yevrosiyo",
+    "Baykal",
+    "Kaspiy"
+   ],
+   "d": 2,
+   "x": "Himolay — Yevrosiyodagi eng baland tog‘ tizimi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Himolay — Yevrosiyodagi eng baland tog‘ tizimi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Baykal» uchun mos ma’noni tanlang.",
+   "a": "Dunyodagi eng chuqur ko‘l",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Yuzasi bo‘yicha eng katta ko‘l"
+   ],
+   "d": 1,
+   "x": "Baykal — Dunyodagi eng chuqur ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Baykal — Dunyodagi eng chuqur ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Dunyodagi eng chuqur ko‘l» qaysi tushuncha yoki iboraga mos?",
+   "a": "Baykal",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Kaspiy"
+   ],
+   "d": 2,
+   "x": "Baykal — Dunyodagi eng chuqur ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Baykal — Dunyodagi eng chuqur ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Kaspiy» uchun mos ma’noni tanlang.",
+   "a": "Yuzasi bo‘yicha eng katta ko‘l",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l"
+   ],
+   "d": 1,
+   "x": "Kaspiy — Yuzasi bo‘yicha eng katta ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Kaspiy — Yuzasi bo‘yicha eng katta ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Yuzasi bo‘yicha eng katta ko‘l» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kaspiy",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Baykal"
+   ],
+   "d": 2,
+   "x": "Kaspiy — Yuzasi bo‘yicha eng katta ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Kaspiy — Yuzasi bo‘yicha eng katta ko‘l. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Tayga» uchun mos ma’noni tanlang.",
+   "a": "Ignabargli o‘rmonlar tabiiy zonasi",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l"
+   ],
+   "d": 1,
+   "x": "Tayga — Ignabargli o‘rmonlar tabiiy zonasi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Tayga — Ignabargli o‘rmonlar tabiiy zonasi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Ignabargli o‘rmonlar tabiiy zonasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tayga",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Baykal"
+   ],
+   "d": 2,
+   "x": "Tayga — Ignabargli o‘rmonlar tabiiy zonasi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Tayga — Ignabargli o‘rmonlar tabiiy zonasi. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Dasht» uchun mos ma’noni tanlang.",
+   "a": "O‘tlar ustun bo‘lgan tabiiy zona",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l"
+   ],
+   "d": 1,
+   "x": "Dasht — O‘tlar ustun bo‘lgan tabiiy zona. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Dasht — O‘tlar ustun bo‘lgan tabiiy zona. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«O‘tlar ustun bo‘lgan tabiiy zona» qaysi tushuncha yoki iboraga mos?",
+   "a": "Dasht",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Baykal"
+   ],
+   "d": 2,
+   "x": "Dasht — O‘tlar ustun bo‘lgan tabiiy zona. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Dasht — O‘tlar ustun bo‘lgan tabiiy zona. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Musson» uchun mos ma’noni tanlang.",
+   "a": "Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l"
+   ],
+   "d": 1,
+   "x": "Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol» qaysi tushuncha yoki iboraga mos?",
+   "a": "Musson",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Baykal"
+   ],
+   "d": 2,
+   "x": "Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Kontinental iqlim» uchun mos ma’noni tanlang.",
+   "a": "Okean ta’siri kam va fasliy farqi katta iqlim",
+   "w": [
+    "Yevropa va Osiyoni birlashtirgan materik",
+    "Yevrosiyodagi eng baland tog‘ tizimi",
+    "Dunyodagi eng chuqur ko‘l"
+   ],
+   "d": 1,
+   "x": "Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Okean ta’siri kam va fasliy farqi katta iqlim» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kontinental iqlim",
+   "w": [
+    "Yevrosiyo",
+    "Himolay",
+    "Baykal"
+   ],
+   "d": 2,
+   "x": "Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi.",
+   "h": "Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim. Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Yevrosiyo tabiati: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Yevrosiyo",
+     "Yevropa va Osiyoni birlashtirgan materik"
+    ],
+    [
+     "Himolay",
+     "Yevrosiyodagi eng baland tog‘ tizimi"
+    ],
+    [
+     "Baykal",
+     "Dunyodagi eng chuqur ko‘l"
+    ],
+    [
+     "Kaspiy",
+     "Yuzasi bo‘yicha eng katta ko‘l"
+    ]
+   ],
+   "d": 1,
+   "x": "Yevrosiyo — Yevropa va Osiyoni birlashtirgan materik; Himolay — Yevrosiyodagi eng baland tog‘ tizimi; Baykal — Dunyodagi eng chuqur ko‘l; Kaspiy — Yuzasi bo‘yicha eng katta ko‘l",
+   "h": "Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Yevrosiyo tabiati: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Tayga",
+     "Ignabargli o‘rmonlar tabiiy zonasi"
+    ],
+    [
+     "Dasht",
+     "O‘tlar ustun bo‘lgan tabiiy zona"
+    ],
+    [
+     "Musson",
+     "Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol"
+    ],
+    [
+     "Kontinental iqlim",
+     "Okean ta’siri kam va fasliy farqi katta iqlim"
+    ]
+   ],
+   "d": 1,
+   "x": "Tayga — Ignabargli o‘rmonlar tabiiy zonasi; Dasht — O‘tlar ustun bo‘lgan tabiiy zona; Musson — Fasllarga qarab yo‘nalishini o‘zgartiruvchi shamol; Kontinental iqlim — Okean ta’siri kam va fasliy farqi katta iqlim",
+   "h": "Misol: dengizdan uzoqlashish kontinental xususiyatni kuchaytirishi mumkin. Har joyning iqlimiga kenglik va relyef ham ta’sir qiladi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Qayta tiklanuvchi resurs» uchun mos ma’noni tanlang.",
+   "a": "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+   "w": [
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi",
+    "Tabiiy majmua muhofaza qilinadigan hudud"
+   ],
+   "d": 1,
+   "x": "Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Tabiiy jarayonda qayta hosil bo‘ladigan manba» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qayta tiklanuvchi resurs",
+   "w": [
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi",
+    "Qo‘riqxona"
+   ],
+   "d": 2,
+   "x": "Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Qayta tiklanmaydigan resurs» uchun mos ma’noni tanlang.",
+   "a": "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi",
+    "Tabiiy majmua muhofaza qilinadigan hudud"
+   ],
+   "d": 1,
+   "x": "Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qayta tiklanmaydigan resurs",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Suv aylanishi",
+    "Qo‘riqxona"
+   ],
+   "d": 2,
+   "x": "Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Suv aylanishi» uchun mos ma’noni tanlang.",
+   "a": "Suvning bug‘lanish, yog‘in va oqim orqali almashishi",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Tabiiy majmua muhofaza qilinadigan hudud"
+   ],
+   "d": 1,
+   "x": "Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Suvning bug‘lanish, yog‘in va oqim orqali almashishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Suv aylanishi",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Qo‘riqxona"
+   ],
+   "d": 2,
+   "x": "Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Qo‘riqxona» uchun mos ma’noni tanlang.",
+   "a": "Tabiiy majmua muhofaza qilinadigan hudud",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+   ],
+   "d": 1,
+   "x": "Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Tabiiy majmua muhofaza qilinadigan hudud» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qo‘riqxona",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi"
+   ],
+   "d": 2,
+   "x": "Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Cho‘llanish» uchun mos ma’noni tanlang.",
+   "a": "Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+   ],
+   "d": 1,
+   "x": "Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Cho‘llanish",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi"
+   ],
+   "d": 2,
+   "x": "Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Ifloslanish» uchun mos ma’noni tanlang.",
+   "a": "Muhitga zararli moddalar kirishi",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+   ],
+   "d": 1,
+   "x": "Ifloslanish — Muhitga zararli moddalar kirishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Ifloslanish — Muhitga zararli moddalar kirishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Muhitga zararli moddalar kirishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ifloslanish",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi"
+   ],
+   "d": 2,
+   "x": "Ifloslanish — Muhitga zararli moddalar kirishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Ifloslanish — Muhitga zararli moddalar kirishi. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Barqaror foydalanish» uchun mos ma’noni tanlang.",
+   "a": "Resursni kelajak ehtiyojlarini hisobga olib ishlatish",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+   ],
+   "d": 1,
+   "x": "Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Resursni kelajak ehtiyojlarini hisobga olib ishlatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Barqaror foydalanish",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi"
+   ],
+   "d": 2,
+   "x": "Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Monitoring» uchun mos ma’noni tanlang.",
+   "a": "Muhit holatini muntazam kuzatish",
+   "w": [
+    "Tabiiy jarayonda qayta hosil bo‘ladigan manba",
+    "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba",
+    "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+   ],
+   "d": 1,
+   "x": "Monitoring — Muhit holatini muntazam kuzatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Monitoring — Muhit holatini muntazam kuzatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Muhit holatini muntazam kuzatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Monitoring",
+   "w": [
+    "Qayta tiklanuvchi resurs",
+    "Qayta tiklanmaydigan resurs",
+    "Suv aylanishi"
+   ],
+   "d": 2,
+   "x": "Monitoring — Muhit holatini muntazam kuzatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi.",
+   "h": "Monitoring — Muhit holatini muntazam kuzatish. Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Tabiiy resurs va muhit: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Qayta tiklanuvchi resurs",
+     "Tabiiy jarayonda qayta hosil bo‘ladigan manba"
+    ],
+    [
+     "Qayta tiklanmaydigan resurs",
+     "Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba"
+    ],
+    [
+     "Suv aylanishi",
+     "Suvning bug‘lanish, yog‘in va oqim orqali almashishi"
+    ],
+    [
+     "Qo‘riqxona",
+     "Tabiiy majmua muhofaza qilinadigan hudud"
+    ]
+   ],
+   "d": 1,
+   "x": "Qayta tiklanuvchi resurs — Tabiiy jarayonda qayta hosil bo‘ladigan manba; Qayta tiklanmaydigan resurs — Inson vaqt o‘lchovida juda sekin hosil bo‘ladigan manba; Suv aylanishi — Suvning bug‘lanish, yog‘in va oqim orqali almashishi; Qo‘riqxona — Tabiiy majmua muhofaza qilinadigan hudud",
+   "h": "Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "geography_g7.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Tabiiy resurs va muhit: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Cho‘llanish",
+     "Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi"
+    ],
+    [
+     "Ifloslanish",
+     "Muhitga zararli moddalar kirishi"
+    ],
+    [
+     "Barqaror foydalanish",
+     "Resursni kelajak ehtiyojlarini hisobga olib ishlatish"
+    ],
+    [
+     "Monitoring",
+     "Muhit holatini muntazam kuzatish"
+    ]
+   ],
+   "d": 1,
+   "x": "Cho‘llanish — Qurg‘oqchil yerlarda tuproq va o‘simlik qoplamining buzilishi; Ifloslanish — Muhitga zararli moddalar kirishi; Barqaror foydalanish — Resursni kelajak ehtiyojlarini hisobga olib ishlatish; Monitoring — Muhit holatini muntazam kuzatish",
+   "h": "Misol: suv qayta aylansa ham toza ichimlik suvi cheklangan. Resursni tejash va holatini kuzatish bir-birini to‘ldiradi."
+  }
+ ]
+}

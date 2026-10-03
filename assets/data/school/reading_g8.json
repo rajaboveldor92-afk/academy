@@ -1,0 +1,309 @@
+{
+ "subject": "reading",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "O‘qish va matn tahlili",
+  "en": "Reading and text analysis",
+  "ru": "Чтение и анализ текста"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "reading_g8.unit1",
+   "code": "1",
+   "emoji": "📖",
+   "title": {
+    "uz": "Raqam ortidagi savol",
+    "en": "Raqam ortidagi savol",
+    "ru": "Raqam ortidagi savol"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Raqam ortidagi savol",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nMaktab gazetasi “O‘quvchilarning ko‘pchiligi velosipedni afzal ko‘radi” degan sarlavha yozdi. So‘rov sport to‘garagidagi yigirma o‘quvchidan olingan, ulardan o‘n to‘rttasi velosipedni tanlagan edi. Muharrir Nargiza natija shu guruhga tegishli ekanini aytdi. Boshqa sinflar va uzoqda yashovchilar so‘ralmagan edi. Muallif sarlavhani “So‘ralgan sport to‘garagi a’zolarining ko‘pchiligi velosipedni tanladi” deb tuzatdi. Keyin turli sinflardan ishtirokchilar yig‘ishni rejaladi. Raqam o‘zgarmadi, lekin da’voning chegarasi aniqlandi."
+   }
+  },
+  {
+   "id": "reading_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Raqam ortidagi savol",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g8.unit2",
+   "code": "2",
+   "emoji": "📖",
+   "title": {
+    "uz": "Ustaxona va meros",
+    "en": "Ustaxona va meros",
+    "ru": "Ustaxona va meros"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Ustaxona va meros",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nHunarmand buva nabirasiga eski sandiqning naqshini ko‘rsatdi. Nabira naqshni telefonga suratga olib, yangi qalamdon bezagiga moslashtirmoqchi bo‘ldi. Buva ruxsat berdi, ammo shakl nega takrorlanishini avval tushunishni so‘radi. U naqshda markaz va chetlar muvozanatini ko‘rsatdi. Nabira aynan nusxa ko‘chirmay, shu tamoyilni kichik buyumga qo‘lladi. Taqdimotda naqsh manbasini va o‘z o‘zgarishini aytdi. Buva yangi buyum eski naqshning tarixini eslatib turganidan mamnun bo‘ldi."
+   }
+  },
+  {
+   "id": "reading_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Ustaxona va meros",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g8.unit3",
+   "code": "3",
+   "emoji": "📖",
+   "title": {
+    "uz": "Bog‘ haqida ikki xat",
+    "en": "Bog‘ haqida ikki xat",
+    "ru": "Bog‘ haqida ikki xat"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Bog‘ haqida ikki xat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nMahalla bog‘ida yangi yo‘lak qurish taklif qilindi. Birinchi xat muallifi yomg‘irda loy bo‘ladigan yo‘ldan keksalar qiynalayotganini yozdi. Ikkinchi xat muallifi daraxt ildizlari shikastlanishi mumkinligini eslatdi. Yig‘ilishda ikkala xat ham o‘qildi. Mutaxassis ildizlardan uzoqroq yo‘nalish va suvni o‘tkazadigan qoplama taklif etdi. Reja nafaqat yo‘lak uzunligi, balki daraxtlar holati va yurish qulayligi bilan ham baholanadigan bo‘ldi. Mualliflar turli xavfni ko‘rsatgan bo‘lsalar ham, ikkalasi bog‘dan yaxshi foydalanishni istardi."
+   }
+  },
+  {
+   "id": "reading_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Bog‘ haqida ikki xat",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g8.unit4",
+   "code": "4",
+   "emoji": "📖",
+   "title": {
+    "uz": "Tajriba natijasini e’lon qilish",
+    "en": "Tajriba natijasini e’lon qilish",
+    "ru": "Tajriba natijasini e’lon qilish"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Tajriba natijasini e’lon qilish",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nO‘quvchilar qog‘oz ko‘prik modelining ikkita shaklini sinadilar. Birinchi model ko‘proq yuk ko‘tardi. Dastlab guruh uni “har doim eng mustahkam” deb atamoqchi bo‘ldi. Hisobotni yozgan Kamol birinchi modelga qalinroq qog‘oz sarflanganini payqadi. U shakl bilan material birga o‘zgarganini yozdi. Guruh ikkala modelni bir xil qog‘oz va bir xil tayanch oralig‘ida qayta sinadi. Natijani jadvalga kiritib, aynan shu sharoitdagi xulosani e’lon qildi. Kamol kamchilikni ochiq yozish hisobotni kuchsizlantirmasdan, tekshirishga yordam berishini tushuntirdi."
+   }
+  },
+  {
+   "id": "reading_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Tajriba natijasini e’lon qilish",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "reading_g8.unit1",
+      "reading_g8.unit2",
+      "reading_g8.unit3",
+      "reading_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g8.unit1",
+      "reading_g8.unit2",
+      "reading_g8.unit3",
+      "reading_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g8.unit1",
+      "reading_g8.unit2",
+      "reading_g8.unit3",
+      "reading_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

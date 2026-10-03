@@ -1,0 +1,868 @@
+{
+ "items": [
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "Kim kitob tanladi?",
+   "a": "Malika",
+   "w": [
+    "Shanba kuni",
+    "Otasi bilan",
+    "Hayvonlar haqida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Malika.",
+   "h": "Matnda berilgan javob: Malika.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim kitob tanladi?» savolining javobi «Malika».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Malika.",
+   "h": "Matnda berilgan javob: Malika.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "Qaysi kuni kutubxonaga bordi?",
+   "a": "Shanba kuni",
+   "w": [
+    "Malika",
+    "Otasi bilan",
+    "Hayvonlar haqida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Shanba kuni.",
+   "h": "Matnda berilgan javob: Shanba kuni.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qaysi kuni kutubxonaga bordi?» savolining javobi «Otasi bilan».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Shanba kuni.",
+   "h": "Matnda berilgan javob: Shanba kuni.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "Kim bilan bordi?",
+   "a": "Otasi bilan",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Hayvonlar haqida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Otasi bilan.",
+   "h": "Matnda berilgan javob: Otasi bilan.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim bilan bordi?» savolining javobi «Otasi bilan».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Otasi bilan.",
+   "h": "Matnda berilgan javob: Otasi bilan.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "Nima haqidagi kitobni oldi?",
+   "a": "Hayvonlar haqida",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Otasi bilan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Hayvonlar haqida.",
+   "h": "Matnda berilgan javob: Hayvonlar haqida.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nima haqidagi kitobni oldi?» savolining javobi «Ikki haftaga».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Hayvonlar haqida.",
+   "h": "Matnda berilgan javob: Hayvonlar haqida.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "Kitob qancha muddatga berildi?",
+   "a": "Ikki haftaga",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Otasi bilan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ikki haftaga.",
+   "h": "Matnda berilgan javob: Ikki haftaga.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kitob qancha muddatga berildi?» savolining javobi «Ikki haftaga».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ikki haftaga.",
+   "h": "Matnda berilgan javob: Ikki haftaga.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "Har kuni qancha o‘qidi?",
+   "a": "Bir sahifa",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Otasi bilan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Bir sahifa.",
+   "h": "Matnda berilgan javob: Bir sahifa.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Har kuni qancha o‘qidi?» savolining javobi «Daftariga».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Bir sahifa.",
+   "h": "Matnda berilgan javob: Bir sahifa.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "Tushunmagan so‘zini qayerga yozdi?",
+   "a": "Daftariga",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Otasi bilan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Daftariga.",
+   "h": "Matnda berilgan javob: Daftariga.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Tushunmagan so‘zini qayerga yozdi?» savolining javobi «Daftariga».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Daftariga.",
+   "h": "Matnda berilgan javob: Daftariga.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "Kitobga qanday munosabatda bo‘ldi?",
+   "a": "Toza saqlab, vaqtida qaytardi",
+   "w": [
+    "Malika",
+    "Shanba kuni",
+    "Otasi bilan"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Toza saqlab, vaqtida qaytardi.",
+   "h": "Matnda berilgan javob: Toza saqlab, vaqtida qaytardi.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit1",
+   "id": "unit1_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kitobga qanday munosabatda bo‘ldi?» savolining javobi «Malika».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Toza saqlab, vaqtida qaytardi.",
+   "h": "Matnda berilgan javob: Toza saqlab, vaqtida qaytardi.",
+   "text": "Malika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "Kim urug‘ ekdi?",
+   "a": "Ali",
+   "w": [
+    "Loviya",
+    "Tuproqli idishga",
+    "Deraza yoniga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ali.",
+   "h": "Matnda berilgan javob: Ali.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim urug‘ ekdi?» savolining javobi «Ali».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ali.",
+   "h": "Matnda berilgan javob: Ali.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "Qanday urug‘ tanlandi?",
+   "a": "Loviya",
+   "w": [
+    "Ali",
+    "Tuproqli idishga",
+    "Deraza yoniga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Loviya.",
+   "h": "Matnda berilgan javob: Loviya.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qanday urug‘ tanlandi?» savolining javobi «Tuproqli idishga».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Loviya.",
+   "h": "Matnda berilgan javob: Loviya.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "Urug‘ nimaga ekildi?",
+   "a": "Tuproqli idishga",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Deraza yoniga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Tuproqli idishga.",
+   "h": "Matnda berilgan javob: Tuproqli idishga.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Urug‘ nimaga ekildi?» savolining javobi «Tuproqli idishga».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Tuproqli idishga.",
+   "h": "Matnda berilgan javob: Tuproqli idishga.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "Idish qayerga qo‘yildi?",
+   "a": "Deraza yoniga",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Tuproqli idishga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Deraza yoniga.",
+   "h": "Matnda berilgan javob: Deraza yoniga.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Idish qayerga qo‘yildi?» savolining javobi «Tuproq quruq bo‘lganda».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Deraza yoniga.",
+   "h": "Matnda berilgan javob: Deraza yoniga.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "Qachon suv quyildi?",
+   "a": "Tuproq quruq bo‘lganda",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Tuproqli idishga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Tuproq quruq bo‘lganda.",
+   "h": "Matnda berilgan javob: Tuproq quruq bo‘lganda.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qachon suv quyildi?» savolining javobi «Tuproq quruq bo‘lganda».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Tuproq quruq bo‘lganda.",
+   "h": "Matnda berilgan javob: Tuproq quruq bo‘lganda.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "Nima paydo bo‘ldi?",
+   "a": "Yashil nihol",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Tuproqli idishga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yashil nihol.",
+   "h": "Matnda berilgan javob: Yashil nihol.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Nima paydo bo‘ldi?» savolining javobi «Nihol rasmini».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yashil nihol.",
+   "h": "Matnda berilgan javob: Yashil nihol.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "Ali nimani chizdi?",
+   "a": "Nihol rasmini",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Tuproqli idishga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Nihol rasmini.",
+   "h": "Matnda berilgan javob: Nihol rasmini.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ali nimani chizdi?» savolining javobi «Nihol rasmini».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Nihol rasmini.",
+   "h": "Matnda berilgan javob: Nihol rasmini.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "U qanday xulosaga keldi?",
+   "a": "O‘simlikka qarashda sabr kerak",
+   "w": [
+    "Ali",
+    "Loviya",
+    "Tuproqli idishga"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: O‘simlikka qarashda sabr kerak.",
+   "h": "Matnda berilgan javob: O‘simlikka qarashda sabr kerak.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit2",
+   "id": "unit2_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «U qanday xulosaga keldi?» savolining javobi «Ali».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: O‘simlikka qarashda sabr kerak.",
+   "h": "Matnda berilgan javob: O‘simlikka qarashda sabr kerak.",
+   "text": "Ali bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "Qutini kim saqlab qoldi?",
+   "a": "Nodira",
+   "w": [
+    "Karton",
+    "Qutini tozaladi",
+    "Rangli qog‘oz"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Nodira.",
+   "h": "Matnda berilgan javob: Nodira.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Qutini kim saqlab qoldi?» savolining javobi «Nodira».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Nodira.",
+   "h": "Matnda berilgan javob: Nodira.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "Quti qaysi materialdan edi?",
+   "a": "Karton",
+   "w": [
+    "Nodira",
+    "Qutini tozaladi",
+    "Rangli qog‘oz"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Karton.",
+   "h": "Matnda berilgan javob: Karton.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Quti qaysi materialdan edi?» savolining javobi «Qutini tozaladi».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Karton.",
+   "h": "Matnda berilgan javob: Karton.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "Bezatishdan oldin nima qildi?",
+   "a": "Qutini tozaladi",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Rangli qog‘oz"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Qutini tozaladi.",
+   "h": "Matnda berilgan javob: Qutini tozaladi.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Bezatishdan oldin nima qildi?» savolining javobi «Qutini tozaladi».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Qutini tozaladi.",
+   "h": "Matnda berilgan javob: Qutini tozaladi.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "Tashqariga nima yopishtirdi?",
+   "a": "Rangli qog‘oz",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Qutini tozaladi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Rangli qog‘oz.",
+   "h": "Matnda berilgan javob: Rangli qog‘oz.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Tashqariga nima yopishtirdi?» savolining javobi «Ikki bo‘limga».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Rangli qog‘oz.",
+   "h": "Matnda berilgan javob: Rangli qog‘oz.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "Ichini nechta bo‘limga ajratdi?",
+   "a": "Ikki bo‘limga",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Qutini tozaladi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ikki bo‘limga.",
+   "h": "Matnda berilgan javob: Ikki bo‘limga.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ichini nechta bo‘limga ajratdi?» savolining javobi «Ikki bo‘limga».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ikki bo‘limga.",
+   "h": "Matnda berilgan javob: Ikki bo‘limga.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "Birinchi bo‘limga nima qo‘ydi?",
+   "a": "Qalam",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Qutini tozaladi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Qalam.",
+   "h": "Matnda berilgan javob: Qalam.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Birinchi bo‘limga nima qo‘ydi?» savolining javobi «O‘chirg‘ich».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Qalam.",
+   "h": "Matnda berilgan javob: Qalam.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "Ikkinchi bo‘limga nima qo‘ydi?",
+   "a": "O‘chirg‘ich",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Qutini tozaladi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: O‘chirg‘ich.",
+   "h": "Matnda berilgan javob: O‘chirg‘ich.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ikkinchi bo‘limga nima qo‘ydi?» savolining javobi «O‘chirg‘ich».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: O‘chirg‘ich.",
+   "h": "Matnda berilgan javob: O‘chirg‘ich.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "Ishning foydasi nima bo‘ldi?",
+   "a": "Buyumlar tartibga keldi",
+   "w": [
+    "Nodira",
+    "Karton",
+    "Qutini tozaladi"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Buyumlar tartibga keldi.",
+   "h": "Matnda berilgan javob: Buyumlar tartibga keldi.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit3",
+   "id": "unit3_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ishning foydasi nima bo‘ldi?» savolining javobi «Nodira».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Buyumlar tartibga keldi.",
+   "h": "Matnda berilgan javob: Buyumlar tartibga keldi.",
+   "text": "Nodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "Havo qanday edi?",
+   "a": "Yomg‘irli",
+   "w": [
+    "Diyor",
+    "Sherzod",
+    "Darvoza oldida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Yomg‘irli.",
+   "h": "Matnda berilgan javob: Yomg‘irli.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_2",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Havo qanday edi?» savolining javobi «Yomg‘irli».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Yomg‘irli.",
+   "h": "Matnda berilgan javob: Yomg‘irli.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "Kim soyabon olib keldi?",
+   "a": "Diyor",
+   "w": [
+    "Yomg‘irli",
+    "Sherzod",
+    "Darvoza oldida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Diyor.",
+   "h": "Matnda berilgan javob: Diyor.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_4",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim soyabon olib keldi?» savolining javobi «Sherzod».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Diyor.",
+   "h": "Matnda berilgan javob: Diyor.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "Kim soyabonsiz edi?",
+   "a": "Sherzod",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Darvoza oldida"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Sherzod.",
+   "h": "Matnda berilgan javob: Sherzod.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_6",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Kim soyabonsiz edi?» savolining javobi «Sherzod».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Sherzod.",
+   "h": "Matnda berilgan javob: Sherzod.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "Ular qayerda uchrashdi?",
+   "a": "Darvoza oldida",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Sherzod"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Darvoza oldida.",
+   "h": "Matnda berilgan javob: Darvoza oldida.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_8",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ular qayerda uchrashdi?» savolining javobi «Soyaboni ostiga kirishni».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Darvoza oldida.",
+   "h": "Matnda berilgan javob: Darvoza oldida.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "Diyor nima taklif qildi?",
+   "a": "Soyaboni ostiga kirishni",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Sherzod"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Soyaboni ostiga kirishni.",
+   "h": "Matnda berilgan javob: Soyaboni ostiga kirishni.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_10",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Diyor nima taklif qildi?» savolining javobi «Soyaboni ostiga kirishni».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Soyaboni ostiga kirishni.",
+   "h": "Matnda berilgan javob: Soyaboni ostiga kirishni.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "Ular qanday yurishdi?",
+   "a": "Ehtiyotkor",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Sherzod"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Ehtiyotkor.",
+   "h": "Matnda berilgan javob: Ehtiyotkor.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_12",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Ular qanday yurishdi?» savolining javobi «Rahmat».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Ehtiyotkor.",
+   "h": "Matnda berilgan javob: Ehtiyotkor.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "Sherzod nima dedi?",
+   "a": "Rahmat",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Sherzod"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Rahmat.",
+   "h": "Matnda berilgan javob: Rahmat.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_14",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Sherzod nima dedi?» savolining javobi «Rahmat».",
+   "a": true,
+   "d": 2,
+   "x": "Matnda berilgan javob: Rahmat.",
+   "h": "Matnda berilgan javob: Rahmat.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "Diyor nima uchun xursand bo‘ldi?",
+   "a": "Do‘stiga yordam bergani uchun",
+   "w": [
+    "Yomg‘irli",
+    "Diyor",
+    "Sherzod"
+   ],
+   "d": 1,
+   "x": "Matnda berilgan javob: Do‘stiga yordam bergani uchun.",
+   "h": "Matnda berilgan javob: Do‘stiga yordam bergani uchun.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  },
+  {
+   "topic": "reading_g2.unit4",
+   "id": "unit4_16",
+   "t": "tf",
+   "q": "Matnga ko‘ra «Diyor nima uchun xursand bo‘ldi?» savolining javobi «Yomg‘irli».",
+   "a": false,
+   "d": 2,
+   "x": "Matnda berilgan javob: Do‘stiga yordam bergani uchun.",
+   "h": "Matnda berilgan javob: Do‘stiga yordam bergani uchun.",
+   "text": "Yomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+  }
+ ]
+}

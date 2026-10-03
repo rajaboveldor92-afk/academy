@@ -24,6 +24,8 @@ class ChildProfile {
     this.difficultyBias = 0,
     this.language = 'uz',
     this.grade = 0,
+    this.gender = 'unspecified',
+    this.technologyTrack = 'auto',
   });
 
   /// Maktab sinflari: 1–8 (0 — maktabgacha).
@@ -31,6 +33,8 @@ class ChildProfile {
 
   /// Ilova tillari: o'zbek, rus, ingliz.
   static const List<String> languages = ['uz', 'ru', 'en'];
+  static const List<String> genders = ['unspecified', 'girl', 'boy'];
+  static const List<String> technologyTracks = ['auto', 'service', 'technical', 'both'];
 
   /// Yangi profil uchun yoshga mos standart qiymatlar bilan konstruktor.
   factory ChildProfile.create({
@@ -44,6 +48,8 @@ class ChildProfile {
     String greeting = '',
     String language = 'uz',
     int grade = 0,
+    String gender = 'unspecified',
+    String technologyTrack = 'auto',
     DateTime? now,
   }) {
     final group = AgeGroup.fromAge(age);
@@ -59,6 +65,8 @@ class ChildProfile {
       colorIndex: colorIndex,
       language: languages.contains(language) ? language : 'uz',
       grade: g,
+      gender: genders.contains(gender) ? gender : 'unspecified',
+      technologyTrack: technologyTracks.contains(technologyTrack) ? technologyTrack : 'auto',
       dailyLimitMinutes: g > 0
           ? AppConstants.defaultLimitSchool
           : (group.isJunior ? AppConstants.defaultLimitYoung : AppConstants.defaultLimitOlder),
@@ -105,6 +113,11 @@ class ChildProfile {
 
   /// Maktab sinfi (1–8). 0 — maktabgacha: kontent yoshga qarab (4 / 6 yosh dasturi).
   final int grade;
+  final String gender;
+  final String technologyTrack;
+
+  String get effectiveTechnologyTrack => technologyTrack != 'auto' ? technologyTrack
+    : gender == 'girl' ? 'service' : gender == 'boy' ? 'technical' : 'both';
   final DateTime createdAt;
 
   AgeGroup get ageGroup => AgeGroup.fromAge(age);
@@ -165,6 +178,8 @@ class ChildProfile {
     int? difficultyBias,
     String? language,
     int? grade,
+    String? gender,
+    String? technologyTrack,
   }) {
     return ChildProfile(
       id: id,
@@ -180,6 +195,8 @@ class ChildProfile {
       difficultyBias: difficultyBias ?? this.difficultyBias,
       language: language ?? this.language,
       grade: grade == null ? this.grade : _clampGrade(grade),
+      gender: gender == null ? this.gender : (genders.contains(gender) ? gender : 'unspecified'),
+      technologyTrack: technologyTrack == null ? this.technologyTrack : (technologyTracks.contains(technologyTrack) ? technologyTrack : 'auto'),
       createdAt: createdAt,
     );
   }
@@ -198,6 +215,8 @@ class ChildProfile {
         'difficultyBias': difficultyBias,
         'language': language,
         'grade': grade,
+        'gender': gender,
+        'technologyTrack': technologyTrack,
         'createdAt': createdAt.toIso8601String(),
       };
 
@@ -223,6 +242,8 @@ class ChildProfile {
       difficultyBias: _clampBias(MapUtils.asInt(map['difficultyBias'])),
       language: languages.contains(map['language']) ? map['language'].toString() : 'uz',
       grade: _clampGrade(MapUtils.asInt(map['grade'])),
+      gender: genders.contains(map['gender']) ? map['gender'].toString() : 'unspecified',
+      technologyTrack: technologyTracks.contains(map['technologyTrack']) ? map['technologyTrack'].toString() : 'auto',
       createdAt: MapUtils.asDate(map['createdAt']) ?? DateTime.fromMillisecondsSinceEpoch(0),
     );
   }
@@ -250,6 +271,8 @@ class ChildProfile {
       other.difficultyBias == difficultyBias &&
       other.language == language &&
       other.grade == grade &&
+      other.gender == gender &&
+      other.technologyTrack == technologyTrack &&
       other.disabledSubjects.join(',') == disabledSubjects.join(',');
 
   @override

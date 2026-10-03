@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Skelet» uchun mos ma’noni tanlang.",
+   "a": "Tana tayanchi bo‘lgan suyaklar majmui",
+   "w": [
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima",
+    "Mushakni suyakka bog‘laydigan tuzilma"
+   ],
+   "d": 1,
+   "x": "Skelet — Tana tayanchi bo‘lgan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Skelet — Tana tayanchi bo‘lgan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Tana tayanchi bo‘lgan suyaklar majmui» qaysi tushuncha yoki iboraga mos?",
+   "a": "Skelet",
+   "w": [
+    "Bo‘g‘im",
+    "Mushak",
+    "Pay"
+   ],
+   "d": 2,
+   "x": "Skelet — Tana tayanchi bo‘lgan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Skelet — Tana tayanchi bo‘lgan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Bo‘g‘im» uchun mos ma’noni tanlang.",
+   "a": "Suyaklar tutashadigan harakatli joy",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Qisqarib harakat hosil qiladigan to‘qima",
+    "Mushakni suyakka bog‘laydigan tuzilma"
+   ],
+   "d": 1,
+   "x": "Bo‘g‘im — Suyaklar tutashadigan harakatli joy. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Bo‘g‘im — Suyaklar tutashadigan harakatli joy. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Suyaklar tutashadigan harakatli joy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bo‘g‘im",
+   "w": [
+    "Skelet",
+    "Mushak",
+    "Pay"
+   ],
+   "d": 2,
+   "x": "Bo‘g‘im — Suyaklar tutashadigan harakatli joy. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Bo‘g‘im — Suyaklar tutashadigan harakatli joy. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Mushak» uchun mos ma’noni tanlang.",
+   "a": "Qisqarib harakat hosil qiladigan to‘qima",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Mushakni suyakka bog‘laydigan tuzilma"
+   ],
+   "d": 1,
+   "x": "Mushak — Qisqarib harakat hosil qiladigan to‘qima. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Mushak — Qisqarib harakat hosil qiladigan to‘qima. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Qisqarib harakat hosil qiladigan to‘qima» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mushak",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Pay"
+   ],
+   "d": 2,
+   "x": "Mushak — Qisqarib harakat hosil qiladigan to‘qima. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Mushak — Qisqarib harakat hosil qiladigan to‘qima. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Pay» uchun mos ma’noni tanlang.",
+   "a": "Mushakni suyakka bog‘laydigan tuzilma",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima"
+   ],
+   "d": 1,
+   "x": "Pay — Mushakni suyakka bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Pay — Mushakni suyakka bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Mushakni suyakka bog‘laydigan tuzilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Pay",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Mushak"
+   ],
+   "d": 2,
+   "x": "Pay — Mushakni suyakka bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Pay — Mushakni suyakka bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Boylam» uchun mos ma’noni tanlang.",
+   "a": "Bo‘g‘imda suyaklarni bog‘laydigan tuzilma",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima"
+   ],
+   "d": 1,
+   "x": "Boylam — Bo‘g‘imda suyaklarni bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Boylam — Bo‘g‘imda suyaklarni bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Bo‘g‘imda suyaklarni bog‘laydigan tuzilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Boylam",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Mushak"
+   ],
+   "d": 2,
+   "x": "Boylam — Bo‘g‘imda suyaklarni bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Boylam — Bo‘g‘imda suyaklarni bog‘laydigan tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Bosh suyagi» uchun mos ma’noni tanlang.",
+   "a": "Miyani himoya qiladigan suyaklar majmui",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima"
+   ],
+   "d": 1,
+   "x": "Bosh suyagi — Miyani himoya qiladigan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Bosh suyagi — Miyani himoya qiladigan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Miyani himoya qiladigan suyaklar majmui» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bosh suyagi",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Mushak"
+   ],
+   "d": 2,
+   "x": "Bosh suyagi — Miyani himoya qiladigan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Bosh suyagi — Miyani himoya qiladigan suyaklar majmui. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Umurtqa pog‘onasi» uchun mos ma’noni tanlang.",
+   "a": "Orqa miyani himoya qiladigan tayanch",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima"
+   ],
+   "d": 1,
+   "x": "Umurtqa pog‘onasi — Orqa miyani himoya qiladigan tayanch. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Umurtqa pog‘onasi — Orqa miyani himoya qiladigan tayanch. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Orqa miyani himoya qiladigan tayanch» qaysi tushuncha yoki iboraga mos?",
+   "a": "Umurtqa pog‘onasi",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Mushak"
+   ],
+   "d": 2,
+   "x": "Umurtqa pog‘onasi — Orqa miyani himoya qiladigan tayanch. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Umurtqa pog‘onasi — Orqa miyani himoya qiladigan tayanch. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Qovurg‘a qafasi» uchun mos ma’noni tanlang.",
+   "a": "Ko‘krak organlarini himoya qiladigan suyak tuzilma",
+   "w": [
+    "Tana tayanchi bo‘lgan suyaklar majmui",
+    "Suyaklar tutashadigan harakatli joy",
+    "Qisqarib harakat hosil qiladigan to‘qima"
+   ],
+   "d": 1,
+   "x": "Qovurg‘a qafasi — Ko‘krak organlarini himoya qiladigan suyak tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Qovurg‘a qafasi — Ko‘krak organlarini himoya qiladigan suyak tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Ko‘krak organlarini himoya qiladigan suyak tuzilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qovurg‘a qafasi",
+   "w": [
+    "Skelet",
+    "Bo‘g‘im",
+    "Mushak"
+   ],
+   "d": 2,
+   "x": "Qovurg‘a qafasi — Ko‘krak organlarini himoya qiladigan suyak tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi.",
+   "h": "Qovurg‘a qafasi — Ko‘krak organlarini himoya qiladigan suyak tuzilma. Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Odam organizmi va tayanch-harakat: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Skelet",
+     "Tana tayanchi bo‘lgan suyaklar majmui"
+    ],
+    [
+     "Bo‘g‘im",
+     "Suyaklar tutashadigan harakatli joy"
+    ],
+    [
+     "Mushak",
+     "Qisqarib harakat hosil qiladigan to‘qima"
+    ],
+    [
+     "Pay",
+     "Mushakni suyakka bog‘laydigan tuzilma"
+    ]
+   ],
+   "d": 1,
+   "x": "Skelet — Tana tayanchi bo‘lgan suyaklar majmui; Bo‘g‘im — Suyaklar tutashadigan harakatli joy; Mushak — Qisqarib harakat hosil qiladigan to‘qima; Pay — Mushakni suyakka bog‘laydigan tuzilma",
+   "h": "Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Odam organizmi va tayanch-harakat: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Boylam",
+     "Bo‘g‘imda suyaklarni bog‘laydigan tuzilma"
+    ],
+    [
+     "Bosh suyagi",
+     "Miyani himoya qiladigan suyaklar majmui"
+    ],
+    [
+     "Umurtqa pog‘onasi",
+     "Orqa miyani himoya qiladigan tayanch"
+    ],
+    [
+     "Qovurg‘a qafasi",
+     "Ko‘krak organlarini himoya qiladigan suyak tuzilma"
+    ]
+   ],
+   "d": 1,
+   "x": "Boylam — Bo‘g‘imda suyaklarni bog‘laydigan tuzilma; Bosh suyagi — Miyani himoya qiladigan suyaklar majmui; Umurtqa pog‘onasi — Orqa miyani himoya qiladigan tayanch; Qovurg‘a qafasi — Ko‘krak organlarini himoya qiladigan suyak tuzilma",
+   "h": "Misol: tirsak bukilganda ayrim mushaklar qisqaradi, qarama-qarshi mushaklar bo‘shashadi. Suyak, mushak va bo‘g‘im birgalikda ishlaydi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Yurak» uchun mos ma’noni tanlang.",
+   "a": "Qonni tomirlarga haydaydigan mushak organ",
+   "w": [
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir",
+    "Modda almashish sodir bo‘ladigan juda ingichka tomir"
+   ],
+   "d": 1,
+   "x": "Yurak — Qonni tomirlarga haydaydigan mushak organ. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Yurak — Qonni tomirlarga haydaydigan mushak organ. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Qonni tomirlarga haydaydigan mushak organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yurak",
+   "w": [
+    "Arteriya",
+    "Vena",
+    "Kapillyar"
+   ],
+   "d": 2,
+   "x": "Yurak — Qonni tomirlarga haydaydigan mushak organ. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Yurak — Qonni tomirlarga haydaydigan mushak organ. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Arteriya» uchun mos ma’noni tanlang.",
+   "a": "Qonni yurakdan olib ketadigan tomir",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakka olib keladigan tomir",
+    "Modda almashish sodir bo‘ladigan juda ingichka tomir"
+   ],
+   "d": 1,
+   "x": "Arteriya — Qonni yurakdan olib ketadigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Arteriya — Qonni yurakdan olib ketadigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Qonni yurakdan olib ketadigan tomir» qaysi tushuncha yoki iboraga mos?",
+   "a": "Arteriya",
+   "w": [
+    "Yurak",
+    "Vena",
+    "Kapillyar"
+   ],
+   "d": 2,
+   "x": "Arteriya — Qonni yurakdan olib ketadigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Arteriya — Qonni yurakdan olib ketadigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Vena» uchun mos ma’noni tanlang.",
+   "a": "Qonni yurakka olib keladigan tomir",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Modda almashish sodir bo‘ladigan juda ingichka tomir"
+   ],
+   "d": 1,
+   "x": "Vena — Qonni yurakka olib keladigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Vena — Qonni yurakka olib keladigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Qonni yurakka olib keladigan tomir» qaysi tushuncha yoki iboraga mos?",
+   "a": "Vena",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Kapillyar"
+   ],
+   "d": 2,
+   "x": "Vena — Qonni yurakka olib keladigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Vena — Qonni yurakka olib keladigan tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Kapillyar» uchun mos ma’noni tanlang.",
+   "a": "Modda almashish sodir bo‘ladigan juda ingichka tomir",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir"
+   ],
+   "d": 1,
+   "x": "Kapillyar — Modda almashish sodir bo‘ladigan juda ingichka tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Kapillyar — Modda almashish sodir bo‘ladigan juda ingichka tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Modda almashish sodir bo‘ladigan juda ingichka tomir» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kapillyar",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Vena"
+   ],
+   "d": 2,
+   "x": "Kapillyar — Modda almashish sodir bo‘ladigan juda ingichka tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Kapillyar — Modda almashish sodir bo‘ladigan juda ingichka tomir. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Eritrotsit» uchun mos ma’noni tanlang.",
+   "a": "Gemoglobin orqali kislorod tashuvchi qon hujayrasi",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir"
+   ],
+   "d": 1,
+   "x": "Eritrotsit — Gemoglobin orqali kislorod tashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Eritrotsit — Gemoglobin orqali kislorod tashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Gemoglobin orqali kislorod tashuvchi qon hujayrasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Eritrotsit",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Vena"
+   ],
+   "d": 2,
+   "x": "Eritrotsit — Gemoglobin orqali kislorod tashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Eritrotsit — Gemoglobin orqali kislorod tashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Leykotsit» uchun mos ma’noni tanlang.",
+   "a": "Organizm himoyasida qatnashuvchi qon hujayrasi",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir"
+   ],
+   "d": 1,
+   "x": "Leykotsit — Organizm himoyasida qatnashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Leykotsit — Organizm himoyasida qatnashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Organizm himoyasida qatnashuvchi qon hujayrasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Leykotsit",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Vena"
+   ],
+   "d": 2,
+   "x": "Leykotsit — Organizm himoyasida qatnashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Leykotsit — Organizm himoyasida qatnashuvchi qon hujayrasi. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Alveola» uchun mos ma’noni tanlang.",
+   "a": "O‘pkada gaz almashadigan mayda pufakcha",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir"
+   ],
+   "d": 1,
+   "x": "Alveola — O‘pkada gaz almashadigan mayda pufakcha. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Alveola — O‘pkada gaz almashadigan mayda pufakcha. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«O‘pkada gaz almashadigan mayda pufakcha» qaysi tushuncha yoki iboraga mos?",
+   "a": "Alveola",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Vena"
+   ],
+   "d": 2,
+   "x": "Alveola — O‘pkada gaz almashadigan mayda pufakcha. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Alveola — O‘pkada gaz almashadigan mayda pufakcha. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Diafragma» uchun mos ma’noni tanlang.",
+   "a": "Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i",
+   "w": [
+    "Qonni tomirlarga haydaydigan mushak organ",
+    "Qonni yurakdan olib ketadigan tomir",
+    "Qonni yurakka olib keladigan tomir"
+   ],
+   "d": 1,
+   "x": "Diafragma — Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Diafragma — Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i» qaysi tushuncha yoki iboraga mos?",
+   "a": "Diafragma",
+   "w": [
+    "Yurak",
+    "Arteriya",
+    "Vena"
+   ],
+   "d": 2,
+   "x": "Diafragma — Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi.",
+   "h": "Diafragma — Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i. Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Qon aylanish va nafas olish: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Yurak",
+     "Qonni tomirlarga haydaydigan mushak organ"
+    ],
+    [
+     "Arteriya",
+     "Qonni yurakdan olib ketadigan tomir"
+    ],
+    [
+     "Vena",
+     "Qonni yurakka olib keladigan tomir"
+    ],
+    [
+     "Kapillyar",
+     "Modda almashish sodir bo‘ladigan juda ingichka tomir"
+    ]
+   ],
+   "d": 1,
+   "x": "Yurak — Qonni tomirlarga haydaydigan mushak organ; Arteriya — Qonni yurakdan olib ketadigan tomir; Vena — Qonni yurakka olib keladigan tomir; Kapillyar — Modda almashish sodir bo‘ladigan juda ingichka tomir",
+   "h": "Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Qon aylanish va nafas olish: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Eritrotsit",
+     "Gemoglobin orqali kislorod tashuvchi qon hujayrasi"
+    ],
+    [
+     "Leykotsit",
+     "Organizm himoyasida qatnashuvchi qon hujayrasi"
+    ],
+    [
+     "Alveola",
+     "O‘pkada gaz almashadigan mayda pufakcha"
+    ],
+    [
+     "Diafragma",
+     "Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i"
+    ]
+   ],
+   "d": 1,
+   "x": "Eritrotsit — Gemoglobin orqali kislorod tashuvchi qon hujayrasi; Leykotsit — Organizm himoyasida qatnashuvchi qon hujayrasi; Alveola — O‘pkada gaz almashadigan mayda pufakcha; Diafragma — Nafas harakatida qatnashadigan ko‘krak-qorin to‘sig‘i",
+   "h": "Misol: arteriya va vena qondagi kislorod miqdori bilan emas, oqimning yurakka nisbatan yo‘nalishi bilan farqlanadi."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Og‘iz» uchun mos ma’noni tanlang.",
+   "a": "Ovqat chaynash va so‘lak bilan aralashish joyi",
+   "w": [
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ",
+    "Ozuqa moddalari asosiy so‘riladigan joy"
+   ],
+   "d": 1,
+   "x": "Og‘iz — Ovqat chaynash va so‘lak bilan aralashish joyi. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Og‘iz — Ovqat chaynash va so‘lak bilan aralashish joyi. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Ovqat chaynash va so‘lak bilan aralashish joyi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Og‘iz",
+   "w": [
+    "Qizilo‘ngach",
+    "Oshqozon",
+    "Ingichka ichak"
+   ],
+   "d": 2,
+   "x": "Og‘iz — Ovqat chaynash va so‘lak bilan aralashish joyi. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Og‘iz — Ovqat chaynash va so‘lak bilan aralashish joyi. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Qizilo‘ngach» uchun mos ma’noni tanlang.",
+   "a": "Ovqatni oshqozonga o‘tkazadigan nay",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ",
+    "Ozuqa moddalari asosiy so‘riladigan joy"
+   ],
+   "d": 1,
+   "x": "Qizilo‘ngach — Ovqatni oshqozonga o‘tkazadigan nay. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Qizilo‘ngach — Ovqatni oshqozonga o‘tkazadigan nay. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Ovqatni oshqozonga o‘tkazadigan nay» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qizilo‘ngach",
+   "w": [
+    "Og‘iz",
+    "Oshqozon",
+    "Ingichka ichak"
+   ],
+   "d": 2,
+   "x": "Qizilo‘ngach — Ovqatni oshqozonga o‘tkazadigan nay. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Qizilo‘ngach — Ovqatni oshqozonga o‘tkazadigan nay. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Oshqozon» uchun mos ma’noni tanlang.",
+   "a": "Ovqatni aralashtirib hazm qilishda qatnashadigan organ",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ozuqa moddalari asosiy so‘riladigan joy"
+   ],
+   "d": 1,
+   "x": "Oshqozon — Ovqatni aralashtirib hazm qilishda qatnashadigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Oshqozon — Ovqatni aralashtirib hazm qilishda qatnashadigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Ovqatni aralashtirib hazm qilishda qatnashadigan organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Oshqozon",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Ingichka ichak"
+   ],
+   "d": 2,
+   "x": "Oshqozon — Ovqatni aralashtirib hazm qilishda qatnashadigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Oshqozon — Ovqatni aralashtirib hazm qilishda qatnashadigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Ingichka ichak» uchun mos ma’noni tanlang.",
+   "a": "Ozuqa moddalari asosiy so‘riladigan joy",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+   ],
+   "d": 1,
+   "x": "Ingichka ichak — Ozuqa moddalari asosiy so‘riladigan joy. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Ingichka ichak — Ozuqa moddalari asosiy so‘riladigan joy. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Ozuqa moddalari asosiy so‘riladigan joy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ingichka ichak",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon"
+   ],
+   "d": 2,
+   "x": "Ingichka ichak — Ozuqa moddalari asosiy so‘riladigan joy. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Ingichka ichak — Ozuqa moddalari asosiy so‘riladigan joy. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Jigar» uchun mos ma’noni tanlang.",
+   "a": "O‘t suyuqligini ishlab chiqaradigan organ",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+   ],
+   "d": 1,
+   "x": "Jigar — O‘t suyuqligini ishlab chiqaradigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Jigar — O‘t suyuqligini ishlab chiqaradigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«O‘t suyuqligini ishlab chiqaradigan organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Jigar",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon"
+   ],
+   "d": 2,
+   "x": "Jigar — O‘t suyuqligini ishlab chiqaradigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Jigar — O‘t suyuqligini ishlab chiqaradigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Oshqozonosti bezi» uchun mos ma’noni tanlang.",
+   "a": "Hazm fermentlarini ishlab chiqaradigan bez",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+   ],
+   "d": 1,
+   "x": "Oshqozonosti bezi — Hazm fermentlarini ishlab chiqaradigan bez. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Oshqozonosti bezi — Hazm fermentlarini ishlab chiqaradigan bez. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Hazm fermentlarini ishlab chiqaradigan bez» qaysi tushuncha yoki iboraga mos?",
+   "a": "Oshqozonosti bezi",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon"
+   ],
+   "d": 2,
+   "x": "Oshqozonosti bezi — Hazm fermentlarini ishlab chiqaradigan bez. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Oshqozonosti bezi — Hazm fermentlarini ishlab chiqaradigan bez. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Buyrak» uchun mos ma’noni tanlang.",
+   "a": "Qonni filtrlab siydik hosil qiladigan organ",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+   ],
+   "d": 1,
+   "x": "Buyrak — Qonni filtrlab siydik hosil qiladigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Buyrak — Qonni filtrlab siydik hosil qiladigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Qonni filtrlab siydik hosil qiladigan organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Buyrak",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon"
+   ],
+   "d": 2,
+   "x": "Buyrak — Qonni filtrlab siydik hosil qiladigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Buyrak — Qonni filtrlab siydik hosil qiladigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Siydik pufagi» uchun mos ma’noni tanlang.",
+   "a": "Siydikni vaqtincha yig‘adigan organ",
+   "w": [
+    "Ovqat chaynash va so‘lak bilan aralashish joyi",
+    "Ovqatni oshqozonga o‘tkazadigan nay",
+    "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+   ],
+   "d": 1,
+   "x": "Siydik pufagi — Siydikni vaqtincha yig‘adigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Siydik pufagi — Siydikni vaqtincha yig‘adigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Siydikni vaqtincha yig‘adigan organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Siydik pufagi",
+   "w": [
+    "Og‘iz",
+    "Qizilo‘ngach",
+    "Oshqozon"
+   ],
+   "d": 2,
+   "x": "Siydik pufagi — Siydikni vaqtincha yig‘adigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir.",
+   "h": "Siydik pufagi — Siydikni vaqtincha yig‘adigan organ. Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Ovqat hazm qilish va ajratish: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Og‘iz",
+     "Ovqat chaynash va so‘lak bilan aralashish joyi"
+    ],
+    [
+     "Qizilo‘ngach",
+     "Ovqatni oshqozonga o‘tkazadigan nay"
+    ],
+    [
+     "Oshqozon",
+     "Ovqatni aralashtirib hazm qilishda qatnashadigan organ"
+    ],
+    [
+     "Ingichka ichak",
+     "Ozuqa moddalari asosiy so‘riladigan joy"
+    ]
+   ],
+   "d": 1,
+   "x": "Og‘iz — Ovqat chaynash va so‘lak bilan aralashish joyi; Qizilo‘ngach — Ovqatni oshqozonga o‘tkazadigan nay; Oshqozon — Ovqatni aralashtirib hazm qilishda qatnashadigan organ; Ingichka ichak — Ozuqa moddalari asosiy so‘riladigan joy",
+   "h": "Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Ovqat hazm qilish va ajratish: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Jigar",
+     "O‘t suyuqligini ishlab chiqaradigan organ"
+    ],
+    [
+     "Oshqozonosti bezi",
+     "Hazm fermentlarini ishlab chiqaradigan bez"
+    ],
+    [
+     "Buyrak",
+     "Qonni filtrlab siydik hosil qiladigan organ"
+    ],
+    [
+     "Siydik pufagi",
+     "Siydikni vaqtincha yig‘adigan organ"
+    ]
+   ],
+   "d": 1,
+   "x": "Jigar — O‘t suyuqligini ishlab chiqaradigan organ; Oshqozonosti bezi — Hazm fermentlarini ishlab chiqaradigan bez; Buyrak — Qonni filtrlab siydik hosil qiladigan organ; Siydik pufagi — Siydikni vaqtincha yig‘adigan organ",
+   "h": "Misol: ovqat og‘iz → qizilo‘ngach → oshqozon → ichak yo‘lidan o‘tadi. Buyrak ovqat yo‘lining qismi emas, ajratish tizimi organidir."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Neyron» uchun mos ma’noni tanlang.",
+   "a": "Nerv axborotini uzatadigan hujayra",
+   "w": [
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz",
+    "Ta’sirga nerv tizimi orqali javob"
+   ],
+   "d": 1,
+   "x": "Neyron — Nerv axborotini uzatadigan hujayra. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Neyron — Nerv axborotini uzatadigan hujayra. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Nerv axborotini uzatadigan hujayra» qaysi tushuncha yoki iboraga mos?",
+   "a": "Neyron",
+   "w": [
+    "Bosh miya",
+    "Orqa miya",
+    "Refleks"
+   ],
+   "d": 2,
+   "x": "Neyron — Nerv axborotini uzatadigan hujayra. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Neyron — Nerv axborotini uzatadigan hujayra. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Bosh miya» uchun mos ma’noni tanlang.",
+   "a": "Organizm boshqaruvida markaziy organ",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz",
+    "Ta’sirga nerv tizimi orqali javob"
+   ],
+   "d": 1,
+   "x": "Bosh miya — Organizm boshqaruvida markaziy organ. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Bosh miya — Organizm boshqaruvida markaziy organ. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Organizm boshqaruvida markaziy organ» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bosh miya",
+   "w": [
+    "Neyron",
+    "Orqa miya",
+    "Refleks"
+   ],
+   "d": 2,
+   "x": "Bosh miya — Organizm boshqaruvida markaziy organ. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Bosh miya — Organizm boshqaruvida markaziy organ. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Orqa miya» uchun mos ma’noni tanlang.",
+   "a": "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Ta’sirga nerv tizimi orqali javob"
+   ],
+   "d": 1,
+   "x": "Orqa miya — Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Orqa miya — Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz» qaysi tushuncha yoki iboraga mos?",
+   "a": "Orqa miya",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Refleks"
+   ],
+   "d": 2,
+   "x": "Orqa miya — Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Orqa miya — Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Refleks» uchun mos ma’noni tanlang.",
+   "a": "Ta’sirga nerv tizimi orqali javob",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+   ],
+   "d": 1,
+   "x": "Refleks — Ta’sirga nerv tizimi orqali javob. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Refleks — Ta’sirga nerv tizimi orqali javob. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Ta’sirga nerv tizimi orqali javob» qaysi tushuncha yoki iboraga mos?",
+   "a": "Refleks",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Orqa miya"
+   ],
+   "d": 2,
+   "x": "Refleks — Ta’sirga nerv tizimi orqali javob. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Refleks — Ta’sirga nerv tizimi orqali javob. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Retseptor» uchun mos ma’noni tanlang.",
+   "a": "Ta’sirni qabul qiladigan sezuvchi tuzilma",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+   ],
+   "d": 1,
+   "x": "Retseptor — Ta’sirni qabul qiladigan sezuvchi tuzilma. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Retseptor — Ta’sirni qabul qiladigan sezuvchi tuzilma. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Ta’sirni qabul qiladigan sezuvchi tuzilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Retseptor",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Orqa miya"
+   ],
+   "d": 2,
+   "x": "Retseptor — Ta’sirni qabul qiladigan sezuvchi tuzilma. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Retseptor — Ta’sirni qabul qiladigan sezuvchi tuzilma. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Gormon» uchun mos ma’noni tanlang.",
+   "a": "Bezlardan ajraladigan kimyoviy boshqaruv moddasi",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+   ],
+   "d": 1,
+   "x": "Gormon — Bezlardan ajraladigan kimyoviy boshqaruv moddasi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Gormon — Bezlardan ajraladigan kimyoviy boshqaruv moddasi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Bezlardan ajraladigan kimyoviy boshqaruv moddasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Gormon",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Orqa miya"
+   ],
+   "d": 2,
+   "x": "Gormon — Bezlardan ajraladigan kimyoviy boshqaruv moddasi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Gormon — Bezlardan ajraladigan kimyoviy boshqaruv moddasi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«DNK» uchun mos ma’noni tanlang.",
+   "a": "Irsiy axborot saqlanadigan molekula",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+   ],
+   "d": 1,
+   "x": "DNK — Irsiy axborot saqlanadigan molekula. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "DNK — Irsiy axborot saqlanadigan molekula. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Irsiy axborot saqlanadigan molekula» qaysi tushuncha yoki iboraga mos?",
+   "a": "DNK",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Orqa miya"
+   ],
+   "d": 2,
+   "x": "DNK — Irsiy axborot saqlanadigan molekula. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "DNK — Irsiy axborot saqlanadigan molekula. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Gen» uchun mos ma’noni tanlang.",
+   "a": "DNKning irsiy axborotli qismi",
+   "w": [
+    "Nerv axborotini uzatadigan hujayra",
+    "Organizm boshqaruvida markaziy organ",
+    "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+   ],
+   "d": 1,
+   "x": "Gen — DNKning irsiy axborotli qismi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Gen — DNKning irsiy axborotli qismi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«DNKning irsiy axborotli qismi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Gen",
+   "w": [
+    "Neyron",
+    "Bosh miya",
+    "Orqa miya"
+   ],
+   "d": 2,
+   "x": "Gen — DNKning irsiy axborotli qismi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi.",
+   "h": "Gen — DNKning irsiy axborotli qismi. Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Boshqaruv, sezgi va irsiyat: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Neyron",
+     "Nerv axborotini uzatadigan hujayra"
+    ],
+    [
+     "Bosh miya",
+     "Organizm boshqaruvida markaziy organ"
+    ],
+    [
+     "Orqa miya",
+     "Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz"
+    ],
+    [
+     "Refleks",
+     "Ta’sirga nerv tizimi orqali javob"
+    ]
+   ],
+   "d": 1,
+   "x": "Neyron — Nerv axborotini uzatadigan hujayra; Bosh miya — Organizm boshqaruvida markaziy organ; Orqa miya — Miya bilan tana o‘rtasida axborot o‘tkazuvchi markaz; Refleks — Ta’sirga nerv tizimi orqali javob",
+   "h": "Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  },
+  {
+   "topic": "biology_g8.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Boshqaruv, sezgi va irsiyat: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Retseptor",
+     "Ta’sirni qabul qiladigan sezuvchi tuzilma"
+    ],
+    [
+     "Gormon",
+     "Bezlardan ajraladigan kimyoviy boshqaruv moddasi"
+    ],
+    [
+     "DNK",
+     "Irsiy axborot saqlanadigan molekula"
+    ],
+    [
+     "Gen",
+     "DNKning irsiy axborotli qismi"
+    ]
+   ],
+   "d": 1,
+   "x": "Retseptor — Ta’sirni qabul qiladigan sezuvchi tuzilma; Gormon — Bezlardan ajraladigan kimyoviy boshqaruv moddasi; DNK — Irsiy axborot saqlanadigan molekula; Gen — DNKning irsiy axborotli qismi",
+   "h": "Misol: yorug‘lik ko‘z retseptorlariga ta’sir qiladi, nerv yo‘llari axborotni miyaga uzatadi. Nerv va gormonal boshqaruv bir-birini to‘ldiradi."
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "subject": "geography",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Geografiya",
+  "en": "Geography",
+  "ru": "География"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "geography_g8.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "O‘zbekistonning joylashuvi va relyefi",
+    "en": "O‘zbekistonning joylashuvi va relyefi",
+    "ru": "O‘zbekistonning joylashuvi va relyefi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. O‘zbekistonning joylashuvi va relyefi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: O‘zbekiston — Markaziy Osiyoda joylashgan davlat; Toshkent — O‘zbekiston poytaxti; Qizilqum — Mamlakatdagi yirik cho‘l; Farg‘ona vodiysi — Sharqda tog‘lar orasidagi keng vodiy; Tyan-Shan — Sharq va shimoli-sharqqa tutash tog‘ tizimi; Hisor tizmasi — Janubdagi baland tog‘ tizmalaridan biri; Amudaryo — Orol havzasining yirik daryosi; Sirdaryo — Farg‘ona vodiysi va tekisliklar orqali oqadigan yirik daryo.\n\nMisol: xaritada cho‘l, vodiy va tog‘larni ajratamiz. Amudaryo va Sirdaryo Orol dengizi havzasiga tegishli.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. O‘zbekistonning joylashuvi va relyefi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g8.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Iqlim, suv va tuproq",
+    "en": "Iqlim, suv va tuproq",
+    "ru": "Iqlim, suv va tuproq"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Iqlim, suv va tuproq",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Keskin kontinental iqlim — Yoz va qish harorati farqi katta iqlim; Sug‘orish — Ekin maydoniga sun’iy suv yetkazish; Kanal — Suvni yo‘naltirish uchun qurilgan o‘zan; Suv ombori — Suvni yig‘ib tartibga soluvchi havza; Sho‘rlanish — Tuproqda eruvchan tuzlar to‘planishi; Bo‘z tuproq — Quruq subtropik tog‘oldi hududlariga xos tuproq; Drenaj — Ortiqcha yerosti suvini chiqarish tizimi; Suvni tejovchi usul — Ekin suv sarfini kamaytiradigan sug‘orish yo‘li.\n\nMisol: ortiqcha sug‘orish va yomon drenaj sho‘rlanish xavfini oshiradi. Tuproq va suvdan foydalanish birgalikda rejalashtiriladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Iqlim, suv va tuproq",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g8.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Aholi va xo‘jalik joylashuvi",
+    "en": "Aholi va xo‘jalik joylashuvi",
+    "ru": "Aholi va xo‘jalik joylashuvi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Aholi va xo‘jalik joylashuvi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Aholi zichligi — Hudud birligiga to‘g‘ri keladigan aholi soni; Urbanizatsiya — Shaharlar va shahar aholi ulushining o‘sishi; Migratsiya — Aholining yashash joyini o‘zgartirishi; Mehnat resursi — Mehnat qilish imkoniyatiga ega aholi; Sanoat — Xomashyoni qayta ishlash va mahsulot yaratish sohasi; Qishloq xo‘jaligi — Dehqonchilik va chorvachilik sohasi; Xizmat ko‘rsatish — Aholi ehtiyojiga xizmat taqdim etish sohasi; Transport tuguni — Bir necha transport yo‘li tutashgan joy.\n\nMisol: aholi zichligi = aholi soni / maydon. 100000 kishi 500 km² hududda yashasa, zichlik 200 kishi/km² bo‘ladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Aholi va xo‘jalik joylashuvi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g8.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Hududiy iqtisodiyot va ekologiya",
+    "en": "Hududiy iqtisodiyot va ekologiya",
+    "ru": "Hududiy iqtisodiyot va ekologiya"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hududiy iqtisodiyot va ekologiya",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Xomashyo omili — Korxonani material manbasiga yaqin joylashtirish sababi; Energiya omili — Ko‘p quvvat kerak bo‘lgan ishlab chiqarish omili; Iste’molchi omili — Mahsulot xaridoriga yaqin bo‘lish sababi; Logistika — Yuk oqimini rejalash va tashkil etish; Ixtisoslashuv — Hududning ayrim mahsulot yoki xizmatga yo‘nalishi; Kooperatsiya — Korxonalarning ishlab chiqarishda hamkorligi; Qayta ishlash — Chiqindidan yangi material olish; Ekologik baholash — Loyihaning muhitga ta’sirini oldindan tahlil qilish.\n\nMisol: tez buziladigan mahsulot ishlab chiqaruvchiga iste’molchiga yaqinlik kerak bo‘lishi mumkin. Joy tanlashda transport va ekologik ta’sir ham hisobga olinadi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "geography_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hududiy iqtisodiyot va ekologiya",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "geography_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "geography_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "geography_g8.unit1",
+      "geography_g8.unit2",
+      "geography_g8.unit3",
+      "geography_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "geography_g8.unit1",
+      "geography_g8.unit2",
+      "geography_g8.unit3",
+      "geography_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "geography_g8.unit1",
+      "geography_g8.unit2",
+      "geography_g8.unit3",
+      "geography_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

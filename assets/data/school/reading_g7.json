@@ -1,0 +1,309 @@
+{
+ "subject": "reading",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "O‘qish va matn tahlili",
+  "en": "Reading and text analysis",
+  "ru": "Чтение и анализ текста"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "reading_g7.unit1",
+   "code": "1",
+   "emoji": "📖",
+   "title": {
+    "uz": "Dalil va taxmin",
+    "en": "Dalil va taxmin",
+    "ru": "Dalil va taxmin"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Dalil va taxmin",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nMaktab bog‘ida ikki bir xil idishga bir xil urug‘ ekildi. Bir idish yorug‘ deraza yoniga, ikkinchisi kam yorug‘ joyga qo‘yildi. Ikkalasiga bir xil miqdorda suv berildi. O‘quvchilar bo‘yini har uch kunda o‘lchadilar. Ikki haftada yorug‘ joydagi nihol yashil va baquvvat, ikkinchisi esa rangpar va cho‘zilgan bo‘ldi. Dastlab “balandroq nihol sog‘lomroq” degan taxmin aytilgan edi. Natijalar bu taxminni qo‘llamadi. O‘quvchilar faqat bo‘yga qarab sog‘lomlikni baholab bo‘lmasligini yozdilar. Ular xulosani boshqa urug‘lar bilan qayta tekshirishni taklif qildilar."
+   }
+  },
+  {
+   "id": "reading_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Dalil va taxmin",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g7.unit2",
+   "code": "2",
+   "emoji": "📖",
+   "title": {
+    "uz": "Mahalla xaritasi",
+    "en": "Mahalla xaritasi",
+    "ru": "Mahalla xaritasi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Mahalla xaritasi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nDilshod mahallaning eski xaritasini topdi. Unda hozirgi ko‘prik yo‘q, daryo bo‘yida esa bozor belgisi bor edi. U xaritani hozirgi joy bilan solishtirdi. Bobosi bozor ilgari daryo yonida bo‘lganini aytdi, lekin aniq yilni eslay olmadi. Dilshod bu xotirani mahalla arxividagi sana yozilgan surat bilan tekshirdi. Suratdagi bozor eski xarita belgisi bilan mos tushdi. U yozuvida bobosining taxmini bilan hujjatdagi sanani alohida ko‘rsatdi. Xarita joyni, surat esa ma’lum vaqtdagi holatni tasdiqladi."
+   }
+  },
+  {
+   "id": "reading_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Mahalla xaritasi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g7.unit3",
+   "code": "3",
+   "emoji": "📖",
+   "title": {
+    "uz": "Ikki yo‘lning narxi",
+    "en": "Ikki yo‘lning narxi",
+    "ru": "Ikki yo‘lning narxi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ikki yo‘lning narxi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nZilola uyidan maktabgacha ikki yo‘lni bilardi. Katta ko‘cha bo‘ylab yo‘l qisqaroq, ammo mashinalar ko‘p edi. Bog‘ yonidagi yo‘l biroz uzunroq bo‘lsa ham, piyodalar yo‘lagi bor edi. Bir kuni u shoshilib qisqa yo‘lni tanlamoqchi bo‘ldi. Do‘sti Madina xavfsiz o‘tish joyigacha baribir aylanib borish kerakligini eslatdi. Ular vaqtni o‘lchab, bog‘ yo‘li amalda faqat ikki daqiqa ko‘proq vaqt olishini bildilar. Keyingi kunlar oldinroq chiqishga kelishdilar. Zilola xaritadagi uzunlik bilan kundalik qulaylik har doim bir xil emasligini anglab yetdi."
+   }
+  },
+  {
+   "id": "reading_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ikki yo‘lning narxi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g7.unit4",
+   "code": "4",
+   "emoji": "📖",
+   "title": {
+    "uz": "Kitob qaydi va xotira",
+    "en": "Kitob qaydi va xotira",
+    "ru": "Kitob qaydi va xotira"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Kitob qaydi va xotira",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nSardor hikoya o‘qigach, qahramon nega safarga chiqqanini do‘stiga aytdi. Do‘sti bunga boshqa sabab ko‘rsatdi. Ular bahslashish o‘rniga matnga qaytdilar. Birinchi bobda qahramon yo‘qolgan daftarni izlash niyatini aytgan edi. Keyingi bobda esa do‘stiga yordam berish uning yo‘lini o‘zgartirgan. Sardor boshlang‘ich maqsad bilan keyingi qarorni aralashtirib yuborganini tan oldi. U daftarga “voqeaga qadar”, “voqeada”, “voqeadan keyin” sarlavhalari bilan qisqa qayd yozdi. Keyingi suhbatda ular har bir fikr uchun matndan dalil keltirdilar."
+   }
+  },
+  {
+   "id": "reading_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Kitob qaydi va xotira",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "reading_g7.unit1",
+      "reading_g7.unit2",
+      "reading_g7.unit3",
+      "reading_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g7.unit1",
+      "reading_g7.unit2",
+      "reading_g7.unit3",
+      "reading_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g7.unit1",
+      "reading_g7.unit2",
+      "reading_g7.unit3",
+      "reading_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

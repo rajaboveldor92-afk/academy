@@ -57,12 +57,12 @@ void main() {
   }
 
   test(
-    'each of eight workshops builds six interactive exercises at every level',
+    'each of thirteen workshops builds six interactive exercises at every level',
     () {
       final workshops = content.allTopics
           .where((t) => t.subject == 'technology' && t.generator == 'workshop')
           .toList();
-      expect(workshops.length, 8);
+      expect(workshops.length, 13);
       for (final t in workshops) {
         for (var level = 1; level <= 3; level++) {
           for (var seed = 0; seed < 10; seed++) {

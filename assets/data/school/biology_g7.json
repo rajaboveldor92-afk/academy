@@ -1,0 +1,309 @@
+{
+ "subject": "biology",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Biologiya",
+  "en": "Biology",
+  "ru": "Биология"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "biology_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Hayvonlar tuzilishi va tasnifi",
+    "en": "Hayvonlar tuzilishi va tasnifi",
+    "ru": "Hayvonlar tuzilishi va tasnifi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Hayvonlar tuzilishi va tasnifi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Hujayra — Tirik organizmning asosiy tuzilish birligi; To‘qima — O‘xshash vazifali hujayralar guruhi; Organ — Bir nechta to‘qimadan tuzilgan a’zo; Organlar tizimi — Birgalikda vazifa bajaradigan organlar majmui; Umurtqasiz — Umurtqa pog‘onasi bo‘lmagan hayvon; Umurtqali — Umurtqa pog‘onasi bor hayvon; Tur — Tabiiy sharoitda o‘zaro ko‘payib nasl bera oladigan organizmlar guruhi; Moslanish — Muhitda yashashga yordam beradigan belgi.\n\nMisol: baliq jabra bilan suvda nafas oladi; qush patlari parvoz va issiqlik saqlashga yordam beradi. Belgi va muhitni bog‘laymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "biology_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Hayvonlar tuzilishi va tasnifi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "biology_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "biology_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "biology_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "biology_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Umurtqasiz hayvonlar",
+    "en": "Umurtqasiz hayvonlar",
+    "ru": "Umurtqasiz hayvonlar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Umurtqasiz hayvonlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Bo‘shliqichlilar — Tanasida ichak bo‘shlig‘i va paypaslagichlari bo‘lgan guruh; Yassi chuvalchanglar — Tanasi yassilashgan chuvalchanglar guruhi; Halqali chuvalchanglar — Tanasi ketma-ket halqalardan tuzilgan guruh; Molluskalar — Yumshoq tanali hayvonlar guruhi; Bo‘g‘imoyoqlilar — Bo‘g‘imlangan oyoq va tashqi skeletli guruh; Hasharotlar — Voyaga yetganda olti oyoqli bo‘g‘imoyoqlilar; O‘rgimchaksimonlar — Odatda sakkiz oyoqli bo‘g‘imoyoqlilar; Qisqichbaqasimonlar — Ko‘pchiligi suvda yashaydigan jabra nafasli guruh.\n\nMisol: chumoli hasharot, o‘rgimchak o‘rgimchaksimon. Oyoqlar soni va tana qismlari tasniflashga yordam beradi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "biology_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Umurtqasiz hayvonlar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "biology_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "biology_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "biology_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "biology_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Umurtqali guruhlar",
+    "en": "Umurtqali guruhlar",
+    "ru": "Umurtqali guruhlar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Umurtqali guruhlar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Baliqlar — Jabra bilan nafas oladigan suv umurtqalilari; Amfibiyalar — Suv va quruqlik bilan bog‘liq hayot kechiradigan guruh; Sudralib yuruvchilar — Odatda quruq tangachali terili umurtqalilar; Qushlar — Pat bilan qoplangan umurtqalilar; Sutemizuvchilar — Bolalarini sut bilan boqadigan umurtqalilar; Jabra — Suvdagi kislorodni olish organi; O‘pka — Havodan gaz almashish organi; Issiqqonlilik — Tana haroratini nisbatan barqaror saqlash.\n\nMisol: kit suvda yashasa ham sutemizuvchi va o‘pka bilan nafas oladi. Yashash joyining o‘zi guruhni aniqlash uchun yetarli emas.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "biology_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Umurtqali guruhlar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "biology_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "biology_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "biology_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "biology_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Hayvonlar va ekotizim",
+    "en": "Hayvonlar va ekotizim",
+    "ru": "Hayvonlar va ekotizim"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Hayvonlar va ekotizim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: O‘txo‘r — Asosan o‘simlik bilan oziqlanadigan hayvon; Yirtqich — Boshqa hayvonni ovlab oziqlanadigan hayvon; Hammaxo‘r — O‘simlik va hayvon ozuqasini yeydigan hayvon; Oziq zanjiri — Ozuqa orqali energiya o‘tish ketma-ketligi; Changlatuvchi — Gul changini tashishga yordam beruvchi hayvon; Populyatsiya — Bir hududdagi bir tur vakillari; Yashash muhiti — Organizm hayot kechiradigan sharoitlar majmui; Biologik xilma-xillik — Tirik organizmlar va ularning farqlari boyligi.\n\nMisol: o‘t → chigirtka → qurbaqa → ilon zanjirida energiya ozuqa bo‘ylab o‘tadi. Bitta bo‘g‘in kamayishi boshqalariga ta’sir qilishi mumkin.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "biology_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Hayvonlar va ekotizim",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "biology_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "biology_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "biology_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "biology_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "biology_g7.unit1",
+      "biology_g7.unit2",
+      "biology_g7.unit3",
+      "biology_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "biology_g7.unit1",
+      "biology_g7.unit2",
+      "biology_g7.unit3",
+      "biology_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "biology_g7.unit1",
+      "biology_g7.unit2",
+      "biology_g7.unit3",
+      "biology_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

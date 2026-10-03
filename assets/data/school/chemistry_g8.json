@@ -1,0 +1,309 @@
+{
+ "subject": "chemistry",
+ "ageGroup": "g8",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Kimyo",
+  "en": "Chemistry",
+  "ru": "Химия"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "chemistry_g8.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Atom tuzilishi va davriy jadval",
+    "en": "Atom tuzilishi va davriy jadval",
+    "ru": "Atom tuzilishi va davriy jadval"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Atom tuzilishi va davriy jadval",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Proton — Yadrodagi musbat zaryadli zarra; Neytron — Yadrodagi elektr neytral zarra; Elektron — Manfiy zaryadli zarra; Atom raqami — Yadrodagi protonlar soni; Massa soni — Proton va neytronlar soni yig‘indisi; Izotop — Proton soni bir xil, neytron soni turlicha atom; Davr — Davriy jadvalning gorizontal qatori; Guruh — Davriy jadvalning vertikal ustuni.\n\nMisol: atom raqami 6 bo‘lgan uglerodda 6 proton bor. Massa soni 12 bo‘lsa 6 neytron; neytral atomda 6 elektron bo‘ladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g8.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Atom tuzilishi va davriy jadval",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g8.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g8.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Kimyoviy bog‘lanish va ion",
+    "en": "Kimyoviy bog‘lanish va ion",
+    "ru": "Kimyoviy bog‘lanish va ion"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kimyoviy bog‘lanish va ion",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Kation — Musbat zaryadli ion; Anion — Manfiy zaryadli ion; Ion bog‘lanish — Qarama-qarshi zaryadli ionlarning tortishuvi; Kovalent bog‘lanish — Umumiy elektron jufti orqali bog‘lanish; Qutbsiz bog‘lanish — Umumiy elektronlar teng taqsimlanadigan bog‘lanish; Qutbli bog‘lanish — Umumiy elektronlar noteng taqsimlanadigan bog‘lanish; Elektrmanfiylik — Atomning bog‘ elektronlarini tortish qobiliyati; Kristall panjara — Zarralarning qattiq moddadagi tartibli joylashuvi.\n\nMisol: Na⁺ kation, Cl⁻ anion; NaCl da ion tortishuvi mavjud. H₂ da bir xil atomlar elektron juftini teng bo‘lishadi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g8.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kimyoviy bog‘lanish va ion",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g8.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g8.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Anorganik moddalar sinflari",
+    "en": "Anorganik moddalar sinflari",
+    "ru": "Anorganik moddalar sinflari"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Anorganik moddalar sinflari",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Asosli oksid — Asosga mos keladigan metall oksidi; Kislotali oksid — Kislotaga mos keladigan oksid; Asos — Metall kationi va gidroksid guruhli birikma; Ishqor — Suvda eriydigan asos; Kislota — Eritmada vodorod ionini bera oladigan modda; Tuz — Kation va kislota qoldig‘i anionidan tuzilgan birikma; Neytrallanish — Kislota va asosdan tuz hamda suv hosil bo‘lishi; Indikator — Muhitga qarab rangini o‘zgartiradigan modda.\n\nMisol: NaOH — asos va ishqor; HCl + NaOH → NaCl + H₂O neytrallanish. CO₂ kislotali oksid. Kimyoviy modda bilan mustaqil amaliy tajriba qilinmaydi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g8.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Anorganik moddalar sinflari",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g8.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g8.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Mol va miqdoriy hisob",
+    "en": "Mol va miqdoriy hisob",
+    "ru": "Mol va miqdoriy hisob"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Mol va miqdoriy hisob",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Mol — Modda miqdorining SI birligi; Molyar massa — Bir mol moddaning massasi; Modda miqdori — Zarralar miqdorini mol bilan ifodalash; Avogadro doimiysi — Bir moldagi zarralar sonini ifodalovchi doimiy; Stexiometrik nisbat — Tenglama koeffitsiyentlari bildiradigan mol nisbati; Cheklovchi reagent — Avval tugab reaksiya miqdorini belgilaydigan modda; Konsentratsiya — Eritmada modda miqdorining ifodasi; Molyar konsentratsiya — Erigan modda molining eritma litriga nisbati.\n\nMisol: M(H₂O)≈18 g/mol; 36 g suv n=m/M=2 mol. 1 mol modda 2 L eritmada bo‘lsa c=0.5 mol/L. Mol nisbatini massa nisbati bilan aralashtirmaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "chemistry_g8.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Mol va miqdoriy hisob",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "chemistry_g8.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "chemistry_g8.unit1",
+      "chemistry_g8.unit2",
+      "chemistry_g8.unit3",
+      "chemistry_g8.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit1",
+      "chemistry_g8.unit2",
+      "chemistry_g8.unit3",
+      "chemistry_g8.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "chemistry_g8.unit1",
+      "chemistry_g8.unit2",
+      "chemistry_g8.unit3",
+      "chemistry_g8.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

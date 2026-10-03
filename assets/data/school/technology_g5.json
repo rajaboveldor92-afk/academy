@@ -35,7 +35,8 @@
    ],
    "theory": {
     "uz": "Texnologik loyiha muammoni aniqlashdan boshlanadi. Talablar belgilanadi, g‘oyalar eskizda ko‘rsatiladi, o‘lchamlar yoziladi. Mahsulot sinovdan o‘tkazilib, natijaga ko‘ra takomillashtiriladi."
-   }
+   },
+   "tags": []
   },
   {
    "id": "technology_g5.design_workshop",
@@ -67,6 +68,7 @@
    "theory": {
     "uz": "Texnologik loyiha muammoni aniqlashdan boshlanadi. Talablar belgilanadi, g‘oyalar eskizda ko‘rsatiladi, o‘lchamlar yoziladi. Mahsulot sinovdan o‘tkazilib, natijaga ko‘ra takomillashtiriladi."
    },
+   "tags": [],
    "lessonSize": 6
   },
   {
@@ -102,7 +104,8 @@
      ],
      "level": 3
     }
-   ]
+   ],
+   "tags": []
   },
   {
    "id": "technology_g5.materials",
@@ -130,7 +133,8 @@
    ],
    "theory": {
     "uz": "Qog‘oz, karton, yog‘och, mato, plastmassa va metallning xossalari turlicha. Material vazifaga ko‘ra tanlanadi; mustahkamlik, egiluvchanlik, og‘irlik va namlikka chidamlilik hisobga olinadi."
-   }
+   },
+   "tags": []
   },
   {
    "id": "technology_g5.materials_workshop",
@@ -162,6 +166,7 @@
    "theory": {
     "uz": "Qog‘oz, karton, yog‘och, mato, plastmassa va metallning xossalari turlicha. Material vazifaga ko‘ra tanlanadi; mustahkamlik, egiluvchanlik, og‘irlik va namlikka chidamlilik hisobga olinadi."
    },
+   "tags": [],
    "lessonSize": 6
   },
   {
@@ -197,7 +202,8 @@
      ],
      "level": 3
     }
-   ]
+   ],
+   "tags": []
   },
   {
    "id": "technology_g5.mechanisms",
@@ -225,7 +231,10 @@
    ],
    "theory": {
     "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi. Ilovadagi tajriba virtual: lampochka faqat ikkala sim ulangan va kalit yopiq bo‘lganda yonadi."
-   }
+   },
+   "tags": [
+    "track:technical"
+   ]
   },
   {
    "id": "technology_g5.mechanisms_workshop",
@@ -257,6 +266,9 @@
    "theory": {
     "uz": "G‘ildirak va o‘q, richag, shkiv va tishli uzatma harakat yoki kuchni uzatadi. Oddiy elektr zanjirida batareya, sim, iste’molchi va kalit bo‘ladi. Faqat xavfsiz past kuchlanish ishlatiladi. Ilovadagi tajriba virtual: lampochka faqat ikkala sim ulangan va kalit yopiq bo‘lganda yonadi."
    },
+   "tags": [
+    "track:technical"
+   ],
    "lessonSize": 6
   },
   {
@@ -292,6 +304,9 @@
      ],
      "level": 3
     }
+   ],
+   "tags": [
+    "track:technical"
    ]
   },
   {
@@ -320,7 +335,10 @@
    ],
    "theory": {
     "uz": "Algoritm — aniq qadamlar ketma-ketligi. Prototip g‘oyani erta sinashga yordam beradi. Loyiha hujjatida maqsad, eskiz, material, ketma-ketlik, sinov natijasi va yaxshilashlar qayd etiladi."
-   }
+   },
+   "tags": [
+    "track:technical"
+   ]
   },
   {
    "id": "technology_g5.prototype_workshop",
@@ -352,6 +370,9 @@
    "theory": {
     "uz": "Algoritm — aniq qadamlar ketma-ketligi. Prototip g‘oyani erta sinashga yordam beradi. Loyiha hujjatida maqsad, eskiz, material, ketma-ketlik, sinov natijasi va yaxshilashlar qayd etiladi."
    },
+   "tags": [
+    "track:technical"
+   ],
    "lessonSize": 6
   },
   {
@@ -387,6 +408,9 @@
      ],
      "level": 3
     }
+   ],
+   "tags": [
+    "track:technical"
    ]
   },
   {
@@ -431,6 +455,371 @@
      ],
      "level": 3
     }
+   ],
+   "tags": [
+    "track:technical"
+   ]
+  },
+  {
+   "id": "technology_g5.service_sewing",
+   "code": "S1",
+   "emoji": "🧵",
+   "title": {
+    "uz": "To‘qimachilik va tikuv loyihasi",
+    "en": "Textiles and sewing design",
+    "ru": "Текстиль и швейный проект"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Paxta tolasi — paxta o‘simligidan olinadigan tola; Jun tolasi — hayvon junidan olinadigan tola; Sintetik tola — kimyoviy usulda tayyorlanadigan tola; Gazlama — o‘zaro to‘qilgan iplardan tayyorlangan material; Andoza — detal konturining qog‘oz namunasi; Chok haqi — biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — qismlar biriktiriladigan belgilangan yo‘l. Misol: Mato g‘ilofini rejalash: Ichiga solinadigan buyumni o‘lchash → Qog‘oz eskizini chizish → Chok haqi bilan andoza tayyorlash → Andozani buyum o‘lchami bilan tekshirish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_sewing_workshop",
+   "code": "S1A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: To‘qimachilik va tikuv loyihasi",
+    "en": "Workshop: Textiles and sewing design",
+    "ru": "Практикум: Текстиль и швейный проект"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.service_sewing",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.service_sewing",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.service_sewing",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Paxta tolasi — paxta o‘simligidan olinadigan tola; Jun tolasi — hayvon junidan olinadigan tola; Sintetik tola — kimyoviy usulda tayyorlanadigan tola; Gazlama — o‘zaro to‘qilgan iplardan tayyorlangan material; Andoza — detal konturining qog‘oz namunasi; Chok haqi — biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — qismlar biriktiriladigan belgilangan yo‘l. Misol: Mato g‘ilofini rejalash: Ichiga solinadigan buyumni o‘lchash → Qog‘oz eskizini chizish → Chok haqi bilan andoza tayyorlash → Andozani buyum o‘lchami bilan tekshirish. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ],
+   "lessonSize": 6
+  },
+  {
+   "id": "technology_g5.service_food",
+   "code": "S2",
+   "emoji": "🏡",
+   "title": {
+    "uz": "Ovqatlanish gigiyenasi va sovuq taom rejasi",
+    "en": "Food hygiene and cold dish planning",
+    "ru": "Гигиена и план холодного блюда"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Qo‘l gigiyenasi — taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — taom tayyorlashdan oldin tozalangan ish joyi; Xom mahsulot — hali pishirilmagan mahsulot; Tayyor taom — iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati. Misol: Virtual meva salatini rejalash: Retsept va mahsulotlar ro‘yxatini tanlash → Yaroqlilik va saqlash shartlarini tekshirish → Qo‘l va ish joyi tozaligini rejalash → Yuvilgan mevalarni aralashtirish bosqichini belgilash. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_food_workshop",
+   "code": "S2A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Ovqatlanish gigiyenasi va sovuq taom rejasi",
+    "en": "Workshop: Food hygiene and cold dish planning",
+    "ru": "Практикум: Гигиена и план холодного блюда"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.service_food",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.service_food",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.service_food",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Qo‘l gigiyenasi — taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — taom tayyorlashdan oldin tozalangan ish joyi; Xom mahsulot — hali pishirilmagan mahsulot; Tayyor taom — iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati. Misol: Virtual meva salatini rejalash: Retsept va mahsulotlar ro‘yxatini tanlash → Yaroqlilik va saqlash shartlarini tekshirish → Qo‘l va ish joyi tozaligini rejalash → Yuvilgan mevalarni aralashtirish bosqichini belgilash. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ],
+   "lessonSize": 6
+  },
+  {
+   "id": "technology_g5.service_home",
+   "code": "S3",
+   "emoji": "🏡",
+   "title": {
+    "uz": "Uy buyumlari va tejamkor loyiha",
+    "en": "Household organization and resource planning",
+    "ru": "Порядок дома и экономный проект"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Buyumlar ro‘yxati — mavjud narsalarni yozib chiqish; Guruhlash — bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — eski buyumdan yangi maqsadda foydalanish; Tejamkor reja — kerakli materialni isrofsiz belgilash; Suvni tejash — keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — keraksiz yoritishni o‘chirish; Sinov mezoni — tartiblagich vazifasini baholash sharti. Misol: O‘quv buyumlari tartiblagichini rejalash: Buyumlar ro‘yxatini tuzish → Buyumlarni vazifasiga qarab guruhlash → Har guruh uchun bo‘lim eskizini chizish → Qayta ishlatiladigan toza qutini tanlash. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_home_workshop",
+   "code": "S3A",
+   "emoji": "🧰",
+   "title": {
+    "uz": "Amaliy ustaxona: Uy buyumlari va tejamkor loyiha",
+    "en": "Workshop: Household organization and resource planning",
+    "ru": "Практикум: Порядок дома и экономный проект"
+   },
+   "generator": "workshop",
+   "skill": "workshop",
+   "chapter": "4-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "source": "technology_g5.service_home",
+     "pairs": 3
+    },
+    {
+     "source": "technology_g5.service_home",
+     "pairs": 4
+    },
+    {
+     "source": "technology_g5.service_home",
+     "pairs": 5
+    }
+   ],
+   "theory": {
+    "uz": "Bu darsda buyumning vazifasini aniqlaymiz, reja tuzamiz va natijani tekshiramiz. Buyumlar ro‘yxati — mavjud narsalarni yozib chiqish; Guruhlash — bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — eski buyumdan yangi maqsadda foydalanish; Tejamkor reja — kerakli materialni isrofsiz belgilash; Suvni tejash — keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — keraksiz yoritishni o‘chirish; Sinov mezoni — tartiblagich vazifasini baholash sharti. Misol: O‘quv buyumlari tartiblagichini rejalash: Buyumlar ro‘yxatini tuzish → Buyumlarni vazifasiga qarab guruhlash → Har guruh uchun bo‘lim eskizini chizish → Qayta ishlatiladigan toza qutini tanlash. Mashqlar virtual; amaliy ish kattalar bilan bajariladi."
+   },
+   "tags": [
+    "track:service"
+   ],
+   "lessonSize": 6
+  },
+  {
+   "id": "technology_g5.service_test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: 1-nazorat",
+    "en": "Service test 1",
+    "ru": "Сервис: контроль 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.service_sewing"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.service_sewing"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.service_sewing"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: 2-nazorat",
+    "en": "Service test 2",
+    "ru": "Сервис: контроль 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.service_food"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.service_food"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.service_food"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: 3-nazorat",
+    "en": "Service test 3",
+    "ru": "Сервис: контроль 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Servis va hunarmandchilik",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.service_home"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.service_home"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.service_home"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
+   ]
+  },
+  {
+   "id": "technology_g5.service_final",
+   "code": "SY",
+   "emoji": "📝",
+   "title": {
+    "uz": "Servis: yakuniy nazorat",
+    "en": "Service final test",
+    "ru": "Сервис: итоговая работа"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy nazorat",
+   "prerequisites": [],
+   "lessonSize": 10,
+   "levels": [
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.service_sewing",
+      "technology_g5.service_food",
+      "technology_g5.service_home"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.service_sewing",
+      "technology_g5.service_food",
+      "technology_g5.service_home"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "technology_g5.design",
+      "technology_g5.materials",
+      "technology_g5.service_sewing",
+      "technology_g5.service_food",
+      "technology_g5.service_home"
+     ],
+     "level": 3
+    }
+   ],
+   "tags": [
+    "track:service"
    ]
   }
  ]

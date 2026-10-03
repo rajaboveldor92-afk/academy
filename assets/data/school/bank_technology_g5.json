@@ -1436,6 +1436,1035 @@
      1
     ]
    ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_70",
+   "t": "choice",
+   "q": "«Paxta tolasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Paxta tolasi — paxta o‘simligidan olinadigan tola.",
+   "h": "Paxta tolasi — paxta o‘simligidan olinadigan tola.",
+   "d": 1,
+   "a": "Paxta o‘simligidan olinadigan tola",
+   "w": [
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola",
+    "O‘zaro to‘qilgan iplardan tayyorlangan material"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_71",
+   "t": "choice",
+   "q": "«Jun tolasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Jun tolasi — hayvon junidan olinadigan tola.",
+   "h": "Jun tolasi — hayvon junidan olinadigan tola.",
+   "d": 1,
+   "a": "Hayvon junidan olinadigan tola",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola",
+    "O‘zaro to‘qilgan iplardan tayyorlangan material"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_72",
+   "t": "choice",
+   "q": "«Sintetik tola» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sintetik tola — kimyoviy usulda tayyorlanadigan tola.",
+   "h": "Sintetik tola — kimyoviy usulda tayyorlanadigan tola.",
+   "d": 1,
+   "a": "Kimyoviy usulda tayyorlanadigan tola",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "O‘zaro to‘qilgan iplardan tayyorlangan material"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_73",
+   "t": "choice",
+   "q": "«Gazlama» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Gazlama — o‘zaro to‘qilgan iplardan tayyorlangan material.",
+   "h": "Gazlama — o‘zaro to‘qilgan iplardan tayyorlangan material.",
+   "d": 1,
+   "a": "O‘zaro to‘qilgan iplardan tayyorlangan material",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_74",
+   "t": "choice",
+   "q": "«Andoza» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Andoza — detal konturining qog‘oz namunasi.",
+   "h": "Andoza — detal konturining qog‘oz namunasi.",
+   "d": 1,
+   "a": "Detal konturining qog‘oz namunasi",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_75",
+   "t": "choice",
+   "q": "«Chok haqi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chok haqi — biriktirish uchun qoldiriladigan qo‘shimcha chet.",
+   "h": "Chok haqi — biriktirish uchun qoldiriladigan qo‘shimcha chet.",
+   "d": 1,
+   "a": "Biriktirish uchun qoldiriladigan qo‘shimcha chet",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_76",
+   "t": "choice",
+   "q": "«O‘lchov lentasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "O‘lchov lentasi — egiluvchan buyum uzunligini o‘lchash vositasi.",
+   "h": "O‘lchov lentasi — egiluvchan buyum uzunligini o‘lchash vositasi.",
+   "d": 1,
+   "a": "Egiluvchan buyum uzunligini o‘lchash vositasi",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_77",
+   "t": "choice",
+   "q": "«Chok chizig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Chok chizig‘i — qismlar biriktiriladigan belgilangan yo‘l.",
+   "h": "Chok chizig‘i — qismlar biriktiriladigan belgilangan yo‘l.",
+   "d": 1,
+   "a": "Qismlar biriktiriladigan belgilangan yo‘l",
+   "w": [
+    "Paxta o‘simligidan olinadigan tola",
+    "Hayvon junidan olinadigan tola",
+    "Kimyoviy usulda tayyorlanadigan tola"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_78",
+   "t": "order",
+   "q": "Mato g‘ilofini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Ichiga solinadigan buyumni o‘lchash → Qog‘oz eskizini chizish → Chok haqi bilan andoza tayyorlash → Andozani buyum o‘lchami bilan tekshirish.",
+   "h": "Ichiga solinadigan buyumni o‘lchash → Qog‘oz eskizini chizish → Chok haqi bilan andoza tayyorlash → Andozani buyum o‘lchami bilan tekshirish.",
+   "d": 1,
+   "parts": [
+    "Ichiga solinadigan buyumni o‘lchash",
+    "Qog‘oz eskizini chizish",
+    "Chok haqi bilan andoza tayyorlash",
+    "Andozani buyum o‘lchami bilan tekshirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_79",
+   "t": "order",
+   "q": "Gazlamani tejamli bichishni rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Andozalar sonini aniqlash → Gazlama yuzasini tekislash → Andozalarni kam chiqindi bilan joylash → Detal va chok chiziqlarini belgilash.",
+   "h": "Andozalar sonini aniqlash → Gazlama yuzasini tekislash → Andozalarni kam chiqindi bilan joylash → Detal va chok chiziqlarini belgilash.",
+   "d": 1,
+   "parts": [
+    "Andozalar sonini aniqlash",
+    "Gazlama yuzasini tekislash",
+    "Andozalarni kam chiqindi bilan joylash",
+    "Detal va chok chiziqlarini belgilash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_80",
+   "t": "order",
+   "q": "Tikuv loyihasini baholash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyum talablarini qayta o‘qish → O‘lchamlarni talab bilan solishtirish → Chok chiziqlari mosligini tekshirish → Tuzatish kerak bo‘lgan joyni yozish.",
+   "h": "Buyum talablarini qayta o‘qish → O‘lchamlarni talab bilan solishtirish → Chok chiziqlari mosligini tekshirish → Tuzatish kerak bo‘lgan joyni yozish.",
+   "d": 1,
+   "parts": [
+    "Buyum talablarini qayta o‘qish",
+    "O‘lchamlarni talab bilan solishtirish",
+    "Chok chiziqlari mosligini tekshirish",
+    "Tuzatish kerak bo‘lgan joyni yozish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_81",
+   "t": "match",
+   "q": "To‘qimachilik va tikuv loyihasi: asosiy juftliklarni moslang.",
+   "x": "Paxta tolasi — Paxta o‘simligidan olinadigan tola; Jun tolasi — Hayvon junidan olinadigan tola; Sintetik tola — Kimyoviy usulda tayyorlanadigan tola; Gazlama — O‘zaro to‘qilgan iplardan tayyorlangan material.",
+   "h": "Paxta tolasi — Paxta o‘simligidan olinadigan tola; Jun tolasi — Hayvon junidan olinadigan tola; Sintetik tola — Kimyoviy usulda tayyorlanadigan tola; Gazlama — O‘zaro to‘qilgan iplardan tayyorlangan material.",
+   "d": 1,
+   "pairs": [
+    [
+     "Paxta tolasi",
+     "Paxta o‘simligidan olinadigan tola"
+    ],
+    [
+     "Jun tolasi",
+     "Hayvon junidan olinadigan tola"
+    ],
+    [
+     "Sintetik tola",
+     "Kimyoviy usulda tayyorlanadigan tola"
+    ],
+    [
+     "Gazlama",
+     "O‘zaro to‘qilgan iplardan tayyorlangan material"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_82",
+   "t": "match",
+   "q": "To‘qimachilik va tikuv loyihasi: amaliy juftliklarni moslang.",
+   "x": "Andoza — Detal konturining qog‘oz namunasi; Chok haqi — Biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — Egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — Qismlar biriktiriladigan belgilangan yo‘l.",
+   "h": "Andoza — Detal konturining qog‘oz namunasi; Chok haqi — Biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — Egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — Qismlar biriktiriladigan belgilangan yo‘l.",
+   "d": 1,
+   "pairs": [
+    [
+     "Andoza",
+     "Detal konturining qog‘oz namunasi"
+    ],
+    [
+     "Chok haqi",
+     "Biriktirish uchun qoldiriladigan qo‘shimcha chet"
+    ],
+    [
+     "O‘lchov lentasi",
+     "Egiluvchan buyum uzunligini o‘lchash vositasi"
+    ],
+    [
+     "Chok chizig‘i",
+     "Qismlar biriktiriladigan belgilangan yo‘l"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_83",
+   "t": "match",
+   "q": "To‘qimachilik va tikuv loyihasi: mavzuni mustahkamlashni moslang.",
+   "x": "Paxta tolasi — Paxta o‘simligidan olinadigan tola; Jun tolasi — Hayvon junidan olinadigan tola; Sintetik tola — Kimyoviy usulda tayyorlanadigan tola; Gazlama — O‘zaro to‘qilgan iplardan tayyorlangan material; Andoza — Detal konturining qog‘oz namunasi; Chok haqi — Biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — Egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — Qismlar biriktiriladigan belgilangan yo‘l.",
+   "h": "Paxta tolasi — Paxta o‘simligidan olinadigan tola; Jun tolasi — Hayvon junidan olinadigan tola; Sintetik tola — Kimyoviy usulda tayyorlanadigan tola; Gazlama — O‘zaro to‘qilgan iplardan tayyorlangan material; Andoza — Detal konturining qog‘oz namunasi; Chok haqi — Biriktirish uchun qoldiriladigan qo‘shimcha chet; O‘lchov lentasi — Egiluvchan buyum uzunligini o‘lchash vositasi; Chok chizig‘i — Qismlar biriktiriladigan belgilangan yo‘l.",
+   "d": 1,
+   "pairs": [
+    [
+     "Paxta tolasi",
+     "Paxta o‘simligidan olinadigan tola"
+    ],
+    [
+     "Jun tolasi",
+     "Hayvon junidan olinadigan tola"
+    ],
+    [
+     "Sintetik tola",
+     "Kimyoviy usulda tayyorlanadigan tola"
+    ],
+    [
+     "Gazlama",
+     "O‘zaro to‘qilgan iplardan tayyorlangan material"
+    ],
+    [
+     "Andoza",
+     "Detal konturining qog‘oz namunasi"
+    ],
+    [
+     "Chok haqi",
+     "Biriktirish uchun qoldiriladigan qo‘shimcha chet"
+    ],
+    [
+     "O‘lchov lentasi",
+     "Egiluvchan buyum uzunligini o‘lchash vositasi"
+    ],
+    [
+     "Chok chizig‘i",
+     "Qismlar biriktiriladigan belgilangan yo‘l"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_84",
+   "t": "sort",
+   "q": "Tolalarni tabiiy va sintetik guruhga ajrating.",
+   "x": "Tabiiy: Paxta, Jun, Zig‘ir; Sintetik: Poliester, Neylon, Akril.",
+   "h": "Tabiiy: Paxta, Jun, Zig‘ir; Sintetik: Poliester, Neylon, Akril.",
+   "d": 1,
+   "bins": [
+    "Tabiiy",
+    "Sintetik"
+   ],
+   "items": [
+    [
+     "Paxta",
+     0
+    ],
+    [
+     "Jun",
+     0
+    ],
+    [
+     "Zig‘ir",
+     0
+    ],
+    [
+     "Poliester",
+     1
+    ],
+    [
+     "Neylon",
+     1
+    ],
+    [
+     "Akril",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_sewing",
+   "id": "service_sewing_85",
+   "t": "sort",
+   "q": "Bichish rejasidagi mos va nomos ishlarni ajrating.",
+   "x": "Mos: O‘lchovlarni yozish, Chok haqi qoldirish, Avval andozani sinash; Tuzatish kerak: Chok haqini unutish, Andozani chetdan chiqarish, O‘lchovsiz kesish.",
+   "h": "Mos: O‘lchovlarni yozish, Chok haqi qoldirish, Avval andozani sinash; Tuzatish kerak: Chok haqini unutish, Andozani chetdan chiqarish, O‘lchovsiz kesish.",
+   "d": 1,
+   "bins": [
+    "Mos",
+    "Tuzatish kerak"
+   ],
+   "items": [
+    [
+     "O‘lchovlarni yozish",
+     0
+    ],
+    [
+     "Chok haqi qoldirish",
+     0
+    ],
+    [
+     "Avval andozani sinash",
+     0
+    ],
+    [
+     "Chok haqini unutish",
+     1
+    ],
+    [
+     "Andozani chetdan chiqarish",
+     1
+    ],
+    [
+     "O‘lchovsiz kesish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_86",
+   "t": "choice",
+   "q": "«Qo‘l gigiyenasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qo‘l gigiyenasi — taomga tegishdan oldin qo‘lni yuvish.",
+   "h": "Qo‘l gigiyenasi — taomga tegishdan oldin qo‘lni yuvish.",
+   "d": 1,
+   "a": "Taomga tegishdan oldin qo‘lni yuvish",
+   "w": [
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi",
+    "Taom tayyorlashdan oldin tozalangan ish joyi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_87",
+   "t": "choice",
+   "q": "«Yaroqlilik muddati» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yaroqlilik muddati — mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti.",
+   "h": "Yaroqlilik muddati — mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti.",
+   "d": 1,
+   "a": "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi",
+    "Taom tayyorlashdan oldin tozalangan ish joyi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_88",
+   "t": "choice",
+   "q": "«Yorliq» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Yorliq — mahsulot tarkibi va saqlash shartlari yozuvi.",
+   "h": "Yorliq — mahsulot tarkibi va saqlash shartlari yozuvi.",
+   "d": 1,
+   "a": "Mahsulot tarkibi va saqlash shartlari yozuvi",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Taom tayyorlashdan oldin tozalangan ish joyi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_89",
+   "t": "choice",
+   "q": "«Toza sirt» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Toza sirt — taom tayyorlashdan oldin tozalangan ish joyi.",
+   "h": "Toza sirt — taom tayyorlashdan oldin tozalangan ish joyi.",
+   "d": 1,
+   "a": "Taom tayyorlashdan oldin tozalangan ish joyi",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_90",
+   "t": "choice",
+   "q": "«Xom mahsulot» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Xom mahsulot — hali pishirilmagan mahsulot.",
+   "h": "Xom mahsulot — hali pishirilmagan mahsulot.",
+   "d": 1,
+   "a": "Hali pishirilmagan mahsulot",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_91",
+   "t": "choice",
+   "q": "«Tayyor taom» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Tayyor taom — iste’mol qilish uchun tayyorlangan ovqat.",
+   "h": "Tayyor taom — iste’mol qilish uchun tayyorlangan ovqat.",
+   "d": 1,
+   "a": "Iste’mol qilish uchun tayyorlangan ovqat",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_92",
+   "t": "choice",
+   "q": "«Alohida saqlash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Alohida saqlash — xom va tayyor mahsulot tegishishini oldini olish.",
+   "h": "Alohida saqlash — xom va tayyor mahsulot tegishishini oldini olish.",
+   "d": 1,
+   "a": "Xom va tayyor mahsulot tegishishini oldini olish",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_93",
+   "t": "choice",
+   "q": "«Retsept rejasi» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Retsept rejasi — mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "h": "Retsept rejasi — mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "d": 1,
+   "a": "Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati",
+   "w": [
+    "Taomga tegishdan oldin qo‘lni yuvish",
+    "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti",
+    "Mahsulot tarkibi va saqlash shartlari yozuvi"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_94",
+   "t": "order",
+   "q": "Virtual meva salatini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Retsept va mahsulotlar ro‘yxatini tanlash → Yaroqlilik va saqlash shartlarini tekshirish → Qo‘l va ish joyi tozaligini rejalash → Yuvilgan mevalarni aralashtirish bosqichini belgilash.",
+   "h": "Retsept va mahsulotlar ro‘yxatini tanlash → Yaroqlilik va saqlash shartlarini tekshirish → Qo‘l va ish joyi tozaligini rejalash → Yuvilgan mevalarni aralashtirish bosqichini belgilash.",
+   "d": 1,
+   "parts": [
+    "Retsept va mahsulotlar ro‘yxatini tanlash",
+    "Yaroqlilik va saqlash shartlarini tekshirish",
+    "Qo‘l va ish joyi tozaligini rejalash",
+    "Yuvilgan mevalarni aralashtirish bosqichini belgilash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_95",
+   "t": "order",
+   "q": "Mahsulot yorlig‘ini tekshirish: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Mahsulot nomini o‘qish → Tarkibini o‘qish → Yaroqlilik muddatini tekshirish → Saqlash shartini tekshirish.",
+   "h": "Mahsulot nomini o‘qish → Tarkibini o‘qish → Yaroqlilik muddatini tekshirish → Saqlash shartini tekshirish.",
+   "d": 1,
+   "parts": [
+    "Mahsulot nomini o‘qish",
+    "Tarkibini o‘qish",
+    "Yaroqlilik muddatini tekshirish",
+    "Saqlash shartini tekshirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_96",
+   "t": "order",
+   "q": "Sovuq taom tayyorlash joyini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Stoldagi ortiqcha buyumlarni olish → Ish sirtini tozalash → Toza idishlarni joylash → Mahsulotlarni alohida joylashtirish.",
+   "h": "Stoldagi ortiqcha buyumlarni olish → Ish sirtini tozalash → Toza idishlarni joylash → Mahsulotlarni alohida joylashtirish.",
+   "d": 1,
+   "parts": [
+    "Stoldagi ortiqcha buyumlarni olish",
+    "Ish sirtini tozalash",
+    "Toza idishlarni joylash",
+    "Mahsulotlarni alohida joylashtirish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_97",
+   "t": "match",
+   "q": "Ovqatlanish gigiyenasi va sovuq taom rejasi: asosiy juftliklarni moslang.",
+   "x": "Qo‘l gigiyenasi — Taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — Mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — Taom tayyorlashdan oldin tozalangan ish joyi.",
+   "h": "Qo‘l gigiyenasi — Taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — Mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — Taom tayyorlashdan oldin tozalangan ish joyi.",
+   "d": 1,
+   "pairs": [
+    [
+     "Qo‘l gigiyenasi",
+     "Taomga tegishdan oldin qo‘lni yuvish"
+    ],
+    [
+     "Yaroqlilik muddati",
+     "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti"
+    ],
+    [
+     "Yorliq",
+     "Mahsulot tarkibi va saqlash shartlari yozuvi"
+    ],
+    [
+     "Toza sirt",
+     "Taom tayyorlashdan oldin tozalangan ish joyi"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_98",
+   "t": "match",
+   "q": "Ovqatlanish gigiyenasi va sovuq taom rejasi: amaliy juftliklarni moslang.",
+   "x": "Xom mahsulot — Hali pishirilmagan mahsulot; Tayyor taom — Iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — Xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "h": "Xom mahsulot — Hali pishirilmagan mahsulot; Tayyor taom — Iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — Xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "d": 1,
+   "pairs": [
+    [
+     "Xom mahsulot",
+     "Hali pishirilmagan mahsulot"
+    ],
+    [
+     "Tayyor taom",
+     "Iste’mol qilish uchun tayyorlangan ovqat"
+    ],
+    [
+     "Alohida saqlash",
+     "Xom va tayyor mahsulot tegishishini oldini olish"
+    ],
+    [
+     "Retsept rejasi",
+     "Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_99",
+   "t": "match",
+   "q": "Ovqatlanish gigiyenasi va sovuq taom rejasi: mavzuni mustahkamlashni moslang.",
+   "x": "Qo‘l gigiyenasi — Taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — Mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — Taom tayyorlashdan oldin tozalangan ish joyi; Xom mahsulot — Hali pishirilmagan mahsulot; Tayyor taom — Iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — Xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "h": "Qo‘l gigiyenasi — Taomga tegishdan oldin qo‘lni yuvish; Yaroqlilik muddati — Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti; Yorliq — Mahsulot tarkibi va saqlash shartlari yozuvi; Toza sirt — Taom tayyorlashdan oldin tozalangan ish joyi; Xom mahsulot — Hali pishirilmagan mahsulot; Tayyor taom — Iste’mol qilish uchun tayyorlangan ovqat; Alohida saqlash — Xom va tayyor mahsulot tegishishini oldini olish; Retsept rejasi — Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati.",
+   "d": 1,
+   "pairs": [
+    [
+     "Qo‘l gigiyenasi",
+     "Taomga tegishdan oldin qo‘lni yuvish"
+    ],
+    [
+     "Yaroqlilik muddati",
+     "Mahsulot yorlig‘ida ko‘rsatilgan foydalanish vaqti"
+    ],
+    [
+     "Yorliq",
+     "Mahsulot tarkibi va saqlash shartlari yozuvi"
+    ],
+    [
+     "Toza sirt",
+     "Taom tayyorlashdan oldin tozalangan ish joyi"
+    ],
+    [
+     "Xom mahsulot",
+     "Hali pishirilmagan mahsulot"
+    ],
+    [
+     "Tayyor taom",
+     "Iste’mol qilish uchun tayyorlangan ovqat"
+    ],
+    [
+     "Alohida saqlash",
+     "Xom va tayyor mahsulot tegishishini oldini olish"
+    ],
+    [
+     "Retsept rejasi",
+     "Mahsulotlar va qadamlarning oldindan yozilgan ro‘yxati"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_100",
+   "t": "sort",
+   "q": "Gigiyenaga mos va nomos holatlarni ajrating.",
+   "x": "Mos: Qo‘lni yuvish, Toza idish ishlatish, Yorliqni tekshirish; Nomos: Iflos sirtga meva qo‘yish, Xom va tayyor taomni aralashtirish, Mog‘orlagan mahsulotni ishlatish.",
+   "h": "Mos: Qo‘lni yuvish, Toza idish ishlatish, Yorliqni tekshirish; Nomos: Iflos sirtga meva qo‘yish, Xom va tayyor taomni aralashtirish, Mog‘orlagan mahsulotni ishlatish.",
+   "d": 1,
+   "bins": [
+    "Mos",
+    "Nomos"
+   ],
+   "items": [
+    [
+     "Qo‘lni yuvish",
+     0
+    ],
+    [
+     "Toza idish ishlatish",
+     0
+    ],
+    [
+     "Yorliqni tekshirish",
+     0
+    ],
+    [
+     "Iflos sirtga meva qo‘yish",
+     1
+    ],
+    [
+     "Xom va tayyor taomni aralashtirish",
+     1
+    ],
+    [
+     "Mog‘orlagan mahsulotni ishlatish",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_food",
+   "id": "service_food_101",
+   "t": "sort",
+   "q": "Mahsulotni tekshirish va stolni bezash ishlarini ajrating.",
+   "x": "Mahsulotni tekshirish: Yaroqlilikni o‘qish, Tarkibni o‘qish, Saqlash shartini o‘qish; Stolni bezash: Salfetka rangini tanlash, Taglik naqshini tanlash, Gullarni joylash.",
+   "h": "Mahsulotni tekshirish: Yaroqlilikni o‘qish, Tarkibni o‘qish, Saqlash shartini o‘qish; Stolni bezash: Salfetka rangini tanlash, Taglik naqshini tanlash, Gullarni joylash.",
+   "d": 1,
+   "bins": [
+    "Mahsulotni tekshirish",
+    "Stolni bezash"
+   ],
+   "items": [
+    [
+     "Yaroqlilikni o‘qish",
+     0
+    ],
+    [
+     "Tarkibni o‘qish",
+     0
+    ],
+    [
+     "Saqlash shartini o‘qish",
+     0
+    ],
+    [
+     "Salfetka rangini tanlash",
+     1
+    ],
+    [
+     "Taglik naqshini tanlash",
+     1
+    ],
+    [
+     "Gullarni joylash",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_102",
+   "t": "choice",
+   "q": "«Buyumlar ro‘yxati» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Buyumlar ro‘yxati — mavjud narsalarni yozib chiqish.",
+   "h": "Buyumlar ro‘yxati — mavjud narsalarni yozib chiqish.",
+   "d": 1,
+   "a": "Mavjud narsalarni yozib chiqish",
+   "w": [
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish",
+    "Eski buyumdan yangi maqsadda foydalanish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_103",
+   "t": "choice",
+   "q": "«Guruhlash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Guruhlash — bir vazifadagi narsalarni bir joyga ajratish.",
+   "h": "Guruhlash — bir vazifadagi narsalarni bir joyga ajratish.",
+   "d": 1,
+   "a": "Bir vazifadagi narsalarni bir joyga ajratish",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Quti ichidagi guruh nomini ko‘rsatish",
+    "Eski buyumdan yangi maqsadda foydalanish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_104",
+   "t": "choice",
+   "q": "«Belgi yorlig‘i» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Belgi yorlig‘i — quti ichidagi guruh nomini ko‘rsatish.",
+   "h": "Belgi yorlig‘i — quti ichidagi guruh nomini ko‘rsatish.",
+   "d": 1,
+   "a": "Quti ichidagi guruh nomini ko‘rsatish",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Eski buyumdan yangi maqsadda foydalanish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_105",
+   "t": "choice",
+   "q": "«Qayta foydalanish» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Qayta foydalanish — eski buyumdan yangi maqsadda foydalanish.",
+   "h": "Qayta foydalanish — eski buyumdan yangi maqsadda foydalanish.",
+   "d": 1,
+   "a": "Eski buyumdan yangi maqsadda foydalanish",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_106",
+   "t": "choice",
+   "q": "«Tejamkor reja» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Tejamkor reja — kerakli materialni isrofsiz belgilash.",
+   "h": "Tejamkor reja — kerakli materialni isrofsiz belgilash.",
+   "d": 1,
+   "a": "Kerakli materialni isrofsiz belgilash",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_107",
+   "t": "choice",
+   "q": "«Suvni tejash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Suvni tejash — keraksiz oqayotgan suvni to‘xtatish.",
+   "h": "Suvni tejash — keraksiz oqayotgan suvni to‘xtatish.",
+   "d": 1,
+   "a": "Keraksiz oqayotgan suvni to‘xtatish",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_108",
+   "t": "choice",
+   "q": "«Elektrni tejash» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Elektrni tejash — keraksiz yoritishni o‘chirish.",
+   "h": "Elektrni tejash — keraksiz yoritishni o‘chirish.",
+   "d": 1,
+   "a": "Keraksiz yoritishni o‘chirish",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_109",
+   "t": "choice",
+   "q": "«Sinov mezoni» uchun mos vazifa yoki tavsifni tanlang.",
+   "x": "Sinov mezoni — tartiblagich vazifasini baholash sharti.",
+   "h": "Sinov mezoni — tartiblagich vazifasini baholash sharti.",
+   "d": 1,
+   "a": "Tartiblagich vazifasini baholash sharti",
+   "w": [
+    "Mavjud narsalarni yozib chiqish",
+    "Bir vazifadagi narsalarni bir joyga ajratish",
+    "Quti ichidagi guruh nomini ko‘rsatish"
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_110",
+   "t": "order",
+   "q": "O‘quv buyumlari tartiblagichini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyumlar ro‘yxatini tuzish → Buyumlarni vazifasiga qarab guruhlash → Har guruh uchun bo‘lim eskizini chizish → Qayta ishlatiladigan toza qutini tanlash.",
+   "h": "Buyumlar ro‘yxatini tuzish → Buyumlarni vazifasiga qarab guruhlash → Har guruh uchun bo‘lim eskizini chizish → Qayta ishlatiladigan toza qutini tanlash.",
+   "d": 1,
+   "parts": [
+    "Buyumlar ro‘yxatini tuzish",
+    "Buyumlarni vazifasiga qarab guruhlash",
+    "Har guruh uchun bo‘lim eskizini chizish",
+    "Qayta ishlatiladigan toza qutini tanlash"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_111",
+   "t": "order",
+   "q": "Tartiblagichni sinash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyumlarni bo‘limlarga joylash → Har bo‘lim yorlig‘ini tekshirish → Buyumni tez topishni sinash → Kerak bo‘lsa bo‘lim o‘lchamini tuzatish.",
+   "h": "Buyumlarni bo‘limlarga joylash → Har bo‘lim yorlig‘ini tekshirish → Buyumni tez topishni sinash → Kerak bo‘lsa bo‘lim o‘lchamini tuzatish.",
+   "d": 1,
+   "parts": [
+    "Buyumlarni bo‘limlarga joylash",
+    "Har bo‘lim yorlig‘ini tekshirish",
+    "Buyumni tez topishni sinash",
+    "Kerak bo‘lsa bo‘lim o‘lchamini tuzatish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_112",
+   "t": "order",
+   "q": "Material xarajatini rejalash: qadamlarni to‘g‘ri tartibda bosing.",
+   "x": "Buyumning o‘lchamini belgilash → Kerakli detallarni sanash → Mavjud material miqdorini tekshirish → Faqat yetishmaydigan materialni yozish.",
+   "h": "Buyumning o‘lchamini belgilash → Kerakli detallarni sanash → Mavjud material miqdorini tekshirish → Faqat yetishmaydigan materialni yozish.",
+   "d": 1,
+   "parts": [
+    "Buyumning o‘lchamini belgilash",
+    "Kerakli detallarni sanash",
+    "Mavjud material miqdorini tekshirish",
+    "Faqat yetishmaydigan materialni yozish"
+   ],
+   "sep": " → "
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_113",
+   "t": "match",
+   "q": "Uy buyumlari va tejamkor loyiha: asosiy juftliklarni moslang.",
+   "x": "Buyumlar ro‘yxati — Mavjud narsalarni yozib chiqish; Guruhlash — Bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — Quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — Eski buyumdan yangi maqsadda foydalanish.",
+   "h": "Buyumlar ro‘yxati — Mavjud narsalarni yozib chiqish; Guruhlash — Bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — Quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — Eski buyumdan yangi maqsadda foydalanish.",
+   "d": 1,
+   "pairs": [
+    [
+     "Buyumlar ro‘yxati",
+     "Mavjud narsalarni yozib chiqish"
+    ],
+    [
+     "Guruhlash",
+     "Bir vazifadagi narsalarni bir joyga ajratish"
+    ],
+    [
+     "Belgi yorlig‘i",
+     "Quti ichidagi guruh nomini ko‘rsatish"
+    ],
+    [
+     "Qayta foydalanish",
+     "Eski buyumdan yangi maqsadda foydalanish"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_114",
+   "t": "match",
+   "q": "Uy buyumlari va tejamkor loyiha: amaliy juftliklarni moslang.",
+   "x": "Tejamkor reja — Kerakli materialni isrofsiz belgilash; Suvni tejash — Keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — Keraksiz yoritishni o‘chirish; Sinov mezoni — Tartiblagich vazifasini baholash sharti.",
+   "h": "Tejamkor reja — Kerakli materialni isrofsiz belgilash; Suvni tejash — Keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — Keraksiz yoritishni o‘chirish; Sinov mezoni — Tartiblagich vazifasini baholash sharti.",
+   "d": 1,
+   "pairs": [
+    [
+     "Tejamkor reja",
+     "Kerakli materialni isrofsiz belgilash"
+    ],
+    [
+     "Suvni tejash",
+     "Keraksiz oqayotgan suvni to‘xtatish"
+    ],
+    [
+     "Elektrni tejash",
+     "Keraksiz yoritishni o‘chirish"
+    ],
+    [
+     "Sinov mezoni",
+     "Tartiblagich vazifasini baholash sharti"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_115",
+   "t": "match",
+   "q": "Uy buyumlari va tejamkor loyiha: mavzuni mustahkamlashni moslang.",
+   "x": "Buyumlar ro‘yxati — Mavjud narsalarni yozib chiqish; Guruhlash — Bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — Quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — Eski buyumdan yangi maqsadda foydalanish; Tejamkor reja — Kerakli materialni isrofsiz belgilash; Suvni tejash — Keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — Keraksiz yoritishni o‘chirish; Sinov mezoni — Tartiblagich vazifasini baholash sharti.",
+   "h": "Buyumlar ro‘yxati — Mavjud narsalarni yozib chiqish; Guruhlash — Bir vazifadagi narsalarni bir joyga ajratish; Belgi yorlig‘i — Quti ichidagi guruh nomini ko‘rsatish; Qayta foydalanish — Eski buyumdan yangi maqsadda foydalanish; Tejamkor reja — Kerakli materialni isrofsiz belgilash; Suvni tejash — Keraksiz oqayotgan suvni to‘xtatish; Elektrni tejash — Keraksiz yoritishni o‘chirish; Sinov mezoni — Tartiblagich vazifasini baholash sharti.",
+   "d": 1,
+   "pairs": [
+    [
+     "Buyumlar ro‘yxati",
+     "Mavjud narsalarni yozib chiqish"
+    ],
+    [
+     "Guruhlash",
+     "Bir vazifadagi narsalarni bir joyga ajratish"
+    ],
+    [
+     "Belgi yorlig‘i",
+     "Quti ichidagi guruh nomini ko‘rsatish"
+    ],
+    [
+     "Qayta foydalanish",
+     "Eski buyumdan yangi maqsadda foydalanish"
+    ],
+    [
+     "Tejamkor reja",
+     "Kerakli materialni isrofsiz belgilash"
+    ],
+    [
+     "Suvni tejash",
+     "Keraksiz oqayotgan suvni to‘xtatish"
+    ],
+    [
+     "Elektrni tejash",
+     "Keraksiz yoritishni o‘chirish"
+    ],
+    [
+     "Sinov mezoni",
+     "Tartiblagich vazifasini baholash sharti"
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_116",
+   "t": "sort",
+   "q": "Tejash va isrof holatlarini ajrating.",
+   "x": "Tejash: Bo‘sh xonada chiroqni o‘chirish, Keraksiz oqayotgan kranni yopish, Toza qutini qayta ishlatish; Isrof: Bo‘sh xonada chiroqni yoqib qo‘yish, Kranni ochiq unutish, Yaroqli kartonni tashlash.",
+   "h": "Tejash: Bo‘sh xonada chiroqni o‘chirish, Keraksiz oqayotgan kranni yopish, Toza qutini qayta ishlatish; Isrof: Bo‘sh xonada chiroqni yoqib qo‘yish, Kranni ochiq unutish, Yaroqli kartonni tashlash.",
+   "d": 1,
+   "bins": [
+    "Tejash",
+    "Isrof"
+   ],
+   "items": [
+    [
+     "Bo‘sh xonada chiroqni o‘chirish",
+     0
+    ],
+    [
+     "Keraksiz oqayotgan kranni yopish",
+     0
+    ],
+    [
+     "Toza qutini qayta ishlatish",
+     0
+    ],
+    [
+     "Bo‘sh xonada chiroqni yoqib qo‘yish",
+     1
+    ],
+    [
+     "Kranni ochiq unutish",
+     1
+    ],
+    [
+     "Yaroqli kartonni tashlash",
+     1
+    ]
+   ]
+  },
+  {
+   "topic": "technology_g5.service_home",
+   "id": "service_home_117",
+   "t": "sort",
+   "q": "Buyumlarni o‘quv qurollari va dasturxon guruhiga ajrating.",
+   "x": "O‘quv quroli: Qalam, Chizg‘ich, Daftar; Dasturxon: Salfetka, Piyola, Likopcha.",
+   "h": "O‘quv quroli: Qalam, Chizg‘ich, Daftar; Dasturxon: Salfetka, Piyola, Likopcha.",
+   "d": 1,
+   "bins": [
+    "O‘quv quroli",
+    "Dasturxon"
+   ],
+   "items": [
+    [
+     "Qalam",
+     0
+    ],
+    [
+     "Chizg‘ich",
+     0
+    ],
+    [
+     "Daftar",
+     0
+    ],
+    [
+     "Salfetka",
+     1
+    ],
+    [
+     "Piyola",
+     1
+    ],
+    [
+     "Likopcha",
+     1
+    ]
+   ]
   }
  ]
 }

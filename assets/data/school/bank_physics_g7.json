@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Yo‘l» uchun mos ma’noni tanlang.",
+   "a": "Jism bosib o‘tgan masofa",
+   "w": [
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati",
+    "Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma"
+   ],
+   "d": 1,
+   "x": "Yo‘l — Jism bosib o‘tgan masofa. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Yo‘l — Jism bosib o‘tgan masofa. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Jism bosib o‘tgan masofa» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yo‘l",
+   "w": [
+    "Vaqt",
+    "O‘rtacha tezlik",
+    "Ko‘chish"
+   ],
+   "d": 2,
+   "x": "Yo‘l — Jism bosib o‘tgan masofa. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Yo‘l — Jism bosib o‘tgan masofa. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Vaqt» uchun mos ma’noni tanlang.",
+   "a": "Harakat davom etish oralig‘i",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Umumiy yo‘lning umumiy vaqtga nisbati",
+    "Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma"
+   ],
+   "d": 1,
+   "x": "Vaqt — Harakat davom etish oralig‘i. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Vaqt — Harakat davom etish oralig‘i. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Harakat davom etish oralig‘i» qaysi tushuncha yoki iboraga mos?",
+   "a": "Vaqt",
+   "w": [
+    "Yo‘l",
+    "O‘rtacha tezlik",
+    "Ko‘chish"
+   ],
+   "d": 2,
+   "x": "Vaqt — Harakat davom etish oralig‘i. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Vaqt — Harakat davom etish oralig‘i. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«O‘rtacha tezlik» uchun mos ma’noni tanlang.",
+   "a": "Umumiy yo‘lning umumiy vaqtga nisbati",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma"
+   ],
+   "d": 1,
+   "x": "O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Umumiy yo‘lning umumiy vaqtga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘rtacha tezlik",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "Ko‘chish"
+   ],
+   "d": 2,
+   "x": "O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Ko‘chish» uchun mos ma’noni tanlang.",
+   "a": "Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ko‘chish",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "O‘rtacha tezlik"
+   ],
+   "d": 2,
+   "x": "Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Sanoq jismi» uchun mos ma’noni tanlang.",
+   "a": "Harakatni solishtirish uchun tanlangan jism",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Sanoq jismi — Harakatni solishtirish uchun tanlangan jism. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Sanoq jismi — Harakatni solishtirish uchun tanlangan jism. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Harakatni solishtirish uchun tanlangan jism» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sanoq jismi",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "O‘rtacha tezlik"
+   ],
+   "d": 2,
+   "x": "Sanoq jismi — Harakatni solishtirish uchun tanlangan jism. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Sanoq jismi — Harakatni solishtirish uchun tanlangan jism. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Metr» uchun mos ma’noni tanlang.",
+   "a": "Uzunlikning SI birligi",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Metr — Uzunlikning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Metr — Uzunlikning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Uzunlikning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Metr",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "O‘rtacha tezlik"
+   ],
+   "d": 2,
+   "x": "Metr — Uzunlikning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Metr — Uzunlikning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Sekund» uchun mos ma’noni tanlang.",
+   "a": "Vaqtning SI birligi",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Sekund — Vaqtning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Sekund — Vaqtning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Vaqtning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sekund",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "O‘rtacha tezlik"
+   ],
+   "d": 2,
+   "x": "Sekund — Vaqtning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Sekund — Vaqtning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Kilogramm» uchun mos ma’noni tanlang.",
+   "a": "Massaning SI birligi",
+   "w": [
+    "Jism bosib o‘tgan masofa",
+    "Harakat davom etish oralig‘i",
+    "Umumiy yo‘lning umumiy vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Kilogramm — Massaning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Kilogramm — Massaning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Massaning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kilogramm",
+   "w": [
+    "Yo‘l",
+    "Vaqt",
+    "O‘rtacha tezlik"
+   ],
+   "d": 2,
+   "x": "Kilogramm — Massaning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.",
+   "h": "Kilogramm — Massaning SI birligi. Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "O‘lchash va mexanik harakat: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Yo‘l",
+     "Jism bosib o‘tgan masofa"
+    ],
+    [
+     "Vaqt",
+     "Harakat davom etish oralig‘i"
+    ],
+    [
+     "O‘rtacha tezlik",
+     "Umumiy yo‘lning umumiy vaqtga nisbati"
+    ],
+    [
+     "Ko‘chish",
+     "Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma"
+    ]
+   ],
+   "d": 1,
+   "x": "Yo‘l — Jism bosib o‘tgan masofa; Vaqt — Harakat davom etish oralig‘i; O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati; Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma",
+   "h": "Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "O‘lchash va mexanik harakat: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Sanoq jismi",
+     "Harakatni solishtirish uchun tanlangan jism"
+    ],
+    [
+     "Metr",
+     "Uzunlikning SI birligi"
+    ],
+    [
+     "Sekund",
+     "Vaqtning SI birligi"
+    ],
+    [
+     "Kilogramm",
+     "Massaning SI birligi"
+    ]
+   ],
+   "d": 1,
+   "x": "Sanoq jismi — Harakatni solishtirish uchun tanlangan jism; Metr — Uzunlikning SI birligi; Sekund — Vaqtning SI birligi; Kilogramm — Massaning SI birligi",
+   "h": "Misol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Kuch» uchun mos ma’noni tanlang.",
+   "a": "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+   "w": [
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi",
+    "Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch"
+   ],
+   "d": 1,
+   "x": "Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Jismlar o‘zaro ta’sirini ifodalovchi kattalik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kuch",
+   "w": [
+    "Nyuton",
+    "Og‘irlik kuchi",
+    "Ishqalanish"
+   ],
+   "d": 2,
+   "x": "Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Nyuton» uchun mos ma’noni tanlang.",
+   "a": "Kuchning SI birligi",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Yerning jismni tortish kuchi",
+    "Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch"
+   ],
+   "d": 1,
+   "x": "Nyuton — Kuchning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Nyuton — Kuchning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Kuchning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Nyuton",
+   "w": [
+    "Kuch",
+    "Og‘irlik kuchi",
+    "Ishqalanish"
+   ],
+   "d": 2,
+   "x": "Nyuton — Kuchning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Nyuton — Kuchning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Og‘irlik kuchi» uchun mos ma’noni tanlang.",
+   "a": "Yerning jismni tortish kuchi",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch"
+   ],
+   "d": 1,
+   "x": "Og‘irlik kuchi — Yerning jismni tortish kuchi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Og‘irlik kuchi — Yerning jismni tortish kuchi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Yerning jismni tortish kuchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Og‘irlik kuchi",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Ishqalanish"
+   ],
+   "d": 2,
+   "x": "Og‘irlik kuchi — Yerning jismni tortish kuchi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Og‘irlik kuchi — Yerning jismni tortish kuchi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Ishqalanish» uchun mos ma’noni tanlang.",
+   "a": "Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi"
+   ],
+   "d": 1,
+   "x": "Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ishqalanish",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Og‘irlik kuchi"
+   ],
+   "d": 2,
+   "x": "Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Elastiklik kuchi» uchun mos ma’noni tanlang.",
+   "a": "Deformatsiyaga qarshi tiklovchi kuch",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi"
+   ],
+   "d": 1,
+   "x": "Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Deformatsiyaga qarshi tiklovchi kuch» qaysi tushuncha yoki iboraga mos?",
+   "a": "Elastiklik kuchi",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Og‘irlik kuchi"
+   ],
+   "d": 2,
+   "x": "Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Bosim» uchun mos ma’noni tanlang.",
+   "a": "Sirtga tik kuchning yuzaga nisbati",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi"
+   ],
+   "d": 1,
+   "x": "Bosim — Sirtga tik kuchning yuzaga nisbati. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Bosim — Sirtga tik kuchning yuzaga nisbati. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Sirtga tik kuchning yuzaga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bosim",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Og‘irlik kuchi"
+   ],
+   "d": 2,
+   "x": "Bosim — Sirtga tik kuchning yuzaga nisbati. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Bosim — Sirtga tik kuchning yuzaga nisbati. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Paskal» uchun mos ma’noni tanlang.",
+   "a": "Bosimning SI birligi",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi"
+   ],
+   "d": 1,
+   "x": "Paskal — Bosimning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Paskal — Bosimning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Bosimning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Paskal",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Og‘irlik kuchi"
+   ],
+   "d": 2,
+   "x": "Paskal — Bosimning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Paskal — Bosimning SI birligi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Dinamometr» uchun mos ma’noni tanlang.",
+   "a": "Kuchni o‘lchash asbobi",
+   "w": [
+    "Jismlar o‘zaro ta’sirini ifodalovchi kattalik",
+    "Kuchning SI birligi",
+    "Yerning jismni tortish kuchi"
+   ],
+   "d": 1,
+   "x": "Dinamometr — Kuchni o‘lchash asbobi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Dinamometr — Kuchni o‘lchash asbobi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Kuchni o‘lchash asbobi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Dinamometr",
+   "w": [
+    "Kuch",
+    "Nyuton",
+    "Og‘irlik kuchi"
+   ],
+   "d": 2,
+   "x": "Dinamometr — Kuchni o‘lchash asbobi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.",
+   "h": "Dinamometr — Kuchni o‘lchash asbobi. Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Kuch va bosim: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Kuch",
+     "Jismlar o‘zaro ta’sirini ifodalovchi kattalik"
+    ],
+    [
+     "Nyuton",
+     "Kuchning SI birligi"
+    ],
+    [
+     "Og‘irlik kuchi",
+     "Yerning jismni tortish kuchi"
+    ],
+    [
+     "Ishqalanish",
+     "Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch"
+    ]
+   ],
+   "d": 1,
+   "x": "Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik; Nyuton — Kuchning SI birligi; Og‘irlik kuchi — Yerning jismni tortish kuchi; Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch",
+   "h": "Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Kuch va bosim: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Elastiklik kuchi",
+     "Deformatsiyaga qarshi tiklovchi kuch"
+    ],
+    [
+     "Bosim",
+     "Sirtga tik kuchning yuzaga nisbati"
+    ],
+    [
+     "Paskal",
+     "Bosimning SI birligi"
+    ],
+    [
+     "Dinamometr",
+     "Kuchni o‘lchash asbobi"
+    ]
+   ],
+   "d": 1,
+   "x": "Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch; Bosim — Sirtga tik kuchning yuzaga nisbati; Paskal — Bosimning SI birligi; Dinamometr — Kuchni o‘lchash asbobi",
+   "h": "Misol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Mexanik ish» uchun mos ma’noni tanlang.",
+   "a": "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+   "w": [
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati",
+    "Quvvatning SI birligi"
+   ],
+   "d": 1,
+   "x": "Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mexanik ish",
+   "w": [
+    "Joul",
+    "Quvvat",
+    "Vatt"
+   ],
+   "d": 2,
+   "x": "Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Joul» uchun mos ma’noni tanlang.",
+   "a": "Ish va energiyaning SI birligi",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Bajarilgan ishning vaqtga nisbati",
+    "Quvvatning SI birligi"
+   ],
+   "d": 1,
+   "x": "Joul — Ish va energiyaning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Joul — Ish va energiyaning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Ish va energiyaning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Joul",
+   "w": [
+    "Mexanik ish",
+    "Quvvat",
+    "Vatt"
+   ],
+   "d": 2,
+   "x": "Joul — Ish va energiyaning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Joul — Ish va energiyaning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Quvvat» uchun mos ma’noni tanlang.",
+   "a": "Bajarilgan ishning vaqtga nisbati",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Quvvatning SI birligi"
+   ],
+   "d": 1,
+   "x": "Quvvat — Bajarilgan ishning vaqtga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Quvvat — Bajarilgan ishning vaqtga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Bajarilgan ishning vaqtga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Quvvat",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Vatt"
+   ],
+   "d": 2,
+   "x": "Quvvat — Bajarilgan ishning vaqtga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Quvvat — Bajarilgan ishning vaqtga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Vatt» uchun mos ma’noni tanlang.",
+   "a": "Quvvatning SI birligi",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Vatt — Quvvatning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Vatt — Quvvatning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Quvvatning SI birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Vatt",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Quvvat"
+   ],
+   "d": 2,
+   "x": "Vatt — Quvvatning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Vatt — Quvvatning SI birligi. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Kinetik energiya» uchun mos ma’noni tanlang.",
+   "a": "Harakat bilan bog‘liq energiya",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Kinetik energiya — Harakat bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Kinetik energiya — Harakat bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Harakat bilan bog‘liq energiya» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kinetik energiya",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Quvvat"
+   ],
+   "d": 2,
+   "x": "Kinetik energiya — Harakat bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Kinetik energiya — Harakat bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Potensial energiya» uchun mos ma’noni tanlang.",
+   "a": "Holat yoki joylashuv bilan bog‘liq energiya",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Holat yoki joylashuv bilan bog‘liq energiya» qaysi tushuncha yoki iboraga mos?",
+   "a": "Potensial energiya",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Quvvat"
+   ],
+   "d": 2,
+   "x": "Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Richag» uchun mos ma’noni tanlang.",
+   "a": "Tayanch atrofida aylanadigan qattiq jism",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Richag — Tayanch atrofida aylanadigan qattiq jism. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Richag — Tayanch atrofida aylanadigan qattiq jism. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Tayanch atrofida aylanadigan qattiq jism» qaysi tushuncha yoki iboraga mos?",
+   "a": "Richag",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Quvvat"
+   ],
+   "d": 2,
+   "x": "Richag — Tayanch atrofida aylanadigan qattiq jism. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Richag — Tayanch atrofida aylanadigan qattiq jism. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Foydali ish koeffitsiyenti» uchun mos ma’noni tanlang.",
+   "a": "Foydali ishning sarflangan ishga nisbati",
+   "w": [
+    "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi",
+    "Ish va energiyaning SI birligi",
+    "Bajarilgan ishning vaqtga nisbati"
+   ],
+   "d": 1,
+   "x": "Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Foydali ishning sarflangan ishga nisbati» qaysi tushuncha yoki iboraga mos?",
+   "a": "Foydali ish koeffitsiyenti",
+   "w": [
+    "Mexanik ish",
+    "Joul",
+    "Quvvat"
+   ],
+   "d": 2,
+   "x": "Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.",
+   "h": "Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati. Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Ish, energiya va oddiy mexanizm: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Mexanik ish",
+     "Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi"
+    ],
+    [
+     "Joul",
+     "Ish va energiyaning SI birligi"
+    ],
+    [
+     "Quvvat",
+     "Bajarilgan ishning vaqtga nisbati"
+    ],
+    [
+     "Vatt",
+     "Quvvatning SI birligi"
+    ]
+   ],
+   "d": 1,
+   "x": "Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi; Joul — Ish va energiyaning SI birligi; Quvvat — Bajarilgan ishning vaqtga nisbati; Vatt — Quvvatning SI birligi",
+   "h": "Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Ish, energiya va oddiy mexanizm: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Kinetik energiya",
+     "Harakat bilan bog‘liq energiya"
+    ],
+    [
+     "Potensial energiya",
+     "Holat yoki joylashuv bilan bog‘liq energiya"
+    ],
+    [
+     "Richag",
+     "Tayanch atrofida aylanadigan qattiq jism"
+    ],
+    [
+     "Foydali ish koeffitsiyenti",
+     "Foydali ishning sarflangan ishga nisbati"
+    ]
+   ],
+   "d": 1,
+   "x": "Kinetik energiya — Harakat bilan bog‘liq energiya; Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya; Richag — Tayanch atrofida aylanadigan qattiq jism; Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati",
+   "h": "Misol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Harorat» uchun mos ma’noni tanlang.",
+   "a": "Jismning issiqlik holatini ifodalovchi kattalik",
+   "w": [
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi",
+    "Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi"
+   ],
+   "d": 1,
+   "x": "Harorat — Jismning issiqlik holatini ifodalovchi kattalik. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Harorat — Jismning issiqlik holatini ifodalovchi kattalik. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Jismning issiqlik holatini ifodalovchi kattalik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Harorat",
+   "w": [
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik",
+    "Konveksiya"
+   ],
+   "d": 2,
+   "x": "Harorat — Jismning issiqlik holatini ifodalovchi kattalik. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Harorat — Jismning issiqlik holatini ifodalovchi kattalik. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Termometr» uchun mos ma’noni tanlang.",
+   "a": "Haroratni o‘lchash asbobi",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Zarralar orqali issiqlik uzatilishi",
+    "Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi"
+   ],
+   "d": 1,
+   "x": "Termometr — Haroratni o‘lchash asbobi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Termometr — Haroratni o‘lchash asbobi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Haroratni o‘lchash asbobi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Termometr",
+   "w": [
+    "Harorat",
+    "Issiqlik o‘tkazuvchanlik",
+    "Konveksiya"
+   ],
+   "d": 2,
+   "x": "Termometr — Haroratni o‘lchash asbobi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Termometr — Haroratni o‘lchash asbobi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Issiqlik o‘tkazuvchanlik» uchun mos ma’noni tanlang.",
+   "a": "Zarralar orqali issiqlik uzatilishi",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi"
+   ],
+   "d": 1,
+   "x": "Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Zarralar orqali issiqlik uzatilishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Issiqlik o‘tkazuvchanlik",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Konveksiya"
+   ],
+   "d": 2,
+   "x": "Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Konveksiya» uchun mos ma’noni tanlang.",
+   "a": "Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi"
+   ],
+   "d": 1,
+   "x": "Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Konveksiya",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik"
+   ],
+   "d": 2,
+   "x": "Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Nurlanish» uchun mos ma’noni tanlang.",
+   "a": "Elektromagnit to‘lqin orqali energiya uzatilishi",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi"
+   ],
+   "d": 1,
+   "x": "Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Elektromagnit to‘lqin orqali energiya uzatilishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Nurlanish",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik"
+   ],
+   "d": 2,
+   "x": "Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Erish» uchun mos ma’noni tanlang.",
+   "a": "Qattiq holatdan suyuq holatga o‘tish",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi"
+   ],
+   "d": 1,
+   "x": "Erish — Qattiq holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Erish — Qattiq holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Qattiq holatdan suyuq holatga o‘tish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Erish",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik"
+   ],
+   "d": 2,
+   "x": "Erish — Qattiq holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Erish — Qattiq holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Bug‘lanish» uchun mos ma’noni tanlang.",
+   "a": "Suyuqlik sirtidan gaz holatiga o‘tish",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi"
+   ],
+   "d": 1,
+   "x": "Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Suyuqlik sirtidan gaz holatiga o‘tish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bug‘lanish",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik"
+   ],
+   "d": 2,
+   "x": "Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Kondensatsiya» uchun mos ma’noni tanlang.",
+   "a": "Gaz holatdan suyuq holatga o‘tish",
+   "w": [
+    "Jismning issiqlik holatini ifodalovchi kattalik",
+    "Haroratni o‘lchash asbobi",
+    "Zarralar orqali issiqlik uzatilishi"
+   ],
+   "d": 1,
+   "x": "Kondensatsiya — Gaz holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Kondensatsiya — Gaz holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Gaz holatdan suyuq holatga o‘tish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kondensatsiya",
+   "w": [
+    "Harorat",
+    "Termometr",
+    "Issiqlik o‘tkazuvchanlik"
+   ],
+   "d": 2,
+   "x": "Kondensatsiya — Gaz holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.",
+   "h": "Kondensatsiya — Gaz holatdan suyuq holatga o‘tish. Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Issiqlik va modda holati: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Harorat",
+     "Jismning issiqlik holatini ifodalovchi kattalik"
+    ],
+    [
+     "Termometr",
+     "Haroratni o‘lchash asbobi"
+    ],
+    [
+     "Issiqlik o‘tkazuvchanlik",
+     "Zarralar orqali issiqlik uzatilishi"
+    ],
+    [
+     "Konveksiya",
+     "Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi"
+    ]
+   ],
+   "d": 1,
+   "x": "Harorat — Jismning issiqlik holatini ifodalovchi kattalik; Termometr — Haroratni o‘lchash asbobi; Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi; Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi",
+   "h": "Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  },
+  {
+   "topic": "physics_g7.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Issiqlik va modda holati: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Nurlanish",
+     "Elektromagnit to‘lqin orqali energiya uzatilishi"
+    ],
+    [
+     "Erish",
+     "Qattiq holatdan suyuq holatga o‘tish"
+    ],
+    [
+     "Bug‘lanish",
+     "Suyuqlik sirtidan gaz holatiga o‘tish"
+    ],
+    [
+     "Kondensatsiya",
+     "Gaz holatdan suyuq holatga o‘tish"
+    ]
+   ],
+   "d": 1,
+   "x": "Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi; Erish — Qattiq holatdan suyuq holatga o‘tish; Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish; Kondensatsiya — Gaz holatdan suyuq holatga o‘tish",
+   "h": "Misol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi."
+  }
+ ]
+}

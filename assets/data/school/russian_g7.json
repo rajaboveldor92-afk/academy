@@ -1,0 +1,309 @@
+{
+ "subject": "russian",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Rus tili",
+  "en": "Russian",
+  "ru": "Русский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "russian_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Ot, jins va kelishik",
+    "en": "Ot, jins va kelishik",
+    "ru": "Ot, jins va kelishik"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Ot, jins va kelishik",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Именительный падеж — Кто? Что? so‘roqlariga javob bo‘lgan kelishik; Родительный падеж — Кого? Чего? so‘roqlariga javob bo‘lgan kelishik; Дательный падеж — Кому? Чему? so‘roqlariga javob bo‘lgan kelishik; Винительный падеж — Кого? Что? so‘roqlariga javob bo‘lgan kelishik; Творительный падеж — Кем? Чем? so‘roqlariga javob bo‘lgan kelishik; Предложный падеж — О ком? О чём? so‘roqlariga javob bo‘lgan kelishik; Мужской род — он olmoshi bilan mos keladigan ot jinsi; Женский род — она olmoshi bilan mos keladigan ot jinsi.\n\nMisol: книга → нет книги → дать книге → читать книгу → с книгой → о книге. So‘roq bilan birga gapdagi vazifani ham hisobga olamiz; bir xil so‘roq turli kelishikda uchrashi mumkin.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Ot, jins va kelishik",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Sifat va moslashuv",
+    "en": "Sifat va moslashuv",
+    "ru": "Sifat va moslashuv"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Sifat va moslashuv",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: новый дом — yangi uy; новая книга — yangi kitob; новое окно — yangi deraza; новые друзья — yangi do‘stlar; высокая гора — baland tog‘; синее море — ko‘k dengiz; интересный рассказ — qiziqarli hikoya; зимние дни — qish kunlari.\n\nSifat otning jinsi, soni va kelishigiga moslashadi. Misol: новый дом, новая книга, новое окно, новые дома. Faqat o‘zbekcha tarjimaga qarab qo‘shimcha tanlamaymiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Sifat va moslashuv",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Fe’l zamonlari va turi",
+    "en": "Fe’l zamonlari va turi",
+    "ru": "Fe’l zamonlari va turi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Fe’l zamonlari va turi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Я читал вчера. — Men kecha o‘qidim.; Я читаю сейчас. — Men hozir o‘qiyapman.; Я буду читать завтра. — Men ertaga o‘qiyman.; Я прочитал книгу. — Men kitobni o‘qib tugatdim.; Она писала письмо. — U xat yozayotgan edi.; Она написала письмо. — U xatni yozib tugatdi.; Мы идём в школу. — Biz maktabga boryapmiz.; Они пришли домой. — Ular uyga yetib kelishdi..\n\nНесовершенный вид jarayon yoki takrorni, совершенный вид yakunlangan natijani ifodalashi mumkin. Misol: читать — прочитать. Zamon va fe’l turini birga tekshiramiz.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Fe’l zamonlari va turi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Oddiy gap va tinish belgisi",
+    "en": "Oddiy gap va tinish belgisi",
+    "ru": "Oddiy gap va tinish belgisi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Oddiy gap va tinish belgisi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Подлежащее — Gap kim yoki nima haqida ekanini bildirgan bosh bo‘lak; Сказуемое — Eganing harakati yoki holatini bildirgan bosh bo‘lak; Дополнение — Harakat bilan bog‘liq predmetni bildirgan ikkinchi bo‘lak; Определение — Predmet belgisini bildirgan ikkinchi bo‘lak; Обстоятельство — Joy, vaqt yoki usulni bildirgan ikkinchi bo‘lak; Обращение — Murojaat qilingan kishini bildirgan so‘z; Однородные члены — Bir xil so‘roqqa javob bo‘lgan teng bo‘laklar; Вопросительное предложение — Savol bildirilgan gap.\n\nMisol: Мальчик читает интересную книгу вечером. Мальчик — ega, читает — kesim. Мама, послушай! gapida murojaat vergul bilan ajratiladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "russian_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Oddiy gap va tinish belgisi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "russian_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "russian_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "russian_g7.unit1",
+      "russian_g7.unit2",
+      "russian_g7.unit3",
+      "russian_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "russian_g7.unit1",
+      "russian_g7.unit2",
+      "russian_g7.unit3",
+      "russian_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "russian_g7.unit1",
+      "russian_g7.unit2",
+      "russian_g7.unit3",
+      "russian_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

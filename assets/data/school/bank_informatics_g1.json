@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Kompyuter» uchun mos ma’noni tanlang.",
+   "a": "Ma’lumot bilan ishlaydigan qurilma",
+   "w": [
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi",
+    "Ekrandagi ko‘rsatkichni boshqarish vositasi"
+   ],
+   "d": 1,
+   "x": "Kompyuter — Ma’lumot bilan ishlaydigan qurilma. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Kompyuter — Ma’lumot bilan ishlaydigan qurilma. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Ma’lumot bilan ishlaydigan qurilma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kompyuter",
+   "w": [
+    "Monitor",
+    "Klaviatura",
+    "Sichqoncha"
+   ],
+   "d": 2,
+   "x": "Kompyuter — Ma’lumot bilan ishlaydigan qurilma. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Kompyuter — Ma’lumot bilan ishlaydigan qurilma. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Monitor» uchun mos ma’noni tanlang.",
+   "a": "Rasm va yozuvni ko‘rsatadigan ekran",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Harf va raqam kiritish vositasi",
+    "Ekrandagi ko‘rsatkichni boshqarish vositasi"
+   ],
+   "d": 1,
+   "x": "Monitor — Rasm va yozuvni ko‘rsatadigan ekran. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Monitor — Rasm va yozuvni ko‘rsatadigan ekran. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Rasm va yozuvni ko‘rsatadigan ekran» qaysi tushuncha yoki iboraga mos?",
+   "a": "Monitor",
+   "w": [
+    "Kompyuter",
+    "Klaviatura",
+    "Sichqoncha"
+   ],
+   "d": 2,
+   "x": "Monitor — Rasm va yozuvni ko‘rsatadigan ekran. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Monitor — Rasm va yozuvni ko‘rsatadigan ekran. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Klaviatura» uchun mos ma’noni tanlang.",
+   "a": "Harf va raqam kiritish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Ekrandagi ko‘rsatkichni boshqarish vositasi"
+   ],
+   "d": 1,
+   "x": "Klaviatura — Harf va raqam kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Klaviatura — Harf va raqam kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Harf va raqam kiritish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Klaviatura",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Sichqoncha"
+   ],
+   "d": 2,
+   "x": "Klaviatura — Harf va raqam kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Klaviatura — Harf va raqam kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Sichqoncha» uchun mos ma’noni tanlang.",
+   "a": "Ekrandagi ko‘rsatkichni boshqarish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi"
+   ],
+   "d": 1,
+   "x": "Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Ekrandagi ko‘rsatkichni boshqarish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Sichqoncha",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Printer» uchun mos ma’noni tanlang.",
+   "a": "Ma’lumotni qog‘ozga chiqarish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi"
+   ],
+   "d": 1,
+   "x": "Printer — Ma’lumotni qog‘ozga chiqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Printer — Ma’lumotni qog‘ozga chiqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Ma’lumotni qog‘ozga chiqarish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Printer",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Printer — Ma’lumotni qog‘ozga chiqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Printer — Ma’lumotni qog‘ozga chiqarish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Karnay» uchun mos ma’noni tanlang.",
+   "a": "Ovozni eshittirish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi"
+   ],
+   "d": 1,
+   "x": "Karnay — Ovozni eshittirish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Karnay — Ovozni eshittirish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Ovozni eshittirish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Karnay",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Karnay — Ovozni eshittirish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Karnay — Ovozni eshittirish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«Mikrofon» uchun mos ma’noni tanlang.",
+   "a": "Ovozni kiritish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi"
+   ],
+   "d": 1,
+   "x": "Mikrofon — Ovozni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Mikrofon — Ovozni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Ovozni kiritish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Mikrofon",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Mikrofon — Ovozni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Mikrofon — Ovozni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Kamera» uchun mos ma’noni tanlang.",
+   "a": "Tasvirni kiritish vositasi",
+   "w": [
+    "Ma’lumot bilan ishlaydigan qurilma",
+    "Rasm va yozuvni ko‘rsatadigan ekran",
+    "Harf va raqam kiritish vositasi"
+   ],
+   "d": 1,
+   "x": "Kamera — Tasvirni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Kamera — Tasvirni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Tasvirni kiritish vositasi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kamera",
+   "w": [
+    "Kompyuter",
+    "Monitor",
+    "Klaviatura"
+   ],
+   "d": 2,
+   "x": "Kamera — Tasvirni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak.",
+   "h": "Kamera — Tasvirni kiritish vositasi. Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Qurilmalar va ularning vazifasi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Kompyuter",
+     "Ma’lumot bilan ishlaydigan qurilma"
+    ],
+    [
+     "Monitor",
+     "Rasm va yozuvni ko‘rsatadigan ekran"
+    ],
+    [
+     "Klaviatura",
+     "Harf va raqam kiritish vositasi"
+    ],
+    [
+     "Sichqoncha",
+     "Ekrandagi ko‘rsatkichni boshqarish vositasi"
+    ]
+   ],
+   "d": 1,
+   "x": "Kompyuter — Ma’lumot bilan ishlaydigan qurilma; Monitor — Rasm va yozuvni ko‘rsatadigan ekran; Klaviatura — Harf va raqam kiritish vositasi; Sichqoncha — Ekrandagi ko‘rsatkichni boshqarish vositasi",
+   "h": "Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Qurilmalar va ularning vazifasi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Printer",
+     "Ma’lumotni qog‘ozga chiqarish vositasi"
+    ],
+    [
+     "Karnay",
+     "Ovozni eshittirish vositasi"
+    ],
+    [
+     "Mikrofon",
+     "Ovozni kiritish vositasi"
+    ],
+    [
+     "Kamera",
+     "Tasvirni kiritish vositasi"
+    ]
+   ],
+   "d": 1,
+   "x": "Printer — Ma’lumotni qog‘ozga chiqarish vositasi; Karnay — Ovozni eshittirish vositasi; Mikrofon — Ovozni kiritish vositasi; Kamera — Tasvirni kiritish vositasi",
+   "h": "Misol: rasmni ekranda ko‘rish uchun monitor, qog‘ozga chiqarish uchun printer kerak."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Ko‘rish» uchun mos ma’noni tanlang.",
+   "a": "Rang va shakl haqida ma’lumot olish",
+   "w": [
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish",
+    "Ta’m haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Ko‘rish — Rang va shakl haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Ko‘rish — Rang va shakl haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«Rang va shakl haqida ma’lumot olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ko‘rish",
+   "w": [
+    "Eshitish",
+    "Hid bilish",
+    "Ta’m bilish"
+   ],
+   "d": 2,
+   "x": "Ko‘rish — Rang va shakl haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Ko‘rish — Rang va shakl haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Eshitish» uchun mos ma’noni tanlang.",
+   "a": "Ovoz haqida ma’lumot olish",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish",
+    "Ta’m haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Eshitish — Ovoz haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Eshitish — Ovoz haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Ovoz haqida ma’lumot olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Eshitish",
+   "w": [
+    "Ko‘rish",
+    "Hid bilish",
+    "Ta’m bilish"
+   ],
+   "d": 2,
+   "x": "Eshitish — Ovoz haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Eshitish — Ovoz haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Hid bilish» uchun mos ma’noni tanlang.",
+   "a": "Hid haqida ma’lumot olish",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Ta’m haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Hid bilish — Hid haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Hid bilish — Hid haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Hid haqida ma’lumot olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hid bilish",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Ta’m bilish"
+   ],
+   "d": 2,
+   "x": "Hid bilish — Hid haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Hid bilish — Hid haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Ta’m bilish» uchun mos ma’noni tanlang.",
+   "a": "Ta’m haqida ma’lumot olish",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Ta’m bilish — Ta’m haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Ta’m bilish — Ta’m haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Ta’m haqida ma’lumot olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ta’m bilish",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Ta’m bilish — Ta’m haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Ta’m bilish — Ta’m haqida ma’lumot olish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Teginish» uchun mos ma’noni tanlang.",
+   "a": "Sirtning silliq yoki g‘adir-budurligini bilish",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Teginish — Sirtning silliq yoki g‘adir-budurligini bilish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Teginish — Sirtning silliq yoki g‘adir-budurligini bilish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Sirtning silliq yoki g‘adir-budurligini bilish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Teginish",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Teginish — Sirtning silliq yoki g‘adir-budurligini bilish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Teginish — Sirtning silliq yoki g‘adir-budurligini bilish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Rasm» uchun mos ma’noni tanlang.",
+   "a": "Tasvir orqali berilgan axborot",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Rasm — Tasvir orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Rasm — Tasvir orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Tasvir orqali berilgan axborot» qaysi tushuncha yoki iboraga mos?",
+   "a": "Rasm",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Rasm — Tasvir orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Rasm — Tasvir orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Yozuv» uchun mos ma’noni tanlang.",
+   "a": "Harflar orqali berilgan axborot",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Yozuv — Harflar orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Yozuv — Harflar orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Harflar orqali berilgan axborot» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yozuv",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Yozuv — Harflar orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Yozuv — Harflar orqali berilgan axborot. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Yo‘l belgisi» uchun mos ma’noni tanlang.",
+   "a": "Rasm bilan yo‘lda ko‘rsatma berish",
+   "w": [
+    "Rang va shakl haqida ma’lumot olish",
+    "Ovoz haqida ma’lumot olish",
+    "Hid haqida ma’lumot olish"
+   ],
+   "d": 1,
+   "x": "Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Rasm bilan yo‘lda ko‘rsatma berish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yo‘l belgisi",
+   "w": [
+    "Ko‘rish",
+    "Eshitish",
+    "Hid bilish"
+   ],
+   "d": 2,
+   "x": "Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz.",
+   "h": "Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish. Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Axborot va sezgi: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Ko‘rish",
+     "Rang va shakl haqida ma’lumot olish"
+    ],
+    [
+     "Eshitish",
+     "Ovoz haqida ma’lumot olish"
+    ],
+    [
+     "Hid bilish",
+     "Hid haqida ma’lumot olish"
+    ],
+    [
+     "Ta’m bilish",
+     "Ta’m haqida ma’lumot olish"
+    ]
+   ],
+   "d": 1,
+   "x": "Ko‘rish — Rang va shakl haqida ma’lumot olish; Eshitish — Ovoz haqida ma’lumot olish; Hid bilish — Hid haqida ma’lumot olish; Ta’m bilish — Ta’m haqida ma’lumot olish",
+   "h": "Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Axborot va sezgi: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Teginish",
+     "Sirtning silliq yoki g‘adir-budurligini bilish"
+    ],
+    [
+     "Rasm",
+     "Tasvir orqali berilgan axborot"
+    ],
+    [
+     "Yozuv",
+     "Harflar orqali berilgan axborot"
+    ],
+    [
+     "Yo‘l belgisi",
+     "Rasm bilan yo‘lda ko‘rsatma berish"
+    ]
+   ],
+   "d": 1,
+   "x": "Teginish — Sirtning silliq yoki g‘adir-budurligini bilish; Rasm — Tasvir orqali berilgan axborot; Yozuv — Harflar orqali berilgan axborot; Yo‘l belgisi — Rasm bilan yo‘lda ko‘rsatma berish",
+   "h": "Misol: qo‘ng‘iroqni eshitamiz, qizil chiroqni ko‘ramiz. Axborot turini aniqlab mashq qilamiz."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Algoritm» uchun mos ma’noni tanlang.",
+   "a": "Vazifani bajarish qadamlari",
+   "w": [
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish",
+    "Ko‘rsatkich qaragan tomonga yurish"
+   ],
+   "d": 1,
+   "x": "Algoritm — Vazifani bajarish qadamlari. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Algoritm — Vazifani bajarish qadamlari. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Vazifani bajarish qadamlari» qaysi tushuncha yoki iboraga mos?",
+   "a": "Algoritm",
+   "w": [
+    "Boshlash",
+    "Ketma-ketlik",
+    "Oldinga"
+   ],
+   "d": 2,
+   "x": "Algoritm — Vazifani bajarish qadamlari. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Algoritm — Vazifani bajarish qadamlari. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Boshlash» uchun mos ma’noni tanlang.",
+   "a": "Birinchi qadamga o‘tish",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Qadamlarni belgilangan tartibda bajarish",
+    "Ko‘rsatkich qaragan tomonga yurish"
+   ],
+   "d": 1,
+   "x": "Boshlash — Birinchi qadamga o‘tish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Boshlash — Birinchi qadamga o‘tish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Birinchi qadamga o‘tish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Boshlash",
+   "w": [
+    "Algoritm",
+    "Ketma-ketlik",
+    "Oldinga"
+   ],
+   "d": 2,
+   "x": "Boshlash — Birinchi qadamga o‘tish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Boshlash — Birinchi qadamga o‘tish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Ketma-ketlik» uchun mos ma’noni tanlang.",
+   "a": "Qadamlarni belgilangan tartibda bajarish",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Ko‘rsatkich qaragan tomonga yurish"
+   ],
+   "d": 1,
+   "x": "Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Qadamlarni belgilangan tartibda bajarish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ketma-ketlik",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Oldinga"
+   ],
+   "d": 2,
+   "x": "Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Oldinga» uchun mos ma’noni tanlang.",
+   "a": "Ko‘rsatkich qaragan tomonga yurish",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish"
+   ],
+   "d": 1,
+   "x": "Oldinga — Ko‘rsatkich qaragan tomonga yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Oldinga — Ko‘rsatkich qaragan tomonga yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Ko‘rsatkich qaragan tomonga yurish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Oldinga",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Ketma-ketlik"
+   ],
+   "d": 2,
+   "x": "Oldinga — Ko‘rsatkich qaragan tomonga yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Oldinga — Ko‘rsatkich qaragan tomonga yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Orqaga» uchun mos ma’noni tanlang.",
+   "a": "Ko‘rsatkich qaragan tomonga teskari yurish",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish"
+   ],
+   "d": 1,
+   "x": "Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Ko‘rsatkich qaragan tomonga teskari yurish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Orqaga",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Ketma-ketlik"
+   ],
+   "d": 2,
+   "x": "Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«O‘ngga» uchun mos ma’noni tanlang.",
+   "a": "O‘ng tomon yo‘nalishi",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish"
+   ],
+   "d": 1,
+   "x": "O‘ngga — O‘ng tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "O‘ngga — O‘ng tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«O‘ng tomon yo‘nalishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘ngga",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Ketma-ketlik"
+   ],
+   "d": 2,
+   "x": "O‘ngga — O‘ng tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "O‘ngga — O‘ng tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Chapga» uchun mos ma’noni tanlang.",
+   "a": "Chap tomon yo‘nalishi",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish"
+   ],
+   "d": 1,
+   "x": "Chapga — Chap tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Chapga — Chap tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Chap tomon yo‘nalishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Chapga",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Ketma-ketlik"
+   ],
+   "d": 2,
+   "x": "Chapga — Chap tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Chapga — Chap tomon yo‘nalishi. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Tugatish» uchun mos ma’noni tanlang.",
+   "a": "Vazifa bajarilgach to‘xtash",
+   "w": [
+    "Vazifani bajarish qadamlari",
+    "Birinchi qadamga o‘tish",
+    "Qadamlarni belgilangan tartibda bajarish"
+   ],
+   "d": 1,
+   "x": "Tugatish — Vazifa bajarilgach to‘xtash. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Tugatish — Vazifa bajarilgach to‘xtash. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Vazifa bajarilgach to‘xtash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tugatish",
+   "w": [
+    "Algoritm",
+    "Boshlash",
+    "Ketma-ketlik"
+   ],
+   "d": 2,
+   "x": "Tugatish — Vazifa bajarilgach to‘xtash. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi.",
+   "h": "Tugatish — Vazifa bajarilgach to‘xtash. Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Tartib va oddiy algoritm: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Algoritm",
+     "Vazifani bajarish qadamlari"
+    ],
+    [
+     "Boshlash",
+     "Birinchi qadamga o‘tish"
+    ],
+    [
+     "Ketma-ketlik",
+     "Qadamlarni belgilangan tartibda bajarish"
+    ],
+    [
+     "Oldinga",
+     "Ko‘rsatkich qaragan tomonga yurish"
+    ]
+   ],
+   "d": 1,
+   "x": "Algoritm — Vazifani bajarish qadamlari; Boshlash — Birinchi qadamga o‘tish; Ketma-ketlik — Qadamlarni belgilangan tartibda bajarish; Oldinga — Ko‘rsatkich qaragan tomonga yurish",
+   "h": "Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Tartib va oddiy algoritm: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Orqaga",
+     "Ko‘rsatkich qaragan tomonga teskari yurish"
+    ],
+    [
+     "O‘ngga",
+     "O‘ng tomon yo‘nalishi"
+    ],
+    [
+     "Chapga",
+     "Chap tomon yo‘nalishi"
+    ],
+    [
+     "Tugatish",
+     "Vazifa bajarilgach to‘xtash"
+    ]
+   ],
+   "d": 1,
+   "x": "Orqaga — Ko‘rsatkich qaragan tomonga teskari yurish; O‘ngga — O‘ng tomon yo‘nalishi; Chapga — Chap tomon yo‘nalishi; Tugatish — Vazifa bajarilgach to‘xtash",
+   "h": "Misol: qo‘l yuvish rejasida avval suvni ochamiz, keyin qo‘lni yuvamiz, oxirida quritamiz. Qadamlarning joyini almashtirish natijani o‘zgartiradi."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«To‘g‘ri o‘tirish» uchun mos ma’noni tanlang.",
+   "a": "Belni suyab ekranga qulay qarash",
+   "w": [
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik",
+    "Suyuqlikni qurilmadan uzoq saqlash"
+   ],
+   "d": 1,
+   "x": "To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Belni suyab ekranga qulay qarash» qaysi tushuncha yoki iboraga mos?",
+   "a": "To‘g‘ri o‘tirish",
+   "w": [
+    "Tanaffus",
+    "Quruq qo‘l",
+    "Ichimlikni chetga qo‘yish"
+   ],
+   "d": 2,
+   "x": "To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Tanaffus» uchun mos ma’noni tanlang.",
+   "a": "Ekrandan uzoqlashib dam olish",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Qurilmaga namlik olib kelmaslik",
+    "Suyuqlikni qurilmadan uzoq saqlash"
+   ],
+   "d": 1,
+   "x": "Tanaffus — Ekrandan uzoqlashib dam olish. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Tanaffus — Ekrandan uzoqlashib dam olish. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Ekrandan uzoqlashib dam olish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tanaffus",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Quruq qo‘l",
+    "Ichimlikni chetga qo‘yish"
+   ],
+   "d": 2,
+   "x": "Tanaffus — Ekrandan uzoqlashib dam olish. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Tanaffus — Ekrandan uzoqlashib dam olish. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Quruq qo‘l» uchun mos ma’noni tanlang.",
+   "a": "Qurilmaga namlik olib kelmaslik",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Suyuqlikni qurilmadan uzoq saqlash"
+   ],
+   "d": 1,
+   "x": "Quruq qo‘l — Qurilmaga namlik olib kelmaslik. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Quruq qo‘l — Qurilmaga namlik olib kelmaslik. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Qurilmaga namlik olib kelmaslik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Quruq qo‘l",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Ichimlikni chetga qo‘yish"
+   ],
+   "d": 2,
+   "x": "Quruq qo‘l — Qurilmaga namlik olib kelmaslik. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Quruq qo‘l — Qurilmaga namlik olib kelmaslik. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Ichimlikni chetga qo‘yish» uchun mos ma’noni tanlang.",
+   "a": "Suyuqlikni qurilmadan uzoq saqlash",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik"
+   ],
+   "d": 1,
+   "x": "Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Suyuqlikni qurilmadan uzoq saqlash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ichimlikni chetga qo‘yish",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Quruq qo‘l"
+   ],
+   "d": 2,
+   "x": "Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Kattadan yordam» uchun mos ma’noni tanlang.",
+   "a": "Notanish tugma yoki holatni so‘rash",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik"
+   ],
+   "d": 1,
+   "x": "Kattadan yordam — Notanish tugma yoki holatni so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Kattadan yordam — Notanish tugma yoki holatni so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Notanish tugma yoki holatni so‘rash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kattadan yordam",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Quruq qo‘l"
+   ],
+   "d": 2,
+   "x": "Kattadan yordam — Notanish tugma yoki holatni so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Kattadan yordam — Notanish tugma yoki holatni so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Rozilik so‘rash» uchun mos ma’noni tanlang.",
+   "a": "Birovning rasmini ishlatishdan oldin so‘rash",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik"
+   ],
+   "d": 1,
+   "x": "Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Birovning rasmini ishlatishdan oldin so‘rash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Rozilik so‘rash",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Quruq qo‘l"
+   ],
+   "d": 2,
+   "x": "Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Shaxsiy ma’lumot» uchun mos ma’noni tanlang.",
+   "a": "Ism va manzil kabi o‘zimiz haqidagi ma’lumot",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik"
+   ],
+   "d": 1,
+   "x": "Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Ism va manzil kabi o‘zimiz haqidagi ma’lumot» qaysi tushuncha yoki iboraga mos?",
+   "a": "Shaxsiy ma’lumot",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Quruq qo‘l"
+   ],
+   "d": 2,
+   "x": "Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Notanish havola» uchun mos ma’noni tanlang.",
+   "a": "Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l",
+   "w": [
+    "Belni suyab ekranga qulay qarash",
+    "Ekrandan uzoqlashib dam olish",
+    "Qurilmaga namlik olib kelmaslik"
+   ],
+   "d": 1,
+   "x": "Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l» qaysi tushuncha yoki iboraga mos?",
+   "a": "Notanish havola",
+   "w": [
+    "To‘g‘ri o‘tirish",
+    "Tanaffus",
+    "Quruq qo‘l"
+   ],
+   "d": 2,
+   "x": "Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz.",
+   "h": "Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l. Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Qurilmadan ehtiyotkor foydalanish: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "To‘g‘ri o‘tirish",
+     "Belni suyab ekranga qulay qarash"
+    ],
+    [
+     "Tanaffus",
+     "Ekrandan uzoqlashib dam olish"
+    ],
+    [
+     "Quruq qo‘l",
+     "Qurilmaga namlik olib kelmaslik"
+    ],
+    [
+     "Ichimlikni chetga qo‘yish",
+     "Suyuqlikni qurilmadan uzoq saqlash"
+    ]
+   ],
+   "d": 1,
+   "x": "To‘g‘ri o‘tirish — Belni suyab ekranga qulay qarash; Tanaffus — Ekrandan uzoqlashib dam olish; Quruq qo‘l — Qurilmaga namlik olib kelmaslik; Ichimlikni chetga qo‘yish — Suyuqlikni qurilmadan uzoq saqlash",
+   "h": "Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  },
+  {
+   "topic": "informatics_g1.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Qurilmadan ehtiyotkor foydalanish: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Kattadan yordam",
+     "Notanish tugma yoki holatni so‘rash"
+    ],
+    [
+     "Rozilik so‘rash",
+     "Birovning rasmini ishlatishdan oldin so‘rash"
+    ],
+    [
+     "Shaxsiy ma’lumot",
+     "Ism va manzil kabi o‘zimiz haqidagi ma’lumot"
+    ],
+    [
+     "Notanish havola",
+     "Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l"
+    ]
+   ],
+   "d": 1,
+   "x": "Kattadan yordam — Notanish tugma yoki holatni so‘rash; Rozilik so‘rash — Birovning rasmini ishlatishdan oldin so‘rash; Shaxsiy ma’lumot — Ism va manzil kabi o‘zimiz haqidagi ma’lumot; Notanish havola — Kattaga ko‘rsatish kerak bo‘lgan noma’lum yo‘l",
+   "h": "Misol: ekran tushunarsiz xabar ko‘rsatsa, tugmalarni tasodifan bosmay, kattadan yordam so‘raymiz."
+  }
+ ]
+}

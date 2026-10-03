@@ -36,10 +36,13 @@ void main() {
     t = null;
   });
 
-  Future<ProviderContainer> setup(WidgetTester tester, String childId) async {
+  Future<ProviderContainer> setup(WidgetTester tester, String childId, {int? grade}) async {
     await tester.runAsync(() async {
       t = TestDb.memory();
       await SeedData.ensureSeeded(t!.db);
+      if (grade != null) {
+        await t!.db.saveProfile(t!.db.getProfile(childId)!.copyWith(grade: grade, age: grade + 6));
+      }
     });
     tester.view.physicalSize = const Size(1080, 2100);
     tester.view.devicePixelRatio = 2.5;
@@ -91,6 +94,38 @@ void main() {
         expect(tester.takeException(), isNull);
       });
     }
+  }
+
+  for (final child in ['jasmina', 'akramjon']) {
+    testWidgets('$child: Technology direction is shown on the subject page', (tester) async {
+      final c = await setup(tester, child);
+      await tester.pumpWidget(UncontrolledProviderScope(container: c,
+        child: const MaterialApp(home: SubjectScreen(subject: Subject.technology))));
+      await pumpUntil(tester, find.byKey(const Key('technology_track_banner')));
+      expect(find.text(child == 'jasmina' ? 'Servis va hunarmandchilik' : 'Texnik loyihalash'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
+  }
+
+  for (final grade in [2, 8]) {
+    testWidgets('g$grade new reading: small phone, theory, answer and explanation', (tester) async {
+      final c = await setup(tester, 'akramjon', grade: grade);
+      tester.view.physicalSize = const Size(360, 640);
+      tester.view.devicePixelRatio = 1;
+      await tester.pumpWidget(UncontrolledProviderScope(container: c,
+        child: MaterialApp(home: LessonScreen(topicId: 'reading_g$grade.unit1', random: Random(8)))));
+      await pumpUntil(tester, find.byKey(const Key('theory_start')));
+      await tester.tap(find.byKey(const Key('theory_start')));
+      await pumpUntil(tester, find.byType(ChoiceExerciseView));
+      final ex = tester.widget<ChoiceExerciseView>(find.byType(ChoiceExerciseView)).exercise;
+      final correct = find.byWidgetPredicate((w) => w is OptionCard && w.option.text == ex.correctOption!.text);
+      await tester.ensureVisible(correct);
+      await tester.tap(correct);
+      await tester.pump();
+      await pumpUntil(tester, find.byKey(const Key('lesson_explanation')));
+      expect(find.byKey(const Key('lesson_explanation')), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
   }
 
   testWidgets('Small phone: reading text and long answers remain usable', (tester) async {

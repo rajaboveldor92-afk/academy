@@ -1,0 +1,309 @@
+{
+ "subject": "reading",
+ "ageGroup": "g2",
+ "lessonSize": 8,
+ "title": {
+  "uz": "O‘qish va matn tahlili",
+  "en": "Reading and text analysis",
+  "ru": "Чтение и анализ текста"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "reading_g2.unit1",
+   "code": "1",
+   "emoji": "📖",
+   "title": {
+    "uz": "Kutubxonadagi tanlov",
+    "en": "Kutubxonadagi tanlov",
+    "ru": "Kutubxonadagi tanlov"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Kutubxonadagi tanlov",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nMalika shanba kuni otasi bilan kutubxonaga bordi. U hayvonlar haqidagi kitobni tanladi. Kutubxonachi kitobni ikki haftaga berdi. Malika uyda har kuni bir sahifa o‘qidi. Tushunmagan so‘zini daftariga yozdi. Keyin bu so‘zni otasidan so‘radi. Kitobni toza saqlab, vaqtida qaytardi."
+   }
+  },
+  {
+   "id": "reading_g2.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Kutubxonadagi tanlov",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g2.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g2.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g2.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g2.unit2",
+   "code": "2",
+   "emoji": "📖",
+   "title": {
+    "uz": "Urug‘ning o‘sishi",
+    "en": "Urug‘ning o‘sishi",
+    "ru": "Urug‘ning o‘sishi"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Urug‘ning o‘sishi",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nAli bir dona loviya urug‘ini tuproqli idishga ekdi. Idishni deraza yoniga qo‘ydi. Har kuni tuproqni tekshirdi, quruq bo‘lsa ozgina suv quydi. Bir necha kundan keyin yashil nihol chiqdi. Ali nihol rasmini daftariga chizdi. U o‘simlikka qarash uchun sabr kerakligini tushundi."
+   }
+  },
+  {
+   "id": "reading_g2.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Urug‘ning o‘sishi",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g2.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g2.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g2.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g2.unit3",
+   "code": "3",
+   "emoji": "📖",
+   "title": {
+    "uz": "Qayta ishlatilgan quti",
+    "en": "Qayta ishlatilgan quti",
+    "ru": "Qayta ishlatilgan quti"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Qayta ishlatilgan quti",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nNodira bo‘sh karton qutini tashlamadi. U qutini tozalab, tashqarisiga rangli qog‘oz yopishtirdi. Ichini ikki bo‘limga ajratdi. Bir bo‘limga qalam, ikkinchisiga o‘chirg‘ich qo‘ydi. Endi buyumlari stol ustida sochilib yotmasdi. Ukasi ham shunday quti yasashni so‘radi."
+   }
+  },
+  {
+   "id": "reading_g2.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Qayta ishlatilgan quti",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g2.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g2.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g2.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g2.unit4",
+   "code": "4",
+   "emoji": "📖",
+   "title": {
+    "uz": "Do‘stga yordam",
+    "en": "Do‘stga yordam",
+    "ru": "Do‘stga yordam"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Do‘stga yordam",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Matnni diqqat bilan o‘qing. Javobni matndagi dalil bilan tekshiring; voqea, sabab va xulosani ajrating.\n\nYomg‘irli kuni Diyor maktabga soyabon bilan keldi. Darvoza oldida soyabonsiz turgan Sherzodni ko‘rdi. Diyor uni soyaboni ostiga taklif qildi. Ular yo‘lakdan ehtiyotkor yurib sinfga yetdilar. Sherzod rahmat aytdi. Diyor do‘stiga yordam berganidan xursand bo‘ldi."
+   }
+  },
+  {
+   "id": "reading_g2.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Do‘stga yordam",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "reading_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "reading_g2.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "reading_g2.unit1",
+      "reading_g2.unit2",
+      "reading_g2.unit3",
+      "reading_g2.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "reading_g2.unit1",
+      "reading_g2.unit2",
+      "reading_g2.unit3",
+      "reading_g2.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "reading_g2.unit1",
+      "reading_g2.unit2",
+      "reading_g2.unit3",
+      "reading_g2.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

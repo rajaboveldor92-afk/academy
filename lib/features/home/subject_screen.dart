@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../l10n/tr.dart';
+import '../../learning/content/technology_tracks.dart';
 import '../../models/subject.dart';
 import '../../theme/app_colors.dart';
 import '../lesson/topics_screen.dart';
@@ -25,7 +26,8 @@ class SubjectScreen extends ConsumerWidget {
       child: curriculum.when(
         loading: () => const Scaffold(body: Center(child: CircularProgressIndicator())),
         error: (e, _) => _Unavailable(subject: subject),
-        data: (c) => c == null ? _Unavailable(subject: subject) : TopicsScreen(subject: subject, curriculum: c),
+        data: (c) => c == null ? _Unavailable(subject: subject) : TopicsScreen(subject: subject,
+          curriculum: profile == null ? c : TechnologyTracks.forProfile(c, profile)),
       ),
     );
   }

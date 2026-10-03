@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/providers.dart';
 import '../../learning/content/content_provider.dart';
+import '../../learning/content/technology_tracks.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/models/topic.dart';
 import '../../models/child_profile.dart';
@@ -81,6 +82,12 @@ class TopicsScreen extends ConsumerWidget {
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
+            if (subject.id == 'technology') SliverToBoxAdapter(child: Padding(
+              key: const Key('technology_track_banner'),
+              padding: const EdgeInsets.all(16),
+              child: Text(TechnologyTracks.title(profile.effectiveTechnologyTrack, lang),
+                style: Theme.of(context).textTheme.titleMedium),
+            )),
             if (subject.id == 'chess') SliverToBoxAdapter(child: Padding(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 4),
               child: FilledButton.icon(

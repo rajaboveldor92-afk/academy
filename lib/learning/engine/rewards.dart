@@ -1,5 +1,6 @@
 import '../../models/child_progress.dart';
 import '../content/content_repository.dart';
+import '../content/technology_tracks.dart';
 import '../models/exercise.dart';
 
 /// Medal: nima uchun beriladi va qanday qo'lga kiritiladi.
@@ -193,14 +194,16 @@ class Rewards {
   // ------------------------------------------------------------ Kuboklar
   /// Fan bo'yicha kubok: bolaning yoshiga mos dasturdagi mavzular o'rtacha egallanishi.
   /// [suffix] — bolaga mos dastur (`4`, `6`, `g3` ...), qarang `Subject.suffixFor`.
-  static CupTier cup(ChildProgress p, ContentRepository content, String subject, String suffix) {
+  static CupTier cup(ChildProgress p, ContentRepository content, String subject, String suffix, {String technologyTrack = 'both'}) {
     final c = content.curriculum(subject, suffix);
-    if (c == null || c.topics.isEmpty) return CupTier.none;
+    if (c == null) return CupTier.none;
+    final topics = c.topics.where((t) => TechnologyTracks.includes(t, technologyTrack)).toList();
+    if (topics.isEmpty) return CupTier.none;
     var sum = 0;
-    for (final t in c.topics) {
+    for (final t in topics) {
       sum += p.skillOf(t.id).mastery(t.maxLevel);
     }
-    final avg = sum / c.topics.length;
+    final avg = sum / topics.length;
     if (avg >= 85) return CupTier.gold;
     if (avg >= 55) return CupTier.silver;
     if (avg >= 25) return CupTier.bronze;

@@ -180,11 +180,16 @@ TITLES = {
     'prototype': ('Prototypes, algorithms and presentations', 'Прототипы, алгоритмы и презентации'),
 }
 
+from technology_service import DATA as SERVICE_DATA, prepare
+DATA.update(SERVICE_DATA)
+TITLES.update({key: data["title"][1:] for (_, key), data in SERVICE_DATA.items()})
+
 def build():
     for grade in (3, 5):
         path = BASE / f'technology_g{grade}.json'
         curriculum = json.loads(path.read_text())
         curriculum['topics'] = [t for t in curriculum['topics'] if not t['id'].endswith('_workshop')]
+        prepare(curriculum, grade)
         items, topics = [], []
         for topic in curriculum['topics']:
             topics.append(topic)
@@ -229,7 +234,7 @@ def build():
         curriculum['topics'] = topics
         path.write_text(json.dumps(curriculum, ensure_ascii=False, indent=1)+'\n')
         (BASE/f'bank_technology_g{grade}.json').write_text(json.dumps(dict(items=items), ensure_ascii=False, indent=1)+'\n')
-    print('Technology: 8 topic workshops, 128 authored items + 5 circuit tasks')
+    print('Technology: 13 topic workshops, 208 authored items + 5 circuit tasks; separate service and technical tests')
 
 if __name__ == '__main__':
     build()

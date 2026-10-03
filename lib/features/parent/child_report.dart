@@ -1,6 +1,7 @@
 import '../../core/utils/date_keys.dart';
 import '../../l10n/tr.dart';
 import '../../learning/content/content_repository.dart';
+import '../../learning/content/technology_tracks.dart';
 import '../../learning/engine/mastery.dart';
 import '../../learning/engine/rewards.dart';
 import '../../learning/engine/spaced_repetition.dart';
@@ -140,7 +141,8 @@ class ChildReport {
     for (final s in Subject.forProfile(profile)) {
       if (!profile.isSubjectEnabled(s.id)) continue;
       final suffix = s.suffixFor(profile);
-      final c = content.curriculum(s.id, suffix);
+      final raw = content.curriculum(s.id, suffix);
+      final c = raw == null ? null : TechnologyTracks.forProfile(raw, profile);
       if (c == null || c.topics.isEmpty) continue;
       final score = progress.scoreOf(s.id);
       subjects.add(SubjectReport(
@@ -148,7 +150,7 @@ class ChildReport {
         topics: [for (final t in c.topics) TopicReport(topic: t, stat: progress.skillOf(t.id))],
         correct: score.correct,
         total: score.total,
-        cup: Rewards.cup(progress, content, s.id, suffix),
+        cup: Rewards.cup(progress, content, s.id, suffix, technologyTrack: profile.effectiveTechnologyTrack),
       ));
     }
 

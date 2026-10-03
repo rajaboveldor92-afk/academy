@@ -1,0 +1,309 @@
+{
+ "subject": "physics",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Fizika",
+  "en": "Physics",
+  "ru": "Физика"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "physics_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "O‘lchash va mexanik harakat",
+    "en": "O‘lchash va mexanik harakat",
+    "ru": "O‘lchash va mexanik harakat"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. O‘lchash va mexanik harakat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Yo‘l — Jism bosib o‘tgan masofa; Vaqt — Harakat davom etish oralig‘i; O‘rtacha tezlik — Umumiy yo‘lning umumiy vaqtga nisbati; Ko‘chish — Boshlang‘ich joydan oxirgi joyga yo‘nalgan kesma; Sanoq jismi — Harakatni solishtirish uchun tanlangan jism; Metr — Uzunlikning SI birligi; Sekund — Vaqtning SI birligi; Kilogramm — Massaning SI birligi.\n\nMisol: jism 120 m yo‘lni 20 s da bosib o‘tsa, o‘rtacha tezlik v=s/t=6 m/s. Boshlagan joyiga qaytsa ko‘chish nol bo‘lishi mumkin, yo‘l esa nol emas.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. O‘lchash va mexanik harakat",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Kuch va bosim",
+    "en": "Kuch va bosim",
+    "ru": "Kuch va bosim"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Kuch va bosim",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Kuch — Jismlar o‘zaro ta’sirini ifodalovchi kattalik; Nyuton — Kuchning SI birligi; Og‘irlik kuchi — Yerning jismni tortish kuchi; Ishqalanish — Sirtlar nisbiy harakatiga qarshilik qiluvchi kuch; Elastiklik kuchi — Deformatsiyaga qarshi tiklovchi kuch; Bosim — Sirtga tik kuchning yuzaga nisbati; Paskal — Bosimning SI birligi; Dinamometr — Kuchni o‘lchash asbobi.\n\nMisol: 20 N kuch 0.5 m² yuzaga tik ta’sir etsa, p=F/S=40 Pa. Kuch bir xil bo‘lsa, kichik yuzada bosim kattaroq bo‘ladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Kuch va bosim",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Ish, energiya va oddiy mexanizm",
+    "en": "Ish, energiya va oddiy mexanizm",
+    "ru": "Ish, energiya va oddiy mexanizm"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Ish, energiya va oddiy mexanizm",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Mexanik ish — Kuch va uning yo‘nalishidagi ko‘chish ko‘paytmasi; Joul — Ish va energiyaning SI birligi; Quvvat — Bajarilgan ishning vaqtga nisbati; Vatt — Quvvatning SI birligi; Kinetik energiya — Harakat bilan bog‘liq energiya; Potensial energiya — Holat yoki joylashuv bilan bog‘liq energiya; Richag — Tayanch atrofida aylanadigan qattiq jism; Foydali ish koeffitsiyenti — Foydali ishning sarflangan ishga nisbati.\n\nMisol: yo‘nalishdosh 10 N kuch jismni 3 m siljitsa A=30 J. Bu ish 5 s da bajarilsa P=6 W. Oddiy mexanizm energiya yaratmaydi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Ish, energiya va oddiy mexanizm",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Issiqlik va modda holati",
+    "en": "Issiqlik va modda holati",
+    "ru": "Issiqlik va modda holati"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Issiqlik va modda holati",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: Harorat — Jismning issiqlik holatini ifodalovchi kattalik; Termometr — Haroratni o‘lchash asbobi; Issiqlik o‘tkazuvchanlik — Zarralar orqali issiqlik uzatilishi; Konveksiya — Suyuqlik yoki gaz oqimi bilan issiqlik tashilishi; Nurlanish — Elektromagnit to‘lqin orqali energiya uzatilishi; Erish — Qattiq holatdan suyuq holatga o‘tish; Bug‘lanish — Suyuqlik sirtidan gaz holatiga o‘tish; Kondensatsiya — Gaz holatdan suyuq holatga o‘tish.\n\nMisol: metall qoshiq issiqlikni o‘tkazadi, suv oqimlari konveksiya qiladi, Quyosh energiyasi nurlanish orqali yetib keladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "physics_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Issiqlik va modda holati",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "physics_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "physics_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "physics_g7.unit1",
+      "physics_g7.unit2",
+      "physics_g7.unit3",
+      "physics_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "physics_g7.unit1",
+      "physics_g7.unit2",
+      "physics_g7.unit3",
+      "physics_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "physics_g7.unit1",
+      "physics_g7.unit2",
+      "physics_g7.unit3",
+      "physics_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

@@ -13,7 +13,8 @@ class SeedData {
   /// Joriy ma'lumotlar versiyasi.
   /// 2 — to'liq ism, salomlashuv matni va profil mavzulari qo'shildi.
   /// 3 — maktab o'quvchilari: Jasmina (3-sinf) va Akramjon (5-sinf).
-  static const int currentDataVersion = 3;
+  /// 4 — profil jinsi va ota-ona tanlaydigan texnologiya yo‘nalishi.
+  static const int currentDataVersion = 4;
 
   static const String azamjonId = 'azamjon';
   static const String muhammadjonId = 'muhammadjon';
@@ -31,6 +32,7 @@ class SeedData {
   static ChildProfile azamjon(DateTime now) => ChildProfile.create(
         id: azamjonId,
         name: 'Azamjon',
+        gender: 'boy',
         fullName: 'Odilbekov Azamjon Eldorovich',
         age: 6,
         avatar: '🦁',
@@ -42,6 +44,7 @@ class SeedData {
   static ChildProfile muhammadjon(DateTime now) => ChildProfile.create(
         id: muhammadjonId,
         name: 'Muhammadjon',
+        gender: 'boy',
         fullName: 'Odilbekov Muhammadjon Eldorovich',
         age: 4,
         avatar: '🐻',
@@ -53,6 +56,7 @@ class SeedData {
   static ChildProfile jasmina(DateTime now) => ChildProfile.create(
         id: jasminaId,
         name: 'Jasmina',
+        gender: 'girl',
         fullName: 'Odilbekova Jasmina Temurbekovna',
         age: 9,
         grade: 3,
@@ -65,6 +69,7 @@ class SeedData {
   static ChildProfile akramjon(DateTime now) => ChildProfile.create(
         id: akramjonId,
         name: 'Akramjon',
+        gender: 'boy',
         fullName: 'Odilbekov Akramjon Temurbekovich',
         age: 11,
         grade: 5,
@@ -103,6 +108,14 @@ class SeedData {
     // v2 → v3: maktab o'quvchilari bir marta qo'shiladi.
     if (settings.dataVersion < 3) {
       await _addSchoolChildren(db, base);
+    }
+    if (settings.dataVersion < 4) {
+      for (final id in [azamjonId, muhammadjonId, jasminaId, akramjonId]) {
+        final profile = db.getProfile(id);
+        if (profile != null && profile.gender == 'unspecified') {
+          await db.saveProfile(profile.copyWith(gender: id == jasminaId ? 'girl' : 'boy'));
+        }
+      }
     }
     if (settings.dataVersion < currentDataVersion) {
       await db.saveSettings(settings.copyWith(dataVersion: currentDataVersion));

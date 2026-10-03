@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Fayl» uchun mos ma’noni tanlang.",
+   "a": "Saqlangan ma’lumot birligi",
+   "w": [
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv",
+    "Ishni keyin ochish uchun yozib qo‘yish"
+   ],
+   "d": 1,
+   "x": "Fayl — Saqlangan ma’lumot birligi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Fayl — Saqlangan ma’lumot birligi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Saqlangan ma’lumot birligi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Fayl",
+   "w": [
+    "Papka",
+    "Fayl nomi",
+    "Saqlash"
+   ],
+   "d": 2,
+   "x": "Fayl — Saqlangan ma’lumot birligi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Fayl — Saqlangan ma’lumot birligi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Papka» uchun mos ma’noni tanlang.",
+   "a": "Fayllarni guruhlash joyi",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Saqlangan ishni ajratadigan yozuv",
+    "Ishni keyin ochish uchun yozib qo‘yish"
+   ],
+   "d": 1,
+   "x": "Papka — Fayllarni guruhlash joyi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Papka — Fayllarni guruhlash joyi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Fayllarni guruhlash joyi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Papka",
+   "w": [
+    "Fayl",
+    "Fayl nomi",
+    "Saqlash"
+   ],
+   "d": 2,
+   "x": "Papka — Fayllarni guruhlash joyi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Papka — Fayllarni guruhlash joyi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«Fayl nomi» uchun mos ma’noni tanlang.",
+   "a": "Saqlangan ishni ajratadigan yozuv",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Ishni keyin ochish uchun yozib qo‘yish"
+   ],
+   "d": 1,
+   "x": "Fayl nomi — Saqlangan ishni ajratadigan yozuv. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Fayl nomi — Saqlangan ishni ajratadigan yozuv. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Saqlangan ishni ajratadigan yozuv» qaysi tushuncha yoki iboraga mos?",
+   "a": "Fayl nomi",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Saqlash"
+   ],
+   "d": 2,
+   "x": "Fayl nomi — Saqlangan ishni ajratadigan yozuv. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Fayl nomi — Saqlangan ishni ajratadigan yozuv. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Saqlash» uchun mos ma’noni tanlang.",
+   "a": "Ishni keyin ochish uchun yozib qo‘yish",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv"
+   ],
+   "d": 1,
+   "x": "Saqlash — Ishni keyin ochish uchun yozib qo‘yish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Saqlash — Ishni keyin ochish uchun yozib qo‘yish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Ishni keyin ochish uchun yozib qo‘yish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Saqlash",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Fayl nomi"
+   ],
+   "d": 2,
+   "x": "Saqlash — Ishni keyin ochish uchun yozib qo‘yish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Saqlash — Ishni keyin ochish uchun yozib qo‘yish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Ochish» uchun mos ma’noni tanlang.",
+   "a": "Saqlangan ishni ko‘rish",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv"
+   ],
+   "d": 1,
+   "x": "Ochish — Saqlangan ishni ko‘rish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Ochish — Saqlangan ishni ko‘rish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Saqlangan ishni ko‘rish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ochish",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Fayl nomi"
+   ],
+   "d": 2,
+   "x": "Ochish — Saqlangan ishni ko‘rish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Ochish — Saqlangan ishni ko‘rish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«Nusxa» uchun mos ma’noni tanlang.",
+   "a": "Asl faylning ikkinchi ko‘rinishi",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv"
+   ],
+   "d": 1,
+   "x": "Nusxa — Asl faylning ikkinchi ko‘rinishi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Nusxa — Asl faylning ikkinchi ko‘rinishi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«Asl faylning ikkinchi ko‘rinishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Nusxa",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Fayl nomi"
+   ],
+   "d": 2,
+   "x": "Nusxa — Asl faylning ikkinchi ko‘rinishi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Nusxa — Asl faylning ikkinchi ko‘rinishi. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«O‘chirish» uchun mos ma’noni tanlang.",
+   "a": "Keraksiz faylni olib tashlash",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv"
+   ],
+   "d": 1,
+   "x": "O‘chirish — Keraksiz faylni olib tashlash. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "O‘chirish — Keraksiz faylni olib tashlash. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«Keraksiz faylni olib tashlash» qaysi tushuncha yoki iboraga mos?",
+   "a": "O‘chirish",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Fayl nomi"
+   ],
+   "d": 2,
+   "x": "O‘chirish — Keraksiz faylni olib tashlash. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "O‘chirish — Keraksiz faylni olib tashlash. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«Qidirish» uchun mos ma’noni tanlang.",
+   "a": "Nom bo‘yicha kerakli faylni topish",
+   "w": [
+    "Saqlangan ma’lumot birligi",
+    "Fayllarni guruhlash joyi",
+    "Saqlangan ishni ajratadigan yozuv"
+   ],
+   "d": 1,
+   "x": "Qidirish — Nom bo‘yicha kerakli faylni topish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Qidirish — Nom bo‘yicha kerakli faylni topish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«Nom bo‘yicha kerakli faylni topish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qidirish",
+   "w": [
+    "Fayl",
+    "Papka",
+    "Fayl nomi"
+   ],
+   "d": 2,
+   "x": "Qidirish — Nom bo‘yicha kerakli faylni topish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz.",
+   "h": "Qidirish — Nom bo‘yicha kerakli faylni topish. Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Fayl va papkalar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Fayl",
+     "Saqlangan ma’lumot birligi"
+    ],
+    [
+     "Papka",
+     "Fayllarni guruhlash joyi"
+    ],
+    [
+     "Fayl nomi",
+     "Saqlangan ishni ajratadigan yozuv"
+    ],
+    [
+     "Saqlash",
+     "Ishni keyin ochish uchun yozib qo‘yish"
+    ]
+   ],
+   "d": 1,
+   "x": "Fayl — Saqlangan ma’lumot birligi; Papka — Fayllarni guruhlash joyi; Fayl nomi — Saqlangan ishni ajratadigan yozuv; Saqlash — Ishni keyin ochish uchun yozib qo‘yish",
+   "h": "Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Fayl va papkalar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Ochish",
+     "Saqlangan ishni ko‘rish"
+    ],
+    [
+     "Nusxa",
+     "Asl faylning ikkinchi ko‘rinishi"
+    ],
+    [
+     "O‘chirish",
+     "Keraksiz faylni olib tashlash"
+    ],
+    [
+     "Qidirish",
+     "Nom bo‘yicha kerakli faylni topish"
+    ]
+   ],
+   "d": 1,
+   "x": "Ochish — Saqlangan ishni ko‘rish; Nusxa — Asl faylning ikkinchi ko‘rinishi; O‘chirish — Keraksiz faylni olib tashlash; Qidirish — Nom bo‘yicha kerakli faylni topish",
+   "h": "Misol: “Rasmlar” papkasida “Bahor” nomli fayl saqlansa, uni keyin nomi bilan topamiz."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«Bo‘sh joy tugmasi» uchun mos ma’noni tanlang.",
+   "a": "So‘zlar orasida bo‘shliq qoldirish",
+   "w": [
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish",
+    "Matn kiritiladigan joyni ko‘rsatish"
+   ],
+   "d": 1,
+   "x": "Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«So‘zlar orasida bo‘shliq qoldirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bo‘sh joy tugmasi",
+   "w": [
+    "Enter",
+    "Backspace",
+    "Kursor"
+   ],
+   "d": 2,
+   "x": "Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«Enter» uchun mos ma’noni tanlang.",
+   "a": "Yangi satrga o‘tish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Kursordan oldingi belgini o‘chirish",
+    "Matn kiritiladigan joyni ko‘rsatish"
+   ],
+   "d": 1,
+   "x": "Enter — Yangi satrga o‘tish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Enter — Yangi satrga o‘tish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«Yangi satrga o‘tish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Enter",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Backspace",
+    "Kursor"
+   ],
+   "d": 2,
+   "x": "Enter — Yangi satrga o‘tish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Enter — Yangi satrga o‘tish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«Backspace» uchun mos ma’noni tanlang.",
+   "a": "Kursordan oldingi belgini o‘chirish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Matn kiritiladigan joyni ko‘rsatish"
+   ],
+   "d": 1,
+   "x": "Backspace — Kursordan oldingi belgini o‘chirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Backspace — Kursordan oldingi belgini o‘chirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«Kursordan oldingi belgini o‘chirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Backspace",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Kursor"
+   ],
+   "d": 2,
+   "x": "Backspace — Kursordan oldingi belgini o‘chirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Backspace — Kursordan oldingi belgini o‘chirish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«Kursor» uchun mos ma’noni tanlang.",
+   "a": "Matn kiritiladigan joyni ko‘rsatish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Kursor — Matn kiritiladigan joyni ko‘rsatish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Kursor — Matn kiritiladigan joyni ko‘rsatish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«Matn kiritiladigan joyni ko‘rsatish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Kursor",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Backspace"
+   ],
+   "d": 2,
+   "x": "Kursor — Matn kiritiladigan joyni ko‘rsatish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Kursor — Matn kiritiladigan joyni ko‘rsatish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«Qalam vositasi» uchun mos ma’noni tanlang.",
+   "a": "Erkin chiziq chizish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Qalam vositasi — Erkin chiziq chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Qalam vositasi — Erkin chiziq chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«Erkin chiziq chizish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Qalam vositasi",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Backspace"
+   ],
+   "d": 2,
+   "x": "Qalam vositasi — Erkin chiziq chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Qalam vositasi — Erkin chiziq chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«Rang tanlash» uchun mos ma’noni tanlang.",
+   "a": "Chiziq yoki shakl rangini belgilash",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Rang tanlash — Chiziq yoki shakl rangini belgilash. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Rang tanlash — Chiziq yoki shakl rangini belgilash. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«Chiziq yoki shakl rangini belgilash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Rang tanlash",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Backspace"
+   ],
+   "d": 2,
+   "x": "Rang tanlash — Chiziq yoki shakl rangini belgilash. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Rang tanlash — Chiziq yoki shakl rangini belgilash. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«Shakl vositasi» uchun mos ma’noni tanlang.",
+   "a": "Doira yoki to‘rtburchak chizish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Shakl vositasi — Doira yoki to‘rtburchak chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Shakl vositasi — Doira yoki to‘rtburchak chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«Doira yoki to‘rtburchak chizish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Shakl vositasi",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Backspace"
+   ],
+   "d": 2,
+   "x": "Shakl vositasi — Doira yoki to‘rtburchak chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Shakl vositasi — Doira yoki to‘rtburchak chizish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«Bekor qilish» uchun mos ma’noni tanlang.",
+   "a": "Oxirgi amalni ortga qaytarish",
+   "w": [
+    "So‘zlar orasida bo‘shliq qoldirish",
+    "Yangi satrga o‘tish",
+    "Kursordan oldingi belgini o‘chirish"
+   ],
+   "d": 1,
+   "x": "Bekor qilish — Oxirgi amalni ortga qaytarish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Bekor qilish — Oxirgi amalni ortga qaytarish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«Oxirgi amalni ortga qaytarish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Bekor qilish",
+   "w": [
+    "Bo‘sh joy tugmasi",
+    "Enter",
+    "Backspace"
+   ],
+   "d": 2,
+   "x": "Bekor qilish — Oxirgi amalni ortga qaytarish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin.",
+   "h": "Bekor qilish — Oxirgi amalni ortga qaytarish. Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Matn va rasm bilan ishlash: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Bo‘sh joy tugmasi",
+     "So‘zlar orasida bo‘shliq qoldirish"
+    ],
+    [
+     "Enter",
+     "Yangi satrga o‘tish"
+    ],
+    [
+     "Backspace",
+     "Kursordan oldingi belgini o‘chirish"
+    ],
+    [
+     "Kursor",
+     "Matn kiritiladigan joyni ko‘rsatish"
+    ]
+   ],
+   "d": 1,
+   "x": "Bo‘sh joy tugmasi — So‘zlar orasida bo‘shliq qoldirish; Enter — Yangi satrga o‘tish; Backspace — Kursordan oldingi belgini o‘chirish; Kursor — Matn kiritiladigan joyni ko‘rsatish",
+   "h": "Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Matn va rasm bilan ishlash: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Qalam vositasi",
+     "Erkin chiziq chizish"
+    ],
+    [
+     "Rang tanlash",
+     "Chiziq yoki shakl rangini belgilash"
+    ],
+    [
+     "Shakl vositasi",
+     "Doira yoki to‘rtburchak chizish"
+    ],
+    [
+     "Bekor qilish",
+     "Oxirgi amalni ortga qaytarish"
+    ]
+   ],
+   "d": 1,
+   "x": "Qalam vositasi — Erkin chiziq chizish; Rang tanlash — Chiziq yoki shakl rangini belgilash; Shakl vositasi — Doira yoki to‘rtburchak chizish; Bekor qilish — Oxirgi amalni ortga qaytarish",
+   "h": "Misol: “Men kitob o‘qiyman” jumlasida so‘zlar orasida bo‘sh joy bo‘ladi. Xato harfni Backspace bilan tuzatish mumkin."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«Shart» uchun mos ma’noni tanlang.",
+   "a": "Rost yoki yolg‘onligi tekshiriladigan fikr",
+   "w": [
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat",
+    "Bir amalni yana bajarish"
+   ],
+   "d": 1,
+   "x": "Shart — Rost yoki yolg‘onligi tekshiriladigan fikr. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Shart — Rost yoki yolg‘onligi tekshiriladigan fikr. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«Rost yoki yolg‘onligi tekshiriladigan fikr» qaysi tushuncha yoki iboraga mos?",
+   "a": "Shart",
+   "w": [
+    "Rost",
+    "Yolg‘on",
+    "Takrorlash"
+   ],
+   "d": 2,
+   "x": "Shart — Rost yoki yolg‘onligi tekshiriladigan fikr. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Shart — Rost yoki yolg‘onligi tekshiriladigan fikr. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«Rost» uchun mos ma’noni tanlang.",
+   "a": "Shart bajarilgan holat",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilmagan holat",
+    "Bir amalni yana bajarish"
+   ],
+   "d": 1,
+   "x": "Rost — Shart bajarilgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Rost — Shart bajarilgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«Shart bajarilgan holat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Rost",
+   "w": [
+    "Shart",
+    "Yolg‘on",
+    "Takrorlash"
+   ],
+   "d": 2,
+   "x": "Rost — Shart bajarilgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Rost — Shart bajarilgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«Yolg‘on» uchun mos ma’noni tanlang.",
+   "a": "Shart bajarilmagan holat",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Bir amalni yana bajarish"
+   ],
+   "d": 1,
+   "x": "Yolg‘on — Shart bajarilmagan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Yolg‘on — Shart bajarilmagan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«Shart bajarilmagan holat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Yolg‘on",
+   "w": [
+    "Shart",
+    "Rost",
+    "Takrorlash"
+   ],
+   "d": 2,
+   "x": "Yolg‘on — Shart bajarilmagan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Yolg‘on — Shart bajarilmagan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«Takrorlash» uchun mos ma’noni tanlang.",
+   "a": "Bir amalni yana bajarish",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat"
+   ],
+   "d": 1,
+   "x": "Takrorlash — Bir amalni yana bajarish. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Takrorlash — Bir amalni yana bajarish. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«Bir amalni yana bajarish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Takrorlash",
+   "w": [
+    "Shart",
+    "Rost",
+    "Yolg‘on"
+   ],
+   "d": 2,
+   "x": "Takrorlash — Bir amalni yana bajarish. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Takrorlash — Bir amalni yana bajarish. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«Hisoblagich» uchun mos ma’noni tanlang.",
+   "a": "Bajarilgan takrorlar sonini sanash",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat"
+   ],
+   "d": 1,
+   "x": "Hisoblagich — Bajarilgan takrorlar sonini sanash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Hisoblagich — Bajarilgan takrorlar sonini sanash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«Bajarilgan takrorlar sonini sanash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hisoblagich",
+   "w": [
+    "Shart",
+    "Rost",
+    "Yolg‘on"
+   ],
+   "d": 2,
+   "x": "Hisoblagich — Bajarilgan takrorlar sonini sanash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Hisoblagich — Bajarilgan takrorlar sonini sanash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«Buyruq» uchun mos ma’noni tanlang.",
+   "a": "Bajarilishi kerak bo‘lgan ko‘rsatma",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat"
+   ],
+   "d": 1,
+   "x": "Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«Bajarilishi kerak bo‘lgan ko‘rsatma» qaysi tushuncha yoki iboraga mos?",
+   "a": "Buyruq",
+   "w": [
+    "Shart",
+    "Rost",
+    "Yolg‘on"
+   ],
+   "d": 2,
+   "x": "Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«Natija» uchun mos ma’noni tanlang.",
+   "a": "Buyruqlar bajarilgach hosil bo‘lgan holat",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat"
+   ],
+   "d": 1,
+   "x": "Natija — Buyruqlar bajarilgach hosil bo‘lgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Natija — Buyruqlar bajarilgach hosil bo‘lgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«Buyruqlar bajarilgach hosil bo‘lgan holat» qaysi tushuncha yoki iboraga mos?",
+   "a": "Natija",
+   "w": [
+    "Shart",
+    "Rost",
+    "Yolg‘on"
+   ],
+   "d": 2,
+   "x": "Natija — Buyruqlar bajarilgach hosil bo‘lgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Natija — Buyruqlar bajarilgach hosil bo‘lgan holat. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«Xatoni topish» uchun mos ma’noni tanlang.",
+   "a": "Noto‘g‘ri qadamni aniqlash",
+   "w": [
+    "Rost yoki yolg‘onligi tekshiriladigan fikr",
+    "Shart bajarilgan holat",
+    "Shart bajarilmagan holat"
+   ],
+   "d": 1,
+   "x": "Xatoni topish — Noto‘g‘ri qadamni aniqlash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Xatoni topish — Noto‘g‘ri qadamni aniqlash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«Noto‘g‘ri qadamni aniqlash» qaysi tushuncha yoki iboraga mos?",
+   "a": "Xatoni topish",
+   "w": [
+    "Shart",
+    "Rost",
+    "Yolg‘on"
+   ],
+   "d": 2,
+   "x": "Xatoni topish — Noto‘g‘ri qadamni aniqlash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz.",
+   "h": "Xatoni topish — Noto‘g‘ri qadamni aniqlash. Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Shart va takrorlash: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Shart",
+     "Rost yoki yolg‘onligi tekshiriladigan fikr"
+    ],
+    [
+     "Rost",
+     "Shart bajarilgan holat"
+    ],
+    [
+     "Yolg‘on",
+     "Shart bajarilmagan holat"
+    ],
+    [
+     "Takrorlash",
+     "Bir amalni yana bajarish"
+    ]
+   ],
+   "d": 1,
+   "x": "Shart — Rost yoki yolg‘onligi tekshiriladigan fikr; Rost — Shart bajarilgan holat; Yolg‘on — Shart bajarilmagan holat; Takrorlash — Bir amalni yana bajarish",
+   "h": "Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Shart va takrorlash: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Hisoblagich",
+     "Bajarilgan takrorlar sonini sanash"
+    ],
+    [
+     "Buyruq",
+     "Bajarilishi kerak bo‘lgan ko‘rsatma"
+    ],
+    [
+     "Natija",
+     "Buyruqlar bajarilgach hosil bo‘lgan holat"
+    ],
+    [
+     "Xatoni topish",
+     "Noto‘g‘ri qadamni aniqlash"
+    ]
+   ],
+   "d": 1,
+   "x": "Hisoblagich — Bajarilgan takrorlar sonini sanash; Buyruq — Bajarilishi kerak bo‘lgan ko‘rsatma; Natija — Buyruqlar bajarilgach hosil bo‘lgan holat; Xatoni topish — Noto‘g‘ri qadamni aniqlash",
+   "h": "Misol: “Oldinda yo‘l bo‘lsa, yur” — shartli ko‘rsatma. “Uch marta yur” — takrorlash. Robotni belgilangan manzilga olib borishni rejalaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Parol» uchun mos ma’noni tanlang.",
+   "a": "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+   "w": [
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy",
+    "Boshqani ranjitmay yozilgan muloqot"
+   ],
+   "d": 1,
+   "x": "Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Hisobga kirishni himoya qiladigan maxfiy yozuv» qaysi tushuncha yoki iboraga mos?",
+   "a": "Parol",
+   "w": [
+    "Muallif",
+    "Manba",
+    "Hurmatli xabar"
+   ],
+   "d": 2,
+   "x": "Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Muallif» uchun mos ma’noni tanlang.",
+   "a": "Rasm yoki matnni yaratgan kishi",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Axborot olingan joy",
+    "Boshqani ranjitmay yozilgan muloqot"
+   ],
+   "d": 1,
+   "x": "Muallif — Rasm yoki matnni yaratgan kishi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Muallif — Rasm yoki matnni yaratgan kishi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Rasm yoki matnni yaratgan kishi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Muallif",
+   "w": [
+    "Parol",
+    "Manba",
+    "Hurmatli xabar"
+   ],
+   "d": 2,
+   "x": "Muallif — Rasm yoki matnni yaratgan kishi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Muallif — Rasm yoki matnni yaratgan kishi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Manba» uchun mos ma’noni tanlang.",
+   "a": "Axborot olingan joy",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Boshqani ranjitmay yozilgan muloqot"
+   ],
+   "d": 1,
+   "x": "Manba — Axborot olingan joy. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Manba — Axborot olingan joy. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Axborot olingan joy» qaysi tushuncha yoki iboraga mos?",
+   "a": "Manba",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Hurmatli xabar"
+   ],
+   "d": 2,
+   "x": "Manba — Axborot olingan joy. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Manba — Axborot olingan joy. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Hurmatli xabar» uchun mos ma’noni tanlang.",
+   "a": "Boshqani ranjitmay yozilgan muloqot",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy"
+   ],
+   "d": 1,
+   "x": "Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Boshqani ranjitmay yozilgan muloqot» qaysi tushuncha yoki iboraga mos?",
+   "a": "Hurmatli xabar",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Manba"
+   ],
+   "d": 2,
+   "x": "Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Shaxsiy manzil» uchun mos ma’noni tanlang.",
+   "a": "Hamma bilan tarqatilmaydigan yashash joyi",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy"
+   ],
+   "d": 1,
+   "x": "Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Hamma bilan tarqatilmaydigan yashash joyi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Shaxsiy manzil",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Manba"
+   ],
+   "d": 2,
+   "x": "Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Ruxsat» uchun mos ma’noni tanlang.",
+   "a": "Birovning ishini ishlatishga rozilik",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy"
+   ],
+   "d": 1,
+   "x": "Ruxsat — Birovning ishini ishlatishga rozilik. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Ruxsat — Birovning ishini ishlatishga rozilik. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Birovning ishini ishlatishga rozilik» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ruxsat",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Manba"
+   ],
+   "d": 2,
+   "x": "Ruxsat — Birovning ishini ishlatishga rozilik. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Ruxsat — Birovning ishini ishlatishga rozilik. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Ishonchli katta» uchun mos ma’noni tanlang.",
+   "a": "Shubhali xabarni ko‘rsatadigan yordamchi",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy"
+   ],
+   "d": 1,
+   "x": "Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Shubhali xabarni ko‘rsatadigan yordamchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "Ishonchli katta",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Manba"
+   ],
+   "d": 2,
+   "x": "Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Tekshirish» uchun mos ma’noni tanlang.",
+   "a": "Axborotni boshqa manba bilan solishtirish",
+   "w": [
+    "Hisobga kirishni himoya qiladigan maxfiy yozuv",
+    "Rasm yoki matnni yaratgan kishi",
+    "Axborot olingan joy"
+   ],
+   "d": 1,
+   "x": "Tekshirish — Axborotni boshqa manba bilan solishtirish. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Tekshirish — Axborotni boshqa manba bilan solishtirish. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Axborotni boshqa manba bilan solishtirish» qaysi tushuncha yoki iboraga mos?",
+   "a": "Tekshirish",
+   "w": [
+    "Parol",
+    "Muallif",
+    "Manba"
+   ],
+   "d": 2,
+   "x": "Tekshirish — Axborotni boshqa manba bilan solishtirish. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz.",
+   "h": "Tekshirish — Axborotni boshqa manba bilan solishtirish. Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Raqamli odob va xavfsizlik: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Parol",
+     "Hisobga kirishni himoya qiladigan maxfiy yozuv"
+    ],
+    [
+     "Muallif",
+     "Rasm yoki matnni yaratgan kishi"
+    ],
+    [
+     "Manba",
+     "Axborot olingan joy"
+    ],
+    [
+     "Hurmatli xabar",
+     "Boshqani ranjitmay yozilgan muloqot"
+    ]
+   ],
+   "d": 1,
+   "x": "Parol — Hisobga kirishni himoya qiladigan maxfiy yozuv; Muallif — Rasm yoki matnni yaratgan kishi; Manba — Axborot olingan joy; Hurmatli xabar — Boshqani ranjitmay yozilgan muloqot",
+   "h": "Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  },
+  {
+   "topic": "informatics_g2.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Raqamli odob va xavfsizlik: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Shaxsiy manzil",
+     "Hamma bilan tarqatilmaydigan yashash joyi"
+    ],
+    [
+     "Ruxsat",
+     "Birovning ishini ishlatishga rozilik"
+    ],
+    [
+     "Ishonchli katta",
+     "Shubhali xabarni ko‘rsatadigan yordamchi"
+    ],
+    [
+     "Tekshirish",
+     "Axborotni boshqa manba bilan solishtirish"
+    ]
+   ],
+   "d": 1,
+   "x": "Shaxsiy manzil — Hamma bilan tarqatilmaydigan yashash joyi; Ruxsat — Birovning ishini ishlatishga rozilik; Ishonchli katta — Shubhali xabarni ko‘rsatadigan yordamchi; Tekshirish — Axborotni boshqa manba bilan solishtirish",
+   "h": "Misol: internetdagi rasmdan foydalanishdan oldin ruxsat va muallifni tekshiramiz. Parolni boshqalarga aytmaymiz."
+  }
+ ]
+}

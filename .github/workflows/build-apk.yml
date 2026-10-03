@@ -46,6 +46,9 @@ jobs:
       - name: Technology content checks
         run: python3 tool/validate_technology.py
 
+      - name: Missing school content checks
+        run: python3 tool/validate_school_gaps.py
+
       - name: Testlar
         run: |
           set -o pipefail

@@ -1,0 +1,309 @@
+{
+ "subject": "english",
+ "ageGroup": "g7",
+ "lessonSize": 8,
+ "title": {
+  "uz": "Ingliz tili",
+  "en": "English",
+  "ru": "Английский язык"
+ },
+ "model": "QOIDA → MISOL → MASHQ → NAZORAT",
+ "topics": [
+  {
+   "id": "english_g7.unit1",
+   "code": "1",
+   "emoji": "💡",
+   "title": {
+    "uz": "Past simple va o‘tgan voqealar",
+    "en": "Past simple va o‘tgan voqealar",
+    "ru": "Past simple va o‘tgan voqealar"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "1-chorak. Past simple va o‘tgan voqealar",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: I visited my aunt yesterday. — Men kecha xolamnikiga bordim.; She watched a film last night. — U kecha kechqurun film ko‘rdi.; We went to the museum. — Biz muzeyga bordik.; He did not play football. — U futbol o‘ynamadi.; Did you finish your homework? — Uy vazifangni tugatdingmi?; They bought a new book. — Ular yangi kitob sotib oldilar.; I was at home on Sunday. — Men yakshanba kuni uyda edim.; We were tired after the trip. — Biz sayohatdan keyin charchagan edik..\n\nPast simple tugagan o‘tgan ishni bildiradi. To‘g‘ri fe’lga -ed qo‘shiladi, noto‘g‘ri fe’lning alohida shakli bor. Did bilan asosiy fe’l boshlang‘ich shaklda: Did you go?\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g7.test1",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "1-nazorat ishi",
+    "en": "Test 1",
+    "ru": "Контрольная работа 1"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "1-chorak. Past simple va o‘tgan voqealar",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g7.unit1"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g7.unit1"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g7.unit1"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g7.unit2",
+   "code": "2",
+   "emoji": "💡",
+   "title": {
+    "uz": "Reja va kelajak",
+    "en": "Reja va kelajak",
+    "ru": "Reja va kelajak"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "2-chorak. Reja va kelajak",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: I am going to learn chess. — Men shaxmat o‘rganmoqchiman.; She is going to visit Bukhara. — U Buxoroga bormoqchi.; We are meeting our teacher tomorrow. — Biz ertaga o‘qituvchimiz bilan uchrashyapmiz.; I will help you. — Men senga yordam beraman.; It will rain tomorrow. — Ertaga yomg‘ir yog‘adi.; They are not going to buy a car. — Ular mashina sotib olmoqchi emas.; Are you going to read this book? — Bu kitobni o‘qimoqchimisan?; We will not forget this day. — Biz bu kunni unutmaymiz..\n\nGoing to niyat yoki mavjud dalilga asoslangan taxminni ifodalaydi. Present continuous kelishilgan rejaga mos. Will qaror, va’da yoki taxminda ishlatiladi; bitta shakl faqat bitta ma’noga qamalgan emas.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g7.test2",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "2-nazorat ishi",
+    "en": "Test 2",
+    "ru": "Контрольная работа 2"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "2-chorak. Reja va kelajak",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g7.unit2"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g7.unit2"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g7.unit2"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g7.unit3",
+   "code": "3",
+   "emoji": "💡",
+   "title": {
+    "uz": "Taqqoslash va tavsif",
+    "en": "Taqqoslash va tavsif",
+    "ru": "Taqqoslash va tavsif"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "3-chorak. Taqqoslash va tavsif",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: This bag is lighter than that bag. — Bu sumka anavi sumkadan yengilroq.; A train is faster than a bicycle. — Poyezd velosipeddan tezroq.; This is the tallest tree here. — Bu shu yerdagi eng baland daraxt.; My room is smaller than yours. — Mening xonam senikidan kichikroq.; This task is more difficult. — Bu topshiriq qiyinroq.; This is the most interesting story. — Bu eng qiziqarli hikoya.; Today is better than yesterday. — Bugun kechagidan yaxshiroq.; This road is worse than that one. — Bu yo‘l anavi yo‘ldan yomonroq..\n\nQisqa sifatlarda -er/-est, ko‘p uzun sifatlarda more/most ishlatiladi. Good → better → best; bad → worse → worst. Than ikki narsani solishtirishda keladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g7.test3",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "3-nazorat ishi",
+    "en": "Test 3",
+    "ru": "Контрольная работа 3"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "3-chorak. Taqqoslash va tavsif",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g7.unit3"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g7.unit3"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g7.unit3"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g7.unit4",
+   "code": "4",
+   "emoji": "💡",
+   "title": {
+    "uz": "Majburiyat, maslahat va imkoniyat",
+    "en": "Majburiyat, maslahat va imkoniyat",
+    "ru": "Majburiyat, maslahat va imkoniyat"
+   },
+   "generator": "bank",
+   "skill": "bank",
+   "chapter": "4-chorak. Majburiyat, maslahat va imkoniyat",
+   "prerequisites": [],
+   "levels": [
+    {
+     "options": 3
+    },
+    {
+     "options": 4
+    },
+    {
+     "options": 4
+    }
+   ],
+   "theory": {
+    "uz": "Qoida va tushunchalar: You must wear a seat belt. — Xavfsizlik kamarini taqishing shart.; You must not touch that wire. — Anavi simga tegishing mumkin emas.; You should check your answer. — Javobingni tekshirishing kerak.; You should not waste water. — Suvni isrof qilmasliging kerak.; I can solve this puzzle. — Men bu boshqotirmani yecha olaman.; May I open the window? — Derazani ochsam maylimi?; We have to arrive on time. — Biz vaqtida yetib borishimiz zarur.; You do not have to bring a pen. — Ruchka olib kelishing shart emas..\n\nMust majburiyat, must not taqiq, do not have to esa majburiyat yo‘qligini bildiradi. Modal fe’ldan keyin asosiy fe’l odatda boshlang‘ich shaklda keladi.\nMashqda tushunchani ta’rif yoki misol bilan bog‘lang va javob izohini o‘qing."
+   }
+  },
+  {
+   "id": "english_g7.test4",
+   "code": "N",
+   "emoji": "📝",
+   "title": {
+    "uz": "4-nazorat ishi",
+    "en": "Test 4",
+    "ru": "Контрольная работа 4"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "4-chorak. Majburiyat, maslahat va imkoniyat",
+   "prerequisites": [],
+   "lessonSize": 8,
+   "levels": [
+    {
+     "topics": [
+      "english_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "english_g7.final",
+   "code": "Y",
+   "emoji": "📝",
+   "title": {
+    "uz": "Yakuniy takrorlash",
+    "en": "Final review",
+    "ru": "Итоговое повторение"
+   },
+   "generator": "test",
+   "skill": "test",
+   "chapter": "Yakuniy takrorlash",
+   "prerequisites": [],
+   "lessonSize": 12,
+   "levels": [
+    {
+     "topics": [
+      "english_g7.unit1",
+      "english_g7.unit2",
+      "english_g7.unit3",
+      "english_g7.unit4"
+     ],
+     "level": 1
+    },
+    {
+     "topics": [
+      "english_g7.unit1",
+      "english_g7.unit2",
+      "english_g7.unit3",
+      "english_g7.unit4"
+     ],
+     "level": 2
+    },
+    {
+     "topics": [
+      "english_g7.unit1",
+      "english_g7.unit2",
+      "english_g7.unit3",
+      "english_g7.unit4"
+     ],
+     "level": 3
+    }
+   ]
+  }
+ ]
+}

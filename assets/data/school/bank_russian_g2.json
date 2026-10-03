@@ -1,0 +1,1180 @@
+{
+ "items": [
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_1",
+   "t": "choice",
+   "q": "«Здравствуйте!» uchun mos ma’noni tanlang.",
+   "a": "Assalomu alaykum!",
+   "w": [
+    "Xayrli tong!",
+    "Xayr!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "Здравствуйте! — Assalomu alaykum!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Здравствуйте! — Assalomu alaykum!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_2",
+   "t": "choice",
+   "q": "«Assalomu alaykum!» qaysi tushuncha yoki iboraga mos?",
+   "a": "Здравствуйте!",
+   "w": [
+    "Доброе утро!",
+    "До свидания!",
+    "Спасибо!"
+   ],
+   "d": 2,
+   "x": "Здравствуйте! — Assalomu alaykum!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Здравствуйте! — Assalomu alaykum!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_3",
+   "t": "choice",
+   "q": "«Доброе утро!» uchun mos ma’noni tanlang.",
+   "a": "Xayrli tong!",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayr!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "Доброе утро! — Xayrli tong!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Доброе утро! — Xayrli tong!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_4",
+   "t": "choice",
+   "q": "«Xayrli tong!» qaysi tushuncha yoki iboraga mos?",
+   "a": "Доброе утро!",
+   "w": [
+    "Здравствуйте!",
+    "До свидания!",
+    "Спасибо!"
+   ],
+   "d": 2,
+   "x": "Доброе утро! — Xayrli tong!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Доброе утро! — Xayrli tong!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_5",
+   "t": "choice",
+   "q": "«До свидания!» uchun mos ma’noni tanlang.",
+   "a": "Xayr!",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Rahmat!"
+   ],
+   "d": 1,
+   "x": "До свидания! — Xayr!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "До свидания! — Xayr!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_6",
+   "t": "choice",
+   "q": "«Xayr!» qaysi tushuncha yoki iboraga mos?",
+   "a": "До свидания!",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "Спасибо!"
+   ],
+   "d": 2,
+   "x": "До свидания! — Xayr!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "До свидания! — Xayr!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_7",
+   "t": "choice",
+   "q": "«Спасибо!» uchun mos ma’noni tanlang.",
+   "a": "Rahmat!",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "Спасибо! — Rahmat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Спасибо! — Rahmat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_8",
+   "t": "choice",
+   "q": "«Rahmat!» qaysi tushuncha yoki iboraga mos?",
+   "a": "Спасибо!",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "До свидания!"
+   ],
+   "d": 2,
+   "x": "Спасибо! — Rahmat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Спасибо! — Rahmat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_9",
+   "t": "choice",
+   "q": "«Пожалуйста!» uchun mos ma’noni tanlang.",
+   "a": "Marhamat!",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "Пожалуйста! — Marhamat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Пожалуйста! — Marhamat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_10",
+   "t": "choice",
+   "q": "«Marhamat!» qaysi tushuncha yoki iboraga mos?",
+   "a": "Пожалуйста!",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "До свидания!"
+   ],
+   "d": 2,
+   "x": "Пожалуйста! — Marhamat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "Пожалуйста! — Marhamat!. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_11",
+   "t": "choice",
+   "q": "«учитель» uchun mos ma’noni tanlang.",
+   "a": "o‘qituvchi",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "учитель — o‘qituvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "учитель — o‘qituvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_12",
+   "t": "choice",
+   "q": "«o‘qituvchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "учитель",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "До свидания!"
+   ],
+   "d": 2,
+   "x": "учитель — o‘qituvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "учитель — o‘qituvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_13",
+   "t": "choice",
+   "q": "«ученик» uchun mos ma’noni tanlang.",
+   "a": "o‘quvchi",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "ученик — o‘quvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "ученик — o‘quvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_14",
+   "t": "choice",
+   "q": "«o‘quvchi» qaysi tushuncha yoki iboraga mos?",
+   "a": "ученик",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "До свидания!"
+   ],
+   "d": 2,
+   "x": "ученик — o‘quvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "ученик — o‘quvchi. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_15",
+   "t": "choice",
+   "q": "«школа» uchun mos ma’noni tanlang.",
+   "a": "maktab",
+   "w": [
+    "Assalomu alaykum!",
+    "Xayrli tong!",
+    "Xayr!"
+   ],
+   "d": 1,
+   "x": "школа — maktab. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "школа — maktab. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_16",
+   "t": "choice",
+   "q": "«maktab» qaysi tushuncha yoki iboraga mos?",
+   "a": "школа",
+   "w": [
+    "Здравствуйте!",
+    "Доброе утро!",
+    "До свидания!"
+   ],
+   "d": 2,
+   "x": "школа — maktab. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz.",
+   "h": "школа — maktab. Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_17",
+   "t": "match",
+   "q": "Salomlashish va maktab: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Здравствуйте!",
+     "Assalomu alaykum!"
+    ],
+    [
+     "Доброе утро!",
+     "Xayrli tong!"
+    ],
+    [
+     "До свидания!",
+     "Xayr!"
+    ],
+    [
+     "Спасибо!",
+     "Rahmat!"
+    ]
+   ],
+   "d": 1,
+   "x": "Здравствуйте! — Assalomu alaykum!; Доброе утро! — Xayrli tong!; До свидания! — Xayr!; Спасибо! — Rahmat!",
+   "h": "Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit1",
+   "id": "unit1_18",
+   "t": "match",
+   "q": "Salomlashish va maktab: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Пожалуйста!",
+     "Marhamat!"
+    ],
+    [
+     "учитель",
+     "o‘qituvchi"
+    ],
+    [
+     "ученик",
+     "o‘quvchi"
+    ],
+    [
+     "школа",
+     "maktab"
+    ]
+   ],
+   "d": 1,
+   "x": "Пожалуйста! — Marhamat!; учитель — o‘qituvchi; ученик — o‘quvchi; школа — maktab",
+   "h": "Salomlashishda vaziyatga mos so‘zni tanlaymiz. Misol: Доброе утро, учитель! Ruscha so‘z va o‘zbekcha ma’nosini juftlaymiz."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_1",
+   "t": "choice",
+   "q": "«мама» uchun mos ma’noni tanlang.",
+   "a": "ona",
+   "w": [
+    "ota",
+    "aka yoki uka",
+    "opa yoki singil"
+   ],
+   "d": 1,
+   "x": "мама — ona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "мама — ona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_2",
+   "t": "choice",
+   "q": "«ona» qaysi tushuncha yoki iboraga mos?",
+   "a": "мама",
+   "w": [
+    "папа",
+    "брат",
+    "сестра"
+   ],
+   "d": 2,
+   "x": "мама — ona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "мама — ona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_3",
+   "t": "choice",
+   "q": "«папа» uchun mos ma’noni tanlang.",
+   "a": "ota",
+   "w": [
+    "ona",
+    "aka yoki uka",
+    "opa yoki singil"
+   ],
+   "d": 1,
+   "x": "папа — ota. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "папа — ota. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_4",
+   "t": "choice",
+   "q": "«ota» qaysi tushuncha yoki iboraga mos?",
+   "a": "папа",
+   "w": [
+    "мама",
+    "брат",
+    "сестра"
+   ],
+   "d": 2,
+   "x": "папа — ota. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "папа — ota. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_5",
+   "t": "choice",
+   "q": "«брат» uchun mos ma’noni tanlang.",
+   "a": "aka yoki uka",
+   "w": [
+    "ona",
+    "ota",
+    "opa yoki singil"
+   ],
+   "d": 1,
+   "x": "брат — aka yoki uka. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "брат — aka yoki uka. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_6",
+   "t": "choice",
+   "q": "«aka yoki uka» qaysi tushuncha yoki iboraga mos?",
+   "a": "брат",
+   "w": [
+    "мама",
+    "папа",
+    "сестра"
+   ],
+   "d": 2,
+   "x": "брат — aka yoki uka. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "брат — aka yoki uka. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_7",
+   "t": "choice",
+   "q": "«сестра» uchun mos ma’noni tanlang.",
+   "a": "opa yoki singil",
+   "w": [
+    "ona",
+    "ota",
+    "aka yoki uka"
+   ],
+   "d": 1,
+   "x": "сестра — opa yoki singil. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "сестра — opa yoki singil. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_8",
+   "t": "choice",
+   "q": "«opa yoki singil» qaysi tushuncha yoki iboraga mos?",
+   "a": "сестра",
+   "w": [
+    "мама",
+    "папа",
+    "брат"
+   ],
+   "d": 2,
+   "x": "сестра — opa yoki singil. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "сестра — opa yoki singil. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_9",
+   "t": "choice",
+   "q": "«бабушка» uchun mos ma’noni tanlang.",
+   "a": "buvi",
+   "w": [
+    "ona",
+    "ota",
+    "aka yoki uka"
+   ],
+   "d": 1,
+   "x": "бабушка — buvi. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "бабушка — buvi. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_10",
+   "t": "choice",
+   "q": "«buvi» qaysi tushuncha yoki iboraga mos?",
+   "a": "бабушка",
+   "w": [
+    "мама",
+    "папа",
+    "брат"
+   ],
+   "d": 2,
+   "x": "бабушка — buvi. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "бабушка — buvi. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_11",
+   "t": "choice",
+   "q": "«дедушка» uchun mos ma’noni tanlang.",
+   "a": "bobo",
+   "w": [
+    "ona",
+    "ota",
+    "aka yoki uka"
+   ],
+   "d": 1,
+   "x": "дедушка — bobo. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "дедушка — bobo. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_12",
+   "t": "choice",
+   "q": "«bobo» qaysi tushuncha yoki iboraga mos?",
+   "a": "дедушка",
+   "w": [
+    "мама",
+    "папа",
+    "брат"
+   ],
+   "d": 2,
+   "x": "дедушка — bobo. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "дедушка — bobo. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_13",
+   "t": "choice",
+   "q": "«дом» uchun mos ma’noni tanlang.",
+   "a": "uy",
+   "w": [
+    "ona",
+    "ota",
+    "aka yoki uka"
+   ],
+   "d": 1,
+   "x": "дом — uy. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "дом — uy. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_14",
+   "t": "choice",
+   "q": "«uy» qaysi tushuncha yoki iboraga mos?",
+   "a": "дом",
+   "w": [
+    "мама",
+    "папа",
+    "брат"
+   ],
+   "d": 2,
+   "x": "дом — uy. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "дом — uy. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_15",
+   "t": "choice",
+   "q": "«комната» uchun mos ma’noni tanlang.",
+   "a": "xona",
+   "w": [
+    "ona",
+    "ota",
+    "aka yoki uka"
+   ],
+   "d": 1,
+   "x": "комната — xona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "комната — xona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_16",
+   "t": "choice",
+   "q": "«xona» qaysi tushuncha yoki iboraga mos?",
+   "a": "комната",
+   "w": [
+    "мама",
+    "папа",
+    "брат"
+   ],
+   "d": 2,
+   "x": "комната — xona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi.",
+   "h": "комната — xona. Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_17",
+   "t": "match",
+   "q": "Oila va uy: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "мама",
+     "ona"
+    ],
+    [
+     "папа",
+     "ota"
+    ],
+    [
+     "брат",
+     "aka yoki uka"
+    ],
+    [
+     "сестра",
+     "opa yoki singil"
+    ]
+   ],
+   "d": 1,
+   "x": "мама — ona; папа — ota; брат — aka yoki uka; сестра — opa yoki singil",
+   "h": "Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit2",
+   "id": "unit2_18",
+   "t": "match",
+   "q": "Oila va uy: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "бабушка",
+     "buvi"
+    ],
+    [
+     "дедушка",
+     "bobo"
+    ],
+    [
+     "дом",
+     "uy"
+    ],
+    [
+     "комната",
+     "xona"
+    ]
+   ],
+   "d": 1,
+   "x": "бабушка — buvi; дедушка — bobo; дом — uy; комната — xona",
+   "h": "Misol: Это моя мама. Это мой папа. Моя/мой shakli rus tilidagi ot jinsiga mos keladi."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_1",
+   "t": "choice",
+   "q": "«красный» uchun mos ma’noni tanlang.",
+   "a": "qizil",
+   "w": [
+    "ko‘k",
+    "yashil",
+    "sariq"
+   ],
+   "d": 1,
+   "x": "красный — qizil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "красный — qizil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_2",
+   "t": "choice",
+   "q": "«qizil» qaysi tushuncha yoki iboraga mos?",
+   "a": "красный",
+   "w": [
+    "синий",
+    "зелёный",
+    "жёлтый"
+   ],
+   "d": 2,
+   "x": "красный — qizil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "красный — qizil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_3",
+   "t": "choice",
+   "q": "«синий» uchun mos ma’noni tanlang.",
+   "a": "ko‘k",
+   "w": [
+    "qizil",
+    "yashil",
+    "sariq"
+   ],
+   "d": 1,
+   "x": "синий — ko‘k. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "синий — ko‘k. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_4",
+   "t": "choice",
+   "q": "«ko‘k» qaysi tushuncha yoki iboraga mos?",
+   "a": "синий",
+   "w": [
+    "красный",
+    "зелёный",
+    "жёлтый"
+   ],
+   "d": 2,
+   "x": "синий — ko‘k. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "синий — ko‘k. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_5",
+   "t": "choice",
+   "q": "«зелёный» uchun mos ma’noni tanlang.",
+   "a": "yashil",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "sariq"
+   ],
+   "d": 1,
+   "x": "зелёный — yashil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "зелёный — yashil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_6",
+   "t": "choice",
+   "q": "«yashil» qaysi tushuncha yoki iboraga mos?",
+   "a": "зелёный",
+   "w": [
+    "красный",
+    "синий",
+    "жёлтый"
+   ],
+   "d": 2,
+   "x": "зелёный — yashil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "зелёный — yashil. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_7",
+   "t": "choice",
+   "q": "«жёлтый» uchun mos ma’noni tanlang.",
+   "a": "sariq",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "yashil"
+   ],
+   "d": 1,
+   "x": "жёлтый — sariq. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "жёлтый — sariq. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_8",
+   "t": "choice",
+   "q": "«sariq» qaysi tushuncha yoki iboraga mos?",
+   "a": "жёлтый",
+   "w": [
+    "красный",
+    "синий",
+    "зелёный"
+   ],
+   "d": 2,
+   "x": "жёлтый — sariq. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "жёлтый — sariq. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_9",
+   "t": "choice",
+   "q": "«один» uchun mos ma’noni tanlang.",
+   "a": "bir",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "yashil"
+   ],
+   "d": 1,
+   "x": "один — bir. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "один — bir. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_10",
+   "t": "choice",
+   "q": "«bir» qaysi tushuncha yoki iboraga mos?",
+   "a": "один",
+   "w": [
+    "красный",
+    "синий",
+    "зелёный"
+   ],
+   "d": 2,
+   "x": "один — bir. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "один — bir. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_11",
+   "t": "choice",
+   "q": "«два» uchun mos ma’noni tanlang.",
+   "a": "ikki",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "yashil"
+   ],
+   "d": 1,
+   "x": "два — ikki. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "два — ikki. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_12",
+   "t": "choice",
+   "q": "«ikki» qaysi tushuncha yoki iboraga mos?",
+   "a": "два",
+   "w": [
+    "красный",
+    "синий",
+    "зелёный"
+   ],
+   "d": 2,
+   "x": "два — ikki. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "два — ikki. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_13",
+   "t": "choice",
+   "q": "«три» uchun mos ma’noni tanlang.",
+   "a": "uch",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "yashil"
+   ],
+   "d": 1,
+   "x": "три — uch. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "три — uch. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_14",
+   "t": "choice",
+   "q": "«uch» qaysi tushuncha yoki iboraga mos?",
+   "a": "три",
+   "w": [
+    "красный",
+    "синий",
+    "зелёный"
+   ],
+   "d": 2,
+   "x": "три — uch. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "три — uch. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_15",
+   "t": "choice",
+   "q": "«четыре» uchun mos ma’noni tanlang.",
+   "a": "to‘rt",
+   "w": [
+    "qizil",
+    "ko‘k",
+    "yashil"
+   ],
+   "d": 1,
+   "x": "четыре — to‘rt. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "четыре — to‘rt. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_16",
+   "t": "choice",
+   "q": "«to‘rt» qaysi tushuncha yoki iboraga mos?",
+   "a": "четыре",
+   "w": [
+    "красный",
+    "синий",
+    "зелёный"
+   ],
+   "d": 2,
+   "x": "четыре — to‘rt. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz.",
+   "h": "четыре — to‘rt. Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_17",
+   "t": "match",
+   "q": "Ranglar va sonlar: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "красный",
+     "qizil"
+    ],
+    [
+     "синий",
+     "ko‘k"
+    ],
+    [
+     "зелёный",
+     "yashil"
+    ],
+    [
+     "жёлтый",
+     "sariq"
+    ]
+   ],
+   "d": 1,
+   "x": "красный — qizil; синий — ko‘k; зелёный — yashil; жёлтый — sariq",
+   "h": "Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit3",
+   "id": "unit3_18",
+   "t": "match",
+   "q": "Ranglar va sonlar: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "один",
+     "bir"
+    ],
+    [
+     "два",
+     "ikki"
+    ],
+    [
+     "три",
+     "uch"
+    ],
+    [
+     "четыре",
+     "to‘rt"
+    ]
+   ],
+   "d": 1,
+   "x": "один — bir; два — ikki; три — uch; четыре — to‘rt",
+   "h": "Misol: красный карандаш — qizil qalam; два карандаша — ikki qalam. Rang va sonni buyum nomiga bog‘laymiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_1",
+   "t": "choice",
+   "q": "«Я читаю.» uchun mos ma’noni tanlang.",
+   "a": "Men o‘qiyman.",
+   "w": [
+    "Men yozaman.",
+    "Men rasm chizaman.",
+    "Men o‘ynayman."
+   ],
+   "d": 1,
+   "x": "Я читаю. — Men o‘qiyman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я читаю. — Men o‘qiyman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_2",
+   "t": "choice",
+   "q": "«Men o‘qiyman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я читаю.",
+   "w": [
+    "Я пишу.",
+    "Я рисую.",
+    "Я играю."
+   ],
+   "d": 2,
+   "x": "Я читаю. — Men o‘qiyman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я читаю. — Men o‘qiyman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_3",
+   "t": "choice",
+   "q": "«Я пишу.» uchun mos ma’noni tanlang.",
+   "a": "Men yozaman.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men rasm chizaman.",
+    "Men o‘ynayman."
+   ],
+   "d": 1,
+   "x": "Я пишу. — Men yozaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я пишу. — Men yozaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_4",
+   "t": "choice",
+   "q": "«Men yozaman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я пишу.",
+   "w": [
+    "Я читаю.",
+    "Я рисую.",
+    "Я играю."
+   ],
+   "d": 2,
+   "x": "Я пишу. — Men yozaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я пишу. — Men yozaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_5",
+   "t": "choice",
+   "q": "«Я рисую.» uchun mos ma’noni tanlang.",
+   "a": "Men rasm chizaman.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men o‘ynayman."
+   ],
+   "d": 1,
+   "x": "Я рисую. — Men rasm chizaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я рисую. — Men rasm chizaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_6",
+   "t": "choice",
+   "q": "«Men rasm chizaman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я рисую.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я играю."
+   ],
+   "d": 2,
+   "x": "Я рисую. — Men rasm chizaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я рисую. — Men rasm chizaman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_7",
+   "t": "choice",
+   "q": "«Я играю.» uchun mos ma’noni tanlang.",
+   "a": "Men o‘ynayman.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men rasm chizaman."
+   ],
+   "d": 1,
+   "x": "Я играю. — Men o‘ynayman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я играю. — Men o‘ynayman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_8",
+   "t": "choice",
+   "q": "«Men o‘ynayman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я играю.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я рисую."
+   ],
+   "d": 2,
+   "x": "Я играю. — Men o‘ynayman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я играю. — Men o‘ynayman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_9",
+   "t": "choice",
+   "q": "«Я иду в школу.» uchun mos ma’noni tanlang.",
+   "a": "Men maktabga ketyapman.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men rasm chizaman."
+   ],
+   "d": 1,
+   "x": "Я иду в школу. — Men maktabga ketyapman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я иду в школу. — Men maktabga ketyapman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_10",
+   "t": "choice",
+   "q": "«Men maktabga ketyapman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я иду в школу.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я рисую."
+   ],
+   "d": 2,
+   "x": "Я иду в школу. — Men maktabga ketyapman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я иду в школу. — Men maktabga ketyapman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_11",
+   "t": "choice",
+   "q": "«Я люблю книги.» uchun mos ma’noni tanlang.",
+   "a": "Men kitoblarni yaxshi ko‘raman.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men rasm chizaman."
+   ],
+   "d": 1,
+   "x": "Я люблю книги. — Men kitoblarni yaxshi ko‘raman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я люблю книги. — Men kitoblarni yaxshi ko‘raman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_12",
+   "t": "choice",
+   "q": "«Men kitoblarni yaxshi ko‘raman.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Я люблю книги.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я рисую."
+   ],
+   "d": 2,
+   "x": "Я люблю книги. — Men kitoblarni yaxshi ko‘raman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Я люблю книги. — Men kitoblarni yaxshi ko‘raman.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_13",
+   "t": "choice",
+   "q": "«Это мой стол.» uchun mos ma’noni tanlang.",
+   "a": "Bu mening stolim.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men rasm chizaman."
+   ],
+   "d": 1,
+   "x": "Это мой стол. — Bu mening stolim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Это мой стол. — Bu mening stolim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_14",
+   "t": "choice",
+   "q": "«Bu mening stolim.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Это мой стол.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я рисую."
+   ],
+   "d": 2,
+   "x": "Это мой стол. — Bu mening stolim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Это мой стол. — Bu mening stolim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_15",
+   "t": "choice",
+   "q": "«Это моя книга.» uchun mos ma’noni tanlang.",
+   "a": "Bu mening kitobim.",
+   "w": [
+    "Men o‘qiyman.",
+    "Men yozaman.",
+    "Men rasm chizaman."
+   ],
+   "d": 1,
+   "x": "Это моя книга. — Bu mening kitobim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Это моя книга. — Bu mening kitobim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_16",
+   "t": "choice",
+   "q": "«Bu mening kitobim.» qaysi tushuncha yoki iboraga mos?",
+   "a": "Это моя книга.",
+   "w": [
+    "Я читаю.",
+    "Я пишу.",
+    "Я рисую."
+   ],
+   "d": 2,
+   "x": "Это моя книга. — Bu mening kitobim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz.",
+   "h": "Это моя книга. — Bu mening kitobim.. Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_17",
+   "t": "match",
+   "q": "Oddiy harakatlar va gap: asosiy tushunchalarni moslang.",
+   "pairs": [
+    [
+     "Я читаю.",
+     "Men o‘qiyman."
+    ],
+    [
+     "Я пишу.",
+     "Men yozaman."
+    ],
+    [
+     "Я рисую.",
+     "Men rasm chizaman."
+    ],
+    [
+     "Я играю.",
+     "Men o‘ynayman."
+    ]
+   ],
+   "d": 1,
+   "x": "Я читаю. — Men o‘qiyman.; Я пишу. — Men yozaman.; Я рисую. — Men rasm chizaman.; Я играю. — Men o‘ynayman.",
+   "h": "Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  },
+  {
+   "topic": "russian_g2.unit4",
+   "id": "unit4_18",
+   "t": "match",
+   "q": "Oddiy harakatlar va gap: mavzuni mustahkamlashni moslang.",
+   "pairs": [
+    [
+     "Я иду в школу.",
+     "Men maktabga ketyapman."
+    ],
+    [
+     "Я люблю книги.",
+     "Men kitoblarni yaxshi ko‘raman."
+    ],
+    [
+     "Это мой стол.",
+     "Bu mening stolim."
+    ],
+    [
+     "Это моя книга.",
+     "Bu mening kitobim."
+    ]
+   ],
+   "d": 1,
+   "x": "Я иду в школу. — Men maktabga ketyapman.; Я люблю книги. — Men kitoblarni yaxshi ko‘raman.; Это мой стол. — Bu mening stolim.; Это моя книга. — Bu mening kitobim.",
+   "h": "Я — men. Gap oxirida nuqta qo‘yiladi. Misol: Я читаю книгу. Harakatni bildirgan fe’l va gap ma’nosini ajratamiz."
+  }
+ ]
+}
