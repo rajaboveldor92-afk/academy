@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:academy/database/seed_data.dart';
+import 'package:academy/features/parent/child_report.dart';
 import 'package:academy/learning/content/content_repository.dart';
 import 'package:academy/learning/content/technology_tracks.dart';
 import 'package:academy/learning/engine/daily_planner.dart';
@@ -75,6 +76,26 @@ void main() {
       });
     }
   }
+
+  test('parent report hides other-track topics and review counts without deleting saved work', () {
+    final day = DateTime(2026, 10, 3);
+    final profile = SeedData.akramjon(day).copyWith(technologyTrack: 'service');
+    final shared = ReviewItem(topicId: 'technology_g5.design', concept: 'shared', stage: 0, due: day);
+    final hidden = ReviewItem(topicId: 'technology_g5.mechanisms', concept: 'hidden', stage: 0, due: day);
+    final nextWeek = ReviewItem(topicId: 'technology_g5.prototype', concept: 'week', stage: 1, due: day.add(const Duration(days: 3)));
+    final progress = ChildProgress.empty(profile.id).withReviews({shared.key: shared, hidden.key: hidden, nextWeek.key: nextWeek});
+    final report = ChildReport.build(profile: profile, progress: progress, content: content, now: day);
+    expect(report.reviewsDue, 1);
+    expect(report.reviewsWeek, 0);
+    expect(report.reviewsTotal, 1);
+    expect(report.subjects.where((s) => s.subject.id == 'technology').single.topics.every(
+      (t) => TechnologyTracks.includes(t.topic, 'service')), isTrue);
+    expect(progress.reviews.length, 3);
+    final both = ChildReport.build(profile: profile.copyWith(technologyTrack: 'both'), progress: progress, content: content, now: day);
+    expect(both.reviewsDue, 2);
+    expect(both.reviewsWeek, 1);
+    expect(both.reviewsTotal, 3);
+  });
 
   test('daily lessons exclude hidden-track fresh tasks and due reviews', () {
     final day = DateTime(2026, 10, 3);

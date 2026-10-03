@@ -154,8 +154,14 @@ class ChildReport {
       ));
     }
 
-    final due = SpacedRepetition.due(progress.reviews, now).length;
-    final week = progress.reviews.values.where((r) {
+    final reviews = {
+      for (final entry in progress.reviews.entries)
+        if (content.topic(entry.value.topicId) == null || TechnologyTracks.includes(
+          content.topic(entry.value.topicId)!, profile.effectiveTechnologyTrack))
+          entry.key: entry.value,
+    };
+    final due = SpacedRepetition.due(reviews, now).length;
+    final week = reviews.values.where((r) {
       final d = DateKeys.daysBetween(now, r.due);
       return d >= 1 && d <= 7;
     }).length;
@@ -171,7 +177,7 @@ class ChildReport {
       subjects: subjects,
       reviewsDue: due,
       reviewsWeek: week,
-      reviewsTotal: progress.reviews.length,
+      reviewsTotal: reviews.length,
       todayMinutes: progress.minutesOn(now),
       weekMinutes: weekly.fold<int>(0, (a, b) => a + b),
       weekDaysActive: activeDays,
