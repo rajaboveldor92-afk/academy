@@ -1,0 +1,9 @@
+.venv/
+vendor/
+work/
+output/
+assets/source/*
+assets/slides/*
+assets/audio/*
+assets/*.docx
+.DS_Store
